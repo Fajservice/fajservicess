@@ -186,7 +186,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair"  />
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Rational Annual Maintenance Contract (AMC) Services</h3>
@@ -207,7 +207,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair"  />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -371,7 +371,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">HEATING EFFICIENCY</h3>
                       <p className="small">We perform a detailed evaluation of heating efficiency with the help of a temperature gun.</p>
@@ -382,7 +382,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
                       <p className="small">All components and parts of the oven are thoroughly tested and disinfected to ensure safety and reliability.</p>
@@ -393,7 +393,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
                       <p className="small">We ensure that the fan operates correctly and is free of blockages in the burner and heating element.</p>
@@ -405,7 +405,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature meter to ensure that the thermostats are working correctly.</p>
@@ -416,7 +416,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h3>
                       <p className="small">We make sure you get optimal airflow around every part of the oven as needed.</p>
@@ -427,7 +427,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h3>
                       <p className="small">Our team provides vital feedback on your rational oven's condition and any necessary repairs.</p>
@@ -449,7 +449,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service"  />
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
@@ -459,7 +459,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts"  />
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
@@ -472,7 +472,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service"  />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -484,14 +484,14 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service"  />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service"  />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -500,7 +500,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service"  />
 
                   </div>
                   <div className="usptext">
@@ -512,7 +512,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service"  />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -523,7 +523,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service"  />
               </div>
             </div>
           </div>
@@ -532,7 +532,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         {/* We specialise   */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We specialise in Rantional commercial oven services for the following brands:</h3>
+            <h3>We specialise in Rational commercial oven services for the following brands:</h3>
             <div className="row">
               <div className="col-12">
                 <ul>

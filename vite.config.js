@@ -20,8 +20,8 @@ export default defineConfig(({ mode }) => {
       isProduction && visualizer({
         filename: './dist/bundle-stats.html',
         open: false,
-        gzipSize: false,
-        brotliSize: false
+        gzipSize: true,
+        brotliSize: true
       })
     ].filter(Boolean),
 
@@ -29,16 +29,38 @@ export default defineConfig(({ mode }) => {
       target: 'es2022',
       minify: isProduction ? 'esbuild' : false,
       sourcemap: !isProduction,
-      cssCodeSplit: false,
+      cssCodeSplit: true,
       reportCompressedSize: false,
 
       rollupOptions: {
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
-              if (id.includes('react')) return 'react-vendor';
-              if (id.includes('react-router-dom')) return 'router';
-              if (id.includes('react-icons')) return 'icons';
+              
+              if (id.includes('react-router-dom') || id.includes('@remix-run') || id.includes('react-router')) {
+                return 'router';
+              }
+              
+              if (id.includes('/react/') || id.includes('/react-dom/') || id.includes('scheduler')) {
+                return 'react-vendor';
+              }
+              
+              if (id.includes('react-icons')) {
+                return 'icons';
+              }
+              
+              if (id.includes('swiper')) {
+                return 'swiper';
+              }
+              
+              if (id.includes('bootstrap')) {
+                return 'bootstrap';
+              }
+              if (id.includes('react-helmet') || id.includes('helmet')) {
+                return 'helmet';
+              }
+              
+              // Everything else
               return 'vendor';
             }
           },
@@ -46,7 +68,8 @@ export default defineConfig(({ mode }) => {
           entryFileNames: 'assets/[name]-[hash].js',
           assetFileNames: 'assets/[name]-[hash].[ext]'
         }
-      }
+      },
+      chunkSizeWarningLimit: 300,
     },
 
     css: {

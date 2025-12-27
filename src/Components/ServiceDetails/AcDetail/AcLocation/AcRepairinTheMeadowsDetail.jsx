@@ -160,7 +160,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in The Meadows" loading="lazy" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in The Meadows"  />
 
                             </div>
                         </div>
@@ -190,7 +190,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in The Meadows" loading="lazy" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in The Meadows"  />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -599,7 +599,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in The Meadows" loading="lazy" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in The Meadows"  />
                                 </div>
                             </div>
                             <div className="col-lg-4">

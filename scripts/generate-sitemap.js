@@ -1746,17 +1746,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/blogs/how-to-choose-the-best-air-conditioner-for-home/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
 	<loc>https://www.fajservices.ae/blogs/how-to-set-ac-temperature-for-cooling/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/how-to-save-money-on-ac/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -1771,27 +1761,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/blogs/how-to-choose-the-best-air-conditioner-for-home/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/extend-ac-lifespan-tips/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
 	<loc>https://www.fajservices.ae/blogs/ac-repair-maintenance-difference/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/ac-maintenance-cost-guide-dubai/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/portable-air-conditioners-guide-2024/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -1821,57 +1791,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/blogs/how-to-choose-the-right-ac-repair-service/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
 	<loc>https://www.fajservices.ae/blogs/how-to-reset-o-general-ac/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/blogs/how-to-clean-bosch-washing-machine/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/safe-successful-kitchen-appliance-installation/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/how-to-clean-ac-condenser/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/midea-air-conditioner-maintenance-guide/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/dishwasher-cleaning-guide/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/how-bagless-vacuum-cleaner-work/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/types-of-air-conditioners/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
 	<loc>https://www.fajservices.ae/blogs/refrigerator-inverter-technology/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
-	<loc>https://www.fajservices.ae/blogs/is-air-fryer-healthy/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -2001,11 +1926,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/blogs/10-common-ac-problems-and-how-to-fix-them/</loc>
-    <lastmod>${today}</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
     <loc>https://www.fajservices.ae/orphan/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
@@ -2017,16 +1937,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   </url>
   <url>
     <loc>https://www.fajservices.ae/blogs/top-10-signs-you-need-ac-repair-in-dubai/</loc>
-    <lastmod>${today}</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.fajservices.ae/blogs/top-10-signs-you-need-ac-service-in-dubai/</loc>
-    <lastmod>${today}</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.fajservices.ae/blogs/top-10-signs-your-ac-needs-maintenance-in-dubai/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
@@ -2057,21 +1967,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   </url>
    <url>
     <loc>https://www.fajservices.ae/blogs/washing-machine-problems-and-solutions-dubai/</loc>
-    <lastmod>${today}</lastmod>
-    <priority>0.80</priority>
-  </url>
-   <url>
-    <loc>https://www.fajservices.ae/blogs/how-to-clean-your-oven/</loc>
-    <lastmod>${today}</lastmod>
-    <priority>0.80</priority>
-  </url>
-   <url>
-    <loc>https://www.fajservices.ae/blogs/espresso-machine-cleaning-schedule-and-how-to-do-it/</loc>
-    <lastmod>${today}</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.fajservices.ae/blogs/how-to-choose-a-reliable-technical-service-provider-uae/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>

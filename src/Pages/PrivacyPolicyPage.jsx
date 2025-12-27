@@ -1,39 +1,63 @@
 import BreadCumb from "../Components/Common/BreadCumb";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
-    // For SEO
-    const metatitle = String(titleSeo || "Privacy Policy | FAJ Technical Services L.L.C Company");
-    const metadescription = String(description || "FAJ Privacy Policy | Visit FAJ Services when you need help with building or home. We provide a wide range of maintenance services as per requirements");
-    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
-    const metaKeyword = String(Keyword || "FAJ");
-    const metaURL = String(URL || "https://www.fajservices.ae/privacy-policy/").replace(/\/?$/, '/');
+const PrivacyPolicyPage = ({ titleSeo, 
+    description, 
+    Author, 
+    Keyword, 
+    URL }) => {
+
+        const metaTitle = String(
+        titleSeo || "Privacy Policy | FAJ Technical Services L.L.C Company"
+    );
+
+    const metaDescription = String(
+        description || "FAJ Privacy Policy | Visit FAJ Services when you need help with building or home. We provide a wide range of maintenance services as per requirements"
+    );
+
+    const metaAuthor = String(
+        Author || "FAJ Technical Services L.L.C"
+    );
+
+    const metaKeyword = String(
+        Keyword || "Washing Machine in JBR, Fridge in JBR, Dishwasher in JBR, Appliance Service in JBR, Appliance Repair in JBR, Appliance Maintenance in JBR, Appliance Installation in JBR"
+    );
+
+    const metaURL = String(URL || "https://www.fajservices.ae/privacy-policy/"
+    );
+
+    const metaImage = String(
+        Image || "https://www.fajservices.ae/img/page_heading_1.avif"
+    );
 
     return (
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription} />
+                   <title>{metaTitle}</title>
+                    <meta name="description" content={metaDescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
-
                     <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:title" content={metaTitle} />
+                    <meta property="og:description" content={metaDescription} />
                     <meta property="og:image" content={metaImage} />
+                    <meta property="og:image:alt" content="Privacy Policy" />
+                    <meta property="og:site_name" content="FAJ Technical Services" />
 
                     {/* Twitter Card */}
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
-                    <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
+                    <meta name="twitter:title" content={metaTitle} />
+                    <meta name="twitter:description" content={metaDescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:image:alt" content="Privacy Policy" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <meta name="language" content="English" />
                 </Helmet>
             </HelmetProvider>
             <section className="section cs_py_30">

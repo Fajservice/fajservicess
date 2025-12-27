@@ -56,22 +56,22 @@ const WhoWeArePage = () => {
                         <div className="col-xl-6">
                         <div className="cs_about_thumbnail_wrapper position-relative">
                             <div className="cs_about_thumbnail">
-                            <img src={`${import.meta.env.BASE_URL}img/about_img_1.avif`} loading="lazy" alt="About Image" />
+                            <img src={`${import.meta.env.BASE_URL}img/about_img_1.avif`}  alt="About Image" />
                             </div>
                             <div className="cs_about_thumbnail mt-4">
-                            <img src={`${import.meta.env.BASE_URL}img/about_img_2.avif`} loading="lazy" alt="About Image" />
+                            <img src={`${import.meta.env.BASE_URL}img/about_img_2.avif`}  alt="About Image" />
                             </div>
                             <div className="cs_about_thumbnail">
-                            <img src={`${import.meta.env.BASE_URL}img/about_img_3.avif`} loading="lazy" alt="About Image" />
+                            <img src={`${import.meta.env.BASE_URL}img/about_img_3.avif`}  alt="About Image" />
                             </div>
                             <div className="cs_esperience_text position-absolute">
                             <h2 className="cs_experience_title mb-0">
-                                <span className="cs_fs_52">FAJ</span>
+                                <span className="cs_fs_100 cs_black cs_accent_color">FAJ</span>
                                 <span className="cs_fs_20">was established</span>
                                 <span className="cs_fs_36">Since</span>
-                                <span className="cs_fs_50">2010</span>
+                                <span className="cs_fs_50 cs_accent_color">2010</span>
                             </h2>
-                            <p className="cs_fs_16">We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality.</p>
+                            {/* <p className="cs_fs_16">We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality.</p> */}
                             </div>
                             <a href="tel:+971507464712" className="cs_phone_call cs_heading_color">
                             <div className="cs_phone_icon cs_fs_20 cs_center cs_radius_50">
@@ -82,7 +82,7 @@ const WhoWeArePage = () => {
                             <img src={`${import.meta.env.BASE_URL}img/shapes/gear_2.svg`} alt="Gear Shape" />
                             </div>
                             <div className="cs_about_shape_2 position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/shapes/gear_1.svg`} loading="lazy" alt="Gear Shape" />
+                            <img src={`${import.meta.env.BASE_URL}img/shapes/gear_1.svg`}  alt="Gear Shape" />
                             </div>
                         </div>
                         </div>

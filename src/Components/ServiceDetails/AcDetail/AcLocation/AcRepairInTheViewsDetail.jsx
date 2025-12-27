@@ -600,7 +600,7 @@ const AcRepairInTheViewsDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             </div>
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in The Views" loading="lazy" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in The Views"  />
                                 </div>
                             </div>
 

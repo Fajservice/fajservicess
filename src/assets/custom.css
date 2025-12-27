@@ -458,22 +458,24 @@ a.btn-green-yellow:hover {
 
 
 .call-now-btn .call-icon {
-  max-width: 150px;
-  /* content: url('../../public/img/icons/Call-Icon.avif'); */
-
+  max-width: 200px;
+ transition: filter 0.3s ease, transform 0.2s ease;
 }
 
-.quote-now-btn .quote-icon {
-  max-width: 150px;
-  /* content: url('../../public/img/icons/quote-icon.avif'); */
+.call-now-btn:hover .call-icon {
+  filter: drop-shadow(0 5px 5px rgba(14, 14, 14, 0.3));
+  transform: translateY(-2px);
 }
 
-
-
-.whatsapp-now-btn .whatsapp-icon {
-  max-width: 188px;
+.whatsapp-icon {
+  max-width: 200px;
+  transition: filter 0.3s ease, transform 0.2s ease;
 }
 
+.whatsapp-now-btn:hover .whatsapp-icon {
+  filter: drop-shadow(0 5px 5px rgba(14, 14, 14, 0.3));
+  transform: translateY(-2px);
+}
 
 
 .contact-now-btn .contact-icon {
@@ -768,16 +770,6 @@ p a {
     border-right: 0 !important;
   }
 
-  .call-now-btn .call-icon,
-  .quote-now-btn .quote-icon,
-  .contact-now-btn,
-  .contact-icon {
-    max-width: 115px !important;
-  }
-
-  .whatsapp-now-btn .whatsapp-icon {
-    max-width: 138px !important;
-  }
   .cs_site_branding {
     margin-top: 0px;
   }

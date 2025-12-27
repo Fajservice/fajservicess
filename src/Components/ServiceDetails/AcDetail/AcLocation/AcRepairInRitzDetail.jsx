@@ -218,7 +218,7 @@ const AcRepairInRitzDetail = ({
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} loading="lazy" alt="Ac Service in Ritz Carlton Difc" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`}  alt="Ac Service in Ritz Carlton Difc" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">

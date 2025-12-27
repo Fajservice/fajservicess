@@ -99,7 +99,7 @@ const ServiceCard = ({ item }) => {
                 <div className="cs_card_thumbnail">
                     <img
                         src={`${import.meta.env.BASE_URL}${item.img}`}
-                        loading="lazy"
+                        
                         alt={item.title}
                     />
                 </div>

@@ -166,7 +166,7 @@ const Footer1 = () => {
                   height={250}
                   style={{ border: 0 }}
                   allowFullScreen
-                  loading="lazy"
+                  
                   referrerPolicy="no-referrer-when-downgrade"
                   title="FAJ Technical Services location"
                 />
@@ -186,7 +186,7 @@ const Footer1 = () => {
                 <img
                   src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`}
                   alt="Accepted payment methods"
-                  loading="lazy"
+                  
                   width="370"
                   height="24"
                   style={{ objectFit: 'contain' }}
@@ -241,7 +241,7 @@ const Footer1 = () => {
                 <span className="flt-icon-text">+971507464712</span>
             </div>
             
-            </a>
+            </a>  
           </li>
           <li>
             <a

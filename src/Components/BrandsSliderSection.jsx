@@ -75,7 +75,7 @@ const BrandsSliderSection = ({
                         <img 
                           src={item.logo} 
                           alt={item.alt || `Brand ${index + 1}`} 
-                          loading="lazy"
+                          
                           style={{
                             maxHeight: logoMaxHeight,
                             maxWidth: logoMaxWidth,

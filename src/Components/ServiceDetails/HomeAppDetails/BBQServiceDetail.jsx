@@ -195,7 +195,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Barbeque-Repair.jpg`} alt="BBQ Repair Service" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Barbeque-Repair.jpg`} alt="BBQ Repair Service"  />
 
               </div>
             </div>
@@ -211,7 +211,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <p>Grilling is more than just cooking; it&apos;s a lifestyle. To fully enjoy barbecued delights, proper grill maintenance is essential, as a well-kept grill is key to a perfect barbecue.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/bbq-repair-service.avif`} alt="BBQ Repair Service" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/bbq-repair-service.avif`} alt="BBQ Repair Service"  />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -423,7 +423,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service"  />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -435,14 +435,14 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service"  />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service"  />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -451,7 +451,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service"  />
 
                   </div>
                   <div className="usptext">
@@ -461,7 +461,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service"  />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -472,7 +472,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service"  />
               </div>
             </div>
           </div>
