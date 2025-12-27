@@ -8,31 +8,49 @@ import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 
-const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AcRepairInRemraamDetail = ({
+    subtitle,
+    title,
+    reviewsbg,
+    titleSeo,
+    description,
+    Author,
+    Keyword,
+    URL }) => {
 
-    // For SEO
-    const metatitle = String(titleSeo || "AC Services In Remraam - Central Air Conditioner Repairs #1");
-    const metadescription = String(description || "FAJ 043300002 AC Services in Remraam Dubai. We are experts in central, hvac repairs and maintenance near me Dubai AC fixing nearby");
-    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaKeyword = String(Keyword || "AC Services In Remraam, AC Repair in Remraam, Central Air Conditioner Repairs, HVAC Repairs, AC Maintenance Dubai, AC Service Near Me, Dubai AC Fixing").replace(/,/g, ', ');
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-remraam/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaTitle = String(
+        titleSeo || "AC Services In Remraam - Central Air Conditioner Repairs #1"
+    );
+
+    const metaDescription = String(
+        description || "FAJ 043300002 AC Services in Remraam Dubai. We are experts in central, hvac repairs and maintenance near me Dubai AC fixing nearby"
+    );
+
+    const metaAuthor = String(
+        Author || "FAJ Technical Services L.L.C"
+    );
+
+    const metaKeyword = String(
+        Keyword || "AC Services In Remraam, AC Repair in Remraam, Central Air Conditioner Repairs, HVAC Repairs, AC Maintenance Dubai, AC Service Near Me, Dubai AC Fixing"
+    );
+
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-remraam/"
+    );
+
+    const metaImage = String(
+        Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif"
+    );
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -94,24 +112,30 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <title>{metaTitle}</title>
+                    <meta name="description" content={metaDescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
                     <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:title" content={metaTitle} />
+                    <meta property="og:description" content={metaDescription} />
                     <meta property="og:image" content={metaImage} />
+                    <meta property="og:image:alt" content="AC Services In Remraam - Central Air Conditioner Repairs #1" />
+                    <meta property="og:site_name" content="FAJ Technical Services" />
+
                     {/* Twitter Card */}
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
-                    <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
+                    <meta name="twitter:title" content={metaTitle} />
+                    <meta name="twitter:description" content={metaDescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:image:alt" content="AC Services In Remraam - Central Air Conditioner Repairs #1" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <meta name="language" content="English" />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -616,17 +640,16 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                     </div>
                 </section>
 
-
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
                 <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+                    subtitle="What Our Clients Say"
+                    title="Customer <span>Reviews</span>"
+                    bgImg="img/testimonialbg.jpg"
+                    testimonialData={testimonial_data}
+                    sectionId="home-testimonials"
+                />
 
                 {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
@@ -641,7 +664,7 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                                         <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <i className="bi bi-eye text-light"><FaEye /></i>
-											<i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                                            <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>

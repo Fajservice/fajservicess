@@ -156,7 +156,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai"  />
 
               </div>
             </div>
@@ -181,7 +181,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             <p>Are you tired of searching for “AC Service near me” or “AC servicing”? Welcome to FAJ Company’s AC Service in Dubai, where comfort meets convenience! Let’s take a closer look at what we offer:</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repairing.avif`} alt="AC Repairing" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repairing.avif`} alt="AC Repairing"  />
               </div>
               <div className="col-md-6">
 

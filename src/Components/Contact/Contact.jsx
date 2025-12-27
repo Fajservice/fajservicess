@@ -21,7 +21,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     <p className="cs_mb_25">{subTitle}</p>
                     <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb_18">
                       <div className="cs_iconbox_icon cs_center">
-                        {/* <img src={`${import.meta.env.BASE_URL}img/icons/location.svg`} loading="lazy" alt="Location Icon" /> */}
+                        {/* <img src={`${import.meta.env.BASE_URL}img/icons/location.svg`}  alt="Location Icon" /> */}
                         <MdOutlineLocationOn className="contact-icons"/>
                       </div>
                       <div className="cs_iconbox_info">
@@ -30,7 +30,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                     <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb_18">
                       <div className="cs_iconbox_icon cs_center">
-                        {/* <img src={`${import.meta.env.BASE_URL}img/icons/mail_open.svg`} loading="lazy" alt="Mail Icon" /> */}
+                        {/* <img src={`${import.meta.env.BASE_URL}img/icons/mail_open.svg`}  alt="Mail Icon" /> */}
                         <IoMailOpenOutline className="contact-icons" />
                       </div>
                       <div className="cs_iconbox_info">
@@ -39,7 +39,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                     <div className="cs_iconbox cs_style_1 cs_type_1">
                       <div className="cs_iconbox_icon cs_center">
-                        {/* <img src={`${import.meta.env.BASE_URL}img/icons/phone-call.svg`} loading="lazy" alt="Phone Icon" /> */}
+                        {/* <img src={`${import.meta.env.BASE_URL}img/icons/phone-call.svg`}  alt="Phone Icon" /> */}
                         <FiPhoneCall className="contact-icons" />
                       </div>
                       <div className="cs_iconbox_info">
@@ -49,7 +49,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                   </div>
                   <div className="cs_contact_thumbnail wow fadeInUp">
-                    <img className="img-position" src={`${import.meta.env.BASE_URL}${img}`} loading="lazy" alt="Contact Image" />
+                    <img className="img-position" src={`${import.meta.env.BASE_URL}${img}`}  alt="Contact Image" />
                   </div>
                   <div className="cs_client_info_wapper cs_white_bg">
                     <h2 className="cs_fs_30 cs_accent_color">{clientNumber}</h2>
@@ -70,7 +70,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
         <div className="cs_height_80 cs_height_lg_80"></div>
 
         <div className="cs_navigation_map wow fadeInUp">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.7412563066887!2d55.227661!3d25.110618600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f699a600aceeb%3A0xa6121b25d557aa94!2sFAJ%20Technical%20Services%20L.L.C!5```e0!3m2!1sen!2sae!4v1743747276869!5m2!1sen!2sae" allowFullScreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.7412563066887!2d55.227661!3d25.110618600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f699a600aceeb%3A0xa6121b25d557aa94!2sFAJ%20Technical%20Services%20L.L.C!5```e0!3m2!1sen!2sae!4v1743747276869!5m2!1sen!2sae" allowFullScreen="" ></iframe>
         </div>
 
       </section>

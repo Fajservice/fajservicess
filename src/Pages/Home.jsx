@@ -58,9 +58,9 @@ const Home = ({
 
         <Suspense fallback={null}>
           <About1
-            img1="img/about_img_1.avif"
-            img2="img/about_img_2.avif"
-            img3="img/about_img_3.avif"
+            img1="img/about_img_1.webp"
+            img2="img/about_img_2.webp"
+            img3="img/about_img_3.webp"
             expDescrip="We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality."
             number="(+971) 507464712"
             telLink="tel:+971507464712"

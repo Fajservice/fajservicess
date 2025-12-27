@@ -43,20 +43,6 @@ const HeroBanner1 = () => {
           src={`${import.meta.env.BASE_URL}${item.img}`}
           alt={`Hero banner: ${item.title}`}
           className="cs_hero_bg"
-          loading={index === 0 ? "eager" : "lazy"}
-          width="1920"
-          height="761"
-          decoding={index === 0 ? "sync" : "async"}
-          fetchpriority={index === 0 ? "high" : "auto"}
-          style={{
-            position: "absolute",
-            inset: 0,
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            objectPosition: window.innerWidth <= 768 ? "left center" : "center center",
-          }}
-          onLoad={index === 0 ? () => performance.mark?.("hero-image-loaded") : undefined}
         />
       </picture>
 

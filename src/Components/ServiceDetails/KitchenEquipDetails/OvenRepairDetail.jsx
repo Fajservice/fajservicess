@@ -11,20 +11,43 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/OvenRepairTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 import Testimonial1 from "../../Testimonial/Testimonial1";
 
-const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  // For SEO
-  const metatitle = String(titleSeo || "Pizza Oven Repair in Dubai | Commercial Oven Maintenance");
-  const metadescription = String(description || "Looking for Pizza Oven Repair in Dubai? FAJ expert Deck oven, Convection, Combi oven, Gas ovens, electric ovens maintenance service near me & AMC");
-  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/img/Camercial-Kitchen-Equipment.avif");
+const OvenRepairDetail = ({
+  subtitle,
+  title,
+  reviewsbg,
+  titleSeo,
+  description,
+  Author,
+  Keyword,
+  URL }) => {
+
+  const metaTitle = String(
+    titleSeo || "Pizza Oven Repair in Dubai | Commercial Oven Maintenance"
+  );
+
+  const metaDescription = String(
+    description || "Looking for Pizza Oven Repair in Dubai? FAJ expert Deck oven, Convection, Combi oven, Gas ovens, electric ovens maintenance service near me & AMC"
+  );
+
+  const metaAuthor = String(
+    Author || "FAJ Technical Services L.L.C"
+  );
+
+  const metaKeyword = String(
+    Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service"
+  );
+
+  const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/"
+  );
+
+  const metaImage = String(
+    Image || "https://www.fajservices.ae/img/Camercial-Kitchen-Equipment.avif"
+  );
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -32,17 +55,17 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -129,24 +152,30 @@ const [isModalOpen, setIsModalOpen] = useState(false);
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <title>{metaTitle}</title>
+          <meta name="description" content={metaDescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+          <meta property="og:title" content={metaTitle} />
+          <meta property="og:description" content={metaDescription} />
           <meta property="og:image" content={metaImage} />
+          <meta property="og:image:alt" content="Built-in Appliances Repair Dubai" />
+          <meta property="og:site_name" content="FAJ Technical Services" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+          <meta name="twitter:title" content={metaTitle} />
+          <meta name="twitter:description" content={metaDescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:image:alt" content="Built-in Appliances Repair Dubai" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta name="language" content="English" />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -193,7 +222,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair" />
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
@@ -215,7 +244,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair" />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -407,7 +436,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/HEATINGEFFICIENCY.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/HEATINGEFFICIENCY.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">HEATING EFFICIENCY</h3>
                       <p className="small">
@@ -420,7 +449,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/DISINFECTCOMPONENTS.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/DISINFECTCOMPONENTS.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
                       <p className="small">
@@ -433,7 +462,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
                       <p className="small">
@@ -447,7 +476,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h3>
                       <p className="small">
@@ -461,7 +490,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h3>
                       <p className="small">
@@ -477,7 +506,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h3>
                       <p className="small">
@@ -501,7 +530,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
@@ -511,7 +540,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
@@ -524,7 +553,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -536,14 +565,14 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -552,7 +581,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -564,7 +593,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -575,7 +604,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -615,54 +644,54 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         <section className="section cs_py_30 gallery-section bg-light-gray">
           <div class="container">
             <h3 class="mb-4 text-center">Gallery</h3>
-              <div class="row g-4">
-      
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/oven-gallery/oven repair service.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="Oven Repair Service Dubai"
-                  />
+            <div class="row g-4">
 
-                  <img
-                    src="/img/oven-gallery/rational oven repairs.avif"
-                    class="img-fluid rounded shadow"
-                    alt="Oven Repair Service Dubai"
-                  />
-                </div>
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/oven-gallery/oven repair service.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Oven Repair Service Dubai"
+                />
 
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/oven-gallery/rational oven service.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="Rational Oven Service"
-                  />
-
-                  <img
-                    src="/img/oven-gallery/oven repair.avif"
-                    class="img-fluid rounded shadow"
-                    alt="Oven Repair"
-                  />
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/oven-gallery/over repair maintenance.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="Oven Repair Maintenance"
-                  />
-
-                  <img
-                    src="/img/oven-gallery/rational oven repair.avif"
-                    class="img-fluid rounded shadow"
-                    alt="Rational Oven Repair"
-                  />
-                </div>
+                <img
+                  src="/img/oven-gallery/rational oven repairs.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Oven Repair Service Dubai"
+                />
               </div>
+
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/oven-gallery/rational oven service.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Rational Oven Service"
+                />
+
+                <img
+                  src="/img/oven-gallery/oven repair.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Oven Repair"
+                />
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/oven-gallery/over repair maintenance.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Oven Repair Maintenance"
+                />
+
+                <img
+                  src="/img/oven-gallery/rational oven repair.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Rational Oven Repair"
+                />
+              </div>
+            </div>
           </div>
         </section>
         {/* Gallery */}
-        
+
         {/* testimobial section */}
         <Testimonial1
           subtitle="What Our Clients Say"

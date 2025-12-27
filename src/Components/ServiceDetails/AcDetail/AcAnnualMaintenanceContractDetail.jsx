@@ -179,7 +179,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Select-Air-Conditioner-Repair-&-Service.avif`} alt="Annual AC Maintenance" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Select-Air-Conditioner-Repair-&-Service.avif`} alt="Annual AC Maintenance"  />
               </div>
             </div>
 
@@ -213,7 +213,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Peace-of-Mind-with-Annual-Maintenance-Contracts.avif`} alt="Annual Maintenance Contracts with peace of mind" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Peace-of-Mind-with-Annual-Maintenance-Contracts.avif`} alt="Annual Maintenance Contracts with peace of mind"  />
               </div>
               <div className="col-md-6">
                 <p className="mb-0">
@@ -352,7 +352,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
             <h2 className="cs_fs_30">The Importance of AC Maintenance Contract Service</h2>
             <div className="row">
               <div className="col-xl-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} loading="lazy" alt="Air conn maintenance" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`}  alt="Air conn maintenance" />
               </div>
               <div className="col-xl-6">
                 <ul>
@@ -395,7 +395,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/The-Importance-of-AC-Maintenance-Contract-Service.avif`} loading="lazy" alt="Ac Service and maintenance contract" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/The-Importance-of-AC-Maintenance-Contract-Service.avif`}  alt="Ac Service and maintenance contract" />
               </div>
             </div>
           </div>

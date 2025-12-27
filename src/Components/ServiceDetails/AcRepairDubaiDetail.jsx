@@ -28,7 +28,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metadescription = String(description || "Keep your home / office cool with FAJ expert AC repair in Dubai. We offer fast, reliable air conditioner maintenance & HVAC services near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Repair Near Me, Ac Repair Dubai, Air Conditioner Repair, Air Conditioner Repair In Dubai, Air Conditioner Repair Service, Air Conditioner Repair Near Me, Air Conditioner Repair Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
@@ -176,7 +176,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai"  />
 
               </div>
             </div>
@@ -205,7 +205,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repairing.avif`} alt="AC Repairing" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repairing.avif`} alt="AC Repairing"  />
               </div>
               <div className="col-md-6">
 

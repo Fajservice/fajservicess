@@ -26,7 +26,7 @@ const Process = () => {
             <div className="cs_card cs_style_3 position-relative">
               <div className="cs_card_content cs_white_bg cs_radius_35 text-center">
                 <div className="cs_card_icon cs_center cs_heading_color cs_mb_22">
-                <img src={`${import.meta.env.BASE_URL}${item.img}`} loading="lazy" alt="icon" />
+                <img src={`${import.meta.env.BASE_URL}${item.img}`}  alt="icon" />
                 </div>
                 <h3 className="cs_fs_24 cs_semibold cs_mb_10">{item.title}</h3>
                 <p className="mb-0">{item.desc}</p>
