@@ -532,7 +532,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         {/* We specialise   */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We specialise in Rantional commercial oven services for the following brands:</h3>
+            <h3>We specialise in Rational commercial oven services for the following brands:</h3>
             <div className="row">
               <div className="col-12">
                 <ul>
