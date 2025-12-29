@@ -53,9 +53,6 @@ export default defineConfig(({ mode }) => {
                 return 'swiper';
               }
               
-              if (id.includes('bootstrap')) {
-                return 'bootstrap';
-              }
               if (id.includes('react-helmet') || id.includes('helmet')) {
                 return 'helmet';
               }
@@ -84,7 +81,6 @@ export default defineConfig(({ mode }) => {
         'react',
         'react-dom',
         'react-router-dom',
-        'bootstrap/dist/js/bootstrap.bundle.min.js',
       ]
     }
   };
