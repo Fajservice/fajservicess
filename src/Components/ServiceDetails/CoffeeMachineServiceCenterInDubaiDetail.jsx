@@ -607,7 +607,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ascaso Coffee Machine Repair </h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ascaso Coffee Machine Repair </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -620,7 +620,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Lelit Coffee Machine Service</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Lelit Coffee Machine Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Expert Lelit coffee machines repair, maintenance, and descaling are available near you.
@@ -632,7 +632,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Conti Coffee Machine Repair </h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Conti Coffee Machine Repair </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Get Conti espresso & coffee machine descaling and cleaning services near your location.</p>
@@ -644,7 +644,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Jura Coffee Machine Maintenance</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Jura Coffee Machine Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">We offer Jura coffee machine and espresso descaling and maintenance services in Dubai.
@@ -656,7 +656,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dr Coffee Machine Repairs</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dr Coffee Machine Repairs</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -669,7 +669,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Marzocco Coffee Machine Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Marzocco Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -682,7 +682,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Pavoni Espresso Maintenance</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Pavoni Espresso Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -694,7 +694,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ECM Coffee Machine Servicing</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ECM Coffee Machine Servicing</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -714,7 +714,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">FRANKE Espresso Machine Fix</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">FRANKE Espresso Machine Fix</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -727,7 +727,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Gaggia Coffee Machine Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Gaggia Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -740,7 +740,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bosch Coffee Machine Service</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bosch Coffee Machine Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -753,7 +753,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Delonghi Coffee Machine Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Delonghi Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -766,7 +766,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Breville Coffee Machine Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Breville Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -779,7 +779,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Sage Coffee Machine Service</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Sage Coffee Machine Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -792,7 +792,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Melitta Coffee Machine Servicing</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Melitta Coffee Machine Servicing</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -805,7 +805,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Farenheit Epsilon Coffee Machine</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Farenheit Epsilon Coffee Machine</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -825,7 +825,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bezzera Espresso Machine Repairs</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bezzera Espresso Machine Repairs</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -839,7 +839,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Built-in Teka Coffee Machine Fix</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Built-in Teka Coffee Machine Fix</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -852,7 +852,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Rocket Espresso Machine Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Rocket Espresso Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -865,7 +865,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Astoria Loft Espresso Machine</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Astoria Loft Espresso Machine</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -878,7 +878,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Magister Espresso Machine Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Magister Espresso Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -891,7 +891,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Orchestrale Espresso Machine Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Orchestrale Espresso Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -904,7 +904,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Illy Saeco Royal Coffee Machine Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Illy Saeco Royal Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -917,7 +917,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cafematic Automatic Coffee Machine
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cafematic Automatic Coffee Machine
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -936,7 +936,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Isomac Coffee Machine Repair
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Isomac Coffee Machine Repair
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -950,7 +950,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Siemens Coffee Machine Cleaning
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Siemens Coffee Machine Cleaning
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -962,7 +962,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Rancilio Volumetric Espresso Machine
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Rancilio Volumetric Espresso Machine
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -976,7 +976,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Zulay Magia Coffee Machine Service
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Zulay Magia Coffee Machine Service
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -988,7 +988,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Nuova Simonelli Appia Life</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Nuova Simonelli Appia Life</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Book now Nuova Simonelli espresso machine maintenance service and descaling near you.</p>
@@ -999,7 +999,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_14 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Victoria Arduino Espresso Machine</h3>
+                    <h3 className="cs_fs_14 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Victoria Arduino Espresso Machine</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -1011,7 +1011,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slayer Espresso Machine Service</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slayer Espresso Machine Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Contact us for espresso machine descaling, coffee machine repair, and PPM service agreement.</p>
@@ -1021,7 +1021,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Profitec Ride Espresso Machine</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Profitec Ride Espresso Machine</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">We offer Profitec Ride espresso machine servicing, repair, and AMC services in Dubai.</p>
@@ -1038,7 +1038,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faema Automatic Coffee Machine
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faema Automatic Coffee Machine
 
                     </h3>
                   </div>
@@ -1053,7 +1053,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">CAYE Automatic Coffee Machine
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">CAYE Automatic Coffee Machine
 
                     </h3>
                   </div>
@@ -1068,7 +1068,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Lavazza Office Vending Machine</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Lavazza Office Vending Machine</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Expert Lavazza coffee machine service and repair. Coffee vending machine maintenance in Dubai.</p>
@@ -1079,7 +1079,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">NECTA Krea Espresso Machine </h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">NECTA Krea Espresso Machine </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Book a coffee machine technician now for the coffee machine repair and cleaning service.</p>
@@ -1090,7 +1090,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">FRACINO Romano Espresso Machine </h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">FRACINO Romano Espresso Machine </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Our skilled technicians offer Fracino Romano coffee machine repair and AMC services in Dubai.</p>
@@ -1101,7 +1101,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Smeg Coffee Machine Service
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Smeg Coffee Machine Service
 
                     </h3>
                   </div>
@@ -1116,7 +1116,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Jetinno Coffee Machine Repair
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Jetinno Coffee Machine Repair
 
                     </h3>
                   </div>
@@ -1129,7 +1129,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Beko Coffee Machine Maintenance
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Beko Coffee Machine Maintenance
 
                     </h3>
                   </div>

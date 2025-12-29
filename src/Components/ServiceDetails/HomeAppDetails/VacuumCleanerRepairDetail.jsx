@@ -545,7 +545,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ecovacs Deebot Vacuum Cleaner</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ecovacs Deebot Vacuum Cleaner</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Ecovacs Deebot vacuum cleaner service in Dubai. Vacuum cleaner repair shop near me.</p>
@@ -556,7 +556,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Electrolux Vacuum Cleaner Repair​</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Electrolux Vacuum Cleaner Repair​</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Find Electrolux vacuum cleaner repair near you, and fix vacuum cleaner error.</p>
@@ -567,7 +567,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hitachi Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hitachi Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Expert Hitachi vacuum cleaner repair, maintenance, and servicing are available near you.</p>
@@ -579,7 +579,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hoover Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hoover Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">We provide Hoover vacuum cleaner repair near me and maintenance service in Dubai.</p>
@@ -590,7 +590,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bissell Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bissell Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">You can find professional Bissell vacuum cleaner service and repair options near you.</p>
@@ -601,7 +601,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Miele Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Miele Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Premier vacuum cleaner service and maintenance, with cleaning and repair near you.</p>
@@ -612,7 +612,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dyson Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dyson Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">We provide Dyson vacuum cleaner repair, including cleaning services for your vacuum.</p>
@@ -623,7 +623,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">LG Vacuum Cleaner Service</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">LG Vacuum Cleaner Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Contact us for LG vacuum cleaner repair and maintenance service near me Dubai</p>
@@ -640,7 +640,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Deebot Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Deebot Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">You can trust FAJ for vacuum cleaner repair shop near me and service.</p>
@@ -651,7 +651,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Karcher Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Karcher Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Find a nearby repair Karcher vacuum cleaning machine with a service warranty.</p>
@@ -662,7 +662,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bosch Vacuum Cleaner Service</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bosch Vacuum Cleaner Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Fast Bosch vacuum machine repair and Bosch robotic vacuum repair near your location.</p>
@@ -673,7 +673,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Roborock Vacuum Repair Shop</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Roborock Vacuum Repair Shop</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Reliable Roborock robot vacuum cleaner service and fix Roborock vacuum near me in Dubai</p>
@@ -684,7 +684,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">iRobot Roomba Vacuum Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">iRobot Roomba Vacuum Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Our team specializes in iRobot Roomba vacuum Cleaner repair and Service near you.</p>
@@ -695,7 +695,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dreame Vacuum Repair Nearby</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dreame Vacuum Repair Nearby</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">The experts in Dubai specialize in Robotic vacuum and mopping repair near me.</p>
@@ -706,7 +706,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Deebot Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Deebot Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">We provide Vacuum cleaner and mopping duck repair in Dubai, and fixing vacuum.</p>
@@ -717,7 +717,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fix Eureka Vacuum</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fix Eureka Vacuum</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -737,7 +737,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Narwal Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Narwal Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Call us for cheapest vacuum cleaner repair dubai with part and service warranty.</p>
@@ -749,7 +749,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Roomba Combo Vacuum Service</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Roomba Combo Vacuum Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Dubai's leading specialists in robotic vacuum cleaner service center in Al Qouz Dubai.</p>
@@ -760,7 +760,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fixing Xiaomi Robot Vacuum</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fixing Xiaomi Robot Vacuum</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Best service center for robot vacuum cleaner with service and spare part warranty.</p>
@@ -771,7 +771,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Versuni Vacuum Maintenance</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Versuni Vacuum Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">We provide best vacuum cleaning machine maintenance and cleaning services in Dubai.</p>
@@ -782,7 +782,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Samsung Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Samsung Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">The technician offers Samsung vacuum service and repairs, providing assistance near your location.</p>
@@ -793,7 +793,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Worx Vacuum Cleaner Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Worx Vacuum Cleaner Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">We provide reliable repair, cleaning, and services for Worx vacuum cleaner Dubai</p>
@@ -804,7 +804,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Kenmore Cordless Vacuum Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Kenmore Cordless Vacuum Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">FAJ services and repairs all models of cordless vacuum and offers maintenance service.</p>
@@ -815,7 +815,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">SwitchBot Robot Vacuum Cleaner</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">SwitchBot Robot Vacuum Cleaner</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">SwitchBot robot vacuum cleaner repair and service near me in Dubai, Sharjah, and Abu Dhabi.</p>
@@ -826,7 +826,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Black & Decker Vacuum Repair</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Black & Decker Vacuum Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">If you need fixing vacuum cleaner or repair near me shop, contact us for service Dubai.</p>
@@ -837,7 +837,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Best Vacuum Cleaner Service</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Best Vacuum Cleaner Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">We are offering Braun, EZVIZ, Green Lion, Polaris Vacuum, Midea, Kenwood vacuum cleaner repair.</p>
@@ -848,7 +848,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Vacuum Cleaner Repair Dubai</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Vacuum Cleaner Repair Dubai</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">We specialize in canister Philips vacuum, Milagrow, Anker, Eufy Vacuum, Irobot service Dubai</p>
@@ -859,7 +859,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Vacuum Cleaner Maintenance</h3>
+                    <h3 className="cs_fs_12 m-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Vacuum Cleaner Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">FAJ offers vacuum cleaner repair and servicing in Dubai, as well as maintenance services.</p>
