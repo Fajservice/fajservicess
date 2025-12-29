@@ -32,7 +32,6 @@ const Home = ({
 }) => {
   const canonicalUrl = URL.replace(/\/?$/, "/");
 
-  // Load all content immediately to fix scroll position on refresh
   const [loadRest, setLoadRest] = useState(true);
 
   return (

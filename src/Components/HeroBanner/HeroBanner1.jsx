@@ -1,15 +1,13 @@
-import React, { useEffect, useMemo, useState, useCallback } from "react";
+import React, { useEffect, useMemo, useState, useCallback, lazy, Suspense } from "react";
 import data from "../../Data/herobanner1.json";
 import { Link } from "react-router-dom";
 import { MdAddIcCall } from "react-icons/md";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+// Lazy load Swiper only when needed
+const SwiperWrapper = lazy(() => 
+  import("./SwiperWrapper").then(module => ({ default: module.default }))
+);
 
 const HeroBanner1 = () => {
   const [showSwiper, setShowSwiper] = useState(false);
@@ -85,34 +83,18 @@ const HeroBanner1 = () => {
       <h1 className="cs_hero_title cs_fs_50 cs_mb_18 d-none">F A J Technical Services L.L.C</h1>
       <div className="cs_slider_container">
         <div className="cs_slider_wrapper">
-          {/* Instant-first paint of first slide for best LCP */}
+          {/* Show first slide immediately for best LCP */}
           {!showSwiper && renderSlide(firstSlide, 0)}
 
-          {/* Mount Swiper only after first image is painted */}
-          {showSwiper && (
-            data.length > 1 ? (
-              <Swiper
-                modules={[Navigation, Pagination, Autoplay, A11y]}
-                slidesPerView={1}
-                loop={true}
-                speed={300}
-                autoplay={{ delay: 5000, disableOnInteraction: false }}
-                navigation={false}
-                pagination={{ clickable: true }}
-                // keeps parsing/rendering minimal
-                a11y={{ enabled: true }}
-                onAfterInit={() => performance.mark?.("swiper-initialized")}
-              >
-                {data.map((item, index) => (
-                  <SwiperSlide key={`hero-slide-${index}`}>
-                    {renderSlide(item, index)}
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            ) : (
-              renderSlide(data[0], 0)
-            )
+          {/* Load Swiper dynamically only after first image is painted */}
+          {showSwiper && data.length > 1 && (
+            <Suspense fallback={renderSlide(firstSlide, 0)}>
+              <SwiperWrapper data={data} renderSlide={renderSlide} />
+            </Suspense>
           )}
+
+          {/* Single slide - no Swiper needed */}
+          {showSwiper && data.length === 1 && renderSlide(data[0], 0)}
         </div>
       </div>
     </section>
