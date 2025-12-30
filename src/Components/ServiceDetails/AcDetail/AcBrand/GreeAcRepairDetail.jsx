@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import data from '../../../../Data/AcData/AcFaqs/AcBrand/GreeAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -7,7 +6,6 @@ import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-import testimonial_data from '../../../../Data/AcData/AcTestimonial/GreeAcServiceTestimonials.json';
 import 'swiper/swiper-bundle.css';
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
@@ -25,7 +23,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const metadescription = String(description || "Professional in Gree AC repair in Dubai & Gree air conditioner cleaning service near me. Book an 043300002. Our technicians are experts in fixing errors");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Gree AC Repair, Gree AC Service, Gree Air Conditioner Maintenance, Gree AC Repair Dubai, Gree AC Service Dubai, Gree Air Conditioner Repair Dubai, Gree AC Maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/gree-ac-repair-in-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/gree-ac-repair-in-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
 
@@ -36,19 +34,41 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
       setFirstItemOpen(false);
     }
   }, [firstItemOpen]);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcBrand/GreeAcRepairfaq.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/GreeAcServiceTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const settings = {
     dots: false,

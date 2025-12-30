@@ -1,5 +1,5 @@
 import SectionTitle2 from "../Common/SectionTitle2";
-import data from '../../Data/process.json';
+import data from '../../../public/data/process.json';
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 

@@ -1,8 +1,5 @@
-
-
 import { useEffect, useRef, useState, useCallback } from "react";
-import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FAQs/AMCFaqs.json';
+import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -14,12 +11,8 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/HomeAppData/Testmonials/AMCTestimonial.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 
@@ -60,6 +53,13 @@ const AppliancesMaintenanceContractDetail = ({
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
   const openModal = useCallback((e) => {
       e.preventDefault();
       setIsModalOpen(true);
@@ -86,6 +86,33 @@ const AppliancesMaintenanceContractDetail = ({
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/AMCFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/AMCTestimonial.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -220,7 +247,7 @@ const AppliancesMaintenanceContractDetail = ({
 
                 <p className="mb-2">
                   If you need AMC services for kitchen equipment and appliances, contact us for the best and most reliable service throughout the year.
-                  Enjoy peace of mind knowing that your kitchen equipment and appliances are running smoothly for your business. We’ve got you covered with cooking, baking, cooling, refrigeration, laundry equipment, ice makers, dishwashers, and other appliances.
+                  Enjoy peace of mind knowing that your kitchen equipment and appliances are running smoothly for your business. We've got you covered with cooking, baking, cooling, refrigeration, laundry equipment, ice makers, dishwashers, and other appliances.
 
                 </p>
 
@@ -503,7 +530,7 @@ const AppliancesMaintenanceContractDetail = ({
                         <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow"  />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h3>
-                      <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison: a commercial kitchen helps you avoid high startup equipment costs.</p>
+                      <p className="small">FAJ a Save hand maintenance. Here's a cost comparison: a commercial kitchen helps you avoid high startup equipment costs.</p>
                     </div>
                   </div>
                 </div>
@@ -869,24 +896,28 @@ const AppliancesMaintenanceContractDetail = ({
         </section>
 
         {/* Brands section */}
+        {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
-        brandsData={brandsLogo_data}
-        sectionId="home-brands"
-        logoMaxHeight="60px"
-        logoMaxWidth="120px"
-        containerHeight="100px"
-      />
-  
+            brandsData={brandsLogo_data}
+            sectionId="home-brands"
+            logoMaxHeight="60px"
+            logoMaxWidth="120px"
+            containerHeight="100px"
+          />
+        )}
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
-        <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -905,7 +936,6 @@ const AppliancesMaintenanceContractDetail = ({
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>
@@ -931,4 +961,3 @@ const AppliancesMaintenanceContractDetail = ({
 };
 
 export default AppliancesMaintenanceContractDetail;
-

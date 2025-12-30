@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import data from '../../../../Data/AcData/AcFaqs/AcBrand/SamsungAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -7,7 +6,6 @@ import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-import testimonial_data from '../../../../Data/AcData/AcTestimonial/SamsungAcServiceTestimonials.json';
 import 'swiper/swiper-bundle.css';
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
@@ -25,7 +23,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "Our experienced team provides Samsung AC repair and maintenance in Dubai. Book now 043300002 for VRF, central and split unit service and AMC");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Samsung AC Repair, Samsung AC Service, Samsung Air Conditioner Maintenance, Samsung AC Cleaning, Samsung AC Installation, Samsung AC Repair Dubai, Samsung Air Conditioner Service Dubai, Samsung Split AC Repair Dubai, Samsung Central AC Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/samsung-ac-repair-in-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/samsung-ac-repair-in-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
@@ -35,19 +33,42 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
+  //start fetching
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
       setFirstItemOpen(false);
     }
   }, [firstItemOpen]);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcBrand/SamsungAcRepairfaq.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/SamsungAcServiceTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const settings = {
     dots: false,

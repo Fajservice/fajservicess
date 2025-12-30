@@ -1,7 +1,7 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import data from '../../../Data/AcData/AcFaqs/AcRepairFaqs.json';
+import data from '../../../public/data/AcData/AcFaqs/AcRepairFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";

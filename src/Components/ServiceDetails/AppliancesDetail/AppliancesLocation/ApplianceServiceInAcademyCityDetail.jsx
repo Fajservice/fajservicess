@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
+import data from '../../../../../public/data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -10,11 +10,10 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 
 
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
-import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
+import testimonial_data from '../../../../../public/data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
+import brandsLogo_data from '../../../../../public/data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
-import parse from 'html-react-parser';
-import HeaderForm from "../../../Headeform/HeaderForm.jsx";
+import HeaderForm from ".   ./../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";

@@ -1,6 +1,6 @@
 import BlogDetails from "../Components/BlogDetails/BlogDetails";
 import { useEffect, useState } from "react";
-import data from "../Data/blog.json";
+import data from "../../public/data/blog.json";
 import { Link, useParams } from "react-router-dom";
 
 const BlogDetailsPage = () => {

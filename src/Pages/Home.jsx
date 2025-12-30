@@ -11,7 +11,7 @@ const Contact1 = lazy(() => import("../Components/Contact/Contact"));
 const Testimonial1 = lazy(() => import("../Components/Testimonial/Testimonial1"));
 const Blog3 = lazy(() => import("../Components/Blog/Blog3"));
 const Process = lazy(() => import("../Components/Process/Process"));
-import data from "../Data/testimonial1.json";
+import data from "../../public/data/testimonial1.json";
 
 const DEFAULT_SEO = {
   title: "FAJ / Installation, Repair and Maintenance Company in Dubai ",

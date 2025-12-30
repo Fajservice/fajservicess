@@ -1,8 +1,5 @@
-
-
 import { useEffect, useRef, useState, useCallback } from "react";
-import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FAQs/BBQServiceFaqs.json';
+import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -12,12 +9,9 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/HomeAppData/Testmonials/BBQServiceTestimonials.json';
-import brandsLogo_data  from '../../../Data/bbqBrandsLogo.json';
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../BrandsSliderSection";
@@ -25,6 +19,7 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 
 const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+
   // For SEO
   const metatitle = String(titleSeo || "Barbeque Repair in Dubai | BBQ Grill Cleaning Service Near Me");
   const metadescription = String(description || "Get Barbeque Repair in Dubai. Book now for your BBQ grill cleaning, built in gas grill burner, oven & electric BBQ deep service & maintenance near you");
@@ -39,17 +34,24 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -66,6 +68,32 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/BBQServiceFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/BBQServiceTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/bbqBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -289,7 +317,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ignition problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Ignition Issues. If your grill won’t light, it’s likely due to the ignition system, possibly needing a new battery.
+                    <p className="p-2 mb-0">Ignition Issues. If your grill won't light, it's likely due to the ignition system, possibly needing a new battery.
                     </p>
                   </div>
                 </div>
@@ -485,7 +513,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in BArbecue repair services for the following brands</h3>
             <ul className="ml-5">
               <li> <strong>  Char Broil Gas Grill Service and Repair: </strong> FAJ offers reliable Char Broil gas BBQ grill cleaning service near me repair in Dubai, with professionals who are experts in freestanding and built-in Char Broil electric barbeque grill repair and char broil gas grill repair near me home service near you in Dubai and Sharjah. </li>
@@ -507,98 +535,90 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             </div>
           </div>
         </section>
-        
+
         {/* Brands section */}
-            <BrandsSliderSection
+        {!isLoading && brandsLogo_data.length > 0 && (
+          <BrandsSliderSection
             brandsData={brandsLogo_data}
             sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
             containerHeight="100px"
           />
-           {/* Gallery */}
+        )}
+        {/* Gallery */}
         <section className="section cs_py_30 gallery-section bg-light-gray mb-4">
-          <div class="container">
-            <h3 class="mb-4 text-center">Gallery</h3>
-              <div class="row g-4">
-      
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/bbq-repair.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="BBQ Grill Repair Service Dubai"
-                  />
+          <div className="container">
+            <h3 className="mb-4 text-center">Gallery</h3>
+            <div className="row g-4">
 
-                  <img
-                    src="/img/bbq-repairs-service.avif"
-                    class="img-fluid rounded shadow"
-                    alt="BBQ Grill Cleaning Service Dubai"
-                  />
-                </div>
+              <div className="col-lg-4 col-md-6">
+                <img
+                  src="/img/bbq-repair.avif"
+                  className="img-fluid rounded shadow mb-4"
+                  alt="BBQ Grill Repair Service Dubai"
+                />
 
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/bbq-repairs.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="BBQ Grill Service"
-                  />
-
-                  <img
-                    src="/img/bbq-repair-service.avif"
-                    class="img-fluid rounded shadow"
-                    alt="BBQ Grill Repair"
-                  />
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/BBQ-Repair-Services.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="BBQ Grill Repair Service"
-                  />
-
-                  <img
-                    src="/img/bbq-repairs-services.avif"
-                    class="img-fluid rounded shadow"
-                    alt="BBQ Grill Cleaning Service"
-                  />
-                </div>
+                <img
+                  src="/img/bbq-repairs-service.avif"
+                  className="img-fluid rounded shadow"
+                  alt="BBQ Grill Cleaning Service Dubai"
+                />
               </div>
+
+              <div className="col-lg-4 col-md-6">
+                <img
+                  src="/img/bbq-repairs.avif"
+                  className="img-fluid rounded shadow mb-4"
+                  alt="BBQ Grill Service"
+                />
+
+                <img
+                  src="/img/bbq-repair-service.avif"
+                  className="img-fluid rounded shadow"
+                  alt="BBQ Grill Repair"
+                />
+              </div>
+
+              <div className="col-lg-4 col-md-6">
+                <img
+                  src="/img/BBQ-Repair-Services.avif"
+                  className="img-fluid rounded shadow mb-4"
+                  alt="BBQ Grill Repair Service"
+                />
+
+                <img
+                  src="/img/bbq-repairs-services.avif"
+                  className="img-fluid rounded shadow"
+                  alt="BBQ Grill Cleaning Service"
+                />
+              </div>
+            </div>
           </div>
         </section>
-        {/* Gallery */}
-          {/* <div className="mb-4">
-             <BeforeAfter
-                title="Recent Completed Projects"
-                subTitle="Before & after"
-                bgImg="img/background-image-2.avif"
-                beforeImg="img/after_img_1.avif"
-                afterTitle="After"
-                afterImg="img/before_img_1.avif"
-                beforeTitle="Before"
-              />
-          </div> */}
-        
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
         <BeforeAfter
-                title="Recent Completed Projects"
-                subTitle="Before & after"
-                bgImg="img/background-image-2.avif"
-                beforeImg="img/bbqafter_img.avif"
-                afterTitle="After"
-                afterImg="img/bbqbefore_img.avif"
-                beforeTitle="Before"
-              />
-       {/* testimobial section */}
-        <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
+          title="Recent Completed Projects"
+          subTitle="Before & after"
+          bgImg="img/background-image-2.avif"
+          beforeImg="img/bbqafter_img.avif"
+          afterTitle="After"
+          afterImg="img/bbqbefore_img.avif"
+          beforeTitle="Before"
         />
-       
+        {/* testimobial section */}
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
+
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
@@ -642,4 +662,3 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 };
 
 export default BBQServiceDetail;
-

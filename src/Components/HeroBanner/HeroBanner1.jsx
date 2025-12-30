@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState, useCallback, lazy, Suspense } from "react";
-import data from "../../Data/herobanner1.json";
+import data from "../../../public/data/herobanner1.json";
 import { Link } from "react-router-dom";
 import { MdAddIcCall } from "react-icons/md";
 import { IoIosArrowRoundForward } from "react-icons/io";

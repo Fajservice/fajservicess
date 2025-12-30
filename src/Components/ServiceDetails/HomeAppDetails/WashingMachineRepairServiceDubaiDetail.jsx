@@ -4,27 +4,22 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { RxArrowTopRight } from 'react-icons/rx';
 
-// Lazy load heavy components
 const Serviceappointemnt = lazy(() => import('../../Contact/Serviceappointemnt'));
 const MaintenanceContract = lazy(() => import('../../MaintenanceContract/MaintenanceContract'));
 const BlogWashingMachine = lazy(() => import("../../Blog/BlogWashingMachine"));
 const BrandsSliderSection = lazy(() => import("../../BrandsSliderSection"));
 const Testimonial1 = lazy(() => import("../../Testimonial/Testimonial1"));
 
-// Static imports for critical components
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BookingFormModal from '../../BookingFormModal';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
+const loadFAQData = () => import('../../../../public/data/HomeAppData/FAQs/WashingmachineRepairServiceFaqs.json');
+const loadTestimonialData = () => import('../../../../public/data/HomeAppData/Testmonials/WashingMachineRepairServiceTestimonials.json');
+const loadBrandsData = () => import('../../../../public/data/AppliancesBrandsLogo.json');
 
-// Lazy load JSON data
-const loadFAQData = () => import('../../../Data/HomeAppData/FAQs/WashingmachineRepairServiceFaqs.json');
-const loadTestimonialData = () => import('../../../Data/HomeAppData/Testmonials/WashingMachineRepairServiceTestimonials.json');
-const loadBrandsData = () => import('../../../Data/AppliancesBrandsLogo.json');
-
-// Optimized Image Component
 const OptimizedImage = ({ src, alt, className, width, height, priority = false }) => {
   return (
     <img
@@ -100,11 +95,11 @@ const WashingMachineRepairServiceDubaiDetail = ({
   Image 
 }) => {
    const metaTitle = String(
-    titleSeo || "Washing Machine Repair | Washing Machine Service in Dubai"
+    titleSeo || "Emergency Washing Machine Repair in Dubai – 60-Minute Response"
   );
   
   const metaDescription = String(
-    description || "FAJ is an expert in washing machine repair & service center in Dubai. Call 04 3300002 for washer dryer repairs, laundry machine maintenance near me."
+    description || "FAJ is an expert in washing machine repair & service center in Dubai. Call 04-3300002 for washer dryer repairs, laundry machine maintenance near me."
   );
   
   const metaAuthor = String(

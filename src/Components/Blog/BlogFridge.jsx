@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import data from '../../Data/fridgeblog.json';
+import data from '../../../public/data/fridgeblog.json';
 import SectionTitle2 from "../Common/SectionTitle2";
 import { FaRegCommentDots } from "react-icons/fa";
 import { IoPeopleOutline } from "react-icons/io5";

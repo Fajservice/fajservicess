@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
-import data from "../../Data/blog.json";
+import data from "../../../public/data/blog.json";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaCalendarAlt} from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";

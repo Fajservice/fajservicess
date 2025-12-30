@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import data from '../../Data/services1.json';
+import data from '../../../public/data/services1.json';
 import SectionTitle from "../Common/SectionTitle";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 

@@ -15,7 +15,7 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/DubaiData/Testmonials/RefrigeratorRepairNearMeTestimonial.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+import brandsLogo_data from '../../../../public/data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";

@@ -5,12 +5,12 @@ import Serviceappointemnt from '../../Components/Contact/Serviceappointemnt';
 import MaintenanceContract from "../../Components/MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
 import loadBackgroudImages from "../../Components/Common/loadBackgroudImages";
-import acdata from '../../Data/AcData/AcFaqs/AcRepairFaqs.json';
+import acdata from '../../../public/data/AcData/AcFaqs/AcRepairFaqs.json';
 import washingdata from '../../Data/HomeAppData/FAQs/WashingmachineRepairServiceFaqs.json';
 import refrigeratordata from '../../Data/HomeAppData/FAQs/HomeappRefrigeratorServicefaqs.json';
 import dishwasherdata from '../../Data/HomeAppData/FAQs/DishwasherRepairFaqs.json';
 import robotvacuumdata from '../../Data/HomeAppData/FAQs/VacuumCleanerHomeappFaqs.json';
-import coffeemachinefaqdata from '../../Data/coffeemachinesserviceFaqs.json';
+import coffeemachinefaqdata from '../../../public/data/coffeemachinesserviceFaqs.json';
 import HeaderForm from "../../Components/Headeform/HeaderForm";
 import Accordion from "../../Components/Common/Accordion.jsx";
 const FaqsDetail = ({ subtitle, title, bgImg }) => {

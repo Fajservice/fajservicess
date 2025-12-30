@@ -1,7 +1,7 @@
 import BreadCumb from "../Components/Common/BreadCumb";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
-import data from "../Data/testimonial1.json";
+import data from "../../public/data/testimonial1.json";
 
 const TestimonialsPage = ({ titleSeo, description, Author, Keyword, URL }) => {
     // For SEO

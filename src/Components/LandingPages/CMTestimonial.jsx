@@ -1,6 +1,6 @@
 import  { useEffect } from 'react';  // 👈 Import useEffect
 import Testimonial1 from '../Testimonial/Testimonial1';
-import testimonial_data from '../../Data/AcData/AcTestimonial/AcRepairTestimonials.json';
+import testimonial_data from '../../../public/data/AcData/AcTestimonial/AcRepairTestimonials.json';
 
 const CMTestimonial = () => {
 

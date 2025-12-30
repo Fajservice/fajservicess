@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAcademyCity.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -13,7 +12,6 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
-import testimonial_data from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -32,7 +30,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metadescription = String(description || "Get AC Services in Academy City Dubai. FAJ is here to help you with air conditioner repair near me & ceiling, HVAC maintenance company near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Academy City, Air Conditioning Service in Academy City, Air Con Maintenance & Air Con Installation in Academy City");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-academy-city/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-academy-city/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
     subtitle = "Testimonial"
@@ -42,23 +40,52 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+   // State for fetched data
+       const [data, setData] = useState([]);
+       const [testimonial_data, setTestimonialData] = useState([]);
+       const [isLoading, setIsLoading] = useState(true);
+   
+       const handleItemClick = index => {
+           if (index === openItemIndex) {
+               setOpenItemIndex(-1);
+           } else {
+               setOpenItemIndex(index);
+           }
+       };
+       useEffect(() => {
+           if (firstItemOpen) {
+               setOpenItemIndex(0);
+               setFirstItemOpen(false);
+           }
+       }, [firstItemOpen]);
+   
+       useEffect(() => {
+           loadBackgroudImages();
+       }, []);
+   
+       // Fetch JSON data
+       useEffect(() => {
+           const fetchData = async () => {
+               try {
+                   const [faqsResponse, testimonialsResponse] = await Promise.all([
+                       fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAcademyCity.json`),
+                       fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                   ]);
+   
+                   const faqsData = await faqsResponse.json();
+                   const testimonialsData = await testimonialsResponse.json();
+   
+                   setData(faqsData);
+                   setTestimonialData(testimonialsData);
+               } catch (error) {
+                   console.error('Error fetching data:', error);
+               } finally {
+                   setIsLoading(false);
+               }
+           };
+   
+           fetchData();
+       }, []);
 
     const settings = {
         dots: false,

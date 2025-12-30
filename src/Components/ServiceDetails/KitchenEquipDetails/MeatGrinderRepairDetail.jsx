@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
-import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/KitchenEquipments/FAQs/MeatGrinderRepairFaqs.json';
+import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -8,9 +7,7 @@ import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/MeatGrinderRepairTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BookingFormModal from '../../BookingFormModal';
@@ -23,7 +20,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const metadescription = String(description || "Need meat grinder repair in Dubai? FAJ offers an expert repair and service center near me. Book now for fast and reliable meat grinder maintenance.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Meat Grinder Repair, Meat Grinder Service, Meat Grinder Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/meat-grinder-repair/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/meat-grinder-repair/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/meat-grinder-repair.avif");
 
   subtitle = "Testimonial"
@@ -32,17 +29,22 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -59,6 +61,29 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/MeatGrinderRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/MeatGrinderRepairTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -227,7 +252,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <li> <strong> Examine Key Components: </strong> Check the screw, perforated plate, blades, and pre-cutting plates for wear and damage. Regular checks and proper installation are essential to prevent inefficiency and breakdowns. </li>
                   <li> <strong> Lubrication Maintenance: </strong> Before starting work, check that the gearbox oil covers the oil window. Replace the oil every 1,000 operating hours or every six months if unused. For the first use, change the oil after 200 hours. </li>
                   <li> <strong> Avoid Running Unloaded: </strong> Always use the grinder with meat to avoid blade damage. </li>
-                  By following these daily maintenance steps, you’ll keep your frozen meat grinder in optimal condition, reducing repair costs and improving efficiency.
+                  By following these daily maintenance steps, you'll keep your frozen meat grinder in optimal condition, reducing repair costs and improving efficiency.
 
                 </ul>
               </div>
@@ -248,7 +273,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your meat grinder doesn’t start, check power supply, switches, fuses, or wiring faults. Service motor if needed.
+                      If your meat grinder doesn't start, check power supply, switches, fuses, or wiring faults. Service motor if needed.
                     </p>
                   </div>
                 </div>
@@ -497,7 +522,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
               <div className="uspcol col-1">
-                <div className="uspitem">
+                <div className="uspitem"> 
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service"  />
 
@@ -579,13 +604,15 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
-        <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -620,7 +647,6 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
-
         </section>
 
       </div >

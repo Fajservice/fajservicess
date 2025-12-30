@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/AcData/AcFaqs/AMCFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -12,14 +11,10 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../QuickGuide/QuickGuide";
 import ACWhychooseUs from "../../WhyChooseUS/ACWhyChooseUs";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
-import testimonial_data from '../../../Data/AcData/AcTestimonial/AcAmcTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import HeaderForm from "../../Headeform/HeaderForm";
 import FAJACPrice from "../../Miscellaneous/FAJACPrice";
@@ -39,8 +34,6 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
   const metaURL = String(URL || "https://www.fajservices.ae/ac-annual-maintenance-contract/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
-
-
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -49,16 +42,23 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
   
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -66,6 +66,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
       setOpenItemIndex(index);
     }
   };
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -75,6 +76,30 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AMCFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcAmcTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -174,7 +199,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                   <br />This will help maintain excellent cooling performance and prevent costly malfunctions!
                   <br />
                   Keeping an AC AMC in place can help you avoid unexpected costs, improve energy efficiency, and ensure a comfortable indoor environment.
-                  <br /> It’s essential to select a reputable service provider to get the most out of your contract.
+                  <br /> It's essential to select a reputable service provider to get the most out of your contract.
                 </p>
               </div>
 
@@ -375,13 +400,13 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           <div className="container">
             <h2 className="cs_fs_30">What is included in an AC Maintenance Contract?</h2>
             <p className="mb-0">
-              When considering air conditioner maintenance, it’s essential to understand what an AC contract should encompass. While many AC contractor packages offer these services, the details can vary.
+              When considering air conditioner maintenance, it's essential to understand what an AC contract should encompass. While many AC contractor packages offer these services, the details can vary.
             </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <p className="" >
-                  We’ll explore the key components of AC maintenance, their importance, and why <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for your system’s longevity.</p>
+                  We'll explore the key components of AC maintenance, their importance, and why <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for your system's longevity.</p>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
                   <li>  Priority service for repair calls    </li>
                   <li>  Get a 10% discount on service work   </li>
@@ -512,13 +537,16 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
         <MaintenanceContract />
 
         {/* testimobial section */}
-             <Testimonial1
-                subtitle="What Our Clients Say"
-                title="Customer <span>Reviews</span>"
-                bgImg="img/testimonialbg.jpg"
-                testimonialData={testimonial_data}
-                sectionId="home-testimonials"
-              />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
+
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">

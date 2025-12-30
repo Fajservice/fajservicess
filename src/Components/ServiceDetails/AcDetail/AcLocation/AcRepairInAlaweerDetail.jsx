@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -9,7 +8,6 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -24,7 +22,7 @@ const AcRepairInAlaweerDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metadescription = String(description || "Book An AC Service in Al Aweer. We are here to assist you in ceiling & split, HVAC air conditioner maintenance nearby & repair cc Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Aweer, AC Repair in Al Aweer, Central AC Service in Al Aweer, Split AC Service in Al Aweer, HVAC Air Conditioner Maintenance in Al Aweer");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-aweer/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-aweer/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
     subtitle = "Testimonial"
@@ -34,23 +32,52 @@ const AcRepairInAlaweerDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+    // State for fetched data
+        const [data, setData] = useState([]);
+        const [testimonial_data, setTestimonialData] = useState([]);
+        const [isLoading, setIsLoading] = useState(true);
+    
+        const handleItemClick = index => {
+            if (index === openItemIndex) {
+                setOpenItemIndex(-1);
+            } else {
+                setOpenItemIndex(index);
+            }
+        };
+        useEffect(() => {
+            if (firstItemOpen) {
+                setOpenItemIndex(0);
+                setFirstItemOpen(false);
+            }
+        }, [firstItemOpen]);
+    
+        useEffect(() => {
+            loadBackgroudImages();
+        }, []);
+    
+        // Fetch JSON data
+        useEffect(() => {
+            const fetchData = async () => {
+                try {
+                    const [faqsResponse, testimonialsResponse] = await Promise.all([
+                        fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInDip.json`),
+                        fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                    ]);
+    
+                    const faqsData = await faqsResponse.json();
+                    const testimonialsData = await testimonialsResponse.json();
+    
+                    setData(faqsData);
+                    setTestimonialData(testimonialsData);
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                } finally {
+                    setIsLoading(false);
+                }
+            };
+    
+            fetchData();
+        }, []);
 
     const settings = {
         dots: false,

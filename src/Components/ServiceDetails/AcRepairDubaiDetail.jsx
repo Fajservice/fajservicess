@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState, useCallback } from "react";
-import data from '../../Data/AcData/AcFaqs/AcRepairFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -10,7 +9,6 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-import testimonial_data from '../../Data/AcData/AcTestimonial/AcRepairTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import BookingFormModal from '../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
@@ -38,6 +36,10 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
   const openModal = useCallback((e) => {
     e.preventDefault();
     setIsModalOpen(true);
@@ -64,6 +66,29 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcRepairTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -308,7 +333,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      When this unit fails, it’s nearly impossible to maintain the comfort levels you desire in your home, affecting your daily routine.
+                      When this unit fails, it's nearly impossible to maintain the comfort levels you desire in your home, affecting your daily routine.
                     </p>
                   </div>
                 </div>
@@ -372,16 +397,16 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col">
 
                     <ol type="1">
-                      <li> The AC fan isn’t working </li>
+                      <li> The AC fan isn't working </li>
                       <li> The AC control panel is faulty </li>
                       <li> The air conditioner never turns off </li>
-                      <li> The air conditioner won’t switch on </li>
+                      <li> The air conditioner won't switch on </li>
                       <li> Your air conditioner is blowing hot air </li>
                       <li> The AC unit is making strange noises </li>
                       <li> There is no AC air flow from the registers </li>
                       <li> The air conditioner sets off the trip switch </li>
-                      <li> The air conditioner isn’t cooling even though it’s running </li>
-                      <li>The air conditioner is leaking, or it’s not reducing humidity </li>
+                      <li> The air conditioner isn't cooling even though it's running </li>
+                      <li>The air conditioner is leaking, or it's not reducing humidity </li>
                     </ol>
                   </div>
 
@@ -447,16 +472,18 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <MaintenanceContract />
 
         {/* testimobial section */}
-         <Testimonial1
-                subtitle="What Our Clients Say"
-                title="Customer <span>Reviews</span>"
-                bgImg="/img/home-testimonial-bg.jpg"
-                testimonialData={testimonial_data}
-                sectionId="home-testimonials"
-              />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="/img/home-testimonial-bg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
-          <Blog2 />
-        
+        <Blog2 />
+
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">

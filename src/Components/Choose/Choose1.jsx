@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import SectionTitle2 from "../Common/SectionTitle2";
-import data from '../../Data/choose.json';
+import data from '../../../public/data/choose.json';
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {

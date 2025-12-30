@@ -1,8 +1,5 @@
-
-
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FAQs/IntegratedAppliancesRepairServiceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -16,8 +13,6 @@ import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/HomeAppData/Testmonials/IntegratedAppliancesRepairServiceTestimonials.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
@@ -67,6 +62,12 @@ const IntegratedApplianceRepairDetail = ({
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
   const openModal = useCallback((e) => {
     e.preventDefault();
     setIsModalOpen(true);
@@ -93,6 +94,32 @@ const IntegratedApplianceRepairDetail = ({
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/IntegratedAppliancesRepairServiceFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/IntegratedAppliancesRepairServiceTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -228,14 +255,14 @@ const IntegratedApplianceRepairDetail = ({
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Home Appliance Repair Service Near You</h2>
 
                 <p className="mb-2">
-                  If you need integrated appliance repair, we’ve got you covered! Choose FAJ for fast and affordable service.
+                  If you need integrated appliance repair, we've got you covered! Choose FAJ for fast and affordable service.
                   Whether your built-in washing machine won&apos;t drain, your fridge isn&apos;t working, your oven isn&apos;t heating, or your dishwasher won&apos;t turn on, our expert repair team in Dubai and Sharjah is ready to assist you. We are in your area and can quickly resolve any issues you may have.
                 </p>
 
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
                 </h2>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -253,7 +280,7 @@ const IntegratedApplianceRepairDetail = ({
           <div className="container">
             <h2 className="cs_fs_30">Why is Built-in Appliance Maintenance Service Important in Dubai? </h2>
             <p>
-              Proper integrated appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate.
+              Proper integrated appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai's climate.
               Here are the main benefits:
             </p>
             <div className="row align-items-center">
@@ -630,7 +657,7 @@ const IntegratedApplianceRepairDetail = ({
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3> We are specialise in Appliances services for the following brands </h3>
             <div className="row">
               <div className="col-12">
@@ -833,24 +860,28 @@ const IntegratedApplianceRepairDetail = ({
 
 
         {/* Brands section */}
-        <BrandsSliderSection
-          brandsData={brandsLogo_data}
-          sectionId="home-brands"
-          logoMaxHeight="60px"
-          logoMaxWidth="120px"
-          containerHeight="100px"
-        />
+        {!isLoading && brandsLogo_data.length > 0 && (
+          <BrandsSliderSection
+            brandsData={brandsLogo_data}
+            sectionId="home-brands"
+            logoMaxHeight="60px"
+            logoMaxWidth="120px"
+            containerHeight="100px"
+          />
+        )}
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
-        <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -894,4 +925,3 @@ const IntegratedApplianceRepairDetail = ({
 };
 
 export default IntegratedApplianceRepairDetail;
-

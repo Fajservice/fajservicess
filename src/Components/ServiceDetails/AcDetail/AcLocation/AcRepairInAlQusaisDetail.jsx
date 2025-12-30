@@ -7,7 +7,7 @@ import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
+import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";

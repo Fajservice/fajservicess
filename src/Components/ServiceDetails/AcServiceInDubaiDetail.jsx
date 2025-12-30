@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcData/AcFaqs/AcServiceInDubaiFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -16,7 +15,6 @@ import BookingFormModal from '../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
-import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 import Practicaltip from "../Common/Practicaltip";
@@ -43,16 +41,22 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -69,6 +73,30 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcServiceInDubaiFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -219,7 +247,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
                   <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
 
-                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit's lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
                   <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo" className="fw-bold text-decoration-underline">AC servicing</a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
@@ -360,13 +388,13 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
             <ul className="mb-3">
 
-              <li> <strong><a className='text-decoration-underline' href="https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">Daikin Air Conditioner Maintenance</a>: </strong> Daikin, a Japanese manufacturer, claims to be “the world’s number one air conditioning company.” Founded in 1924, it has developed a strong international presence through its focus on quality, innovation, and effective communication.
+              <li> <strong><a className='text-decoration-underline' href="https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">Daikin Air Conditioner Maintenance</a>: </strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong international presence through its focus on quality, innovation, and effective communication.
                 <br />
                 We work with Daikin air conditioning products because the company continuously invests in research and development. Count on our experienced team to promptly and effectively address any challenges you may encounter with your Daikin air conditioning unit. We specialize in AC cleaning service and Daikin AC repair in Dubai to ensure it operates at optimal functionality, providing you with a cool and comfortable environment when you need it most.
               </li>
 
-              <li> <strong><a className='text-decoration-underline' href="https://www.fajservices.ae/gree-ac-repair-in-dubai/">Gree AC Repair Service and Maintenance</a>: </strong>  Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product line to include various home appliances and became China’s largest air conditioner manufacturer by 2000.
-                <br />Is your air conditioning unit not functioning properly, or are you seeing a Gree AC error displayed on the screen? You don’t have to struggle with uncomfortable temperatures or stale air any longer. At FAJ, we specialise in quickly restoring your Gree air conditioning to optimal performance. Our reliable air conditioning repair and maintenance services ensure that your system operates efficiently and effectively, preventing any further damage and discomfort. Whether you need expert AC repair services, routine AC maintenance services, or comprehensive air conditioning services in Dubai, we’ve got you covered. Enjoy a refreshing and cool environment once again with our professional solutions!
+              <li> <strong><a className='text-decoration-underline' href="https://www.fajservices.ae/gree-ac-repair-in-dubai/">Gree AC Repair Service and Maintenance</a>: </strong>  Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product line to include various home appliances and became China's largest air conditioner manufacturer by 2000.
+                <br />Is your air conditioning unit not functioning properly, or are you seeing a Gree AC error displayed on the screen? You don't have to struggle with uncomfortable temperatures or stale air any longer. At FAJ, we specialise in quickly restoring your Gree air conditioning to optimal performance. Our reliable air conditioning repair and maintenance services ensure that your system operates efficiently and effectively, preventing any further damage and discomfort. Whether you need expert AC repair services, routine AC maintenance services, or comprehensive air conditioning services in Dubai, we've got you covered. Enjoy a refreshing and cool environment once again with our professional solutions!
               </li>
 
               <li> <strong><a className='text-decoration-underline' href="https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General AC Service and Repair</a>: </strong>
@@ -384,14 +412,14 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive AC servicing ranging from AC fixing to AC cleaning service and AC maintenance.
               </li>
 
-              <li> <strong><a className='text-decoration-underline' href="https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York AC Service and Repair</a>: </strong>YORK® has been an industry leader since our founding in 1874. In 1914, we created a revolutionary “air washing” system, which was the precursor to modern-day air conditioning. In 1924, the world’s first air-conditioned office building used YORK® equipment.
+              <li> <strong><a className='text-decoration-underline' href="https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York AC Service and Repair</a>: </strong>YORK® has been an industry leader since our founding in 1874. In 1914, we created a revolutionary "air washing" system, which was the precursor to modern-day air conditioning. In 1924, the world's first air-conditioned office building used YORK® equipment.
                 <br />
-                FAJ offers York AC repair and service, ensure you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritised, providing air conditioning services near me, AC cleaning service, and AC fixing.
+                FAJ offers York AC repair and service, ensure you don't need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritised, providing air conditioning services near me, AC cleaning service, and AC fixing.
               </li>
 
               <li> <strong><a className='text-decoration-underline' href="https://www.fajservices.ae/lg-ac-repair-in-dubai/">LG AC Service and Repair</a>: </strong>GoldStar Co. Ltd. merged with Lak Hui Chemical Industrial Corp in 1983 to create Lucky-GoldStar, which was rebranded as LG in 1995.
                 <br />
-                LG’s history in air conditioning began in 1968 with the launch of its first unit. Today, LG provides some of the most cost-effective and energy-efficient commercial air conditioning systems available on the market.
+                LG's history in air conditioning began in 1968 with the launch of its first unit. Today, LG provides some of the most cost-effective and energy-efficient commercial air conditioning systems available on the market.
                 <br />                FAJ offers reliable LG AC repair and services in Dubai. With professionals who are experts in split, VRF, and central air conditioning units. Get reliable and fast AC service near me, AC repair, and AC maintenance in Dubai.
               </li>
 
@@ -484,7 +512,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
             </p>
 
-
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <GetQuoteButton></GetQuoteButton>
@@ -500,13 +527,15 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
-        <Testimonial1
-                subtitle="What Our Clients Say"
-                title="Customer <span>Reviews</span>"
-                bgImg="img/testimonialbg.jpg"
-                testimonialData={testimonial_data}
-                sectionId="home-testimonials"
-              />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
         <Blog2 />
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -525,7 +554,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>

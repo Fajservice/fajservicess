@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/coffeemachinesserviceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -13,10 +12,7 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
-import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
-import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 import Testimonial1 from "../Testimonial/Testimonial1";
 import BrandsSliderSection from "../BrandsSliderSection";
@@ -31,25 +27,29 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
   const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-service-center-in-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/Coffee-machine-servicing-title-image.avif");
 
-
-
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -66,6 +66,32 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/coffeemachinesserviceFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/CommercialCoffeeMAchineReapairTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/coffeemachineServicebrand.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -111,7 +137,6 @@ const [isModalOpen, setIsModalOpen] = useState(false);
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -190,7 +215,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <p className="mb-2">When your coffee machine breaks down or stops working, it can disrupt your daily   routine.
                   <br />
-                  That’s where our expert technician comes in. FAJ expert offers fast and efficient services near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
+                  That's where our expert technician comes in. FAJ expert offers fast and efficient services near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
                 </p>
                 <h2 className="cs_fs_18 mb-1 pt-3 border-small-top" style={{ fontSize: "18px" }}>
                   Coffee Machine Servicing and Maintenance Contract
@@ -237,7 +262,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <h2 className="cs_fs_30">Why Coffee Machine Maintenance Important in Dubai?
             </h2>
             <p className="">
-              Regular maintenance of coffee machine is essential for business. It ensures the quality of coffee, extends the machine’s lifespan, and reduces repair costs.
+              Regular maintenance of coffee machine is essential for business. It ensures the quality of coffee, extends the machine's lifespan, and reduces repair costs.
             </p>
 
             <div className="row align-items-center">
@@ -308,7 +333,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bad Coffee Taste</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0"> Poor quality beans, improper brewing parameters (such as grind size and ratio), or case machine’s internal components can result in bad-tasting coffee.
+                    <p className="p-2 mb-0"> Poor quality beans, improper brewing parameters (such as grind size and ratio), or case machine's internal components can result in bad-tasting coffee.
                     </p>
                   </div>
                 </div>
@@ -351,7 +376,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
 
-                      This issue of coffee machine or espresso or automatic coffee machine can stem from clogs, incorrect grind size, or problems with the coffee machine’s pump.</p>
+                      This issue of coffee machine or espresso or automatic coffee machine can stem from clogs, incorrect grind size, or problems with the coffee machine's pump.</p>
                   </div>
                 </div>
               </div>
@@ -600,7 +625,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+              and <small>3-month parts warranty</small> as standard.</p>
             <h2 className="text-center">CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
@@ -1164,48 +1189,48 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           />
         {/* Gallery */}
         <section className="section cs_py_30 gallery-section bg-light-gray">
-        <div class="container">
-          <h3 class="mb-4 text-center">Gallery</h3>
-            <div class="row g-4">
+        <div className="container">
+          <h3 className="mb-4 text-center">Gallery</h3>
+            <div className="row g-4">
     
-              <div class="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6">
                 <img
                   src="/img/CoffeeMachinesImages/coffee-machines-repair-1.avif"
-                  class="img-fluid rounded shadow mb-4"
+                  className="img-fluid rounded shadow mb-4"
                   alt="Coffee Machine Repair in Dubai"
                 />
 
                 <img
                   src="/img/CoffeeMachinesImages/coffee-machine-repair-gallery.avif"
-                  class="img-fluid rounded shadow"
+                  className="img-fluid rounded shadow"
                   alt="Coffee Machine Repair"
                 />
               </div>
 
-              <div class="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6">
                 <img
                   src="/img/CoffeeMachinesImages/coffee-machine-repair-service-gallery.avif"
-                  class="img-fluid rounded shadow mb-4"
+                  className="img-fluid rounded shadow mb-4"
                   alt="Coffee Machine Repair Service"
                 />
 
                 <img
                   src="/img/CoffeeMachinesImages/coffee-machines-repair-7.avif"
-                  class="img-fluid rounded shadow"
+                  className="img-fluid rounded shadow"
                   alt="Commercial Coffee Machine Service"
                 />
               </div>
 
-              <div class="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6">
                 <img
                   src="/img/CoffeeMachinesImages/coffee-machines-repair-8.avif"
-                  class="img-fluid rounded shadow mb-4"
+                  className="img-fluid rounded shadow mb-4"
                   alt="Espresso Machine Maintenance"
                 />
 
                 <img
                   src="/img/CoffeeMachinesImages/coffee-machine-repairs-service.avif"
-                  class="img-fluid rounded shadow"
+                  className="img-fluid rounded shadow"
                   alt="Coffee Machine Repairs Service"
                 />
               </div>
@@ -1214,24 +1239,28 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         </section>
         {/* Gallery */}
         {/* Brands section */}
-         <BrandsSliderSection
-        brandsData={brandsLogo_data}
-        sectionId="home-brands"
-        logoMaxHeight="60px"
-        logoMaxWidth="120px"
-        containerHeight="100px"
-      />
+        {!isLoading && brandsLogo_data.length > 0 && (
+          <BrandsSliderSection
+            brandsData={brandsLogo_data}
+            sectionId="home-brands"
+            logoMaxHeight="60px"
+            logoMaxWidth="120px"
+            containerHeight="100px"
+          />
+        )}
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
         {/* testimobial section */}
-        <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -1267,9 +1296,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
-
         </section>
-
       </div >
     </>
   );

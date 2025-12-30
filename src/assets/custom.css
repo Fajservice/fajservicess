@@ -477,6 +477,16 @@ a.btn-green-yellow:hover {
   transform: translateY(-2px);
 }
 
+.quote-icon {
+  max-width: 200px;
+  transition: filter 0.3s ease, transform 0.2s ease;
+}
+
+.quote-icon-btn:hover .quote-icon {
+  filter: drop-shadow(0 5px 5px rgba(14, 14, 14, 0.3));
+  transform: translateY(-2px);
+}
+
 
 .contact-now-btn .contact-icon {
   max-width: 150px;

@@ -13,7 +13,7 @@ import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/DubaiData/Testmonials/WashingMachineRepairNearMeTestimonial.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+import brandsLogo_data from '../../../../public/data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";

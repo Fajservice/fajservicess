@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import SectionTitle from "../Common/SectionTitle";
-import data from '../../Data/project1.json';
+import data from '../../../public/data/project1.json';
 import { GoArrowRight } from "react-icons/go";
 
 const Project1 = () => {

@@ -1,8 +1,5 @@
-
-
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FAQs/VacuumCleanerHomeappFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -10,7 +7,6 @@ import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
@@ -37,17 +33,23 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -64,6 +66,30 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/VacuumCleanerHomeappFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -165,7 +191,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
                 </h2>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -342,7 +368,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-xl-6">
                 <p className="mb-0">In Dubai, vacuum cleaner services provide repair, maintenance, and servicing to extend the lifespan of your vacuum cleaner.< br />
                   These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.< br />
-                  Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE: <b>Service Options:</b></p>
+                  Here's a detailed overview of vacuum cleaner services offered in Dubai, UAE: <b>Service Options:</b></p>
 
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong> Vacuum Cleaner Repair: </strong> This service addresses issues such as motor problems, hose blockages, and faulty attachments. </li>
@@ -538,7 +564,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+              and <small>3-month parts warranty</small> as standard.</p>
             <h2 className="text-center">We specialise in vacuum cleaner services for the following brands</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
@@ -874,78 +900,80 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             </div>
           </div>
         </section>
-         <BeforeAfter
-            title="Recent Completed Repair & Service"
-            subTitle="Before & after"
-            bgImg="img/background-image-2.avif"
-            beforeImg="img/vaccum-cleaner-before-image.avif"
-            afterTitle="After"
-            afterImg="img/vaccum-cleaner-after-image.avif"
-            beforeTitle="Before"
-          />
+        <BeforeAfter
+          title="Recent Completed Repair & Service"
+          subTitle="Before & after"
+          bgImg="img/background-image-2.avif"
+          beforeImg="img/vaccum-cleaner-before-image.avif"
+          afterTitle="After"
+          afterImg="img/vaccum-cleaner-after-image.avif"
+          beforeTitle="Before"
+        />
         {/* Brands section */}
-          {/* Gallery */}
+        {/* Gallery */}
         <section className="section cs_py_30 gallery-section bg-light-gray mb-4">
-          <div class="container">
-            <h3 class="mb-4 text-center">Gallery</h3>
-              <div class="row g-4">
-      
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="BBQ Grill Repair Service Dubai"
-                  />
+          <div className="container">
+            <h3 className="mb-4 text-center">Gallery</h3>
+            <div className="row g-4">
 
-                  <img
-                    src="/img/vacuum-cleaners/robot-vacuum-celaner.avif"
-                    class="img-fluid rounded shadow"
-                    alt="BBQ Grill Cleaning Service Dubai"
-                  />
-                </div>
+              <div className="col-lg-4 col-md-6">
+                <img
+                  src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner.avif"
+                  className="img-fluid rounded shadow mb-4"
+                  alt="BBQ Grill Repair Service Dubai"
+                />
 
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/vacuum-cleaners/vacuum-cleaner-repair-service.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="BBQ Grill Service"
-                  />
-
-                  <img
-                    src="/img/vacuum-cleaners/robot-vacuum-celaner-repair.avif"
-                    class="img-fluid rounded shadow"
-                    alt="BBQ Grill Repair"
-                  />
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner-repair.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="BBQ Grill Repair Service"
-                  />
-
-                  <img
-                    src="/img/vacuum-cleaners/vacuum-celaner-repair.avif"
-                    class="img-fluid rounded shadow"
-                    alt="BBQ Grill Cleaning Service"
-                  />
-                </div>
+                <img
+                  src="/img/vacuum-cleaners/robot-vacuum-celaner.avif"
+                  className="img-fluid rounded shadow"
+                  alt="BBQ Grill Cleaning Service Dubai"
+                />
               </div>
+
+              <div className="col-lg-4 col-md-6">
+                <img
+                  src="/img/vacuum-cleaners/vacuum-cleaner-repair-service.avif"
+                  className="img-fluid rounded shadow mb-4"
+                  alt="BBQ Grill Service"
+                />
+
+                <img
+                  src="/img/vacuum-cleaners/robot-vacuum-celaner-repair.avif"
+                  className="img-fluid rounded shadow"
+                  alt="BBQ Grill Repair"
+                />
+              </div>
+
+              <div className="col-lg-4 col-md-6">
+                <img
+                  src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner-repair.avif"
+                  className="img-fluid rounded shadow mb-4"
+                  alt="BBQ Grill Repair Service"
+                />
+
+                <img
+                  src="/img/vacuum-cleaners/vacuum-celaner-repair.avif"
+                  className="img-fluid rounded shadow"
+                  alt="BBQ Grill Cleaning Service"
+                />
+              </div>
+            </div>
           </div>
         </section>
         {/* Gallery */}
-  
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
-        <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -989,4 +1017,3 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 };
 
 export default VacuumCleanerRepairDetail;
-

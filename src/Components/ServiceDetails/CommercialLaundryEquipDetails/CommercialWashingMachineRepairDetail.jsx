@@ -2,35 +2,24 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/CommercialLaundryEquipData/FAQs/CommercialWashingMachineRepairFaqs.json';
-import {Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/CommercialLaundryEquipData/Testmonials/CommercialWashingMachineRepairTestimonial.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 
-const CommercialWashingMachineRepairDetail = ({ 
-  subtitle, 
-  title, 
-  reviewsbg, 
-  titleSeo , 
-  description, 
-  Author, 
-  Keyword, 
-  URL }) => {
+const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) => {
 
   // For SEO
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Washing Machine repair, Commercial Washing Machine service, Commercial Washing Machine maintenance, Commercial Washing Machine AMC, Commercial Washing Machine Dubai, Commercial Washing Machine Sharjah, Commercial Washing Machine repair Dubai, Commercial Washing Machine repair Sharjah, Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-washing-machine-repair/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-washing-machine-repair/");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");
 
 
   subtitle = "Testimonial"
@@ -40,23 +29,46 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
+  // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+  
+    useEffect(() => {
+      if (firstItemOpen) {
+        setOpenItemIndex(0);
+        setFirstItemOpen(false);
+      }
+    }, [firstItemOpen]);
+  
+    useEffect(() => {
+      loadBackgroudImages();
+    }, []);
+  
+    // Fetch JSON data
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const [faqsResponse, testimonialsResponse] = await Promise.all([
+            fetch(`${import.meta.env.BASE_URL}data/CommercialDishwasherServiceFaqs.json`),
+            fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/KitchenEquipmentsAMCTestimonials.json`)
+          ]);
+  
+          const faqsData = await faqsResponse.json();
+          const testimonialsData = await testimonialsResponse.json();
+  
+          setData(faqsData);
+          setTestimonialData(testimonialsData);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
 
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
 
   const settings = {
     dots: false,
@@ -126,7 +138,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
 
   return (
     <>
-       <HelmetProvider>
+      <HelmetProvider>
         <Helmet>
           <title>Commercial Washing Machine Repair & Maintenance Service</title>
           <meta name="description" content="FAJ Experts provide commercial washing machine repair in Dubai. Book for quality work, commercial laundry, washer, dryer maintenance & AMC services"></meta>
@@ -254,7 +266,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
             </div>
           </div>
         </section>
-  
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
