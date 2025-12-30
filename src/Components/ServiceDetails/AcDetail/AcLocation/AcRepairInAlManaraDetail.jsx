@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlManara.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye} from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -10,7 +9,6 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -26,7 +24,7 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "Book Sharjah AC and Dubai AC Services in Al Manara. Call 043300002 for inverter, multi-split AC (Air Conditioner) repair service near me location");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Manara, AC Repair in Al Manara, AC Maintenance in Al Manara, Air Conditioning Service in Al Manara, Air Conditioner Repair in Al Manara, Air Conditioning Maintenance in Al Manara, AC Cleaning in Al Manara, AC Installation in Al Manara, Air Conditioning Installation in Al Manara, AC Service Company in Al Manara, Air Conditioning Service Company in Al Manara, AC Repair Company in Al Manara, Air Conditioning Repair Company in Al Manara, AC Maintenance Company in Al Manara, Air Conditioning Maintenance Company in Al Manara");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-manara/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-manara/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
     subtitle = "Testimonial"
@@ -36,23 +34,52 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+    // State for fetched data
+            const [data, setData] = useState([]);
+            const [testimonial_data, setTestimonialData] = useState([]);
+            const [isLoading, setIsLoading] = useState(true);
+        
+            const handleItemClick = index => {
+                if (index === openItemIndex) {
+                    setOpenItemIndex(-1);
+                } else {
+                    setOpenItemIndex(index);
+                }
+            };
+            useEffect(() => {
+                if (firstItemOpen) {
+                    setOpenItemIndex(0);
+                    setFirstItemOpen(false);
+                }
+            }, [firstItemOpen]);
+        
+            useEffect(() => {
+                loadBackgroudImages();
+            }, []);
+        
+            // Fetch JSON data
+            useEffect(() => {
+                const fetchData = async () => {
+                    try {
+                        const [faqsResponse, testimonialsResponse] = await Promise.all([
+                            fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlManara.json`),
+                            fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                        ]);
+        
+                        const faqsData = await faqsResponse.json();
+                        const testimonialsData = await testimonialsResponse.json();
+        
+                        setData(faqsData);
+                        setTestimonialData(testimonialsData);
+                    } catch (error) {
+                        console.error('Error fetching data:', error);
+                    } finally {
+                        setIsLoading(false);
+                    }
+                };
+        
+                fetchData();
+            }, []);
 
     const settings = {
         dots: false,

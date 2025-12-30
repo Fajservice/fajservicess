@@ -1,15 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -25,7 +22,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "Get sameday AC Services in DIP Dubai. We are experts in central, split, hvac air condition maintenance, repairing near me Dubai AC fix service");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in DIP, Air Conditioning Service in DIP, Air Con Maintenance & AC Installation in DIP");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dip/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dip/");
 
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
     subtitle = "Testimonial"
@@ -35,23 +32,52 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+    // State for fetched data
+            const [data, setData] = useState([]);
+            const [testimonial_data, setTestimonialData] = useState([]);
+            const [isLoading, setIsLoading] = useState(true);
+        
+            const handleItemClick = index => {
+                if (index === openItemIndex) {
+                    setOpenItemIndex(-1);
+                } else {
+                    setOpenItemIndex(index);
+                }
+            };
+            useEffect(() => {
+                if (firstItemOpen) {
+                    setOpenItemIndex(0);
+                    setFirstItemOpen(false);
+                }
+            }, [firstItemOpen]);
+        
+            useEffect(() => {
+                loadBackgroudImages();
+            }, []);
+        
+            // Fetch JSON data
+            useEffect(() => {
+                const fetchData = async () => {
+                    try {
+                        const [faqsResponse, testimonialsResponse] = await Promise.all([
+                            fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInDip.json`),
+                            fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                        ]);
+        
+                        const faqsData = await faqsResponse.json();
+                        const testimonialsData = await testimonialsResponse.json();
+        
+                        setData(faqsData);
+                        setTestimonialData(testimonialsData);
+                    } catch (error) {
+                        console.error('Error fetching data:', error);
+                    } finally {
+                        setIsLoading(false);
+                    }
+                };
+        
+                fetchData();
+            }, []);
 
     const settings = {
         dots: false,

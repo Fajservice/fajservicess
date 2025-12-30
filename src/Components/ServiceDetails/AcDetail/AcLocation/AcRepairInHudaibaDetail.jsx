@@ -1,19 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInHudaiba.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import LocationKeyword from "./LocationKeyword";
@@ -30,7 +25,7 @@ const AcRepairInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metadescription = String(description || "Quick and Best Price AC Services in Hudaiba Dubai. We are experts in central & split AC (Air Condition) repairing service near me Dubai Fix A/C");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in hudaiba, ac repair in hudaiba, ac maintenance in hudaiba, ac cleaning in hudaiba, ac installation in hudaiba, ac technician in hudaiba, ac servicing in hudaiba, air conditioning service in hudaiba, air conditioning repair in hudaiba, air conditioning maintenance in hudaiba");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-hudaiba/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-hudaiba/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
@@ -40,23 +35,52 @@ const AcRepairInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+    // State for fetched data
+            const [data, setData] = useState([]);
+            const [testimonial_data, setTestimonialData] = useState([]);
+            const [isLoading, setIsLoading] = useState(true);
+        
+            const handleItemClick = index => {
+                if (index === openItemIndex) {
+                    setOpenItemIndex(-1);
+                } else {
+                    setOpenItemIndex(index);
+                }
+            };
+            useEffect(() => {
+                if (firstItemOpen) {
+                    setOpenItemIndex(0);
+                    setFirstItemOpen(false);
+                }
+            }, [firstItemOpen]);
+        
+            useEffect(() => {
+                loadBackgroudImages();
+            }, []);
+        
+            // Fetch JSON data
+            useEffect(() => {
+                const fetchData = async () => {
+                    try {
+                        const [faqsResponse, testimonialsResponse] = await Promise.all([
+                            fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInHudaiba.json`),
+                            fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                        ]);
+        
+                        const faqsData = await faqsResponse.json();
+                        const testimonialsData = await testimonialsResponse.json();
+        
+                        setData(faqsData);
+                        setTestimonialData(testimonialsData);
+                    } catch (error) {
+                        console.error('Error fetching data:', error);
+                    } finally {
+                        setIsLoading(false);
+                    }
+                };
+        
+                fetchData();
+            }, []);
 
     const settings = {
         dots: false,

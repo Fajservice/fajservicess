@@ -1,19 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
@@ -26,7 +20,7 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviews
  const metadescription = String(description || "AC Gas Leak Problem or Not Working? Call an 043300002 and get fast AC Services in Cedre Villas Silicon Oasis Dubai centralized air condition fix");
  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
  const metaKeyword = String(Keyword || "ac service in cedre villas silicon oasis dubai, ac repair in cedre villas silicon oasis dubai, ac maintenance in cedre villas silicon oasis dubai, ac gas filling in cedre villas silicon oasis dubai, ac installation in cedre villas silicon oasis dubai, ac cleaning in cedre villas silicon oasis dubai");
- const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-cedre-villas-silicon-oasis-dubai/").replace(/\/?$/, '/');
+ const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-cedre-villas-silicon-oasis-dubai/");
  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
  subtitle = "Testimonial"
@@ -36,23 +30,52 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviews
  const [openItemIndex, setOpenItemIndex] = useState(-1);
  const [firstItemOpen, setFirstItemOpen] = useState(true);
 
- const handleItemClick = index => {
-  if (index === openItemIndex) {
-   setOpenItemIndex(-1);
-  } else {
-   setOpenItemIndex(index);
-  }
- };
- useEffect(() => {
-  if (firstItemOpen) {
-   setOpenItemIndex(0);
-   setFirstItemOpen(false);
-  }
- }, [firstItemOpen]);
-
- useEffect(() => {
-  loadBackgroudImages();
- }, []);
+ // State for fetched data
+         const [data, setData] = useState([]);
+         const [testimonial_data, setTestimonialData] = useState([]);
+         const [isLoading, setIsLoading] = useState(true);
+     
+         const handleItemClick = index => {
+             if (index === openItemIndex) {
+                 setOpenItemIndex(-1);
+             } else {
+                 setOpenItemIndex(index);
+             }
+         };
+         useEffect(() => {
+             if (firstItemOpen) {
+                 setOpenItemIndex(0);
+                 setFirstItemOpen(false);
+             }
+         }, [firstItemOpen]);
+     
+         useEffect(() => {
+             loadBackgroudImages();
+         }, []);
+     
+         // Fetch JSON data
+         useEffect(() => {
+             const fetchData = async () => {
+                 try {
+                     const [faqsResponse, testimonialsResponse] = await Promise.all([
+                         fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json`),
+                         fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                     ]);
+     
+                     const faqsData = await faqsResponse.json();
+                     const testimonialsData = await testimonialsResponse.json();
+     
+                     setData(faqsData);
+                     setTestimonialData(testimonialsData);
+                 } catch (error) {
+                     console.error('Error fetching data:', error);
+                 } finally {
+                     setIsLoading(false);
+                 }
+             };
+     
+             fetchData();
+         }, []);
 
  const settings = {
   dots: false,

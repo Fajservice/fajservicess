@@ -1,24 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAcademyCity.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
@@ -31,7 +22,7 @@ const AcRepairInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metadescription = String(description || "Fixing AC Error. Best AC Services in Nad Al Sheba & Dubai Hills. Offering air conditioner gas filling and fix compressor. Get fast ac repairing near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || " AC Services In Nad Al Sheba, AC Repair in Nad Al Sheba, AC Maintenance in Nad Al Sheba, AC Installation in Nad Al Sheba, Air Conditioner Service in Nad Al Sheba, Air Conditioner Repair in Nad Al Sheba, Air Conditioner Maintenance in Nad Al Sheba, Air Conditioner Installation in Nad Al Sheba");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-nad-al-sheba/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-nad-al-sheba/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
@@ -41,23 +32,52 @@ const AcRepairInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+   // State for fetched data
+           const [data, setData] = useState([]);
+           const [testimonial_data, setTestimonialData] = useState([]);
+           const [isLoading, setIsLoading] = useState(true);
+       
+           const handleItemClick = index => {
+               if (index === openItemIndex) {
+                   setOpenItemIndex(-1);
+               } else {
+                   setOpenItemIndex(index);
+               }
+           };
+           useEffect(() => {
+               if (firstItemOpen) {
+                   setOpenItemIndex(0);
+                   setFirstItemOpen(false);
+               }
+           }, [firstItemOpen]);
+       
+           useEffect(() => {
+               loadBackgroudImages();
+           }, []);
+       
+           // Fetch JSON data
+           useEffect(() => {
+               const fetchData = async () => {
+                   try {
+                       const [faqsResponse, testimonialsResponse] = await Promise.all([
+                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAcademyCity.json`),
+                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                       ]);
+       
+                       const faqsData = await faqsResponse.json();
+                       const testimonialsData = await testimonialsResponse.json();
+       
+                       setData(faqsData);
+                       setTestimonialData(testimonialsData);
+                   } catch (error) {
+                       console.error('Error fetching data:', error);
+                   } finally {
+                       setIsLoading(false);
+                   }
+               };
+       
+               fetchData();
+           }, []);
 
     const settings = {
         dots: false,

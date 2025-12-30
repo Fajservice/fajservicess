@@ -1,19 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlBadaa.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import LocationKeyword from "./LocationKeyword";
@@ -27,7 +22,7 @@ const AcRepairInFlamingoVillasDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "Dial 043300002 AC Services in Flamingo Villas Dubai. We are experts in central & split air conditioning repair and maintenance service near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in flamingo villas, ac service in flamingo villas, ac maintenance in flamingo villas, ac cleaning in flamingo villas, ac installation in flamingo villas, central ac service in flamingo villas, split ac service in flamingo villas, ac technician in flamingo villas, ac servicing in flamingo villas, air conditioning service in flamingo villas");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-flamingo-villas/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-flamingo-villas/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -36,23 +31,52 @@ const AcRepairInFlamingoVillasDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+   // State for fetched data
+           const [data, setData] = useState([]);
+           const [testimonial_data, setTestimonialData] = useState([]);
+           const [isLoading, setIsLoading] = useState(true);
+       
+           const handleItemClick = index => {
+               if (index === openItemIndex) {
+                   setOpenItemIndex(-1);
+               } else {
+                   setOpenItemIndex(index);
+               }
+           };
+           useEffect(() => {
+               if (firstItemOpen) {
+                   setOpenItemIndex(0);
+                   setFirstItemOpen(false);
+               }
+           }, [firstItemOpen]);
+       
+           useEffect(() => {
+               loadBackgroudImages();
+           }, []);
+       
+           // Fetch JSON data
+           useEffect(() => {
+               const fetchData = async () => {
+                   try {
+                       const [faqsResponse, testimonialsResponse] = await Promise.all([
+                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlBadaa.json`),
+                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                       ]);
+       
+                       const faqsData = await faqsResponse.json();
+                       const testimonialsData = await testimonialsResponse.json();
+       
+                       setData(faqsData);
+                       setTestimonialData(testimonialsData);
+                   } catch (error) {
+                       console.error('Error fetching data:', error);
+                   } finally {
+                       setIsLoading(false);
+                   }
+               };
+       
+               fetchData();
+           }, []);
 
     const settings = {
         dots: false,

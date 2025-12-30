@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlBadaa.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -9,7 +8,6 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -24,7 +22,7 @@ const AcRepairInDownTownDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "Get reliable & fast AC Services in Downtown Dubai. Book an 043300002 for central cooling unit air conditioner maintenance & repair near me.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in downtown, ac service in downtown, ac maintenance in downtown, ac installation in downtown, ac cleaning in downtown, ac technician in downtown, air conditioning service in downtown, air conditioner repair in downtown, air conditioner service in downtown, air conditioner maintenance in downtown");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-downtown/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-downtown/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -33,23 +31,52 @@ const AcRepairInDownTownDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+   // State for fetched data
+           const [data, setData] = useState([]);
+           const [testimonial_data, setTestimonialData] = useState([]);
+           const [isLoading, setIsLoading] = useState(true);
+       
+           const handleItemClick = index => {
+               if (index === openItemIndex) {
+                   setOpenItemIndex(-1);
+               } else {
+                   setOpenItemIndex(index);
+               }
+           };
+           useEffect(() => {
+               if (firstItemOpen) {
+                   setOpenItemIndex(0);
+                   setFirstItemOpen(false);
+               }
+           }, [firstItemOpen]);
+       
+           useEffect(() => {
+               loadBackgroudImages();
+           }, []);
+       
+           // Fetch JSON data
+           useEffect(() => {
+               const fetchData = async () => {
+                   try {
+                       const [faqsResponse, testimonialsResponse] = await Promise.all([
+                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlBadaa.json`),
+                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                       ]);
+       
+                       const faqsData = await faqsResponse.json();
+                       const testimonialsData = await testimonialsResponse.json();
+       
+                       setData(faqsData);
+                       setTestimonialData(testimonialsData);
+                   } catch (error) {
+                       console.error('Error fetching data:', error);
+                   } finally {
+                       setIsLoading(false);
+                   }
+               };
+       
+               fetchData();
+           }, []);
 
     const settings = {
         dots: false,

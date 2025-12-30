@@ -1,24 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairinAlJafiliya.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
@@ -30,7 +21,7 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, title
     const metadescription = String(description || "Are you finding for ac services in jumeirah golf estates dubai? Call 043300002 for your inverter and central air conditioner repair & maintenance..");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || " ac services in jumeirah golf estates, ac repair in jumeirah golf estates, ac maintenance in jumeirah golf estates, ac installation in jumeirah golf estates, ac cleaning in jumeirah golf estates, ac service in jumeirah golf estates, ac technician in jumeirah golf estates, ac company in jumeirah golf estates");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
@@ -40,23 +31,52 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, title
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+   // State for fetched data
+           const [data, setData] = useState([]);
+           const [testimonial_data, setTestimonialData] = useState([]);
+           const [isLoading, setIsLoading] = useState(true);
+       
+           const handleItemClick = index => {
+               if (index === openItemIndex) {
+                   setOpenItemIndex(-1);
+               } else {
+                   setOpenItemIndex(index);
+               }
+           };
+           useEffect(() => {
+               if (firstItemOpen) {
+                   setOpenItemIndex(0);
+                   setFirstItemOpen(false);
+               }
+           }, [firstItemOpen]);
+       
+           useEffect(() => {
+               loadBackgroudImages();
+           }, []);
+       
+           // Fetch JSON data
+           useEffect(() => {
+               const fetchData = async () => {
+                   try {
+                       const [faqsResponse, testimonialsResponse] = await Promise.all([
+                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairinAlJafiliya.json`),
+                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                       ]);
+       
+                       const faqsData = await faqsResponse.json();
+                       const testimonialsData = await testimonialsResponse.json();
+       
+                       setData(faqsData);
+                       setTestimonialData(testimonialsData);
+                   } catch (error) {
+                       console.error('Error fetching data:', error);
+                   } finally {
+                       setIsLoading(false);
+                   }
+               };
+       
+               fetchData();
+           }, []);
 
     const settings = {
         dots: false,

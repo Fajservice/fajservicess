@@ -1,15 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlBarshaSouth.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
@@ -25,7 +22,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metadescription = String(description || "043300002 FAJ AC Services in Al Barsha South Dubai. We are experts in central & split air condition maintenance & repairing near me Dubai AC fix");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Repair  in Al Barsha South, Air Conditioning Service in Al Barsha South, Air Con Maintenance & AC Installation in Al Barsha South");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barsha-south").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barsha-south/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
@@ -35,23 +32,52 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+ // State for fetched data
+         const [data, setData] = useState([]);
+         const [testimonial_data, setTestimonialData] = useState([]);
+         const [isLoading, setIsLoading] = useState(true);
+     
+         const handleItemClick = index => {
+             if (index === openItemIndex) {
+                 setOpenItemIndex(-1);
+             } else {
+                 setOpenItemIndex(index);
+             }
+         };
+         useEffect(() => {
+             if (firstItemOpen) {
+                 setOpenItemIndex(0);
+                 setFirstItemOpen(false);
+             }
+         }, [firstItemOpen]);
+     
+         useEffect(() => {
+             loadBackgroudImages();
+         }, []);
+     
+         // Fetch JSON data
+         useEffect(() => {
+             const fetchData = async () => {
+                 try {
+                     const [faqsResponse, testimonialsResponse] = await Promise.all([
+                         fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlBarshaSouth.json`),
+                         fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                     ]);
+     
+                     const faqsData = await faqsResponse.json();
+                     const testimonialsData = await testimonialsResponse.json();
+     
+                     setData(faqsData);
+                     setTestimonialData(testimonialsData);
+                 } catch (error) {
+                     console.error('Error fetching data:', error);
+                 } finally {
+                     setIsLoading(false);
+                 }
+             };
+     
+             fetchData();
+         }, []);
 
   const settings = {
     dots: false,

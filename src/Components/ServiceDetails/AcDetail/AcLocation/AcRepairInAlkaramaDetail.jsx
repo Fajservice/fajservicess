@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlJafza.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -9,7 +8,6 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -25,7 +23,7 @@ const AcRepairInAlkaramaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "Installing, Maintaining and AC Services in Al Karama Dubai Call 043300002 for central & split Air Conditioner maintenance, repair near me Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Al Karama, AC Maintenance, AC Repair, Air Conditioner Service, Air Conditioner Repair, Air Conditioner Maintenance, Central AC Service, Split AC Service, Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-karama/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-karama/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
 
@@ -36,23 +34,52 @@ const AcRepairInAlkaramaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+    // State for fetched data
+               const [data, setData] = useState([]);
+               const [testimonial_data, setTestimonialData] = useState([]);
+               const [isLoading, setIsLoading] = useState(true);
+           
+               const handleItemClick = index => {
+                   if (index === openItemIndex) {
+                       setOpenItemIndex(-1);
+                   } else {
+                       setOpenItemIndex(index);
+                   }
+               };
+               useEffect(() => {
+                   if (firstItemOpen) {
+                       setOpenItemIndex(0);
+                       setFirstItemOpen(false);
+                   }
+               }, [firstItemOpen]);
+           
+               useEffect(() => {
+                   loadBackgroudImages();
+               }, []);
+           
+               // Fetch JSON data
+               useEffect(() => {
+                   const fetchData = async () => {
+                       try {
+                           const [faqsResponse, testimonialsResponse] = await Promise.all([
+                               fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlJafza.json`),
+                               fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                           ]);
+           
+                           const faqsData = await faqsResponse.json();
+                           const testimonialsData = await testimonialsResponse.json();
+           
+                           setData(faqsData);
+                           setTestimonialData(testimonialsData);
+                       } catch (error) {
+                           console.error('Error fetching data:', error);
+                       } finally {
+                           setIsLoading(false);
+                       }
+                   };
+           
+                   fetchData();
+               }, []);
 
     const settings = {
         dots: false,

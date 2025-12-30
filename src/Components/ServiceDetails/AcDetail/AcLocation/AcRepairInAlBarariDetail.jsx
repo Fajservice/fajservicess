@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAcademyCity.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -8,7 +7,6 @@ import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -24,7 +22,7 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "We are providing AC Service in Al Barari Dubai. We are experts in central, chiller air conditioner repair and maintenance near me Dubai 043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service Al Barari, AC Repair Al Barari, Chiller AC Service Al Barari, FCU AC Repair Al Barari, Air Conditioner Maintenance Al Barari, Central AC Service Al Barari, Air Conditioning Service Al Barari, AC Installation Al Barari, HVAC Service Al Barari");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barari/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barari/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
 
@@ -35,23 +33,52 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
+  // State for fetched data
+          const [data, setData] = useState([]);
+          const [testimonial_data, setTestimonialData] = useState([]);
+          const [isLoading, setIsLoading] = useState(true);
+      
+          const handleItemClick = index => {
+              if (index === openItemIndex) {
+                  setOpenItemIndex(-1);
+              } else {
+                  setOpenItemIndex(index);
+              }
+          };
+          useEffect(() => {
+              if (firstItemOpen) {
+                  setOpenItemIndex(0);
+                  setFirstItemOpen(false);
+              }
+          }, [firstItemOpen]);
+      
+          useEffect(() => {
+              loadBackgroudImages();
+          }, []);
+      
+          // Fetch JSON data
+          useEffect(() => {
+              const fetchData = async () => {
+                  try {
+                      const [faqsResponse, testimonialsResponse] = await Promise.all([
+                          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAcademyCity.json`),
+                          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                      ]);
+      
+                      const faqsData = await faqsResponse.json();
+                      const testimonialsData = await testimonialsResponse.json();
+      
+                      setData(faqsData);
+                      setTestimonialData(testimonialsData);
+                  } catch (error) {
+                      console.error('Error fetching data:', error);
+                  } finally {
+                      setIsLoading(false);
+                  }
+              };
+      
+              fetchData();
+          }, []);
 
     const settings = {
         dots: false,
