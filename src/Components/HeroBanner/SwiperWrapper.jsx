@@ -16,7 +16,7 @@ const SwiperWrapper = ({ data, renderSlide }) => {
       speed={300}
       autoplay={{ delay: 5000, disableOnInteraction: false }}
       navigation={false}
-      pagination={{ clickable: true }}
+      pagination={{ clickable: true }}npm uninstall react-icons
       a11y={{ enabled: true }}
       onAfterInit={() => performance.mark?.("swiper-initialized")}
     >

@@ -1,52 +1,64 @@
-import React, { useEffect, useState, lazy, Suspense, memo } from "react";
+import React, { useEffect, useMemo, useState, useCallback, lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
 import { MdAddIcCall } from "react-icons/md";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 // Lazy load Swiper only when needed
-const SwiperWrapper = lazy(() => import("./SwiperWrapper"));
+const SwiperWrapper = lazy(() => 
+  import("./SwiperWrapper").then(module => ({ default: module.default }))
+);
 
 const HeroBanner1 = () => {
   const [data, setData] = useState([]);
   const [showSwiper, setShowSwiper] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
+  // Fetch JSON data dynamically
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/herobanner1.json`)
       .then(res => res.json())
-      .then(json => setData(json))
-      .catch(console.error);
+      .then(jsonData => {
+        setData(jsonData);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        console.error("Failed to load hero banner data:", err);
+        setIsLoading(false);
+      });
   }, []);
 
-  // Preload first image
+  const firstSlide = useMemo(() => data[0], [data]);
+
+  // Preload first image and then show Swiper
   useEffect(() => {
-    if (!data.length) return;
-    const firstSlide = data[0];
+    if (!firstSlide) return;
+    
     const img = new Image();
     img.src = `${import.meta.env.BASE_URL}${firstSlide.img}`;
-    img.onload = () => setShowSwiper(true);
-  }, [data]);
+    img.decode?.().catch(() => null).finally(() => {
+      requestAnimationFrame(() => setShowSwiper(true));
+    });
+  }, [firstSlide]);
 
-  const renderSlide = (item, index) => (
-    <div
-      key={index}
-      className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center"
-    >
+  const renderSlide = useCallback((item, index) => (
+    <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center">
       <picture>
         <source
-          srcSet={`${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, ".avif")} 1280w`}
+          srcSet={`
+            ${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, ".avif")} 1280w
+          `}
           type="image/avif"
         />
         <source
-          srcSet={`${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, ".webp")} 1280w`}
+          srcSet={`
+            ${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, ".webp")} 1280w
+          `}
           type="image/webp"
         />
         <img
           src={`${import.meta.env.BASE_URL}${item.img}`}
           alt={`Hero banner: ${item.title}`}
           className="cs_hero_bg"
-          width={1280}
-          height={720} // set real aspect ratio
-          loading="eager" // first slide loads immediately
         />
       </picture>
 
@@ -72,7 +84,7 @@ const HeroBanner1 = () => {
               </span>
               <a
                 href={item.telLink}
-                className="cs_fs-24 cs_semibold cs_heading_color"
+                className="cs_fs_24 cs_semibold cs_heading_color"
                 aria-label={`Call ${item.number}`}
               >
                 {item.number}
@@ -82,23 +94,38 @@ const HeroBanner1 = () => {
         </div>
       </div>
     </div>
-  );
+  ), []);
 
-  if (!data.length) return null;
+  // Loading state
+  if (isLoading || !firstSlide) {
+    return (
+      <section className="cs_slider cs_style_1" aria-label="Hero banner slider">
+        <h1 className="cs_hero_title cs_fs_50 cs_mb_18 d-none">F A J Technical Services L.L.C</h1>
+        <div className="cs_slider_container">
+          <div className="cs_slider_wrapper">
+            <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" />
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="cs_slider cs_style_1" aria-label="Hero banner slider">
-      <h1 className="cs_hero_title cs_fs_50 cs_mb_18 d-none">
-        F A J Technical Services L.L.C
-      </h1>
+      <h1 className="cs_hero_title cs_fs_50 cs_mb_18 d-none">F A J Technical Services L.L.C</h1>
       <div className="cs_slider_container">
         <div className="cs_slider_wrapper">
-          {!showSwiper && renderSlide(data[0], 0)}
+          {/* Show first slide immediately for best LCP */}
+          {!showSwiper && renderSlide(firstSlide, 0)}
+
+          {/* Load Swiper dynamically only after first image is painted */}
           {showSwiper && data.length > 1 && (
-            <Suspense fallback={renderSlide(data[0], 0)}>
+            <Suspense fallback={renderSlide(firstSlide, 0)}>
               <SwiperWrapper data={data} renderSlide={renderSlide} />
             </Suspense>
           )}
+
+          {/* Single slide - no Swiper needed */}
           {showSwiper && data.length === 1 && renderSlide(data[0], 0)}
         </div>
       </div>
@@ -106,4 +133,4 @@ const HeroBanner1 = () => {
   );
 };
 
-export default memo(HeroBanner1);
+export default React.memo(HeroBanner1);

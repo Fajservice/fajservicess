@@ -45,8 +45,11 @@ export default defineConfig(({ mode }) => {
           drop_console: true,
           drop_debugger: true,
           pure_funcs: ['console.log', 'console.info', 'console.debug'],
+          passes: 2,
         },
-        mangle: true,
+        mangle: {
+          safari10: true,
+        },
         format: {
           comments: false,
         },
@@ -61,18 +64,46 @@ export default defineConfig(({ mode }) => {
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
+              // Core React - loads immediately
               if (id.includes('react-dom')) return 'react-dom';
+              if (id.includes('react') && !id.includes('react-icons') && !id.includes('react-router') && !id.includes('react-helmet')) {
+                return 'react';
+              }
+              
+              // Router - loads immediately but separate
               if (id.includes('react-router')) return 'router';
-              if (id.includes('react') && !id.includes('react-icons')) return 'react';
-              if (id.includes('swiper')) return 'swiper';
-              if (id.includes('react-icons')) return 'icons';
+              
+              // Helmet - small, can be with core
               if (id.includes('react-helmet')) return 'helmet';
               
+              // Swiper - lazy loaded, separate chunk
+              if (id.includes('swiper')) return 'swiper';
+              
+              // Icons - lazy loaded, separate by icon library
+              if (id.includes('react-icons/md')) return 'icons-md';
+              if (id.includes('react-icons/io')) return 'icons-io';
+              if (id.includes('react-icons/go')) return 'icons-go';
+              if (id.includes('react-icons/bi')) return 'icons-bi';
+              if (id.includes('react-icons')) return 'icons';
+              
+              // Split large vendor libraries
+              if (id.includes('lodash')) return 'lodash';
+              if (id.includes('axios')) return 'axios';
+              if (id.includes('framer-motion')) return 'framer';
+              
+              // Everything else in vendor
               return 'vendor';
             }
+            
+            // Split components by page/feature
+            if (id.includes('/Components/HeroBanner/')) return 'hero';
+            if (id.includes('/Components/Swiper')) return 'swiper-component';
           },
 
-          chunkFileNames: 'assets/js/[name]-[hash].js',
+          chunkFileNames: (chunkInfo) => {
+            // Add hash for cache busting
+            return 'assets/js/[name]-[hash].js';
+          },
           entryFileNames: 'assets/js/[name]-[hash].js',
           assetFileNames: ({ name }) => {
             if (/\.(css)$/.test(name ?? '')) {
@@ -88,6 +119,12 @@ export default defineConfig(({ mode }) => {
           },
         },
       },
+    },
+
+    // Optimize dependencies
+    optimizeDeps: {
+      include: ['react', 'react-dom', 'react-router-dom'],
+      exclude: ['swiper', 'react-icons'],
     },
 
     server: {
