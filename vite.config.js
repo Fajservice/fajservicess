@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { visualizer } from 'rollup-plugin-visualizer';
+import viteCompression from 'vite-plugin-compression';
 
 export default defineConfig(({ mode }) => {
   const isProd = mode === 'production';
@@ -9,33 +10,64 @@ export default defineConfig(({ mode }) => {
     plugins: [
       react({
         babel: {
-          plugins: isProd
-            ? ['babel-plugin-transform-react-remove-prop-types']
-            : []
-        }
+          plugins: isProd ? ['babel-plugin-transform-react-remove-prop-types'] : [],
+        },
       }),
 
       isProd &&
         visualizer({
           filename: 'dist/stats.html',
           gzipSize: true,
-          brotliSize: true
-        })
+          brotliSize: true,
+        }),
+
+      isProd &&
+        viteCompression({
+          algorithm: 'brotliCompress',
+          ext: '.br',
+          threshold: 1024,
+          deleteOriginFile: false,
+        }),
+      isProd &&
+        viteCompression({
+          algorithm: 'gzip',
+          ext: '.gz',
+          threshold: 1024,
+          deleteOriginFile: false,
+        }),
     ].filter(Boolean),
 
     build: {
-      target: 'es2022',
-      minify: 'esbuild',
+      target: 'es2020',
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true,
+          drop_debugger: true,
+          pure_funcs: ['console.log', 'console.info', 'console.debug'],
+        },
+        mangle: true,
+        format: {
+          comments: false,
+        },
+      },
       sourcemap: false,
       cssCodeSplit: true,
       reportCompressedSize: false,
+      chunkSizeWarningLimit: 500,
+      assetsInlineLimit: 4096,
 
       rollupOptions: {
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
+              if (id.includes('react-dom')) return 'react-dom';
               if (id.includes('react-router')) return 'router';
-              if (id.includes('react')) return 'react';
+              if (id.includes('react') && !id.includes('react-icons')) return 'react';
+              if (id.includes('swiper')) return 'swiper';
+              if (id.includes('react-icons')) return 'icons';
+              if (id.includes('react-helmet')) return 'helmet';
+              
               return 'vendor';
             }
           },
@@ -46,12 +78,22 @@ export default defineConfig(({ mode }) => {
             if (/\.(css)$/.test(name ?? '')) {
               return 'assets/css/[name]-[hash][extname]';
             }
+            if (/\.(woff|woff2|eot|ttf|otf)$/.test(name ?? '')) {
+              return 'assets/fonts/[name]-[hash][extname]';
+            }
+            if (/\.(png|jpe?g|gif|svg|webp|avif|ico)$/.test(name ?? '')) {
+              return 'assets/images/[name]-[hash][extname]';
+            }
             return 'assets/[name]-[hash][extname]';
-          }
-        }
+          },
+        },
       },
+    },
 
-      chunkSizeWarningLimit: 500
-    }
+    server: {
+      fs: {
+        strict: true,
+      },
+    },
   };
 });

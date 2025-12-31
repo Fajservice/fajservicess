@@ -1,8 +1,30 @@
+import { useEffect, useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
-import data from '../../Data/team1.json';
 import { Link } from "react-router-dom";
 
 const Team1 = () => {
+
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`${import.meta.env.BASE_URL}Data/team1.json`);
+                const teamData = await response.json();
+                setData(teamData);
+            } catch (error) {
+                console.error('Error fetching team data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
+
     return (
         <section>
         <div className="cs_height_40 cs_height_lg_40"></div>
@@ -12,7 +34,7 @@ const Team1 = () => {
               <SectionTitle
                 SubTitle="Team Member"
                 Title="Meat Our Experts <br> Team Member"
-              ></SectionTitle>
+              />
             </div>
           
           </div>

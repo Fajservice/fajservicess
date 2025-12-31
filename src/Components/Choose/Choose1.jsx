@@ -25,6 +25,9 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
       <div className="container">
         <div className="cs_section_heading cs_style_1 text-center">
           <SectionTitle2 SubTitle="WHY CHOOSE US" />
+          {content && (
+            <p className="cs_section_content mt-3">{content}</p>
+          )}
         </div>
 
         <div className="cs_height_27 cs_height_lg_65"></div>

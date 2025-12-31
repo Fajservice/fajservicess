@@ -1,12 +1,32 @@
-import { useEffect } from 'react';
-import data from '../../Data/counter.json';
+import { useEffect, useState } from 'react';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
 
 const Counter1 = () => {
 
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
     useEffect(() => {
         loadBackgroudImages();
-      }, []);
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`${import.meta.env.BASE_URL}Data/counter.json`);
+                const counterData = await response.json();
+                setData(counterData);
+            } catch (error) {
+                console.error('Error fetching counter data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
 
     return (
         <section className="cs_counter cs_style_1 cs_heading_bg cs_bg_filed position-relative" data-background="img/counter_bg_1.svg">

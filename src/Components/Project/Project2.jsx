@@ -1,8 +1,30 @@
+import { useEffect, useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
-import data from '../../Data/project2.json';
 import { Link } from "react-router-dom";
 
 const Project2 = () => {
+
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`${import.meta.env.BASE_URL}Data/project2.json`);
+                const projectData = await response.json();
+                setData(projectData);
+            } catch (error) {
+                console.error('Error fetching project data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
+
     return (
         <section className="cs_tabs cs_style_1 position-relative">
         <div className="cs_height_80 cs_height_lg_80"></div>
@@ -12,7 +34,7 @@ const Project2 = () => {
                 <SectionTitle
                     SubTitle="Popular Project"
                     Title="Where Your Car Gets Pride the Best Care"               
-                ></SectionTitle>
+                />
             </div>
           </div>
           <ul className="cs_tab_links cs_style_1 cs_type_2 cs_heading_color cs_mp_0 wow fadeInUp">

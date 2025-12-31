@@ -11,7 +11,6 @@ const Contact1 = lazy(() => import("../Components/Contact/Contact"));
 const Testimonial1 = lazy(() => import("../Components/Testimonial/Testimonial1"));
 const Blog3 = lazy(() => import("../Components/Blog/Blog3"));
 const Process = lazy(() => import("../Components/Process/Process"));
-import data from "../../public/data/testimonial1.json";
 
 const DEFAULT_SEO = {
   title: "FAJ / Installation, Repair and Maintenance Company in Dubai ",
@@ -33,6 +32,27 @@ const Home = ({
   const canonicalUrl = URL.replace(/\/?$/, "/");
 
   const [loadRest, setLoadRest] = useState(true);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(`${import.meta.env.BASE_URL}data/testimonial1.json`);
+        const testimonialData = await response.json();
+        setData(testimonialData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <>
@@ -95,7 +115,7 @@ const Home = ({
           <BeforeAfter
             title="Recent Completed Projects"
             subTitle="Before & after"
-            bgImg="img/background-image-2.avif"
+            
             beforeImg="img/after_img_1.avif"
             afterTitle="After"
             afterImg="img/before_img_1.avif"
@@ -126,15 +146,17 @@ const Home = ({
           />
         </Suspense>
 
-        <Suspense fallback={null}>
-          <Testimonial1
-            subtitle="What Our Clients Say"
-            title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
-            testimonialData={data}
-            sectionId="home-testimonials"
-          />
-        </Suspense>
+        {!isLoading && data.length > 0 && (
+          <Suspense fallback={null}>
+            <Testimonial1
+              subtitle="What Our Clients Say"
+              title="Customer <span>Reviews</span>"
+              bgImg="img/testimonialbg.jpg"
+              testimonialData={data}
+              sectionId="home-testimonials"
+            />
+          </Suspense>
+        )}
 
         <Suspense fallback={null}>
           <Blog3 />

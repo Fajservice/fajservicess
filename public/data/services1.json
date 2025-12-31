@@ -1,6 +1,6 @@
 [
   {
-    "img": "img/service_img_1.avif",
+    "img": "img/AirConditioner Service.webp",
     "title": "Air Conditioning Services",
     "desc": "Stay cool this hot summer! Make your home or workplace a more comfortable place to live and work with FAJ's professional AC repair and maintenance contract services.",   
     "btnText": "READ MORE",
@@ -8,7 +8,7 @@
     "icon": "img/icons/airconditioningservices.svg"
   },
   {
-    "img": "img/Commercial-refrigeration-service.avif",
+    "img": "img/Commercial-refrigeration-service.webp",
     "title": "Commercial Refrigeration Services",
     "desc": "Prevent losses when your refrigeration system fails. Keeping your stock in optimal condition is vital for extending storage life and managing costs.",   
     "btnText": "READ MORE",
@@ -16,7 +16,7 @@
     "icon": "img/icons/commercialrefrigerationservices.svg"
   },
   {
-    "img": "img/Laundry-equipment-services.avif",
+    "img": "img/LaundryEquipmentServices.png",
     "title": "Laundry Equipment Services",
     "desc": "We understand that time is of the essence when it comes to laundry system breakdowns, as these issues can significantly impact daily use or the business operation.",   
     "btnText": "READ MORE",
@@ -32,7 +32,7 @@
     "icon": "img/icons/coffeemachineservices.svg"
   },
   {
-    "img": "img/kitchen-equipment.avif",
+    "img": "img/kitchen-equipment.webp",
     "title": "Kitchen Equipment Services",
     "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services.",
     "btnText": "READ MORE",
