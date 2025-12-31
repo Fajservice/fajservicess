@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -22,7 +22,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/commercial-ref%20-mc.jpg");
+  const metaImage = "https://www.fajservices.ae/img/commercial-ref%20-mc.jpg";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -342,10 +342,10 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Compressor Won’t Start</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Compressor Won't Start</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If the compressor won’t start, check that power is connected and inspect the circuit breaker. For help with pressurising refrigerant gas, seek professional assistance.</p>
+                    <p className="p-2 mb-0">If the compressor won't start, check that power is connected and inspect the circuit breaker. For help with pressurising refrigerant gas, seek professional assistance.</p>
                   </div>
                 </div>
               </div>
@@ -606,14 +606,17 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
+        
         {/* testimobial section */}
-        <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -647,7 +650,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"
-          ></Serviceappointemnt>
+          />
 
         </section>
 
@@ -657,4 +660,3 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
 };
 
 export default CommercialRefrigerationMaintenceDetail;
-

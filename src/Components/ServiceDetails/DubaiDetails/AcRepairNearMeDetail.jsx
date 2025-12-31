@@ -1,7 +1,4 @@
-
-
 import { useEffect, useRef, useState } from "react";
-import data from '../../../public/data/AcData/AcFaqs/AcRepairFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -11,15 +8,11 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/DubaiData/Testmonials/ACNearMeTestimonial.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import FAJACPrice from "../../Miscellaneous/FAJACPrice";
 import { Link } from "react-router-dom";
 import Testimonial1 from "../../Testimonial/Testimonial1";
-
-// import { Link } from "react-router-dom";
 
 const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -27,8 +20,8 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metadescription = String(description || "Looking for AC repair near me in Dubai? Contact us at 043300002 for AC maintenance. Get same-day air conditioner repair service near me, Sharjah");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Repair Near Me, AC Service Near Me, Air Conditioner Repair Near Me, Air Conditioner Service Near Me, AC Maintenance Near Me, Split AC Repair Near Me, Split AC Service Near Me, Central AC Repair Near Me, Central AC Service Near Me");
-  const metaURL = String(URL || "https://www.fajservices.ae/dubai/ac-repair-near-me/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+  const metaURL = String(URL || "https://www.fajservices.ae/dubai/ac-repair-near-me/");
+  const metaImage = "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -37,6 +30,11 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -44,6 +42,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
       setOpenItemIndex(index);
     }
   };
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -53,6 +52,30 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}Data/DubaiData/Testmonials/ACNearMeTestimonial.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -120,7 +143,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">AC Repair Near Me </h1>
-            <p>As one of Dubai’s leading air conditioning companies, we possess the skills and experience necessary to support your air conditioning system. Our team of AC technicians provides comprehensive coverage across Dubai for AC installation, AC servicing, and AC repair.
+            <p>As one of Dubai's leading air conditioning companies, we possess the skills and experience necessary to support your air conditioning system. Our team of AC technicians provides comprehensive coverage across Dubai for AC installation, AC servicing, and AC repair.
               <br />
               We provide services for all types of air conditioning systems in Dubai and Sharjah, ensuring high quality.
             </p>
@@ -156,7 +179,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai"  />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai" />
 
               </div>
             </div>
@@ -178,17 +201,17 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">Understanding AC Service in Dubai</h2>
-            <p>Are you tired of searching for “AC Service near me” or “AC servicing”? Welcome to FAJ Company’s AC Service in Dubai, where comfort meets convenience! Let’s take a closer look at what we offer:</p>
+            <p>Are you tired of searching for "AC Service near me" or "AC servicing"? Welcome to FAJ Company's AC Service in Dubai, where comfort meets convenience! Let's take a closer look at what we offer:</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repairing.avif`} alt="AC Repairing"  />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repairing.avif`} alt="AC Repairing" />
               </div>
               <div className="col-md-6">
 
                 <ul className="mb-0">
-                  <li> <strong>Emergency Assistance:</strong> Breakdowns can happen at any time, but we’re here to help. Our team will respond quickly to get your air conditioning unit up and running again.</li>
+                  <li> <strong>Emergency Assistance:</strong> Breakdowns can happen at any time, but we're here to help. Our team will respond quickly to get your air conditioning unit up and running again.</li>
                   <li> <strong>Expertise and Experience:</strong> You can trust that our professionals are highly trained and experienced in AC service. Each AC technician has a minimum of three years of experience, enabling them to handle even the most complex AC issues with confidence.</li>
-                  <li> <strong>AC Inspection and Diagnosis:</strong> Our skilled technicians will start by conducting a thorough inspection and diagnosis of your AC unit. Whether you’re experiencing strange noises or poor cooling performance, no issue is too big or too small for our experts.</li>
+                  <li> <strong>AC Inspection and Diagnosis:</strong> Our skilled technicians will start by conducting a thorough inspection and diagnosis of your AC unit. Whether you're experiencing strange noises or poor cooling performance, no issue is too big or too small for our experts.</li>
                   <li> <strong>Routine AC Maintenance:</strong> Keep your AC in peak condition with regular check-ups and AC filter cleanings. Routine AC maintenance is essential for optimal performance and longevity of your system.
                     <br />
                     At FAJ Company, we are dedicated to providing reliable AC services that meet your needs.</li>
@@ -202,8 +225,8 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10 text-center">
-                <h2 className="cs_fs_30 text-light">Benefits of FAJ Company’s AC Service in Dubai</h2>
-                <p>Are you considering FAJ Company’s AC service in Dubai? Here are some compelling benefits to keep in mind</p>
+                <h2 className="cs_fs_30 text-light">Benefits of FAJ Company's AC Service in Dubai</h2>
+                <p>Are you considering FAJ Company's AC service in Dubai? Here are some compelling benefits to keep in mind</p>
                 <div className="row mt-4 gx-4 gy-4">
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
@@ -261,7 +284,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                         <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Peace of Mind</h3>
-                      <p className="small">With FAJ Company’s AC Service in Dubai, you can enjoy peace of mind knowing your cooling needs are in expert hands.</p>
+                      <p className="small">With FAJ Company's AC Service in Dubai, you can enjoy peace of mind knowing your cooling needs are in expert hands.</p>
                     </div>
                   </div>
                 </div>
@@ -363,13 +386,15 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <MaintenanceContract />
 
         {/* testimobial section */}
-        <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -388,7 +413,6 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>
@@ -404,7 +428,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"
-          ></Serviceappointemnt>
+          />
 
         </section>
 
@@ -414,4 +438,3 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 };
 
 export default AcRepairNearMeDetail;
-

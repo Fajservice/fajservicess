@@ -2,8 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/DubaiData/FAQs/RefrigeratorRepairNearMeFaqs.json';
-
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -12,19 +10,13 @@ import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/DubaiData/Testmonials/RefrigeratorRepairNearMeTestimonial.json';
-import brandsLogo_data from '../../../../public/data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
-import Blog3 from "../../Blog/Blog3";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BrandsSliderSection from "../../BrandsSliderSection";
-
-// import { Link } from "react-router-dom";
+import Blog3 from "../../Blog/Blog3";
 
 const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -32,7 +24,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const metadescription = String(description || "Looking for Refrigerator repair near me in Dubai? Contact us at 043300002 for same-day fridge repair near me​ or freezer maintenance service Sharjah");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Refrigerator Repair Near Me, Refrigerator Service Near Me, Fridge Repair Near Me, Refrigerator Maintenance Near Me");
-  const metaURL = String(URL || "https://www.fajservices.ae/dubai/refrigerator-repair-near-me/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/dubai/refrigerator-repair-near-me/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/refrigerator.avif");
 
   subtitle = "Testimonial"
@@ -42,23 +34,57 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+  // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  
+    const handleItemClick = index => {
+      if (index === openItemIndex) {
+        setOpenItemIndex(-1);
+      } else {
+        setOpenItemIndex(index);
+      }
+    };
+  
+    useEffect(() => {
+      if (firstItemOpen) {
+        setOpenItemIndex(0);
+        setFirstItemOpen(false);
+      }
+    }, [firstItemOpen]);
+  
+    useEffect(() => {
+      loadBackgroudImages();
+    }, []);
+  
+    // Fetch JSON data
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const [faqsResponse, testimonialsResponse] = await Promise.all([
+            fetch(`${import.meta.env.BASE_URL}data/DubaiData/FAQs/RefrigeratorRepairNearMeFaqs.json`),
+            fetch(`${import.meta.env.BASE_URL}data/DubaiData/Testmonials/RefrigeratorRepairNearMeTestimonial.json`),
+            fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+          ]);
+  
+          const faqsData = await faqsResponse.json();
+          const testimonialsData = await testimonialsResponse.json();
+          const brandsData = await brandsResponse.json();
+  
+          setData(faqsData);
+          setTestimonialData(testimonialsData);
+          setBrandsLogoData(brandsData);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
 
   const settings = {
     dots: false,
@@ -766,7 +792,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           sectionId="home-testimonials"
         />
 
-        <Blog3></Blog3>
+        <Blog3 />
 
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">

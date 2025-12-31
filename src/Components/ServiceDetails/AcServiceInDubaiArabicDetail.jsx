@@ -1,16 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcData/AcFaqs/AcServiceInDubaiArabicDetailFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
-
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../public/data/AcData/AcTestimonial';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 import GetQuoteButton from "../Buttons/GetQuoteButton";
@@ -22,8 +18,8 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metadescription = String(description || "فأج احصل على أفضل خدمة تصليح مكيفات في دبي · خدمة المكيف السبليت ·تصليح مكيفات مركزي تصليح مكيفات أفضل شركات تصليح مكيفات تصليح مكيفات · صيانة مكيفات المنزلية · غسيل المكيفات المركزية");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "خدمة التكييف، صيانة التكييف، خدمة تكييف الهواء، إصلاح التكييف، صيانة التكييف في دبي، فني تكييف، تنظيف التكييف، شركة تكييف في دبي، أفضل خدمة تكييف، أسعار صيانة التكييف");
-  const metaURL = String(URL || "https://www.fajservices.ae/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+  const metaURL = String(URL || "https://www.fajservices.ae/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/");
+  const metaImage = "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -32,6 +28,11 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -39,6 +40,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
       setOpenItemIndex(index);
     }
   };
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -48,6 +50,30 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}Data/AcData/AcFaqs/AcServiceInDubaiArabicDetailFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -156,7 +182,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Experts AC Service and Maintenance"  />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Experts AC Service and Maintenance" />
 
               </div>
             </div>
@@ -196,7 +222,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Maintenance in dubai"  />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Maintenance in dubai" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -350,29 +376,6 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <li>
                         <strong>عقد الصيانة السنوية:</strong> يحدد هذا العقد الشروط والخدمات المشمولة في الصيانة السنوية لوحدات تكييف الهواء. الصيانة الدورية ضرورية للأداء الأمثل، الكفاءة، وإطالة عمر نظام التكييف الخاص بك.
                     </li>
-
-                    {/* <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                            <i className="bi bi-check"></i></span>
-                        <span>صيانة دورية</span>
-                    </li>
-                    <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                            <i className="bi bi-check"></i></span>
-                        <span>تنظيف خطوط الصرف</span>
-                    </li>
-                    <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                            <i className="bi bi-check"></i></span>
-                        <span>فحص وتركيب التكييف
-                        </span>
-                    </li>
-
-                    <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                            <i className="bi bi-check"></i></span>
-                        <span>إصلاح تسريبات المبرد، الماء، أو مجاري الهواء</span>
-                    </li> */}
 
                 </ul>
             </div>
@@ -616,8 +619,8 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
-                <GetQuoteButton></GetQuoteButton>
-                <CallNowButton></CallNowButton>
+                <GetQuoteButton />
+                <CallNowButton />
               </div>
             </div>
 
@@ -628,12 +631,11 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     <div className="container text-center">
         <h3 className="cs_fs_30 text-light">نصائح عملية لتحسين كفاءة الطاقة</h3>
         <p>تعلم طرقًا سهلة ومجربة لتوفير الطاقة مع مكيف الهواء. اكتشف نصائح لتقليل التكاليف والبقاء منتعشًا طوال الصيف!</p>
-        <a
-            href="https://www.fajservices.ae/files/Practical%20Tips%20to%20Improve%20Energy%20Efficiency%20of%20Your%20AC%20Infographic.pdf"
+        
+            <a>href="https://www.fajservices.ae/files/Practical%20Tips%20to%20Improve%20Energy%20Efficiency%20of%20Your%20AC%20Infographic.pdf"
             className="btn-green-yellow"
             target="_blank"
             rel="noopener noreferrer"
-        >
             انقر هنا لتوفير فواتير الطاقة
         </a>
     </div>
@@ -717,13 +719,15 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     </div>
 </section>
         {/* قسم الشهادات */}
-        <Testimonial1
-                    subtitle="What Our Clients Say"
-                    title="Customer <span>Reviews</span>"
-                    bgImg="img/testimonialbg.jpg"
-                    testimonialData={testimonial_data}
-                    sectionId="home-testimonials"
-                />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* الأسئلة الشائعة */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -742,7 +746,6 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>
@@ -758,7 +761,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <Serviceappointemnt
             subtitle2="اتصل بنا"
             title2="احجز موعدًا"
-          ></Serviceappointemnt>
+          />
 
         </section>
       </div>

@@ -1,23 +1,18 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../../public/data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public/data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
-import brandsLogo_data from '../../../../../public/data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
-import HeaderForm from ".   ./../../Headeform/HeaderForm.jsx";
+import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
-import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
+import ApplianceSpecialise from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -25,7 +20,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
     const metatitle = String(titleSeo || "Appliances Services in Academy City - Fridge Repair Dubai");
     const metadescription = String(description || "FAJ offers best appliance services in Academy City. Get washing machine repair near me in Dubai. Call 043300002 for fridge, dishwasher, and oven fix.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif";
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Academy City Dubai – Home Appliance Installation, Maintenance & Service Centre in Academy City Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-academy-city/").replace(/\/?$/, '/');
 
@@ -37,6 +32,12 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
     const handleItemClick = index => {
         if (index === openItemIndex) {
             setOpenItemIndex(-1);
@@ -44,6 +45,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
             setOpenItemIndex(index);
         }
     };
+
     useEffect(() => {
         if (firstItemOpen) {
             setOpenItemIndex(0);
@@ -53,6 +55,33 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
 
     useEffect(() => {
         loadBackgroudImages();
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+                ]);
+
+                const faqsData = await faqsResponse.json();
+                const testimonialsData = await testimonialsResponse.json();
+                const brandsData = await brandsResponse.json();
+
+                setData(faqsData);
+                setTestimonialData(testimonialsData);
+                setBrandsLogoData(brandsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
     }, []);
 
     const settings = {
@@ -170,20 +199,20 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
 
                                 <p className="mb-2">
                                     If you need appliance repair, FAJ is your best choice for fast and affordable service in Academy City Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                                    <br /> Our expert team is ready to tackle any issue, whether it's a washing machine that won't drain, refrigerator that&apos;s not working, an oven that isn't heating, or a dishwasher that won't switch on.
                                     <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
                                 </h2>
-                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  alt="Washing machine repair in Academy City" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Washing machine repair in Academy City" />
                             </div>
                         </div>
-                        <AppliancesAppointmentCol></AppliancesAppointmentCol>
+                        <AppliancesAppointmentCol />
                     </div>
                 </section>
 
@@ -192,12 +221,12 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                     <div className="container">
                         <h2 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h2>
                         <p className="">
-                            Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+                            Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai's climate. Here are the main benefits:
                         </p>
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="Refrigerator Repair in Academy City" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="Refrigerator Repair in Academy City" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -369,7 +398,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                                             <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -380,7 +409,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance</h3>
                                             <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
@@ -392,7 +421,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                                             <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -404,7 +433,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                                             <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -416,7 +445,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                                             <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -430,7 +459,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h3>
                                             <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -452,7 +481,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                             <div className="uspcol col-1">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}  alt="Fast, Reliable Service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
 
                                     </div>
                                     <div className="usptext">
@@ -463,7 +492,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
 
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`}  alt="We Are Experts" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
@@ -474,7 +503,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
 
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}  alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
@@ -486,14 +515,14 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}
                             <div className="uspcol col-3">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`}  alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
@@ -502,7 +531,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                                 </div>
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}  alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
                                     </div>
                                     <div className="usptext">
@@ -512,7 +541,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                                 </div>
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}  alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
@@ -523,7 +552,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
 
                             {/* <!-- Delimit mobile --> */}
                             <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`}  alt="FAJ icon service" />
+                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
                             </div>
                         </div>
                     </div>
@@ -533,25 +562,29 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                 <ApplianceSpecialise />
 
                 {/* Brands section */}
-                <BrandsSliderSection
-                brandsData={brandsLogo_data}
-                sectionId="home-brands"
-                logoMaxHeight="60px"
-                logoMaxWidth="120px"
-                containerHeight="100px"
-              />
+                {!isLoading && brandsLogo_data.length > 0 && (
+                    <BrandsSliderSection
+                        brandsData={brandsLogo_data}
+                        sectionId="home-brands"
+                        logoMaxHeight="60px"
+                        logoMaxWidth="120px"
+                        containerHeight="100px"
+                    />
+                )}
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
 
                 {/* testimobial section */}
-                <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+                {!isLoading && testimonial_data.length > 0 && (
+                    <Testimonial1
+                        subtitle="What Our Clients Say"
+                        title="Customer <span>Reviews</span>"
+                        bgImg="img/testimonialbg.jpg"
+                        testimonialData={testimonial_data}
+                        sectionId="home-testimonials"
+                    />
+                )}
 
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
@@ -566,11 +599,10 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                                         <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <i className="bi bi-eye text-light"><FaEye /></i>
-											<i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                                            <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>
-                                        {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                                         <p className="mb-0"
                                             dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                                         ></p>
@@ -586,7 +618,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                     <Serviceappointemnt
                         subtitle2="Contact us"
                         title2="Book An Appointment"
-                    ></Serviceappointemnt>
+                    />
 
                 </section>
 

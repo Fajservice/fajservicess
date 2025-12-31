@@ -1,24 +1,19 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AppliancesData/AppliancesFaqs/FrididaireAcRepairfaq.json';
-
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-import testimonial_data from '../../../../Data/AcData/AcTestimonialFrigidaireAcServiceTestimonials.json';
-import parse from 'html-react-parser';
 import 'swiper/swiper-bundle.css';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
-import WeSpecialise from "../../AcDetail/AcLocation/WeSpecialise/WeSpecialise";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import CallNowButton from "../../../Buttons/CallNowButton";
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
-
+import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
@@ -27,7 +22,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Frigidaire Refrigerator Repair, Frigidaire Fridge Repair, Frigidaire Washing Machine Repair, Frigidaire Dishwasher Repair, Frigidaire Cooker Repair, Frigidaire Oven Repair, Frigidaire Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/frigidaire-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/frigidaire-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -35,19 +30,53 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
+ // State for fetched data
+     const [data, setData] = useState([]);
+     const [testimonial_data, setTestimonialData] = useState([]);
+     const [isLoading, setIsLoading] = useState(true);
+ 
+     const handleItemClick = index => {
+         if (index === openItemIndex) {
+             setOpenItemIndex(-1);
+         } else {
+             setOpenItemIndex(index);
+         }
+     };
+ 
+     useEffect(() => {
+         if (firstItemOpen) {
+             setOpenItemIndex(0);
+             setFirstItemOpen(false);
+         }
+     }, [firstItemOpen]);
+ 
+     useEffect(() => {
+         loadBackgroudImages();
+     }, []);
+ 
+     // Fetch JSON data
+     useEffect(() => {
+         const fetchData = async () => {
+             try {
+                 const [faqsResponse, testimonialsResponse] = await Promise.all([
+                     fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/FrididaireAcRepairfaq.json`),
+                     fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json`)
+                 ]);
+ 
+                 const faqsData = await faqsResponse.json();
+                 const testimonialsData = await testimonialsResponse.json();
+ 
+                 setData(faqsData);
+                 setTestimonialData(testimonialsData);
+             } catch (error) {
+                 console.error('Error fetching data:', error);
+             } finally {
+                 setIsLoading(false);
+             }
+         };
+ 
+         fetchData();
+     }, []);
 
   const settings = {
     dots: false,

@@ -1,15 +1,27 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import data from '../../../public/data/services1.json';
 import SectionTitle from "../Common/SectionTitle";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 
 const Services1 = () => {
-
+     const [data, setData] = useState([]);
+      const [loading, setLoading] = useState(true);
+    
+      useEffect(() => {
+        fetch(`${import.meta.env.BASE_URL}data/services1.json`)
+          .then((res) => {
+            if (!res.ok) throw new Error("Failed to load JSON");
+            return res.json();
+          })
+          .then((json) => setData(json))
+          .catch((err) => console.error(err))
+          .finally(() => setLoading(false));
+      }, []);
+      
     const swiperRef = useRef(null);
     const handleNext = () => {
         if (swiperRef.current) {

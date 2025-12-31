@@ -1,8 +1,5 @@
-
-
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/ElectricalPlumbingServiceFAQs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -11,9 +8,7 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-import testimonial_data from '../../Data/ElectricalPlumbingServicesTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../ApplianceCommons/AppliancesAppointmentCol";
 import Testimonial1 from "../Testimonial/Testimonial1";
@@ -22,14 +17,12 @@ import Testimonial1 from "../Testimonial/Testimonial1";
 const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
- const metaImage = String(Image || "https://www.fajservices.ae/img/banners/electrical-service.jpg");
-  
+  const metaImage = "https://www.fajservices.ae/img/banners/electrical-service.jpg";
   const metatitle = String(titleSeo || "Electrical Plumbung Services in dubai");
   const metadescription = String(description || "Get fast electrical plumbing service in Dubai. We have expert electricians, plumbers near me. Electrical services in office, villa, and apartment. 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Electrical Plumbing Services, Dubai, Faj Technical Services, Plumbing, Electrical Services, Home Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/electrical-plumbing-service/").replace(/\/?$/, '/');
-
+  const metaURL = String(URL || "https://www.fajservices.ae/electrical-plumbing-service/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -38,6 +31,11 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -45,6 +43,7 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
       setOpenItemIndex(index);
     }
   };
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -54,6 +53,30 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/ElectricalPlumbingServiceFAQs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/ElectricalPlumbingServicesTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   return (
@@ -117,7 +140,7 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Electrical Services in Dubai</h3>
                 <p className="mb-0">
-                  Electrical rewiring can be dangerous, which is why it’s important that rewires are only ever carried out by specialists. <br />
+                  Electrical rewiring can be dangerous, which is why it's important that rewires are only ever carried out by specialists. <br />
 
                   Our electrical maintenance company provides the best electrical services in Dubai, UAE and our electrician teams are some of the most experienced in the UAE and routinely perform preventative and reactive maintenance to systems in thousands of homes each week. We understand common problems that can affect your Electrical systems such as:
 
@@ -479,13 +502,15 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
         <MaintenanceContract />
 
         {/* testimobial section */}
-        <Testimonial1
-                subtitle="What Our Clients Say"
-                title="Customer <span>Reviews</span>"
-                bgImg="img/testimonialbg.jpg"
-                testimonialData={testimonial_data}
-                sectionId="home-testimonials"
-              />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -504,7 +529,6 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>
@@ -520,7 +544,7 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"
-          ></Serviceappointemnt>
+          />
 
         </section>
 
@@ -531,4 +555,3 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
 };
 
 export default ElectricalPlumbingServiceDetail;
-

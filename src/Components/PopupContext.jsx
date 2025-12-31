@@ -19,7 +19,7 @@ export const PopupProvider = ({ children }) => {
     
     if (!hasVisited) {
       const timer = setTimeout(() => {
-        setShowPopup(false);
+        setShowPopup(true);
       }, 1000); // 1 second delay
       
       return () => clearTimeout(timer);

@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState, useCallback } from "react";
-import data from '../../Data/AcData/AcFaqs/AcMaintenanceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -15,7 +14,6 @@ import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
 import BookingFormModal from '../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
-import testimonial_data from '../../Data/AcData/AcTestimonial/AcMaintenanceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
@@ -32,7 +30,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metadescription = String(description || "Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Maintenance, Air Conditioner Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-maintenance-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-maintenance-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
@@ -41,34 +39,60 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+   const [testimonial_data, setTestimonialData] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
 
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+     const openModal = useCallback((e) => {
+        e.preventDefault();
+        setIsModalOpen(true);
+        document.body.style.overflow = 'hidden';
+      }, []);
+    
+      const closeModal = useCallback(() => {
+        setIsModalOpen(false);
+        document.body.style.overflow = 'auto';
+      }, []);
+      const handleItemClick = index => {
+        if (index === openItemIndex) {
+          setOpenItemIndex(-1);
+        } else {
+          setOpenItemIndex(index);
+        }
+      };
+      useEffect(() => {
+        if (firstItemOpen) {
+          setOpenItemIndex(0);
+          setFirstItemOpen(false);
+        }
+      }, [firstItemOpen]);
+    
+      useEffect(() => {
+        loadBackgroudImages();
+      }, []);
+    
+    
+      useEffect(() => {
+        const fetchData = async () => {
+          try {
+            const [faqsResponse, testimonialsResponse] = await Promise.all([
+              fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcMaintenanceFaqs.json`),
+              fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcMaintenanceTestimonials.json`),
+            ]);
+    
+            const faqsData = await faqsResponse.json();
+            const testimonialsData = await testimonialsResponse.json();
+    
+            setData(faqsData);
+            setTestimonialData(testimonialsData);
+          } catch (error) {
+            console.error('Error fetching data:', error);
+          } finally {
+            setIsLoading(false);
+          }
+        };
+    
+        fetchData();
+      }, []);
 
   const settings = {
     dots: false,
@@ -106,7 +130,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
     <>
       <HelmetProvider>
         <Helmet>
-          <title>AC Maintenance Dubai - Air Conditioner Cleaning Service</title>
+          <title>{metatitle}</title>
           <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />

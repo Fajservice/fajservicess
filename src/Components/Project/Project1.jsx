@@ -1,9 +1,22 @@
 import { Link } from "react-router-dom";
 import SectionTitle from "../Common/SectionTitle";
-import data from '../../../public/data/project1.json';
 import { GoArrowRight } from "react-icons/go";
+import { useEffect, useState } from "react";
 
 const Project1 = () => {
+  const [data, setData] = useState([]);
+        const [loading, setLoading] = useState(true);
+      
+        useEffect(() => {
+          fetch(`${import.meta.env.BASE_URL}data/project1.json`)
+            .then((res) => {
+              if (!res.ok) throw new Error("Failed to load JSON");
+              return res.json();
+            })
+            .then((json) => setData(json))
+            .catch((err) => console.error(err))
+            .finally(() => setLoading(false));
+        }, []);
   return (
     <section className="cs_tabs cs_style_1 position-relative">
       <div className="cs_height_80 cs_height_lg_80"></div>

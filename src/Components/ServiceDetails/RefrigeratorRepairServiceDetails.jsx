@@ -1,24 +1,40 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/AcRepairFaqs.json';
+import { Link } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import { FaEye } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import testimonial_data from '../../Data/AcServiceTestimonials.json';
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import Testimonial1 from "../Testimonial/Testimonial1";
 
+const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, description, Author, Keyword, URL }) => {
 
-const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
+  // For SEO
+
+  const metatitle = String(titleSeo || "AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me");
+  const metadescription = String(description || "If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
+  const metaKeyword = String(Keyword || "Electrical Plumbing Services, Dubai, Faj Technical Services, Plumbing, Electrical Services, Home Maintenance");
+  const metaURL = String(URL || "https://www.fajservices.ae/electrical-plumbing-service/");
+  const metaImage = "https://www.fajservices.ae/img/banners/electrical-service.jpg";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   const handleItemClick = index => {
     if (index === openItemIndex) {
@@ -27,6 +43,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
       setOpenItemIndex(index);
     }
   };
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -38,12 +55,54 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
     loadBackgroudImages();
   }, []);
 
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcServiceTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
 
   return (
     <>
       <HelmetProvider>
-        <title>AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me</title>
-        <meta name="description" content="If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair"></meta>
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -54,7 +113,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
             <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C.</b></a> is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
               <br />
               Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
-              When your air conditioning system fails, we’re here to help. Choose FAJ for all your AC repair needs in Dubai.
+              When your air conditioning system fails, we're here to help. Choose FAJ for all your AC repair needs in Dubai.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -67,7 +126,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Maintenance Contract */}
-        <MaintenanceContract/>
+        <MaintenanceContract />
 
         {/* Select Air Conditioner Repair & Service */}
         <section className="section cs_py_30 bg-light-gray">
@@ -110,21 +169,21 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
             <h3 className="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
             <p>Air conditioning issues are quite common during the summer months. If you&apos;re experiencing AC issues this season, it&apos;s important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
 
-            
+
 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repair-3.avif`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-              
+
                 <ul className="mb-0">
                   <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
                   <li> <strong>Strange Noises:</strong> Sounds like banging or hissing could indicate damaged parts.</li>
                   <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
                   <li> <strong>Frequent Cycling:</strong> Constantly turning on and off might suggest a faulty thermostat or oversized system.</li>
                   <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.
-                  Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
+                    Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
                 </ul>
               </div>
             </div>
@@ -234,13 +293,13 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-         {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
-         <section className="section cs_py_30 bg-light-gray">
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
             <div className="row">
               <div className="col-xl-6">
-                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe>
+                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
               <div className="col-xl-6">
                 <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
@@ -273,7 +332,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
 
                   <div className="col">
                     <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
+                      <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
                         <span>Unclogging drain lines</span>
@@ -290,14 +349,14 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
                           <i className="bi bi-check"></i></span>
                         <span>Fixing leaks refrigerant, water, or duct leaks</span>
                       </li>
-                      
+
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
                         <span>Regular maintenance</span>
                       </li>
-                      
-                      
+
+
 
                     </ul>
                   </div>
@@ -348,7 +407,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
                   <Link to="/samsung-ac-repair-in-dubai/"><b>Samsung Air Conditioner Repair and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC Repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from maintenance to repair.
                 </p>
                 <p className="mb-0">
-                  <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Service and Repair</b></Link>: The York AC repair service ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
+                  <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Service and Repair</b></Link>: The York AC repair service ensures you don't need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
                 </p>
                 <p className="mb-0">
                   <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><b>Daikin Air Conditioner Repair</b></Link>: Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.
@@ -436,12 +495,11 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
           <div className="container text-center">
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="https://www.fajservices.ae/files/Practical%20Tips%20to%20Improve%20Energy%20Efficiency%20of%20Your%20AC%20Infographic.pdf"
+
+            <a>href="https://www.fajservices.ae/files/Practical%20Tips%20to%20Improve%20Energy%20Efficiency%20of%20Your%20AC%20Infographic.pdf"
               className="btn-green-yellow"
               target="_blank"
               rel="noopener noreferrer"
-            >
               Click Here to Save on Energy Bills
             </a>
 
@@ -480,18 +538,20 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
 
           </div>
         </section>
-        
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
         {/* testimobial section */}
-        <Testimonial1
-                subtitle="What Our Clients Say"
-                title="Customer <span>Reviews</span>"
-                bgImg="/img/home-testimonial-bg.jpg"
-                testimonialData={testimonial_data}
-              />
-              
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="/img/home-testimonial-bg.jpg"
+            testimonialData={testimonial_data}
+          />
+        )}
+
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
@@ -509,7 +569,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                  
+
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>
@@ -525,7 +585,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"
-          ></Serviceappointemnt>
+          />
 
         </section>
       </div>

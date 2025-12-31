@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcData/AcFaqs/coldroomfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import HeaderForm from "../Headeform/HeaderForm";
 
@@ -10,6 +9,10 @@ const ColdRoomRepair = () => {
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
     const handleItemClick = index => {
         if (index === openItemIndex) {
             setOpenItemIndex(-1);
@@ -17,12 +20,30 @@ const ColdRoomRepair = () => {
             setOpenItemIndex(index);
         }
     };
+
     useEffect(() => {
         if (firstItemOpen) {
             setOpenItemIndex(0);
             setFirstItemOpen(false);
         }
     }, [firstItemOpen]);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/coldroomfaq.json`);
+                const faqsData = await response.json();
+                setData(faqsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
 
 
     return (
@@ -40,7 +61,7 @@ const ColdRoomRepair = () => {
                             <div className="cs_service_details">
                               
                                 <h2 className="cs_fs_30">Cold Room Repair</h2>
-                                <p>Is your existing cold room getting old or acting wary? You might be thinking of a replacement but it might cost a fortune. This is where FAJ comes in. Need not to worry, as our diverse and experienced range of services has got you covered. Confused about “cold room service near me”, then you’ve landed on the right page. Give us a call to book our technicians for your freezer repair inspection so we can carry out cold room repair, refurbishment and maintenance services. Being used in super markets, restaurants, butcheries, hotels, hospitals, etc it is essential to conduct periodic maintenance. With our decades of experience in UAE and Dubai, we ensure that all your cold room repair and service solutions are resolved under the same roof. With our highly skilled and trained team of cold room technicians, you can trust our services with complete trust and reliability.</p>
+                                <p>Is your existing cold room getting old or acting wary? You might be thinking of a replacement but it might cost a fortune. This is where FAJ comes in. Need not to worry, as our diverse and experienced range of services has got you covered. Confused about "cold room service near me", then you've landed on the right page. Give us a call to book our technicians for your freezer repair inspection so we can carry out cold room repair, refurbishment and maintenance services. Being used in super markets, restaurants, butcheries, hotels, hospitals, etc it is essential to conduct periodic maintenance. With our decades of experience in UAE and Dubai, we ensure that all your cold room repair and service solutions are resolved under the same roof. With our highly skilled and trained team of cold room technicians, you can trust our services with complete trust and reliability.</p>
                                 <div id="get-quote" className="mb-5 mt-3">
                                     <div className="container d-flex justify-content-center align-items-center">
                                         <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
@@ -65,8 +86,6 @@ const ColdRoomRepair = () => {
                                         <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
-                                {/* <h2>Ready to Beat the Heat? Find the Best AC Repair in Dubai</h2>
-                <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you&apos;re getting the best value for your money.Don&apos;t suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p> */}
                                 <div className="row">
                                     <div className="col-xl-6">
                                         <img src={`${import.meta.env.BASE_URL}img/cold-room.avif`} alt="Post Image" />
@@ -76,7 +95,7 @@ const ColdRoomRepair = () => {
                                     <div className="col-xl-6">
                                         <h3 className="cs_fs_24">Why choose FAJ for cold room maintenance services?</h3>
                                         <p>Our teams will ensure the efficiency and enhance the aesthetics of your <strong> walk in chiller room</strong> or your <strong>cold room <a href="chiller-repair">chiller unit</a></strong>. We believe in customer satisfaction and we are proud to deliver a 100% on it. Only OEM and original parts to carry out cold room repair and maintenance service with a valid warranty. In addition, we give free inspections to our Annual Maintenance Contract (AMC) clients.</p>
-                                        <p>Our range of <strong>cold room services</strong> include but are not limited to professional servicing of cold room, <strong>cold room door repairs</strong>, cold room freezers, cold room in hospital, cold room in restaurant, cold room chillers, service works, maintenance and cold room repair works to existing installations. Get in touch to book your inspections. We make sure our cold room repair technician is at your doorstep with all the necessary parts and tools within a few hours. For the convenience and customer’s peace of mind, we operate on weekends to ensure uninterrupted <strong>cold room fix</strong> services.</p>
+                                        <p>Our range of <strong>cold room services</strong> include but are not limited to professional servicing of cold room, <strong>cold room door repairs</strong>, cold room freezers, cold room in hospital, cold room in restaurant, cold room chillers, service works, maintenance and cold room repair works to existing installations. Get in touch to book your inspections. We make sure our cold room repair technician is at your doorstep with all the necessary parts and tools within a few hours. For the convenience and customer's peace of mind, we operate on weekends to ensure uninterrupted <strong>cold room fix</strong> services.</p>
                                         
                                     </div>
                                 </div>

@@ -1,12 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlQusais.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../../public';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";

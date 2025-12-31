@@ -1,18 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
-
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
@@ -27,7 +22,7 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Gibson Fridge Repair in Dubai, Gibson Washing Machine Repair in Dubai, Gibson Cooker Repair in Dubai, Gibson Oven Repair in Dubai, Gibson Appliances Maintenance in Dubai, Gibson Refrigerator Fix Repairs Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -36,23 +31,53 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+  // State for fetched data
+      const [data, setData] = useState([]);
+      const [testimonial_data, setTestimonialData] = useState([]);
+      const [isLoading, setIsLoading] = useState(true);
+  
+      const handleItemClick = index => {
+          if (index === openItemIndex) {
+              setOpenItemIndex(-1);
+          } else {
+              setOpenItemIndex(index);
+          }
+      };
+  
+      useEffect(() => {
+          if (firstItemOpen) {
+              setOpenItemIndex(0);
+              setFirstItemOpen(false);
+          }
+      }, [firstItemOpen]);
+  
+      useEffect(() => {
+          loadBackgroudImages();
+      }, []);
+  
+      // Fetch JSON data
+      useEffect(() => {
+          const fetchData = async () => {
+              try {
+                  const [faqsResponse, testimonialsResponse] = await Promise.all([
+                      fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
+                      fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json`)
+                  ]);
+  
+                  const faqsData = await faqsResponse.json();
+                  const testimonialsData = await testimonialsResponse.json();
+  
+                  setData(faqsData);
+                  setTestimonialData(testimonialsData);
+              } catch (error) {
+                  console.error('Error fetching data:', error);
+              } finally {
+                  setIsLoading(false);
+              }
+          };
+  
+          fetchData();
+      }, []);
 
   const settings = {
     dots: false,

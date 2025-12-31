@@ -1,24 +1,18 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
-import brandsLogo_data from '../../../../../public/data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
-import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
+import ApplianceSpecialise from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
@@ -37,6 +31,12 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
     const handleItemClick = index => {
         if (index === openItemIndex) {
             setOpenItemIndex(-1);
@@ -44,6 +44,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
             setOpenItemIndex(index);
         }
     };
+
     useEffect(() => {
         if (firstItemOpen) {
             setOpenItemIndex(0);
@@ -53,6 +54,33 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
 
     useEffect(() => {
         loadBackgroudImages();
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+                ]);
+
+                const faqsData = await faqsResponse.json();
+                const testimonialsData = await testimonialsResponse.json();
+                const brandsData = await brandsResponse.json();
+
+                setData(faqsData);
+                setTestimonialData(testimonialsData);
+                setBrandsLogoData(brandsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
     }, []);
 
     const settings = {
@@ -180,7 +208,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  alt="Washing machine repair in Jumeirah Village Circle" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Washing machine repair in Jumeirah Village Circle" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -197,7 +225,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="Post ImaRefrigerator Repair in Jumeirah Village Circle" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="Post ImaRefrigerator Repair in Jumeirah Village Circle" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -369,7 +397,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                                             <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -380,7 +408,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance</h3>
                                             <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
@@ -392,7 +420,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                                             <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -404,7 +432,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                                             <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -416,7 +444,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                                             <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -430,7 +458,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h3>
                                             <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -452,7 +480,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                             <div className="uspcol col-1">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}  alt="Fast, Reliable Service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
 
                                     </div>
                                     <div className="usptext">
@@ -463,7 +491,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
 
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`}  alt="We Are Experts" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
@@ -474,7 +502,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
 
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}  alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
@@ -486,14 +514,14 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}
                             <div className="uspcol col-3">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`}  alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
@@ -502,7 +530,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                                 </div>
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}  alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
                                     </div>
                                     <div className="usptext">
@@ -512,7 +540,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                                 </div>
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}  alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
@@ -523,7 +551,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
 
                             {/* <!-- Delimit mobile --> */}
                             <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`}  alt="FAJ icon service" />
+                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
                             </div>
                         </div>
                     </div>
@@ -534,24 +562,24 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
 
                 {/* Brands section */}
                 <BrandsSliderSection
-                brandsData={brandsLogo_data}
-                sectionId="home-brands"
-                logoMaxHeight="60px"
-                logoMaxWidth="120px"
-                containerHeight="100px"
-              />
+                    brandsData={brandsLogo_data}
+                    sectionId="home-brands"
+                    logoMaxHeight="60px"
+                    logoMaxWidth="120px"
+                    containerHeight="100px"
+                />
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
 
                 {/* testimobial section */}
-               <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+                <Testimonial1
+                    subtitle="What Our Clients Say"
+                    title="Customer <span>Reviews</span>"
+                    bgImg="img/testimonialbg.jpg"
+                    testimonialData={testimonial_data}
+                    sectionId="home-testimonials"
+                />
 
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
@@ -566,7 +594,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
                                         <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <i className="bi bi-eye text-light"><FaEye /></i>
-											<i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                                            <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>

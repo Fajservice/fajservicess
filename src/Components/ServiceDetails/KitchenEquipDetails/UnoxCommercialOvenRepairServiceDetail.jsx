@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState, useCallback } from "react";
-import data from '../../../Data/KitchenEquipments/FAQs/UnoxCommercialOvenRepairServiceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -9,9 +8,7 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/UnoxCommercialOvenRepairServiceTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
@@ -23,7 +20,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
   const metadescription = String(description || "Expert Unox Commercial oven repair & maintenance in Dubai. FAJ offers restaurants, bakeries, pastry ovens & professional cooking appliances services.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Unox oven repair Dubai, Unox oven maintenance Dubai, Unox commercial oven service, Unox professional kitchen equipment repair, Unox bakery oven repair, Unox pastry oven maintenance, Unox cooking appliance service Dubai, Unox oven parts replacement, Unox oven troubleshooting, Unox oven cleaning and servicing");
-  const metaURL = String(URL || "https://www.fajservices.ae/unox-commercial-oven-repair-and-maintenance-service-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/unox-commercial-oven-repair-and-maintenance-service-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/Camercial-Kitchen-Equipment.avif");
 
   subtitle = "Testimonial"
@@ -32,7 +29,14 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
+  
+  // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+  
     const openModal = useCallback((e) => {
       e.preventDefault();
       setIsModalOpen(true);
@@ -43,23 +47,49 @@ const [isModalOpen, setIsModalOpen] = useState(false);
       setIsModalOpen(false);
       document.body.style.overflow = 'auto';
     }, []);
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+  
+    const handleItemClick = index => {
+      if (index === openItemIndex) {
+        setOpenItemIndex(-1);
+      } else {
+        setOpenItemIndex(index);
+      }
+    };
+  
+    useEffect(() => {
+      if (firstItemOpen) {
+        setOpenItemIndex(0);
+        setFirstItemOpen(false);
+      }
+    }, [firstItemOpen]);
+  
+    useEffect(() => {
+      loadBackgroudImages();
+    }, []);
+  
+    // Fetch JSON data
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const [faqsResponse, testimonialsResponse] = await Promise.all([
+            fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/UnoxCommercialOvenRepairServiceFaqs.json`),
+            fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/UnoxCommercialOvenRepairServiceTestimonials.jsonn`)
+          ]);
+  
+          const faqsData = await faqsResponse.json();
+          const testimonialsData = await testimonialsResponse.json();
+  
+          setData(faqsData);
+          setTestimonialData(testimonialsData);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
 
   const settings = {
     dots: false,
@@ -186,7 +216,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/oven-gallery/rational oven service.avif`} alt="Oven Repair"  />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/oven-gallery/rational oven service.avif`} alt="Oven Repair" />
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Unox Ovens Annual Maintenance Contract (AMC) Services</h3>
@@ -206,7 +236,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair"  />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair" />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -349,9 +379,9 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <br /><strong>Our services include:</strong></p>
                 <ul className="mb-0">
                   <li><strong>Unox Oven Installation: </strong>Installation of Unox Professional gas and electric ovens for optimal performance and efficiency.</li>
-                    <li><strong>Unox Oven Diagnostics: </strong>We perform thorough diagnostics, offering eligibility checks and detailed quotes to address any oven issues.</li>
-                    <li><strong>Unox Oven Repair Service: </strong>Unox commercial oven repair services for all components, ensuring quick resolution of issues such as leaks, electrical failures, and malfunctions. Contact FAJ for specific services or inquiries!</li>
-                    <li><strong>Unox Oven Annual Maintenance Contract: </strong>This contract outlines the terms and services for the annual maintenance of Unox catering ovens.</li>
+                  <li><strong>Unox Oven Diagnostics: </strong>We perform thorough diagnostics, offering eligibility checks and detailed quotes to address any oven issues.</li>
+                  <li><strong>Unox Oven Repair Service: </strong>Unox commercial oven repair services for all components, ensuring quick resolution of issues such as leaks, electrical failures, and malfunctions. Contact FAJ for specific services or inquiries!</li>
+                  <li><strong>Unox Oven Annual Maintenance Contract: </strong>This contract outlines the terms and services for the annual maintenance of Unox catering ovens.</li>
                 </ul>
                 <p className="mb-0">Routine maintenance of Unox commercial ovens is essential for optimal performance, efficiency, and longevity.</p>
               </div>
@@ -369,7 +399,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">HEATING EFFICIENCY</h3>
                       <p className="small">We complete a thorough assessment of heating efficiency using a temperature gun.</p>
@@ -380,7 +410,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
                       <p className="small">All parts and components of the oven experience thorough testing and disinfection to ensure safety and reliability.</p>
@@ -391,7 +421,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
                       <p className="small">We ensure the fan operates correctly and is free of blockages in both the burner and heating element.</p>
@@ -403,7 +433,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature meter to verify that the thermostats are functioning properly.</p>
@@ -414,7 +444,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h3>
                       <p className="small">We ensure optimal airflow around every part of the oven.</p>
@@ -425,7 +455,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h3>
                       <p className="small">Our team offers essential feedback on the condition of your Unox oven and any needed repairs.</p>
@@ -447,7 +477,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
@@ -457,7 +487,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
@@ -470,7 +500,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -482,14 +512,14 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service"  />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -498,7 +528,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -510,7 +540,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -521,7 +551,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service"  />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -534,9 +564,9 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <div className="row">
               <div className="col-12">
                 <ul>
-                    <li><strong>Unox Convection with Humidity Oven Service and Repair in Dubai</strong>: We are a leading provider of repair and maintenance services for Unox convection ovens, including those equipped with humidity cooking systems. Our team of experienced technicians offers expert support to ensure your commercial kitchen appliances operate at peak performance. Trust us for reliable solutions specifically designed for Unox products.</li>
-                    <li><strong>Unox Combi Oven Repair and Maintenance Services in Dubai:&nbsp;</strong>Enhance the performance of your Unox Combi oven with our premium repair and maintenance services in Dubai. Our skilled technicians specialise in both electric and gas models, providing quick diagnostics and replacing worn parts as needed. Regular maintenance is important; it reduces downtime, extends the lifespan of your oven, and ensures outstanding cooking results in your kitchen. Rely on us to keep your oven running at its best.</li>
-                    <li><strong>Unox Convection and Speed Oven Repair &amp; Maintenance Near By:&nbsp;</strong>Our experts specialise in Unox Convection ovens, including the Cheftop, Unox Bakertop oven, Unox Speed oven, and Unox Contertop oven models. We offer comprehensive inspections, repairs, and maintenance to meet your kitchen's needs. From troubleshooting the control panel to replacing heating elements, we ensure your oven operates reliably, maintains consistent cooking performance, and delivers optimal results for your culinary operations.</li>
+                  <li><strong>Unox Convection with Humidity Oven Service and Repair in Dubai</strong>: We are a leading provider of repair and maintenance services for Unox convection ovens, including those equipped with humidity cooking systems. Our team of experienced technicians offers expert support to ensure your commercial kitchen appliances operate at peak performance. Trust us for reliable solutions specifically designed for Unox products.</li>
+                  <li><strong>Unox Combi Oven Repair and Maintenance Services in Dubai:&nbsp;</strong>Enhance the performance of your Unox Combi oven with our premium repair and maintenance services in Dubai. Our skilled technicians specialise in both electric and gas models, providing quick diagnostics and replacing worn parts as needed. Regular maintenance is important; it reduces downtime, extends the lifespan of your oven, and ensures outstanding cooking results in your kitchen. Rely on us to keep your oven running at its best.</li>
+                  <li><strong>Unox Convection and Speed Oven Repair &amp; Maintenance Near By:&nbsp;</strong>Our experts specialise in Unox Convection ovens, including the Cheftop, Unox Bakertop oven, Unox Speed oven, and Unox Contertop oven models. We offer comprehensive inspections, repairs, and maintenance to meet your kitchen's needs. From troubleshooting the control panel to replacing heating elements, we ensure your oven operates reliably, maintains consistent cooking performance, and delivers optimal results for your culinary operations.</li>
                 </ul>
               </div>
             </div>
@@ -601,7 +631,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           </div>
         </section> */}
         {/* Gallery */}
-        
+
         {/* testimobial section */}
         <Testimonial1
           subtitle="What Our Clients Say"

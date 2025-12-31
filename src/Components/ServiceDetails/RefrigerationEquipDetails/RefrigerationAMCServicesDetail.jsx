@@ -23,7 +23,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const metadescription = String(description || "FAJ fully experts in commercial freezer & chiller amc service in dubai. We offer freezer, cold room, refrigerator, commercial kitchen equipment maintenance");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Refrigeration Annual Maintenance Contract Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance-contact-services/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance-contact-services/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/techfridge.avif");
 
   subtitle = "Testimonial"
@@ -33,8 +33,6 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
-
-
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);

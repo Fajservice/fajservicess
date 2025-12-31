@@ -1,18 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
-import brandsLogo_data from '../../../../../public/data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../../BrandsSliderSection";
@@ -35,6 +30,11 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
+ // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
     const handleItemClick = index => {
         if (index === openItemIndex) {
@@ -43,6 +43,7 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo,
             setOpenItemIndex(index);
         }
     };
+
     useEffect(() => {
         if (firstItemOpen) {
             setOpenItemIndex(0);
@@ -52,6 +53,33 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
     useEffect(() => {
         loadBackgroudImages();
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+                ]);
+
+                const faqsData = await faqsResponse.json();
+                const testimonialsData = await testimonialsResponse.json();
+                const brandsData = await brandsResponse.json();
+
+                setData(faqsData);
+                setTestimonialData(testimonialsData);
+                setBrandsLogoData(brandsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
     }, []);
 
     const settings = {

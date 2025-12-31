@@ -2,20 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../Data/DubaiData/FAQs/NearMeFaqs.json';
-
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
-import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
-
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/DubaiData/Testmonials/NearMeTestimonial.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import Services4 from "../../Services/Services4.jsx";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton.jsx";
 import GetQuoteButton from "../../Buttons/GetQuoteButton.jsx";
 import Blog3 from "../../Blog/Blog3.jsx";
@@ -37,6 +30,11 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -44,6 +42,7 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
       setOpenItemIndex(index);
     }
   };
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -53,6 +52,30 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/DubaiData/FAQs/NearMeFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/DubaiData/Testmonials/NearMeTestimonial.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
@@ -917,7 +940,7 @@ Call" />
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -929,14 +952,14 @@ Call" />
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service"  />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -945,7 +968,7 @@ Call" />
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -955,7 +978,7 @@ Call" />
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -966,7 +989,7 @@ Call" />
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service"  />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -977,11 +1000,11 @@ Call" />
 
         {/* testimobial section */}
         <Testimonial1
-            subtitle="What Our Clients Say"
-            title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
-            testimonialData={testimonial_data}
-            sectionId="home-testimonials"
+          subtitle="What Our Clients Say"
+          title="Customer <span>Reviews</span>"
+          bgImg="img/testimonialbg.jpg"
+          testimonialData={testimonial_data}
+          sectionId="home-testimonials"
         />
 
         <Blog3></Blog3>

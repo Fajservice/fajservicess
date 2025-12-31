@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../public/data/HomeAppData/FAQs/OvenRepairServiceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -14,8 +13,6 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../../public/data/HomeAppData/Testmonials/OvenRepairServiceTestimonials.json';
-import brandsLogo_data from '../../../../public/data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
@@ -39,33 +36,64 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+  const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+  
+    const openModal = useCallback((e) => {
+      e.preventDefault();
+      setIsModalOpen(true);
+      document.body.style.overflow = 'hidden';
+    }, []);
+  
+    const closeModal = useCallback(() => {
+      setIsModalOpen(false);
+      document.body.style.overflow = 'auto';
+    }, []);
+    const handleItemClick = index => {
+      if (index === openItemIndex) {
+        setOpenItemIndex(-1);
+      } else {
+        setOpenItemIndex(index);
+      }
+    };
+    useEffect(() => {
+      if (firstItemOpen) {
+        setOpenItemIndex(0);
+        setFirstItemOpen(false);
+      }
+    }, [firstItemOpen]);
+  
+    useEffect(() => {
+      loadBackgroudImages();
+    }, []);
+  
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/IntegratedAppliancesRepairServiceFaqs.json`),
+            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/IntegratedAppliancesRepairServiceTestimonials.json`),
+            fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+          ]);
+  
+          const faqsData = await faqsResponse.json();
+          const testimonialsData = await testimonialsResponse.json();
+          const brandsData = await brandsResponse.json();
+  
+          setData(faqsData);
+          setTestimonialData(testimonialsData);
+          setBrandsLogoData(brandsData);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
 
   const settings = {
     dots: false,

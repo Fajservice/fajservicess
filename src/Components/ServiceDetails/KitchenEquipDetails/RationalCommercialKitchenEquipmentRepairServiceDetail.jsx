@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState, useCallback } from "react";
-import data from '../../../Data/KitchenEquipments/FAQs/RationalCommercialKitchenEquipmentRepairServiceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -9,9 +8,7 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/RationalCommercialKitchenEquipmentRepairServiceTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
@@ -33,16 +30,24 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+    
+
+// State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -50,6 +55,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
       setOpenItemIndex(index);
     }
   };
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -59,6 +65,30 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/RationalCommercialKitchenEquipmentRepairServiceFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/RationalCommercialKitchenEquipmentRepairServiceTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const settings = {
