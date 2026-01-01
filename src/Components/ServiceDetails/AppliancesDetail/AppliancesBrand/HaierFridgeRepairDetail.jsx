@@ -224,7 +224,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Haier Refrigerator</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Haier Refrigerator</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Haier refrigerator may have cooling problems, usually related to the defrost, motor, compressor, or PCB. Let's reach out to FAJ for potential solutions.</p>
@@ -235,7 +235,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Haier Dishwasher</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Haier Dishwasher</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common issues with Haier dishwasher include poor cleaning and drying, water leaks, drainage issues, and a few electrical or PCB malfunctions.</p>
@@ -246,7 +246,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Haier Washing Machine</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Haier Washing Machine</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Haier washing machines include problems with drainage, leaks, faulty PCBs, and issues related to the belt, door switch, or drum spinning.</p>
@@ -257,7 +257,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Haier Tumble Dryer</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Haier Tumble Dryer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Haier dryer may stop spinning and make unusual noises without properly drying clothes, often due to a faulty heating element or control board.
@@ -269,7 +269,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Haier Cooker / Stove</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Haier Cooker / Stove</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common issues with Haier stove include uneven heating and flame problems, such as a broken burner element, a faulty switch, or an electrical gas malfunction.</p>
@@ -280,7 +280,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Haier Oven</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Haier Oven</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Haier ovens often experience issues such as improper heating, unignited burners, ignition problems in gas models, and faulty knobs or controls.</p>
@@ -290,7 +290,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Haier Freezer</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Haier Freezer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common issues with Haier freezer include water leaks, insufficient ice production, malfunctioning ice makers, and decreased cooling efficiency.</p>
@@ -301,7 +301,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Coffee Machine Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons.</p>

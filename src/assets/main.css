@@ -8650,15 +8650,6 @@ label {
   z-index: 2;
 }
 
-.cs_logo_bg_shape::before {
-  content: "";
-  position: absolute;
-  right: 90px;
-  height: 95%;
-  width: 100vw;
-  background-color: var(--accent-color);
-}
-
 .cs_logo_bg_shape img {
   position: absolute;
   top: 0;
@@ -8972,4 +8963,10 @@ label {
 
 .cs_accordian .cs_accordian_body {
   display: none;
+}
+.cs_icon {
+  width: 18px;
+  height: 18px;
+  color: #ffffff;
+  flex-shrink: 0;
 }

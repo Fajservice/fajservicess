@@ -701,17 +701,6 @@ p a {
     padding-bottom: 30px;
 
   }
-  .cs_logo_bg_shape::before {
-    content: "";
-    position: absolute;
-    right: 37px;
-    height: 100%;
-    width: 100vw;
-    background-color: var(--accent-color);
-}
-  /* .cs_fs_50 {
-    font-size: 30px;
-  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -883,8 +872,6 @@ p a {
 }
 
 .cs_service_details .usps .why-choose-img {
-  /* max-height: 470px !important;
-  max-height: 490px !important; */
   min-height: 550px !important;
   max-height: 550px !important;
   object-fit: cover;
@@ -905,10 +892,7 @@ p a {
   }
 }
 
-
-
 .cs_slider_container .slick-list .slick-track {
-  /* background-color: var(--bg-dark-blue); */
   display: flex;
   align-items: center;
 
@@ -916,7 +900,6 @@ p a {
 
 .cs_slider_container .brnadlogo-coffeemachine-service img {
   max-height: 117px !important;
-  /* padding: 20px; */
 
 }
 
@@ -1147,16 +1130,6 @@ h2.cs_fs_20 {
   min-height: 152px;
 }
 
-
-
-/* chatboat widget */
-/* button {
-  color: inherit;
-  background-color: transparent;
-  border: 0;
-  outline: 0 !important;
-  cursor: pointer;
-} */
 
 button.faj-chatbox-toggle {
   position: fixed;
@@ -1411,7 +1384,6 @@ img.faj-chatbox-logo {
 }
 
 .faq_8 .card {
-  /* width: 363px; */
   min-height: 317px;
   padding: 35px;
   display: flex;

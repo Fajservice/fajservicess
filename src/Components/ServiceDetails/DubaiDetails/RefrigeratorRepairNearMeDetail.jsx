@@ -276,7 +276,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Leaking fridge seal repair
                     </h3>
                   </div>
@@ -286,7 +286,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       The appliance is icing up
                     </h3>
                   </div>
@@ -296,7 +296,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Fridge thermostat repair
                     </h3>
                   </div>
@@ -306,7 +306,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Fridge thermostat replacement
                     </h3>
                   </div>
@@ -316,7 +316,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Fridge fan motor repair
                     </h3>
                   </div>
@@ -326,7 +326,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Fridge fan motor replacement
                     </h3>
                   </div>
@@ -336,7 +336,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-5">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Refrigerator compressor not running
                     </h3>
                   </div>
@@ -346,7 +346,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-8 col-lg-5">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Ice maker not filling with water or not making ice
                     </h3>
                   </div>
@@ -356,7 +356,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Changing fridge water filter
                     </h3>
                   </div>
@@ -366,7 +366,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Walk-in fridge repairs
                     </h3>
                   </div>
@@ -376,7 +376,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-8">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       The fridge makes loud, humming, clicking or another type of noise consistently
                     </h3>
                   </div>
@@ -386,7 +386,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-6">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       The refrigerator runs constantly and is warm on touch
                     </h3>
                   </div>
@@ -396,7 +396,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-5">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       The Fridge Water dispenser is not working properly
                     </h3>
                   </div>
@@ -408,7 +408,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-7">
                 <div className=" box-content-container rounded border shadow" style={{ minHeight: "0" }}>
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Fridge freezer door reversal and broken hinges repairs, and more!
                     </h3>
                   </div>

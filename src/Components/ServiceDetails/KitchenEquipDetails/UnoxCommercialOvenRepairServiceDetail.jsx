@@ -260,7 +260,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Door</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Oven Door</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">If your food is baking unevenly or undercooked, the issue may be with your Unox commercial oven's door, affecting baking performance.</p>
@@ -271,7 +271,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Not Heating</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Oven Not Heating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">The main problem is that it may not reach the selected temperature, even when it is turned on and properly powered.</p>
@@ -282,7 +282,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Uneven Cooking</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Uneven Cooking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Food often cooks unevenly, with one side scorching while the other stays undercooked due to uneven heat distribution.</p>
@@ -293,7 +293,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Keeps Sparking</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Oven Keeps Sparking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">If you hear continued clicking and sparks from your gas oven, the ignition dial may need FAJ professional repair.</p>
@@ -304,7 +304,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Thermostat</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Oven Thermostat</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Cooking at the proper temperature is important for tasty meals, as incorrect temperatures can lead to dishes being either overcooked or undercooked.</p>
@@ -315,7 +315,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Heating Elements</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Heating Elements</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Oven problems can be caused by faulty heating elements, a defective thermostat, broken burners, or electrical issues. If it won't ignite, check the igniter.</p>
@@ -326,7 +326,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Fan</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Oven Fan</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">A faulty oven fan can result in uneven cooking. Oven fans circulate heated air inside the oven to promote consistent cooking.</p>
@@ -337,7 +337,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Door Seal</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Door Seal</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">The oven door seal, or gasket, creates an airtight seal to prevent heat loss and ensure even cooking.</p>

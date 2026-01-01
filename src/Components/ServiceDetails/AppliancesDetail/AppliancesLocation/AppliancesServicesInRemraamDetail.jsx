@@ -279,7 +279,7 @@ const AppliancesServicesInRemraamDetail = ({
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Refrigerator Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Most fridge malfunctions are commonly related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
@@ -290,7 +290,7 @@ const AppliancesServicesInRemraamDetail = ({
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Dishwashers Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
@@ -302,7 +302,7 @@ const AppliancesServicesInRemraamDetail = ({
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Washing Machine Problem
                                         </h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
@@ -315,7 +315,7 @@ const AppliancesServicesInRemraamDetail = ({
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Tumble Dryer Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
@@ -326,7 +326,7 @@ const AppliancesServicesInRemraamDetail = ({
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Stove Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
@@ -337,7 +337,7 @@ const AppliancesServicesInRemraamDetail = ({
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Ovens Problems</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
@@ -348,7 +348,7 @@ const AppliancesServicesInRemraamDetail = ({
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Freezer Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
@@ -359,7 +359,7 @@ const AppliancesServicesInRemraamDetail = ({
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className="box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Coffee Machine Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>

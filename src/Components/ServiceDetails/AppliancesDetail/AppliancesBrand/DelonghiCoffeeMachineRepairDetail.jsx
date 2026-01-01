@@ -220,7 +220,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Water Leaking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Water leakage issues in coffee or espresso machines can be caused by worn-out seals, loose connections, or cracks in the water reservoir or tubing.</p>
@@ -231,7 +231,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Descaling</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Coffee Machine Descaling</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Descaling your coffee machine regularly with a suitable cleaning solution can effectively remove mineral buildup, which can lead to clogs and leaks.
@@ -243,7 +243,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Cleaning
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Coffee Machine Cleaning
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -256,7 +256,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bad Coffee Taste</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Bad Coffee Taste</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Poor quality beans, improper brewing parameters (such as grind size and ratio), or case De Longhi machine’s internal components can result in bad-tasting coffee.</p>
@@ -267,7 +267,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud or Unusual Noises</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Loud or Unusual Noises</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Noise from the De Longhi coffee machine, Low water levels, the espresso machine being placed on a hard surface, or heating issues can lead to unexpected noises.</p>
@@ -278,7 +278,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brewing Issues</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Brewing Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Weak Coffee is often a common problem, typically due to improper grind size, over-extraction, under-extraction, or using stale espresso machine coffee beans.</p>
@@ -289,7 +289,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Coffee Flow</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Slow Coffee Flow</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Issues with coffee machines, such as De Longhi espresso or automatic makers, can be caused by clogs, incorrect grind sizes, or pump problems.</p>
@@ -300,7 +300,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Professional Help</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Professional Help</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">For more complex issues or if you are unable to troubleshoot the problem yourself, contact FAJ qualified <a href="https://www.fajservices.ae/coffee-machine-service-center-in-dubai/">coffee machine repair</a> technician for maintenance.</p>

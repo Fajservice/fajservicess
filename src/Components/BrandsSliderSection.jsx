@@ -37,7 +37,7 @@ const BrandsSliderSection = ({
   return (
     <section 
       id={sectionId}
-      className={`cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30 ${className}`}
+      className={`cs_slider_gap_30 cs_bg_filed position-relative cs_py_30 ${className}`}
     >
       <div className="container">
         <div className="cs_slider_container">

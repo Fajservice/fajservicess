@@ -265,7 +265,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">The grill is not heating up</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">The grill is not heating up</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Does the grill start but not heat above 200-250 degrees? This often relates to a safety feature in gas grills.</p>
@@ -276,7 +276,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Uneven heating</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Uneven heating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Uneven Heating. Does your grill have hot and cold spots? This issue is often caused by clogged or damaged burners.</p>
@@ -287,7 +287,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">BBQ Yellow or orange flame
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">BBQ Yellow or orange flame
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -302,7 +302,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking gas</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Leaking gas</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Check burners of your gas grill for corrosion or blockages, as these can cause uneven heating. Ensure ignition system works properly.
@@ -314,7 +314,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ignition problems</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Ignition problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Ignition Issues. If your grill won't light, it's likely due to the ignition system, possibly needing a new battery.
@@ -326,7 +326,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective grill</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Defective grill</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">A defective barbecue grill can cause serious injuries, such as burns and carbon monoxide poisoning.</p>
@@ -337,7 +337,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Low flame from burners</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Low flame from burners</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">A common service issue is low flame output from grill burners, reducing heat, cooking efficiency, and overall grilling performance.</p>
@@ -348,7 +348,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Regulator problems</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Regulator problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Blockage in the regulator hose: A reader reported issues with his Uniflame 5-burner grill, though everything else worked.</p>

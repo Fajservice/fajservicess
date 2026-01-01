@@ -94,8 +94,12 @@ const OvenRepairDetail = ({
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/OvenRepairFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}Data/KitchenEquipments/Testmonials/OvenRepairTestimonials.json`)
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testimonials/OvenRepairTestimonials.json`)
         ]);
+
+        if (!faqsResponse.ok || !testimonialsResponse.ok) {
+          throw new Error('Failed to fetch data');
+        }
 
         const faqsData = await faqsResponse.json();
         const testimonialsData = await testimonialsResponse.json();
@@ -296,7 +300,7 @@ const OvenRepairDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Door</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Oven Door</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -310,7 +314,7 @@ const OvenRepairDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Not Heating</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Oven Not Heating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -324,7 +328,7 @@ const OvenRepairDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Uneven Cooking</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Uneven Cooking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -337,7 +341,7 @@ const OvenRepairDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Keeps Sparking</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Oven Keeps Sparking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -351,7 +355,7 @@ const OvenRepairDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Thermostat</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Oven Thermostat</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -365,7 +369,7 @@ const OvenRepairDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Heating Elements</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Heating Elements</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -379,7 +383,7 @@ const OvenRepairDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Fan</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Oven Fan</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -393,7 +397,7 @@ const OvenRepairDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Door Seal</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Broken Door Seal</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -670,48 +674,48 @@ const OvenRepairDetail = ({
         <MaintenanceContract />
         {/* Gallery */}
         <section className="section cs_py_30 gallery-section bg-light-gray">
-          <div class="container">
-            <h3 class="mb-4 text-center">Gallery</h3>
-            <div class="row g-4">
+          <div className="container">
+            <h3 className="mb-4 text-center">Gallery</h3>
+            <div className="row g-4">
 
-              <div class="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/oven-gallery/oven repair service.avif"
-                  class="img-fluid rounded shadow mb-4"
+                  src={`${import.meta.env.BASE_URL}img/oven-gallery/oven repair service.avif`}
+                  className="img-fluid rounded shadow mb-4"
                   alt="Oven Repair Service Dubai"
                 />
 
                 <img
-                  src="/img/oven-gallery/rational oven repairs.avif"
-                  class="img-fluid rounded shadow"
+                  src={`${import.meta.env.BASE_URL}img/oven-gallery/rational oven repairs.avif`}
+                  className="img-fluid rounded shadow"
                   alt="Oven Repair Service Dubai"
                 />
               </div>
 
-              <div class="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/oven-gallery/rational oven service.avif"
-                  class="img-fluid rounded shadow mb-4"
+                  src={`${import.meta.env.BASE_URL}img/oven-gallery/rational oven service.avif`}
+                  className="img-fluid rounded shadow mb-4"
                   alt="Rational Oven Service"
                 />
 
                 <img
-                  src="/img/oven-gallery/oven repair.avif"
-                  class="img-fluid rounded shadow"
+                  src={`${import.meta.env.BASE_URL}img/oven-gallery/oven repair.avif`}
+                  className="img-fluid rounded shadow"
                   alt="Oven Repair"
                 />
               </div>
 
-              <div class="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/oven-gallery/over repair maintenance.avif"
-                  class="img-fluid rounded shadow mb-4"
+                  src={`${import.meta.env.BASE_URL}img/oven-gallery/over repair maintenance.avif`}
+                  className="img-fluid rounded shadow mb-4"
                   alt="Oven Repair Maintenance"
                 />
 
                 <img
-                  src="/img/oven-gallery/rational oven repair.avif"
-                  class="img-fluid rounded shadow"
+                  src={`${import.meta.env.BASE_URL}img/oven-gallery/rational oven repair.avif`}
+                  className="img-fluid rounded shadow"
                   alt="Rational Oven Repair"
                 />
               </div>

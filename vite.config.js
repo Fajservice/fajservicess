@@ -85,32 +85,22 @@ export default defineConfig(({ mode }) => {
               if (id.includes('react-icons/go')) return 'icons-go';
               if (id.includes('react-icons/bi')) return 'icons-bi';
               if (id.includes('react-icons')) return 'icons';
-              
-              // Split large vendor libraries
               if (id.includes('lodash')) return 'lodash';
               if (id.includes('axios')) return 'axios';
-              if (id.includes('framer-motion')) return 'framer';
-              
-              // Everything else in vendor
               return 'vendor';
             }
             
-            // Split components by page/feature
             if (id.includes('/Components/HeroBanner/')) return 'hero';
             if (id.includes('/Components/Swiper')) return 'swiper-component';
           },
 
           chunkFileNames: (chunkInfo) => {
-            // Add hash for cache busting
             return 'assets/js/[name]-[hash].js';
           },
           entryFileNames: 'assets/js/[name]-[hash].js',
           assetFileNames: ({ name }) => {
             if (/\.(css)$/.test(name ?? '')) {
               return 'assets/css/[name]-[hash][extname]';
-            }
-            if (/\.(woff|woff2|eot|ttf|otf)$/.test(name ?? '')) {
-              return 'assets/fonts/[name]-[hash][extname]';
             }
             if (/\.(png|jpe?g|gif|svg|webp|avif|ico)$/.test(name ?? '')) {
               return 'assets/images/[name]-[hash][extname]';
@@ -121,7 +111,6 @@ export default defineConfig(({ mode }) => {
       },
     },
 
-    // Optimize dependencies
     optimizeDeps: {
       include: ['react', 'react-dom', 'react-router-dom'],
       exclude: ['swiper', 'react-icons'],

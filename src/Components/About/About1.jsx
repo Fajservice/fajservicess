@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { memo, useState, useEffect, useRef } from "react";
 
-// Lazy load icons with explicit imports for Vite compatibility
 const LazyMdAddIcCall = memo(() => {
   const [Icon, setIcon] = useState(null);
   useEffect(() => {
@@ -28,7 +27,6 @@ const LazyArrowForward = memo(() => {
 });
 LazyArrowForward.displayName = 'LazyArrowForward';
 
-// Inline SVG checkmark - prevents render blocking for frequently used icon
 const CheckmarkIcon = () => (
   <svg width="16" height="16" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true">
     <path d="M186.301 339.893L96 249.461l-32 30.507L186.301 402 448 140.506 416 110z" />
@@ -183,14 +181,13 @@ const About1 = ({ img1, img2, img3, subTitle, Content }) => {
         <div className="row cs_gap_y_40 align-items-center">
           <div className="col-xl-6">
             <div className="cs_about_thumbnail_wrapper position-relative">
-              {/* Primary image - eager load for LCP */}
               <div className="cs_about_thumbnail">
                 <img
                   src={img1}
                   alt="About FAJ Technical Services"
                   loading="eager"
                   decoding="async"
-                  fetchPriority="high"
+                  fetchpriority="high"
                 />
               </div>
 

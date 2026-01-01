@@ -1,7 +1,7 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
+import HeroBanner1 from "../Components/HeroBanner/HeroBanner1"; // Direct import - no lazy
 
-const HeroBanner1 = lazy(() => import("../Components/HeroBanner/HeroBanner1"));
 const About1 = lazy(() => import("../Components/About/About1"));
 const Services1 = lazy(() => import("../Components/Services/Services1"));
 const Choose1 = lazy(() => import("../Components/Choose/Choose1"));
@@ -31,27 +31,21 @@ const Home = ({
 }) => {
   const canonicalUrl = URL.replace(/\/?$/, "/");
 
-  const [loadRest, setLoadRest] = useState(true);
+  const [heroData, setHeroData] = useState([]);
+  const [testimonialData, setTestimonialData] = useState([]);
 
-  // State for fetched data
-  const [data, setData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  // Fetch JSON data
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(`${import.meta.env.BASE_URL}data/testimonial1.json`);
-        const testimonialData = await response.json();
-        setData(testimonialData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setIsLoading(false);
-      }
-    };
+    // Fetch hero data immediately (high priority)
+    fetch(`${import.meta.env.BASE_URL}data/herobanner1.json`)
+      .then(res => res.json())
+      .then(data => setHeroData(data))
+      .catch(err => console.error('Error fetching hero data:', err));
 
-    fetchData();
+    // Fetch testimonial data (can load in background)
+    fetch(`${import.meta.env.BASE_URL}data/testimonial1.json`)
+      .then(res => res.json())
+      .then(data => setTestimonialData(data))
+      .catch(err => console.error('Error fetching testimonial data:', err));
   }, []);
 
   return (
@@ -71,9 +65,8 @@ const Home = ({
       </Helmet>
 
       <div className="homepage">
-        <Suspense fallback={null}>
-          <HeroBanner1 />
-        </Suspense>
+        {/* HeroBanner loads immediately - no lazy, no Suspense */}
+        <HeroBanner1 prefetchedData={heroData} />
 
         <Suspense fallback={null}>
           <About1
@@ -115,7 +108,6 @@ const Home = ({
           <BeforeAfter
             title="Recent Completed Projects"
             subTitle="Before & after"
-            
             beforeImg="img/after_img_1.avif"
             afterTitle="After"
             afterImg="img/before_img_1.avif"
@@ -146,13 +138,13 @@ const Home = ({
           />
         </Suspense>
 
-        {!isLoading && data.length > 0 && (
+        {testimonialData.length > 0 && (
           <Suspense fallback={null}>
             <Testimonial1
               subtitle="What Our Clients Say"
               title="Customer <span>Reviews</span>"
               bgImg="img/testimonialbg.jpg"
-              testimonialData={data}
+              testimonialData={testimonialData}
               sectionId="home-testimonials"
             />
           </Suspense>

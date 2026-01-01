@@ -220,7 +220,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat Up</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Oven Doesn't Heat Up</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -233,7 +233,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Doesn't Cook Evenly</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Food Doesn't Cook Evenly</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -246,7 +246,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Gas Burner Issues</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Gas Burner Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">This is another gas cooker problem. The burner has an issue where the flames are uneven or only partly ignited. They also tend to get blocked.</p>
@@ -258,7 +258,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door won't Close
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Oven Door won't Close
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -272,7 +272,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Responsive</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Hob Not Responsive</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -285,7 +285,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">
                       Ignition Problem
                     </h3>
                   </div>
@@ -300,10 +300,11 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"></h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Self-Cleaning Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
+                      Self-cleaning ovens sometimes have issues during the cleaning cycle, needing a reset or professional help.
                     </p>
                   </div>
                 </div>
@@ -312,10 +313,11 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"></h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Oven Doesn't Heat</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
+                      The oven doesn't heat correctly. Possible causes include a faulty thermostat, miscalibration, or control panel issues.
                     </p>
                   </div>
                 </div>

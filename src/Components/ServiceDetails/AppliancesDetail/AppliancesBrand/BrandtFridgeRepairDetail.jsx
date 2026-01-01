@@ -226,7 +226,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brandt Refrigerator</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Brandt Refrigerator</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">
@@ -239,7 +239,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brandt Dishwasher</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Brandt Dishwasher</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">
@@ -252,7 +252,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brandt Washing Machine</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Brandt Washing Machine</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">
@@ -265,7 +265,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brandt Tumble Dryer</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Brandt Tumble Dryer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">
@@ -278,7 +278,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brandt Cooker / Stove</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Brandt Cooker / Stove</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">
@@ -291,7 +291,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brandt Oven</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Brandt Oven</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">
@@ -303,7 +303,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brandt Freezer</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Brandt Freezer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">
@@ -316,7 +316,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Coffee Machine Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">

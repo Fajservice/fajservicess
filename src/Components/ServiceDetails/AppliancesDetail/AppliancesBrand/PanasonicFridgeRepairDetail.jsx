@@ -257,7 +257,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Panasonic Refrigerator</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Panasonic Refrigerator</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Panasonic refrigerator may have cooling problems, usually related to the defrost, motor, compressor, or PCB. Let's reach out to FAJ for potential solutions.</p>
@@ -268,7 +268,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Panasonic Dishwasher</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Panasonic Dishwasher</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common issues with Panasonic dishwasher include poor cleaning and drying, water leaks, drainage issues, and a few electrical or PCB malfunctions.</p>
@@ -279,7 +279,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Panasonic Washing Machine</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Panasonic Washing Machine</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Panasonic washing machines include problems with drainage, leaks, faulty PCBs, and issues related to the belt, door switch, or drum spinning.</p>
@@ -290,7 +290,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Panasonic Tumble Dryer</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Panasonic Tumble Dryer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Panasonic dryer may stop spinning and make unusual noises without properly drying clothes, often due to a faulty heating element or control board.
@@ -302,7 +302,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Panasonic Cooker / Stove</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Panasonic Cooker / Stove</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common issues with Panasonic stove include uneven heating and flame problems, such as a broken burner element, a faulty switch, or an electrical gas malfunction.</p>
@@ -313,7 +313,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Panasonic Oven</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Panasonic Oven</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Panasonic ovens often experience issues such as improper heating, unignited burners, ignition problems in gas models, and faulty knobs or controls.</p>
@@ -323,7 +323,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Panasonic Freezer</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Panasonic Freezer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common issues with Panasonic freezer include water leaks, insufficient ice production, malfunctioning ice makers, and decreased cooling efficiency.</p>
@@ -334,7 +334,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Coffee Machine Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons.</p>

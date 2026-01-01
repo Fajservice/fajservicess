@@ -233,7 +233,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Inconsistent Pickup:</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Inconsistent Pickup:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Clogged brushes, dirty filters, and full dustbins can reduce suction power. Be sure to clean them regularly with the Roborock vacuum.</p>
@@ -244,7 +244,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Poor Mopping:</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Poor Mopping:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Roborock wet dry vacuum & cordless vacuum, can have performance issues due to dirty mop pads, clogged water tanks, or obstructed nozzles.</p>
@@ -255,7 +255,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stuck / Lost:</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Stuck / Lost:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Roborock robot vacuum performs at its best, removing any loose crumbs, dark rugs, & small gaps. Clearing the clutter is essential for optimal operation!</p>
@@ -266,7 +266,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fails to Dock:</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Fails to Dock:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Make sure to clean the charging contacts on both the Roborock robot and the dock, as dirty contacts can prevent a proper connection.</p>
@@ -277,7 +277,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Vacuum Error Codes:</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Vacuum Error Codes:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Problems with the sensors, such as dust or dirt accumulation, as well as blockages in the docking station, can lead to robot vacuum errors.</p>
@@ -288,7 +288,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Short Battery Life/Not Charging:</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Short Battery Life/Not Charging:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Possible issues with the Roborock vacuum cleaner may include dirty contacts, the Roborock robot vacuum's old battery, or the need for a reset.</p>
@@ -300,7 +300,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Robot Connectivity:</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Robot Connectivity:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">If you are currently experiencing challenges with Wi-Fi connectivity and app connection problems for Roborock robot vacuums.</p>
@@ -311,7 +311,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Unexpected Behavior:</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Unexpected Behavior:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">

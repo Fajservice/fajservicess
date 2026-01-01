@@ -3,26 +3,47 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import BookingFormModal from '../BookingFormModal';
 import img from '/img/FajLogo.svg';
-import { IoCallOutline } from 'react-icons/io5';
-import { IoLocationOutline } from 'react-icons/io5';
-import { FaFacebook} from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaWhatsapp } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
+import SocialIcon from '../../icons/SocialIcon';
 import { RxArrowTopRight } from 'react-icons/rx';
+import PhoneIcon from '../../icons/PhoneIcon';
+import WhatsappIcon from '../../icons/WhatsappIcon';
+import LocationIcon from '../../icons/LocationIcon';
 
 const contactItems = [
-  { icon: <IoCallOutline />, content: '+971 4 330 0002', href: 'tel:+97143300002' },
-  { icon: <FaWhatsapp />, content: '+971 50 746 4712', href: 'https://api.whatsapp.com/send?phone=+971507464712&text=Hello' },
-  { icon: <IoLocationOutline />, content: 'Dubai - United Arab Emirates' }
+  {
+    icon: <PhoneIcon className="cs_icon" />,
+    content: '+971 4 330 0002',
+    href: 'tel:+97143300002'
+  },
+  {
+    icon: <WhatsappIcon className="cs_icon" />,
+    content: '+971 50 746 4712',
+    href: 'https://api.whatsapp.com/send?phone=+971507464712&text=Hello',
+  },
+
+  {
+    icon: <LocationIcon className="cs_icon" />,
+    content: 'Dubai - United Arab Emirates',
+  },
 ];
 
 const socialLinks = [
-  { icon: <FaInstagram />, href: 'https://www.instagram.com/fajtechnicalservicesllc/' },
-  { icon: <FaTwitter />, href: 'https://twitter.com/FAJTechnical/' },
-  { icon: <FaYoutube />, href: 'https://www.youtube.com/@fajtechnicalservicesllc' },
-  { icon: <FaFacebook />, href: 'https://www.facebook.com/FAJTechnicalServicesLLC' }
+  {
+    name: 'instagram',
+    href: 'https://www.instagram.com/fajtechnicalservicesllc/',
+  },
+  {
+    name: 'twitter',
+    href: 'https://twitter.com/FAJTechnical/',
+  },
+  {
+    name: 'youtube',
+    href: 'https://www.youtube.com/@fajtechnicalservicesllc',
+  },
+  {
+    name: 'facebook',
+    href: 'https://www.facebook.com/FAJTechnicalServicesLLC',
+  },
 ];
 
 export default function Header1({ variant = '' }) {
@@ -102,14 +123,14 @@ export default function Header1({ variant = '' }) {
                   <div className="cs_header_social_links">
                     {socialLinks.map((social, index) => (
                       <a
-                        key={`social-${index}`}
+                        key={index}
                         href={social.href}
                         className="cs_center cs_accent_bg_light"
-                        aria-label={social.icon}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={social.name}
                       >
-                        {social.icon}
+                        <SocialIcon name={social.name} className="cs_icon" />
                       </a>
                     ))}
                   </div>

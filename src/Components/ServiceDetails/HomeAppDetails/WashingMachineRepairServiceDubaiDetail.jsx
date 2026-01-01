@@ -280,7 +280,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Worn or Damaged Hoses</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Worn or Damaged Hoses</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Inspect the drain line and fill water hoses carefully for cracks in the pipe, loose inlet connections, or damaged pipe hoses.</p>
@@ -291,7 +291,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loose Connections</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Loose Connections</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Ensure all water connections are tight and secure, especially at the water inlet valve from wall or from machine inlet.</p>
@@ -302,7 +302,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Door Seals or Gaskets</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Faulty Door Seals or Gaskets</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Inspect the washing machine gasket for cracks and examine the rubber seals and gaskets around the washer door for damage.</p>
@@ -313,7 +313,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Drain Pump</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Faulty Drain Pump</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">A faulty drain pump can prevent water from draining properly. Check for full damage or problems that could affect performance.</p>
@@ -324,7 +324,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Clogged Drain Hose or Pump</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Clogged Drain Hose or Pump</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Clean the washing machine's drain hose and check for clogs or blockages in the drain pump or inlet pump filter.</p>
@@ -335,7 +335,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud Noises</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Loud Noises</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Grinding, rumbling, or humming washing machine noises may indicate motor, drum spider, or both bearing damage in machine.</p>
@@ -346,7 +346,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Drum Doesn't Rotate</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Drum Doesn't Rotate</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">A malfunctioning of washing machine PCB, motor or worn/faulty motor carbon brushes can prevent drum from spinning.</p>
@@ -357,7 +357,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door and Lid Switch Issues</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Door and Lid Switch Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">A malfunctioning lid switch or a connection can prevent the washing machine from starting or cause it to stop mid-cycle.</p>

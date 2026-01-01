@@ -219,7 +219,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Refrigerator</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Daewoo Refrigerator</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common malfunctions of Daewoo refrigerators often involve cooling issues, such as problems with the defrost, fan motor, compressor, or coils.</p>
@@ -230,7 +230,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Dishwasher</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Daewoo Dishwasher</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common issues with Daewoo dishwasher include poor cleaning and drying, water leaks, drainage problems, and occasional electrical or PCB failures.
@@ -242,7 +242,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Washing Machine
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Daewoo Washing Machine
                                         </h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
@@ -255,7 +255,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Tumble Dryer</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Daewoo Tumble Dryer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Daewoo dryers may stop spinning and can make noise while failing to dry clothes. Common issues include a faulty heating element or control board.</p>
@@ -265,7 +265,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Cooker / Stove</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Daewoo Cooker / Stove</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common issues with Daewoo stoves include uneven heating and flame problems, such as a broken burner element, faulty switch, or an electric gas malfunction.</p>
@@ -275,7 +275,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Oven</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Daewoo Oven</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Daewoo ovens often have issues like improper heating, unignited burners, ignition problems in gas models, and faulty knobs or controls.</p>
@@ -285,7 +285,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Freezer</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Daewoo Freezer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">Common Daewoo freezer issues include water leaks, insufficient ice, a faulty ice maker, and reduced cooling efficiency.</p>
@@ -295,7 +295,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                                        <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Coffee Machine Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
                                         <p className="p-2 mb-0">There are several reasons why water flow in coffee makers, whether drip or single-serve, is often slow or absent.</p>
