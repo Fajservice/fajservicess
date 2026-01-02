@@ -1,9 +1,29 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet-async";
 import { useState, useEffect } from 'react';
-import { FaRegCommentDots } from 'react-icons/fa';
-import { IoPeopleOutline } from 'react-icons/io5';
-import { IoIosArrowRoundForward } from 'react-icons/io';
+
+// Inline SVG Icons - No external dependencies, renders immediately
+const CommentIcon = ({ size = 16, color = "currentColor" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+  </svg>
+);
+
+const PeopleIcon = ({ size = 16, color = "currentColor" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/>
+    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+  </svg>
+);
+
+const ArrowRightIcon = ({ size = 24, color = "currentColor" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <line x1="5" y1="12" x2="19" y2="12"/>
+    <polyline points="12 5 19 12 12 19"/>
+  </svg>
+);
 
 const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
   const [data, setData] = useState([]);
@@ -69,11 +89,11 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
                       <div className="cs_post_content">
                         <div className="cs_post_meta_wrapper cs_mb_11">
                           <div className="cs_post_meta">
-                            <span className="cs_accent_color"><FaRegCommentDots /></span>
+                            <span className="cs_accent_color"><CommentIcon size={16} /></span>
                             <span className="cs_heading_color">{item.comments} Comments</span>
                           </div>
                           <div className="cs_post_meta">
-                            <span className="cs_accent_color"><IoPeopleOutline /></span>
+                            <span className="cs_accent_color"><PeopleIcon size={16} /></span>
                             <span className="cs_heading_color">{item.admin}</span>
                           </div>
                         </div>
@@ -82,7 +102,7 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
                         </h3>
                         <p className="cs_mb_15">{item.shortdesc}</p>
                         <Link to={`/blog/${item.slug}/`} className="cs_text_btn cs_style_1 cs_white_bg cs_accent_color">
-                          <IoIosArrowRoundForward style={{ fontSize: "24px" }} />
+                          <ArrowRightIcon size={24} />
                         </Link>
                       </div>
                     </div>

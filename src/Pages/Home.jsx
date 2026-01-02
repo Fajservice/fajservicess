@@ -1,6 +1,6 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import HeroBanner1 from "../Components/HeroBanner/HeroBanner1"; // Direct import - no lazy
+import ImageSlider from "../Components/ImageSlider/ImageSlider";
 
 const About1 = lazy(() => import("../Components/About/About1"));
 const Services1 = lazy(() => import("../Components/Services/Services1"));
@@ -22,6 +22,42 @@ const DEFAULT_SEO = {
   url: "https://www.fajservices.ae/",
 };
 
+const heroSlides = [
+  {
+    image: "img/ac-repair-services.avif",
+    alt: "FAJ ensures comfort with professional air conditioning services year-round",
+    content: true,
+    title: "FAJ ensures comfort with professional air conditioning services year-round!",
+    description: "We provide honest, friendly, and professional repair, servicing, maintenance contracts, and installation through our expert technicians",
+    buttonText: "Read more",
+    buttonLink: "/about-us/",
+    phone: "(+971) 507464712",
+    phoneLink: "tel:+971507464712"
+  },
+  {
+    image: "img/appliances-repair-services.avif",
+    alt: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
+    content: true,
+    title: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
+    description: "We understand that appliance breakdowns can happen at any time, which is why our team at FAJ is always ready to respond and repair quickly.",
+    buttonText: "Read more",
+    buttonLink: "/about-us/",
+    phone: "(+971) 507464712",
+    phoneLink: "tel:+971507464712"
+  },
+  {
+    image: "img/refrigeration-repair-services.avif",
+    alt: "We are here to help you with your commercial refrigeration system repair problems.",
+    content: true,
+    title: "We are here to help you with your commercial refrigeration system repair problems.",
+    description: "At FAJ Refrigeration and Freezer Maintenance, we focus on keeping your products and premises at the optimal temperature, helping you maintain your cool!",
+    buttonText: "Read more",
+    buttonLink: "/about-us/",
+    phone: "(+971) 507464712",
+    phoneLink: "tel:+971507464712"
+  }
+];
+
 const Home = ({
   titleSeo = DEFAULT_SEO.title,
   description = DEFAULT_SEO.description,
@@ -31,17 +67,9 @@ const Home = ({
 }) => {
   const canonicalUrl = URL.replace(/\/?$/, "/");
 
-  const [heroData, setHeroData] = useState([]);
   const [testimonialData, setTestimonialData] = useState([]);
 
   useEffect(() => {
-    // Fetch hero data immediately (high priority)
-    fetch(`${import.meta.env.BASE_URL}data/herobanner1.json`)
-      .then(res => res.json())
-      .then(data => setHeroData(data))
-      .catch(err => console.error('Error fetching hero data:', err));
-
-    // Fetch testimonial data (can load in background)
     fetch(`${import.meta.env.BASE_URL}data/testimonial1.json`)
       .then(res => res.json())
       .then(data => setTestimonialData(data))
@@ -65,8 +93,13 @@ const Home = ({
       </Helmet>
 
       <div className="homepage">
-        {/* HeroBanner loads immediately - no lazy, no Suspense */}
-        <HeroBanner1 prefetchedData={heroData} />
+        <ImageSlider 
+          slides={heroSlides}
+          autoPlay={true}
+          interval={5000}
+          showDots={true}
+          showArrows={true}
+        />
 
         <Suspense fallback={null}>
           <About1

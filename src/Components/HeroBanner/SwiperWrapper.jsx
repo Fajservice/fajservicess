@@ -1,8 +1,6 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
 
-// CSS imports - these will be bundled with this chunk
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

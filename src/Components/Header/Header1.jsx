@@ -80,8 +80,7 @@ export default function Header1({ variant = '' }) {
     top: 0,
     zIndex: '9999',
     width: '100%',
-    backgroundColor: isSticky ? 'white' : 'transparent',
-    transition: 'background-color 0.3s ease, box-shadow 0.3s ease',
+    backgroundColor: 'white',
     boxShadow: isSticky ? '0 2px 10px rgba(0,0,0,0.1)' : 'none',
   }), [isSticky]);
 

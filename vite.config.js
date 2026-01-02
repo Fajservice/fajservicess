@@ -64,22 +64,15 @@ export default defineConfig(({ mode }) => {
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
-              // Core React - loads immediately
               if (id.includes('react-dom')) return 'react-dom';
               if (id.includes('react') && !id.includes('react-icons') && !id.includes('react-router') && !id.includes('react-helmet')) {
                 return 'react';
               }
               
-              // Router - loads immediately but separate
               if (id.includes('react-router')) return 'router';
-              
-              // Helmet - small, can be with core
               if (id.includes('react-helmet')) return 'helmet';
-              
-              // Swiper - lazy loaded, separate chunk
               if (id.includes('swiper')) return 'swiper';
               
-              // Icons - lazy loaded, separate by icon library
               if (id.includes('react-icons/md')) return 'icons-md';
               if (id.includes('react-icons/io')) return 'icons-io';
               if (id.includes('react-icons/go')) return 'icons-go';

@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, memo } from "react";
 import { Link } from "react-router-dom";
 import SectionTitle from "../Common/SectionTitle";
 
-// Inline Arrow Icons
+
 const ArrowRightIcon = ({ size = 22 }) => (
   <svg
     width={size}
@@ -40,7 +40,7 @@ const Services1 = () => {
   const [SwiperComponents, setSwiperComponents] = useState(null);
   const swiperRef = useRef(null);
 
-  // Fetch data immediately on mount
+
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/services1.json`)
       .then((res) => {
