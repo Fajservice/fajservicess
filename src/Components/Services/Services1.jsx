@@ -1,7 +1,6 @@
-import React, { useEffect, useRef, useState, memo } from "react";
+import React, { useEffect, useRef, useState, memo, useCallback } from "react";
 import { Link } from "react-router-dom";
 import SectionTitle from "../Common/SectionTitle";
-
 
 const ArrowRightIcon = ({ size = 22 }) => (
   <svg
@@ -37,9 +36,12 @@ const ArrowLeftIcon = ({ size = 22 }) => (
 
 const Services1 = () => {
   const [data, setData] = useState([]);
-  const [SwiperComponents, setSwiperComponents] = useState(null);
-  const swiperRef = useRef(null);
-
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [slidesPerView, setSlidesPerView] = useState(3);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+  const trackRef = useRef(null);
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/services1.json`)
@@ -51,35 +53,66 @@ const Services1 = () => {
       .catch((err) => console.error(err));
   }, []);
 
-  // Load Swiper immediately on mount
   useEffect(() => {
-    if (SwiperComponents) return;
+    const handleResize = () => {
+      const width = window.innerWidth;
+      if (width < 575) setSlidesPerView(1);
+      else if (width < 768) setSlidesPerView(1);
+      else if (width < 1200) setSlidesPerView(2);
+      else setSlidesPerView(3);
+    };
 
-    Promise.all([
-      import("swiper/react"),
-      import("swiper/modules"),
-      import("swiper/css"),
-      import("swiper/css/navigation")
-    ]).then(([swiperReact, swiperModules]) => {
-      setSwiperComponents({
-        Swiper: swiperReact.Swiper,
-        SwiperSlide: swiperReact.SwiperSlide,
-        Navigation: swiperModules.Navigation,
-        Autoplay: swiperModules.Autoplay
-      });
-    });
-  }, [SwiperComponents]);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-  const handleNext = () => swiperRef.current?.slideNext();
-  const handlePrev = () => swiperRef.current?.slidePrev();
+  const maxIndex = Math.max(0, data.length - slidesPerView);
 
-  const showSwiper = SwiperComponents && data.length > 0;
+  const handleNext = useCallback(() => {
+    if (isTransitioning) return;
+    setIsTransitioning(true);
+    setCurrentIndex((prev) => (prev >= maxIndex ? 0 : prev + 1));
+    setTimeout(() => setIsTransitioning(false), 600);
+  }, [maxIndex, isTransitioning]);
+
+  const handlePrev = useCallback(() => {
+    if (isTransitioning) return;
+    setIsTransitioning(true);
+    setCurrentIndex((prev) => (prev <= 0 ? maxIndex : prev - 1));
+    setTimeout(() => setIsTransitioning(false), 600);
+  }, [maxIndex, isTransitioning]);
+
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchMove = (e) => {
+    touchEndX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = () => {
+    const diff = touchStartX.current - touchEndX.current;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) handleNext();
+      else handlePrev();
+    }
+  };
+
+  const slideWidth = 100 / slidesPerView;
+  const gap = 30;
 
   return (
-    <section 
-      className="cs_gray_bg cs_bg_filed position-relative" 
+    <section
+      className="cs_gray_bg cs_bg_filed position-relative"
       data-src="assets/img/service_bg_1.avif"
     >
+      <style>{`
+        .services-slider{position:relative;overflow:hidden;width:100%}
+        .services-slider__track{display:flex;transition:transform .6s ease;will-change:transform}
+        .services-slider__slide{flex-shrink:0;padding:0 15px;box-sizing:border-box}
+      `}</style>
+
       <div className="cs_height_60"></div>
       <div className="container">
         <div className="cs_section_heading cs_style_1 cs_type_1 cs_mb_50">
@@ -101,35 +134,36 @@ const Services1 = () => {
         <div className="container">
           <div className="cs_slider_container">
             <div className="cs_slider_wrapper">
-              {showSwiper ? (
-                <SwiperComponents.Swiper
-                  onSwiper={(swiper) => { swiperRef.current = swiper; }}
-                  modules={[SwiperComponents.Navigation, SwiperComponents.Autoplay]}
-                  spaceBetween={30}
-                  slidesPerView={1}
-                  loop={true}
-                  speed={600}
-                  autoplay={false}
-                  navigation={false}
-                  allowTouchMove={true}
-                  breakpoints={{
-                    575: { slidesPerView: 1, spaceBetween: 20 },
-                    768: { slidesPerView: 2, spaceBetween: 30 },
-                    1200: { slidesPerView: 3, spaceBetween: 30 }
-                  }}
-                  className="services-swiper"
+              {data.length > 0 ? (
+                <div
+                  className="services-slider"
+                  onTouchStart={handleTouchStart}
+                  onTouchMove={handleTouchMove}
+                  onTouchEnd={handleTouchEnd}
                 >
-                  {data.map((item, index) => (
-                    <SwiperComponents.SwiperSlide key={index}>
-                      <ServiceCard item={item} />
-                    </SwiperComponents.SwiperSlide>
-                  ))}
-                </SwiperComponents.Swiper>
+                  <div
+                    ref={trackRef}
+                    className="services-slider__track"
+                    style={{
+                      transform: `translateX(calc(-${currentIndex * slideWidth}% - ${currentIndex * (gap / slidesPerView)}px))`,
+                    }}
+                  >
+                    {data.map((item, index) => (
+                      <div
+                        key={index}
+                        className="services-slider__slide"
+                        style={{ width: `${slideWidth}%` }}
+                      >
+                        <ServiceCard item={item} />
+                      </div>
+                    ))}
+                  </div>
+                </div>
               ) : (
                 <ServicePlaceholder />
               )}
             </div>
-            {showSwiper && (
+            {data.length > 0 && (
               <SliderArrows onNext={handleNext} onPrev={handlePrev} />
             )}
           </div>
@@ -141,23 +175,18 @@ const Services1 = () => {
   );
 };
 
-// Placeholder while loading
 const ServicePlaceholder = () => (
-  <div style={{ 
-    display: "flex", 
-    gap: "30px", 
-    overflow: "hidden" 
-  }}>
-    {[1, 2, 3].map(i => (
-      <div 
-        key={i} 
-        className="cs_slide" 
-        style={{ 
+  <div style={{ display: "flex", gap: "30px", overflow: "hidden" }}>
+    {[1, 2, 3].map((i) => (
+      <div
+        key={i}
+        className="cs_slide"
+        style={{
           flex: "0 0 calc(33.333% - 20px)",
           minHeight: "400px",
           background: "#f5f5f5",
-          borderRadius: "10px"
-        }} 
+          borderRadius: "10px",
+        }}
       />
     ))}
   </div>
@@ -170,14 +199,16 @@ const ServiceCard = memo(({ item }) => (
         <img
           src={`${import.meta.env.BASE_URL}${item.img}`}
           alt={item.title}
+          loading="lazy"
         />
       </div>
       <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
         <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
-          <img 
+          <img
             src={`${import.meta.env.BASE_URL}${item.icon}`}
             alt={item.title}
             className="cs_service_icon"
+            loading="lazy"
           />
         </div>
         <h3 className="cs_card_title cs_fs_24 cs_mb_8">
@@ -200,7 +231,7 @@ const SliderArrows = memo(({ onNext, onPrev }) => (
     <div
       className="cs_arrow_wrap cs_arrow_wrap_left cs_center"
       onClick={onPrev}
-      style={{ cursor: 'pointer' }}
+      style={{ cursor: "pointer" }}
     >
       <div className="cs_left_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
         <ArrowLeftIcon size={22} />
@@ -209,7 +240,7 @@ const SliderArrows = memo(({ onNext, onPrev }) => (
     <div
       className="cs_arrow_wrap cs_arrow_wrap_right cs_center"
       onClick={onNext}
-      style={{ cursor: 'pointer' }}
+      style={{ cursor: "pointer" }}
     >
       <div className="cs_right_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
         <ArrowRightIcon size={22} />

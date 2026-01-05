@@ -102,7 +102,7 @@ const ImageSlider = ({
                 )}
                 <div className="hero-slide__actions">
                   {slide.buttonText && (
-                    <a href={slide.buttonLink || '#'} className="hero-slide__btn">
+                    <a href={slide.buttonLink || 'https://www.fajservices.ae/who-we-are/'} className="hero-slide__btn">
                       {slide.buttonText}
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14M12 5l7 7-7 7"/>

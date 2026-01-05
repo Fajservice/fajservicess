@@ -1,25 +1,36 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
 import BookingFormModal from '../BookingFormModal';
-import { RxArrowTopRight } from 'react-icons/rx';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/swiper-bundle.css";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 import Testimonial1 from "../Testimonial/Testimonial1";
 import BrandsSliderSection from "../BrandsSliderSection";
 import BeforeAfter from "../BeforeAfter/BeforeAfter";
 
+const EyeIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+  </svg>
+);
+
+const EyeSlashIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z"/>
+  </svg>
+);
+
+const ArrowTopRightIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+  </svg>
+);
+
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  // For SEO
   const metatitle = String(titleSeo || "Coffee Machine Service Center in Dubai & Repair & Maintenance");
   const metadescription = String(description || "Best FAJ Coffee machine service center in Dubai. Call us for home / office espresso machine, restaurant, coffee maker repair and maintenance near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
@@ -50,6 +61,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
     setIsModalOpen(false);
     document.body.style.overflow = 'auto';
   }, []);
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -57,6 +69,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
       setOpenItemIndex(index);
     }
   };
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -94,72 +107,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
-
   return (
     <>
       <HelmetProvider>
@@ -175,8 +122,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
-
-          {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
@@ -198,7 +143,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                 <WhatsappIconButton />
                 <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
                   <span>Book Now</span>
-                  <RxArrowTopRight />
+                  <ArrowTopRightIcon />
                 </button>
                 <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
@@ -206,7 +151,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
 
-        {/* Coffee Machine Repair and Service */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
@@ -256,7 +200,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
 
-        {/* Why Coffee Machine Maintenance Important in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Why Coffee Machine Maintenance Important in Dubai?
@@ -284,7 +227,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
 
-        {/* The Most Common Problems of Coffee Machines */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="text-center">The Most Common Problems of Coffee Machines   </h2>
@@ -405,7 +347,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
 
-        {/* HERE ARE THE SERVICES */}
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO  </h2>
@@ -445,7 +386,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section >
 
-        {/* The Benefits Of Coffee Machines Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
           <div className="container">
             <div className="row justify-content-center">
@@ -531,13 +471,11 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
 
-        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
             <div className="usps align-items-center	">
-              {/* <!-- First Column --> */}
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
@@ -573,12 +511,10 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
               </div>
 
-              {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
                 <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/Coffee-Machine-Repair-&-Maintenance.avif`} alt="FAJ icon service" />
               </div>
 
-              {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
@@ -610,7 +546,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                 </div>
               </div>
 
-              {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
                 <img className="" src={`${import.meta.env.BASE_URL}img/Coffee-Machine-Repair-&-Maintenance.avif`} alt="FAJ icon service" />
               </div>
@@ -618,7 +553,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
         
-        {/* CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE */}
         <section className="section cs_py_30 bg-light-gray custom-css-box">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Coffee MAchine REPAIR SERVICE</h3>
@@ -1187,7 +1121,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
             afterImg="img/coffee-machine-after-image.avif"
             beforeTitle="Before"
           />
-        {/* Gallery */}
+
         <section className="section cs_py_30 gallery-section bg-light-gray">
         <div className="container">
           <h3 className="mb-4 text-center">Gallery</h3>
@@ -1198,12 +1132,14 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   src="/img/CoffeeMachinesImages/coffee-machines-repair-1.avif"
                   className="img-fluid rounded shadow mb-4"
                   alt="Coffee Machine Repair in Dubai"
+                  loading="lazy"
                 />
 
                 <img
                   src="/img/CoffeeMachinesImages/coffee-machine-repair-gallery.avif"
                   className="img-fluid rounded shadow"
                   alt="Coffee Machine Repair"
+                  loading="lazy"
                 />
               </div>
 
@@ -1212,12 +1148,14 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   src="/img/CoffeeMachinesImages/coffee-machine-repair-service-gallery.avif"
                   className="img-fluid rounded shadow mb-4"
                   alt="Coffee Machine Repair Service"
+                  loading="lazy"
                 />
 
                 <img
                   src="/img/CoffeeMachinesImages/coffee-machines-repair-7.avif"
                   className="img-fluid rounded shadow"
                   alt="Commercial Coffee Machine Service"
+                  loading="lazy"
                 />
               </div>
 
@@ -1226,19 +1164,20 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   src="/img/CoffeeMachinesImages/coffee-machines-repair-8.avif"
                   className="img-fluid rounded shadow mb-4"
                   alt="Espresso Machine Maintenance"
+                  loading="lazy"
                 />
 
                 <img
                   src="/img/CoffeeMachinesImages/coffee-machine-repairs-service.avif"
                   className="img-fluid rounded shadow"
                   alt="Coffee Machine Repairs Service"
+                  loading="lazy"
                 />
               </div>
             </div>
         </div>
         </section>
-        {/* Gallery */}
-        {/* Brands section */}
+
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data}
@@ -1248,10 +1187,9 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
             containerHeight="100px"
           />
         )}
-        {/* Maintenance Contract */}
+
         <MaintenanceContract />
 
-        {/* testimobial section */}
         {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
             subtitle="What Our Clients Say"
@@ -1262,7 +1200,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           />
         )}
 
-        {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
@@ -1274,12 +1211,11 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"><FaEye /></i>
-                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                      <i className="bi bi-eye text-light"><EyeIcon /></i>
+                      <i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>
