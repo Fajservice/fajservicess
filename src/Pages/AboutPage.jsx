@@ -68,12 +68,11 @@ const AboutPage = () => {
                             </div>
                             <div className="cs_esperience_text position-absolute">
                             <h2 className="cs_experience_title mb-0">
-                                <span className="cs_fs_52">FAJ</span>
-                                <span className="cs_fs_20">was established</span>
-                                <span className="cs_fs_36">Since</span>
+                                <span className="cs_fs_100 cs_black cs_accent_color">FAJ</span>
+                                <span className="cs_fs_30">was established</span>
+                                <span className="cs_fs_30">Since</span>
                                 <span className="cs_fs_50">2010</span>
                             </h2>
-                            <p className="cs_fs_16">We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality.</p>
                             </div>
                             <a href="tel:+971507464712" className="cs_phone_call cs_heading_color">
                             <div className="cs_phone_icon cs_fs_20 cs_center cs_radius_50">

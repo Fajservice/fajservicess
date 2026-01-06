@@ -68,9 +68,6 @@ export default defineConfig(({ mode }) => {
               if (id.includes('react') && !id.includes('react-router') && !id.includes('react-helmet')) return 'react';
               if (id.includes('react-router')) return 'router';
               if (id.includes('react-helmet')) return 'helmet';
-              if (id.includes('swiper')) return 'swiper';
-              if (id.includes('lodash')) return 'lodash';
-              if (id.includes('axios')) return 'axios';
               return 'vendor';
             }
           },

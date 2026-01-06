@@ -6,16 +6,12 @@ const MaintenanceContract = lazy(() => import('../../MaintenanceContract/Mainten
 const BlogWashingMachine = lazy(() => import("../../Blog/BlogWashingMachine"));
 const BrandsSliderSection = lazy(() => import("../../BrandsSliderSection"));
 const Testimonial1 = lazy(() => import("../../Testimonial/Testimonial1"));
-
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BookingFormModal from '../../BookingFormModal';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
-const loadFAQData = () => import('../../../../public/data/HomeAppData/FAQs/WashingmachineRepairServiceFaqs.json');
-const loadTestimonialData = () => import('../../../../public/data/HomeAppData/Testmonials/WashingMachineRepairServiceTestimonials.json');
-const loadBrandsData = () => import('../../../../public/data/AppliancesBrandsLogo.json');
 
 const OptimizedImage = ({ src, alt, className, width, height, priority = false }) => {
   return (
@@ -121,22 +117,35 @@ const WashingMachineRepairServiceDubaiDetail = ({
   const [brandsData, setBrandsData] = useState([]);
   const [openItemIndex, setOpenItemIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const accordionContentRef = useRef(null);
 
-  // Load data on mount
+  // Fetch JSON data
   useEffect(() => {
-    Promise.all([
-      loadFAQData(),
-      loadTestimonialData(),
-      loadBrandsData()
-    ]).then(([faq, testimonial, brands]) => {
-      setData(faq.default || faq);
-      setTestimonialData(testimonial.default || testimonial);
-      setBrandsData(brands.default || brands);
-    });
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/WashingmachineRepairServiceFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/WashingMachineRepairServiceTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsDataJson = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsData(brandsDataJson);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, []);
-
-
 
   const openModal = useCallback((e) => {
     e.preventDefault();
