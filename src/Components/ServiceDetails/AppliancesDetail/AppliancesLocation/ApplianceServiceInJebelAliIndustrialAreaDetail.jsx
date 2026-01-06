@@ -170,7 +170,7 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
+                    <title>{metaTitle}</title>
                     <meta name="description" content={metaDescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
