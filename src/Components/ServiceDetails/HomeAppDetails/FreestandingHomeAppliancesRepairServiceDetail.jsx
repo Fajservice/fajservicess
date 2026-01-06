@@ -1,17 +1,12 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt.jsx';
 import CallNowButton from '../../Buttons/CallNowButton.jsx';
 import GetQuoteButton from "../../Buttons/GetQuoteButton.jsx";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract.jsx";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol.jsx";
-import BookingFormModal from '../../BookingFormModal';
-import { RxArrowTopRight } from 'react-icons/rx';
-import 'swiper/swiper-bundle.css';
 import loadBackgroudImages from "../../Common/loadBackgroudImages.jsx";
 import HeaderForm from "../../Headeform/HeaderForm.jsx";
 import BrandsSliderSection from "../../BrandsSliderSection";
@@ -164,26 +159,26 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
 
   return (
     <>
-        <Helmet>
-          <title>Appliances Service Center in Dubai | Appliances Repair Near Me</title>
-          <meta name="description" content={metadescription}></meta>
-          <meta name="keywords" content={metaKeyword} />
-          <meta name="author" content={metaAuthor} />
-          <meta name="robots" content="index, follow" />
-          <link rel="canonical" href={metaURL} />
-          <meta property="og:type" content="website" />
-          <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
-          <meta property="og:image" content={metaImage} />
+      <Helmet>
+        <title>Appliances Service Center in Dubai | Appliances Repair Near Me</title>
+        <meta name="description" content={metadescription}></meta>
+        <meta name="keywords" content={metaKeyword} />
+        <meta name="author" content={metaAuthor} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={metaURL} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={metatitle} />
+        <meta property="og:description" content={metadescription} />
+        <meta property="og:image" content={metaImage} />
 
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
-        </Helmet>
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metatitle} />
+        <meta name="twitter:description" content={metadescription} />
+        <meta name="twitter:image" content={metaImage} />
+        <meta name="twitter:url" content={metaURL} />
+      </Helmet>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -198,11 +193,6 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
           </div>
@@ -226,7 +216,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="freestanding appliances repair"  />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="freestanding appliances repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -245,7 +235,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="freestanding appliances repair"  />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="freestanding appliances repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -420,7 +410,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -431,7 +421,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
@@ -444,7 +434,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                       <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -456,7 +446,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -468,7 +458,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -482,7 +472,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h3>
@@ -505,7 +495,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -516,7 +506,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -527,7 +517,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -539,14 +529,14 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service"  />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -555,7 +545,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -565,7 +555,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -576,7 +566,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service"  />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -856,7 +846,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
           />
         )}
 
-        {/* FAQ's */}
+        {/* Faqs */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
@@ -868,12 +858,40 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"><FaEye /></i>
-                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <circle cx="12" cy="12" r="3" />
+                        <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
+                      </svg>
+
+                      {/* Eye Slash */}
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
+                        <line x1="1" y1="1" x2="23" y2="23" />
+                        <circle cx="12" cy="12" r="3" />
+                      </svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>

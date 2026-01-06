@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
@@ -11,7 +9,6 @@ import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import BookingFormModal from '../BookingFormModal';
-import { RxArrowTopRight } from 'react-icons/rx';
 import HeaderForm from "../Headeform/HeaderForm";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import Practicaltip from "../Common/Practicaltip";
@@ -252,11 +249,6 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
           </div>
@@ -554,7 +546,6 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         </section>
 
         <Practicaltip></Practicaltip>
-
         <AcProperties></AcProperties>
 
         {/* Maintenance Contract */}
@@ -565,7 +556,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
-            bgImg="/img/home-testimonial-bg.jpg"
+            bgImg="img/testimonialbg.jpg"
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />
@@ -585,8 +576,37 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"><FaEye /></i>
-                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <circle cx="12" cy="12" r="3" />
+                        <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
+                      </svg>
+
+                      {/* Eye Slash */}
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
+                        <line x1="1" y1="1" x2="23" y2="23" />
+                        <circle cx="12" cy="12" r="3" />
+                      </svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>

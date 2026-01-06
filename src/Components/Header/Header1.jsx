@@ -4,7 +4,6 @@ import Nav from './Nav';
 import BookingFormModal from '../BookingFormModal';
 import img from '/img/FajLogo.svg';
 import SocialIcon from '../../icons/SocialIcon';
-import { RxArrowTopRight } from 'react-icons/rx';
 import PhoneIcon from '../../icons/PhoneIcon';
 import WhatsappIcon from '../../icons/WhatsappIcon';
 import LocationIcon from '../../icons/LocationIcon';
@@ -175,8 +174,19 @@ export default function Header1({ variant = '' }) {
                 <div className="solutek-btn2">
                   <button onClick={openModal} className="cs_btn cs_style_1" aria-label="Book Now">
                     <span>Book Now</span>
-                    <RxArrowTopRight />
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="cs_icon"
+                    >
+                      <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
                   </button>
+
                 </div>
               </div>
             </div>

@@ -1,14 +1,9 @@
 import { useEffect, useRef, useState, useCallback, memo, lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { RxArrowTopRight } from 'react-icons/rx';
-
-// Critical above-the-fold components - load immediately
 import HeaderForm from "../Headeform/HeaderForm";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BookingFormModal from '../BookingFormModal';
-
-// Lazy load below-the-fold components
 const CallNowButton = lazy(() => import('../Buttons/CallNowButton'));
 const BenefitAcMaintenance = lazy(() => import("../BenefitAcMaintenance/BenefitAcMaintenance"));
 const QuickGuide = lazy(() => import("../QuickGuide/QuickGuide"));
@@ -23,11 +18,18 @@ const Testimonial1 = lazy(() => import("../Testimonial/Testimonial1"));
 const BeforeAfter = lazy(() => import("../BeforeAfter/BeforeAfter"));
 const Serviceappointemnt = lazy(() => import('../Contact/Serviceappointemnt'));
 
-// Lazy load icons (only load when FAQ section is visible)
-const FaEye = lazy(() => import("react-icons/fa").then(m => ({ default: m.FaEye })));
-const FaEyeSlash = lazy(() => import("react-icons/fa").then(m => ({ default: m.FaEyeSlash })));
 
-// Custom hook for intersection observer
+const EyeIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+  </svg>
+);
+const EyeSlashIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z" />
+  </svg>
+);
+
 const useInView = (options = {}) => {
   const [isInView, setIsInView] = useState(false);
   const ref = useRef(null);
@@ -47,10 +49,9 @@ const useInView = (options = {}) => {
   return [ref, isInView];
 };
 
-// Lazy section wrapper component
 const LazySection = memo(({ children, fallback = null }) => {
   const [ref, isInView] = useInView();
-  
+
   return (
     <div ref={ref}>
       {isInView ? (
@@ -73,12 +74,10 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Data states
   const [faqData, setFaqData] = useState([]);
   const [testimonialData, setTestimonialData] = useState([]);
   const [openItemIndex, setOpenItemIndex] = useState(0);
 
-  // Refs for lazy loading sections
   const [faqRef, faqInView] = useInView();
   const [testimonialRef, testimonialInView] = useInView();
 
@@ -97,7 +96,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
     setOpenItemIndex(prev => prev === index ? -1 : index);
   }, []);
 
-  // Load background images only when needed
   useEffect(() => {
     const loadBgImages = async () => {
       const { default: loadBackgroudImages } = await import("../Common/loadBackgroudImages");
@@ -106,7 +104,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
     loadBgImages();
   }, []);
 
-  // Fetch FAQ data only when section is in view
   useEffect(() => {
     if (!faqInView || faqData.length > 0) return;
 
@@ -116,7 +113,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
       .catch(err => console.error('Error fetching FAQ data:', err));
   }, [faqInView, faqData.length]);
 
-  // Fetch testimonial data only when section is in view
+
   useEffect(() => {
     if (!testimonialInView || testimonialData.length > 0) return;
 
@@ -147,13 +144,135 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How much is AC service in Dubai?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit's size and condition, as well as the service provider."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why is my AC not cooling in Dubai?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why is AC repair so expensive?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai's climate, which demands frequent AC use, also adds to the cost."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why is my AC giving cool air but not cooling?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How often should AC be cleaned in Dubai?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Which company is best for central AC?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "FAJ Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What maintenance is needed for AC?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can I maintain my AC?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is routine AC maintenance?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Routine AC maintenance typically involves cleaning filters, inspecting the refrigerant, cleaning the coils, and checking the system's overall performance. Regular maintenance keeps your AC running smoothly."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I fix my air conditioner that is not cooling?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How often should an air conditioner be serviced?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit's lifespan."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is AC duct cleaning important in Dubai?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is AC duct cleaning worth it?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It's a cost-effective investment for long-term benefits."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How often should AC ducts be cleaned?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
+                  }
+                }
+              ]
+            })}
+          </script>
+
         </Helmet>
       </HelmetProvider>
 
       <HeaderForm />
-      
+
       <div className="cs_service_details">
-        {/* Hero Section - Critical, loads immediately */}
+        {/* Hero Section */}
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">AC Service in Dubai | Air Conditioning Repair & Maintenance</h1>
@@ -162,10 +281,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
                 <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
@@ -199,11 +314,11 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
               </div>
               <div className="col-md-6">
-                <img 
-                  width={534} 
-                  height={324} 
-                  className="bordered-img w-100" 
-                  src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} 
+                <img
+                  width={534}
+                  height={324}
+                  className="bordered-img w-100"
+                  src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`}
                   alt="Experts AC Service and Maintenance"
                   loading="lazy"
                 />
@@ -238,9 +353,9 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               <div className="row align-items-center">
                 <div className="col-md-6">
-                  <img 
-                    className="blue-border" 
-                    src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} 
+                  <img
+                    className="blue-border"
+                    src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`}
                     alt="Ac Maintenance in dubai"
                     loading="lazy"
                   />
@@ -328,10 +443,10 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <div ref={faqRef}>
           {faqInView && (
             <Suspense fallback={<SectionPlaceholder height="300px" />}>
-              <FAQSection 
-                data={faqData} 
-                openItemIndex={openItemIndex} 
-                onItemClick={handleItemClick} 
+              <FAQSection
+                data={faqData}
+                openItemIndex={openItemIndex}
+                onItemClick={handleItemClick}
               />
             </Suspense>
           )}
@@ -475,21 +590,21 @@ const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
         <h3 className="cs_fs_30 text-light">FAQ's</h3>
         <div className="cs_accordians_wrapper cs_style_1 p-0">
           {data.map((item, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}
             >
               <div className="cs_accordian_head" onClick={() => onItemClick(index)}>
                 <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                 <span className="cs_accordian_toggle">
                   <Suspense fallback={null}>
-                    <i className="bi bi-eye text-light"><FaEye /></i>
-                    <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                    <i className="bi bi-eye text-light"><EyeIcon /></i>
+                    <i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
                   </Suspense>
                 </span>
               </div>
               <div className="cs_accordian_body" ref={accordionContentRef}>
-                <p 
+                <p
                   className="mb-0"
                   dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                 />
@@ -502,7 +617,7 @@ const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
   );
 });
 
-// Placeholder components
+
 const SectionPlaceholder = memo(({ height = "200px" }) => (
   <div style={{ height, background: "#f5f5f5" }} />
 ));

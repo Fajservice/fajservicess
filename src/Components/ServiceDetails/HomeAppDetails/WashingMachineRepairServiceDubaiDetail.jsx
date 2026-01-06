@@ -1,9 +1,6 @@
 import { useEffect, useRef, useState, useCallback, lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { RxArrowTopRight } from 'react-icons/rx';
-
 const Serviceappointemnt = lazy(() => import('../../Contact/Serviceappointemnt'));
 const MaintenanceContract = lazy(() => import('../../MaintenanceContract/MaintenanceContract'));
 const BlogWashingMachine = lazy(() => import("../../Blog/BlogWashingMachine"));
@@ -38,9 +35,9 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
 // Lazy YouTube Component
 const LazyYouTube = ({ videoId, title }) => {
   const [load, setLoad] = useState(false);
-  
+
   return (
-    <div 
+    <div
       style={{ position: 'relative', paddingBottom: '56.25%', height: 0, cursor: 'pointer' }}
       onClick={() => setLoad(true)}
       className="bordered-img blue-border"
@@ -51,7 +48,7 @@ const LazyYouTube = ({ videoId, title }) => {
             src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
             alt={title}
             style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-            
+
           />
           <div style={{
             position: 'absolute',
@@ -86,34 +83,34 @@ const LazyYouTube = ({ videoId, title }) => {
   );
 };
 
-const WashingMachineRepairServiceDubaiDetail = ({ 
-  titleSeo, 
-  description, 
-  Author, 
-  Keyword, 
+const WashingMachineRepairServiceDubaiDetail = ({
+  titleSeo,
+  description,
+  Author,
+  Keyword,
   URL,
-  Image 
+  Image
 }) => {
-   const metaTitle = String(
+  const metaTitle = String(
     titleSeo || "Emergency Washing Machine Repair in Dubai – 60-Minute Response"
   );
-  
+
   const metaDescription = String(
     description || "FAJ is an expert in washing machine repair & service center in Dubai. Call 04-3300002 for washer dryer repairs, laundry machine maintenance near me."
   );
-  
+
   const metaAuthor = String(
     Author || "FAJ Technical Services L.L.C"
   );
-  
+
   const metaKeyword = String(
     Keyword || "Washing Machine Repair, Washing Machine Maintenance, Washing Machine Service"
   );
-  
+
   const metaURL = String(
     URL || "https://www.fajservices.ae/washing-machine-repair-service-dubai/"
   );
-  
+
   const metaImage = String(
     Image || "https://www.fajservices.ae/img/washing-machine-repair.avif"
   );
@@ -139,7 +136,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
     });
   }, []);
 
- 
+
 
   const openModal = useCallback((e) => {
     e.preventDefault();
@@ -168,10 +165,10 @@ const WashingMachineRepairServiceDubaiDetail = ({
           <link rel="canonical" href={metaURL} />
           <link rel="preconnect" href="https://img.youtube.com" />
           <link rel="preconnect" href="https://www.youtube.com" />
-          <link 
-            rel="preload" 
-            as="image" 
-            href={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} 
+          <link
+            rel="preload"
+            as="image"
+            href={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}
           />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
@@ -181,7 +178,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
           <meta property="og:image" content={metaImage} />
           <meta property="og:image:alt" content="Washing Machine Repair Service" />
           <meta property="og:site_name" content="FAJ Technical Services" />
-          
+
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:url" content={metaURL} />
@@ -205,11 +202,6 @@ const WashingMachineRepairServiceDubaiDetail = ({
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
           </div>
@@ -230,8 +222,8 @@ const WashingMachineRepairServiceDubaiDetail = ({
               </div>
 
               <div className="col-md-6">
-                <OptimizedImage 
-                  className="bordered-img w-100" 
+                <OptimizedImage
+                  className="bordered-img w-100"
                   src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}
                   alt="Washing Machine Repair"
                   width="600"
@@ -250,8 +242,8 @@ const WashingMachineRepairServiceDubaiDetail = ({
             <p>Washing machine service in Dubai is crucial for maintaining efficiency, extending lifespan, and avoiding costly repairs. Regular servicing detects potential issues early, ensuring smooth operation. Here&apos;s a more detailed look at why:</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <OptimizedImage 
-                  className="blue-border" 
+                <OptimizedImage
+                  className="blue-border"
                   src={`${import.meta.env.BASE_URL}img/washing-machine-repair.avif`}
                   alt="Washing Machine Repair"
                   width="600"
@@ -404,9 +396,9 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
-                      <OptimizedImage 
+                      <OptimizedImage
                         src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`}
-                        alt="Ensuring Safety" 
+                        alt="Ensuring Safety"
                         className="icon-img-block-icon"
                         width="80"
                         height="80"
@@ -419,9 +411,9 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
-                      <OptimizedImage 
+                      <OptimizedImage
                         src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`}
-                        alt="Optimal Performance" 
+                        alt="Optimal Performance"
                         className="icon-img-block-icon"
                         width="80"
                         height="80"
@@ -434,9 +426,9 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
-                      <OptimizedImage 
+                      <OptimizedImage
                         src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`}
-                        alt="Lower Energy Bills" 
+                        alt="Lower Energy Bills"
                         className="icon-img-block-icon"
                         width="80"
                         height="80"
@@ -449,9 +441,9 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
-                      <OptimizedImage 
+                      <OptimizedImage
                         src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`}
-                        alt="Saving Money on Repair" 
+                        alt="Saving Money on Repair"
                         className="icon-img-block-icon"
                         width="80"
                         height="80"
@@ -464,9 +456,9 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
-                      <OptimizedImage 
+                      <OptimizedImage
                         src={`${import.meta.env.BASE_URL}img/icons/extending.svg`}
-                        alt="Extending Appliance Lifespan" 
+                        alt="Extending Appliance Lifespan"
                         className="icon-img-block-icon"
                         width="80"
                         height="80"
@@ -479,9 +471,9 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
-                      <OptimizedImage 
+                      <OptimizedImage
                         src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`}
-                        alt="Peace of Mind" 
+                        alt="Peace of Mind"
                         className="icon-img-block-icon"
                         width="80"
                         height="80"
@@ -504,7 +496,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <OptimizedImage 
+                    <OptimizedImage
                       src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}
                       alt="Fast, Reliable Service"
                       width="60"
@@ -519,7 +511,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <OptimizedImage 
+                    <OptimizedImage
                       src={`${import.meta.env.BASE_URL}img/icons/experts.png`}
                       alt="We Are Experts"
                       width="60"
@@ -534,7 +526,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <OptimizedImage 
+                    <OptimizedImage
                       src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}
                       alt="You Are in Control"
                       width="60"
@@ -549,8 +541,8 @@ const WashingMachineRepairServiceDubaiDetail = ({
               </div>
 
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <OptimizedImage 
-                  className="blue-border-2 w-100 why-choose-img" 
+                <OptimizedImage
+                  className="blue-border-2 w-100 why-choose-img"
                   src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}
                   alt="FAJ Team"
                   width="400"
@@ -561,7 +553,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <OptimizedImage 
+                    <OptimizedImage
                       src={`${import.meta.env.BASE_URL}img/icons/value.png`}
                       alt="We Are Experts"
                       width="60"
@@ -576,7 +568,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <OptimizedImage 
+                    <OptimizedImage
                       src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}
                       alt="Great Value"
                       width="60"
@@ -591,7 +583,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <OptimizedImage 
+                    <OptimizedImage
                       src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}
                       alt="Trustworthy"
                       width="60"
@@ -606,7 +598,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               </div>
 
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <OptimizedImage 
+                <OptimizedImage
                   src={`${import.meta.env.BASE_URL}img/fajteam.avif`}
                   alt="FAJ Team Mobile"
                   width="400"
@@ -679,24 +671,59 @@ const WashingMachineRepairServiceDubaiDetail = ({
           <BlogWashingMachine />
         </Suspense>
 
-        <section className="section cs_py_30 bg-dark-blue text-light">
+        {/* Faqs */}
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+
             <div className="cs_accordians_wrapper cs_style_1 p-0">
+
               {data.map((item, index) => (
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}>
+                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"><FaEye /></i>
-                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <circle cx="12" cy="12" r="3" />
+                        <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
+                      </svg>
+
+                      {/* Eye Slash */}
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
+                        <line x1="1" y1="1" x2="23" y2="23" />
+                        <circle cx="12" cy="12" r="3" />
+                      </svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0" dangerouslySetInnerHTML={{ __html: item.desc?.replace(/\n/g, '<br>') }} />
+                    <p className="mb-0"
+                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                    ></p>
                   </div>
                 </div>
               ))}
+
             </div>
           </div>
         </section>

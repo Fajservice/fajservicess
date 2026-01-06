@@ -1,17 +1,12 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-import 'swiper/swiper-bundle.css';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
-import BookingFormModal from '../../BookingFormModal';
-import { RxArrowTopRight } from 'react-icons/rx';
 import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -30,66 +25,66 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  
-  
+
+
   // State for fetched data
-    const [data, setData] = useState([]);
-    const [testimonial_data, setTestimonialData] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
-  
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
-  
-    const handleItemClick = index => {
-      if (index === openItemIndex) {
-        setOpenItemIndex(-1);
-      } else {
-        setOpenItemIndex(index);
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/UnoxCommercialOvenRepairServiceFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/UnoxCommercialOvenRepairServiceTestimonials.jsonn`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
       }
     };
-  
-    useEffect(() => {
-      if (firstItemOpen) {
-        setOpenItemIndex(0);
-        setFirstItemOpen(false);
-      }
-    }, [firstItemOpen]);
-  
-    useEffect(() => {
-      loadBackgroudImages();
-    }, []);
-  
-    // Fetch JSON data
-    useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const [faqsResponse, testimonialsResponse] = await Promise.all([
-            fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/UnoxCommercialOvenRepairServiceFaqs.json`),
-            fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/UnoxCommercialOvenRepairServiceTestimonials.jsonn`)
-          ]);
-  
-          const faqsData = await faqsResponse.json();
-          const testimonialsData = await testimonialsResponse.json();
-  
-          setData(faqsData);
-          setTestimonialData(testimonialsData);
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        } finally {
-          setIsLoading(false);
-        }
-      };
-  
-      fetchData();
-    }, []);
+
+    fetchData();
+  }, []);
 
   const settings = {
     dots: false,
@@ -191,11 +186,6 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
           </div>

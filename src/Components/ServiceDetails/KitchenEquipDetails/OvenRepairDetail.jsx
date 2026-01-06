@@ -1,18 +1,32 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-import 'swiper/swiper-bundle.css';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import BookingFormModal from '../../BookingFormModal';
-import { RxArrowTopRight } from 'react-icons/rx';
 import Testimonial1 from "../../Testimonial/Testimonial1";
+
+const EyeIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+  </svg>
+);
+
+const EyeSlashIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z"/>
+  </svg>
+);
+
+const ArrowTopRightIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+  </svg>
+);
 
 const OvenRepairDetail = ({
   subtitle,
@@ -55,7 +69,6 @@ const OvenRepairDetail = ({
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // State for fetched data
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -70,6 +83,7 @@ const OvenRepairDetail = ({
     setIsModalOpen(false);
     document.body.style.overflow = 'auto';
   }, []);
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -88,7 +102,6 @@ const OvenRepairDetail = ({
     loadBackgroudImages();
   }, []);
 
-  // Fetch JSON data
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -116,70 +129,6 @@ const OvenRepairDetail = ({
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
-
   return (
     <>
       <HelmetProvider>
@@ -198,8 +147,6 @@ const OvenRepairDetail = ({
           <meta property="og:image" content={metaImage} />
           <meta property="og:image:alt" content="Built-in Appliances Repair Dubai" />
           <meta property="og:site_name" content="FAJ Technical Services" />
-
-          {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:url" content={metaURL} />
           <meta name="twitter:title" content={metaTitle} />
@@ -221,23 +168,16 @@ const OvenRepairDetail = ({
               Looking for affordable oven repair? At FAJ Technical Services L.L.C, we've been serving Dubai since 2010, offering trustworthy repair solutions.
               Our skilled technicians can handle various oven issues, including electric, gas range, and electric ovens.
               <br />We provide prompt and cost-effective service tailored to your needs, ensuring reliable repairs right at your door.
-
             </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
           </div>
         </section>
 
-        {/* heading*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
@@ -254,7 +194,7 @@ const OvenRepairDetail = ({
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair" loading="lazy" />
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
@@ -266,7 +206,7 @@ const OvenRepairDetail = ({
             </div>
           </div>
         </section>
-        {/*why */}
+
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Why is Oven Maintenance Service Important in Dubai?</h2>
@@ -276,7 +216,7 @@ const OvenRepairDetail = ({
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -291,7 +231,6 @@ const OvenRepairDetail = ({
           </div>
         </section>
 
-        {/*  Problems */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="text-center">Common Commercial Oven Problems That May Require Maintenance </h2>
@@ -305,7 +244,6 @@ const OvenRepairDetail = ({
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       If your food is not cooking evenly or is undercooked, the issue may be related to the door of your commercial oven. For optimal cooking.
-
                     </p>
                   </div>
                 </div>
@@ -319,7 +257,6 @@ const OvenRepairDetail = ({
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       You guessed it! The most obvious issue is that it may not heat to the desired temperature, even when switched on and fully powered up properly and consistently.
-
                     </p>
                   </div>
                 </div>
@@ -346,7 +283,6 @@ const OvenRepairDetail = ({
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       If you hear continuous clicking and your gas oven is sparking, the problem might be the ignition dial needing immediate professional repair service.
-
                     </p>
                   </div>
                 </div>
@@ -360,7 +296,6 @@ const OvenRepairDetail = ({
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       Cooking at the right temperature is absolutely vital for delicious meals, as incorrect temperatures can often lead to overcooking or undercooking.
-
                     </p>
                   </div>
                 </div>
@@ -374,7 +309,6 @@ const OvenRepairDetail = ({
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       Possible causes include faulty heating elements, a broken thermostat, clogged burners, or electrical issues. For gas ovens, it may be the igniter.
-
                     </p>
                   </div>
                 </div>
@@ -388,7 +322,6 @@ const OvenRepairDetail = ({
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       A malfunctioning electric oven fan can lead to uneven cooking. Oven fans circulate heated air around the oven cavity to ensure even cooking.
-
                     </p>
                   </div>
                 </div>
@@ -418,7 +351,6 @@ const OvenRepairDetail = ({
           </div>
         </section>
 
-        {/*Why  */}
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Comprehensive Commercial Oven Repair Services in Dubai</h2>
@@ -445,19 +377,13 @@ const OvenRepairDetail = ({
                   <li><strong> Oven Diagnostics: </strong>   We perform thorough diagnostics and provide eligibility assessments and detailed quotes to address any oven issues. </li>
                   <li><strong> Oven Repair Service: </strong>   Reliable professional oven repair services for all components, ensuring quick resolution of issues like leaks, electrical failures, and malfunctions. Feel free to contact us for specific services or any questions! </li>
                   <li><strong> Oven Annual Maintenance Contract: </strong>   This contract outlines the terms and services covered for the annual maintenance of catering ovens. </li>
-
                 </ul>
                 <p className="mb-0">Regular commercial oven maintenance is essential for optimal performance, efficiency, and longevity.</p>
-
-
               </div>
-
-
             </div>
           </div>
         </section >
 
-        {/* The Benefits */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
@@ -515,7 +441,6 @@ const OvenRepairDetail = ({
                         We use a laser temperature gauge to confirm that thermostats are functioning properly.
                       </p>
                     </div>
-
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
@@ -528,9 +453,7 @@ const OvenRepairDetail = ({
                       <p className="small">
                         We ensure that you receive optimal airflow around each oven part as required.
                       </p>
-
                     </div>
-
                   </div>
                 </div>
 
@@ -552,13 +475,11 @@ const OvenRepairDetail = ({
           </div>
         </section>
 
-        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
             <div className="usps align-items-center	">
-              {/* <!-- First Column --> */}
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
@@ -582,7 +503,6 @@ const OvenRepairDetail = ({
                   </div>
                 </div>
 
-
                 <div className="uspitem mb-0">
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
@@ -592,15 +512,12 @@ const OvenRepairDetail = ({
                     <p>Schedule your oven repair in Dubai or Sharjah by choosing a specific day and time. Our technician will arrive within a 3-4 hour window.</p>
                   </div>
                 </div>
-
               </div>
 
-              {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
 
-              {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
@@ -614,7 +531,6 @@ const OvenRepairDetail = ({
                 <div className="uspitem">
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
-
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
@@ -634,15 +550,13 @@ const OvenRepairDetail = ({
                 </div>
               </div>
 
-              {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
             </div>
           </div>
         </section>
 
-        {/* We specialise   */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <h3>We specialize in commercial oven services for the following brands </h3>
@@ -659,7 +573,6 @@ const OvenRepairDetail = ({
                   <li> <strong> Tecnoeka Electric Combi Oven Service and Repair: </strong>Tecnoeka Electric Combi Oven service in Dubai requires expert help, as only specialists know how to address its issues. We offer hassle-free oven repair service. </li>
                 </ul>
               </div>
-
             </div>
 
             <div id="get-quote" className=" mt-3">
@@ -670,25 +583,25 @@ const OvenRepairDetail = ({
             </div>
           </div>
         </section>
-        {/* Maintenance Contract */}
+
         <MaintenanceContract />
-        {/* Gallery */}
+
         <section className="section cs_py_30 gallery-section bg-light-gray">
           <div className="container">
             <h3 className="mb-4 text-center">Gallery</h3>
             <div className="row g-4">
-
               <div className="col-lg-4 col-md-6">
                 <img
                   src={`${import.meta.env.BASE_URL}img/oven-gallery/oven repair service.avif`}
                   className="img-fluid rounded shadow mb-4"
                   alt="Oven Repair Service Dubai"
+                  loading="lazy"
                 />
-
                 <img
                   src={`${import.meta.env.BASE_URL}img/oven-gallery/rational oven repairs.avif`}
                   className="img-fluid rounded shadow"
                   alt="Oven Repair Service Dubai"
+                  loading="lazy"
                 />
               </div>
 
@@ -697,12 +610,13 @@ const OvenRepairDetail = ({
                   src={`${import.meta.env.BASE_URL}img/oven-gallery/rational oven service.avif`}
                   className="img-fluid rounded shadow mb-4"
                   alt="Rational Oven Service"
+                  loading="lazy"
                 />
-
                 <img
                   src={`${import.meta.env.BASE_URL}img/oven-gallery/oven repair.avif`}
                   className="img-fluid rounded shadow"
                   alt="Oven Repair"
+                  loading="lazy"
                 />
               </div>
 
@@ -711,20 +625,19 @@ const OvenRepairDetail = ({
                   src={`${import.meta.env.BASE_URL}img/oven-gallery/over repair maintenance.avif`}
                   className="img-fluid rounded shadow mb-4"
                   alt="Oven Repair Maintenance"
+                  loading="lazy"
                 />
-
                 <img
                   src={`${import.meta.env.BASE_URL}img/oven-gallery/rational oven repair.avif`}
                   className="img-fluid rounded shadow"
                   alt="Rational Oven Repair"
+                  loading="lazy"
                 />
               </div>
             </div>
           </div>
         </section>
-        {/* Gallery */}
 
-        {/* testimobial section */}
         {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
             subtitle="What Our Clients Say"
@@ -735,7 +648,6 @@ const OvenRepairDetail = ({
           />
         )}
 
-        {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
@@ -745,8 +657,8 @@ const OvenRepairDetail = ({
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"><FaEye /></i>
-                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                      <i className="bi bi-eye text-light"><EyeIcon /></i>
+                      <i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
@@ -756,7 +668,6 @@ const OvenRepairDetail = ({
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </section>
@@ -766,7 +677,6 @@ const OvenRepairDetail = ({
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
-
         </section>
 
       </div >

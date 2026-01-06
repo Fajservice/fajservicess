@@ -1,22 +1,39 @@
 import { Link } from "react-router-dom";
 import SectionTitle from "../Common/SectionTitle";
-import { GoArrowRight } from "react-icons/go";
 import { useEffect, useState } from "react";
+
+// Inline arrow SVG component
+const ArrowRightIcon = ({ className = '', size = 18 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M12 4l1.41 1.41L7.83 11H20v2H7.83l5.58 5.59L12 20l-8-8 8-8z"
+      fill="currentColor"
+    />
+  </svg>
+);
 
 const Project1 = () => {
   const [data, setData] = useState([]);
-        const [loading, setLoading] = useState(true);
-      
-        useEffect(() => {
-          fetch(`${import.meta.env.BASE_URL}data/project1.json`)
-            .then((res) => {
-              if (!res.ok) throw new Error("Failed to load JSON");
-              return res.json();
-            })
-            .then((json) => setData(json))
-            .catch((err) => console.error(err))
-            .finally(() => setLoading(false));
-        }, []);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/project1.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load JSON");
+        return res.json();
+      })
+      .then((json) => setData(json))
+      .catch((err) => console.error(err))
+      .finally(() => setLoading(false));
+  }, []);
+
   return (
     <section className="cs_tabs cs_style_1 position-relative">
       <div className="cs_height_80 cs_height_lg_80"></div>
@@ -26,7 +43,7 @@ const Project1 = () => {
             <SectionTitle
               SubTitle="Our Services"
               Title="WE DELIVER EXPERTISE, DEMONSTRATE INTEGRITY"
-            ></SectionTitle>
+            />
           </div>
         </div>
         <div className="position-absolute top-0 end-0 d-none d-md-block">
@@ -38,22 +55,24 @@ const Project1 = () => {
       <div className="cs_height_60"></div>
       <div className="container-fluid p-0">
         <div className="cs_project_area">
-          <div className="cs_project" >
+          <div className="cs_project">
             <div className="row cs_row_gap_60 cs_gap_y_30">
               {data.map((item, i) => (
                 <div key={i} className="col-xl-3 col-md-6 wow fadeInLeft">
                   <div className="cs_card cs_style_2 position-relative">
                     <Link to={item.serviceLink} className="cs_card_thumbnail position-relative">
-                      <img src={`${import.meta.env.BASE_URL}${item.img}`}  alt="Portfolio Image" />
+                      <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Portfolio Image" />
                     </Link>
                     <div className="cs_card_info cs_white_bg">
-                      <h3 className="cs_card_title cs_fs_20 cs_mb_15"><Link to={item.serviceLink}>{item.title}</Link></h3>
+                      <h3 className="cs_card_title cs_fs_20 cs_mb_15">
+                        <Link to={item.serviceLink}>{item.title}</Link>
+                      </h3>
                       <p className="cs_card_subtitle">{item.desc}</p>
                       <Link to={item.serviceLink} className="cs_text_btn cs_style_1 cs_heading_color">
                         <span className="cs_btn_text text-uppercase">Read More</span>
                         <span className="cs_btn_icon cs_center">
-                          <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
-                          <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
+                          <ArrowRightIcon size={18} />
+                          <ArrowRightIcon size={18} />
                         </span>
                       </Link>
                     </div>

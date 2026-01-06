@@ -3,15 +3,9 @@ import { Link } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
+
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/swiper-bundle.css";
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -20,6 +14,7 @@ import AcProperties from "../../../Common/AcProperties";
 import Practicaltip from "../../../Common/Practicaltip";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+import { EyeIcon, EyeSlashIcon } from "../../../../icons/EyeIcon";
 
 const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -604,49 +599,13 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
-                <section className="testimonial-section">
-                      <div className="testimonial-container">
-                        <h2 className="testimonial-heading">
-                          What Our Clients Say
-                        </h2>
-                
-                        <Swiper
-                          modules={[Autoplay, Pagination]}
-                          spaceBetween={30}
-                          slidesPerView={1}
-                          pagination={{
-                            clickable: true,
-                            bulletClass: 'testimonial-bullet',
-                            bulletActiveClass: 'testimonial-bullet-active',
-                            renderBullet: function (index, className) {
-                              return '<span class="' + className + '">' + '</span>';
-                            }
-                          }}
-                          autoplay={{
-                            delay: 3000,
-                            disableOnInteraction: false,
-                          }}
-                          breakpoints={{
-                            640: { slidesPerView: 1 },
-                            768: { slidesPerView: 2 },
-                            1024: { slidesPerView: 3 },
-                          }}
-                          className="testimonial-swiper"
-                        >
-                          {testimonial_data.map((item, index) => (
-                            <SwiperSlide key={index}>
-                              <div className="testimonial-card">
-                                <p className="testimonial-text">"{item.desc}"</p>
-                                <div className="testimonial-footer">
-                                  <h3 className="testimonial-author">{item.title}</h3>
-                                  <p className="testimonial-role">{item.subTitle}</p>
-                                </div>
-                              </div>
-                            </SwiperSlide>
-                          ))}
-                        </Swiper>
-                      </div>
-                    </section>
+                <Testimonial1
+                          subtitle="What Our Clients Say"
+                          title="Customer <span>Reviews</span>"
+                          bgImg="img/testimonialbg.jpg"
+                          testimonialData={testimonial_data}
+                          sectionId="home-testimonials"
+                        />
 
                 {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
@@ -660,12 +619,11 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                     <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                                         <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
-                                            <i className="bi bi-eye text-light"><FaEye /></i>
-											<i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                                            <i className="bi bi-eye text-light"><EyeIcon /></i>
+											<i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>
-                                        {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                                         <p className="mb-0"
                                             dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                                         ></p>

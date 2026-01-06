@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
@@ -9,11 +7,6 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/swiper-bundle.css";
-import BookingFormModal from '../BookingFormModal';
-import { RxArrowTopRight } from 'react-icons/rx';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
@@ -39,60 +32,60 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-   const [testimonial_data, setTestimonialData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-     const openModal = useCallback((e) => {
-        e.preventDefault();
-        setIsModalOpen(true);
-        document.body.style.overflow = 'hidden';
-      }, []);
-    
-      const closeModal = useCallback(() => {
-        setIsModalOpen(false);
-        document.body.style.overflow = 'auto';
-      }, []);
-      const handleItemClick = index => {
-        if (index === openItemIndex) {
-          setOpenItemIndex(-1);
-        } else {
-          setOpenItemIndex(index);
-        }
-      };
-      useEffect(() => {
-        if (firstItemOpen) {
-          setOpenItemIndex(0);
-          setFirstItemOpen(false);
-        }
-      }, [firstItemOpen]);
-    
-      useEffect(() => {
-        loadBackgroudImages();
-      }, []);
-    
-    
-      useEffect(() => {
-        const fetchData = async () => {
-          try {
-            const [faqsResponse, testimonialsResponse] = await Promise.all([
-              fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcMaintenanceFaqs.json`),
-              fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcMaintenanceTestimonials.json`),
-            ]);
-    
-            const faqsData = await faqsResponse.json();
-            const testimonialsData = await testimonialsResponse.json();
-    
-            setData(faqsData);
-            setTestimonialData(testimonialsData);
-          } catch (error) {
-            console.error('Error fetching data:', error);
-          } finally {
-            setIsLoading(false);
-          }
-        };
-    
-        fetchData();
-      }, []);
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcMaintenanceFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcMaintenanceTestimonials.json`),
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const settings = {
     dots: false,
@@ -162,11 +155,6 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
 
@@ -200,7 +188,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
                 </div>
               </div>
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-maintenance-faj.avif`} alt="AC Maintenance"  />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-maintenance-faj.avif`} alt="AC Maintenance" />
 
               </div>
             </div>
@@ -228,7 +216,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service"  />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -453,7 +441,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
           sectionId="home-testimonials"
         />
         <Blog2 />
-        {/* FAQ&apos;s */}
+        {/* Faqs */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
@@ -465,12 +453,40 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"><FaEye /></i>
-                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <circle cx="12" cy="12" r="3" />
+                        <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
+                      </svg>
+
+                      {/* Eye Slash */}
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
+                        <line x1="1" y1="1" x2="23" y2="23" />
+                        <circle cx="12" cy="12" r="3" />
+                      </svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>

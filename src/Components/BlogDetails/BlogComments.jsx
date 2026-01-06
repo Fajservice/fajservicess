@@ -1,9 +1,12 @@
-import { FaCalendarAlt } from "react-icons/fa";
 
+const CalendarAltIcon = ({ size = 16, color = "currentColor" }) => (
+  <svg width={size} height={size} viewBox="0 0 448 512" fill={color}>
+    <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/>
+  </svg>
+);
 const BlogComments = () => {
     return (
          <div className="cs_comments_area">
-            {/* <h2 className="cs_fs_30 cs_mb_28">{blogPost.comments} Comments</h2> */}
             <ul className="cs_comment_list cs_heading_font cs_mp_0">
             <li className="cs_comment_body position-relative">
                 <div className="cs_comment_thumbnail">
@@ -12,7 +15,7 @@ const BlogComments = () => {
                 <div className="cs_comment_info">
                 <h3 className="cs_fs_20 cs_semibold cs_mb_9">Leslie Alexander</h3>
                 <div className="cs_post_meta cs_fs_14 cs_mb_9">
-                    <span className="cs_accent_color"><FaCalendarAlt style={{ fontSize: "18px" }} /></span>
+                    <span className="cs_accent_color"><CalendarAltIcon style={{ fontSize: "18px" }} /></span>
                     <span className="cs_heading_color">10 Oct, 2024</span>
                 </div>
                 <p className="mb-0">Most repairs can be completed within a few hours, but complex issues might take longer. We always aim a for same-day service when possible.</p>
@@ -26,7 +29,7 @@ const BlogComments = () => {
                 <div className="cs_comment_info">
                 <h3 className="cs_fs_20 cs_semibold cs_mb_9">Cameron Williamson</h3>
                 <div className="cs_post_meta cs_fs_14 cs_mb_9">
-                    <span className="cs_accent_color"><FaCalendarAlt style={{ fontSize: "18px" }} /></span>
+                    <span className="cs_accent_color"><CalendarAltIcon style={{ fontSize: "18px" }} /></span>
                     <span className="cs_heading_color">15 Oct, 2024</span>
                 </div>
                 <p className="mb-0">We offer free estimates before any repairs begin, so you know exactly what to expect on all part and labor, ensuring your peace of mind.</p>
@@ -40,7 +43,7 @@ const BlogComments = () => {
                 <div className="cs_comment_info">
                 <h3 className="cs_fs_20 cs_semibold cs_mb_9">Darlene Robertson</h3>
                 <div className="cs_post_meta cs_fs_14 cs_mb_9">
-                    <span className="cs_accent_color"><FaCalendarAlt style={{ fontSize: "18px" }} /></span>
+                    <span className="cs_accent_color"><CalendarAltIcon style={{ fontSize: "18px" }} /></span>
                     <span className="cs_heading_color">20 Oct, 2024</span>
                 </div>
                 <p className="mb-0">Tire rotation is typically recommended every 6,000 to 8,000 miles to ensure even wear and extend the life of your tires  more serious that needs attention.</p>

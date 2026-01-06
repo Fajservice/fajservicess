@@ -1,17 +1,12 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-import 'swiper/swiper-bundle.css';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
-import BookingFormModal from '../../BookingFormModal';
-import { RxArrowTopRight } from 'react-icons/rx';
 import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -29,10 +24,10 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
-    
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-// State for fetched data
+
+  // State for fetched data
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -55,7 +50,6 @@ const [isModalOpen, setIsModalOpen] = useState(false);
       setOpenItemIndex(index);
     }
   };
-
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -191,11 +185,6 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
           </div>
@@ -207,7 +196,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <div className="row gx-md-5">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Rational Oven Maintenance Services</h2>
-                <p className="mb-2">We provide all types of Rational oven maintenance, including both gas and electric models. Our specialized team of technicians is provided with the necessary spare parts, allowing us to assist you whenever you need help.<br/>Our goal is to ensure that your business runs smoothly, and we offer reliable Rational commercial oven repair services in Dubai.</p>
+                <p className="mb-2">We provide all types of Rational oven maintenance, including both gas and electric models. Our specialized team of technicians is provided with the necessary spare parts, allowing us to assist you whenever you need help.<br />Our goal is to ensure that your business runs smoothly, and we offer reliable Rational commercial oven repair services in Dubai.</p>
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Express Rational Oven Repair Service</h2>
                 <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
                   <b>CHOOSE FAJ FOR YOUR PEACE OF MIND<br />
@@ -216,12 +205,12 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair"  />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair" />
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Rational Annual Maintenance Contract (AMC) Services</h3>
             <p className="mb-2">Our catering equipment technician offers an annual maintenance agreement package designed to keep your Rational Combi ovens, convection ovens, high-speed ovens, compact ovens, pizza ovens, cooking ranges, and other professional kitchen appliances running efficiently and in compliance with drive standards.<br />This proactive approach helps reduce the likelihood of unexpected breakdowns and the associated costs. Our annual maintenance package includes thorough maintenance, repair services, and equipment testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors that want to ensure their equipment operates smoothly and prevent any disruptions.
-</p>
+            </p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -237,7 +226,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair"  />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair" />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -401,7 +390,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">HEATING EFFICIENCY</h3>
                       <p className="small">We perform a detailed evaluation of heating efficiency with the help of a temperature gun.</p>
@@ -412,7 +401,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
                       <p className="small">All components and parts of the oven are thoroughly tested and disinfected to ensure safety and reliability.</p>
@@ -423,7 +412,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
                       <p className="small">We ensure that the fan operates correctly and is free of blockages in the burner and heating element.</p>
@@ -435,7 +424,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature meter to ensure that the thermostats are working correctly.</p>
@@ -446,7 +435,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h3>
                       <p className="small">We make sure you get optimal airflow around every part of the oven as needed.</p>
@@ -457,7 +446,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h3>
                       <p className="small">Our team provides vital feedback on your rational oven's condition and any necessary repairs.</p>
@@ -479,7 +468,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
@@ -489,7 +478,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
@@ -502,7 +491,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -514,14 +503,14 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service"  />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -530,7 +519,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -542,7 +531,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service"  />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -553,7 +542,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service"  />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -566,9 +555,9 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <div className="row">
               <div className="col-12">
                 <ul>
-                    <li><strong>Rational Professional Appliance Service and Repair in Dubai</strong>: We are a leading provider of repair and maintenance services for professional kitchen appliances, including iCombi ovens, iVario cooking systems, iHexagon ovens, and other Rational equipment. Our team of experienced technicians delivers expert support that ensures your commercial kitchen appliances operate at peak performance. Trust us for reliable solutions specifically designed for Rational products.</li>
-                    <li><strong>Rational iCombi Pro Oven Repair &amp; Maintenance in Dubai:&nbsp;</strong>Maximise the performance of your Rational iCombi Pro oven with our top-tier repair and maintenance services in Dubai.&nbsp;Our expert technicians specialise in both electric and gas models, swiftly diagnosing issues and replacing worn parts. Regular maintenance is important. It minimises downtime, extends the life of your appliance, and ensures exceptional cooking results in your kitchen. Trust us to keep your oven operating at its best.</li>
-                    <li><strong>Rational iCombi Classic Oven Repair &amp; Maintenance Near By:&nbsp;</strong>Our experts specialise in iCombi Classic ovens, offering complete inspections, repairs, and maintenance to meet your kitchen's needs. From troubleshooting the control panel to replacing heating elements, we ensure your oven operates reliably, maintains consistent cooking performance, and delivers optimal results for your culinary operations.</li>
+                  <li><strong>Rational Professional Appliance Service and Repair in Dubai</strong>: We are a leading provider of repair and maintenance services for professional kitchen appliances, including iCombi ovens, iVario cooking systems, iHexagon ovens, and other Rational equipment. Our team of experienced technicians delivers expert support that ensures your commercial kitchen appliances operate at peak performance. Trust us for reliable solutions specifically designed for Rational products.</li>
+                  <li><strong>Rational iCombi Pro Oven Repair &amp; Maintenance in Dubai:&nbsp;</strong>Maximise the performance of your Rational iCombi Pro oven with our top-tier repair and maintenance services in Dubai.&nbsp;Our expert technicians specialise in both electric and gas models, swiftly diagnosing issues and replacing worn parts. Regular maintenance is important. It minimises downtime, extends the life of your appliance, and ensures exceptional cooking results in your kitchen. Trust us to keep your oven operating at its best.</li>
+                  <li><strong>Rational iCombi Classic Oven Repair &amp; Maintenance Near By:&nbsp;</strong>Our experts specialise in iCombi Classic ovens, offering complete inspections, repairs, and maintenance to meet your kitchen's needs. From troubleshooting the control panel to replacing heating elements, we ensure your oven operates reliably, maintains consistent cooking performance, and delivers optimal results for your culinary operations.</li>
                 </ul>
               </div>
             </div>
@@ -586,54 +575,54 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         <section className="section cs_py_30 gallery-section bg-light-gray">
           <div class="container">
             <h3 class="mb-4 text-center">Gallery</h3>
-              <div class="row g-4">
-      
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/oven-gallery/oven repair service.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="Oven Repair Service Dubai"
-                  />
+            <div class="row g-4">
 
-                  <img
-                    src="/img/oven-gallery/rational oven repairs.avif"
-                    class="img-fluid rounded shadow"
-                    alt="Oven Repair Service Dubai"
-                  />
-                </div>
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/oven-gallery/oven repair service.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Oven Repair Service Dubai"
+                />
 
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/oven-gallery/rational oven service.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="Rational Oven Service"
-                  />
-
-                  <img
-                    src="/img/oven-gallery/oven repair.avif"
-                    class="img-fluid rounded shadow"
-                    alt="Oven Repair"
-                  />
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/rational-oven-service.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="Oven Repair Maintenance"
-                  />
-
-                  <img
-                    src="/img/oven-gallery/rational oven repair.avif"
-                    class="img-fluid rounded shadow"
-                    alt="Rational Oven Repair"
-                  />
-                </div>
+                <img
+                  src="/img/oven-gallery/rational oven repairs.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Oven Repair Service Dubai"
+                />
               </div>
+
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/oven-gallery/rational oven service.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Rational Oven Service"
+                />
+
+                <img
+                  src="/img/oven-gallery/oven repair.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Oven Repair"
+                />
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/rational-oven-service.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Oven Repair Maintenance"
+                />
+
+                <img
+                  src="/img/oven-gallery/rational oven repair.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Rational Oven Repair"
+                />
+              </div>
+            </div>
           </div>
         </section>
         {/* Gallery */}
-        
+
         {/* testimobial section */}
         <Testimonial1
           subtitle="What Our Clients Say"

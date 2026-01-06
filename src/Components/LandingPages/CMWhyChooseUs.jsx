@@ -1,6 +1,5 @@
 import "../css/coffeemachinelandingpage.css";
 
-/* Inline SVG icons (NO react-icons, NO build errors) */
 
 const VerifiedIcon = () => (
   <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">

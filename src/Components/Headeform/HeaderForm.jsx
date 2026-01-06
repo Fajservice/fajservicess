@@ -22,10 +22,8 @@ const HeaderForm = () => {
     setFormData(prevData => ({ ...prevData, [name]: value }));
   };
 
-  // Alternative: Add a fallback submission method
   const handleDirectSubmit = () => {
-    console.log('Direct submission fallback'); // Debug log
-
+    console.log('Direct submission fallback');
     const data = new FormData();
     data.append('Name', formData.name);
     data.append('Email', formData.email);
@@ -34,12 +32,11 @@ const HeaderForm = () => {
     data.append('_subject', 'Inquiry & Fajservices');
     data.append('_captcha', 'false');
     data.append('_template', 'table');
-    data.append('_cc', 'faisaljuma.techservices@gmail.com'); // Change to your Gmail
+    data.append('_cc', 'faisaljuma.techservices@gmail.com');
     data.append('_from_name', 'Inquire');
     data.append('page_url', window.location.href);
 
-    // Use fetch with proper promise handling
-    fetch('https://formsubmit.co/info@fajservices.ae', { // Change to your Gmail
+    fetch('https://formsubmit.co/info@fajservices.ae', {
       method: 'POST',
       body: data,
       mode: 'no-cors'
@@ -74,17 +71,15 @@ const HeaderForm = () => {
     e.preventDefault();
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
-    console.log('Form submission started'); // Debug log
+    console.log('Form submission started');
 
-    // Add timeout for reCAPTCHA
     const recaptchaTimeout = setTimeout(() => {
       console.log('reCAPTCHA timeout, proceeding with direct submission');
       handleDirectSubmit();
-    }, 3000); // 3 second timeout
+    }, 3000);
 
-    // Trigger invisible reCAPTCHA challenge
     if (recaptchaRef.current) {
-      console.log('Executing reCAPTCHA'); // Debug log
+      console.log('Executing reCAPTCHA');
       try {
         const executePromise = recaptchaRef.current.execute();
         if (executePromise && executePromise.catch) {
@@ -107,9 +102,8 @@ const HeaderForm = () => {
   };
 
   const onReCAPTCHAChange = (token) => {
-    console.log('reCAPTCHA token received:', token ? 'Valid' : 'Invalid/Null'); // Debug log
+    console.log('reCAPTCHA token received:', token ? 'Valid' : 'Invalid/Null');
 
-    // Clear any existing timeout since reCAPTCHA responded
     if (window.recaptchaTimeout) {
       clearTimeout(window.recaptchaTimeout);
     }
@@ -128,15 +122,14 @@ const HeaderForm = () => {
     data.append('_subject', 'Inquiry & Fajservices');
     data.append('_captcha', 'false');
     data.append('_template', 'table');
-    data.append('_cc', 'faisaljuma.techservices@gmail.com'); // Change to your Gmail
+    data.append('_cc', 'faisaljuma.techservices@gmail.com');
     data.append('_from_name', 'Inquire');
     data.append('page_url', window.location.href);
-    data.append('g-recaptcha-response', token); // Add reCAPTCHA token
+    data.append('g-recaptcha-response', token);
 
-    console.log('Submitting form data to FormSubmit with reCAPTCHA'); // Debug log
+    console.log('Submitting form data to FormSubmit with reCAPTCHA');
 
-    // Use fetch with proper promise handling
-    fetch('https://formsubmit.co/info@fajservices.ae', { // Change to your Gmail
+    fetch('https://formsubmit.co/info@fajservices.ae', { 
       method: 'POST',
       body: data,
       mode: 'no-cors'

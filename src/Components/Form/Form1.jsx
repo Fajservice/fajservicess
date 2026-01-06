@@ -1,6 +1,21 @@
-import  { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
-import { IoIosArrowRoundForward } from 'react-icons/io';
+
+const ArrowForwardIcon = ({ className = '', size = 24 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M12 4l1.41 1.41L7.83 11H20v2H7.83l5.58 5.59L12 20l-8-8 8-8z"
+      fill="currentColor"
+    />
+  </svg>
+);
 
 const Form1 = () => {
   const recaptchaRef = useRef(null);
@@ -24,10 +39,7 @@ const Form1 = () => {
     setFormData(prevData => ({ ...prevData, [name]: value }));
   };
 
-  // Alternative: Add a fallback submission method
   const handleDirectSubmit = async () => {
-    console.log('Direct submission fallback'); // Debug log
-    
     const data = new FormData();
     data.append('Name', formData.name);
     data.append('Email', formData.email);
@@ -42,37 +54,17 @@ const Form1 = () => {
     data.append('page_url', window.location.href);
 
     try {
-      // Use no-cors mode and Don&apos;t try to read response
       await fetch('https://formsubmit.co/info@fajservices.ae', {
         method: 'POST',
         body: data,
         mode: 'no-cors'
-      }).then(() => {
-        // Don&apos;t try to read response with no-cors
-        console.log('Direct form submitted successfully');
-        
-        setStatus({
-          submitted: true,
-          submitting: false,
-          info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
-        });
-
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          service: '',
-          message: ''
-        });
-      }).catch((error) => {
-        console.error('Direct submission error:', error);
-        setStatus({
-          submitted: false,
-          submitting: false,
-          info: { error: true, msg: "There was a problem sending your message. Please try again later." }
-        });
       });
-
+      setStatus({
+        submitted: true,
+        submitting: false,
+        info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
+      });
+      setFormData({ name: '', email: '', phone: '', service: '', message: '' });
     } catch (error) {
       console.error('Direct submission error:', error);
       setStatus({
@@ -87,17 +79,9 @@ const Form1 = () => {
     e.preventDefault();
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
-    console.log('Form submission started'); // Debug log
+    const recaptchaTimeout = setTimeout(() => handleDirectSubmit(), 5000);
 
-    // Add timeout for reCAPTCHA
-    const recaptchaTimeout = setTimeout(() => {
-      console.log('reCAPTCHA timeout, proceeding with direct submission');
-      handleDirectSubmit();
-    }, 5000); // 5 second timeout
-
-    // Trigger invisible reCAPTCHA challenge
     if (recaptchaRef.current) {
-      console.log('Executing reCAPTCHA'); // Debug log
       try {
         recaptchaRef.current.execute();
       } catch (error) {
@@ -106,20 +90,13 @@ const Form1 = () => {
         handleDirectSubmit();
       }
     } else {
-      console.error('reCAPTCHA ref not found');
       clearTimeout(recaptchaTimeout);
       handleDirectSubmit();
     }
   };
 
   const onReCAPTCHAChange = async (token) => {
-    console.log('reCAPTCHA token received:', token ? 'Valid' : 'Invalid'); // Debug log
-
-    if (!token) {
-      console.log('No reCAPTCHA token, proceeding with direct submission');
-      handleDirectSubmit();
-      return;
-    }
+    if (!token) return handleDirectSubmit();
 
     const data = new FormData();
     data.append('Name', formData.name);
@@ -133,46 +110,21 @@ const Form1 = () => {
     data.append('_cc', 'faisaljuma.techservices@gmail.com');
     data.append('_from_name', 'Inquire');
     data.append('page_url', window.location.href);
-    data.append('g-recaptcha-response', token); // Add reCAPTCHA token
-
-    console.log('Submitting form data to FormSubmit with reCAPTCHA'); // Debug log
+    data.append('g-recaptcha-response', token);
 
     try {
-      // Use no-cors mode and handle response properly
       await fetch('https://formsubmit.co/info@fajservices.ae', {
         method: 'POST',
         body: data,
         mode: 'no-cors'
-      }).then(() => {
-        // Don&apos;t try to read response with no-cors
-        console.log('Form submitted successfully with reCAPTCHA');
-
-        setStatus({
-          submitted: true,
-          submitting: false,
-          info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
-        });
-
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          service: '',
-          message: ''
-        });
-
-        if (recaptchaRef.current) {
-          recaptchaRef.current.reset();
-        }
-      }).catch((error) => {
-        console.error('Submission error:', error);
-        setStatus({
-          submitted: false,
-          submitting: false,
-          info: { error: true, msg: "There was a problem sending your message. Please try again later." }
-        });
       });
-
+      setStatus({
+        submitted: true,
+        submitting: false,
+        info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
+      });
+      setFormData({ name: '', email: '', phone: '', service: '', message: '' });
+      recaptchaRef.current?.reset();
     } catch (error) {
       console.error('Submission error:', error);
       setStatus({
@@ -262,7 +214,6 @@ const Form1 = () => {
           />
         </div>
 
-        {/* Invisible reCAPTCHA */}
         <ReCAPTCHA
           ref={recaptchaRef}
           sitekey="6Lc3iU4rAAAAAA0jw06XlEnCQsXoc_vxT8piZLLX"
@@ -278,8 +229,7 @@ const Form1 = () => {
             disabled={status.submitting}
           >
             <span>{status.submitting ? 'Submitting...' : 'Submit'}</span>
-            {!status.submitting && 
-                <IoIosArrowRoundForward style={{ fontSize: "24px" }} />}
+            {!status.submitting && <ArrowForwardIcon size={24} />}
           </button>
         </div>
       </form>

@@ -2,8 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import data from '../../Data/faq.json';
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
+
 
 
 const Faq1 = () => {
@@ -42,6 +41,8 @@ const Faq1 = () => {
                     Title="Frequently Question & Asking Zone Every One"                       
                 ></SectionTitle>
               </div>
+
+              
               <div className="cs_accordians_wrapper cs_style_1">
               {data.map((item, index)=>(
                 <div key={index} className={`cs_accordian cs_style_1 cs_gray_bg wow fadeInDown ${index === openItemIndex ? "active" : "" }`} >

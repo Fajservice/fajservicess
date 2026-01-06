@@ -1,9 +1,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import './ImageSlider.css';
 
-const ImageSlider = ({ 
-  slides = [], 
-  autoPlay = true, 
+const ImageSlider = ({
+  slides = [],
+  autoPlay = true,
   interval = 5000,
   showDots = true
 }) => {
@@ -61,7 +61,7 @@ const ImageSlider = ({
   if (!slides.length) return null;
 
   return (
-    <section 
+    <section
       className="hero-slider"
       ref={sliderRef}
       onMouseDown={handleDragStart}
@@ -72,8 +72,8 @@ const ImageSlider = ({
       onTouchMove={handleDragMove}
       onTouchEnd={handleDragEnd}
     >
-      <div 
-        className="hero-slider__track" 
+      <div
+        className="hero-slider__track"
         style={{
           transform: `translateX(calc(-${currentIndex * 100}% + ${isDragging ? dragOffset : 0}px))`,
           transition: isDragging ? 'none' : 'transform 0.5s ease-in-out'
@@ -81,13 +81,15 @@ const ImageSlider = ({
       >
         {slides.map((slide, index) => (
           <div className="hero-slide" key={index}>
-            <img 
-              src={slide.image} 
+            <img
+              src={slide.image}
               alt={slide.alt || slide.title}
               className="hero-slide__bg"
-              loading={index === 0 ? 'eager' : 'lazy'}
-              fetchPriority={index === 0 ? 'high' : 'auto'}
-              decoding={index === 0 ? 'sync' : 'async'}
+              width="1920"
+              height="800"
+              loading="eager"
+              fetchpriority="high"
+              decoding="sync"
             />
             <div className="hero-slide__pattern"></div>
             <div className="hero-slide__container">
@@ -105,7 +107,7 @@ const ImageSlider = ({
                     <a href={slide.buttonLink || 'https://www.fajservices.ae/who-we-are/'} className="hero-slide__btn">
                       {slide.buttonText}
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                        <path d="M5 12h14M12 5l7 7-7 7" />
                       </svg>
                     </a>
                   )}
@@ -113,7 +115,7 @@ const ImageSlider = ({
                     <a href={slide.phoneLink || `tel:${slide.phone.replace(/\s/g, '')}`} className="hero-slide__phone">
                       <span className="hero-slide__phone-icon">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                         </svg>
                       </span>
                       <span className="hero-slide__phone-number">{slide.phone}</span>

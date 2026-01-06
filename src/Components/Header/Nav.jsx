@@ -1,11 +1,46 @@
 import { startTransition, useEffect, useRef, useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { IoChevronDown } from 'react-icons/io5';
-import { IoChevronForward } from 'react-icons/io5';
-import { IoChevronUp } from 'react-icons/io5';
-
 import DropDown from './DropDown';
 
+// SVG components
+const ChevronDown = ({ className = '', size = 14 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path d="M6 9L12 15L18 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
+
+const ChevronUp = ({ className = '', size = 14 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path d="M6 15L12 9L18 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
+
+const ChevronForward = ({ className = '', size = 12 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path d="M9 6L15 12L9 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
 
 const navItems = [
   { path: '/', label: 'Home' },
@@ -99,7 +134,6 @@ export default function Nav({ setMobileToggle }) {
   const navRef = useRef(null);
   const [hoveredItems, setHoveredItems] = useState(new Set());
 
-  // Memoized navigation handler
   const handleNavigation = useCallback((path, isExternal = false) => {
     setMobileToggle(false);
     if (isExternal) {
@@ -111,7 +145,6 @@ export default function Nav({ setMobileToggle }) {
     }
   }, [navigate, setMobileToggle]);
 
-  // Handle hover state for icons
   const handleMouseEnter = useCallback((itemKey) => {
     setHoveredItems(prev => new Set([...prev, itemKey]));
   }, []);
@@ -124,7 +157,6 @@ export default function Nav({ setMobileToggle }) {
     });
   }, []);
 
-  // Memoized dropdown position adjustment
   const adjustDropdownPositions = useCallback(() => {
     if (!navRef.current) return;
 
@@ -192,7 +224,6 @@ export default function Nav({ setMobileToggle }) {
     };
   }, [adjustDropdownPositions]);
 
-  // Recursive function to render navigation items
   const renderNavItems = (items, level = 0) => {
     return items.map((item, index) => {
       const hasChildren = item.children && item.children.length > 0;
@@ -204,17 +235,8 @@ export default function Nav({ setMobileToggle }) {
         <li 
           key={itemKey}
           className={hasChildren ? 'menu-item-has-children' : ''}
-          onMouseEnter={() => {
-            if (hasChildren) {
-              handleMouseEnter(itemKey);
-              setTimeout(adjustDropdownPositions, 100);
-            }
-          }}
-          onMouseLeave={() => {
-            if (hasChildren) {
-              handleMouseLeave(itemKey);
-            }
-          }}
+          onMouseEnter={() => { if (hasChildren) { handleMouseEnter(itemKey); setTimeout(adjustDropdownPositions, 100); } }}
+          onMouseLeave={() => { if (hasChildren) handleMouseLeave(itemKey); }}
         >
           {item.path ? (
             <a
@@ -224,20 +246,14 @@ export default function Nav({ setMobileToggle }) {
                 handleNavigation(item.path, isExternal);
               }}
               className={level > 0 ? 'px-3 mb-0' : ''}
-              style={{ 
-                display: 'flex', 
-                alignItems: 'center',
-                gap: hasChildren ? '6px' : '0' 
-              }}
+              style={{ display: 'flex', alignItems: 'center', gap: hasChildren ? '6px' : '0' }}
             >
               {item.label}
               {hasChildren && (
                 level === 0 ? (
-                  isHovered ? 
-                    <IoChevronUp className="nav-icon" size={14} style={{ transition: 'all 0.2s ease' }} /> :
-                    <IoChevronDown className="nav-icon" size={14} style={{ transition: 'all 0.2s ease' }} />
+                  isHovered ? <ChevronUp className="nav-icon" size={14} /> : <ChevronDown className="nav-icon" size={14} />
                 ) : (
-                  <IoChevronForward className="nav-icon" size={12} style={{ transition: 'all 0.2s ease' }} />
+                  <ChevronForward className="nav-icon" size={12} />
                 )
               )}
             </a>
@@ -245,21 +261,14 @@ export default function Nav({ setMobileToggle }) {
             <a 
               className={level > 0 ? 'px-3 mb-0' : ''} 
               onClick={() => setMobileToggle(false)}
-              style={{ 
-                display: 'flex', 
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                gap: hasChildren ? '6px' : '0' 
-              }}
+              style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: hasChildren ? '6px' : '0' }}
             >
               {item.label}
               {hasChildren && (
                 level === 0 ? (
-                  isHovered ? 
-                    <IoChevronUp className="nav-icon" size={14} style={{ transition: 'all 0.2s ease' }} /> :
-                    <IoChevronDown className="nav-icon" size={14} style={{ transition: 'all 0.2s ease' }} />
+                  isHovered ? <ChevronUp className="nav-icon" size={14} /> : <ChevronDown className="nav-icon" size={14} />
                 ) : (
-                  <IoChevronForward className="nav-icon" size={12} style={{ transition: 'all 0.2s ease' }} />
+                  <ChevronForward className="nav-icon" size={12} />
                 )
               )}
             </a>

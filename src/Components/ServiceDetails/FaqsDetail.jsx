@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Components/Contact/Serviceappointemnt';
 import MaintenanceContract from "../../Components/MaintenanceContract/MaintenanceContract";
-import 'swiper/swiper-bundle.css';
 import loadBackgroudImages from "../../Components/Common/loadBackgroudImages";
 import HeaderForm from "../../Components/Headeform/HeaderForm";
 import Accordion from "../../Components/Common/Accordion.jsx";
@@ -40,7 +39,6 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
       setOpenItemIndex(index);
     }
   };
-
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);

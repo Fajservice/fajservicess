@@ -27,8 +27,6 @@ const ColdRoomRepair = () => {
             setFirstItemOpen(false);
         }
     }, [firstItemOpen]);
-
-    // Fetch JSON data
     useEffect(() => {
         const fetchData = async () => {
             try {

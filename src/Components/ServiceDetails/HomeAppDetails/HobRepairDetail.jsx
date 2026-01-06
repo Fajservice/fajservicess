@@ -7,18 +7,31 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import BookingFormModal from '../../BookingFormModal';
-import { RxArrowTopRight } from 'react-icons/rx';
-import 'swiper/swiper-bundle.css';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
+const EyeIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+  </svg>
+);
+
+const EyeSlashIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z"/>
+  </svg>
+);
+
+const ArrowTopRightIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+  </svg>
+);
+
 const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  // For SEO
   const metatitle = String(titleSeo || "Hob Repair & Service in Dubai | Stove Repairs");
   const metadescription = String(description || "Having issues with your hob repair in Dubai? Book with us for gas or electric Induction stove, cooking range centre near me with a warranty of parts.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
@@ -48,6 +61,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     setIsModalOpen(false);
     document.body.style.overflow = 'auto';
   }, []);
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -66,7 +80,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     loadBackgroudImages();
   }, []);
 
-  // Fetch JSON data
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -93,71 +106,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
-
   return (
     <>
       <HelmetProvider>
@@ -173,8 +121,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
-
-          {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
@@ -194,19 +140,10 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
-
-
-        {/* Same Day Cooking Range Repair & Service */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -222,15 +159,13 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
                 </p>
 
-
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
                 </h2>
                 <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.avif`} alt="Hob Repair Servcie" />
-
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.avif`} alt="Hob Repair Servcie" loading="lazy" />
               </div>
             </div>
 
@@ -238,7 +173,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           </div>
         </section>
 
-        {/* Why is Induction Hob Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Why is Induction Hob Maintenance Service Important in Dubai?</h2>
@@ -247,25 +181,22 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/hob-repair-service.avif`} alt="Hob Repair Servcie" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/hob-repair-service.avif`} alt="Hob Repair Servcie" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-
                   <li> <strong>  Hob Extended Lifespan: </strong> Regular maintenance helps the induction hob last longer, saving on replacement costs. </li>
                   <li> <strong>  Stove Improved Efficiency: </strong> A well-maintained induction hob uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
                   <li> <strong>  Hob Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
                   <li> <strong>  Stove Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
                   <li> <strong>  Cooker Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
                   <li> <strong>  Hob Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repairs.  Investing in induction hob care ensures safety and efficiency and is a smart economic choice in Dubai. </li>
-
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* The Most Common Problems with Induction / Hob */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="text-center">The Most Common Problems with Induction / Hob   </h2>
@@ -282,7 +213,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   </div>
                 </div>
               </div>
-
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
@@ -310,7 +240,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 </div>
               </div>
 
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
@@ -334,7 +263,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   </div>
                 </div>
               </div>
-
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
@@ -382,7 +310,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           </div>
         </section>
 
-        {/*HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB */}
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB   </h2>
@@ -408,7 +335,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-
                   <li> <strong>Hob Installation: </strong>We provide professional installation of various types and brands of induction hobs to ensure optimal performance and efficiency.</li>
                   <li> <strong>Hob Diagnostics: </strong>Our team offers comprehensive fault-finding services to diagnose any issues effectively. We conduct eligibility assessments and provide detailed quotations to resolve any concerns with your system.</li>
                   <li> <strong>Hob Repair Service: </strong>We offer efficient repair services for all cooking hob components. Our team quickly addresses leaks, electrical failures, and system malfunctions.</li>
@@ -418,16 +344,11 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                     <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for the optimal performance, efficiency, and longevity of your hob. Feel free to reach out if you need specific services or have any questions!
                   </p>
                 </ul>
-
-
               </div>
-
-
             </div>
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
@@ -479,7 +400,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
                     </div>
-
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
@@ -490,9 +410,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending Hob Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your hob, delaying the need for replacements.</p>
-
                     </div>
-
                   </div>
                 </div>
 
@@ -513,18 +431,15 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           </div>
         </section>
 
-        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
             <div className="usps align-items-center	">
-              {/* <!-- First Column --> */}
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
-
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
@@ -542,7 +457,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   </div>
                 </div>
 
-
                 <div className="uspitem mb-0">
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
@@ -552,15 +466,12 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                     <p>Choose a day and time for your hob repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
-
               </div>
 
-              {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
 
-              {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
@@ -574,7 +485,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <div className="uspitem">
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
-
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
@@ -592,15 +502,13 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 </div>
               </div>
 
-              {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
             </div>
           </div>
         </section>
 
-        {/* We specialise in Hob services for the following brands  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Hob REPAIR SERVICE</h3>
@@ -792,9 +700,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
                   <a href="/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
                 </p>
-
               </div>
-
             </div>
 
             <div id="get-quote" className=" mt-3">
@@ -803,11 +709,9 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <CallNowButton />
               </div>
             </div>
-
           </div>
         </section>
 
-        {/* Brands section */}
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data}
@@ -818,9 +722,8 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           />
         )}
 
-        {/* Maintenance Contract */}
         <MaintenanceContract />
-        {/* testimobial section */}
+
         {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
             subtitle="What Our Clients Say"
@@ -831,31 +734,27 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           />
         )}
 
-        {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
-
               {data.map((item, index) => (
                 <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"><FaEye /></i>
-                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                      <i className="bi bi-eye text-light"><EyeIcon /></i>
+                      <i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </section>
@@ -865,7 +764,6 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
-
         </section>
 
       </div >

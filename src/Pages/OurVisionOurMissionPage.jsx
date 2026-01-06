@@ -2,150 +2,207 @@ import Brand1 from "../Components/Brand/Brand1";
 import Process from "../Components/Process/Process";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
-import {Helmet, HelmetProvider } from "react-helmet-async";
-import { MdAddIcCall } from "react-icons/md";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
+const PhoneCallIcon = ({ size = 24, color = "currentColor" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill={color} aria-hidden="true">
+    <path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM12 3v2h2v2h2V5h2v2h2V3h-2V1h-2v2h-2V1h-2v2z"/>
+  </svg>
+);
 
 const OurVisionOurMissionPage = () => {
-
-
-    return (
-        <>
-             <HelmetProvider>
+  return (
+    <>
+      <HelmetProvider>
         <Helmet>
           <title>FAJ Vision & Mission | Excellence in Technical Services</title>
-          <meta name="description" content="Explore FAJ's vision and mission to deliver trusted, innovative, and customer-focused AC, appliance, and maintenance services across Dubai and UAE"></meta>
+          <meta
+            name="description"
+            content="Explore FAJ's vision and mission to deliver trusted, innovative, and customer-focused AC, appliance, and maintenance services across Dubai and UAE"
+          />
           <meta name="keywords" content="About FAJ Group" />
           <meta name="author" content="FAJ Technical Services L.L.C." />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/our-vision-and-mission/" />
+          <link
+            rel="canonical"
+            href="https://www.fajservices.ae/our-vision-and-mission/"
+          />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="FAJ Vision & Mission | Excellence in Technical Services" />
-          <meta property="og:description" content="Explore FAJ's vision and mission to deliver trusted, innovative, and customer-focused AC, appliance, and maintenance services across Dubai and UAE" />
-          <meta property="og:url" content="https://www.fajservices.ae/our-vision-and-mission/" />
+          <meta
+            property="og:title"
+            content="FAJ Vision & Mission | Excellence in Technical Services"
+          />
+          <meta
+            property="og:description"
+            content="Explore FAJ's vision and mission to deliver trusted, innovative, and customer-focused AC, appliance, and maintenance services across Dubai and UAE"
+          />
+          <meta
+            property="og:url"
+            content="https://www.fajservices.ae/our-vision-and-mission/"
+          />
         </Helmet>
       </HelmetProvider>
 
-            <section className="section cs_py_30">
-                <div className="container">
-                    <h1 className="cs_fs_30 text-center mb-0">Our Vision and Mission</h1>
-                </div>
-            </section>
-            <section className="cs_section_padding py-5">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-md-6">
-                            <img src={`${import.meta.env.BASE_URL}img/our-vision.avif`} alt="Our Vision" className="bordered-img mb-4" />
-                        </div>
-                        <div className="col-md-6">
-                            <h2 className="text-left mb-0" style={{fontSize: "40px"}}>Our Vision</h2>
-                            <p>At FAJ Technical Services L.L.C, our vision is to be the trusted partner in delivering comfort, convenience, and peace of mind to our customers. We strive to set the standard for exceptional technical services in the region.<br/>Our goal is to positively impact our customers' lives by providing reliable, efficient, and innovative solutions for their air conditioning system, refrigeration system, MEP, commercial equipment, and appliance needs.</p>
-                        </div>
+      <section className="section cs_py_30">
+        <div className="container">
+          <h1 className="cs_fs_30 text-center mb-0">
+            Our Vision and Mission
+          </h1>
+        </div>
+      </section>
+
+      {/* Vision / Mission */}
+      <section className="cs_section_padding py-5">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-6">
+              <img
+                src={`${import.meta.env.BASE_URL}img/our-vision.avif`}
+                alt="Our Vision"
+                className="bordered-img mb-4"
+              />
+            </div>
+            <div className="col-md-6">
+              <h2 style={{ fontSize: "40px" }}>Our Vision</h2>
+              <p>
+                At FAJ Technical Services L.L.C, our vision is to be the trusted
+                partner in delivering comfort, convenience, and peace of mind to
+                our customers. We strive to set the standard for exceptional
+                technical services in the region.
+                <br />
+                Our goal is to positively impact our customers' lives by
+                providing reliable, efficient, and innovative solutions.
+              </p>
+            </div>
+          </div>
+
+          <div className="row align-items-center">
+            <div className="col-md-6">
+              <h2 style={{ fontSize: "40px" }}>Our Mission</h2>
+              <p>
+                Our mission is to provide innovative, customer-centric technical
+                solutions that transform spaces and enhance lives.
+              </p>
+              <ul className="cs_list_style_1 cs_list_style_1_icon">
+                <li>Delivering prompt, professional, courteous service.</li>
+                <li>Providing eco-friendly and energy-efficient solutions.</li>
+                <li>
+                  Investing in the latest technologies and technician training.
+                </li>
+                <li>
+                  Building long-term relationships based on trust and respect.
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-6">
+              <img
+                src={`${import.meta.env.BASE_URL}img/our-mission.avif`}
+                alt="Our Mission"
+                className="bordered-img mb-4"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Process />
+
+      {/* About Section */}
+      <section className="cs_about cs_style_1 position-relative">
+        <div className="cs_height_40 cs_height_lg_40"></div>
+
+        <div className="container">
+          <div className="row cs_gap_y_40 align-items-center">
+            <div className="col-xl-6">
+              <div className="cs_about_thumbnail_wrapper position-relative">
+                {["about_img_1", "about_img_2", "about_img_3"].map(
+                  (img, i) => (
+                    <div
+                      key={img}
+                      className={`cs_about_thumbnail ${i === 1 ? "mt-4" : ""}`}
+                    >
+                      <img
+                        src={`${import.meta.env.BASE_URL}img/${img}.avif`}
+                        alt="About FAJ"
+                      />
                     </div>
-                    <div className="row align-items-center">
-                         <div className="col-md-6">
-                            <h2 className="text-left mb-0" style={{fontSize: "40px"}}>Our Mission</h2>
-                            <p>Our mission is to provide innovative, customer-centric technical solutions that transform spaces and enhance lives. We are committed to:</p>
-                            <ul className="cs_list_style_1 cs_list_style_1_icon">
-                                <li>Delivering prompt, professional, and courteous service to our customers.</li>
-                                <li>Providing eco-friendly and energy-efficient solutions to help our customers minimize their carbon footprint.</li>
-                                <li>Investing in the latest technologies and training to ensure our technicians can manage even the most complex technical challenges.</li>
-                                <li>Establishing enduring relationships with our customers based on trust, respect, and a deep understanding of their needs.</li>
-                            </ul>
-                        </div>
-                        <div className="col-md-6">
-                            <img src={`${import.meta.env.BASE_URL}img/our-mission.avif`} alt="Our Mission" className="bordered-img mb-4" />
-                        </div>
-                    </div>
+                  )
+                )}
+
+                <div className="cs_esperience_text position-absolute">
+                  <h2 className="cs_experience_title mb-0">
+                    <span className="cs_fs_100 cs_black cs_accent_color">FAJ</span>
+                    <span className="cs_fs_30">was established</span>
+                    <span className="cs_fs_36">Since</span>
+                    <span className="cs_fs_50">2010</span>
+                  </h2>
                 </div>
-            </section>
-            {/* <section className="cs_section_padding bg-dark-blue py-5">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 text-left">
-                            <h2 className="text-white mb-4 text-center">Our Values</h2>
-                            <ol className="text-white">
-                                <li><strong>Customer Satisfaction:</strong> <small>We prioritize our customers' satisfaction and strive to exceed their expectations. We listen attentively to their needs, provide personalized solutions, and ensure timely resolution of any issues.</small></li>
-                                <li><strong> Technical Excellence:</strong> <small>We continuously invest in our team's skills and knowledge to deliver cutting-edge solutions. We stay up-to-date with the latest technologies, methodologies, and industry best practices to ensure our customers receive the most effective and efficient solutions.</small></li>
-                                <li><strong> Integrity:</strong> <small>We operate with transparency, honesty, and ethics in all our interactions. We maintain open communication channels, provide accurate information, and honor our commitments to our customers, partners, and stakeholders.</small></li>
-                                <li><strong> Teamwork:</strong> <small>We collaborate, support, and empower each other to achieve our goals. We recognize that our collective strength lies in our diverse perspectives, skills, and experiences, and we foster an environment of mutual respect, trust, and open communication.</small></li>
-                                <li><strong> Innovation:</strong> <small>We encourage creativity, experimentation, and learning to stay ahead of the curve. We invest in research and development and explore new technologies and methodologies.</small></li>
-                                <li><strong> Accountability:</strong> <small>We own our actions, decisions, and outcomes. We acknowledge our mistakes, learn from them, and implement corrective actions to prevent recurrence. We prioritize accountability, reliability, and responsibility in all our interactions.</small></li>
-                                <li><strong>Environmental Responsibility: </strong>We promote energy-efficient solutions, reduce waste, and encourage sustainable practices in our daily operations.</li>
-                            </ol>
-                        </div>
-                    </div>
+
+                <a
+                  href="tel:+971507464712"
+                  className="cs_phone_call cs_heading_color"
+                >
+                  <div className="cs_phone_icon cs_center cs_radius_50">
+                    <PhoneCallIcon size={24} />
+                  </div>
+                  <div className="cs_phone_number cs_fs_20 cs_semibold">
+                    (+971) 507464712
+                  </div>
+                </a>
+
+                <div className="cs_about_shape_1 position-absolute">
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/shapes/gear_2.svg`}
+                    alt="Gear"
+                  />
                 </div>
-            </section> */}
-            
-            <Process></Process>
-            <section className="cs_about cs_style_1 position-relative">
-                <div className="cs_height_40 cs_height_lg_40"></div>
-                <div className="container">
-                    <div className="row cs_gap_y_40 align-items-center">
-                        <div className="col-xl-6">
-                        <div className="cs_about_thumbnail_wrapper position-relative">
-                            <div className="cs_about_thumbnail">
-                            <img src={`${import.meta.env.BASE_URL}img/about_img_1.avif`}  alt="About Image" />
-                            </div>
-                            <div className="cs_about_thumbnail mt-4">
-                            <img src={`${import.meta.env.BASE_URL}img/about_img_2.avif`}  alt="About Image" />
-                            </div>
-                            <div className="cs_about_thumbnail">
-                            <img src={`${import.meta.env.BASE_URL}img/about_img_3.avif`}  alt="About Image" />
-                            </div>
-                            <div className="cs_esperience_text position-absolute">
-                            <h2 className="cs_experience_title mb-0">
-                                <span className="cs_fs_52">FAJ</span>
-                                <span className="cs_fs_20">was established</span>
-                                <span className="cs_fs_36">Since</span>
-                                <span className="cs_fs_50">2010</span>
-                            </h2>
-                            <p className="cs_fs_16">We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality.</p>
-                            </div>
-                            <a href="tel:+971507464712" className="cs_phone_call cs_heading_color">
-                            <div className="cs_phone_icon cs_fs_20 cs_center cs_radius_50">
-                            <i className="bi bi-telephone-x-fill"><MdAddIcCall style={{ fontSize: "24px" }} /></i></div>
-                            <div className="cs_phone_number cs_fs_20 cs_semibold">(+971) 507464712</div>
-                            </a>
-                            <div className="cs_about_shape_1 position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/shapes/gear_2.svg`} alt="Gear Shape" />
-                            </div>
-                            <div className="cs_about_shape_2 position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/shapes/gear_1.svg`}  alt="Gear Shape" />
-                            </div>
-                        </div>
-                        </div>
-                        <div className="col-xl-6">
-                        <div className="cs_about_text">
-                            <div className="cs_section_heading cs_style_1 cs_mb_20">
-                            <h3 className="cs_section_subtitle cs_fs_18 text-uppercase cs_mb_12 wow fadeInDown">The Journey of FAJ Group</h3>
-                            <h2 className="cs_section_title cs_fs_36 mb-0 wow fadeInUp">From Humble Beginnings to Diversified Excellence</h2>
-                            </div>
-                            <p className="cs_mb_40">The FAJ Group&apos;s remarkable journey began in 2010 as a small, visionary technical services and sales trading house in Dubai, UAE. Over the past 15 years, our relentless pursuit of growth and innovation has transformed us into a dynamic, multi-entity organisation.  Today, our group comprises over four companies, operating across two main sectors in the UAE and Pakistan. Our diversified portfolio now spans trading (including e-commerce), IT solutions, technical education, HVAC, refrigeration, domestic and commercial appliances/equipments, electronics, and numerous other services – a testament to our unwavering commitment to excellence and progress.</p>
-                            
-                            <div className="cs_about_btns">
-                            <Link to="/about-us/" className="cs_btn cs_style_1 wow fadeInLeft">
-                                <span>Read more</span>
-                                <i className="bi bi-arrow-right"></i>   
-                            </Link>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                <div className="cs_about_shape_2 position-absolute">
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/shapes/gear_1.svg`}
+                    alt="Gear"
+                  />
                 </div>
-                <div className="cs_height_40 cs_height_lg_40"></div>
-            </section>
-             <Testimonial1
-                subtitle="Testimonial"
-                title="What our clients say <br> About Us"
-                bgImg="img/testimonialbg.jpg"
-            ></Testimonial1>
-            <Brand1></Brand1>
-            {/* <Team1></Team1> */}
-        </>
-    );
+              </div>
+            </div>
+
+            <div className="col-xl-6">
+              <div className="cs_about_text">
+                <div className="cs_section_heading cs_style_1 cs_mb_20">
+                  <h3 className="cs_section_subtitle cs_fs_18 text-uppercase">
+                    The Journey of FAJ Group
+                  </h3>
+                  <h2 className="cs_section_title cs_fs_36">
+                    From Humble Beginnings to Diversified Excellence
+                  </h2>
+                </div>
+
+                <p className="cs_mb_40">
+                  Since 2010, FAJ Group has evolved into a multi-entity
+                  organisation operating across the UAE and Pakistan, spanning
+                  HVAC, refrigeration, appliances, IT, education, and trading.
+                </p>
+
+                <Link to="/about-us/" className="cs_btn cs_style_1">
+                  <span>Read more</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="cs_height_40 cs_height_lg_40"></div>
+      </section>
+
+      <Testimonial1
+        subtitle="Testimonial"
+        title="What our clients say <br> About Us"
+        bgImg="img/testimonialbg.jpg"
+      />
+
+      <Brand1 />
+    </>
+  );
 };
 
 export default OurVisionOurMissionPage;

@@ -1,9 +1,6 @@
-import { useEffect, useRef, useState, useCallback } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
-
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
@@ -11,74 +8,56 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../QuickGuide/QuickGuide";
 import ACWhychooseUs from "../../WhyChooseUS/ACWhyChooseUs";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/swiper-bundle.css";
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import HeaderForm from "../../Headeform/HeaderForm";
 import FAJACPrice from "../../Miscellaneous/FAJACPrice";
 import Practicaltip from "../../Common/Practicaltip";
 import AcProperties from "../../Common/AcProperties";
-import BookingFormModal from '../../BookingFormModal';
-import { RxArrowTopRight } from 'react-icons/rx';
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 
-const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  // For SEO
+const EyeIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+  </svg>
+);
+
+const EyeSlashIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z" />
+  </svg>
+);
+
+
+const AcAnnualMaintenanceContractDetail = ({
+  titleSeo,
+  description,
+  Author,
+  Keyword,
+  URL
+}) => {
+
   const metatitle = String(titleSeo || "Best AC Annual Maintenance Contract Dubai | AC AMC Services");
   const metadescription = String(description || "Since 2010, FAJ has offered AC annual maintenance contract in Dubai, Sharjah, UAE. Repairs are more costly than a regular maintenance agreement.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Annual Maintenance Contract Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-annual-maintenance-contract/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-annual-maintenance-contract/");
+  const metaImage = "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif";
 
-  subtitle = "Testimonial"
-  title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
-
-  const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  
-  // State for fetched data
+  const [openItemIndex, setOpenItemIndex] = useState(0);
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
+  const handleItemClick = (index) => {
+    setOpenItemIndex(prevIndex => prevIndex === index ? -1 : index);
   };
-
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
 
   useEffect(() => {
     loadBackgroudImages();
   }, []);
 
-  // Fetch JSON data
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -87,8 +66,14 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcAmcTestimonials.json`)
         ]);
 
-        const faqsData = await faqsResponse.json();
-        const testimonialsData = await testimonialsResponse.json();
+        if (!faqsResponse.ok || !testimonialsResponse.ok) {
+          throw new Error('Failed to fetch data');
+        }
+
+        const [faqsData, testimonialsData] = await Promise.all([
+          faqsResponse.json(),
+          testimonialsResponse.json()
+        ]);
 
         setData(faqsData);
         setTestimonialData(testimonialsData);
@@ -102,44 +87,12 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
   return (
     <>
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -149,13 +102,99 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
-
-          {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is an annual maintenance contract (AMC)?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "An AC AMC usually involves a set of maintenance services for a specific period, such as a year. These services may include HVAC, maintenance and electrical repair on your property. The contract's specifics will vary depending on the service provider, but it will typically include regular testing, cleanings, and repairs to make sure that the systems are in good working order."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How many types of AMC are there?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Annual Maintenance Contracts (AMCs) are classified into two types: comprehensive and non-comprehensive/call-based. Comprehensive AMCs cover the repair and replacement of faulty equipment parts for one flat fee. Non-inclusive/Call-based AMCs, on the other hand, only provide maintenance services as needed, with each service request billed separately."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is it worth getting your AMC contract?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "With the FAJ Technical Service LLC Annual Maintenance Contract (AMC), you receive a range of customized services at a reasonable price. Enjoy peace of mind for an entire year as we streamline maintenance and provide high-quality support results."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the benefits of an AC AMC contract?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The FAJ Team's Annual Maintenance Contract for AC units guarantees optimal performance and longevity through proactive care, significantly reducing the risk of costly repairs and maximizing energy efficiency; our seasoned professionals provide comprehensive services including AC filter and AC coil cleaning, Air conditioner, and system optimization, ensuring your peace of mind and consistent comfort throughout the year."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why Choose Affordable Annual AC Service Contracts in Dubai?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For affordable and prompt AC service in Dubai, choose our experienced team. We offer tailored maintenance solutions, exceptional customer support, emergency repairs, and transparent pricing with no hidden fees. Trust us for expertise across all AC brands and models."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is an AMC annual maintenance contract?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "An Annual Maintenance Contract (AMC) is a specific type of service agreement that ensures ongoing maintenance and support for designated equipment or assets. This contract is designed to keep the equipment in optimal working condition through regular servicing and inspections, thereby minimizing the risk of unexpected breakdowns and enhancing overall performance."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Does an AC unit need to be serviced every year?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, annual servicing keeps your AC efficient, lowers energy bills, and prevents unexpected breakdowns."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why Do You Need an AMC in Dubai?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "In Dubai's harsh climate, an AMC ensures your AC runs efficiently year-round, preventing costly repairs and discomfort."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is typically covered under an AMC for an AC unit?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "An AMC for an AC unit usually covers regular inspections, cleaning, servicing, and minor repairs. It may also include replacing certain parts, such as filters, and priority support for emergency breakdowns."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the advantages of the AMC contract?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "An AMC ensures regular maintenance, reducing repair costs and extending the equipment's lifespan with professional service."
+                  }
+                }
+              ]
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -165,34 +204,24 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">AC Annual Maintenance Contract Services (AMC)</h1>
-
             <p>
               At FAJ Technical Services L.L.C, customer satisfaction is our top priority. We offer a straightforward and cost-effective annual maintenance contract that covers all essential maintenance for your home and business.
-
               Our contract includes year-round AC servicing, along with qualified support for plumbing and electrical repairs (MEP). We believe our essential maintenance contract is one of the best maintenance packages available in Dubai.
               <br />Our highly skilled team of fully qualified and specialized technicians is ready to provide the same level of service and workmanship that our customers have come to expect from FAJ. Additionally, we offer emergency assistance 365 days a year.
-
             </p>
-            <div id="get-quote" className=" mt-3">
+            <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
-                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <RxArrowTopRight />
-                </button>
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
 
-        {/* Annual AC Maintenance Contract - AMC */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Annual AC Maintenance Contract - AMC </h2>
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Annual AC Maintenance Contract - AMC</h2>
                 <p className="mb-2">
                   Ensure consistent efficiency for your AC system with an Annual Maintenance Contract (AMC).
                   <br /> Keep your AC functioning optimally throughout the year with our reliable maintenance contract in Dubai and Sharjah, UAE.
@@ -203,8 +232,13 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                 </p>
               </div>
 
-              <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Select-Air-Conditioner-Repair-&-Service.avif`} alt="Annual AC Maintenance"  />
+              <div className="col-md-6">
+                <img
+                  className="bordered-img w-100"
+                  src={`${import.meta.env.BASE_URL}img/Select-Air-Conditioner-Repair-&-Service.avif`}
+                  alt="Annual AC Maintenance"
+                  loading="lazy"
+                />
               </div>
             </div>
 
@@ -217,7 +251,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                 <br />
                 Our Planned Preventive Maintenance Package includes repair, maintenance, and testing, making it ideal for any air conditioning system in buildings, apartments, villas, offices and warehouses. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.
               </p>
-              <div id="get-quote" className=" mt-3">
+              <div id="get-quote" className="mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
                   <CallNowButton />
@@ -226,19 +260,23 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
             </div>
           </div>
         </section>
-
         <FAJACPrice />
 
-        {/* Peace of Mind with Annual Maintenance Contracts */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">Peace of Mind with Annual Maintenance Contracts</h2>
-            <p>Your air conditioner is an essential part of your home or office comfort, especially during the scorching summer months. Like any other air conditioning unit, it requires regular maintenance to operate efficiently and to prevent breakdowns.
+            <p>
+              Your air conditioner is an essential part of your home or office comfort, especially during the scorching summer months. Like any other air conditioning unit, it requires regular maintenance to operate efficiently and to prevent breakdowns.
             </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Peace-of-Mind-with-Annual-Maintenance-Contracts.avif`} alt="Annual Maintenance Contracts with peace of mind"  />
+                <img
+                  className="blue-border"
+                  src={`${import.meta.env.BASE_URL}img/Peace-of-Mind-with-Annual-Maintenance-Contracts.avif`}
+                  alt="Annual Maintenance Contracts with peace of mind"
+                  loading="lazy"
+                />
               </div>
               <div className="col-md-6">
                 <p className="mb-0">
@@ -247,141 +285,70 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                   <br />
                   Our comprehensive maintenance contract package enables you to bid farewell to unexpected breakdowns. Routine inspections and maintenance of your air conditioning system are crucial for maintaining efficiency. Our qualified technicians service all types, makes, models, and sizes of residential and commercial systems, including HVAC, VRV, VRF, AHU, FAHU, Central, Ducted Split, Package Unit AC, Centralised, FCU, Cassette, Split AC, Ceiling AC, and Multi-Split AC.
                 </p>
-
-                <p className="mb-0 d-none">
-                  FAJ offers comprehensive AC annual maintenance contracts (AMCs) to keep your AC unit running smoothly all year long. With our air conditioner AMC, you can enjoy consistent cooling and comfort in your space!
-                  <br />
-                  Experience unparalleled peace of mind as we take care of your air conditioning system, ensuring optimal performance, energy efficiency, and longevity. Our desirable maintenance package allows you to say goodbye to unexpected breakdowns and hello to extraordinary comfort.
-                  <br />
-                  Routine inspections and maintenance of your HVAC are crucial for maintaining efficiency. Our qualified technicians service all types, makes, models, and sizes of residential and commercial systems, including HVAC, VRV, VRF, AHU, FAHU, Central AC, Ducted Split AC, Package Unit AC, Centralized AC, FCU, Cassette AC, Wall Mounted AC, Split AC, Ceiling AC, and Multi-Split AC. Choose our annual maintenance contract for worry-free operation!
-                </p>
-
               </div>
             </div>
           </div>
         </section>
 
-        {/* Common AC Problems That May Require Maintenance */}
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+              {[
+                { title: "Weak Airflow", desc: 'If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.' },
+                { title: "Warm Air", desc: "If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues." },
+                { title: "Strange Noises", desc: "Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention." },
+                { title: "Foul Odors", desc: "Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly." },
+                { title: "Frequent Cycling", desc: "It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat." },
+                { title: "High Humidity Levels", desc: "An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation." },
+                { title: "Leaking Water", desc: "Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues." },
+                { title: "Increased Energy Bills", desc: "High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems." }
+              ].map((problem, index) => (
+                <div key={index} className="col-12 col-md-4 col-lg-3">
+                  <div className="box-content-container rounded border shadow">
+                    <div className="text-center">
+                      <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                        {problem.title}
+                      </h3>
+                    </div>
+                    <div className="inner-apcs-feat-desc">
+                      <p
+                        className="p-2 mb-0"
+                        dangerouslySetInnerHTML={{ __html: problem.desc }}
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
             <div id="get-quote" className="mb-0 mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
               </div>
             </div>
-
           </div>
         </section>
 
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
         <QuickGuide />
-
-        {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
         <ACWhychooseUs />
 
-        {/* The Importance of AC Maintenance Contract Service*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">The Importance of AC Maintenance Contract Service</h2>
             <div className="row">
               <div className="col-xl-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`}  alt="Air conn maintenance" />
+                <img
+                  className="bordered-img w-100"
+                  src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`}
+                  alt="Air conn maintenance"
+                  loading="lazy"
+                />
               </div>
               <div className="col-xl-6">
                 <ul>
-                  <li>Maintaining your air conditioning (AC) system is essential for ensuring optimal performance, energy efficiency, and longevity. In the sweltering summer heat, a well-functioning AC unit is not just a luxury; it is necessary for creating a comfortable living environment.
+                  <li>
+                    Maintaining your air conditioning (AC) system is essential for ensuring optimal performance, energy efficiency, and longevity. In the sweltering summer heat, a well-functioning AC unit is not just a luxury; it is necessary for creating a comfortable living environment.
                   </li>
                   <li>
                     Homeowners and business owners often overlook the importance of a regular AC maintenance contract, which can lead to unexpected breakdowns, higher energy bills, and costly repairs. Without proper maintenance, your AC system may become less efficient, resulting in increased energy consumption and utility costs.
@@ -395,8 +362,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           </div>
         </section>
 
-        {/*What is included in an AC Maintenance Contract?  */}
-        <section className="section cs_py_30 ">
+        <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">What is included in an AC Maintenance Contract?</h2>
             <p className="mb-0">
@@ -405,26 +371,32 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <p className="" >
-                  We'll explore the key components of AC maintenance, their importance, and why <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for your system's longevity.</p>
+                <p>
+                  We'll explore the key components of AC maintenance, their importance, and why <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for your system's longevity.
+                </p>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                  <li>  Priority service for repair calls    </li>
-                  <li>  Get a 10% discount on service work   </li>
-                  <li>  Receive a 10% discount on labor charges    </li>
-                  <li> Get  10% discount on replacement of part   </li>
-                  <li>  Major and minor service with AC repair work   </li>
-                  <li> No trip charge for regular AC repair during normal working hours   </li>
-                  <li> Enjoy a 10% discount on materials and parts not covered by warranty    </li>
-                  <li> A guarantee is provided from the date of repair for all customer-ordered repairs   </li>
-
+                  <li>Priority service for repair calls</li>
+                  <li>Get a 10% discount on service work</li>
+                  <li>Receive a 10% discount on labor charges</li>
+                  <li>Get 10% discount on replacement of part</li>
+                  <li>Major and minor service with AC repair work</li>
+                  <li>No trip charge for regular AC repair during normal working hours</li>
+                  <li>Enjoy a 10% discount on materials and parts not covered by warranty</li>
+                  <li>A guarantee is provided from the date of repair for all customer-ordered repairs</li>
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/The-Importance-of-AC-Maintenance-Contract-Service.avif`}  alt="Ac Service and maintenance contract" />
+                <img
+                  className="blue-border"
+                  src={`${import.meta.env.BASE_URL}img/The-Importance-of-AC-Maintenance-Contract-Service.avif`}
+                  alt="Ac Service and maintenance contract"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
         </section>
+
         <BeforeAfter
           title="Recent Completed Service"
           subTitle="Before & After Service"
@@ -434,7 +406,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           afterImg="img/before_img_1.avif"
           beforeTitle="Before"
         />
-        {/* BRANDS */}
+
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>WE SPECIALISE IN AIR CONDITIONER SERVICES FOR THE FOLLOWING BRANDS</h3>
@@ -462,7 +434,6 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Maintenance Dubai</Link>
                   <span>&nbsp;-&nbsp;</span>
-
                   <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">Lennox Air Conditioning</Link>
@@ -473,8 +444,8 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint Air Conditioning</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC</Link> <span>&nbsp;-&nbsp;</span>
-
+                  <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
                   <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/">Bryant AC</Link>
@@ -499,44 +470,48 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/">Cooline Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/">White Westinghouse AC</Link><span>&nbsp;-&nbsp;</span>
-                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic Air Conditioner</Link><span>&nbsp;-&nbsp;</span>
-                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">Daikin AC</Link><span>&nbsp;-&nbsp;</span>
-                  <Link to="/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/">Daikool Air Conditioning</Link><span>&nbsp;-&nbsp;</span>
-                  <Link to="/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/">Fujitsu Air Conditioner</Link><span>&nbsp;-&nbsp;</span>
-                  <Link to="/gree-ac-repair-in-dubai/">Gree AC</Link><span>&nbsp;-&nbsp;</span>
-                  <Link to="/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/">Haier Air Condition</Link><span>&nbsp;-&nbsp;</span>
-                  <Link to="/lg-ac-repair-in-dubai/">LG Air Conditioner</Link><span>&nbsp;-&nbsp;</span>
-                  <Link to="/nikai-ac-repair-in-dubai-nikai-ac-maintenance-in-dubai-nikai-ac-fix-in-dubai-nikai-ac-service-in-dubai-nikai-air-condition-repair-in-dubai-nikai-air-condition-maintenance-in-dubai-nikai-air-condition/">Nikai AC</Link><span>&nbsp;-&nbsp;</span>
-                  <Link to="/samsung-ac-repair-in-dubai/">Samsung Air Conditioning</Link><span>&nbsp;-&nbsp;</span>
-
-                  <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/">Trane Air Conditioner</Link><span>&nbsp;-&nbsp;</span>
-
-                  <Link to="/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai/">Sub Zero AC</Link><span>&nbsp;-&nbsp;</span>
-
+                  <Link to="/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/">White Westinghouse AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic Air Conditioner</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">Daikin AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/">Daikool Air Conditioning</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/">Fujitsu Air Conditioner</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/gree-ac-repair-in-dubai/">Gree AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/">Haier Air Condition</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/lg-ac-repair-in-dubai/">LG Air Conditioner</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/nikai-ac-repair-in-dubai-nikai-ac-maintenance-in-dubai-nikai-ac-fix-in-dubai-nikai-ac-service-in-dubai-nikai-air-condition-repair-in-dubai-nikai-air-condition-maintenance-in-dubai-nikai-air-condition/">Nikai AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/samsung-ac-repair-in-dubai/">Samsung Air Conditioning</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/">Trane Air Conditioner</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai/">Sub Zero AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
                   <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York Air Conditioning</Link>
                 </p>
               </div>
-
             </div>
 
-            <div id="get-quote" className=" mt-3">
+            <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>
             </div>
-
           </div>
         </section>
 
-        <Practicaltip></Practicaltip>
-        <AcProperties></AcProperties>
-
-        {/* Maintenance Contract */}
+        <Practicaltip />
+        <AcProperties />
         <MaintenanceContract />
 
-        {/* testimobial section */}
         {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
             subtitle="What Our Clients Say"
@@ -547,29 +522,44 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           />
         )}
 
-        {/* FAQ&apos;s */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
             <div className="cs_accordians_wrapper cs_style_1 p-0">
               {data.map((item, index) => (
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
-                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                <div
+                  key={index}
+                  className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}
+                >
+                  <div
+                    className="cs_accordian_head"
+                    onClick={() => handleItemClick(index)}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) => e.key === 'Enter' && handleItemClick(index)}
+                    aria-expanded={index === openItemIndex}
+                  >
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"><FaEye /></i>
-                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                      <i className="bi bi-eye text-light"><EyeIcon /></i>
+                      <i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
                     </span>
                   </div>
-                  <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
-                    <p className="mb-0"
+                  <div
+                    className="cs_accordian_body"
+                    style={{
+                      maxHeight: index === openItemIndex ? '1000px' : '0',
+                      overflow: 'hidden',
+                      transition: 'max-height 0.3s ease-out'
+                    }}
+                  >
+                    <p
+                      className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
-                    ></p>
+                    />
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </section>
@@ -578,11 +568,9 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"
-          ></Serviceappointemnt>
-
+          />
         </section>
       </div>
-
     </>
   );
 };

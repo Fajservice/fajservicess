@@ -91,11 +91,6 @@
   transition: background 0.3s, transform 0.3s;
 }
 
-.hero-slide__btn:hover {
-  background: #163a5c;
-  transform: translateX(5px);
-}
-
 .hero-slide__btn svg {
   transition: transform 0.3s;
 }
@@ -111,10 +106,6 @@
   text-decoration: none;
   color: #0a2540;
   transition: color 0.3s;
-}
-
-.hero-slide__phone:hover {
-  color: #2563eb;
 }
 
 .hero-slide__phone-icon {
