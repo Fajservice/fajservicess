@@ -222,9 +222,9 @@ const Footer1 = () => {
               </div>
               <div>
                 <img
-                  src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`}
+                  src={`${import.meta.env.BASE_URL}img/icons/payment_card.avif`}
                   alt="Accepted payment methods"
-                  width="370"
+                  width="270"
                   height="24"
                   loading="lazy"
                   style={{ objectFit: 'contain' }}

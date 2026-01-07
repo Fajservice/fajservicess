@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --white-color: #fff;
   --black-color: #000000;
   --heading-color: #01133c;
-  /* --body-color: #666666; */
   --body-color: #000000;
   --ternary-color: #88a5ad;
   --accent-color: #00334e;
@@ -2018,7 +2017,7 @@ textarea {
 }
 
 .cs_heading_bg {
-  background-color: var(--heading-color);
+  background-color: var(--accent-color);
 }
 
 .cs_secondary_bg {

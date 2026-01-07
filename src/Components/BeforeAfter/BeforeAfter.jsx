@@ -119,7 +119,6 @@ const BeforeAfter = ({ title, subTitle, bgImg, beforeImg, afterTitle, afterImg, 
         {isInView && (
           <div
             className="cs_before_after_overlay cs_heading_bg cs_bg_filed cs_headiong_bg"
-            style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}
           />
         )}
         
