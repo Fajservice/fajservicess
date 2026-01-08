@@ -21,7 +21,7 @@ const AppliancesServicesInJltDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in JLT, Fridge Repair in JLT, Dishwasher Repair in JLT, Appliance Services in JLT, Appliance Repair in JLT, Appliance Maintenance in JLT, Appliance Installation in JLT, Home Appliances Service in JLT");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jlt/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jlt/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -174,7 +174,7 @@ const AppliancesServicesInJltDetail = ({ subtitle, title, reviewsbg, titleSeo, d
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Appliances Services In Jlt</h1>
+            <h1 className="cs_fs_30">Appliances Services In JLT</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

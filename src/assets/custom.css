@@ -1155,7 +1155,6 @@ textarea::placeholder {
 }
 .serviceDetails input {
     width: 100%;
-    min-height: 37px;
     border: 0;
     padding: 10px;
 }

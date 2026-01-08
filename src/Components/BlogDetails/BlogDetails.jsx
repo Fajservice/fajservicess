@@ -1,6 +1,5 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
-import data from "../../../public/data/blog.json";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const CalendarIcon = ({ size = 24, color = "currentColor" }) => (
@@ -67,6 +66,7 @@ const ArrowRightIcon = ({ size = 28, color = "currentColor" }) => (
 const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const { slug } = useParams();
   const [blogPost, setBlogPost] = useState(null);
+  const [allPosts, setAllPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -85,26 +85,35 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     [blogTitle, shareUrl]
   );
 
+  // Fetch blog data
   useEffect(() => {
-    try {
-      const post = data.find(item => item.slug === slug);
-      
-      if (post) {
-        setBlogPost(post);
-      } else {
-
-        if (data && data.length > 0) {
-          setBlogPost(data[0]);
+    const fetchData = async () => {
+      try {
+        const response = await fetch(`${import.meta.env.BASE_URL}data/blog.json`);
+        const data = await response.json();
+        
+        setAllPosts(data);
+        
+        const post = data.find(item => item.slug === slug);
+        
+        if (post) {
+          setBlogPost(post);
         } else {
-          setError("No blog posts available");
+          if (data && data.length > 0) {
+            setBlogPost(data[0]);
+          } else {
+            setError("No blog posts available");
+          }
         }
+      } catch (err) {
+        setError("Failed to load blog post");
+        console.error("Error loading blog post:", err);
+      } finally {
+        setLoading(false);
       }
-    } catch (err) {
-      setError("Failed to load blog post");
-      console.error("Error loading blog post:", err);
-    } finally {
-      setLoading(false);
-    }
+    };
+
+    fetchData();
   }, [slug]);
 
   const renderParagraphWithLinks = (paragraph) => {
@@ -135,7 +144,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           const isAbsolutePath = linkUrl.startsWith('/');
           
           if (isFullUrl) {
-
             let finalUrl = linkUrl;
             if (linkUrl.startsWith('http://')) {
               finalUrl = linkUrl.replace('http://', 'https://');
@@ -221,7 +229,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 for (let i = 0; i < parts.length; i++) {
                   if (parts[i]) result.push(parts[i]);
                   if (i < parts.length - 1) {
-
                     const isFullUrl = linkData.url.startsWith('http://') || linkData.url.startsWith('https://') || linkData.url.startsWith('www.');
                     const isAbsolutePath = linkData.url.startsWith('/');
                     
@@ -288,7 +295,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               return <em {...props}>{children}</em>;
             case 'br':
               return <br {...props} />;
-               case 'table':
+            case 'table':
               return <table key={`table-${index}`} className="table table-bordered">{children}</table>;
             case 'thead':
               return <thead key={`thead-${index}`}>{children}</thead>;
@@ -317,7 +324,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       
     } catch (err) {
       console.error("Error parsing mixed content:", err);
-
       return <div dangerouslySetInnerHTML={{ __html: content }} />;
     }
   };
@@ -395,7 +401,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
         {renderContent(blogPost[h2PKey])}
 
-        
         {[...Array(13)].map((_, i) => {
           const h3Key = `${sectionName}_h3_${i + 1}`;
           const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
@@ -430,7 +435,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   if (!blogPost) {
     return <div className="container py-5 text-center">Blog post not found.</div>;
   }
-
 
   const metatitle = String(titleSeo || blogPost.metatitle || blogPost.title || '');
   const metadescription = String(description || blogPost.metadesc || '');
@@ -490,12 +494,10 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 <h1 className="cs_fs_36">{blogPost.title}</h1>
                 {renderContent(blogPost.content)}
 
-                {/* Render sections dynamically */}
                 {['sec_two', 'sec_three', 'sec_four', 'sec_five', 'sec_six', 'sec_seven', 'sec_eight', 'sec_nine', 'sec_ten', 'sec_eleven', 'sec_tweleve', 'sec_thirteen', 'sec_fourteen', 'sec_fifteen', 'sec_sixteen', 'sec_seventeen', 'sec_eighteen', 'sec_nineteen', 'sec_twenty'].map(sectionName => 
                   renderSection(sectionName)
                 )}
 
-                {/* Conclusion section */}
                 {blogPost.sec_concln_h2 && (
                   <div className="row">
                     <h2>{blogPost.sec_concln_h2}</h2>
@@ -517,7 +519,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       
                       return (
                         <div key={`faq_${i + 1}`}>
-                          <h3  className="cs_fs_24 mb-2">{blogPost[faqH3Key]}</h3>
+                          <h3 className="cs_fs_24 mb-2">{blogPost[faqH3Key]}</h3>
                           {renderContent(blogPost[faqPKey])}
                         </div>
                       );
@@ -538,8 +540,8 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 <div className="cs_post_socials">
                   <h3 className="cs_fs_24">Share:</h3>
                   <div className="cs_social_btns cs_style_1">
-                    <a
-                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
+                    
+                      <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cs_center cs_radius_50"
@@ -548,8 +550,8 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       <FacebookIcon size={14} />
                     </a>
 
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogTitle)}`}
+                    
+                      <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogTitle)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cs_center cs_radius_50"
@@ -558,8 +560,8 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       <TwitterIcon size={14} />
                     </a>
 
-                    <a
-                      href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
+                    
+                      <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cs_center cs_radius_50"
@@ -568,8 +570,8 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       <LinkedInIcon size={14} />
                     </a>
 
-                    <a
-                      href={`https://api.whatsapp.com/send?phone=+971507464712&text=${encodeURIComponent(message)}`}
+                    
+                      <a href={`https://api.whatsapp.com/send?phone=+971507464712&text=${encodeURIComponent(message)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cs_center cs_radius_50"
@@ -641,7 +643,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">Recent Posts</h3>
                   <div className="cs_recent_post_wrapper">
-                    {data && data.length > 0 && data.slice(0, 10).map((post, index) => (
+                    {allPosts && allPosts.length > 0 && allPosts.slice(0, 10).map((post, index) => (
                       <div className="cs_recent_post" key={index}>
                         <Link to={`/blog/${post.slug}/`} className="cs_recent_post_thumb">
                           <img src={post.img} alt="Recent Post Image" fetchpriority="high" decoding="async" width="100%" height="auto"/>

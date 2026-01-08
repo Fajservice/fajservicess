@@ -186,7 +186,7 @@ const TestimonialSection = ({
       style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}
     >
       <style>{`
-        .testimonial-slider{position:relative;overflow:hidden;width:100%;cursor:grab}
+        .testimonial-slider{position:relative;width:100%;cursor:grab}
         .testimonial-slider--dragging{cursor:grabbing}
         .testimonial-slider__track{display:flex;will-change:transform}
         .testimonial-slider__track--animate{transition:transform .5s ease}

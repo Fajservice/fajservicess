@@ -1,30 +1,48 @@
 import BlogDetails from "../Components/BlogDetails/BlogDetails";
 import { useEffect, useState } from "react";
-import data from "../../public/data/blog.json";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const BlogDetailsPage = () => {
-    const { slug } = useParams();
-    const [blogPost, setBlogPost] = useState(null);
-  
-    useEffect(() => {
-      const post = data.find(item => item.slug === slug);
-  
-      if (post) {
-        setBlogPost(post);
-      } else {
-        setBlogPost(data[0]);
+  const { slug } = useParams();
+  const [blogPost, setBlogPost] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(`${import.meta.env.BASE_URL}data/blog.json`);
+        const data = await response.json();
+
+        const post = data.find(item => item.slug === slug);
+
+        if (post) {
+          setBlogPost(post);
+        } else {
+          setBlogPost(data[0]);
+        }
+      } catch (error) {
+        console.error('Error fetching blog data:', error);
+      } finally {
+        setIsLoading(false);
       }
-    }, [slug]);
-  
-    if (!blogPost) {
-      return <div className="container py-5 text-center">Loading...</div>;
-    }
-    return (
-        <div>
-            <BlogDetails></BlogDetails>     
-        </div>
-    );
+    };
+
+    fetchData();
+  }, [slug]);
+
+  if (isLoading) {
+    return <div className="container py-5 text-center">Loading...</div>;
+  }
+
+  if (!blogPost) {
+    return <div className="container py-5 text-center">Blog post not found.</div>;
+  }
+
+  return (
+    <div>
+      <BlogDetails />
+    </div>
+  );
 };
 
 export default BlogDetailsPage;

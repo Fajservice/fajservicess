@@ -1753,7 +1753,7 @@ textarea {
 }
 
 .cs_fs_36 {
-  font-size: 24px;
+  font-size: 32px;
   line-height: 1em;
 }
 
@@ -4955,7 +4955,7 @@ textarea {
 }
 
 .cs_sidebar_widget {
-  padding: 40px;
+  padding: 20px;
 }
 
 @media (max-width: 575px) {

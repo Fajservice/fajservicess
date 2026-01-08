@@ -89,7 +89,7 @@ const ImageSlider = ({
               height="800"
               loading="eager"
               fetchpriority="high"
-              decoding="sync"
+              decoding="async"
             />
             <div className="hero-slide__pattern"></div>
             <div className="hero-slide__container">
