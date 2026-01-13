@@ -1,4 +1,4 @@
-
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const TestimonialCard = ({img,name,designation,subtile,title,content}) => {
     return (
         <div className="cs_testimonial cs_style_2">
@@ -9,7 +9,7 @@ const TestimonialCard = ({img,name,designation,subtile,title,content}) => {
           <h3 className="cs-testimonial_title cs_fs_24 cs_semibold cs_white_color mb-0">{name}</h3>
           <p className="cs_fs_14 cs_accent_color mb-0">{designation}</p>
           <div className="cs_polygon_shape position-absolute">
-            <img src={`${import.meta.env.BASE_URL}img/shapes/polygon.svg`} alt="Polygon Shape" />
+            <img src={`${CDN}/shapes/polygon.svg`} alt="Polygon Shape" />
           </div>
         </div>
         <div className="cs_testimonl_content">

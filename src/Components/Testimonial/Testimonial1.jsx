@@ -2,6 +2,14 @@ import React, { useState, useEffect, useRef, useCallback, memo } from "react";
 import "./Testimonial1.css";
 import parse from "html-react-parser";
 
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+
 const StarIcon = ({ size = 14 }) => (
   <svg
     width={size}
@@ -50,7 +58,7 @@ const StarRating = () => (
 const TestimonialSection = ({
   subtitle = "What Our Clients Say",
   title = "Customer <span>Testimonials</span>",
-  bgImg = "img/testimonial_bg.jpg",
+  bgImg = "testimonial_bg",
   testimonialData = [],
   className = "",
   sectionId = "",
@@ -183,7 +191,7 @@ const TestimonialSection = ({
     <section
       id={sectionId}
       className={`cs_slider cs_style_2 position-relative py-5 ${className}`}
-      style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}
+      style={{ backgroundImage: `url(${getImageSrc(bgImg)})` }}
     >
       <style>{`
         .testimonial-slider{position:relative;width:100%;cursor:grab}
@@ -243,12 +251,13 @@ const TestimonialCard = memo(({ item }) => (
       <div className="d-flex align-items-center mb-2">
         <div className="cs_testimonial_thumbnail me-3">
           <img
-            src={`${import.meta.env.BASE_URL}${item.img1}`}
+            src={getImageSrc(item.img1)}
             alt={item.title}
             className="rounded-circle"
             width="60"
             height="60"
             loading="lazy"
+            decoding="async"
             draggable="false"
           />
         </div>

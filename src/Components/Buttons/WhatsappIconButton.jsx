@@ -1,3 +1,6 @@
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
+
 const WhatsappIconButton = ({
   whatsapp = 'https://api.whatsapp.com/send?phone=+971507464712&text=Hello'
 }) => {
@@ -10,7 +13,7 @@ const WhatsappIconButton = ({
     >
       <img
         className="whatsapp-icon"
-        src={`${import.meta.env.BASE_URL}img/icons/whatsapp-new-icon.webp`}
+        src={`${CDN}/icon/whatsapp-new-icon/public`}
         alt="Get A Quote"
       />
     </a>

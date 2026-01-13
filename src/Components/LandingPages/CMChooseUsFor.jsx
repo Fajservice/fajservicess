@@ -1,5 +1,5 @@
 
-
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const WhyChooseUS = () => {
   return (
 
@@ -11,7 +11,7 @@ const WhyChooseUS = () => {
           <div className="uspcol col-1">
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                <img className="" src={`${CDN}/icon/iconfast-reliable/public`} alt="Fast, Reliable Service" />
               </div>
               <div className="usptext">
                 <h3 className="">Reliable, Priority, and Quick</h3>
@@ -21,7 +21,7 @@ const WhyChooseUS = () => {
 
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                <img className="" src={`${CDN}/icon/iconexperts/public`} alt="We Are Experts" />
               </div>
               <div className="usptext">
                 <h3 className="">Feeling Of Calm</h3>
@@ -32,7 +32,7 @@ const WhyChooseUS = () => {
 
             <div className="uspitem mb-0">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                <img className="" src={`${CDN}/icon/iconfull-control/public`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
                 <h3 className="">You Are in Control</h3>
@@ -46,14 +46,14 @@ const WhyChooseUS = () => {
           {/* <!-- Delimit Section --> */}
           <div className="uspdelimit col-2 d-none d-xl-block">
 
-            <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+            <img className="blue-border-2 w-100 why-choose-img" src={`${CDN}/icon/ACServicescomponent/public`} alt="Ac Maintenance Services" />
           </div>
 
           {/* <!-- Second Column --> */}
           <div className="uspcol col-3">
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                <img className="" src={`${CDN}/icon/iconvalue/public`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
                 <h3 className="">We Are Experts</h3>
@@ -62,7 +62,7 @@ const WhyChooseUS = () => {
             </div>
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                <img className="" src={`${CDN}/icon/iconconfidence-guarantee/public`} alt="FAJ icon service" />
 
               </div>
               <div className="usptext">
@@ -73,7 +73,7 @@ const WhyChooseUS = () => {
             </div>
             <div className="uspitem mb-0">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                <img className="" src={`${CDN}/icon/icontrustworthy/public`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
                 <h3 className="">Trustworthy</h3>
@@ -87,7 +87,7 @@ const WhyChooseUS = () => {
         </div>
         {/* <!-- Delimit mobile --> */}
         <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-          <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+          <img className="blue-border-2 w-100" src={`${CDN}/icon/ACServicescomponent/public`} alt="Ac Maintenance Services" />
         </div>
       </div>
     </section>

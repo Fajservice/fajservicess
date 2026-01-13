@@ -14,6 +14,7 @@ import GetQuoteButton from '../../../Buttons/GetQuoteButton';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daiganosischarges';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
@@ -211,7 +212,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                             <div className="col-md-6 ">
 
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Panasonic Washing Machine Repair" />
+                                <img className="bordered-img w-100" src={`${CDN}/The-Most-Common-Reasons-for-Appliance-Breakdowns/public`} alt="Panasonic Washing Machine Repair" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>

@@ -9,6 +9,7 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import Testimonial1 from "../Testimonial/Testimonial1";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -17,7 +18,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "خدمة التكييف، صيانة التكييف، خدمة تكييف الهواء، إصلاح التكييف، صيانة التكييف في دبي، فني تكييف، تنظيف التكييف، شركة تكييف في دبي، أفضل خدمة تكييف، أسعار صيانة التكييف");
   const metaURL = String(URL || "https://www.fajservices.ae/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/");
-  const metaImage = "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif";
+  const metaImage = "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract/public";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -179,7 +180,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Experts AC Service and Maintenance" />
+                <img className="bordered-img w-100" src={`${CDN}/Experts-AC-Service-and-Maintenance/public`} alt="Experts AC Service and Maintenance" />
 
               </div>
             </div>
@@ -219,7 +220,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Maintenance in dubai" />
+                <img className="blue-border" src={`${CDN}/What-is-covered-in-an-AC-Maintenance-Contract/public`} alt="Ac Maintenance in dubai" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -392,7 +393,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="كفاءة التبريد" className="img-fluid rounded-circle border border-4 border-info" />
+                                <img src={`${CDN}/icons/cooling1.jpg`} alt="كفاءة التبريد" className="img-fluid rounded-circle border border-4 border-info" />
                             </div>
                             <h3 className="text-uppercase mb-2 fs-6 text-white">كفاءة التبريد</h3>
                             <p className="small">نقوم بإجراء تقييم كامل لكفاءة التبريد باستخدام مسدس قياس الحرارة.</p>
@@ -402,7 +403,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="تعقيم المكونات" className="img-fluid rounded-circle border border-4 border-warning" />
+                                <img src={`${CDN}/icons/disinfection.jpg`} alt="تعقيم المكونات" className="img-fluid rounded-circle border border-4 border-warning" />
                             </div>
                             <h3 className="text-uppercase mb-2 fs-6 text-white">تعقيم المكونات</h3>
                             <p className="small">يتم اختبار وتعقيم جميع المكونات المادية بما في ذلك الفلاتر وفتحات التهوية.</p>
@@ -412,7 +413,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="تقييم المروحة" className="img-fluid rounded-circle border border-4 border-success" />
+                                <img src={`${CDN}/icons/fan.jpg`} alt="تقييم المروحة" className="img-fluid rounded-circle border border-4 border-success" />
                             </div>
                             <h3 className="text-uppercase mb-2 fs-6 text-white">تقييم المروحة</h3>
                             <p className="small">نتأكد من عمل المروحة بشكل صحيح دون أي انسدادات في ملف المبخر.</p>
@@ -422,7 +423,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="فحص الترموستات" className="img-fluid rounded-circle border border-4 border-primary" />
+                                <img src={`${CDN}/icons/thermo.jpg`} alt="فحص الترموستات" className="img-fluid rounded-circle border border-4 border-primary" />
                             </div>
                             <h3 className="text-uppercase mb-2 fs-6 text-white">فحص الترموستات</h3>
                             <p className="small">نستخدم مقياس حرارة ليزري للتأكد من عمل الترموستات بشكل صحيح.</p>
@@ -432,7 +433,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="توازن تدفق الهواء" className="img-fluid rounded-circle border border-4 border-danger" />
+                                <img src={`${CDN}/icons/airflow.jpg`} alt="توازن تدفق الهواء" className="img-fluid rounded-circle border border-4 border-danger" />
                             </div>
                             <h3 className="text-uppercase mb-2 fs-6 text-white">توازن تدفق الهواء</h3>
                             <p className="small">نضمن لك الحصول على تدفق هواء مثالي في كل غرفة حسب الحاجة.</p>
@@ -442,7 +443,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="ملاحظات العملاء" className="img-fluid rounded-circle border border-4 border-secondary" />
+                                <img src={`${CDN}/icons/customer.jpg`} alt="ملاحظات العملاء" className="img-fluid rounded-circle border border-4 border-secondary" />
                             </div>
                             <h3 className="text-uppercase mb-2 fs-6 text-white">ملاحظات العملاء</h3>
                             <p className="small">يقدم فريقنا ملاحظات مهمة عن حالة التكييف وأي إصلاحات مطلوبة.</p>
@@ -466,7 +467,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="uspcol col-1">
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="خدمة سريعة وموثوقة" />
+                <img className="" src={`${CDN}/icons/fast-reliable.png`} alt="خدمة سريعة وموثوقة" />
               </div>
               <div className="usptext">
                 <h3 className="">موثوقة، أولوية، وسريعة</h3>
@@ -476,7 +477,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="نحن خبراء" />
+                <img className="" src={`${CDN}/icons/experts.png`} alt="نحن خبراء" />
               </div>
               <div className="usptext">
                 <h3 className="">شعور بالطمأنينة</h3>
@@ -487,7 +488,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
             <div className="uspitem mb-0">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="خدمة أيقونة FAJ" />
+                <img className="" src={`${CDN}/icons/full-control.webp`} alt="خدمة أيقونة FAJ" />
               </div>
               <div className="usptext">
                 <h3 className="">أنت تحت السيطرة</h3>
@@ -499,14 +500,14 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
           {/* <!-- قسم الفاصل --> */}
           <div className="uspdelimit col-2 d-none d-xl-block">
-            <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="خدمات صيانة التكييف" />
+            <img className="blue-border-2 w-100 why-choose-img" src={`${CDN}/ACServicescomponent/public`} alt="خدمات صيانة التكييف" />
           </div>
 
           {/* <!-- العمود الثاني --> */}
           <div className="uspcol col-3">
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="خدمة أيقونة FAJ" />
+                <img className="" src={`${CDN}/icons/value.png`} alt="خدمة أيقونة FAJ" />
               </div>
               <div className="usptext">
                 <h3 className="">نحن خبراء</h3>
@@ -515,7 +516,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             </div>
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="خدمة أيقونة FAJ" />
+                <img className="" src={`${CDN}/icons/confidence-guarantee.png`} alt="خدمة أيقونة FAJ" />
               </div>
               <div className="usptext">
                 <h3 className="">قيمة رائعة</h3>
@@ -524,7 +525,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             </div>
             <div className="uspitem mb-0">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="خدمة أيقونة FAJ" />
+                <img className="" src={`${CDN}/icons/trustworthy.png`} alt="خدمة أيقونة FAJ" />
               </div>
               <div className="usptext">
                 <h3 className="">جدير بالثقة</h3>
@@ -536,7 +537,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         </div>
         {/* <!-- فاصل للجوال --> */}
         <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-          <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="خدمات صيانة التكييف" />
+          <img className="blue-border-2 w-100" src={`${CDN}/ACServicescomponent/public`} alt="خدمات صيانة التكييف" />
         </div>
       </div>
     </section>
@@ -651,7 +652,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             </div>
             <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="خدمة التكييف" />
+                    <img className="" src={`${CDN}/benafit-acimg.jpg`} alt="خدمة التكييف" />
                 </div>
             </div>
             <div className="col-lg-4">

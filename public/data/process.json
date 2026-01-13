@@ -1,21 +1,21 @@
 [
     {
-      "img": "img/ourvalues/service.avif",   
+      "img": "ourvalues/service",   
       "title": "RELIABILITY",
       "desc": "We honour our commitments. You can always count on us to be there for you."
     },
     {
-      "img": "img/ourvalues/cultural-diversity.avif",   
+      "img": "ourvalues/cultural-diversity",   
       "title": "DIVERSITY",
       "desc": "We actively embrace change and take pride in respecting our differences."
     },
     {
-      "img": "img/ourvalues/honesty.avif",   
+      "img": "ourvalues/honesty",   
       "title": "INTEGRITY",
       "desc": "We are true to ourselves and to others. We are honest in our interactions."
     },
     {
-      "img": "img/ourvalues/shield.avif",   
+      "img": "ourvalues/shield",   
       "title": "QUALITY",
       "desc": "We strive to provide the best service and improve daily. We aim to create an outstanding experience for all."
     }       

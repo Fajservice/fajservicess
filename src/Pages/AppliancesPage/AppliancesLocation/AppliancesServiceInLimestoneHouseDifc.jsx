@@ -7,7 +7,7 @@ const AppliancesServiceInLimestoneHouseDifc = () => {
             <BreadCumb
 bgImg="img/banners/appliances-banner-desktop-faj.avif"
 mobileBgImg="img/banners/appliances-banner-mobile-faj.avif"
-                Title="Home Appliance Service in Limestone House Difc">
+                Title="Home Appliance Service in Limestone House DIFC">
             </BreadCumb>
             <AppliancesServiceInLimestoneHouseDifcDetail/>
     </div>

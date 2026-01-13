@@ -2,7 +2,14 @@ import { Link } from "react-router-dom";
 import SectionTitle from "../Common/SectionTitle";
 import { useEffect, useState } from "react";
 
-// Inline arrow SVG component
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+
 const ArrowRightIcon = ({ className = '', size = 18 }) => (
   <svg
     width={size}
@@ -61,7 +68,12 @@ const Project1 = () => {
                 <div key={i} className="col-xl-3 col-md-6 wow fadeInLeft">
                   <div className="cs_card cs_style_2 position-relative">
                     <Link to={item.serviceLink} className="cs_card_thumbnail position-relative">
-                      <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Portfolio Image" />
+                      <img 
+                        src={getImageSrc(item.img)} 
+                        alt={item.title || "Portfolio Image"}
+                        loading="lazy"
+                        decoding="async"
+                      />
                     </Link>
                     <div className="cs_card_info cs_white_bg">
                       <h3 className="cs_card_title cs_fs_20 cs_mb_15">

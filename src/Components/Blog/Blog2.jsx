@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import SectionTitle2 from "../Common/SectionTitle2";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+
 
 const CommentIcon = ({ size = 16, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -56,7 +64,12 @@ const Blog2 = () => {
               <div key={i} className="col-lg-4">
                 <div className="cs_post cs_style_1 cs_type_1">
                   <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
-                    <img src={item.img} alt={item.title} />
+                    <img 
+                        src={getImageSrc(item.img)} 
+                        alt={item.title}
+                        loading="lazy"
+                        decoding="async"
+                      />
                     <div className="cs_post_date cs_accent_bg cs_fs_18 cs_white_color cs_center position-absolute">
                       {item.date || "10 Oct"}
                     </div>

@@ -2,11 +2,12 @@ import { useEffect, useState, useCallback, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import BookingFormModal from '../BookingFormModal';
-import img from '/img/FajLogo.svg';
 import SocialIcon from '../../icons/SocialIcon';
 import PhoneIcon from '../../icons/PhoneIcon';
 import WhatsappIcon from '../../icons/WhatsappIcon';
 import LocationIcon from '../../icons/LocationIcon';
+
+const logoUrl = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo/public';
 
 const contactItems = [
   {
@@ -144,7 +145,7 @@ export default function Header1({ variant = '' }) {
               <div className="cs_main_header_left">
                 <div className="cs_logo_wrap">
                   <Link className="cs_site_branding" to="/" aria-label="Home">
-                    <img src={img} alt="FAJ Technical Services Logo" />
+                    <img src={logoUrl} alt="FAJ Technical Services Logo" />
                   </Link>
                   <div className="cs_logo_bg_shape cs_accent_color">
                     <svg width="509" height="141" viewBox="0 0 509 141" fill="none" aria-hidden="true" preserveAspectRatio="xMidYMid meet">

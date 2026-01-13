@@ -12,7 +12,14 @@ import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
+import AcBrandBenifit from "./ACBrandComponents/ACBrandBenifit.jsx";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -21,7 +28,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "Looking for Hitachi AC repair, maintenance in Dubai? Find Hitachi Cooling & Heating professionals in Dubai and get the finest service near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Hitachi AC Repair in Dubai, Hitachi AC Maintenance in Dubai, Hitachi AC Fix in Dubai, Hitachi AC Service in Dubai, Hitachi Air Condition Repair in Dubai, Hitachi Air Condition Maintenance in Dubai, Hitachi");
-  const metaURL = String(URL || "https://www.fajservices.ae/  ");
+  const metaURL = String(URL || "https://www.fajservices.ae/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/  ");
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -177,7 +184,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               </div>
 
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Hitachi Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Hitachi Ac Repair" />
               </div>
             </div>
 
@@ -196,9 +203,8 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/fujitsu-ac-service.avif`} alt="Hitachi Ac Repair" />
+                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Hitachi Ac Repair" />
               </div>
-
               <div className="col-md-6">
                 <ul className="mb-0">
                   <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. it&apos;s essential to ensure that your Hitachi air conditioning systems are primed for optimal performance. </li>
@@ -208,7 +214,6 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <li> <strong>  Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment. </li>
                 </ul>
               </div>
-
             </div>
           </div>
         </section>
@@ -364,92 +369,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         </section >
 
         {/*  Benefits */}
-        <section className="section cs_py_30" style={{ backgroundColor: "#00334E", color: "white" }}>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-10 text-center">
-                <h2 className="cs_fs_30 text-light">Benefits Of Regular Hitachi  AC Service and Maintenance in Dubai </h2>
-
-                <div className="row mt-4 gx-4 gy-4">
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
-                      <p className="small">
-                        We conduct a thorough evaluation of cooling efficiency using a temperature gun.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
-                      <p className="small">
-                        All hardware components have been tested and disinfected, including filters and vents.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                      <p className="small">
-                        We make sure fan operates properly and there are no blockages in evaporator coil.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
-                      <p className="small">
-                        We use a laser temperature gauge to verify that the thermostats are operating correctly.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
-                      <p className="small">
-                        We make sure that each room receives the optimal airflow it needs.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                      <p className="small">
-                        Our team provides vital feedback on your Hitachi AC's health and any needed repairs.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="text-center mb-4">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <AcBrandBenifit />
 
         {/* CHOOSE US  */}
         <section className="section cs_py_30">
@@ -460,7 +380,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast,Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -471,7 +391,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -482,10 +402,10 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>Choose a day and time for your Hitachi AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
@@ -494,14 +414,14 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -510,7 +430,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -521,7 +441,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -534,7 +454,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>

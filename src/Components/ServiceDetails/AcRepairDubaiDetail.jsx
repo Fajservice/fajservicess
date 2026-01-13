@@ -8,14 +8,13 @@ import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
-import BookingFormModal from '../BookingFormModal';
 import HeaderForm from "../Headeform/HeaderForm";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import Practicaltip from "../Common/Practicaltip";
 import AcProperties from "../Common/AcProperties";
 import Blog2 from "../Blog/Blog2";
 import Testimonial1 from "../Testimonial/Testimonial1";
-
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -282,7 +281,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai" />
+                <img className="bordered-img w-100" src={`${CDN}/ac-repair-2/public`} alt="AC Repair In Dubai" />
 
               </div>
             </div>
@@ -311,7 +310,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repairing.avif`} alt="AC Repairing" />
+                <img className="blue-border" src={`${CDN}/Why-is-AC-Maintenance-Service-Important-in-Dubai/public`} alt="AC Repairing" />
               </div>
               <div className="col-md-6">
 

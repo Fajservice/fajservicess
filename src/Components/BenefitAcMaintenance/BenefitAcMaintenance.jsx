@@ -1,5 +1,4 @@
-
-
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const BenefitAcMaintenance = () => {
     return (
         <>
@@ -15,7 +14,7 @@ const BenefitAcMaintenance = () => {
                                 <div className="col-md-4 mb-2">
                                     <div className="d-flex flex-column align-items-center px-2">
                                         <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                            <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.svg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                                            <img src={`${CDN}/icon/cooling1/public`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
                                         </div>
                                         <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
                                         <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
@@ -25,7 +24,7 @@ const BenefitAcMaintenance = () => {
                                 <div className="col-md-4 mb-2">
                                     <div className="d-flex flex-column align-items-center px-2">
                                         <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                            <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.svg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                                            <img src={`${CDN}/icon/disinfection/public`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
                                         </div>
                                         <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                                         <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
@@ -35,7 +34,7 @@ const BenefitAcMaintenance = () => {
                                 <div className="col-md-4 mb-2">
                                     <div className="d-flex flex-column align-items-center px-2">
                                         <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                            <img src={`${import.meta.env.BASE_URL}img/icons/fan.svg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                                            <img src={`${CDN}/icon/fan/public`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                                         </div>
                                         <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                                         <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
@@ -45,7 +44,7 @@ const BenefitAcMaintenance = () => {
                                 <div className="col-md-4 mb-2">
                                     <div className="d-flex flex-column align-items-center px-2">
                                         <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                            <img src={`${import.meta.env.BASE_URL}img/icons/thermo.svg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                                            <img src={`${CDN}/icon/thermo/public`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
                                         </div>
                                         <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
                                         <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
@@ -55,7 +54,7 @@ const BenefitAcMaintenance = () => {
                                 <div className="col-md-4 mb-2">
                                     <div className="d-flex flex-column align-items-center px-2">
                                         <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                            <img src={`${import.meta.env.BASE_URL}img/icons/airflow.svg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                                            <img src={`${CDN}/icon/airflow/public`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
                                         </div>
                                         <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
                                         <p className="small">We ensure you get optimal air flow around each room as needed.</p>
@@ -65,7 +64,7 @@ const BenefitAcMaintenance = () => {
                                 <div className="col-md-4 mb-2">
                                     <div className="d-flex flex-column align-items-center px-2">
                                         <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                            <img src={`${import.meta.env.BASE_URL}img/icons/customer.svg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                                            <img src={`${CDN}/icon/customer/public`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                                         </div>
                                         <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                                         <p className="small">Our team provides vital feedback on your AC&apos;s health and any needed air con repair.</p>

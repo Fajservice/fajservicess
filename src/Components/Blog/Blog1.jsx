@@ -2,7 +2,14 @@ import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet-async";
 import { useState, useEffect } from 'react';
 
-// Inline SVG Icons - No external dependencies, renders immediately
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+
 const CommentIcon = ({ size = 16, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
@@ -46,8 +53,8 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
   const metadescription = String(description || "Welcome to FAJ Services blog! Expert insights, tips, and tricks for homeowners.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Latest Blogs");
-  const metaURL = String(URL || "https://www.fajservices.ae/blogs/").replace(/\/?$/, '/');
-  const metaImage = "https://www.fajservices.ae/img/page_heading_1.avif";
+  const metaURL = String(URL || "https://www.fajservices.ae/blogs/");
+  const metaImage = `${CDN}/page_heading_1/public`;
 
   return (
     <>
@@ -80,7 +87,12 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
                 <div key={i} className="col-lg-4">
                   <div className="cs_post cs_style_1 cs_type_1">
                     <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
-                      <img src={item.img} alt={item.title} />
+                      <img 
+                        src={getImageSrc(item.img)} 
+                        alt={item.title}
+                        loading="lazy"
+                        decoding="async"
+                      />
                       <div className="cs_post_date cs_accent_bg cs_fs_18 cs_semibold cs_white_color cs_center position-absolute">
                         {item.date}
                       </div>

@@ -1,5 +1,16 @@
 import { useEffect, useState } from "react";
 import SectionTitle2 from "../Common/SectionTitle2";
+
+// Cloudflare CDN Base URL
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
+// Helper function: CDN ya local path
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+
 const Process = () => {
   const [data, setData] = useState([]);
 
@@ -17,7 +28,7 @@ const Process = () => {
     <section
       className="cs_bg_filed"
       style={{
-        backgroundImage: `url(${import.meta.env.BASE_URL}img/processbg.jpg)`
+        backgroundImage: `url(${getImageSrc('processbg')})`
       }}
     >
       <div className="cs_height_80 cs_height_lg_80"></div>
@@ -41,8 +52,9 @@ const Process = () => {
                 <div className="cs_card_content cs_white_bg cs_radius_35 text-center">
                   <div className="cs_card_icon cs_center cs_heading_color cs_mb_22">
                     <img
-                      src={`${import.meta.env.BASE_URL}${item.img}`}
+                      src={getImageSrc(item.img)}
                       loading="lazy"
+                      decoding="async"
                       width="64"
                       height="64"
                       alt={item.title}

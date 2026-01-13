@@ -1,5 +1,4 @@
-import { useRef, useState } from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
+import { useRef, useState, useCallback } from 'react';
 
 const ArrowForwardIcon = ({ className = '', size = 24 }) => (
   <svg
@@ -17,8 +16,13 @@ const ArrowForwardIcon = ({ className = '', size = 24 }) => (
   </svg>
 );
 
+// reCAPTCHA site key
+const RECAPTCHA_SITE_KEY = '6Lc3iU4rAAAAAA0jw06XlEnCQsXoc_vxT8piZLLX';
+
 const Form1 = () => {
-  const recaptchaRef = useRef(null);
+  const recaptchaWidgetId = useRef(null);
+  const [recaptchaLoaded, setRecaptchaLoaded] = useState(false);
+  const [recaptchaLoading, setRecaptchaLoading] = useState(false);
 
   const [status, setStatus] = useState({
     submitted: false,
@@ -33,6 +37,70 @@ const Form1 = () => {
     service: '',
     message: ''
   });
+
+  // Load reCAPTCHA script dynamically
+  const loadRecaptchaScript = useCallback(() => {
+    return new Promise((resolve) => {
+      // Already loaded
+      if (window.grecaptcha && window.grecaptcha.render) {
+        resolve();
+        return;
+      }
+
+      // Already loading
+      if (recaptchaLoading) {
+        const checkLoaded = setInterval(() => {
+          if (window.grecaptcha && window.grecaptcha.render) {
+            clearInterval(checkLoaded);
+            resolve();
+          }
+        }, 100);
+        return;
+      }
+
+      setRecaptchaLoading(true);
+
+      // Create callback for when script loads
+      window.onRecaptchaLoad = () => {
+        setRecaptchaLoaded(true);
+        setRecaptchaLoading(false);
+        resolve();
+      };
+
+      const script = document.createElement('script');
+      script.src = `https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit`;
+      script.async = true;
+      script.defer = true;
+      document.head.appendChild(script);
+    });
+  }, [recaptchaLoading]);
+
+  // Initialize reCAPTCHA widget
+  const initRecaptcha = useCallback(async () => {
+    if (recaptchaWidgetId.current !== null) return;
+
+    await loadRecaptchaScript();
+
+    // Wait for grecaptcha to be ready
+    if (window.grecaptcha && window.grecaptcha.render) {
+      const container = document.getElementById('recaptcha-container');
+      if (container && recaptchaWidgetId.current === null) {
+        recaptchaWidgetId.current = window.grecaptcha.render(container, {
+          sitekey: RECAPTCHA_SITE_KEY,
+          size: 'invisible',
+          badge: 'bottomleft',
+          callback: onReCAPTCHAChange
+        });
+      }
+    }
+  }, [loadRecaptchaScript]);
+
+  // Load reCAPTCHA when user focuses on any form field
+  const handleFormInteraction = useCallback(() => {
+    if (!recaptchaLoaded && !recaptchaLoading) {
+      initRecaptcha();
+    }
+  }, [recaptchaLoaded, recaptchaLoading, initRecaptcha]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -78,19 +146,17 @@ const Form1 = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
+    if (window.grecaptcha && recaptchaWidgetId.current !== null) {
+      const recaptchaTimeout = setTimeout(() => handleDirectSubmit(), 5000);
 
-    const recaptchaTimeout = setTimeout(() => handleDirectSubmit(), 5000);
-
-    if (recaptchaRef.current) {
       try {
-        recaptchaRef.current.execute();
+        window.grecaptcha.execute(recaptchaWidgetId.current);
       } catch (error) {
         console.error('reCAPTCHA execution error:', error);
         clearTimeout(recaptchaTimeout);
         handleDirectSubmit();
       }
     } else {
-      clearTimeout(recaptchaTimeout);
       handleDirectSubmit();
     }
   };
@@ -124,7 +190,10 @@ const Form1 = () => {
         info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
       });
       setFormData({ name: '', email: '', phone: '', service: '', message: '' });
-      recaptchaRef.current?.reset();
+      
+      if (window.grecaptcha && recaptchaWidgetId.current !== null) {
+        window.grecaptcha.reset(recaptchaWidgetId.current);
+      }
     } catch (error) {
       console.error('Submission error:', error);
       setStatus({
@@ -149,7 +218,13 @@ const Form1 = () => {
         </div>
       )}
 
-      <form className="row cs_row_gap_30 cs_gap_y_30" id="cs_form" onSubmit={handleSubmit}>
+      <form 
+        className="row cs_row_gap_30 cs_gap_y_30" 
+        id="cs_form" 
+        onSubmit={handleSubmit}
+        onFocus={handleFormInteraction}
+        onMouseEnter={handleFormInteraction}
+      >
         <div className="col-sm-6">
           <input 
             type="text" 
@@ -214,13 +289,8 @@ const Form1 = () => {
           />
         </div>
 
-        <ReCAPTCHA
-          ref={recaptchaRef}
-          sitekey="6Lc3iU4rAAAAAA0jw06XlEnCQsXoc_vxT8piZLLX"
-          size="invisible"
-          badge="bottomleft"
-          onChange={onReCAPTCHAChange}
-        />
+        {/* Hidden container for reCAPTCHA - loads on interaction */}
+        <div id="recaptcha-container"></div>
 
         <div className="col-12">
           <button 

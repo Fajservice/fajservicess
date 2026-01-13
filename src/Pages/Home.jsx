@@ -11,6 +11,7 @@ const Contact1 = lazy(() => import("../Components/Contact/Contact"));
 const Testimonial1 = lazy(() => import("../Components/Testimonial/Testimonial1"));
 const Blog3 = lazy(() => import("../Components/Blog/Blog3"));
 const Process = lazy(() => import("../Components/Process/Process"));
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const DEFAULT_SEO = {
   title: "FAJ / Installation, Repair and Maintenance Company in Dubai ",
@@ -24,7 +25,7 @@ const DEFAULT_SEO = {
 
 const heroSlides = [
   {
-    image: "img/ac-repair-services.avif",
+    image: `${CDN}/4707802c-9c00-4a6f-b8c4-aa21dd4e0600/public`,
     alt: "FAJ ensures comfort with professional air conditioning services year-round",
     content: true,
     title: "FAJ ensures comfort with professional air conditioning services year-round!",
@@ -35,7 +36,7 @@ const heroSlides = [
     phoneLink: "tel:+971507464712"
   },
   {
-    image: "img/appliances-repair-services.avif",
+    image: `${CDN}/ddb50f9f-9093-4a7d-9bae-c10479570c00/public`,
     alt: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
     content: true,
     title: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
@@ -46,7 +47,7 @@ const heroSlides = [
     phoneLink: "tel:+971507464712"
   },
   {
-    image: "img/refrigeration-repair-services.avif",
+    image: `${CDN}/b9e9f46b-45bd-4f4e-62f2-999539063600/public`,
     alt: "We are here to help you with your commercial refrigeration system repair problems.",
     content: true,
     title: "We are here to help you with your commercial refrigeration system repair problems.",
@@ -103,9 +104,9 @@ const Home = ({
 
         <Suspense fallback={null}>
           <About1
-            img1="img/about_img_1.avif"
-            img2="img/about_img_2.avif"
-            img3="img/about_img_3.avif"
+            img1={`${CDN}/69f7629e-c166-42e8-2c20-af80a7195800/public`}
+            img2={`${CDN}/9c6a0125-2b8f-4991-71bd-c6355e724f00/public`}
+            img3={`${CDN}/86557209-5038-4665-99e2-5f5ec3d08300/public`}
             expDescrip="We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality."
             number="(+971) 507464712"
             telLink="tel:+971507464712"
@@ -128,12 +129,12 @@ const Home = ({
 
         <Suspense fallback={null}>
           <Choose1
-            img1="img/feature_img_1.avif"
+            img1={`${CDN}/feature_img_1/public`}
             content="Installation, repair, or maintenance service agreement for your home, office, or commercial needs in Dubai, Sharjah and Abu Dhabi, offers expert and affordable solutions"
             btnName="Read more"
             btnUrl="about-us/"
-            img2="img/whywechoose2.avif"
-            img3="img/whychooseus.avif"
+            img2={`${CDN}/whywechoose2/public`}
+            img3={`${CDN}/whychooseus/public`}
           />
         </Suspense>
 
@@ -141,9 +142,9 @@ const Home = ({
           <BeforeAfter
             title="Recent Completed Projects"
             subTitle="Before & after"
-            beforeImg="img/after_img_1.avif"
+            beforeImg={`${CDN}/after_img_1/public`}
             afterTitle="After"
-            afterImg="img/before_img_1.avif"
+            afterImg={`${CDN}/before_img_1/public`}
             beforeTitle="Before"
           />
         </Suspense>
@@ -164,7 +165,7 @@ const Home = ({
             number1="+971 50 746 4712"
             number1Link="tel:+971507464712"
             clientNumber="5,400"
-            img="img/contact-us-image.avif"
+            img={`${CDN}/contact-us-image/public`}
             client="Happy Clients"
             subtitle2="Contact us"
             title2="Book An Appointment"
@@ -176,7 +177,7 @@ const Home = ({
             <Testimonial1
               subtitle="What Our Clients Say"
               title="Customer <span>Reviews</span>"
-              bgImg="img/testimonialbg.jpg"
+              bgImg={`${CDN}/testimonialbg/public`}
               testimonialData={testimonialData}
               sectionId="home-testimonials"
             />

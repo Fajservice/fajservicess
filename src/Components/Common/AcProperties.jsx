@@ -1,4 +1,5 @@
 
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const AcProperties = () => {
     return (
@@ -16,8 +17,12 @@ const AcProperties = () => {
               </div>
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Ac Service" />
+                   <img 
+                        src={`${CDN}/benafit-acimg/public`}
+                        alt="Ac Service"
+                        loading="lazy"
+                        decoding="async"
+                      />
                 </div>
               </div>
               <div className="col-lg-4">

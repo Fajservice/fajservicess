@@ -1565,6 +1565,10 @@ export const router = createBrowserRouter([
         path: "/testimonials/",
         element: <Components.Testimonials />,
       },
+      {
+        path: "/cloudgallery/",
+        element: <Components.CloudflareGallery />,
+      },
       // Redirection
       {
         path:"/blog/is-air-fryer-healthy.php",

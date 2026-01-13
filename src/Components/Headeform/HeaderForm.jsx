@@ -1,9 +1,13 @@
-import  { useRef, useState } from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
+import { useRef, useState, useCallback } from 'react';
 
+// reCAPTCHA site key
+const RECAPTCHA_SITE_KEY = '6Lc3iU4rAAAAAA0jw06XlEnCQsXoc_vxT8piZLLX';
 
 const HeaderForm = () => {
-  const recaptchaRef = useRef(null);
+  const recaptchaWidgetId = useRef(null);
+  const [recaptchaLoaded, setRecaptchaLoaded] = useState(false);
+  const [recaptchaLoading, setRecaptchaLoading] = useState(false);
+
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -17,13 +21,90 @@ const HeaderForm = () => {
     message: ''
   });
 
+  // Load reCAPTCHA script dynamically
+  const loadRecaptchaScript = useCallback(() => {
+    return new Promise((resolve) => {
+      // Already loaded
+      if (window.grecaptcha && window.grecaptcha.render) {
+        resolve();
+        return;
+      }
+
+      // Already loading
+      if (recaptchaLoading) {
+        const checkLoaded = setInterval(() => {
+          if (window.grecaptcha && window.grecaptcha.render) {
+            clearInterval(checkLoaded);
+            resolve();
+          }
+        }, 100);
+        return;
+      }
+
+      setRecaptchaLoading(true);
+
+      // Create callback for when script loads
+      window.onRecaptchaLoad = () => {
+        setRecaptchaLoaded(true);
+        setRecaptchaLoading(false);
+        resolve();
+      };
+
+      // Check if script already exists (loaded by another form)
+      const existingScript = document.querySelector('script[src*="recaptcha/api.js"]');
+      if (existingScript) {
+        const checkLoaded = setInterval(() => {
+          if (window.grecaptcha && window.grecaptcha.render) {
+            clearInterval(checkLoaded);
+            setRecaptchaLoaded(true);
+            setRecaptchaLoading(false);
+            resolve();
+          }
+        }, 100);
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = `https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit`;
+      script.async = true;
+      script.defer = true;
+      document.head.appendChild(script);
+    });
+  }, [recaptchaLoading]);
+
+  // Initialize reCAPTCHA widget
+  const initRecaptcha = useCallback(async () => {
+    if (recaptchaWidgetId.current !== null) return;
+
+    await loadRecaptchaScript();
+
+    // Wait for grecaptcha to be ready
+    if (window.grecaptcha && window.grecaptcha.render) {
+      const container = document.getElementById('header-recaptcha-container');
+      if (container && recaptchaWidgetId.current === null) {
+        recaptchaWidgetId.current = window.grecaptcha.render(container, {
+          sitekey: RECAPTCHA_SITE_KEY,
+          size: 'invisible',
+          badge: 'bottomleft',
+          callback: onReCAPTCHAChange
+        });
+      }
+    }
+  }, [loadRecaptchaScript]);
+
+  // Load reCAPTCHA when user interacts with form
+  const handleFormInteraction = useCallback(() => {
+    if (!recaptchaLoaded && !recaptchaLoading) {
+      initRecaptcha();
+    }
+  }, [recaptchaLoaded, recaptchaLoading, initRecaptcha]);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prevData => ({ ...prevData, [name]: value }));
   };
 
   const handleDirectSubmit = () => {
-    console.log('Direct submission fallback');
     const data = new FormData();
     data.append('Name', formData.name);
     data.append('Email', formData.email);
@@ -42,20 +123,12 @@ const HeaderForm = () => {
       mode: 'no-cors'
     })
       .then(() => {
-        console.log('Direct form submitted successfully');
-
         setStatus({
           submitted: true,
           submitting: false,
           info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
         });
-
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          message: ''
-        });
+        setFormData({ name: '', email: '', phone: '', message: '' });
       })
       .catch((error) => {
         console.error('Direct submission error:', error);
@@ -71,45 +144,23 @@ const HeaderForm = () => {
     e.preventDefault();
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
-    console.log('Form submission started');
+    if (window.grecaptcha && recaptchaWidgetId.current !== null) {
+      const recaptchaTimeout = setTimeout(() => handleDirectSubmit(), 5000);
 
-    const recaptchaTimeout = setTimeout(() => {
-      console.log('reCAPTCHA timeout, proceeding with direct submission');
-      handleDirectSubmit();
-    }, 3000);
-
-    if (recaptchaRef.current) {
-      console.log('Executing reCAPTCHA');
       try {
-        const executePromise = recaptchaRef.current.execute();
-        if (executePromise && executePromise.catch) {
-          executePromise.catch((error) => {
-            console.error('reCAPTCHA execution promise error:', error);
-            clearTimeout(recaptchaTimeout);
-            handleDirectSubmit();
-          });
-        }
+        window.grecaptcha.execute(recaptchaWidgetId.current);
       } catch (error) {
         console.error('reCAPTCHA execution error:', error);
         clearTimeout(recaptchaTimeout);
         handleDirectSubmit();
       }
     } else {
-      console.error('reCAPTCHA ref not found');
-      clearTimeout(recaptchaTimeout);
       handleDirectSubmit();
     }
   };
 
   const onReCAPTCHAChange = (token) => {
-    console.log('reCAPTCHA token received:', token ? 'Valid' : 'Invalid/Null');
-
-    if (window.recaptchaTimeout) {
-      clearTimeout(window.recaptchaTimeout);
-    }
-
-    if (!token || token === null) {
-      console.log('No reCAPTCHA token or null token, proceeding with direct submission');
+    if (!token) {
       handleDirectSubmit();
       return;
     }
@@ -127,35 +178,22 @@ const HeaderForm = () => {
     data.append('page_url', window.location.href);
     data.append('g-recaptcha-response', token);
 
-    console.log('Submitting form data to FormSubmit with reCAPTCHA');
-
-    fetch('https://formsubmit.co/info@fajservices.ae', { 
+    fetch('https://formsubmit.co/info@fajservices.ae', {
       method: 'POST',
       body: data,
       mode: 'no-cors'
     })
       .then(() => {
-        console.log('Form submitted successfully with reCAPTCHA');
-
         setStatus({
           submitted: true,
           submitting: false,
           info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
         });
+        setFormData({ name: '', email: '', phone: '', message: '' });
 
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          message: ''
-        });
-
-        if (recaptchaRef.current) {
-          try {
-            recaptchaRef.current.reset();
-          } catch (resetError) {
-            console.warn('reCAPTCHA reset error:', resetError);
-          }
+        // Reset reCAPTCHA
+        if (window.grecaptcha && recaptchaWidgetId.current !== null) {
+          window.grecaptcha.reset(recaptchaWidgetId.current);
         }
       })
       .catch((error) => {
@@ -183,7 +221,11 @@ const HeaderForm = () => {
       )}
 
       <div className="d-md-none p-3 p-sm-4 rounded" style={{ backgroundColor: "rgb(242 242 242)" }}>
-        <form onSubmit={handleSubmit}>
+        <form 
+          onSubmit={handleSubmit}
+          onFocus={handleFormInteraction}
+          onMouseEnter={handleFormInteraction}
+        >
           <div className="row align-items-center">
             <div className="col-12 col-md-6" style={{ marginTop: "0.1rem" }}>
               <div className="mb-2">
@@ -237,17 +279,7 @@ const HeaderForm = () => {
                   required
                 />
               </div>
-
-              {/* Invisible reCAPTCHA */}
-              <div className="col-12 d-flex justify-content-center">
-                <ReCAPTCHA
-                  ref={recaptchaRef}
-                  sitekey="6Lc3iU4rAAAAAA0jw06XlEnCQsXoc_vxT8piZLLX"
-                  size="invisible"
-                  badge="bottomleft"
-                  onChange={onReCAPTCHAChange}
-                />
-              </div>
+              <div id="header-recaptcha-container"></div>
             </div>
           </div>
 
@@ -265,10 +297,9 @@ const HeaderForm = () => {
             </div>
           </div>
         </form>
-
       </div>
     </>
-  )
-}
+  );
+};
 
-export default HeaderForm
+export default HeaderForm;

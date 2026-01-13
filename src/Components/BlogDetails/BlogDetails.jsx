@@ -1,6 +1,14 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+
 
 const CalendarIcon = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -229,12 +237,12 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 for (let i = 0; i < parts.length; i++) {
                   if (parts[i]) result.push(parts[i]);
                   if (i < parts.length - 1) {
-                    const isFullUrl = linkData.url.startsWith('http://') || linkData.url.startsWith('https://') || linkData.url.startsWith('www.');
+                    const isFullUrl = linkData.url.startsWith('https://') || linkData.url.startsWith('https://') || linkData.url.startsWith('www.');
                     const isAbsolutePath = linkData.url.startsWith('/');
                     
                     if (isFullUrl) {
                       let finalUrl = linkData.url;
-                      if (linkData.url.startsWith('http://')) {
+                      if (linkData.url.startsWith('https://')) {
                         finalUrl = linkData.url.replace('http://', 'https://');
                       } else if (linkData.url.startsWith('www.')) {
                         finalUrl = 'https://' + linkData.url;

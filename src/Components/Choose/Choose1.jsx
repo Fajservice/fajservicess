@@ -2,7 +2,8 @@ import { useEffect, useState, useRef, memo } from "react";
 import SectionTitle2 from "../Common/SectionTitle2";
 import { Link } from "react-router-dom";
 
-// Inline arrow SVG for forward button
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
 const ArrowForwardIcon = ({ size = 28, className = '' }) => (
   <svg
     width={size}
@@ -18,6 +19,12 @@ const ArrowForwardIcon = ({ size = 28, className = '' }) => (
     />
   </svg>
 );
+
+
+const getImageSrc = (imgPath) => {
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
   const [data, setData] = useState([]);
@@ -66,9 +73,10 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
           <div className="col-xl-4">
             <div className="cs_features_thumbnail_1 position-relative">
               <img
-                src={`${import.meta.env.BASE_URL}${img1}`}
+                src={getImageSrc(img1)}
                 alt="Feature"
                 loading="lazy"
+                decoding="async"
               />
             </div>
           </div>
@@ -89,15 +97,17 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
           <div className="col-xl-4">
             <div className="cs_features_thumbnail_2 position-relative">
               <img
-                src={`${import.meta.env.BASE_URL}${img2}`}
+                src={getImageSrc(img2)}
                 alt="Feature"
                 loading="lazy"
+                decoding="async"
               />
               <div className="cs_features_thumbnail_3">
                 <img
-                  src={`${import.meta.env.BASE_URL}${img3}`}
+                  src={getImageSrc(img3)}
                   alt="Feature"
                   loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
@@ -110,24 +120,30 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
   );
 };
 
-// Memoized item component
-const ChooseItem = memo(({ item }) => (
-  <div className="cs_iconbox cs_style_2">
-    <div className="cs_iconbox_icon cs_gray_bg cs_center cs_radius_50">
-      <img
-        src={`${import.meta.env.BASE_URL}${item.img}`}
-        alt={item.title}
-        loading="lazy"
-      />
-    </div>
-    <div className="cs_iconbox_info">
-      <h3 className="cs_iconbox_title cs_fs_18 cs_bold cs_mb_2">{item.title}</h3>
-      <p className="cs_iconbox_subtitle cs_fs_14 mb-0">{item.desc}</p>
-    </div>
-  </div>
-));
+const ChooseItem = memo(({ item }) => {
+  const imgSrc = item.img.startsWith('https')
+    ? item.img
+    : `${CDN}/${item.img}/public`;
 
-// Placeholder skeleton
+  return (
+    <div className="cs_iconbox cs_style_2">
+      <div className="cs_iconbox_icon cs_gray_bg cs_center cs_radius_50">
+        <img
+          src={imgSrc}
+          alt={item.title}
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div className="cs_iconbox_info">
+        <h3 className="cs_iconbox_title cs_fs_18 cs_bold cs_mb_2">{item.title}</h3>
+        <p className="cs_iconbox_subtitle cs_fs_14 mb-0">{item.desc}</p>
+      </div>
+    </div>
+  );
+});
+
+
 const ChoosePlaceholder = () => (
   <>
     {[1, 2, 3].map((i) => (

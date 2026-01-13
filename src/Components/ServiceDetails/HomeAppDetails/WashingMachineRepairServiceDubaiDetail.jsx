@@ -8,7 +8,6 @@ const BrandsSliderSection = lazy(() => import("../../BrandsSliderSection"));
 const Testimonial1 = lazy(() => import("../../Testimonial/Testimonial1"));
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
-import BookingFormModal from '../../BookingFormModal';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
@@ -28,7 +27,6 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
   );
 };
 
-// Lazy YouTube Component
 const LazyYouTube = ({ videoId, title }) => {
   const [load, setLoad] = useState(false);
 
