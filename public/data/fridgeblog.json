@@ -4,7 +4,7 @@
         "metatitle": "Locate Reliable Refrigerator Repair Near Me with Ease",
         "metadesc": "Looking for refrigerator repair near you? Our expert technicians can provide swift solutions for fast, reliable fridge fixes. Book your service now!",
         "shortdesc": "In today's fast-paced world, the significance of swift refrigerator repairs cannot be overstated. homeowners and businesses alike rely on the seamless functioning of",
-        "img": "/img/blogs/Refrigerator-Repair-Near-Me.avif",
+        "img": "blogs/Refrigerator-Repair-Near-Me",
         "slug": "swift-solutions-refrigerator-repair-near-me-for-quick-fixes",
         "blogcat": "Appliances services",
         "date": "2 Mar",
@@ -90,7 +90,7 @@
         "metatitle": "What is Refrigerator Inverter Technology? Benefits & Guide",
         "metadesc": "Learn how refrigerator inverter technology improves energy efficiency, reduces noise, and enhances performance with key benefits and features in our guide.",
         "shortdesc": "Today, being energy-efficient and using advanced technology are really important for our home appliances, especially refrigerators. One big improvement is inverter techno",
-        "img": "/img/blogs/What-is-Refrigerator-Inverter-Technology.avif",
+        "img": "blogs/What-is-Refrigerator-Inverter-Technology",
         "slug": "refrigerator-inverter-technology",
         "blogcat": "Appliances services",
         "date": "13 Sept",
@@ -102,7 +102,7 @@
             "But what is inverter technology, and how is it different from older refrigerator systems? In this blog, we will explain what inverter technology is, how it works, and why it could be a great upgrade for your home."
         ],
         "sec_two_h2": "How Does a Refrigerator Work?",
-        "sec_two_img": "/img/blogs/How-Does-a-Refrigerator-Work.avif",
+        "sec_two_img": "blogs/How-Does-a-Refrigerator-Work",
         "sec_two_h2_p": [
             "To understand the inverter technology in refrigerators, it is necessary to know how a refrigerator works. The refrigerator keeps things cool by using a compressor. The compressor, powered by a motor, compresses a gas called 'refrigerant'.",
             "This gas absorbs the heat from inside the fridge. After that, the gas moves through special coils called evaporator coils, where it releases the absorbed heat and cools the air inside the fridge."
@@ -115,7 +115,7 @@
             "With inverter technology, the compressor adjusts its speed to maintain a more consistent temperature to provide the required cooling. This helps keep the temperature steady and uses energy more efficiently."
         ],
         "sec_five_h2": "What is Inverter Technology in Refrigerators?",
-        "sec_five_img": "/img/blogs/Inverter-Technology-in-Refrigerators.avif",
+        "sec_five_img": "blogs/Inverter-Technology-in-Refrigerators",
         "sec_five_h2_p": [
             "Inverter technology changes how the compressor works. Instead of always running at the same speed, an inverter compressor can change its speed depending on how much cooling is needed.",
             "This means it can slow down when the fridge is cool enough and speed up when it needs more cooling. This ability to adjust its speed helps the refrigerator save energy and keep things at a steady temperature.",
@@ -134,7 +134,7 @@
             "Since the compressor isn’t always running at full speed, it wears out less quickly. This means the refrigerator lasts longer and gives you better value over time."
         ],
         "sec_seven_h2": "Comparing Inverter Refrigerators to Non-Inverter Models",
-        "sec_seven_img": "/img/blogs/Inverter-Refrigerators-to-Non-Inverter-Models.avif",
+        "sec_seven_img": "blogs/Inverter-Refrigerators-to-Non-Inverter-Models",
         "sec_seven_h2_p": [
             "When you compare inverter refrigerators to non-inverter ones, here are a few things to think about:",
             "<b>Efficiency</b>",
@@ -149,7 +149,7 @@
             "Inverter refrigerators last longer because their compressor doesn’t wear out as quickly, thanks to less frequent starting and stopping."
         ],
         "sec_eight_h2": "Key Features to Look for in an Inverter Refrigerator",
-        "sec_eight_img": "/img/blogs/Key-Features-to-Look-in-an-Inverter-Refrigerator.avif",
+        "sec_eight_img": "blogs/Key-Features-to-Look-in-an-Inverter-Refrigerator",
         "sec_eight_h2_p": [
             "When you’re looking for an inverter refrigerator, here are some important features to consider:",
             "<b>Energy Star Ratings</b>",

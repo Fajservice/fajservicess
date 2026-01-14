@@ -31,7 +31,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -411,7 +411,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -422,7 +422,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -436,14 +436,14 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
 
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -452,7 +452,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -463,7 +463,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -477,7 +477,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+              <img className="blue-border-2 w-100"src={getImageSrc('icon/ACServicescomponent')} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>
@@ -574,7 +574,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
         <Testimonial1
           subtitle="What Our Clients Say"
           title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
+          bgImg={reviewsbg}
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />

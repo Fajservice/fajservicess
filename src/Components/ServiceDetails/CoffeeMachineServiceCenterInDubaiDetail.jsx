@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import BookingFormModal from '../BookingFormModal';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
@@ -11,19 +10,19 @@ import HeaderForm from "../Headeform/HeaderForm";
 import Testimonial1 from "../Testimonial/Testimonial1";
 import BrandsSliderSection from "../BrandsSliderSection";
 import BeforeAfter from "../BeforeAfter/BeforeAfter";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const ArrowTopRightIcon = () => (
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <path d="M7 17L17 7M17 7H7M17 7V17"/>
-  </svg>
-);
-
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   const metatitle = String(titleSeo || "Coffee Machine Service Center in Dubai & Repair & Maintenance");
   const metadescription = String(description || "Best FAJ Coffee machine service center in Dubai. Call us for home / office espresso machine, restaurant, coffee maker repair and maintenance near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Coffee Machine Repair, Coffee Machine Service, Coffee Machine Descaling, Coffee Machine Service Center");
-  const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-service-center-in-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-service-center-in-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/Coffee-machine-servicing-title-image.avif");
 
   subtitle = "Testimonial"
@@ -156,7 +155,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
               <div className="col-md-6 ">
 
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Coffee-machine-servicing-title-image.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={getImageSrc('Coffee-machine-servicing-title-image')} alt="Post Image" />
 
               </div>
             </div>
@@ -192,7 +191,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/coffee-machine-service.avif`} alt="Post Image" />
+                <img className="blue-border" src={getImageSrc('coffee-machine-service')} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -378,7 +377,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -389,7 +388,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
@@ -402,7 +401,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                       <p className="small">Energy efficient coffee machines translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -414,7 +413,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -426,7 +425,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Coffee Machine Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your coffee machines, delaying the need for replacements.</p>
@@ -440,7 +439,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h3>
@@ -461,7 +460,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -472,7 +471,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -483,7 +482,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -494,13 +493,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               </div>
 
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/Coffee-Machine-Repair-&-Maintenance.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent')} alt="FAJ icon service" />
               </div>
 
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -509,7 +508,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -519,7 +518,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -529,12 +528,12 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               </div>
 
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/Coffee-Machine-Repair-&-Maintenance.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('Coffee-Machine-Repair-&-Maintenance')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
         </section>
-        
+
         <section className="section cs_py_30 bg-light-gray custom-css-box">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Coffee MAchine REPAIR SERVICE</h3>
@@ -1095,30 +1094,30 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
         <BeforeAfter
-            title="Recent Completed Repair & Service"
-            subTitle="Before & after"
-            bgImg="img/background-image-2.avif"
-            beforeImg="img/coffee-machine-before-image.avif"
-            afterTitle="After"
-            afterImg="img/coffee-machine-after-image.avif"
-            beforeTitle="Before"
-          />
+          title="Recent Completed Repair & Service"
+          subTitle="Before & after"
+          bgImg={`${CDN}/background-image-2/public`}
+          beforeImg={`${CDN}/coffee-machine-before-image/public`}
+          afterTitle="After"
+          afterImg={`${CDN}/coffee-machine-after-image/public`}
+          beforeTitle="Before"
+        />
 
         <section className="section cs_py_30 gallery-section bg-light-gray">
-        <div className="container">
-          <h3 className="mb-4 text-center">Gallery</h3>
+          <div className="container">
+            <h3 className="mb-4 text-center">Gallery</h3>
             <div className="row g-4">
-    
+
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/CoffeeMachinesImages/coffee-machines-repair-1.avif"
+                  src={getImageSrc('CoffeeMachinesImages/coffee-machines-repair-1')}
                   className="img-fluid rounded shadow mb-4"
                   alt="Coffee Machine Repair in Dubai"
                   loading="lazy"
                 />
 
                 <img
-                  src="/img/CoffeeMachinesImages/coffee-machine-repair-gallery.avif"
+                  src={getImageSrc('CoffeeMachinesImages/coffee-machine-repair-gallery')}
                   className="img-fluid rounded shadow"
                   alt="Coffee Machine Repair"
                   loading="lazy"
@@ -1127,14 +1126,14 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/CoffeeMachinesImages/coffee-machine-repair-service-gallery.avif"
+                  src={getImageSrc('CoffeeMachinesImages/coffee-machine-repair-service-gallery')}
                   className="img-fluid rounded shadow mb-4"
                   alt="Coffee Machine Repair Service"
                   loading="lazy"
                 />
 
                 <img
-                  src="/img/CoffeeMachinesImages/coffee-machines-repair-7.avif"
+                  src={getImageSrc('CoffeeMachinesImages/coffee-machines-repair-7')}
                   className="img-fluid rounded shadow"
                   alt="Commercial Coffee Machine Service"
                   loading="lazy"
@@ -1143,26 +1142,29 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/CoffeeMachinesImages/coffee-machines-repair-8.avif"
+                  src={getImageSrc('CoffeeMachinesImages/coffee-machines-repair-8')}
                   className="img-fluid rounded shadow mb-4"
                   alt="Espresso Machine Maintenance"
                   loading="lazy"
                 />
 
                 <img
-                  src="/img/CoffeeMachinesImages/coffee-machine-repairs-service.avif"
+                  src={getImageSrc('CoffeeMachinesImages/coffee-machine-repairs-service')}
                   className="img-fluid rounded shadow"
                   alt="Coffee Machine Repairs Service"
                   loading="lazy"
                 />
               </div>
             </div>
-        </div>
+          </div>
         </section>
 
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
-            brandsData={brandsLogo_data}
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
             sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
@@ -1176,7 +1178,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
+            bgImg={`${CDN}/testimonialbg/public`}
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />

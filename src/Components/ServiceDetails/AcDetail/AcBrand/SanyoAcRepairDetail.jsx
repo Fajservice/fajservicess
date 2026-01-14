@@ -12,7 +12,13 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
@@ -25,7 +31,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -179,7 +185,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               </div>
 
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Sanyo Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Sanyo Ac Repair" />
 
               </div>
             </div>
@@ -200,7 +206,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <div className="row align-items-center">
 
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/fujitsu-ac-service.avif`} alt="Sanyo Ac Repair" />
+                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Sanyo Ac Repair" />
               </div>
 
               <div className="col-md-6">
@@ -358,7 +364,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                        <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
                       <p className="small">We conduct a thorough evaluation of cooling efficiency using a temperature gun.</p>
@@ -368,7 +374,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                        <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                       <p className="small">All hardware components have been tested and disinfected, including filters and vents.</p>
@@ -378,7 +384,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                        <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">We make sure fan operates properly and there are no blockages in evaporator coil.</p>
@@ -388,7 +394,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                        <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature gauge to verify that the thermostats are operating correctly.</p>
@@ -398,7 +404,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                        <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
                       <p className="small">We make sure that each room receives the optimal airflow it needs.</p>
@@ -408,7 +414,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                        <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">Our team provides vital feedback on your Sanyo AC's health and any needed repairs.</p>

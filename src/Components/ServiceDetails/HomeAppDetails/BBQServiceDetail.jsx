@@ -6,14 +6,19 @@ import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-import BookingFormModal from '../../BookingFormModal';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BeforeAfter from "../../BeforeAfter/BeforeAfter";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
@@ -21,7 +26,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metadescription = String(description || "Get Barbeque Repair in Dubai. Book now for your BBQ grill cleaning, built in gas grill burner, oven & electric BBQ deep service & maintenance near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/Barbeque-Repair.jpg");
 
   subtitle = "Testimonial"
@@ -92,70 +97,6 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
 
   return (
     <>
@@ -214,7 +155,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Barbeque-Repair.jpg`} alt="BBQ Repair Service" />
+                <img className="bordered-img w-100" src={getImageSrc('Barbeque-Repair')} alt="BBQ Repair Service" />
 
               </div>
             </div>
@@ -230,7 +171,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <p>Grilling is more than just cooking; it&apos;s a lifestyle. To fully enjoy barbecued delights, proper grill maintenance is essential, as a well-kept grill is key to a perfect barbecue.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/bbq-repair-service.avif`} alt="BBQ Repair Service" />
+                <img className="blue-border" src={getImageSrc('bbq-repair-service')} alt="BBQ Repair Service" />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -420,7 +361,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -431,7 +372,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -442,7 +383,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -454,14 +395,14 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -470,7 +411,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -480,7 +421,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -491,7 +432,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -545,13 +486,13 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/bbq-repair.avif"
+                  src={getImageSrc('bbq-repair')}
                   className="img-fluid rounded shadow mb-4"
                   alt="BBQ Grill Repair Service Dubai"
                 />
 
                 <img
-                  src="/img/bbq-repairs-service.avif"
+                  src={getImageSrc('bbq-repairs-service')}
                   className="img-fluid rounded shadow"
                   alt="BBQ Grill Cleaning Service Dubai"
                 />
@@ -559,13 +500,13 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/bbq-repairs.avif"
+                  src={getImageSrc('bbq-repairs')}
                   className="img-fluid rounded shadow mb-4"
                   alt="BBQ Grill Service"
                 />
 
                 <img
-                  src="/img/bbq-repair-service.avif"
+                  src={getImageSrc('bbq-repair-service')}
                   className="img-fluid rounded shadow"
                   alt="BBQ Grill Repair"
                 />
@@ -573,13 +514,13 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/BBQ-Repair-Services.avif"
+                  src={getImageSrc('BBQ-Repair-Services')}
                   className="img-fluid rounded shadow mb-4"
                   alt="BBQ Grill Repair Service"
                 />
 
                 <img
-                  src="/img/bbq-repairs-services.avif"
+                  src={getImageSrc('bbq-repairs-services')}
                   className="img-fluid rounded shadow"
                   alt="BBQ Grill Cleaning Service"
                 />
@@ -588,15 +529,29 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           </div>
         </section>
 
+         {!isLoading && brandsLogo_data.length > 0 && (
+          <BrandsSliderSection
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
+            sectionId="home-brands"
+            logoMaxHeight="60px"
+            logoMaxWidth="120px"
+            containerHeight="100px"
+          />
+        )}
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
+
         <BeforeAfter
           title="Recent Completed Projects"
           subTitle="Before & after"
-          bgImg="img/background-image-2.avif"
-          beforeImg="img/bbqafter_img.avif"
+          bgImg={`${CDN}/background-image-2/public`}
+          beforeImg={`${CDN}/bbqafter_img/public`}
           afterTitle="After"
-          afterImg="img/bbqbefore_img.avif"
+          afterImg={`${CDN}/bbqbefore_img/public`}
           beforeTitle="Before"
         />
         {/* testimobial section */}

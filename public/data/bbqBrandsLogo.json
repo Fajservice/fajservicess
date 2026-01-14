@@ -1,30 +1,30 @@
 [
     {
-        "logo": "/img/brandslogo/bbqbrands/beefeater.avif"
+        "logo": "brandslogo/bbqbrands/beefeater"
     },
     {
-        "logo": "/img/brandslogo/bbqbrands/broil-king.avif"
+        "logo": "brandslogo/bbqbrands/broil-king"
     },
     {
-        "logo": "/img/brandslogo/bbqbrands/calflame.avif"
+        "logo": "brandslogo/bbqbrands/calflame"
     },
     {
-        "logo": "/img/brandslogo/bbqbrands/Fontana.avif"
+        "logo": "brandslogo/bbqbrands/Fontana"
     },
     {
-        "logo": "/img/brandslogo/bbqbrands/teka.avif"
+        "logo": "brandslogo/bbqbrands/teka"
     },
     {
-        "logo": "/img/brandslogo/bbqbrands/traeger.avif"
+        "logo": "brandslogo/bbqbrands/traeger"
     },
     {
-        "logo": "/img/brandslogo/bbqbrands/tramontina.avif"
+        "logo": "brandslogo/bbqbrands/tramontina"
     },
     {
-        "logo": "/img/brandslogo/bbqbrands/weber.avif"
+        "logo": "brandslogo/bbqbrands/weber"
     },
     {
-        "logo": "/img/brandslogo/bbqbrands/wolf.avif"
+        "logo": "brandslogo/bbqbrands/wolf"
     }
     
 ]

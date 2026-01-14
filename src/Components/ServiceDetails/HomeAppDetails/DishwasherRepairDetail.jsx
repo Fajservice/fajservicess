@@ -11,7 +11,13 @@ import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -24,199 +30,73 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
 
   const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(0); // Default to first item open
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  // State for fetched data
-  const [faqsData, setFaqsData] = useState([]);
-  const [testimonialData, setTestimonialData] = useState([]);
-  const [brandsLogoData, setBrandsLogoData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-
-  const handleItemClick = (index) => {
-    setOpenItemIndex(index === openItemIndex ? -1 : index);
-  };
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
-
-  // Fetch JSON data
-  useEffect(() => {
-    const fetchData = async () => {
-      setIsLoading(true);
-      setError(null);
-
-      try {
-        const baseURL = import.meta.env.BASE_URL || '/';
-        
-        // Construct URLs properly
-        const faqsURL = `${baseURL}data/HomeAppData/FAQs/DishwasherRepairFaqs.json`;
-        const testimonialsURL = `${baseURL}data/HomeAppData/Testmonials/DishwasherRepairTestimonial.json`;
-        const brandsURL = `${baseURL}data/AppliancesBrandsLogo.json`;
-
-        console.log('Fetching FAQs from:', faqsURL);
-        console.log('Fetching Testimonials from:', testimonialsURL);
-        console.log('Fetching Brands from:', brandsURL);
-
-        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-          fetch(faqsURL),
-          fetch(testimonialsURL),
-          fetch(brandsURL)
-        ]);
-
-        // Check response status
-        if (!faqsResponse.ok) {
-          console.error('FAQs fetch failed:', faqsResponse.status, faqsResponse.statusText);
-          throw new Error(`FAQs fetch failed: ${faqsResponse.status}`);
-        }
-        if (!testimonialsResponse.ok) {
-          console.error('Testimonials fetch failed:', testimonialsResponse.status);
-        }
-        if (!brandsResponse.ok) {
-          console.error('Brands fetch failed:', brandsResponse.status);
-        }
-
-        // Parse JSON
-        const faqs = await faqsResponse.json();
-        console.log('FAQs Data loaded:', faqs);
-
-        let testimonials = [];
-        let brands = [];
-
-        try {
-          testimonials = await testimonialsResponse.json();
-          console.log('Testimonials Data loaded:', testimonials);
-        } catch (e) {
-          console.error('Error parsing testimonials:', e);
-        }
-
-        try {
-          brands = await brandsResponse.json();
-          console.log('Brands Data loaded:', brands);
-        } catch (e) {
-          console.error('Error parsing brands:', e);
-        }
-
-        // Validate FAQs data structure
-        if (Array.isArray(faqs)) {
-          setFaqsData(faqs);
-        } else if (faqs && Array.isArray(faqs.data)) {
-          // If data is wrapped in an object
-          setFaqsData(faqs.data);
-        } else if (faqs && Array.isArray(faqs.faqs)) {
-          // If data is in faqs property
-          setFaqsData(faqs.faqs);
-        } else {
-          console.error('FAQs data is not in expected format:', faqs);
-          setFaqsData([]);
-        }
-
-        // Set other data
-        if (Array.isArray(testimonials)) {
-          setTestimonialData(testimonials);
-        } else if (testimonials && Array.isArray(testimonials.data)) {
-          setTestimonialData(testimonials.data);
-        } else {
-          setTestimonialData([]);
-        }
-
-        if (Array.isArray(brands)) {
-          setBrandsLogoData(brands);
-        } else if (brands && Array.isArray(brands.data)) {
-          setBrandsLogoData(brands.data);
-        } else {
-          setBrandsLogoData([]);
-        }
-
-      } catch (error) {
-        console.error('Error fetching data:', error);
-        setError(error.message);
-      } finally {
-        setIsLoading(false);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+  
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+  
+    const openModal = useCallback((e) => {
+      e.preventDefault();
+      setIsModalOpen(true);
+      document.body.style.overflow = 'hidden';
+    }, []);
+  
+    const closeModal = useCallback(() => {
+      setIsModalOpen(false);
+      document.body.style.overflow = 'auto';
+    }, []);
+    const handleItemClick = index => {
+      if (index === openItemIndex) {
+        setOpenItemIndex(-1);
+      } else {
+        setOpenItemIndex(index);
       }
     };
-
-    fetchData();
-  }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
+    useEffect(() => {
+      if (firstItemOpen) {
+        setOpenItemIndex(0);
+        setFirstItemOpen(false);
       }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
+    }, [firstItemOpen]);
+  
+    useEffect(() => {
+      loadBackgroudImages();
+    }, []);
+  
+    // Fetch JSON data
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/DishwasherRepairFaqs.json`),
+            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/DishwasherRepairTestimonial.json`),
+            fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+          ]);
+  
+          const faqsData = await faqsResponse.json();
+          const testimonialsData = await testimonialsResponse.json();
+          const brandsData = await brandsResponse.json();
+  
+          setData(faqsData);
+          setTestimonialData(testimonialsData);
+          setBrandsLogoData(brandsData);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } finally {
+          setIsLoading(false);
         }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
+      };
+  
+      fetchData();
+    }, []);
 
   return (
     <>
@@ -279,7 +159,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher-repair.avif`} alt="Dishwasher Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('dishwasher-repair')} alt="Dishwasher Repair" />
               </div>
             </div>
 
@@ -296,7 +176,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="Dishwasher Repair" />
+                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')} alt="Dishwasher Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -468,7 +348,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Ensuring-Safety" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -479,7 +359,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Optimal-Performance" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
@@ -492,7 +372,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Lower-Energy-Bills" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                       <p className="small">Energy efficient dishwasher translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -504,7 +384,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Saving-Money-on-Repair" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -515,7 +395,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} alt="extending" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending dishwasher Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your dishwasher, delaying the need for replacements.</p>
@@ -524,10 +404,10 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Peace-of-Mind" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h3>
@@ -550,7 +430,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast,Reliable Service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
@@ -560,7 +440,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -570,7 +450,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -581,14 +461,14 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="value" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -597,7 +477,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="confidence-guarantee" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
@@ -606,7 +486,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon servicetrustworthy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -617,7 +497,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -745,9 +625,12 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         </section>
 
         {/* Brands section */}
-        {!isLoading && brandsLogoData.length > 0 && (
+        {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
-            brandsData={brandsLogoData}
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
             sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
@@ -759,99 +642,69 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         <MaintenanceContract />
 
         {/* Testimonial section */}
-        {!isLoading && testimonialData.length > 0 && (
+        {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
-            testimonialData={testimonialData}
+            bgImg={reviewsbg}
+            testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />
         )}
 
         {/* FAQs Section - FIXED */}
-        <section className="section cs_py_30 bg-dark-blue text-light">
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
-              {isLoading ? (
-                <div className="text-center py-4">
-                  <p className="text-light">Loading FAQs...</p>
-                </div>
-              ) : error ? (
-                <div className="text-center py-4">
-                  <p className="text-warning">Error loading FAQs: {error}</p>
-                  <p className="text-light small">Please check if the JSON file exists at: public/data/HomeAppData/FAQs/DishwasherRepairFaqs.json</p>
-                </div>
-              ) : faqsData.length === 0 ? (
-                <div className="text-center py-4">
-                  <p className="text-light">No FAQs available at this time.</p>
-                </div>
-              ) : (
-                faqsData.map((item, index) => (
-                  <div
-                    key={index}
-                    className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}
-                  >
-                    <div
-                      className="cs_accordian_head"
-                      onClick={() => handleItemClick(index)}
-                      style={{ cursor: 'pointer' }}
-                    >
-                      <span className="cs_fs_16 text-light cs_semibold mb-0">
-                        {item.title}
-                      </span>
-                      <span className="cs_accordian_toggle">
-                        <svg
-                          width="20"
-                          height="20"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                        >
-                          <circle cx="12" cy="12" r="3" />
-                          <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
-                        </svg>
 
-                        <svg
-                          width="20"
-                          height="20"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                        >
-                          <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
-                          <line x1="1" y1="1" x2="23" y2="23" />
-                          <circle cx="12" cy="12" r="3" />
-                        </svg>
-                      </span>
-                    </div>
-                    <div
-                      className="cs_accordian_body"
-                      ref={accordionContentRef}
-                      style={{
-                        maxHeight: index === openItemIndex ? '1000px' : '0',
-                        overflow: 'hidden',
-                        transition: 'max-height 0.3s ease-in-out'
-                      }}
-                    >
-                      <p
-                        className="mb-0"
-                        dangerouslySetInnerHTML={{ __html: item.desc ? item.desc.replace(/\n/g, '<br>') : '' }}
-                      ></p>
-                    </div>
+              {data.map((item, index) => (
+                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                    <span className="cs_accordian_toggle">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <circle cx="12" cy="12" r="3" />
+                        <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
+                      </svg>
+
+                      {/* Eye Slash */}
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                      >
+                        <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
+                        <line x1="1" y1="1" x2="23" y2="23" />
+                        <circle cx="12" cy="12" r="3" />
+                      </svg>
+                    </span>
                   </div>
-                ))
-              )}
+                  <div className="cs_accordian_body" ref={accordionContentRef}>
+                    <p className="mb-0"
+                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                    ></p>
+                  </div>
+                </div>
+              ))}
+
             </div>
           </div>
         </section>

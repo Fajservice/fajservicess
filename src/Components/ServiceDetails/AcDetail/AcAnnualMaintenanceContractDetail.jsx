@@ -16,7 +16,13 @@ import Practicaltip from "../../Common/Practicaltip";
 import AcProperties from "../../Common/AcProperties";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BeforeAfter from "../../BeforeAfter/BeforeAfter";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const EyeIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
     <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
@@ -235,7 +241,7 @@ const AcAnnualMaintenanceContractDetail = ({
               <div className="col-md-6">
                 <img
                   className="bordered-img w-100"
-                  src={`${import.meta.env.BASE_URL}img/Select-Air-Conditioner-Repair-&-Service.avif`}
+                  src={getImageSrc('Select-Air-Conditioner-Repair-&-Service')}
                   alt="Annual AC Maintenance"
                   loading="lazy"
                 />
@@ -273,7 +279,7 @@ const AcAnnualMaintenanceContractDetail = ({
               <div className="col-md-6">
                 <img
                   className="blue-border"
-                  src={`${import.meta.env.BASE_URL}img/Peace-of-Mind-with-Annual-Maintenance-Contracts.avif`}
+                  src={getImageSrc('Peace-of-Mind-with-Annual-Maintenance-Contracts')}
                   alt="Annual Maintenance Contracts with peace of mind"
                   loading="lazy"
                 />
@@ -340,7 +346,7 @@ const AcAnnualMaintenanceContractDetail = ({
               <div className="col-xl-6">
                 <img
                   className="bordered-img w-100"
-                  src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`}
+                  src={getImageSrc('ac-repair-2')}
                   alt="Air conn maintenance"
                   loading="lazy"
                 />
@@ -388,7 +394,7 @@ const AcAnnualMaintenanceContractDetail = ({
               <div className="col-md-6 text-center text-md-end">
                 <img
                   className="blue-border"
-                  src={`${import.meta.env.BASE_URL}img/The-Importance-of-AC-Maintenance-Contract-Service.avif`}
+                  src={getImageSrc('The-Importance-of-AC-Maintenance-Contract-Service')}
                   alt="Ac Service and maintenance contract"
                   loading="lazy"
                 />
@@ -400,10 +406,10 @@ const AcAnnualMaintenanceContractDetail = ({
         <BeforeAfter
           title="Recent Completed Service"
           subTitle="Before & After Service"
-          bgImg="img/background-image-2.avif"
-          beforeImg="img/after_img_1.avif"
+          bgImg={`${CDN}/background-image-2/public`}
+          beforeImg={`${CDN}/after_img_1/public`}
           afterTitle="After"
-          afterImg="img/before_img_1.avif"
+          afterImg={`${CDN}/after_img_1/public`}
           beforeTitle="Before"
         />
 
@@ -516,7 +522,7 @@ const AcAnnualMaintenanceContractDetail = ({
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
+            bgImg={`${CDN}/testimonialbg/public`}
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />
