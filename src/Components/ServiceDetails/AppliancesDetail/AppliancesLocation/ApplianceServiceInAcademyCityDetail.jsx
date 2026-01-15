@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -512,10 +512,13 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                 {/* We are specialise in Appliances services for the following brands */}
                 <ApplianceSpecialise />
 
-                {/* Brands section */}
+                 {/* Brands section */}
                 {!isLoading && brandsLogo_data.length > 0 && (
                     <BrandsSliderSection
-                        brandsData={brandsLogo_data}
+                        brandsData={brandsLogo_data.map(item => ({
+                            ...item,
+                            logo: getImageSrc(item.logo)
+                        }))}
                         sectionId="home-brands"
                         logoMaxHeight="60px"
                         logoMaxWidth="120px"

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -512,13 +512,19 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
                 <ApplianceSpecialise />
 
                 {/* Brands section */}
-                <BrandsSliderSection
-                                brandsData={brandsLogo_data}
-                                sectionId="home-brands"
-                                logoMaxHeight="60px"
-                                logoMaxWidth="120px"
-                                containerHeight="100px"
-                              />
+                
+                {!isLoading && brandsLogo_data.length > 0 && (
+                    <BrandsSliderSection
+                        brandsData={brandsLogo_data.map(item => ({
+                            ...item,
+                            logo: getImageSrc(item.logo)
+                        }))}
+                        sectionId="home-brands"
+                        logoMaxHeight="60px"
+                        logoMaxWidth="120px"
+                        containerHeight="100px"
+                    />
+                )}
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
