@@ -509,13 +509,19 @@ const WashingMachineRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleS
         <ApplianceSpecialise />
 
         {/* Brands section */}
-                <BrandsSliderSection
-                        brandsData={brandsLogo_data}
+                
+                {!isLoading && brandsLogo_data.length > 0 && (
+                    <BrandsSliderSection
+                        brandsData={brandsLogo_data.map(item => ({
+                            ...item,
+                            logo: getImageSrc(item.logo)
+                        }))}
                         sectionId="home-brands"
                         logoMaxHeight="60px"
                         logoMaxWidth="120px"
                         containerHeight="100px"
-                      />
+                    />
+                )}
 
 
         {/* Maintenance Contract */}

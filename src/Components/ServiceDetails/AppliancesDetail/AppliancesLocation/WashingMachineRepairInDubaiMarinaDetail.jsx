@@ -509,13 +509,19 @@ const WashingMachineRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, t
         <ApplianceSpecialise />
 
         {/* Brands section */}
-        <BrandsSliderSection
-                brandsData={brandsLogo_data}
-                sectionId="home-brands"
-                logoMaxHeight="60px"
-                logoMaxWidth="120px"
-                containerHeight="100px"
-              />
+        
+                {!isLoading && brandsLogo_data.length > 0 && (
+                    <BrandsSliderSection
+                        brandsData={brandsLogo_data.map(item => ({
+                            ...item,
+                            logo: getImageSrc(item.logo)
+                        }))}
+                        sectionId="home-brands"
+                        logoMaxHeight="60px"
+                        logoMaxWidth="120px"
+                        containerHeight="100px"
+                    />
+                )}
 
 
         {/* Maintenance Contract */}
