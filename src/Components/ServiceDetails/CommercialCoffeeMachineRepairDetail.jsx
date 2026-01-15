@@ -9,15 +9,21 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 import Testimonial1 from "../Testimonial/Testimonial1";
 import BrandsSliderSection from "../BrandsSliderSection";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const EyeIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
   </svg>
 );
 const EyeSlashIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-    <path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z"/>
+    <path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z" />
   </svg>
 );
 const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -68,7 +74,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
   useEffect(() => {
     loadBackgroudImages();
   }, []);
-  
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -192,7 +198,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={getImageSrc('What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai')} alt="Post Image" />
 
               </div>
             </div>
@@ -230,7 +236,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/coffee-machine-service.avif`} alt="Post Image" />
+                <img className="blue-border" src={getImageSrc('coffee-machine-service')} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -429,7 +435,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -440,7 +446,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
@@ -453,7 +459,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
                       <p className="small">Energy efficient coffee machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -465,7 +471,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -477,7 +483,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Coffee Machines Lifespan</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your coffee machine, delaying the need for replacements.</p>
@@ -491,7 +497,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
@@ -514,7 +520,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -525,7 +531,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -536,7 +542,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -548,14 +554,14 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/Coffee-Machine-Repair-&-Maintenance.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('Coffee-Machine-Repair-&-Maintenance')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -564,7 +570,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -574,7 +580,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -585,7 +591,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="blue-border-2" src={`${import.meta.env.BASE_URL}img/Coffee-Machine-Repair-&-Maintenance.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2" src={getImageSrc('Coffee-Machine-Repair-&-Maintenance')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -1139,19 +1145,19 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
         </section>
         {/* Gallery */}
         <section className="section cs_py_30 gallery-section">
-        <div className="container">
-          <h3 className="mb-4 text-center">Gallery</h3>
+          <div className="container">
+            <h3 className="mb-4 text-center">Gallery</h3>
             <div className="row g-4">
-    
+
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/CoffeeMachinesImages/commercial-coffee-machine-repairs.avif"
+                  src={getImageSrc('CoffeeMachinesImages/commercial-coffee-machine-repairs')}
                   className="img-fluid rounded shadow mb-4"
                   alt="Coffee Machine Repair in Dubai"
                 />
 
                 <img
-                  src="/img/CoffeeMachinesImages/coffee-machine-repair-gallery.avif"
+                  src={getImageSrc('CoffeeMachinesImages/coffee-machine-repair-gallery')}
                   className="img-fluid rounded shadow"
                   alt="Coffee Machine Repair"
                 />
@@ -1159,13 +1165,13 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/CoffeeMachinesImages/commercial-coffee-machine-repair-service.avif"
+                  src={getImageSrc('CoffeeMachinesImages/commercial-coffee-machine-repair-service')}
                   className="img-fluid rounded shadow mb-4"
                   alt="Coffee Machine Repair Service"
                 />
 
                 <img
-                  src="/img/CoffeeMachinesImages/commercial-coffee-machine-repairs-service.avif"
+                  src={getImageSrc('CoffeeMachinesImages/commercial-coffee-machine-repairs-service')}
                   className="img-fluid rounded shadow"
                   alt="Commercial Coffee Machine Service"
                 />
@@ -1173,25 +1179,28 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/CoffeeMachinesImages/commercial-coffee-machines-repairs.avif"
+                  src={getImageSrc('CoffeeMachinesImages/commercial-coffee-machines-repairs')}
                   className="img-fluid rounded shadow mb-4"
                   alt="Espresso Machine Maintenance"
                 />
 
                 <img
-                  src="/img/CoffeeMachinesImages/coffee-machine-repairs-service.avif"
+                  src={getImageSrc('CoffeeMachinesImages/coffee-machine-repairs-service')}
                   className="img-fluid rounded shadow"
                   alt="Coffee Machine Repairs Service"
                 />
               </div>
             </div>
-        </div>
+          </div>
         </section>
-        {/* Gallery */}
         {/* Brands section */}
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
-            brandsData={brandsLogo_data}
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
+            sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
             containerHeight="100px"

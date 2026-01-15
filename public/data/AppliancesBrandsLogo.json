@@ -1,153 +1,153 @@
 [
     {
-        "logo": "/img/brandslogo/Admiral.avif"
+        "logo": "brandslogo/Admiral"
     },
     {
-        "logo": "/img/brandslogo/AEG.avif"
+        "logo": "brandslogo/AEG"
     },
     {
-        "logo": "/img/brandslogo/AFTRON.avif"
+        "logo": "brandslogo/AFTRON"
     },
     {
-        "logo": "/img/brandslogo/Ariston.avif"
+        "logo": "brandslogo/Ariston"
     },
     {
-        "logo": "/img/brandslogo/BAUMATIC.avif"
+        "logo": "brandslogo/BAUMATIC"
     },
     {
-        "logo": "/img/brandslogo/beko.avif"
+        "logo": "brandslogo/beko"
     },
     {
-        "logo": "/img/brandslogo/bertazzoni.avif"
+        "logo": "brandslogo/bertazzoni"
     },
     {
-        "logo": "/img/brandslogo/Blomberg.avif"
+        "logo": "brandslogo/Blomberg"
     },
     {
-        "logo": "/img/brandslogo/bompani.avif"
+        "logo": "brandslogo/bompani"
     },
     {
-        "logo": "/img/brandslogo/Boston.avif"
+        "logo": "brandslogo/Boston"
     },
     {
-        "logo": "/img/brandslogo/Brandt.avif"
+        "logo": "brandslogo/Brandt"
     },
     {
-        "logo": "/img/brandslogo/daewoo.avif"
+        "logo": "brandslogo/daewoo"
     },
     {
-        "logo": "/img/brandslogo/DeDietrichLogo.avif"
+        "logo": "brandslogo/DeDietrichLogo"
     },
     {
-        "logo": "/img/brandslogo/electrolux.avif"
+        "logo": "brandslogo/electrolux"
     },
     {
-        "logo": "/img/brandslogo/elica.avif"
+        "logo": "brandslogo/elica"
     },
     {
-        "logo": "/img/brandslogo/faber.avif"
+        "logo": "brandslogo/faber"
     },
     {
-        "logo": "/img/brandslogo/fagor.avif"
+        "logo": "brandslogo/fagor"
     },
     {
-        "logo": "/img/brandslogo/fisher-&-paykel.avif"
+        "logo": "brandslogo/fisher-&-paykel"
     },
     {
-        "logo": "/img/brandslogo/foster.avif"
+        "logo": "brandslogo/foster"
     },
     {
-        "logo": "/img/brandslogo/gaggenau.avif"
+        "logo": "brandslogo/gaggenau"
     },
     {
-        "logo": "/img/brandslogo/gibson.avif"
+        "logo": "brandslogo/gibson"
     },
     {
-        "logo": "/img/brandslogo/gorenje.avif"
+        "logo": "brandslogo/gorenje"
     },
     {
-        "logo": "/img/brandslogo/haier.avif"
+        "logo": "brandslogo/haier"
     },
     {
-        "logo": "/img/brandslogo/hisense.avif"
+        "logo": "brandslogo/hisense"
     },
     {
-        "logo": "/img/brandslogo/hitachi.avif"
+        "logo": "brandslogo/hitachi"
     },
     {
-        "logo": "/img/brandslogo/hoover.avif"
+        "logo": "brandslogo/hoover"
     },
     {
-        "logo": "/img/brandslogo/indesit.avif"
+        "logo": "brandslogo/indesit"
     },
     {
-        "logo": "/img/brandslogo/Kelvinator.avif"
+        "logo": "brandslogo/Kelvinator"
     },
     {
-        "logo": "/img/brandslogo/Kenmore.avif"
+        "logo": "brandslogo/Kenmore"
     },
     {
-        "logo": "/img/brandslogo/LG.avif"
+        "logo": "brandslogo/LG"
     },
     {
-        "logo": "/img/brandslogo/Marvel.avif"
+        "logo": "brandslogo/Marvel"
     },
     {
-        "logo": "/img/brandslogo/Maytag.avif"
+        "logo": "brandslogo/Maytag"
     },
     {
-        "logo": "/img/brandslogo/Miele.avif"
+        "logo": "brandslogo/Miele"
     },
     {
-        "logo": "/img/brandslogo/Neff.avif"
+        "logo": "brandslogo/Neff"
     },
     {
-        "logo": "/img/brandslogo/Panasonic.avif"
+        "logo": "brandslogo/Panasonic"
     },
     {
-        "logo": "/img/brandslogo/Samsung.avif"
+        "logo": "brandslogo/Samsung"
     },
     {
-        "logo": "/img/brandslogo/Sanyo.avif"
+        "logo": "brandslogo/Sanyo"
     },
     {
-        "logo": "/img/brandslogo/Sears.avif"
+        "logo": "brandslogo/Sears"
     },
     {
-        "logo": "/img/brandslogo/Sharp.avif"
+        "logo": "brandslogo/Sharp"
     },
     {
-        "logo": "/img/brandslogo/Siemens.avif"
+        "logo": "brandslogo/Siemens"
     },
     {
-        "logo": "/img/brandslogo/Smeg.avif"
+        "logo": "brandslogo/Smeg"
     },
     {
-        "logo": "/img/brandslogo/Teka.avif"
+        "logo": "brandslogo/Teka"
     },
     {
-        "logo": "/img/brandslogo/Terim.avif"
+        "logo": "brandslogo/Terim"
     },
     {
-        "logo": "/img/brandslogo/Thermador.avif"
+        "logo": "brandslogo/Thermador"
     },
     {
-        "logo": "/img/brandslogo/Toshiba.avif"
+        "logo": "brandslogo/Toshiba"
     },
     {
-        "logo": "/img/brandslogo/unimac.avif"
+        "logo": "brandslogo/unimac"
     },
     {
-        "logo": "/img/brandslogo/viking.avif"
+        "logo": "brandslogo/viking"
     },
     {
-        "logo": "/img/brandslogo/Whirlpool.avif"
+        "logo": "brandslogo/Whirlpool"
     },
     {
-        "logo": "/img/brandslogo/Wolf.avif"
+        "logo": "brandslogo/Wolf"
     },
     {
-        "logo": "/img/brandslogo/Zanussi.avif"
+        "logo": "brandslogo/Zanussi"
     }
     
 ]

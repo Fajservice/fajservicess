@@ -6,9 +6,15 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
-import BookingFormModal from '../../BookingFormModal';
 import Testimonial1 from "../../Testimonial/Testimonial1";
+import BrandsSliderSection from "../../BrandsSliderSection";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Cigar Cabinet Humidifier Repair in Dubai | Dehumidifier Service");
@@ -21,101 +27,72 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  // State for fetched data
-  const [data, setData] = useState([]);
-  const [testimonial_data, setTestimonialData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
-
-  // Fetch JSON data
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/CigarcabnitServiceFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/CigarcabnitServiceTestimonials.json`)
-        ]);
-
-        const faqsData = await faqsResponse.json();
-        const testimonialsData = await testimonialsResponse.json();
-
-        setData(faqsData);
-        setTestimonialData(testimonialsData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setIsLoading(false);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+  
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+  
+    const openModal = useCallback((e) => {
+      e.preventDefault();
+      setIsModalOpen(true);
+      document.body.style.overflow = 'hidden';
+    }, []);
+  
+    const closeModal = useCallback(() => {
+      setIsModalOpen(false);
+      document.body.style.overflow = 'auto';
+    }, []);
+    const handleItemClick = index => {
+      if (index === openItemIndex) {
+        setOpenItemIndex(-1);
+      } else {
+        setOpenItemIndex(index);
       }
     };
-
-    fetchData();
-  }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
+    useEffect(() => {
+      if (firstItemOpen) {
+        setOpenItemIndex(0);
+        setFirstItemOpen(false);
       }
-    ]
-  };
+    }, [firstItemOpen]);
+  
+    useEffect(() => {
+      loadBackgroudImages();
+    }, []);
+  
+    // Fetch JSON data
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/CigarcabnitServiceFaqs.json`),
+            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/GasRangeRepairServiceTestimonial.json`),
+            fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+          ]);
+  
+          const faqsData = await faqsResponse.json();
+          const testimonialsData = await testimonialsResponse.json();
+          const brandsData = await brandsResponse.json();
+  
+          setData(faqsData);
+          setTestimonialData(testimonialsData);
+          setBrandsLogoData(brandsData);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
 
 
   return (
@@ -181,7 +158,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/cigarcabnitrepair.avif`} alt="Cigarcabnit Repair Service" />
+                <img className="bordered-img w-100" src={getImageSrc('cigarcabnitrepair')} alt="Cigarcabnit Repair Service" />
 
               </div>
             </div>
@@ -207,7 +184,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             <p>Regular maintenance of a cigar humidor is essential for your use. It ensures the quality of the cigars, extends the lifespan of the cigar cabinet fridge, and reduces repair costs.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/cigarcabnitrepairservice.avif`} alt="Cigarcabnit Repair Service" />
+                <img className="blue-border" src={getImageSrc('cigarcabnitrepairservice')} alt="Cigarcabnit Repair Service" />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -376,7 +353,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -387,7 +364,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
@@ -400,7 +377,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                       <p className="small">Energy-efficient cigar humidors translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -412,7 +389,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -424,7 +401,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Cigar Humidor Lifespan</h3>
                       <p className="small">Timely servicing and proper care can greatly extend the life of your cigar humidor, postponing the need for replacements.</p>
@@ -436,7 +413,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h3>
@@ -460,7 +437,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -471,7 +448,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
@@ -480,7 +457,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -493,23 +470,23 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We specialize in repairing cigar humidor cabinets, which is why major brands trust us for their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -519,7 +496,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -531,7 +508,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -553,6 +530,20 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             </ul>
           </div>
         </section >
+
+        {/* Brands section */}
+                {!isLoading && brandsLogo_data.length > 0 && (
+                  <BrandsSliderSection
+                    brandsData={brandsLogo_data.map(item => ({
+                      ...item,
+                      logo: getImageSrc(item.logo)
+                    }))}
+                    sectionId="home-brands"
+                    logoMaxHeight="60px"
+                    logoMaxWidth="120px"
+                    containerHeight="100px"
+                  />
+                )}
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

@@ -6,13 +6,18 @@ import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-import BookingFormModal from '../../BookingFormModal';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -25,7 +30,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -92,71 +97,6 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
-
   return (
     <>
       <HelmetProvider>
@@ -219,7 +159,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/gas-cooker-repair-services.avif`} alt="Gas Cooker repair" />
+                <img className="bordered-img w-100" src={getImageSrc('gas-cooker-repair-services')} alt="Gas Cooker repair" />
 
               </div>
             </div>
@@ -240,7 +180,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/gas-cooker-repair-service.avif`} alt="gas cooker repair service" />
+                <img className="blue-border" src={getImageSrc('gas-cooker-repair-service')} alt="gas cooker repair service" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -423,7 +363,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -434,7 +374,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
@@ -447,7 +387,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                       <p className="small">Energy efficient cooking range translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -459,7 +399,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -471,7 +411,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">cooking range Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your cooking range, delaying the need for replacements.</p>
@@ -485,7 +425,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h3>
@@ -508,7 +448,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -519,7 +459,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -530,10 +470,10 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>Choose a day and time for your cooking range repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
@@ -542,33 +482,33 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We are experts in cooking range repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>Inspection fee includes diagnosis, transport, and reinstallation upto two cooking range at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -579,7 +519,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -796,7 +736,10 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         {/* Brands section */}
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
-            brandsData={brandsLogo_data}
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
             sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
@@ -811,7 +754,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
+            bgImg={reviewsbg}
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />

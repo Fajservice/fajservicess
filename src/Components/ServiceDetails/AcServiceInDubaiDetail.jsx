@@ -17,7 +17,13 @@ const Blog2 = lazy(() => import("../Blog/Blog2"));
 const Testimonial1 = lazy(() => import("../Testimonial/Testimonial1"));
 const BeforeAfter = lazy(() => import("../BeforeAfter/BeforeAfter"));
 const Serviceappointemnt = lazy(() => import('../Contact/Serviceappointemnt'));
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const EyeIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -318,7 +324,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   width={534}
                   height={324}
                   className="bordered-img w-100"
-                  src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`}
+                  src={getImageSrc('Experts-AC-Service-and-Maintenance')}
                   alt="Experts AC Service and Maintenance"
                   loading="lazy"
                 />
@@ -355,7 +361,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <div className="col-md-6">
                   <img
                     className="blue-border"
-                    src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`}
+                    src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')}
                     alt="Ac Maintenance in dubai"
                     loading="lazy"
                   />
@@ -395,10 +401,10 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <BeforeAfter
             title="Recent Completed Service"
             subTitle="Before & After Service"
-            bgImg="img/background-image-2.avif"
-            beforeImg="img/after_img_1.avif"
+            bgImg={`${CDN}/background-image-2/public`}
+            beforeImg={`${CDN}/after_img_1/public`}
             afterTitle="After"
-            afterImg="img/before_img_1.avif"
+            afterImg={`${CDN}/before_img_1/public`}
             beforeTitle="Before"
           />
         </LazySection>
@@ -427,7 +433,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <Testimonial1
                 subtitle="What Our Clients Say"
                 title="Customer <span>Reviews</span>"
-                bgImg="img/testimonialbg.jpg"
+                bgImg={`${CDN}/testimonialbg/public`}
                 testimonialData={testimonialData}
                 sectionId="ac-service-testimonials"
               />

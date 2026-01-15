@@ -28,13 +28,13 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metaDescription = String(description || "In the hot summertime, are you looking for an Air Conditioning fix? Call now 043300002 for Aftron AC repair & Maintenance Service near me, Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Aftron AC Repair, Aftron AC Maintenance, Aftron AC Service, Aftron Air Conditioner Repair Dubai, Aftron Air Conditioner Service Dubai, Aftron Air Conditioner Maintenance Dubai, Aftron Air Conditioner Installation Dubai, Aftron Air Conditioner Cleaning Dubai, Aftron AC Repair Dubai, Aftron AC Service Dubai, Aftron AC Maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/aftron-ac-repair-maintenance-service-in-dubai-2/");
+  const metaURL = String(URL || "https://www.fajservices.ae ");
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -615,7 +615,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <Testimonial1
           subtitle="What Our Clients Say"
           title="Customer <span>Reviews</span>"
-          bgImg={`${CDN}/testimonialbg/public`}
+          bgImg={reviewsbg}
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />

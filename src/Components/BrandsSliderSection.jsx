@@ -169,7 +169,7 @@ const BrandsSliderSection = ({
                           padding: '10px'
                         }}
                       >
-                        <div className="brnadlogo">
+                        <div className="brandlogo">
                           <img 
                             src={item.logo} 
                             alt={item.alt || `Brand ${index + 1}`} 

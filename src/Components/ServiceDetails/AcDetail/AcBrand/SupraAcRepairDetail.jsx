@@ -1,20 +1,24 @@
 import { useEffect, useRef, useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
-
 import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -29,7 +33,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -180,7 +184,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               </div>
 
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Supra Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Supra Ac Repair" />
 
               </div>
             </div>
@@ -199,7 +203,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <p className="mb-2">To guarantee your Supra central air conditioner functions efficiently in Dubai's intense heat, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system&rsquo;s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/fujitsu-ac-service.avif`} alt="Supra Ac Repair" />
+                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Supra Ac Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -355,7 +359,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                        <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
                       <p className="small">We conduct a thorough evaluation of cooling efficiency using a temperature gun.</p>
@@ -365,7 +369,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                        <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                       <p className="small">All hardware components have been tested and disinfected, including filters and vents.</p>
@@ -375,7 +379,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                        <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">We make sure fan operates properly and there are no blockages in evaporator coil.</p>
@@ -385,7 +389,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                        <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature gauge to verify that the thermostats are operating correctly.</p>
@@ -395,7 +399,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                        <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
                       <p className="small">We make sure that each room receives the optimal airflow it needs.</p>
@@ -405,7 +409,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                        <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">Our team provides vital feedback on your Supra AC's health and any needed repairs.</p>
