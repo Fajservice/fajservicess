@@ -216,7 +216,7 @@ const ServiceCard = memo(({ item }) => {
         </div>
 
         <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
-          <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
+          <div className="cs_card_icon cs_center cs_mb_22">
             <img
               src={iconSrc}
               alt=""
