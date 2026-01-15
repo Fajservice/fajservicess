@@ -11,7 +11,14 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
+import loadBackgroudImages from "../../Common/loadBackgroudImages";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const OptimizedImage = ({ src, alt, className, width, height, priority = false }) => {
   return (
     <img
@@ -83,7 +90,11 @@ const WashingMachineRepairServiceDubaiDetail = ({
   Author,
   Keyword,
   URL,
-  Image
+  Image,
+  subtitle,
+  titlereview,
+  reviewsbg
+
 }) => {
   const metaTitle = String(
     titleSeo || "Emergency Washing Machine Repair in Dubai – 60-Minute Response"
@@ -106,17 +117,51 @@ const WashingMachineRepairServiceDubaiDetail = ({
   );
 
   const metaImage = String(
-    Image || "https://www.fajservices.ae/img/washing-machine-repair.avif"
+    Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/small-mixer-service/public"
   );
 
+  subtitle = "Testimonial"
+  titlereview = "What our clients say About Us"
+  reviewsbg = getImageSrc('testimonialbg')
 
-  const [data, setData] = useState([]);
-  const [testimonialData, setTestimonialData] = useState([]);
-  const [brandsData, setBrandsData] = useState([]);
-  const [openItemIndex, setOpenItemIndex] = useState(0);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+
   const accordionContentRef = useRef(null);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
 
   // Fetch JSON data
   useEffect(() => {
@@ -130,11 +175,11 @@ const WashingMachineRepairServiceDubaiDetail = ({
 
         const faqsData = await faqsResponse.json();
         const testimonialsData = await testimonialsResponse.json();
-        const brandsDataJson = await brandsResponse.json();
+        const brandsData = await brandsResponse.json();
 
         setData(faqsData);
         setTestimonialData(testimonialsData);
-        setBrandsData(brandsDataJson);
+        setBrandsLogoData(brandsData);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
@@ -143,21 +188,6 @@ const WashingMachineRepairServiceDubaiDetail = ({
     };
 
     fetchData();
-  }, []);
-
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-
-  const handleItemClick = useCallback((index) => {
-    setOpenItemIndex(prev => prev === index ? -1 : index);
   }, []);
 
   return (
@@ -175,7 +205,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
           <link
             rel="preload"
             as="image"
-            href={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}
+            href={`${CDN}/The-Most-Common-Reasons-for-Appliance-Breakdowns/public`}
           />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
@@ -231,7 +261,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-md-6">
                 <OptimizedImage
                   className="bordered-img w-100"
-                  src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}
+                  src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}
                   alt="Washing Machine Repair"
                   width="600"
                   height="400"
@@ -251,7 +281,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="col-md-6">
                 <OptimizedImage
                   className="blue-border"
-                  src={`${import.meta.env.BASE_URL}img/washing-machine-repair.avif`}
+                  src={getImageSrc('washing-machine-repair')}
                   alt="Washing Machine Repair"
                   width="600"
                   height="400"
@@ -404,7 +434,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`}
+                        src={getImageSrc('icon/Ensuring-Safety')}
                         alt="Ensuring Safety"
                         className="icon-img-block-icon"
                         width="80"
@@ -419,7 +449,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`}
+                        src={getImageSrc('icon/Optimal-Performance')}
                         alt="Optimal Performance"
                         className="icon-img-block-icon"
                         width="80"
@@ -434,7 +464,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`}
+                        src={getImageSrc('icon/Lower-Energy-Bills')}
                         alt="Lower Energy Bills"
                         className="icon-img-block-icon"
                         width="80"
@@ -449,7 +479,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`}
+                        src={getImageSrc('icon/Saving-Money-on-Repair')}
                         alt="Saving Money on Repair"
                         className="icon-img-block-icon"
                         width="80"
@@ -464,7 +494,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={`${import.meta.env.BASE_URL}img/icons/extending.svg`}
+                        src={getImageSrc('icon/extending')}
                         alt="Extending Appliance Lifespan"
                         className="icon-img-block-icon"
                         width="80"
@@ -479,7 +509,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`}
+                        src={getImageSrc('icon/Peace-of-Mind')}
                         alt="Peace of Mind"
                         className="icon-img-block-icon"
                         width="80"
@@ -504,7 +534,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="uspitem">
                   <div className="uspicon">
                     <OptimizedImage
-                      src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}
+                      src={getImageSrc('icon/fast-reliable')}
                       alt="Fast, Reliable Service"
                       width="60"
                       height="60"
@@ -519,7 +549,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="uspitem">
                   <div className="uspicon">
                     <OptimizedImage
-                      src={`${import.meta.env.BASE_URL}img/icons/experts.png`}
+                      src={getImageSrc('icon/experts')}
                       alt="We Are Experts"
                       width="60"
                       height="60"
@@ -534,7 +564,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="uspitem mb-0">
                   <div className="uspicon">
                     <OptimizedImage
-                      src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}
+                      src={getImageSrc('icon/full-control')}
                       alt="You Are in Control"
                       width="60"
                       height="60"
@@ -550,7 +580,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
               <div className="uspdelimit col-2 d-none d-xl-block">
                 <OptimizedImage
                   className="blue-border-2 w-100 why-choose-img"
-                  src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}
+                  src={getImageSrc('fajteam-1')}
                   alt="FAJ Team"
                   width="400"
                   height="600"
@@ -561,7 +591,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="uspitem">
                   <div className="uspicon">
                     <OptimizedImage
-                      src={`${import.meta.env.BASE_URL}img/icons/value.png`}
+                      src={getImageSrc('icon/value')}
                       alt="We Are Experts"
                       width="60"
                       height="60"
@@ -576,7 +606,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="uspitem">
                   <div className="uspicon">
                     <OptimizedImage
-                      src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}
+                      src={getImageSrc('icon/confidence-guarantee')}
                       alt="Great Value"
                       width="60"
                       height="60"
@@ -591,7 +621,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                 <div className="uspitem mb-0">
                   <div className="uspicon">
                     <OptimizedImage
-                      src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}
+                      src={getImageSrc('icon/trustworthy')}
                       alt="Trustworthy"
                       width="60"
                       height="60"
@@ -606,7 +636,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
 
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
                 <OptimizedImage
-                  src={`${import.meta.env.BASE_URL}img/fajteam.avif`}
+                  src={getImageSrc('fajteam')}
                   alt="FAJ Team Mobile"
                   width="400"
                   height="300"
@@ -650,28 +680,34 @@ const WashingMachineRepairServiceDubaiDetail = ({
           </div>
         </section>
 
-        <Suspense fallback={<div style={{ minHeight: '200px' }} />}>
-          <MaintenanceContract />
-        </Suspense>
-
-        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
-          <Testimonial1
-            subtitle="What Our Clients Say"
-            title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
-            testimonialData={testimonialData}
-            sectionId="home-testimonials"
-          />
-        </Suspense>
-
-        <Suspense fallback={<div style={{ minHeight: '200px' }} />}>
+        {/* Brands section */}
+        {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
-            brandsData={brandsData}
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
             sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
             containerHeight="100px"
           />
+        )}
+
+        <Suspense fallback={<div style={{ minHeight: '200px' }} />}>
+          <MaintenanceContract />
+        </Suspense>
+
+        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
+          {!isLoading && testimonial_data.length > 0 && (
+            <Testimonial1
+              subtitle="What Our Clients Say"
+              titlereview="Customer <span>Reviews</span>"
+              bgImg={reviewsbg}
+              testimonialData={testimonial_data}
+              sectionId="home-testimonials"
+            />
+          )}
         </Suspense>
 
         <Suspense fallback={<div style={{ minHeight: '300px' }} />}>

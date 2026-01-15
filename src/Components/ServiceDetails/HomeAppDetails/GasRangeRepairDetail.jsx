@@ -25,7 +25,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Gas Cooker Repair, Gas Stove Repair, Cooking Range Service, Induction Repair, Dubai, Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/gas-cooker-repair-service/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/gas-cooker-repair-services.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/gas-cooker-repair-services/public");
 
 
   subtitle = "Testimonial"

@@ -44,50 +44,61 @@ const IntegratedApplianceRepairDetail = ({
   );
 
   const metaImage = String(
-    Image || "https://www.fajservices.ae/img/oven-repair-service.avif"
+    Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/oven-repair-service.avif/public"
   );
-
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
-  const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [data, setData] = useState([]);
-  const [testimonial_data, setTestimonialData] = useState([]);
-  const [brandsLogo_data, setBrandsLogoData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  reviewsbg = getImageSrc('testimonialbg')
+  
+  const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
+  const getImageSrc = (imgPath) => {
+    if (!imgPath) return '';
+    if (imgPath.startsWith('https')) return imgPath;
+    return `${CDN}/${imgPath}/public`;
   };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
+  const accordionContentRef = useRef(null);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+  
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+ const openModal = useCallback((e) => {
+     e.preventDefault();
+     setIsModalOpen(true);
+     document.body.style.overflow = 'hidden';
+   }, []);
+ 
+   const closeModal = useCallback(() => {
+     setIsModalOpen(false);
+     document.body.style.overflow = 'auto';
+   }, []);
+   const handleItemClick = index => {
+     if (index === openItemIndex) {
+       setOpenItemIndex(-1);
+     } else {
+       setOpenItemIndex(index);
+     }
+   };
+   useEffect(() => {
+     if (firstItemOpen) {
+       setOpenItemIndex(0);
+       setFirstItemOpen(false);
+     }
+   }, [firstItemOpen]);
+ 
+   useEffect(() => {
+     loadBackgroudImages();
+   }, []);
+ 
 
+ // Fetch JSON data
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -113,71 +124,6 @@ const IntegratedApplianceRepairDetail = ({
 
     fetchData();
   }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
 
   return (
     <>
@@ -252,7 +198,7 @@ const IntegratedApplianceRepairDetail = ({
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/builtin-in-appliances-repair.avif`} alt="built-in appliances repair" />
+                <img className="bordered-img w-100" src={getImageSrc('builtin-in-appliances-repair')} alt="built-in appliances repair" />
 
               </div>
             </div>
@@ -271,7 +217,7 @@ const IntegratedApplianceRepairDetail = ({
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/oven-repair-service.avif`} alt="built-in appliances repair" />
+                <img className="blue-border" src={getImageSrc('oven-repair-service')} alt="built-in appliances repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -473,7 +419,7 @@ const IntegratedApplianceRepairDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -484,7 +430,7 @@ const IntegratedApplianceRepairDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
