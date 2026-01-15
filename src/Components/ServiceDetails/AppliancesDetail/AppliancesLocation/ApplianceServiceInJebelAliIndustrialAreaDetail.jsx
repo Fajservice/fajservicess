@@ -60,60 +60,6 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-<<<<<<< HEAD
-     // State for fetched data
-        const [data, setData] = useState([]);
-        const [testimonial_data, setTestimonialData] = useState([]);
-        const [brandsLogo_data, setBrandsLogoData] = useState([]);
-        const [isLoading, setIsLoading] = useState(true);
-    
-        const handleItemClick = index => {
-            if (index === openItemIndex) {
-                setOpenItemIndex(-1);
-            } else {
-                setOpenItemIndex(index);
-            }
-        };
-    
-        useEffect(() => {
-            if (firstItemOpen) {
-                setOpenItemIndex(0);
-                setFirstItemOpen(false);
-            }
-        }, [firstItemOpen]);
-    
-        useEffect(() => {
-            loadBackgroudImages();
-        }, []);
-    
-        // Fetch JSON data
-        useEffect(() => {
-            const fetchData = async () => {
-                try {
-                    const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-                        fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
-                        fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
-                        fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-                    ]);
-    
-                    const faqsData = await faqsResponse.json();
-                    const testimonialsData = await testimonialsResponse.json();
-                    const brandsData = await brandsResponse.json();
-    
-                    setData(faqsData);
-                    setTestimonialData(testimonialsData);
-                    setBrandsLogoData(brandsData);
-                } catch (error) {
-                    console.error('Error fetching data:', error);
-                } finally {
-                    setIsLoading(false);
-                }
-            };
-    
-            fetchData();
-        }, []);
-    
-=======
   // State for fetched data
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
@@ -171,7 +117,6 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
         setIsLoading(false);
       }
     };
->>>>>>> 8a626731975c852a5bad8b01ab22a53306aeb353
 
     fetchData();
   }, []);
