@@ -205,7 +205,7 @@ const MaytagFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="Maytag Washing Machine Repair" />
+                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Maytag Washing Machine Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

@@ -230,7 +230,7 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="Refrigerator Repair in Al Satwa" />
+                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Refrigerator Repair in Al Satwa" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">

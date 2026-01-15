@@ -228,7 +228,7 @@ const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, review
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="Refrigerator Repair in Jumeirah Golf Estates" />
+                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Refrigerator Repair in Jumeirah Golf Estates" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

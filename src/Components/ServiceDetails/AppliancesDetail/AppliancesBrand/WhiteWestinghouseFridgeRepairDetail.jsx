@@ -204,7 +204,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="White Westinghouse Washing Machine Repair" />
+                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="White Westinghouse Washing Machine Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

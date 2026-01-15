@@ -205,7 +205,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/oven-Range-Repair-Nearby-You-oven.avif`}  alt="La Germania Fridge repair" />
+                <img className="blue-border" src={getImageSrc('oven-Range-Repair-Nearby-You-oven')} alt="La Germania Fridge repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

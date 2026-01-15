@@ -202,7 +202,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="Fagor Washing Machine Repair" />
+                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Fagor Washing Machine Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

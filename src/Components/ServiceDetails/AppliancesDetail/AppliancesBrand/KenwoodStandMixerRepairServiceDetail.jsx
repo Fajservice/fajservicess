@@ -203,7 +203,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kenwood-mixer-repair.avif`}  alt="Kenwood Stand Mixer Repair" />
+                <img className="blue-border" src={getImageSrc('kenwood-mixer-repair')}  alt="Kenwood Stand Mixer Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

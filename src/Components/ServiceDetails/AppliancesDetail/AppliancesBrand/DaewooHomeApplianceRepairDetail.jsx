@@ -198,7 +198,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="Daewoo Fridge Repair" />
+                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')} alt="Daewoo Fridge Repair" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">

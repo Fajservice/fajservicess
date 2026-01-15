@@ -203,7 +203,7 @@ const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, tit
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="Sharp Washing Machine Repair" />
+                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Sharp Washing Machine Repair" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">

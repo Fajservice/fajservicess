@@ -200,7 +200,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
             <p className="mb-2">Regular maintenance of a DeLonghi coffee machine is crucial for businesses. It ensures coffee quality, extends the machine’s lifespan, and minimises repair costs.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/delonghi-coffee-machine-service.avif`}   alt="delongi coffee machine repair" />
+                <img className="blue-border" src={getImageSrc('delonghi-coffee-machine-service')}   alt="delongi coffee machine repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

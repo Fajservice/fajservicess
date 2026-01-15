@@ -230,7 +230,7 @@ const ApplianceServiceInDubaiSiliconOasisDetail = ({ subtitle, title, reviewsbg,
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="Washing machine repair in Dubai Silicon Oasis" />
+                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Washing machine repair in Dubai Silicon Oasis" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">

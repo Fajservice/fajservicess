@@ -207,7 +207,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/fridgerepair.avif`}  alt="Sub Zero Fridge repair" />
+                <img className="blue-border" src={getImageSrc('fridgerepair')} alt="Sub Zero Fridge repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

@@ -201,7 +201,7 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  alt="LG Washing Machine Repair" />
+                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="LG Washing Machine Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

@@ -206,7 +206,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchenaid-mixers-repair.avif`}  alt="KitchenAid Stand Mixer Repair" />
+                <img className="blue-border" src={getImageSrc('kitchenaid-mixers-repair')}  alt="KitchenAid Stand Mixer Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
