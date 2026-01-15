@@ -14,13 +14,13 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Neff Fridge Repair in Dubai | Neff Dishwasher Service | Oven Fix");
   const metadescription = String(description || "FAJ offer Neff fridge repair in Dubai. And expert in washing machine, dryer, dishwasher, oven & stove, cooker service at our center nearby Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Neff Fridge Repair, Neff Washing Machine Repair, Neff Cooker Repair, Neff Oven Repair, Neff Appliances Maintenance, Neff Refrigerator Fix, Neff Dishwasher Service");
   const metaURL = String(URL || "https://www.fajservices.ae/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/").replace(/\/?$/, '/');
 

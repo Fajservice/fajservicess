@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in IMPZ - Washing Machine Repair Dubai");
     const metadescription = String(description || "We offer best appliance services in IMPZ. Get fridge repair near me in Dubai. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in IMPZ, Fridge Repair in IMPZ, Oven Repair in IMPZ, Dishwasher Repair in IMPZ, Appliance Service in IMPZ, Appliance Maintenance in IMPZ");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-impzy/").replace(/\/?$/, '/');
 

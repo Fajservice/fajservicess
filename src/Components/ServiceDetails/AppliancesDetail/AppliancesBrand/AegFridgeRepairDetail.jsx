@@ -20,13 +20,13 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "AEG Fridge Repair in Dubai | Washing Machine Service Near Me");
   const metadescription = String(description || "Professional AEG fridge repair in Dubai. Our experienced team offers  AEG washing machine, stove, dishwasher, oven, and dryer service center.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "AEG Fridge Repair, AEG Washing Machine Repair, AEG Cooker Repair, AEG Oven Repair, AEG Appliances Maintenance, AEG Refrigerator Fix, AEG Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/").replace(/\/?$/, '/');
 

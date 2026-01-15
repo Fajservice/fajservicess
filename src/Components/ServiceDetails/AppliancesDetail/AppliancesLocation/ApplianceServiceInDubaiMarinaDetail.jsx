@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Dubai Marina - Refrigerator Repair ");
     const metadescription = String(description || "We offer best appliance Dubai Marina. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washine Machine Repair in Dubai Marina, Refrigerator Repair in Dubai Marina, Dishwasher Repair in Dubai Marina, Oven Repair in Dubai Marina, Appliance Service in Dubai Marina, Appliance Maintenance in Dubai Marina, Appliance Repair in Dubai Marina");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-marina/").replace(/\/?$/, '/');
 

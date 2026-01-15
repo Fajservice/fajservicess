@@ -14,12 +14,12 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Whirlpool Fridge Repair in Dubai | Washing Machine Service Near");
   const metadescription = String(description || "Whirlpool fridge repair in Dubai. FAJ expert Whirlpool appliance, washing machine, dishwasher service, dryer, cooker and oven repair center near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Whirlpool Fridge Repair Dubai, Whirlpool Washing Machine Repair Dubai, Whirlpool Cooker Repair Dubai, Whirlpool Oven Repair Dubai, Whirlpool Appliances Maintenance Dubai, Whirlpool Refrigerator Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/").replace(/\/?$/, '/');
 

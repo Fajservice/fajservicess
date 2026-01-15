@@ -14,12 +14,12 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Bompani Fridge Repair and Washing Machine Service in Dubai");
     const metadescription = String(description || "FAJ offer reliable Bompani appliance service in Dubai, including Bompani fridge repair, washing machine, oven & dishwasher repair  center near you Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Bompani Fridge Repair, Bompani Washing Machine Repair, Bompani Cooker Repair, Bompani Oven Repair, Bompani Appliances Maintenance, Bompani Refrigerator Fix Repair");
     const metaURL = String(URL || "https://www.fajservices.ae/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/").replace(/\/?$/, '/');
 

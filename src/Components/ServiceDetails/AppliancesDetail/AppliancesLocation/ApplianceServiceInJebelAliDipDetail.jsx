@@ -14,13 +14,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Jebel Ali DIP - Refrigerator repair");
     const metadescription = String(description || "Best appliance services in Jebel Ali DIP. FAJ specializes in fridge repair near me in Dubai. Call 043300002 for reliable washing machine & oven fix ");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jebel Ali DIP, Refrigerator repair in Jebel Ali DIP, Appliance repair in Jebel Ali DIP, Home appliance service in Jebel Ali DIP, Oven repair in Jebel Ali DIP, Dishwasher repair in Jebel Ali DIP, Fridge repair in Jebel Ali DIP, Washing machine service in Jebel Ali DIP");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-dip/").replace(/\/?$/, '/');
     subtitle = "Testimonial"

@@ -20,7 +20,8 @@ const FridgeRepairDubaiMarinaDetail = ({
   titleSeo, 
   description, 
   Author, 
-  Keyword, 
+  Keyword,
+  Image, 
   URL }) => {
 
     const metaTitle = String(
@@ -43,7 +44,7 @@ const FridgeRepairDubaiMarinaDetail = ({
   );
   
   const metaImage = String(
-    Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif"
+    Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public"
   );
 
   subtitle = "Testimonial"

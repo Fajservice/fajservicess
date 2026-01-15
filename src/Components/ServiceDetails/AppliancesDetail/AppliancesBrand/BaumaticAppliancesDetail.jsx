@@ -20,12 +20,12 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Baumatic Appliances Center | Washing Machine Repair in Dubai ");
     const metadescription = String(description || "FAJ technicians are fully professional in Baumatic appliances repair in Dubai, Experts in fridge, refrigerator, washing machine, dishwasher, oven service");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Baumatic Appliances, Baumatic Washing Machine Repair, Baumatic Fridge Repair, Baumatic Dishwasher Repair, Baumatic Oven Repair, Baumatic Appliance Service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/baumatic-appliances/");
 
@@ -374,7 +374,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     <div>
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={getImageSrc('icon/Ensuring-Safety')}alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                                             <p className="small">

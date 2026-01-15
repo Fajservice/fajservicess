@@ -11,12 +11,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInAlbarariDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInAlbarariDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metaTitle = String(titleSeo || "Appliance Service in Al Barari - Refrigerator Repair Dubai");
     const metaDescription = String(description || "FAJ offers best appliance service in Al Barari. Get washing machine repair near me in Dubai. Call 043300002 for fridge, dishwasher, and oven fix.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "appliance service in Al Barari, refrigerator repair in al barari, washing machine repair in al barari, dishwasher repair in al barari, oven repair in al barari");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barari/").replace(/\/?$/, '/');
 

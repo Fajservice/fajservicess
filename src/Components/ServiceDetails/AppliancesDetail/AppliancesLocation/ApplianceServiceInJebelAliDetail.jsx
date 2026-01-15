@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInJebelAliDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInJebelAliDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Jebel Ali - Refrigerator Repair");
     const metadescription = String(description || "Faj offers appliance service in Jebel Ali . Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, coffee machine");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jebel Ali, Refrigerator Repair in Jebel Ali, Appliance Service in Jebel Ali, Appliance Repair in Jebel Ali, Home Appliances Service in Jebel Ali, Home Appliances Repair in Jebel Ali, Appliance Maintenance in Jebel Ali, Appliance Installation in Jebel Ali");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali/").replace(/\/?$/, '/');
 

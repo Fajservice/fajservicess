@@ -13,12 +13,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in The Villa - Washing Machine Repair");
     const metadescription = String(description || "Looking for appliance service in The Villa. Call 043300002 for fridge repair near me in Dubai. Get fix washing machine, dishwasher, refrigerator");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in the villa, Refrigerator in the villa, Dishwasher in the villa, Appliance service in the villa, Appliance repair in the villa, Appliance maintenance in the villa, Appliance installation in the villa");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-villa/").replace(/\/?$/, '/');
 

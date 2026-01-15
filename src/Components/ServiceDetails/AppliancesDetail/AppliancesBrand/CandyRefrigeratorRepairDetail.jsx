@@ -14,13 +14,13 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Candy Refrigerator Repair & Best Washing Machine Service Dubai");
   const metadescription = String(description || "With Warranty Candy refrigerator repair in Dubai. Call us for your fridge, candy washing machine, Candy dishwasher, oven, repairs center near me ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Candy Refrigerator Repair Dubai, Candy Washing Machine Repair Dubai, Candy Dishwasher Repair Dubai, Candy Cooker Oven Repair Dubai, Candy Fridge Repair Dubai, Candy Appliance Service Dubai, Candy Appliance Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/candy-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/").replace(/\/?$/, '/');
 

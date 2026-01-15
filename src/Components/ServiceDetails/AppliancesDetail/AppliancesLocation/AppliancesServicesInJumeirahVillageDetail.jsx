@@ -13,12 +13,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Jumeirah Village - Fridge Repair");
     const metadescription = String(description || "Need appliance Service in Jumeirah Village. we provide refrigerator, washing machine repair near me, dryer cooker oven & more. Book now 043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Village, Refrigerator in Jumeirah Village, Appliance Repair in Jumeirah Village, Appliance Service in Jumeirah Village, Fridge Repair in Jumeirah Village, Washing Machine Repair in Jumeirah Village, Dryer Repair in Jumeirah Village, Cooker Oven Repair in Jumeirah Village");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village/").replace(/\/?$/, '/');
 

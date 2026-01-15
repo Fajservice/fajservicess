@@ -14,12 +14,12 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
 
-const ApplianceServiceInOudMethaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInOudMethaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Oud Metha - Washing Machine Repair");
     const metadescription = String(description || "FAJ offers best appliance services in Oud Metha. Get washing machine repair near me in Dubai. Call 043300002 for fridge, dishwasher, and oven fix");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Oud Metha, Appliance Repair in Oud Metha, Appliance Service in Oud Metha, Fridge Repair in Oud Metha, Dishwasher Repair in Oud Metha, Oven Repair in Oud Metha, Home Appliances Service in Oud Metha");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-oud-metha/").replace(/\/?$/, '/');
 

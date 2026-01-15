@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Appliances Services in The Gardens - Refrigerator Repair");
   const metadescription = String(description || "We offer appliance services in The Gardens. Need refrigerator, washing machine, fridge repair near me? Call 043300002 for quick solutions!");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in the Gardens, Refrigerator Repair in the Gardens, Appliance Service in the Gardens, Appliance Repair in the Gardens, Appliance Maintenance in the Gardens, Appliance Installation in the Gardens, Appliance AMC in the Gardens, Appliance Service Center in the Gardens, Home Appliances Service in the Gardens");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-gardens/").replace(/\/?$/, '/');
 

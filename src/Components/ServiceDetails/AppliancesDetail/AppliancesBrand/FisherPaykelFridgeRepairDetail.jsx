@@ -14,12 +14,12 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Fisher and Paykel Fridge Repair | Dishwasher Service in Dubai");
   const metadescription = String(description || "Fisher & Paykel fridge repair across Dubai. FAJ offers washer dryer, dishwasher, rcooker, ange, stove & oven repair service in Dubai with a warranty.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Fisher and Paykel Fridge Repair, Fisher and Paykel Washing Machine Repair, Fisher and Paykel Dishwasher Repair, Fisher and Paykel Stove Repair, Fisher and Paykel Oven Repair, Fisher and Paykel Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/").replace(/\/?$/, '/');
   

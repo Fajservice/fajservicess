@@ -14,14 +14,14 @@ import CallNowButton from "../../../Buttons/CallNowButton";
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 
-const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
    const metatitle = titleSeo?.trim() 
   ? titleSeo 
   : "Indesit Fridge Repair in Dubai | Washing Machine Service Near Me";
   const metadescription = String(description || "Affordable Indesit fridge repair in Dubai. Trusted technicians Call now! for washing machine, dryer, dishwasher, cooker and oven servic ecenter near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Indesit Fridge Repair, Indesit Washing Machine Repair, Indesit Cooker Repair, Indesit Oven Repair, Indesit Appliances Maintenance, Indesit Refrigerator Fix");
   const metaURL = String(URL || "https://www.fajservices.ae/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/").replace(/\/?$/, '/');
 

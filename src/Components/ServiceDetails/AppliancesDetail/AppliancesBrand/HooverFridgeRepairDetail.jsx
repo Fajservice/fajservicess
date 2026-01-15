@@ -14,14 +14,14 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daiganosischarges';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
 
-const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
    const metatitle = titleSeo?.trim() 
   ? titleSeo 
   : "Hoover Fridge Repair & Washing Machine Service in Dubai";
   const metadescription = String(description || "Hoover fridge repair in Dubai. FAJ. Book with FAJ washing machine, dryer, refrigerator, dishwasher, stove, or oven service centre near you. ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Hoover Fridge Repair, Hoover Washing Machine Repair, Hoover Cooker Repair, Hoover Oven Repair, Hoover Appliances Maintenance, Hoover Refrigerator Fix, Hoover Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/").replace(/\/?$/, '/');
 

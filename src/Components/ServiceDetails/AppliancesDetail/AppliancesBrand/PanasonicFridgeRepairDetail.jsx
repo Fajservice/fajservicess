@@ -16,13 +16,13 @@ import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daigano
 import Testimonial1 from '../../../Testimonial/Testimonial1';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
 
     const metatitle = String(titleSeo || "Panasonic Fridge Repair and Washing Machine Service in Dubai ");
     const metadescription = String(description || "If you need reliable Panasonic fridge repair in Dubai, Call us now for Panasonic washing machine, dishwasher, and refrigerator repair center & service.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Panasonic Fridge Repair Dubai, Panasonic Washing Machine Repair Dubai, Panasonic Cooker Repair Dubai, Panasonic Oven Repair Dubai, Panasonic Appliances Maintenance Dubai, Panasonic Refrigerator Service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/").replace(/\/?$/, '/');
 

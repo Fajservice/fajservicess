@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesInDubailandMazayaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesInDubailandMazayaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Appliances Services in Dubailand Mazaya - Fridge Repair");
   const metadescription = String(description || "Get appliance services in Dubailand Mazaya. FAJ Experts refrigerator repair near me. Call 043300002 to fix washing machine, dishwasher, oven, fridge");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in dubailand mazaya, Fridge Repair in dubailand mazaya, Dishwasher Repair in dubailand mazaya, Oven Repair in dubailand mazaya, Appliances Services in dubailand mazaya, Appliances Service Center in dubailand mazaya, Appliances Repair in dubailand mazaya");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-mazaya/").replace(/\/?$/, '/');
 

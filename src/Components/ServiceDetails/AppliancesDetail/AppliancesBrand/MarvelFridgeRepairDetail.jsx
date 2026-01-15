@@ -15,12 +15,12 @@ import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daigano
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 
-const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Marvel  Home Appliances Service in Dubai & Marvel Fridge Repair");
     const metadescription = String(description || "Reliable Marvel appliance service, including fridge, washing machine, dishwasher, cooking range, & stove oven repair & service centre in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Marvel Fridge Repair, Marvel Washing Machine Repair, Marvel Cooker Repair, Marvel Oven Repair, Marvel Appliances Maintenance, Marvel Refrigerator Fix, Marvel Appliance Service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/").replace(/\/?$/, '/');
 

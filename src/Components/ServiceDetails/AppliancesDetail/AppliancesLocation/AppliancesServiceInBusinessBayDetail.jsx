@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServiceInBusinessBayDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServiceInBusinessBayDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Business Bay - Washing Machine Repair ");
     const metadescription = String(description || "Get the best appliance services in Business Bay. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine, oven & dishwasher fix ");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Business Bay, Fridge Repair in Business Bay, Dishwasher Repair in Business Bay, Oven Repair in Business Bay, Appliance Service in Business Bay, Appliance Repair in Business Bay, Home Appliances Service in Business Bay, Home Appliances Repair in Business Bay");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-business-bay/").replace(/\/?$/, '/');
 

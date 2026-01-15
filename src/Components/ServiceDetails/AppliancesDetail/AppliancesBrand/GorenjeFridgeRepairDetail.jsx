@@ -14,12 +14,12 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Gorenje Fridge Repair In Dubai | Washing Machine Service Near ");
   const metadescription = String(description || "Expert Gorenje fridge repair in Dubai. Book now for Gorenje washing machine, dryer, refrigerator, dishwasher, cooker maintenance and service center ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Gorenje Fridge Repair, Gorenje Washing Machine Repair, Gorenje Cooker Repair, Gorenje Oven Repair, Gorenje Appliances Maintenance, Gorenje Refrigerator Fix, Gorenje Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/").replace(/\/?$/, '/');
 

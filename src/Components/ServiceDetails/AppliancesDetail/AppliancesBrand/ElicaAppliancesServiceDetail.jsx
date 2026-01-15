@@ -14,13 +14,13 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import CallNowButton from "../../../Buttons/CallNowButton";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 
-const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Elica Appliances Service in Dubai | Elica Cooker Repair | Hood Fix");
   const metadescription = String(description || "To book your Elica appliances service in Dubai. FAJ offers an Elica hob, stove, cooker, oven, hood maintenance and repair center near you. Book with us");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Elica Appliances Service, Elica Hob Repair, Elica Cooker Repair, Elica Oven Repair, Elica Hood Repair, Elica Stove Repair, Elica Fridge Repair, Elica Washing Machine Repair, Elica Dishwasher Repair, Elica Appliance Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/elica-appliances-service/");
   subtitle = "Testimonial"

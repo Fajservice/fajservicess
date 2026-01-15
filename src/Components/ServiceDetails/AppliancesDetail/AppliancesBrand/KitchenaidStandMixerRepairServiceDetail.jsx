@@ -14,12 +14,12 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import CallNowButton from "../../../Buttons/CallNowButton";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 
-const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "KitchenAid Stand Mixer Repair & Maintenance Service in Dubai");
   const metadescription = String(description || "Kitchenaid stand mixer repair in Dubai with Warranty - Get expert maintenance & servicing of mixer repair centre near you. Contact us now.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/kitchen-aid-mixer-repair.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/kitchen-aid-mixer-repair/public");
   const metaKeyword = String(Keyword || "Kitchenaid Stand Mixer Repair, Kitchenaid Mixer Repair Dubai, Kitchenaid Appliance Repair, Kitchenaid Mixer Service, Kitchenaid Stand Mixer Maintenance, Kitchenaid Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/kitchenaid-stand-mixer-repair-service-near-me-dubai/").replace(/\/?$/, '/');
 

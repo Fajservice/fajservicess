@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Jumeirah - Washing Machine Repair");
     const metadescription = String(description || "Looking for appliances Service in Jumeirah. FAJ provides refrigerator, fridge repair dubai, washing machine maintenance & more. Call now 043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in jumeirah, Refrigerator in jumeirah, Fridge repair in jumeirah, Appliances Service in Jumeirah, Appliances Repair in Jumeirah, Appliance Service Center in Jumeirah, Appliance Repair in Jumeirah, Washing Machine Service in Jumeirah, Washing Machine Repair in Jumeirah, Dishwasher Service in Jumeirah, Dishwasher Repair in Jumeirah, Tumble Dryer Service in Jumeirah, Tumble Dryer Repair in Jumeirah");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah/").replace(/\/?$/, '/');
 

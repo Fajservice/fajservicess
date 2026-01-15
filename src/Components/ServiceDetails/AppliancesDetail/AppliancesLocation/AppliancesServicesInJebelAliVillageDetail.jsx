@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Appliances Services in Jebel Ali Village - Fridge Repair");
   const metadescription = String(description || "Best appliance services in Jebel Ali Village. FAJ offers fridge repair near me. Call 043300002 for dishwasher, oven, washing machine maintenance");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in jebel ali village, Fridge Repair in jebel ali village, Dishwasher Repair in jebel ali village, Oven Repair in jebel ali village, Appliance Services in jebel ali village, Appliances Services in Jebel Ali Village, Appliances Services in Dubai, Appliances Services in Sharjah, Appliances Services in Abu Dhabi");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-village/").replace(/\/?$/, '/');
 

@@ -16,13 +16,13 @@ import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daigano
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 
-const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Electrolux Home Appliance - Washing Machine Repair Dubai");
   const metadescription = String(description || "Electrolux Appliance Repair Dubai - We offer Electrolux Refrigerator, Electrolux Washing Machine, Dishwasher, Dryer, Oven, and Stove repair services.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Electrolux Home Appliance Repair, Electrolux Washing Machine Repair, Electrolux Fridge Repair, Electrolux Dishwasher Repair, Electrolux Oven Repair, Electrolux Stove Repair, Electrolux Dryer Repair, Electrolux Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/electrolux-home-appliances-repair/").replace(/\/?$/, '/');
   subtitle = "Testimonial"

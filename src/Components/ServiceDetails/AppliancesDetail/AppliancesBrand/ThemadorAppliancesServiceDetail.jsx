@@ -14,12 +14,12 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Thermador Appliances Service & Thermador Repair Center Dubai");
   const metadescription = String(description || "Call our trained team for Thermador home appliances service in Dubai for cooking range, oven, fridge repair & maintenance near me Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Thermador Appliances Service, Thermador Oven Repair, Thermador Fridge Repair, Thermador Washing Machine Repair, Thermador Dishwasher Repair, Thermador Cooker Repair, Thermador Appliance Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/thermador-appliances-service/").replace(/\/?$/, '/');
 

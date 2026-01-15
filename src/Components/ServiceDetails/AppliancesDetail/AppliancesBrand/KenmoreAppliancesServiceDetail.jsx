@@ -14,12 +14,12 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Kenmore Appliances Service | Oven Repair Near Me Dubai ");
     const metadescription = String(description || "FAJ Professional & reliable Kenmore home appliances service at your doorstep, fridge, dishwasher, cooker oven repair center near by you Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Kenmore Appliances Service, Kenmore Washing Machine Repair, Kenmore Fridge Repair, Kenmore Cooker Repair, Kenmore Dishwasher Repair, Kenmore Appliance Maintenance Dubai, Kenmore Appliance Repair Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/kenmore-appliances-service/").replace(/\/?$/, '/');
 

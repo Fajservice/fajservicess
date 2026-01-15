@@ -13,12 +13,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Dubai Sports City - Fridge Repair");
     const metadescription = String(description || "We offer best appliance services in Dubai Sports City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubai Sports City, Fridge Repair in Dubai Sports City, Dishwasher Repair in Dubai Sports City, Oven Repair in Dubai Sports City, Appliance Service in Dubai Sports City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-sports-city/").replace(/\/?$/, '/');
 
