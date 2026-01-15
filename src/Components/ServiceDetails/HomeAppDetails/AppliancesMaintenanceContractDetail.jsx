@@ -10,16 +10,14 @@ import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const AppliancesMaintenanceContractDetail = ({
-  subtitle,
-  title,
-  reviewsbg,
-  titleSeo,
-  description,
-  Author,
-  Keyword,
-  URL }) => {
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,description,Author,Keyword,URL,Image }) => {
 
   const metaTitle = String(
     titleSeo || "Appliances AMC Services in Dubai | Maintenance Contract"
@@ -38,12 +36,13 @@ const AppliancesMaintenanceContractDetail = ({
   );
 
   const metaImage = String(
-    Image || "https://www.fajservices.ae/img/dishwasher-repair-service.avif"
+    Image ||  "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/dishwasher-repair-service/pubic"
   );
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
+
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -109,71 +108,6 @@ const AppliancesMaintenanceContractDetail = ({
 
     fetchData();
   }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
 
   return (
     <>
@@ -249,7 +183,7 @@ const AppliancesMaintenanceContractDetail = ({
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="Appliances AMC Services" />
+                <img className="bordered-img w-100" src={getImageSrc('dishwasher-repair-service')} alt="Appliances AMC Services" />
               </div>
             </div>
 
@@ -267,7 +201,7 @@ const AppliancesMaintenanceContractDetail = ({
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Cooking-Range-Repair-Nearby-You.avif`} alt="Appliances AMC Services" />
+                <img className="blue-border" src={getImageSrc('Cooking-Range-Repair-Nearby-You')} alt="Appliances AMC Services" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -458,7 +392,7 @@ const AppliancesMaintenanceContractDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" />
+                        <img src={getImageSrc('icon/24x7b')} alt="24x7" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Routine Service</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -469,7 +403,7 @@ const AppliancesMaintenanceContractDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={getImageSrc('icon/call')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">On-call services</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -483,7 +417,7 @@ const AppliancesMaintenanceContractDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={getImageSrc('icon/gearicon')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h3>
                       <p className="small">Knowing your commercial kitchen equipment is in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -494,7 +428,7 @@ const AppliancesMaintenanceContractDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={getImageSrc('icon/wellstar')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h3>
                       <p className="small">High-quality equipment may be more expensive initially, but it typically breaks down less frequently and requires fewer repairs.</p>
@@ -505,7 +439,7 @@ const AppliancesMaintenanceContractDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
+                        <img src={getImageSrc('icon/trained-b')} alt="trained icon" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h3>
                       <p className="small">Commercial kitchen equipment can improve the efficiency of daily tasks in your kitchen. · Lower Maintenance Costs · Superior Quality.</p>
@@ -516,7 +450,7 @@ const AppliancesMaintenanceContractDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={getImageSrc('icon/wellicon')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h3>
                       <p className="small">FAJ a Save hand maintenance. Here's a cost comparison: a commercial kitchen helps you avoid high startup equipment costs.</p>
@@ -527,7 +461,7 @@ const AppliancesMaintenanceContractDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
+                        <img src={getImageSrc('icon/annual-contract-b')} alt="annual contract icon" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h3>
                       <p className="small">FAJ is releasing a report on the condition of commercial kitchen equipment, outlining actions to enhance efficiency and safety.</p>
@@ -538,7 +472,7 @@ const AppliancesMaintenanceContractDetail = ({
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
+                        <img src={getImageSrc('icon/installation-b')} alt="installation icon" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h3>
                       <p className="small">FAJ technicians to provide customers with effective maintenance, repair for commercial kitchen equipment to ensure satisfaction.</p>
@@ -563,7 +497,7 @@ const AppliancesMaintenanceContractDetail = ({
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -574,7 +508,7 @@ const AppliancesMaintenanceContractDetail = ({
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -585,10 +519,10 @@ const AppliancesMaintenanceContractDetail = ({
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
@@ -597,14 +531,14 @@ const AppliancesMaintenanceContractDetail = ({
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -613,7 +547,7 @@ const AppliancesMaintenanceContractDetail = ({
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -623,7 +557,7 @@ const AppliancesMaintenanceContractDetail = ({
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -634,7 +568,7 @@ const AppliancesMaintenanceContractDetail = ({
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -884,10 +818,13 @@ const AppliancesMaintenanceContractDetail = ({
           </div>
         </section>
 
-        {/* Brands section */}
+      {/* Brands section */}
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
-            brandsData={brandsLogo_data}
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
             sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
@@ -902,7 +839,7 @@ const AppliancesMaintenanceContractDetail = ({
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
+            bgImg={reviewsbg}
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />
