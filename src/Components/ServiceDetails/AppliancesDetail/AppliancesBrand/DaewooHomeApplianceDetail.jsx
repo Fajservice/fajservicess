@@ -14,8 +14,13 @@ import GetQuoteButton from '../../../Buttons/GetQuoteButton';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daiganosischarges';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO

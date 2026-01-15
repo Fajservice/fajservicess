@@ -13,7 +13,13 @@ import GetQuoteButton from '../../../Buttons/GetQuoteButton';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Sharp Home Appliance Service and Sharp Refrigerator Repair in Dubai");

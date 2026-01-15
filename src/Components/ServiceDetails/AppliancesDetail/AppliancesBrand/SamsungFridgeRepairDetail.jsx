@@ -12,8 +12,14 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
-import Testimonial1 from "../../../Testimonial/Testimonial1";
+import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Samsung Fridge Repair in Dubai | Washing Machine Service Near");

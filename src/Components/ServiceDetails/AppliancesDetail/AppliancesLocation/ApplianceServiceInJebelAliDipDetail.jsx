@@ -12,8 +12,14 @@ import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
-import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
+import ApplianceSpecialise from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO

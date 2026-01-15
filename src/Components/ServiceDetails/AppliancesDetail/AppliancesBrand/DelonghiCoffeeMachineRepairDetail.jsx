@@ -11,8 +11,14 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import CallNowButton from "../../../Buttons/CallNowButton";
-import Testimonial1 from "../../../Testimonial/Testimonial1";
+import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "DeLonghi Coffee Machine Repair and Maintenance Service Dubai");

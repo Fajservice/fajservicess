@@ -12,8 +12,14 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import CallNowButton from "../../../Buttons/CallNowButton";
-import Testimonial1 from "../../../Testimonial/Testimonial1";
+import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Sub Zero Fridge Repair & Service in Dubai | Freezer Maintenance");
