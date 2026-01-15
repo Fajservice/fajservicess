@@ -7,27 +7,37 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
-import BookingFormModal from '../../BookingFormModal';
 import Testimonial1 from "../../Testimonial/Testimonial1";
+import BrandsSliderSection from "../../BrandsSliderSection";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Refrigeration Annual Maintenance Contract Service In Dubai");
   const metadescription = String(description || "FAJ fully experts in commercial freezer & chiller amc service in dubai. We offer freezer, cold room, refrigerator, commercial kitchen equipment maintenance");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Refrigeration Annual Maintenance Contract Service");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance-contact-services/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/techfridge.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/techfridge.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
+
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // State for fetched data
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   const openModal = useCallback((e) => {
@@ -58,20 +68,23 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     loadBackgroudImages();
   }, []);
 
-
+  // Fetch JSON data
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [faqsResponse, testimonialsResponse] = await Promise.all([
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/RefrigerationEquipData/FAQs/RefrigerationAMCServicesFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/RefrigerationEquipData/Testmonials/RefrigerationAMCServicesTestimonial.json`)
+          fetch(`${import.meta.env.BASE_URL}data/RefrigerationEquipData/Testmonials/RefrigerationAMCServicesTestimonial.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
         ]);
 
         const faqsData = await faqsResponse.json();
         const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
 
         setData(faqsData);
         setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
@@ -81,70 +94,6 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
     fetchData();
   }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
 
 
   return (
@@ -202,7 +151,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "20px" }}> Faj's Refrigeration Maintenance Service</h2>
 
-                <p className="">
+                <p>
                   Our commercial freezer, cold room, walk-in chiller, and cold storage annual maintenance contract ensure that your commercial refrigerator, fridge, chiller, and freezer needs are met with the highest level of care.
                   With extensive expertise in refrigeration unit maintenance, our team includes some of the finest professionals in the UAE.
                   <br />Since 2010, we have been repairing, cleaning, and maintaining a wide range of commercial chillers and freezers.
@@ -211,7 +160,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-ref-amc.avif`} alt="Refrigeration Maintenance Services" />
+                <img className="bordered-img w-100" src={getImageSrc('commercial-ref-amc')} alt="Refrigeration Maintenance Services" />
               </div>
             </div>
 
@@ -245,7 +194,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/techfridge.avif`} alt="Refrigeration Maintenance Services" />
+                <img className="blue-border" src={getImageSrc('techfridge')} alt="Refrigeration Maintenance Services" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -432,10 +381,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="row gx-3 gy-5 mt-0">
 
                 <div className="col-md-3 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" />
+                        <img src={getImageSrc('icon/24x7b')} alt="24x7" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Routine Service</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -443,10 +392,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                 </div>
                 <div className="col-md-3 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={getImageSrc('icon/call')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">On-call services</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -457,10 +406,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 </div>
 
                 <div className="col-md-3 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={getImageSrc('icon/gearicon')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h3>
                       <p className="small">Knowing your commercial kitchen equipment is in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -468,10 +417,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                 </div>
                 <div className="col-md-3 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={getImageSrc('icon/wellstar')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h3>
                       <p className="small">High-quality equipment may be more expensive initially, but it typically breaks down less frequently and requires fewer repairs.</p>
@@ -479,10 +428,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                 </div>
                 <div className="col-md-3 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
+                        <img src={getImageSrc('icon/trained-b')} alt="trained icon" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h3>
                       <p className="small">Commercial kitchen equipment can improve the efficiency of daily tasks in your kitchen. · Lower Maintenance Costs · Superior Quality.</p>
@@ -490,10 +439,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                 </div>
                 <div className="col-md-3 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={getImageSrc('icon/wellicon')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h3>
                       <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison: a commercial kitchen helps you avoid high startup equipment costs.</p>
@@ -501,10 +450,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                 </div>
                 <div className="col-md-3 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
+                        <img src={getImageSrc('icon/annual-contract-b')} alt="annual contract icon" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h3>
                       <p className="small">FAJ is releasing a report on the condition of commercial kitchen equipment, outlining actions to enhance efficiency and safety.</p>
@@ -512,10 +461,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                 </div>
                 <div className="col-md-3 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
+                        <img src={getImageSrc('icon/installation-b')} alt="installation icon" className="rounded shadow" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h3>
                       <p className="small">FAJ technicians to provide customers with effective maintenance, repair for commercial kitchen equipment to ensure satisfaction.</p>
@@ -538,11 +487,11 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>
                       We are dedicated to ensuring customer satisfaction through timely service, quick resolution of issues, and competitive pricing.
                     </p>
@@ -550,10 +499,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We specialise in freezer and chiller repairs, gaining the trust of major brands for their reliable service needs.</p>
                   </div>
                 </div>
@@ -561,10 +510,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>
                       Choose a day and time for your chiller and freezer repair in Dubai or Sharjah, with a 3–4 hour window for our technician’s arrival.
                     </p>
@@ -575,7 +524,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -583,10 +532,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
+                    <h3>Feeling Of Calm</h3>
                     <p>
                       An annual maintenance contract offers a full year of service, ensuring your freezer and chiller operate smoothly for your peace of mind.
                     </p>
@@ -595,11 +544,11 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3>Reliable, Priority, and Quick</h3>
                     <p>
                       You can count on our prompt service! We offer same-day repairs and next-day appointments to ensure your needs are met quickly.
                     </p>
@@ -607,10 +556,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
+                    <h3>Trustworthy</h3>
                     <p>
                       Our skilled technicians offer prompt service for major cooling brands, ensuring reliable performance and efficiency.
                     </p>
@@ -620,7 +569,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -683,6 +632,19 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           </div>
         </section>
 
+        {/* Brands section */}
+        {!isLoading && brandsLogo_data.length > 0 && (
+          <BrandsSliderSection
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
+            sectionId="home-brands"
+            logoMaxHeight="60px"
+            logoMaxWidth="120px"
+            containerHeight="100px"
+          />
+        )}
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

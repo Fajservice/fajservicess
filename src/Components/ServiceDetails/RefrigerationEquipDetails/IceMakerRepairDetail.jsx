@@ -11,7 +11,6 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
-import BookingFormModal from '../../BookingFormModal';
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BrandsSliderSection from "../../BrandsSliderSection";
 
@@ -22,12 +21,18 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Ice Maker Repair, IceMaker Repair, Commercial Ice Maker Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ice-maker-repair/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/newicemaker.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/newicemaker/public");
+  const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+  const getImageSrc = (imgPath) => {
+    if (!imgPath) return '';
+    if (imgPath.startsWith('https')) return imgPath;
+    return `${CDN}/${imgPath}/public`;
+  };
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -36,7 +41,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   // State for fetched data
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
-  const [brandsLogo_data, setBrandsLogodata] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   const openModal = useCallback((e) => {
@@ -67,23 +72,23 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     loadBackgroudImages();
   }, []);
 
-
+  // Fetch JSON data
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [faqsResponse, testimonialsResponse] = await Promise.all([
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/RefrigerationEquipData/FAQs/IceMakerRepairFaqs.json`),
           fetch(`${import.meta.env.BASE_URL}data/RefrigerationEquipData/Testmonials/IceMakerRepairTestimonial.json`),
-          fetch(`${import.meta.env.BASE_URL}Data/IceMakersBrandsLogo.json`)
+          fetch(`${import.meta.env.BASE_URL}data/IceMakersBrandsLogo.json`)
         ]);
 
         const faqsData = await faqsResponse.json();
         const testimonialsData = await testimonialsResponse.json();
-        const brandsLogoData = await brandsResponse.json();
+        const brandsData = await brandsResponse.json();
 
         setData(faqsData);
         setTestimonialData(testimonialsData);
-        setBrandsLogodata(brandsLogoData)
+        setBrandsLogoData(brandsData);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
@@ -93,70 +98,6 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
     fetchData();
   }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
 
   return (
     <>
@@ -189,8 +130,6 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Ice Maker Repair in Dubai | Commercial Ice Maker Machine Maintenance Services</h1>
-
-            {/* <h2 className="cs_fs_30">We provide top-quality repair and maintenance services for ice maker machines</h2> */}
             <p>
               If you need urgent ice maker repair service in Dubai, you've come to the right place! FAJ has been a trusted maintenance provider since 2010. We also specialise in commercial ice machine repairs, ensuring that businesses always have a reliable supply of ice.
               <br />If your ice maker is not working properly, contact FAJ Professionals! We prioritise customer satisfaction and offer customised solutions for all your ice maker repair and maintenance needs in Dubai.
@@ -209,7 +148,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Ice Maker Machine Maintenance in Dubai </h2>
+                <h2 className="cs_fs_24 mb-1"  style={{ fontSize: "24px" }}>Ice Maker Machine Maintenance in Dubai </h2>
 
                 <p className="mb-2">
                   Our experts are highly skilled and always work to a high-quality standard. We regularly provide ice machine servicing and repair services for a wide range of ice machine brands, including those used in restaurants, cafes, shops, hotels, and other establishments.
@@ -223,7 +162,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/icemaker2.avif`} alt="Ice Maker Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('icemaker2')} alt="Ice Maker Repair" />
 
               </div>
             </div>
@@ -236,13 +175,13 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Why is Ice Maker Machine Maintenance Service Important in Dubai?</h2>
-            <p className="">
+            <p >
               Regular maintenance of ice machines offers essential benefits that can positively impact your operations and bottom line.
             </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/newicemaker.avif`} alt="Ice Maker Repair" />
+                <img className="blue-border" src={getImageSrc('newicemaker')} alt="Ice Maker Repair" />
               </div>
               <div className="col-md-6">
 
@@ -436,10 +375,10 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div >
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -447,10 +386,10 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
@@ -460,10 +399,10 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div >
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                       <p className="small">Energy efficient ice machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -472,10 +411,10 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div >
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -484,10 +423,10 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div >
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home ice machine, delaying the need for replacements.</p>
@@ -498,10 +437,10 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div >
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h3>
@@ -524,21 +463,21 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3 >Reliable, Priority, and Quick</h3>
                     <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
+                    <h3 >Feeling Of Calm</h3>
                     <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
@@ -546,10 +485,10 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3 >You Are in Control</h3>
                     <p>Choose a day and time for your Ice Maker repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
@@ -558,36 +497,36 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3 >We Are Experts</h3>
                     <p>We are experts in Ice Maker repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3 >Great Value</h3>
                     <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
+                    <h3 >Trustworthy</h3>
                     <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
@@ -595,7 +534,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -636,25 +575,31 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         </section>
 
         {/* Brands section */}
-        <BrandsSliderSection
-          brandsData={brandsLogo_data}
-          sectionId="home-brands"
-          logoMaxHeight="60px"
-          logoMaxWidth="120px"
-          containerHeight="100px"
-        />
+        {!isLoading && brandsLogo_data.length > 0 && (
+          <BrandsSliderSection
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
+            sectionId="home-brands"
+            logoMaxHeight="60px"
+            logoMaxWidth="120px"
+            containerHeight="100px"
+          />
+        )}
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* testimobial section */}
-        <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+        {!isLoading && testimonial_data.length > 0 && (
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg={reviewsbg}
+            testimonialData={testimonial_data}
+            sectionId="home-testimonials"
+          />
+        )}
 
         {/* Faqs */}
         <section className="section cs_py_30  bg-dark-blue text-light">
