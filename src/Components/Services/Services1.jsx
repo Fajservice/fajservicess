@@ -111,6 +111,8 @@ const Services1 = () => {
         .services-slider{position:relative;overflow:hidden;width:100%}
         .services-slider__track{display:flex;transition:transform .6s ease;will-change:transform}
         .services-slider__slide{flex-shrink:0;padding:0 15px;box-sizing:border-box}
+        .services-slider__track{display:flex;transition:transform .6s ease;will-change:transform;align-items:stretch}
+        .services-slider__slide .cs_slide{display:flex;flex-direction:column;height:100%;width:100%}
       `}</style>
 
       <div className="cs_height_60"></div>
@@ -216,7 +218,7 @@ const ServiceCard = memo(({ item }) => {
         </div>
 
         <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
-          <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
+          <div className="cs_card_icon cs_center cs_mb_22">
             <img
               src={iconSrc}
               alt=""
@@ -243,7 +245,7 @@ const ServiceCard = memo(({ item }) => {
               {item.btnText}
             </span>
             <span className="cs_btn_icon cs_center">
-              <DoubleArrowIcon />
+              < DoubleArrowIcon />
             </span>
           </Link>
         </div>

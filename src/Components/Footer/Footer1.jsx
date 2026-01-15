@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const Icons = {
   Facebook: () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -222,7 +228,7 @@ const Footer1 = () => {
               </div>
               <div>
                 <img
-                  src={`${import.meta.env.BASE_URL}img/icons/payment_card.avif`}
+                src={getImageSrc('icon/payment_card')}
                   alt="Accepted payment methods"
                   width="270"
                   height="24"

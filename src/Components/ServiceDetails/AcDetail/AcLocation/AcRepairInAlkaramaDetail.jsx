@@ -18,7 +18,7 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const AcRepairInAlkaramaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AcRepairInAlkaramaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
 
     // For SEO
@@ -27,7 +27,7 @@ const AcRepairInAlkaramaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Al Karama, AC Maintenance, AC Repair, Air Conditioner Service, Air Conditioner Repair, Air Conditioner Maintenance, Central AC Service, Split AC Service, Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-karama/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
 
     subtitle = "Testimonial"

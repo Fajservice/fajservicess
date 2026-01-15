@@ -20,14 +20,14 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "AC Services In Al Khawaneej - Repair Inverter AC Dubai #1");
   const metadescription = String(description || "Fast & Reliable AC Services in Al Khawaneej, central, Inverter and split air conditioner maintenance service near me Dubai. Call now at 04330 0002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Service in Al Khawaneej, AC Repair in Al Khawaneej, AC Maintenance in Al Khawaneej, Inverter AC Service in Al Khawaneej, Split AC Service in Al Khawaneej/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-khawaneej/");
 
 

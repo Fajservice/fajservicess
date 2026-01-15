@@ -27,7 +27,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Al Jafiliya, Air Conditioning Service in Al Jafiliya, Air Con Maintenance & AC Installation in Al Jafiliya");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-jafiliya/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
