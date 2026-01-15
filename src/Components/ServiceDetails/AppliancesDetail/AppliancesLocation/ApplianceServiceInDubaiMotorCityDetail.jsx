@@ -13,12 +13,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInDubaiMotorCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInDubaiMotorCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services In Dubai Motor City - Fridge Repair");
     const metadescription = String(description || "Best Appliances Services in Dubai Motor City. Get Washing Machine Repair Near me Call at  043300002. Fix Refrigerator, Oven, Dishwasher Maintenance.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine repair in Dubai Motor City, Refrigerator repair in Dubai Motor City, Oven repair in Dubai Motor City, Dishwasher repair in Dubai Motor City, Appliance service in Dubai Motor City, Appliance maintenance in Dubai Motor City, Appliance repair near me, Home appliance service in Dubai Motor City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-motor-city/").replace(/\/?$/, '/');
 

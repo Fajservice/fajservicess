@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Best Appliances Services in The Ritz Carlton DIFC Near Me");
     const metadescription = String(description || "Get best appliance services in The Ritz Carlton DIFC. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine, oven & dishwasher fix");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in The Ritz Carlton DIFC, Fridge Repair in The Ritz Carlton DIFC, Oven Repair in The Ritz Carlton DIFC, Dishwasher Repair in The Ritz Carlton DIFC, Appliance Service in The Ritz Carlton DIFC, Appliance Repair in The Ritz Carlton DIFC");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-ritz-carlton-difc/").replace(/\/?$/, '/');
     subtitle = "Testimonial"

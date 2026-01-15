@@ -13,12 +13,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in The Greens - Washing Machine Repair");
     const metadescription = String(description || "Need appliances services in The Greens? FAJ offers refrigerator, washing machine, fridge repair and oven fix in dubai near me. Contact us 043300002 now.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in The Greens, Refrigerator Repair in The Greens, Fridge Repair in The Greens, Oven Repair in The Greens, Appliance Service in The Greens, Appliance Repair in The Greens, Appliance Maintenance in The Greens, Appliance Installation in The Greens");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-greens/").replace(/\/?$/, '/');
     subtitle = "Testimonial"

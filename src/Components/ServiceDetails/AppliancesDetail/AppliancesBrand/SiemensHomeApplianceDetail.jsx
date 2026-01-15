@@ -22,6 +22,7 @@ const SiemensHomeApplianceDetail = ({
     description,
     Author,
     Keyword,
+    Image,
     URL }) => {
 
     const metaTitle = String(
@@ -45,9 +46,9 @@ const SiemensHomeApplianceDetail = ({
     );
 
     const metaImage = String(
-        Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif"
+        Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public"
     );
-
+    
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

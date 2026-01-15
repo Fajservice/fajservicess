@@ -20,13 +20,13 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Aftron Fridge Repair and Aftron Washing Machine Service in Dubai");
     const metadescription = String(description || "Trusted Aftron fridge repair in Dubai, FAJ expert Aftron washing machine, dryer, dishwasher, cooking range oven service & repair center nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Aftron fridge repair, Aftron washing machine repair, Aftron cooker repair, Aftron oven repair, Aftron appliances maintenance, Aftron refrigerator fix, Aftron appliance service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/");
 

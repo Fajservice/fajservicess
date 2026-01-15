@@ -14,12 +14,12 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 
-const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Samsung Fridge Repair in Dubai | Washing Machine Service Near");
   const metadescription = String(description || "We specialise in Samsung fridge repair in Dubai. Book now for Samsung washing machine, dryer, refrigerator, dishwasher service repair center Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Samsung Fridge Repair Dubai, Samsung Washing Machine Repair Dubai, Samsung Dryer Repair Dubai, Samsung Dishwasher Repair Dubai, Samsung Stove Repair Dubai, Samsung Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/").replace(/\/?$/, '/');
 

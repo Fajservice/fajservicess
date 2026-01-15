@@ -14,12 +14,12 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "White Westinghouse Fridge Repair and Freezer Service in Dubai");
   const metadescription = String(description || "FAJ provides warranty for White Westinghouse fridge repair, refrigerator, washing machine service, and dryer maintenance & repair center near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "White Westinghouse Fridge Repair Dubai, White Westinghouse Washing Machine Repair Dubai, White Westinghouse Cooker Repair Dubai, White Westinghouse Oven Repair Dubai, White Westinghouse Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/white-westinghouse-fridge-repair-in-dubai-white-westinghouse-washing-machine-repair-in-dubai-white-westinghouse-cooker-repair-in-dubai-white-westinghouse-oven-repair-in-dubai-white-westinghouse-applia/").replace(/\/?$/, '/');
 

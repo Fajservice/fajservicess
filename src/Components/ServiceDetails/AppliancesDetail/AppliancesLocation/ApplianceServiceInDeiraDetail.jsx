@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Deira - Refrigerator Repair Dubai");
     const metadescription = String(description || "Expert appliance services in Deira. Get refrigerator repair near me in Dubai. Contact 043300002 to fix your washing machine, cooker, and dishwasher ");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "washing machine repair in deira, refrigerator repair in deira, appliance repair in deira, appliance service in deira, appliance maintenance in deira, appliance installation in deira, appliance repair near me, appliance service near me, appliance maintenance near me, appliance installation near me");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-deira/").replace(/\/?$/, '/');
 

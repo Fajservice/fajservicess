@@ -13,13 +13,13 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 
-const AppliancesServicesInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Appliances Services in Emirates Hills - Refrigerator Repair");
   const metadescription = String(description || "Faj offers appliance service in Emirates Hills. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, Coffee machine");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Emirates Hills, Refrigerator in Emirates Hills, Dishwasher in Emirates Hills, Tumble Dryer in Emirates Hills, Stove in Emirates Hills, Oven in Emirates Hills, Freezer in Emirates Hills, Coffee Machine in Emirates Hills");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-emirates-hills/").replace(/\/?$/, '/');
 

@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services In Umm Suqeim - Refrigerator Repair");
     const metadescription = String(description || "Best appliance services in Umm Suqeim. FAJ specializes in fridge repair near me in Dubai. Call 043300002 for reliable washing machine & oven fix.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in umm suqeim, Refrigerator in umm suqeim, Oven in umm suqeim, Dishwasher in umm suqeim, Appliances repair in umm suqeim, Appliances service in umm suqeim, Appliances maintenance in umm suqeim, Appliances installation in umm suqeim");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-umm-suqeim/").replace(/\/?$/, '/');
 

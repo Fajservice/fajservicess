@@ -14,12 +14,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || " Appliances Services in Al Wasl - Washing Machine Repair  ");
     const metadescription = String(description || "We are experts appliance service in Al Wasl, Dubai. Get refrigerator repair near me. Book 043300002 to fix your dishwasher, washing machine. ");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine Repair in AL wasl, Refrigerator Repair in Al Wasl, Dishwasher Repair in Al Wasl, Appliance Service in Al Wasl, Appliance Repair in Al Wasl, Home Appliance Service in Al Wasl, Home Appliance Repair in Al Wasl");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-wasl/").replace(/\/?$/, '/');
     subtitle = "Testimonial"

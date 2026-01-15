@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Dubai Healthcare City - Fridge Repair");
     const metadescription = String(description || "We offer best appliance services in Dubai Healthcare City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Dubai Healthcare City, Fridge Repair Dubai Healthcare City, Dishwasher Repair Dubai Healthcare City, Oven Repair Dubai Healthcare City, Appliance Services in Dubai Healthcare City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-healthcare-city/").replace(/\/?$/, '/');
 

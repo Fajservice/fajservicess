@@ -14,13 +14,13 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const VikingAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const VikingAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Viking Appliances Service in Dubai | Refrigerator Repair | Oven Fix");
   const metadescription = String(description || "Viking appliance service by professional technicians for Viking refrigerator, fridge freezer, range, cooker, oven & dishwasher repair center nearby in Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Viking Appliances Service, Viking Refrigerator Repair, Viking Oven Fix, Viking Dishwasher Service, Viking Stove Repair, Viking Appliance Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/viking-appliances-service/").replace(/\/?$/, '/');
 

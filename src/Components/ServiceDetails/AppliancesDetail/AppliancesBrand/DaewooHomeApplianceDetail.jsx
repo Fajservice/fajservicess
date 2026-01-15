@@ -16,13 +16,13 @@ import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daigano
 import Testimonial1 from '../../../Testimonial/Testimonial1';
 
 
-const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Daewoo Home Appliances Repair - Washing Machine Repair");
     const metadescription = String(description || "Daewoo appliances repair Dubai. We are experts in Daewoo refrigerator, fridge, washing machine, dishwasher, and oven fix repair near me Dubai.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Daewoo home appliances repair, Daewoo washing machine repair, Daewoo fridge repair, Daewoo dishwasher repair, Daewoo oven repair, Daewoo appliance service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/daewoo-home-appliances-repair/").replace(/\/?$/, '/');
     subtitle = "Testimonial"

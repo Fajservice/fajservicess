@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInJebelAliFreeZoneDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInJebelAliFreeZoneDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Jebel Ali Free Zone -Fridge Repair");
     const metadescription = String(description || "Get appliance services in Jebel Ali Free Zone. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jebel Ali Free Zone, Refrigerator Repair in Jebel Ali Free Zone, Dishwasher Repair in Jebel Ali Free Zone, Appliance Service in Jebel Ali Free Zone, Fridge Repair in Jebel Ali Free Zone, Home Appliance Service in Jebel Ali Free Zone");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-free-zone/").replace(/\/?$/, '/');
 

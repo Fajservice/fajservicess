@@ -14,13 +14,13 @@ import GetQuoteButton from '../../../Buttons/GetQuoteButton';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daiganosischarges';
 
-const BoschHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const BoschHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Bosch Appliance - Fridge & Washing Machine Repair Service");
     const metadescription = String(description || "Bosch home appliancs services. Expert Bosch washing machine repair, Bosch refrigerator, fridge, oven, cooker, dishwasher service near you Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Bosch home appliance repair, Bosch washing machine repair, Bosch fridge repair, Bosch cooker repair, Bosch dishwasher service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/").replace(/\/?$/, '/');
 

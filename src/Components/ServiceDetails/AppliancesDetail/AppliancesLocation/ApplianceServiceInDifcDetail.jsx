@@ -13,12 +13,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || " Best Appliances Services in DIFC- Washing Machine Repair");
     const metadescription = String(description || "We offer best appliance services in DIFC. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in DIFC, Appliance Repair DIFC, Appliance Service DIFC, Fridge Repair DIFC, Oven Repair DIFC, Dishwasher Repair DIFC, Washing Machine Repair DIFC");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-difc/").replace(/\/?$/, '/');
 

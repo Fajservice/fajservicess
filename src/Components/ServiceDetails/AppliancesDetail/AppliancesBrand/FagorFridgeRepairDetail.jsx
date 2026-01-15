@@ -15,12 +15,12 @@ import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daigano
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 
-const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Fagor Fridge Repair | Dishwasher | Ice Machine Service Dubai");
   const metadescription = String(description || "At Fagor Professional, FAJ offers reliable Fagor refrigerator, washing machine, dryer, dishwasher, ice maker, oven repair & maintenance service in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Fagor Fridge Repair, Fagor Washing Machine Repair, Fagor Cooker Repair, Fagor Oven Repair, Fagor Appliances Maintenance, Fagor Refrigerator Fix, Fagor Appliance Service");
   const metaURL = String(URL || "https://www.fajservices.ae/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/").replace(/\/?$/, '/');
   subtitle = "Testimonial"

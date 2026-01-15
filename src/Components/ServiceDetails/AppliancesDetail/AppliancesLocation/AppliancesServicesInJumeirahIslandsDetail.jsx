@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Appliances Services in Jumeirah Islands - Fridge Repair");
   const metadescription = String(description || "Same-day appliances services in Jumeirah Islands. Get refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher & fridge");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in jumeirah islands, Fridge Repair in Jumeirah Islands, Dishwasher Repair in Jumeirah Islands, Appliances Services in Jumeirah Islands, Appliances Repair in Jumeirah Islands, Appliance Service Center in Jumeirah Islands, Appliance Repair Service in Jumeirah Islands, Appliance Repair in Jumeirah Islands");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-islands/").replace(/\/?$/, '/');
 

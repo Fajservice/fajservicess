@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Best Appliances Services in Jumeirah Golf Estates Near Me");
   const metadescription = String(description || "Best appliances services in Jumeirah Golf Estates. Get fast  washing machine repair near me in Dubai. Book 043300002 to fix your refrigerator, & oven");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Golf Estates, Refrigerator in Jumeirah Golf Estates, Oven in Jumeirah Golf Estates, Dishwasher in Jumeirah Golf Estates, Tumble Dryer in Jumeirah Golf Estates, Stove in Jumeirah Golf Estates, Freezer in Jumeirah Golf Estates, Coffee Machine in Jumeirah Golf Estates");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/").replace(/\/?$/, '/');
 

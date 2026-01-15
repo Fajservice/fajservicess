@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || " Appliances Services in Al Karama - Fridge Repair Service");
     const metadescription = String(description || "FAJ offers appliance service in Al Karama. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "appliance service in Al Karama, washing machine repair in al karama, refrigerator repair in al karama");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-karama/").replace(/\/?$/, '/');
 

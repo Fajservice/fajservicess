@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Cedre Villas Silicon Oasis Dubai ");
     const metadescription = String(description || "FAJ provides appliance services in Cedre Villas, Silicon Oasis, Dubai. Get fast washing machine repair & maintenance near me. Book 043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing machine repair in Cedre Villas Silicon Oasis Dubai, refrigerator repair in Cedre Villas Silicon Oasis Dubai, dishwasher repair in Cedre Villas Silicon Oasis Dubai, appliance repair in Cedre Villas Silicon Oasis Dubai, appliance service in Cedre Villas Silicon Oasis Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-cedre-villas-silicon-oasis-dubai/").replace(/\/?$/, '/');
 

@@ -15,12 +15,12 @@ import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daigano
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 
-const MaytagFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const MaytagFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Maytag Fridge Repair & Maytag Washing Machine Service in Dubai");
   const metadescription = String(description || "We specialise in Maytag Fridge Repair in Dubai. May Tag appliance, refrigerator, freezer, washing machine, dryer, maintenance & service centre near me.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Maytag Fridge Repair Dubai, Maytag Washing Machine Repair Dubai, Maytag Cooker Repair Dubai, Maytag Oven Repair Dubai, Maytag Appliances Maintenance Dubai, Maytag Refrigerator Fix Repairs Service");
   const metaURL = String(URL || "https://www.fajservices.ae/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/").replace(/\/?$/, '/');
 

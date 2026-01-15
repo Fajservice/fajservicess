@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const HomeAppliancesServiceCentreInJltDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const HomeAppliancesServiceCentreInJltDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Home Appliances Service in JLT - Refrigerator Repair Dubai");
   const metadescription = String(description || "FAJ offers home appliances service in JLT, Dail 043300002 for Electrolux, LG, Daewoo, Bosch, Teka fridge, washing machine, oven, dishwasher repair");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || " Washing Machine in Jlt, Refrigerator in Jlt, Dishwasher in Jlt, Oven in Jlt, Tumble Dryer in Jlt, Home Appliances Service Centre in Jlt, Home Appliances Repair Service in Jlt, Home Appliances Installation Service in Jlt, Home Appliances Maintenance Service in Jlt");
   const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/").replace(/\/?$/, '/');
 

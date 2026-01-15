@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Al Jafiliya - Washing Machine Repair");
     const metadescription = String(description || "We offer best appliance services in Al Jafiliya. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in al jafiliya, Appliances Services in Al Jafiliya, Appliance Repair in Al Jafiliya, Fridge Repair in Al Jafiliya, Oven Repair in Al Jafiliya, Dishwasher Repair in Al Jafiliya");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-jafiliya/").replace(/\/?$/, '/');
 

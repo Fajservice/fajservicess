@@ -11,12 +11,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServiceInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServiceInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Appliances Services in The Limestone House DIFC Near Me");
   const metadescription = String(description || "Get appliances services in the Limestone house DIFC. Looking for refrigerator, fridge, washing machine repair and oven fix near me than call at 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in limestone house DIFC, Refrigerator in limestone house DIFC, Dishwasher in limestone house DIFC, Oven in limestone house DIFC, Appliances service in limestone house DIFC, Appliances repair in limestone house DIFC, Appliances maintenance in limestone house DIFC, Appliances installation in limestone house DIFC");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-limestone-house-difc/").replace(/\/?$/, '/');
 

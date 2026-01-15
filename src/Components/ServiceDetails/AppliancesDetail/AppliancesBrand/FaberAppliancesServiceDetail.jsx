@@ -14,13 +14,13 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Faber Appliances Service | Faber Oven Repair in Dubai");
     const metadescription = String(description || "Faber Appliance Service FAJ offers reliable repair for oven, cooking range, hood, dishwasher, washing machine, and refrigerator in Dubai.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Faber Appliances Service, Faber Oven Repair, Faber Dishwasher Repair, Faber Washing Machine Repair, Faber Fridge Repair, Faber Cooker Repair, Faber Hood Repair, Faber Appliance Maintenance Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/faber-appliances-service/").replace(/\/?$/, '/');
     subtitle = "Testimonial"

@@ -14,13 +14,13 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "De Dietrich Fridge Repair | Stove & Oven Service in Dubai");
   const metadescription = String(description || "De Dietrich appliances service, with reliable De Dietrich fridge repair, freezer, dishwasher, washer dryer, stove & oven repair center near you, Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "De Dietrich Fridge Repair, De Dietrich Washing Machine Repair, De Dietrich Cooker Repair, De Dietrich Oven Repair, De Dietrich Appliances Maintenance in Dubai, De Dietrich Appliance Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/de-dietrich-fridge-repair-in-dubai-de-dietrich-washing-machine-repair-in-dubai-de-dietrich-cooker-repair-in-dubai-de-dietrich-oven-repair-in-dubai-de-dietrich-appliances-maintenance-in-dubai-de-dietri/").replace(/\/?$/, '/');
   subtitle = "Testimonial"

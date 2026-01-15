@@ -13,12 +13,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services In Mudon - Fridge Repair Dubai");
     const metadescription = String(description || "FAJ offers appliances services in Mudon. Looking for refrigerator, fridge, washing machine repair and oven fix in Dubai near me. Call at 043300002.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Mudon, Fridge Repair in Mudon, Appliance Repair in Mudon, Appliance Service in Mudon, Fridge Service in Mudon, Washing Machine Service in Mudon, Oven Repair in Mudon, Dishwasher Repair in Mudon, Appliance Maintenance in Mudon");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-mudon/").replace(/\/?$/, '/');
 

@@ -13,12 +13,12 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || " Appliances Services in Bur Dubai - Fridge Repair Near Me");
     const metadescription = String(description || "We are experts in appliance services in Bur Dubai. Get the best refrigerator repair near me. Contact 043300002 to fix your washing machine & oven");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine repair in bur dubai, Fridge repair near me bur dubai, Appliance service in bur dubai, Appliance repair in bur dubai, Oven repair in bur dubai, Dishwasher repair in bur dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-bur-dubai/").replace(/\/?$/, '/');
 

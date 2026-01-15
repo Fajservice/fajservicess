@@ -14,12 +14,12 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
-const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Franke Appliances Repair | Dishwasher & Oven Service in Dubai");
   const metadescription = String(description || "With Warranty, Franke appliances repair in Dubai. Best Franke fridge, refrigerator, washing machine, cooker service, & oven repair center near you Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Franke Appliances Repair, Franke Fridge Repair, Franke Washing Machine Repair, Franke Cooker Repair, Franke Dishwasher Repair, Franke Oven Repair, Franke Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/franke-appliances-repair-service-in-dubai/").replace(/\/?$/, '/');
   subtitle = "Testimonial"

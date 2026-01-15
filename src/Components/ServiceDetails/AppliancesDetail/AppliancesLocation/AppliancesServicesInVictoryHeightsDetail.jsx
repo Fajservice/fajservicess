@@ -13,13 +13,13 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AppliancesServicesInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Best Appliances Services in Victory Heights - Fridge Repair");
   const metadescription = String(description || "FAJ offers appliance service in Victory Heights. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, coffee machine");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Victory Heights, Refrigerator in Victory Heights, Dishwasher in Victory Heights, Tumble Dryer in Victory Heights, Stove in Victory Heights, Oven in Victory Heights, Freezer in Victory Heights, Coffee Machine in Victory Heights");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-victory-heights/").replace(/\/?$/, '/');
 

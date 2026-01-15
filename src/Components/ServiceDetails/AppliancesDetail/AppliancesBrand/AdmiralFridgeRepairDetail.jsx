@@ -18,13 +18,13 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Admiral Fridge Repair & Admiral Washing Machine Service Dubai");
     const metadescription = String(description || "We are offering an Admiral fridge repair. Including dryer, dishwasher,  freezer, cooking range, and oven service centre near me. Call us now.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif";
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Amiral Fridge Repair, Admiral Washing Machine Repair, Admiral Cooker Repair, Admiral Oven Repair, Admiral Appliances Maintenance, Admiral Refrigerator Fix, Admiral Appliance Service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/");
 
