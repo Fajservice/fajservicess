@@ -15,7 +15,13 @@ import AcProperties from "../../../Common/AcProperties";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
@@ -30,7 +36,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -185,7 +191,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in Al Mirdif" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="AC Repair in Al Mirdif" />
 
               </div>
             </div>
@@ -215,7 +221,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in Al Mirdif" />
+                <img className="blue-border" src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')} alt="Air Conditioning Service in Al Mirdif" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -390,7 +396,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                        <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
                       <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
@@ -400,7 +406,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                        <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                       <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
@@ -410,7 +416,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                        <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
@@ -420,7 +426,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                        <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
@@ -430,7 +436,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                        <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
                       <p className="small">We ensure you get optimal air flow around each room as needed.</p>
@@ -440,7 +446,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                        <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">Our team provides vital feedback on your AC's health and any needed air con repair.</p>
@@ -465,7 +471,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -476,7 +482,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -487,7 +493,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -500,14 +506,14 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
 
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -516,7 +522,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -527,7 +533,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -541,7 +547,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>
@@ -602,7 +608,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         <Testimonial1
           subtitle="What Our Clients Say"
           title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
+          bgImg={reviewsbg}
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />

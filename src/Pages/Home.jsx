@@ -104,9 +104,9 @@ const Home = ({
 
         <Suspense fallback={null}>
           <About1
-            img1={`${CDN}/69f7629e-c166-42e8-2c20-af80a7195800/public`}
-            img2={`${CDN}/9c6a0125-2b8f-4991-71bd-c6355e724f00/public`}
-            img3={`${CDN}/86557209-5038-4665-99e2-5f5ec3d08300/public`}
+            img1={`${CDN}/about_img_1/public`}
+            img2={`${CDN}/about_img_2/public`}
+            img3={`${CDN}/about_img_3/public`}
             expDescrip="We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality."
             number="(+971) 507464712"
             telLink="tel:+971507464712"

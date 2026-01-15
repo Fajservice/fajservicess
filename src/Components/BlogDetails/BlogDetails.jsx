@@ -403,7 +403,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         <h2>{blogPost[h2Key]}</h2>
         {blogPost[imgKey] && (
           <div className="col-md-8">
-            <img src={blogPost[imgKey]} alt={blogPost.title} fetchpriority="high" decoding="async" width="100%" height="auto"/>
+            <img src={getImageSrc(blogPost[imgKey])} alt={blogPost.title} fetchpriority="high" decoding="async" width="100%" height="auto"/>
           </div>
         )}
 
@@ -421,7 +421,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               <h3 className="cs_fs_24 mb-2">{blogPost[h3Key]}</h3>
               {blogPost[h3ImgKey] && (
                 <div className="col-md-8">
-                  <img src={blogPost[h3ImgKey]} alt={blogPost.title} fetchpriority="high" decoding="async" width="100%" height="auto"/>
+                  <img src={getImageSrc(blogPost[h3ImgKey])} alt={blogPost.title} fetchpriority="high" decoding="async" width="100%" height="auto"/>
                 </div>
               )}
               {renderContent(blogPost[h3ContentKey])}
@@ -449,7 +449,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "");
   const metaURL = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`);
-  const metaImage = blogPost.img ? `https://www.fajservices.ae${blogPost.img}` : '';
+  const metaImage = blogPost.img ? getImageSrc(blogPost.img) : '';
 
   return (
     <>
@@ -482,7 +482,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
               <div className="cs_post_details">
-                {blogPost.img && <img src={blogPost.img} alt={blogPost.title} fetchpriority="high" decoding="async" width="100%" height="auto"/>}
+                {blogPost.img && <img src={getImageSrc(blogPost.img)} alt={blogPost.title} fetchpriority="high" decoding="async" width="100%" height="auto"/>}
                 
                 <div className="cs_post_meta_wrapper cs_mb_20">
                   <div className="cs_post_meta">
@@ -654,7 +654,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     {allPosts && allPosts.length > 0 && allPosts.slice(0, 10).map((post, index) => (
                       <div className="cs_recent_post" key={index}>
                         <Link to={`/blog/${post.slug}/`} className="cs_recent_post_thumb">
-                          <img src={post.img} alt="Recent Post Image" fetchpriority="high" decoding="async" width="100%" height="auto"/>
+                          <img src={getImageSrc(post.img)} alt="Recent Post Image" fetchpriority="high" decoding="async" width="100%" height="auto"/>
                         </Link>
                         <div className="cs_recent_post_right">
                           <p className="cs_recent_posted_by cs_fs_14">

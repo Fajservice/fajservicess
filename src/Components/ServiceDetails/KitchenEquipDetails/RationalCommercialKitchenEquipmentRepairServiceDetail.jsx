@@ -20,7 +20,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -468,7 +468,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
@@ -478,7 +478,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
@@ -491,7 +491,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -510,7 +510,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -519,7 +519,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -531,7 +531,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -627,7 +627,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
         <Testimonial1
           subtitle="What Our Clients Say"
           title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
+          bgImg={reviewsbg}
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />

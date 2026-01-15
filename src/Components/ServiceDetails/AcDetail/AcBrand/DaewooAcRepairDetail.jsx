@@ -31,7 +31,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -569,7 +569,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <Testimonial1
           subtitle="What Our Clients Say"
           title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
+          bgImg={reviewsbg}
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />

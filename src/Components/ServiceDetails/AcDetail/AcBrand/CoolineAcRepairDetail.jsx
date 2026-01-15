@@ -31,7 +31,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -514,7 +514,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>
@@ -605,7 +605,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         <Testimonial1
           subtitle="What Our Clients Say"
           title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
+          bgImg={reviewsbg}
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />

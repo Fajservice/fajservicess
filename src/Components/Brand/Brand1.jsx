@@ -1,6 +1,12 @@
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const Brand1 = () => {
 
     useEffect(() => {
@@ -12,19 +18,20 @@ const Brand1 = () => {
         <div className="container">
           <div className="cs_brands_wrapper cs_white_bg cs_heading_color cs_bg_filed" data-background={`${import.meta.env.BASE_URL}img/brand_bg_1.svg`}>
             <div className="cs_brand">
-                <img src={`${import.meta.env.BASE_URL}img/companylogos/airforce.avif`} alt="Air Force" />
+                <img src={getImageSrc('companylogos/airforce')} alt="Air Force" />
             </div>
             <div className="cs_brand">
-                <img src={`${import.meta.env.BASE_URL}img/companylogos/al-rawabi.avif`} alt="Al Rawabi" />
+                
+                <img src={getImageSrc('companylogos/al-rawabi')} alt="Al Rawabi" />
             </div>
             <div className="cs_brand">
-                <img src={`${import.meta.env.BASE_URL}img/companylogos/dubai properties.avif`} alt="Dubai Properties" />
+                <img src={getImageSrc('companylogos/dubai properties')} alt="Dubai Properties" />
             </div>
             <div className="cs_brand">
-                <img src={`${import.meta.env.BASE_URL}img/companylogos/fawaz.avif`} alt="Fawaz" />
+                <img src={getImageSrc('companylogos/fawaz')} alt="Fawaz" />
             </div>
             <div className="cs_brand">
-                <img src={`${import.meta.env.BASE_URL}img/companylogos/transguard.avif`} alt="Transguard" />
+                <img src={getImageSrc('companylogos/transguard')} alt="Transguard" />
             </div>
           </div>
         </div>

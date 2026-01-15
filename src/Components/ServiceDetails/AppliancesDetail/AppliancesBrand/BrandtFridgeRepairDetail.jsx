@@ -16,9 +16,9 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+    if (!imgPath) return '';
+    if (imgPath.startsWith('https')) return imgPath;
+    return `${CDN}/${imgPath}/public`;
 };
 const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
@@ -34,6 +34,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = getImageSrc('testimonialbg')
+
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -67,8 +68,8 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         const fetchData = async () => {
             try {
                 const [faqsResponse, testimonialsResponse] = await Promise.all([
-                    fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json`),
-                    fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`)
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json`)
                 ]);
 
                 const faqsData = await faqsResponse.json();
@@ -86,46 +87,12 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         fetchData();
     }, []);
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    };
-
-
     return (
         <>
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content="">{metadescription}</meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
@@ -401,7 +368,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={getImageSrc('icon/Optimal-Performance')}alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
                                             <p className="small">
@@ -442,7 +409,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={getImageSrc('icon/extending')}alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                                             <p className="small">
@@ -522,7 +489,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="uspcol col-3">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img src={getImageSrc('icon/value')}alt="FAJ icon service" />
+                                        <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
@@ -531,7 +498,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                 </div>
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img src={getImageSrc('icon/confidence-guarantee')}alt="FAJ icon service" />
+                                        <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                                     </div>
                                     <div className="usptext">
@@ -541,7 +508,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                 </div>
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img src={getImageSrc('icon/trustworthy')}alt="FAJ icon service" />
+                                        <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
@@ -694,13 +661,15 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
-                <Testimonial1
-                    subtitle="What Our Clients Say"
-                    title="Customer <span>Reviews</span>"
-                    bgImg={reviewsbg}
-                    testimonialData={testimonial_data}
-                    sectionId="home-testimonials"
-                />
+                {!isLoading && testimonial_data.length > 0 && (
+                    <Testimonial1
+                        subtitle="What Our Clients Say"
+                        title="Customer <span>Reviews</span>"
+                        bgImg="img/testimonialbg.jpg"
+                        testimonialData={testimonial_data}
+                        sectionId="home-testimonials"
+                    />
+                )}
 
                 {/* Faqs */}
                 <section className="section cs_py_30  bg-dark-blue text-light">

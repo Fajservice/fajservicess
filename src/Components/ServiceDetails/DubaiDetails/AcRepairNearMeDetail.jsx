@@ -24,7 +24,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -229,7 +229,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                        <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Optimal AC Performance</h3>
                       <p className="small">Regular maintenance ensures that your AC operates at peak performance, keeping you cool and comfortable throughout the year.</p>
@@ -239,7 +239,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                        <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Improved Air Quality</h3>
                       <p className="small"> Clean filters and vents ensure fresher, healthier air circulates in your home, free from dust, allergens, and pollutants.</p>
@@ -249,7 +249,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                        <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
@@ -259,7 +259,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                        <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Extended AC Lifespan</h3>
                       <p className="small">Proper care and maintenance can significantly extend the lifespan of your AC unit, helping you save money on premature replacements.</p>
@@ -269,7 +269,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                        <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Energy Efficiency</h3>
                       <p className="small">A well-maintained AC consumes less energy, which leads to lower utility bills and a reduced environmental impact.</p>
@@ -279,7 +279,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                        <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Peace of Mind</h3>
                       <p className="small">With FAJ Company's AC Service in Dubai, you can enjoy peace of mind knowing your cooling needs are in expert hands.</p>
@@ -303,7 +303,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -314,7 +314,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -325,7 +325,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -344,7 +344,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -353,7 +353,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -363,7 +363,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>

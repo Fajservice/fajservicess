@@ -56,7 +56,7 @@ const ContactPage = ({titleSeo, description, Author, Keyword, URL }) => {
                 number1="+971 50 746 4712"
                 number1Link="tel:+971507464712"
                 clientNumber="5,400"
-                img="img/contact-us-image.avif"
+                img="contact-us-image"
                 client="Happy Clients"
                 subtitle2="Contact us"
                 title2="Book An Appointment"

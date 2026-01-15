@@ -530,7 +530,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img src={getImageSrc('benafit-acimg')} alt="Post Image" />
                 </div>
               </div>
               <div className="col-lg-4">

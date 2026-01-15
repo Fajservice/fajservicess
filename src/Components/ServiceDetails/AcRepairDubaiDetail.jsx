@@ -16,6 +16,12 @@ import Blog2 from "../Blog/Blog2";
 import Testimonial1 from "../Testimonial/Testimonial1";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+
 const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "AC Repair & Maintenance Services in Dubai | AC Fix Near Me");
@@ -27,7 +33,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);

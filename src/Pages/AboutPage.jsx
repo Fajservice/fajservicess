@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 import {Helmet, HelmetProvider } from "react-helmet-async";
 import TimelineSection from "../Components/About/Timelines";
 import Services3 from "../Components/Services/Services3";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const AboutPage = () => {
 
@@ -58,13 +64,13 @@ const AboutPage = () => {
                         <div className="col-xl-6">
                         <div className="cs_about_thumbnail_wrapper position-relative">
                             <div className="cs_about_thumbnail">
-                            <img src={`${import.meta.env.BASE_URL}img/about_img_1.avif`}  alt="About Image" />
+                            <img src={getImageSrc('about_img_1')}  alt="About Image" />
                             </div>
                             <div className="cs_about_thumbnail mt-4">
-                            <img src={`${import.meta.env.BASE_URL}img/about_img_2.avif`}  alt="About Image" />
+                            <img src={getImageSrc('about_img_2')}  alt="About Image" />
                             </div>
                             <div className="cs_about_thumbnail">
-                            <img src={`${import.meta.env.BASE_URL}img/about_img_3.avif`}  alt="About Image" />
+                            <img src={getImageSrc('about_img_3')}  alt="About Image" />
                             </div>
                             <div className="cs_esperience_text position-absolute">
                             <h2 className="cs_experience_title mb-0">
@@ -80,10 +86,10 @@ const AboutPage = () => {
                             <div className="cs_phone_number cs_fs_20 cs_semibold">(+971) 507464712</div>
                             </a>
                             <div className="cs_about_shape_1 position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/shapes/gear_2.svg`} alt="Gear Shape" />
+                            <img src={getImageSrc('gear_2')} alt="Gear Shape" />
                             </div>
                             <div className="cs_about_shape_2 position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/shapes/gear_1.svg`}  alt="Gear Shape" />
+                            <img src={getImageSrc('gear_2')}  alt="Gear Shape" />
                             </div>
                         </div>
                         </div>

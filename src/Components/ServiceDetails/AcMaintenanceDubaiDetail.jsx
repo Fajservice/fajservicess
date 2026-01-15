@@ -28,7 +28,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -216,7 +216,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service" />
+                <img className="blue-border" src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')} alt="Ac Service" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -436,7 +436,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
         <Testimonial1
           subtitle="What Our Clients Say"
           title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
+          bgImg={reviewsbg}
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />

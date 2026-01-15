@@ -1,8 +1,12 @@
-
 import {Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
-import HeaderForm from "../Headeform/HeaderForm";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
@@ -52,420 +56,417 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
               <div className="row">
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img  src="/img/portfolio-clients/NTDE.png" alt="portfolio" />
+                    <img src={getImageSrc('portfolio-clients/NTDE')} alt="NTDE" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/Belhasa-real-estate.jpeg" alt="Belhasa-real-estate" />
+                    <img src={getImageSrc('portfolio-clients/Belhasa-real-estate')} alt="Belhasa-real-estate" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/Millennium.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/Millennium')} alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/abensal.jpg"
-                    alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/abensal')} alt="Abensal" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/tornatech-1.png" 
-                    alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/tornatech-1')} alt="Tornatech" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/holidayinn.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/holidayinn')} alt="Holiday Inn" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/partyzone.jpeg" 
-                    alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/partyzone')} alt="Party Zone" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/imperial.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/imperial')} alt="Imperial" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/pomegranate.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/pomegranate')} alt="Pomegranate" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/emirates-catering.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/emirates-catering')} alt="Emirates Catering" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/roseleaf.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/roseleaf')} alt="Roseleaf" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/z-cars.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/z-cars')} alt="Z Cars" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/AirForce.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/AirForce')} alt="Air Force" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/transguard.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/transguard')} alt="Transguard" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/tsm.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/tsm')} alt="TSM" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/tirinity.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/tirinity')} alt="Trinity" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/silver.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/silver')} alt="Silver" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/takeda.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/takeda')} alt="Takeda" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/cherwell.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/cherwell')} alt="Cherwell" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/mfl.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/mfl')} alt="MFL" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/sakr.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/sakr')} alt="Sakr" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/ace.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/ace')} alt="Ace" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/uniworld.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/uniworld')} alt="Uniworld" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/mirchi.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/mirchi')} alt="Mirchi" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/desert.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/desert')} alt="Desert" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/fratelli.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/fratelli')} alt="Fratelli" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/VIKAS.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/VIKAS')} alt="Vikas" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/core-me.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/core-me')} alt="Core ME" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/autohaus.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/autohaus')} alt="Autohaus" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/AKAS.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/AKAS')} alt="AKAS" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/MOBH.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/MOBH')} alt="MOBH" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/gtech.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/gtech')} alt="GTech" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/layaly.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/layaly')} alt="Layaly" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/seatrade.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/seatrade')} alt="Seatrade" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/accuro.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/accuro')} alt="Accuro" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/max.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/max')} alt="Max" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/zaya.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/zaya')} alt="Zaya" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/al-rawabi.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/al-rawabi')} alt="Al Rawabi" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/six.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/six')} alt="Six" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/watts.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/watts')} alt="Watts" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/mammaitalia.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/mammaitalia')} alt="Mamma Italia" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/kabab.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/kabab')} alt="Kabab" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/urbantails.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/urbantails')} alt="Urban Tails" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/al-thika.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/al-thika')} alt="Al Thika" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/dkint.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/dkint')} alt="DK Int" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/dpworld.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/dpworld')} alt="DP World" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/goldensun.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/goldensun')} alt="Golden Sun" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/ubl.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/ubl')} alt="UBL" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/berts.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/berts')} alt="Berts" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/beanstalk.jpeg" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/beanstalk')} alt="Beanstalk" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/reliance.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/reliance')} alt="Reliance" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/BSBG.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/BSBG')} alt="BSBG" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/al-rayan.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/al-rayan')} alt="Al Rayan" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/golden-gate.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/golden-gate')} alt="Golden Gate" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/neuro-spinal-hospital.png" />
+                    <img src={getImageSrc('portfolio-clients/neuro-spinal-hospital')} alt="Neuro Spinal Hospital" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/Majid-al-futtaim.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/Majid-al-futtaim')} alt="Majid Al Futtaim" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/cmc.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/cmc')} alt="CMC" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/saken-properties.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/saken-properties')} alt="Saken Properties" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/al-yousaf-motor.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/al-yousaf-motor')} alt="Al Yousaf Motor" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/EMS.png" alt="Millennium"  />
+                    <img src={getImageSrc('portfolio-clients/EMS')} alt="EMS" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/caramel-group.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/caramel-group')} alt="Caramel Group" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/obegi.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/obegi')} alt="Obegi" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/concordia.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/concordia')} alt="Concordia" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/driven-properties.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/driven-properties')} alt="Driven Properties" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/foodie-co.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/foodie-co')} alt="Foodie Co" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/mattress.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/mattress')} alt="Mattress" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/al-baraa.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/al-baraa')} alt="Al Baraa" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/inaya.png" alt="Millennium" />
+                    <img src={getImageSrc('portfolio-clients/inaya')} alt="Inaya" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/droo.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/droo')} alt="Droo" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/cerruti.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/cerruti')} alt="Cerruti" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/jafza.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/jafza')} alt="JAFZA" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/high-mark.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/high-mark')} alt="High Mark" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/shein.jpeg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/shein')} alt="Shein" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/1 (1).png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/client-1')} alt="Client 1" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/2.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/client-2')} alt="Client 2" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/3.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/client-3')} alt="Client 3" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/4.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/client-4')} alt="Client 4" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/5.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/client-5')} alt="Client 5" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/6.png" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/client-6')} alt="Client 6" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/Finerton.png" alt="Millennium"  style={{objectFit: 'contain'}}/>
+                    <img src={getImageSrc('portfolio-clients/Finerton')} alt="Finerton" style={{objectFit: 'contain'}} />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/jafferbhai.jpg" alt="Millennium"/>
+                    <img src={getImageSrc('portfolio-clients/jafferbhai')} alt="Jafferbhai" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/galaries.png" alt="Millennium"  style={{objectFit: 'contain'}}/>
+                    <img src={getImageSrc('portfolio-clients/galaries')} alt="Galaries" style={{objectFit: 'contain'}} />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/img/portfolio-clients/strada.avif" alt="strada"/>
+                    <img src={getImageSrc('portfolio-clients/strada')} alt="Strada" />
                   </div>
                 </div>
               </div>
@@ -481,7 +482,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/AirForce.jpeg" />
+                        <img src={getImageSrc('portfolio-projects/AirForce')} alt="USA Air Force" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h3>
@@ -494,7 +495,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/AirForce.jpeg" />
+                        <img src={getImageSrc('portfolio-projects/AirForce')} alt="USA Air Force" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h3>
@@ -507,7 +508,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/nex.png" />
+                        <img src={getImageSrc('portfolio-projects/nex')} alt="USA Navy NEX" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">USA NAVY BY NEX EXCHANGE – DUBAI</h3>
@@ -520,7 +521,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/china.jpg" />
+                        <img src={getImageSrc('portfolio-projects/china')} alt="China Petroleum" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">CHINA PETROLEUM BUREAU DUBAI</h3>
@@ -533,7 +534,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/canadian.jpg" />
+                        <img src={getImageSrc('portfolio-projects/canadian')} alt="Canadian University" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">CANADIAN UNIVERSITY</h3>
@@ -546,7 +547,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/ibis.jpg" />
+                        <img src={getImageSrc('portfolio-projects/ibis')} alt="Hotel Ibis" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">HOTEL IBIS WORLD TRADE CENTRE DUBAI</h3>
@@ -559,7 +560,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/jazeera.jpg" />
+                        <img src={getImageSrc('portfolio-projects/jazeera')} alt="University of Jazeera" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">UNIVERSITY OF JAZEERA</h3>
@@ -572,7 +573,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/parkside.png" />
+                        <img src={getImageSrc('portfolio-projects/parkside')} alt="Parkside Suites" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">PARKSIDE SUITES HOTEL APARTMENTS LLC</h3>
@@ -585,7 +586,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/middlesex.jpg" />
+                        <img src={getImageSrc('portfolio-projects/middlesex')} alt="Middlesex University" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">Middlesex University</h3>
@@ -598,7 +599,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/crowneplaza.jpg" />
+                        <img src={getImageSrc('portfolio-projects/crowneplaza')} alt="Crowne Plaza" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">Crowne Plaza Hotels</h3>
@@ -611,7 +612,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/repton.png" />
+                        <img src={getImageSrc('portfolio-projects/repton')} alt="Repton School" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">REPTON SCHOOL</h3>
@@ -624,7 +625,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/dukes.jpg" />
+                        <img src={getImageSrc('portfolio-projects/dukes')} alt="Dukes Hotels" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">Dukes Hotels</h3>
@@ -637,7 +638,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/fawaz.jpg" />
+                        <img src={getImageSrc('portfolio-projects/fawaz')} alt="Fawaz Trading" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">Fawaz Trading and Engineering Services.CO LLC</h3>
@@ -650,7 +651,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/movenpick.jpg" />
+                        <img src={getImageSrc('portfolio-projects/movenpick')} alt="Movenpick Hotels" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">Movenpick Hotels</h3>
@@ -663,7 +664,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/baumatic.jpg" />
+                        <img src={getImageSrc('portfolio-projects/baumatic')} alt="Baumatic" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">BAUMATIC MIDDLE EAST</h3>
@@ -676,7 +677,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/eminence.jpg" />
+                        <img src={getImageSrc('portfolio-projects/eminence')} alt="Eminence International" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">Eminence International Contracting Co LLC</h3>
@@ -689,7 +690,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/transguard.jpeg" />
+                        <img src={getImageSrc('portfolio-projects/transguard')} alt="Transguard Group" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">TRANSGUARD GROUP LLC</h3>
@@ -702,7 +703,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/alstom.jpg" />
+                        <img src={getImageSrc('portfolio-projects/alstom')} alt="Alstom" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">ALSTOM</h3>
@@ -715,7 +716,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/bertoni.jpg" />
+                        <img src={getImageSrc('portfolio-projects/bertoni')} alt="Bertoni" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">BERTONI LLC</h3>
@@ -728,7 +729,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/dubai-properties.jpg" />
+                        <img src={getImageSrc('portfolio-projects/dubai-properties')} alt="Dubai Properties" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">Dubai Properties</h3>
@@ -741,10 +742,10 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/nandos.jpg" />
+                        <img src={getImageSrc('portfolio-projects/nandos')} alt="Nandos" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h3 className="portfolio-pjt-info-box-title">NANDO’S</h3>
+                        <h3 className="portfolio-pjt-info-box-title">NANDO'S</h3>
                         <p className="portfolio-pjt-info-box-para">Staff Accommodation Dubai & Sharjah <br />MEP Services, Air Conditioning, and Refrigeration <br /><strong>(Since: 2013-2015)</strong></p>
                       </div>
                     </div>
@@ -754,7 +755,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/tsm.jpeg" />
+                        <img src={getImageSrc('portfolio-projects/tsm')} alt="Talal Supermarket" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">TALAL SUPERMARKET</h3>
@@ -767,7 +768,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/eskinita.jpg" />
+                        <img src={getImageSrc('portfolio-projects/eskinita')} alt="Eskinita Restaurant" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">ESKINITA RESTAURANT AT WELCOME HOTEL</h3>
@@ -780,7 +781,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/partyzone.jpeg" />
+                        <img src={getImageSrc('portfolio-projects/partyzone')} alt="Party Zone" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">Party Zone LLC</h3>
@@ -793,7 +794,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/uniworld.png" />
+                        <img src={getImageSrc('portfolio-projects/uniworld')} alt="Uniworld Medical" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">Uniworld Medical FZE</h3>
@@ -806,7 +807,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/beirut.jpg" />
+                        <img src={getImageSrc('portfolio-projects/beirut')} alt="Beirut Restaurant" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">BEIRUT RESTAURANT & GRILLS</h3>
@@ -819,7 +820,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="portfolio-projects-infobox">
                     <div className="row">
                       <div className="col-lg-3 col-4">
-                        <img src="/img/portfolio-projects/nmc.png" />
+                        <img src={getImageSrc('portfolio-projects/nmc')} alt="NMC Hospital" />
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">NMC Hospital</h3>
@@ -844,4 +845,3 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
 };
 
 export default PortfolioDetail;
-

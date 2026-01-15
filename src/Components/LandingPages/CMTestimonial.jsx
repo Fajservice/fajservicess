@@ -6,7 +6,7 @@ const CMTestimonial = () => {
 
   const subtitle = "Testimonial";
   const title = "What our clients say About Us";
-  const reviewsbg = "img/testimonialbg.jpg";
+  const reviewsbg = getImageSrc('testimonialbg');
   const settings = {
     dots: false,
     infinite: true,
