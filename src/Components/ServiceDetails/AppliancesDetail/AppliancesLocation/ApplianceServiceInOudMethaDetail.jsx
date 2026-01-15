@@ -32,124 +32,70 @@ const ApplianceServiceInOudMethaDetail = ({ subtitle, title, reviewsbg, titleSeo
     title = "What our clients say About Us"
     reviewsbg = getImageSrc('testimonialbg')
     const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-     // State for fetched data
-        const [data, setData] = useState([]);
-        const [testimonial_data, setTestimonialData] = useState([]);
-        const [brandsLogo_data, setBrandsLogoData] = useState([]);
-        const [isLoading, setIsLoading] = useState(true);
-    
-        const handleItemClick = index => {
-            if (index === openItemIndex) {
-                setOpenItemIndex(-1);
-            } else {
-                setOpenItemIndex(index);
-            }
-        };
-    
-        useEffect(() => {
-            if (firstItemOpen) {
-                setOpenItemIndex(0);
-                setFirstItemOpen(false);
-            }
-        }, [firstItemOpen]);
-    
-        useEffect(() => {
-            loadBackgroudImages();
-        }, []);
-    
-        // Fetch JSON data
-        useEffect(() => {
-            const fetchData = async () => {
-                try {
-                    const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-                        fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
-                        fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
-                        fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-                    ]);
-    
-                    const faqsData = await faqsResponse.json();
-                    const testimonialsData = await testimonialsResponse.json();
-                    const brandsData = await brandsResponse.json();
-    
-                    setData(faqsData);
-                    setTestimonialData(testimonialsData);
-                    setBrandsLogoData(brandsData);
-                } catch (error) {
-                    console.error('Error fetching data:', error);
-                } finally {
-                    setIsLoading(false);
-                }
-            };
-    
-            fetchData();
-        }, []);
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
 
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
     };
 
-    const settingBrands = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 6,
-        arrows: false,
-
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 6,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 4,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }
-        ]
-    };
+    fetchData();
+  }, []);
     return (
         <>
             <HelmetProvider>
