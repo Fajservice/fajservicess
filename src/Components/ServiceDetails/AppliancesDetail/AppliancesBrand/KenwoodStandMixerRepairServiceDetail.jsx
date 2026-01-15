@@ -183,7 +183,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
 
               <div className="col-md-6 ">
 
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kenwood-mixer-repair-service.avif`}  alt="Kenwood Stand Mixer Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('kenwood-mixer-repair-service')} alt="Kenwood Stand Mixer Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>

@@ -190,7 +190,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
 
               <div className="col-md-6 ">
 
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/techfridge.avif`} alt="Liebherr Fridge Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('techfridge')} alt="Liebherr Fridge Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>

@@ -185,7 +185,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/delonghi-coffee-machine-repair.avif`}   alt="Delonghi coffee machine repair" />
+                <img className="bordered-img w-100" src={getImageSrc('delonghi-coffee-machine-repair')} alt="Delonghi coffee machine repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>

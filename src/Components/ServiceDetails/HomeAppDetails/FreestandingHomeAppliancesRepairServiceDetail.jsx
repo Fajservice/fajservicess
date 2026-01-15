@@ -216,7 +216,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="freestanding appliances repair" />
+                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')} alt="freestanding appliances repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>

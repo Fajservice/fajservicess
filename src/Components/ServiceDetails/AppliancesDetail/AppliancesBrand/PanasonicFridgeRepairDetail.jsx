@@ -217,7 +217,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                             <div className="col-md-6 ">
 
-                                <img className="bordered-img w-100" src={`${CDN}/The-Most-Common-Reasons-for-Appliance-Breakdowns/public`} alt="Panasonic Washing Machine Repair" />
+                                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')} alt="Panasonic Washing Machine Repair" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>

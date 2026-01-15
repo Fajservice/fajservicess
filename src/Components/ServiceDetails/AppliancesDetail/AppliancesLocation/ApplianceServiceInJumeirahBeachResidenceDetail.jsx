@@ -212,7 +212,7 @@ const ApplianceServiceInJumeirahBeachResidenceDetail = ({ subtitle, title, revie
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  alt="Washing machine repair in Jumeirah Beach Residence" />
+                                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="Washing machine repair in Jumeirah Beach Residence" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>

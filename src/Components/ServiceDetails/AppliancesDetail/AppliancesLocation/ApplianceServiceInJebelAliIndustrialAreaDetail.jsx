@@ -235,7 +235,7 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  alt="Washing machine repair in Jebel Ali Industrial Area" />
+                                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="Washing machine repair in Jebel Ali Industrial Area" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
