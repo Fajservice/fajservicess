@@ -1714,7 +1714,7 @@ textarea {
 }
 
 .cs_fs_24 {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.417em;
 }
 
@@ -5873,6 +5873,7 @@ textarea {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   border-radius: 5px;
+  z-index: 10;
 }
 
 .cs_card.cs_style_1 .cs_card_info {
@@ -5909,9 +5910,9 @@ textarea {
   -webkit-box-orient: vertical;
 }
 
-.cs_card.cs_style_1:hover .cs_card_icon {
+/* .cs_card.cs_style_1:hover .cs_card_icon {
   background-color: var(--accent-color);
-}
+} */
 
 .cs_card.cs_style_1:hover .cs_card_info {
   border-color: #76DCEB;

@@ -18,6 +18,13 @@ const ArrowRightIcon = ({ size = 22 }) => (
   </svg>
 );
 
+const ArrowForwardIcon = ({ size = 24, color = "currentColor" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <line x1="5" y1="12" x2="19" y2="12"/>
+    <polyline points="12 5 19 12 12 19"/>
+  </svg>
+);
+
 const ArrowLeftIcon = ({ size = 22 }) => (
   <svg
     width={size}
@@ -110,7 +117,7 @@ const Services1 = () => {
       <style>{`
         .services-slider{position:relative;overflow:hidden;width:100%}
         .services-slider__track{display:flex;transition:transform .6s ease;will-change:transform}
-        .services-slider__slide{flex-shrink:0;padding:0 15px;box-sizing:border-box}
+        .services-slider__slide{flex-shrink:0;padding:0 15px;box-sizing:border-box;}
       `}</style>
 
       <div className="cs_height_60"></div>
@@ -243,7 +250,7 @@ const ServiceCard = memo(({ item }) => {
               {item.btnText}
             </span>
             <span className="cs_btn_icon cs_center">
-              <DoubleArrowIcon />
+             <ArrowForwardIcon size={24} />
             </span>
           </Link>
         </div>
@@ -263,12 +270,13 @@ const SliderArrows = memo(({ onNext, onPrev }) => (
         <ArrowLeftIcon size={22} />
       </div>
     </div>
+    
     <div
       className="cs_arrow_wrap cs_arrow_wrap_right cs_center"
       onClick={onNext}
       style={{ cursor: "pointer" }}
     >
-      <div className="cs_right_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
+      <div className="cs_btn cs_style_1">
         <ArrowRightIcon size={22} />
       </div>
     </div>
