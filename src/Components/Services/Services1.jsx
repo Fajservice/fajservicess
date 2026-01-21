@@ -2,18 +2,9 @@ import React, { useEffect, useRef, useState, memo, useCallback } from "react";
 import { Link } from "react-router-dom";
 import SectionTitle from "../Common/SectionTitle";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
 const ArrowRightIcon = ({ size = 22 }) => (
-  <svg
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    aria-hidden="true"
-  >
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     <path d="M5 12h14M12 5l7 7-7 7" />
   </svg>
 );
@@ -26,25 +17,52 @@ const ArrowForwardIcon = ({ size = 24, color = "currentColor" }) => (
 );
 
 const ArrowLeftIcon = ({ size = 22 }) => (
-  <svg
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    aria-hidden="true"
-  >
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     <path d="M19 12H5M12 19l-7-7 7-7" />
   </svg>
 );
 
+// Static placeholder that matches exact card dimensions
+const ServicePlaceholder = memo(({ slidesPerView }) => {
+  const slideWidth = 100 / slidesPerView;
+  return (
+    <div className="services-slider">
+      <div className="services-slider__track">
+        {[1, 2, 3].slice(0, slidesPerView).map((i) => (
+          <div
+            key={i}
+            className="services-slider__slide"
+            style={{ width: `${slideWidth}%` }}
+          >
+            <div className="cs_slide">
+              <div className="cs_card cs_style_1">
+                <div className="cs_card_thumbnail" style={{ aspectRatio: '16/10', background: '#e8e8e8' }} />
+                <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
+                  <div className="cs_card_icon cs_center cs_mb_22" style={{ height: 100 }} />
+                  <div style={{ height: 28, background: '#e8e8e8', borderRadius: 4, marginBottom: 8 }} />
+                  <div style={{ height: 48, background: '#f0f0f0', borderRadius: 4, marginBottom: 18 }} />
+                  <div style={{ height: 24, width: 120, background: '#e8e8e8', borderRadius: 4, margin: '0 auto' }} />
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+});
+ServicePlaceholder.displayName = 'ServicePlaceholder';
+
 const Services1 = () => {
   const [data, setData] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [slidesPerView, setSlidesPerView] = useState(3);
+  const [slidesPerView, setSlidesPerView] = useState(() => {
+    if (typeof window === 'undefined') return 3;
+    const width = window.innerWidth;
+    if (width < 768) return 1;
+    if (width < 1200) return 2;
+    return 3;
+  });
   const [isTransitioning, setIsTransitioning] = useState(false);
   const trackRef = useRef(null);
   const touchStartX = useRef(0);
@@ -63,13 +81,11 @@ const Services1 = () => {
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
-      if (width < 575) setSlidesPerView(1);
-      else if (width < 768) setSlidesPerView(1);
+      if (width < 768) setSlidesPerView(1);
       else if (width < 1200) setSlidesPerView(2);
       else setSlidesPerView(3);
     };
 
-    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -115,9 +131,12 @@ const Services1 = () => {
       data-src="assets/img/service_bg_1.avif"
     >
       <style>{`
-        .services-slider{position:relative;overflow:hidden;width:100%}
+        .services-slider{position:relative;overflow:hidden;width:100%;min-height:480px}
         .services-slider__track{display:flex;transition:transform .6s ease;will-change:transform}
-        .services-slider__slide{flex-shrink:0;padding:0 15px;box-sizing:border-box;}
+        .services-slider__slide{flex-shrink:0;padding:0 15px;box-sizing:border-box}
+        .cs_card.cs_style_1{min-height:450px}
+        .cs_card_thumbnail{aspect-ratio:16/10}
+        .cs_card_thumbnail img{width:100%;height:100%;object-fit:cover}
       `}</style>
 
       <div className="cs_height_60"></div>
@@ -167,12 +186,10 @@ const Services1 = () => {
                   </div>
                 </div>
               ) : (
-                <ServicePlaceholder />
+                <ServicePlaceholder slidesPerView={slidesPerView} />
               )}
             </div>
-            {data.length > 0 && (
-              <SliderArrows onNext={handleNext} onPrev={handlePrev} />
-            )}
+            <SliderArrows onNext={handleNext} onPrev={handlePrev} />
           </div>
         </div>
       </div>
@@ -182,36 +199,17 @@ const Services1 = () => {
   );
 };
 
-const ServicePlaceholder = () => (
-  <div style={{ display: "flex", gap: "30px", overflow: "hidden" }}>
-    {[1, 2, 3].map((i) => (
-      <div
-        key={i}
-        className="cs_slide"
-        style={{
-          flex: "0 0 calc(33.333% - 20px)",
-          minHeight: "400px",
-          background: "#f5f5f5",
-          borderRadius: "10px",
-        }}
-      />
-    ))}
-  </div>
-);
-
 const ServiceCard = memo(({ item }) => {
-  // Main image: allow CDN OR local fallback
   const imgSrc = item.img.startsWith("https")
     ? item.img
     : `${CDN}/${item.img}/public`;
 
-  // Service icon: ALWAYS CDN
   const iconSrc = item.icon.startsWith("https")
     ? item.icon
     : `${CDN}/${item.icon}/public`;
 
   return (
-     <div className="cs_slide">
+    <div className="cs_slide">
       <div className="cs_card cs_style_1">
         <div className="cs_card_thumbnail">
           <img
@@ -250,7 +248,7 @@ const ServiceCard = memo(({ item }) => {
               {item.btnText}
             </span>
             <span className="cs_btn_icon cs_center">
-             <ArrowForwardIcon size={24} />
+              <ArrowForwardIcon size={24} />
             </span>
           </Link>
         </div>
@@ -258,6 +256,7 @@ const ServiceCard = memo(({ item }) => {
     </div>
   );
 });
+ServiceCard.displayName = 'ServiceCard';
 
 const SliderArrows = memo(({ onNext, onPrev }) => (
   <div className="cs_slider_arrows cs_style_1">
@@ -276,18 +275,12 @@ const SliderArrows = memo(({ onNext, onPrev }) => (
       onClick={onNext}
       style={{ cursor: "pointer" }}
     >
-      <div className="cs_btn cs_style_1">
+      <div className="cs_right_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
         <ArrowRightIcon size={22} />
       </div>
     </div>
   </div>
 ));
-
-const DoubleArrowIcon = memo(() => (
-  <>
-    <ArrowRightIcon size={18} />
-    <ArrowRightIcon size={18} />
-  </>
-));
+SliderArrows.displayName = 'SliderArrows';
 
 export default memo(Services1);

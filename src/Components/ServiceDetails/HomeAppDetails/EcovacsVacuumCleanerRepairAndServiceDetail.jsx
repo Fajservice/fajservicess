@@ -9,117 +9,87 @@ import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BeforeAfter from "../../BeforeAfter/BeforeAfter";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
-const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Ecovacs Vacuum Cleaner Repair and Service in Dubai");
   const metadescription = String(description || "Ecovacs vacuum cleaner repair and service center in Dubai. Call FAJ 043300002 for vacuum cleaner repair near me, fix, servicing & maintenance.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ecovacs vacuum cleaner repair in Dubai, Ecovacs vacuum cleaner service center in Dubai, Ecovacs vacuum cleaner repair near me, fix Ecovacs vacuum cleaner, Ecovacs vacuum cleaner servicing, Ecovacs vacuum cleaner maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/");
-  const metaImage = "https://www.fajservices.ae/img/inspection-robot-vacuum-cleaner.avif";
-
-
+  const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/inspection-robot-vacuum-cleaner/public";
 
   subtitle = "Testimonial"
-  title = "What our clients say About Us"
-  reviewsbg = getImageSrc('testimonialbg')
-  const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  // State for fetched data
-  const [data, setData] = useState([]);
-  const [testimonial_data, setTestimonialData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
-
-  // Fetch JSON data
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/EcovacsVacuumCleanerHomeappFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json`)
-        ]);
-
-        const faqsData = await faqsResponse.json();
-        const testimonialsData = await testimonialsResponse.json();
-
-        setData(faqsData);
-        setTestimonialData(testimonialsData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setIsLoading(false);
+    title = "What our clients say About Us"
+    reviewsbg = getImageSrc('testimonialbg')
+    const accordionContentRef = useRef(null);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+  
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+  
+    const openModal = useCallback((e) => {
+      e.preventDefault();
+      setIsModalOpen(true);
+      document.body.style.overflow = 'hidden';
+    }, []);
+  
+    const closeModal = useCallback(() => {
+      setIsModalOpen(false);
+      document.body.style.overflow = 'auto';
+    }, []);
+    const handleItemClick = index => {
+      if (index === openItemIndex) {
+        setOpenItemIndex(-1);
+      } else {
+        setOpenItemIndex(index);
       }
     };
-
-    fetchData();
-  }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
+    useEffect(() => {
+      if (firstItemOpen) {
+        setOpenItemIndex(0);
+        setFirstItemOpen(false);
       }
-    ]
-  };
-
+    }, [firstItemOpen]);
+  
+    useEffect(() => {
+      loadBackgroudImages();
+    }, []);
+  
+    // Fetch JSON data
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/EcovacsVacuumCleanerHomeappFaqs.json`),
+            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json`),
+          ]);
+  
+          const faqsData = await faqsResponse.json();
+          const testimonialsData = await testimonialsResponse.json();
+  
+          setData(faqsData);
+          setTestimonialData(testimonialsData);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
 
   return (
     <>
@@ -181,7 +151,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/EcovacsVacuumCleanerRepairAndService.avif`} alt="Vacuum Cleaner Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('EcovacsVacuumCleanerRepairAndService')} alt="Vacuum Cleaner Repair" />
 
               </div>
             </div>
@@ -196,7 +166,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
             <h2 className="cs_fs_30">Why Choose FAJ for Ecovacs Vacuum Cleaner Repair?</h2>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/inspection-ecovacs-robot-vacuum-cleaner.avif`} alt="inspection robot vacuum cleaner" />
+                <img className="blue-border" src={getImageSrc('inspection-ecovacs-robot-vacuum-cleaner')} alt="inspection robot vacuum cleaner" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -257,7 +227,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                     <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Loud or Unusual Noises</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual noises may indicate problems with the vacuum's brushes or wheels. If the noises persist, check for loose or damaged components to prevent further issues and maintain performance.</p>
+                    <p className="p-2 mb-0">Unusual noises may indicate problems with the vacuum's brushes or wheels. If the noises persist, check for loose </p>
                   </div>
                 </div>
               </div>
@@ -276,10 +246,10 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Wi-Fi Connectivity & App Problems</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Wi-Fi Connectivity & App</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Robot vacuums with smart features may experience Wi-Fi connectivity issues. To avoid this, keep the vacuum within a stable Wi-Fi range, update the app regularly, and follow setup instructions.</p>
+                    <p className="p-2 mb-0">Robot vacuums with smart features may experience Wi-Fi connectivity issues.</p>
                   </div>
                 </div>
               </div>
@@ -291,7 +261,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                     <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Emptying & Maintenance Neglect</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Robot vacuums require regular maintenance. Always empty the dustbin and clean the filter after each use. Neglecting these tasks can lead to reduced performance and malfunctions.</p>
+                    <p className="p-2 mb-0">Robot vacuums require regular maintenance. Always empty the dustbin and clean the filter after each use.</p>
                   </div>
                 </div>
               </div>
@@ -366,7 +336,8 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/efficiency-and-time.png`} alt="Efficiency" className="icon-img-block-icon" />
+                       
+                        <img src={getImageSrc('icon/efficiency-and-time')} alt="Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Efficiency and Time-Saving</h3>
                       <p className="small">Cleaning large areas quickly can significantly reduce time than traditional methods. Robotic vacuums also require minimal effort to operate.</p>
@@ -377,7 +348,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Superior Cleaning Performance</h3>
                       <p className="small">A robot vacuum cleaner removes dirt, pet hair, and dust mites more effectively than sweeping, improving indoor air quality.</p>
@@ -388,7 +359,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/lifestyle.png`} alt="lifestyle" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/lifestyle')} alt="lifestyle" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ideal for Busy Lifestyles</h3>
                       <p className="small">Robotic vacuums clean automatically, while cordless stick vacuums enable quick, effortless clean-ups.</p>
@@ -400,7 +371,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Cost-Effective Cleaning Solution</h3>
                       <p className="small">Ecovacs vacuum cleaner can save money by reducing professional cleaning needs & extending the life of carpets and flooring.</p>
@@ -412,7 +383,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/wind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Improves Air Quality</h3>
                       <p className="small">The HEPA filter improves air quality by capturing allergens like dust and pet dander, benefiting allergy sufferers & reducing respiratory issues.</p>
@@ -423,7 +394,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/robot-vacuum.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/robot-vacuum')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Vacuum and Mop Function</h3>
                       <p className="small">Robot vacuum and mop combos efficiently clean by vacuuming and mopping simultaneously, reducing the need for multiple tools.</p>
@@ -479,14 +450,14 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
+                    <img  src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -536,10 +507,10 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
         <BeforeAfter
           title="Recent Completed Repair & Service"
           subTitle="Before & after"
-          bgImg="img/background-image-2.avif"
-          beforeImg="img/ecovacs-vaccum-cleaner-before-image.avif"
+          bgImg={getImageSrc('cbackground-image-2')}
+          beforeImg={getImageSrc('ecovacs-vaccum-cleaner-before-image')}
           afterTitle="After"
-          afterImg="img/vaccum-cleaner-after-image.avif"
+          afterImg={getImageSrc('vaccum-cleaner-after-image')}
           beforeTitle="Before"
         />
         {/* Brands section */}
@@ -551,13 +522,13 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/vacuum-cleaners/ecovacs-vacuum-cleaner-fix.avif"
+                  src={getImageSrc('vacuum-cleaners/ecovacs-vacuum-cleaner-fix')}
                   className="img-fluid rounded shadow mb-4"
                   alt="BBQ Grill Repair Service Dubai"
                 />
 
                 <img
-                  src="/img/vacuum-cleaners/ecovacs-vacuum-cleaner-service.avif"
+                  src={getImageSrc('vacuum-cleaners/ecovacs-vacuum-cleaner-service')}
                   className="img-fluid rounded shadow"
                   alt="BBQ Grill Cleaning Service Dubai"
                 />
@@ -565,13 +536,13 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/vacuum-cleaners/ecovacs-vacuum-cleaner-repair-service.avif"
+                  src={getImageSrc('vacuum-cleaners/ecovacs-vacuum-cleaner-repair-service')}
                   className="img-fluid rounded shadow mb-4"
                   alt="BBQ Grill Service"
                 />
 
                 <img
-                  src="/img/vacuum-cleaners/robot-vacuum-celaner-repair.avif"
+                  src={getImageSrc('vacuum-cleaners/robot-vacuum-celaner-repair')}
                   className="img-fluid rounded shadow"
                   alt="BBQ Grill Repair"
                 />
@@ -579,13 +550,13 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
 
               <div className="col-lg-4 col-md-6">
                 <img
-                  src="/img/vacuum-cleaners/ecovacs-fixing.avif"
+                  src={getImageSrc('vacuum-cleaners/ecovacs-fixing')}
                   className="img-fluid rounded shadow mb-4"
                   alt="BBQ Grill Repair Service"
                 />
 
                 <img
-                  src="/img/vacuum-cleaners/ecovacs-vacuum-cleaner-repair.avif"
+                  src={getImageSrc('vacuum-cleaners/ecovacs-vacuum-cleaner-repair')}
                   className="img-fluid rounded shadow"
                   alt="BBQ Grill Cleaning Service"
                 />
@@ -593,7 +564,6 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
             </div>
           </div>
         </section>
-        {/* Gallery */}
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
@@ -602,7 +572,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
+            bgImg={reviewsbg}
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />

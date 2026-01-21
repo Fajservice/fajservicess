@@ -1,11 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
@@ -60,60 +58,6 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-<<<<<<< HEAD
-     // State for fetched data
-        const [data, setData] = useState([]);
-        const [testimonial_data, setTestimonialData] = useState([]);
-        const [brandsLogo_data, setBrandsLogoData] = useState([]);
-        const [isLoading, setIsLoading] = useState(true);
-    
-        const handleItemClick = index => {
-            if (index === openItemIndex) {
-                setOpenItemIndex(-1);
-            } else {
-                setOpenItemIndex(index);
-            }
-        };
-    
-        useEffect(() => {
-            if (firstItemOpen) {
-                setOpenItemIndex(0);
-                setFirstItemOpen(false);
-            }
-        }, [firstItemOpen]);
-    
-        useEffect(() => {
-            loadBackgroudImages();
-        }, []);
-    
-        // Fetch JSON data
-        useEffect(() => {
-            const fetchData = async () => {
-                try {
-                    const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-                        fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
-                        fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
-                        fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-                    ]);
-    
-                    const faqsData = await faqsResponse.json();
-                    const testimonialsData = await testimonialsResponse.json();
-                    const brandsData = await brandsResponse.json();
-    
-                    setData(faqsData);
-                    setTestimonialData(testimonialsData);
-                    setBrandsLogoData(brandsData);
-                } catch (error) {
-                    console.error('Error fetching data:', error);
-                } finally {
-                    setIsLoading(false);
-                }
-            };
-    
-            fetchData();
-        }, []);
-    
-=======
   // State for fetched data
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
@@ -171,7 +115,6 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
         setIsLoading(false);
       }
     };
->>>>>>> 8a626731975c852a5bad8b01ab22a53306aeb353
 
     fetchData();
   }, []);
@@ -414,11 +357,11 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
                     </div>
                 </section >
 
-                {/* The Benefits Of appliances Service Dubai */}
+                {/* The Benefits Of Appliances Service Dubai */}
                 <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+                            <h3 className="cs_fs_30 mb-0">The Benefits Of Appliances Service Dubai
                             </h3>
                             <div className="row gx-3 gy-5 mt-0">
                                 <div className="col-md-4 mb-2">

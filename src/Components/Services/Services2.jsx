@@ -30,9 +30,6 @@ const Services2 = () => {
                     <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Service Image" />
                   </Link>
                   <div className="cs_card_info cs_bg_filed" data-src="/assets/img/card_bg_1.svg">
-                    {/* <div className="cs_card_icon cs_mb_20">
-                      <img src={item.icon} alt="Wheel Icon" />
-                    </div> */}
                     <h3 className="cs_fs_24 cs_semibold cs_mb_14">
                       <Link to={item.btnLink}>{item.title}</Link>
                     </h3>

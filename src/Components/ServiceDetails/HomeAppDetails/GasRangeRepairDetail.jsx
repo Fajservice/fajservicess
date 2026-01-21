@@ -103,7 +103,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}/>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -160,7 +160,15 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('gas-cooker-repair-services')} alt="Gas Cooker repair" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
 
               </div>
             </div>
@@ -312,16 +320,8 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('gas-cooker-repair-services')} alt="Gas Cooker repair" />
+
               </div>
 
               <div className="col-xl-6">
@@ -353,7 +353,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits Of Appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">

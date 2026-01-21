@@ -100,7 +100,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -117,6 +117,84 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+          <script type="application/ld+json">
+            {JSON.stringify(
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "Do robot vacuums work without the internet?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, most robot vacuums can perform basic cleaning functions without an active Wi-Fi or internet connection. After the initial setup, you can typically press a physical \"Clean\" button to start a cleaning cycle. However, advanced features such as app control, scheduling, and smart mapping require an internet connection."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How long do robot vacuums run?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Wi-Fi connected models like the 900 and S9 series can clean for up to two hours on the lowest cleaning setting, though the Power Boost feature will deplete the battery more quickly.Wi-Fi connected models from the E, 600, and 800 series can run for up to 90 minutes, while non-Wi-Fi connected models from the 500, 600, 700, and 800 series typically last up to 60 minutes."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Can robots vacuum work without electricity?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Currently, all robots rely on electricity and computer chips to function. A robotic \"brain\" made up of algorithms and software interprets information, which is then relayed to the hardware through an encoder, allowing the robot to perform actions."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How high can robot vacuum cleaner climb?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Typically, robot vacuums can handle a maximum door threshold height of 15-20 mm.The thresholds used in American homes vary by manufacturer, ranging from 6 mm to 25 mm or more."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Which robot vacuum cleaner is the best?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Best overall: Ecovacs Deebot T30S Combo Best robot vacuum and mop combo, best for hardwood floors: Yeedi M12 Pro+ Best Shark robovac: Shark PowerDetect Never Touch Pro Best value: Eufy 3-in-1 E20 Best Roomba: iRobot Roomba Combo J7 Plus"
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How do I choose a robot vacuum cleaner?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Suction Power: Measured in Pascals (Pa), the higher the Pa, the more dirt it can collect. To choose a robot vacuum based on suction power, consider the types of flooring in your home, as different flooring types require varying suction levels; hard floors and tiles typically need less suction compared to plush carpets."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is a robot vacuum cleaner called?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A robotic vacuum cleaner, sometimes referred to as a robovac or a Roomba (a generic trademark), is an autonomous vacuum cleaner equipped with a limited vacuum floor cleaning system, sensors, robotic drives, programmable controllers, and cleaning routines."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What are the features of robotic vacuum cleaners?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Navigation Technology: Robots use various sensors for navigation. Mapping Obstacle AvoidanceSuction Power & Brushes Mopping Object Identification Technology Customizable Cleaning Settings Pet Mode"
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Does a robot vacuum need Wi-Fi?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, a robot cleaner can operate without Wi-Fi and perform comprehensive home cleanups, spot cleanups, and return to the dock with the push of a button. Additionally, it can respond to basic voice commands."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Which robot vacuums work offline?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A standout model is the Eufy 11S, which is one of the few popular brands that offers a completely offline model. It has been tested and is recommended as a decent budget-friendly robot vacuum. If full offline functionality is important to you, this is a good choice."
+                  }
+                }]
+              })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

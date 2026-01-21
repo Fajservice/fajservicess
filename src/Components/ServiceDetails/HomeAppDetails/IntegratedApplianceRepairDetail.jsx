@@ -11,15 +11,15 @@ import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
- const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-  const getImageSrc = (imgPath) => {
-    if (!imgPath) return '';
-    if (imgPath.startsWith('https')) return imgPath;
-    return `${CDN}/${imgPath}/public`;
-  };
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
-const IntegratedApplianceRepairDetail = ({subtitle,title,reviewsbg,titleSeo,description,Author,Keyword,URL }) => {
+const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   const metaTitle = String(
     titleSeo || "Built-in Appliances Repair Dubai - Refrigerator Service"
@@ -47,49 +47,49 @@ const IntegratedApplianceRepairDetail = ({subtitle,title,reviewsbg,titleSeo,desc
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
-  
- 
+
+
   const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
-    const [isModalOpen, setIsModalOpen] = useState(false);
-  
-    // State for fetched data
-    const [data, setData] = useState([]);
-    const [testimonial_data, setTestimonialData] = useState([]);
-    const [brandsLogo_data, setBrandsLogoData] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
- const openModal = useCallback((e) => {
-     e.preventDefault();
-     setIsModalOpen(true);
-     document.body.style.overflow = 'hidden';
-   }, []);
- 
-   const closeModal = useCallback(() => {
-     setIsModalOpen(false);
-     document.body.style.overflow = 'auto';
-   }, []);
-   const handleItemClick = index => {
-     if (index === openItemIndex) {
-       setOpenItemIndex(-1);
-     } else {
-       setOpenItemIndex(index);
-     }
-   };
-   useEffect(() => {
-     if (firstItemOpen) {
-       setOpenItemIndex(0);
-       setFirstItemOpen(false);
-     }
-   }, [firstItemOpen]);
- 
-   useEffect(() => {
-     loadBackgroudImages();
-   }, []);
- 
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
- // Fetch JSON data
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+
+  // Fetch JSON data
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -144,6 +144,84 @@ const IntegratedApplianceRepairDetail = ({subtitle,title,reviewsbg,titleSeo,desc
           <meta name="twitter:image:alt" content="Built-in Appliances Repair Dubai" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="language" content="English" />
+          <script type="application/ld+json">
+            {JSON.stringify(
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "Can integrated appliances be used freestanding?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Freestanding kitchen appliances are not attached to walls or floors, allowing for easy movement."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Can you put integrated appliances next to each other?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "To ensure proper support for the worktop above an integrated appliance, it is essential to have two units on either side of it. If you have more than two integrated appliances placed next to each other, we recommend adding an end panel to provide additional support for the worktop above."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Are integrated appliances more expensive?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Generally, integrated appliances are usually more expensive than freestanding models, although this can vary based on the specific make and model you select."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is the best material for appliances?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Stainless steel appliances are popular in kitchens due to their timeless and versatile style, which complements both modern and traditional designs. Their neutral color and sleek appearance can blend seamlessly with almost any color scheme. Additionally, the durability of stainless steel makes it perfect for heavy usage, as it is resistant to rust, heat, and damage."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Which appliance costs most in electricity?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The largest electricity consumers in an average household are heating and cooling appliances. Central air conditioners and heaters use significant amounts of energy to maintain the desired temperature in your home."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What are built-in appliances called?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Built-in and integrated appliances are similar as they are fixed directly into cabinetry that is designed to meet the exact specifications of the appliance; however, integrated appliances provide a more seamless look."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How many watts is a refrigerator?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The average home refrigerator typically uses between 350 and 780 watts. Some models are more energy-efficient than others, so it's a good idea to check the label on yours or look it up online to determine its power consumption."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Can a normal fridge be integrated?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Typical refrigerators aren’t meant for built-in installation, but with some creativity, you can modify them. Ensuring proper airflow is crucial to prevent overheating, so you may need to create vents or gaps in the cabinetry."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Are all integrated appliances the same size?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The answer is both yes and no. All built-in ovens are designed to fit into standard housing units, which are typically 60 cm wide. However, some single oven housing units can be 90 cm wide. As a result, most ovens have similar widths and depths."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What does appliance installation include?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Your appliances will be installed in place, levelled, and connected to the appropriate power source. We will also conduct tests to ensure they are ready for use. Installation includes connecting the new appliance to water, electricity, and gas."
+                  }
+                }]
+              })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

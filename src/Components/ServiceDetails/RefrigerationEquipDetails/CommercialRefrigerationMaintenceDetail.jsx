@@ -28,74 +28,74 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/commercial-ref%20-mc/public";
 
   subtitle = "Testimonial"
-    title = "What our clients say About Us"
-    reviewsbg = getImageSrc('testimonialbg')
-  
-    const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
-    const [isModalOpen, setIsModalOpen] = useState(false);
-  
-    // State for fetched data
-    const [data, setData] = useState([]);
-    const [testimonial_data, setTestimonialData] = useState([]);
-    const [brandsLogo_data, setBrandsLogoData] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
-  
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
-    const handleItemClick = index => {
-      if (index === openItemIndex) {
-        setOpenItemIndex(-1);
-      } else {
-        setOpenItemIndex(index);
+  title = "What our clients say About Us"
+  reviewsbg = getImageSrc('testimonialbg')
+
+  const accordionContentRef = useRef(null);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/RefrigerationEquipData/FAQs/CommercialRefrigerationMaintenceFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/RefrigerationEquipData/Testmonials/CommercialRefrigerationMaintenceTestimonial.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
       }
     };
-    useEffect(() => {
-      if (firstItemOpen) {
-        setOpenItemIndex(0);
-        setFirstItemOpen(false);
-      }
-    }, [firstItemOpen]);
-  
-    useEffect(() => {
-      loadBackgroudImages();
-    }, []);
-  
-    // Fetch JSON data
-    useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-            fetch(`${import.meta.env.BASE_URL}data/RefrigerationEquipData/FAQs/CommercialRefrigerationMaintenceFaqs.json`),
-            fetch(`${import.meta.env.BASE_URL}data/RefrigerationEquipData/Testmonials/CommercialRefrigerationMaintenceTestimonial.json`),
-            fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-          ]);
-  
-          const faqsData = await faqsResponse.json();
-          const testimonialsData = await testimonialsResponse.json();
-          const brandsData = await brandsResponse.json();
-  
-          setData(faqsData);
-          setTestimonialData(testimonialsData);
-          setBrandsLogoData(brandsData);
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        } finally {
-          setIsLoading(false);
-        }
-      };
-  
-      fetchData();
-    }, []);
+
+    fetchData();
+  }, []);
 
   return (
     <>
@@ -119,6 +119,85 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+          <script type="application/ld+json">
+            {JSON.stringify(
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "How do I choose the right refrigeration system for my business?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The size of the business, the quantity of products to be stored, the location of operations, and regulatory requirements are all factors that must be considered when selecting the appropriate refrigeration system."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How do we properly maintain our refrigeration system?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Regular maintenance of refrigeration systems is crucial for optimal operation. This includes checking temperatures, locating leaks, cleaning filters, and verifying refrigerant levels."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How can I save on costs in operating commercial refrigeration systems?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The refrigeration equipment used to create cold air consumes a significant amount of energy. This is one of the key reasons why reducing costs is essential for food retailers of all sizes. There are several ways to save on energy and expenses related to your display cases. For example, you can use night curtains to keep open cases cold when your store is closed, switch to energy-saving LED lights instead of fluorescent lighting, and ensure freezer doors stay closed and sealed by using high-quality gaskets that are durable and long-lasting."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How to choose the correct refrigerated display case size?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Selecting the appropriate size of a refrigerated display case for your food retail business is crucial to minimizing costs and avoiding the waste of valuable sales space and energy. Depending on your sales floor area and the amount of food you need to showcase, display cases are available in a variety of sizes, ranging from 2 feet to 12 feet wide for open cases and from 2-door to 6-door designs for door cases. The volume of these display cases typically varies between 5 to 80 cubic feet each."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What should I do if a part needs to be replaced?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "FAJ Technical Services L.L.C. is committed to providing reliable and trouble-free refrigeration solutions through a wide range of quality products equipped with advanced features. To ensure the highest quality and long-lasting dependability of any refrigeration unit, we recommend using genuine replacement parts. For more information, please contact us at info@fajservices.ae or call +971 50 746 4712"
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How often should I schedule maintenance for my refrigeration equipment?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We recommend scheduling regular maintenance at least twice a year to ensure your refrigeration equipment operates smoothly and efficiently. However, the frequency may vary based on factors such as the type of equipment and its usage."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What are some common applications of commercial refrigeration?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Commercial refrigeration is widely used in grocery stores, supermarkets, restaurants, and convenience stores. It plays a crucial role in keeping food and beverages at the appropriate temperatures to maintain their freshness and safety for consumers. Supermarkets implement commercial refrigeration systems to store and display perishable items like dairy products, meats, fruits, vegetables, and frozen goods. These systems include open display cases, walk-in coolers, and freezers, all designed to provide optimal storage conditions. Restaurants typically use equipment such as reach-in refrigerators, under-counter refrigerators, and walk-in coolers to store ingredients, prepared meals, and beverages."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What Maintenance Contracts Do You Offer?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Refrigeration companies often provide regular maintenance contracts to ensure that your systems remain functional. Proper maintenance is essential, and it's important to find the right price for this coverage. In addition to routine maintenance and servicing, a reliable refrigeration company should also offer prompt emergency repairs and spare parts when needed, all at reasonable prices."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What temperature is the danger zone?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The temperature danger zone is between 41°F and 135°F, where bacteria grow most rapidly in food. Particularly, bacteria multiply fastest between 70°F and 125°F."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is the common problem in chillers?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Incorrect operating practices, lack of maintenance, and improper chiller sizing are three common causes of chiller problems. Operators must actively consider these factors to mitigate potential risks to the cooling equipment."
+                  }
+                }]
+              })}
+          </script>
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -176,7 +255,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('Commercial-refrigeration-service-maintenance')}alt="Commercial Refrigeration Service" />
+                <img className="blue-border" src={getImageSrc('Commercial-refrigeration-service-maintenance')} alt="Commercial Refrigeration Service" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -335,7 +414,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits Of Appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">

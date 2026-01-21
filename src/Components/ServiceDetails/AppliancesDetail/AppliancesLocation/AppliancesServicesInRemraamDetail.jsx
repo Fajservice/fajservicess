@@ -15,9 +15,9 @@ import ApplianceSpecialise from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+    if (!imgPath) return '';
+    if (imgPath.startsWith('https')) return imgPath;
+    return `${CDN}/${imgPath}/public`;
 };
 const AppliancesServicesInRemraamDetail = ({
     subtitle,
@@ -57,70 +57,70 @@ const AppliancesServicesInRemraamDetail = ({
     title = "What our clients say About Us"
     reviewsbg = getImageSrc('testimonialbg')
     const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // State for fetched data
-  const [data, setData] = useState([]);
-  const [testimonial_data, setTestimonialData] = useState([]);
-  const [brandsLogo_data, setBrandsLogoData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
+    const openModal = useCallback((e) => {
+        e.preventDefault();
+        setIsModalOpen(true);
+        document.body.style.overflow = 'hidden';
+    }, []);
 
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
-
-  // Fetch JSON data
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
-          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-        ]);
-
-        const faqsData = await faqsResponse.json();
-        const testimonialsData = await testimonialsResponse.json();
-        const brandsData = await brandsResponse.json();
-
-        setData(faqsData);
-        setTestimonialData(testimonialsData);
-        setBrandsLogoData(brandsData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setIsLoading(false);
-      }
+    const closeModal = useCallback(() => {
+        setIsModalOpen(false);
+        document.body.style.overflow = 'auto';
+    }, []);
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
+        }
     };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
+        }
+    }, [firstItemOpen]);
 
-    fetchData();
-  }, []);
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+                ]);
+
+                const faqsData = await faqsResponse.json();
+                const testimonialsData = await testimonialsResponse.json();
+                const brandsData = await brandsResponse.json();
+
+                setData(faqsData);
+                setTestimonialData(testimonialsData);
+                setBrandsLogoData(brandsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
     return (
         <>
             <HelmetProvider>
@@ -366,11 +366,11 @@ const AppliancesServicesInRemraamDetail = ({
                     </div>
                 </section >
 
-                {/* The Benefits Of appliances Service Dubai */}
+                {/* The Benefits Of Appliances Service Dubai */}
                 <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+                            <h3 className="cs_fs_30 mb-0">The Benefits Of Appliances Service Dubai
                             </h3>
                             <div className="row gx-3 gy-5 mt-0">
                                 <div className="col-md-4 mb-2">
@@ -388,7 +388,7 @@ const AppliancesServicesInRemraamDetail = ({
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={getImageSrc('icon/Optimal-Performance')}alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance</h3>
                                             <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
@@ -424,7 +424,7 @@ const AppliancesServicesInRemraamDetail = ({
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={getImageSrc('icon/extending')}alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                                             <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -501,7 +501,7 @@ const AppliancesServicesInRemraamDetail = ({
                             <div className="uspcol col-3">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img src={getImageSrc('icon/value')}alt="FAJ icon service" />
+                                        <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
@@ -510,7 +510,7 @@ const AppliancesServicesInRemraamDetail = ({
                                 </div>
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img src={getImageSrc('icon/confidence-guarantee')}alt="FAJ icon service" />
+                                        <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                                     </div>
                                     <div className="usptext">
@@ -520,7 +520,7 @@ const AppliancesServicesInRemraamDetail = ({
                                 </div>
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img src={getImageSrc('icon/trustworthy')}alt="FAJ icon service" />
+                                        <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
@@ -541,7 +541,7 @@ const AppliancesServicesInRemraamDetail = ({
                 <ApplianceSpecialise />
 
                 {/* Brands section */}
-                
+
                 {!isLoading && brandsLogo_data.length > 0 && (
                     <BrandsSliderSection
                         brandsData={brandsLogo_data.map(item => ({

@@ -144,9 +144,9 @@ const OurVisionOurMissionPage = () => {
                       <div className="cs_esperience_text position-absolute">
                         <h2 className="cs_experience_title mb-0">
                           <span className="cs_fs_100 cs_black cs_accent_color">FAJ</span>
-                          <span className="cs_fs_30">was established</span>
-                          <span className="cs_fs_36">Since</span>
-                          <span className="cs_fs_50">2010</span>
+                          <span className="cs_fs_24">was established</span>
+                          <span className="cs_fs_24">Since</span>
+                          <span className="cs_fs_24">2010</span>
                         </h2>
                       </div>
       

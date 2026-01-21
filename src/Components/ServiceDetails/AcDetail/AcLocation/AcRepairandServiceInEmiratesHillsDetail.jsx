@@ -35,7 +35,6 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
     title = "What our clients say About Us"
     reviewsbg = getImageSrc('testimonialbg')
 
-
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);

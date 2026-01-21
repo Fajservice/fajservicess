@@ -16,9 +16,9 @@ import ApplianceSpecialise from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+    if (!imgPath) return '';
+    if (imgPath.startsWith('https')) return imgPath;
+    return `${CDN}/${imgPath}/public`;
 };
 const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
@@ -33,70 +33,70 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
     title = "What our clients say About Us"
     reviewsbg = getImageSrc('testimonialbg')
     const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // State for fetched data
-  const [data, setData] = useState([]);
-  const [testimonial_data, setTestimonialData] = useState([]);
-  const [brandsLogo_data, setBrandsLogoData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
+    const openModal = useCallback((e) => {
+        e.preventDefault();
+        setIsModalOpen(true);
+        document.body.style.overflow = 'hidden';
+    }, []);
 
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
-
-  // Fetch JSON data
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
-          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-        ]);
-
-        const faqsData = await faqsResponse.json();
-        const testimonialsData = await testimonialsResponse.json();
-        const brandsData = await brandsResponse.json();
-
-        setData(faqsData);
-        setTestimonialData(testimonialsData);
-        setBrandsLogoData(brandsData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setIsLoading(false);
-      }
+    const closeModal = useCallback(() => {
+        setIsModalOpen(false);
+        document.body.style.overflow = 'auto';
+    }, []);
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
+        }
     };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
+        }
+    }, [firstItemOpen]);
 
-    fetchData();
-  }, []);
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+                ]);
+
+                const faqsData = await faqsResponse.json();
+                const testimonialsData = await testimonialsResponse.json();
+                const brandsData = await brandsResponse.json();
+
+                setData(faqsData);
+                setTestimonialData(testimonialsData);
+                setBrandsLogoData(brandsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
     return (
         <>
             <HelmetProvider>
@@ -127,7 +127,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Jabel Ali Dip</h1>
+                        <h1 className="cs_fs_30">Home Appliance Service in Jabel Ali DIP</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -159,7 +159,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="Washing machine repair in Jabel Ali Dip" />
+                                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')} alt="Washing machine repair in Jabel Ali Dip" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -176,7 +176,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Refrigerator Repair in Jabel Ali Dip" />
+                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')} alt="Refrigerator Repair in Jabel Ali Dip" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -337,18 +337,18 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
                     </div>
                 </section >
 
-                {/* The Benefits Of appliances Service Dubai */}
+                {/* The Benefits Of Appliances Service Dubai */}
                 <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+                            <h3 className="cs_fs_30 mb-0">The Benefits Of Appliances Service Dubai
                             </h3>
                             <div className="row gx-3 gy-5 mt-0">
                                 <div className="col-md-4 mb-2">
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={getImageSrc('icon/Ensuring-Safety')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                                             <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -371,7 +371,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={getImageSrc('icon/Lower-Energy-Bills')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                                             <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -383,7 +383,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={getImageSrc('icon/Saving-Money-on-Repair')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                                             <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -409,7 +409,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={getImageSrc('icon/Peace-of-Mind')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h3>
                                             <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -431,7 +431,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
                             <div className="uspcol col-1">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img src={getImageSrc('icon/fast-reliable')}  alt="Fast, Reliable Service" />
+                                        <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                                     </div>
                                     <div className="usptext">
@@ -442,7 +442,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
 
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img src={getImageSrc('icon/experts')}  alt="We Are Experts" />
+                                        <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
@@ -453,7 +453,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
 
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img src={getImageSrc('icon/full-control')}  alt="FAJ icon service" />
+                                        <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
@@ -465,7 +465,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}
@@ -502,7 +502,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
 
                             {/* <!-- Delimit mobile --> */}
                             <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                                <img src={getImageSrc('fajteam')}  alt="FAJ icon service" />
+                                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
                             </div>
                         </div>
                     </div>
@@ -512,7 +512,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
                 <ApplianceSpecialise />
 
                 {/* Brands section */}
-                
+
                 {!isLoading && brandsLogo_data.length > 0 && (
                     <BrandsSliderSection
                         brandsData={brandsLogo_data.map(item => ({
@@ -530,70 +530,70 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
                 <MaintenanceContract />
 
                 {/* testimobial section */}
-               <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg={reviewsbg}
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+                <Testimonial1
+                    subtitle="What Our Clients Say"
+                    title="Customer <span>Reviews</span>"
+                    bgImg={reviewsbg}
+                    testimonialData={testimonial_data}
+                    sectionId="home-testimonials"
+                />
 
                 {/* Faqs */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
-          <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+                <section className="section cs_py_30  bg-dark-blue text-light">
+                    <div className="container">
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
-            <div className="cs_accordians_wrapper cs_style_1 p-0">
+                        <div className="cs_accordians_wrapper cs_style_1 p-0">
 
-              {data.map((item, index) => (
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
-                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
-                    <span className="cs_accordian_toggle">
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                      >
-                        <circle cx="12" cy="12" r="3" />
-                        <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
-                      </svg>
+                            {data.map((item, index) => (
+                                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                                    <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                                        <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                                        <span className="cs_accordian_toggle">
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <circle cx="12" cy="12" r="3" />
+                                                <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
+                                            </svg>
 
-                      {/* Eye Slash */}
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                      >
-                        <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
-                        <line x1="1" y1="1" x2="23" y2="23" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
-                    </span>
-                  </div>
-                  <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0"
-                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
-                    ></p>
-                  </div>
-                </div>
-              ))}
+                                            {/* Eye Slash */}
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
+                                                <line x1="1" y1="1" x2="23" y2="23" />
+                                                <circle cx="12" cy="12" r="3" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div className="cs_accordian_body" ref={accordionContentRef}>
+                                        <p className="mb-0"
+                                            dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                                        ></p>
+                                    </div>
+                                </div>
+                            ))}
 
-            </div>
-          </div>
-        </section>
+                        </div>
+                    </div>
+                </section>
 
                 <section className="section cs_py_30">
                     <Serviceappointemnt

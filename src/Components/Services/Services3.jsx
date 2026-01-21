@@ -1,5 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const Services3 = () => {
   const [ServicesPageData, setServicesPageData] = useState([]);
@@ -31,11 +38,11 @@ const Services3 = () => {
               <div key={index} className="col-lg-4 col-md-6">
                 <div className="cs_card cs_style_1">
                   <div className="cs_card_thumbnail">
-                    <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Service Image" />
+                    <img src={getImageSrc(item.img)} alt="Service Image" />
                   </div>
                   <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
                     <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
-                      <img src={`${import.meta.env.BASE_URL}${item.icon}`} alt="Service Icon" />
+                      <img src={getImageSrc(item.icon)} alt="Service Icon" />
                     </div>
                     <h2 className="cs_card_title cs_fs_24 cs_mb_8">
                       <Link to={item.btnLink}>{item.title}</Link>

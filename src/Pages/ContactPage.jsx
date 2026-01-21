@@ -11,7 +11,7 @@ const ContactPage = ({titleSeo, description, Author, Keyword, URL }) => {
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");
-    const metaURL = String(URL || "https://www.fajservices.ae/contact-us/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/contact-us/");
 
     return (
         <>

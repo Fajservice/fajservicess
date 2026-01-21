@@ -30,73 +30,73 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
- const accordionContentRef = useRef(null);
-   const [openItemIndex, setOpenItemIndex] = useState(-1);
-   const [firstItemOpen, setFirstItemOpen] = useState(true);
-   const [isModalOpen, setIsModalOpen] = useState(false);
- 
-   // State for fetched data
-   const [data, setData] = useState([]);
-   const [testimonial_data, setTestimonialData] = useState([]);
-   const [brandsLogo_data, setBrandsLogoData] = useState([]);
-   const [isLoading, setIsLoading] = useState(true);
- 
-   const openModal = useCallback((e) => {
-     e.preventDefault();
-     setIsModalOpen(true);
-     document.body.style.overflow = 'hidden';
-   }, []);
- 
-   const closeModal = useCallback(() => {
-     setIsModalOpen(false);
-     document.body.style.overflow = 'auto';
-   }, []);
-   const handleItemClick = index => {
-     if (index === openItemIndex) {
-       setOpenItemIndex(-1);
-     } else {
-       setOpenItemIndex(index);
-     }
-   };
-   useEffect(() => {
-     if (firstItemOpen) {
-       setOpenItemIndex(0);
-       setFirstItemOpen(false);
-     }
-   }, [firstItemOpen]);
- 
-   useEffect(() => {
-     loadBackgroudImages();
-   }, []);
- 
-   // Fetch JSON data
-   useEffect(() => {
-     const fetchData = async () => {
-       try {
-         const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/HobRepairFaqs.json`),
-           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/HobrepairTestimonials.json`),
-           fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-         ]);
- 
-         const faqsData = await faqsResponse.json();
-         const testimonialsData = await testimonialsResponse.json();
-         const brandsData = await brandsResponse.json();
- 
-         setData(faqsData);
-         setTestimonialData(testimonialsData);
-         setBrandsLogoData(brandsData);
-       } catch (error) {
-         console.error('Error fetching data:', error);
-       } finally {
-         setIsLoading(false);
-       }
-     };
- 
-     fetchData();
-   }, []);
+  const accordionContentRef = useRef(null);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-   const settings = {
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/HobRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/HobrepairTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const settings = {
     dots: false,
     infinite: true,
     speed: 600,
@@ -219,7 +219,15 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('Hob-Repair-Service-in-Dubai-UAE')} alt="Hob Repair Servcie" loading="lazy" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
 
@@ -370,16 +378,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('Hob-Repair-Service-in-Dubai-UAE')} alt="Hob Repair Servcie" loading="lazy" />
               </div>
 
               <div className="col-xl-6">
@@ -565,7 +564,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Hob REPAIR SERVICE</h3>
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY HOB REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />

@@ -103,7 +103,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -120,6 +120,85 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+          <script type="application/ld+json">
+            {JSON.stringify(
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "What are the important household appliances?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Major appliances, commonly referred to as white goods, include essential household items such as air conditioners, dishwashers, clothes dryers, drying cabinets, freezers, refrigerators, kitchen stoves, water heaters, washing machines, trash compactors, microwave ovens, and induction cookers."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Which supply is used in home appliances?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Alternating current (AC) power is the standard for residential electrical systems in many regions. The electricity supplied by utility companies is primarily AC, and homes are usually equipped with AC outlets and appliances designed to operate on AC power."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Which appliances use the least electricity?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hair dryers, ovens, and space heaters consume very few kilowatt hours, and even refrigerators are energy efficient. This is particularly true for newer refrigerators, which use only 30 kilowatt hours per month."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What are major appliances for home?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Essential appliances include refrigerators, washers & dryers, freezers, dishwashers, oven & ranges, and range hoods."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Are household appliances AC or DC?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Most homes and commercial buildings use alternating current (AC), which is often referred to as 'household electricity.' However, modern appliances and consumer electronics, such as computers and smartphones, actually operate on direct current (DC). This is primarily because transistors, which are essential components in these devices, require DC to function."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How do household appliances work?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Electricity provides the energy needed to operate small appliances and other electrical devices. Current travels to the device through the hot wire, which is typically black, and returns through the neutral wire, usually white. The force that drives the current is known as voltage."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Do small appliances need a dedicated circuit?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Any equipment that operates on 220-volt power needs its own circuit. Dedicated circuits are necessary to prevent excessive electrical loads that could overheat wiring and potentially cause an electrical fire."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How do appliances short circuit?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Short circuits can occur due to damaged insulation, overloading, loose connections, faulty appliances, or power cords. They pose risks such as overheating, electrical burns, and fires."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How do I stop my appliance from tripping the power?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Use appliances sequentially: Only operate one high-wattage appliance at a time. For instance, if the microwave is causing the breaker to trip, finish using other appliances before turning it on. Install dedicated circuits: Consider hiring a professional to install dedicated circuits for high-power appliances."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How do I adjust my kitchen to any kind of weather/season?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Slate, travertine, and concrete are excellent options for both appearance and slip resistance, as well as durability. Installing a roof or overhang can help protect your outdoor kitchen from rain and sun damage. Be sure to weatherproof your appliances with fitted outdoor kitchen covers, and consider adding electricity and heating if you live in a colder region."
+                  }
+                }]
+              })}
+          </script>
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -158,7 +237,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
                 </h2>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a> we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -175,16 +254,13 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Why is Kitchen Appliances Maintenance Service Important in Dubai?</h2>
-            <p>
-              Regular maintenance helps identify and resolve minor issues before they escalate into major problems, thereby reducing the risk of breakdowns, electrical fires, or gas leaks.
-
-            </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={getImageSrc('small-mixer-service')} alt="Small Appliances Repair" />
               </div>
               <div className="col-md-6">
                 <p>
+                  Regular maintenance helps identify and resolve minor issues before they escalate into major problems, thereby reducing the risk of breakdowns, electrical fires, or gas leaks.
                   Here&apos;s a more detailed look at why maintenance is important:
                 </p>
                 <ul className="mb-0">
@@ -356,11 +432,11 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits Of Appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h2 className="cs_fs_30 mb-0">The Benefits Of Appliances Service Dubai
               </h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">

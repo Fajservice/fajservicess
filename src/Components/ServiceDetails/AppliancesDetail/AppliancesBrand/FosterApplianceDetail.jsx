@@ -331,7 +331,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                     </div>
                 </section >
 
-                {/* The Benefits Of appliances Service Dubai */}
+                {/* The Benefits Of Appliances Service Dubai */}
                 <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">

@@ -10,7 +10,13 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../ApplianceCommons/AppliancesAppointmentCol";
 import Testimonial1 from "../Testimonial/Testimonial1";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const EyeIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
     <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
@@ -156,7 +162,7 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
               <div className="col-md-6 ">
 
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={getImageSrc('dishwasher')} alt="Post Image" />
 
               </div>
             </div>
@@ -209,7 +215,7 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

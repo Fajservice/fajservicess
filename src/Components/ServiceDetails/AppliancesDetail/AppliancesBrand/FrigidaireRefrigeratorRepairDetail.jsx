@@ -335,7 +335,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30  ">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Frigidaire APPLIANCES</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR FRIGIDAIRE APPLIANCES</h3>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -366,7 +366,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits Of Appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">

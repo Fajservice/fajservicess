@@ -26,84 +26,84 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher Service Dubai, Dishwasher Fix Dubai, Dishwasher Maintenance Dubai, Dishwasher Machine Repair Dubai, Dishwasher Machine Service Dubai, Dishwasher Machine Fix Dubai, Dishwasher Machine Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/dishwasher-repair-service/");
-  const metaImage = "https://www.fajservices.ae/img/dishwasher-repair.avif";
+  const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/dishwasher-repair/public";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
 
   const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
-    const [isModalOpen, setIsModalOpen] = useState(false);
-  
-    // State for fetched data
-    const [data, setData] = useState([]);
-    const [testimonial_data, setTestimonialData] = useState([]);
-    const [brandsLogo_data, setBrandsLogoData] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
-  
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
-    const handleItemClick = index => {
-      if (index === openItemIndex) {
-        setOpenItemIndex(-1);
-      } else {
-        setOpenItemIndex(index);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/DishwasherRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/DishwasherRepairTestimonial.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
       }
     };
-    useEffect(() => {
-      if (firstItemOpen) {
-        setOpenItemIndex(0);
-        setFirstItemOpen(false);
-      }
-    }, [firstItemOpen]);
-  
-    useEffect(() => {
-      loadBackgroudImages();
-    }, []);
-  
-    // Fetch JSON data
-    useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/DishwasherRepairFaqs.json`),
-            fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/DishwasherRepairTestimonial.json`),
-            fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-          ]);
-  
-          const faqsData = await faqsResponse.json();
-          const testimonialsData = await testimonialsResponse.json();
-          const brandsData = await brandsResponse.json();
-  
-          setData(faqsData);
-          setTestimonialData(testimonialsData);
-          setBrandsLogoData(brandsData);
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        } finally {
-          setIsLoading(false);
-        }
-      };
-  
-      fetchData();
-    }, []);
+
+    fetchData();
+  }, []);
 
   return (
     <>
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -119,6 +119,57 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+          <script type="application/ld+json">
+            {JSON.stringify(
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "How can I determine whether my business dishwasher requires maintenance?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A commercial dishwasher that isn't cleaning properly or keeps leaking might make strange noises or display error codes. it's best to get professional repair services if you see any of these problems."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Which commercial dishwasher brands do you repair?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer repair services for a variety of commercial dishwasher brands at FAJ Technical Services L.L.C. To guarantee thorough fixes, our skilled technicians have handled a variety of makes and models."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "In what time frame can you reply to a request for commercial dishwasher repair?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Aiming to minimize downtime for your business, we usually respond to repair requests in a timely manner."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Are the professionals you send to fix commercial dishwashers certified?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely, our technicians are qualified and experienced in fixing commercial dishwashers. With their expertise, you can be sure that your equipment is operating properly because they can accurately diagnose problems and put effective solutions in place."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Do you provide commercial dishwasher maintenance services?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Unquestionably. We offer routine maintenance services for commercial dishwashers in addition to repairs. Regular maintenance keeps your equipment operating at its best, prolongs its lifespan, and helps prevent breakdowns."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Can you give me an estimate of the cost before the repair is done?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sure, we provide clear, up-front pricing estimates for our repair services for commercial dishwashers."
+                  }
+                }]
+              })}
+          </script>
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -159,7 +210,16 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('dishwasher-repair')} alt="Dishwasher Repair" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/Cye_OFTAT3E"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
 
@@ -305,16 +365,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/Cye_OFTAT3E"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('dishwasher-repair')} alt="Dishwasher Repair" />
               </div>
 
               <div className="col-xl-6">
@@ -337,7 +388,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits Of Appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">

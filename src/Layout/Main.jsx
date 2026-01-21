@@ -11,6 +11,7 @@ const Main = () => {
       <Suspense fallback={<div className="page-loading">Loading...</div>}>
         <div className='main-page-area'>
           <Header1 />
+          {/* <Header1 /> */}
           <div className="page-content-loader" style={{ minHeight: '70vh' }}>
             <Outlet />
           </div>

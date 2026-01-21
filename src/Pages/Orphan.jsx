@@ -1,44 +1,50 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const Orphan = ({titleSeo, description, Author, Keyword, URL }) => {
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Trusted Home & Commercial Appliance Repair in Dubai");
     const metadescription = String(description || "FAJ, founded in 2010, provides expert home & commercial appliances repair in Dubai. Skilled technicians service all major brands with reliable results.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "FAJ");
-    const metaURL = String(URL || "https://www.fajservices.ae/orphan/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/orphan/");
 
     return (
         <>
             <HelmetProvider>
-                           <Helmet>
-                               <title>{metatitle}</title>
-                               <meta name="description" content={metadescription} />
-                               <meta name="keywords" content={metaKeyword} />
-                               <meta name="author" content={metaAuthor} />
-                               <meta name="robots" content="index, follow" />
-           
-                               <link rel="canonical" href={metaURL} />
-                               <meta property="og:type" content="website" />
-                               <meta property="og:locale" content="en_US" />
-                               <meta property="og:title" content={metatitle} />
-                               <meta property="og:description" content={metadescription} />
-                               <meta property="og:url" content={metaURL} />
-                               <meta property="og:image" content={metaImage} />
-           
-                               {/* Twitter Card */}
-                               <meta name="twitter:card" content="summary_large_image" />
-                               <meta name="twitter:title" content={metatitle} />
-                               <meta name="twitter:description" content={metadescription} />
-                               <meta name="twitter:image" content={metaImage} />
-                               <meta name="twitter:url" content={metaURL} />
-                           </Helmet>
-                       </HelmetProvider>
+                <Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription} />
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
+                </Helmet>
+            </HelmetProvider>
 
             <section
                 className="cs_page_heading cs_bg_filed cs_primary_bg"
-                style={{ backgroundImage: `url(${import.meta.env.BASE_URL}img/page_heading_1.avif)` }}
+                style={{ backgroundImage: `url(${getImageSrc('page_heading_1')})` }}
             >
             </section>
             <section>
@@ -374,9 +380,9 @@ const Orphan = ({titleSeo, description, Author, Keyword, URL }) => {
                             <li><a href="https://www.fajservices.ae/electrical-plumbing-service/">Electrical Plumbing</a></li>
                             <li><a href="https://www.fajservices.ae/our-team/">Our Team</a></li>
                             <li><a href="https://www.fajservices.ae/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/">Ecovacs Vacuum Cleaner Repair and Service in Dubai</a></li>
-                             <li><a href="https://www.fajservices.ae/roborock-vacuum-cleaner-repair-service-in-dubai/">Roborock Vacuum Cleaner Repair and Service in Dubai</a></li>
-                             <li><a href="https://www.fajservices.ae/unox-commercial-oven-repair-and-maintenance-service-dubai/">Unox Commercial Oven Repair and Maintenance Service Dubai</a></li>
-                             <li><a href="https://www.fajservices.ae/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/">Rational Commercial Kitchen Equipment Repair and Maintenance Service Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/roborock-vacuum-cleaner-repair-service-in-dubai/">Roborock Vacuum Cleaner Repair and Service in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/unox-commercial-oven-repair-and-maintenance-service-dubai/">Unox Commercial Oven Repair and Maintenance Service Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/">Rational Commercial Kitchen Equipment Repair and Maintenance Service Dubai</a></li>
                         </ul>
                     </div>
                 </div>

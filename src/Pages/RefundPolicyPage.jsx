@@ -1,14 +1,12 @@
-import BreadCumb from "../Components/Common/BreadCumb";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
-const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
+const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Refund Policy | FAJ Top Maintenance Company in Dubai");
     const metadescription = String(description || "Refund Policy | FAJ Services: When you need help with home and office repair services. We provide a wide range of repair services equipment");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/page_heading_1/public");
     const metaKeyword = String(Keyword || "FAJ");
-    const metaURL = String(URL || "https://www.fajservices.ae/refund-policy/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/refund-policy/");
 
     return (
         <>

@@ -11,26 +11,29 @@ export const usePopup = () => {
 };
 
 const STORAGE_KEY = 'hasVisited';
-const POPUP_DELAY = 1000;
+
+// Preload popup image immediately
+const POPUP_IMAGE_URL = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/30discount/public';
+if (typeof window !== 'undefined') {
+  const link = document.createElement('link');
+  link.rel = 'preload';
+  link.as = 'image';
+  link.href = POPUP_IMAGE_URL;
+  link.fetchPriority = 'high';
+  document.head.appendChild(link);
+}
 
 export const PopupProvider = ({ children }) => {
-  const [showPopup, setShowPopup] = useState(false);
-
-  useEffect(() => {
-    // Check localStorage only once on mount
+  // Initialize synchronously - no delay for first-time visitors
+  const [showPopup, setShowPopup] = useState(() => {
+    if (typeof window === 'undefined') return false;
     try {
       const hasVisited = localStorage.getItem(STORAGE_KEY);
-      if (hasVisited) return;
-      
-      const timer = setTimeout(() => {
-        setShowPopup(true);
-      }, POPUP_DELAY);
-      
-      return () => clearTimeout(timer);
+      return !hasVisited; // Show immediately if first visit
     } catch {
-      // localStorage not available (SSR or private browsing)
+      return false;
     }
-  }, []);
+  });
 
   const closePopup = useCallback(() => {
     setShowPopup(false);
@@ -41,7 +44,6 @@ export const PopupProvider = ({ children }) => {
     }
   }, []);
 
-  // Memoize context value to prevent unnecessary re-renders
   const value = useMemo(() => ({
     showPopup,
     closePopup

@@ -10,7 +10,13 @@ import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BrandsSliderSection from "../../BrandsSliderSection";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Commercial Kitchen Equipment AMC Contract Services in Dubai");
@@ -19,13 +25,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
   const metaKeyword = String(Keyword || "Kitchen Equipment amc, kitchen equipment maintenance contract, commercial kitchen equipment service, kitchen appliance repair, kitchen equipment repair Dubai, kitchen equipment AMC Dubai, kitchen equipment AMC Abu Dhabi, kitchen equipment AMC Sharjah, gas stove maintenance Dubai, oven maintenance Dubai, cooker maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-amc/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/kitchen-equip-amc-service.avif");
-const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
-};
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -148,7 +148,7 @@ const getImageSrc = (imgPath) => {
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Kitchen Equipments AMC" />
+                <img className="bordered-img w-100" src={getImageSrc('commercial-kitchen-equipment-amc')} alt="Kitchen Equipments AMC" />
               </div>
             </div>
             <h2 className="cs_fs_24 mb-1 border-small-top pt-3" style={{ fontSize: "24px" }}>Planned Preventive Maintenance (PPM) Services</h2>
