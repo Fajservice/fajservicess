@@ -26,18 +26,19 @@ const EyeSlashIcon = () => (
     <path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z" />
   </svg>
 );
-const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Commercial Coffee Machine Repairs & Maintenance in Dubai");
   const metadescription = String(description || "FAJ Expert Commercial Coffee Machine repairs in Dubai, coffee equipment, Vending, Espresso, Automatic coffee machines maintenance service near me");
-  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Commercial COffee Machine repair, 3 Group Coffee Machine Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-repairs/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/Coffee-machine-servicing-title-image.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Coffee-machine-servicing-title-image/public");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
+
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -101,45 +102,12 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
     fetchData();
   }, []);
 
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
-
   return (
     <>
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -156,6 +124,108 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+
+          <script type="application/ld+json">
+            {JSON.stringify(
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "How much power does a commercial espresso machine use?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "On average, commercial coffee machines consume between 1,500 to 3,500 watts per hour. This means that a machine running for 8 hours a day would use approximately 12,000 to 28,000 watt-hours per day, equating to around 360 to 840 kilowatt-hours per month."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How long does a commercial espresso machine last?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Typically, a well-maintained commercial coffee machine can last anywhere from 5 to 15 years. The lifespan varies due to differences in brands, models, and, most importantly, the level of maintenance and servicing it receives over time."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Do commercial espresso machines need a drain?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, commercial espresso machines often require drain lines. These machines generate condensation and have liquid lines designed to direct excess water into the drain."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What pressure do commercial espresso machines use?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Espresso is primarily brewed at around 9 bars of pressure. However, some machines, particularly specialized espresso makers, can reach pressures of up to 20 bars. This higher pressure helps ensure consistent extraction, especially in compact or portable devices."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is the flow rate of an espresso machine?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The pump in espresso machines delivers a maximum water flow, referred to as water debit. There are two types of pumps commonly used: vibration and rotary. Vibration pumps typically yield flow rates of 8 mL/s, while rotary pumps can achieve up to 30 mL/s."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How often should a commercial espresso machine be cleaned?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cleaning should occur daily and weekly. it's important to clean your espresso machine daily with backflush chemicals, along with brushing down and removing any accumulated coffee grounds or oils. This maintenance significantly extends the machine's lifespan."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How does a commercial espresso machine work?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Key components include a pump that draws water from the reservoir, a boiler, and the portafilter, which is part of the group head. Most machines use an electric pump to force water through the compacted coffee in the portafilter."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is a common problem with coffee machines?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Insufficient water flow can be a major issue. If your coffee machine is producing weak or slow water flow, it may be due to a clogged water line or filter. Check the water reservoir for debris or mineral buildup that could be obstructing flow, and inspect the water filter, replacing it if necessary."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What temperature should a commercial coffee maker be?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The optimal brewing temperature for coffee is between 195 degrees and 205 degrees Fahrenheit. This temperature range is crucial for ensuring the best extraction, depending on your grind consistency."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Should commercial coffee machines be turned off at night?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It is important to allow the temperatures, particularly in your brew groups, to stabilize to ensure proper brewing. If your commercial espresso machine does not have a programmed on/off feature, it is recommended that you leave it on when not in use."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What happens if a coffee machine is not cleaned regularly?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Disregarding to clean machines regularly can lead to poor-tasting coffee and puts the machine at risk of damage. Most machines have a microporous steel filter, and the buildup of coffee tannins over time can clog this filter, causing jams and potential breakdowns."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Is descaling a coffee machine necessary?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Regular descaling of your coffee machine is essential to produce the best quality coffee. The frequency of descaling depends on how often the machine is used and the hardness of the water in your area."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Do coffee machines need servicing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, coffee machines experience significant wear and tear over time. Regular servicing can help identify any parts that need replacement or repair, potentially preventing major breakdowns in the future."
+                  }
+                }
+                ]
+              })}
+          </script>
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -198,8 +268,15 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai')} alt="Post Image" />
-
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
+                  title="FAJ Videos"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
 
@@ -224,7 +301,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
           </div>
         </section>
 
-        {/* WWhat is the Importance of Coffee Machine Maintenance in Dubai? */}
+        {/* What is the Importance of Coffee Machine Maintenance in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">What is the Importance of Coffee Machine Maintenance in Dubai?</h3>
@@ -392,16 +469,8 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
-                  title="FAJ Videos"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai')} alt="Post Image" />
+
               </div>
 
               <div className="col-xl-6">
@@ -424,7 +493,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits Of Appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray ">
           <div className="container">
             <div className="row justify-content-center">

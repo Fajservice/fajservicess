@@ -101,7 +101,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -118,6 +118,85 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+          <script type="application/ld+json">
+            {JSON.stringify(
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "What is the maintenance needed for a refrigeration system?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "7 Essential Tasks for Your Preventive Maintenance Checklist for Commercial Refrigeration Be sure to include the following important tasks in your preventive maintenance checklist for commercial refrigeration systems: - Thoroughly Clean Equipment - Check Temperature and Defrost Settings - Enhance Airflow - Test Interior Lights - Inspect for Leaks and Test Seals - Examine Coils - Inspect Fan Blades These tasks will help ensure that your refrigeration systems operate efficiently and effectively."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How do you maintain refrigeration?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Refrigerator maintenance tips to help you keep your cool: - Clean the coils: The coils are essential to your fridge's cooling system because they help release heat as the refrigerant flows through them. - Maintain the temperature: Ensure that your fridge is set to the appropriate temperature for optimal performance. - Inspect and clean the gasket: Check the door gasket for any wear and tear, and clean it to maintain a proper seal. - Replace the water and ice filters: Regularly change the water and ice filters to ensure clean and fresh- tasting ice and water. - Close the door properly: Always make sure the fridge door is fully closed to prevent warm air from entering and compromising the cooling efficiency."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is the preventive maintenance on refrigeration equipment?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "To maintain cleanliness, regularly wash with a mild soapy water solution. Check the operation of the thermostat and the defrost system (if equipped). Ensure that door seals are clean, avoiding any material buildup in the folds and corners. Remove any ice buildup using the defrost system or a blunt scraper as needed."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How often should refrigerator be maintained?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ignoring basic maintenance tasks, such as cleaning the condenser coils and wiping down the gaskets, can put unnecessary stress on your appliance. It’s a good idea to set aside time each month for these quick maintenance tasks. When a refrigerator is properly maintained, it operates more efficiently."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What are the benefits of AMC contract?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Budget Bliss: The Benefits of Predictable Maintenance Costs An annual maintenance contract(AMC) protects a company from unexpected expenses related to refrigeration equipment maintenance.With an AMC, businesses benefit from a fixed and predictable cost structure, allowing them to effectively manage and account for all maintenance spending over time."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is the period of the annual maintenance contract?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Freezer and chiller maintenance contracts will last for one year from the date of acceptance and issuance of the work order. All days, excluding weekends, will be considered as working days."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What should be included in a chiller and freezer maintenance contract?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It can also be referred to as a service maintenance agreement, a preventative maintenance service contract, a freezer and chiller service agreement, or an installation contract. Regardless of the name, it includes everything."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What are the different types of annual maintenance contracts?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The various types of Annual Maintenance Contracts (AMCs) include:- Comprehensive AMC: Covers all maintenance costs, including parts and labor. - Non - Comprehensive AMC: Charges for separate parts; only labor expenses are covered. - Preventive AMC: Focuses on regular maintenance and inspections."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is the minimum contract period?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Minimum Contract Period refers to a duration of six months or twelve months from the start of the contract or another period specified in the Contract."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What does a maintenance contract cover?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The text outlines the terms and conditions of the agreement between the two parties. Maintenance contractors can be hired to provide various maintenance services, ranging from general upkeep to specialised repairs. Any details negotiated between the parties will be clearly specified in the contract."
+                  }
+                }]
+              })}
+          </script>
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

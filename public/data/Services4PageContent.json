@@ -1,23 +1,23 @@
 [
   {
-    "img": "img/service_img_1.avif",
-    "icon": "img/icons/air-conditioning.png",
+    "img": "service_img_1.avif",
+    "icon": "icon/air-conditioning",
     "title": "AC Repair Near Me",
     "desc": "Looking for AC repair near me in Dubai? Contact us at 043300002 for AC maintenance. Get same-day air conditioner repair service near me Sharjah",
     "btnText": "READ MORE",
     "btnLink": "/dubai/ac-repair-near-me/"
   },
   {
-    "img": "img/Commercial-refrigeration-service.avif",
-    "icon": "img/icons/Commercial-refrigeration-service.png",
+    "img": "Commercial-refrigeration-service.avif",
+    "icon": "icon/Commercial-refrigeration-service",
     "title": "Refrigerator Repair Near Me",
     "desc": "Looking for Refrigerator repair near me in Dubai? Contact us at 043300002 for same-day fridge repair near me​ or freezer maintenance service Sharjah",   
     "btnText": "READ MORE",
     "btnLink": "/dubai/refrigerator-repair-near-me/"
   },
   {
-    "img": "img/Laundry-equipment-services.avif",
-    "icon": "img/icons/Laundry-equipment-services.png",
+    "img": "Laundry-equipment-services.avif",
+    "icon": "icon/Laundy-equipment-services",
     "title": "Washing Machine Repair Near Me",
     "desc": "Looking Washing Machine repair near me in Dubai? Call us 043300002 for same-day Bosch, LG, Electrolux, Daewoo washing machine repair",   
     "btnText": "READ MORE",

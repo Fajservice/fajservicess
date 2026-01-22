@@ -388,4 +388,4 @@ export const AcRepairInJebelAliIndustrialArea = withSuspense(React.lazy(() => im
 export const CoffeeMachineLandingPage = withSuspense(React.lazy(() => import("../Pages/LandingPages/CoffeeMachineLandingPage.jsx")));
 export const Career = withSuspense(React.lazy(() => import("../Pages/Career/Career")));
 export const Testimonials = withSuspense(React.lazy(() => import("../Pages/TestimonialsPage")));
-export const CloudflareGallery = withSuspense(React.lazy(() => import("../Pages/CloudflareGallery")));
+export const CloudApi = withSuspense(React.lazy(() => import("../Pages/CloudApi")));

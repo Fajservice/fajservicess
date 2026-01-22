@@ -95,26 +95,104 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
-          <meta name="keywords" content={metaKeyword} />
-          <meta name="author" content={metaAuthor} />
-          <meta name="robots" content="index, follow" />
-          <link rel="canonical" href={metaURL} />
-          <meta property="og:type" content="website" />
-          <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
-          <meta property="og:image" content={metaImage} />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
-        </Helmet>
-      </HelmetProvider>
+      <Helmet>
+        <title>{metatitle}</title>
+        <meta name="description" content={metadescription} />
+        <meta name="keywords" content={metaKeyword} />
+        <meta name="author" content={metaAuthor} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={metaURL} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={metatitle} />
+        <meta property="og:description" content={metadescription} />
+        <meta property="og:image" content={metaImage} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metatitle} />
+        <meta name="twitter:description" content={metadescription} />
+        <meta name="twitter:image" content={metaImage} />
+        <meta name="twitter:url" content={metaURL} />
+        <script type="application/ld+json">
+          {JSON.stringify(
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "What types of coffee machines do you repair?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We service espresso machines, drip coffee makers, single-serve brewers, and other types of coffee appliances. Smeg, Black and Decker, Beko, Nobel, Espresso, Delonghi, Melitta, Electrolux, Breville, and Philips are among the popular brands we repair."
+                }
+              }, {
+                "@type": "Question",
+                "name": "How long does a coffee machine repair typically take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The time require for the repair is determine by the complexity of the problem. Minor repairs can often be done in a matter of hours, however, more serious repairs may take longer. Our specialists work hard to provide quick service while also ensuring that the repair is done correctly."
+                }
+              }, {
+                "@type": "Question",
+                "name": "What if my coffee machine cannot repair?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In the rare situation that your coffee machine is beyond repair, our professionals will also offer you an honest assessment. So, we can also help you look into other possibilities, such as suggesting a replacement or advising you on how to buy a new coffee machine."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Is your coffee machine service center located in Dubai?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we have a coffee machine servicing center in Dubai. Customers looking for coffee machine repair services in the region can simply find us."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Do you provide on-site coffee machine repair service?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we do on-site coffee machine repair in Dubai. Our professionals may come to your site to diagnose and repair your coffee machine, making service at your door handy."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Can you service Delonghi coffee machines in Dubai?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely! We specialize in repairing Delonghi coffee machines as a coffee machine service facility in Dubai. We can conduct the necessary repairs to restore the functionality of your Delonghi espresso machine or drip coffee maker."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Is it worth repairing a coffee machine?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, it can be worth repairing a coffee machine, especially if it’s a high-quality model. Repairs can restore its functionality and extend its life, making it a more cost-effective option than buying a new one."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Can coffee makers be repaired?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely! Most coffee makers can be repaired. Common issues like broken parts, faulty pumps, or clogged water lines can often be fixed by a professional."
+                }
+              }, {
+                "@type": "Question",
+                "name": "What is the common problem with coffee machines?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Common problems include clogged water lines, malfunctioning pumps, heating element failures, or issues with the brewing cycle. These problems often arise from lack of regular cleaning or mineral buildup."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Can coffee machines be fixed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, most coffee machines can be repaired depending on the issue. Simple problems like water not flowing or the machine not heating can often be fixed quickly. More complicated issues might require professional service."
+                }
+              }
+              ]
+            })}
+        </script>
+      </Helmet>
+
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -154,8 +232,16 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               </div>
 
               <div className="col-md-6 ">
-
-                <img className="bordered-img w-100" src={getImageSrc('Coffee-machine-servicing-title-image')} alt="Post Image" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
+                  title="FAJ Videos"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
 
               </div>
             </div>
@@ -334,16 +420,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
-                  title="FAJ Videos"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                                <img className="bordered-img w-100" src={getImageSrc('Coffee-machine-servicing-title-image')} alt="Post Image" />
               </div>
 
               <div className="col-xl-6">

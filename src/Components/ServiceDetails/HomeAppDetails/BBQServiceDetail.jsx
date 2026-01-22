@@ -11,7 +11,6 @@ import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
-import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -27,7 +26,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/Barbeque-Repair.jpg");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Barbeque-Repair/public");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -77,16 +76,13 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
         const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/BBQServiceFaqs.json`),
           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/BBQServiceTestimonials.json`),
-          fetch(`${import.meta.env.BASE_URL}data/bbqBrandsLogo.json`)
         ]);
 
         const faqsData = await faqsResponse.json();
         const testimonialsData = await testimonialsResponse.json();
-        const brandsData = await brandsResponse.json();
 
         setData(faqsData);
         setTestimonialData(testimonialsData);
-        setBrandsLogoData(brandsData);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
@@ -332,7 +328,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits Of Appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
@@ -446,7 +442,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
-            <h3>We specialise in BArbecue repair services for the following brands</h3>
+            <h3>We specialise in Barbecue repair services for the following brands</h3>
             <ul className="ml-5">
               <li> <strong>  Char Broil Gas Grill Service and Repair: </strong> FAJ offers reliable Char Broil gas BBQ grill cleaning service near me repair in Dubai, with professionals who are experts in freestanding and built-in Char Broil electric barbeque grill repair and char broil gas grill repair near me home service near you in Dubai and Sharjah. </li>
               <li> <strong>  Weber Genesis Barbeque Gas Burner Repair and Service: </strong> Located in Dubai, FAJ is your premier destination for Weber Genesis BBQ grill repair. Or BBQ grill cleaning service. We specialize in Weber Genesis barbecue maintenance and service, offering comprehensive services that include barbecue cleaning and repair. We also offer Weber Genesis BBQ repair and service near me in Dubai. </li>
@@ -544,16 +540,6 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
-
-        <BeforeAfter
-          title="Recent Completed Projects"
-          subTitle="Before & after"
-          bgImg={`${CDN}/background-image-2/public`}
-          beforeImg={`${CDN}/bbqafter_img/public`}
-          afterTitle="After"
-          afterImg={`${CDN}/bbqbefore_img/public`}
-          beforeTitle="Before"
-        />
         {/* testimobial section */}
         {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1

@@ -38,51 +38,25 @@ const CheckListItem = memo(({ text }) => (
 ));
 CheckListItem.displayName = 'CheckListItem';
 
-const IconBox = memo(({ icon, title }) => {
-  const [isVisible, setIsVisible] = useState(false);
-  const ref = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { rootMargin: "150px" }
-    );
-
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, []);
-
-  
-
-  return (
-      <div className="cs_iconbox cs_style_1" ref={ref}>
-      <div
-        className="cs_iconbox_icon cs_center"
-        style={{ minWidth: 48, minHeight: 48 }}
-      >
-        {isVisible && (
-          <img
-            src={icon}
-            alt={title}
-            width={48}
-            height={48}
-            loading="lazy"
-            decoding="async"
-          />
-        )}
-      </div>
-
-      <h3 className="cs_iconbox_title cs_fs_24 cs_semibold">
-        {title}
-      </h3>
+const IconBox = memo(({ icon, title }) => (
+  <div className="cs_iconbox cs_style_1">
+    <div
+      className="cs_iconbox_icon cs_center"
+    >
+      <img
+        src={icon}
+        alt={title}
+        width={48}
+        height={48}
+        loading="lazy"
+        decoding="async"
+      />
     </div>
-  );
-});
+    <h3 className="cs_iconbox_title cs_fs_24 cs_semibold">
+      {title}
+    </h3>
+  </div>
+));
 IconBox.displayName = 'IconBox';
 
 const iconBoxData = [
@@ -190,33 +164,29 @@ const About1 = ({ img1, img2, img3, subTitle, Content }) => {
                   fetchpriority="high"
                 />
               </div>
-              {isInView && (
-                <>
-                  <div className="cs_about_thumbnail mt-4">
-                    <img
-                      src={img2}
-                      alt="Our professional team"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
-                  <div className="cs_about_thumbnail">
-                    <img
-                      src={img3}
-                      alt="Quality service delivery"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
-                </>
-              )}
+              <div className="cs_about_thumbnail mt-4">
+                <img
+                  src={img2}
+                  alt="Our professional team"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div className="cs_about_thumbnail">
+                <img
+                  src={img3}
+                  alt="Quality service delivery"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
 
               <div className="cs_esperience_text position-absolute">
                 <h2 className="cs_experience_title mb-0">
                   <span className="cs_fs_100 cs_black cs_accent_color">FAJ</span>
-                  <span className="cs_fs_30">was established</span>
-                  <span className="cs_fs_30">Since</span>
-                  <span className="cs_fs_50 cs_accent_color">2010</span>
+                  <span className="cs_fs_24">was established</span>
+                  <span className="cs_fs_24">Since</span>
+                  <span className="cs_fs_24 cs_accent_color">2010</span>
                 </h2>
               </div>
 

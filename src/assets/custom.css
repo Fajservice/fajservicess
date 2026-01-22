@@ -143,11 +143,6 @@ section#get-quote {
   contain: layout paint style;
 }
 
-.cs_iconbox.cs_style_1.cs_type_1 .cs_iconbox_icon {
-  width: 30px;
-  min-width: 30px;
-}
-
 
 .cs_nav .cs_nav_list>li.menu-item-has-children .custom_border_drop .menu-item-has-children:hover>a::after {
   transform: rotate(-90deg);
@@ -192,10 +187,6 @@ section#get-quote {
     left: 50%;
     width: 260px;
     height: 4px;
-  }
-
-  .cs_site_branding img {
-    max-width: 150px;
   }
 
   .cs_nav .cs_nav_list li {
@@ -610,8 +601,6 @@ p a {
 
 
 .cs_service_details img {
-  /* max-height: 310px !important; */
-  max-height: 370px !important;
   object-fit: cover;
   width: 100%;
 
@@ -1100,7 +1089,7 @@ tr.Inverter.Ton-4 {
 
 /* Remove when all headers done*/
 h2.cs_fs_24 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 /* for adjustment in one line appliance brandwise  */
@@ -1110,9 +1099,6 @@ h2.cs_fs_20 {
 }
 
 /* FAQ Section Background */
-.faq-Section {
-  background-image: url(/img/testimonialbg.jpg);
-}
 
 .custom-css-box .box-content-container {
   min-height: 152px;

@@ -76,7 +76,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Service, Air Con Service, AC Service in Dubai, Air Conditioning Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-service-in-dubai/");
-  const metaImage = "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif";
+  const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -320,14 +320,15 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
               </div>
               <div className="col-md-6">
-                <img
-                  width={534}
-                  height={324}
-                  className="bordered-img w-100"
-                  src={getImageSrc('Experts-AC-Service-and-Maintenance')}
-                  alt="Experts AC Service and Maintenance"
-                  loading="lazy"
-                />
+               <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/mzBxfKZ_QxQ?si=eTib5kk8BZ0KVGvO"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
 

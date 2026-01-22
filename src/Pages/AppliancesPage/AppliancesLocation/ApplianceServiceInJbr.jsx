@@ -7,7 +7,7 @@ const ApplianceServiceInJbr = () => {
               <BreadCumb
 bgImg="img/banners/appliances-banner-desktop-faj.avif"
 mobileBgImg="img/banners/appliances-banner-mobile-faj.avif"
-                  Title="Home Appliance Service in Jbr">
+                  Title="Home Appliance Service in JBR">
               </BreadCumb>
               <ApplianceServiceInJbrDetail />
     </div>

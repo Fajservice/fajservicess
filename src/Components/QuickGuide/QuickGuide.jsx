@@ -1,5 +1,11 @@
 
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const QuickGuide = () => {
     return (
 
@@ -8,16 +14,14 @@ const QuickGuide = () => {
                 <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONING SYSTEMS</h2>
                 <div className="row">
                     <div className="col-xl-6">
-                        <iframe
-                            className="bordered-img blue-border"
-                            width="100%"
-                            height="350"
-                            src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowFullScreen
-                        ></iframe>
+                        <img
+                            width={534}
+                            height={324}
+                            className="bordered-img w-100"
+                            src={getImageSrc('about_img_3')}
+                            alt="Experts AC Service and Maintenance"
+                            loading="lazy"
+                        />
                     </div>
 
                     <div className="col-xl-6">

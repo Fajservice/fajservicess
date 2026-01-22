@@ -1562,12 +1562,12 @@ export const router = createBrowserRouter([
         element: <Components.Career />,
       },
       {
-        path: "/testimonials/",
-        element: <Components.Testimonials />,
+        path: "/cloudapi/",
+        element: <Components.CloudApi />,
       },
       {
-        path: "/cloudgallery/",
-        element: <Components.CloudflareGallery />,
+        path: "/testimonials/",
+        element: <Components.Testimonials />,
       },
       // Redirection
       {

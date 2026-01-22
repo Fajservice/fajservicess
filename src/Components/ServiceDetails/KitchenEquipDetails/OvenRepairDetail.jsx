@@ -51,74 +51,74 @@ const OvenRepairDetail = ({
   );
 
   subtitle = "Testimonial"
-  title = "What our clients say About Us"
-  reviewsbg = getImageSrc('testimonialbg')
-
-  const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  // State for fetched data
-  const [data, setData] = useState([]);
-  const [testimonial_data, setTestimonialData] = useState([]);
-  const [brandsLogo_data, setBrandsLogoData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  const openModal = useCallback((e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  }, []);
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
-
-  // Fetch JSON data
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/OvenRepairFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testimonials/OvenRepairTestimonials.json`),
-          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-        ]);
-
-        const faqsData = await faqsResponse.json();
-        const testimonialsData = await testimonialsResponse.json();
-        const brandsData = await brandsResponse.json();
-
-        setData(faqsData);
-        setTestimonialData(testimonialsData);
-        setBrandsLogoData(brandsData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setIsLoading(false);
+    title = "What our clients say About Us"
+    reviewsbg = getImageSrc('testimonialbg')
+  
+    const accordionContentRef = useRef(null);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+  
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+  
+    const openModal = useCallback((e) => {
+      e.preventDefault();
+      setIsModalOpen(true);
+      document.body.style.overflow = 'hidden';
+    }, []);
+  
+    const closeModal = useCallback(() => {
+      setIsModalOpen(false);
+      document.body.style.overflow = 'auto';
+    }, []);
+    const handleItemClick = index => {
+      if (index === openItemIndex) {
+        setOpenItemIndex(-1);
+      } else {
+        setOpenItemIndex(index);
       }
     };
-
-    fetchData();
-  }, []);
+    useEffect(() => {
+      if (firstItemOpen) {
+        setOpenItemIndex(0);
+        setFirstItemOpen(false);
+      }
+    }, [firstItemOpen]);
+  
+    useEffect(() => {
+      loadBackgroudImages();
+    }, []);
+  
+    // Fetch JSON data
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+            fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/OvenRepairFaqs.json`),
+            fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testimonials/OvenRepairTestimonials.json`),
+            fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+          ]);
+  
+          const faqsData = await faqsResponse.json();
+          const testimonialsData = await testimonialsResponse.json();
+          const brandsData = await brandsResponse.json();
+  
+          setData(faqsData);
+          setTestimonialData(testimonialsData);
+          setBrandsLogoData(brandsData);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
 
   return (
     <>
@@ -643,17 +643,18 @@ const OvenRepairDetail = ({
           </div>
         </section>
 
-        {!isLoading && testimonial_data.length > 0 && (
-          <Testimonial1
-            subtitle="What Our Clients Say"
-            title="Customer <span>Reviews</span>"
-            bgImg={reviewsbg}
-            testimonialData={testimonial_data}
-            sectionId="home-testimonials"
-          />
-        )}
+       {/* Testimonial section */}
+               {!isLoading && testimonial_data.length > 0 && (
+                 <Testimonial1
+                   subtitle="What Our Clients Say"
+                   title="Customer <span>Reviews</span>"
+                   bgImg={reviewsbg}
+                   testimonialData={testimonial_data}
+                   sectionId="home-testimonials"
+                 />
+               )}
 
-        {/* Faqs */}
+     {/* FAQs Section - FIXED */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

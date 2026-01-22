@@ -1,5 +1,5 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const TermsConditionsPage = ({ 
     titleSeo, 
     description, 
@@ -28,7 +28,7 @@ const TermsConditionsPage = ({
   );
 
   const metaImage = String(
-    Image || "https://www.fajservices.ae/img/page_heading_1.avif"
+    Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/page_heading_1/public"
   );
 
     return (

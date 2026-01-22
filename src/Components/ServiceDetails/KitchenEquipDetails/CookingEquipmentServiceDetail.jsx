@@ -102,7 +102,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -119,6 +119,78 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+          <script type="application/ld+json">
+            {JSON.stringify(
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                  "@type": "Question",
+                  "name": "What is the most important piece of equipment in a commercial kitchen?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Commercial ranges are essential in professional kitchens, enabling chefs to cook multiple dishes at different heat levels simultaneously."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "Why is cooking equipment important?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Using high-quality kitchen equipment allows for precise temperature control, consistent cooking methods, and optimal food preparation techniques. This leads to consistently high-quality dishes, enhancing customer satisfaction and strengthening brand reputation."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is commercial cooking equipment?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ovens, grills, and hobs are essential in every kitchen. While deep fryers, salamander broilers, steam tables, and griddles are popular, they are not always needed in every kitchen. Additionally, some cooking equipment is required only for preparing specialized dishes."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What material is used to make most commercial kitchen equipment?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "304 Stainless Steel is a type of austenitic steel that is especially favored in the foodservice industry because of its corrosion resistance, ease of cleaning, and ability to endure humid environments."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "How long should commercial kitchen equipment last?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The core of the kitchen is its cooking equipment, which includes ovens, ranges, and gas stovetops. These items are essential in the food production process and have an average lifespan of 10 to 15 years."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What equipment is needed in a restaurant kitchen?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ovens: Ovens are likely the first pieces of equipment that come to mind when considering restaurant cooking tools.Ranges and Ventilation: Ranges are essential for various cooking methods, and proper ventilation is crucial for maintaining air quality in the kitchen.Food Processors: These are invaluable for efficiently preparing ingredients.Mixers: Mixers are necessary for baking and other food preparation tasks.Slicers: Slicers help with quickly preparing meats, cheeses, and vegetables.Food Prep Counters and Cutting Boards: These surfaces are vital for food preparation and maintaining hygiene.Freezers and Refrigerators: Proper storage equipment is important for preserving food quality and safety.Safety Equipment: This includes items like fire extinguishers and first aid kits to ensure a safe working environment."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is cooking equipment designed for?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cooking equipment should be designed to take advantage of our knowledge regarding how different factors influence food during the cooking process. This approach will allow food processors to create methods that not only meet essential food safety standards but also enhance quality and maximize production efficiency."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is induction cooking equipment?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Induction ranges provide a fast, efficient, and precise cooking method that is perfect for commercial kitchens. They use electromagnetic energy to heat the cookware directly, rather than warming the surface of the range itself. This direct heating leads to quicker heating times and improved temperature control."
+                  }
+                }, {
+                  "@type": "Question",
+                  "name": "What is HoReCa equipment?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HoReCa products encompass a wide range of essential items for the hospitality and food industry. These include commercial kitchen equipment, tableware, linens, and cleaning supplies. Additionally, the industry features food and beverage ingredients as well as technology solutions."
+                  }
+                }]
+              })}
+          </script>
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -137,7 +209,6 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
 
@@ -334,7 +405,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
             </div>
           </div>
         </section>
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits Of Appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec  bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">

@@ -7,7 +7,7 @@ import PhoneIcon from '../../icons/PhoneIcon';
 import WhatsappIcon from '../../icons/WhatsappIcon';
 import LocationIcon from '../../icons/LocationIcon';
 
-const logoUrl = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo/public';
+const logoUrl = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public';
 
 const contactItems = [
   {
@@ -99,7 +99,7 @@ export default function Header1({ variant = '' }) {
       <header className={headerClasses} style={headerStyles}>
         <div className="cs_top_header">
           <div className="container-fluid">
-            <div className="cs_top_header_in">
+            {/* <div className="cs_top_header_in">
               <div className="cs_top_header_left">
                 <ul className="cs_header_contact_list cs_mp_0">
                   {contactItems.map((item, index) => (
@@ -135,26 +135,25 @@ export default function Header1({ variant = '' }) {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
         <div className="cs_main_header">
-          <div className="container-fluid">
+          <div className="container-fluidd">
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
-                <div className="cs_logo_wrap">
-                  <Link className="cs_site_branding" to="/" aria-label="Home">
-                    <img src={logoUrl} alt="FAJ Technical Services Logo" />
-                  </Link>
-                  <div className="cs_logo_bg_shape cs_accent_color">
-                    <svg width="509" height="141" viewBox="0 0 509 141" fill="none" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
-                      <path d="M74 0H487L508.5 70.5L473.5 141H74V0Z" fill="currentColor" />
-                      <path d="M54 141H472.5L488.5 70.5L443.5 0H54V141Z" fill="white" />
-                      <path d="M0 0H443L464.5 70.5L443 141H0V0Z" fill="currentColor" />
-                    </svg>
-                  </div>
-                </div>
+
+                <Link className="cs_site_branding" to="/" aria-label="Home">
+                  <img
+                    src="https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+                    alt="FAJ Technical Services Logo"
+                    width="200"
+                    height="120"
+                    style={{ width: 'auto', height: 'auto', maxWidth: '205px' }}
+                  />
+                </Link>
+
               </div>
 
               <div className="cs_main_header_center">

@@ -1,22 +1,26 @@
 
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Blog3 from "../../Blog/Blog3";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Refrigerator Repair Near Me - Appliance Repair Near Me - FAJ");
@@ -24,7 +28,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Refrigerator Repair Near Me, Refrigerator Service Near Me, Fridge Repair Near Me, Refrigerator Maintenance Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/dubai/refrigerator-repair-near-me/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/refrigerator.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/refrigerator/public");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -32,123 +36,68 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   // State for fetched data
-    const [data, setData] = useState([]);
-    const [testimonial_data, setTestimonialData] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
-    const [brandsLogo_data, setBrandsLogoData] = useState([]);
-  
-    const handleItemClick = index => {
-      if (index === openItemIndex) {
-        setOpenItemIndex(-1);
-      } else {
-        setOpenItemIndex(index);
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/DubaiData/FAQs/RefrigeratorRepairNearMeFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/DubaiData/Testmonials/RefrigeratorRepairNearMeTestimonial.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
       }
     };
-  
-    useEffect(() => {
-      if (firstItemOpen) {
-        setOpenItemIndex(0);
-        setFirstItemOpen(false);
-      }
-    }, [firstItemOpen]);
-  
-    useEffect(() => {
-      loadBackgroudImages();
-    }, []);
-  
-    // Fetch JSON data
-    useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const [faqsResponse, testimonialsResponse] = await Promise.all([
-            fetch(`${import.meta.env.BASE_URL}data/DubaiData/FAQs/RefrigeratorRepairNearMeFaqs.json`),
-            fetch(`${import.meta.env.BASE_URL}data/DubaiData/Testmonials/RefrigeratorRepairNearMeTestimonial.json`),
-            fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-          ]);
-  
-          const faqsData = await faqsResponse.json();
-          const testimonialsData = await testimonialsResponse.json();
-          const brandsData = await brandsResponse.json();
-  
-          setData(faqsData);
-          setTestimonialData(testimonialsData);
-          setBrandsLogoData(brandsData);
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        } finally {
-          setIsLoading(false);
-        }
-      };
-  
-      fetchData();
-    }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    // cssEase: 'linear',
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
+    fetchData();
+  }, []);
 
 
   return (
@@ -224,7 +173,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/fridgerepair.avif`} alt="Fridge repair"  />
+                <img className="bordered-img w-100" src={getImageSrc('fridgerepair')} alt="Fridge repair" />
 
               </div>
             </div>
@@ -236,11 +185,9 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">What to Expect from Local Fridge Repair Services in Dubai</h2>
-            {/* <p>Proper refrigerator maintenance is essential for extending its lifespan and improving efficiency, especially given Dubai's climate. Here are the key benefits:
-            </p> */}
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/techfridge.avif`} alt="Fridge repair"  />
+                <img className="blue-border" src={getImageSrc('techfridge')} alt="Fridge repair" />
               </div>
               <div className="col-md-6">
 
@@ -483,7 +430,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -494,7 +441,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
@@ -507,7 +454,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                       <p className="small">Energy efficient refrigerator translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -519,7 +466,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -531,7 +478,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending refrigerator Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your refrigerator, delaying the need for replacements.</p>
@@ -545,7 +492,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon"  />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h3>
@@ -568,7 +515,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service"  />
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -579,7 +526,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img src={getImageSrc('icon/experts')} alt="We Are Experts"  />
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -590,7 +537,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service"  />
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -602,14 +549,14 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service"  />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img src={getImageSrc('icon/value')} alt="FAJ icon service"  />
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -618,7 +565,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service"  />
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -628,7 +575,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service"  />
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -639,7 +586,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service"  />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -666,98 +613,6 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <li><a className='text-decoration-underline' href="https://www.fajservices.ae/siemens-home-appliances-repair/"><strong>Siemens Refrigerator Repair</strong></a><strong>:</strong> Are you concerned about your Siemens appliance malfunctioning and searching for a reliable Siemens refrigerator repair services near me in Dubai? Contact us for same-day fridge repair near me service in your location Dubai and Sharjah!</li>
                   <li><a className='text-decoration-underline' href="https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>Teka Refrigerator Repair</strong></a>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerator maintenance and Teka refrigerator repair near me service, washing machine repair, and oven repairs. Freezer repair and freezer maintenance service. FAJ is recognized as the leading Teka appliance service provider in the area.</li>
                 </ul>
-
-                {/* <p className="mb-0">
-                  <Link to="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/faber-appliances-service/">Faber</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">LG</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">Neff</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">Smeg</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/terim-appliances-service/">Terim</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/de-dietrich-appliance-repair-service/">De Dietrich</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/baumatic-appliances/">Baumatic</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/kenmore-appliances-service/">Kenmore</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/elica-appliances-service/">Elica</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/thermador-appliances-service/">Thermador</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</Link>
-                </p> */}
               </div>
             </div>
             <div id="get-quote" className=" mt-3">
@@ -771,13 +626,18 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         </section>
 
         {/* Brands section */}
-        <BrandsSliderSection
-          brandsData={brandsLogo_data}
-          sectionId="home-brands"
-          logoMaxHeight="60px"
-          logoMaxWidth="120px"
-          containerHeight="100px"
-        />
+        {!isLoading && brandsLogo_data.length > 0 && (
+          <BrandsSliderSection
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
+            sectionId="home-brands"
+            logoMaxHeight="60px"
+            logoMaxWidth="120px"
+            containerHeight="100px"
+          />
+        )}
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

@@ -92,155 +92,121 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
     fetchData();
   }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
+ 
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
-          <meta name="keywords" content={metaKeyword} />
-          <meta name="author" content={metaAuthor} />
-          <meta name="robots" content="index, follow" />
+      <Helmet>
+        <title>{metatitle}</title>
+        <meta name="description" content={metadescription}></meta>
+        <meta name="keywords" content={metaKeyword} />
+        <meta name="author" content={metaAuthor} />
+        <meta name="robots" content="index, follow" />
 
-          <link rel="canonical" href={metaURL} />
-          <meta property="og:type" content="website" />
-          <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
+        <link rel="canonical" href={metaURL} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={metatitle} />
+        <meta property="og:description" content={metadescription} />
+        <meta property="og:url" content={metaURL} />
+        <meta property="og:image" content={metaImage} />
 
 
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Why is regular AC maintenance necessary?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Regular AC maintenance offers several benefits, including increased reliability, improved indoor air quality, increased energy efficiency, cost savings by preventing significant repairs, extended lifespan of the system, enhanced performance, and peace of mind."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Does F A J offer a warranty for AC repair services?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we offer a comprehensive warranty for our AC repair services in Dubai. Our warranty serves as a testament to our commitment to customer satisfaction and the quality of our work."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How can I schedule an appointment with F A J?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "You can contact us at 043300002 to book an appointment or to uncover more about our AC services. Our team is available from 8 am to 6 pm (Dubai time) for emergency AC repair needs."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What areas does F A J serve in Dubai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We provide AC repair and maintenance services across the UAE, serving both residential and commercial customers. Our comprehensive range of services ensures that no matter where you are located within the country, you can rely on F A J for top-notch AC solutions."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How competitive are the prices for AC repair services at F A J?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We always try to offer competitive pricing without compromising on our work quality. Our transparent pricing policy ensures that you receive reliable solutions at a fair and affordable price."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Is F A J available for emergency AC repairs?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we offer emergency AC repair services to ensure that you never have to suffer in the sweltering heat. Just approach us with a call, and our dedicated team will be at your doorstep, ready to promptly fix your AC system."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What happens when an air conditioner fails or errors?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "If the compressor is not working, the air conditioner will only move room-temperature air around the ventilation system. You may have heard that replacing an air conditioner is preferable to fixing a dead compressor. It is occasionally true, but only occasionally."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What types of air conditioning systems does FAJ Technical Services L.L.C. specialize in?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We specialize in a variety of air conditioning systems, including Central AC, Ducted Split AC, HVAC, Package Unit AC, Centralized AC, CHW FCU Fan Coil Unit AC, Window AC, Cassette Type AC, Portable AC, Wall Mounted AC, Split AC, Ceiling AC, VRV Variable Refrigerant Volume AC, VRF Variable Refrigerant Flow AC, Multi-Split, AHU, and FAHU."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Why should I choose FAJ Technical Services L.L.C. for AC repair?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Trained and professional technicians with expertise in handling all types of AC systems. Comprehensive AC services, including repairs, maintenance, and installations. We specialize in a wide range of AC systems to meet your unique cooling needs."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What are some common AC problems that FAJ Technical Services L.L.C. can solve?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Some common AC problems we can address include: The air conditioner is not turning on, Weird noises or vibrations during the operation, Warm air coming from supply registers, The fan is not turning on, Compressor not working, Water pooling around the AC unit, AC unit not working at all, Faulty spare parts requiring replacement."
-                  }
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metatitle} />
+        <meta name="twitter:description" content={metadescription} />
+        <meta name="twitter:image" content={metaImage} />
+        <meta name="twitter:url" content={metaURL} />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why is regular AC maintenance necessary?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Regular AC maintenance offers several benefits, including increased reliability, improved indoor air quality, increased energy efficiency, cost savings by preventing significant repairs, extended lifespan of the system, enhanced performance, and peace of mind."
                 }
-              ]
-            })}
-          </script>
+              },
+              {
+                "@type": "Question",
+                "name": "Does F A J offer a warranty for AC repair services?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we offer a comprehensive warranty for our AC repair services in Dubai. Our warranty serves as a testament to our commitment to customer satisfaction and the quality of our work."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I schedule an appointment with F A J?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can contact us at 043300002 to book an appointment or to uncover more about our AC services. Our team is available from 8 am to 6 pm (Dubai time) for emergency AC repair needs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What areas does F A J serve in Dubai?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We provide AC repair and maintenance services across the UAE, serving both residential and commercial customers. Our comprehensive range of services ensures that no matter where you are located within the country, you can rely on F A J for top-notch AC solutions."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How competitive are the prices for AC repair services at F A J?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We always try to offer competitive pricing without compromising on our work quality. Our transparent pricing policy ensures that you receive reliable solutions at a fair and affordable price."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is F A J available for emergency AC repairs?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we offer emergency AC repair services to ensure that you never have to suffer in the sweltering heat. Just approach us with a call, and our dedicated team will be at your doorstep, ready to promptly fix your AC system."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What happens when an air conditioner fails or errors?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If the compressor is not working, the air conditioner will only move room-temperature air around the ventilation system. You may have heard that replacing an air conditioner is preferable to fixing a dead compressor. It is occasionally true, but only occasionally."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What types of air conditioning systems does FAJ Technical Services L.L.C. specialize in?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We specialize in a variety of air conditioning systems, including Central AC, Ducted Split AC, HVAC, Package Unit AC, Centralized AC, CHW FCU Fan Coil Unit AC, Window AC, Cassette Type AC, Portable AC, Wall Mounted AC, Split AC, Ceiling AC, VRV Variable Refrigerant Volume AC, VRF Variable Refrigerant Flow AC, Multi-Split, AHU, and FAHU."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why should I choose FAJ Technical Services L.L.C. for AC repair?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Trained and professional technicians with expertise in handling all types of AC systems. Comprehensive AC services, including repairs, maintenance, and installations. We specialize in a wide range of AC systems to meet your unique cooling needs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What are some common AC problems that FAJ Technical Services L.L.C. can solve?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Some common AC problems we can address include: The air conditioner is not turning on, Weird noises or vibrations during the operation, Warm air coming from supply registers, The fan is not turning on, Compressor not working, Water pooling around the AC unit, AC unit not working at all, Faulty spare parts requiring replacement."
+                }
+              }
+            ]
+          })}
+        </script>
 
-        </Helmet>
-      </HelmetProvider>
+      </Helmet>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -287,7 +253,15 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${CDN}/ac-repair-2/public`} alt="AC Repair In Dubai" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=ZZiJOqoKc0VmtkOx"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
 
               </div>
             </div>
@@ -466,16 +440,14 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             <h2 className="cs_fs_30">Here are 10 easy ways to troubleshoot common AC problems</h2>
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img
+                  width={534}
+                  height={324}
+                  className="bordered-img w-100"
+                  src={getImageSrc('about_img_3')}
+                  alt="Experts AC Service and Maintenance"
+                  loading="lazy"
+                />
               </div>
 
               <div className="col-xl-6">

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -15,9 +15,9 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+    if (!imgPath) return '';
+    if (imgPath.startsWith('https')) return imgPath;
+    return `${CDN}/${imgPath}/public`;
 };
 const AcRepairInMotorCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -34,55 +34,67 @@ const AcRepairInMotorCityDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
-   // State for fetched data
-           const [data, setData] = useState([]);
-           const [testimonial_data, setTestimonialData] = useState([]);
-           const [isLoading, setIsLoading] = useState(true);
-       
-           const handleItemClick = index => {
-               if (index === openItemIndex) {
-                   setOpenItemIndex(-1);
-               } else {
-                   setOpenItemIndex(index);
-               }
-           };
-           useEffect(() => {
-               if (firstItemOpen) {
-                   setOpenItemIndex(0);
-                   setFirstItemOpen(false);
-               }
-           }, [firstItemOpen]);
-       
-           useEffect(() => {
-               loadBackgroudImages();
-           }, []);
-       
-           // Fetch JSON data
-           useEffect(() => {
-               const fetchData = async () => {
-                   try {
-                       const [faqsResponse, testimonialsResponse] = await Promise.all([
-                           fetch(`${import.meta.env.BASE_URL}Data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json`),
-                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
-                       ]);
-       
-                       const faqsData = await faqsResponse.json();
-                       const testimonialsData = await testimonialsResponse.json();
-       
-                       setData(faqsData);
-                       setTestimonialData(testimonialsData);
-                   } catch (error) {
-                       console.error('Error fetching data:', error);
-                   } finally {
-                       setIsLoading(false);
-                   }
-               };
-       
-               fetchData();
-           }, []);
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [brandsLogo_data, setBrandsLogoData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
-    
+    const openModal = useCallback((e) => {
+        e.preventDefault();
+        setIsModalOpen(true);
+        document.body.style.overflow = 'hidden';
+    }, []);
+
+    const closeModal = useCallback(() => {
+        setIsModalOpen(false);
+        document.body.style.overflow = 'auto';
+    }, []);
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
+        }
+    };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
+        }
+    }, [firstItemOpen]);
+
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const [faqsResponse, testimonialsResponse] = await Promise.all([
+                    fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                ]);
+
+                const faqsData = await faqsResponse.json();
+                const testimonialsData = await testimonialsResponse.json();
+
+                setData(faqsData);
+                setTestimonialData(testimonialsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
+
+
     return (
         <>
             <HelmetProvider>
@@ -622,61 +634,61 @@ const AcRepairInMotorCityDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 />
 
                 {/* Faqs */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
-          <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+                <section className="section cs_py_30  bg-dark-blue text-light">
+                    <div className="container">
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
-            <div className="cs_accordians_wrapper cs_style_1 p-0">
+                        <div className="cs_accordians_wrapper cs_style_1 p-0">
 
-              {data.map((item, index) => (
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
-                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
-                    <span className="cs_accordian_toggle">
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                      >
-                        <circle cx="12" cy="12" r="3" />
-                        <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
-                      </svg>
+                            {data.map((item, index) => (
+                                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                                    <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                                        <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                                        <span className="cs_accordian_toggle">
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <circle cx="12" cy="12" r="3" />
+                                                <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
+                                            </svg>
 
-                      {/* Eye Slash */}
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                      >
-                        <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
-                        <line x1="1" y1="1" x2="23" y2="23" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
-                    </span>
-                  </div>
-                  <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0"
-                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
-                    ></p>
-                  </div>
-                </div>
-              ))}
+                                            {/* Eye Slash */}
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
+                                                <line x1="1" y1="1" x2="23" y2="23" />
+                                                <circle cx="12" cy="12" r="3" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div className="cs_accordian_body" ref={accordionContentRef}>
+                                        <p className="mb-0"
+                                            dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                                        ></p>
+                                    </div>
+                                </div>
+                            ))}
 
-            </div>
-          </div>
-        </section>
+                        </div>
+                    </div>
+                </section>
 
                 <section className="section cs_py_30">
                     <Serviceappointemnt

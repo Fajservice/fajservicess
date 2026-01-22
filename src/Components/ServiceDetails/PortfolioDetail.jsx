@@ -421,36 +421,6 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src={getImageSrc('portfolio-clients/client-1')} alt="Client 1" />
-                  </div>
-                </div>
-                <div className="col p-0">
-                  <div className="portfolio-clnts-img">
-                    <img src={getImageSrc('portfolio-clients/client-2')} alt="Client 2" />
-                  </div>
-                </div>
-                <div className="col p-0">
-                  <div className="portfolio-clnts-img">
-                    <img src={getImageSrc('portfolio-clients/client-3')} alt="Client 3" />
-                  </div>
-                </div>
-                <div className="col p-0">
-                  <div className="portfolio-clnts-img">
-                    <img src={getImageSrc('portfolio-clients/client-4')} alt="Client 4" />
-                  </div>
-                </div>
-                <div className="col p-0">
-                  <div className="portfolio-clnts-img">
-                    <img src={getImageSrc('portfolio-clients/client-5')} alt="Client 5" />
-                  </div>
-                </div>
-                <div className="col p-0">
-                  <div className="portfolio-clnts-img">
-                    <img src={getImageSrc('portfolio-clients/client-6')} alt="Client 6" />
-                  </div>
-                </div>
-                <div className="col p-0">
-                  <div className="portfolio-clnts-img">
                     <img src={getImageSrc('portfolio-clients/Finerton')} alt="Finerton" style={{objectFit: 'contain'}} />
                   </div>
                 </div>

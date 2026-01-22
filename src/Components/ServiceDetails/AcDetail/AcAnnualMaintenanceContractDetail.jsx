@@ -95,7 +95,6 @@ const AcAnnualMaintenanceContractDetail = ({
 
   return (
     <>
-      <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
@@ -117,92 +116,81 @@ const AcAnnualMaintenanceContractDetail = ({
             {JSON.stringify({
               "@context": "https://schema.org",
               "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What is an annual maintenance contract (AMC)?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "An AC AMC usually involves a set of maintenance services for a specific period, such as a year. These services may include HVAC, maintenance and electrical repair on your property. The contract's specifics will vary depending on the service provider, but it will typically include regular testing, cleanings, and repairs to make sure that the systems are in good working order."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How many types of AMC are there?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Annual Maintenance Contracts (AMCs) are classified into two types: comprehensive and non-comprehensive/call-based. Comprehensive AMCs cover the repair and replacement of faulty equipment parts for one flat fee. Non-inclusive/Call-based AMCs, on the other hand, only provide maintenance services as needed, with each service request billed separately."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Is it worth getting your AMC contract?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "With the FAJ Technical Service LLC Annual Maintenance Contract (AMC), you receive a range of customized services at a reasonable price. Enjoy peace of mind for an entire year as we streamline maintenance and provide high-quality support results."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What are the benefits of an AC AMC contract?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The FAJ Team's Annual Maintenance Contract for AC units guarantees optimal performance and longevity through proactive care, significantly reducing the risk of costly repairs and maximizing energy efficiency; our seasoned professionals provide comprehensive services including AC filter and AC coil cleaning, Air conditioner, and system optimization, ensuring your peace of mind and consistent comfort throughout the year."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Why Choose Affordable Annual AC Service Contracts in Dubai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "For affordable and prompt AC service in Dubai, choose our experienced team. We offer tailored maintenance solutions, exceptional customer support, emergency repairs, and transparent pricing with no hidden fees. Trust us for expertise across all AC brands and models."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What is an AMC annual maintenance contract?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "An Annual Maintenance Contract (AMC) is a specific type of service agreement that ensures ongoing maintenance and support for designated equipment or assets. This contract is designed to keep the equipment in optimal working condition through regular servicing and inspections, thereby minimizing the risk of unexpected breakdowns and enhancing overall performance."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Does an AC unit need to be serviced every year?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, annual servicing keeps your AC efficient, lowers energy bills, and prevents unexpected breakdowns."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Why Do You Need an AMC in Dubai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In Dubai's harsh climate, an AMC ensures your AC runs efficiently year-round, preventing costly repairs and discomfort."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What is typically covered under an AMC for an AC unit?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "An AMC for an AC unit usually covers regular inspections, cleaning, servicing, and minor repairs. It may also include replacing certain parts, such as filters, and priority support for emergency breakdowns."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What are the advantages of the AMC contract?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "An AMC ensures regular maintenance, reducing repair costs and extending the equipment's lifespan with professional service."
-                  }
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "What is an annual maintenance contract (AMC)?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AC AMC usually involves a set of maintenance services for a specific period, such as a year. These services may include HVAC, maintenance and electrical repair on your property. The contract’s specifics will vary depending on the service provider, but it will typically include regular testing, cleanings, and repairs to make sure that the systems are in good working order."
                 }
+              }, {
+                "@type": "Question",
+                "name": "How many types of AMC are there?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Annual Maintenance Contracts (AMCs) are classified into two types: comprehensive and non-comprehensive/call-based. Comprehensive AMCs cover the repair and replacement of faulty equipment parts for one flat fee. Non-inclusive/Call-based AMCs, on the other hand, only provide maintenance services as needed, with each service request billed separately."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Is it worth getting your AMC contract?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "With the FAJ Technical Service LLC Annual Maintenance Contract (AMC), you receive a range of customized services at a reasonable price. Enjoy peace of mind for an entire year as we streamline maintenance and provide high-quality support results"
+                }
+              }, {
+                "@type": "Question",
+                "name": "What are the benefits of an AC AMC contract?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The FAJ Team's Annual Maintenance Contract for AC units guarantees optimal performance and longevity through proactive care, significantly reducing the risk of costly repairs and maximizing energy efficiency; our seasoned professionals provide comprehensive services including AC filter and AC coil cleaning, Air conditioner, and system optimization, ensuring your peace of mind and consistent comfort throughout the year."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Why Choose Affordable Annual AC Service Contracts in Dubai?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "For affordable and prompt AC service in Dubai, choose our experienced team. We offer tailored maintenance solutions, exceptional customer support, emergency repairs, and transparent pricing with no hidden fees. Trust us for expertise across all AC brands and models."
+                }
+              }, {
+                "@type": "Question",
+                "name": "What is an AMC annual maintenance contract?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An Annual Maintenance Contract (AMC) is a specific type of service agreement that ensures ongoing maintenance and support for designated equipment or assets. This contract is designed to keep the equipment in optimal working condition through regular servicing and inspections, thereby minimizing the risk of unexpected breakdowns and enhancing overall performance."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Does an AC unit need to be serviced every year?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, annual servicing keeps your AC efficient, lowers energy bills, and prevents unexpected breakdowns."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Why Do You Need an AMC in Dubai?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In Dubai’s harsh climate, an AMC ensures your AC runs efficiently year-round, preventing costly repairs and discomfort."
+                }
+              }, {
+                "@type": "Question",
+                "name": "What is typically covered under an AMC for an AC unit?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AMC for an AC unit usually covers regular inspections, cleaning, servicing, and minor repairs. It may also include replacing certain parts, such as filters, and priority support for emergency breakdowns."
+                }
+              }, {
+                "@type": "Question",
+                "name": "What are the advantages of the AMC contract?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AMC ensures regular maintenance, reducing repair costs and extending the equipment’s lifespan with professional service."
+                }
+              }
               ]
             })}
           </script>
         </Helmet>
-      </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -239,12 +227,15 @@ const AcAnnualMaintenanceContractDetail = ({
               </div>
 
               <div className="col-md-6">
-                <img
-                  className="bordered-img w-100"
-                  src={getImageSrc('Select-Air-Conditioner-Repair-&-Service')}
-                  alt="Annual AC Maintenance"
-                  loading="lazy"
-                />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
 

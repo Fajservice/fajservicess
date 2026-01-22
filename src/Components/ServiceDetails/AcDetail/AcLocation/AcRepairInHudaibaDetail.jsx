@@ -184,7 +184,7 @@ const AcRepairInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Hudaiba?</h2>
                         <p>
-                            egular air conditioner (AC) maintenance service in Hudaiba is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Hudaiba, contact us.
+                            Regular air conditioner (AC) maintenance service in Hudaiba is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Hudaiba, contact us.
                         </p>
 
                         <div className="row align-items-center">

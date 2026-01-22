@@ -20,35 +20,36 @@ const ArrowForwardIcon = ({ size = 28, className = '' }) => (
   </svg>
 );
 
-
 const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
 
+// Static data to prevent layout shift - match your choose.json structure
+const STATIC_DATA = [
+  {
+    img: "icon/whychoose1/public",
+    title: "Expert Technicians",
+    desc: "Our skilled professionals deliver quality service"
+  },
+  {
+    img: "icon/whychoose2/public", 
+    title: "Affordable Prices",
+    desc: "Competitive rates without compromising quality"
+  },
+  {
+    img: "icon/whychoose3/public",
+    title: "24/7 Support",
+    desc: "Round the clock assistance for emergencies"
+  }
+];
+
 const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
-  const [data, setData] = useState([]);
-  const [isVisible, setIsVisible] = useState(false);
+  const [data, setData] = useState(STATIC_DATA); // Initialize with static data
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { rootMargin: "200px" }
-    );
-
-    if (sectionRef.current) observer.observe(sectionRef.current);
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (!isVisible) return;
-
+    // Fetch to update with real data (optional, since we have static fallback)
     fetch(`${import.meta.env.BASE_URL}data/choose.json`)
       .then((res) => {
         if (!res.ok) throw new Error("Failed to load JSON");
@@ -56,10 +57,43 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
       })
       .then((json) => setData(json))
       .catch((err) => console.error(err));
-  }, [isVisible]);
+  }, []);
 
   return (
-    <section ref={sectionRef}>
+    <section ref={sectionRef} className="cs_choose_section">
+      <style>{`
+        .cs_choose_section {
+          contain: layout style;
+        }
+        .cs_choose_content_wrapper {
+          min-height: 280px;
+        }
+        .cs_features_thumbnail_1,
+        .cs_features_thumbnail_2 {
+          aspect-ratio: 4 / 5;
+          overflow: hidden;
+        }
+        .cs_features_thumbnail_1 img,
+        .cs_features_thumbnail_2 > img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .cs_features_thumbnail_3 {
+          aspect-ratio: 4 / 3;
+        }
+        .cs_features_thumbnail_3 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        @media (max-width: 1199px) {
+          .cs_choose_content_wrapper {
+            min-height: 300px;
+          }
+        }
+      `}</style>
+
       <div className="cs_height_80 cs_height_lg_80"></div>
 
       <div className="container">
@@ -75,6 +109,8 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
               <img
                 src={getImageSrc(img1)}
                 alt="Feature"
+                width={400}
+                height={500}
                 loading="lazy"
                 decoding="async"
               />
@@ -82,11 +118,11 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
           </div>
 
           <div className="col-xl-4">
-            {data.length === 0 ? (
-              <ChoosePlaceholder />
-            ) : (
-              data.map((item, i) => <ChooseItem key={i} item={item} />)
-            )}
+            <div className="cs_choose_content_wrapper">
+              {data.map((item, i) => (
+                <ChooseItem key={i} item={item} />
+              ))}
+            </div>
 
             <Link to={btnUrl} className="cs_btn cs_style_1 mt-2">
               <span>{btnName}</span>
@@ -99,6 +135,8 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
               <img
                 src={getImageSrc(img2)}
                 alt="Feature"
+                width={400}
+                height={500}
                 loading="lazy"
                 decoding="async"
               />
@@ -106,6 +144,8 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
                 <img
                   src={getImageSrc(img3)}
                   alt="Feature"
+                  width={400}
+                  height={300}
                   loading="lazy"
                   decoding="async"
                 />
@@ -131,6 +171,8 @@ const ChooseItem = memo(({ item }) => {
         <img
           src={imgSrc}
           alt={item.title}
+          width={70}
+          height={70}
           loading="lazy"
           decoding="async"
         />
@@ -142,38 +184,6 @@ const ChooseItem = memo(({ item }) => {
     </div>
   );
 });
-
-
-const ChoosePlaceholder = () => (
-  <>
-    {[1, 2, 3].map((i) => (
-      <div key={i} className="cs_iconbox cs_style_2">
-        <div
-          className="cs_iconbox_icon cs_gray_bg cs_center cs_radius_50"
-          style={{ width: 60, height: 60, background: "#f0f0f0" }}
-        />
-        <div className="cs_iconbox_info" style={{ flex: 1 }}>
-          <div
-            style={{
-              height: 18,
-              width: "60%",
-              background: "#f0f0f0",
-              borderRadius: 4,
-              marginBottom: 8,
-            }}
-          />
-          <div
-            style={{
-              height: 14,
-              width: "90%",
-              background: "#f0f0f0",
-              borderRadius: 4,
-            }}
-          />
-        </div>
-      </div>
-    ))}
-  </>
-);
+ChooseItem.displayName = 'ChooseItem';
 
 export default memo(Choose1);
