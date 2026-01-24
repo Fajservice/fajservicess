@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import CallNowButton from "../../Buttons/CallNowButton";
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
+import AcRepairService from "../../Buttons/AcRepairService";
+import AMCbutton from "../../Buttons/AMCbutton";
+import Blog2 from "../../Blog/Blog2";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -71,22 +74,16 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
   }, []);
   return (
     <>
-      <div class="cs_service_details">
+      <div className="cs_service_details">
         <section className="section cs_py_30 ">
           <div className="container">
             <h1 className="cs_fs_30">Air Conditioning Maintenance, Repair and Servicing in Dubai</h1>
-            <p>FAJ Technical Services L.L.C. is a leading provider of air conditioning installation, repair, and maintenance services in Dubai. We offer comprehensive solutions to keep your facility cool in the summer and warm in the winter. With experience since 2010, we ensure your Air Conditioning systems operate at optimum energy efficiency. Our services help reduce the possibility of breakdowns, ultimately saving you money and time.</p>
+            <p>FAJ Technical Services L.L.C. is a leading provider of air conditioning installation, repair, and maintenance services in Dubai. We offer comprehensive solutions to keep your facility cool in the summer and warm in the winter. With experience since 2010, we ensure your Air Conditioning systems operate at optimum energy efficiency. Our services help reduce the possibility of breakdowxns, ultimately saving you money and time.</p>
 
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
-                <Link to="/services/air-conditioning/ac-service/" className="cs_btn cs_style_1" aria-label="Book Now">
-                  <span>Book Now</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="cs_icon">
-                    <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                    <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                  </svg>
-                </Link>
-                <CallNowButton />
+                <AcRepairService />
+                <AMCbutton />
               </div>
 
             </div>
@@ -100,9 +97,32 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
               We also provide a customised FAJ Technical Services L.L.C asset list for each customer.
             </p>
 
+              <div className="service-image-wrapper mt-4 mb-4">
+      <img
+        src={`${CDN}/ac-image/public`}
+        alt="Domestic Air Conditioning Maintenance Service in Dubai - FAJ Technical Services"
+        title="Professional AC Maintenance Service for Homes in Dubai"
+        width="800"
+        height="500"
+        loading="lazy"
+        decoding="async"
+        className="service-image"
+        style={{
+          width: '100%',
+          maxWidth: '500px',
+          height: 'auto',
+          display: 'block',
+          margin: '0 auto',
+          border: '4px solid #030303',
+          borderRadius: '8px',
+          objectFit: 'cover'
+        }}
+      />
+    </div>
+
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
-                <GetQuoteButton />
+                <CallNowButton />
               </div>
             </div>
           </div>
@@ -112,10 +132,32 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
             <h1 className="cs_fs_30">Domestic Air Conditioning Maintenance Service in Dubai</h1>
             <p>At FAJ Technical Services L.L.C, we provide cost-effective heating and cooling solutions to create the perfect temperature in your home all year round. You can trust us to deliver first-class, comprehensive, and professional service with no corners cut. Our commitment ensures that the air in your home remains clean and filtered while keeping your system energy-efficient and free from bacteria.Our air conditioning technicians take pride in delivering thorough, high-quality service. We are always happy to answer any questions you may have and guide you through the process. After the service, you will receive a detailed report outlining the work completed and the condition of your system.
             </p>
+             <div className="service-image-wrapper mt-4 mb-4">
+      <img
+        src={`${CDN}/ac-image2/public`}
+        alt="Domestic Air Conditioning Maintenance Service in Dubai - FAJ Technical Services"
+        title="Professional AC Maintenance Service for Homes in Dubai"
+        width="800"
+        height="500"
+        loading="lazy"
+        decoding="async"
+        className="service-image"
+        style={{
+          width: '100%',
+          maxWidth: '500px',
+          height: 'auto',
+          display: 'block',
+          margin: '0 auto',
+          border: '4px solid #030303',
+          borderRadius: '8px',
+          objectFit: 'cover'
+        }}
+      />
+    </div>
 
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
-                <GetQuoteButton />
+                <CallNowButton />
               </div>
             </div>
           </div>
@@ -128,6 +170,9 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />
+
+        <Blog2 />
+
         {/* Faqs */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
@@ -184,6 +229,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
             </div>
           </div>
         </section>
+        
       </div>
     </>
 

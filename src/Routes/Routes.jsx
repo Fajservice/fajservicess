@@ -54,6 +54,10 @@ export const router = createBrowserRouter([
         element: <Components.AcServiceInDubai />,
       },
       {
+        path: "/services/coffee-machine",
+        element: <Components.CoffeeMachine />,
+      },
+      {
         path: "/air-conditioning/",
         element: <Components.AirConditioningCatg />,
       },
@@ -62,7 +66,7 @@ export const router = createBrowserRouter([
         element: <Components.AcServiceInDubaiArabic />,
       },
       {
-        path: "/ac-annual-maintenance-contract/",
+        path: "/services/air-conditioning/ac-annual-maintenance-contract/",
         element: <Components.AcAnnualMaintenanceContract />,
       },
       {
