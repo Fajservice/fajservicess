@@ -1849,6 +1849,10 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning/ac-annual-maintenance-contract/" replace />
       },
       {
+        path:"/ac-repair-dubai/",
+        element:<Navigate to="/services/air-conditioning/ac-service/" replace />
+      },
+      {
         path:"/ac-service-in-dubai/",
         element:<Navigate to="/services/air-conditioning/ac-service/" replace />
       },
