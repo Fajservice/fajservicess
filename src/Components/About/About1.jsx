@@ -214,7 +214,7 @@ const About1 = ({ img1, img2, img3, subTitle, Content }) => {
                 </h2>
               </div>
 
-              <p className="cs_mb_40">{Content}</p>
+              <p>{Content}</p>
 
               {/* Icon boxes */}
               <div className="cs_features_list cs_mb_32">

@@ -118,7 +118,7 @@ const AppliancesServicesInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, t
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
-                    <meta name="twitter:url" content={metaURL} />
+                    
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

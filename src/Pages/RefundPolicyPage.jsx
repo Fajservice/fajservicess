@@ -31,7 +31,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL, Image 
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
-                    <meta name="twitter:url" content={metaURL} />
+                    
                 </Helmet>
             </HelmetProvider>
             <section className="section cs_py_30">

@@ -141,7 +141,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     <meta name="twitter:title" content="Panasonic Fridge Repair in Dubai | Washing Machine Service" />
                     <meta name="twitter:description" content="If you need reliable Panasonic fridge repair in Dubai, call 043300002 for Panasonic washing machine, dishwasher, and refrigerator repair center & service." />
                     <meta name="twitter:image" content={metaImage} />
-                    <meta name="twitter:url" content={metaURL} />
+                    
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

@@ -3,6 +3,7 @@ import Process from "../Components/Process/Process";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Breadcrumb from "../Components/Common/BreadCumb";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -49,7 +50,7 @@ const OurVisionOurMissionPage = () => {
           />
         </Helmet>
       </HelmetProvider>
-
+      <Breadcrumb />
       <section className="section cs_py_30">
         <div className="container">
           <h1 className="cs_fs_30 text-center mb-0">

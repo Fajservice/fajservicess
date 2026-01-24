@@ -28,71 +28,71 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
- const accordionContentRef = useRef(null);
-     const [openItemIndex, setOpenItemIndex] = useState(-1);
-     const [firstItemOpen, setFirstItemOpen] = useState(true);
-     const [isModalOpen, setIsModalOpen] = useState(false);
-   
-     // State for fetched data
-     const [data, setData] = useState([]);
-     const [testimonial_data, setTestimonialData] = useState([]);
-     const [brandsLogo_data, setBrandsLogoData] = useState([]);
-     const [isLoading, setIsLoading] = useState(true);
-   
-     const openModal = useCallback((e) => {
-       e.preventDefault();
-       setIsModalOpen(true);
-       document.body.style.overflow = 'hidden';
-     }, []);
-   
-     const closeModal = useCallback(() => {
-       setIsModalOpen(false);
-       document.body.style.overflow = 'auto';
-     }, []);
-     const handleItemClick = index => {
-       if (index === openItemIndex) {
-         setOpenItemIndex(-1);
-       } else {
-         setOpenItemIndex(index);
-       }
-     };
-     useEffect(() => {
-       if (firstItemOpen) {
-         setOpenItemIndex(0);
-         setFirstItemOpen(false);
-       }
-     }, [firstItemOpen]);
-   
-     useEffect(() => {
-       loadBackgroudImages();
-     }, []);
-   
-     // Fetch JSON data
-     useEffect(() => {
-       const fetchData = async () => {
-         try {
-           const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-             fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/MeatGrinderRepairFaqs.json`),
-             fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/MeatGrinderRepairTestimonials.json`),
-             fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-           ]);
-   
-           const faqsData = await faqsResponse.json();
-           const testimonialsData = await testimonialsResponse.json();
-           const brandsData = await brandsResponse.json();
-   
-           setData(faqsData);
-           setTestimonialData(testimonialsData);
-           setBrandsLogoData(brandsData);
-         } catch (error) {
-           console.error('Error fetching data:', error);
-         } finally {
-           setIsLoading(false);
-         }
-       };
-   
-       fetchData();
-     }, []);
+  const accordionContentRef = useRef(null);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/MeatGrinderRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/MeatGrinderRepairTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <>
@@ -115,7 +115,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -161,7 +161,15 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('meat-grinder-repair')} alt="Meat Grinder Repair" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=wNggMssriwyjMGo1"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
 
               </div>
 
@@ -324,16 +332,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=wNggMssriwyjMGo1"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('meat-grinder-repair')} alt="Meat Grinder Repair" />
               </div>
 
 
@@ -363,7 +362,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        
+
                         <img src={getImageSrc('icon/EnhancedFoodQuality')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Enhanced Food Quality</h3>

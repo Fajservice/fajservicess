@@ -218,7 +218,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content={metaURL} />
+          
           <meta name="twitter:title" content={metaTitle} />
           <meta name="twitter:description" content={metaDescription} />
           <meta name="twitter:image" content={metaImage} />
@@ -259,14 +259,8 @@ const WashingMachineRepairServiceDubaiDetail = ({
               </div>
 
               <div className="col-md-6">
-                <OptimizedImage
-                  className="bordered-img w-100"
-                  src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}
-                  alt="Washing Machine Repair"
-                  width="600"
-                  height="400"
-                  priority={true}
-                />
+                <LazyYouTube videoId="EnSAQA_AjzY" title="Washing Machine Services" />
+               
               </div>
             </div>
             <AppliancesAppointmentCol />
@@ -410,7 +404,14 @@ const WashingMachineRepairServiceDubaiDetail = ({
             <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR WASHING MACHINES</h2>
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <LazyYouTube videoId="EnSAQA_AjzY" title="Washing Machine Services" />
+                 <OptimizedImage
+                  className="bordered-img w-100"
+                  src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}
+                  alt="Washing Machine Repair"
+                  width="600"
+                  height="400"
+                  priority={true}
+                />
               </div>
               <div className="col-xl-6">
                 <p className='mb-0'>At FAJ, we are your reliable partner for washing machine maintenance in Dubai. Our comprehensive spare parts warranty ensures your machine is well cared for.</p>

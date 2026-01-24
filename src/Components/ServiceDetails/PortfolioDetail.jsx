@@ -35,7 +35,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
 

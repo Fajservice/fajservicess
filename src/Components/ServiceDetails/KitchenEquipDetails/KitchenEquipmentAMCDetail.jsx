@@ -21,81 +21,80 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
   // For SEO
   const metatitle = String(titleSeo || "Commercial Kitchen Equipment AMC Contract Services in Dubai");
   const metadescription = String(description || "Get FAJ reliable commercial kitchen equipment AMC services in Dubai. With specialised chiller, freezer, stove, oven, & cooker maintenance agreement ");
-  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Kitchen Equipment amc, kitchen equipment maintenance contract, commercial kitchen equipment service, kitchen appliance repair, kitchen equipment repair Dubai, kitchen equipment AMC Dubai, kitchen equipment AMC Abu Dhabi, kitchen equipment AMC Sharjah, gas stove maintenance Dubai, oven maintenance Dubai, cooker maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-amc/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/kitchen-equip-amc-service.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/kitchen-equip-amc-service/public");
 
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
-     const [openItemIndex, setOpenItemIndex] = useState(-1);
-     const [firstItemOpen, setFirstItemOpen] = useState(true);
-     const [isModalOpen, setIsModalOpen] = useState(false);
-   
-     // State for fetched data
-     const [data, setData] = useState([]);
-     const [testimonial_data, setTestimonialData] = useState([]);
-     const [brandsLogo_data, setBrandsLogoData] = useState([]);
-     const [isLoading, setIsLoading] = useState(true);
-   
-     const openModal = useCallback((e) => {
-       e.preventDefault();
-       setIsModalOpen(true);
-       document.body.style.overflow = 'hidden';
-     }, []);
-   
-     const closeModal = useCallback(() => {
-       setIsModalOpen(false);
-       document.body.style.overflow = 'auto';
-     }, []);
-     const handleItemClick = index => {
-       if (index === openItemIndex) {
-         setOpenItemIndex(-1);
-       } else {
-         setOpenItemIndex(index);
-       }
-     };
-     useEffect(() => {
-       if (firstItemOpen) {
-         setOpenItemIndex(0);
-         setFirstItemOpen(false);
-       }
-     }, [firstItemOpen]);
-   
-     useEffect(() => {
-       loadBackgroudImages();
-     }, []);
-   
-     // Fetch JSON data
-     useEffect(() => {
-       const fetchData = async () => {
-         try {
-           const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-             fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/KitchenEquipmentsAMCFaqs.json`),
-             fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/KitchenEquipmentsAMCTestimonials.json`),
-             fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
-           ]);
-   
-           const faqsData = await faqsResponse.json();
-           const testimonialsData = await testimonialsResponse.json();
-           const brandsData = await brandsResponse.json();
-   
-           setData(faqsData);
-           setTestimonialData(testimonialsData);
-           setBrandsLogoData(brandsData);
-         } catch (error) {
-           console.error('Error fetching data:', error);
-         } finally {
-           setIsLoading(false);
-         }
-       };
-   
-       fetchData();
-     }, []);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/KitchenEquipmentsAMCFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/KitchenEquipmentsAMCTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+        const brandsData = await brandsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <>
@@ -118,7 +117,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -148,7 +147,16 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('commercial-kitchen-equipment-amc')} alt="Kitchen Equipments AMC" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=IZFb6k8XekVjCquR"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             <h2 className="cs_fs_24 mb-1 border-small-top pt-3" style={{ fontSize: "24px" }}>Planned Preventive Maintenance (PPM) Services</h2>
@@ -295,16 +303,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
             <h2 className="cs_fs_30">HERE ARE THE MAINTENANCE SERVICES WE OFFER FOR KITCHEN EQUIPMENTS</h2>
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=IZFb6k8XekVjCquR"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('commercial-kitchen-equipment-amc')} alt="Kitchen Equipments AMC" />
               </div>
 
               <div className="col-xl-6">

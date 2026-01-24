@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Blog1 from "../Components/Blog/Blog1";
+import Breadcrumb from "../Components/Common/BreadCumb";
 
 const BlogPage = ({ titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
@@ -25,7 +26,7 @@ const BlogPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                 <meta property="og:url" content={metaURL} />
             </Helmet>
 
-            
+            <Breadcrumb />
             <div>
                 <section className="section cs_py_30">
                     <div className="container">

@@ -119,7 +119,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
         <meta name="twitter:title" content={metatitle} />
         <meta name="twitter:description" content={metadescription} />
         <meta name="twitter:image" content={metaImage} />
-        <meta name="twitter:url" content={metaURL} />
+        
         <script type="application/ld+json">
           {JSON.stringify(
             {
@@ -237,7 +237,16 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')} alt="freestanding appliances repair" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -388,16 +397,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
             <div className="row align-items-center">
 
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')} alt="freestanding appliances repair" />
               </div>
               <div className="col-xl-6">
                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>

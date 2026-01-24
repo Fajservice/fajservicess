@@ -129,7 +129,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:title" content="Coleman Ac Repair in Dubai | Air Conditioning Cleaning" />
           <meta name="twitter:description" content="Relax with Coleman. Book an 043300002 for Coleman AC Repair in Dubai. We are experts in HVAC, Central Air Conditioner maintenance service near me" />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

@@ -149,7 +149,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
 
           <script type="application/ld+json">
             {JSON.stringify({
@@ -471,8 +471,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
     </>
   );
 };
-
-// Extracted components for better code splitting
 
 const CommonACProblems = memo(() => {
   const problems = [

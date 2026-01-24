@@ -18,7 +18,7 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
   const metatitle = String(titleSeo || "Barbeque Repair in Dubai | BBQ Grill Cleaning Service Near Me");
@@ -96,7 +96,6 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
   return (
     <>
-      <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
           <meta name="description" content={metadescription}></meta>
@@ -104,20 +103,20 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />
+          
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
+          <meta property="og:site_name" content="FAJ Technical Services" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
         </Helmet>
-      </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -151,7 +150,16 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('Barbeque-Repair')} alt="BBQ Repair Service" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/-9QrAXOJkRY?si=Godeo3hC2uCVihx8"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
 
               </div>
             </div>
@@ -301,16 +309,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/-9QrAXOJkRY?si=Godeo3hC2uCVihx8"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('Barbeque-Repair')} alt="BBQ Repair Service" />
               </div>
 
               <div className="col-xl-6">

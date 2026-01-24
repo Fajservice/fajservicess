@@ -96,7 +96,6 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
   return (
     <>
-      <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
           <meta name="description" content={metadescription}></meta>
@@ -115,9 +114,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
         </Helmet>
-      </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -157,7 +154,16 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('cigarcabnitrepair')} alt="Cigarcabnit Repair Service" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=0HYuG6UENnnUN6ze"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
 
               </div>
             </div>
@@ -316,16 +322,8 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             <p className='mb-0'>We specialise in all types and brands of Cigar cabinet humidor, including cigar walk in chiller:</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=0HYuG6UENnnUN6ze"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+              <img className="bordered-img w-100" src={getImageSrc('cigarcabnitrepair')} alt="Cigarcabnit Repair Service" />
+
               </div>
 
               <div className="col-xl-6">

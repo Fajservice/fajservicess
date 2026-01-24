@@ -1,11 +1,8 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect, memo } from "react";
+
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
-};
 const Icons = {
   Facebook: () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -98,6 +95,36 @@ const usefulLinks = [
   { path: "https://www.fajtradingllc.com/collections/all-spare-accessories", text: "Spare Parts" }
 ];
 
+const LazyMap = () => {
+  const [showMap, setShowMap] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowMap(true), 100);
+    return () => clearTimeout(timer);
+  }, []);
+
+  return (
+    <div className="cs_map_wrapper">
+      {showMap ? (
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.3424480096032!2d55.22508607483472!3d25.110623435202967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f699a600aceeb%3A0xa6121b25d557aa94!2sFAJ%20Technical%20Services%20L.L.C!5e1!3m2!1sen!2sae!4v1758520238062!5m2!1sen!2sae"
+          width="100%"
+          height="100%"
+          style={{ border: 0, display: 'block' }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="FAJ Technical Services location"
+        />
+      ) : (
+        <div className="cs_map_placeholder">
+          <Icons.Location />
+        </div>
+      )}
+    </div>
+  );
+};
+
 const Footer1 = () => {
   return (
     <footer className="cs_footer cs_style_1 cs_heading_bg">
@@ -115,7 +142,7 @@ const Footer1 = () => {
                 </div>
                 <ul className="cs_footer_menu mb-3">
                   {aboutLinks.map((link, index) => (
-                    <li key={`about-${index}`} style={{ display: 'flex', gap: '10px' }}>
+                    <li key={index}>
                       <Link to={link.path}>{link.text}</Link>
                     </li>
                   ))}
@@ -124,7 +151,7 @@ const Footer1 = () => {
                 <div className="cs_social_btns cs_style_1">
                   {socialLinks.map((social, index) => (
                     <a
-                      key={`social-${index}`}
+                      key={index}
                       href={social.href}
                       className="cs_center cs_accent_bg_light"
                       aria-label={social.label}
@@ -134,6 +161,7 @@ const Footer1 = () => {
                       <social.Icon />
                     </a>
                   ))}
+
                 </div>
               </div>
             </div>
@@ -149,7 +177,7 @@ const Footer1 = () => {
                 </div>
                 <ul className="cs_footer_menu">
                   {exploreLinks.map((link, index) => (
-                    <li key={`explore-${index}`} style={{ display: 'flex', gap: '10px' }}>
+                    <li key={index}>
                       <Link to={link.path}>{link.text}</Link>
                     </li>
                   ))}
@@ -168,7 +196,7 @@ const Footer1 = () => {
                 </div>
                 <ul className="cs_working_hours">
                   {usefulLinks.map((link, index) => (
-                    <li key={`useful-${index}`} style={{ display: 'flex', gap: '10px' }}>
+                    <li key={index}>
                       <Link to={link.path}>{link.text}</Link>
                     </li>
                   ))}
@@ -187,11 +215,11 @@ const Footer1 = () => {
                 </div>
                 <ul className="cs_footer_contact_list cs_mp_0">
                   {contactInfo.map((contact, index) => (
-                    <li key={`contact-${index}`}>
+                    <li key={index}>
                       <span className="footer-icons"><contact.Icon /></span>
                       {contact.items ? (
                         contact.items.map((item, i) => (
-                          <span key={`item-${i}`}>
+                          <span key={i}>
                             <a href={item.href}>{item.text}</a>
                             {i < contact.items.length - 1 && <br />}
                           </span>
@@ -204,16 +232,7 @@ const Footer1 = () => {
                     </li>
                   ))}
                 </ul>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.3424480096032!2d55.22508607483472!3d25.110623435202967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f699a600aceeb%3A0xa6121b25d557aa94!2sFAJ%20Technical%20Services%20L.L.C!5e1!3m2!1sen!2sae!4v1758520238062!5m2!1sen!2sae"
-                  width={400}
-                  height={250}
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="FAJ Technical Services location"
-                />
+                <LazyMap />
               </div>
             </div>
           </div>
@@ -226,14 +245,13 @@ const Footer1 = () => {
               <div className="cs_footer_copyright text-light">
                 Copyright © {new Date().getFullYear()} <a className="text-light" href="https://www.fajservices.ae/">FAJ Technical Services L.L.C</a>. All Rights Reserved.
               </div>
-              <div>
+              <div className="cs_payment_img">
                 <img
                   src="https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/payment_card/public"
                   alt="Accepted payment methods"
-                  width="270"
-                  height="24"
+                  width={270}
+                  height={24}
                   loading="lazy"
-                  style={{ objectFit: 'contain', aspectRatio: '270/24' }}
                 />
               </div>
             </div>
@@ -245,17 +263,13 @@ const Footer1 = () => {
       <div className="mobile-whatsapp">
         <div className="navbar-end flex">
           <div className="cta-nav mob-callus">
-            <a
-              href="tel:+97143300002"
-              className="button-whatsapp"
-              aria-label="Call us"
-            >
+            <a href="tel:+97143300002" className="button-whatsapp" aria-label="Call us">
               <Icons.PhoneOutline />
             </a>
           </div>
           <div className="cta-nav mob-whatsapp">
-            <a
-              href="https://api.whatsapp.com/send?phone=+971507464712&text=FAJ-Services"
+
+            <a href="https://api.whatsapp.com/send?phone=+971507464712&text=FAJ-Services"
               className="button-whatsapp"
               aria-label="Chat on WhatsApp"
               target="_blank"
@@ -271,34 +285,30 @@ const Footer1 = () => {
       <div className="floating-menu">
         <ul className="flt-ul-icon">
           <li>
-            <a
-              href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello-FAJ-Services"
-              className="flt-icon-url"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="WhatsApp us"
+
+            <a href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello-FAJ-Services"
+            className="flt-icon-url"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp us"
             >
-              <div className="flt-icon flt-icon-wh">
-                <Icons.WhatsApp />
-                <span className="flt-icon-text">+971507464712</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a
-              href="tel:+97143300002"
-              className="flt-icon-url"
-              aria-label="Call us"
-            >
-              <div className="flt-icon flt-icon-cl">
-                <Icons.PhoneOutline />
-                <div className="flt-icon-text">+97143300002</div>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+            <div className="flt-icon flt-icon-wh">
+              <Icons.WhatsApp />
+              <span className="flt-icon-text">+971507464712</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="tel:+97143300002" className="flt-icon-url" aria-label="Call us">
+            <div className="flt-icon flt-icon-cl">
+              <Icons.PhoneOutline />
+              <div className="flt-icon-text">+97143300002</div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </footer >
   );
 };
 

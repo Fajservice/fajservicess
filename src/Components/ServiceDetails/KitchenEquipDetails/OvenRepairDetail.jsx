@@ -139,7 +139,7 @@ const OvenRepairDetail = ({
           <meta property="og:image:alt" content="Built-in Appliances Repair Dubai" />
           <meta property="og:site_name" content="FAJ Technical Services" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content={metaURL} />
+          
           <meta name="twitter:title" content={metaTitle} />
           <meta name="twitter:description" content={metaDescription} />
           <meta name="twitter:image" content={metaImage} />
@@ -185,7 +185,15 @@ const OvenRepairDetail = ({
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('rational oven repair')} alt="Oven Repair" loading="lazy" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
@@ -348,16 +356,7 @@ const OvenRepairDetail = ({
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('rational oven repair')} alt="Oven Repair" loading="lazy" />
               </div>
 
               <div className="col-xl-6">

@@ -132,7 +132,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, description, Author, Keywo
           <meta name="twitter:title" content="Bryant AC Repair and Services in Dubai | FAJ Air Conditioning" />
           <meta name="twitter:description" content="Residential and Commercial · Bryant (AC) Air Conditioning Repair in Dubai. Same-day HVAC, central, chillers, & FCU A/C maintenance services near you" />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

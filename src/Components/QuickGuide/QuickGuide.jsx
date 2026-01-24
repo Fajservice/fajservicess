@@ -12,7 +12,7 @@ const QuickGuide = () => {
         <section className="section cs_py_30 bg-light-gray">
             <div className="container">
                 <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONING SYSTEMS</h2>
-                <div className="row">
+                <div className="row align-items-center cs_mt_20">
                     <div className="col-xl-6">
                         <img
                             width={534}

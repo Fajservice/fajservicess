@@ -1,0 +1,18 @@
+[
+  {
+    "img": "Commercial-Coffee-Machine-Services",
+    "icon": "icon/air-conditioning",
+    "title": "Ac Service",
+    "desc": "Keep your commercial coffee machines in top condition with expert maintenance, deep cleaning, and fast repairs, perfect for cafés, restaurants, hotels, and offices.",
+    "btnText": "READ MORE",
+    "btnLink": "/ac-service/"
+  },
+  {
+    "img": "kitchen-equipment",
+    "icon": "icon/kitchen-equipment",
+    "title": "AMC (Maintenance Contract)",
+    "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services to restore equipment to working condition.",
+    "btnText": "READ MORE",
+    "btnLink": "/ac-annual-maintenance-contract/"
+  }
+]

@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const POPUP_IMAGE_URL = `${CDN}/30discount/public`;
 
-// Preload image immediately when module loads
 if (typeof window !== 'undefined') {
   const link = document.createElement('link');
   link.rel = 'preload';
@@ -18,7 +17,6 @@ if (typeof window !== 'undefined') {
 const WelcomePopup = () => {
   const { showPopup, closePopup } = usePopup();
 
-  // Preload on mount as backup
   useEffect(() => {
     const img = new Image();
     img.src = POPUP_IMAGE_URL;
@@ -32,31 +30,26 @@ const WelcomePopup = () => {
   if (!showPopup) return null;
   
   return (
-    <div className="popup-overlay d-flex justify-content-center align-items-center">
-      <div 
-        className="popup-content bg-white p-4 rounded position-relative" 
-        style={{ maxWidth: '330px', width: '100%', background: 'unset', boxShadow: 'unset' }}
-      >
+    <div className="popup-overlay">
+      <div className="popup-content" style={{ maxWidth: '330px' }}>
         <button 
-          className="btn-close position-absolute top-0 end-0 m-2" 
+          className="popup-close"
           onClick={closePopup} 
           aria-label="Close"
         >
-          x
+          ✕
         </button>
         <img 
           src={POPUP_IMAGE_URL}
           alt="Welcome - 30% Discount Offer" 
-          className="img-fluid rounded"
-          width={400}
-          height={400}
+          width={330}
+          height={330}
           loading="eager"
           fetchpriority="high"
           decoding="sync"
-          style={{ maxWidth: '100%', height: 'auto' }}
         />
         <button 
-          className="cs_btn cs_style_1"
+          className="btn-get-quote"
           onClick={handleGetQuote}
         >
           Get a Quote

@@ -131,7 +131,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:description" content="HVAC Maintenance Services | Cooline AC Repair In Dubai" />
           <meta property="og:description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near." />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

@@ -74,7 +74,7 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
         <meta name="twitter:title" content={metatitle} />
         <meta name="twitter:description" content={metadescription} />
         <meta name="twitter:image" content={metaImage} />
-        <meta name="twitter:url" content={metaURL} />
+        
       </Helmet>
 
       <section className="position-relative">

@@ -1,6 +1,7 @@
 import BlogDetails from "../Components/BlogDetails/BlogDetails";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Breadcrumb from "../Components/Common/BreadCumb";
 
 const BlogDetailsPage = () => {
   const { slug } = useParams();
@@ -38,6 +39,7 @@ const BlogDetailsPage = () => {
 
   return (
     <div>
+      <Breadcrumb />
       <BlogDetails />
     </div>
   );
