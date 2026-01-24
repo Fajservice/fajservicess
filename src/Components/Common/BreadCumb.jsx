@@ -7,11 +7,19 @@ const Breadcrumb = () => {
     const pathnames = location.pathname.split('/').filter((x) => x);
     
     const formatLabel = (segment) => {
+    const acronyms = ["ac"]; // you can add more later
+
       return segment
-        .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
+        .split("-")
+        .map((word) => {
+          if (acronyms.includes(word.toLowerCase())) {
+            return word.toUpperCase(); // AC
+          }
+          return word.charAt(0).toUpperCase() + word.slice(1);
+        })
+        .join(" ");
     };
+
 
     const breadcrumbs = [
       { label: 'Home', path: '/' }

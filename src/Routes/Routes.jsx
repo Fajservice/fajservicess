@@ -54,7 +54,7 @@ export const router = createBrowserRouter([
         element: <Components.AcServiceInDubai />,
       },
       {
-        path: "/services/coffee-machine",
+        path: "/services/coffee-machine/",
         element: <Components.CoffeeMachine />,
       },
       {

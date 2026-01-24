@@ -23,7 +23,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metadescription = String(description || "Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Maintenance, Air Conditioner Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-maintenance-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning/ac-annual-maintenance-contract/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
