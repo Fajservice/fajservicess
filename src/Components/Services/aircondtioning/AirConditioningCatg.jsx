@@ -2,17 +2,10 @@ import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import CallNowButton from "../../Buttons/CallNowButton";
-import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import AcRepairService from "../../Buttons/AcRepairService";
 import AMCbutton from "../../Buttons/AMCbutton";
 import Blog2 from "../../Blog/Blog2";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
-
-const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
-};
 
 const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   const metatitle = String(titleSeo || "Best Midea AC Repair & HVAC Maintenance in Dubai UAE");
@@ -72,97 +65,119 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
 
     fetchData();
   }, []);
+
   return (
     <>
       <div className="cs_service_details">
-        <section className="section cs_py_30 ">
+        {/* Section 1 - Intro */}
+        <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Air Conditioning Maintenance, Repair and Servicing in Dubai</h1>
-            <p>FAJ Technical Services L.L.C. is a leading provider of air conditioning installation, repair, and maintenance services in Dubai. We offer comprehensive solutions to keep your facility cool in the summer and warm in the winter. With experience since 2010, we ensure your Air Conditioning systems operate at optimum energy efficiency. Our services help reduce the possibility of breakdowxns, ultimately saving you money and time.</p>
+            <p>FAJ Technical Services L.L.C. is a leading provider of air conditioning installation, repair, and maintenance services in Dubai. We offer comprehensive solutions to keep your facility cool in the summer and warm in the winter. With experience since 2010, we ensure your Air Conditioning systems operate at optimum energy efficiency. Our services help reduce the possibility of breakdowns, ultimately saving you money and time.</p>
 
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <AcRepairService />
                 <AMCbutton />
               </div>
-
             </div>
           </div>
         </section>
-        <section className="section cs_py_30 ">
+
+        {/* Section 2 - Commercial (Image Left, Text Right) */}
+        <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Air Conditioning Maintenance Services in Dubai</h1>
-            <p>We offer tailored service and maintenance packages for businesses of all sizes, including small offices, large warehouses, hotels, entertainment venues, healthcare facilities, sports complexes, and religious institutions.
-              For any business with multiple air conditioning units or required systems, we recommend servicing twice a year. This helps ensure safety, improve air quality, and enhance cost-efficiency while reducing the risk of leaks and blockages.
-              We also provide a customised FAJ Technical Services L.L.C asset list for each customer.
-            </p>
+            <h2 className="cs_fs_30 text-center mb-4">Commercial Air Conditioning Maintenance Services in Dubai</h2>
 
-              <div className="service-image-wrapper mt-4 mb-4">
-      <img
-        src={`${CDN}/ac-image/public`}
-        alt="Domestic Air Conditioning Maintenance Service in Dubai - FAJ Technical Services"
-        title="Professional AC Maintenance Service for Homes in Dubai"
-        width="800"
-        height="500"
-        loading="lazy"
-        decoding="async"
-        className="service-image"
-        style={{
-          width: '100%',
-          maxWidth: '500px',
-          height: 'auto',
-          display: 'block',
-          margin: '0 auto',
-          border: '4px solid #030303',
-          borderRadius: '8px',
-          objectFit: 'cover'
-        }}
-      />
-    </div>
+            <div className="row align-items-center">
+              <div className="col-12 col-lg-5 mb-4 mb-lg-0">
+                <div className="service-image-wrapper">
+                  <img
+                    src={`${CDN}/ac-image/public`}
+                    alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
+                    title="Commercial AC Maintenance Service in Dubai"
+                    width="500"
+                    height="400"
+                    loading="lazy"
+                    decoding="async"
+                    className="service-image"
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block',
+                      border: '4px solid #030303',
+                      borderRadius: '8px',
+                      objectFit: 'cover'
+                    }}
+                  />
+                </div>
+              </div>
 
-            <div id="get-quote" className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="col-12 col-lg-7">
+                <p>We offer tailored service and maintenance packages for businesses of all sizes, including small offices, large warehouses, hotels, entertainment venues, healthcare facilities, sports complexes, and religious institutions.</p>
+                <p>For any business with multiple air conditioning units or required systems, we recommend servicing twice a year. This helps ensure safety, improve air quality, and enhance cost-efficiency while reducing the risk of leaks and blockages.</p>
+                <p>We also provide a customised FAJ Technical Services L.L.C asset list for each customer.</p>
+
+
+              </div>
+            </div>
+            <div className="mt-5">
+              <div className="d-flex justify-content-center align-items-center gap-3">
                 <CallNowButton />
               </div>
             </div>
           </div>
         </section>
-        <section className="section cs_py_30 ">
-          <div className="container">
-            <h1 className="cs_fs_30">Domestic Air Conditioning Maintenance Service in Dubai</h1>
-            <p>At FAJ Technical Services L.L.C, we provide cost-effective heating and cooling solutions to create the perfect temperature in your home all year round. You can trust us to deliver first-class, comprehensive, and professional service with no corners cut. Our commitment ensures that the air in your home remains clean and filtered while keeping your system energy-efficient and free from bacteria.Our air conditioning technicians take pride in delivering thorough, high-quality service. We are always happy to answer any questions you may have and guide you through the process. After the service, you will receive a detailed report outlining the work completed and the condition of your system.
-            </p>
-             <div className="service-image-wrapper mt-4 mb-4">
-      <img
-        src={`${CDN}/ac-image2/public`}
-        alt="Domestic Air Conditioning Maintenance Service in Dubai - FAJ Technical Services"
-        title="Professional AC Maintenance Service for Homes in Dubai"
-        width="800"
-        height="500"
-        loading="lazy"
-        decoding="async"
-        className="service-image"
-        style={{
-          width: '100%',
-          maxWidth: '500px',
-          height: 'auto',
-          display: 'block',
-          margin: '0 auto',
-          border: '4px solid #030303',
-          borderRadius: '8px',
-          objectFit: 'cover'
-        }}
-      />
-    </div>
 
-            <div id="get-quote" className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+        {/* Section 3 - Domestic (Image Left, Text Right) */}
+        <section className="section cs_py_30">
+          <div className="container">
+            {/* Heading - Centered on Top */}
+            <h2 className="cs_fs_30 text-center mb-4">Domestic Air Conditioning Maintenance Service in Dubai</h2>
+
+            <div className="row align-items-center">
+              {/* Image Column - Left */}
+              <div className="col-12 col-lg-5 mb-4 mb-lg-0">
+                <div className="service-image-wrapper">
+                  <img
+                    src={`${CDN}/ac-image2/public`}
+                    alt="Domestic Air Conditioning Maintenance Service in Dubai - FAJ Technical Services"
+                    title="Professional AC Maintenance Service for Homes in Dubai"
+                    width="500"
+                    height="400"
+                    loading="lazy"
+                    decoding="async"
+                    className="service-image"
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block',
+                      border: '4px solid #030303',
+                      borderRadius: '8px',
+                      objectFit: 'cover'
+                    }}
+                  />
+                </div>
+              </div>
+
+              {/* Text Column - Right */}
+              <div className="col-12 col-lg-7">
+                <p>At FAJ Technical Services L.L.C, we provide cost-effective heating and cooling solutions to create the perfect temperature in your home all year round. You can trust us to deliver first-class, comprehensive, and professional service with no corners cut.</p>
+                <p>Our commitment ensures that the air in your home remains clean and filtered while keeping your system energy-efficient and free from bacteria.</p>
+                <p>Our air conditioning technicians take pride in delivering thorough, high-quality service. We are always happy to answer any questions you may have and guide you through the process. After the service, you will receive a detailed report outlining the work completed and the condition of your system.</p>
+
+
+              </div>
+            </div>
+            <div id="get-quote" className="mt-5">
+              <div className="d-flex justify-content-center align-items-center gap-3">
                 <CallNowButton />
               </div>
             </div>
           </div>
         </section>
-        {/* testimobial section */}
+
+        {/* Testimonial Section */}
         <Testimonial1
           subtitle="What Our Clients Say"
           title="Customer <span>Reviews</span>"
@@ -173,15 +188,14 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
 
         <Blog2 />
 
-        {/* Faqs */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
+        {/* FAQs */}
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
-
               {data.map((item, index) => (
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}>
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
@@ -200,7 +214,6 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
                         <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
                       </svg>
 
-                      {/* Eye Slash */}
                       <svg
                         width="20"
                         height="20"
@@ -225,14 +238,11 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </section>
-        
       </div>
     </>
-
   )
 }
 
