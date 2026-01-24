@@ -57,7 +57,6 @@ const navItems = [
         ]
       },
       {
-        path: '/services/coffee-machine/',
         label: 'Coffee Machine',
         children: [
           { path: '/coffee-machine-service-center-in-dubai/', label: 'Coffee Machine Services' },

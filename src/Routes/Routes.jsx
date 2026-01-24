@@ -1844,6 +1844,14 @@ export const router = createBrowserRouter([
         path:"/blog/how-to-set-ac-temperature-for-cooling.php",
         element:<Navigate to="/blog/how-to-set-ac-temperature-for-cooling/" replace />
       },
+      {
+        path:"/ac-annual-maintenance-contract/",
+        element:<Navigate to="/services/air-conditioning/ac-annual-maintenance-contract/" replace />
+      },
+      {
+        path:"/ac-service-in-dubai/",
+        element:<Navigate to="/services/air-conditioning/ac-service/" replace />
+      },
     ],
   }
 ], {

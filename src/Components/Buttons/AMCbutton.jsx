@@ -4,7 +4,7 @@ const AMCbutton = () => {
     return (
         <div>
             <Link
-                to="/ac-annual-maintenance-contract/"
+                to="/services/air-conditioning/ac-annual-maintenance-contract/"
                 className="ac-service-btn"
                 aria-label="AC Repair & Services"
             >
@@ -42,7 +42,7 @@ const AMCbutton = () => {
   .ac-btn-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     line-height: 1.2;
   }
   
