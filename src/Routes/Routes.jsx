@@ -62,7 +62,7 @@ export const router = createBrowserRouter([
         element: <Components.AcServiceInDubaiArabic />,
       },
       {
-        path: "/ac-annual-maintenance-contract/",
+        path: "/services/air-conditioning/ac-annual-maintenance-contract/",
         element: <Components.AcAnnualMaintenanceContract />,
       },
       {
