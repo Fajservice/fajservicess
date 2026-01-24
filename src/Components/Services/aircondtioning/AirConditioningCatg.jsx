@@ -14,6 +14,8 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
   const metaKeyword = String(Keyword || "Midea AC Repair, Midea AC Maintenance, Midea Air Conditioner Service, Midea AC Installation, Midea AC Cleaning, Midea AC Service Dubai, Midea Air Conditioning Repair Dubai, Midea Split AC Service Dubai, Midea Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/midea-ac-installation-maintenance-repair-fix-service-in-dubai/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  
+  
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "estimonialbg.jpg"
@@ -176,6 +178,106 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
             </div>
           </div>
         </section>
+
+        <section className="section cs_py_30">
+  <div className="container">
+    <h2 className="cs_fs_30 text-center mb-4">Shop for Coffee Machines, Equipment, and Accessories</h2>
+
+    <div className="row align-items-center">
+      <div className="col-12 col-lg-5 mb-4 mb-lg-0">
+        <div className="service-image-wrapper">
+          <img
+            src={`${CDN}/shop-for-coffee-machines/public`}
+            alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
+            title="Commercial AC Maintenance Service in Dubai"
+            width="500"
+            height="400"
+            loading="lazy"
+            decoding="async"
+            className="service-image"
+            style={{
+              width: '100%',
+              height: 'auto',
+              display: 'block',
+              border: '4px solid #030303',
+              borderRadius: '8px',
+              objectFit: 'cover'
+            }}
+          />
+        </div>
+      </div>
+
+      <div className="col-12 col-lg-7">
+        <p>If you need to buy new air conditioners, central, VRV, VRF, split, window AC, or replacement parts and accessories, we deliver quickly to any location.</p>
+        
+        <ul className="service-bullet-list">
+          <li>AC Spare Parts</li>
+          <li>Air Conditioners</li>
+          <li>Split AC</li>
+          <li>Window AC</li>
+          <li>Floor Standing</li>
+          <li>Cassette AC</li>
+          <li>Concealed AC</li>
+          <li>Ceiling Suspended</li>
+          <li>Duct AC</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div className="mt-5">
+      <div className="d-flex justify-content-center align-items-center gap-3">
+        <CallNowButton />
+      </div>
+    </div>
+  </div>
+
+  <style>{`
+  .service-bullet-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .service-bullet-list li {
+    position: relative;
+    padding-left: 24px;
+    font-size: 15px;
+    color: #333;
+  }
+  
+  .service-bullet-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background-color: #1a3a4a;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 576px) {
+    .service-bullet-list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    
+    .service-bullet-list li {
+      font-size: 13px;
+      padding-left: 18px;
+    }
+    
+    .service-bullet-list li::before {
+      width: 8px;
+      height: 8px;
+      top: 6px;
+    }
+  }
+`}</style>
+</section>
 
         {/* Testimonial Section */}
         <Testimonial1

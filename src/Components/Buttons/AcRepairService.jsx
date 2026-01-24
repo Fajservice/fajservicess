@@ -43,7 +43,7 @@ const AcRepairService = () => {
   .ac-btn-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     line-height: 1.2;
   }
   
