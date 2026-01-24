@@ -133,7 +133,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
           <meta name="twitter:title" content="Low Prices Service | Blue Star AC Repair and Maintenance Dubai" />
           <meta name="twitter:description" content="FAJ, providing Blue Star AC repair in Dubai, with the finest and most comprehensive range of services, to take care of your air conditioning system." />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

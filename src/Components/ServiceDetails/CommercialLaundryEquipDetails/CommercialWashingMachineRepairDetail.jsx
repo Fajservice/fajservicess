@@ -118,7 +118,7 @@ const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, Auth
           <meta name="twitter:title" content="Commercial Washing Machine Repair & Maintenance Service" />
           <meta name="twitter:description" content="FAJ Experts provide commercial washing machine repair in Dubai. Book for quality work, commercial laundry, washer, dryer maintenance & AMC services" />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

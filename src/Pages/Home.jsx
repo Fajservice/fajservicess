@@ -1,7 +1,7 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import ImageSlider from "../Components/ImageSlider/ImageSlider";
-const About1 = lazy(() => import("../Components/About/About1"));
+import About1 from "../Components/About/About1";
 const Services1 = lazy(() => import("../Components/Services/Services1"));
 const Choose1 = lazy(() => import("../Components/Choose/Choose1"));
 const BeforeAfter = lazy(() => import("../Components/BeforeAfter/BeforeAfter"));
@@ -12,7 +12,7 @@ const Blog3 = lazy(() => import("../Components/Blog/Blog3"));
 const Process = lazy(() => import("../Components/Process/Process"));
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-// Skeleton Fallbacks - Reserve exact space to prevent CLS
+
 const ChooseSkeleton = () => (
   <section style={{ minHeight: '600px' }}>
     <div className="cs_height_80 cs_height_lg_80"></div>
@@ -57,23 +57,6 @@ const ServicesSkeleton = () => (
   </section>
 );
 
-const AboutSkeleton = () => (
-  <section style={{ minHeight: '600px' }}>
-    <div className="cs_height_80 cs_height_lg_80"></div>
-    <div className="container">
-      <div className="row align-items-center">
-        <div className="col-xl-6">
-          <div style={{ aspectRatio: '1/1', background: '#f0f0f0', borderRadius: 8 }} />
-        </div>
-        <div className="col-xl-6">
-          <div style={{ height: 300, background: '#f0f0f0', borderRadius: 8 }} />
-        </div>
-      </div>
-    </div>
-    <div className="cs_height_80 cs_height_lg_80"></div>
-  </section>
-);
-
 const DEFAULT_SEO = {
   title: "FAJ / Installation, Repair and Maintenance Company in Dubai ",
   description:
@@ -97,7 +80,7 @@ const heroSlides = [
     phoneLink: "tel:+971507464712"
   },
   {
-    image: `${CDN}/ddb50f9f-9093-4a7d-9bae-c10479570c00/public`,
+    image: `${CDN}/appliances-repair-service/public`,
     alt: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
     content: true,
     title: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
@@ -163,7 +146,7 @@ const Home = ({
           showArrows={true}
         />
 
-        <Suspense fallback={<AboutSkeleton />}>
+
           <About1
             img1={`${CDN}/about_img_1/public`}
             img2={`${CDN}/about_img_2/public`}
@@ -182,7 +165,6 @@ const Home = ({
               "Guaranteed Work",
             ]}
           />
-        </Suspense>
 
         <Suspense fallback={<ServicesSkeleton />}>
           <Services1 />

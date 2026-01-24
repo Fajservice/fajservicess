@@ -119,7 +119,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="twitter:title" content="Gas Cooker Repair in Dubai | Cooking Range Service Near Me" />
           <meta name="twitter:description" content="Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me" />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

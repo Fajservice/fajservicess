@@ -134,7 +134,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <meta name="twitter:title" content={metaTitle} />
           <meta name="twitter:description" content={metaDescription} />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

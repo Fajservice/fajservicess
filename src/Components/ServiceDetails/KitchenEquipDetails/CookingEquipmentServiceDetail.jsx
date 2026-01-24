@@ -118,7 +118,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
           <script type="application/ld+json">
             {JSON.stringify(
               {
@@ -235,7 +235,16 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('Camercial-Kitchen-Equipment')} alt="Gas Cooker Repair" />
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
 
@@ -379,16 +388,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
             <p>We offer repair services for a variety of commercial cooking equipment, including:</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img className="bordered-img w-100" src={getImageSrc('Camercial-Kitchen-Equipment')} alt="Gas Cooker Repair" />
               </div>
 
               <div className="col-xl-6">
@@ -440,7 +440,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Ensures Compliance</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_18 ">Ensures Compliance</h3>
                       <p className="small">Food safety is essential for any food business. Regular maintenance of kitchen equipment prevents contamination and ensures safety.</p>
                     </div>
                   </div>

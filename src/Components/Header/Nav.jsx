@@ -12,7 +12,7 @@ const ChevronDown = ({ className = '', size = 14 }) => (
     xmlns="http://www.w3.org/2000/svg"
     className={className}
   >
-    <path d="M6 9L12 15L18 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M6 9L12 15L18 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 
@@ -25,7 +25,7 @@ const ChevronUp = ({ className = '', size = 14 }) => (
     xmlns="http://www.w3.org/2000/svg"
     className={className}
   >
-    <path d="M6 15L12 9L18 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M6 15L12 9L18 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 
@@ -38,7 +38,7 @@ const ChevronForward = ({ className = '', size = 12 }) => (
     xmlns="http://www.w3.org/2000/svg"
     className={className}
   >
-    <path d="M9 6L15 12L9 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M9 6L15 12L9 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 
@@ -49,23 +49,23 @@ const navItems = [
     label: 'Services',
     children: [
       {
-        label: 'Air Conditioning Services',
+        path: '/air-conditioning/',
+        label: 'Air Conditioning',
         children: [
-          { path: '/ac-repair-dubai/', label: 'AC Repair' },
-          { path: '/ac-maintenance-dubai/', label: 'AC Maintenance' },
-          { path: '/ac-service-in-dubai/', label: 'AC Cleaning Services' },
-          { path: '/ac-annual-maintenance-contract/', label: 'AC Maintenance Contract' }
+          { path: '/services/air-conditioning/ac-service/', label: 'AC Service' },
+          { path: '/ac-annual-maintenance-contract/', label: 'AMC (Maintenance Contract)' }
         ]
       },
       {
-        label: 'Coffee Machine Services',
+        path: '/services/coffee-machine/',
+        label: 'Coffee Machine',
         children: [
           { path: '/coffee-machine-service-center-in-dubai/', label: 'Coffee Machine Services' },
           { path: '/coffee-machine-repairs/', label: 'Commercial Coffee Machine Repair' }
         ]
       },
       {
-        label: 'Home Appliances Services',
+        label: 'Home Appliances',
         children: [
           { path: '/hob-repair-service/', label: 'Hob Repair' },
           { path: '/oven-repair-service/', label: 'Oven Repair' },
@@ -83,7 +83,7 @@ const navItems = [
         ]
       },
       {
-        label: 'Kitchen Equipment Services',
+        label: 'Kitchen Equipment',
         children: [
           { path: '/oven-repair/', label: 'Oven Repair' },
           { path: '/meat-grinder-repair/', label: 'Meat Grinder Repair' },
@@ -93,16 +93,16 @@ const navItems = [
         ]
       },
       {
-        label: 'Refrigeration Equipment Services',
+        label: 'Refrigeration Equipment',
         children: [
           { path: '/ice-maker-repair/', label: 'Ice Maker Repair' },
           { path: '/commercial-refrigeration-maintenance-contact-services/', label: 'Refrigeration AMC Services' },
           { path: '/commercial-refrigeration-maintenance/', label: 'Commercial Refrigeration Maintenance' }
         ]
       },
-      { path: '/commercial-dishwasher-repair/', label: 'Commercial Dishwasher Services' },
+      { path: '/commercial-dishwasher-repair/', label: 'Commercial Dishwasher' },
       {
-        label: 'Commercial Laundry Equipment Services',
+        label: 'Commercial Laundry Equipment',
         children: [
           { path: '/commercial-washing-machine-repair/', label: 'Washing Machine Repair' },
           { path: '/commercial-laundry-equipment-service/', label: 'Laundry Equipment Service' }
@@ -116,17 +116,17 @@ const navItems = [
       { path: '/who-we-are/', label: 'Who We Are' },
       { path: '/our-vision-and-mission/', label: 'Our Vision And Mission' },
       { path: '/our-history/', label: 'Our History' },
-      { 
-        path: '/career/', 
+      {
+        path: '/career/',
         label: 'Careers',
-        external: true 
+        external: true
       },
       { path: '/our-portfolio/', label: 'Our Portfolio' },
       { path: '/blogs/', label: 'Blogs' }
     ]
   },
   { path: '/contact-us/', label: 'Contact Us' },
-  { path: 'https://www.fajtradingllc.com/', label: 'Shop', external: true  }
+  { path: 'https://www.fajtradingllc.com/', label: 'Shop', external: true }
 ];
 
 export default function Nav({ setMobileToggle }) {
@@ -162,7 +162,7 @@ export default function Nav({ setMobileToggle }) {
 
     const dropdowns = navRef.current.querySelectorAll('.menu-item-has-children');
     const viewportWidth = window.innerWidth;
-    const padding = 20; 
+    const padding = 20;
     dropdowns.forEach((dropdown) => {
       const dropdownMenu = dropdown.querySelector('ul');
       if (!dropdownMenu) return;
@@ -173,12 +173,12 @@ export default function Nav({ setMobileToggle }) {
 
       setTimeout(() => {
         const rect = dropdownMenu.getBoundingClientRect();
-        
+
         if (rect.right > (viewportWidth - padding)) {
           const overflow = rect.right - viewportWidth + padding;
           dropdownMenu.style.transform = `translateX(-${overflow}px)`;
         }
-        
+
         const newRect = dropdownMenu.getBoundingClientRect();
         if (newRect.left < padding) {
           dropdownMenu.style.transform = `translateX(${padding - newRect.left}px)`;
@@ -190,7 +190,7 @@ export default function Nav({ setMobileToggle }) {
           if (!nestedMenu) return;
 
           const nestedRect = nestedMenu.getBoundingClientRect();
-          
+
           if (nestedRect.right > (viewportWidth - padding)) {
             nestedMenu.style.left = 'auto';
             nestedMenu.style.right = '100%';
@@ -207,7 +207,7 @@ export default function Nav({ setMobileToggle }) {
 
   useEffect(() => {
     const handleResize = () => adjustDropdownPositions();
-    
+
     window.addEventListener('resize', handleResize);
     const observer = new ResizeObserver(() => {
       setTimeout(adjustDropdownPositions, 100);
@@ -230,25 +230,31 @@ export default function Nav({ setMobileToggle }) {
       const isExternal = item.external || item.path?.startsWith('http');
       const itemKey = `${level}-${index}`;
       const isHovered = hoveredItems.has(itemKey);
-      
+
       return (
-        <li 
+        <li
           key={itemKey}
           className={hasChildren ? 'menu-item-has-children' : ''}
           onMouseEnter={() => { if (hasChildren) { handleMouseEnter(itemKey); setTimeout(adjustDropdownPositions, 100); } }}
           onMouseLeave={() => { if (hasChildren) handleMouseLeave(itemKey); }}
         >
           {item.path ? (
-            <a
-              href={item.path}
+
+            <a href={item.path}
               onClick={(e) => {
                 e.preventDefault();
                 handleNavigation(item.path, isExternal);
               }}
               className={level > 0 ? 'px-3 mb-0' : ''}
-              style={{ display: 'flex', alignItems: 'center', gap: hasChildren ? '6px' : '0' }}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: level > 0 && hasChildren ? 'space-between' : 'flex-start',
+                gap: level === 0 && hasChildren ? '6px' : '0',
+                width: '100%'
+              }}
             >
-              {item.label}
+              <span>{item.label}</span>
               {hasChildren && (
                 level === 0 ? (
                   isHovered ? <ChevronUp className="nav-icon" size={14} /> : <ChevronDown className="nav-icon" size={14} />
@@ -258,12 +264,18 @@ export default function Nav({ setMobileToggle }) {
               )}
             </a>
           ) : (
-            <a 
-              className={level > 0 ? 'px-3 mb-0' : ''} 
+            <a
+              className={level > 0 ? 'px-3 mb-0' : ''}
               onClick={() => setMobileToggle(false)}
-              style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: hasChildren ? '6px' : '0' }}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: level > 0 && hasChildren ? 'space-between' : 'flex-start',
+                gap: level === 0 && hasChildren ? '6px' : '0',
+                width: '100%'
+              }}
             >
-              {item.label}
+              <span>{item.label}</span>
               {hasChildren && (
                 level === 0 ? (
                   isHovered ? <ChevronUp className="nav-icon" size={14} /> : <ChevronDown className="nav-icon" size={14} />
@@ -273,7 +285,7 @@ export default function Nav({ setMobileToggle }) {
               )}
             </a>
           )}
-          
+
           {hasChildren && (
             <DropDown>
               <ul className={level === 0 ? 'cs_fs_17 custom_border_drop' : 'cs_fs_16'}>

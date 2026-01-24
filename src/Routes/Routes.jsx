@@ -50,17 +50,17 @@ export const router = createBrowserRouter([
         element: <Components.FajPriceList />,
       },
       {
-        path: "/ac-service-in-dubai/",
+        path: "/services/air-conditioning/ac-service/",
         element: <Components.AcServiceInDubai />,
+      },
+      {
+        path: "/air-conditioning/",
+        element: <Components.AirConditioningCatg />,
       },
       {
         path: "/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
         element: <Components.AcServiceInDubaiArabic />,
       },
-      // {
-      //   path: "/ac-maintenance-dubai/",
-      //   element: <Components.AcMaintenanceDubai />,
-      // },
       {
         path: "/ac-annual-maintenance-contract/",
         element: <Components.AcAnnualMaintenanceContract />,

@@ -37,7 +37,7 @@ const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink, tit
               <meta name="twitter:title" content="Dubai Best AC Service Prices - Air Conditioner Maintenance" />
               <meta name="twitter:description" content="Book 043300002 for affordable AC services in Dubai! We offer reliable maintenance, and repair for central AC, split AC, HVAC, VRV/VRF systems, & more." />
               <meta name="twitter:image" content={metaImage} />
-              <meta name="twitter:url" content={metaURL} />
+              
             </Helmet>
           </HelmetProvider>
     <div className="col-lg-4 mb-4">

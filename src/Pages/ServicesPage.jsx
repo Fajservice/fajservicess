@@ -1,3 +1,4 @@
+import Breadcrumb from "../Components/Common/BreadCumb";
 import Services3 from "../Components/Services/Services3";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -39,10 +40,10 @@ const ServicesPage = ({ titleSeo, description, Author, Keyword, URL, Image }) =>
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
-
+      <Breadcrumb />
       <div className="servicepage">
         <section
           className="cs_page_heading cs_bg_filed cs_primary_bg"

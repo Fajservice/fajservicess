@@ -107,7 +107,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <meta name="twitter:title" content="Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair" />
                     <meta name="twitter:description" content="Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me" />
                     <meta name="twitter:image" content={metaImage} />
-                    <meta name="twitter:url" content={metaURL} />
+                    
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

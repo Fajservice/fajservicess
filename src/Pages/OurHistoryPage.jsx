@@ -4,6 +4,7 @@ import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Timeline from "../Components/About/Timelines";
+import Breadcrumb from "../Components/Common/BreadCumb";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -50,6 +51,8 @@ const OurVisionOurMissionPage = () => {
           />
         </Helmet>
       </HelmetProvider>
+
+      <Breadcrumb />
 
       {/* Page Title */}
       <section className="section cs_py_30">

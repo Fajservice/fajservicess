@@ -111,7 +111,7 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <meta name="twitter:title" content="Hisense Fridge Repair In Dubai | Washing Machine Service Near" />
                     <meta name="twitter:description" content="Need assistance with your Hisense appliance service? FAJ offers Hisense fridge repair, washing machine, dishwasher, cooker, & dryer repair center." />
                     <meta name="twitter:image" content={metaImage} />
-                    <meta name="twitter:url" content={metaURL} />
+                    
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

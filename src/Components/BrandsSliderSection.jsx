@@ -8,8 +8,6 @@ const BrandsSliderSection = ({
   autoplayDelay = 3000,
   speed = 600,
   spaceBetween = 20,
-  logoMaxHeight = "80px",
-  logoMaxWidth = "150px",
   containerHeight = "120px",
   breakpoints = {
     320: { slidesPerView: 2 },
@@ -176,8 +174,8 @@ const BrandsSliderSection = ({
                             loading="lazy"
                             draggable="false"
                             style={{
-                              maxHeight: logoMaxHeight,
-                              maxWidth: logoMaxWidth,
+                              maxHeight: 80,
+                              maxWidth: 150,
                               width: '100%',
                               height: '100%',
                               objectFit: 'contain',

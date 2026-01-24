@@ -133,7 +133,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <meta name="twitter:title" content="Affordable Crafft AC Repair and Maintenance Service in Dubai" />
           <meta name="twitter:description" content="Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now." />
           <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
