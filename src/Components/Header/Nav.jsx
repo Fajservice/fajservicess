@@ -49,7 +49,7 @@ const navItems = [
     label: 'Services',
     children: [
       {
-        path: '/air-conditioning/',
+        path: '/services/air-conditioning/',
         label: 'Air Conditioning',
         children: [
           { path: '/services/air-conditioning/ac-service/', label: 'AC Service' },

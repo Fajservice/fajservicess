@@ -58,7 +58,7 @@ export const router = createBrowserRouter([
         element: <Components.CoffeeMachine />,
       },
       {
-        path: "/air-conditioning/",
+        path: "/services/air-conditioning/",
         element: <Components.AirConditioningCatg />,
       },
       {
