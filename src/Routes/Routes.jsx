@@ -74,10 +74,6 @@ export const router = createBrowserRouter([
         element: <Components.ElectricalPlumbingService />,
       },
       {
-        path: "/ac-repair-dubai/",
-        element: <Components.AcRepairDubai />,
-      },
-      {
         path: "/dubai/near-me/",
         element: <Components.NearMe />,
       },

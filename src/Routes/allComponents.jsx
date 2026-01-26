@@ -12,7 +12,6 @@ export const Orphan = withSuspense(React.lazy(() => import("../Pages/Orphan")));
 export const AcMaintenanceDubai = withSuspense(React.lazy(() => import("../Pages/AcMaintenanceDubai")));
 export const AcAnnualMaintenanceContract = withSuspense(React.lazy(() => import("../Pages/AcAnnualMaintenanceContract")));
 export const ElectricalPlumbingService = withSuspense(React.lazy(() => import("../Pages/ElectricalPlumbingService")));
-export const AcRepairDubai = withSuspense(React.lazy(() => import("../Pages/AcRepairDubai")));
 export const NearMe = withSuspense(React.lazy(() => import("../Pages/Dubai/NearMe")));
 export const Faqs = withSuspense(React.lazy(() => import("../Pages/Faqs")));
 export const AcRepairNearMe = withSuspense(React.lazy(() => import("../Pages/Dubai/AcRepairNearMe")));
