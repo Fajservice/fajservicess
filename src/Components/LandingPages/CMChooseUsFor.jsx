@@ -24,7 +24,7 @@ const WhyChooseUS = () => {
                 <img className="" src={`${CDN}/icon/iconexperts/public`} alt="We Are Experts" />
               </div>
               <div className="usptext">
-                <h3 className="">Feeling Of Calm</h3>
+                <h3>Feeling Of Calm</h3>
                 <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                 </p>
               </div>
@@ -56,7 +56,7 @@ const WhyChooseUS = () => {
                 <img className="" src={`${CDN}/icon/iconvalue/public`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
-                <h3 className="">We Are Experts</h3>
+                <h3>We Are Experts</h3>
                 <p>We are experts in AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
               </div>
             </div>

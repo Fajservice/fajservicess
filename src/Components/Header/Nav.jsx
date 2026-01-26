@@ -57,10 +57,11 @@ const navItems = [
         ]
       },
       {
+        path: '/services/coffee-machine/',
         label: 'Coffee Machine',
         children: [
-          { path: '/coffee-machine-service-center-in-dubai/', label: 'Coffee Machine Services' },
-          { path: '/coffee-machine-repairs/', label: 'Commercial Coffee Machine Repair' }
+          { path: '/services/coffee-machine/coffee-machine-service-center/', label: 'Coffee Machine Services' },
+          { path: '/services/coffee-machine/coffee-machine-repairs/', label: 'Commercial Coffee Machine Repair' }
         ]
       },
       {

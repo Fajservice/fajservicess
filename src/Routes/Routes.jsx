@@ -98,11 +98,11 @@ export const router = createBrowserRouter([
         element: < Components.FreestandingHomeAppliancesRepairService />,
       },
       {
-        path: "/coffee-machine-service-center-in-dubai/",
+        path: "/services/coffee-machine/coffee-machine-service-center/",
         element: < Components.CoffeeMachineServiceCenterInDubai />,
       },
       {
-        path: "/coffee-machine-repairs/",
+        path: "/services/coffee-machine/coffee-machine-repairs/",
         element: < Components.CommercialCoffeeMachineRepair />,
       },
       {
@@ -1852,8 +1852,71 @@ export const router = createBrowserRouter([
         path:"/ac-service-in-dubai/",
         element:<Navigate to="/services/air-conditioning/ac-service/" replace />
       },
+      {
+        path:"/blogs/how-to-set-ac-temperature-for-cooling",
+        element:<Navigate to="/blog/how-to-set-ac-temperature-for-cooling" replace />
+      },
+      {
+        path:"/blogs/how-to-clean-ac-filter-for-all-types-a-step-by-step-guide",
+        element:<Navigate to="/blog/how-to-clean-ac-filter-for-all-types-a-step-by-step-guide" replace />
+      },
+      {
+        path:"/blogs/blogs/how-to-clean-washing-machine/",
+        element:<Navigate to="/blog/how-to-clean-washing-machine/" replace />
+      },
+      {
+        path:"/blogs/ac-repair-maintenance-difference/",
+        element:<Navigate to="/blog/ac-repair-maintenance-difference/" replace />
+      },
+      {
+        path:"/blogs/gree-ac-wifi-setup/",
+        element:<Navigate to="/blog/gree-ac-wifi-setup/" replace />
+      },
+      {
+        path:"/blogs/how-to-clean-daikin-ac-indoor-unit/",
+        element:<Navigate to="/blog/how-to-clean-daikin-ac-indoor-unit/" replace />
+      },
+      {
+        path:"/blogs/delonghi-coffee-machine-faqs-answered/",
+        element:<Navigate to="/blog/delonghi-coffee-machine-faqs-answered/" replace />
+      },
+      {
+        path:"/blogs/benefits-of-smart-thermostats/",
+        element:<Navigate to="/blog/benefits-of-smart-thermostats/" replace />
+      },
+      {
+        path:"/blogs/dubai-heatwave-tips-ac-importance/",
+        element:<Navigate to="blog/dubai-heatwave-tips-ac-importance/" replace />
+      },
+      {
+        path:"/blogs/how-to-reset-o-general-ac/",
+        element:<Navigate to="/blog/how-to-reset-o-general-ac/" replace />
+      },
+      {
+        path:"/blogs/refrigerator-inverter-technology/",
+        element:<Navigate to="/blog/refrigerator-inverter-technology/" replace />
+      },
+      {
+        path:"/blogs/top-10-signs-you-need-ac-repair-in-dubai/",
+        element:<Navigate to="/blog/top-10-signs-you-need-ac-repair-in-dubai/" replace />
+      },
+      {
+        path:"/blogs/washing-machine-problems-and-solutions-dubai/",
+        element:<Navigate to="/blog/washing-machine-problems-and-solutions-dubai/" replace />
+      },
+      {
+        path:"/blogs/10-coffee-machine-problems-and-how-to-diy-fix-them-like-a-pro/",
+        element:<Navigate to="/blog/10-coffee-machine-problems-and-how-to-diy-fix-them-like-a-pro/" replace />
+      },
+      {
+        path:"/coffee-machine-service-center-in-dubai/",
+        element:<Navigate to="/services/coffee-machine/coffee-machine-service-center/" replace />
+      },
+      {
+        path:"/coffee-machine-repairs/",
+        element:<Navigate to="/services/coffee-machine/coffee-machine-repairs/" replace />
+      },
     ],
   }
 ], {
-  //  basename: "/fajservicess"
 });

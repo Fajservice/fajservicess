@@ -83,44 +83,12 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
        
                fetchData();
            }, []);
-
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    }
     return (
         <>
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
@@ -144,7 +112,7 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Jvc</h1>
+                        <h1 className="cs_fs_30">AC Service in JVC</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me JVC, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

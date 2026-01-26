@@ -87,38 +87,6 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
   return (
     <>
       <HelmetProvider>
@@ -128,7 +96,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="AC Maintenance Dubai - Air Conditioner Cleaning Service" />
+          <link rel="canonical" href="https://www.fajservices.ae/services/air-conditioning/ac-annual-maintenance-contract/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="AC Maintenance Dubai - Air Conditioner Cleaning Service" />

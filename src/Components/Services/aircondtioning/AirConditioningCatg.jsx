@@ -86,7 +86,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
           </div>
         </section>
 
-        {/* Section 2 - Commercial (Image Left, Text Right) */}
+        {/* Section 2*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Commercial Air Conditioning Maintenance Services in Dubai</h2>
@@ -131,7 +131,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
           </div>
         </section>
 
-        {/* Section 3 - Domestic (Image Left, Text Right) */}
+        {/* Section 3 */}
         <section className="section cs_py_30">
           <div className="container">
             {/* Heading - Centered on Top */}

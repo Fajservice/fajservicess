@@ -6,7 +6,6 @@ import Blog2 from '../../Blog/Blog2';
 import CoffeeMachineButton from '../../Buttons/CoffeeMachineButton';
 import CommCoffeeMachineButton from '../../Buttons/CommCoffeeMachineButton';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
@@ -14,7 +13,7 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
+const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
   const metatitle = String(titleSeo || "Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C");
   const metadescription = String(description || "Coffee Machine Repair and Maintenance Services in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
@@ -156,7 +155,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
             </div>
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
-                 <WhatsappIconButton />
+               <WhatsappIconButton />
               </div>
             </div>
           </div>
@@ -178,7 +177,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/coffeemachinewhy/public`}
+                    src={`${CDN}/coffee-flowing/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -200,7 +199,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
             </div>
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
-                 <WhatsappIconButton />
+                <WhatsappIconButton />
               </div>
             </div>
           </div>
@@ -256,7 +255,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
 
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
+                <CallNowButton />
               </div>
             </div>
           </div>
@@ -317,7 +316,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="shop-ac-image-wrapper">
                   <img
-                    src={`${CDN}/coffeemachinechoose/public`}
+                    src={`${CDN}/ac-image/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -325,14 +324,6 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
                     loading="lazy"
                     decoding="async"
                     className="shop-ac-image"
-                    style={{
-                       width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
-                    }}
                   />
                 </div>
               </div>
@@ -354,7 +345,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
 
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
-                 <WhatsappIconButton />
+                <CallNowButton />
               </div>
             </div>
           </div>
@@ -633,4 +624,4 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
   )
 }
 
-export default CoffeeMachineCatg
+export default HomeApplaincesCatg

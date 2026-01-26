@@ -570,7 +570,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               </div>
 
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent')} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('Coffee-Machine-Repair-&-Maintenance')} alt="FAJ icon service" />
               </div>
 
               <div className="uspcol col-3">
