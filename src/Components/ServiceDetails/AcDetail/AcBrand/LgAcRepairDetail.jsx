@@ -26,7 +26,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
   const metadescription = String(description || "Need LG AC repair in Dubai? Call 043300002 to reach the nearest repair center. Our experts specialise VRF & split air conditioning maintenance service.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "LG AC Repair in Dubai, LG Air Conditioner Maintenance, LG AC Service, LG Split AC Repair, LG Central AC Service, LG VRF AC Repair, LG Air Conditioning Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/lg-ac-repair-in-dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/lg-ac-repair-in-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
