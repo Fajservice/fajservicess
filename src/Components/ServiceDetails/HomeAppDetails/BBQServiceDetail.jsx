@@ -25,7 +25,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metadescription = String(description || "Get Barbeque Repair in Dubai. Book now for your BBQ grill cleaning, built in gas grill burner, oven & electric BBQ deep service & maintenance near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Barbeque-Repair/public");
 
   subtitle = "Testimonial"

@@ -25,7 +25,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metadescription = String(description || "Reliable Dishwasher Repair and Service in Dubai. Book with us for built in dishwasher repairs, error fixing service center & best glass washer maintenance");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher Service Dubai, Dishwasher Fix Dubai, Dishwasher Maintenance Dubai, Dishwasher Machine Repair Dubai, Dishwasher Machine Service Dubai, Dishwasher Machine Fix Dubai, Dishwasher Machine Maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/dishwasher-repair-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances/dishwasher-repair-service/");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/dishwasher-repair/public";
 
   subtitle = "Testimonial"

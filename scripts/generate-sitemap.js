@@ -9,16 +9,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <lastmod>${today}</lastmod>
   <priority>1.00</priority>
 </url>
-  <url>
-  <loc>https://www.fajservices.ae/ac-repair-dubai/</loc>
-  <lastmod>${today}</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.fajservices.ae/ac-service-in-dubai/</loc>
-  <lastmod>${today}</lastmod>
-  <priority>0.80</priority>
-</url>
 <url>
   <loc>https://www.fajservices.ae/refrigerator-repair-service/</loc>
   <lastmod>${today}</lastmod>
@@ -2100,6 +2090,41 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
+  <url>
+    <loc>https://www.fajservices.ae/services/home-appliances/</loc>
+    <lastmod>${today}</lastmod>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.fajservices.ae/services/air-conditioning/</loc>
+    <lastmod>${today}</lastmod>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/</loc>
+    <lastmod>${today}</lastmod>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/</loc>
+    <lastmod>${today}</lastmod>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.fajservices.ae/services/coffee-machine/</loc>
+    <lastmod>${today}</lastmod>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.fajservices.ae/services/air-conditioning/ac-service/</loc>
+    <lastmod>${today}</lastmod>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.fajservices.ae/services/air-conditioning/ac-annual-maintenance-contract/</loc>
+    <lastmod>${today}</lastmod>
+    <priority>0.80</priority>
+</url>
 </urlset>`;
 
 fs.writeFileSync("public/sitemap.xml", sitemap);
