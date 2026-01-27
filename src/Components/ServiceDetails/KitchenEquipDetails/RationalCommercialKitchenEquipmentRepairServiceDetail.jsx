@@ -521,13 +521,13 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
               <div class="col-lg-4 col-md-6">
                 <img
-                  src={getImageSrc('rational-oven-service')}
+                  src={getImageSrc('oven-gallery/oven repair service')}
                   class="img-fluid rounded shadow mb-4"
                   alt="Oven Repair Service Dubai"
                 />
 
                 <img
-                  src={getImageSrc('kitchen-equip-amc-service')}
+                  src={getImageSrc('oven-gallery/rational oven repairs')}
                   class="img-fluid rounded shadow"
                   alt="Oven Repair Service Dubai"
                 />
@@ -535,13 +535,13 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
               <div class="col-lg-4 col-md-6">
                 <img
-                  src={getImageSrc('Refrigeration-Maintenance-Service')}
+                  src={getImageSrc('oven-gallery/rational oven service')}
                   class="img-fluid rounded shadow mb-4"
                   alt="Rational Oven Service"
                 />
 
                 <img
-                  src={getImageSrc('Kitchen-Equipment-Maintenance-Service')}
+                  src={getImageSrc('oven-gallery/oven repair')}
                   class="img-fluid rounded shadow"
                   alt="Oven Repair"
                 />
@@ -555,7 +555,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                 />
 
                 <img
-                  src={getImageSrc('Refrigerator-Appliances-to-Repair')}
+                  src={getImageSrc('oven-gallery/rational oven repair')}
                   class="img-fluid rounded shadow"
                   alt="Rational Oven Repair"
                 />
