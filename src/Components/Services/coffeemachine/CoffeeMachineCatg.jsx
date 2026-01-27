@@ -8,6 +8,7 @@ import CommCoffeeMachineButton from '../../Buttons/CommCoffeeMachineButton';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
+import BlogCoffeeMachine from './BlogCoffeeMachine';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -238,18 +239,18 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
                 <p>If you need to buy new coffee machine, espresso machine, vending machine, coffee equipment, or replacement parts and accessories, we deliver quickly to any location.</p>
 
                 <ul className="service-bullet-list">
-                  <li>Professional Espresso Machines</li>
-                  <li>Air Conditioners</li>
-                  <li>Automatic Coffee Machine</li>
-                  <li>Office Coffee Machines</li>
-                  <li>Home Coffee Machines</li>
-                  <li>Capsule Coffee Machines</li>
-                  <li>Coffee Grinders</li>
-                  <li>Blender</li>
-                  <li>Water Boiler</li>
-                  <li>Milk Frother</li>
-                  <li>Ice Crusher</li>
-                  <li>Beverage Cooler</li>
+                  <li><a href="https://www.fajtradingllc.com/collections/professional-espresso-machines">Professional Espresso Machines</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/automatic-coffee-machine">Automatic Coffee Machine</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/office-coffee-machines">Office Coffee Machines</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/home-coffee-machines">Home Coffee Machines</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/capsule-coffee-machines">Capsule Coffee Machines</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/coffee-grinders">Coffee Grinders</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/coffee-brewers">Coffee Brewers</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/blender">Blender</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/water-boiler">Water Boiler</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/milk-frother">Milk Frother</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/ice-crusher">Ice Crusher</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/beverage-cooler">Beverage Cooler</a></li>
                 </ul>
               </div>
             </div>
@@ -573,7 +574,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
           />
         )}
 
-        <Blog2 />
+        <BlogCoffeeMachine />
 
         {/* Faqs */}
         <section className="section cs_py_30  bg-dark-blue text-light">

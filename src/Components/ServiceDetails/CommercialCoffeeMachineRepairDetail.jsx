@@ -234,8 +234,9 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Coffee Machine Repairs & Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Commercial Coffee Machine Repair</h1>
             <p>
+              <h2>Professional Coffee Machine Repairs in Dubai, Sharjah, and Abu Dhabi</h2>
               FAJ Company, established in 2010, offers international standard services for the installation and repair of commercial appliances and coffee machines.
               We provide planned maintenance contracts (AMC) for coffee machines, espresso machines, and vending machines used in cafes, restaurants, and catering services.
               <br /> At Commercial Coffee Machine Repairs, we are committed to helping you achieve your ideal cup of coffee efficiently. Whether installing, repairing, we prioritise quality and professionalism.
