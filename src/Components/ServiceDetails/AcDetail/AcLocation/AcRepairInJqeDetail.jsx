@@ -27,7 +27,7 @@ const AcRepairInJqeDetail = ({ subtitle, title, reviewsbg, titleSeo, description
  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
  const metaKeyword = String(Keyword || "ac services in jge, ac repair in jge, ac maintenance in jge, ac installation in jge, ac cleaning in jge, ac service near me, ac repair near me, ac maintenance near me, ac installation near me, ac cleaning near me");
  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jge/");
- const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+ const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
  subtitle = "Testimonial"
  title = "What our clients say About Us"

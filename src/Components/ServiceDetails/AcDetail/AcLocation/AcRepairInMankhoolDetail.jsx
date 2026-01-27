@@ -28,7 +28,7 @@ const AcRepairInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in mankhool, ac repair in mankhool, ac maintenance in mankhool, ac servicing in mankhool, ac cleaning in mankhool, air conditioning service in mankhool, air conditioning repair in mankhool, air conditioning maintenance in mankhool, air conditioning servicing in mankhool, air conditioning cleaning in mankhool");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-mankhool/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

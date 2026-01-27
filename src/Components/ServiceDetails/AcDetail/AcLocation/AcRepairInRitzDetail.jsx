@@ -52,7 +52,7 @@ const AcRepairInRitzDetail = ({
     );
 
     const metaImage = String(
-        Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif"
+        Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public"
     );
 
     subtitle = "Testimonial"

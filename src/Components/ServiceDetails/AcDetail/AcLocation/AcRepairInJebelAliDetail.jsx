@@ -28,7 +28,7 @@ const AcRepairInJebelAliDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in jebel ali, ac repair in jebel ali, ac maintenance in jebel ali, ac cleaning in jebel ali, ac installation in jebel ali, air conditioning service in jebel ali, air conditioning repair in jebel ali, air conditioning maintenance in jebel ali, air conditioning cleaning in jebel ali, air conditioning installation in jebel ali");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

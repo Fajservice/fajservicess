@@ -31,7 +31,7 @@ const AcRepairInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in hudaiba, ac repair in hudaiba, ac maintenance in hudaiba, ac cleaning in hudaiba, ac installation in hudaiba, ac technician in hudaiba, ac servicing in hudaiba, air conditioning service in hudaiba, air conditioning repair in hudaiba, air conditioning maintenance in hudaiba");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-hudaiba/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

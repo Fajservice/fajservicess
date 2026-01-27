@@ -30,7 +30,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in International Media and Production Zone, Air Conditioning Service in International Media and Production Zone, Air Con Maintenance & AC Installation in International Media and Production Zone");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-international-media-and-production-zone/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -28,7 +28,7 @@ const AcRepairInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || " AC Services In Nad Al Sheba, AC Repair in Nad Al Sheba, AC Maintenance in Nad Al Sheba, AC Installation in Nad Al Sheba, Air Conditioner Service in Nad Al Sheba, Air Conditioner Repair in Nad Al Sheba, Air Conditioner Maintenance in Nad Al Sheba, Air Conditioner Installation in Nad Al Sheba");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-nad-al-sheba/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

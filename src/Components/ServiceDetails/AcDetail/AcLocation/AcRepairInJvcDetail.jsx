@@ -28,7 +28,7 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair jvc, ac service in jvc, ac maintenance in jvc, ac cleaning service in jvc, ac technician in jvc, ac servicing in jvc, ac repair near me, ac service near me, ac maintenance near me, ac cleaning service near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jvc/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
