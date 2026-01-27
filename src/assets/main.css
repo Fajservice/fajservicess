@@ -7063,14 +7063,9 @@
     width: 100%;
   }
 
-  /* 
-  img.border-svg {
-    border: 2px solid blue;
-    padding: 33px;
-  } */
 
   .cs_service_details h2 {
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 16px;
   }
 

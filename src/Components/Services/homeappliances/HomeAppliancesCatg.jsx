@@ -57,8 +57,8 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/coffeemachinesserviceFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/CoffeeMAchineReapairTestimonials.json`)
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/SmallAppliancesFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/SmallAppliancesRepairTestimonials.json`)
         ]);
 
         const faqsData = await faqsResponse.json();
