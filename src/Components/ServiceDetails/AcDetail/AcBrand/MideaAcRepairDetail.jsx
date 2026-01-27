@@ -32,10 +32,10 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Midea AC Repair, Midea AC Maintenance, Midea Air Conditioner Service, Midea AC Installation, Midea AC Cleaning, Midea AC Service Dubai, Midea Air Conditioning Repair Dubai, Midea Split AC Service Dubai, Midea Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/midea-ac-installation-maintenance-repair-fix-service-in-dubai/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  reviewsbg = "estimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -163,7 +163,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('ac filter')} alt="Midea AC Service" />
+                <img className="bordered-img" src={getImageSrc('acfilterinner')} alt="Midea AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>

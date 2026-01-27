@@ -27,10 +27,12 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "MacQuay AC Repair in Dubai, McQuay Air Conditioner Maintenance, McQuay AC Service, McQuay AC Fix, McQuay Air Condition Repair, McQuay Air Condition Maintenance, McQuay Air Con Service");
   const metaURL = String(URL || "https://www.fajservices.ae/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
+
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -78,38 +80,6 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
     fetchData();
   }, []);
 
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 575,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
   return (
     <>
       <HelmetProvider>

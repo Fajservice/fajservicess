@@ -8,15 +8,21 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import Testimonial1 from "../../Testimonial/Testimonial1";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Rational Commercial Kitchen Equipment Repair & Maintenance");
   const metadescription = String(description || "Expert Rational commercial kitchen equipment repair & maintenance in Dubai. FAJ offers best Rational oven & professional cooking appliances services");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Rational Oven Repair Service, Rational Combi Oven Repair Service, Rational Commercial Oven Repair Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/img/Camercial-Kitchen-Equipment.avif");
+  const metaURL = String(URL || "https://www.fajservices.ae/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Camercial-Kitchen-Equipment/public");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -85,70 +91,6 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
-
   return (
     <>
       <HelmetProvider>
@@ -205,7 +147,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('rational oven repair')} alt="Oven Repair" />
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Rational Annual Maintenance Contract (AMC) Services</h3>
@@ -226,7 +168,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair" />
+                <img className="blue-border" src={getImageSrc('commercial-kitchen-equipment-amc')} alt="Oven Repair" />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -390,7 +332,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">HEATING EFFICIENCY</h3>
                       <p className="small">We perform a detailed evaluation of heating efficiency with the help of a temperature gun.</p>
@@ -401,7 +343,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
                       <p className="small">All components and parts of the oven are thoroughly tested and disinfected to ensure safety and reliability.</p>
@@ -412,7 +354,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
                       <p className="small">We ensure that the fan operates correctly and is free of blockages in the burner and heating element.</p>
@@ -424,7 +366,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature meter to ensure that the thermostats are working correctly.</p>
@@ -435,7 +377,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h3>
                       <p className="small">We make sure you get optimal airflow around every part of the oven as needed.</p>
@@ -446,7 +388,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h3>
                       <p className="small">Our team provides vital feedback on your rational oven's condition and any necessary repairs.</p>
@@ -468,7 +410,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
+                    <img  src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
@@ -503,7 +445,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -523,7 +465,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>
                       We are committed to providing customer satisfaction through timely service, quick issue resolution, and competitive pricing.
                     </p>
@@ -542,7 +484,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -579,13 +521,13 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
               <div class="col-lg-4 col-md-6">
                 <img
-                  src="/img/oven-gallery/oven repair service.avif"
+                  src={getImageSrc('rational-oven-service')}
                   class="img-fluid rounded shadow mb-4"
                   alt="Oven Repair Service Dubai"
                 />
 
                 <img
-                  src="/img/oven-gallery/rational oven repairs.avif"
+                  src={getImageSrc('kitchen-equip-amc-service')}
                   class="img-fluid rounded shadow"
                   alt="Oven Repair Service Dubai"
                 />
@@ -593,13 +535,13 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
               <div class="col-lg-4 col-md-6">
                 <img
-                  src="/img/oven-gallery/rational oven service.avif"
+                  src={getImageSrc('Refrigeration-Maintenance-Service')}
                   class="img-fluid rounded shadow mb-4"
                   alt="Rational Oven Service"
                 />
 
                 <img
-                  src="/img/oven-gallery/oven repair.avif"
+                  src={getImageSrc('Kitchen-Equipment-Maintenance-Service')}
                   class="img-fluid rounded shadow"
                   alt="Oven Repair"
                 />
@@ -607,13 +549,13 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
               <div class="col-lg-4 col-md-6">
                 <img
-                  src="/img/rational-oven-service.avif"
+                  src={getImageSrc('rational-oven-service')}
                   class="img-fluid rounded shadow mb-4"
                   alt="Oven Repair Maintenance"
                 />
 
                 <img
-                  src="/img/oven-gallery/rational oven repair.avif"
+                  src={getImageSrc('Refrigerator-Appliances-to-Repair')}
                   class="img-fluid rounded shadow"
                   alt="Rational Oven Repair"
                 />

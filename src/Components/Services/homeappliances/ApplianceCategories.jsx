@@ -2,23 +2,19 @@ import '../../../assets/main.css';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 
 const categories = [
-  { name: 'Carpet Shampoo and Floor Polishers Appliances', icon: 'carpet-shampoo' },
-  { name: 'Dishwashers Appliances', icon: 'dishwasher' },
-  { name: 'Freezers Appliances', icon: 'freezer' },
-  { name: 'Fridge Freezers Appliances', icon: 'fridge-freezer' },
-  { name: 'Fridges Appliances', icon: 'fridge' },
-  { name: 'Hobs Appliances', icon: 'hob' },
-  { name: 'Hoods Appliances', icon: 'hood' },
-  { name: 'Larders Appliances', icon: 'larder' },
-  { name: 'Ovens Appliances', icon: 'oven' },
-  { name: 'Range Cookers Appliances', icon: 'range-cooker' },
-  { name: 'Tumble Dryers Appliances', icon: 'tumble-dryer' },
-  { name: 'Under Counter Appliances', icon: 'under-counter' },
-  { name: 'Vacuum Cleaners Appliances', icon: 'vacuum' },
-  { name: 'Warming Drawer Appliances', icon: 'warming-drawer' },
-  { name: 'Washer Dryer Appliances', icon: 'washer-dryer' },
-  { name: 'Washing Machine Appliances', icon: 'washing-machine' },
-  { name: 'Wine Cooler Appliances', icon: 'wine-cooler' },
+  { name: 'Hob Repair', icon: 'carpet-shampoo' },
+  { name: 'Oven Repair', icon: 'dishwasher' },
+  { name: 'Gas Range Repair', icon: 'freezer' },
+  { name: 'Diswasher Repair', icon: 'fridge-freezer' },
+  { name: 'Refrigerator Repair', icon: 'fridge' },
+  { name: 'BBQ Repair Service', icon: 'hob' },
+  { name: 'Cigar Humidor Repair', icon: 'hood' },
+  { name: 'Vacuume Repair', icon: 'vacuum' },
+  { name: 'Small Appliances', icon: 'oven' },
+  { name: 'Washing Machine Repair', icon: 'range-cooker' },
+  { name: 'Integrated Appliances Repair', icon: 'tumble-dryer' },
+  { name: 'Free Standing Appliances', icon: 'under-counter' },
+  { name: 'AMC Contract', icon: 'vacuum' },
 ];
 
 const icons = {
