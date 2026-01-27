@@ -563,7 +563,6 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
             </div>
           </div>
         </section>
-        {/* Gallery */}
 
         {/* testimobial section */}
         <Testimonial1
