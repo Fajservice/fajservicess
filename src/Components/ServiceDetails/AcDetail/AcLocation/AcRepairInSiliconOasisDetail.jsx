@@ -28,7 +28,7 @@ const AcRepairInSiliconOasisDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Dubai Silicon Oasis, Air Conditioning Services in Dubai Silicon Oasis, Air Con Maintenance in  Dubai Silicon Oasis, AC Installation in Dubai Silicon Oasis, AC Technician in Dubai Silicon Oasis");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-silicon-oasis/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

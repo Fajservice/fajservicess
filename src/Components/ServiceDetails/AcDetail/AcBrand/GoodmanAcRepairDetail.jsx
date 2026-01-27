@@ -28,7 +28,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Goodman AC Repair Dubai, Goodman Air Conditioner Service, Goodman AC Maintenance Dubai, Goodman Air Conditioning Repair, Goodman AC Cleaning");
   const metaURL = String(URL || "https://www.fajservices.ae/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
 
   subtitle = "Testimonial"

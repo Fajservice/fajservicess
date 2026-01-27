@@ -27,7 +27,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "LG AC Repair in Dubai, LG Air Conditioner Maintenance, LG AC Service, LG Split AC Repair, LG Central AC Service, LG VRF AC Repair, LG Air Conditioning Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/lg-ac-repair-in-dubai/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -77,38 +77,6 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
 
     fetchData();
   }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 575,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
   return (
     <>
       <HelmetProvider>

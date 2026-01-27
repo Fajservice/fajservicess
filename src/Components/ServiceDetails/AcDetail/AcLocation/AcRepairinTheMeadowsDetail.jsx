@@ -29,7 +29,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in The Meadows, Air Conditioning Service in The Meadows, Air Con Maintenance & AC Installation in The Meadows");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-meadows/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
 
     subtitle = "Testimonial"

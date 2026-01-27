@@ -28,7 +28,7 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in knowledge village, ac repair in knowledge village, ac maintenance in knowledge village, ac installation in knowledge village, ac cleaning in knowledge village, ac technician in knowledge village, ac service near me, ac repair near me, ac maintenance near me, ac installation near me, ac cleaning near me, ac technician near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-knowledge-village/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

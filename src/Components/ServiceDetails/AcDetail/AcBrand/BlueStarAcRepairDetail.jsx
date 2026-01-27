@@ -27,7 +27,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Bluestar AC Repair in Dubai, BlueStar Air Conditioner Service, BlueStar AC Maintenance, BlueStar AC Installation, BlueStar AC Cleaning Service, BlueStar Air Conditioner Repair Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/");
-  const metaImage = getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract');
+  const metaImage = getImageSrc('https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public');
 
 
   subtitle = "Testimonial"

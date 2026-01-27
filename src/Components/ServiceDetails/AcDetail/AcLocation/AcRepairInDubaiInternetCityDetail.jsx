@@ -29,7 +29,7 @@ const AcRepairInDubaiInternetCityDetail = ({ subtitle, title, reviewsbg, titleSe
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in dubai internet city, ac repair in dubai internet city, ac cleaning in dubai internet city, ac maintenance in dubai internet city, ac technician in dubai internet city, ac servicing in dubai internet city, ac installation in dubai internet city");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-dubai-internet-city/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

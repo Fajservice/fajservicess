@@ -28,7 +28,7 @@ const AcRepairInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Wasl, AC Repair in Al Wasl, AC Maintenance in Al Wasl, Air Conditioning Company in Al Wasl, Best AC Services in Al Wasl, Split AC Repair in Al Wasl, Central AC Repair in Al Wasl");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-wasl/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

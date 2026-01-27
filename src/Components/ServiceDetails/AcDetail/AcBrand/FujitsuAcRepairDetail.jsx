@@ -28,7 +28,8 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Fujitsu AC Repair in Dubai, Fujitsu Air Conditioner Maintenance, Fujitsu AC Service, Fujitsu AC Fix, Fujitsu Air Condition Repair, Fujitsu Air Condition Maintenance, Fujitsu Air Condition Service, Fujitsu Air Condition Fix");
   const metaURL = String(URL || "https://www.fajservices.ae/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')

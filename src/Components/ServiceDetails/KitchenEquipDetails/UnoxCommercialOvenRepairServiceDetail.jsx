@@ -570,58 +570,6 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
         </section>
         {/* Maintenance Contract */}
         <MaintenanceContract />
-        {/* Gallery */}
-        {/* <section className="section cs_py_30 gallery-section bg-light-gray">
-          <div class="container">
-            <h3 class="mb-4 text-center">Gallery</h3>
-              <div class="row g-4">
-      
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/oven-gallery/oven repair service.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="Oven Repair Service Dubai"
-                  />
-
-                  <img
-                    src="/img/oven-gallery/rational oven repairs.avif"
-                    class="img-fluid rounded shadow"
-                    alt="Oven Repair Service Dubai"
-                  />
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/oven-gallery/rational oven service.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="Rational Oven Service"
-                  />
-
-                  <img
-                    src="/img/oven-gallery/oven repair.avif"
-                    class="img-fluid rounded shadow"
-                    alt="Oven Repair"
-                  />
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                  <img
-                    src="/img/rational-oven-service.avif"
-                    class="img-fluid rounded shadow mb-4"
-                    alt="Oven Repair Maintenance"
-                  />
-
-                  <img
-                    src="/img/oven-gallery/rational oven repair.avif"
-                    class="img-fluid rounded shadow"
-                    alt="Rational Oven Repair"
-                  />
-                </div>
-              </div>
-          </div>
-        </section> */}
-        {/* Gallery */}
-
         {/* testimobial section */}
         <Testimonial1
           subtitle="What Our Clients Say"

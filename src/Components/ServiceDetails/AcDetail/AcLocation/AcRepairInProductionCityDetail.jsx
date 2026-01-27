@@ -28,7 +28,7 @@ const AcRepairInProductionCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Dubai Production City, Gree AC Service Dubai, Gree AC Maintenance Dubai, Gree Air Conditioner Repair Dubai, Gree AC Error Fix Dubai, Gree AC Service Near Me, Gree AC Repair Near Me, Gree Air Conditioner Service Dubai, Gree Air Conditioner Maintenance Dubai, Gree Air Conditioner Repair Near Me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-production-city/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
