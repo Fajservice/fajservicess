@@ -98,7 +98,7 @@ export const router = createBrowserRouter([
         element: < Components.WashingMachineRepairNearMe />,
       },
       {
-        path: "/appliances-repair-service/",
+        path: "/services/home-appliances/appliances-repair-service/",
         element: < Components.FreestandingHomeAppliancesRepairService />,
       },
       {
@@ -110,15 +110,15 @@ export const router = createBrowserRouter([
         element: < Components.CommercialCoffeeMachineRepair />,
       },
       {
-        path: "/hob-repair-service/",
+        path: "/services/home-appliances/hob-repair-service/",
         element: <Components.HobRepair />,
       },
       {
-        path: "/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
+        path: "/services/home-appliances/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
         element: <Components.BBQService />,
       },
       {
-        path: "/cigar-humidor-repair/",
+        path: "/services/home-appliances/cigar-humidor-repair/",
         element: <Components.CigarcabnitService />,
       },
       {
@@ -126,23 +126,23 @@ export const router = createBrowserRouter([
         element: <Components.PortfolioPage />,
       },
       {
-        path: "/oven-repair-service/",
+        path: "/services/home-appliances/oven-repair-service/",
         element: <Components.OvenRepairService />,
       },
       {
-        path: "/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
+        path: "/services/kitchen-equipment/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
         element: <Components.RationalCommercialKitchenEquipmentRepairService />,
       },
       {
-        path: "/unox-commercial-oven-repair-and-maintenance-service-dubai/",
+        path: "/services/kitchen-equipment/unox-commercial-oven-repair-and-maintenance-service-dubai/",
         element: <Components.UnoxCommercialOvenRepairService />,
       },
       {
-        path: "/commercial-cooking-appliances-repair-service/",
+        path: "/services/kitchen-equipment/commercial-cooking-appliances-repair-service/",
         element: <Components.CookingEquipmentService />,
       },
       {
-        path: "/meat-grinder-repair/",
+        path: "/services/kitchen-equipment/meat-grinder-repair/",
         element: <Components.MeatGrinderRepair />,
       },
       {
@@ -158,11 +158,11 @@ export const router = createBrowserRouter([
         element: <Components.CommercialLaundryEquipmentService />,
       },
       {
-        path: "/commercial-kitchen-equipment-amc/",
+        path: "/services/kitchen-equipment/commercial-kitchen-equipment-amc/",
         element: <Components.KitchenEquipmentAMC />,
       },
       {
-        path: "/commercial-kitchen-equipment-maintenance-services/",
+        path: "/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/",
         element: <Components.KitchenEquipmentRepair />,
       },
       {
@@ -178,39 +178,39 @@ export const router = createBrowserRouter([
         element: <Components.CommercialRefrigerationMaintence />,
       },
       {
-        path: "/gas-cooker-repair-service/",
+        path: "/services/home-appliances/gas-cooker-repair-service/",
         element: <Components.GasRangeRepairService />,
       },
       {
-        path: "/dishwasher-repair-service/",
+        path: "/services/home-appliances/dishwasher-repair-service/",
         element: <Components.DishwasherRepair />,
       },
       {
-        path: "/oven-repair/",
+        path: "/services/kitchen-equipment/oven-repair/",
         element: <Components.OvenRepair />,
       },
       {
-        path: "/robot-vacuum-cleaner-repair/",
+        path: "/services/home-appliances/robot-vacuum-cleaner-repair/",
         element: <Components.VacuumCleanerRepair />,
       },
       {
-        path: "/small-home-appliances-service-center-in-dubai/",
+        path: "/services/home-appliances/small-home-appliances-service-center-in-dubai/",
         element: <Components.SmallAppliancesRepair />,
       },
       {
-        path: "/built-in-appliances-repair-service/",
+        path: "/services/home-appliances/built-in-appliances-repair-service/",
         element: <Components.IntegratedApplianceRepair />,
       },
       {
-        path: "/appliances-amc-service/",
+        path: "/services/home-appliances/appliances-amc-service/",
         element: <Components.AppliancesMaintenanceContract />,
       },
       {
-        path: "/washing-machine-repair-service-dubai/",
+        path: "/services/home-appliances/washing-machine-repair-service-dubai/",
         element: <Components.WashingMachineRepairServiceDubai />,
       },
       {
-        path: "/refrigerator-repair-service/",
+        path: "/services/home-appliances/refrigerator-repair-service/",
         element: <Components.RefrigeratorRepairInDubai />,
       },
       {
@@ -1134,11 +1134,11 @@ export const router = createBrowserRouter([
         element: <Components.LaGermaniaCookingRangeRepair />,
       },
       {
-        path: "/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/",
+        path: "/services/home-appliances/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/",
         element: <Components.EcovacsVacuumCleanerRepairAndService />,
       },
       {
-        path: "/roborock-vacuum-cleaner-repair-service-in-dubai/",
+        path: "/services/home-appliances/roborock-vacuum-cleaner-repair-service-in-dubai/",
         element: <Components.RoboRockVacuumCleanerRepairAndService />,
       },
       {
@@ -1924,6 +1924,86 @@ export const router = createBrowserRouter([
         path:"/coffee-machine-repairs/",
         element:<Navigate to="/services/coffee-machine/coffee-machine-repairs/" replace />
       },
+      {
+        path:"/hob-repair-service/",
+        element:<Navigate to="/services/home-appliances/hob-repair-service/" replace />
+      },
+      {
+        path:"/oven-repair-service/",
+        element:<Navigate to="/services/home-appliances/oven-repair-service/" replace />
+      },
+      {
+        path:"/gas-cooker-repair-service/",
+        element:<Navigate to="/services/home-appliances/gas-cooker-repair-service/" replace />
+      },
+      {
+        path:"/dishwasher-repair-service/",
+        element:<Navigate to="/services/home-appliances/dishwasher-repair-service/" replace />
+      },
+      {
+        path:"/refrigerator-repair-service/",
+        element:<Navigate to="/services/home-appliances/refrigerator-repair-service/" replace />
+      },
+      {
+        path:"/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
+        element:<Navigate to="/services/home-appliances/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/" replace />
+      },
+      {
+        path:"/cigar-humidor-repair/",
+        element:<Navigate to="/services/home-appliances/cigar-humidor-repair/" replace />
+      },
+      {
+        path:"/robot-vacuum-cleaner-repair/",
+        element:<Navigate to="/services/home-appliances/robot-vacuum-cleaner-repair/" replace />
+      },
+      {
+        path:"/small-home-appliances-service-center-in-dubai/",
+        element:<Navigate to="/services/home-appliances/small-home-appliances-service-center-in-dubai/" replace />
+      },
+      {
+        path:"/washing-machine-repair-service-dubai/",
+        element:<Navigate to="/services/home-appliances/washing-machine-repair-service-dubai/" replace />
+      },
+      {
+        path:"/built-in-appliances-repair-service/",
+        element:<Navigate to="/services/home-appliances/built-in-appliances-repair-service/" replace />
+      },
+      {
+        path:"/appliances-repair-service/",
+        element:<Navigate to="/services/home-appliances/appliances-repair-service/" replace />
+      },
+      {
+        path:"/appliances-amc-service/",
+        element:<Navigate to="/services/home-appliances/appliances-amc-service/" replace />
+      },
+      {
+        path:"/oven-repair/",
+        element:<Navigate to="/services/kitchen-equipment/oven-repair/" replace />
+      },
+      {
+        path:"/meat-grinder-repair/",
+        element:<Navigate to="/services/kitchen-equipment/meat-grinder-repair/" replace />
+      },
+      {
+        path:"/commercial-kitchen-equipment-amc/",
+        element:<Navigate to="/services/kitchen-equipment/commercial-kitchen-equipment-amc/" replace />
+      },
+      {
+        path:"/commercial-kitchen-equipment-maintenance-services/",
+        element:<Navigate to="/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/" replace />
+      },    
+      {
+        path:"/commercial-cooking-appliances-repair-service/",
+        element:<Navigate to="/services/kitchen-equipment/commercial-cooking-appliances-repair-service/" replace />
+      },
+      {
+        path:"/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
+        element:<Navigate to="/services/kitchen-equipment/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/" replace />
+      },
+      {
+        path:"/unox-commercial-oven-repair-and-maintenance-service-dubai/",
+        element:<Navigate to="/services/kitchen-equipment/unox-commercial-oven-repair-and-maintenance-service-dubai/" replace />
+      },    
     ],
   }
 ], {

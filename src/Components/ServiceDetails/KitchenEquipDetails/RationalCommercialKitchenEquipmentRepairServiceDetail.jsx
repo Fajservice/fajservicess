@@ -15,7 +15,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
   const metadescription = String(description || "Expert Rational commercial kitchen equipment repair & maintenance in Dubai. FAJ offers best Rational oven & professional cooking appliances services");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Rational Oven Repair Service, Rational Combi Oven Repair Service, Rational Commercial Oven Repair Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/Camercial-Kitchen-Equipment.avif");
 
   subtitle = "Testimonial"

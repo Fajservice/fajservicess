@@ -35,7 +35,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const metadescription = String(description || "Reliable Oven Repair & Service in Dubai. FAJ is an expert in all brands/types of gas & electric oven maintenance near me with a service warranty. ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Gas Oven Repair Dubai, Electric Oven Service Near Me, Oven Repair Service Dubai, Oven Maintenance Dubai, Steam Oven Repair Dubai, Conventional Oven Repair Dubai, Oven Service Near Me, Best Oven Repair Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/oven-repair-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances/oven-repair-service/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/oven-Range-Repair-Nearby-You-oven.avif");
 
   subtitle = "Testimonial"

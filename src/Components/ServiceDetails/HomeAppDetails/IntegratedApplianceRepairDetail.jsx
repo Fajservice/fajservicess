@@ -37,7 +37,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
     Keyword || "Built-in appliances repair Dubai, Built-in refrigerator service, Built-in washing machine repair, Built-in dishwasher fix, Built-in stove cooktop oven service, Built-in appliance repair near me"
   );
 
-  const metaURL = String(URL || "https://www.fajservices.ae/built-in-appliances-repair-service/"
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances/built-in-appliances-repair-service/"
   );
 
   const metaImage = String(

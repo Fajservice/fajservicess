@@ -32,7 +32,7 @@ const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,
     Keyword || "Home appliacnes, Appliances AMC, Appliances Maintenance Contract, Kitchen Equipment AMC, Kitchen Appliances AMC, Dubai Appliances Service, Appliance Repair Dubai, Appliance Service Dubai"
   );
   const metaURL = String(
-    URL || "https://www.fajservices.ae/appliances-amc-service/"
+    URL || "https://www.fajservices.ae/services/home-appliances/appliances-amc-service/"
   );
 
   const metaImage = String(

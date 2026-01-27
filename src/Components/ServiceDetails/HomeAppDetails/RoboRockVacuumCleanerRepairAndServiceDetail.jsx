@@ -19,7 +19,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
   const metadescription = String(description || "Roborock vacuum cleaner repair service and center in Dubai. Book with us 043300002 for vacuum cleaner repair near me, fix, servicing & maintenance.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "RoboRock vacuum cleaner repair in Dubai, RoboRock vacuum cleaner service center in Dubai, RoboRock vacuum cleaner repair near me, fix RoboRock vacuum cleaner, RoboRock vacuum cleaner servicing, RoboRock vacuum cleaner maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/roborock-vacuum-cleaner-repair-service-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances/roborock-vacuum-cleaner-repair-service-in-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/inspection-robot-vacuum-cleaner.avif");
 
 
