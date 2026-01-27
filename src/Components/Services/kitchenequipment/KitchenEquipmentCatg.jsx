@@ -6,7 +6,6 @@ import Blog2 from '../../Blog/Blog2';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
-import ApplianceCategories from './ApplianceCategories';
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
@@ -14,11 +13,11 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
-  const metatitle = String(titleSeo || "Home Appliances Repair and Maintenance Services in Dubai");
+const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
+  const metatitle = String(titleSeo || "Kitchen Equipment Maintenance Service Company in Dubai");
   const metadescription = String(description || "Book your home appliance repair today, and FAJ Service Center will arrange for an expert technician to fix your washing machine, fridge or dishwasher.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
   subtitle = "Testimonial"
@@ -81,7 +80,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
+          <meta name="description" content="Best kitchen equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens"></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.fajservices.ae/services/coffee-machine/" />
@@ -104,7 +103,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
         {/* Technical Services to Keep Your Coffee Flowing */}
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h1 className="cs_fs_30 text-center mb-4">Home Appliance Repair & Support Service Center in Dubai
+            <h1 className="cs_fs_30 text-center mb-4">Professional Kitchen Equipment Maintenance and Servicing in Dubai
             </h1>
             <div className="row align-items-center">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
@@ -132,9 +131,9 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
 
               <div className="col-12 col-lg-7">
                 <p><b>Expert Appliance Repair Near You</b></p>
-                <p>Reliable Home Appliance Repair Services – Fast & Affordable
-                  Are you searching for a reliable home appliance repair service center near you?
-                  We provide expert repair and support for all major home appliances, including washing machines, refrigerators, ovens, stoves, dishwashers, and more. Our appliance technicians provide quick and efficient repair services, ensuring your appliances are fixed promptly and affordably.
+                <p>FAJ Technical Services L.L.C has been serving the kitchen equipment needs of Dubai since 2010. We provide comprehensive solutions for all types of commercial kitchen equipment.
+                  Our services encompass installation, maintenance, and repair, catering to a diverse range of clients, including hospitality outlets, hotels, restaurants, cafes, catering services, and residential homes and villas. Additionally, we serve industrial facilities, corporate offices, and shopping centers.
+
                 </p>
               </div>
             </div>
@@ -185,9 +184,6 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
           </div>
         </section>
 
-        {/* category icon */}
-        <ApplianceCategories />
-
         {/* why choose */}
         <section className="section cs_py_30">
           <div className="container">
@@ -209,14 +205,6 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                     loading="lazy"
                     decoding="async"
                     className="shop-ac-image"
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
-                    }}
                   />
                 </div>
               </div>
@@ -314,7 +302,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
               </div>
 
 
-              
+
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
@@ -348,7 +336,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                 </div>
               </div>
 
-             
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -433,4 +421,4 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
   )
 }
 
-export default HomeAppliancesCatg
+export default KitchenEquipmentCatg

@@ -1,21 +1,21 @@
 import { useEffect, useState, useRef } from "react";
-import { Link } from "react-router-dom";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import CallNowButton from "../../Buttons/CallNowButton";
 import AcRepairService from "../../Buttons/AcRepairService";
 import AMCbutton from "../../Buttons/AMCbutton";
 import Blog2 from "../../Blog/Blog2";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  const metatitle = String(titleSeo || "Best Midea AC Repair & HVAC Maintenance in Dubai UAE");
-  const metadescription = String(description || "Experienced technicians with specialized knowledge and tools promptly diagnose and provide Midea AC repair and cleaning services near you in Dubai.");
+  const metatitle = String(titleSeo || "Top Air Conditioning Maintenance Company in Dubai - Sharjah");
+  const metadescription = String(description || "FAJ offers top-quality HVAC, chilled water FCU, central & split air conditioning repair & maintenance, servicing of offices, villas, at best prices in Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Midea AC Repair, Midea AC Maintenance, Midea Air Conditioner Service, Midea AC Installation, Midea AC Cleaning, Midea AC Service Dubai, Midea Air Conditioning Repair Dubai, Midea Split AC Service Dubai, Midea Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/midea-ac-installation-maintenance-repair-fix-service-in-dubai/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
-  
-  
+
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "estimonialbg.jpg"
@@ -48,7 +48,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
       try {
         const [cardResponse, faqsResponse, testimonialsResponse] = await Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/maincategory.json`),
-          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/MideaAcFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcRepairFaqs.json`),
           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/MideaAcServiceTestimonials.json`)
         ]);
         const cardData = await cardResponse.json();
@@ -70,6 +70,26 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
 
   return (
     <>
+      <HelmetProvider>
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://www.fajservices.ae/services/coffee-machine/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta name="twitter:description" content="Coffee Machine Repair and Maintenance Services in Dubai" />
+          <meta name="twitter:image" content={metaImage} />
+
+        </Helmet>
+      </HelmetProvider>
       <div className="cs_service_details">
         {/* Section 1 - Intro */}
         <section className="section cs_py_30">
@@ -138,7 +158,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
             <h2 className="cs_fs_30 text-center mb-4">Domestic Air Conditioning Maintenance Service in Dubai</h2>
 
             <div className="row align-items-center">
-               {/* Text Column - Right */}
+              {/* Text Column - Right */}
               <div className="col-12 col-lg-7">
                 <p>At FAJ Technical Services L.L.C, we provide cost-effective heating and cooling solutions to create the perfect temperature in your home all year round. You can trust us to deliver first-class, comprehensive, and professional service with no corners cut.</p>
                 <p>Our commitment ensures that the air in your home remains clean and filtered while keeping your system energy-efficient and free from bacteria.</p>
@@ -170,7 +190,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
                 </div>
               </div>
 
-             
+
             </div>
             <div id="get-quote" className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
@@ -182,7 +202,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Shop for Coffee Machines, Equipment, and Accessories</h2>
+            <h2 className="cs_fs_30 text-center mb-4">Shop for Air Conditioner, Spare Parts and Accessories</h2>
 
             <div className="row align-items-center">
               <div className="col-12 col-lg-4 mb-4 mb-lg-0">
@@ -210,21 +230,21 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
 
               <div className="col-12 col-lg-8">
                 <p>If you need to buy new air conditioners, central, VRV, VRF, split, window AC, or replacement parts and accessories, we deliver quickly to any location.</p>
-                
+
                 <ul className="service-bullet-list">
-                  <li>AC Spare Parts</li>
-                  <li>Air Conditioners</li>
-                  <li>Split AC</li>
-                  <li>Window AC</li>
-                  <li>Floor Standing</li>
-                  <li>Cassette AC</li>
-                  <li>Concealed AC</li>
-                  <li>Ceiling Suspended</li>
-                  <li>Duct AC</li>
+                  <li><a href="https://www.fajtradingllc.com/collections/ac-spare-parts">AC Spare Parts</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/air-conditioners">Air Conditioners</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/split-ac">Split AC</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/window-ac">Window AC</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/floor-standing">Floor Standing</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/cassette-ac">Cassette AC</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/ac-concealed">Concealed AC</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/ceiling-suspended">Ceiling Suspended</a></li>
+                  <li><a href="https://www.fajtradingllc.com/collections/duct-ac">Duct AC</a></li>
                 </ul>
               </div>
             </div>
-            
+
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
                 <CallNowButton />
@@ -232,53 +252,65 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
             </div>
           </div>
 
-        <style>{`
-        .service-bullet-list {
-          list-style: none;
-          padding: 0;
-          margin: 1rem 0;
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          gap: 10px;
-        }
-        
-        .service-bullet-list li {
-          position: relative;
-          padding-left: 24px;
-          font-size: 15px;
-          color: #333;
-        }
-        
-        .service-bullet-list li::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          top: 8px;
-          width: 10px;
-          height: 10px;
-          background-color: #1a3a4a;
-          border-radius: 50%;
-        }
-        
-        @media (max-width: 576px) {
-          .service-bullet-list {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 8px;
-          }
-          
-          .service-bullet-list li {
-            font-size: 13px;
-            padding-left: 18px;
-          }
-          
-          .service-bullet-list li::before {
-            width: 8px;
-            height: 8px;
-            top: 6px;
-          }
-        }
-      `}</style>
-      </section>
+          <style>{`
+  .service-bullet-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px 10px;
+    max-width: 500px;
+  }
+  
+  .service-bullet-list li {
+    position: relative;
+    padding-left: 18px;
+    font-size: 15px;
+  }
+  
+  .service-bullet-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 8px;
+    height: 8px;
+    background-color: #1a3a4a;
+    border-radius: 50%;
+  }
+  
+  .service-bullet-list li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .service-bullet-list li a:hover {
+    color: #1a3a4a;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 576px) {
+    .service-bullet-list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px 8px;
+      max-width: 100%;
+    }
+    
+    .service-bullet-list li {
+      font-size: 13px;
+      padding-left: 14px;
+    }
+    
+    .service-bullet-list li::before {
+      width: 6px;
+      height: 6px;
+      top: 5px;
+    }
+  }
+`}</style>
+        </section>
 
         {/* Testimonial Section */}
         <Testimonial1

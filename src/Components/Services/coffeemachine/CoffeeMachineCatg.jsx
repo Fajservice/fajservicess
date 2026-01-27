@@ -162,7 +162,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
           </div>
         </section>
         {/* Annual Maintenance Contract (AMC) */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-white">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Annual Maintenance Contract (AMC)</h2>
             <div className="row align-items-center">
@@ -275,7 +275,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
           position: relative;
           padding-left: 24px;
           font-size: 15px;
-          color: #333;
+          color: #000000;
         }
         
         .service-bullet-list li::before {
@@ -364,6 +364,43 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
           <div className="container">
             <h2 className="text-center">The Most Common Problems of Coffee Machines   </h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Malfunctions</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Most Likely Causes: Dull blades, motor issues, or a jammed grinder.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Brewing</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0"> Hard water can lead to a buildup of minerals and clogged filters.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Portafilter Problems</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      The gasket is worn out and not sealing properly, and the filter basket is clogged.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
@@ -400,20 +437,6 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
                   </div>
                 </div>
               </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Brewing</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0"> Hard water can lead to a buildup of minerals and clogged filters.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
@@ -422,6 +445,19 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       The pump is worn out, there are issues with the motor, and some components are loose.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Milk Frothier Issues</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Blocks, a malfunctioning frother motor, and temperature-related issues.
                     </p>
                   </div>
                 </div>
@@ -440,18 +476,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
                 </div>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Malfunctions</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Most Likely Causes: Dull blades, motor issues, or a jammed grinder.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
@@ -513,30 +538,8 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Portafilter Problems</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      The gasket is worn out and not sealing properly, and the filter basket is clogged.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Milk Frothier Issues</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Blocks, a malfunctioning frother motor, and temperature-related issues.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              
+              
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">

@@ -62,6 +62,10 @@ export const router = createBrowserRouter([
         element: <Components.AirConditioningCatg />,
       },
       {
+        path: "/services/kitchen-equipment/",
+        element: <Components.KitchenEquipmentPage />,
+      },
+      {
         path: "/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
         element: <Components.AcServiceInDubaiArabic />,
       },
@@ -444,6 +448,10 @@ export const router = createBrowserRouter([
       {
         path: "/project",
         element: <Components.ProjectPage />,
+      },
+      {
+        path: "/services/home-appliances/",
+        element: <Components.HomeAppliancesPage />,
       },
       {
         path: "/blogs",
