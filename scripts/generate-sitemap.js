@@ -10,52 +10,52 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/refrigerator-repair-service/</loc>
+  <loc>https://www.fajservices.ae/services/home-appliances/refrigerator-repair-service/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/hob-repair-service/</loc>
+  <loc>https://www.fajservices.ae/services/home-appliances/hob-repair-service/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/small-home-appliances-service-center-in-dubai/</loc>
+  <loc>https://www.fajservices.ae/services/home-appliances/small-home-appliances-service-center-in-dubai/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/oven-repair-service/</loc>
+  <loc>https://www.fajservices.ae/services/home-appliances/oven-repair-service/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/gas-cooker-repair-service/</loc>
+  <loc>https://www.fajservices.ae/services/home-appliances/gas-cooker-repair-service/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/appliances-repair-service/</loc>
+  <loc>https://www.fajservices.ae/services/home-appliances/appliances-repair-service/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/washing-machine-repair-service-dubai/</loc>
+  <loc>https://www.fajservices.ae/services/home-appliances/washing-machine-repair-service-dubai/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/dishwasher-repair-service/</loc>
+  <loc>https://www.fajservices.ae/services/home-appliances/dishwasher-repair-service/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/built-in-appliances-repair-service/</loc>
+  <loc>https://www.fajservices.ae/services/home-appliances/built-in-appliances-repair-service/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/commercial-cooking-appliances-repair-service/</loc>
+  <loc>https://www.fajservices.ae/services/kitchen-equipment/commercial-cooking-appliances-repair-service/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
@@ -75,7 +75,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/commercial-kitchen-equipment-amc/</loc>
+  <loc>https://www.fajservices.ae/services/kitchen-equipment/commercial-kitchen-equipment-amc/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
@@ -91,11 +91,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 </url>
 <url>
   <loc>https://www.fajservices.ae/about-us/</loc>
-  <lastmod>${today}</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.fajservices.ae/contact-us/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
@@ -1926,12 +1921,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-    <loc>https://www.fajservices.ae/commercial-refrigeration-maintenance/</loc>
+    <loc>https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/oven-repair/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment/oven-repair/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
@@ -1941,22 +1936,22 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/coffee-machine-repairs/</loc>
+    <loc>https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/ice-maker-repair/</loc>
+    <loc>https://www.fajservices.ae/services/refrigeration-equipment/ice-maker-repair/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/commercial-kitchen-equipment-maintenance-services/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/meat-grinder-repair/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment/meat-grinder-repair/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
@@ -1976,12 +1971,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/cigar-humidor-repair/</loc>
+    <loc>https://www.fajservices.ae/services/home-appliances/cigar-humidor-repair/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/commercial-refrigeration-maintenance-contact-services/</loc>
+    <loc>https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
@@ -2046,7 +2041,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/</loc>
+    <loc>https://www.fajservices.ae/services/home-appliances/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
@@ -2071,7 +2066,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/roborock-vacuum-cleaner-repair-service-in-dubai/</loc>
+    <loc>https://www.fajservices.ae/services/home-appliances/roborock-vacuum-cleaner-repair-service-in-dubai/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
@@ -2081,12 +2076,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/unox-commercial-oven-repair-and-maintenance-service-dubai/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment/unox-commercial-oven-repair-and-maintenance-service-dubai/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
