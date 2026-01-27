@@ -3,19 +3,20 @@ import { useEffect, useRef, useState } from 'react';
 import CallNowButton from '../../Buttons/CallNowButton';
 import Testimonial1 from '../../Testimonial/Testimonial1';
 import Blog2 from '../../Blog/Blog2';
-import CoffeeMachineButton from '../../Buttons/CoffeeMachineButton';
-import CommCoffeeMachineButton from '../../Buttons/CommCoffeeMachineButton';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
+import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
+import ApplianceCategories from './ApplianceCategories';
+
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
-  const metatitle = String(titleSeo || "Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C");
-  const metadescription = String(description || "Coffee Machine Repair and Maintenance Services in Dubai");
+const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
+  const metatitle = String(titleSeo || "Home Appliances Repair and Maintenance Services in Dubai");
+  const metadescription = String(description || "Book your home appliance repair today, and FAJ Service Center will arrange for an expert technician to fix your washing machine, fridge or dishwasher.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
@@ -87,6 +88,7 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta property="og:url" content={metaURL}></meta>
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
           {/* Twitter Card */}
@@ -98,34 +100,17 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
         </Helmet>
       </HelmetProvider>
 
-
       <div className="cs_service_details">
-        <section className="section cs_py_30">
-          <div className="container">
-            <h1 className="cs_fs_30">Exceptional Coffee Machine Maintenance Services Since 2010</h1>
-            <p>Brewing Quality and Expertise, one cup at a time.
-              FAJ Technical Services L.L.C. provides high-quality coffee and espresso machines maintenance, installation, descaling, and cleaning services and annual maintenance contract (agreement) services in Dubai.
-            </p>
-            <p>Keep your coffee flowing with our professional repair and maintenance services. We specialise in servicing all types of coffee equipment and tools, including vending machines, espresso machines, grinders, brewers, steamers, and café accessories, with genuine coffee machine spare parts in Dubai. Whether you run a busy restaurant and café, manage events, or brew at home with coffee machine, office coffee machine, our expert technicians provide fast, reliable, and affordable service you can trust.
-            </p>
-
-            <div id="get-quote" className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <CoffeeMachineButton />
-                <CommCoffeeMachineButton />
-              </div>
-            </div>
-          </div>
-        </section>
         {/* Technical Services to Keep Your Coffee Flowing */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Technical Services to Keep Your Coffee Flowing</h2>
+            <h1 className="cs_fs_30 text-center mb-4">Home Appliance Repair & Support Service Center in Dubai
+            </h1>
             <div className="row align-items-center">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/coffee-flowing/public`}
+                    src={`${CDN}/reliable-home-appliance/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -146,38 +131,33 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
               </div>
 
               <div className="col-12 col-lg-7">
-                <p>Ensuring smooth coffee operations through quick and efficient service and repair solutions.</p>
-                <p><b>Quick Response Time:</b> We provide phone or in-person assistance to minimise downtime.</p>
-                <p><b>Flexible Scheduling:</b> Repair are completed at the earliest comfort based on client confirmation.</p>
-                <p><b>No-Cost:</b> Eligible breakdowns during the warranty period are cost-free for the same part or service.</p>
-                <p><b>Trained Technicians:</b> Our technicians are experts in troubleshooting issues with all type & brands of coffee machines.</p>
+                <p><b>Expert Appliance Repair Near You</b></p>
+                <p>Reliable Home Appliance Repair Services – Fast & Affordable
+                  Are you searching for a reliable home appliance repair service center near you?
+                  We provide expert repair and support for all major home appliances, including washing machines, refrigerators, ovens, stoves, dishwashers, and more. Our appliance technicians provide quick and efficient repair services, ensuring your appliances are fixed promptly and affordably.
+                </p>
               </div>
             </div>
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
-               <WhatsappIconButton />
+                <WhatsappIconButton />
               </div>
             </div>
           </div>
         </section>
-        {/* Annual Maintenance Contract (AMC) */}
+
+        {/*Select Repair Services by Category – Easily Find the Right Appliance Repair */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Annual Maintenance Contract (AMC)</h2>
+            <h2 className="cs_fs_30 text-center mb-4">Select Repair Services by Category – Easily Find the Right Appliance Repair</h2>
             <div className="row align-items-center">
-
-
               <div className="col-12 col-lg-7">
-                <p>Ensuring smooth coffee operations through quick and efficient service and repair solutions.</p>
-                <p><b>Quick Response Time:</b> We provide phone or in-person assistance to minimise downtime.</p>
-                <p><b>Flexible Scheduling:</b> Repair are completed at the earliest comfort based on client confirmation.</p>
-                <p><b>No-Cost:</b> Eligible breakdowns during the warranty period are cost-free for the same part or service.</p>
-                <p><b>Trained Technicians:</b> Our technicians are experts in troubleshooting issues with all type & brands of coffee machines.</p>
+                <p>At <b>FAJ Technical Services L.L.C.</b> we simplify the process of selecting the right repair service for your home appliances. Whether you need washing machine repair, refrigerator repair, household appliance fixes, BBQ grill cleaning, vacuum cleaner repair, cigar humidor maintenance, or any household appliance service, our categorised repair options help you find the best solution quickly and easily.</p>
               </div>
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/coffee-flowing/public`}
+                    src={`${CDN}/bbq-grill-image/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -204,114 +184,19 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
             </div>
           </div>
         </section>
-        {/* Shop for Coffee Machines, Equipment, and Accessories */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Shop for Coffee Machines, Equipment, and Accessories</h2>
 
-            <div className="row align-items-center">
-              <div className="col-12 col-lg-4 mb-4 mb-lg-0">
-                <div className="service-image-wrapper">
-                  <img
-                    src={`${CDN}/shop-for-coffee-machines/public`}
-                    alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
-                    title="Commercial AC Maintenance Service in Dubai"
-                    width="500"
-                    height="400"
-                    loading="lazy"
-                    decoding="async"
-                    className="service-image"
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
-                    }}
-                  />
-                </div>
-              </div>
+        {/* category icon */}
+        <ApplianceCategories />
 
-              <div className="col-12 col-lg-8">
-                <p>If you need to buy new coffee machine, espresso machine, vending machine, coffee equipment, or replacement parts and accessories, we deliver quickly to any location.</p>
-
-                <ul className="service-bullet-list">
-                  <li>Professional Espresso Machines</li>
-                  <li>Air Conditioners</li>
-                  <li>Automatic Coffee Machine</li>
-                  <li>Office Coffee Machines</li>
-                  <li>Home Coffee Machines</li>
-                  <li>Capsule Coffee Machines</li>
-                  <li>Coffee Grinders</li>
-                  <li>Blender</li>
-                  <li>Water Boiler</li>
-                  <li>Milk Frother</li>
-                  <li>Ice Crusher</li>
-                  <li>Beverage Cooler</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="mt-5">
-              <div className="d-flex justify-content-center align-items-center gap-3">
-                <CallNowButton />
-              </div>
-            </div>
-          </div>
-
-          <style>{`
-        .service-bullet-list {
-          list-style: none;
-          padding: 0;
-          margin: 1rem 0;
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          gap: 10px;
-        }
-        
-        .service-bullet-list li {
-          position: relative;
-          padding-left: 24px;
-          font-size: 15px;
-          color: #333;
-        }
-        
-        .service-bullet-list li::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          top: 8px;
-          width: 10px;
-          height: 10px;
-          background-color: #1a3a4a;
-          border-radius: 50%;
-        }
-        
-        @media (max-width: 576px) {
-          .service-bullet-list {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 8px;
-          }
-          
-          .service-bullet-list li {
-            font-size: 13px;
-            padding-left: 18px;
-          }
-          
-          .service-bullet-list li::before {
-            width: 8px;
-            height: 8px;
-            top: 6px;
-          }
-        }
-      `}</style>
-        </section>
         {/* why choose */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Why Choose Our Coffee Machine Maintenance Services</h2>
-
+            <h2 className="cs_fs_30 text-center mb-4">Why Choose FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs</h2>
+            <p>When you require home appliance repair, it's essential to choose a reliable service center provider that offers quality repairs, quick service, and appliance technicians. At <b>FAJ Technical Services L.L.C.</b> we ensure that your appliances will be repaired promptly, efficiently, and at an affordable price, all while maintaining the highest standards of service.</p>
+            <h4>We are Home Appliance Repair Service Centers</h4>
+            <p>We repair all brands and models of Home appliances including washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. All our repairs are performed by trained technicians.
+              We are experts in appliance repair, and our technicians have successfully handled multiple repairs inculding washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. Whether it is your Washing Machine, Fridge, freezer, Cooker, Dishwasher or Tumble Dryer. We will quickly fix any faults that develop, and all our repair are guaranteed. You can book online at any time.
+            </p>
             <div className="row align-items-center">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="shop-ac-image-wrapper">
@@ -324,6 +209,14 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                     loading="lazy"
                     decoding="async"
                     className="shop-ac-image"
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block',
+                      border: '4px solid #030303',
+                      borderRadius: '8px',
+                      objectFit: 'cover'
+                    }}
                   />
                 </div>
               </div>
@@ -332,11 +225,11 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                 <div className="shop-ac-bullet-list">
                   <div className="shop-ac-bullet-col">
                     <ul>
-                      <li><b>Expert Technicians:</b> Trained on leading different brands and types, including vending machines, espresso machines, coffee machines, and coffee equipment home, office, restaurant and cafe . We provide complete repair and maintenance services for compatible machines.</li>
-                      <li><b>Quick Turnaround:</b> We offer same-day inspections, and most repairs are completed within 48 to 72 hours.</li>
-                      <li><b>Genuine Spare Parts:</b> Using genuine parts in coffee machines, equipment, and vending machines.</li>
-                      <li><b>UAE Coverage:</b> Service is available in Dubai, Abu Dhabi, Sharjah, and throughout all the Emirates.</li>
-                      <li><b>Warranty Support:</b> For machines that are covered by a service warranty.</li>
+                      <li><b>Expert Technicians:</b> Our technicians are trained and experienced in resolving appliance issues across all major brands.</li>
+                      <li><b>Comprehensive Services:</b> We provide a wide range of services for home appliances, from minor fixes to major repair.</li>
+                      <li><b>Warranty Repair:</b> Using genuine parts in coffee machines, equipment, and vending machines.</li>
+                      <li><b>Timely Booking:</b> Our online booking system is available seven days a week, allowing you to schedule repairs at your convenience.</li>
+                      <li><b>Quick Support:</b> We recognise the importance of functional appliances in our daily lives and work hard to deliver prompt and efficient repair services.</li>
                     </ul>
                   </div>
                 </div>
@@ -350,56 +243,40 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
             </div>
           </div>
         </section>
+
         {/* common problem */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="text-center">The Most Common Problems of Coffee Machines   </h2>
-            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-
+            <h2 className="text-center">Common Appliance Repair Issues We Fix</h2>
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center mt-3">
+              <p>At <b>FAJ Technical Services L.L.C</b> we provide expert home appliance repair services for a wide range of issues. If you’re experiencing any of the following problems, our expert technicians are ready to assist you.</p>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Machine Not Turning On </h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Repair </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Issues such as a defective power cord, a faulty switch, or an internal electrical failure may be present.
+                      Drum not rotating
+                      Door locked defect
+                      No power or display error
+                      Unusual noise during operation
+                      Drain blockage & water leakage
+                      No spinning or excessive vibration
                     </p>
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Seals are broken, water reservoirs are cracked, and pipes are blocked.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Poor Coffee Quality</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Possible issues include a clogged filter, an incorrect grind size, or an improper brewing temperature.</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Brewing</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0"> Hard water can lead to a buildup of minerals and clogged filters.
+                    <p className="p-2 mb-0"> Drum not rotating
+                      Not drying clothes properly
+                      Loud noise & excessive vibration
+                      Display error or system malfunction
                     </p>
                   </div>
                 </div>
@@ -408,11 +285,13 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Noisy Operation</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      The pump is worn out, there are issues with the motor, and some components are loose.
+                    <p className="p-2 mb-0">No power
+                      Not cooling properly
+                      Excessive ice formation
+                      Loud compressor noise
                     </p>
                   </div>
                 </div>
@@ -421,11 +300,33 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Inconsistent Temperature</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwasher Repair</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">No water intake
+                      Soap dispenser not working
+                      No steam during wash cycles
+                      White patches left on utensils
+                      Bad odor inside the dishwasher
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washer Dryer Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Possible Causes: A malfunctioning thermostat, burnt-out heating elements, or defective temperature-regulating components.
+                      Drum rotation failure
+                      Display error messages
+                      Clothes not drying properly
+                      Unusual noise & excessive vibration
                     </p>
                   </div>
                 </div>
@@ -434,112 +335,20 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Malfunctions</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Most Likely Causes: Dull blades, motor issues, or a jammed grinder.
+                      No power
+                      Not cooling efficiently
+                      Ice buildup and frost issues
+                      Compressor is making loud noises
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak or Watery Coffee</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Possible causes include an incorrect coffee-to-water ratio, insufficient coffee quantity, and brewing errors.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Machine Shuts Off Mid-Brew</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Possible Causes: Overheating, electrical malfunctions, and faulty sensors.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Display Malfunctions</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Issues identified include a defective control board, wiring problems, and software bugs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Not Heating</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      The heating element is broken, there are issues with the thermostat, and there are electrical faults.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Steam or No Steam</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Issues with the steam wand include malfunctioning, pressure problems, and blocked steam nozzles.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Portafilter Problems</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      The gasket is worn out and not sealing properly, and the filter basket is clogged.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Milk Frothier Issues</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Blocks, a malfunctioning frother motor, and temperature-related issues.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Grounds in Cup</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      The filter is damaged and misaligned, and there are too many grounds in the basket.
-                    </p>
-                  </div>
-                </div>
-              </div>
+             
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -624,4 +433,4 @@ const HomeApplaincesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
   )
 }
 
-export default HomeApplaincesCatg
+export default HomeAppliancesCatg

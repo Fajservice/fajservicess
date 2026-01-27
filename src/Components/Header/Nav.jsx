@@ -65,6 +65,7 @@ const navItems = [
         ]
       },
       {
+        path: '/services/home-appliances/',
         label: 'Home Appliances',
         children: [
           { path: '/hob-repair-service/', label: 'Hob Repair' },

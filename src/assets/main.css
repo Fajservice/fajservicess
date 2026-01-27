@@ -8995,3 +8995,144 @@
     min-height: 280px;
   }
 }
+
+/* Home Appliances Categories */
+
+.appliance-categories-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+}
+
+.appliance-category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 16px 8px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.appliance-category-card:hover {
+  background-color: #f0f4f8;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.appliance-category-card:hover .appliance-category-icon {
+  color: #1a3a4a;
+}
+
+.appliance-category-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 12px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.appliance-category-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.appliance-category-name {
+  font-size: 13px;
+  color: #333;
+  text-align: center;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+/* Large screens - 6 columns */
+@media (max-width: 1200px) {
+  .appliance-categories-grid {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+  }
+}
+
+/* Medium screens - 5 columns */
+@media (max-width: 992px) {
+  .appliance-categories-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+  }
+
+  .appliance-category-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .appliance-category-name {
+    font-size: 12px;
+  }
+}
+
+/* Tablet - 4 columns */
+@media (max-width: 768px) {
+  .appliance-categories-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  .appliance-category-card {
+    padding: 12px 6px;
+  }
+
+  .appliance-category-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+  }
+
+  .appliance-category-name {
+    font-size: 11px;
+  }
+}
+
+/* Small tablet - 3 columns */
+@media (max-width: 576px) {
+  .appliance-categories-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .appliance-category-card {
+    padding: 10px 4px;
+  }
+
+  .appliance-category-icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 6px;
+  }
+
+  .appliance-category-name {
+    font-size: 10px;
+    line-height: 1.3;
+  }
+}
+
+/* Mobile - 2 columns */
+@media (max-width: 400px) {
+  .appliance-categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .appliance-category-card {
+    padding: 12px 8px;
+  }
+
+  .appliance-category-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .appliance-category-name {
+    font-size: 10px;
+  }
+}

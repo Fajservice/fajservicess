@@ -390,3 +390,5 @@ export const Testimonials = withSuspense(React.lazy(() => import("../Pages/Testi
 export const CloudApi = withSuspense(React.lazy(() => import("../Pages/CloudApi")));
 export const AirConditioningCatg = withSuspense(React.lazy(() => import("../Pages/AirConditioning.jsx")));
 export const CoffeeMachine = withSuspense(React.lazy(() => import("../Pages/CoffeeMachine.jsx")));
+export const HomeAppliancesPage = withSuspense(React.lazy(() => import("../Pages/HomeAppliancesPage.jsx")));
+export const KitchenEquipmentPage = withSuspense(React.lazy(() => import("../Pages/KitchenEquipmentPage.jsx")));
