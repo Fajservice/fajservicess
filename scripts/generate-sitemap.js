@@ -1091,7 +1091,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/rheem-ac-maintenance-in-dubai/</loc>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -2091,7 +2091,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
 </url>
 <url>
-    <loc>https://www.fajservices.ae/services/air-conditioning/</loc>
+    <loc>https://www.fajservices.ae/services/air-conditioning-repair/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
 </url>
@@ -2111,12 +2111,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
 </url>
 <url>
-    <loc>https://www.fajservices.ae/services/air-conditioning/ac-service/</loc>
+    <loc>https://www.fajservices.ae/services/air-conditioning-repair/ac-service/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
 </url>
 <url>
-    <loc>https://www.fajservices.ae/services/air-conditioning/ac-annual-maintenance-contract/</loc>
+    <loc>https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
 </url>

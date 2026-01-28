@@ -12,6 +12,7 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -26,7 +27,7 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "Get same day AC repair in JVC. Call 043300002 for central, split air conditioner repair & maintenance. Best AC cleaning service near me Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair jvc, ac service in jvc, ac maintenance in jvc, ac cleaning service in jvc, ac technician in jvc, ac servicing in jvc, ac repair near me, ac service near me, ac maintenance near me, ac cleaning service near me");
-    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning/coverage-area/jvc/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvc/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

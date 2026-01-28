@@ -690,7 +690,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInUmmSuqeim />,
       },
       {
-        path: "/services/air-conditioning-repair/coverage-area/jvc/",
+        path: "/services/air-conditioning-repair/coverage-area/jvt/",
         element: <Components.AcRepairInJvt />,
       },
       {
@@ -1733,7 +1733,11 @@ export const router = createBrowserRouter([
       },
       {
         path:"/rheem-ac-installation-maintenance-repair-fix-service-in-dubai/",
-        element:<Navigate to="/" replace />
+        element:<Navigate to="/services/air-conditioning-repair/brands/rheem/" replace />
+      },
+      {
+        path:"/rheem-ac-maintenance-in-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/rheem/" replace />
       },
       {
         path:"/ac-services-in-jumeirah-village-circle.php",
@@ -1792,6 +1796,10 @@ export const router = createBrowserRouter([
         element:<Navigate to="/" replace />
       },
       {
+        path:"/ac-services-in-jvt/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jvt/" replace />
+      },
+      {
         path:"/ac-services-in-dubai-studio-city.php",
         element:<Navigate to="/" replace />
       },
@@ -1802,6 +1810,10 @@ export const router = createBrowserRouter([
       {
         path:"/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai.php",
         element:<Navigate to="/" replace />
+      },
+      {
+        path:"/lg-ac-repair-in-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/lg/" replace />
       },
       // Blogs Redirect
       {
