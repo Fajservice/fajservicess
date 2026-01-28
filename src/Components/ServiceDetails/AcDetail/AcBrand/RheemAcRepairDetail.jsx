@@ -26,8 +26,8 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metadescription = String(description || "Looking for professional Rheem AC maintenance in Dubai? Since 2010, FAJ has provided expert repair & service. Don’t suffer in the heat—call us now!");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Rheem AC Repair, Rheem Air Conditioner Service, Rheem AC Maintenance Dubai, Rheem AC Repair Dubai, Rheem Air Conditioning Dubai, Rheem AC Service Dubai, Rheem Air Conditioner Repair Dubai, Rheem AC Installation Dubai, Rheem HVAC Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/rheem-ac-maintenance-in-dubai/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning/brands/rheem/");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -79,37 +79,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 575,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
+ 
   return (
     <>
       <HelmetProvider>
