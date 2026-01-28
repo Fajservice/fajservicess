@@ -49,11 +49,11 @@ const navItems = [
     label: 'Services',
     children: [
       {
-        path: '/services/air-conditioning/',
+        path: '/services/air-conditioning-repair/',
         label: 'Air Conditioning',
         children: [
-          { path: '/services/air-conditioning/ac-service/', label: 'AC Service' },
-          { path: '/services/air-conditioning/ac-annual-maintenance-contract/', label: 'AMC (Maintenance Contract)' }
+          { path: '/services/air-conditioning-repair/ac-service/', label: 'AC Service' },
+          { path: '/services/air-conditioning-repair/ac-annual-maintenance-contract/', label: 'AMC (Maintenance Contract)' }
         ]
       },
       {

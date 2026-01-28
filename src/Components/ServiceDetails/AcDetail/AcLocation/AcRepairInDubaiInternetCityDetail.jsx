@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDubaiInternetCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services Dubai Internet City - AC Repair & Cleaning Dubai");
-    const metadescription = String(description || "Get same day ac service in Dubai Internet City and the best FCU, central cooling, ceiling AC repair & maintenance with low cost ac cleaning service");
+    const metatitle = String(titleSeo || "AC Services Dubai Internet City | A/C Repair & Cleaning");
+    const metadescription = String(description || "Get same day ac service in Dubai Internet City and the best FCU, central cooling, ceiling A/C repair & maintenance with low cost ac cleaning service");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in dubai internet city, ac repair in dubai internet city, ac cleaning in dubai internet city, ac maintenance in dubai internet city, ac technician in dubai internet city, ac servicing in dubai internet city, ac installation in dubai internet city");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-dubai-internet-city/");

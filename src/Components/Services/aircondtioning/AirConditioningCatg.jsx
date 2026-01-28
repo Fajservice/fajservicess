@@ -5,13 +5,14 @@ import AcRepairService from "../../Buttons/AcRepairService";
 import AMCbutton from "../../Buttons/AMCbutton";
 import Blog2 from "../../Blog/Blog2";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Serviceappointemnt from "../../Contact/Serviceappointemnt";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
   const metatitle = String(titleSeo || "Top Air Conditioning Maintenance Company in Dubai - Sharjah");
   const metadescription = String(description || "FAJ offers top-quality HVAC, chilled water FCU, central & split air conditioning repair & maintenance, servicing of offices, villas, at best prices in Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
 
@@ -375,6 +376,12 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
             </div>
           </div>
         </section>
+          <section className="section cs_py_30">
+            <Serviceappointemnt
+              subtitle2="Contact us"
+              title2="Book An Appointment"
+            />
+          </section>
       </div>
     </>
   )

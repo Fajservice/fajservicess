@@ -5,7 +5,7 @@ const AcRepairService = () => {
     return (
         <div>
             <Link
-                to="/services/air-conditioning/ac-service/"
+                to="/services/air-conditioning-repair/ac-service/"
                 className="ac-service-btn"
                 aria-label="AC Repair & Services"
             >

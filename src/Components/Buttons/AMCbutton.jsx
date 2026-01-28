@@ -4,7 +4,7 @@ const AMCbutton = () => {
     return (
         <div>
             <Link
-                to="/services/air-conditioning/ac-annual-maintenance-contract/"
+                to="/services/air-conditioning-repair/ac-annual-maintenance-contract/"
                 className="ac-service-btn"
                 aria-label="AC Repair & Services"
             >

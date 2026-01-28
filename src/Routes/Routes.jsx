@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
         element: <Components.FajPriceList />,
       },
       {
-        path: "/services/air-conditioning/ac-service/",
+        path: "/services/air-conditioning-repair/ac-service/",
         element: <Components.AcServiceInDubai />,
       },
       {
@@ -58,7 +58,7 @@ export const router = createBrowserRouter([
         element: <Components.CoffeeMachine />,
       },
       {
-        path: "/services/air-conditioning/",
+        path: "/services/air-conditioning-repair/",
         element: <Components.AirConditioningCatg />,
       },
       {
@@ -78,7 +78,7 @@ export const router = createBrowserRouter([
         element: <Components.AcServiceInDubaiArabic />,
       },
       {
-        path: "/services/air-conditioning/ac-annual-maintenance-contract/",
+        path: "/services/air-conditioning-repair/ac-annual-maintenance-contract/",
         element: <Components.AcAnnualMaintenanceContract />,
       },
       {
@@ -1857,16 +1857,24 @@ export const router = createBrowserRouter([
         element:<Navigate to="/blog/how-to-set-ac-temperature-for-cooling/" replace />
       },
       {
+        path:"/services/air-conditioning/ac-annual-maintenance-contract/",
+        element:<Navigate to="/services/air-conditioning-repair/ac-annual-maintenance-contract/" replace />
+      },
+      {
         path:"/ac-annual-maintenance-contract/",
-        element:<Navigate to="/services/air-conditioning/ac-annual-maintenance-contract/" replace />
+        element:<Navigate to="/services/air-conditioning-repair/ac-annual-maintenance-contract/" replace />
       },
       {
         path:"/ac-repair-dubai/",
-        element:<Navigate to="/services/air-conditioning/ac-service/" replace />
+        element:<Navigate to="/services/air-conditioning-repair/ac-service/" replace />
+      },
+      {
+        path:"/services/air-conditioning/ac-service/",
+        element:<Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
         path:"/ac-service-in-dubai/",
-        element:<Navigate to="/services/air-conditioning/ac-service/" replace />
+        element:<Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
         path:"/blogs/how-to-set-ac-temperature-for-cooling",

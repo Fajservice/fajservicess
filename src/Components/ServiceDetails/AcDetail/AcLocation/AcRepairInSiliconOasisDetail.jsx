@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInSiliconOasisDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Dubai Silicon Oasis - Air Conditioner Fix #1");
-    const metadescription = String(description || "If you urgently need AC Services in Dubai Silicon Oasis, Dail now 043300002 ceiling & central air conditioning maintenance near me Dubai Aircon");
+    const metatitle = String(titleSeo || "Expert AC Services in Dubai Silicon Oasis | Air Conditioner Fixing");
+    const metadescription = String(description || "If you urgently need AC Services in Dubai Silicon Oasis, Dial now 043300002 for ceiling & central air conditioning maintenance near your location.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Dubai Silicon Oasis, Air Conditioning Services in Dubai Silicon Oasis, Air Con Maintenance in  Dubai Silicon Oasis, AC Installation in Dubai Silicon Oasis, AC Technician in Dubai Silicon Oasis");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-silicon-oasis/");
