@@ -266,7 +266,7 @@ export const router = createBrowserRouter([
         element: <Components.BlueStarAcRepair />,
       },
       {
-        path: "/rheem-ac-maintenance-in-dubai/",
+        path: "/services/air-conditioning-repair/brands/rheem/",
         element: <Components.RheemAcRepair />,
       },
       {
@@ -286,7 +286,7 @@ export const router = createBrowserRouter([
         element: <Components.ToshibaAcRepair />,
       },
       {
-        path: "/lg-ac-repair-in-dubai/",
+        path: "/services/air-conditioning-repair/brands/lg/",
         element: <Components.LgAcRepair />,
       },
       {
@@ -690,7 +690,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInUmmSuqeim />,
       },
       {
-        path: "/ac-services-in-jvt/",
+        path: "/services/air-conditioning-repair/coverage-area/jvc/",
         element: <Components.AcRepairInJvt />,
       },
       {
@@ -730,7 +730,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInNadAlHammar />,
       },
       {
-        path: "/ac-services-in-nad-al-hammar/",
+        path: "/ac-services-in-Mudon/",
         element: <Components.AcRepairInMudon />,
       },
       {
@@ -890,7 +890,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInPalmJumeirah />,
       },
       {
-        path: "/ac-services-in-jvc/",
+        path: "/services/air-conditioning-repair/coverage-area/jvc/",
         element: <Components.AcRepairInJvc />,
       },
       {
