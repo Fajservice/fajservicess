@@ -81,10 +81,10 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
+          <meta name="description" content="Best kitchen equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens."></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/services/coffee-machine/" />
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />

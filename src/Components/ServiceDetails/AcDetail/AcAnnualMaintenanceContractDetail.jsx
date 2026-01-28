@@ -400,7 +400,7 @@ const AcAnnualMaintenanceContractDetail = ({
           bgImg={`${CDN}/background-image-2/public`}
           beforeImg={`${CDN}/after_img_1/public`}
           afterTitle="After"
-          afterImg={`${CDN}/after_img_1/public`}
+          afterImg={`${CDN}/before_img_1/public`}
           beforeTitle="Before"
         />
 

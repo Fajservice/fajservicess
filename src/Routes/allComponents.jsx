@@ -392,3 +392,5 @@ export const AirConditioningCatg = withSuspense(React.lazy(() => import("../Page
 export const CoffeeMachine = withSuspense(React.lazy(() => import("../Pages/CoffeeMachine.jsx")));
 export const HomeAppliancesPage = withSuspense(React.lazy(() => import("../Pages/HomeAppliancesPage.jsx")));
 export const KitchenEquipmentPage = withSuspense(React.lazy(() => import("../Pages/KitchenEquipmentPage.jsx")));
+export const RefrigerationEquipmentCatg = withSuspense(React.lazy(() => import("../Pages/RefrigerationEquipmentCategory.jsx")));
+export const CommercialLaundaryEquipmentCatg = withSuspense(React.lazy(() => import("../Pages/CommercialLaundaryEquipmentPage.jsx")));

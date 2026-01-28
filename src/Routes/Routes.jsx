@@ -66,6 +66,14 @@ export const router = createBrowserRouter([
         element: <Components.KitchenEquipmentPage />,
       },
       {
+        path: "/services/refrigeration-equipment/",
+        element: <Components.RefrigerationEquipmentCatg />,
+      },
+      {
+        path: "/services/commercial-laundry-equipment/",
+        element: <Components.CommercialLaundaryEquipmentCatg />,
+      },
+      {
         path: "/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
         element: <Components.AcServiceInDubaiArabic />,
       },
@@ -146,7 +154,7 @@ export const router = createBrowserRouter([
         element: <Components.MeatGrinderRepair />,
       },
       {
-        path: "/commercial-dishwasher-repair/",
+        path: "/services/commercial-dishwasher-repair/",
         element: <Components.CommercialDishwasherServices />,
       },
       {

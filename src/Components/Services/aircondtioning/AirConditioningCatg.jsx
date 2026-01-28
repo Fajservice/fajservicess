@@ -7,12 +7,11 @@ import Blog2 from "../../Blog/Blog2";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
   const metatitle = String(titleSeo || "Top Air Conditioning Maintenance Company in Dubai - Sharjah");
   const metadescription = String(description || "FAJ offers top-quality HVAC, chilled water FCU, central & split air conditioning repair & maintenance, servicing of offices, villas, at best prices in Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "Midea AC Repair, Midea AC Maintenance, Midea Air Conditioner Service, Midea AC Installation, Midea AC Cleaning, Midea AC Service Dubai, Midea Air Conditioning Repair Dubai, Midea Split AC Service Dubai, Midea Central AC Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/midea-ac-installation-maintenance-repair-fix-service-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
 
@@ -76,7 +75,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
           <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/services/coffee-machine/" />
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />

@@ -13,11 +13,11 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL, getImageSrc }) => {
-  const metatitle = String(titleSeo || "Kitchen Equipment Maintenance Service Company in Dubai");
+const CommercialDishwasherCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL, Image }) => {
+  const metatitle = String(titleSeo || "Commercial Dishwasher Maintenance Service Company in Dubai");
   const metadescription = String(description || "Book your home appliance repair today, and FAJ Service Center will arrange for an expert technician to fix your washing machine, fridge or dishwasher.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/commercial-dishwasher-repair/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
   subtitle = "Testimonial"
@@ -56,8 +56,8 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/coffeemachinesserviceFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/CoffeeMAchineReapairTestimonials.json`)
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/DishwasherRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/DishwasherRepairTestimonial.json`)
         ]);
 
         const faqsData = await faqsResponse.json();
@@ -80,20 +80,20 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content="Best kitchen equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens"></meta>
+          <meta name="description" content="Best Commercial Dishwasher maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens"></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/services/coffee-machine/" />
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta property="og:title" content="Commercial Dishwasher Repair Service in Dubai - FAJ Technical Services L.L.C" />
           <meta property="og:url" content={metaURL}></meta>
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
-          <meta name="twitter:description" content="Coffee Machine Repair and Maintenance Services in Dubai" />
+          <meta name="twitter:title" content="Commercial Dishwasher Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta name="twitter:description" content="Commercial Dishwasher Repair and Maintenance Services in Dubai" />
           <meta name="twitter:image" content={metaImage} />
 
         </Helmet>
@@ -101,7 +101,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
       <div className="cs_service_details">
         {/* Technical Services to Keep Your Coffee Flowing */}
-        <section className="section cs_py_30 bg-light-white">
+        {/* <section className="section cs_py_30 bg-light-white">
           <div className="container">
             <h1 className="cs_fs_30 text-center mb-4">Professional Kitchen Equipment Maintenance and Servicing in Dubai
             </h1>
@@ -109,7 +109,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={getImageSrc('reliable-home-appliance')}
+                    src={`${CDN}/reliable-home-appliance/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -143,10 +143,10 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/*Select Repair Services by Category – Easily Find the Right Appliance Repair */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Select Repair Services by Category – Easily Find the Right Appliance Repair</h2>
             <div className="row align-items-center">
@@ -182,10 +182,10 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* why choose */}
-        <section className="section cs_py_30">
+        {/* <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Why Choose FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs</h2>
             <p>When you require home appliance repair, it's essential to choose a reliable service center provider that offers quality repairs, quick service, and appliance technicians. At <b>FAJ Technical Services L.L.C.</b> we ensure that your appliances will be repaired promptly, efficiently, and at an affordable price, all while maintaining the highest standards of service.</p>
@@ -230,10 +230,10 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* common problem */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="text-center">Common Appliance Repair Issues We Fix</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center mt-3">
@@ -301,9 +301,6 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </div>
               </div>
 
-
-
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
@@ -346,7 +343,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             </div>
 
           </div>
-        </section>
+        </section> */}
 
         {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
@@ -421,4 +418,4 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   )
 }
 
-export default KitchenEquipmentCatg
+export default CommercialDishwasherCatg

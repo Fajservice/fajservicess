@@ -1,8 +1,6 @@
 
 import { useEffect, useRef, useState } from 'react';
-import CallNowButton from '../../Buttons/CallNowButton';
 import Testimonial1 from '../../Testimonial/Testimonial1';
-import Blog2 from '../../Blog/Blog2';
 import CoffeeMachineButton from '../../Buttons/CoffeeMachineButton';
 import CommCoffeeMachineButton from '../../Buttons/CommCoffeeMachineButton';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
@@ -85,7 +83,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
           <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/services/coffee-machine/" />
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
