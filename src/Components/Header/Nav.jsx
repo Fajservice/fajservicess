@@ -96,9 +96,9 @@ const navItems = [
       {
         label: 'Refrigeration Equipment',
         children: [
-          { path: '/ice-maker-repair/', label: 'Ice Maker Repair' },
-          { path: '/commercial-refrigeration-maintenance-contact-services/', label: 'Refrigeration AMC Services' },
-          { path: '/commercial-refrigeration-maintenance/', label: 'Commercial Refrigeration Maintenance' }
+          { path: '/services/refrigeration-equipment/ice-maker-repair/', label: 'Ice Maker Repair' },
+          { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/', label: 'Refrigeration AMC Services' },
+          { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance/', label: 'Commercial Refrigeration Maintenance' }
         ]
       },
       { path: '/commercial-dishwasher-repair/', label: 'Commercial Dishwasher' },

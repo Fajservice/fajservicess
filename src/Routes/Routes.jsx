@@ -174,15 +174,15 @@ export const router = createBrowserRouter([
         element: <Components.KitchenEquipmentRepair />,
       },
       {
-        path: "/ice-maker-repair/",
+        path: "/services/refrigeration-equipment/ice-maker-repair/",
         element: <Components.IceMakerRepair />,
       },
       {
-        path: "/commercial-refrigeration-maintenance-contact-services/",
+        path: "/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/",
         element: <Components.RefrigerationAMCServices />,
       },
       {
-        path: "/commercial-refrigeration-maintenance/",
+        path: "/services/refrigeration-equipment/commercial-refrigeration-maintenance/",
         element: <Components.CommercialRefrigerationMaintence />,
       },
       {
@@ -2011,6 +2011,18 @@ export const router = createBrowserRouter([
       {
         path:"/unox-commercial-oven-repair-and-maintenance-service-dubai/",
         element:<Navigate to="/services/kitchen-equipment/unox-commercial-oven-repair-and-maintenance-service-dubai/" replace />
+      },
+      {
+        path:"/ice-maker-repair/",
+        element:<Navigate to="/services/refrigeration-equipment/ice-maker-repair/" replace />
+      },
+      {
+        path:"/commercial-refrigeration-maintenance-contact-services/",
+        element:<Navigate to="/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/" replace />
+      },
+      {
+        path:"/commercial-refrigeration-maintenance/",
+        element:<Navigate to="/services/refrigeration-equipment/commercial-refrigeration-maintenance/" replace />
       },    
     ],
   }

@@ -8,7 +8,13 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import Testimonial1 from "../../Testimonial/Testimonial1";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Unox Commercial Oven Repair & Maintenance Service in Dubai");
@@ -68,7 +74,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/UnoxCommercialOvenRepairServiceFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/UnoxCommercialOvenRepairServiceTestimonials.jsonn`)
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/UnoxCommercialOvenRepairServiceTestimonials.json`)
         ]);
 
         const faqsData = await faqsResponse.json();
@@ -85,71 +91,6 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
 
     fetchData();
   }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
-
   return (
     <>
       <HelmetProvider>
@@ -206,7 +147,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/oven-gallery/rational oven service.avif`} alt="Oven Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('oven-gallery/rational oven service')}  alt="Oven Repair" />
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Unox Ovens Annual Maintenance Contract (AMC) Services</h3>
@@ -226,7 +167,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Oven Repair" />
+                <img className="blue-border" src={getImageSrc('commercial-kitchen-equipment-amc')} alt="Oven Repair" />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -386,10 +327,10 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               <h2 className="cs_fs_30 mb-0">Benefits Of Common Unox Oven Service and Maintenance in Dubai</h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">HEATING EFFICIENCY</h3>
                       <p className="small">We complete a thorough assessment of heating efficiency using a temperature gun.</p>
@@ -397,10 +338,10 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
                       <p className="small">All parts and components of the oven experience thorough testing and disinfection to ensure safety and reliability.</p>
@@ -408,10 +349,10 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
                       <p className="small">We ensure the fan operates correctly and is free of blockages in both the burner and heating element.</p>
@@ -420,10 +361,10 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature meter to verify that the thermostats are functioning properly.</p>
@@ -431,10 +372,10 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/extending.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h3>
                       <p className="small">We ensure optimal airflow around every part of the oven.</p>
@@ -442,10 +383,10 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h3>
                       <p className="small">Our team offers essential feedback on the condition of your Unox oven and any needed repairs.</p>
@@ -470,7 +411,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                     <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3>Reliable, Priority, and Quick</h3>
                     <p>	You can rely on prompt service! Our same-day repairs or next-day visits ensure that your needs are addressed swiftly.</p>
                   </div>
                 </div>
@@ -480,7 +421,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                     <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Confidence</h3>
+                    <h3>Confidence</h3>
                     <p>
                       With an oven annual maintenance contract, you receive a year of service, ensuring smooth operation and peace of mind.
                     </p>
@@ -493,7 +434,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                     <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>Schedule your oven repair in Dubai or Sharjah by choosing a specific day and time. Our technician will arrive within a 3-4 hour window.</p>
                   </div>
                 </div>
@@ -502,7 +443,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -512,7 +453,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                     <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We specialise in oven repair, which is why most major brands rely on us for their service and maintenance needs.</p>
                   </div>
                 </div>
@@ -522,7 +463,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>
                       We are committed to providing customer satisfaction through timely service, quick issue resolution, and competitive pricing.
                     </p>
@@ -533,7 +474,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                     <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
+                    <h3>Trustworthy</h3>
                     <p>Our expert oven technicians are well-trained, providing <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a> for various major oven brands.</p>
                   </div>
                 </div>
@@ -541,7 +482,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
