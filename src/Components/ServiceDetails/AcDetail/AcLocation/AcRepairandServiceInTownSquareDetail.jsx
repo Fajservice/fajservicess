@@ -20,13 +20,12 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "AC Repair and Service in Town Square - Gree AC Maintenance");
     const metadescription = String(description || "Get same day AC repair and service in Town Square Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaKeyword = String(Keyword || "AC Repair in Town Square, AC Service in Town Square, AC Maintenance in Town Square");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-town-square/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 

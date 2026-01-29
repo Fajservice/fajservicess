@@ -526,7 +526,15 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairinTheMeadows />,
       },
       {
-        path: "/ac-services-in-academy-city/",
+        path: "/services/air-conditioning-repair/coverage-area/",
+        element: <Components.AcRepairinTheMeadows />,
+      },
+      {
+        path: "/services/air-conditioning-repair/brands/",
+        element: <Components.AcRepairinTheMeadows />,
+      },
+      {
+        path: "/services/air-conditioning-repair/coverage-area/academy-city/",
         element: <Components.AcRepairInAcademyCity />,
       },
       {
@@ -914,15 +922,15 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInProductionCity />,
       },
       {
-        path: "/ac-repair-and-ac-service-in-emirates-hills/",
+        path: "/services/air-conditioning-repair/coverage-area/emirates-hills/",
         element: <Components.AcRepairandServiceInEmiratesHills />,
       },
       {
-        path: "/ac-repair-and-ac-service-in-town-square/",
-        element: <Components.AcRepairandServiceInTownSquare />,
+        path: "/services/air-conditioning-repair/coverage-area/town-square/",
+        element: <Components.AcRepairandServiceInTownSquare />, 
       },
       {
-        path: "/ac-services-in-old-town-dubai/",
+        path: "/services/air-conditioning-repair/coverage-area/old-town-dubai/",
         element: <Components.AcRepairInOldTown />,
       },
       {
