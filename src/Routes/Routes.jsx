@@ -527,7 +527,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/services/air-conditioning-repair/coverage-area/",
-        element: <Components.CoverageArea />,
+        element: <Components.CoverageAreaPage />,
       },
       {
         path: "/services/air-conditioning-repair/brands/",

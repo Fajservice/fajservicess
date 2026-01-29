@@ -24,12 +24,11 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
   // For SEO
   const metatitle = titleSeo?.trim()
-        ? titleSeo
-        : "AC Services In Al Mirdif - Inverter AC Repairs Near Me #1";
+    ? titleSeo
+    : "AC Services In Al Mirdif - Inverter AC Repairs Near Me #1";
   const metadescription = String(description || "FAJ Provides Inverter AC Services in Al Mirdif, Our Technicians are Experts in HVAC Air Condition Maintenance & Repair near me Dubai AC Fixing.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "AC Repair in Al Mirdif, Air Conditioning Service in Al Mirdif, Air Con Maintenance & AC Installation in Al Mirdif");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-mirdif/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-mirdif/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
   subtitle = "Testimonial"
@@ -40,83 +39,52 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
   // State for fetched data
-          const [data, setData] = useState([]);
-          const [testimonial_data, setTestimonialData] = useState([]);
-          const [isLoading, setIsLoading] = useState(true);
-      
-          const handleItemClick = index => {
-              if (index === openItemIndex) {
-                  setOpenItemIndex(-1);
-              } else {
-                  setOpenItemIndex(index);
-              }
-          };
-          useEffect(() => {
-              if (firstItemOpen) {
-                  setOpenItemIndex(0);
-                  setFirstItemOpen(false);
-              }
-          }, [firstItemOpen]);
-      
-          useEffect(() => {
-              loadBackgroudImages();
-          }, []);
-      
-          // Fetch JSON data
-          useEffect(() => {
-              const fetchData = async () => {
-                  try {
-                      const [faqsResponse, testimonialsResponse] = await Promise.all([
-                          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlMirdif.json`),
-                          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
-                      ]);
-      
-                      const faqsData = await faqsResponse.json();
-                      const testimonialsData = await testimonialsResponse.json();
-      
-                      setData(faqsData);
-                      setTestimonialData(testimonialsData);
-                  } catch (error) {
-                      console.error('Error fetching data:', error);
-                  } finally {
-                      setIsLoading(false);
-                  }
-              };
-      
-              fetchData();
-          }, []);
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
   };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlMirdif.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <>
       <HelmetProvider>
@@ -138,7 +106,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

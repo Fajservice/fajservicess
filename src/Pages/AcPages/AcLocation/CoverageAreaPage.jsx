@@ -1,8 +1,12 @@
-import React from 'react'
+import Breadcrumb from "../../../Components/Common/BreadCumb"
+import CoverageArea from "../../../Components/ServiceDetails/AcDetail/AcLocation/CoverageArea"
 
 const CoverageAreaPage = () => {
   return (
-    <div>CoverageAreaPage</div>
+   <div className="serviceDetails">
+      <Breadcrumb />
+      <CoverageArea />
+    </div>
   )
 }
 

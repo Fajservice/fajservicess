@@ -27,7 +27,7 @@ const AcRepairInAlaweerDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metadescription = String(description || "Book An AC Service in Al Aweer. We are here to assist you in ceiling & split, HVAC air conditioner maintenance nearby & repair cc Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Aweer, AC Repair in Al Aweer, Central AC Service in Al Aweer, Split AC Service in Al Aweer, HVAC Air Conditioner Maintenance in Al Aweer");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-aweer/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/alaweer/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
     subtitle = "Testimonial"

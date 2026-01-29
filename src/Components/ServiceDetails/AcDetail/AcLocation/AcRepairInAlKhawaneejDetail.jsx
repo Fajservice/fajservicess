@@ -28,7 +28,7 @@ const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Service in Al Khawaneej, AC Repair in Al Khawaneej, AC Maintenance in Al Khawaneej, Inverter AC Service in Al Khawaneej, Split AC Service in Al Khawaneej/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-khawaneej/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-khawaneej/");
 
 
   subtitle = "Testimonial"

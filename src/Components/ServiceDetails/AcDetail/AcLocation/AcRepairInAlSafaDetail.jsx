@@ -27,7 +27,7 @@ const AcRepairInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
     const metadescription = String(description || "Best AC Maintenance in Sharjah and AC Services in Al Safa. We are experts in central & split AC (Air Condition) repair service near me location");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Safa, AC Repair in Al Safa, AC Maintenance in Al Safa, Air Conditioning Service in Al Safa, Air Conditioning Repair in Al Safa, Air Conditioning Maintenance in Al Safa, Split AC Service in Al Safa, Central AC Service in Al Safa");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-safa/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-safa/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
