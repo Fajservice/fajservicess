@@ -393,4 +393,5 @@ export const CoffeeMachine = withSuspense(React.lazy(() => import("../Pages/Coff
 export const HomeAppliancesPage = withSuspense(React.lazy(() => import("../Pages/HomeAppliancesPage.jsx")));
 export const KitchenEquipmentPage = withSuspense(React.lazy(() => import("../Pages/KitchenEquipmentPage.jsx")));
 export const RefrigerationEquipmentCatg = withSuspense(React.lazy(() => import("../Pages/RefrigerationEquipmentCategory.jsx")));
-export const CommercialLaundaryEquipmentCatg = withSuspense(React.lazy(() => import("../Pages/CommercialLaundaryEquipmentPage.jsx")));
+export const CoverageArea = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/CoverageAreaPage.jsx")));
+export const Brands = withSuspense(React.lazy(() => import("../Pages/AcPages/AcBrand/BrandsPage.jsx")));

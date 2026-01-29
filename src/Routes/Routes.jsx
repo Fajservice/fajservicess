@@ -527,11 +527,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/services/air-conditioning-repair/coverage-area/",
-        element: <Components.AcRepairinTheMeadows />,
+        element: <Components.CoverageArea />,
       },
       {
         path: "/services/air-conditioning-repair/brands/",
-        element: <Components.AcRepairinTheMeadows />,
+        element: <Components.Brands />,
       },
       {
         path: "/services/air-conditioning-repair/coverage-area/academy-city/",
