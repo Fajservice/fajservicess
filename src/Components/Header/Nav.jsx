@@ -101,7 +101,7 @@ const navItems = [
           { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance/', label: 'Commercial Refrigeration Maintenance' }
         ]
       },
-      { path: '/commercial-dishwasher-repair/', label: 'Commercial Dishwasher' },
+      { path: '/services/commercial-dishwasher-repair/', label: 'Commercial Dishwasher' },
       {
         label: 'Commercial Laundry Equipment',
         children: [
