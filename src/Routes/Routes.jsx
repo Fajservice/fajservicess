@@ -531,7 +531,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/services/air-conditioning-repair/brands/",
-        element: <Components.Brands />,
+        element: <Components.BrandsPage />,
       },
       {
         path: "/services/air-conditioning-repair/coverage-area/academy-city/",
