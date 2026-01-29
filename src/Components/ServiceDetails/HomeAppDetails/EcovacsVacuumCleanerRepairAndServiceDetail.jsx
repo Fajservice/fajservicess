@@ -23,7 +23,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
   const metadescription = String(description || "Ecovacs vacuum cleaner repair and service center in Dubai. Call FAJ 043300002 for vacuum cleaner repair near me, fix, servicing & maintenance.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ecovacs vacuum cleaner repair in Dubai, Ecovacs vacuum cleaner service center in Dubai, Ecovacs vacuum cleaner repair near me, fix Ecovacs vacuum cleaner, Ecovacs vacuum cleaner servicing, Ecovacs vacuum cleaner maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/inspection-robot-vacuum-cleaner/public";
 
   subtitle = "Testimonial"

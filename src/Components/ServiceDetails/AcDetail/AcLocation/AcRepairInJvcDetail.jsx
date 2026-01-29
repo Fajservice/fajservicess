@@ -24,9 +24,9 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
 
     // For SEO
     const metatitle = String(titleSeo || "AC Repair JVC Near Me Cost - AC Services in JVC Dubai #1");
-    const metadescription = String(description || "Get same day AC repair in JVC. Call 043300002 for central, split air conditioner repair & maintenance. Best AC cleaning service near me Dubai");
+    const metadescription = String(description || "Get same day AC repair in Jumeirah Village Circle. Call 043300002 for central, split air conditioner repair & maintenance. Best AC cleaning service near me Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaKeyword = String(Keyword || "ac repair jvc, ac service in jvc, ac maintenance in jvc, ac cleaning service in jvc, ac technician in jvc, ac servicing in jvc, ac repair near me, ac service near me, ac maintenance near me, ac cleaning service near me");
+    const metaKeyword = String(Keyword || "AC Repair JVC, AC Services Jumeirah Village Circle, AC Maintenance JVC, AC Cleaning Service JVC, Air Conditioner Repair JVC, Central AC Repair JVC, Split AC Repair JVC, Best AC Repair Near Me JVC, AC Technician JVC, Emergency AC Repair JVC");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvc/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
@@ -115,7 +115,6 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                         <h1 className="cs_fs_30">AC Service in JVC</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me JVC, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
-
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
                                 <WhatsappIconButton />
@@ -130,9 +129,8 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Best AC Repair in JVC</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in JVC, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
-
+                                <h2 className="cs_fs_24 mb-1">Best AC Repair in Jumeirah Village Circle</h2>
+                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Jumeirah Village Circle, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in JVC Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>

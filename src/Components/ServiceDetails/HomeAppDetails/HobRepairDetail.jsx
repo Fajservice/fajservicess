@@ -24,7 +24,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "Having issues with your hob repair in Dubai? Book with us for gas or electric Induction stove, cooking range centre near me with a warranty of parts.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Electric Hob Repair, Gas Hob Repair, Gas Hob Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances/hob-repair-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/hob-repair-service/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/Hob-Repair-Service-in-Dubai-UAE.avif");
 
   subtitle = "Testimonial"

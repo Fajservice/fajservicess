@@ -113,7 +113,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
   );
 
   const metaURL = String(
-    URL || "https://www.fajservices.ae/services/home-appliances/washing-machine-repair-service-dubai/"
+    URL || "https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/"
   );
 
   const metaImage = String(
