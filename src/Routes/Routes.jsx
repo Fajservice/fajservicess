@@ -62,7 +62,7 @@ export const router = createBrowserRouter([
         element: <Components.AirConditioningCatg />,
       },
       {
-        path: "/services/kitchen-equipment/",
+        path: "/services/air-conditioning-repair/kitchen-equipment/",
         element: <Components.KitchenEquipmentPage />,
       },
       {
