@@ -65,22 +65,22 @@ const navItems = [
         ]
       },
       {
-        path: '/services/home-appliances/',
+        path: '/services/home-appliances-repair/',
         label: 'Home Appliances',
         children: [
-          { path: '/services/home-appliances/hob-repair-service/', label: 'Hob Repair' },
-          { path: '/services/home-appliances/oven-repair-service/', label: 'Oven Repair' },
-          { path: '/services/home-appliances/gas-cooker-repair-service/', label: 'Gas Range Repair' },
-          { path: '/services/home-appliances/dishwasher-repair-service/', label: 'Dishwasher Repair' },
-          { path: '/services/home-appliances/refrigerator-repair-service/', label: 'Refrigerator Repair' },
-          { path: '/services/home-appliances/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/', label: 'BBQ Repair Service' },
-          { path: '/services/home-appliances/cigar-humidor-repair/', label: 'Cigar Humidor Repair' },
-          { path: '/services/home-appliances/robot-vacuum-cleaner-repair/', label: 'Vacuum Cleaner Repair' },
-          { path: '/services/home-appliances/small-home-appliances-service-center-in-dubai/', label: 'Small Appliances Repair' },
-          { path: '/services/home-appliances/washing-machine-repair-service-dubai/', label: 'Washing Machine Repair' },
-          { path: '/services/home-appliances/built-in-appliances-repair-service/', label: 'Integrated Appliance Repair' },
-          { path: '/services/home-appliances/appliances-repair-service/', label: 'Free Standing Appliance Repair' },
-          { path: '/services/home-appliances/appliances-amc-service/', label: 'Appliances Maintenance Contract' }
+          { path: '/services/home-appliances-repair/hob-repair-service/', label: 'Hob Repair' },
+          { path: '/services/home-appliances-repair/oven-repair-service/', label: 'Oven Repair' },
+          { path: '/services/home-appliances-repair/gas-cooker-repair-service/', label: 'Gas Range Repair' },
+          { path: '/services/home-appliances-repair/dishwasher-repair-service/', label: 'Dishwasher Repair' },
+          { path: '/services/home-appliances-repair/refrigerator-repair-service/', label: 'Refrigerator Repair' },
+          { path: '/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/', label: 'BBQ Repair Service' },
+          { path: '/services/home-appliances-repair/cigar-humidor-repair/', label: 'Cigar Humidor Repair' },
+          { path: '/services/home-appliances-repair/robot-vacuum-cleaner-repair/', label: 'Vacuum Cleaner Repair' },
+          { path: '/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/', label: 'Small Appliances Repair' },
+          { path: '/services/home-appliances-repair/washing-machine-repair-service-dubai/', label: 'Washing Machine Repair' },
+          { path: '/services/home-appliances-repair/built-in-appliances-repair-service/', label: 'Integrated Appliance Repair' },
+          { path: '/services/home-appliances-repair/appliances-repair-service/', label: 'Free Standing Appliance Repair' },
+          { path: '/services/home-appliances-repair/appliances-amc-service/', label: 'Appliances Maintenance Contract' }
         ]
       },
       {

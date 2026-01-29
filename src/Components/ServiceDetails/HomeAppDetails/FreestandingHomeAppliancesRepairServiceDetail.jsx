@@ -24,7 +24,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
   const metadescription = String(description || "Best appliances repair service in Dubai. Get an expert in refrigerator, fridge, washing machine, dryer, dishwasher, oven maintenance & repair near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Appliances Repair Dubai, Appliance Service Dubai, Appliance Repair Near Me, Home Appliances Repair Dubai, Washing Machine Repair Dubai, Refrigerator Repair Dubai, Dishwasher Repair Dubai, Oven Repair Dubai, Dryer Repair Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances/appliances-repair-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
 
 

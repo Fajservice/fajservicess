@@ -25,7 +25,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metadescription = String(description || "Best small home appliances service center in Dubai. FAJ Experts in mixer, microwave, air fryer, iron box, grinder, garment steamer repair shop near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "mixer repair, steam iron repair, toaster repair, microwave oven repair, air fryer repair, water dispenser repair, small home appliances service, household appliance repair near me");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances/small-home-appliances-service-center-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/");
   const metaImage = Image || getImageSrc('small-mixer-service');
 
   subtitle = "Testimonial"

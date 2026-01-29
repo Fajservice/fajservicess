@@ -27,7 +27,7 @@ const Breadcrumb = () => {
 
     let currentPath = '';
     pathnames.forEach((segment) => {
-      currentPath += `/${segment}`;
+      currentPath += `/${segment}/`;
       breadcrumbs.push({
         label: formatLabel(segment),
         path: currentPath
