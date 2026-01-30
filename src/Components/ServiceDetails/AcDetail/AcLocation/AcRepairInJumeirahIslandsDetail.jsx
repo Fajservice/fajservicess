@@ -30,7 +30,7 @@ const AcRepairInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metadescription = String(description || "Call FAJ 043300002. If you are looking for best ac services in jumeirah islands dubai and centralized fcu air conditioning system repairing nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Jumeirah Islands, Air Conditioning Service in Jumeirah Islands, Air Con Maintenance & AC Installation in Jumeirah Islands");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-jumeirah-islands/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-islands/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

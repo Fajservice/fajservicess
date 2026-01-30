@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
   :root {
     --white-color: #fff;
     --black-color: #000000;
@@ -16,7 +16,7 @@
     --bg-light-gray: #dddddd63;
     --bg-dark-blue: #00334e;
     --sky-blue-font: #76DCEB;
-    --heading-font: 'Archivo', sans-serif;
+    --heading-font: "Archivo", sans-serif;
     --body-font: "Archivo", sans-serif;
   }
   *, :after, :before {
@@ -41,15 +41,15 @@
     box-sizing: border-box;
   }
 
-
-  h2 {
-    color: var(--heading-color);
-    padding: 0;
-    margin: 0 0 20px 0;
-    line-height: 1.2em;
-    font-family: var(--heading-font);
-    text-transform: uppercase;
-  }
+  /* 
+    h2 {
+      color: var(--heading-color);
+      padding: 0;
+      margin: 0 0 20px 0;
+      line-height: 1.2em;
+      font-family: var(--heading-font);
+      text-transform: uppercase;
+    } */
 
   .client_name {
     font-family: var(--heading-font);
@@ -62,42 +62,7 @@
   .cs_service_details h5,
   .cs_service_details h6 {
     text-align: center;
-  }
-
-  .cs_heading_font {
     font-family: var(--heading-font);
-  }
-
-  .cs_body_font {
-    font-family: var(--body-font);
-  }
-
-  h1 {
-    font-size: 56px;
-  }
-
-  h2 {
-    font-size: 42px;
-  }
-
-  h3 {
-    font-size: 30px;
-  }
-
-  h4 {
-    font-size: 24px;
-  }
-
-  h5 {
-    font-size: 18px;
-  }
-
-  h6 {
-    font-size: 16px;
-  }
-
-  p {
-    margin-bottom: 15px;
   }
 
   ul {
@@ -1713,7 +1678,7 @@
   }
 
   .cs_fs_24 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.417em;
   }
 
@@ -1739,11 +1704,13 @@
   .cs_fs_30 {
     font-size: 30px;
     line-height: 1.333em;
+    font-family: var(--heading-font);
   }
 
   @media (max-width: 991px) {
     .cs_fs_30 {
       font-size: 26px;
+      font-family: var(--heading-font);
     }
   }
 
@@ -7044,14 +7011,12 @@
 
 
   .cs_service_details img.bordered-img {
-    /* margin-bottom: 36px; */
     width: 80%;
     border: 4px solid #00334e;
     border-radius: 15px;
   }
 
   .bordered-img {
-    /* margin-bottom: 36px; */
     border: 4px solid #00334e;
     border-radius: 15px;
   }
@@ -7063,15 +7028,10 @@
     width: 100%;
   }
 
-
-  .cs_service_details h2 {
-    font-size: 26px;
-    margin-bottom: 16px;
-  }
-
   .cs_service_details p {
     margin-bottom: 16px;
     margin-top: 0px;
+    font-family: var(--body-font);
   }
 
   /*--------------------------------------------------------------

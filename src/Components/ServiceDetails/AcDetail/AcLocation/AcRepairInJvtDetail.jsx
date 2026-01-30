@@ -27,7 +27,7 @@ const AcRepairInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "T:043300002 for AC Services in JVT Dubai. We are experts in carrier, york central & split AC (Air Conditioner) maintenance & repairs near me Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in jvt, ac repair in jvt, ac maintenance in jvt, ac cleaning in jvt, ac installation in jvt, ac technician in jvt, ac service near me, ac repair near me, ac maintenance near me, ac cleaning near me, ac installation near me");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jvt/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvt/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

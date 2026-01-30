@@ -28,7 +28,7 @@ const AcRepairInJebelAliIndustrialAreaDetail = ({ subtitle, title, reviewsbg, ti
     const metadescription = String(description || "Call 043300002 for AC Services in Jebel Ali Industrial Area Dubai. Central, split HVAC air conditioning maintenance and ac fix servicing Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning service near me, air conditioning repair near me, air conditioning maintenance near me");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-industrial-area/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-industrial-area/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

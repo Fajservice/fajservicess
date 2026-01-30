@@ -27,7 +27,7 @@ const AcRepairInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metadescription = String(description || "If you are looking for Trane or Chiller FCU AC Services in Palm Jumeirah, Call FAJ 043300002 for Air Conditioner Maintenance & Service in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Palm Jumeirah, AC Repair in Palm Jumeirah, AC Maintenance in Palm Jumeirah, Central Cooling System in Palm Jumeirah, Trane AC Service in Palm Jumeirah, Chiller FCU AC Service in Palm Jumeirah");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-palm-jumeirah/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/palm-jumeirah/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

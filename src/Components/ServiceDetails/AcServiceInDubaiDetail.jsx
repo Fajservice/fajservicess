@@ -386,44 +386,44 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
          <section className="section cs_py_30 bg-light-blue-section">
   <div className="container">
-    <h2 className="cs_fs_30">How to use FAJ AC Service and AC Repair in Dubai?</h2>
-    <p>Looking for reliable air conditioning services in Dubai? FAJ Technical Services L.L.C offers top AC repair and cleaning right at your doorstep. Our expert team is dedicated to ensuring your comfort with superior service.</p>
+    <h2 className="cs_fs_28">How to use FAJ AC Service and AC Repair in Dubai?</h2>
+    <p className="cs-fs_14">Looking for reliable air conditioning services in Dubai? FAJ Technical Services L.L.C offers top AC repair and cleaning right at your doorstep. Our expert team is dedicated to ensuring your comfort with superior service.</p>
     
     <div className="service-cards-grid">
       <div className="service-card-item">
         <h3>AC Repair in Dubai for Improved Performance:</h3>
-        <p>Is your AC not cooling as well as before? Our skilled AC technicians can diagnose the issue and fix its efficiency.</p>
+        <p className="cs_fs_14">Is your AC not cooling as well as before? Our skilled AC technicians can diagnose the issue and fix its efficiency.</p>
       </div>
       
       <div className="service-card-item">
         <h3>Assistance with New AC Installation:</h3>
-        <p>Upgrading to a new AC unit? Let our experts handle everything, from selection to installation and testing. We've got you covered!</p>
+        <p className="cs_fs_14">Upgrading to a new AC unit? Let our experts handle everything, from selection to installation and testing. We've got you covered!</p>
       </div>
       
       <div className="service-card-item">
         <h3>Regular AC Cleaning for Maximum Efficiency:</h3>
-        <p>For optimal performance, it's important to keep your AC clean. We offer AC duct cleaning and filter for fresh, healthy air circulation.</p>
+        <p className="cs_fs_14">For optimal performance, it's important to keep your AC clean. We offer AC duct cleaning and filter for fresh, healthy air circulation.</p>
       </div>
       
       <div className="service-card-item">
         <h3>Emergency AC Repair:</h3>
-        <p>Got unexpected AC breakdowns? Our 7-day emergency AC repair services are here to provide immediate assistance.</p>
+        <p className="cs_fs_14">Got unexpected AC breakdowns? Our 7-day emergency AC repair services are here to provide immediate assistance.</p>
       </div>
       
       <div className="service-card-item">
         <h3>Essential AC Maintenance Service in Dubai:</h3>
-        <p>Regular AC maintenance is essential. Our services help prepare your AC for the summer heat and the winter cold.</p>
+        <p className="cs_fs_14">Regular AC maintenance is essential. Our services help prepare your AC for the summer heat and the winter cold.</p>
       </div>
       
       <div className="service-card-item">
         <h3>AC Service Available Near Me Before Summer:</h3>
-        <p>Beat the summer heat! Schedule your pre-summer AC tune up with us to keep your system running smoothly and ensure your comfort during the hottest months.</p>
+        <p className="cs_fs_14">Beat the summer heat! Schedule your pre-summer AC tune up with us to keep your system running smoothly and ensure your comfort during the hottest months.</p>
       </div>
     </div>
     
     <div className="service-footer-text">
-      <h3>Schedule your FAJ AC Cleaning, AC Repair & Maintenance Services today!</h3>
-      <p>For reliable AC service and repair in Dubai, trust FAJ. Our skilled technicians provide the best service every time. Book now via call, email, WhatsApp chat, or our website and experience the difference!</p>
+      <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair & Maintenance Services today!</h3>
+      <p className="cs_fs_14">For reliable AC service and repair in Dubai, trust FAJ. Our skilled technicians provide the best service every time. Book now via call, email, WhatsApp chat, or our website and experience the difference!</p>
     </div>
   </div>
   
@@ -445,15 +445,13 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
     }
     
     .service-card-item h3 {
-      font-size: 16px;
+      font-size: 22px;
       font-weight: 600;
       color: #000;
       margin: 0 0 8px 0;
     }
     
     .service-card-item p {
-      font-size: 14px;
-      color: #333;
       margin: 0;
       line-height: 1.5;
     }
@@ -463,15 +461,10 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
     }
     
     .service-footer-text h3 {
-      font-size: 16px;
-      font-weight: 600;
-      color: #000;
       margin: 0 0 8px 0;
     }
     
     .service-footer-text p {
-      font-size: 14px;
-      color: #333;
       margin: 0;
       line-height: 1.5;
     }
@@ -486,15 +479,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         padding: 14px 16px;
       }
       
-      .service-card-item h3,
-      .service-footer-text h3 {
-        font-size: 15px;
-      }
-      
-      .service-card-item p,
-      .service-footer-text p {
-        font-size: 13px;
-      }
     }
   `}</style>
 </section>
@@ -703,7 +687,7 @@ const ACBrandsSection = memo(() => (
         <b>We provide 2-month service warranty</b><br />
         and <small>3-month parts warranty</small> as standard.
       </p>
-      <h3>We specialise in air conditioning services for the following brands</h3>
+      <h3 className="cs_fs_24">We specialise in air conditioning services for the following brands</h3>
 
       <ul className="mb-3">
         <li><a href="https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><strong>Daikin Air Conditioning Services</strong></a><strong>:</strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong international presence through its focus on quality, innovation, and effective communication. We work with Daikin air conditioning products because the company continuously invests in research and development.</li>

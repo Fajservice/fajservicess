@@ -27,7 +27,7 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, reviewsbg, titl
     const metadescription = String(description || "AC Services in Dubailand Mazaya Queue. We are experts in York central air conditioner repair & maintenance near me Dubai AC fix Call 043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "Ac Services In Dubailand Mazaya Queue, AC Repair in Dubailand Mazaya Queue, AC Maintenance in Dubailand Mazaya Queue, York central air conditioner repair, AC fix near me Dubai, AC service near me Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubailand-mazaya-queue/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubailand-mazaya-queue/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

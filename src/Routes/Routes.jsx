@@ -71,7 +71,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/services/commercial-laundry-equipment/",
-        element: <Components.CommercialLaundaryEquipmentCatg />,
+        element: <Components.CommercialLaundaryEquipmentPage />,
       },
       {
         path: "/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
@@ -490,39 +490,39 @@ export const router = createBrowserRouter([
         element: <Components.DubaiAcServicePriceList />,
       },
       {
-        path: "/ac-services-in-the-ritz-carlton-difc/",
+        path: "/services/air-conditioning-repair/coverage-area/the-ritz-carlton-difc/",
         element: <Components.AcRepairInRitz />,
       },
       {
-        path: "/ac-services-in-dubai-silicon-oasis/",
+        path: "/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/",
         element: <Components.AcRepairInSiliconOasis />,
       },
       {
-        path: "/ac-services-in-metha/",
+        path: "/services/air-conditioning-repair/coverage-area/metha/",
         element: <Components.AcRepairInMetha />,
       },
       {
-        path: "/ac-services-in-jumeirah-village/",
+        path: "/services/air-conditioning-repair/coverage-area/jumeirah-village/",
         element: <Components.AcRepairInJumeirahVillage />,
       },
       {
-        path: "/ac-services-in-jebel-ali-free-zone/",
+        path: "/services/air-conditioning-repair/coverage-area/jebel-ali-free-zone/",
         element: <Components.AcRepairInJebelAliFreeZone />,
       },
       {
-        path: "/ac-services-in-umm-al-sheif/",
+        path: "/services/air-conditioning-repair/coverage-area/umm-al-sheif/",
         element: <Components.AcRepairInUmmAlSheif />,
       },
       {
-        path: "/ac-services-in-the-greens/",
+        path: "/services/air-conditioning-repair/coverage-area/the-greens/",
         element: <Components.AcRepairinTheGreens />,
       },
       {
-        path: "/ac-services-in-al-jafiliya/",
+        path: "/services/air-conditioning-repair/coverage-area/al-jafiliya/",
         element: <Components.AcRepairinAlJafiliya />,
       },
       {
-        path: "/ac-services-in-the-meadows/",
+        path: "/services/air-conditioning-repair/coverage-area/the-meadows/",
         element: <Components.AcRepairinTheMeadows />,
       },
       {
@@ -538,23 +538,23 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAcademyCity />,
       },
       {
-        path: "/ac-services-in-limestone-house-difc/",
+        path: "/services/air-conditioning-repair/coverage-area/limestone-house-difc/",
         element: <Components.AcRepairInLimestoneHouseDifc />,
       },
       {
-        path: "/ac-services-in-jumeirah-village-triangle/",
+        path: "/services/air-conditioning-repair/coverage-area/jvt/",
         element: <Components.AcRepairInJumeriahVillageTriangle />,
       },
       {
-        path: "/ac-services-in-arabian-ranches-2/",
+        path: "/services/air-conditioning-repair/coverage-area/arabian-ranches-2/",
         element: <Components.AcRepairInArabianRanches2 />,
       },
       {
-        path: "/ac-services-in-dubai-studio-city/",
+        path: "/services/air-conditioning-repair/coverage-area/dubai-studio-city/",
         element: <Components.AcRepairInDubaiStudioCity />,
       },
       {
-        path: "/ac-services-jumeirah-islands/",
+        path: "/services/air-conditioning-repair/coverage-area/jumeirah-islands/",
         element: <Components.AcRepairInJumeirahIslands />,
       },
       {
@@ -562,7 +562,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAlQusais />,
       },
       {
-        path: "/ac-services-in-the-springs/",
+        path: "/services/air-conditioning-repair/coverage-area/the-springs/",
         element: <Components.AcRepairInTheSprings />,
       },
       {
@@ -570,7 +570,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAlMirdif />,
       },
       {
-        path: "/ac-services-in-international-media-and-production-zone/",
+        path: "/services/air-conditioning-repair/coverage-area/international-media-and-production-zone/",
         element: <Components.AcRepairInInternationalMediaAndProductionZone />,
       },
       {
@@ -582,23 +582,23 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInArabianRanches />,
       },
       {
-        path: "/ac-services-in-dip/",
+        path: "/services/air-conditioning-repair/coverage-area/dip/",
         element: <Components.AcRepairInDip />,
       },
       {
-        path: "/ac-services-in-discovery-gardens/",
+        path: "/services/air-conditioning-repair/coverage-area/discovery-gardens/",
         element: <Components.AcRepairInDiscoveryGardens />,
       },
       {
-        path: "/ac-services-in-al-waha-community/",
+        path: "/services/air-conditioning-repair/coverage-area/al-waha-community/",
         element: <Components.AcRepairInAlWahaCommunity />,
       },
       {
-        path: "/ac-services-in-hudaiba/",
+        path: "/services/air-conditioning-repair/coverage-area/hudaiba/",
         element: <Components.AcRepairInHudaiba />,
       },
       {
-        path: "/ac-services-in-impz/",
+        path: "/services/air-conditioning-repair/coverage-area/impz/",
         element: <Components.AcRepairInImpz />,
       },
       {
@@ -618,15 +618,15 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAlManara />,
       },
       {
-        path: "/ac-services-in-jumeirah-golf-estates/",
+        path: "/services/air-conditioning-repair/coverage-area/jumeirah-golf-estates/",
         element: <Components.AcRepairInJumeirahGolfEstates />,
       },
       {
-        path: "/ac-services-in-layan-community/",
+        path: "/services/air-conditioning-repair/coverage-area/layan-community/",
         element: <Components.AcRepairInLayanCommunity />,
       },
       {
-        path: "/ac-services-in-al-badaa/",
+        path: "/services/air-conditioning-repair/coverage-area/al-badaa/",
         element: <Components.AcRepairInAlBadaa />,
       },
       {
@@ -634,27 +634,27 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInDubaiInternetCity />,
       },
       {
-        path: "/ac-services-in-jumeirah-lake-towers/",
+        path: "/services/air-conditioning-repair/coverage-area/jumeirah-lake-towers/",
         element: <Components.AcRepairInJumeirahLakeTowers />,
       },
       {
-        path: "/ac-services-in-al-tawar/",
+        path: "/services/air-conditioning-repair/coverage-area/al-tawar/",
         element: <Components.AcRepairinAlTawar />,
       },
       {
-        path: "/ac-services-in-al-barsha-south/",
+        path: "/services/air-conditioning-repair/coverage-area/al-barsha-south/",
         element: <Components.AcRepairInAlBarshaSouth />,
       },
       {
-        path: "/ac-services-in-the-gardens/",
+        path: "/services/air-conditioning-repair/coverage-area/the-gardens/",
         element: <Components.AcRepairInGardens />,
       },
       {
-        path: "/ac-services-in-jbr/",
+        path: "/services/air-conditioning-repair/coverage-area/jbr/",
         element: <Components.AcRepairInJBR />,
       },
       {
-        path: "/ac-services-in-flamingo-villas/",
+        path: "/services/air-conditioning-repair/coverage-area/flamingo-villas/",
         element: <Components.AcRepairInFlamingoVillas />,
       },
       {
@@ -662,35 +662,35 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAlQuoz />,
       },
       {
-        path: "/ac-services-in-jebel-ali-dip/",
+        path: "/services/air-conditioning-repair/coverage-area/jebel-ali-dip/",
         element: <Components.AcRepairInJebelAliDip />,
       },
       {
-        path: "/ac-services-in-al-sufouh/",
+        path: "/services/air-conditioning-repair/coverage-area/al-sufouh/",
         element: <Components.AcRepairInSufouh />,
       },
       {
-        path: "/ac-services-in-jumeirah-beach-residence/",
+        path: "/services/air-conditioning-repair/coverage-area/jumeirah-beach-residence/",
         element: <Components.AcRepairInJumeirahBeachResidence />,
       },
       {
-        path: "/ac-services-in-the-villa/",
+        path: "/services/air-conditioning-repair/coverage-area/the-villa/",
         element: <Components.AcRepairInTheVilla />,
       },
       {
-        path: "/ac-services-in-jumeirah-heights/",
+        path: "/services/air-conditioning-repair/coverage-area/jumeirah-heights/",
         element: <Components.AcRepairInJumeirahHeights />,
       },
       {
-        path: "/ac-services-in-al-quoz-industrial-area/",
+        path: "/services/air-conditioning-repair/coverage-area/al-quoz-industrial-area/",
         element: <Components.AcRepairInQuozIndustrialArea />,
       },
       {
-        path: "/ac-services-in-the-lakes/",
+        path: "/services/air-conditioning-repair/coverage-area/the-lakes/",
         element: <Components.AcRepairInTheLakes />,
       },
       {
-        path: "/ac-services-in-umm-suqeim/",
+        path: "/services/air-conditioning-repair/coverage-area/umm-suqeim",
         element: <Components.AcRepairInUmmSuqeim />,
       },
       {
@@ -698,23 +698,23 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInJvt />,
       },
       {
-        path: "/ac-services-in-jumeirah/",
+        path: "/services/air-conditioning-repair/coverage-area/jumeirah/",
         element: <Components.AcRepairInJumeirah />,
       },
       {
-        path: "/ac-services-in-jebel-ali/",
+        path: "/services/air-conditioning-repair/coverage-area/jebel-ali/",
         element: <Components.AcRepairInJebelAli />,
       },
       {
-        path: "/ac-services-in-emirates-hills/",
+        path: "/services/air-conditioning-repair/coverage-area/emirates-hills/",
         element: <Components.AcRepairInEmiratesHills />,
       },
       {
-        path: "/ac-services-jlt/",
+        path: "/services/air-conditioning-repair/coverage-area/jlt/",
         element: <Components.AcRepairInJLT />,
       },
       {
-        path: "/ac-services-in-index-tower-difc/",
+        path: "/services/air-conditioning-repair/coverage-area/index-tower-difc/",
         element: <Components.AcRepairInIndexTowerDifc />,
       },
       {
@@ -726,39 +726,35 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAlkarama />,
       },
       {
-        path: "/ac-services-in-south-ridge/",
+        path: "/services/air-conditioning-repair/coverage-area/south-ridge/",
         element: <Components.AcRepairInsouthRidge />,
       },
       {
-        path: "/ac-services-in-nad-al-hammar/",
+        path: "/services/air-conditioning-repair/coverage-area/nad-al-hammar/",
         element: <Components.AcRepairInNadAlHammar />,
       },
       {
-        path: "/ac-services-in-Mudon/",
-        element: <Components.AcRepairInMudon />,
-      },
-      {
-        path: "/ac-services-in-dubai-healthcare-city/",
+        path: "/services/air-conditioning-repair/coverage-area/dubai-healthcare-city/",
         element: <Components.AcRepairInDubaiHealthcareCity />,
       },
       {
-        path: "/ac-services-in-knowledge-village/",
+        path: "/services/air-conditioning-repair/coverage-area/knowledge-village/",
         element: <Components.AcRepairInKnowledgeVillage />,
       },
       {
-        path: "/ac-services-in-deira/",
+        path: "/services/air-conditioning-repair/coverage-area/deira/deira/",
         element: <Components.AcRepairInDeira />,
       },
       {
-        path: "/ac-services-in-al-furjan/",
+        path: "/services/air-conditioning-repair/coverage-area/al-furjan/",
         element: <Components.AcRepairInAlFurjan />,
       },
       {
-        path: "/ac-services-jumeirah-park/",
+        path: "/services/air-conditioning-repair/coverage-area/jumeirah-park/",
         element: <Components.AcRepairInJumeirahPark />,
       },
       {
-        path: "/ac-services-in-ras-al-khor-industrial-area/",
+        path: "/services/air-conditioning-repair/coverage-area/ras-al-khor-industrial-area/",
         element: <Components.AcRepairInRasAlKhorIndustrialArea />,
       },
       {
@@ -766,7 +762,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAlWarqa />,
       },
       {
-        path: "/ac-services-in-dubailand-the-villa-point/",
+        path: "/services/air-conditioning-repair/coverage-area/dubailand-the-villa-point/",
         element: <Components.AcRepairInDubailandTheVillaPoint />,
       },
       {
@@ -778,11 +774,11 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInInvestmentsPark />,
       },
       {
-        path: "/ac-services-in-al-aweer/",
+        path: "/services/air-conditioning-repair/coverage-area/alaweer/",
         element: <Components.AcRepairInAlaweer />,
       },
       {
-        path: "/ac-services-in-difc/",
+        path: "/services/air-conditioning-repair/coverage-area/difc/",
         element: <Components.AcRepairInDifc />,
       },
       {
@@ -806,7 +802,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInBurjKhalifaLake />,
       },
       {
-        path: "/ac-services-in-dubailand-mazaya-queue/",
+        path: "/services/air-conditioning-repair/coverage-area/dubailand-mazaya-queue/",
         element: <Components.AcRepairInDubailandMazayaQueue />,
       },
       {
@@ -814,19 +810,19 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAlBada />,
       },
       {
-        path: "/ac-services-in-mudon/",
+        path: "/services/air-conditioning-repair/coverage-area/mudon/",
         element: <Components.AcRepairInMudon />,
       },
       {
-        path: "/ac-services-in-nad-al-sheba/",
+        path: "/services/air-conditioning-repair/coverage-area/nad-al-sheba",
         element: <Components.AcRepairInNadAlSheba />,
       },
       {
-        path: "/ac-services-in-downtown/",
+        path: "/services/air-conditioning-repair/coverage-area/downtown/",
         element: <Components.AcRepairInDownTown />,
       },
       {
-        path: "/ac-services-in-al-barari/",
+        path: "/services/air-conditioning-repair/coverage-area/al-barari/",
         element: <Components.AcRepairInAlBarari />,
       },
       {
@@ -834,11 +830,11 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInBaySquare />,
       },
       {
-        path: "/ac-services-in-media-city/",
+        path: "/services/air-conditioning-repair/coverage-area/media-city/",
         element: <Components.AcRepairInMediaCity />,
       },
       {
-        path: "/ac-services-in-umm-ramool/",
+        path: "/services/air-conditioning-repair/coverage-area/umm-ramool/",
         element: <Components.AcRepairInUmmRamool />,
       },
       {
@@ -846,11 +842,11 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInCedreVillasSiliconOasisDubai />,
       },
       {
-        path: "/ac-services-in-motor-city/",
+        path: "/services/air-conditioning-repair/coverage-area/motor-city/",
         element: <Components.AcRepairInMotorCity />,
       },
       {
-        path: "/ac-services-in-victory-heights/",
+        path: "/services/air-conditioning-repair/coverage-area/umm-suqeim/",
         element: <Components.AcRepairInVictoryHeights />,
       },
       {
@@ -862,11 +858,11 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAlSafa />,
       },
       {
-        path: "/ac-services-in-remraam/",
+        path: "/services/air-conditioning-repair/coverage-area/remraam-2/",
         element: <Components.AcRepairInRemraam />,
       },
       {
-        path: "/ac-services-in-jge/",
+        path: "/services/air-conditioning-repair/coverage-area/jge/",
         element: <Components.AcRepairInJqe />,
       },
       {
@@ -874,15 +870,15 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInDubaiSportCity />,
       },
       {
-        path: "/ac-services-in-dubai-marina/",
+        path: "/services/air-conditioning-repair/coverage-area/dubai-marina/",
         element: <Components.AcRepairInDubaiMarina />,
       },
       {
-        path: "/ac-services-in-jebel-ali-village/",
+        path: "/services/air-conditioning-repair/coverage-area/jebel-ali-village/",
         element: <Components.AcRepairInJebelAliVillage />,
       },
       {
-        path: "/ac-services-in-mankhool/",
+        path: "/services/air-conditioning-repair/coverage-area/mankhool/",
         element: <Components.AcRepairInMankhool />,
       },
       {
@@ -890,7 +886,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInTheViews />,
       },
       {
-        path: "/ac-services-in-palm-jumeirah/",
+        path: "/services/air-conditioning-repair/coverage-area/palm-jumeirah/",
         element: <Components.AcRepairInPalmJumeirah />,
       },
       {
@@ -910,11 +906,11 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInDamacHills />,
       },
       {
-        path: "/ac-repair-and-ac-service-in-dubai-hills-estate/",
+        path: "/services/air-conditioning-repair/coverage-area/dubai-hills-estate/",
         element: <Components.AcRepairInDubaiHillsEstate />,
       },
       {
-        path: "/ac-repair-and-ac-service-in-dubai-production-city/",
+        path: "/services/air-conditioning-repair/coverage-area/dubai-production-city/",
         element: <Components.AcRepairInProductionCity />,
       },
       {
@@ -957,10 +953,7 @@ export const router = createBrowserRouter([
         path: "/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/",
         element: <Components.AegFridgeRepair />,
       },
-      // {
-      //   path: "/bosch-home-appliances-repair/",
-      //   element: <Components.BoschHomeAppliance />,
-      // },
+
       {
         path: "/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/",
         element: <Components.HisenseFridgeRepair />,
@@ -1570,7 +1563,7 @@ export const router = createBrowserRouter([
         element: <Components.ApplianceServiceInJumeirahPark />,
       },
       {
-        path: "/ac-services-in-jebel-ali-industrial-area/",
+        path: "/services/air-conditioning-repair/coverage-area/jebel-ali-industrial-area/",
         element: <Components.AcRepairInJebelAliIndustrialArea />,
       },
        {
@@ -1803,11 +1796,7 @@ export const router = createBrowserRouter([
         path:"/ac-services-in-jvt/",
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/jvt/" replace />
       },
-      
-      {
-        path:"/ac-services-in-jumeirah-village-circle/",
-        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jvc/" replace />
-      },
+    
       {
         path:"/ac-services-in-dubai-studio-city.php",
         element:<Navigate to="/" replace />
@@ -2111,7 +2100,427 @@ export const router = createBrowserRouter([
       {
         path:"/service",
         element:<Navigate to="/services/" replace />
-      },    
+      },
+      {
+        path:"/ac-repair-and-ac-service-in-emirates-hills/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/ac-service-in-emirates-hills/" replace />
+      },
+      {
+        path:"/ac-repair-and-ac-service-in-town-square/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/ac-service-in-town-square/" replace />
+      },
+      {
+        path:"/ac-services-in-academy-city/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/academy-city/" replace />
+      },
+      {
+        path:"/ac-services-in-al-aweer/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-aweer/" replace />
+      },
+      {
+        path:"/ac-services-in-al-badaa/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-badaa/" replace />
+      },
+      {
+        path:"/ac-services-in-al-barsha-south/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-barsha-south/" replace />
+      },
+      {
+        path:"/ac-services-in-al-barsha/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-barsha/" replace />
+      },
+      {
+        path:"/ac-services-in-al-furjan/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-furjan/" replace />
+      },
+      {
+        path:"/ac-services-in-al-jafiliya/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-jafiliya/" replace />
+      },
+      {
+        path:"/ac-services-in-al-jafza/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-jafza/" replace />
+      },
+      {
+        path:"/ac-services-in-al-karama/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-karama/" replace />
+      },
+      {
+        path:"/ac-services-in-al-khawaneej/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-khawaneej/" replace />
+      },
+      {
+        path:"/ac-services-in-al-mamzar/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-mamzar/" replace />
+      },
+      {
+        path:"/ac-services-in-al-manara/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-manara/" replace />
+      },
+      {
+        path:"/ac-services-in-al-mirdif/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-mirdif/" replace />
+      },
+      {
+        path:"/ac-services-in-al-mizhar/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-mizhar/" replace />
+      },
+      {
+        path:"/ac-services-in-al-quoz/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-quoz/" replace />
+      },
+      {
+        path:"/ac-services-in-al-qusais/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-qusais/" replace />
+      },
+      {
+        path:"/ac-services-in-al-raffa/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-raffa/" replace />
+      },
+      {
+        path:"/ac-services-in-al-rashidiya/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-rashidiya/" replace />
+      },
+      {
+        path:"/ac-services-in-al-safa/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-safa/" replace />
+      },
+      {
+        path:"/ac-services-in-al-satwa/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-satwa/" replace />
+      },
+      {
+        path:"/ac-services-in-al-tawar/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-tawar/" replace />
+      },
+      {
+        path:"/ac-services-in-al-waha-community/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-waha-community/" replace />
+      },
+      {
+        path:"/services/air-conditioning-repair/coverage-area/al-warqa/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-warqa/" replace />
+      },
+      {
+        path:"/ac-services-in-al-wasl/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-wasl/" replace />
+      },
+      {
+        path:"/ac-services-in-arabian-ranches-2/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/arabian-ranches-2/" replace />
+      },
+      {
+        path:"/ac-services-in-arabian-ranches/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/arabian-ranches/" replace />
+      },
+      {
+        path:"/ac-services-in-bay-square/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/bay-square/" replace />
+      },
+      {
+        path:"/ac-services-in-bur-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/bur-dubai/" replace />
+      },
+      {
+        path:"/ac-services-in-burj-khalifa-lake/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/burj-khalifa-lake/" replace />
+      },
+      {
+        path:"/ac-services-in-business-bay/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/business-bay/" replace />
+      },
+      {
+        path:"/ac-services-in-cedre-villas-silicon-oasis-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/cedre-villas-silicon-oasis-dubai/" replace />
+      },
+      {
+        path:"/ac-services-in-damac-hills/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/damac-hills/" replace />
+      },
+      {
+        path:"/ac-services-in-deira/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/deira/" replace />
+      },
+      {
+        path:"/ac-services-in-difc/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/difc/" replace />
+      },
+      {
+        path:"/ac-services-in-dip/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dip/" replace />
+      },
+      {
+        path:"/ac-services-in-discovery-gardens/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/discovery-gardens/" replace />
+      },
+      {
+        path:"/ac-services-in-downtown/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/downtown/" replace />
+      },
+      {
+        path:"/ac-services-in-dubai-healthcare-city/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-healthcare-city/" replace />
+      },
+      {
+        path:"/ac-repair-and-ac-service-in-dubai-hills-estate/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-hills-estate/" replace />
+      },
+      {
+        path:"/ac-services-in-dubai-international-financial-centre/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/difc/" replace />
+      },
+      {
+        path:"/services/air-conditioning-repair/coverage-area/dubai-internet-city/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-internet-city/" replace />
+      },
+      {
+        path:"/ac-services-in-dubailand-mazaya-queue/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubailand-mazaya-queue/" replace />
+      },
+      {
+        path:"/ac-services-in-dubailand-the-villa-point/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubailand-the-villa-point/" replace />
+      },
+      {
+        path:"/ac-services-in-dubai-marina/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-marina/" replace />
+      },
+      {
+        path:"/services/air-conditioning-repair/coverage-area/dubai-sport-city/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-sport-city/" replace />
+      },
+      {
+        path:"/ac-services-in-dubai-studio-city/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-studio-city/" replace />
+      },
+      {
+        path:"/services/air-conditioning-repair/coverage-area/flamingo-villas/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/flamingo-villas/" replace />
+      },
+      {
+        path:"/ac-services-in-the-gardens/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-gardens/" replace />
+      },
+      {
+        path:"/ac-services-in-hudaiba/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/hudaiba/" replace />
+      },
+      {
+        path:"/ac-services-in-impz/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/impz/" replace />
+      },
+      {
+        path:"/ac-services-in-index-tower-difc/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/index-tower-difc/" replace />
+      },
+      {
+        path:"/ac-services-in-international-media-and-production-zone/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/international-media-and-production-zone/" replace />
+      },
+      {
+        path:"/ac-services-in-dubai-investments-park/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-investments-park/" replace />
+      },
+      {
+        path:"/ac-services-in-jbr/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jbr/" replace />
+      },
+      {
+        path:"/ac-services-in-jebel-ali/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jebel-ali/" replace />
+      },
+      {
+        path:"/ac-services-in-jebel-ali-dip/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jebel-ali-dip/" replace />
+      },
+      {
+        path:"/ac-services-in-jebel-ali-free-zone/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jebel-ali-free-zone/" replace />
+      },
+      {
+        path:"/ac-services-in-jebel-ali-village/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jebel-ali-village/" replace />
+      },
+      {
+        path:"/ac-services-jlt/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jlt/" replace />
+      },
+      {
+        path:"/ac-services-in-jge/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jge/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah-beach-residence/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jumeirah-beach-residence/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jumeirah/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah-golf-estates/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jumeirah-golf-estates/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah-heights/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jumeirah-heights/" replace />
+      },
+      {
+        path:"/ac-services-jumeirah-islands/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jumeirah-islands/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah-lake-towers/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jumeirah-lake-towers/" replace />
+      },
+      {
+        path:"/ac-services-jumeirah-park/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jumeirah-park/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah-village-circle/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jvc/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah-village/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jumeirah-village/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah-village-triangle/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jvt/" replace />
+      },
+      {
+        path:"/ac-services-in-jvc/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jvc/" replace />
+      },
+      {
+        path:"/ac-services-in-knowledge-village/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/knowledge-village/" replace />
+      },
+      {
+        path:"/ac-services-in-layan-community/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/layan-community/" replace />
+      },
+      {
+        path:"/ac-services-in-limestone-house-difc/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/limestone-house-difc/" replace />
+      },
+      {
+        path:"/ac-services-in-media-city/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/media-city/" replace />
+      },
+      {
+        path:"/ac-services-in-metha/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/metha/" replace />
+      },
+      {
+        path:"/ac-services-in-motor-city/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/motor-city/" replace />
+      },
+      {
+        path:"/ac-services-in-mudon/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/mudon/" replace />
+      },
+      {
+        path:"/ac-services-in-nad-al-hammar/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/nad-al-hammar/" replace />
+      },
+      {
+        path:"/ac-services-in-nad-al-sheba/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/nad-al-sheba/" replace />
+      },
+      {
+        path:"/ac-services-in-old-town-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/old-town-dubai/" replace />
+      },
+      {
+        path:"/ac-services-in-palm-jumeirah/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/palm-jumeirah/" replace />
+      },
+      {
+        path:"/ac-repair-and-ac-service-in-dubai-production-city/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-production-city/" replace />
+      },
+      {
+        path:"/ac-services-in-al-quoz-industrial-area/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-quoz-industrial-area/" replace />
+      },
+      {
+        path:"/ac-services-in-ras-al-khor-industrial-area/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/ras-al-khor-industrial-area/" replace />
+      },
+      {
+        path:"/services/air-conditioning-repair/coverage-area/remraam-2/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/remraam-2/" replace />
+      },
+      {
+        path:"/ac-services-in-remraam/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/remraam-2/" replace />
+      },
+      {
+        path:"/ac-services-in-the-ritz-carlton-difc/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-ritz-carlton-difc/" replace />
+      },
+      {
+        path:"/ac-services-in-dubai-silicon-oasis/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/" replace />
+      },
+      {
+        path:"/ac-services-in-south-ridge/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/south-ridge/" replace />
+      },
+      {
+        path:"/ac-services-in-al-sufouh/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-sufouh/" replace />
+      },
+      {
+        path:"/ac-services-in-the-greens/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-greens/" replace />
+      },
+      {
+        path:"/ac-services-in-the-lakes/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-lakes/" replace />
+      },
+      {
+        path:"/ac-services-in-the-meadows/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-meadows/" replace />
+      },
+      {
+        path:"/ac-services-in-the-springs/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-springs/" replace />
+      },
+      {
+        path:"/services/air-conditioning-repair/coverage-area/the-views/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-views/" replace />
+      },
+      {
+        path:"/ac-services-in-the-villa/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-villa/" replace />
+      },
+      {
+        path:"/ac-services-in-umm-al-sheif/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/umm-al-sheif/" replace />
+      },
+      {
+        path:"/ac-services-in-umm-ramool/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/umm-ramool/" replace />
+      },
+      {
+        path:"/ac-services-in-umm-suqeim/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/umm-suqeim/" replace />
+      },
+      {
+        path:"/ac-services-in-victory-heights/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/umm-suqeim/" replace />
+      },
+      {
+        path:"/ac-services-in-jebel-ali-industrial-area/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/jebel-ali-industrial-area/" replace />
+      },
+      {
+        path:"/ac-services-in-mankhool/",
+        element:<Navigate to="/services/air-conditioning-repair/coverage-area/mankhool/" replace />
+      },
     ],
   }
 ], {

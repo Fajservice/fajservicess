@@ -27,7 +27,7 @@ const AcRepairInDubailandTheVillaPointDetail = ({ subtitle, title, reviewsbg, ti
   const metadescription = String(description || "FAJ is here to help you with AC Services in Dubailand The Villa Point. Dail 043300002 for central air conditioning maintenance nearby in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "ac services in dubailand the villa point, ac repair dubai, ac maintenance dubai, ac service dubai, ac cleaning service dubai, ac installation dubai, ac technician dubai, air conditioning service dubai, air conditioning repair dubai, air conditioning maintenance dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubailand-the-villa-point/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubailand-the-villa-point/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
   subtitle = "Testimonial"
