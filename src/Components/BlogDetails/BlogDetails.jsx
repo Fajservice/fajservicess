@@ -633,7 +633,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
                   <ul className="cs_categories cs_fs_18 cs_semibold cs_mp_0">
-                    <li><Link to="/ac-service-in-dubai/">
+                    <li><Link to="/services/air-conditioning-repair/ac-service/">
                       <span>Air Conditioning Services</span>
                       <span><ArrowRightIcon size={28} /></span>
                     </Link></li>

@@ -481,7 +481,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
               <div className="usptext">
                 <h3 className="">شعور بالطمأنينة</h3>
-                <p>مع <a href="/ac-annual-maintenance-contract/">عقد الصيانة السنوية</a>، تحصل على خدمة كاملة لمدة عام، مما يضمن عمل التكييف بسلاسة ويوفر راحة البال.
+                <p>مع <a href="/services/air-conditioning-repair/ac-service/">عقد الصيانة السنوية</a>، تحصل على خدمة كاملة لمدة عام، مما يضمن عمل التكييف بسلاسة ويوفر راحة البال.
                 </p>
               </div>
             </div>

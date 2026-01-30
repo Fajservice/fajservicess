@@ -72,7 +72,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metatitle = String(titleSeo || "Best AC Service | AC Repair and Maintenance in Dubai");
   const metadescription = String(description || "FAJ has been providing the best AC service in Dubai since 2010. Get affordable, fast AC repair, maintenance and AC cleaning from our expert technicians.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/");
+  const metaURL = String(URL || "");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
 
   const [isModalOpen, setIsModalOpen] = useState(false);

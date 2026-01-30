@@ -6,18 +6,19 @@ import Blog2 from '../../Blog/Blog2';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
-
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL, getImageSrc }) => {
+
+const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
   const metatitle = String(titleSeo || "Kitchen Equipment Maintenance Service Company in Dubai");
-  const metadescription = String(description || "Book your home appliance repair today, and FAJ Service Center will arrange for an expert technician to fix your washing machine, fridge or dishwasher.");
+  const metadescription = String(description || "Best kitchen equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
   subtitle = "Testimonial"
@@ -86,14 +87,14 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <link rel="canonical" href="https://www.fajservices.ae/services/coffee-machine/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta property="og:title" content="Kitchen Equipment Maintenance Service Company in Dubai" />
           <meta property="og:url" content={metaURL}></meta>
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
-          <meta name="twitter:description" content="Coffee Machine Repair and Maintenance Services in Dubai" />
+          <meta name="twitter:title" content="Kitchen Equipment Maintenance Service Company in Dubai" />
+          <meta name="twitter:description" content="Best kitchen equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens." />
           <meta name="twitter:image" content={metaImage} />
 
         </Helmet>
@@ -103,8 +104,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         {/* Technical Services to Keep Your Coffee Flowing */}
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h1 className="cs_fs_30 text-center mb-4">Professional Kitchen Equipment Maintenance and Servicing in Dubai
-            </h1>
+            <h1 className="cs_fs_30 text-center mb-4">Professional Kitchen Equipment Maintenance and Servicing in Dubai</h1>
             <div className="row align-items-center">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
@@ -131,10 +131,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="col-12 col-lg-7">
                 <p><b>Expert Appliance Repair Near You</b></p>
-                <p>FAJ Technical Services L.L.C has been serving the kitchen equipment needs of Dubai since 2010. We provide comprehensive solutions for all types of commercial kitchen equipment.
-                  Our services encompass installation, maintenance, and repair, catering to a diverse range of clients, including hospitality outlets, hotels, restaurants, cafes, catering services, and residential homes and villas. Additionally, we serve industrial facilities, corporate offices, and shopping centers.
-
-                </p>
+                <p>FAJ Technical Services L.L.C has been serving the kitchen equipment needs of Dubai since 2010. We provide comprehensive solutions for all types of commercial kitchen equipment. Our services encompass installation, maintenance, and repair, catering to a diverse range of clients, including hospitality outlets, hotels, restaurants, cafes, catering services, and residential homes and villas. Additionally, we serve industrial facilities, corporate offices, and shopping centers.</p>
               </div>
             </div>
             <div className="mt-5">

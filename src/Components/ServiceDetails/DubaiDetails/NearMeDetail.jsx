@@ -12,8 +12,14 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton.jsx";
 import GetQuoteButton from "../../Buttons/GetQuoteButton.jsx";
 import Blog3 from "../../Blog/Blog3.jsx";
 import Testimonial1 from "../../Testimonial/Testimonial1.jsx";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const NearMeDetail = ({ subtitle, title, bgImg }) => {
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
+const NearMeDetail = ({ subtitle, title, reviewsbg }) => {
 
   // For SEO
   const titleSeo = "Repair Near Me in Dubai Appliance Service Center | Fix AC";
@@ -24,7 +30,7 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -254,7 +260,7 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 border rounded p-3 d-flex align-items-center">
-                <img className="" src={`${import.meta.env.BASE_URL}img/Refrigerator-Appliances-to-Repair.avif`} alt="Book Now" />
+                <img className=""  src={getImageSrc('Refrigerator-Appliances-to-Repair')} alt="Book Now" />
               </div>
 
             </div>
@@ -266,7 +272,7 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-md-6">
                 <div className=" border rounded h-100 p-3 d-flex align-items-center" >
-                  <img className="" src={`${import.meta.env.BASE_URL}img/Washing-Machine-Repair-in-Dubai-Call-Out.avif`} alt="Book Now" />
+                  <img className=""  src={getImageSrc('Washing-Machine-Repair-in-Dubai-Call-Out')} alt="Book Now" />
                 </div>
 
               </div>
@@ -292,27 +298,27 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
                         Washing Machine Repair
                       </h2>
                       <p>
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/drum.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/drum')} alt="icon" />
                         Drum not rotating
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/doorlock.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/doorlock')} alt="icon" />
                         Door locked defect
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/drain.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/drain')} alt="icon" />
                         Drain blockage & water leakage
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/spining.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/spining')} alt="icon" />
                         No spinning / excessive vibration
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/nopower.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/nopower')} alt="icon" />
                         No power or display error
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/speaker')} alt="icon" />
                         Unusual noise during operation
                       </p>
 
@@ -322,19 +328,19 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
                         Freezer Repair
                       </h2>
                       <p>
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/cool.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/cool')} alt="icon" />
                         Not cooling efficiently
 
                         <br />
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/icebuild.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/icebuild')} alt="icon" />
                         Ice buildup and frost issues
 
                         <br />
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/nopower.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/nopower')} alt="icon" />
                         No power
 
                         <br />
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/speaker')} alt="icon" />
                         Compressor making loud noises
                       </p>
 
@@ -344,19 +350,19 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
                         Candy Washer Dryer Repair
                       </h2>
                       <p>
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/temp.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/temp')} alt="icon" />
                         Clothes not drying properly
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/display_error.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/display_error')} alt="icon" />
                         Display error messages
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/drum.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/drum')} alt="icon" />
                         Drum rotation failure
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/speaker')} alt="icon" />
                         Unusual noise & excessive vibration
                       </p>
 
@@ -370,20 +376,20 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
                         Refrigerator Repair
                       </h2>
                       <p>
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/cool.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/cool')} alt="icon" />
                         Not cooling properly
                         <br />
 
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/ice.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/ice')} alt="icon" />
                         Excessive ice formation
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/nopower.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/nopower')} alt="icon" />
                         No power
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/speaker')} alt="icon" />
                         Loud compressor noise
 
                       </p>
@@ -393,23 +399,23 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
                         Dishwasher Repair
                       </h2>
                       <p>
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/odor.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/odor')} alt="icon" />
                         Bad odor inside the Dishwasher
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/icebuild.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/icebuild')} alt="icon" />
                         No steam during wash cycles
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/no_water.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/no_water')} alt="icon" />
                         No water intake
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/soap.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/soap')} alt="icon" />
                         Soap dispenser not working
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/white_patch.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/white_patch')} alt="icon" />
                         White patches left on utensils
                       </p>
 
@@ -419,19 +425,19 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
                         Tumble Dryer Repair
                       </h2>
                       <p>
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/temp.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/temp')} alt="icon" />
                         Not drying clothes properly
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/drum.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/drum')} alt="icon" />
                         Drum not rotating
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/speaker')} alt="icon" />
                         Loud noise & excessive vibration
                         <br />
 
-                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/display_error.svg`} alt="icon" />
+                        <img className="emoji" src={getImageSrc('icon/display_error')} alt="icon" />
                         Display error or system malfunction
                       </p>
 
@@ -797,14 +803,14 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
 
               <a href="#" className=" brand-near-me-service-box">
                 <div className=" near-me-work-title">
-                  <img className="mb-3 w-25" src={`${import.meta.env.BASE_URL}img/icons/book.png`} alt="Book Now" />
+                  <img className="mb-3 w-25"  src={getImageSrc('icon/book')}  alt="Book Now" />
                   <p>Book Your Repair</p>
                 </div>
               </a>
 
               <a href="#" className=" brand-near-me-service-box">
                 <div className=" near-me-work-title">
-                  <img className="mb-3 w-25" src={`${import.meta.env.BASE_URL}img/icons/callicon.png`} alt="Receive Confirmation
+                  <img className="mb-3 w-25"  src={getImageSrc('icon/callicon')}  alt="Receive Confirmation
 Call" />
                   <p>Receive Confirmation Call</p>
                 </div>
@@ -812,7 +818,7 @@ Call" />
 
               <a href="#" className=" brand-near-me-service-box">
                 <div className=" near-me-work-title">
-                  <img className="mb-3 w-25" src={`${import.meta.env.BASE_URL}img/icons/prob.png`} alt="Book Now" />
+                  <img className="mb-3 w-25"  src={getImageSrc('icon/prob')}  alt="Problem detection and Repair" />
                   <p>Problem detection and
                     Repair</p>
                 </div>
@@ -950,7 +956,7 @@ Call" />
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -987,7 +993,7 @@ Call" />
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img className="" src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
