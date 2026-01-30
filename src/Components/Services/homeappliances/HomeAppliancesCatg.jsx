@@ -281,23 +281,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                   </div>
                 </div>
               </div>
-
-              <div className="col-12 col-md-4 col-lg-4">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Repair</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">No power
-                      Not cooling properly
-                      Excessive ice formation
-                      Loud compressor noise
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-4">
+               <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwasher Repair</h3>
@@ -313,9 +297,20 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                 </div>
               </div>
 
-
-              
-
+              <div className="col-12 col-md-4 col-lg-4">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Repair</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">No power
+                      Not cooling properly
+                      Excessive ice formation
+                      Loud compressor noise
+                    </p>
+                  </div>
+                </div>
+              </div>
               <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">

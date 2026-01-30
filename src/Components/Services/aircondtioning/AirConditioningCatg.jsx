@@ -6,6 +6,7 @@ import AMCbutton from "../../Buttons/AMCbutton";
 import Blog2 from "../../Blog/Blog2";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from "../../Contact/Serviceappointemnt";
+import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
@@ -115,7 +116,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/ac-image/public`}
+                    src={`${CDN}/ac-image2/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -145,7 +146,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
             </div>
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
-                <CallNowButton />
+                <WhatsappIconButton/>
               </div>
             </div>
           </div>
@@ -163,14 +164,12 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
                 <p>At FAJ Technical Services L.L.C, we provide cost-effective heating and cooling solutions to create the perfect temperature in your home all year round. You can trust us to deliver first-class, comprehensive, and professional service with no corners cut.</p>
                 <p>Our commitment ensures that the air in your home remains clean and filtered while keeping your system energy-efficient and free from bacteria.</p>
                 <p>Our air conditioning technicians take pride in delivering thorough, high-quality service. We are always happy to answer any questions you may have and guide you through the process. After the service, you will receive a detailed report outlining the work completed and the condition of your system.</p>
-
-
               </div>
               {/* Image Column - Left */}
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/ac-image2/public`}
+                    src={`${CDN}/ac-image/public`}
                     alt="Domestic Air Conditioning Maintenance Service in Dubai - FAJ Technical Services"
                     title="Professional AC Maintenance Service for Homes in Dubai"
                     width="500"
@@ -189,17 +188,14 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
                   />
                 </div>
               </div>
-
-
             </div>
             <div id="get-quote" className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
-                <CallNowButton />
+                <WhatsappIconButton/>
               </div>
             </div>
           </div>
         </section>
-
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Shop for Air Conditioner, Spare Parts and Accessories</h2>
