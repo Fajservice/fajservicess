@@ -25,7 +25,7 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
  const metadescription = String(description || "Book an 043300002. AC Services in Al Raffa Dubai. We are here help in central & split AC (Air Condition) maintenance & service near me Dubai");
  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
  const metaKeyword = String(Keyword || "AC Service in Al Raffa, AC Repair in Al Raffa, AC Maintenance in Al Raffa, Air Conditioning Service in Al Raffa, Air Conditioner Repair in Al Raffa, Air Conditioner Maintenance in Al Raffa");
- const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-raffa/");
+ const metaURL = String(URL || "https://www.fajservices.ae//services/air-conditioning-repair/coverage-area/al-raffa/");
  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
  subtitle = "Testimonial"
