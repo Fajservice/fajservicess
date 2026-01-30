@@ -36,13 +36,7 @@
   
 }
 
-/* .timeline-marker.top {
-  top: -20px;
-}
 
-.timeline-marker.bottom {
-  top: 30px;
-} */
 .timeline-road::before {
     display: block;
     content: "";

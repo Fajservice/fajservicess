@@ -27,7 +27,7 @@ const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const metadescription = String(description || "If you are looking for best ac services in jumeirah heights dubai. Call 043300002 for centralized a/c system repairing and a/c fixing in my location");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Services In Jumeirah Heights, AC Repair in Jumeirah Heights, AC Maintenance in Jumeirah Heights, Air Conditioning Service in Jumeirah Heights, Centralized A/C System Repairing in Jumeirah Heights, A/C Fixing in Jumeirah Heights");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-heights/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-heights/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
 

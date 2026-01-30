@@ -62,6 +62,7 @@
 }
 
 .hero-slide__title {
+  font-family: --var(--heading-font);
   font-size: clamp(26px, 4vw, 38px);
   font-weight: 800;
   color: #0a2540;
@@ -72,6 +73,7 @@
 }
 
 .hero-slide__description {
+  font-family: --var(--body-font);
   font-size: clamp(14px, 1.8vw, 17px);
   color: #4a5568;
   line-height: 1.7;

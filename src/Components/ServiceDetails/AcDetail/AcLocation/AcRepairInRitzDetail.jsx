@@ -48,7 +48,7 @@ const AcRepairInRitzDetail = ({
     );
 
     const metaURL = String(
-        URL || "https://www.fajservices.ae/ac-services-in-the-ritz-carlton-difc/"
+        URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-ritz-carlton-difc/"
     );
 
     const metaImage = String(
