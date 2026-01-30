@@ -62,7 +62,7 @@ export const router = createBrowserRouter([
         element: <Components.AirConditioningCatg />,
       },
       {
-        path: "/services/air-conditioning-repair/kitchen-equipment/",
+        path: "/services/kitchen-equipment/",
         element: <Components.KitchenEquipmentPage />,
       },
       {
@@ -1882,8 +1882,12 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/ac-annual-maintenance-contract/" replace />
       },
       {
-        path:"/ac-annual-maintenance-contract/",
+        path:"/services/air-conditioning-repair/ac-service/",
         element:<Navigate to="/services/air-conditioning-repair/ac-annual-maintenance-contract/" replace />
+      },
+      {
+        path:"/ac-repair-dubai.php",
+        element:<Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
         path:"/ac-repair-dubai/",
@@ -1894,7 +1898,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
-        path:"/ac-service-in-dubai/",
+        path:"/services/air-conditioning-repair/ac-service/",
         element:<Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {

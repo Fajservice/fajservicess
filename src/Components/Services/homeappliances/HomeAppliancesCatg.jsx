@@ -99,7 +99,6 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
 
         </Helmet>
       </HelmetProvider>
-
       <div className="cs_service_details">
         {/* Technical Services to Keep Your Coffee Flowing */}
         <section className="section cs_py_30 bg-light-white">
@@ -110,7 +109,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/reliable-home-appliance/public`}
+                    src={`${CDN}/home-appliance/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -131,11 +130,12 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
               </div>
 
               <div className="col-12 col-lg-7">
-                <p><b>Expert Appliance Repair Near You</b></p>
+                <p className='text-align-left'><b>Expert Appliance Repair Near You</b></p>
                 <p>Reliable Home Appliance Repair Services – Fast & Affordable
                   Are you searching for a reliable home appliance repair service center near you?
                   We provide expert repair and support for all major home appliances, including washing machines, refrigerators, ovens, stoves, dishwashers, and more. Our appliance technicians provide quick and efficient repair services, ensuring your appliances are fixed promptly and affordably.
                 </p>
+               
               </div>
             </div>
             <div className="mt-5">
@@ -157,7 +157,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/bbq-grill-image/public`}
+                    src={`${CDN}/home-appliance-repair/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -201,7 +201,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="shop-ac-image-wrapper">
                   <img
-                    src={`${CDN}/ac-image/public`}
+                    src={`${CDN}/techfridge/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -250,7 +250,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
             <h2 className="text-center">Common Appliance Repair Issues We Fix</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center mt-3">
               <p>At <b>FAJ Technical Services L.L.C</b> we provide expert home appliance repair services for a wide range of issues. If you’re experiencing any of the following problems, our expert technicians are ready to assist you.</p>
-              <div className="col-12 col-md-4 col-lg-3">
+              <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Repair </h3>
@@ -267,7 +267,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-md-4 col-lg-3">
+              <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Repair</h3>
@@ -282,7 +282,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                 </div>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
+              <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Repair</h3>
@@ -297,7 +297,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                 </div>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
+              <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwasher Repair</h3>
@@ -316,7 +316,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
 
               
 
-              <div className="col-12 col-md-4 col-lg-3">
+              <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washer Dryer Repair</h3>
@@ -332,7 +332,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                 </div>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
+              <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Repair</h3>

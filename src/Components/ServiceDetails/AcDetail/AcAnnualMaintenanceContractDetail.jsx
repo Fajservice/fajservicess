@@ -48,7 +48,7 @@ const AcAnnualMaintenanceContractDetail = ({
   const metadescription = String(description || "Since 2010, FAJ has offered AC annual maintenance contract in Dubai, Sharjah, UAE. Repairs are more costly than a regular maintenance agreement.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Annual Maintenance Contract Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-annual-maintenance-contract/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/");
   const metaImage = "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif";
 
   const [openItemIndex, setOpenItemIndex] = useState(0);
