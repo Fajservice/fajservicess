@@ -2588,10 +2588,6 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-internet-city/" replace />
       },
       {
-        path:"/appliances-services-in-dubai-internet-city",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-internet-city/" replace />
-      },
-      {
         path:"/appliances-services-in-dubailand-mazaya-queue-point/",
         element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubailand-mazaya-queue-point/" replace />
       },
