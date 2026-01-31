@@ -7,7 +7,7 @@ const Breadcrumb = () => {
     const pathnames = location.pathname.split('/').filter((x) => x);
     
     const formatLabel = (segment) => {
-    const acronyms = ["ac","jvc","jvt","lg"]; // you can add more later
+    const acronyms = ["ac","jvc","jvt","lg","dip", "jafza", "difc","impz","jlt","jge"]; // you can add more later
 
       return segment
         .split("-")

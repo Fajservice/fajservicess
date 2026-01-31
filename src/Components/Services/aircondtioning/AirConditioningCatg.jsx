@@ -111,7 +111,6 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Commercial Air Conditioning Maintenance Services in Dubai</h2>
-
             <div className="row align-items-center">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
@@ -135,13 +134,10 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
                   />
                 </div>
               </div>
-
               <div className="col-12 col-lg-7">
                 <p>We offer tailored service and maintenance packages for businesses of all sizes, including small offices, large warehouses, hotels, entertainment venues, healthcare facilities, sports complexes, and religious institutions.</p>
                 <p>For any business with multiple air conditioning units or required systems, we recommend servicing twice a year. This helps ensure safety, improve air quality, and enhance cost-efficiency while reducing the risk of leaks and blockages.</p>
                 <p>We also provide a customised FAJ Technical Services L.L.C asset list for each customer.</p>
-
-
               </div>
             </div>
             <div className="mt-5">
@@ -157,7 +153,6 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
           <div className="container">
             {/* Heading - Centered on Top */}
             <h2 className="cs_fs_30 text-center mb-4">Domestic Air Conditioning Maintenance Service in Dubai</h2>
-
             <div className="row align-items-center">
               {/* Text Column - Right */}
               <div className="col-12 col-lg-7">
@@ -199,7 +194,6 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Shop for Air Conditioner, Spare Parts and Accessories</h2>
-
             <div className="row align-items-center">
               <div className="col-12 col-lg-4 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
@@ -223,10 +217,8 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
                   />
                 </div>
               </div>
-
               <div className="col-12 col-lg-8">
                 <p>If you need to buy new air conditioners, central, VRV, VRF, split, window AC, or replacement parts and accessories, we deliver quickly to any location.</p>
-
                 <ul className="service-bullet-list">
                   <li><a href="https://www.fajtradingllc.com/collections/ac-spare-parts">AC Spare Parts</a></li>
                   <li><a href="https://www.fajtradingllc.com/collections/air-conditioners">Air Conditioners</a></li>
@@ -240,14 +232,12 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
                 </ul>
               </div>
             </div>
-
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
                 <CallNowButton />
               </div>
             </div>
           </div>
-
           <style>{`
   .service-bullet-list {
     list-style: none;

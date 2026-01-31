@@ -2115,6 +2115,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
 </url>
+
 </urlset>`;
 
 fs.writeFileSync("public/sitemap.xml", sitemap);

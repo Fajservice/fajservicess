@@ -2198,7 +2198,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-waha-community/" replace />
       },
       {
-        path:"/services/air-conditioning-repair/coverage-area/al-warqa/",
+        path:"/ac-services-in-al-warqa/",
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/al-warqa/" replace />
       },
       {
@@ -2270,7 +2270,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/difc/" replace />
       },
       {
-        path:"/services/air-conditioning-repair/coverage-area/dubai-internet-city/",
+        path:"/ac-services-dubai-internet-city/",
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-internet-city/" replace />
       },
       {
@@ -2286,7 +2286,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-marina/" replace />
       },
       {
-        path:"/services/air-conditioning-repair/coverage-area/dubai-sport-city/",
+        path:"/ac-services-in-dubai-sport-city/",
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-sport-city/" replace />
       },
       {
@@ -2294,7 +2294,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/dubai-studio-city/" replace />
       },
       {
-        path:"/services/air-conditioning-repair/coverage-area/flamingo-villas/",
+        path:"/ac-services-in-flamingo-villas/",
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/flamingo-villas/" replace />
       },
       {
@@ -2450,7 +2450,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/ras-al-khor-industrial-area/" replace />
       },
       {
-        path:"/services/air-conditioning-repair/coverage-area/remraam-2/",
+        path:"/ac-services-in-remraam-2/",
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/remraam-2/" replace />
       },
       {
@@ -2490,7 +2490,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-springs/" replace />
       },
       {
-        path:"/services/air-conditioning-repair/coverage-area/the-views/",
+        path:"/ac-services-in-the-views/",
         element:<Navigate to="/services/air-conditioning-repair/coverage-area/the-views/" replace />
       },
       {
