@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const AMCbutton = () => {
     return (
@@ -8,14 +9,11 @@ const AMCbutton = () => {
                 className="ac-service-btn"
                 aria-label="AC Repair & Services"
             >
-                <div className="ac-btn-content">
-                    <span className="ac-btn-title">AMC</span>
-                    <span className="ac-btn-subtitle">Maintenance Contract</span>
-                </div>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="ac-btn-icon">
-                    <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                    <path d="M12 5L19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                </svg>
+                 <img
+                  className="ac-amc-btn-content"
+                  src={`${CDN}/icon/ac-amc/public`}
+                  alt="Get A Quote"
+                />
             </Link>
 
             <style>{`
@@ -24,9 +22,7 @@ const AMCbutton = () => {
     align-items: center;
     justify-content: center;
     gap: 12px;
-    background-color: #1a3a4a;
-    color: #ffffff;
-    padding: 12px 24px;
+    padding: 0px;
     border-radius: 4px;
     text-decoration: none;
     transition: background-color 0.3s ease;

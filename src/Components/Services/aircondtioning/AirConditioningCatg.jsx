@@ -195,7 +195,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Shop for Air Conditioner, Spare Parts and Accessories</h2>
             <div className="row align-items-center">
-              <div className="col-12 col-lg-4 mb-4 mb-lg-0">
+              <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
                     src={`${CDN}/shop-for-coffee-machines/public`}
@@ -217,9 +217,9 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
                   />
                 </div>
               </div>
-              <div className="col-12 col-lg-8">
+              <div className="col-12 col-lg-7 px-5">
                 <p>If you need to buy new air conditioners, central, VRV, VRF, split, window AC, or replacement parts and accessories, we deliver quickly to any location.</p>
-                <ul className="service-bullet-list">
+                <ul className="service-bullet-list gap-3">
                   <li><a href="https://www.fajtradingllc.com/collections/ac-spare-parts">AC Spare Parts</a></li>
                   <li><a href="https://www.fajtradingllc.com/collections/air-conditioners">Air Conditioners</a></li>
                   <li><a href="https://www.fajtradingllc.com/collections/split-ac">Split AC</a></li>
@@ -234,7 +234,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
             </div>
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
-                <CallNowButton />
+                <WhatsappIconButton/>
               </div>
             </div>
           </div>

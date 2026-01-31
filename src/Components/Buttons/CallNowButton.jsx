@@ -5,7 +5,7 @@ const CallNowButton = ({ phone = 'tel:+971507464712' }) => {
     <a href={phone} className="call-now-btn">
       <img
         className="call-icon"
-        src={`${CDN}/icon/Call-Icon_2/public`}
+        src={`${CDN}/icon/call-now/public`}
         alt="Call Now Button"
       />
     </a>
