@@ -24,7 +24,7 @@ const AppliancesServiceInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsb
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in limestone house DIFC, Refrigerator in limestone house DIFC, Dishwasher in limestone house DIFC, Oven in limestone house DIFC, Appliances service in limestone house DIFC, Appliances repair in limestone house DIFC, Appliances maintenance in limestone house DIFC, Appliances installation in limestone house DIFC");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-limestone-house-difc/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-limestone-house-difc/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

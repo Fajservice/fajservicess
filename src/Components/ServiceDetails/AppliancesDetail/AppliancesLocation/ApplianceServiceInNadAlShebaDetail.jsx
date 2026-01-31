@@ -27,7 +27,7 @@ const ApplianceServiceInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleS
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Nad Al Sheba, Refrigerator Repair in Nad Al Sheba, Appliance Repair in Nad Al Sheba, Dishwasher Repair in Nad Al Sheba, Oven Repair in Nad Al Sheba, Appliance Services in Nad Al Sheba");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-nad-al-sheba/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-nad-al-sheba/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

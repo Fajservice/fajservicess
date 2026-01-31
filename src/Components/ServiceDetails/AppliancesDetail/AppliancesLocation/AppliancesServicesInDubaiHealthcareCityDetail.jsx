@@ -27,7 +27,7 @@ const AppliancesServicesInDubaiHealthcareCityDetail = ({ subtitle, title, review
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Dubai Healthcare City, Fridge Repair Dubai Healthcare City, Dishwasher Repair Dubai Healthcare City, Oven Repair Dubai Healthcare City, Appliance Services in Dubai Healthcare City");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-healthcare-city/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-healthcare-city/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

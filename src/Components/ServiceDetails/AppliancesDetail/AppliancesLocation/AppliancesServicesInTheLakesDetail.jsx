@@ -27,7 +27,7 @@ const AppliancesServicesInTheLakesDetail = ({ subtitle, title, reviewsbg, titleS
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in The Lakes, Refrigerator Repair in The Lakes, Appliance Repair in The Lakes, Appliance Services in The Lakes, Appliance Maintenance in The Lakes, Appliance Installation in The Lakes, Appliance Service Center in The Lakes, Home Appliances Repair in The Lakes");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-lakes/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-lakes/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

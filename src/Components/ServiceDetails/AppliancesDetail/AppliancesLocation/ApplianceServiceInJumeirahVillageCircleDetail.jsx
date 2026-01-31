@@ -26,7 +26,7 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Village Circle, Fridge Repair in Jumeirah Village Circle, Oven Repair in Jumeirah Village Circle, Appliance Service in Jumeirah Village Circle, Appliance Repair in Jumeirah Village Circle, Home Appliances Service in Jumeirah Village Circle");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/");
 
 
     subtitle = "Testimonial"

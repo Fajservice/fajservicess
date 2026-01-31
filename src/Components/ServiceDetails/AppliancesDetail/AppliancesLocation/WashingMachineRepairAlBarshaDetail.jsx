@@ -27,7 +27,7 @@ const WashingMachineRepairAlBarshaDetail = ({ subtitle, title, reviewsbg, titleS
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in AlBarsha, Washing Machine Repair in Al Barsha, Refrigerator Repair in Al Barsha, Fridge Repair in Al Barsha, Appliance Repair in Dubai, Appliance Service Center in Dubai, Appliance Repair Service in Dubai, Home Appliances Repair in Dubai, Washing Machine Service Center in Dubai, Fridge Service Center in Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

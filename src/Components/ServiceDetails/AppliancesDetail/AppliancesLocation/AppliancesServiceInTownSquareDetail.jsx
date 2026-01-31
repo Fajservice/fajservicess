@@ -27,7 +27,7 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, title
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in town square, refrigerator repair in town square, dishwasher repair in town square, oven repair in town square, appliance service in town square, appliance repair in town square, appliance maintenance in town square, appliance installation in town square");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-town-square/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-town-square/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

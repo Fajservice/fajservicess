@@ -1,11 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
@@ -27,7 +25,7 @@ const ApplianceServiceInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "washing machine repair in deira, refrigerator repair in deira, appliance repair in deira, appliance service in deira, appliance maintenance in deira, appliance installation in deira, appliance repair near me, appliance service near me, appliance maintenance near me, appliance installation near me");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-deira/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/services/Home-appliances-repair/coverage-area/deira/");
 
 
     subtitle = "Testimonial"

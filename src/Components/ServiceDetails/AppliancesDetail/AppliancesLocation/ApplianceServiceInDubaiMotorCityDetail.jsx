@@ -26,7 +26,7 @@ const ApplianceServiceInDubaiMotorCityDetail = ({ subtitle, title, reviewsbg, ti
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine repair in Dubai Motor City, Refrigerator repair in Dubai Motor City, Oven repair in Dubai Motor City, Dishwasher repair in Dubai Motor City, Appliance service in Dubai Motor City, Appliance maintenance in Dubai Motor City, Appliance repair near me, Home appliance service in Dubai Motor City");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-motor-city/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/services/Home-appliances-repair/coverage-area/dubai-motor-city/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

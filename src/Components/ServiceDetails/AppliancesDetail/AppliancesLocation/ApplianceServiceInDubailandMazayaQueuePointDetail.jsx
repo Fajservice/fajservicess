@@ -26,7 +26,7 @@ const ApplianceServiceInDubailandMazayaQueuePointDetail = ({ subtitle, title, re
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubailand, Fridge Repair in dubailand, Dishwasher Repair in dubailand, Oven Repair in dubailand, Appliance Service in dubailand, Appliance Repair in dubailand, Appliance Service in Dubai Land, Appliance Repair in Dubai Land");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-mazaya-queue-point/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-mazaya-queue-point/");
 
 
     subtitle = "Testimonial"

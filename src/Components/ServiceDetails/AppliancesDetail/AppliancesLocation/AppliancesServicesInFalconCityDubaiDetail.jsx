@@ -27,7 +27,7 @@ const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, reviewsbg,
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in falcon city, Appliance Repair in Falcon City, Appliance Services in Falcon City, Fridge Repair in Falcon City, Oven Repair in Falcon City, Dishwasher Repair in Falcon City, Washing Machine Repair in Falcon City");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-falcon-city-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-falcon-city-dubai/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

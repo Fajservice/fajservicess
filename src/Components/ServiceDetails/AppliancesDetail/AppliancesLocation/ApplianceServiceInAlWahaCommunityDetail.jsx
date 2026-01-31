@@ -1,11 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
@@ -26,7 +24,7 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, t
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine Repair in Al Waha Community, Fridge Repair in Al Waha Community, Dishwasher Repair in Al Waha Community, Appliance Services in Al Waha Community");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-waha-community/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/services/Home-appliances-repair/coverage-area/al-waha-community/");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = getImageSrc('testimonialbg')

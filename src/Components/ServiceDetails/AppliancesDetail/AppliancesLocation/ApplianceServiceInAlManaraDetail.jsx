@@ -26,7 +26,7 @@ const ApplianceServiceInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Appliance Services In Manara, Washing Machine Repair in al Manara, Refrigerator Repair in al Manara, Dishwasher Repair in al Manara, Stove Repair in al Manara, Oven Repair in al Manara, Freezer Repair in al Manara, Coffee Machine Repair in al Manara");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-manara/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-manara/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -27,7 +27,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine Repair in Flamingo Villas, Refrigerator Repair in Flamingo Villas, Appliance Service in Flamingo Villas, Fridge Repair in Flamingo Villas, Home Appliances Service in Dubai, Appliance Repair Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-flamingo-villas-dubai/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-flamingo-villas-dubai/");
 
 
     subtitle = "Testimonial"

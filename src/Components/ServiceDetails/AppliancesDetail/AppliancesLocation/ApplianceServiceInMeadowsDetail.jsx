@@ -26,7 +26,7 @@ const ApplianceServiceInMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in the Meadows, Appliance Service in Meadows, Dishwasher Repair in the meadows, Oven Repair the meadows");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-meadows/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-meadows/");
 
 
     subtitle = "Testimonial"

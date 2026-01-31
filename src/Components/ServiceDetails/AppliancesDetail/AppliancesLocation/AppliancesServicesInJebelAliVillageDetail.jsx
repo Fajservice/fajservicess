@@ -27,7 +27,7 @@ const AppliancesServicesInJebelAliVillageDetail = ({ subtitle, title, reviewsbg,
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in jebel ali village, Fridge Repair in jebel ali village, Dishwasher Repair in jebel ali village, Oven Repair in jebel ali village, Appliance Services in jebel ali village, Appliances Services in Jebel Ali Village, Appliances Services in Dubai, Appliances Services in Sharjah, Appliances Services in Abu Dhabi");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-village/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-village/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -27,7 +27,7 @@ const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "washing machine repair in International Media and Production Zone, refrigerator repair in International Media and Production Zone, appliance service in International Media and Production Zone, appliance repair in International Media and Production Zone, appliance maintenance in International Media and Production Zone, appliance installation in International Media and Production Zone, appliance AMC in International Media and Production Zone");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-international-media-and-production-zone/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-international-media-and-production-zone/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -1,11 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
@@ -26,7 +24,7 @@ const ApplianceServiceInJumeriahHeightsDetail = ({ subtitle, title, reviewsbg, t
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Heights, Fridge Repair in Jumeirah Heights, Dishwasher Repair in Jumeirah Heights, Oven Repair in Jumeirah Heights, Appliance Service in Jumeirah Heights, Appliance Repair in Jumeirah Heights");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-heights/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-heights/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

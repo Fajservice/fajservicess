@@ -29,7 +29,7 @@ const WashingMachineRepairBusinessBayDetail = ({ subtitle, title, reviewsbg, tit
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in business bay, Washing Machine Repair in business bay, Washing Machine Service in business bay, Washing Machine Installation in business bay, Washing Machine Maintenance in business bay, Washing Machine AMC in business bay, Refrigerator Repair in business bay, Refrigerator Service in business bay, Refrigerator Installation in business bay, Refrigerator Maintenance in business bay, Refrigerator AMC in business bay");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

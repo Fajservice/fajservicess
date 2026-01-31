@@ -20,7 +20,7 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "AC Services In JBR - Chilled Water FCU Repair Near Me #1");

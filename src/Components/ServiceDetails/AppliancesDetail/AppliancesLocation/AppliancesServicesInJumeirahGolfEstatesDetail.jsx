@@ -27,7 +27,7 @@ const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, review
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Golf Estates, Refrigerator in Jumeirah Golf Estates, Oven in Jumeirah Golf Estates, Dishwasher in Jumeirah Golf Estates, Tumble Dryer in Jumeirah Golf Estates, Stove in Jumeirah Golf Estates, Freezer in Jumeirah Golf Estates, Coffee Machine in Jumeirah Golf Estates");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

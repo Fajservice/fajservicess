@@ -26,7 +26,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine repair in bur dubai, Fridge repair near me bur dubai, Appliance service in bur dubai, Appliance repair in bur dubai, Oven repair in bur dubai, Dishwasher repair in bur dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-bur-dubai/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-bur-dubai/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -27,7 +27,7 @@ const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titl
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in al jafiliya, Appliances Services in Al Jafiliya, Appliance Repair in Al Jafiliya, Fridge Repair in Al Jafiliya, Oven Repair in Al Jafiliya, Dishwasher Repair in Al Jafiliya");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-jafiliya/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-jafiliya/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

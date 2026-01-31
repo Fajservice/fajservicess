@@ -27,7 +27,7 @@ const AppliancesServicesInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in al safa, Refrigerator in al safa, Dishwasher in al safa, Oven in al safa, Appliance repair in al safa, Appliance service in al safa, Appliance maintenance in al safa, Appliance installation in al safa");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-safa/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-safa/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

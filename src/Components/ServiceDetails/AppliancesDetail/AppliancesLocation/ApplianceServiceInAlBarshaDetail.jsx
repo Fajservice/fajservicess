@@ -1,11 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
@@ -27,7 +25,7 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "appliances services in Al Barsha, washing machine repair in al barsha, refrigerator repair in al barsha, dishwasher repair in al barsha, oven repair in al barsha, appliance repair in al barsha, appliance service center in al barsha, appliance maintenance in al barsha");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barsha/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barsha/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

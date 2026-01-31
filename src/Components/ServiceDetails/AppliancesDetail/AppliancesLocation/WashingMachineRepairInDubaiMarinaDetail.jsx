@@ -26,7 +26,7 @@ const WashingMachineRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, t
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in dubai marina, Washing Machine Repair in Dubai Marina, Fridge Repair in Dubai Marina, Refrigerator Repairing in Dubai Marina, Cooker Stove Oven Cooking Range Repairs Fix Service Centre in Dubai Marina, Dishwasher Installation in Dubai Marina, Appliance Repair in Dubai Marina");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

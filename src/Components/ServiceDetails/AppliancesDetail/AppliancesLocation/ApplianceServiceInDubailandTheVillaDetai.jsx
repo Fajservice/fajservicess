@@ -27,7 +27,7 @@ const ApplianceServiceInDubailandTheVillaDetai = ({ subtitle, title, reviewsbg, 
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "washing machine repair dubailand the villa, dubailand the villa appliance repair, dubailand the villa appliance service, dubailand the villa appliance maintenance, dubailand the villa appliance installation, dubailand the villa appliance service center, dubailand the villa appliance technician, dubailand the villa appliance specialist, dubailand the villa appliance expert, dubailand the villa appliance company, dubailand the villa appliance services");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-the-villa/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/services/Home-appliances-repair/coverage-area/dubailand-the-villa/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
