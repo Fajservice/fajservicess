@@ -69,10 +69,10 @@ const LazySection = memo(({ children, fallback = null }) => {
 
 const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // SEO Meta
-  const metatitle = String(titleSeo || "Best AC Service | AC Repair and Maintenance in Dubai");
-  const metadescription = String(description || "FAJ has been providing the best AC service in Dubai since 2010. Get affordable, fast AC repair, maintenance and AC cleaning from our expert technicians.");
+  const metatitle = String(titleSeo || "AC Repair Dubai | Best HVAC Maintenance & AC Service");
+  const metadescription = String(description || "FAJ has been providing the best AC Service Dubai since 2010. Get fast AC repair, maintenance, servicing & AC cleaning from expert technicians nearby.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -152,7 +152,24 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               "@context": "https://schema.org",
               "@type": "FAQPage",
               "mainEntity": [
+               
                 {
+                  "@type": "Question",
+                  "name": "Why is AC repair so expensive?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai's climate, which demands frequent AC use, also adds to the cost."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why is my AC giving cool air but not cooling?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
+                  }
+                },
+                 {
                   "@type": "Question",
                   "name": "How much is AC service in Dubai?",
                   "acceptedAnswer": {
@@ -170,26 +187,19 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 },
                 {
                   "@type": "Question",
-                  "name": "Why is AC repair so expensive?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai's climate, which demands frequent AC use, also adds to the cost."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Why is my AC giving cool air but not cooling?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
-                  }
-                },
-                {
-                  "@type": "Question",
                   "name": "How often should AC be cleaned in Dubai?",
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
+                  }
+                },
+                
+                {
+                  "@type": "Question",
+                  "name": "What maintenance is needed for AC?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
                   }
                 },
                 {
@@ -202,18 +212,27 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 },
                 {
                   "@type": "Question",
-                  "name": "What maintenance is needed for AC?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
-                  }
-                },
-                {
-                  "@type": "Question",
                   "name": "How can I maintain my AC?",
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
+                  }
+                },
+                
+                {
+                  "@type": "Question",
+                  "name": "Is AC duct cleaning important in Dubai?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is AC duct cleaning worth it?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It's a cost-effective investment for long-term benefits."
                   }
                 },
                 {
@@ -242,22 +261,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 },
                 {
                   "@type": "Question",
-                  "name": "Is AC duct cleaning important in Dubai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Is AC duct cleaning worth it?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It's a cost-effective investment for long-term benefits."
-                  }
-                },
-                {
-                  "@type": "Question",
                   "name": "How often should AC ducts be cleaned?",
                   "acceptedAnswer": {
                     "@type": "Answer",
@@ -278,7 +281,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">AC Service & AC Repair in Dubai</h1>
-            <p>Make your home a more comfortable place to live and work with air conditioning cooling. Create the perfect temperature all year round with the expert AC technicians.<br /><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been in operation since 2010. Our technicians have experience in AC repair, cleaning, and maintenance to keep your AC performing at its best for extended, as well as AC installation of home, office, and commercial air conditioning units in Dubai and Sharjah.</p>
+            <p>Improve the comfort of your home and business premises with air conditioning cooling. Maintain a perfect temperature year-round with our expert AC technicians.<br /><a href="https://maps.app.goo.gl/KDPpprYugX3bXJ759">FAJ Technical Services L.L.C</a> has been providing AC services (Since) 2010. Our technicians are experienced in<a href="https://www.facebook.com/FAJTechnicalServicesLLC">AC repair and maintenance</a>, ensuring your air conditioning system performs at its best for an extended time, as well as AC installation of home, office, and commercial air conditioning units in Dubai and Sharjah.</p>
 
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -294,24 +297,24 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Our AC Repair & Service</h2>
-                <p className="mb-1">When it comes to AC repair in Dubai, it is important to hire a qualified and best AC company that can effectively fulfil your needs, whether at home AC or in your business.</p>
-                <p className="mb-1"><a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> Specialises in comprehensive HVAC repair service near you in Dubai ensures the highest air quality care for your AC cooling systems.</p>
+                <h2 className="cs_fs_24 mb-1">OUR AC Repair & Service</h2>
+                <p className="mb-1">When looking for<a href="https://www.fajservices.ae/services/air-conditioning-repair/">AC repair &amp; service in Dubai</a>, choose a qualified and reputable company that meets your residential or commercial needs.</p>
+                <p className="mb-1">FAJ Skilled AC technicians can quickly diagnose issues, providing your HVAC system runs efficiently. This improves comfort during hot months and reduces Dewa bill costs, providing peace of mind with your AC cooling solutions.</p>
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need AC Maintenance</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via Call / WhatsApp Chat. We are here to help your AC cooling system in reaching optimal efficiency.</p>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
                       <li>AC Not Cooling Signs</li>
-                      <li>High AC electricity (DEWA) bills</li>
-                      <li>AC motor not working</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
                       <li>Water Leaking from your AC</li>
                       <li>AC compressor is not cooling</li>
-                      <li>AC Thermostat not working</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling" >High AC electricity (DEWA) bills</a></li>
                     </ul>
                   </div>
                 </div>
@@ -331,7 +334,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
             <div className="appointment-col border-small-top pt-3">
               <h2 className="cs_fs_24 mb-1 pt-3">Our Express and Emergency AC Repair Service in Dubai</h2>
-              <p>If you are facing a problem in your air conditioning service at home or in your business, especially during the summer time, our same day and express AC repair service is here to help. Get the fastest AC repair service in Dubai today. Contact us for a quote or to schedule your emergency AC repair appointment.</p>
+              <p>If you are facing any problem in your air conditioning service at home or in your business, especially during the summer time, our same day and express AC repair service is here to help. Get the fastest AC repair service in Dubai today. Contact us for a quote or to schedule your emergency AC repair appointment.</p>
               <div id="get-quote" className="mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -354,8 +357,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <section className="section cs_py_30 bg-light-gray">
             <div className="container">
               <h2 className="cs_fs_30">Why is AC Maintenance Important in Dubai, UAE?</h2>
-              <p>Regular AC maintenance and services in Dubai is necessary for optimal performance. FAJ offers complete AC cleaning services to keep your system running efficiently. With our proactive process, you can feel confident that AC is functioning at its best. If you need <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> and air conditioning service near you, contact us.</p>
-
+              <p>Regular AC maintenance and services in Dubai are necessary for optimal performance. FAJ offers complete AC cleaning services to keep your AC system running efficiently. With our proactive process, you can feel confident that AC is working at its best. If you need AC maintenance and air conditioning service near you, contact us.</p>
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <img
@@ -367,11 +369,11 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="col-md-6">
                   <ul className="mb-0">
-                    <li><strong>Extreme Weather:</strong> Experiences hot Dubai temperatures over 40°C (104°F) in summer. Regular AC maintenance keeps it efficient during these conditions.</li>
+                    <li><strong>Dubai Hot Weather:</strong> Experiences hot Dubai temperatures over 40&deg;C (104&deg;F) in summer. Regular AC maintenance keeps it efficient during these conditions.</li>
                     <li><strong>Energy Efficiency:</strong> A well- AC cleaning service operates more efficiently, using less energy and lowering both AC electricity bills.</li>
-                    <li><strong>Longevity of Equipment:</strong> Regular AC maintenance can extend your air conditioning unit's lifespan, reducing the need for costly repair and Genuine AC spare parts replacements, ultimately saving you money.</li>
-                    <li><strong>Improved Air Quality:</strong> Regular AC unit & AC duct cleaning service & maintenance keep dust and allergens from building up, ensuring cleaner air.</li>
-                    <li><strong>Enhanced Comfort:</strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo" className="fw-bold text-decoration-underline">AC servicing</a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                    <li><strong>Longevity of AC Unit:</strong> Regular AC maintenance can extend your air conditioning unit's lifespan, reducing the need for costly repair work and Genuine AC spare parts replacements, ultimately saving you money.</li>
+                    <li><strong>Improved Air Quality:</strong> Regular AC unit &amp; AC duct cleaning service &amp; maintenance keep dust and allergens from building up, ensuring cleaner air.</li>
+                    <li><strong>Improved Comfort:</strong> Regular<a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><strong>AC servicing</strong></a> in Dubai ensures comfort, efficiency, and even cooling daily.</li>
                   </ul>
                 </div>
               </div>
@@ -387,43 +389,43 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
          <section className="section cs_py_30 bg-light-blue-section">
   <div className="container">
     <h2 className="cs_fs_28">How to use FAJ AC Service and AC Repair in Dubai?</h2>
-    <p className="cs-fs_14">Looking for reliable air conditioning services in Dubai? FAJ Technical Services L.L.C offers top AC repair and cleaning right at your doorstep. Our expert team is dedicated to ensuring your comfort with superior service.</p>
+    <p className="cs-fs_14">Are you searching for reliable air conditioning services in Dubai? FAJ Technical Services L.L.C provides excellent AC repair and AC cleaning service right at your doorstep. Our team of experts is committed to providing your comfort with excellent service.</p>
     
     <div className="service-cards-grid">
       <div className="service-card-item">
         <h3>AC Repair in Dubai for Improved Performance:</h3>
-        <p className="cs_fs_14">Is your AC not cooling as well as before? Our skilled AC technicians can diagnose the issue and fix its efficiency.</p>
-      </div>
-      
-      <div className="service-card-item">
-        <h3>Assistance with New AC Installation:</h3>
-        <p className="cs_fs_14">Upgrading to a new AC unit? Let our experts handle everything, from selection to installation and testing. We've got you covered!</p>
+        <p className="cs_fs_14">Is your AC not cooling effectively? Our AC technicians can diagnose and fix AC errors.</p>
       </div>
       
       <div className="service-card-item">
         <h3>Regular AC Cleaning for Maximum Efficiency:</h3>
-        <p className="cs_fs_14">For optimal performance, it's important to keep your AC clean. We offer AC duct cleaning and filter for fresh, healthy air circulation.</p>
+        <p className="cs_fs_14">For optimal performance, keep your AC cleaning. We offer AC duct cleaning and filters for fresh, healthy air.</p>
       </div>
       
       <div className="service-card-item">
-        <h3>Emergency AC Repair:</h3>
-        <p className="cs_fs_14">Got unexpected AC breakdowns? Our 7-day emergency AC repair services are here to provide immediate assistance.</p>
+        <h3>Essential AC Maintenance Service Dubai:</h3>
+        <p className="cs_fs_14">Regular AC maintenance is necessary. Our services help prepare your AC for the summer heat.</p>
       </div>
       
       <div className="service-card-item">
-        <h3>Essential AC Maintenance Service in Dubai:</h3>
-        <p className="cs_fs_14">Regular AC maintenance is essential. Our services help prepare your AC for the summer heat and the winter cold.</p>
+        <h3>Assistance with New AC Installation:</h3>
+        <p className="cs_fs_14">Upgrading to a new AC unit? Let our AC experts handle the selection, installation, and testing!</p>
       </div>
       
       <div className="service-card-item">
-        <h3>AC Service Available Near Me Before Summer:</h3>
-        <p className="cs_fs_14">Beat the summer heat! Schedule your pre-summer AC tune up with us to keep your system running smoothly and ensure your comfort during the hottest months.</p>
+        <h3>Emergency AC Repair in Dubai:</h3>
+        <p className="cs_fs_14">Experiencing unexpected AC breakdowns? Our 7-day emergency AC repairs is available to provide quick service.</p>
+      </div>
+      
+      <div className="service-card-item">
+        <h3>AC Service Dubai Available Near Me Before Summer:</h3>
+        <p className="cs_fs_14">Get ready for summer! Schedule your AC tune up to ensure comfort during the heat.</p>
       </div>
     </div>
     
     <div className="service-footer-text">
       <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair & Maintenance Services today!</h3>
-      <p className="cs_fs_14">For reliable AC service and repair in Dubai, trust FAJ. Our skilled technicians provide the best service every time. Book now via call, email, WhatsApp chat, or our website and experience the difference!</p>
+      <p className="cs_fs_14">For reliable AC service and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
     </div>
   </div>
   
@@ -498,7 +500,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                                         <img src={`${CDN}/icon/cooling1/public`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
                                     </div>
                                     <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
-                                    <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
+                                    <p className="small">We perform a thorough evaluation of AC cooling efficiency with the use of a temperature gun.</p>
                                 </div>
                             </div>
 
@@ -508,7 +510,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                                         <img src={`${CDN}/icon/disinfection/public`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
                                     </div>
                                     <h3 className="text-uppercase mb-2 fs-6 text-white">IMPROVED AIR QUALITY</h3>
-                                    <p className="small">Cleaning filters and coils removes dust, leading to healthier, cleaner air for your family or employees.</p>
+                                    <p className="small">Cleaning AC filters and coils removes dust, resulting in healthier and cleaner air for your family or employees.</p>
                                 </div>
                             </div>
 
@@ -518,7 +520,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                                         <img src={`${CDN}/icon/fan/public`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                                     </div>
                                     <h3 className="text-uppercase mb-2 fs-6 text-white">COMPLETE INSPECTION</h3>
-                                    <p className="small">AC tune up includes checking cleaning filters, electrical connections to ensure optimal performance</p>
+                                    <p className="small">An AC tune-up involves checking and cleaning the filters, as well as inspecting electrical connections, to ensure optimal performance.</p>
                                 </div>
                             </div>
 
@@ -528,7 +530,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                                         <img src={`${CDN}/icon/thermo/public`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
                                     </div>
                                     <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
-                                    <p className="small">We use a laser temperature gauge to ensure AC thermostats operate correctly.</p>
+                                    <p className="small">We use a laser temperature gauge to confirm that the air conditioning thermostats are functioning properly.</p>
                                 </div>
                             </div>
 
@@ -538,7 +540,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                                         <img src={`${CDN}/icon/airflow/public`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
                                     </div>
                                     <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
-                                    <p className="small">We ensure you get optimal AC air flow around each room as needed.</p>
+                                    <p className="small">We ensure optimal airflow from your air conditioning system in each room as needed.</p>
                                 </div>
                             </div>
 
@@ -548,7 +550,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                                         <img src={`${CDN}/icon/customer/public`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                                     </div>
                                     <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                                    <p className="small">Our team provides vital feedback on your AC's health and any needed air con repair.</p>
+                                    <p className="small">Our team provides essential feedback on your air conditioning health and any necessary repair.</p>
                                 </div>
                             </div>
                         </div>
@@ -640,20 +642,20 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
 const CommonACProblems = memo(() => {
   const problems = [
-    { title: "Weak Airflow", desc: 'If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from AC Duct, it could indicate a problem with your A/C system, such as a clogged filter or AC motor.' },
+    { title: "High Humidity Levels", desc: "An air conditioning unit that doesn't reduce indoor humidity may have cooling capacity issues or operate improperly." },
+    { title: "Leaking Water", desc: "Water pooling around the AC or dripping from vents may signal a blocked drain, frozen coils, or other serious issues." },
+    { title: "Increased Energy Bills", desc: "High DEWA bills without increased usage may signal AC inefficiencies from dirty filters, AC duct leaks, or other issues." },
+    { title: "Weak Airflow", desc: "Reduced airflow from your AC duct may signal problems like a blocked filter or a faulty AC motor." },
     { title: "Warm Air", desc: "If your AC blows warm or room temperature air instead of cold, it could indicate ac compressor, gas, or duct work issues requiring fix." },
-    { title: "Strange Noises", desc: "Unusual sounds like grinding, squealing, or banging coming from your AC motor can indicate automatic problems that require attention." },
-    { title: "Foul Odors", desc: "Musty or foul smells emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly." },
-    { title: "Frequent Cycling", desc: "It may signal difficulty maintaining desired AC temperatures due to issues like dirty ac filters, low refrigerant levels, or a faulty thermostat." },
-    { title: "High Humidity Levels", desc: "An air conditioning that falls to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation." },
-    { title: "Leaking Water", desc: "Water pooling around AC or dripping from vents could indicate blocked condensate ac drain, frozen coils, or other serious hidden issues." },
-    { title: "Increased Energy Bills", desc: "High DEWA bills without an increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems." }
+    { title: "Strange Noises", desc: "Unusual sounds such as grinding, squealing, or banging from your AC motor can indicate problems that require attention." },
+    { title: "Foul Odors", desc: "Unpleasant odors coming from the vents might indicate the presence of mold or mildew, which requires immediate attention." },
+    { title: "Frequent Cycling", desc: "It may indicate issues with maintaining desired AC temperatures, such as dirty filters, low refrigerant, or a faulty thermostat." }
   ];
 
   return (
     <section className="section cs_py_30">
       <div className="container">
-        <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
+        <h2 className="text-center">Most Common AC Problems That May Require Maintenance</h2>
         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
           {problems.map((problem, i) => (
             <div key={i} className="col-12 col-md-4 col-lg-3">

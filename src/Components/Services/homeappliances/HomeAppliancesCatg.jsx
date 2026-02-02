@@ -2,11 +2,11 @@
 import { useEffect, useRef, useState } from 'react';
 import CallNowButton from '../../Buttons/CallNowButton';
 import Testimonial1 from '../../Testimonial/Testimonial1';
-import Blog2 from '../../Blog/Blog2';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 import ApplianceCategories from './ApplianceCategories';
+import BlogWashingMachine from '../../Blog/BlogWashingMachine';
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
@@ -365,7 +365,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
           />
         )}
 
-        <Blog2 />
+        <BlogWashingMachine />
 
         {/* Faqs */}
         <section className="section cs_py_30  bg-dark-blue text-light">

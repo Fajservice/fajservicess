@@ -14,10 +14,10 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
-  const metatitle = String(titleSeo || "Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C");
-  const metadescription = String(description || "Coffee Machine Repair and Maintenance Services in Dubai");
+  const metatitle = String(titleSeo || "Ac Location Coverage Area - FAJ Technical Services L.L.C");
+  const metadescription = String(description || "Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
   subtitle = "Testimonial"
@@ -86,13 +86,13 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
-          <meta name="twitter:description" content="Coffee Machine Repair and Maintenance Services in Dubai" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
 
         </Helmet>
@@ -108,7 +108,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/coffee-flowing/public`}
+                    src={`${CDN}/Experts-AC-Service-and-Maintenance/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -127,7 +127,6 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   />
                 </div>
               </div>
-
               <div className="col-12 col-lg-7">
                 <p>At FAJ Technical Services L.L.C, one of the most common questions we hear is, Which areas of Dubai do you serve? We are proud to serve over 100 locations throughout Dubai and nearby areas for homes, offices and business places. Our AC expert teams delivers repair, maintenance, and servicing directly to your location, whether in the city center or the outskirts.
                 </p>
@@ -156,7 +155,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/coffeemachinewhy/public`}
+                    src={`${CDN}/What-is-covered-in-an-AC-Maintenance-Contract/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"

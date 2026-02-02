@@ -13,7 +13,7 @@ const WhatsappIconButton = ({
     >
       <img
         className="whatsapp-icon"
-        src={`${CDN}/icon/whatsapp-new-icon/public`}
+        src={`${CDN}/icon/whatsapp-now/public`}
         alt="Get A Quote"
       />
     </a>
