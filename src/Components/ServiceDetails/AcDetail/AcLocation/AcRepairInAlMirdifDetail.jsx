@@ -34,6 +34,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
+
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -91,7 +92,6 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         <Helmet>
           <title>{metatitle}</title>
           <meta name="description" content={metadescription}></meta>
-          <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />

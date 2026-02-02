@@ -22,11 +22,18 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/roborock-vacuum-cleaner-repair-service-in-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/inspection-robot-vacuum-cleaner.avif");
 
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
+
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -90,38 +97,6 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
     fetchData();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
 
   return (
     <>
@@ -182,7 +157,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Same-Day-vaccum-cleaner-Repair-&-Service.avif`} alt="Vacuum Cleaner Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Same-Day-vaccum-cleaner-Repair-&-Service')} alt="Vacuum Cleaner Repair" />
 
               </div>
             </div>
@@ -197,7 +172,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
             <h2 className="cs_fs_30">Why Choose FAJ for Roborock Vacuum Repair?</h2>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/inspection-robot-vacuum-cleaner.avif`} alt="inspection robot vacuum cleaner" />
+                <img className="blue-border" src={getImageSrc('inspection-robot-vacuum-cleaner')} alt="inspection robot vacuum cleaner" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -364,7 +339,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/efficiency-and-time.png`} alt="Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/efficiency-and-time')} alt="Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Efficiency and Time-Saving</h3>
                       <p className="small">Cleaning large areas quickly can significantly reduce the time required compared to traditional methods. Additionally, robotic vacuums require minimal effort to operate.</p>
@@ -375,7 +350,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Superior Cleaning Performance</h3>
                       <p className="small">A robotic vacuum cleaner effectively removes dirt, pet hair, and dust mites, improving indoor air quality compared to traditional sweeping methods.</p>
@@ -386,7 +361,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/lifestyle.png`} alt="lifestyle" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/lifestyle')} alt="lifestyle" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ideal for Busy Lifestyles</h3>
                       <p className="small">Robotic vacuums clean autonomously, while cordless stick vacuums allow for quick and easy clean-ups.</p>
@@ -398,7 +373,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Cost-Effective Cleaning Solution</h3>
                       <p className="small">Roborock vacuum cleaners save money by reducing the need for professional cleaning and extending the life of carpets and flooring.</p>
@@ -410,7 +385,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/wind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Improves Air Quality</h3>
                       <p className="small">The HEPA filter enhances air quality by trapping allergens such as dust and pet dander, providing relief for allergy sufferers and minimizing respiratory problems.</p>
@@ -421,7 +396,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/robot-vacuum.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/robot-vacuum')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Vacuum and Mop Function</h3>
                       <p className="small">Robot vacuum and mop combos clean efficiently by vacuuming and mopping at the same time, minimizing the need for multiple tools.</p>
@@ -477,7 +452,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -514,7 +489,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -534,13 +509,12 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
         <BeforeAfter
           title="Recent Completed Repair & Service"
           subTitle="Before & after"
-          bgImg="img/background-image-2.avif"
-          beforeImg="img/vaccum-cleaner-before-image.avif"
+          bgImg={getImageSrc('background-image-2')}
+          beforeImg={getImageSrc('vaccum-cleaner-before-image')}
           afterTitle="After"
-          afterImg="img/vaccum-cleaner-after-image.avif"
+          afterImg={getImageSrc('vaccum-cleaner-after-image')}
           beforeTitle="Before"
         />
-        {/* Brands section */}
         {/* Gallery */}
         <section className="section cs_py_30 gallery-section bg-light-gray mb-4">
           <div class="container">
@@ -549,13 +523,13 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
 
               <div class="col-lg-4 col-md-6">
                 <img
-                  src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner.avif"
+                  src={getImageSrc('vacuum-cleaners/inspection-robot-vacuum-celaner')}
                   class="img-fluid rounded shadow mb-4"
                   alt="BBQ Grill Repair Service Dubai"
                 />
 
                 <img
-                  src="/img/vacuum-cleaners/robot-vacuum-celaner.avif"
+                  src={getImageSrc('vacuum-cleaners/robot-vacuum-celaner')}
                   class="img-fluid rounded shadow"
                   alt="BBQ Grill Cleaning Service Dubai"
                 />
@@ -563,13 +537,13 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
 
               <div class="col-lg-4 col-md-6">
                 <img
-                  src="/img/vacuum-cleaners/vacuum-cleaner-repair-service.avif"
+                  src={getImageSrc('vacuum-cleaners/vacuum-cleaner-repair-service')}
                   class="img-fluid rounded shadow mb-4"
                   alt="BBQ Grill Service"
                 />
 
                 <img
-                  src="/img/vacuum-cleaners/robot-vacuum-celaner-repair.avif"
+                  src={getImageSrc('vacuum-cleaners/robot-vacuum-celaner-repair')}
                   class="img-fluid rounded shadow"
                   alt="BBQ Grill Repair"
                 />
@@ -577,13 +551,13 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
 
               <div class="col-lg-4 col-md-6">
                 <img
-                  src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner-repair.avif"
+                  src={getImageSrc('vacuum-cleaners/inspection-robot-vacuum-celaner-repair')}
                   class="img-fluid rounded shadow mb-4"
                   alt="BBQ Grill Repair Service"
                 />
 
                 <img
-                  src="/img/vacuum-cleaners/vacuum-celaner-repair.avif"
+                  src={getImageSrc('vacuum-cleaners/vacuum-celaner-repair')}
                   class="img-fluid rounded shadow"
                   alt="BBQ Grill Cleaning Service"
                 />
