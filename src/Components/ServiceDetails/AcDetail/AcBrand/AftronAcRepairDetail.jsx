@@ -28,7 +28,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metaDescription = String(description || "In the hot summertime, are you looking for an Air Conditioning fix? Call now 043300002 for Aftron AC repair & Maintenance Service near me, Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Aftron AC Repair, Aftron AC Maintenance, Aftron AC Service, Aftron Air Conditioner Repair Dubai, Aftron Air Conditioner Service Dubai, Aftron Air Conditioner Maintenance Dubai, Aftron Air Conditioner Installation Dubai, Aftron Air Conditioner Cleaning Dubai, Aftron AC Repair Dubai, Aftron AC Service Dubai, Aftron AC Maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/aftron-ac-repair-maintenance-service-in-dubai-2/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/aftron/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public");
 
 
