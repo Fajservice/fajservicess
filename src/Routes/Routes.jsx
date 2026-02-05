@@ -430,15 +430,7 @@ export const router = createBrowserRouter([
         element: <Components.WhirlpoolFridgeRepair />,
       },
       {
-<<<<<<< HEAD
-        path: "/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/",
-        element: <Components.FosterAppliancesServices />,
-      },
-      {
-        path: "/services/home-appliances-repair/brands/teka/",
-=======
         path: "/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
->>>>>>> 94bc7ebfb5ac293d26de0466a81c61418186a186
         element: <Components.TekaHomeAppInstllation />,
       },
       {
@@ -3033,7 +3025,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/home-appliances-repair/brands/sub-zero/" replace />
       },
       {
-        path:"/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        path:"/services/home-appliances-repair/brands/teka/",
         element:<Navigate to="/services/home-appliances-repair/brands/teka/" replace />
       },
       {
