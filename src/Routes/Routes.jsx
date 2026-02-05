@@ -426,7 +426,7 @@ export const router = createBrowserRouter([
         element: <Components.GaggenauFridgeRepair />,
       },
       {
-        path: "/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/",
+        path: "/services/home-appliances-repair/brands/whirlpool/",
         element: <Components.WhirlpoolFridgeRepair />,
       },
       {
@@ -3091,6 +3091,30 @@ export const router = createBrowserRouter([
       {
         path:"/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/",
         element:<Navigate to="/services/home-appliances-repair/brands/la-germania/" replace />
+      },
+      {
+        path:"/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/",
+        element:<Navigate to="/services/home-appliances-repair/brands/admiral/" replace />
+      },
+      {
+        path:"/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/",
+        element:<Navigate to="/services/home-appliances-repair/brands/aeg/" replace />
+      },
+      {
+        path:"/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
+        element:<Navigate to="/services/home-appliances-repair/brands/aftron/" replace />
+      },
+      {
+        path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repairs-service-in-dubai-ariston/",
+        element:<Navigate to="/services/home-appliances-repair/brands/ariston/" replace />
+      },
+      {
+        path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repairs-service-in-dubai-ariston/",
+        element:<Navigate to="/services/home-appliances-repair/brands/ariston/" replace />
+      },
+      {
+        path:"/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/",
+        element:<Navigate to="/services/home-appliances-repair/brands/baumatic/" replace />
       },
       
     ],
