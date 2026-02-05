@@ -29,7 +29,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 	const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
 	const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
 	const metaKeyword = String(Keyword || "Blomberg fridge repair, Blomberg washing machine repair, Blomberg cooker repair, Blomberg oven repair, Blomberg appliances maintenance, Blomberg refrigerator service Dubai, Blomberg dishwasher repair Dubai, Blomberg appliance service Dubai");
-	const metaURL = String(URL || "https://www.fajservices.ae/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/");
+	const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/blomberg/");
 
 	subtitle = "Testimonial"
 	title = "What our clients say About Us"

@@ -25,7 +25,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
   const metadescription = String(description || "Quick DeLonghi coffee machine repair in Dubai. Your trusted center for automatic coffee machine & espresso machine, descaling & cleaning services.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/delonghi-coffee-machine-repair/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/delonghi-coffee-machine-repair/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/delonghi-coffee-machine-repair/public");
 
   subtitle = "Testimonial"

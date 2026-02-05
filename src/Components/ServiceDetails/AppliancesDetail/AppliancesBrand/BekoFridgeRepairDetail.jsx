@@ -27,7 +27,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Beko fridge repair, Beko washing machine repair, Beko cooker repair, Beko oven repair, Beko appliances maintenance, Beko refrigerator fix, Beko appliance service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/beko/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
