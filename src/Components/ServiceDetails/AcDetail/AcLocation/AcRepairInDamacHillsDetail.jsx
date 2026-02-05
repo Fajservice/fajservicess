@@ -27,7 +27,7 @@ const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metadescription = String(description || "Get same day AC repair and service in Damac Hills Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in damac hills, ac service in damac hills, ac maintenance in damac hills, gree ac repair in damac hills, gree ac service in damac hills, gree ac maintenance in damac hills, ac technician in damac hills, ac cleaning in damac hills, ac installation in damac hills, ac gas refilling in damac hills");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-service-in-damac-hills/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/damac-hills/");
     const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
     subtitle = "Testimonial"

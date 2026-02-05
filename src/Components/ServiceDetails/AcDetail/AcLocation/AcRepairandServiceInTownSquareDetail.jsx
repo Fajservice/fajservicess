@@ -90,7 +90,6 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                 <Helmet>
                     <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
-                    <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
                     <link rel="canonical" href={metaURL} />
