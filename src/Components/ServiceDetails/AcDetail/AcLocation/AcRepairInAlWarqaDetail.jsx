@@ -25,7 +25,7 @@ const AcRepairInAlWarqaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metadescription = String(description || "Have you a cooling problem? Call us on 043300002 for AC Services in Al Warqa. With Experts in Central Unit Air Conditioning Maintenance, Repair.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Al Warqa, Air Conditioning Maintenance, AC Repair in Al Warqa, AC Service in Al Warqa, Central Unit Air Conditioning Maintenance, Air Conditioning Repair in Al Warqa, Air Conditioning Installation in Al Warqa");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-warqa/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-warqa/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

@@ -29,7 +29,7 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metadescription = String(description || "Contact us: 043300002. AC Services in DIFC. Our team is experts in central HVAC maintenance & repair near me Dubai AC fix servicing company");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "ac services in difc, ac repair in difc, ac maintenance in difc, ac service in difc, ac repair near me, ac maintenance near me, ac service near me, ac repair company in difc, ac maintenance company in difc, ac service company in difc");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-difc/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/difc/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
   subtitle = "Testimonial"

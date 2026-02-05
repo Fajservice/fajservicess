@@ -11,7 +11,13 @@ import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BeforeAfter from "../../BeforeAfter/BeforeAfter";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 
 const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -21,14 +27,6 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
   const metaKeyword = String(Keyword || "RoboRock vacuum cleaner repair in Dubai, RoboRock vacuum cleaner service center in Dubai, RoboRock vacuum cleaner repair near me, fix RoboRock vacuum cleaner, RoboRock vacuum cleaner servicing, RoboRock vacuum cleaner maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/roborock-vacuum-cleaner-repair-service-in-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/inspection-robot-vacuum-cleaner.avif");
-
-const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
-
-const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
-};
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

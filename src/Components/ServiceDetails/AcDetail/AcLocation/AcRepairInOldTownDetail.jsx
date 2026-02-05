@@ -27,7 +27,7 @@ const AcRepairInOldTownDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metadescription = String(description || "Get the Best AC Services in Old Town Dubai with FAJ experts in Central Cooling, FCU, HVAC Air Conditioner Maintenance & Repair near me Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Old Town Dubai, AC Repair in Old Town Dubai, AC Maintenance in Old Town Dubai, Central AC Services in Old Town Dubai, Air Con Fix Dubai, HVAC Services in Old Town Dubai, Air Conditioner Repair Dubai, Air Conditioner Maintenance Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-old-town-dubai/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/old-town-dubai/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

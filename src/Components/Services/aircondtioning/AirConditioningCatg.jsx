@@ -198,7 +198,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/shop-for-coffee-machines/public`}
+                    src={`${CDN}/shopair/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"

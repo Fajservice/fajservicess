@@ -46,7 +46,7 @@ const AcRepairInRemraamDetail = ({
         Keyword || "AC Services In Remraam, AC Repair in Remraam, Central Air Conditioner Repairs, HVAC Repairs, AC Maintenance Dubai, AC Service Near Me, Dubai AC Fixing"
     );
 
-    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/remraam-2/"
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/remraam/"
     );
 
     const metaImage = String(

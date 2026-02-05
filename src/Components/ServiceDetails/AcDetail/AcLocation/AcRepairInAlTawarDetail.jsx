@@ -25,7 +25,7 @@ const AcRepairInAlTawarDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metadescription = String(description || "Are you finding AC Services in Al Tawar? Contact us 043300002 for your Ac Cooling Problem Air Conditioner Maintenance, Air con Repair your Area.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Al Tawar, Air Conditioning Service in Al Tawar, Air Con Maintenance & Air Con Installation in Al Tawar");
-    const metaURL = String(URL || "https://www.fajservices.ae//services/air-conditioning-repair/coverage-area/al-tawar/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-tawar/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

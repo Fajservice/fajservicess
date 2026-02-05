@@ -26,7 +26,7 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviews
  const metadescription = String(description || "AC Gas Leak Problem or Not Working? Call an 043300002 and get fast AC Services in Cedre Villas Silicon Oasis Dubai centralized air condition fix");
  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
  const metaKeyword = String(Keyword || "ac service in cedre villas silicon oasis dubai, ac repair in cedre villas silicon oasis dubai, ac maintenance in cedre villas silicon oasis dubai, ac gas filling in cedre villas silicon oasis dubai, ac installation in cedre villas silicon oasis dubai, ac cleaning in cedre villas silicon oasis dubai");
- const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-cedre-villas-silicon-oasis-dubai/");
+ const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/cedre-villas-silicon-oasis-dubai/");
  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
  subtitle = "Testimonial"

@@ -26,7 +26,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   // For SEO
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Cooline AC Repair, Cooline Air Conditioner Service, Cooline AC Maintenance Dubai, Cooline AC Fix Dubai, Cooline Air Condition Repair Dubai, Cooline Air Condition Maintenance Dubai, Cooline AC Service Dubai, Cooline Air Conditioner Repair Dubai, Cooline Air Conditioner Maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/cooline/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
   subtitle = "Testimonial"
@@ -76,38 +76,6 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
     fetchData();
   }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 575,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
   return (
     <>
       <HelmetProvider>
