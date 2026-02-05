@@ -406,6 +406,10 @@ export const router = createBrowserRouter([
         element: <Components.MaytagFridgeRepair />,
       },
       {
+        path: "/appliances-services-in-difc/",
+        element: <Components.ApplianceServiceInDifc />,
+      },
+      {
         path: "/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/",
         element: <Components.SmegFridgeRepair />,
       },
@@ -566,7 +570,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInTheSprings />,
       },
       {
-        path: "/ac-services-in-al-mirdif/",
+        path: "/services/air-conditioning-repair/coverage-area/al-mirdif/",
         element: <Components.AcRepairInAlMirdif />,
       },
       {
@@ -574,11 +578,11 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInInternationalMediaAndProductionZone />,
       },
       {
-        path: "/ac-services-in-business-bay/",
+        path: "/services/air-conditioning-repair/coverage-area/business-bay/",
         element: <Components.AcRepairInBusinessBay />,
       },
       {
-        path: "/ac-services-in-arabian-ranches/",
+        path: "/services/air-conditioning-repair/coverage-area/arabian-ranches/",
         element: <Components.AcRepairInArabianRanches />,
       },
       {
@@ -602,7 +606,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInImpz />,
       },
       {
-        path: "/ac-services-in-al-satwa/",
+        path: "/services/air-conditioning-repair/coverage-area/ac-services-in-al-satwa/",
         element: <Components.AcRepairInAlSatwa />,
       },
       {
@@ -630,7 +634,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInAlBadaa />,
       },
       {
-        path: "/ac-services-dubai-internet-city/",
+        path: "/services/air-conditioning-repair/coverage-area/dubai-internet-city/",
         element: <Components.AcRepairInDubaiInternetCity />,
       },
       {
@@ -1151,79 +1155,75 @@ export const router = createBrowserRouter([
         element: <Components.DelonghiCoffeeMachineRepair />,
       },
       {
-        path: "/appliances-services-in-al-mamzar/",
+        path: "/services/home-appliances-repair/coverage-area/al-mamzar/",
         element: <Components.AppliancesServiceInAlMamzar />,
       },
       {
-        path: "/appliances-services-in-al-mizhar/",
+        path: "/services/home-appliances-repair/coverage-area/al-mizhar/",
         element: <Components.AppliancesServiceInAlMizhar />,
       },
       {
-        path: "/appliances-services-in-damac-hills/",
+        path: "/services/home-appliances-repair/coverage-area/damac-hills/",
         element: <Components.AppliancesServiceInDamacHills />,
       },
       {
-        path: "/appliances-services-in-dubai-hills-estate/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-hills-estate/",
         element: <Components.AppliancesServiceInDubaiHillsEstate />,
       },
       {
-        path: "/appliances-services-in-dubai-production-city/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-production-city/",
         element: <Components.AppliancesServiceInDubaiProductionCity />,
       },
       {
-        path: "/appliances-services-in-town-square/",
+        path: "/services/home-appliances-repair/coverage-area/town-square/",
         element: <Components.AppliancesServiceInTownSquare />,
       },
       {
-        path: "/appliances-services-in-business-bay/",
+        path: "/services/home-appliances-repair/coverage-area/business-bay/",
         element: <Components.AppliancesServiceInBusinessBay />,
       },
       {
-        path: "/appliances-services-in-al-ghadeer-community/",
+        path: "/services/home-appliances-repair/coverage-area/al-ghadeer-community/",
         element: <Components.AppliancesServiceInAlGhadeerCommunity />,
       },
       {
-        path: "/appliances-services-in-the-gardens/",
+        path: "/services/home-appliances-repair/coverage-area/the-gardens/",
         element: <Components.AppliancesServiceInTheGardens />,
       },
       {
-        path: "/appliances-services-in-the-limestone-house-difc/",
+        path: "/services/home-appliances-repair/coverage-area/the-limestone-house-difc/",
         element: <Components.AppliancesServiceInLimestoneHouseDifc />,
       },
       {
-        path: "/appliances-services-in-international-media-and-production-zone/",
+        path: "/services/home-appliances-repair/coverage-area/international-media-and-production-zone/",
         element: <Components.AppliancesServiceInInternationalMediaAndProductionZone />,
       },
       {
-        path: "/appliances-services-in-jlt/",
+        path: "/services/home-appliances-repair/coverage-area/jlt/",
         element: <Components.AppliancesServicesInJlt />,
       },
       {
-        path: "/appliances-services-in-the-views/",
+        path: "/services/home-appliances-repair/coverage-area/the-views/",
         element: <Components.AppliancesServicesInTheViews />,
       },
       {
-        path: "/appliances-services-in-al-safa/",
+        path: "/services/home-appliances-repair/coverage-area/al-safa/",
         element: <Components.AppliancesServicesInAlSafa />,
       },
       {
-        path: "/appliances-services-in-jumeirah/",
-        element: <Components.AppliancesServicesInJumeirah />,
-      },
-      {
-        path: "/appliances-services-jumeirah/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah/",
         element: <Components.AppliancesServicesJumeirah />,
       },
       {
-        path: "/appliances-services-in-discovery-gardens/",
+        path: "/services/home-appliances-repair/coverage-area/discovery-gardens/",
         element: <Components.AppliancesServicesInDiscoveryGardens />,
       },
       {
-        path: "/appliances-services-in-the-lakes/",
+        path: "/services/home-appliances-repair/coverage-area/lakes/",
         element: <Components.AppliancesServicesInTheLakes />,
       },
       {
-        path: "/appliances-services-in-jumeirah-golf-estates/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-golf-estates/",
         element: <Components.AppliancesServicesInJumeirahGolfEstates />,
       },
       {
@@ -1231,75 +1231,75 @@ export const router = createBrowserRouter([
         element: <Components.HomeAppliancesServiceCentreInJltDubai />,
       },
       {
-        path: "/appliances-services-in-emirates-hills/",
+        path: "/services/home-appliances-repair/coverage-area/emirates-hills/",
         element: <Components.AppliancesServicesInEmiratesHills />,
       },
       {
-        path: "/appliances-services-in-victory-heights/",
+        path: "/services/home-appliances-repair/coverage-area/victory-heights/",
         element: <Components.AppliancesServicesInVictoryHeights />,
       },
       {
-        path: "/appliances-services-in-remraam/",
+        path: "/services/home-appliances-repair/coverage-area/remraam/",
         element: <Components.AppliancesServicesInRemraam />,
       },
       {
-        path: "/appliances-services-in-al-jafiliya/",
+        path: "/services/home-appliances-repair/coverage-area/al-jafiliya/",
         element: <Components.AppliancesServicesInAlJafiliya />,
       },
       {
-        path: "/appliances-services-in-al-furjan/",
+        path: "/services/home-appliances-repair/coverage-area/al-furjan/",
         element: <Components.AppliancesServicesInAlFurjan />,
       },
       {
-        path: "/appliances-services-in-dubai-investments-park/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-investments-park/",
         element: <Components.AppliancesServicesInDubaiInvestmentsPark />,
       },
       {
-        path: "/appliances-services-in-tecom/",
+        path: "/services/home-appliances-repair/coverage-area/tecom/",
         element: <Components.AppliancesServicesInTecom />,
       },
       {
-        path: "/appliances-services-in-al-barsha-south/",
+        path: "/services/home-appliances-repair/coverage-area/al-barsha-south/",
         element: <Components.AppliancesServicesInAlBarshaSouth />,
       },
       {
-        path: "/appliances-services-in-jumeirah-village/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-village/",
         element: <Components.AppliancesServicesInJumeirahVillage />,
       },
       {
-        path: "/appliances-services-in-al-badaa/",
+        path: "/services/home-appliances-repair/coverage-area/al-badaa/",
         element: <Components.AppliancesServicesInAlBadaa />,
       },
       {
-        path: "/appliances-services-in-al-satwa/",
+        path: "/services/home-appliances-repair/coverage-area/al-satwa/",
         element: <Components.AppliancesServicesInAlSatwa />,
       },
       {
-        path: "/appliances-services-in-dubai-healthcare-city/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-healthcare-city/",
         element: <Components.AppliancesServicesInDubaiHealthcareCity />,
       },
       {
-        path: "/appliances-services-in-jumeirah-islands/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-islands/",
         element: <Components.AppliancesServicesInJumeirahIslands />,
       },
       {
-        path: "/appliances-services-in-jebel-ali-village/",
+        path: "/services/home-appliances-repair/coverage-area/jebel-ali-village/",
         element: <Components.AppliancesServicesInJebelAliVillage />,
       },
       {
-        path: "/appliances-services-in-palm-jumeirah/",
+        path: "/services/home-appliances-repair/coverage-area/appliances-services-in-palm-jumeirah/",
         element: <Components.AppliancesServicesInPalmJumeirah />,
       },
       {
-        path: "/appliances-services-in-dubailand-mazaya/",
+        path: "/services/home-appliances-repair/coverage-area/dubailand-mazaya/",
         element: <Components.AppliancesServicesInDubailandMazaya />,
       },
       {
-        path: "/appliances-services-in-falcon-city-dubai/",
+        path: "/services/home-appliances-repair/coverage-area/falcon-city-dubai/",
         element: <Components.AppliancesServicesInFalconCityDubai />,
       },
       {
-        path: "/appliances-services-in-arabian-ranches/",
+        path: "/services/home-appliances-repair/coverage-area/arabian-ranches/",
         element: <Components.ApplianceServiceInArabianRanches />,
       },
       {
@@ -1335,99 +1335,99 @@ export const router = createBrowserRouter([
         element: <Components.FridgeRepairDubaiMarina />,
       },
       {
-        path: "/appliances-services-in-the-ritz-carlton-difc/",
+        path: "/services/home-appliances-repair/coverage-area/the-ritz-carlton-difc/",
         element: <Components.ApplianceServiceInTheRitzCarltonDifc />,
       },
       {
-        path: "/appliances-services-in-oud-metha/",
+        path: "/services/home-appliances-repair/coverage-area/oud-metha/",
         element: <Components.ApplianceServiceInOudMetha />,
       },
       {
-        path: "/appliances-services-in-umm-al-sheif/",
+        path: "/services/home-appliances-repair/coverage-area/umm-al-sheif/",
         element: <Components.ApplianceServiceInUmmAlSheif />,
       },
       {
-        path: "/appliances-services-in-umm-suqeim/",
+        path: "/services/home-appliances-repair/coverage-area/umm-suqeim/",
         element: <Components.ApplianceServiceInUmmSuqeim />,
       },
       {
-        path: "/appliances-services-in-jebel-ali-industrial-area/",
+        path: "/services/home-appliances-repair/coverage-area/jebel-ali-industrial-area/",
         element: <Components.ApplianceServiceInJebelAliIndustrialArea />,
       },
       {
-        path: "/home-appliances-installation-maintenance-repair-fix-service-centre-in-jumeirah-dubai/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-dubai/",
         element: <Components.ApplianceServiceInJumeriahDubai />,
       },
       {
-        path: "/appliances-services-in-jumeirah-heights/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-heights/",
         element: <Components.ApplianceServiceInJumeriahHeights />,
       },
       {
-        path: "/appliances-services-in-dubai-silicon-oasis/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/",
         element: <Components.ApplianceServiceInDubaiSiliconOasis />,
       },
       {
-        path: "/appliances-services-in-the-villa/",
+        path: "/services/home-appliances-repair/coverage-area/villa/",
         element: <Components.ApplianceServiceInTheVilla />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/al-waha-community/",
+        path: "/services/home-appliances-repair/coverage-area/al-waha-community/",
         element: <Components.ApplianceServiceInAlWahaCommunity />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/bur-dubai/",
+        path: "/services/home-appliances-repair/coverage-area/bur-dubai/",
         element: <Components.ApplianceServiceInBurDubai />,
       },
       {
-        path: "/appliances-services-in-jumeirah-village-triangle/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-village-triangle/",
         element: <Components.ApplianceServiceInJumeirahVillageTriangle />,
       },
       {
-        path: "/appliances-services-in-mankhool/",
+        path: "/services/home-appliances-repair/coverage-area/mankhool/",
         element: <Components.ApplianceServiceInMankhool />,
       },
       {
-        path: "/appliances-services-in-the-springs/",
+        path: "/services/home-appliances-repair/coverage-area/the-springs/",
         element: <Components.ApplianceServiceInTheSprings />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/al-manara/",
+        path: "/services/home-appliances-repair/coverage-area/al-manara/",
         element: <Components.ApplianceServiceInAlManara />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/al-barari/",
+        path: "/services/home-appliances-repair/coverage-area/al-barari/",
         element: <Components.ApplianceServiceInAlbarari />,
       },
       {
-        path: "/appliances-services-in-jvt/",
+        path: "/services/home-appliances-repair/coverage-area/jvt/",
         element: <Components.ApplianceServiceInJvt />,
       },
       {
-        path: "/appliances-services-in-nad-al-sheba/",
+        path: "/services/home-appliances-repair/coverage-area/nad-al-sheba/",
         element: <Components.ApplianceServiceInNadAlSheba />,
       },
       {
-        path: "/appliances-services-in-dubai-marina/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-marina/",
         element: <Components.ApplianceServiceInDubaiMarina />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/al-barsha/",
+        path: "/services/home-appliances-repair/coverage-area/al-barsha/",
         element: <Components.ApplianceServiceInAlBarsha />,
       },
       {
-        path: "/appliances-services-in-jumeirah-village-circle/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-village-circle/",
         element: <Components.ApplianceServiceInJumeirahVillageCircle />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/dubai-motor-city/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-motor-city/",
         element: <Components.ApplianceServiceInDubaiMotorCity />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/al-wasl/",
+        path: "/services/home-appliances-repair/coverage-area/al-wasl/",
         element: <Components.ApplianceServiceInAlWasl />,
       },
       {
-        path: "/appliances-services-in-jebel-ali-dip/",
+        path: "/services/home-appliances-repair/coverage-area/jebel-ali-dip/",
         element: <Components.ApplianceServiceInJebelAliDip />,
       },
       {
@@ -1435,131 +1435,131 @@ export const router = createBrowserRouter([
         element: <Components.ApplianceServiceInAcademyCity />,
       },
       {
-        path: "/appliances-services-in-dubailand-the-villa/",
+        path: "/services/home-appliances-repair/coverage-area/dubailand-the-villa/",
         element: <Components.ApplianceServiceInDubailandTheVilla />,
       },
       {
-        path: "/appliances-services-in-layan-community/",
+        path: "/services/home-appliances-repair/coverage-area/layan-community/",
         element: <Components.ApplianceServiceInLayanComminity />,
       },
       {
-        path: "/appliances-services-in-jvc/",
+        path: "/services/home-appliances-repair/coverage-area/jvc/",
         element: <Components.ApplianceServiceInJvc />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/deira/",
+        path: "/services/home-appliances-repair/coverage-area/deira/",
         element: <Components.ApplianceServiceInDeira />,
       },
       {
-        path: "/appliances-services-in-jumeirah-beach-residence/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-beach-residence/",
         element: <Components.ApplianceServiceInJumeirahBeachResidence />,
       },
       {
-        path: "/appliances-services-in-jge/",
+        path: "/services/home-appliances-repair/coverage-area/jge/",
         element: <Components.ApplianceServiceInJge />,
       },
       {
-        path: "/appliances-services-in-hudaiba/",
+        path: "/services/home-appliances-repair/coverage-area/hudaiba/",
         element: <Components.ApplianceServiceInHudaiba />,
       },
       {
-        path: "/appliances-services-in-jebel-ali-free-zone/",
+        path: "/services/home-appliances-repair/coverage-area/jebel-ali-free-zone/",
         element: <Components.ApplianceServiceInJebelAliFreeZone />,
       },
       {
-        path: "/appliances-services-in-dubai-sports-city/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-sports-city/",
         element: <Components.ApplianceServiceInDubaiSportCity />,
       },
       {
-        path: "/appliances-services-in-dubai-internet-city/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-internet-city/",
         element: <Components.ApplianceServiceInDubaiInternetCity />,
       },
       {
-        path: "/appliances-washing-machine-fridge-dishwasher-service-jbr-dubai/",
+        path: "/services/home-appliances-repair/coverage-area/jbr-dubai/",
         element: <Components.ApplianceServiceInJbrDubai />,
       },
       {
-        path: "/appliances-services-in-mudon/",
+        path: "/services/home-appliances-repair/coverage-area/mudon/",
         element: <Components.ApplianceServiceInMudon />,
       },
       {
-        path: "/appliances-services-in-jebel-ali/",
+        path: "/services/home-appliances-repair/coverage-area/jebel-ali/",
         element: <Components.ApplianceServiceInJebelAli />,
       },
       {
-        path: "/appliances-services-in-dip/",
+        path: "/services/home-appliances-repair/coverage-area/dip/",
         element: <Components.ApplianceServiceInDip />,
       },
       {
-        path: "/appliances-services-in-index-tower-difc/",
+        path: "/services/home-appliances-repair/coverage-area/index-tower-difc/",
         element: <Components.ApplianceServiceInIndexTowerDifc />,
       },
       {
-        path: "/appliances-services-in-impzy/",
+        path: "/services/home-appliances-repair/coverage-area/impzy/",
         element: <Components.ApplianceServiceInImpzy />,
       },
       {
-        path: "/appliances-services-in-jbr/",
+        path: "/services/home-appliances-repair/coverage-area/jbr/",
         element: <Components.ApplianceServiceInJbr />,
       },
       {
-        path: "/appliances-services-in-dubailand-mazaya-queue-point/",
+        path: "/services/home-appliances-repair/coverage-area/dubailand-mazaya-queue-point/",
         element: <Components.ApplianceServiceInDubailandMazayaQueuePoint />,
       },
       {
-        path: "/appliances-services-in-flamingo-villas-dubai/",
+        path: "/services/home-appliances-repair/coverage-area/flamingo-villas-dubai/",
         element: <Components.ApplianceServiceInFlamingoVillasDubai />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/cedre-villas-silicon-oasis-dubai/",
+        path: "/services/home-appliances-repair/coverage-area/cedre-villas-silicon-oasis-dubai/",
         element: <Components.ApplianceServiceInCedreVillasSiliconOasisDubai />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/al-karama/",
+        path: "/services/home-appliances-repair/coverage-area/al-karama/",
         element: <Components.ApplianceServiceInAlKaram />,
       },
       {
-        path: "/appliances-services-in-the-greens/",
+        path: "/services/home-appliances-repair/coverage-area/the-greens/",
         element: <Components.ApplianceServiceInTheGreens />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/arabian-ranches-2/",
+        path: "/services/home-appliances-repair/coverage-area/arabian-ranches-2/",
         element: <Components.ApplianceServiceInArabianRanches2 />,
       },
       {
-        path: "/appliances-services-in-jumeirah-lake-towers/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-lake-towers/",
         element: <Components.ApplianceServiceInJumeirahLakeTowers />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/dubai-media-city/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-media-city/",
         element: <Components.ApplianceServiceInDubaiMediaCity />,
       },
       {
-        path: "/appliances-services-in-the-meadows/",
+        path: "/services/home-appliances-repair/coverage-area/the-meadows/",
         element: <Components.ApplianceServiceInMeadows />,
       },
       {
-        path: "/appliances-services-in-dubai-studio-city/",
+        path: "/services/home-appliances-repair/coverage-area/dubai-studio-city/",
         element: <Components.ApplianceServiceInDubaiStudioCity />,
       },
       {
-        path: "/appliances-services-in-al-sufouh/",
+        path: "/services/home-appliances-repair/coverage-area/al-sufouh/",
         element: <Components.AppliancesServicesInAlSufouh />,
       },
       {
-        path: "/appliances-services-in-al-bada/",
+        path: "/services/home-appliances-repair/coverage-area/al-bada/",
         element: <Components.AppliancesServicesInAlBada />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/al-raffa/",
+        path: "/services/home-appliances-repair/coverage-area/al-raffa/",
         element: <Components.ApplianceServiceInAlRaffa />,
       },
       {
-        path: "/services/Home-appliances-repair/coverage-area/difc/",
+        path: "/services/home-appliances-repair/coverage-area/difc/",
         element: <Components.ApplianceServiceInDifc />,
       },
       {
-        path: "/appliances-services-in-jumeirah-park/",
+        path: "/services/home-appliances-repair/coverage-area/jumeirah-park/",
         element: <Components.ApplianceServiceInJumeirahPark />,
       },
       {
@@ -2271,7 +2271,7 @@ export const router = createBrowserRouter([
       },
       {
         path:"/ac-services-dubai-internet-city/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-internet-city/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-internet-city/" replace />
       },
       {
         path:"/ac-services-in-dubailand-mazaya-queue/",
@@ -2525,391 +2525,391 @@ export const router = createBrowserRouter([
       // Appliances redirections
       {
         path:"/appliances-services-in-academy-city/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/academy-city/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/academy-city/" replace />
       },
       {
         path:"/appliances-services-in-al-barsha/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-barsha/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/al-barsha/" replace />
       },
       {
         path:"/appliances-services-in-al-karama/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-karama/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/al-karama/" replace />
       },
       {
         path:"/appliances-services-in-al-barari/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-barari/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/al-barari/" replace />
       },
       {
         path:"/appliances-services-in-al-manara/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-manara/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/al-manara/" replace />
       },
       {
         path:"/appliances-services-in-al-raffa/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-raffa/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/al-raffa/" replace />
       },
       {
         path:"/appliances-services-in-al-waha-community/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-waha-community/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/al-waha-community/" replace />
       },
       {
         path:"/appliances-services-in-al-wasl/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-wasl/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/al-wasl/" replace />
       },
       {
         path:"/appliances-services-in-arabian-ranches-2/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/arabian-ranches-2/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/arabian-ranches-2/" replace />
       },
       {
         path:"/appliances-services-in-arabian-ranches/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/arabian-ranches/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/arabian-ranches/" replace />
       },
       {
         path:"/appliances-services-in-bur-dubai/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/bur-dubai/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/bur-dubai/" replace />
       },
       {
         path:"/appliances-services-in-cedre-villas-silicon-oasis-dubai/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/cedre-villas-silicon-oasis-dubai/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/cedre-villas-silicon-oasis-dubai/" replace />
       },
       {
         path:"/appliances-services-in-deira/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/deira/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/deira/" replace />
       },
       {
         path:"/appliances-services-in-difc/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/difc/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/difc/" replace />
       },
       {
         path:"/appliances-services-in-dip/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dip/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/dip/" replace />
       },
       {
         path:"/appliances-services-in-dubai-internet-city",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-internet-city/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-internet-city/" replace />
       },
       {
         path:"/appliances-services-in-dubailand-mazaya-queue-point/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubailand-mazaya-queue-point/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/dubailand-mazaya-queue-point/" replace />
       },
       {
         path:"/appliances-services-in-dubailand-the-villa/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubailand-the-villa/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/dubailand-the-villa/" replace />
       },
       {
         path:"/appliances-services-in-dubai-marina/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-marina/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-marina/" replace />
       },
       {
         path:"/appliances-services-in-dubai-media-city/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-media-city/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-media-city/" replace />
       },
       {
         path:"/appliances-services-in-dubai-motor-city/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-motor-city/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-motor-city/" replace />
       },
       {
         path:"/appliances-services-in-dubai-silicon-oasis/",
-        element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-silicon-oasis/" replace />
+        element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/" replace />
       },
       // {
       //   path:"/appliances-services-in-dubai-sports-city/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-sports-city/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-sports-city/" replace />
       // },
       // {
       //   path:"/appliances-services-in-dubai-studio-city/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-studio-city/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-studio-city/" replace />
       // },
       // {
       //   path:"/appliances-services-in-flamingo-villas-dubai/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/flamingo-villas-dubai/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/flamingo-villas-dubai/" replace />
       // },
       // {
       //   path:"/appliances-services-in-impzy/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/impzy/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/impzy/" replace />
       // },
       // {
       //   path:"/appliances-services-in-index-tower-difc/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/index-tower-difc/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/index-tower-difc/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jbr/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jbr/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jbr/" replace />
       // },
       // {
       //   path:"/appliances-washing-machine-fridge-dishwasher-service-jbr-dubai/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jbr/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jbr/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jebel-ali/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jebel-ali/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jebel-ali/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jebel-ali-dip/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jebel-ali-dip/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jebel-ali-dip/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jebel-ali-free-zone/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jebel-ali-free-zone/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jebel-ali-free-zone/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jebel-ali-industrial-area/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jebel-ali-industrial-area/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jebel-ali-industrial-area/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jge/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jge/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jge/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jumeirah-beach-residence/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah-beach-residence/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah-beach-residence/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jumeirah-lake-towers/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah-lake-towers/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah-lake-towers/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jumeirah-park/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah-park/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah-park/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jumeirah-village-circle/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah-village-circle/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah-village-circle/" replace />
       // },
       // {
       //   path:"/home-appliances-installation-maintenance-repair-fix-service-centre-in-jumeirah-dubai/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah-dubai/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah-dubai/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jumeirah-heights/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah-heights/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah-heights/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jvc/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jvc/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jvc/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jvt/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jvt/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jvt/" replace />
       // },
       // {
       //   path:"/appliances-services-in-layan-community/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/layan-community/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/layan-community/" replace />
       // },
       // {
       //   path:"/appliances-services-in-mankhool/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/mankhool/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/mankhool/" replace />
       // },
       // {
       //   path:"/appliances-services-in-the-meadows/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/the-meadows/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/the-meadows/" replace />
       // },
       // {
       //   path:"/appliances-services-in-mudon/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/mudon/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/mudon/" replace />
       // },
       // {
       //   path:"/appliances-services-in-nad-al-sheba/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/nad-al-sheba/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/nad-al-sheba/" replace />
       // },
       // {
       //   path:"/appliances-services-in-oud-metha/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/oud-metha/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/oud-metha/" replace />
       // },
       // {
       //   path:"/appliances-services-in-the-greens/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/the-greens/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/the-greens/" replace />
       // },
       // {
       //   path:"/appliances-services-in-the-ritz-carlton-difc/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/the-ritz-carlton-difc/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/the-ritz-carlton-difc/" replace />
       // },
       // {
       //   path:"/appliances-services-in-the-springs/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/the-springs/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/the-springs/" replace />
       // },
       // {
       //   path:"/appliances-services-in-the-villa/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/the-villa/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/the-villa/" replace />
       // },
       // {
       //   path:"/appliances-services-in-umm-al-sheif/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/umm-al-sheif/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/umm-al-sheif/" replace />
       // },
       // {
       //   path:"/appliances-services-in-umm-suqeim/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/umm-suqeim/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/umm-suqeim/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-ghadeer-community/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-ghadeer-community/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-ghadeer-community/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-mamzar/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-mamzar/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-mamzar/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-mizhar/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-mizhar/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-mizhar/" replace />
       // },
       // {
       //   path:"/appliances-services-in-business-bay/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/business-bay/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/business-bay/" replace />
       // },
       // {
       //   path:"/appliances-services-in-damac-hills/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/damac-hills/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/damac-hills/" replace />
       // },
       // {
       //   path:"/appliances-services-in-dubai-hills-estate/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-hills-estate/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-hills-estate/" replace />
       // },
       // {
       //   path:"/appliances-services-in-dubai-production-city/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-production-city/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-production-city/" replace />
       // },
       // {
       //   path:"/appliances-services-in-international-media-and-production-zone/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/international-media-and-production-zone/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/international-media-and-production-zone/" replace />
       // },
       // {
       //   path:"/appliances-services-in-the-limestone-house-difc/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/the-limestone-house-difc/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/the-limestone-house-difc/" replace />
       // },
       // {
       //   path:"/appliances-services-in-the-gardens/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/the-gardens/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/the-gardens/" replace />
       // },
       // {
       //   path:"/appliances-services-in-town-square/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/town-square/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/town-square/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-badaa/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-badaa/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-badaa/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-barsha-south/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-barsha-south/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-barsha-south/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-furjan/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-furjan/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-furjan/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-jafiliya/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-jafiliya/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-jafiliya/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-safa/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-safa/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-safa/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-satwa/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-satwa/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-satwa/" replace />
       // },
       // {
       //   path:"/appliances-services-in-al-sufouh/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-sufouh/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-sufouh/" replace />
       // },
       // {
       //   path:"/appliances-services-in-dubai-healthcare-city/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-healthcare-city/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-healthcare-city/" replace />
       // },
       // {
       //   path:"/appliances-services-in-dubailand-mazaya/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubailand-mazaya/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/dubailand-mazaya/" replace />
       // },
       // {
       //   path:"/appliances-services-in-falcon-city-dubai/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/falcon-city-dubai/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/falcon-city-dubai/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jebel-ali-village/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jebel-ali-village/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jebel-ali-village/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jlt/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jlt/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jlt/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jumeirah/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jumeirah-islands/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah-islands/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah-islands/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jumeirah-village/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah-village/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah-village/" replace />
       // },
       // {
       //   path:"/appliances-services-in-palm-jumeirah/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/palm-jumeirah/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/palm-jumeirah/" replace />
       // },
       // {
       //   path:"/appliances-services-in-remraam/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/remraam/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/remraam/" replace />
       // },
       // {
       //   path:"/appliances-services-in-tecom/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/tecom/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/tecom/" replace />
       // },
       // {
       //   path:"/appliances-services-in-the-lakes/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/the-lakes/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/the-lakes/" replace />
       // },
       // {
       //   path:"/appliances-services-in-the-views/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/the-views/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/the-views/" replace />
       // },
       // {
       //   path:"/appliances-services-in-victory-heights/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/victory-heights/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/victory-heights/" replace />
       // },
       // {
       //   path:"/appliances-services-in-jumeirah/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jumeirah/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jumeirah/" replace />
       // },
       // {
       //   path:"/fridge-repair-dubai-marina/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-marina/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-marina/" replace />
       // },
       // {
       //   path:"/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-marina/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-marina/" replace />
       // },
       // {
       //   path:"/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/jlt/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/jlt/" replace />
       // },
       // {
       //   path:"/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-barsha/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-barsha/" replace />
       // },
       // {
       //   path:"/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/business-bay/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/business-bay/" replace />
       // },
       // {
       //   path:"/washing-machine-repair-in-al-quoz-refrigerator-repair-in-al-quoz-fridge-repair-in-al-quoz-dishwasher-oven-cooker-stove-appliance-maintenance-fix-service-in-al-quoz-dubai/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/al-quoz/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/al-quoz/" replace />
       // },
       // {
       //   path:"/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/dubai-marina/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/dubai-marina/" replace />
       // },
       // {
       //   path:"/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/palm-jumeirah/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/palm-jumeirah/" replace />
       // },
       // {
       //   path:"/washing-machine-repair-town-dubai-fridge-repair-town-dubai-refrigerator-repairing-town-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-town-dubai-dishwasher-installation-fixing-mainte/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/town-dubai/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/town-dubai/" replace />
       // },
       // {
       //   path:"/wasn-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-town-dubai-dishwasher-installation-fixing-mainte/",
-      //   element:<Navigate to="/services/Home-appliances-repair/coverage-area/town-dubai/" replace />
+      //   element:<Navigate to="/services/home-appliances-repair/coverage-area/town-dubai/" replace />
       // },
       
     ],

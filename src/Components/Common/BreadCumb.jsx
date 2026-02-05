@@ -2,27 +2,34 @@ import { Link, useLocation } from 'react-router-dom';
 
 const Breadcrumb = () => {
   const location = useLocation();
+  const isArabic = /[\u0600-\u06FF]/.test(decodeURIComponent(location.pathname));
   
   const generateBreadcrumbs = () => {
     const pathnames = location.pathname.split('/').filter((x) => x);
     
     const formatLabel = (segment) => {
-    const acronyms = ["ac","jvc","jvt","lg","dip", "jafza", "difc","impz","jlt","jge"]; // you can add more later
+      const decoded = decodeURIComponent(segment);
+      
+      if (/[\u0600-\u06FF]/.test(decoded)) {
+        return decoded.replace(/-/g, ' ');
+      }
+      
+      // For English, apply capitalization rules
+      const acronyms = ["ac", "jvc", "jvt", "lg", "dip", "jafza", "difc", "impz", "jlt", "jge"];
 
-      return segment
+      return decoded
         .split("-")
         .map((word) => {
           if (acronyms.includes(word.toLowerCase())) {
-            return word.toUpperCase(); // AC
+            return word.toUpperCase();
           }
           return word.charAt(0).toUpperCase() + word.slice(1);
         })
         .join(" ");
     };
 
-
     const breadcrumbs = [
-      { label: 'Home', path: '/' }
+      { label: isArabic ? 'الرئيسية' : 'Home', path: '/' }
     ];
 
     let currentPath = '';
@@ -40,7 +47,11 @@ const Breadcrumb = () => {
   const breadcrumbs = generateBreadcrumbs();
 
   return (
-    <nav className="breadcrumb-nav" aria-label="breadcrumb">
+    <nav 
+      className="breadcrumb-nav" 
+      aria-label="breadcrumb"
+      dir={isArabic ? 'rtl' : 'ltr'}
+    >
       <div className="container">
         <ol className="breadcrumb-list">
           {breadcrumbs.map((crumb, index) => {
@@ -53,7 +64,9 @@ const Breadcrumb = () => {
                     <Link to={crumb.path} className="breadcrumb-link">
                       {crumb.label}
                     </Link>
-                    <span className="breadcrumb-separator">&gt;</span>
+                    <span className="breadcrumb-separator">
+                      {isArabic ? '‹' : '›'}
+                    </span>
                   </>
                 ) : (
                   <span className="breadcrumb-current">{crumb.label}</span>
@@ -77,6 +90,10 @@ const Breadcrumb = () => {
           list-style: none;
           margin: 0;
           padding: 0;
+        }
+        
+        .breadcrumb-nav[dir="rtl"] .breadcrumb-list {
+          flex-direction: row;
         }
         
         .breadcrumb-item {
