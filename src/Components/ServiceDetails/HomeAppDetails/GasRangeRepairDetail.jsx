@@ -107,7 +107,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/gas-cooker-repair-service/" />
+          <link rel="canonical" href="https://www.fajservices.ae/services/home-appliances-repair/gas-cooker-repair-service/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="Gas Cooker Repair in Dubai | Cooking Range Service Near Me" />

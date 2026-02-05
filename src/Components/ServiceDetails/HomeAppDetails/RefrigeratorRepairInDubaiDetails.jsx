@@ -635,7 +635,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
             </div>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
-                <GetQuoteButton />
+                <WhatsappIconButton />
                 <CallNowButton />
               </div>
             </div>
