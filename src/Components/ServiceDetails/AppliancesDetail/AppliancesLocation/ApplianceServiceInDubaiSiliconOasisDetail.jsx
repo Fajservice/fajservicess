@@ -27,7 +27,7 @@ const ApplianceServiceInDubaiSiliconOasisDetail = ({ subtitle, title, reviewsbg,
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Dubai Silicon Oasis, Fridge Repair Dubai Silicon Oasis, Dishwasher Repair Dubai Silicon Oasis, Oven Repair Dubai Silicon Oasis, Appliance Service Dubai Silicon Oasis");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -446,7 +446,7 @@ const ApplianceServiceInDubaiSiliconOasisDetail = ({ subtitle, title, reviewsbg,
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                                     </div>
                                 </div>
 

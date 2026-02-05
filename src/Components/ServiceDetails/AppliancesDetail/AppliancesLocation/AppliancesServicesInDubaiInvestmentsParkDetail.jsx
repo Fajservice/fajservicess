@@ -26,7 +26,7 @@ const AppliancesServicesInDubaiInvestmentsParkDetail = ({ subtitle, title, revie
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubai Investments Park, Fridge Repair in Dubai Investments Park, Dishwasher Repair in Dubai Investments Park, Oven Repair in Dubai Investments Park, Appliance Service in Dubai Investments Park, Appliance Repair in Dubai Investments Park");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-investments-park/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-investments-park/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -445,7 +445,7 @@ const AppliancesServicesInDubaiInvestmentsParkDetail = ({ subtitle, title, revie
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                                     </div>
                                 </div>
 

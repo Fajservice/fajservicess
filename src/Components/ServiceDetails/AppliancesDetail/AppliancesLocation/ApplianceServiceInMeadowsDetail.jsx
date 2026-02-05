@@ -26,7 +26,7 @@ const ApplianceServiceInMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in the Meadows, Appliance Service in Meadows, Dishwasher Repair in the meadows, Oven Repair the meadows");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-meadows/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-meadows/");
 
 
     subtitle = "Testimonial"
@@ -446,7 +446,7 @@ const ApplianceServiceInMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                                     </div>
                                 </div>
 

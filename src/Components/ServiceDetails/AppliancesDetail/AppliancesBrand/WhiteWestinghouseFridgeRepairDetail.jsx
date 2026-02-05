@@ -179,7 +179,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "16px" }}>Fast and Reliable White Westinghouse Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with White Westinghouse products, never happen at a convenient time. That’s why our trained and qualified technicians are here to provide reliable White Westinghouse <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your appliance up and running again before it disrupts your routine.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with White Westinghouse products, never happen at a convenient time. That’s why our trained and qualified technicians are here to provide reliable White Westinghouse <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your appliance up and running again before it disrupts your routine.
                 </p>
 
               </div>
@@ -485,7 +485,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your White Westinghouse appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your White Westinghouse appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -559,112 +559,112 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
             <h3 className="" style={{ fontSize: "25px" }}>We specialize in White Westinghouse appliance services of the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"> <b> White Westinghouse Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your White Westinghouse washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best White Westinghouse <a href="https://www.fajservices.ae/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>
+                <p className="mb-0"> <b> White Westinghouse Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your White Westinghouse washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best White Westinghouse <a href="https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>
                 <p className="mb-0"> <b> White Westinghouse Fridge Repair Near You in Dubai: </b> If you are having problems with your White Westinghouse refrigerator, please contact the FAJ team for same-day White Westinghouse <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair service</a> in Dubai. </p>
                 <p className="mb-0"> <b> White Westinghouse Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for White Westinghouse freezer repair and service in Dubai and Sharjah. </p>
                 <p className="mb-0"> <b> White Westinghouse Home Appliance Service Center Near You: </b> If you are seeking the best repair service White Westinghouse washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing White Westinghouse fridge freezer and are recognized as the leading provider for repairs of fix White Westinghouse cooking range, stove fixes, induction cooktops, repair White Westinghouse washing machines, and White Westinghouse refrigerator in the area. </p>
                 <p className="mb-0"> <b> White Westinghouse Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your White Westinghouse dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's White Westinghouse service center in Dubai, which specializes in integrated White Westinghouse dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                 <p className="mb-0"> <b> White Westinghouse Cooking Range and Oven Repair Near You: </b> We provide expert repair service White Westinghouse cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with White Westinghouse refrigerator repair, fix White Westinghouse dishwasher, White Westinghouse dryer fixer, and more. </p>
                 <p className="mb-0"> <b> White Westinghouse Dryer Repair and Service Near You: </b> Is your White Westinghouse dryer not working properly? Looking for a reliable White Westinghouse dryer service in Dubai? Contact us for same-day assistance! </p>
-                <p className="mb-0"> <b> White Westinghouse Oven Repair Near Me Dubai: </b> If you're searching for the best company for White Westinghouse <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for White Westinghouse ovens. FAJ is recognized as the leading service center for White Westinghouse oven repair and maintenance in Dubai. </p>
+                <p className="mb-0"> <b> White Westinghouse Oven Repair Near Me Dubai: </b> If you're searching for the best company for White Westinghouse <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for White Westinghouse ovens. FAJ is recognized as the leading service center for White Westinghouse oven repair and maintenance in Dubai. </p>
 
                 <h4 className="mt-3">We offer service for White Westinghouse appliances in the Dubai area</h4>
                 <p>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/damac-hills/">Damac Hills</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barari/">Al Barari</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barsha/">Al Barsha</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-safa/">Al Safa</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches/">Arabian Ranches</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-investments-park/">Dubai Investments Park</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dip/">DIP</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-production-city/">Dubai Production City</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impzy/">IMPZ</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-sports-city/">Dubai Sports City</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-studio-city/">Dubai Studio City</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jbr/">JBR</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-beach-residence/">Jumeirah Beach Residence</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jlt/">JLT</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-lake-towers/">Jumeirah Lake Towers</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvc/">JVC</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-circle/">Jumeirah Village Circle</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvt/">JVT</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-triangle/">Jumeirah Village Triangle</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-village/">Jebel Ali Village</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah/">Jumeirah</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-golf-estates/">Jumeirah Golf Estates</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-meadows/">Meadows</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-motor-city/">Motor City</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/town-square/">Town Square</a>
                   <span>&nbsp;|&nbsp;</span>
 
                   <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Suqeim</a>
 
                 </p>
               </div>

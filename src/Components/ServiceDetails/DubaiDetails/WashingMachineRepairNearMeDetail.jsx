@@ -392,7 +392,7 @@ const WashingMachineRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your washing machine runs smoothly and providing peace of mind.</p>
+                    <p>With <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your washing machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 

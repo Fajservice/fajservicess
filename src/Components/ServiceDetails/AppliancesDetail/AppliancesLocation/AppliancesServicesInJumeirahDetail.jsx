@@ -27,7 +27,7 @@ const AppliancesServicesInJumeirahDetail = ({ subtitle, title, reviewsbg, titleS
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jumeirah, Refrigerator Repair in Jumeirah, Appliance Service in Jumeirah, Appliance Repair in Jumeirah, Fridge Repair in Jumeirah, Washing Machine Repair in Jumeirah, Dishwasher Repair in Jumeirah, Tumble Dryer Repair in Jumeirah, Stove Repair in Jumeirah, Oven Repair in Jumeirah, Freezer Repair in Jumeirah, Coffee Machine Repair in Jumeirah");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -448,7 +448,7 @@ const AppliancesServicesInJumeirahDetail = ({ subtitle, title, reviewsbg, titleS
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                                     </div>
                                 </div>
 

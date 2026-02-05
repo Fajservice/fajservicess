@@ -525,7 +525,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>An annual <Link to="/appliances-amc-service/"> maintenance contract</Link>, offers a full year of service, ensuring your freezer and chiller operate smoothly for your peace of mind.</p>
+                    <p>An annual <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, offers a full year of service, ensuring your freezer and chiller operate smoothly for your peace of mind.</p>
                   </div>
                 </div>
 

@@ -394,7 +394,7 @@ export const router = createBrowserRouter([
         element: <Components.NeffFridgeRepair />,
       },
       {
-        path: "/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/",
+        path: "/services/home-appliances-repair/brands/ariston/",
         element: <Components.AristonFrideRepair />,
       },
       {
@@ -958,7 +958,7 @@ export const router = createBrowserRouter([
         element: <Components.BekoFridgeRepair />,
       },
       {
-        path: "/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/",
+        path: "/services/home-appliances-repair/brands/aeg/",
         element: <Components.AegFridgeRepair />,
       },
 
@@ -987,7 +987,7 @@ export const router = createBrowserRouter([
         element: <Components.DaewooHomeApplianceRepair />,
       },
       {
-        path: "/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
+        path: "/services/home-appliances-repair/brands/aftron/",
         element: <Components.AftronFridgeRepair />,
       },
       {
@@ -1015,7 +1015,7 @@ export const router = createBrowserRouter([
         element: <Components.ElectroluxFridgeRepair />,
       },
       {
-        path: "/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/",
+        path: "/services/home-appliances-repair/brands/admiral/",
         element: <Components.AdmiralFridgeRepair />,
       },
       {
@@ -1039,7 +1039,7 @@ export const router = createBrowserRouter([
         element: <Components.HaierFridgeRepair />,
       },
       {
-        path: "/baumatic-appliances/",
+        path: "/services/home-appliances-repair/brands/baumatic/",
         element: <Components.BaumaticAppliances />,
       },
       {
@@ -1077,10 +1077,6 @@ export const router = createBrowserRouter([
       {
         path: "/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/",
         element: <Components.SearsHomeAppInstallation />,
-      },
-      {
-        path: "/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/",
-        element: <Components.BaumaticRefrigeratorRepair />,
       },
       {
         path: "/ge-general-electric-fridge-repair-in-dubai-ge-general-electric-washing-machine-repair-in-dubai-ge-general-electric-cooker-repair-in-dubai-ge-general-electric-oven-repair-in-dubai-ge-general-electric-a/",
@@ -1287,7 +1283,7 @@ export const router = createBrowserRouter([
         element: <Components.AppliancesServicesInJebelAliVillage />,
       },
       {
-        path: "/services/home-appliances-repair/coverage-area/appliances-services-in-palm-jumeirah/",
+        path: "/services/home-appliances-repair/coverage-area/palm-jumeirah/",
         element: <Components.AppliancesServicesInPalmJumeirah />,
       },
       {
@@ -2937,6 +2933,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/brands/daewoo/" replace />
       },
       {
+<<<<<<< HEAD
         path:"/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/",
         element:<Navigate to="/services/air-conditioning-repair/brands/daikool/" replace />
       },
@@ -3044,6 +3041,31 @@ export const router = createBrowserRouter([
         path:"/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
         element:<Navigate to="/services/air-conditioning-repair/brands/york/" replace />
       },
+=======
+        path:"/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/",
+        element:<Navigate to="/services/home-appliances-repair/brands/admiral/" replace />
+      },
+      {
+        path:"/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/",
+        element:<Navigate to="/services/home-appliances-repair/brands/aeg/" replace />
+      },
+      {
+        path:"/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
+        element:<Navigate to="/services/home-appliances-repair/brands/aftron/" replace />
+      },
+      {
+        path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repairs-service-in-dubai-ariston/",
+        element:<Navigate to="/services/home-appliances-repair/brands/ariston/" replace />
+      },
+      {
+        path:"/baumatic-appliances/",
+        element:<Navigate to="/services/home-appliances-repair/brands/baumatic/" replace />
+      },
+      {
+        path:"/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/",
+        element:<Navigate to="/services/home-appliances-repair/brands/baumatic/" replace />
+      }
+>>>>>>> af0c854d1dddd462801519d026a1afabb8e43085
       
     ],
   }

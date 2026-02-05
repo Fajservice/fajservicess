@@ -169,23 +169,23 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
                   <ul className="cs_categories cs_fs_16 cs_mb_20">
-                    <li><a href="/ac-service-in-dubai">
+                    <li><a href="/services/air-conditioning-repair/ac-service/">
                       <span>AC Service in Dubai</span>
                       <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>
-                    <li><a href="/ac-service-in-dubai">
+                    <li><a href="/services/air-conditioning-repair/ac-service/">
                       <span>Refrigerator Repair</span>
                       <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>
-                    <li><a href="/ac-service-in-dubai">
+                    <li><a href="/services/air-conditioning-repair/ac-service/">
                       <span>BBQ Service &amp; Repair</span>
                       <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>
-                    <li><a href="/ac-service-in-dubai">
+                    <li><a href="/services/air-conditioning-repair/ac-service/">
                       <span>Coffee Machine Repair</span>
                       <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>
-                    <li><a href="/ac-service-in-dubai">
+                    <li><a href="/services/air-conditioning-repair/ac-service/">
                       <span>Vacuum Cleaner Repair</span>
                       <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>

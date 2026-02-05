@@ -22,7 +22,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
   const metadescription = String(description || "Best FAJ Coffee machine service center in Dubai. Call us for home / office espresso machine, restaurant, coffee maker repair and maintenance near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Coffee Machine Repair, Coffee Machine Service, Coffee Machine Descaling, Coffee Machine Service Center");
-  const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-service-center-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/Coffee-machine-servicing-title-image.avif");
 
   subtitle = "Testimonial"
@@ -551,7 +551,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machine runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 

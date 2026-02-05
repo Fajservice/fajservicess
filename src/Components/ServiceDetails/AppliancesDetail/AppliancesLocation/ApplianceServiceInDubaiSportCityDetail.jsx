@@ -26,7 +26,7 @@ const ApplianceServiceInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, ti
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubai Sports City, Fridge Repair in Dubai Sports City, Dishwasher Repair in Dubai Sports City, Oven Repair in Dubai Sports City, Appliance Service in Dubai Sports City");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-sports-city/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-sports-city/");
 
 
     subtitle = "Testimonial"
@@ -446,7 +446,7 @@ const ApplianceServiceInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, ti
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                                     </div>
                                 </div>
 

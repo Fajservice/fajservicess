@@ -27,7 +27,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Baumatic Appliances, Baumatic Washing Machine Repair, Baumatic Fridge Repair, Baumatic Dishwasher Repair, Baumatic Oven Repair, Baumatic Appliance Service Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/baumatic-appliances/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/baumatic/");
 
 
     subtitle = "Testimonial"
@@ -142,7 +142,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                 <h2 className="cs_fs_20 mb-1">Baumatic Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     If you're having issues with your Baumatic appliances, our repair team at FAJ is ready to help. We offer quick and affordable solutions for problems like washing machines that won’t drain, refrigerators not cooling, ovens that don’t heat, and dishwashers that won’t turn on.
-                                    <br />For reliable Baumatic <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, trust us to resolve any appliance issue you have.
+                                    <br />For reliable Baumatic <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, trust us to resolve any appliance issue you have.
 
                                 </p>
 
@@ -451,7 +451,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     </div>
                                     <div className="usptext">
                                         <h3>Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Baumatic appliance running smoothly and reliably.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Baumatic appliance running smoothly and reliably.</p>
                                     </div>
                                 </div>
 
@@ -523,112 +523,112 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <h3>We specialize in Baumatic appliance services of the following types</h3>
                         <div className="row">
                             <div className="col-12">
-                                <p className="mb-0"> <b> Baumatic Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your Baumatic washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best Baumatic <a href="https://www.fajservices.ae/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>
+                                <p className="mb-0"> <b> Baumatic Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your Baumatic washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best Baumatic <a href="https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>
                                 <p className="mb-0"> <b> Baumatic Fridge Repair Near You in Dubai: </b> If you are having problems with your Baumatic refrigerator, please contact the FAJ team for same-day Baumatic <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair service</a> in Dubai. </p>
                                 <p className="mb-0"> <b> Baumatic Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for Baumatic freezer repair and service in Dubai and Sharjah. </p>
                                 <p className="mb-0"> <b> Baumatic Home Appliance Service Center Near You: </b> If you are seeking the best repair service Baumatic washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Baumatic fridge freezer and are recognized as the leading provider for repairs of fix Baumatic cooking range, stove fixes, induction cooktops, repair Baumatic washing machines, and Baumatic refrigerator in the area. </p>
                                 <p className="mb-0"> <b> Baumatic Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Baumatic dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Baumatic service center in Dubai, which specializes in integrated Baumatic dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                                 <p className="mb-0"> <b> Baumatic Cooking Range and Oven Repair Near You: </b> We provide expert repair service Baumatic cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Baumatic refrigerator repair, fix Baumatic dishwasher, Baumatic dryer fixer, and more. </p>
                                 <p className="mb-0"> <b> Baumatic Dryer Repair and Service Near You: </b> Is your Baumatic dryer not working properly? Looking for a reliable Baumatic dryer service in Dubai? Contact us for same-day assistance! </p>
-                                <p className="mb-0"> <b> Baumatic Oven Repair Near Me Dubai: </b> If you're searching for the best company for Baumatic <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Baumatic ovens. FAJ is recognized as the leading service center for Baumatic oven repair and maintenance in Dubai. </p>
+                                <p className="mb-0"> <b> Baumatic Oven Repair Near Me Dubai: </b> If you're searching for the best company for Baumatic <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Baumatic ovens. FAJ is recognized as the leading service center for Baumatic oven repair and maintenance in Dubai. </p>
 
                                 <h4 className="mt-3">We offer service for Baumatic appliances in the Dubai area</h4>
                                 <p>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/damac-hills/">Damac Hills</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barari/">Al Barari</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barsha/">Al Barsha</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-safa/">Al Safa</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches/">Arabian Ranches</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-investments-park/">Dubai Investments Park</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dip/">DIP</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-production-city/">Dubai Production City</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impzy/">IMPZ</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-sports-city/">Dubai Sports City</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-studio-city/">Dubai Studio City</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jbr/">JBR</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-beach-residence/">Jumeirah Beach Residence</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jlt/">JLT</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-lake-towers/">Jumeirah Lake Towers</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvc/">JVC</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-circle/">Jumeirah Village Circle</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvt/">JVT</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-triangle/">Jumeirah Village Triangle</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-village/">Jebel Ali Village</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah/">Jumeirah</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-golf-estates/">Jumeirah Golf Estates</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-meadows/">Meadows</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-motor-city/">Motor City</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/town-square/">Town Square</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/emirates-hills/">Emirates Hills</a>
                                     <span>&nbsp;|&nbsp;</span>
 
-                                    <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a>
+                                    <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Suqeim</a>
 
                                 </p>
 

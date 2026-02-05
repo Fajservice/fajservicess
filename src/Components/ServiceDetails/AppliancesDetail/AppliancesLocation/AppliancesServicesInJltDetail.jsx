@@ -27,7 +27,7 @@ const AppliancesServicesInJltDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in JLT, Fridge Repair in JLT, Dishwasher Repair in JLT, Appliance Services in JLT, Appliance Repair in JLT, Appliance Maintenance in JLT, Appliance Installation in JLT, Home Appliances Service in JLT");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jlt/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jlt/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -444,7 +444,7 @@ const AppliancesServicesInJltDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 

@@ -27,7 +27,7 @@ const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in IMPZ, Fridge Repair in IMPZ, Oven Repair in IMPZ, Dishwasher Repair in IMPZ, Appliance Service in IMPZ, Appliance Maintenance in IMPZ");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-impzy/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impzy/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -445,7 +445,7 @@ const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                                     </div>
                                 </div>
 
