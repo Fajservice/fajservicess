@@ -26,7 +26,7 @@ const ApplianceServiceInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, ti
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubai Sports City, Fridge Repair in Dubai Sports City, Dishwasher Repair in Dubai Sports City, Oven Repair in Dubai Sports City, Appliance Service in Dubai Sports City");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-sports-city/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-sports-city/");
 
 
     subtitle = "Testimonial"

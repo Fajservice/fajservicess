@@ -29,7 +29,7 @@ const ApplianceServiceInJumeirahVillageTriangleDetail = ({ subtitle, title, revi
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Village Triangle, Refrigerator Repair in Jumeirah Village Triangle, Dishwasher Repair in Jumeirah Village Triangle, Appliance Service in Jumeirah Village Triangle, Home Appliance Service in Jumeirah Village Triangle, Appliance Repair in Jumeirah Village Triangle");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-triangle/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

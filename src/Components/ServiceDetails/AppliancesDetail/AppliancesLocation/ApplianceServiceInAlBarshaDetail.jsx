@@ -25,7 +25,7 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "appliances services in Al Barsha, washing machine repair in al barsha, refrigerator repair in al barsha, dishwasher repair in al barsha, oven repair in al barsha, appliance repair in al barsha, appliance service center in al barsha, appliance maintenance in al barsha");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barsha/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barsha/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

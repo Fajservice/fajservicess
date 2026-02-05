@@ -420,7 +420,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jebel-ali-village/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-village/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -561,32 +561,32 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jlt/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jlt/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-palm-jumeirah/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/palm-jumeirah/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jbr/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jbr/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-beach-residence/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-dubai-marina/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-marina/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-lake-towers/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -606,27 +606,27 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-circle/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jvc/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvc/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-triangle/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jvt/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvt/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-golf-estates/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -646,12 +646,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-emirates-hills/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/emirates-hills/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-the-meadows/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-meadows/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -706,22 +706,22 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-al-barsha/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barsha/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-dubai-motor-city/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-motor-city/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-dubai-sports-city/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-sports-city/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-impzy/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impzy/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -756,7 +756,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-arabian-ranches/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -766,12 +766,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-dubai-studio-city/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-studio-city/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-al-barari/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barari/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -781,7 +781,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-dip/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dip/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -831,7 +831,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-dubai-investments-park/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-investments-park/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -851,7 +851,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -871,12 +871,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-umm-suqeim/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/umm-suqeim/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-al-safa/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-safa/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -886,7 +886,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-jumeirah/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -981,7 +981,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-business-bay/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/business-bay/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -1886,17 +1886,17 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-damac-hills/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/damac-hills/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-hills-estate/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-town-square/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/town-square/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>
@@ -1906,7 +1906,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/appliances-services-in-dubai-production-city/</loc>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-production-city/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
 </url>

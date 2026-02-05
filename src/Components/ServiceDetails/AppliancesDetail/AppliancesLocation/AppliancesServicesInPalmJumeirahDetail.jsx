@@ -27,7 +27,7 @@ const AppliancesServicesInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, ti
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in palm jumeirah, Fridge Repair in palm jumeirah, Dishwasher Repair in palm jumeirah, Oven Repair in palm jumeirah, Appliance Service in palm jumeirah, Appliance Repair in palm jumeirah, Appliance Maintenance in palm jumeirah, Appliance Installation in palm jumeirah");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-palm-jumeirah/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/palm-jumeirah/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

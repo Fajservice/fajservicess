@@ -26,7 +26,7 @@ const ApplianceServiceInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, t
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubai, Fridge Repair in Dubai, Dishwasher Repair in Dubai, Oven Repair in Dubai, Appliance Service in Dubai Studio City");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-studio-city/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-studio-city/");
 
 
     subtitle = "Testimonial"

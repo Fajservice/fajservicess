@@ -25,7 +25,7 @@ const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, reviews
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubai production city, refrigerator repair in dubai production city, dishwasher repair in dubai production city, oven repair in dubai production city, appliance service in dubai production city, appliance repair in dubai production city, appliance maintenance in dubai production city");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-production-city/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-production-city/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

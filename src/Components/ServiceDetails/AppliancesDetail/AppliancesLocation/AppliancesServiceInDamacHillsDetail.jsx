@@ -26,7 +26,7 @@ const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, title
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Damac Hills, Refrigerator Repair in Damac Hills, Dishwasher Repair in Damac Hills, Oven Repair in Damac Hills, Appliance Service in Damac Hills, Appliance Repair in Damac Hills, Appliance Maintenance in Damac Hills");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-damac-hills/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/damac-hills/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -27,7 +27,7 @@ const AppliancesServicesInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Emirates Hills, Refrigerator in Emirates Hills, Dishwasher in Emirates Hills, Tumble Dryer in Emirates Hills, Stove in Emirates Hills, Oven in Emirates Hills, Freezer in Emirates Hills, Coffee Machine in Emirates Hills");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-emirates-hills/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/emirates-hills/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

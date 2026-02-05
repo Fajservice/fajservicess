@@ -1039,7 +1039,7 @@ export const router = createBrowserRouter([
         element: <Components.HaierFridgeRepair />,
       },
       {
-        path: "/baumatic-appliances/",
+        path: "/services/home-appliances-repair/brands/baumatic/",
         element: <Components.BaumaticAppliances />,
       },
       {
@@ -1077,10 +1077,6 @@ export const router = createBrowserRouter([
       {
         path: "/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/",
         element: <Components.SearsHomeAppInstallation />,
-      },
-      {
-        path: "/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/",
-        element: <Components.BaumaticRefrigeratorRepair />,
       },
       {
         path: "/ge-general-electric-fridge-repair-in-dubai-ge-general-electric-washing-machine-repair-in-dubai-ge-general-electric-cooker-repair-in-dubai-ge-general-electric-oven-repair-in-dubai-ge-general-electric-a/",
@@ -1287,7 +1283,7 @@ export const router = createBrowserRouter([
         element: <Components.AppliancesServicesInJebelAliVillage />,
       },
       {
-        path: "/services/home-appliances-repair/coverage-area/appliances-services-in-palm-jumeirah/",
+        path: "/services/home-appliances-repair/coverage-area/palm-jumeirah/",
         element: <Components.AppliancesServicesInPalmJumeirah />,
       },
       {
@@ -2951,6 +2947,14 @@ export const router = createBrowserRouter([
       {
         path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repairs-service-in-dubai-ariston/",
         element:<Navigate to="/services/home-appliances-repair/brands/ariston/" replace />
+      },
+      {
+        path:"/baumatic-appliances/",
+        element:<Navigate to="/services/home-appliances-repair/brands/baumatic/" replace />
+      },
+      {
+        path:"/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/",
+        element:<Navigate to="/services/home-appliances-repair/brands/baumatic/" replace />
       }
       
     ],
