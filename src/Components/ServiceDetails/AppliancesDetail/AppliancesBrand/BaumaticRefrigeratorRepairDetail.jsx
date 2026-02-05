@@ -29,7 +29,7 @@ const BaumaticRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Baumatic Refrigerator Repair, Baumatic Washing Machine Repair, Baumatic Dishwasher Repair, Baumatic Cooker Oven Repair, Baumatic Fridge Repair in Dubai, Baumatic Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/ ");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/baumatic/ ");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

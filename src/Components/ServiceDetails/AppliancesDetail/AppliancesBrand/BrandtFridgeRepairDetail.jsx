@@ -26,7 +26,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Brandt Fridge Repair, Brandt Washing Machine Repair, Brandt Cooker Repair, Brandt Oven Repair, Brandt Appliances Maintenance, Brandt Refrigerator Fix Repairs");
-    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/brandt/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/brandt/");
 
 
     subtitle = "Testimonial"
