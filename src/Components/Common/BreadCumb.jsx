@@ -15,7 +15,7 @@ const Breadcrumb = () => {
       }
       
       // For English, apply capitalization rules
-      const acronyms = ["ac", "jvc", "jvt", "lg", "dip", "jafza", "difc", "impz", "jlt", "jge"];
+      const acronyms = ["ac", "jvc", "jvt", "lg", "dip", "jafza", "difc", "impz", "jlt", "jge","aeg"];
 
       return decoded
         .split("-")

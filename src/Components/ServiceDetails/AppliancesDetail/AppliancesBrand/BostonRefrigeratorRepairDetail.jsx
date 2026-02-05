@@ -181,7 +181,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Boston Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we know that appliance issues,especially with Boston products, often happen when you least expect them. That’s why our skilled and experienced Boston technicians are always ready to deliver trustworthy <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair</a> solutions. With our help, you can avoid spending money on a new appliance and get your current Boston unit functioning properly again without added stress.
+                  At FAJ Technical Services L.L.C, we know that appliance issues,especially with Boston products, often happen when you least expect them. That’s why our skilled and experienced Boston technicians are always ready to deliver trustworthy <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair</a> solutions. With our help, you can avoid spending money on a new appliance and get your current Boston unit functioning properly again without added stress.
                 </p>
 
               </div>
@@ -496,7 +496,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Boston appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Boston appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -577,7 +577,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 <p className="mb-0"> <b> Boston Dishwasher Repair Near You in Dubai: </b> Your Boston dishwasher may need repair or maintenance. For high-quality integrated Boston <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                 <p className="mb-0"> <b> Boston Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Boston cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Boston refrigerators, dishwashers, dryers, and more. </p>
                 <p className="mb-0"> <b> Boston Dryer Repair and Service Near You: </b> Are you worried about your Boston dryer not working properly? Looking for a reliable Boston laundry machine company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"> <b> Boston Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Boston oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Boston <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Boston ovens in the area.</p>
+                <p className="mb-0"> <b> Boston Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Boston oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Boston <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Boston ovens in the area.</p>
 
                 <h4 className="mt-3">We offer service for Boston appliances in the Dubai area</h4>
                 <p>

@@ -144,7 +144,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                 <h2 className="cs_fs_24 mb-1">Marvel Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     Experiencing problems with your Marvel appliances? FAJ is here to assist with fast and affordable repair services. From washing machines that won’t drain and refrigerators that fail to cool, to ovens that won’t heat and dishwashers that won’t start, we handle it all.
-                                    <br /> Count on us for dependable Marvel <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah. We offer trusted solutions to get your appliances running smoothly again.
+                                    <br /> Count on us for dependable Marvel <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah. We offer trusted solutions to get your appliances running smoothly again.
                                 </p>
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Marvel Appliances Service</h2>
@@ -449,7 +449,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Marvel appliance running smoothly and reliably.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Marvel appliance running smoothly and reliably.</p>
                                     </div>
                                 </div>
 
@@ -528,7 +528,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                 <p className="mb-0"> <b> Marvel Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Marvel dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Marvel service center in Dubai, which specializes in integrated Marvel dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                                 <p className="mb-0"> <b> Marvel Cooking Range and Oven Repair Near You: </b> We provide expert repair service Marvel cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Marvel refrigerator repair, fix Marvel dishwasher, Marvel dryer fixer, and more. </p>
                                 <p className="mb-0"> <b> Marvel Dryer Repair and Service Near You: </b> Is your Marvel dryer not working properly? Looking for a reliable Marvel dryer service in Dubai? Contact us for same-day assistance! </p>
-                                <p className="mb-0"> <b> Marvel Oven Repair Near Me Dubai: </b> If you're searching for the best company for Marvel <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Marvel ovens. FAJ is recognized as the leading service center for Marvel oven repair and maintenance in Dubai. </p>
+                                <p className="mb-0"> <b> Marvel Oven Repair Near Me Dubai: </b> If you're searching for the best company for Marvel <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Marvel ovens. FAJ is recognized as the leading service center for Marvel oven repair and maintenance in Dubai. </p>
 
                                 <h4 className="mt-3">We offer service for Marvel appliances in the Dubai area</h4>
                                 <p>

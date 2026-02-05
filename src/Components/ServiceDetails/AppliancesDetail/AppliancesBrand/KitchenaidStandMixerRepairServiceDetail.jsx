@@ -180,7 +180,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable KitchenAid Appliance Service </h3>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns never occur at a convenient time. Our trained and qualified KitchenAid technicians are here to offer you dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our help, you can avoid the cost of replacing your stand mixer and get it up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns never occur at a convenient time. Our trained and qualified KitchenAid technicians are here to offer you dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our help, you can avoid the cost of replacing your stand mixer and get it up and running again before you have a chance to worry about it.
                 </p>
               </div>
 

@@ -174,7 +174,7 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
                 <h2 className="cs_fs_20 mb-1">Hotpoint Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   Facing issues with your Hotpoint appliances? FAJ is ready to assist with prompt and affordable appliances repair services. Whether your washing machine won't drain, your refrigerator isn’t cooling, your oven refuses to heat, or your dishwasher won’t start, we can fix it.
-                  <br />For reliable Hotpoint <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, trust FAJ to deliver effective and lasting solutions for any appliance problem.
+                  <br />For reliable Hotpoint <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, trust FAJ to deliver effective and lasting solutions for any appliance problem.
                 </p>
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Hotpoint Appliances Service</h2>
@@ -479,7 +479,7 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Hotpoint appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Hotpoint appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -558,7 +558,7 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
                 <p className="mb-0"> <b> Hotpoint Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Hotpoint dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Hotpoint service center in Dubai, which specializes in integrated Hotpoint dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                 <p className="mb-0"> <b> Hotpoint Cooking Range and Oven Repair Near You: </b> We provide expert repair service Hotpoint cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Hotpoint refrigerator repair, fix Hotpoint dishwasher, Hotpoint dryer fixer, and more. </p>
                 <p className="mb-0"> <b> Hotpoint Dryer Repair and Service Near You: </b> Is your Hotpoint dryer not working properly? Looking for a reliable Hotpoint dryer service in Dubai? Contact us for same-day assistance! </p>
-                <p className="mb-0"> <b> Hotpoint Oven Repair Near Me Dubai: </b> If you're searching for the best company for Hotpoint <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Hotpoint ovens. FAJ is recognized as the leading service center for Hotpoint oven repair and maintenance in Dubai. </p>
+                <p className="mb-0"> <b> Hotpoint Oven Repair Near Me Dubai: </b> If you're searching for the best company for Hotpoint <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Hotpoint ovens. FAJ is recognized as the leading service center for Hotpoint oven repair and maintenance in Dubai. </p>
 
                 <h4 className="mt-3">We offer service for Hotpoint appliances in the Dubai area</h4>
                 <p>

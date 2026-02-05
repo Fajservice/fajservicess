@@ -179,7 +179,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Gorenje  Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance failures, particularly with Gorenje products, often happen when you least expect them. That’s why our skilled and expert Gorenje technicians are always ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of buying a replacement and have your Gorenje appliance back in working order before it becomes a bigger problem.
+                  At FAJ Technical Services L.L.C, we understand that appliance failures, particularly with Gorenje products, often happen when you least expect them. That’s why our skilled and expert Gorenje technicians are always ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of buying a replacement and have your Gorenje appliance back in working order before it becomes a bigger problem.
                 </p>
 
               </div>
@@ -494,7 +494,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Gorenje  appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Gorenje  appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -575,7 +575,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 <p className="mb-0"> <b> Gorenje  Dishwasher Repair Near You in Dubai: </b> Your Gorenje  dishwasher may need repair or maintenance. For high-quality integrated Gorenje  <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                 <p className="mb-0"> <b> Gorenje  Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Gorenje  cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Gorenje  refrigerators, dishwashers, dryers, and more. </p>
                 <p className="mb-0"> <b> Gorenje  Dryer Repair and Service Near You: </b> Are you worried about your Gorenje  dryer not working properly? Looking for a reliable Gorenje  laundry machine company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"> <b> Gorenje  Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Gorenje  oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Gorenje  <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Gorenje  ovens in the area.</p>
+                <p className="mb-0"> <b> Gorenje  Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Gorenje  oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Gorenje  <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Gorenje  ovens in the area.</p>
 
                 <h4 className="mt-3">We offer service for Gorenje  appliances in the Dubai area</h4>
                 <p>

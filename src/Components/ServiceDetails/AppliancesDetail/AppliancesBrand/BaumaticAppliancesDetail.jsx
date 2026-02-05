@@ -142,7 +142,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                 <h2 className="cs_fs_20 mb-1">Baumatic Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     If you're having issues with your Baumatic appliances, our repair team at FAJ is ready to help. We offer quick and affordable solutions for problems like washing machines that won’t drain, refrigerators not cooling, ovens that don’t heat, and dishwashers that won’t turn on.
-                                    <br />For reliable Baumatic <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, trust us to resolve any appliance issue you have.
+                                    <br />For reliable Baumatic <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, trust us to resolve any appliance issue you have.
 
                                 </p>
 
@@ -451,7 +451,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     </div>
                                     <div className="usptext">
                                         <h3>Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Baumatic appliance running smoothly and reliably.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Baumatic appliance running smoothly and reliably.</p>
                                     </div>
                                 </div>
 
@@ -530,7 +530,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                 <p className="mb-0"> <b> Baumatic Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Baumatic dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Baumatic service center in Dubai, which specializes in integrated Baumatic dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                                 <p className="mb-0"> <b> Baumatic Cooking Range and Oven Repair Near You: </b> We provide expert repair service Baumatic cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Baumatic refrigerator repair, fix Baumatic dishwasher, Baumatic dryer fixer, and more. </p>
                                 <p className="mb-0"> <b> Baumatic Dryer Repair and Service Near You: </b> Is your Baumatic dryer not working properly? Looking for a reliable Baumatic dryer service in Dubai? Contact us for same-day assistance! </p>
-                                <p className="mb-0"> <b> Baumatic Oven Repair Near Me Dubai: </b> If you're searching for the best company for Baumatic <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Baumatic ovens. FAJ is recognized as the leading service center for Baumatic oven repair and maintenance in Dubai. </p>
+                                <p className="mb-0"> <b> Baumatic Oven Repair Near Me Dubai: </b> If you're searching for the best company for Baumatic <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Baumatic ovens. FAJ is recognized as the leading service center for Baumatic oven repair and maintenance in Dubai. </p>
 
                                 <h4 className="mt-3">We offer service for Baumatic appliances in the Dubai area</h4>
                                 <p>

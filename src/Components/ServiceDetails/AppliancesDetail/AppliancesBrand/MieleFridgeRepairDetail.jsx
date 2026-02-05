@@ -179,7 +179,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Miele Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that Miele appliances can break down at the worst possible times. That’s why our experienced technicians are always ready to provide dependable Miele <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our support, you can avoid the high cost of a replacement and have your appliance running smoothly again, so you can move forward without the hassle. We’re committed to delivering fast, efficient, and long-lasting repair solutions to your doorstep.
+                  At FAJ Technical Services L.L.C, we understand that Miele appliances can break down at the worst possible times. That’s why our experienced technicians are always ready to provide dependable Miele <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a>. With our support, you can avoid the high cost of a replacement and have your appliance running smoothly again, so you can move forward without the hassle. We’re committed to delivering fast, efficient, and long-lasting repair solutions to your doorstep.
                 </p>
 
               </div>
@@ -481,7 +481,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Miele appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Miele appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -560,7 +560,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                 <p className="mb-0"> <b> Miele Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Miele dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Miele service center in Dubai, which specializes in integrated Miele dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                 <p className="mb-0"> <b> Miele Cooking Range and Oven Repair Near You: </b> We provide expert repair service Miele cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Miele refrigerator repair, fix Miele dishwasher, Miele dryer fixer, and more. </p>
                 <p className="mb-0"> <b> Miele Dryer Repair and Service Near You: </b> Is your Miele dryer not working properly? Looking for a reliable Miele dryer service in Dubai? Contact us for same-day assistance! </p>
-                <p className="mb-0"> <b> Miele Oven Repair Near Me Dubai: </b> If you're searching for the best company for Miele <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Miele ovens. FAJ is recognized as the leading service center for Miele oven repair and maintenance in Dubai. </p>
+                <p className="mb-0"> <b> Miele Oven Repair Near Me Dubai: </b> If you're searching for the best company for Miele <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Miele ovens. FAJ is recognized as the leading service center for Miele oven repair and maintenance in Dubai. </p>
 
                 <h4 className="mt-3">We offer service for Miele appliances in the Dubai area</h4>
                 <p>

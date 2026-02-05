@@ -180,7 +180,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable  Franke Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Franke products, rarely happen at a convenient time. That’s why our trained Franke technicians are ready to provide reliable Franke <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Franke products, rarely happen at a convenient time. That’s why our trained Franke technicians are ready to provide reliable Franke <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
                 </p>
 
               </div>
@@ -482,7 +482,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your  Franke appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your  Franke appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -561,7 +561,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
                 <p className="mb-0"> <b>  Franke Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your  Franke dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's  Franke service center in Dubai, which specializes in integrated  Franke dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                 <p className="mb-0"> <b>  Franke Cooking Range and Oven Repair Near You: </b> We provide expert repair service  Franke cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with  Franke refrigerator repair, fix  Franke dishwasher,  Franke dryer fixer, and more. </p>
                 <p className="mb-0"> <b>  Franke Dryer Repair and Service Near You: </b> Is your  Franke dryer not working properly? Looking for a reliable  Franke dryer service in Dubai? Contact us for same-day assistance! </p>
-                <p className="mb-0"> <b>  Franke Oven Repair Near Me Dubai: </b> If you're searching for the best company for  Franke <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for  Franke ovens. FAJ is recognized as the leading service center for  Franke oven repair and maintenance in Dubai. </p>
+                <p className="mb-0"> <b>  Franke Oven Repair Near Me Dubai: </b> If you're searching for the best company for  Franke <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for  Franke ovens. FAJ is recognized as the leading service center for  Franke oven repair and maintenance in Dubai. </p>
 
                 <h4 className="mt-3">We offer service for  Franke appliances in the Dubai area</h4>
                 <p>

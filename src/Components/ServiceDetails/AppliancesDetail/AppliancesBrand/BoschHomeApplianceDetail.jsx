@@ -180,7 +180,7 @@ const BoschHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Bosch Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we know that Bosch appliance breakdowns often happen when you least expect them. That’s why our expert Bosch technicians are ready to provide dependable and timely <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our expert support, you can avoid the cost of replacing your appliance and get your Bosch equipment running smoothly again, before it turns into a major issue.
+                  At FAJ Technical Services L.L.C, we know that Bosch appliance breakdowns often happen when you least expect them. That’s why our expert Bosch technicians are ready to provide dependable and timely <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a>. With our expert support, you can avoid the cost of replacing your appliance and get your Bosch equipment running smoothly again, before it turns into a major issue.
                 </p>
 
               </div>
@@ -495,7 +495,7 @@ const BoschHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Bosch appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Bosch appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -576,7 +576,7 @@ const BoschHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 <p className="mb-0"> <b> Bosch Dishwasher Repair Near You in Dubai: </b> Your Bosch dishwasher may need repair or maintenance. For high-quality integrated Bosch <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                 <p className="mb-0"> <b> Bosch Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Bosch cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Bosch refrigerators, dishwashers, dryers, and more. </p>
                 <p className="mb-0"> <b> Bosch Dryer Repair and Service Near You: </b> Are you worried about your Bosch dryer not working properly? Looking for a reliable Bosch laundry machine company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"> <b> Bosch Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Bosch oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Bosch <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Bosch ovens in the area.</p>
+                <p className="mb-0"> <b> Bosch Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Bosch oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Bosch <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Bosch ovens in the area.</p>
 
                 <h4 className="mt-3">We offer service for Bosch appliances in the Dubai area</h4>
                 <p>

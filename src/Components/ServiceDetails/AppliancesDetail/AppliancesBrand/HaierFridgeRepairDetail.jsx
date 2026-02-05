@@ -143,7 +143,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                                 <h2 className="cs_fs_24 mb-1">Haier Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     Having trouble with your Haier appliances? FAJ is here to help with fast and affordable repair solutions! Whether it’s a washing machine that won’t drain, a refrigerator that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, we’ve got it covered.
-                                    <br />Trust FAJ for reliable Haier <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah. We deliver expert solutions for all your appliance problems.
+                                    <br />Trust FAJ for reliable Haier <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah. We deliver expert solutions for all your appliance problems.
 
                                 </p>
 
@@ -449,7 +449,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Haier appliance running smoothly and reliably.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Haier appliance running smoothly and reliably.</p>
                                     </div>
                                 </div>
 
@@ -528,7 +528,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                                 <p className="mb-0"> <b> Haier Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Haier dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Haier service center in Dubai, which specializes in integrated Haier dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                                 <p className="mb-0"> <b> Haier Cooking Range and Oven Repair Near You: </b> We provide expert repair service Haier cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Haier refrigerator repair, fix Haier dishwasher, Haier dryer fixer, and more. </p>
                                 <p className="mb-0"> <b> Haier Dryer Repair and Service Near You: </b> Is your Haier dryer not working properly? Looking for a reliable Haier dryer service in Dubai? Contact us for same-day assistance! </p>
-                                <p className="mb-0"> <b> Haier Oven Repair Near Me Dubai: </b> If you're searching for the best company for Haier <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Haier ovens. FAJ is recognized as the leading service center for Haier oven repair and maintenance in Dubai. </p>
+                                <p className="mb-0"> <b> Haier Oven Repair Near Me Dubai: </b> If you're searching for the best company for Haier <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Haier ovens. FAJ is recognized as the leading service center for Haier oven repair and maintenance in Dubai. </p>
 
                                 <h4 className="mt-3">We offer service for Haier appliances in the Dubai area</h4>
                                 <p>

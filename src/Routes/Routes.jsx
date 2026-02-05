@@ -394,7 +394,7 @@ export const router = createBrowserRouter([
         element: <Components.NeffFridgeRepair />,
       },
       {
-        path: "/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/",
+        path: "/services/home-appliances-repair/brands/ariston/",
         element: <Components.AristonFrideRepair />,
       },
       {
@@ -958,7 +958,7 @@ export const router = createBrowserRouter([
         element: <Components.BekoFridgeRepair />,
       },
       {
-        path: "/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/",
+        path: "/services/home-appliances-repair/brands/aeg/",
         element: <Components.AegFridgeRepair />,
       },
 
@@ -987,7 +987,7 @@ export const router = createBrowserRouter([
         element: <Components.DaewooHomeApplianceRepair />,
       },
       {
-        path: "/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
+        path: "/services/home-appliances-repair/brands/aftron/",
         element: <Components.AftronFridgeRepair />,
       },
       {
@@ -1015,7 +1015,7 @@ export const router = createBrowserRouter([
         element: <Components.ElectroluxFridgeRepair />,
       },
       {
-        path: "/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/",
+        path: "/services/home-appliances-repair/brands/admiral/",
         element: <Components.AdmiralFridgeRepair />,
       },
       {
@@ -2936,6 +2936,22 @@ export const router = createBrowserRouter([
         path:"/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/",
         element:<Navigate to="/services/air-conditioning-repair/brands/daewoo/" replace />
       },
+      {
+        path:"/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/",
+        element:<Navigate to="/services/home-appliances-repair/brands/admiral/" replace />
+      },
+      {
+        path:"/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/",
+        element:<Navigate to="/services/home-appliances-repair/brands/aeg/" replace />
+      },
+      {
+        path:"/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
+        element:<Navigate to="/services/home-appliances-repair/brands/aftron/" replace />
+      },
+      {
+        path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repairs-service-in-dubai-ariston/",
+        element:<Navigate to="/services/home-appliances-repair/brands/ariston/" replace />
+      }
       
     ],
   }

@@ -179,7 +179,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Ge General Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand how inconvenient it can be when your GE General appliance suddenly stops working. That’s why our expert technicians are committed to providing fast, dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> you can count on. Avoid the high cost of replacement—let us restore your appliance to perfect working condition.
+                  At FAJ Technical Services L.L.C, we understand how inconvenient it can be when your GE General appliance suddenly stops working. That’s why our expert technicians are committed to providing fast, dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a> you can count on. Avoid the high cost of replacement—let us restore your appliance to perfect working condition.
                   One call is all it takes to get expert help right at your doorstep.
                 </p>
 
@@ -482,7 +482,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your GE General appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your GE General appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -561,7 +561,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                 <p className="mb-0"> <b> GE General Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your GE General dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's GE General service center in Dubai, which specializes in integrated GE General dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                 <p className="mb-0"> <b> GE General Cooking Range and Oven Repair Near You: </b> We provide expert repair service GE General cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with GE General refrigerator repair, fix GE General dishwasher, GE General dryer fixer, and more. </p>
                 <p className="mb-0"> <b> GE General Dryer Repair and Service Near You: </b> Is your GE General dryer not working properly? Looking for a reliable GE General dryer service in Dubai? Contact us for same-day assistance! </p>
-                <p className="mb-0"> <b> GE General Oven Repair Near Me Dubai: </b> If you're searching for the best company for GE General <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for GE General ovens. FAJ is recognized as the leading service center for GE General oven repair and maintenance in Dubai. </p>
+                <p className="mb-0"> <b> GE General Oven Repair Near Me Dubai: </b> If you're searching for the best company for GE General <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for GE General ovens. FAJ is recognized as the leading service center for GE General oven repair and maintenance in Dubai. </p>
 
                 <h4 className="mt-3">We offer service for GE General appliances in the Dubai area</h4>
                 <p>

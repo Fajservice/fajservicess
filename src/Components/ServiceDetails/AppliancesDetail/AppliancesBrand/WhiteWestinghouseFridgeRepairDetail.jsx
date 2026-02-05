@@ -179,7 +179,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "16px" }}>Fast and Reliable White Westinghouse Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with White Westinghouse products, never happen at a convenient time. That’s why our trained and qualified technicians are here to provide reliable White Westinghouse <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your appliance up and running again before it disrupts your routine.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with White Westinghouse products, never happen at a convenient time. That’s why our trained and qualified technicians are here to provide reliable White Westinghouse <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your appliance up and running again before it disrupts your routine.
                 </p>
 
               </div>
@@ -485,7 +485,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your White Westinghouse appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your White Westinghouse appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -566,7 +566,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                 <p className="mb-0"> <b> White Westinghouse Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your White Westinghouse dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's White Westinghouse service center in Dubai, which specializes in integrated White Westinghouse dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                 <p className="mb-0"> <b> White Westinghouse Cooking Range and Oven Repair Near You: </b> We provide expert repair service White Westinghouse cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with White Westinghouse refrigerator repair, fix White Westinghouse dishwasher, White Westinghouse dryer fixer, and more. </p>
                 <p className="mb-0"> <b> White Westinghouse Dryer Repair and Service Near You: </b> Is your White Westinghouse dryer not working properly? Looking for a reliable White Westinghouse dryer service in Dubai? Contact us for same-day assistance! </p>
-                <p className="mb-0"> <b> White Westinghouse Oven Repair Near Me Dubai: </b> If you're searching for the best company for White Westinghouse <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for White Westinghouse ovens. FAJ is recognized as the leading service center for White Westinghouse oven repair and maintenance in Dubai. </p>
+                <p className="mb-0"> <b> White Westinghouse Oven Repair Near Me Dubai: </b> If you're searching for the best company for White Westinghouse <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for White Westinghouse ovens. FAJ is recognized as the leading service center for White Westinghouse oven repair and maintenance in Dubai. </p>
 
                 <h4 className="mt-3">We offer service for White Westinghouse appliances in the Dubai area</h4>
                 <p>

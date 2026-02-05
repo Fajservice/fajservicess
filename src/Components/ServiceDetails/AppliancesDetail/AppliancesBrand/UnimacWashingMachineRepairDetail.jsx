@@ -182,7 +182,7 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
 
         <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable UniMac Appliances Service</h3>
         <p className="mb-2">
-         At FAJ Technical Services L.L.C, we know that UniMac appliance issues can occur without warning. That’s why our skilled technicians offer dependable UniMac <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> across Dubai and Sharjah. With our professional support, you can avoid costly replacements and have your laundry equipment restored to peak performance in no time.
+         At FAJ Technical Services L.L.C, we know that UniMac appliance issues can occur without warning. That’s why our skilled technicians offer dependable UniMac <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a> across Dubai and Sharjah. With our professional support, you can avoid costly replacements and have your laundry equipment restored to peak performance in no time.
         </p>
        </div>
 
@@ -508,7 +508,7 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
          </div>
          <div className="usptext">
           <h3 className="">Feeling Of Calm</h3>
-          <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+          <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
          </div>
         </div>
 

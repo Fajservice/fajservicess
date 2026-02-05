@@ -506,7 +506,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your hob runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your hob runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 

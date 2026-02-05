@@ -174,7 +174,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 <h2 className="cs_fs_24 mb-1">Sears Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   Having trouble with your Sears appliances? FAJ is here to help with fast and affordable appliances repair services! Whether it’s a washing machine that won’t drain, a refrigerator that’s not cooling, an oven that won’t heat, or a dishwasher that won’t start, we’ve got the solution.
-                  <br />Trust FAJ for reliable Sears <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah. We’re committed to solving any appliance issue efficiently and carefully.
+                  <br />Trust FAJ for reliable Sears <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah. We’re committed to solving any appliance issue efficiently and carefully.
 
                 </p>
 
@@ -480,7 +480,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Sears appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Sears appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -559,7 +559,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 <p className="mb-0"> <b> Sears Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Sears dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Sears service center in Dubai, which specializes in integrated Sears dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                 <p className="mb-0"> <b> Sears Cooking Range and Oven Repair Near You: </b> We provide expert repair service Sears cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Sears refrigerator repair, fix Sears dishwasher, Sears dryer fixer, and more. </p>
                 <p className="mb-0"> <b> Sears Dryer Repair and Service Near You: </b> Is your Sears dryer not working properly? Looking for a reliable Sears dryer service in Dubai? Contact us for same-day assistance! </p>
-                <p className="mb-0"> <b> Sears Oven Repair Near Me Dubai: </b> If you're searching for the best company for Sears <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Sears ovens. FAJ is recognized as the leading service center for Sears oven repair and maintenance in Dubai. </p>
+                <p className="mb-0"> <b> Sears Oven Repair Near Me Dubai: </b> If you're searching for the best company for Sears <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Sears ovens. FAJ is recognized as the leading service center for Sears oven repair and maintenance in Dubai. </p>
 
                 <h4 className="mt-3">We offer service for Sears appliances in the Dubai area</h4>
                 <p>

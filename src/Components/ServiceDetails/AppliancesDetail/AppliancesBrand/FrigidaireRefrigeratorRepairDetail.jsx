@@ -489,7 +489,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get year-round service to keep your Frigidaire appliance running smoothly and reliably.
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get year-round service to keep your Frigidaire appliance running smoothly and reliably.
                     </p>
                   </div>
                 </div>
@@ -569,7 +569,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                 <p className="mb-0"> <b>  Frigidaire Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your  Frigidaire dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's  Frigidaire service center in Dubai, which specializes in integrated  Frigidaire dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                 <p className="mb-0"> <b>  Frigidaire Cooking Range and Oven Repair Near You: </b> We provide expert repair service  Frigidaire cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with  Frigidaire refrigerator repair, fix  Frigidaire dishwasher,  Frigidaire dryer fixer, and more. </p>
                 <p className="mb-0"> <b>  Frigidaire Dryer Repair and Service Near You: </b> Is your  Frigidaire dryer not working properly? Looking for a reliable  Frigidaire dryer service in Dubai? Contact us for same-day assistance! </p>
-                <p className="mb-0"> <b>  Frigidaire Oven Repair Near Me Dubai: </b> If you're searching for the best company for  Frigidaire <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for  Frigidaire ovens. FAJ is recognized as the leading service center for  Frigidaire oven repair and maintenance in Dubai. </p>
+                <p className="mb-0"> <b>  Frigidaire Oven Repair Near Me Dubai: </b> If you're searching for the best company for  Frigidaire <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for  Frigidaire ovens. FAJ is recognized as the leading service center for  Frigidaire oven repair and maintenance in Dubai. </p>
 
                 <h4 className="mt-3">We offer service for  Frigidaire appliances in the Dubai area</h4>
                 <p>

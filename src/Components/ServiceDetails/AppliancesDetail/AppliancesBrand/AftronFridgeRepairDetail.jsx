@@ -28,7 +28,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Aftron fridge repair, Aftron washing machine repair, Aftron cooker repair, Aftron oven repair, Aftron appliances maintenance, Aftron refrigerator fix, Aftron appliance service Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/aftron/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -147,7 +147,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Aftron Appliances Service</h2>
                                 <p className="mb-2">
-                                    At FAJ Technical Services L.L.C, we understand that Aftron appliance breakdowns often happen at the worst times. That’s why our experienced Aftron technicians are here to provide reliable and timely <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our support, you can avoid the cost of a new appliance and get your Aftron unit back to working condition quickly.
+                                    At FAJ Technical Services L.L.C, we understand that Aftron appliance breakdowns often happen at the worst times. That’s why our experienced Aftron technicians are here to provide reliable and timely <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a>. With our support, you can avoid the cost of a new appliance and get your Aftron unit back to working condition quickly.
                                 </p>
 
                             </div>
@@ -462,7 +462,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     </div>
                                     <div className="usptext">
                                         <h3>Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Aftron appliance running smoothly and reliably.</p>
+                                        <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Aftron appliance running smoothly and reliably.</p>
                                     </div>
                                 </div>
 
@@ -543,7 +543,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                 <p className="mb-0"> <b> Aftron Dishwasher Repair Near You in Dubai: </b> Your Aftron dishwasher may need repair or maintenance. For high-quality integrated Aftron <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                                 <p className="mb-0"> <b> Aftron Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Aftron cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Aftron refrigerators, dishwashers, dryers, and more. </p>
                                 <p className="mb-0"> <b> Aftron Dryer Repair and Service Near You: </b> Are you worried about your Aftron dryer not working properly? Looking for a reliable Aftron laundry machine company in Dubai? Contact us for same-day service!</p>
-                                <p className="mb-0"> <b> Aftron Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Aftron oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Aftron <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Aftron ovens in the area.</p>
+                                <p className="mb-0"> <b> Aftron Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Aftron oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Aftron <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Aftron ovens in the area.</p>
 
                                 <h4 className="mt-3">We offer service for Aftron appliances in the Dubai area</h4>
                                 <p>

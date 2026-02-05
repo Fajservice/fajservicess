@@ -178,7 +178,7 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Smeg  Appliance Service   </h3>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns never occur at a convenient time. Our trained and qualified Smeg technicians are here to offer you dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our help, you can avoid the cost of replacing your stand mixer and get it up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns never occur at a convenient time. Our trained and qualified Smeg technicians are here to offer you dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our help, you can avoid the cost of replacing your stand mixer and get it up and running again before you have a chance to worry about it.
                 </p>
               </div>
 
@@ -583,7 +583,7 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 <p className="mb-0"> <b> Smeg Dishwasher Repair Near You in Dubai: </b> Your Smeg dishwasher may need repair or maintenance. For high-quality integrated Smeg <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                 <p className="mb-0"> <b> Smeg Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Smeg cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Smeg refrigerators, dishwashers, dryers, and more. </p>
                 <p className="mb-0"> <b> Smeg Dryer Repair and Service Near You: </b> Are you worried about your Smeg dryer not working properly? Looking for a reliable Smeg laundry machine company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"> <b> Smeg Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Smeg oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Smeg <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Smeg ovens in the area.</p>
+                <p className="mb-0"> <b> Smeg Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Smeg oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Smeg <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Smeg ovens in the area.</p>
 
                 <h4 className="mt-3">We offer service for Smeg appliances in the Dubai area</h4>
                 <p>

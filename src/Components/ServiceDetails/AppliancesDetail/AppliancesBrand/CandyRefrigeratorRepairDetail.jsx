@@ -146,7 +146,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Candy Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Candy products, never happen at a convenient time. That’s why our trained and experienced Candy technicians are ready to provide dependable Candy <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it running smoothly again before it causes any major disruption.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Candy products, never happen at a convenient time. That’s why our trained and experienced Candy technicians are ready to provide dependable Candy <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it running smoothly again before it causes any major disruption.
 
                 </p>
 
@@ -462,7 +462,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Candy appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Candy appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -543,7 +543,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                 <p className="mb-0"> <b> Candy Dishwasher Repair Near You in Dubai: </b> Your Candy dishwasher may need repair or maintenance. For high-quality integrated Candy <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                 <p className="mb-0"> <b> Candy Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Candy cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Candy refrigerators, dishwashers, dryers, and more. </p>
                 <p className="mb-0"> <b> Candy Dryer Repair and Service Near You: </b> Are you worried about your Candy dryer not working properly? Looking for a reliable Candy laundry machine company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"> <b> Candy Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Candy oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Candy <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Candy ovens in the area.</p>
+                <p className="mb-0"> <b> Candy Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Candy oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Candy <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Candy ovens in the area.</p>
 
                 <h4 className="mt-3">We offer service for Candy appliances in the Dubai area</h4>
                 <p>

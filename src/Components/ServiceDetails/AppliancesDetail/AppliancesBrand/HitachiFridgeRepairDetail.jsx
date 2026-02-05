@@ -178,7 +178,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Hitachi Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Hitachi products, never occur at a convenient time. That’s why our trained and qualified Hitachi technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Hitachi appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Hitachi products, never occur at a convenient time. That’s why our trained and qualified Hitachi technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Hitachi appliance up and running again before you have a chance to worry about it.
                 </p>
 
               </div>
@@ -493,7 +493,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Hitachi appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Hitachi appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -574,7 +574,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 <p className="mb-0"> <b> Hitachi Dishwasher Repair Near You in Dubai: </b> Your Hitachi dishwasher may need repair or maintenance. For high-quality integrated Hitachi <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                 <p className="mb-0"> <b> Hitachi Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Hitachi cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Hitachi refrigerators, dishwashers, dryers, and more. </p>
                 <p className="mb-0"> <b> Hitachi Dryer Repair and Service Near You: </b> Are you worried about your Hitachi dryer not working properly? Looking for a reliable Hitachi laundry machine company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"> <b> Hitachi Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Hitachi oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Hitachi <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Hitachi ovens in the area.</p>
+                <p className="mb-0"> <b> Hitachi Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Hitachi oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Hitachi <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Hitachi ovens in the area.</p>
 
                 <h4 className="mt-3">We offer service for Hitachi appliances in the Dubai area</h4>
                 <p>

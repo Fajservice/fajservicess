@@ -177,7 +177,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   Wolf ranges are essential kitchen appliances that many depend on for their daily cooking needs. When they malfunction, it can throw off your entire routine. That’s why it’s important to find a Wolf range repair and service specialist near you, whether you're in Dubai or Sharjah, for fast and reliable support.</p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Wolf Appliances Service</h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we recognize that appliance malfunctions, particularly with Wolf products, can arise unexpectedly and disrupt your daily routine. That’s why our trained and qualified Wolf technicians are dedicated to providing you with dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expertise, you can save on the expense of buying a new appliance and have your Wolf appliance functioning flawlessly again in no time, allowing you to focus on what truly matters.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we recognize that appliance malfunctions, particularly with Wolf products, can arise unexpectedly and disrupt your daily routine. That’s why our trained and qualified Wolf technicians are dedicated to providing you with dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expertise, you can save on the expense of buying a new appliance and have your Wolf appliance functioning flawlessly again in no time, allowing you to focus on what truly matters.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -497,7 +497,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get year-round service to keep your Wolf appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get year-round service to keep your Wolf appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 

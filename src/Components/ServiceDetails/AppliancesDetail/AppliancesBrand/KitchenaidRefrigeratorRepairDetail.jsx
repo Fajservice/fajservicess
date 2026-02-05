@@ -179,7 +179,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Kitchenaid Appliances Service</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Kitchenaid products, rarely happen at a convenient time. That’s why our trained Kitchenaid technicians are ready to provide reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> when you need it most. With our help, you can avoid the high cost of replacement and get your Kitchenaid appliance running smoothly again in no time.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Kitchenaid products, rarely happen at a convenient time. That’s why our trained Kitchenaid technicians are ready to provide reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a> when you need it most. With our help, you can avoid the high cost of replacement and get your Kitchenaid appliance running smoothly again in no time.
                 </p>
 
               </div>
@@ -482,7 +482,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Kitchenaid appliance running smoothly and reliably.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Kitchenaid appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -561,7 +561,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                 <p className="mb-0"> <b> Kitchenaid Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Kitchenaid dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Kitchenaid service center in Dubai, which specializes in integrated Kitchenaid dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
                 <p className="mb-0"> <b> Kitchenaid Cooking Range and Oven Repair Near You: </b> We provide expert repair service Kitchenaid cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Kitchenaid refrigerator repair, fix Kitchenaid dishwasher, Kitchenaid dryer fixer, and more. </p>
                 <p className="mb-0"> <b> Kitchenaid Dryer Repair and Service Near You: </b> Is your Kitchenaid dryer not working properly? Looking for a reliable Kitchenaid dryer service in Dubai? Contact us for same-day assistance! </p>
-                <p className="mb-0"> <b> Kitchenaid Oven Repair Near Me Dubai: </b> If you're searching for the best company for Kitchenaid <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Kitchenaid ovens. FAJ is recognized as the leading service center for Kitchenaid oven repair and maintenance in Dubai. </p>
+                <p className="mb-0"> <b> Kitchenaid Oven Repair Near Me Dubai: </b> If you're searching for the best company for Kitchenaid <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Kitchenaid ovens. FAJ is recognized as the leading service center for Kitchenaid oven repair and maintenance in Dubai. </p>
 
                 <h4 className="mt-3">We offer service for Kitchenaid appliances in the Dubai area</h4>
                 <p>

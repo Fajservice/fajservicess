@@ -209,7 +209,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
 								<h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Blomberg Appliances Service</h2>
 								<p className="mb-2">
-									At FAJ Technical Services L.L.C, we know that Blomberg appliance breakdowns often happen at the worst times. That’s why our trained and professional Blomberg technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a> you can trust. With our expert help, you can avoid the expense of a replacement and have your Blomberg appliance running smoothly again before you even start to worry.
+									At FAJ Technical Services L.L.C, we know that Blomberg appliance breakdowns often happen at the worst times. That’s why our trained and professional Blomberg technicians are ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a> you can trust. With our expert help, you can avoid the expense of a replacement and have your Blomberg appliance running smoothly again before you even start to worry.
 								</p>
 
 							</div>
@@ -524,7 +524,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 									</div>
 									<div className="usptext">
 										<h3 className="">Feeling Of Calm</h3>
-										<p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Blomberg appliance running smoothly and reliably.</p>
+										<p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Blomberg appliance running smoothly and reliably.</p>
 									</div>
 								</div>
 
@@ -605,7 +605,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 								<p className="mb-0"> <b> Blomberg Dishwasher Repair Near You in Dubai: </b> Your Blomberg dishwasher may need repair or maintenance. For high-quality integrated Blomberg <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
 								<p className="mb-0"> <b> Blomberg Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Blomberg cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Blomberg refrigerators, dishwashers, dryers, and more. </p>
 								<p className="mb-0"> <b> Blomberg Dryer Repair and Service Near You: </b> Are you worried about your Blomberg dryer not working properly? Looking for a reliable Blomberg laundry machine company in Dubai? Contact us for same-day service!</p>
-								<p className="mb-0"> <b> Blomberg Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Blomberg oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Blomberg <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Blomberg ovens in the area.</p>
+								<p className="mb-0"> <b> Blomberg Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Blomberg oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Blomberg <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Blomberg ovens in the area.</p>
 
 								<h4 className="mt-3">We offer service for Blomberg appliances in the Dubai area</h4>
 								<p>
