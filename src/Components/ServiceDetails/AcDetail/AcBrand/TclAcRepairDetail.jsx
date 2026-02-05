@@ -45,7 +45,7 @@ const TCLAcRepair = ({
     Keyword || "TCL AC Repair, TCL Air Conditioner Service, TCL AC Maintenance Dubai, TCL AC Cleaning Service, TCL AC Installation Dubai, TCL AC AMC Dubai, TCL Air Conditioner Repair Dubai, TCL Air Conditioner Service Near Me, Split Air Conditioner Maintenance Service Near Me, Best Aircon Fix Company Nearby"
   );
 
-  const metaURL = String(URL || "https://www.fajservices.ae/tcl-ac-repair-in-dubai/"
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/tcl/"
   );
 
   const metaImage = String(

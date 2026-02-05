@@ -230,15 +230,15 @@ export const router = createBrowserRouter([
         element: <Components.ColemenAcRepair />,
       },
       {
-        path: "/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/",
+        path: "/services/air-conditioning-repair/brands/supra/",
         element: <Components.SupraAcRepair />,
       },
       {
-        path: "/midea-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        path: "/services/air-conditioning-repair/brands/midea/",
         element: <Components.MideaAcRepair />,
       },
       {
-        path: "/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/",
+        path: "/services/air-conditioning-repair/brands/fujitsu/",
         element: <Components.FujitsuAcRepair />,
       },
       {
@@ -246,11 +246,11 @@ export const router = createBrowserRouter([
         element: <Components.DaikinAcRepair />,
       },
       {
-        path: "/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/",
+        path: "/services/air-conditioning-repair/brands/daewoo/",
         element: <Components.DaewooAcRepair />,
       },
       {
-        path: "/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/",
+        path: "/services/air-conditioning-repair/brands/skm/",
         element: <Components.SkmAcRepair />,
       },
       {
@@ -258,11 +258,11 @@ export const router = createBrowserRouter([
         element: <Components.CoolineAcRepair />,
       },
       {
-        path: "/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/",
+        path: "/services/air-conditioning-repair/brands/westpoint/",
         element: <Components.WestpointAcRepair />,
       },
       {
-        path: "/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
+        path: "/services/air-conditioning-repair/brands/york/",
         element: <Components.YorkAcRepair />,
       },
       {
@@ -274,19 +274,19 @@ export const router = createBrowserRouter([
         element: <Components.RheemAcRepair />,
       },
       {
-        path: "/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/",
+        path: "/services/air-conditioning-repair/brands/ruud/",
         element: <Components.RuudAcRepair />,
       },
       {
-        path: "/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/",
+        path: "/services/air-conditioning-repair/brands/trane/",
         element: <Components.TraneAcRepair />,
       },
       {
-        path: "/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/",
+        path: "/services/air-conditioning-repair/brands/super-general/",
         element: <Components.SuperGeneralAcRepair />,
       },
       {
-        path: "/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/",
+        path: "/services/air-conditioning-repair/brands/toshiba/",
         element: <Components.ToshibaAcRepair />,
       },
       {
@@ -298,27 +298,27 @@ export const router = createBrowserRouter([
         element: <Components.AftronAcRepair />,
       },
       {
-        path: "/frigidaire-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        path: "/services/home-appliances-repair/brands/frigidaire/",
         element: <Components.FrigidaireRefrigeratorRepair />,
       },
       {
-        path: "/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/",
+        path: "/services/air-conditioning-repair/brands/panasonic/",
         element: <Components.PanasonicAcRepair />,
       },
       {
-        path: "/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/",
+        path: "/services/air-conditioning-repair/brands/whirlpool/",
         element: <Components.WhirlpoolAcRepair />,
       },
       {
-        path: "/samsung-ac-repair-in-dubai/",
+        path: "/services/air-conditioning-repair/brands/samsung/",
         element: <Components.SamsungAcRepair />,
       },
       {
-        path: "/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/",
+        path: "/services/air-conditioning-repair/brands/mcquay/",
         element: <Components.McquayAcRepair />,
       },
       {
-        path: "/nikai-ac-repair-in-dubai-nikai-ac-maintenance-in-dubai-nikai-ac-fix-in-dubai-nikai-ac-service-in-dubai-nikai-air-condition-repair-in-dubai-nikai-air-condition-maintenance-in-dubai-nikai-air-condition/",
+        path: "/services/air-conditioning-repair/brands/nikai/",
         element: <Components.NikaiAcRepair />,
       },
       {
@@ -326,15 +326,15 @@ export const router = createBrowserRouter([
         element: <Components.CrafftAcRepair />,
       },
       {
-        path: "/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/",
+        path: "/services/air-conditioning-repair/brands/lennox/",
         element: <Components.LennoxAcRepair />,
       },
       {
-        path: "/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/",
+        path: "/services/air-conditioning-repair/brands/hitachi/",
         element: <Components.HitachiAcRepair />,
       },
       {
-        path: "/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/",
+        path: "/services/air-conditioning-repair/brands/o-general/",
         element: <Components.OGeneralAcRepair />,
       },
       {
@@ -342,39 +342,39 @@ export const router = createBrowserRouter([
         element: <Components.BryantAcRepair />,
       },
       {
-        path: "/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/",
+        path: "/services/air-conditioning-repair/brands/white-westinghouse/",
         element: <Components.WhiteWestingHouseAcRepair />,
       },
       {
-        path: "/mitsubishi-ac-repair-in-dubai/",
+        path: "/services/air-conditioning-repair/brands/mitsubishi/",
         element: <Components.MitsubishiAcRepair />,
       },
       {
-        path: "/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/",
+        path: "/services/air-conditioning-repair/brands/sanyo/",
         element: <Components.SanyoAcRepair />,
       },
       {
-        path: "/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/",
+        path: "/services/air-conditioning-repair/brands/daikool/",
         element: <Components.DaikoolAcRepair />,
       },
       {
-        path: "/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/",
+        path: "/services/air-conditioning-repair/brands/goodman/",
         element: <Components.GoodmanAcRepair />,
       },
       {
-        path: "/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        path: "/services/air-conditioning-repair/brands/sub-zero/",
         element: <Components.SubZeroAcRepair />,
       },
       {
-        path: "/gree-ac-repair-in-dubai/",
+        path: "/services/air-conditioning-repair/brands/gree/",
         element: <Components.GreeAcRepair />,
       },
       {
-        path: "/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/",
+        path: "/services/air-conditioning-repair/brands/haier/",
         element: <Components.HaierAcRepair />,
       },
       {
-        path: "/tcl-ac-repair-in-dubai/",
+        path: "/services/air-conditioning-repair/brands/tcl/",
         element: <Components.TCLAcRepair />,
       },
       {
@@ -386,7 +386,7 @@ export const router = createBrowserRouter([
         element: <Components.ElicaAppliancesService />,
       },
       {
-        path: "/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/",
+        path: "/services/home-appliances-repair/brands/fagor/",
         element: <Components.FagorFridgeRepair />,
       },
       {
@@ -398,7 +398,7 @@ export const router = createBrowserRouter([
         element: <Components.AristonFrideRepair />,
       },
       {
-        path: "/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/",
+        path: "/services/home-appliances-repair/brands/fisher-paykel/",
         element: <Components.FisherPaykelFridgeRepair />,
       },
       {
@@ -426,7 +426,7 @@ export const router = createBrowserRouter([
         element: <Components.HitachiFridgeRepair />,
       },
       {
-        path: "/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/",
+        path: "/services/home-appliances-repair/brands/gaggenau/",
         element: <Components.GaggenauFridgeRepair />,
       },
       {
@@ -434,15 +434,11 @@ export const router = createBrowserRouter([
         element: <Components.WhirlpoolFridgeRepair />,
       },
       {
-        path: "/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/",
-        element: <Components.FosterAppliancesServices />,
-      },
-      {
         path: "/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
         element: <Components.TekaHomeAppInstllation />,
       },
       {
-        path: "/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/",
+        path: "/services/home-appliances-repair/brands/gorenje/",
         element: <Components.GorenjeFridgeRepair />,
       },
       {
@@ -458,7 +454,7 @@ export const router = createBrowserRouter([
         element: <Components.ToshibaHomeAppMaintenance />,
       },
       {
-        path: "/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/",
+        path: "/services/home-appliances-repair/brands/gibson/",
         element: <Components.GibsoneFridgeRepair />,
       },
       {
@@ -995,7 +991,7 @@ export const router = createBrowserRouter([
         element: <Components.LgFridgeRepair />,
       },
       {
-        path: "/foster-appliances-service/",
+        path: "/services/home-appliances-repair/brands/foster/",
         element: <Components.FosterAppliance />,
       },
       {
@@ -1071,7 +1067,7 @@ export const router = createBrowserRouter([
         element: <Components.SearsHomeAppInstallation />,
       },
       {
-        path: "/ge-general-electric-fridge-repair-in-dubai-ge-general-electric-washing-machine-repair-in-dubai-ge-general-electric-cooker-repair-in-dubai-ge-general-electric-oven-repair-in-dubai-ge-general-electric-a/",
+        path: "/services/home-appliances-repair/brands/ge-general-electric/",
         element: <Components.GeGeneralElectricFridgeRepair />,
       },
       {
@@ -1095,7 +1091,7 @@ export const router = createBrowserRouter([
         element: <Components.SpeedQueenWashingMachineRepair />,
       },
       {
-        path: "/franke-appliances-repair-service-in-dubai/",
+        path: "/services/home-appliances-repair/brands/franke/",
         element: <Components.FrankeAppliancesRepairService />,
       },
       {
@@ -2901,6 +2897,98 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/brands/aftron/" replace />
       },
       {
+        path:"/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/",
+        element:<Navigate to="/services/home-appliances-repair/brands/fagor/" replace />
+      },
+      {
+        path:"/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/hitachi/" replace />
+      },
+      {
+        path:"/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/lennox/" replace />
+      },
+      {
+        path:"/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/mcquay/" replace />
+      },
+      {
+        path:"/midea-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/midea/" replace />
+      },
+      {
+        path:"/mitsubishi-ac-repair-in-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/mitsubishi/" replace />
+      },
+      {
+        path:"/nikai-ac-repair-in-dubai-nikai-ac-maintenance-in-dubai-nikai-ac-fix-in-dubai-nikai-ac-service-in-dubai-nikai-air-condition-repair-in-dubai-nikai-air-condition-maintenance-in-dubai-nikai-air-condition/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/nikai/" replace />
+      },
+      {
+        path:"/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/o-general/" replace />
+      },
+      {
+        path:"/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/panasonic/" replace />
+      },
+      {
+        path:"/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/ruud/" replace />
+      },
+      {
+        path:"/samsung-ac-repair-in-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/samsung/" replace />
+      },
+      {
+        path:"/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/sanyo/" replace />
+      },
+      {
+        path:"/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/skm/" replace />
+      },
+      {
+        path:"/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/sub-zero/" replace />
+      },
+      {
+        path:"/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/super-general/" replace />
+      },
+      {
+        path:"/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/supra/" replace />
+      },
+      {
+        path:"/tcl-ac-repair-in-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/tcl/" replace />
+      },
+      {
+        path:"/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/toshiba/" replace />
+      },
+      {
+        path:"/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/trane/" replace />
+      },
+      {
+        path:"/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/westpoint/" replace />
+      },
+      {
+        path:"/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/whirlpool/" replace />
+      },
+      {
+        path:"/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/white-westinghouse/" replace />
+      },
+      {
+        path:"/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/york/" replace />
+      },
+      {
         path:"/blue-star-ac-maintenance-in-dubai-blue-star-acstar-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/",
         element:<Navigate to="/services/air-conditioning-repair/brands/blue-star/" replace />
       },
@@ -2925,24 +3013,24 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/brands/daewoo/" replace />
       },
       {
-        path:"/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/",
-        element:<Navigate to="/services/home-appliances-repair/brands/admiral/" replace />
+        path:"/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/daikool/" replace />
       },
       {
-        path:"/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/",
-        element:<Navigate to="/services/home-appliances-repair/brands/aeg/" replace />
+        path:"/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/fujitsu/" replace />
       },
       {
-        path:"/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
-        element:<Navigate to="/services/home-appliances-repair/brands/aftron/" replace />
+        path:"/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/goodman/" replace />
       },
       {
-        path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repairs-service-in-dubai-ariston/",
-        element:<Navigate to="/services/home-appliances-repair/brands/ariston/" replace />
+        path:"/gree-ac-repair-in-dubai/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/gree/" replace />
       },
       {
-        path:"/baumatic-appliances/",
-        element:<Navigate to="/services/home-appliances-repair/brands/baumatic/" replace />
+        path:"/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/haier/" replace />
       },
       {
         path:"/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/",
@@ -3009,10 +3097,41 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/home-appliances-repair/brands/faber/" replace />
       },
       {
-        path:"/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/",
-        element:<Navigate to="/services/home-appliances-repair/brands/fagor/" replace />
+        path:"/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/",
+        element:<Navigate to="/services/home-appliances-repair/brands/fisher-paykel/" replace />
+      },
+      {
+        path:"/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/",
+        element:<Navigate to="/services/home-appliances-repair/brands/foster/" replace />
+      },
+      {
+        path:"/foster-appliances-service/",
+        element:<Navigate to="/services/home-appliances-repair/brands/foster/" replace />
+      },
+      {
+        path:"/franke-appliances-repair-service-in-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/franke/" replace />
+      },
+      {
+        path:"/frigidaire-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/frigidaire/" replace />
+      },
+      {
+        path:"/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/",
+        element:<Navigate to="/services/home-appliances-repair/brands/gaggenau/" replace />
+      },
+      {
+        path:"/ge-general-electric-fridge-repair-in-dubai-ge-general-electric-washing-machine-repair-in-dubai-ge-general-electric-cooker-repair-in-dubai-ge-general-electric-oven-repair-in-dubai-ge-general-electric-a/",
+        element:<Navigate to="/services/home-appliances-repair/brands/ge-general-electric/" replace />
+      },
+      {
+        path:"/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/",
+        element:<Navigate to="/services/home-appliances-repair/brands/gibson/" replace />
+      },
+      {
+        path:"/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/",
+        element:<Navigate to="/services/home-appliances-repair/brands/gorenje/" replace />
       }
-      
     ],
   }
 ], {

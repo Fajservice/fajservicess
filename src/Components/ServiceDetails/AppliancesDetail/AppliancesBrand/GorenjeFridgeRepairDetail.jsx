@@ -27,7 +27,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Gorenje Fridge Repair, Gorenje Washing Machine Repair, Gorenje Cooker Repair, Gorenje Oven Repair, Gorenje Appliances Maintenance, Gorenje Refrigerator Fix, Gorenje Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/gorenje/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
