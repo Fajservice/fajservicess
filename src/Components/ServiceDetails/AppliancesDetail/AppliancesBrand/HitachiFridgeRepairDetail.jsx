@@ -27,7 +27,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Hitachi Fridge Repair, Hitachi Washing Machine Repair, Hitachi Cooker Repair, Hitachi Oven Repair, Hitachi Appliances Maintenance, Hitachi Refrigerator Fix, Hitachi Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/hitachi/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -378,10 +378,6 @@ export const router = createBrowserRouter([
         element: <Components.TCLAcRepair />,
       },
       {
-        path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
-        element: <Components.IndesitWashingMachine />,
-      },
-      {
         path: "/services/home-appliances-repair/brands/elica/",
         element: <Components.ElicaAppliancesService />,
       },
@@ -422,7 +418,7 @@ export const router = createBrowserRouter([
         element: <Components.SubZeroFridgeRepair />,
       },
       {
-        path: "/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/",
+        path: "/services/home-appliances-repair/brands/hitachi/",
         element: <Components.HitachiFridgeRepair />,
       },
       {
@@ -930,7 +926,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInOldTown />,
       },
       {
-        path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
+        path: "/services/home-appliances-repair/brands/indesit/",
         element: <Components.IndesitWashingMachine />,
       },
       {
@@ -955,7 +951,7 @@ export const router = createBrowserRouter([
       },
 
       {
-        path: "/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/",
+        path: "/services/home-appliances-repair/brands/hisense/",
         element: <Components.HisenseFridgeRepair />,
       },
       {
@@ -983,7 +979,7 @@ export const router = createBrowserRouter([
         element: <Components.AftronFridgeRepair />,
       },
       {
-        path: "/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/",
+        path: "/services/home-appliances-repair/brands/hoover/",
         element: <Components.HooverFridgeRepair />,
       },
       {
@@ -1011,7 +1007,7 @@ export const router = createBrowserRouter([
         element: <Components.BompaniFridgeRepair />,
       },
       {
-        path: "/kenmore-appliances-service/",
+        path: "/services/home-appliances-repair/brands/kenmore/",
         element: <Components.KenmoreAppliancesService />,
       },
       {
@@ -1023,7 +1019,7 @@ export const router = createBrowserRouter([
         element: <Components.UnimacWashingMachineRepair />,
       },
       {
-        path: "/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/",
+        path: "/services/home-appliances-repair/brands/haier/",
         element: <Components.HaierFridgeRepair />,
       },
       {
@@ -1055,7 +1051,7 @@ export const router = createBrowserRouter([
         element: <Components.BostonRefrigeratorRepair />,
       },
       {
-        path: "/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        path: "/services/home-appliances-repair/brands/kelvinator/",
         element: <Components.KelvinatorHomeAppInstallation />,
       },
       {
@@ -1071,7 +1067,7 @@ export const router = createBrowserRouter([
         element: <Components.GeGeneralElectricFridgeRepair />,
       },
       {
-        path: "/kitchenaid-refrigerator-repair-in-dubai-fridge-repair-in-dubai-kitchenaid-freezer-maintenance-in-dubai-washing-machine-repair-in-dubai-dishwasher-kitchenaid-cooker-oven-repairs-fix-service-in-dubai/",
+        path: "/services/home-appliances-repair/brands/kitchenaid/",
         element: <Components.KitchenaidRefrigeratorRepair />,
       },
       {
@@ -1095,15 +1091,15 @@ export const router = createBrowserRouter([
         element: <Components.FrankeAppliancesRepairService />,
       },
       {
-        path: "/ifb-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        path: "/services/home-appliances-repair/brands/ifb/",
         element: <Components.IfbRefrigeratorRepair />,
       },
       {
-        path: "/kitchenaid-stand-mixer-repair-service-near-me-dubai/",
+        path: "/services/home-appliances-repair/brands/kitchenaid-stand-mixer-repair/",
         element: <Components.KitchenaidStandMixerRepairService />,
       },
       {
-        path: "/kenwood-stand-mixer-repair-service-near-me-dubai/",
+        path: "/services/home-appliances-repair/brands/kenwood/",
         element: <Components.KenwoodStandMixerRepairService />,
       },
       {
@@ -1111,7 +1107,7 @@ export const router = createBrowserRouter([
         element: <Components.CandyRefrigeratorRepair />,
       },
       {
-        path: "/hotpoint-refrigerator-repair-in-dubai-hotpoint-fridge-repair-in-dubai-hotpoint-washing-machine-repair-in-dubai-hotpoint-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        path: "/services/home-appliances-repair/brands/hotpoint/",
         element: <Components.HotpointRefrigeratorRepair />,
       },
       {
@@ -3131,6 +3127,54 @@ export const router = createBrowserRouter([
       {
         path:"/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/",
         element:<Navigate to="/services/home-appliances-repair/brands/gorenje/" replace />
+      },
+      {
+        path:"/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/",
+        element:<Navigate to="/services/home-appliances-repair/brands/haier/" replace />
+      },
+      {
+        path:"/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/",
+        element:<Navigate to="/services/home-appliances-repair/brands/hisense/" replace />
+      },
+      {
+        path:"/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/",
+        element:<Navigate to="/services/home-appliances-repair/brands/hitachi/" replace />
+      },
+      {
+        path:"/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/",
+        element:<Navigate to="/services/home-appliances-repair/brands/hoover/" replace />
+      },
+      {
+        path:"/hotpoint-refrigerator-repair-in-dubai-hotpoint-fridge-repair-in-dubai-hotpoint-washing-machine-repair-in-dubai-hotpoint-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/hotpoint/" replace />
+      },
+      {
+        path:"/ifb-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/ifb/" replace />
+      },
+      {
+        path:"/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
+        element:<Navigate to="/services/home-appliances-repair/brands/indesit/" replace />
+      },
+      {
+        path:"/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/kelvinator/" replace />
+      },
+      {
+        path:"/kenmore-appliances-service/",
+        element:<Navigate to="/services/home-appliances-repair/brands/kenmore/" replace />
+      },
+      {
+        path:"/kenwood-stand-mixer-repair-service-near-me-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/kenwood/" replace />
+      },
+      {
+        path:"/kitchenaid-refrigerator-repair-in-dubai-fridge-repair-in-dubai-kitchenaid-freezer-maintenance-in-dubai-washing-machine-repair-in-dubai-dishwasher-kitchenaid-cooker-oven-repairs-fix-service-in-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/kitchenaid/" replace /> 
+      },
+      {
+        path:"/kitchenaid-stand-mixer-repair-service-near-me-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/kitchenaid-stand-mixer-repair/" replace />
       }
     ],
   }

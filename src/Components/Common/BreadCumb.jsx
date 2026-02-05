@@ -15,14 +15,40 @@ const Breadcrumb = () => {
       }
       
       // For English, apply capitalization rules
-      const acronyms = ["ac", "jvc", "jvt", "lg", "dip", "jafza", "difc", "impz", "jlt", "jge","aeg"];
+      const acronyms = ["ac", "jvc", "jvt", "lg", "dip", "jafza", "difc", "impz", "jlt", "jge", "aeg"];
+
+      // Words that must keep exact casing (brands, special names)
+      const customWords = {
+        kitchenaid: "KitchenAid",
+        delonghi: "DeLonghi",
+        nespresso: "Nespresso",
+        bosch: "Bosch",
+        siemens: "Siemens",
+        whirlpool: "Whirlpool",
+        electrolux: "Electrolux",
+        beko: "Beko",
+        daikin: "Daikin",
+        hitachi: "Hitachi",
+        panasonic: "Panasonic",
+        sharp: "Sharp"
+      };
 
       return decoded
         .split("-")
         .map((word) => {
-          if (acronyms.includes(word.toLowerCase())) {
+          const lower = word.toLowerCase();
+
+          // keep special casing
+          if (customWords[lower]) {
+            return customWords[lower];
+          }
+
+          // Acronyms uppercase
+          if (acronyms.includes(lower)) {
             return word.toUpperCase();
           }
+
+          // Normal word capitalization
           return word.charAt(0).toUpperCase() + word.slice(1);
         })
         .join(" ");
