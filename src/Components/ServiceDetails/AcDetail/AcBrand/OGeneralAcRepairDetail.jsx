@@ -26,7 +26,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metadescription = String(description || "We offer professional O General AC repair and maintenance contracts for VRF, central, or split air conditioners in Dubai. We provide AMC services");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ogeneral AC Repair in Dubai, O General AC Maintenance in Dubai, O General AC Fix in Dubai, O General AC Service in Dubai, O General Air Condition Repair in Dubai, O General Air Condition Maintenance in Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
