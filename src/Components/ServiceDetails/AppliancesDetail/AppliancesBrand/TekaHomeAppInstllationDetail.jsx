@@ -28,7 +28,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Teka home appliance service, Teka washing machine repair, Teka fridge repair, Teka dryer repair, Teka oven repair, Teka cooker repair, Teka stove repair, Teka dishwasher repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/teka/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -27,7 +27,7 @@ const SpeedQueenWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titl
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "speed queen washing machine repair, speed queen dryer repair, speed queen washer dryer repair, speed queen maintenance, speed queen service, speed queen fix, speed queen appliance repair in Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/speed-queen-washing-machine-repair-in-dubai-speed-queen-dryer-repair-in-dubai-speed-queen-washer-dryer-repair-in-dubai-maintenance-fix-service-in-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/speed-queen/");
 
 
   subtitle = "Testimonial"

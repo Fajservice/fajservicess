@@ -28,7 +28,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Liebherr refrigerator repair, Liebherr fridge repair, Liebherr freezer maintenance service, Liebherr appliance repair Dubai, Liebherr washing machine repair Dubai, Liebherr cooker repair Dubai, Liebherr dishwasher repair Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/liebherr-refrigerator-repair-in-dubai-liebherr-fridge-repair-in-dubai-liebherr-freezer-maintenance-service-in-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/liebherr/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

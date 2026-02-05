@@ -27,7 +27,7 @@ const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Whirlpool Fridge Repair Dubai, Whirlpool Washing Machine Repair Dubai, Whirlpool Cooker Repair Dubai, Whirlpool Oven Repair Dubai, Whirlpool Appliances Maintenance Dubai, Whirlpool Refrigerator Repair Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/whirlpool/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -28,7 +28,7 @@ const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Westpoint Fridge Repair, Westpoint Washing Machine Repair, Westpoint Cooker Repair, Westpoint Oven Repair, Westpoint Refrigerator Fix, Westpoint Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/westpoint-fridge-repair-in-dubai-westpoint-washing-machine-repair-in-dubai-westpoint-cooker-repair-in-dubai-westpoint-oven-repair-in-dubai-westpoint-refrigerator-fix-repairs-service-in-dubai-west-poin/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/westpoint/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -27,7 +27,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "White Westinghouse Fridge Repair Dubai, White Westinghouse Washing Machine Repair Dubai, White Westinghouse Cooker Repair Dubai, White Westinghouse Oven Repair Dubai, White Westinghouse Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/white-westinghouse-fridge-repair-in-dubai-white-westinghouse-washing-machine-repair-in-dubai-white-westinghouse-cooker-repair-in-dubai-white-westinghouse-oven-repair-in-dubai-white-westinghouse-applia/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/white-westinghouse/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

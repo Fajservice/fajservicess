@@ -22,7 +22,6 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
-    // For SEO
 
     const metatitle = String(titleSeo || "Panasonic Fridge Repair and Washing Machine Service in Dubai ");
     const metadescription = String(description || "If you need reliable Panasonic fridge repair in Dubai, Call us now for Panasonic washing machine, dishwasher, and refrigerator repair center & service.");

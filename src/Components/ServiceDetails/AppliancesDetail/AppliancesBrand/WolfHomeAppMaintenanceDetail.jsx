@@ -27,7 +27,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Wolf home appliance service, Wolf cooker service, Wolf oven service, Wolf gas stove service, Wolf electric cooker service, Wolf electric oven service, Wolf appliance repair Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/wolf/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

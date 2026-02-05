@@ -48,7 +48,7 @@ const SiemensHomeApplianceDetail = ({
     );
 
     const metaURL = String(
-        URL || "https://www.fajservices.ae/siemens-home-appliances-repair/"
+        URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/siemens/"
     );
 
     const metaImage = String(
