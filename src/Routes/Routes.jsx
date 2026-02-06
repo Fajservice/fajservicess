@@ -1949,7 +1949,7 @@ export const router = createBrowserRouter([
       },
       {
         path:"/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
-        element:<Navigate to="/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/" replace />
+        element:<Navigate to="/services/home-appliances-repair/barbeque-repair-in-dubai/" replace />
       },
       {
         path:"/cigar-humidor-repair/",
@@ -3256,9 +3256,28 @@ export const router = createBrowserRouter([
       {
         path:"/kitchenaid-stand-mixer-repair-service-near-me-dubai/",
         element:<Navigate to="/services/home-appliances-repair/brands/kitchenaid-stand-mixer-repair/" replace />
-      }
+      },
+      {
+        path:"/gree-ac-repair-in-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/gree/" replace />
+      },
+      {
+        path:"/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con",
+        element:<Navigate to="/services/home-appliances-repair/brands/daikin/" replace />
+      },
       
     ],
   }
-], {
-});
+]);

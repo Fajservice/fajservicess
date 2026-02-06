@@ -27,7 +27,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const metadescription = String(description || "Professional in Gree AC repair in Dubai & Gree air conditioning cleaning service near me. Book an 043300002. Our technicians are experts in fixing errors");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Gree AC Repair, Gree AC Service, Gree Air Conditioner Maintenance, Gree AC Repair Dubai, Gree AC Service Dubai, Gree Air Conditioner Repair Dubai, Gree AC Maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/gree-ac-repair-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/gree/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
 
