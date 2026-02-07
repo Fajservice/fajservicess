@@ -6,6 +6,7 @@ import Blog2 from '../../Blog/Blog2';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
+import '../../../assets/main.css';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -101,10 +102,18 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
       </HelmetProvider>
 
       <div className="cs_service_details">
-        {/* Technical Services to Keep Your Coffee Flowing */}
-        <section className="section cs_py_30 bg-light-white">
+        <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30 text-center mb-4">Professional Kitchen Equipment Maintenance and Servicing in Dubai</h1>
+            <h1 className="cs_fs_30">Professional Kitchen Equipment Maintenance and Servicing in Dubai</h1>
+            <p>FAJ Technical Services L.L.C has been serving the kitchen equipment needs of Dubai since 2010. We provide comprehensive solutions for all types of commercial kitchen equipment.
+              Our services encompass installation, maintenance, and repair, catering to a diverse range of clients, including hospitality outlets, hotels, restaurants, cafes, catering services, and residential homes and villas. Additionally, we serve industrial facilities, corporate offices, and shopping centers.
+            </p>
+          </div>
+        </section>
+        {/* Technical Services to Keep Your Coffee Flowing */}
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h1 className="cs_fs_30 text-center mb-4">Kitchen Maintenance Services and Solutions for Business-to-Business (B2B)</h1>
             <div className="row align-items-center">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
@@ -134,48 +143,110 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 <p>FAJ Technical Services L.L.C has been serving the kitchen equipment needs of Dubai since 2010. We provide comprehensive solutions for all types of commercial kitchen equipment. Our services encompass installation, maintenance, and repair, catering to a diverse range of clients, including hospitality outlets, hotels, restaurants, cafes, catering services, and residential homes and villas. Additionally, we serve industrial facilities, corporate offices, and shopping centers.</p>
               </div>
             </div>
-            <div className="mt-5">
-              <div className="d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
+          </div>
+        </section>
+
+        <section className="services_features cs_py_60 bg-light-gray">
+          <div className="container">
+            <div className="services_grid">
+              <div className="service_card">
+                <div className="service_icon">
+                  <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 5C16.2 5 5 16.2 5 30s11.2 25 25 25 25-11.2 25-25S43.8 5 30 5zm0 45c-11 0-20-9-20-20s9-20 20-20 20 9 20 20-9 20-20 20z" fill="#2C5F8D" />
+                    <path d="M35 25h-3v-5c0-1.1-.9-2-2-2s-2 .9-2 2v5h-3c-1.1 0-2 .9-2 2s.9 2 2 2h3v10c0 1.1.9 2 2 2s2-.9 2-2V29h3c1.1 0 2-.9 2-2s-.9-2-2-2z" fill="#2C5F8D" />
+                    <circle cx="22" cy="22" r="2" fill="#2C5F8D" />
+                    <circle cx="38" cy="22" r="2" fill="#2C5F8D" />
+                    <path d="M42 35c-1-3-4-5-7-6v3c2 1 3 2 4 4h3z" fill="#2C5F8D" />
+                  </svg>
+                </div>
+                <div className="service_content">
+                  <h3>Comprehensive and</h3>
+                  <p>Professional Services</p>
+                </div>
+              </div>
+
+              <div className="service_card">
+                <div className="service_icon">
+                  <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M45 8H15c-2.2 0-4 1.8-4 4v36c0 2.2 1.8 4 4 4h30c2.2 0 4-1.8 4-4V12c0-2.2-1.8-4-4-4zm0 40H15V12h30v36z" fill="#2C5F8D" />
+                    <path d="M20 18h20v3H20v-3zm0 7h20v3H20v-3zm0 7h15v3H20v-3z" fill="#2C5F8D" />
+                    <path d="M38 38l-3 3-2-2-2 2 4 4 5-5-2-2z" fill="#2C5F8D" />
+                  </svg>
+                </div>
+                <div className="service_content">
+                  <h3>Annual Maintenance</h3>
+                  <p>Agreement Services</p>
+                </div>
+              </div>
+
+              <div className="service_card">
+                <div className="service_icon">
+                  <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 20H40V10c0-2.2-1.8-4-4-4H10c-2.2 0-4 1.8-4 4v26c0 2.2 1.8 4 4 4h10v10c0 2.2 1.8 4 4 4h26c2.2 0 4-1.8 4-4V24c0-2.2-1.8-4-4-4zM10 36V10h26v10H24c-2.2 0-4 1.8-4 4v12H10zm40 14H24V24h26v26z" fill="#2C5F8D" />
+                    <path d="M30 30h4v4h-4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zm-12 6h4v4h-4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z" fill="#2C5F8D" />
+                    <circle cx="35" cy="48" r="2" fill="#2C5F8D" />
+                  </svg>
+                </div>
+                <div className="service_content">
+                  <h3>Access to Kitchen Equipment</h3>
+                  <p>Spare Parts</p>
+                </div>
+              </div>
+
+              <div className="service_card">
+                <div className="service_icon">
+                  <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 5C16.2 5 5 16.2 5 30s11.2 25 25 25 25-11.2 25-25S43.8 5 30 5zm0 45c-11 0-20-9-20-20s9-20 20-20 20 9 20 20-9 20-20 20z" fill="#2C5F8D" />
+                    <path d="M30 14c-6.6 0-12 5.4-12 12 0 4.4 2.4 8.3 6 10.4V42c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-5.6c3.6-2.1 6-6 6-10.4 0-6.6-5.4-12-12-12zm4 21.2V40h-8v-4.8c-2.4-1.5-4-4.1-4-7.2 0-4.4 3.6-8 8-8s8 3.6 8 8c0 3.1-1.6 5.7-4 7.2z" fill="#2C5F8D" />
+                    <path d="M28 22h4v8h-4v-8z" fill="#2C5F8D" />
+                    <circle cx="30" cy="18" r="2" fill="#2C5F8D" />
+                  </svg>
+                </div>
+                <div className="service_content">
+                  <h3>Customer Support</h3>
+                  <p>7-Day Call Outs</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/*Select Repair Services by Category – Easily Find the Right Appliance Repair */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="maintenance_importance cs_py_60">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Select Repair Services by Category – Easily Find the Right Appliance Repair</h2>
-            <div className="row align-items-center">
-              <div className="col-12 col-lg-7">
-                <p>At <b>FAJ Technical Services L.L.C.</b> we simplify the process of selecting the right repair service for your home appliances. Whether you need washing machine repair, refrigerator repair, household appliance fixes, BBQ grill cleaning, vacuum cleaner repair, cigar humidor maintenance, or any household appliance service, our categorised repair options help you find the best solution quickly and easily.</p>
-              </div>
-              <div className="col-12 col-lg-5 mb-4 mb-lg-0">
-                <div className="service-image-wrapper">
-                  <img
-                    src={`${CDN}/bbq-grill-image/public`}
-                    alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
-                    title="Commercial AC Maintenance Service in Dubai"
-                    width="500"
-                    height="400"
-                    loading="lazy"
-                    decoding="async"
-                    className="service-image"
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
-                    }}
-                  />
+            <div className="importance_header">
+              <h2>Why is commercial kitchen equipment maintenance important?</h2>
+              <p>All kitchen equipment requires care, but some need specific maintenance for safe food handling and a good working environment. Below are key items and their maintenance needs:</p>
+            </div>
+
+            <div className="importance_content">
+              <div className="importance_image">
+                <img src="/images/commercial-kitchen.jpg" alt="Commercial Kitchen Equipment" />
+                <div className="image_overlay">
+                  <h3>COMMERCIAL</h3>
+                  <h3>KITCHEN EQUIPMENT</h3>
                 </div>
               </div>
-            </div>
-            <div className="mt-5">
-              <div className="d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
+
+              <div className="importance_list">
+                <div className="importance_item">
+                  <h4>Cooking & Baking Equipment:</h4>
+                  <p>Cooking range, cookers, ovens, stove tops and fryer are basic kitchen equipment that must be cleaned regularly to avoid buildup and ensure even cooking. Fryers also need proper oil management to maintain food quality.</p>
+                </div>
+
+                <div className="importance_item">
+                  <h4>Refrigeration Equipment:</h4>
+                  <p>Refrigerators and freezers should be cleaned regularly to remove buildup and require temperature monitoring. Checking and adjusting the temperature is vital for food storage and freshness.</p>
+                </div>
+
+                <div className="importance_item">
+                  <h4>Food Preparation Equipment:</h4>
+                  <p>Mixers, slicers, and blenders have specific functionality and deep, making thorough cleaning essential to prevent contamination, especially with raw meats. Regular lubrication of moving parts is also necessary to avoid straining the motor.</p>
+                </div>
+
+                <div className="importance_item">
+                  <h4>Dishwashing Equipment:</h4>
+                  <p>Inspect dishwashers and sinks for leaks and drainage to ensure effective washing. Regular descaling is essential to remove food debris buildup that can affect safety and performance.</p>
+                </div>
               </div>
             </div>
           </div>

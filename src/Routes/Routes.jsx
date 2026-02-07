@@ -1543,13 +1543,15 @@ export const router = createBrowserRouter([
         element: <Components.Career />,
       },
       {
-        path: "/cloudapi/",
-        element: <Components.CloudApi />,
-      },
-      {
         path: "/testimonials/",
         element: <Components.Testimonials />,
       },
+      {
+        path: "/services/kitchen-equipment-maintenance/",
+        element: <Components.KitchenEquipmentPage />,
+      },
+
+      
       // Redirection
       {
         path: "/blog/is-air-fryer-healthy.php",
