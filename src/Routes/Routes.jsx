@@ -242,7 +242,7 @@ export const router = createBrowserRouter([
         element: <Components.FujitsuAcRepair />,
       },
       {
-        path: "/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/",
+        path: "/services/air-conditioning-repair/brands/daikin/",
         element: <Components.DaikinAcRepair />,
       },
       {
@@ -266,7 +266,7 @@ export const router = createBrowserRouter([
         element: <Components.YorkAcRepair />,
       },
       {
-        path: "/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/",
+        path: "/services/air-conditioning-repair/brands/blue-star/",
         element: <Components.BlueStarAcRepair />,
       },
       {
@@ -398,7 +398,7 @@ export const router = createBrowserRouter([
         element: <Components.FisherPaykelFridgeRepair />,
       },
       {
-        path: "/services/home-appliances-repair/brands/smeg/",
+        path: "/services/home-appliances-repair/brands/siemens/",
         element: <Components.SiemensHomeAppUnstallation />,
       },
       {
@@ -430,7 +430,7 @@ export const router = createBrowserRouter([
         element: <Components.WhirlpoolFridgeRepair />,
       },
       {
-        path: "/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        path: "/services/home-appliances-repair/brands/teka/",
         element: <Components.TekaHomeAppInstllation />,
       },
       {
@@ -934,10 +934,6 @@ export const router = createBrowserRouter([
         element: <Components.VikingAppliancesService />,
       },
       {
-        path: "/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/",
-        element: <Components.SamsungFridgeRepair />,
-      },
-      {
         path: "/services/home-appliances-repair/brands/sanyo/",
         element: <Components.SanyoHomeAppliance />,
       },
@@ -955,7 +951,7 @@ export const router = createBrowserRouter([
         element: <Components.HisenseFridgeRepair />,
       },
       {
-        path: "/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/",
+        path: "/services/home-appliances-repair/brands/panasonic/",
         element: <Components.PanasonicFridgeRepair />,
       },
       {
@@ -1015,7 +1011,7 @@ export const router = createBrowserRouter([
         element: <Components.SharpHomeAppliancesInstallation />,
       },
       {
-        path: "/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/",
+        path: "/services/home-appliances-repair/brands/unimac/",
         element: <Components.UnimacWashingMachineRepair />,
       },
       {
@@ -1031,7 +1027,7 @@ export const router = createBrowserRouter([
         element: <Components.FaberAppliancesService />,
       },
       {
-        path: "/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/",
+        path: "/services/home-appliances-repair/brands/marvel/",
         element: <Components.MarvelFridgeRepair />,
       },
       {
@@ -1039,7 +1035,7 @@ export const router = createBrowserRouter([
         element: <Components.BrandtFridgeRepair />,
       },
       {
-        path: "/thermador-appliances-service/",
+        path: "/services/home-appliances-repair/brands/thermador/",
         element: <Components.ThemadorAppliancesService />,
       },
       {
@@ -1119,7 +1115,7 @@ export const router = createBrowserRouter([
         element: <Components.SmegMixerRepairService />,
       },
       {
-        path: "/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/",
+        path: "/services/home-appliances-repair/brands/la-germania/",
         element: <Components.LaGermaniaCookingRangeRepair />,
       },
       {
@@ -1207,7 +1203,7 @@ export const router = createBrowserRouter([
         element: <Components.AppliancesServicesInJumeirahGolfEstates />,
       },
       {
-        path: "/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/",
+        path: "/services/home-appliances-repair/coverage-area/JLT/",
         element: <Components.HomeAppliancesServiceCentreInJltDubai />,
       },
       {
@@ -1283,15 +1279,15 @@ export const router = createBrowserRouter([
         element: <Components.ApplianceServiceInArabianRanches />,
       },
       {
-        path: "/washing-machine-repair-in-al-quoz-refrigerator-repair-in-al-quoz-fridge-repair-in-al-quoz-dishwasher-oven-cooker-stove-appliance-maintenance-fix-service-in-al-quoz-dubai/",
+        path: "/services/home-appliances-repair/coverage-area/al-quoz/",
         element: <Components.WashingMachineRepairInAlQuoz />,
       },
       {
-        path: "/washing-machine-repair-town-dubai-fridge-repair-town-dubai-refrigerator-repairing-town-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-town-dubai-dishwasher-installation-fixing-mainte/",
+        path: "/services/home-appliances-repair/coverage-area/town-dubai/",
         element: <Components.WashingMachineRepairTownDubai />,
       },
       {
-        path: "/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/",
+        path: "/services/home-appliances-repair/coverage-area/business-bay/",
         element: <Components.WashingMachineRepairBusinessBay />,
       },
       {
@@ -1301,10 +1297,6 @@ export const router = createBrowserRouter([
       {
         path: "/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/",
         element: <Components.FridgeRepairInDubaiMarina />,
-      },
-      {
-        path: "/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/",
-        element: <Components.WashingMachineRepairAlBarsha />,
       },
       {
         path: "/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/",
@@ -2982,6 +2974,10 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/air-conditioning-repair/brands/york/" replace />
       },
       {
+        path:"/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/",
+        element: <Navigate to="/services/home-appliances-repair/brands/samsung/" replace />,
+      },
+      {
         path:"/samsung-home-appliances-repair/",
         element:<Navigate to="/services/home-appliances-repair/brands/samsung/" replace />
       },
@@ -3022,7 +3018,7 @@ export const router = createBrowserRouter([
         element:<Navigate to="/services/home-appliances-repair/brands/sub-zero/" replace />
       },
       {
-        path:"/services/home-appliances-repair/brands/teka/",
+        path:"/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
         element:<Navigate to="/services/home-appliances-repair/brands/teka/" replace />
       },
       {
@@ -3259,25 +3255,56 @@ export const router = createBrowserRouter([
       },
       {
         path:"/gree-ac-repair-in-dubai/",
-        element:<Navigate to="/services/home-appliances-repair/brands/gree/" replace />
+        element:<Navigate to="/services/air-conditioning-repair/brands/gree/" replace />
       },
       {
         path:"/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/",
-        element:<Navigate to="/" replace />
+        element:<Navigate to="/services/air-conditioning-repair/brands/goodman/" replace />
       },
       {
         path:"/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/",
-        element:<Navigate to="/" replace />
+        element:<Navigate to="/services/air-conditioning-repair/brands/fujitsu/" replace />
       },
       {
         path:"/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/",
         element:<Navigate to="/" replace />
       },
       {
-        path:"/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con",
-        element:<Navigate to="/services/home-appliances-repair/brands/daikin/" replace />
+        path:"/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/daikin/" replace />
       },
-      
+      {
+        path:"/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/",  
+        element:<Navigate to="/services/air-conditioning-repair/brands/bryant/" replace />
+      },
+      {
+        path:"/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/blue-star/" replace />
+      },
+      {
+        path:"/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/",
+        element:<Navigate to="/services/home-appliances-repair/brands/unimac/" replace />
+      },
+      {
+        path:"/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/",
+        element:<Navigate to="/services/home-appliances-repair/brands/marvel/" replace />
+      },
+      {
+        path:"/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/",
+        element:<Navigate to="/services/home-appliances-repair/brands/panasonic/" replace />
+      },
+      {
+        path:"/thermador-appliances-service/",
+        element:<Navigate to="/services/home-appliances-repair/brands/thermador/" replace />
+      },
+      {
+        path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/",
+        element:<Navigate to="/services/home-appliances-repair/brands/ariston/" replace />
+      },
+      {
+        path:"/baumatic-appliances/",
+        element:<Navigate to="/services/home-appliances-repair/brands/baumatic/" replace />
+      }
     ],
   }
 ]);
