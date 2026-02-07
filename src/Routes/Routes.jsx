@@ -979,7 +979,7 @@ export const router = createBrowserRouter([
         element: <Components.HooverFridgeRepair />,
       },
       {
-        path: "/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/",
+        path: "/services/home-appliances-repair/brands/lg/",
         element: <Components.LgFridgeRepair />,
       },
       {
