@@ -7,6 +7,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
 import BlogCoffeeMachine from './BlogCoffeeMachine';
+
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -305,6 +306,7 @@ const CoffeeMachineCatg = ({ subtitle, title, reviewsbg, titleSeo, description, 
             top: 6px;
           }
         }
+
       `}</style>
         </section>
         {/* why choose */}
