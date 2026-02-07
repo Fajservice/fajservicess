@@ -159,7 +159,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('ac filter')}  alt="McQuay AC Service" />
+                <img className="bordered-img w-100" src={getImageSrc('acfilterinner')}  alt="McQuay AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>

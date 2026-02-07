@@ -157,7 +157,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('ac filter')}  alt="Fujitsu AC Service" />
+                <img className="bordered-img w-100" src={getImageSrc('acfilterinner')}  alt="Fujitsu AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>

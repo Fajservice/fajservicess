@@ -160,7 +160,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')} alt="Rheem AC Service" />
+                <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="Rheem AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>

@@ -83,9 +83,6 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         fetchData();
     }, []);
 
-    
-
-
     return (
         <>
             <HelmetProvider>

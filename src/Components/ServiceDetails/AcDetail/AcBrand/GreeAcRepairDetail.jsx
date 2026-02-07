@@ -79,38 +79,6 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
     fetchData();
   }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      }, {
-        breakpoint: 575,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
   return (
     <>
       <HelmetProvider>
@@ -188,7 +156,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('ac filter')}  alt="Gree AC Service" />
+                <img className="bordered-img w-100" src={getImageSrc('acfilterinner')}  alt="Gree AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
