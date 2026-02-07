@@ -2884,9 +2884,13 @@ export const router = createBrowserRouter([
         path:"/wasn-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-town-dubai-dishwasher-installation-fixing-mainte/",
         element:<Navigate to="/services/home-appliances-repair/coverage-area/town-dubai/" replace />
       },
-      // Brand redirections
+      // Ac Brand redirections
       {
         path:"/aftron-ac-repair-maintenance-service-in-dubai-2/",
+        element:<Navigate to="/services/air-conditioning-repair/brands/aftron/" replace />
+      },
+      {
+        path:"/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/",
         element:<Navigate to="/services/air-conditioning-repair/brands/aftron/" replace />
       },
       {
@@ -2981,6 +2985,8 @@ export const router = createBrowserRouter([
         path:"/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
         element:<Navigate to="/services/air-conditioning-repair/brands/york/" replace />
       },
+
+      // Home Appliances Brands
       {
         path:"/samsung-home-appliances-repair/",
         element:<Navigate to="/services/home-appliances-repair/brands/samsung/" replace />
@@ -3275,7 +3281,7 @@ export const router = createBrowserRouter([
       },
       {
         path:"/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con",
-        element:<Navigate to="/services/home-appliances-repair/brands/daikin/" replace />
+        element:<Navigate to="/services/air-condition-repair/brands/daikin/" replace />
       },
       
     ],
