@@ -28,7 +28,7 @@ const OvenRepairDetail = ({
   URL }) => {
 
   const metaTitle = String(
-    titleSeo || "Pizza Oven Repair in Dubai | Commercial Oven Maintenance"
+    titleSeo || "Pizza Oven Repair & Commercial Oven Maintenance Dubai"
   );
 
   const metaDescription = String(
@@ -154,7 +154,7 @@ const OvenRepairDetail = ({
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Pizza Oven Repair in Dubai | Commercial Oven Maintenance Services</h1>
+            <h1 className="cs_fs_30">Pizza Oven Repair and Commercial Oven Maintenance Service in Dubai</h1>
             <p>
               Looking for affordable oven repair? At FAJ Technical Services L.L.C, we've been serving Dubai since 2010, offering trustworthy repair solutions.
               Our skilled technicians can handle various oven issues, including electric, gas range, and electric ovens.

@@ -19,8 +19,8 @@ const getImageSrc = (imgPath) => {
 };
 const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Kitchen Equipment AMC Contract Services in Dubai");
-  const metadescription = String(description || "Get FAJ reliable commercial kitchen equipment AMC services in Dubai. With specialised chiller, freezer, stove, oven, & cooker maintenance agreement ");
+  const metatitle = String(titleSeo || "Commercial Kitchen Equipment AMC | Maintenance Contract Dubai");
+  const metadescription = String(description || "Get FAJ reliable commercial kitchen equipment AMC services in Dubai. With specialised chiller, freezer, stove, oven, & cooker maintenance agreement");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Kitchen Equipment amc, kitchen equipment maintenance contract, commercial kitchen equipment service, kitchen appliance repair, kitchen equipment repair Dubai, kitchen equipment AMC Dubai, kitchen equipment AMC Abu Dhabi, kitchen equipment AMC Sharjah, gas stove maintenance Dubai, oven maintenance Dubai, cooker maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment/commercial-kitchen-equipment-amc/");
@@ -126,7 +126,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Kitchen Equipment AMC Contract Services in Dubai</h1>
+            <h1 className="cs_fs_30">Commercial Kitchen Equipment Maintenance Contract Services (AMC) in Dubai</h1>
             <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010. Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.<br />As appliances age, they become more prone to breakdowns, often at inconvenient times.<br />With FAJ Appliance Services, our annual Domestic or Commercial Appliances Contract offers peace of mind by providing a predictable budget for maintenance, helping you avoid unexpected repair costs. Contact us today to book a technician for an inspection and arrange your Appliances AMC Services Contract Cover to start now.</p>
 
             <div id="get-quote" className=" mt-3">

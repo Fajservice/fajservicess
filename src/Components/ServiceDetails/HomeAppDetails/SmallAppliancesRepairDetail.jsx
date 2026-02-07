@@ -207,7 +207,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Small Home Appliances Service Center in Dubai | Household Appliance Repair </h1>
+            <h1 className="cs_fs_30">Small Home Appliances Service Center and Household Appliance Repair in Dubai</h1>
             <p>
               Do you need small appliance repair? If you&apos;re looking for a reliable and trusted service, look no further than FAJ Technical Services L.L.C, established in 2010.
               We understand the inconvenience caused by a malfunctioning appliance, which is why we offer fast and professional small home appliance repair services in your area.

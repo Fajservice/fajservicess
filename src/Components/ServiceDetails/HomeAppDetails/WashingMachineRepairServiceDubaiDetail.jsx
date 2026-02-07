@@ -97,11 +97,11 @@ const WashingMachineRepairServiceDubaiDetail = ({
 
 }) => {
   const metaTitle = String(
-    titleSeo || "Emergency Washing Machine Repair in Dubai – 60-Minute Response"
+    titleSeo || "Washing Machine Repair & Maintenance Service in Dubai"
   );
 
   const metaDescription = String(
-    description || "FAJ is an expert in washing machine repair & service center in Dubai. Call 04-3300002 for washer dryer repairs, laundry machine maintenance near me."
+    description || "Call now for quick washing machine repair Dubai. FAJ is an expert in washer dryer, laundry machine maintenance and service center in Dubai near me."
   );
 
   const metaAuthor = String(
@@ -233,7 +233,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Washing Machine Repair Service in Dubai</h1>
+            <h1 className="cs_fs_30">Washing Machine Repair and Maintenance Service in Dubai</h1>
             <p>Since 2010, FAJ Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai and Sharjah.<br />Our experts are here to assist with any issues, from top-loading and front-loading washing machine repair and service near you. You can trust us to keep your washing machine running smoothly.<br /> You can rely on us for both routine repairs and emergency washing machine service. Contact us now for reliable services at competitive prices!</p>
 
             <div id="get-quote" className="mt-3">

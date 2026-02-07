@@ -22,11 +22,11 @@ const getImageSrc = (imgPath) => {
 const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   const metaTitle = String(
-    titleSeo || "Built-in Appliances Repair Dubai - Refrigerator Service"
+    titleSeo || "Built in Appliances Repair and Service Center Dubai Near Me"
   );
 
   const metaDescription = String(
-    description || "We offer (Integrated) built-in appliance repair Dubai. Book an fridge, washing machine, dishwasher, stove cooktop oven fix service center near me"
+    description || "FAJ provide built-in appliance repair in Dubai, with expert technicians of the integrated home appliances service center and maintenance contract."
   );
 
   const metaAuthor = String(
@@ -230,7 +230,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Built-in Appliances Repair Service Dubai</h1>
+            <h1 className="cs_fs_30">Built In Home Appliances Repair and Maintenance Service in Dubai</h1>
             <p>
               FAJ Technical Services L.L.C has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
               <br />

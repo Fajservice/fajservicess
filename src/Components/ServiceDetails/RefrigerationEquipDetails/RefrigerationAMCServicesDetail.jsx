@@ -18,8 +18,8 @@ const getImageSrc = (imgPath) => {
 };
 const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Refrigeration Annual Maintenance Contract Service In Dubai");
-  const metadescription = String(description || "FAJ fully experts in commercial freezer & chiller amc service in dubai. We offer freezer, cold room, refrigerator, commercial kitchen equipment maintenance");
+  const metatitle = String(titleSeo || "Commercial Refrigeration Maintenance & Repair Service in Dubai");
+  const metadescription = String(description || "Looking for commercial refrigeration maintenance in Dubai? Call FAJ for walk in cooler, cooling unit, biomedical freezer & chiller repair services near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Refrigeration Annual Maintenance Contract Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/");
@@ -205,7 +205,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Refrigeration Maintenance Contract Services</h1>
+            <h1 className="cs_fs_30">Commercial Refrigeration Maintenance and| Freezer & Chiller Repair Service in Dubai</h1>
             <p>
               Keep your cold room, walk-in cooler, freezer and chiller system running efficiently year-round with an Annual Maintenance Contract (AMC).
               <br />Our reliable maintenance contracts, available in Dubai and Sharjah, UAE, will help you keep your refrigeration systems running at their best.

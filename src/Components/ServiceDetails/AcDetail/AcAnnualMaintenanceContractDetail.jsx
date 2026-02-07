@@ -44,8 +44,8 @@ const AcAnnualMaintenanceContractDetail = ({
   URL
 }) => {
 
-  const metatitle = String(titleSeo || "Best AC Annual Maintenance Contract Dubai | AC AMC Services");
-  const metadescription = String(description || "Since 2010, FAJ has offered AC annual maintenance contract in Dubai, Sharjah, UAE. Repairs are more costly than a regular maintenance agreement.");
+  const metatitle = String(titleSeo || "Best AC Annual Maintenance Contract in Dubai | AC AMC Services");
+  const metadescription = String(description || "FAJ has been offering AC annual maintenance contract in Dubai. A regular maintenance agreement (AMC) service saves costs in your yearly budget.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Annual Maintenance Contract Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/");
@@ -197,7 +197,7 @@ const AcAnnualMaintenanceContractDetail = ({
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Annual Maintenance Contract Services (AMC)</h1>
+            <h1 className="cs_fs_30">Best AC Annual Maintenance Contract Services in Dubai</h1>
             <p>
               At FAJ Technical Services L.L.C, customer satisfaction is our top priority. We offer a straightforward and cost-effective annual maintenance contract that covers all essential maintenance for your home and business.
               Our contract includes year-round AC servicing, along with qualified support for plumbing and electrical repairs (MEP). We believe our essential maintenance contract is one of the best maintenance packages available in Dubai.

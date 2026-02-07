@@ -129,7 +129,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Ice Maker Repair in Dubai | Commercial Ice Maker Machine Maintenance Services</h1>
+            <h1 className="cs_fs_30">Ice Maker Repair and Commercial Ice Machine Maintenance Service in Dubai</h1>
             <p>
               If you need urgent ice maker repair service in Dubai, you've come to the right place! FAJ has been a trusted maintenance provider since 2010. We also specialise in commercial ice machine repairs, ensuring that businesses always have a reliable supply of ice.
               <br />If your ice maker is not working properly, contact FAJ Professionals! We prioritise customer satisfaction and offer customised solutions for all your ice maker repair and maintenance needs in Dubai.

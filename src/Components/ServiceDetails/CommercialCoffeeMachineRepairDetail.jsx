@@ -234,7 +234,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Coffee Machine Repair</h1>
+            <h1 className="cs_fs_30">Commercial Coffee Machine Repairs and Maintenance Servicing in Dubai</h1>
             <p>
               <h2>Professional Coffee Machine Repairs in Dubai, Sharjah, and Abu Dhabi</h2>
               FAJ Company, established in 2010, offers international standard services for the installation and repair of commercial appliances and coffee machines.

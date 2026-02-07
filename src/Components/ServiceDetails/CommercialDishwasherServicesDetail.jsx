@@ -22,7 +22,7 @@ const getImageSrc = (imgPath) => {
 const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Commercial Dishwasher Repair and Maintenance Service Dubai");
-  const metadescription = String(description || "Get fast commercial dishwasher repair in Dubai. We service Fagor, Electrolux, Meiko, Elettrobar, Hobart & more. AMC & maintenance available");
+  const metadescription = String(description || "Get fast commercial dishwasher repair in Dubai. FAJ offer Fagor, Electrolux, Meiko, Elettrobar, Hobart maintenance services near by you and AMC");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Dishwasher Repair, Commercial Dishwasher Maintenance Service");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-dishwasher-repair/");
@@ -130,7 +130,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Dishwasher Repair</h1>
+            <h1 className="cs_fs_30">Commercial Dishwasher Repair and Maintenance Service in Dubai</h1>
             <p>
               Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
               <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
