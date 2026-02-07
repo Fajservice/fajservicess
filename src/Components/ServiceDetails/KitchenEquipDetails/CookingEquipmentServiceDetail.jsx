@@ -19,7 +19,7 @@ const getImageSrc = (imgPath) => {
 };
 const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Cooking Appliances Repair & Maintenance Services");
+  const metatitle = String(titleSeo || "Commercial Cooking Appliances Repair & Maintenance in Dubai");
   const metadescription = String(description || "FAJ experts in commercial cooking appliances repair in Dubai, professional, stove, fryer, hood, cooker, kitchen equipment maintenance and AMC services.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Cooking Equipment Repair, Dubai, professional Kitchen Appliances Service, professional Cooking Range Repair, professional Gas Stove Repair, professional Deep Fryer Service, professional Oven Repair, Restaurant Equipment Maintenance");

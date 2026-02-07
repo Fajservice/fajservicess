@@ -81,7 +81,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content="Best kitchen equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens."></meta>
+          <meta name="description" content="Book your home appliance repair today, and FAJ Service Center will arrange for an expert technician to fix your washing machine, fridge or dishwasher."></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />
@@ -103,8 +103,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
         {/* Technical Services to Keep Your Coffee Flowing */}
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h1 className="cs_fs_30 text-center mb-4">Home Appliance Repair & Support Service Center in Dubai
-            </h1>
+            <h1 className="cs_fs_30 text-center mb-4">Home Appliance Repair & Service Center in Dubai</h1>
             <div className="row align-items-center">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">

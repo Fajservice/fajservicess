@@ -18,8 +18,8 @@ const getImageSrc = (imgPath) => {
 };
 const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Meat Grinder Repair in Dubai and Maintenance Services Near Me");
-  const metadescription = String(description || "Need meat grinder repair in Dubai? FAJ offers an expert repair and service center near me. Book now for fast and reliable meat grinder maintenance.");
+  const metatitle = String(titleSeo || "Meat Grinder Repair and Maintenance Service Dubai Near Me");
+  const metadescription = String(description || "Need meat grinder repair in Dubai? FAJ offers commercial food equipment, vacuum sealers, meat processing & butchery equipment maintenance service.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Meat Grinder Repair, Meat Grinder Service, Meat Grinder Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment/meat-grinder-repair/");
@@ -124,7 +124,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Meat Grinder Repair and Maintenance Services in Dubai</h1>
+            <h1 className="cs_fs_30">Meat Grinder Repair and Food Equipment Maintenance Services in Dubai</h1>
             <p>
               Experience reliable and fast maintenance services in Dubai with FAJ, a registered company since 2010. If you need effective meat grinder repair, trust the professionals at FAJ to ensure your grinder operates perfectly.
               <br />

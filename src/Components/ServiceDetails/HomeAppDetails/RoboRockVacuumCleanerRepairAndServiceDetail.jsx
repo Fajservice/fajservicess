@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 
 const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Roborock Vacuum Cleaner Repair Service in Dubai");
-  const metadescription = String(description || "Roborock vacuum cleaner repair service and center in Dubai. Book with us 043300002 for vacuum cleaner repair near me, fix, servicing & maintenance.");
+  const metatitle = String(titleSeo || "Robot Vacuum Cleaner Repair | Vacuum Cleaner Service Center");
+  const metadescription = String(description || "Fast & Cheap Robot Vacuum Cleaner Repair in Dubai. Call us for upright canister, wet dry cordless vacuum cleaner repair near me & maintenance service");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "RoboRock vacuum cleaner repair in Dubai, RoboRock vacuum cleaner service center in Dubai, RoboRock vacuum cleaner repair near me, fix RoboRock vacuum cleaner, RoboRock vacuum cleaner servicing, RoboRock vacuum cleaner maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/roborock-vacuum-cleaner-repair-service-in-dubai/");
@@ -127,7 +127,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
         <section className="section cs_py_30">
           <div className="container">
 
-            <h1 className="cs_fs_30">Roborock Vacuum Cleaner Repair & Service in Dubai</h1>
+            <h1 className="cs_fs_30">Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center in Dubai</h1>
             <p>FAJ Technical Services L.L.C, founded in 2010, has established itself as a trusted authority in robotic vacuum maintenance. We specialize in Roborock robot vacuum cleaner repair, Roborock robot vacuum, Roborock wet dry vacuum maintenance, Roborock cordless vacuum cleaner deep cleaning service & repair center near you in Dubai, Sharjah, and Abu Dhabi. <br />Our comprehensive services include error diagnosis, repairs, and necessary parts for robot vacuum cleaning service, all conveniently available near in your location Dubai.</p>
 
             <div id="get-quote" className=" mt-3">

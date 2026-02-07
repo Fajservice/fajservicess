@@ -20,8 +20,8 @@ const getImageSrc = (imgPath) => {
 };
 const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Repair Service in Dubai | Appliances Maintenance");
-  const metadescription = String(description || "Best appliances repair service in Dubai. Get an expert in refrigerator, fridge, washing machine, dryer, dishwasher, oven maintenance & repair near me");
+  const metatitle = String(titleSeo || "Home Appliances Repair and Maintenance Service in Dubai");
+  const metadescription = String(description || "Top home appliance repair in Dubai. Get an expert FAJ technician for fixing tumble dryer, stove, and appliance maintenance and service center near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Appliances Repair Dubai, Appliance Service Dubai, Appliance Repair Near Me, Home Appliances Repair Dubai, Washing Machine Repair Dubai, Refrigerator Repair Dubai, Dishwasher Repair Dubai, Oven Repair Dubai, Dryer Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/");
@@ -102,7 +102,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
   return (
     <>
       <Helmet>
-        <title>Appliances Service Center in Dubai | Appliances Repair Near Me</title>
+        <title>Home Appliances Repair and Maintenance Service in Dubai</title>
         <meta name="description" content={metadescription}></meta>
         <meta name="keywords" content={metaKeyword} />
         <meta name="author" content={metaAuthor} />
@@ -206,7 +206,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Appliances Repair Service in Dubai | Appliances Maintenance Services</h1>
+            <h1 className="cs_fs_30">Best Home Appliances Repair and Maintenance Service in Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
