@@ -152,7 +152,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('ac filter')}  alt="coleman AC Service" />
+                <img className="bordered-img w-100" src={getImageSrc('acfilterinner')}  alt="coleman AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
