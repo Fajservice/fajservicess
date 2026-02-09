@@ -28,7 +28,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Panasonic Fridge Repair Dubai, Panasonic Washing Machine Repair Dubai, Panasonic Cooker Repair Dubai, Panasonic Oven Repair Dubai, Panasonic Appliances Maintenance Dubai, Panasonic Refrigerator Service Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/panasonic/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

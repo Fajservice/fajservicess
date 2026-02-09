@@ -27,7 +27,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Samsung Fridge Repair Dubai, Samsung Washing Machine Repair Dubai, Samsung Dryer Repair Dubai, Samsung Dishwasher Repair Dubai, Samsung Stove Repair Dubai, Samsung Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/samsung/").replace(/\/?$/, '/');
 
 
   subtitle = "Testimonial"

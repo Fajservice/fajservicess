@@ -29,7 +29,7 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Hisense fridge repair in Dubai, Hisense washing machine repair in Dubai, Hisense cooker repair in Dubai, Hisense oven repair in Dubai, Hisense appliances maintenance in Dubai, Hisense refrigerator fix repair in Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/hisense/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/hisense/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

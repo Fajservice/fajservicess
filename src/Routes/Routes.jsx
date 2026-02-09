@@ -410,7 +410,7 @@ export const router = createBrowserRouter([
         element: <Components.ApplianceServiceInDifc />,
       },
       {
-        path: "/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/",
+        path: "/services/home-appliances-repair/brands/smeg/",
         element: <Components.SmegFridgeRepair />,
       },
       {
@@ -1111,7 +1111,7 @@ export const router = createBrowserRouter([
         element: <Components.DeDietrichFridgeRepair />,
       },
       {
-        path: "/services/home-appliances-repair/brands/smeg/",
+        path: "/services/home-appliances-repair/brands/smeg-mixer-repair/",
         element: <Components.SmegMixerRepairService />,
       },
       {
@@ -1127,7 +1127,7 @@ export const router = createBrowserRouter([
         element: <Components.RoboRockVacuumCleanerRepairAndService />,
       },
       {
-        path: "/services/home-appliances-repair/brands/delonghi-coffee-machine-repair/",
+        path: "/services/home-appliances-repair/brands/delonghi",
         element: <Components.DelonghiCoffeeMachineRepair />,
       },
       {
@@ -1611,7 +1611,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Navigate to="/appliances-repair-service/" replace />
+        element: <Navigate to="/" replace />
       },
 
       {
@@ -3091,7 +3091,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/delonghi-coffee-machine-repair/",
-        element: <Navigate to="/services/home-appliances-repair/brands/delonghi-coffee-machine-repair/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/delonghi" replace />
       },
       {
         path: "/electrolux-fridge-repair-in-dubai-electrolux-washing-machine-repair-in-dubai-electrolux-cooker-repair-in-dubai-electrolux-oven-repair-in-dubai-electrolux-appliances-maintenance-in-dubai-electrolux-ref/",
@@ -3264,7 +3264,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/smeg-mixer-repair-service-near-me-dubai/",
-        element: <Navigate to="/services/home-appliances-repair/brands/smeg/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/smeg-mixer-repair/" replace />
       },
       {
         path: "/speed-queen-washing-machine-repair-in-dubai-speed-queen-dryer-repair-in-dubai-speed-queen-washer-dryer-repair-in-dubai-maintenance-fix-service-in-dubai/",

@@ -602,7 +602,7 @@ p a {
 
 .cs_service_details img {
   object-fit: cover;
-  width: 100%;
+  /* width: 100%; */
 
 }
 .cs_service_details .gallery-section img{

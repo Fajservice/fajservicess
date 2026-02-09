@@ -27,7 +27,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Miele Fridge Repair Dubai, Miele Washing Machine Repair Dubai, Miele Cooker Repair Dubai, Miele Oven Repair Dubai, Miele Appliances Maintenance Dubai, Miele Refrigerator Fix Repairs Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/miele/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

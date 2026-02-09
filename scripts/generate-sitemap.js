@@ -1091,11 +1091,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 	<priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/</loc>
-	<lastmod>${today}</lastmod>
-	<priority>0.80</priority>
-</url>
-<url>
 	<loc>https://www.fajservices.ae/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/</loc>
 	<lastmod>${today}</lastmod>
 	<priority>0.80</priority>
@@ -2114,6 +2109,543 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <loc>https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/aftron/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/blue-star/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/bryant/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/bryant/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/coleman/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/cooline/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/crafft/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/daewoo/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/daewoo/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/daikin/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/daikool/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/fujitsu/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/goodman/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/gree/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/haier/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/hitachi/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/lennox/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/mcquay/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/midea/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/nikai/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/ruud/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/sanyo/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/skm/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/sub-zero/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/super-general/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/supra/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/tcl/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/toshiba/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/westpoint/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/whirlpool/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/white-westinghouse/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/york/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/york/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/admiral/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/aeg/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/aftron/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/baumatic/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/baumatic/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/beko/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/bertazzoni/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/blomberg/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/bompani/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/boston/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/brandt/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/boston/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/candy/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/daewoo/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/de-dietrich/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/delonghi/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/electrolux/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/elica/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/faber/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/fagor/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/fisher-paykel/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/foster/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/franke/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/gaggenau/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/ge-general-electric/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/gibson/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/gorenje/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/haier/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/hisense/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/hitachi/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/hoover/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/hotpoint/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/hotpoint/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/ifb/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/indesit/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/kelvinator/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/kenmore/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/kenwood/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/kitchenaid/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/kitchenaid-stand-mixer-repair/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/la-germania/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/lg/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/liebherr/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/marvel/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/maytag/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/miele/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/neff/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/panasonic/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/samsung/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/sanyo/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/sears/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/sharp/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/siemens/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/speed-queen/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/sub-zero/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/teka/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/terim/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/thermador/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/toshiba/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/unimac/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/viking/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/westpoint/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/whirlpool/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/white-westinghouse/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/wolf/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>https://www.fajservices.ae/services/home-appliances-repair/brands/zanussi/</loc>
+	<lastmod>${today}</lastmod>
+	<priority>0.80</priority>
 </url>
 
 </urlset>`;

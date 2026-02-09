@@ -1,11 +1,9 @@
 
 import { useEffect, useRef, useState } from 'react';
-import CallNowButton from '../../Buttons/CallNowButton';
 import Testimonial1 from '../../Testimonial/Testimonial1';
 import Blog2 from '../../Blog/Blog2';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
-import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 import '../../../assets/main.css';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -139,7 +137,6 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-12 col-lg-7">
-                <p><b>Expert Appliance Repair Near You</b></p>
                 <p>FAJ Technical Services L.L.C has been serving the kitchen equipment needs of Dubai since 2010. We provide comprehensive solutions for all types of commercial kitchen equipment. Our services encompass installation, maintenance, and repair, catering to a diverse range of clients, including hospitality outlets, hotels, restaurants, cafes, catering services, and residential homes and villas. Additionally, we serve industrial facilities, corporate offices, and shopping centers.</p>
               </div>
             </div>
@@ -248,12 +245,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="benefit_card">
                 <div className="benefit_icon">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="25" cy="25" r="18" stroke="#1F2937" strokeWidth="2" fill="none" />
-                    <path d="M25 15v10M30 25h-5" stroke="#1F2937" strokeWidth="2" strokeLinecap="round" />
-                    <circle cx="25" cy="25" r="3" fill="#1F2937" />
-                    <path d="M18 12l-3-3M32 12l3-3M38 18l3-3M12 18l-3-3" stroke="#1F2937" strokeWidth="2" strokeLinecap="round" />
-                  </svg>
+                  <img src={getImageSrc('consistentperformance')} alt="Comprehensive Services" />
                 </div>
                 <h3>Consistent Performance</h3>
                 <p>Preventive maintenance ensures that all kitchen equipment functions reliably, minimising the risk of unexpected repair work during trading hours.</p>
@@ -261,11 +253,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="benefit_card">
                 <div className="benefit_icon">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M25 10L15 20v20h20V20L25 10z" stroke="#1F2937" strokeWidth="2" fill="none" />
-                    <path d="M20 25h10M25 20v15" stroke="#1F2937" strokeWidth="2" strokeLinecap="round" />
-                    <circle cx="25" cy="25" r="4" stroke="#1F2937" strokeWidth="2" fill="none" />
-                  </svg>
+                  <img src={getImageSrc('foodsafetycompliance')} alt="Comprehensive Services" />
                 </div>
                 <h3>Food Safety Compliance</h3>
                 <p>Keeping equipment in good condition helps meet health and safety standards, ensuring that food is prepared and stored safely.</p>
@@ -273,11 +261,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="benefit_card">
                 <div className="benefit_icon">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="25" cy="25" r="18" stroke="#1F2937" strokeWidth="2" fill="none" />
-                    <path d="M25 17v8l5 5" stroke="#1F2937" strokeWidth="2" strokeLinecap="round" />
-                    <path d="M15 12l-3 3M35 12l3 3" stroke="#1F2937" strokeWidth="2" strokeLinecap="round" />
-                  </svg>
+                   <img src={getImageSrc('repaircostsavings')} alt="Comprehensive Services" />
                 </div>
                 <h3>Repair Cost Savings</h3>
                 <p>By addressing minor issues before they escalate, you can save money on important repairs and avoid downtime.</p>
@@ -285,11 +269,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="benefit_card">
                 <div className="benefit_icon">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="25" cy="20" r="8" stroke="#1F2937" strokeWidth="2" fill="none" />
-                    <path d="M25 28c-8 0-15 4-15 9v3h30v-3c0-5-7-9-15-9z" stroke="#1F2937" strokeWidth="2" fill="none" />
-                    <path d="M30 18l3-3M20 18l-3-3" stroke="#1F2937" strokeWidth="2" strokeLinecap="round" />
-                  </svg>
+                  <img src={getImageSrc('peaceofmind')} alt="Comprehensive Services" />
                 </div>
                 <h3>Peace of Mind</h3>
                 <p>Knowing that your kitchen equipment is regularly maintained gives you confidence in its performance and reduces stress during busy periods.</p>
@@ -307,13 +287,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             <div className="problems_grid">
               <div className="problem_card">
                 <div className="problem_icon_wrapper">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="25" cy="15" r="8" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M20 17l3 3 5-5" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M25 23v12" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                    <circle cx="25" cy="38" r="5" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M22 38h6M25 35v6" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                  </svg>
+                   <img src={getImageSrc('gasburnerIgnitionroblems')} alt="Comprehensive Services" />
                 </div>
                 <h3>Gas Burner Ignition Problems</h3>
                 <p>Gas stove burners that won't ignite can disrupt kitchen operations, affecting food quality. This is often due to clogged gas lines, faulty ignition switches, or dirty pilot lights.</p>
@@ -321,12 +295,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="problem_card">
                 <div className="problem_icon_wrapper">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="10" y="15" width="30" height="25" rx="2" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M15 20h20M15 25h20M15 30h15" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                    <path d="M25 8v7M18 10l2 3M32 10l-2 3" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                    <circle cx="35" cy="35" r="3" stroke="#ffffff" strokeWidth="2" fill="none" />
-                  </svg>
+                  <img src={getImageSrc('ovennotheating')} alt="Comprehensive Services" />
                 </div>
                 <h3>Oven not Heating</h3>
                 <p>Conflicting oven heating can cause food to be undercooked or overcooked, affecting food quality. This issue often results from faulty heating elements, calibration errors, or worn thermostats.</p>
@@ -334,12 +303,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="problem_card">
                 <div className="problem_icon_wrapper">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15 35h20v5H15v-5z" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M20 35v-10c0-3 2-5 5-5s5 2 5 5v10" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <circle cx="25" cy="25" r="3" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M22 15l3-3 3 3" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                  <img src={getImageSrc('deepfryerbreakdowns')} alt="Comprehensive Services" />
                 </div>
                 <h3>Deep Fryer Breakdowns</h3>
                 <p>Electric or Gas deep fryers can get oil, leading to blocked parts, uneven heating, and higher fire risks. Poor maintenance may also cause thermostat and heating element or gas burner failures.</p>
@@ -347,14 +311,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="problem_card">
                 <div className="problem_icon_wrapper">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="12" y="15" width="26" height="20" rx="2" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M12 22h26M20 15v-5M30 15v-5" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                    <circle cx="20" cy="28" r="2" fill="#ffffff" />
-                    <circle cx="25" cy="28" r="2" fill="#ffffff" />
-                    <circle cx="30" cy="28" r="2" fill="#ffffff" />
-                    <path d="M25 35v3" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                  </svg>
+                  <img src={getImageSrc('equipmentnotworking')} alt="Comprehensive Services" />
                 </div>
                 <h3>Equipment not Working</h3>
                 <p>Kitchen equipment like mixers, blenders, processors, mixers, juicers, and coffee makers can overheat from dirty filters, blocked vents, or faulty thermostats, leading to possible damage and safety risks.</p>
@@ -362,12 +319,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="problem_card">
                 <div className="problem_icon_wrapper">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="10" y="10" width="30" height="30" rx="2" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M10 18h30M18 10v30" stroke="#ffffff" strokeWidth="2" />
-                    <circle cx="25" cy="25" r="5" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M30 20l5-5M20 30l-5 5" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                  </svg>
+                  <img src={getImageSrc('refrigerationfailures')} alt="Comprehensive Services" />
                 </div>
                 <h3>Refrigeration Failures</h3>
                 <p>Uneven temperatures or total refrigeration loss can cause food spoilage and health violations. Common issues include dirty condenser coils, worn door seals that let cold air escape, and failing compressors.</p>
@@ -375,14 +327,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="problem_card">
                 <div className="problem_icon_wrapper">
-                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="8" y="12" width="34" height="26" rx="2" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M8 20h34" stroke="#ffffff" strokeWidth="2" />
-                    <circle cx="15" cy="27" r="3" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <circle cx="25" cy="27" r="3" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <circle cx="35" cy="27" r="3" stroke="#ffffff" strokeWidth="2" fill="none" />
-                    <path d="M20 32h10" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                  </svg>
+                  <img src={getImageSrc('icemachineblockages')} alt="Comprehensive Services" />
                 </div>
                 <h3>Ice Machine Blockages</h3>
                 <p>Mineral deposits and clogged filters in ice makers can block water flow and reduce ice production, affecting beverage service and customer satisfaction.</p>

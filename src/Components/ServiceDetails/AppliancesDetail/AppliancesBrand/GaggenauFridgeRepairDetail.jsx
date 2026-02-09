@@ -27,7 +27,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Gaggenau Fridge Repair, Gaggenau Washing Machine Repair, Gaggenau Cooker Repair, Gaggenau Oven Repair, Gaggenau Appliances Maintenance, Gaggenau Refrigerator Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/gaggenau/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/gaggenau/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

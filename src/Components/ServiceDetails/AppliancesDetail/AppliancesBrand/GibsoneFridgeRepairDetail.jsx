@@ -27,7 +27,7 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Gibson Fridge Repair in Dubai, Gibson Washing Machine Repair in Dubai, Gibson Cooker Repair in Dubai, Gibson Oven Repair in Dubai, Gibson Appliances Maintenance in Dubai, Gibson Refrigerator Fix Repairs Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/gibson/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/gibson/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
