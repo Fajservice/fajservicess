@@ -27,7 +27,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Fisher and Paykel Fridge Repair, Fisher and Paykel Washing Machine Repair, Fisher and Paykel Dishwasher Repair, Fisher and Paykel Stove Repair, Fisher and Paykel Oven Repair, Fisher and Paykel Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/fisher-paykel/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/fisher-paykel/");
   
   
   subtitle = "Testimonial"
