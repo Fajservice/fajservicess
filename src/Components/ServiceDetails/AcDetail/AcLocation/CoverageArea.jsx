@@ -1,12 +1,11 @@
 
 import { useEffect, useRef, useState } from 'react';
 // import Testimonial1 from '../../Testimonial/Testimonial1';
-// import CoffeeMachineButton from '../../Buttons/CoffeeMachineButton';
-// import CommCoffeeMachineButton from '../../Buttons/CommCoffeeMachineButton';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import WhatsappIconButton from '../../../Buttons/WhatsappIconButton';
 import loadBackgroudImages from '../../../Common/loadBackgroudImages';
-// import BlogCoffeeMachine from './BlogCoffeeMachine';
+// import BlogCoffeeMachine from '../../../Blog/BlogCoffeeMachine';
+import '../../../../assets/main.css';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -101,83 +100,49 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
       <div className="cs_service_details">
         {/* Technical Services to Keep Your Coffee Flowing */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30 text-center mb-4">In which areas does FAJ Air Conditioning Services operate in Dubai?</h1>
-            <div className="row align-items-center">
-              <div className="col-12 col-lg-5 mb-4 mb-lg-0">
-                <div className="service-image-wrapper">
-                  <img
-                    src={`${CDN}/Experts-AC-Service-and-Maintenance/public`}
-                    alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
-                    title="Commercial AC Maintenance Service in Dubai"
-                    width="500"
-                    height="400"
-                    loading="lazy"
-                    decoding="async"
-                    className="service-image"
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
-                    }}
-                  />
-                </div>
-              </div>
-              <div className="col-12 col-lg-7">
-                <p>At FAJ Technical Services L.L.C, one of the most common questions we hear is, Which areas of Dubai do you serve? We are proud to serve over 100 locations throughout Dubai and nearby areas for homes, offices and business places. Our AC expert teams delivers repair, maintenance, and servicing directly to your location, whether in the city center or the outskirts.
-                </p>
-              </div>
-            </div>
-            <div className="mt-5">
-              <div className="d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
+            <h1 className="cs_fs_30">Professional Kitchen Equipment Maintenance and Servicing in Dubai</h1>
+            <p>We have successfully maintained, repaired, and serviced our premium air conditioning systems in a wide variety of properties throughout Dubai. Our service areas include Al Quoz, Al Barsha, Dubai Marina, Palm Jumeirah, Jebel Ali, DIP, JAFZA, Business Bay, Dubai Hills, The Springs, Damac Hills, Dubai Silicon Oasis, Sports City, Motor City, and more.
+              These neighbourhoods have become hotspots for homeowners and business owners looking to enhance their indoor comfort with discreet, high-performance air conditioning. This is especially important for modern flats, luxury apartments, villas, and listed buildings where external units are not permitted.
+
+            </p>
           </div>
         </section>
-        {/* Annual Maintenance Contract (AMC) */}
-        <section className="section cs_py_30 bg-light-white">
+        <section className="our_process cs_py_60 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Where Does FAJ Operate in Dubai?</h2>
-            <div className="row align-items-center">
-
-
-              <div className="col-12 col-lg-7">
-                <p><b>Comprehensive Coverage Across Prime Dubai Locations</b></p>
-                <p>We have successfully maintained, repaired, and serviced our premium air conditioning systems in a wide variety of properties throughout Dubai. Our service areas include Al Quoz, Al Barsha, Dubai Marina, Palm Jumeirah, Jebel Ali, DIP, JAFZA, Business Bay, Dubai Hills, The Springs, Damac Hills, Dubai Silicon Oasis, Sports City, Motor City, and more.
-                  These neighborhoods have become hotspots for homeowners and business owners looking to enhance their indoor comfort with discreet, high-performance air conditioning. This is especially important for modern flats, luxury apartments, villas, and listed buildings where external units are not permitted.
-                </p>
+            <div className="process_wrapper">
+              <div className="process_header">
+                <h2>Our Process Quick and Efficient</h2>
+                <p>Our service process, while detailed, primarily consists of the following key steps:</p>
               </div>
-              <div className="col-12 col-lg-5 mb-4 mb-lg-0">
-                <div className="service-image-wrapper">
-                  <img
-                    src={`${CDN}/What-is-covered-in-an-AC-Maintenance-Contract/public`}
-                    alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
-                    title="Commercial AC Maintenance Service in Dubai"
-                    width="500"
-                    height="400"
-                    loading="lazy"
-                    decoding="async"
-                    className="service-image"
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
-                    }}
-                  />
+
+              <div className="process_content">
+                <div className="process_image">
+                  <img src={getImageSrc('acmaintenanceindubai')} alt="AC Maintenance Service Process" />
                 </div>
-              </div>
-            </div>
-            <div className="mt-5">
-              <div className="d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
+
+                <div className="process_list">
+                  <div className="process_item">
+                    <p><b>Initial Consultation:</b> Contact us today to discuss your air conditioning needs. We will gather information about your situation and schedule a convenient time for an inspection.</p>
+                  </div>
+
+                  <div className="process_item">
+                    <p><b>Inspection and Diagnosis:</b> This section outlines the process of identifying problems. A thorough technical inspection is essential for accurate diagnosis, pinpointing issues are understood before any repair are made.</p>
+                  </div>
+
+                  <div className="process_item">
+                    <p><b>Transparent Quotation:</b> We offer clear and detailed quotations for all our services. Our pricing encompasses all parts and labor, ensuring no hidden costs.</p>
+                  </div>
+
+                  <div className="process_item">
+                    <p><b>Efficient Repair or Maintenance:</b> Our skilled technicians will work efficiently to minimize disruption to your daily routine. We value your time and property, ensuring a clean and effective service.</p>
+                  </div>
+
+                  <div className="process_item">
+                    <p><b>Final Review and Customer Satisfaction:</b> Your satisfaction is our highest priority. We aim to provide high-quality work and outstanding service.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -186,7 +151,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
         {/* Shop for Coffee Machines, Equipment, and Accessories */}
 
-        {/* <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Shop for Coffee Machines, Equipment, and Accessories</h2>
 
@@ -287,11 +252,11 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           }
         }
       `}</style>
-        </section> */}
+        </section>
 
 
         {/* why choose */}
-        {/* <section className="section cs_py_30">
+        <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Why Choose Our Coffee Machine Maintenance Services</h2>
 
@@ -308,7 +273,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                     decoding="async"
                     className="shop-ac-image"
                     style={{
-                       width: '100%',
+                      width: '100%',
                       height: 'auto',
                       display: 'block',
                       border: '4px solid #030303',
@@ -336,15 +301,15 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
             <div className="mt-5">
               <div className="d-flex justify-content-center align-items-center gap-3">
-                 <WhatsappIconButton />
+                <WhatsappIconButton />
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
 
         {/* common problem */}
-        {/* <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="text-center">The Most Common Problems of Coffee Machines   </h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -460,7 +425,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 </div>
               </div>
 
-              
+
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
@@ -522,8 +487,8 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                 </div>
               </div>
-              
-              
+
+
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
@@ -545,9 +510,9 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             </div>
 
           </div>
-        </section> */}
-        {/* 
-        {!isLoading && testimonial_data.length > 0 && (
+        </section>
+
+        {/* {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
@@ -560,7 +525,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* <BlogCoffeeMachine /> */}
 
         {/* Faqs */}
-        {/* <section className="section cs_py_30  bg-dark-blue text-light">
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
@@ -613,7 +578,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
             </div>
           </div>
-        </section> */}
+        </section>
       </div>
     </>
   )
