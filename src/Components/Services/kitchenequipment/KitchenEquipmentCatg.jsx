@@ -57,7 +57,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipmentsFAQs/KitchenEquipmentRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/kitchenequipmentfaqscatg.json`),
           fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/KitchenEquipmentRepairTestimonials.json`)
         ]);
 
@@ -412,7 +412,6 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
-
         </section>
       </div>
     </>

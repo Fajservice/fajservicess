@@ -1,0 +1,58 @@
+[
+  {
+    "title": "What are the general requirements for equipment maintenance?",
+    "desc": "<ul><li>Regular cleaning and inspection</li><li>Timely repairs or replacements when needed</li><li>Adhering to the manufacturer's recommendations</li><li>Following safety protocols while handling or operating equipment</li></ul>"
+  },
+  {
+    "title": "What is the maintenance checklist?",
+    "desc": "Maintenance checklists are crucial for ensuring that machines, equipment, or facilities operate safely and efficiently. They provide a detailed list of tasks to be completed regularly, helping to ensure that the equipment is in good working condition and does not pose any safety risks."
+  },
+  {
+    "title": "What is a PPM checklist?",
+    "desc": "A preventive maintenance checklist consists of a series of tasks designed for the regular inspection of physical assets. It helps ensure that equipment functions properly and is ready for use when needed. Preventive maintenance involves proactively checking and inspecting equipment to avoid costly emergency repairs."
+  },
+  {
+    "title": "What is a maintenance inspection?",
+    "desc": "As a crucial part of a maintenance program, inspections involve tasks that assess the condition of equipment. They help determine what tools, materials, and labor are needed for servicing. A maintenance inspection is the process of evaluating the condition of equipment or machines."
+  },
+  {
+    "title": "Is bleach allowed in a commercial kitchen?",
+    "desc": "Although detergents and bleach can effectively clean surfaces, they are unsuitable for use in commercial kitchens. These substances can be corrosive and potentially harmful to your health."
+  },
+  {
+    "title": "What products should be under the hood in a commercial kitchen?",
+    "desc": "Type I hoods are required for equipment that produces smoke or grease-laden fumes, including fryers, ranges, griddles, convection ovens, tilt skillets, and broilers."
+  },
+  {
+    "title": "How do you ventilate a commercial kitchen?",
+    "desc": "Wall-mounted hoods are generally a safer choice compared to overhead hoods. It is important to attach the kitchen vent hood directly above the ovens to optimize the effectiveness of the ventilation system. Additionally, incorporating makeup air is a crucial aspect of proper ventilation."
+  },
+  {
+    "title": "What is the high risk equipment in the kitchen?",
+    "desc": "Hot oil, boiling water, and certain chemicals can pose kitchen hazards, along with hot pans, ovens, and griddles. Contact with these items can result in skin burns."
+  },
+  {
+    "title": "What are the risks of working in a kitchen?",
+    "desc": "<ul><li>Slips, Trips, and Falls</li><li>Fire Safety</li><li>Burns and Scalds</li><li>Sharp Objects</li><li>Biological Hazards</li><li>Chemicals</li><li>Manual Handling</li><li>Environmental Hazards</li></ul>"
+  },
+  {
+    "title": "How should food be stored in a commercial kitchen?",
+    "desc": "<ul><li><strong>Keep it cold:</strong> Always store perishable foods at the correct temperature to prevent the growth of harmful bacteria.</li><li><strong>Keep it clean:</strong> Ensure your storage areas are kept clean and free of pests.</li><li><strong>Keep it separate:</strong> Raw foods should be stored away from cooked foods to prevent cross-contamination.</li></ul>"
+  },
+  {
+    "title": "What are the four major systems in a commercial kitchen?",
+    "desc": "The kitchen is the area where all food preparation, cooking, and plating occur. To ensure smooth operations, it is essential to have the necessary commercial kitchen equipment, as well as four major systems in place:<ul><li>Ventilation</li><li>Refrigeration</li><li>Plumbing</li><li>Electrical systems</li></ul>"
+  },
+  {
+    "title": "What is food preparation in commercial kitchen?",
+    "desc": "In commercial kitchens, food preparation involves organizing and setting up the necessary ingredients and equipment to efficiently perform cooking tasks."
+  },
+  {
+    "title": "What are the 3 sinks in a commercial kitchen?",
+    "desc": "As the name suggests, the 3-compartment sink method utilizes three distinct sink compartments, each designated for a specific step in the warewashing process:<ul><li>Wash</li><li>Rinse</li><li>Sanitize</li></ul>"
+  },
+  {
+    "title": "Do you need ventilation in a commercial kitchen?",
+    "desc": "Here are the key regulations and rules for commercial kitchen ventilation:<ul><li>All hot air and cooking fumes must be removed from the kitchen.</li><li>Clean and cool air needs to be circulated throughout the space.</li><li>The ventilation system should be designed to prevent employee discomfort.</li><li>The system must be regularly maintained and cleaned.</li></ul>"
+  }
+]
