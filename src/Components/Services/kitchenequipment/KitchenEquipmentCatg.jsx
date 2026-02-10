@@ -110,35 +110,17 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           </div>
         </section>
         {/* Technical Services to Keep Your Coffee Flowing */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="b2b_section cs_py_60 bg-light-gray">
           <div className="container">
-            <h1 className="cs_fs_30 text-center mb-4">Kitchen Maintenance Services and Solutions for Business-to-Business (B2B)</h1>
-            <div className="row align-items-center">
-              <div className="col-12 col-lg-5 mb-4 mb-lg-0">
-                <div className="service-image-wrapper">
-                  <img
-                    src={getImageSrc('kitchenmaintenansceservice')}
-                    alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
-                    title="Commercial AC Maintenance Service in Dubai"
-                    width="500"
-                    height="400"
-                    loading="lazy"
-                    decoding="async"
-                    className="service-image"
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
-                    }}
-                  />
-                </div>
+            <h2 className="b2b_title">Kitchen Maintenance Services and Solutions for Business-to-Business (B2B)</h2>
+
+            <div className="b2b_content_wrapper">
+              <div className="b2b_images">
+                <img src={getImageSrc('kitchenmaintenansceservice')} alt="Kitchen Maintenance Service" />
               </div>
 
-              <div className="col-12 col-lg-7">
-                <p>FAJ Technical Services L.L.C has been serving the kitchen equipment needs of Dubai since 2010. We provide comprehensive solutions for all types of commercial kitchen equipment. Our services encompass installation, maintenance, and repair, catering to a diverse range of clients, including hospitality outlets, hotels, restaurants, cafes, catering services, and residential homes and villas. Additionally, we serve industrial facilities, corporate offices, and shopping centers.</p>
+              <div className="b2b_text">
+                <p>Since 2010, FAJ Technical L.L.C has established itself as the leading service provider of commercial kitchen maintenance solutions in Dubai, UAE. We are committed to delivering exceptional service and expertise, ensuring your kitchen operates at height performance. Trust us to meet your kitchen maintenance needs with confidence.</p>
               </div>
             </div>
           </div>
@@ -262,7 +244,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               <div className="benefit_card">
                 <div className="benefit_icon">
-                   <img src={getImageSrc('repaircostsavings')} alt="Comprehensive Services" />
+                  <img src={getImageSrc('repaircostsavings')} alt="Comprehensive Services" />
                 </div>
                 <h3>Repair Cost Savings</h3>
                 <p>By addressing minor issues before they escalate, you can save money on important repairs and avoid downtime.</p>
@@ -288,7 +270,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             <div className="problems_grid">
               <div className="problem_card">
                 <div className="problem_icon_wrapper">
-                   <img src={getImageSrc('gasburnerIgnitionroblems')} alt="Comprehensive Services" />
+                  <img src={getImageSrc('gasburnerIgnitionroblems')} alt="Comprehensive Services" />
                 </div>
                 <h3>Gas Burner Ignition Problems</h3>
                 <p>Gas stove burners that won't ignite can disrupt kitchen operations, affecting food quality. This is often due to clogged gas lines, faulty ignition switches, or dirty pilot lights.</p>
@@ -403,11 +385,11 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               ))}
 
             </div>
-          
+
           </div>
-          
+
         </section>
-          <section className="section cs_py_30">
+        <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"
