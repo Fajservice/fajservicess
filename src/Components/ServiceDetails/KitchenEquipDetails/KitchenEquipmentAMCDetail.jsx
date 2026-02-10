@@ -23,7 +23,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
   const metadescription = String(description || "Get FAJ reliable commercial kitchen equipment AMC services in Dubai. With specialised chiller, freezer, stove, oven, & cooker maintenance agreement");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Kitchen Equipment amc, kitchen equipment maintenance contract, commercial kitchen equipment service, kitchen appliance repair, kitchen equipment repair Dubai, kitchen equipment AMC Dubai, kitchen equipment AMC Abu Dhabi, kitchen equipment AMC Sharjah, gas stove maintenance Dubai, oven maintenance Dubai, cooker maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment/commercial-kitchen-equipment-amc/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/kitchen-equip-amc-service/public");
 
 

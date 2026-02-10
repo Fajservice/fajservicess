@@ -22,7 +22,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const metadescription = String(description || "Need meat grinder repair in Dubai? FAJ offers commercial food equipment, vacuum sealers, meat processing & butchery equipment maintenance service.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Meat Grinder Repair, Meat Grinder Service, Meat Grinder Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment/meat-grinder-repair/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/meat-grinder-repair/");
   const metaImage = String(Image || "https://www.fajservices.ae/img/meat-grinder-repair.avif");
 
   subtitle = "Testimonial"

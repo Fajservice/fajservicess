@@ -62,7 +62,7 @@ export const router = createBrowserRouter([
         element: <Components.AirConditioningCatg />,
       },
       {
-        path: "/services/kitchen-equipment/",
+        path: "/services/kitchen-equipment-maintenance/",
         element: <Components.KitchenEquipmentPage />,
       },
       {
@@ -142,19 +142,19 @@ export const router = createBrowserRouter([
         element: <Components.OvenRepairService />,
       },
       {
-        path: "/services/kitchen-equipment/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
+        path: "/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
         element: <Components.RationalCommercialKitchenEquipmentRepairService />,
       },
       {
-        path: "/services/kitchen-equipment/unox-commercial-oven-repair-and-maintenance-service-dubai/",
+        path: "/services/kitchen-equipment-maintenance/unox-commercial-oven-repair-and-maintenance-service-dubai/",
         element: <Components.UnoxCommercialOvenRepairService />,
       },
       {
-        path: "/services/kitchen-equipment/commercial-cooking-appliances-repair-service/",
+        path: "/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/",
         element: <Components.CookingEquipmentService />,
       },
       {
-        path: "/services/kitchen-equipment/meat-grinder-repair/",
+        path: "/services/kitchen-equipment-maintenance/meat-grinder-repair/",
         element: <Components.MeatGrinderRepair />,
       },
       {
@@ -170,11 +170,11 @@ export const router = createBrowserRouter([
         element: <Components.CommercialLaundryEquipmentService />,
       },
       {
-        path: "/services/kitchen-equipment/commercial-kitchen-equipment-amc/",
+        path: "/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/",
         element: <Components.KitchenEquipmentAMC />,
       },
       {
-        path: "/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/",
+        path: "/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/",
         element: <Components.KitchenEquipmentRepair />,
       },
       {
@@ -198,7 +198,7 @@ export const router = createBrowserRouter([
         element: <Components.DishwasherRepair />,
       },
       {
-        path: "/services/kitchen-equipment/oven-repair/",
+        path: "/services/kitchen-equipment-maintenance/oven-repair/",
         element: <Components.OvenRepair />,
       },
       {
@@ -2017,31 +2017,31 @@ export const router = createBrowserRouter([
       },
       {
         path: "/oven-repair/",
-        element: <Navigate to="/services/kitchen-equipment/oven-repair/" replace />
+        element: <Navigate to="/services/kitchen-equipment-maintenance/oven-repair/" replace />
       },
       {
         path: "/meat-grinder-repair/",
-        element: <Navigate to="/services/kitchen-equipment/meat-grinder-repair/" replace />
+        element: <Navigate to="/services/kitchen-equipment-maintenance/meat-grinder-repair/" replace />
       },
       {
         path: "/commercial-kitchen-equipment-amc/",
-        element: <Navigate to="/services/kitchen-equipment/commercial-kitchen-equipment-amc/" replace />
+        element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/" replace />
       },
       {
         path: "/commercial-kitchen-equipment-maintenance-services/",
-        element: <Navigate to="/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/" replace />
+        element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/" replace />
       },
       {
         path: "/commercial-cooking-appliances-repair-service/",
-        element: <Navigate to="/services/kitchen-equipment/commercial-cooking-appliances-repair-service/" replace />
+        element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/" replace />
       },
       {
         path: "/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
-        element: <Navigate to="/services/kitchen-equipment/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/" replace />
+        element: <Navigate to="/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/" replace />
       },
       {
         path: "/unox-commercial-oven-repair-and-maintenance-service-dubai/",
-        element: <Navigate to="/services/kitchen-equipment/unox-commercial-oven-repair-and-maintenance-service-dubai/" replace />
+        element: <Navigate to="/services/kitchen-equipment-maintenance/unox-commercial-oven-repair-and-maintenance-service-dubai/" replace />
       },
       {
         path: "/ice-maker-repair/",

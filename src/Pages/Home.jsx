@@ -135,8 +135,132 @@ const Home = ({
         <meta property="og:title" content={titleSeo} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={canonicalUrl} />
+        
+        {/* Structured Data (JSON-LD) */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "HVACBusiness",
+                  "@id": "https://www.fajservices.ae/#organization",
+                  "name": "FAJ Technical Services L.L.C",
+                  "url": "https://www.fajservices.ae/",
+                  "telephone": "+97143300002",
+                  "priceRange": "$$",
+                  "image": "https://www.fajservices.ae/img/fajlogo.png",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.fajservices.ae/#logo",
+                    "url": "https://www.fajservices.ae/img/FajLogo.svg",
+                    "width": 250,
+                    "height": 60
+                  },
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Warehouse # 2, Street 18b, Al Quoz Industrial Area 4",
+                    "addressLocality": "Dubai",
+                    "addressRegion": "Dubai",
+                    "postalCode": "00000",
+                    "addressCountry": "AE"
+                  },
+                  "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 25.110703822323963,
+                    "longitude": 55.22749756674561
+                  },
+                  "openingHoursSpecification": [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+                      "opens": "08:00",
+                      "closes": "18:30"
+                    },
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": "Friday",
+                      "opens": "08:00",
+                      "closes": "11:30"
+                    },
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": "Friday",
+                      "opens": "14:30",
+                      "closes": "18:30"
+                    },
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": "Sunday",
+                      "opens": "12:00",
+                      "closes": "18:00"
+                    }
+                  ],
+                  "sameAs": [
+                    "https://www.facebook.com/FAJTechnicalServicesLLC",
+                    "https://www.instagram.com/fajtechnicalservicesllc/",
+                    "https://x.com/FAJTechnical/",
+                    "https://ae.linkedin.com/company/faj-technical-services-llc",
+                    "https://www.pinterest.com/fajtechnicalservices/"
+                  ]
+                },
+                {
+                  "@type": "Review",
+                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review1",
+                  "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
+                  "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                  "author": { "@type": "Person", "name": "Bassam Sh" },
+                  "reviewBody": "I am very satisfied with their prompt, efficient & cordial service from Technician Abdullah, as he was very professional, on time, responsive and reasonably priced. I would definitely recommend them & specially Mr Abdullah to my mother if needed. Thank you for a great job all together."
+                },
+                {
+                  "@type": "Review",
+                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review2",
+                  "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
+                  "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                  "author": { "@type": "Person", "name": "Laura Terrero González" },
+                  "reviewBody": "I'm very satisfied with their services. They are professional, easy and excellent communication, effectiveness, cleanliness, reasonable price. The team that comes to our home (twice) is always very approachable. Definitely I recommend them for any services/reparations."
+                },
+                {
+                  "@type": "Review",
+                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review3",
+                  "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
+                  "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                  "author": { "@type": "Person", "name": "Abdullah Kiani" },
+                  "reviewBody": "My ac was not working and taking too much load and no cooling.I contacted FAJ Technical services to repair my AC and sent a technicine named Taranpal singh.That guy was genius and super expert in his work. Cery clean and very efficent services by this guy.Strongly recommend and super friendly."
+                },
+                {
+                  "@type": "Review",
+                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review4",
+                  "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
+                  "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                  "author": { "@type": "Person", "name": "Usman Ali" },
+                  "reviewBody": "Abdullah from FAJ did a great job fixing our fridge and washing machine here in Arabian Ranches. He came on time, was super friendly, and got everything working again without any hassle. Really professional but also easy to deal with. If you ever need appliance repairs around the Ranches, I'd definitely recommend calling him!"
+                },
+                {
+                  "@type": "Review",
+                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review5",
+                  "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
+                  "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                  "author": { "@type": "Person", "name": "Dunja Lazović" },
+                  "reviewBody": "Fast and reliable services. Our washing machine broke down, the team came same day, on day 2 we got the quote for the repair,approved it, and on day 3 the machine was delivered back to us. Thank you to Mr. Abdullah for fast reinstallation."
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.fajservices.ae/#website",
+                  "name": "FAJ Technical Services",
+                  "url": "https://www.fajservices.ae/",
+                  "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://www.fajservices.ae/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                  }
+                }
+              ]
+            }
+          `}
+        </script>
       </Helmet>
-
+      
       <div className="homepage">
         <ImageSlider 
           slides={heroSlides}
