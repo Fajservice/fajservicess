@@ -43,7 +43,7 @@ const OvenRepairDetail = ({
     Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service"
   );
 
-  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment/oven-repair/"
+  const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/oven-repair/"
   );
 
   const metaImage = String(

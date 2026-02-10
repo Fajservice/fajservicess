@@ -55,7 +55,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/services/kitchen-equipment/commercial-cooking-appliances-repair-service/</loc>
+  <loc>https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
@@ -75,7 +75,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/services/kitchen-equipment/commercial-kitchen-equipment-amc/</loc>
+  <loc>https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
@@ -1916,7 +1916,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/services/kitchen-equipment/oven-repair/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment-maintenance/oven-repair/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
@@ -1936,12 +1936,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/services/kitchen-equipment/meat-grinder-repair/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment-maintenance/meat-grinder-repair/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
@@ -2066,12 +2066,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/services/kitchen-equipment/unox-commercial-oven-repair-and-maintenance-service-dubai/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment-maintenance/unox-commercial-oven-repair-and-maintenance-service-dubai/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/services/kitchen-equipment/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/</loc>
+    <loc>https://www.fajservices.ae/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/</loc>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
   </url>

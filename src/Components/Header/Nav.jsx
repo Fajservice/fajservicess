@@ -99,11 +99,11 @@ const navItems = [
         path: '/services/kitchen-equipment-maintenance/',
         label: 'Kitchen Equipment Maintenance',
         children: [
-          { path: '/services/kitchen-equipment/oven-repair/', label: 'Oven Repair' },
-          { path: '/services/kitchen-equipment/meat-grinder-repair/', label: 'Meat Grinder Repair' },
-          { path: '/services/kitchen-equipment/commercial-kitchen-equipment-amc/', label: 'Kitchen Equipment AMC' },
-          { path: '/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/', label: 'Kitchen Equipment Repair' },
-          { path: '/services/kitchen-equipment/commercial-cooking-appliances-repair-service/', label: 'Cooking Equipment Service' }
+          { path: '/services/kitchen-equipment-maintenance/oven-repair/', label: 'Oven Repair' },
+          { path: '/services/kitchen-equipment-maintenance/meat-grinder-repair/', label: 'Meat Grinder Repair' },
+          { path: '/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/', label: 'Kitchen Equipment AMC' },
+          { path: '/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/', label: 'Kitchen Equipment Repair' },
+          { path: '/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/', label: 'Cooking Equipment Service' }
         ]
       },
       {
