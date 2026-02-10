@@ -83,8 +83,21 @@ const navItems = [
           { path: '/services/home-appliances-repair/appliances-amc-service/', label: 'Appliances Maintenance Contract' }
         ]
       },
+     
       {
-        label: 'Kitchen Equipment',
+        label: 'Refrigeration Equipment',
+        children: [
+          { path: '/services/refrigeration-equipment/ice-maker-repair/', label: 'Ice Maker Repair' },
+          { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/', label: 'Refrigeration AMC Services' },
+          { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance/', label: 'Commercial Refrigeration Maintenance' }
+        ]
+      },
+      
+      { path: '/services/commercial-dishwasher-repair/', label: 'Commercial Dishwasher' },
+
+      {
+        path: '/services/kitchen-equipment-maintenance/',
+        label: 'Kitchen Equipment Maintenance',
         children: [
           { path: '/services/kitchen-equipment/oven-repair/', label: 'Oven Repair' },
           { path: '/services/kitchen-equipment/meat-grinder-repair/', label: 'Meat Grinder Repair' },
@@ -94,21 +107,13 @@ const navItems = [
         ]
       },
       {
-        label: 'Refrigeration Equipment',
-        children: [
-          { path: '/services/refrigeration-equipment/ice-maker-repair/', label: 'Ice Maker Repair' },
-          { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/', label: 'Refrigeration AMC Services' },
-          { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance/', label: 'Commercial Refrigeration Maintenance' }
-        ]
-      },
-      { path: '/services/commercial-dishwasher-repair/', label: 'Commercial Dishwasher' },
-      {
         label: 'Commercial Laundry Equipment',
         children: [
           { path: '/commercial-washing-machine-repair/', label: 'Washing Machine Repair' },
           { path: '/commercial-laundry-equipment-service/', label: 'Laundry Equipment Service' }
         ]
       }
+       
     ]
   },
   {
