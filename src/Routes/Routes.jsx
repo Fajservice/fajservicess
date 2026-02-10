@@ -1290,22 +1290,22 @@ export const router = createBrowserRouter([
         path: "/services/home-appliances-repair/coverage-area/business-bay/",
         element: <Components.WashingMachineRepairBusinessBay />,
       },
-      {
-        path: "/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/",
-        element: <Components.WashingMachineRepairInDubaiMarina />,
-      },
-      {
-        path: "/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/",
-        element: <Components.FridgeRepairInDubaiMarina />,
-      },
-      {
-        path: "/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/",
-        element: <Components.WashingMachineRepairPalmJumeirah />,
-      },
-      {
-        path: "/fridge-repair-dubai-marina/",
-        element: <Components.FridgeRepairDubaiMarina />,
-      },
+      // {
+      //   path: "/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/",
+      //   element: <Components.WashingMachineRepairInDubaiMarina />,
+      // },
+      // {
+      //   path: "/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/",
+      //   element: <Components.FridgeRepairInDubaiMarina />,
+      // },
+      // {
+      //   path: "/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/",
+      //   element: <Components.WashingMachineRepairPalmJumeirah />,
+      // },
+      // {
+      //   path: "/fridge-repair-dubai-marina/",
+      //   element: <Components.FridgeRepairDubaiMarina />,
+      // },
       {
         path: "/services/home-appliances-repair/coverage-area/the-ritz-carlton-difc/",
         element: <Components.ApplianceServiceInTheRitzCarltonDifc />,
@@ -2016,24 +2016,52 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/home-appliances-repair/appliances-amc-service/" replace />
       },
       {
+        path: "/services/kitchen-equipment/oven-repair/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/oven-repair/" replace />
+      },
+      {
         path: "/oven-repair/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/oven-repair/" replace />
+      },
+      {
+        path: "/services/kitchen-equipment/meat-grinder-repair/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/meat-grinder-repair/" replace />
       },
       {
         path: "/meat-grinder-repair/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/meat-grinder-repair/" replace />
       },
       {
+        path: "/services/kitchen-equipment/commercial-kitchen-equipment-amc/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/" replace />
+      },
+      {
         path: "/commercial-kitchen-equipment-amc/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/" replace />
+      },
+      {
+        path: "/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/" replace />
       },
       {
         path: "/commercial-kitchen-equipment-maintenance-services/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/" replace />
       },
       {
+        path: "/services/kitchen-equipment/commercial-cooking-appliances-repair-service/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/" replace />
+      },
+      {
         path: "/commercial-cooking-appliances-repair-service/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/" replace />
+      },
+      {
+        path: "/services/kitchen-equipment/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/" replace />
+      },
+      {
+        path: "/services/kitchen-equipment/unox-commercial-oven-repair-and-maintenance-service-dubai/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/unox-commercial-oven-repair-and-maintenance-service-dubai/" replace />
       },
       {
         path: "/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
