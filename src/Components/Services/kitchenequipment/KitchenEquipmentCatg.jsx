@@ -57,7 +57,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/kitchenequipmentfaqcatg.json`),
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/kitchenequipmentfaqcatg.json`),
           fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/KitchenEquipmentRepairTestimonials.json`)
         ]);
 

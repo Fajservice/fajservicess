@@ -132,7 +132,7 @@ const navItems = [
     ]
   },
   { path: '/contact-us/', label: 'Contact Us' },
-  { path: 'https://www.fajtradingllc.com/', label: 'Shop', external: true }
+  // { path: 'https://www.fajtradingllc.com/', label: 'Shop', external: true }
 ];
 
 export default function Nav({ setMobileToggle }) {
