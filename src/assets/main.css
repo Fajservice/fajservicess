@@ -9196,11 +9196,6 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.service_card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
 .service_icon {
   margin-bottom: 20px;
   display: flex;
@@ -9360,11 +9355,6 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.benefit_card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
 .benefit_icon {
   position: absolute;
   top: -25px;
@@ -9425,11 +9415,6 @@
   border-radius: 0 0 12px 12px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.problem_card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .problem_icon_wrapper {

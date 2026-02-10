@@ -1,10 +1,11 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Testimonial1 from '../../Testimonial/Testimonial1';
-import Blog2 from '../../Blog/Blog2';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
 import '../../../assets/main.css';
+import BlogKitchenEquipmentCatg from '../../Blog/BlogKitchenEquipmentCatg';
+import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -56,8 +57,8 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/coffeemachinesserviceFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/CoffeeMAchineReapairTestimonials.json`)
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipmentsFAQs/KitchenEquipmentRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/Testmonials/KitchenEquipmentRepairTestimonials.json`)
         ]);
 
         const faqsData = await faqsResponse.json();
@@ -116,7 +117,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={getImageSrc('reliable-home-appliance')}
+                    src={getImageSrc('kitchenmaintenansceservice')}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -346,7 +347,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           />
         )}
 
-        <Blog2 />
+        <BlogKitchenEquipmentCatg />
 
         {/* Faqs */}
         <section className="section cs_py_30  bg-dark-blue text-light">
@@ -402,7 +403,16 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               ))}
 
             </div>
+          
           </div>
+          
+        </section>
+          <section className="section cs_py_30">
+          <Serviceappointemnt
+            subtitle2="Contact us"
+            title2="Book An Appointment"
+          ></Serviceappointemnt>
+
         </section>
       </div>
     </>
