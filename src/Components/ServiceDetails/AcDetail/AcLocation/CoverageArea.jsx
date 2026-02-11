@@ -13,8 +13,8 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
-  const metatitle = String(titleSeo || "Ac Location Coverage Area - FAJ Technical Services L.L.C");
-  const metadescription = String(description || "Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002");
+  const metatitle = String(titleSeo || "Coverage Area | Near Me | for the Best AC Services in Dubai | FAJ");
+  const metadescription = String(description || "We proudly provide Air Conditioning installation & services in all areas, including  Dubai Marina, Jumeirah, Business Bay, Al Barsha, JLT, Dubai Sports City.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
@@ -55,7 +55,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/acfaq.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFAQs/AcServiceFAQs.json`),
           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonials/AcServiceTestimonials.json`)
         ]);
 
@@ -102,8 +102,16 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* Technical Services to Keep Your Coffee Flowing */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Professional Kitchen Equipment Maintenance and Servicing in Dubai</h1>
-            <p>We have successfully maintained, repaired, and serviced our premium air conditioning systems in a wide variety of properties throughout Dubai. Our service areas include Al Quoz, Al Barsha, Dubai Marina, Palm Jumeirah, Jebel Ali, DIP, JAFZA, Business Bay, Dubai Hills, The Springs, Damac Hills, Dubai Silicon Oasis, Sports City, Motor City, and more.
+            <h1 className="cs_fs_30">In which areas does FAJ Air Conditioning Services operate in Dubai?</h1>
+            <p>At FAJ Technical Services L.L.C, one of the most common questions we hear is, “Which areas of Dubai do you serve?” We are proud to serve over 100 locations throughout Dubai and nearby areas for homes, offices and business places. Our AC expert teams delivers repair, maintenance, and servicing directly to your location, whether in the city center or the outskirts.
+            </p>
+          </div>
+        </section>
+        
+        <section className="section cs_py_30">
+          <div className="container">
+            <h1 className="cs_fs_30">Where Does FAJ Operate in Dubai? <br />Comprehensive Coverage Across Prime Dubai Locations</h1>
+            <p>We have successfully maintained, repaired, and serviced our premium air conditioning systems in a wide variety of properties throughout Dubai. Our service areas include <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-quoz/">Al Quoz</a> , <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha/">Al Barsha</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-marina/">Dubai Marina</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali/">Jebel Ali</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dip/">DIP</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jafza/">JAFZA</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/business-bay/">Business Bay</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-hills-estate/">Dubai Hills</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-springs/">The Springs</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/damac-hills/">Damac Hills</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-sports-city/">Sports City</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/motor-city/">Motor City</a>, and more.
               These neighbourhoods have become hotspots for homeowners and business owners looking to enhance their indoor comfort with discreet, high-performance air conditioning. This is especially important for modern flats, luxury apartments, villas, and listed buildings where external units are not permitted.
 
             </p>
@@ -582,11 +590,11 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             <h3 className="service_areas_sub_heading">Popular Areas:</h3>
 
             <div className="service_areas_tags_container">
-              <span className="service_area_tag">Dubai Marina</span>
+              <span className="service_area_tag"><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-marina/">Dubai Marina</a></span>
               <span className="service_area_tag">JBR (Jumeirah Beach Residence)</span>
               <span className="service_area_tag">The Meadows</span>
               <span className="service_area_tag">Downtown Dubai</span>
-              <span className="service_area_tag">Business Bay</span>
+              <span className="service_area_tag"><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/business-bay/">Business Bay</a></span>
               <span className="service_area_tag">Arabian Ranches</span>
               <span className="service_area_tag">Motor City</span>
               <span className="service_area_tag">The Springs</span>
