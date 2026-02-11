@@ -9415,7 +9415,7 @@
 
 .problem_card {
   border: 2px solid #9CA3AF;
-  border-radius: 0 0 12px 12px;
+  border-radius: 12px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

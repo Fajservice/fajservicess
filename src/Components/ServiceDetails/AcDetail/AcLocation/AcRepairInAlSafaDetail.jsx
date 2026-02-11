@@ -135,7 +135,7 @@ const AcRepairInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Al Safa</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  near me in Al Safa, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+                                <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link>  near me in Al Safa, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Al Safa Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -182,7 +182,7 @@ const AcRepairInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in Al Safa is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Al Safa, contact us.
+                            Regular air conditioner (AC) maintenance service in Al Safa is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in Al Safa, contact us.
                         </p>
 
                         <div className="row align-items-center">

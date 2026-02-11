@@ -386,7 +386,7 @@ const OvenRepairDetail = ({
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/HEATINGEFFICIENCY')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">HEATING EFFICIENCY</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">HEATING EFFICIENCY</h3>
                       <p className="small">
                         We conduct a thorough assessment of heating efficiency using a temperature gun.
                       </p>
@@ -399,7 +399,7 @@ const OvenRepairDetail = ({
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/DISINFECTCOMPONENTS')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">  DISINFECT COMPONENTS   </h3>
                       <p className="small">
                         All components and oven parts are thoroughly tested, disinfected to ensure safety and reliability.
                       </p>
@@ -412,7 +412,7 @@ const OvenRepairDetail = ({
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">FAN ASSESSMENT</h3>
                       <p className="small">
                         We ensure the fan operates properly and has no blockages in the burner or heating element.
                       </p>
@@ -426,7 +426,7 @@ const OvenRepairDetail = ({
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">THERMOSTAT CHECK</h3>
                       <p className="small">
                         We use a laser temperature gauge to confirm that thermostats are functioning properly.
                       </p>
@@ -439,7 +439,7 @@ const OvenRepairDetail = ({
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">AIRFLOW BALANCE</h3>
                       <p className="small">
                         We ensure that you receive optimal airflow around each oven part as required.
                       </p>
@@ -453,7 +453,7 @@ const OvenRepairDetail = ({
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">CUSTOMER FEEDBACK </h3>
                       <p className="small">
                         Our team offers essential feedback on the condition of your oven and any necessary repair.
                       </p>

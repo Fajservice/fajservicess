@@ -25,7 +25,7 @@ const AcRepairInArabianRanchesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "Are you finding for AC Services in Arabian Ranches Dubai? Dail 043300002 for Carrier, LG air conditioning repair and maintenance near me. AC fix");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Arabian Ranches, Air Conditioning Service in Arabian Ranches, Air Con Maintenance & AC Installation in Arabian Ranches");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-arabian-ranches/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/arabian-ranches/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
@@ -132,7 +132,7 @@ const AcRepairInArabianRanchesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Arabian Ranches</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Arabian Ranches, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+                                <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Arabian Ranches, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance near me in Arabian Ranches. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -179,7 +179,7 @@ const AcRepairInArabianRanchesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Arabian Ranches?</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Arabian Ranches, contact us.
+                            Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in Arabian Ranches, contact us.
                         </p>
 
                         <div className="row align-items-center">

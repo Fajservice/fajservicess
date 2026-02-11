@@ -67,7 +67,7 @@ const aboutLinks = [
 ];
 
 const exploreLinks = [
-  { path: "/ac-repair-dubai/", text: "AC Repair and Maintenance" },
+  { path: "/services/air-conditioning-repair/ac-service/", text: "AC Repair and Maintenance" },
   { path: "/coffee-machine-service-center-in-dubai/", text: "Coffee Machine Repair and Maintenance" },
   { path: "/appliances-repair-service/", text: "Home Appliances Services" },
   { path: "/commercial-kitchen-equipment-maintenance-services/", text: "Commercial Kitchen Equipment Maintenance" },

@@ -27,7 +27,7 @@ const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "Get quality AC Services in JBR Dubai. We are offering the best chiller fan coil unit air conditioner repair, maintenance and aircon fix Call:043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in jbr, ac repair in jbr, ac maintenance in jbr, air conditioning services in jbr, air conditioner repair in jbr, aircon service in jbr, chilled water fcus repair in jbr, chilled water fcus maintenance in jbr, chilled water fcus service in jbr");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jbr/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jbr/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
@@ -132,7 +132,7 @@ const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in JBR</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  near me in JBR, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+                                <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link>  near me in JBR, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in JBR Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
@@ -180,7 +180,7 @@ const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in JBR Dubai?</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in JBR is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in JBR, contact us.
+                            Regular air conditioner (AC) maintenance service in JBR is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in JBR, contact us.
                         </p>
 
                         <div className="row align-items-center">

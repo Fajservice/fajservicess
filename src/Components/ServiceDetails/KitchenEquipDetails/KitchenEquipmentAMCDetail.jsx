@@ -123,12 +123,10 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
       <HeaderForm />
 
       <div className="cs_service_details">
-
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Commercial Kitchen Equipment Maintenance Contract Services (AMC) in Dubai</h1>
             <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010. Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.<br />As appliances age, they become more prone to breakdowns, often at inconvenient times.<br />With FAJ Appliance Services, our annual Domestic or Commercial Appliances Contract offers peace of mind by providing a predictable budget for maintenance, helping you avoid unexpected repair costs. Contact us today to book a technician for an inspection and arrange your Appliances AMC Services Contract Cover to start now.</p>
-
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -336,7 +334,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/RoutineService')} alt="24x7" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Routine Service</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Routine Service</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
                   </div>
@@ -347,7 +345,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/On-callservices')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">On-call services</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">On-call services</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                     </div>
@@ -361,7 +359,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/GenuineSpareParts')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Genuine Spare Parts</h3>
                       <p className="small">Knowing your commercial kitchen equipment is in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
@@ -372,7 +370,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/MaintenanceCosts')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Maintenance Costs</h3>
                       <p className="small">High-quality equipment may be more expensive initially, but it typically breaks down less frequently and requires fewer repairs.</p>
                     </div>
                   </div>
@@ -383,7 +381,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/Increased Efficiency')} alt="trained icon" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Increased Efficiency</h3>
                       <p className="small">Commercial kitchen equipment can improve the efficiency of daily tasks in your kitchen. · Lower Maintenance Costs · Superior Quality.</p>
                     </div>
                   </div>
@@ -394,7 +392,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/CostEfficiency')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Cost Efficiency</h3>
                       <p className="small">FAJ a Save hand maintenance. Here's a cost comparison: a commercial kitchen helps you avoid high startup equipment costs.</p>
                     </div>
                   </div>
@@ -405,7 +403,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/ReportandUpdates')} alt="annual contract icon" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Report and Updates</h3>
                       <p className="small">FAJ is releasing a report on the condition of commercial kitchen equipment, outlining actions to enhance efficiency and safety.</p>
                     </div>
                   </div>
@@ -416,7 +414,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/ExpertsandTrained')} alt="installation icon" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Experts and Trained</h3>
                       <p className="small">FAJ technicians to provide customers with effective maintenance, repair for commercial kitchen equipment to ensure satisfaction.</p>
                     </div>
                   </div>
@@ -546,7 +544,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         {/* We are specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 mb-4">
           <div className="container">
-            <h3>We specialise in commercial equipment services for major brands</h3>
+            <h3>We specialise in commercial equipment services for major categories</h3>
             <ul>
               <li> <strong>  Client Sectors: </strong> Leisure and Hospitality, Education, Defence, Industrial, Healthcare, Public Sector, Retail, Commercial, Cloud/Dark Kitchens, Restaurants, Hotels, Bakeries, Shops, Coffee Shops, Catering, Medical Facilities, and Labor Camps. Our commitment to excellence spans across these diverse industries.</li>
               <li> <strong> Baking Equipment: </strong> Combi ovens, Convection ovens, High-Speed ovens, Compact ovens, Pizza ovens, Rational ovens, Commercial ovens, and Steamers. </li>
@@ -564,7 +562,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         </section>
 
         {/* Brands section */}
-        {!isLoading && brandsLogo_data.length > 0 && (
+        {/* {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
               ...item,
@@ -575,7 +573,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
             logoMaxWidth="120px"
             containerHeight="100px"
           />
-        )}
+        )} */}
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

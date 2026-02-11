@@ -370,7 +370,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Ensuring-Safety')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
                       <p className="small">Regular inspections are essential for preventing electrical faults, gas leaks, and other hazards, which ensures the safety of your premises.</p>
                     </div>
                   </div>
@@ -381,7 +381,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16"> Optimal Performance </h3>
                       <p className="small">Regular maintenance helps your Samsung appliances run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
@@ -393,7 +393,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Lower-Energy-Bills')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
                       <p className="small">Energy-efficient Samsung appliances help you save on utility bills, allowing you to keep more money in your pocket each month.</p>
                     </div>
                   </div>
@@ -405,7 +405,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Saving-Money-on-Repair')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
                       <p className="small">Preventive services help identify issues early, reducing breakdowns and repairs while enhancing the lifespan of Samsung appliances.</p>
                     </div>
 
@@ -417,7 +417,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Extending Appliance Lifespan</h3>
                       <p className="small">Regular maintenance and prompt servicing can significantly prolong the lifespan of your Samsung appliances, delaying the need for replacements.</p>
 
                     </div>
@@ -431,7 +431,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Peace-of-Mind')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
+                      <h4 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
                       </h4>
                       <p className="small">Keeping your Samsung appliances in good working order enhances your confidence and minimizes the stress of unexpected breakdowns.</p>
                     </div>
@@ -554,7 +554,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             </div>
 
             <h4 className="mt-3">We offer service for Samsung appliances in the Dubai area</h4>
-            <p><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/damac-hills/">Damac Hills</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barari/">Al Barari</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barsha/">Al Barsha</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-safa/">Al Safa</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches/">Arabian Ranches</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-investments-park/">Dubai Investments Park</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dip/">DIP</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-production-city/">Dubai Production City</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impzy/">IMPZ</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-sports-city/">Dubai Sports City</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-studio-city/">Dubai Studio City</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jbr/">JBR</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-beach-residence/">Jumeirah Beach Residence</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jlt/">JLT</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-lake-towers/">Jumeirah Lake Towers</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvc/">JVC</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-circle/">Jumeirah Village Circle</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvt/">JVT</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-triangle/">Jumeirah Village Triangle</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-village/">Jebel Ali Village</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah/">Jumeirah</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-golf-estates/">Jumeirah Golf Estates</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-meadows/">Meadows</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-motor-city/">Motor City</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/town-square/">Town Square</a> | <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Suqeim</a></p>
+            <p><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/damac-hills/">Damac Hills</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barari/">Al Barari</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barsha/">Al Barsha</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-safa/">Al Safa</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches/">Arabian Ranches</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-investments-park/">Dubai Investments Park</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dip/">DIP</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-production-city/">Dubai Production City</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impzy/">IMPZ</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-sports-city/">Dubai Sports City</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-studio-city/">Dubai Studio City</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jbr/">JBR</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-beach-residence/">Jumeirah Beach Residence</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jlt/">JLT</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-lake-towers/">Jumeirah Lake Towers</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvc/">JVC</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-circle/">Jumeirah Village Circle</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jvt/">JVT</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village-triangle/">Jumeirah Village Triangle</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-village/">Jebel Ali Village</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah/">Jumeirah</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-golf-estates/">Jumeirah Golf Estates</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-meadows/">Meadows</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-motor-city/">Motor City</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/town-square/">Town Square</a> | <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/emirates-hills/">Emirates Hills</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Suqeim</a></p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <GetQuoteButton />

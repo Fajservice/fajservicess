@@ -27,7 +27,7 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, reviewsbg, ti
     const metadescription = String(description || "If you have a fcu system that is in need of repair, call us at 043300002 for ac services in jumeirah beach residence dubai. Air con maintenance");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in jumeirah beach residence, ac repair in jumeirah beach residence, ac maintenance in jumeirah beach residence, air conditioning services in jumeirah beach residence, aircon fixing in jumeirah beach residence, fcu system repair in jumeirah beach residence");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-beach-residence/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
@@ -132,7 +132,7 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, reviewsbg, ti
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Jumeirah Beach Residence, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+                                <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Jumeirah Beach Residence, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Jumeirah Beach Residence Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
@@ -179,7 +179,7 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, reviewsbg, ti
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in Jumeirah Beach Residence is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Jumeirah Beach Residence, contact us.
+                            Regular air conditioner (AC) maintenance service in Jumeirah Beach Residence is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in Jumeirah Beach Residence, contact us.
                         </p>
 
                         <div className="row align-items-center">

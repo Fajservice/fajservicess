@@ -134,7 +134,7 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Al Manara</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Al Manara, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+                                <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Al Manara, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Al Manara Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
 
@@ -183,7 +183,7 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Al Manara?</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in Al Manara is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Al Manara, contact us.
+                            Regular air conditioner (AC) maintenance service in Al Manara is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in Al Manara, contact us.
                         </p>
 
                         <div className="row align-items-center">

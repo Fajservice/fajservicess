@@ -281,7 +281,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Air Conditioning Maintenance, Repair and Servicing in Dubai</h1>
-            <p>Improve the comfort of your home and business premises with air conditioning cooling. Maintain a perfect temperature year-round with our expert AC technicians.<br /><a href="https://maps.app.goo.gl/KDPpprYugX3bXJ759">FAJ Technical Services L.L.C</a> has been providing AC services (Since) 2010. Our technicians are experienced in<a href="https://www.facebook.com/FAJTechnicalServicesLLC">AC repair and maintenance</a>, ensuring your air conditioning system performs at its best for an extended time, as well as AC installation of home, office, and commercial air conditioning units in Dubai and Sharjah.</p>
+            <p>Improve the comfort of your home and business premises with air conditioning cooling. Maintain a perfect temperature year-round with our expert AC technicians.<br /><a href="https://maps.app.goo.gl/KDPpprYugX3bXJ759">FAJ Technical Services L.L.C</a> has been providing AC services (Since) 2010. Our technicians are experienced in <a href="https://www.facebook.com/FAJTechnicalServicesLLC">AC repair and maintenance</a>, ensuring your air conditioning system performs at its best for an extended time, as well as AC installation of home, office, and commercial air conditioning units in Dubai and Sharjah.</p>
 
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

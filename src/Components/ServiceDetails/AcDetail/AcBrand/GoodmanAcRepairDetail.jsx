@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Goodman AC Repair  & Services in Dubai | Air Conditioning Fix");
-  const metadescription = String(description || "Professional Goodman repair and maintenance for HVAC systems. Rely on FAJ for dependable central cooling solutions tailored to your comfort needs.");
+  const metatitle = String(titleSeo || "Expert Goodman AC Repair & Services in Dubai | Air Conditioning");
+  const metadescription = String(description || "When your AC isn't cooling, learn what to expect when you have to make that urgent HVAC service call, FAJ for Goodman AC repair and service in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Goodman AC Repair Dubai, Goodman Air Conditioner Service, Goodman AC Maintenance Dubai, Goodman Air Conditioning Repair, Goodman AC Cleaning");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/goodman/");
@@ -114,9 +114,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <h1 className="cs_fs_30">Expert Goodman AC Repair and Service in Dubai</h1>
             <p>
               Experience year-round comfort by eliminating sticky summer days, stuffy nights, and allergens with clean air.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable Goodman air conditioning solutions in Dubai and Sharjah.
-              Our expert team specializes in Goodman AC repair, cleaning service, maintenance and installation of a wide range of residential and commercial AC units to ensure optimal performance and comfort.
-
+              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable Goodman air conditioning solutions in Dubai and Sharjah. Our expert team specializes in Goodman AC cleaning service, repair, maintenance and installation of a wide range of residential and commercial AC units to ensure optimal performance and comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -140,24 +138,25 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <br />Our dedicated team specializes in air conditioning service and maintenance throughout Dubai and Sharjah. <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> is committed to delivering reliable solutions that enhance indoor comfort throughout the year while ensuring the efficient operation of your system.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Top Common Signs That You Need Goodman AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')}  alt="Goodman AC Service" />
               </div>
@@ -453,55 +452,55 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <h3>We specialise in Goodman ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong>   Goodman Split Air Conditioner Service: </strong> FAJ offers reliable repair and maintenance for Goodman split air conditioner in Dubai. Our expert team specialises in Goodman VRF and central AC, ensuring optimal performance and comfort. Count on us for both routine <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> and urgent repair. </p>
+                <p className="mb-0"><strong>   Goodman Split Air Conditioner Service: </strong> FAJ offers reliable repair and maintenance for Goodman split air conditioner in Dubai. Our expert team specialises in Goodman VRF and central AC, ensuring optimal performance and comfort. Count on us for both routine <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC maintenance</a> and urgent repair. </p>
                 <p className="mb-0"><strong>   Goodman Central Air Conditioner Repair and Service: </strong> FAJ is a leading aircon service provider in Dubai, specialising in the AC installation, repair, and maintenance of Goodman air conditioner. Known for its commitment to excellence, the company provides a wide range of ac services aimed at ensuring the optimal efficiency of air conditioning units. </p>
                 <p className="mb-0"><strong>   Goodman AC Service and Repair: </strong> Goodman AC Service provides peace of mind with our skilled technicians. At FAJ, we specialise in efficient and reliable AC maintenance, repair, and installation. You can trust our expert team to keep your HVAC system running smoothly and ensure your comfort throughout the year! </p>
                 <p className="mb-0"><strong>   Goodman Inverter Air Conditioner Maintenance: </strong> Count on our dedicated team to promptly resolve any concerns with your Goodman air conditioner maintenance and bring it back to peak performance! </p>
                 <p className="mb-0"><strong>   Goodman HVAC Repair: </strong> We have extensive expertise in Goodman cassette and package unit AC systems, providing reliable repair to ensure your unit operates efficiently. </p>
-                <p className="mb-0"><strong>   Goodman Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Goodman ceiling <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair</a> and service. </p>
+                <p className="mb-0"><strong>   Goodman Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Goodman ceiling <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair</a> and service. </p>
                 <p className="mb-0"><strong>   Goodman VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Goodman Variable Refrigerant Flow (VRF) repair and maintenance service provides reliable and efficient HVAC solutions customised to meet your needs. Our skilled team prioritises your comfort and satisfaction, delivering exceptional service and peace of mind. You can trust us to manage your climate control with expertise and care. </p>
                 <p className="mb-0"><strong>   Goodman Ducted Split AC Service and Repair: </strong> For reliable Goodman ducted split air conditioner (AC) repair and maintenance in Dubai, our skilled technicians are here to help. With expertise in diagnosing a variety of AC issues, we ensure minimal disruption to your comfort. Trust us for quick and effective service that provides the cooling relief you need. </p>
                 <p className="mb-0"><strong>   Goodman Wall-Mounted Air Conditioner Service and Repair: </strong> Beat Dubai's intense heat with our expert Goodman AC fix and repair services. We ensure that your unit operates efficiently, keeping your indoor space cool and comfortable while the temperatures soar outside. </p>
 
 
                 <p>
-                  <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/">JAFZA</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-free-zone/">Jebel Ali Free Zone</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Palm Jumeirah</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-hills-estate/">Dubai Hills Estate</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-damac-hills/">Damac Hills</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-al-barari/">Al Barari</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-al-barsha-south/">Al Barsha South</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-al-safa/">Al Safa</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-arabian-ranches/">Arabian Ranches</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dubai-investments-park/">Dubai Investments Park</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dip/">DIP</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-production-city/">Dubai Production City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-impz/">IMPZ</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-jlt/">JLT</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-the-meadows/">Meadows</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-motor-city/">Motor City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-town-square/">Town Square</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> &nbsp;|&nbsp;
-                  <a href="">Townhouses</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-umm-suqeim/">Umm Suqeim</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-ras-al-khor-industrial-area/">Ras Al Khor</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-deira/">Deira</a>
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha/">Al Barsha</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jafza/">JAFZA</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-free-zone/">Jebel Ali Free Zone</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/damac-hills/">Damac Hills</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barari/">Al Barari</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha-south/">Al Barsha South</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-safa/">Al Safa</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/arabian-ranches/">Arabian Ranches</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dip/">Dubai Investments Park</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dip/">DIP</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-production-city/">Dubai Production City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/impz/">IMPZ</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jbr/">JBR</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jlt/">JLT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvc/">JVC</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvc/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvt/">JVT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvt/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-meadows/">Meadows</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/motor-city/">Motor City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/town-square/">Town Square</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/emirates-hills/">Emirates Hills</a> &nbsp;|&nbsp;
+                  Townhouses &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/umm-suqeim/">Umm Suqeim</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/ras-al-khor-industrial-area/">Ras Al Khor</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/deira/">Deira</a>
                 </p>
               </div>
 

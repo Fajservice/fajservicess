@@ -365,7 +365,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                         <img src={getImageSrc('icon/EnhancedFoodQuality')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Enhanced Food Quality</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Enhanced Food Quality</h3>
                       <p className="small">
                         The condition of a meat grinder machine significantly impacts food quality; therefore, regular maintenance is crucial.
                       </p>
@@ -378,7 +378,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/ImprovedWorkplceSafety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18"> Improved Workplace Safety </h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16"> Improved Workplace Safety </h3>
                       <p className="small">
                         Regular maintenance of restaurant kitchen grinders helps prevent contamination, reduces the risk of mishaps, and ensures safe food preparation.
 
@@ -392,7 +392,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/EnsuresCompliance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Ensures Compliance</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Ensures Compliance</h3>
                       <p className="small">
                         Food safety is crucial for any food business. Regular maintenance of meat grinders prevents contamination and ensures safety.
                       </p>
@@ -406,7 +406,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Reducedutilitycosts')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Reduced utility costs</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Reduced utility costs</h3>
                       <p className="small">
                         An electric meat grinder operates more efficiently and safely at peak performance when it is kept clean and serviced regularly.
                       </p>
@@ -420,7 +420,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/ImproveSpeedofOperations')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Improve Speed of Operations</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Improve Speed of Operations</h3>
                       <p className="small">
                         A restaurant meat grinder requires quick turnarounds to meet customer demands, as inefficiency causes delays and dissatisfaction.
 
@@ -437,7 +437,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/CommercialGrinderMaintenance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Commercial Grinder Maintenance
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Commercial Grinder Maintenance
                       </h3>
                       <p className="small">
                         Regular cleaning and maintenance of commercial meat grinders are essential to extend their lifespan and reduce costs.

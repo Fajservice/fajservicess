@@ -15,7 +15,7 @@ const Career = () => {
         We have experienced significant growth in areas such as trading (including e-commerce), technical services, and a variety of appliances and electronics.
         Company Name: FAJ Technical Services L.L.C
         Al Quoz Ind Area 4th, Dubai, UAE
-        Link: https://www.fajservices.ae/ac-repair-dubai/
+        Link: https://www.fajservices.ae/services/air-conditioning-repair/ac-service/
         Location: https://maps.app.goo.gl/FK6Qrd8DAkEVwA3P6
         Send CV by WhatsApp: +971 50 609 7717 (Don't Call)
 
@@ -98,7 +98,7 @@ Contract length: 24 months`
 We have experienced significant growth in areas such as trading (including e-commerce), technical services, and a variety of appliances and electronics.
 Company Name: FAJ Technical Services L.L.C
 Al Quoz Ind Area 4th, Dubai, UAE
-Link.: https://www.fajservices.ae/ac-repair-dubai/
+Link.: https://www.fajservices.ae/services/air-conditioning-repair/ac-service/
 Location..: https://maps.app.goo.gl/FK6Qrd8DAkEVwA3P6
 Send CV by WhatsApp: +971 50 609 7717 (Don't Call)
 ## Job Requirements:
@@ -127,7 +127,7 @@ Job Type: Full-time`
       description: `We have experienced significant growth in areas such as trading (including e-commerce), technical services, and a variety of appliances and electronics.
 Company Name: FAJ Technical Services L.L.C
 Al Quoz Ind Area 4th, Dubai, UAE
-Link.: https://www.fajservices.ae/ac-repair-dubai/
+Link.: https://www.fajservices.ae/services/air-conditioning-repair/ac-service/
 Location..: https://maps.app.goo.gl/FK6Qrd8DAkEVwA3P6
 Send CV by WhatsApp: +971 50 609 7717 (Don't Call)
 ## Job Requirements:

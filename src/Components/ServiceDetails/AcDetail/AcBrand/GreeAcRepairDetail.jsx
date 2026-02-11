@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Gree AC Repair in Dubai | Gree AC Maintenance Service");
-  const metadescription = String(description || "Professional in Gree AC repair in Dubai & Gree air conditioning cleaning service near me. Book an 043300002. Our technicians are experts in fixing errors");
+  const metatitle = String(titleSeo || "Gree AC Repair and Gree AC Maintenance Service in Dubai");
+  const metadescription = String(description || "Professional in Gree AC repair and Gree air conditioning maintenance service near you. Book an 043300002. Our technicians are experts in fixing errors.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Gree AC Repair, Gree AC Service, Gree Air Conditioner Maintenance, Gree AC Repair Dubai, Gree AC Service Dubai, Gree Air Conditioner Repair Dubai, Gree AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/gree/");
@@ -111,11 +111,8 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Best Gree AC Repair in Dubai – Air Conditioner Maintenance</h1>
-            <p>Our company, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a>, has been established since 2010. We have a dedicated facilities team with extensive experience in AC repair, maintenance services, and installation in Dubai and Sharjah for various residential and commercial air conditioning units.
-              A Gree air conditioner is more than just a cooling device; it&apos;s essential for maintaining a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular servicing is crucial. We offer professional Gree air conditioner servicing in Dubai to keep your system running smoothly and efficiently.
-            </p>
-
+            <h1 className="cs_fs_30">Best Gree AC Repair and Maintenance Service in Dubai</h1>
+            <p>Our company, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a>, has been founded since 2010. We have a dedicated facilities team with extensive experience in Gree AC repair, maintenance services, and installation in Dubai and Sharjah for different residential and commercial Gree air conditioning units.<br />A Gree air conditioner is more than just a cooling device; it's essential for maintaining a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular servicing is crucial. We offer professional Gree air conditioner servicing in Dubai to keep your system running smoothly and efficiently.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -131,30 +128,29 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             <div className="row gx-md-5">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Gree AC Maintenance and Servicing</h2>
-
                 <p className="mb-2">
-                  When it comes to Gree <a href="/ac-repair-dubai/">AC repair</a>, it is important to hire a professional and reliable Gree AC technician for your home or office.
+                  When it comes to Gree <a href="/services/air-conditioning-repair/ac-service/">AC repair</a>, it is important to hire a professional and reliable Gree AC technician for your home or office.
                   <br />We specialise in Gree air conditioner (AC) repair, service, and maintenance throughout Dubai and Sharjah. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is committed to ensuring a comfortable temperature for you all year round.
                 </p>
-
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Gree AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')}  alt="Gree AC Service" />
               </div>
@@ -172,7 +168,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
             <h3 className="cs_fs_30">Why is Gree AC Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
-              Regular maintenance of Gree air conditioners (AC) in Dubai is essential for optimal performance. FAJ provides comprehensive services to ensure your system operates efficiently. With our proactive approach, you can be confident that your Gree AC is functioning at its best. If you need Gree <a href="/ac-maintenance-dubai/"> AC maintenance near you</a>, please contact us.
+              Regular maintenance of Gree air conditioners (AC) in Dubai is essential for optimal performance. FAJ provides comprehensive services to ensure your system operates efficiently. With our proactive approach, you can be confident that your Gree AC is functioning at its best. If you need Gree <a href="/services/air-conditioning-repair/ac-service/"> AC maintenance near you</a>, please contact us.
             </p>
 
             <div className="row align-items-center">
@@ -468,43 +464,43 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 <p className=""><strong>   Gree Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from the scorching heat? Discover how to keep your Gree AC running smoothly in Dubai! Our expert <a href="https://www.google.com/search?q=faj+technical+llc+gmb&sca_esv=a182306c0b9e7281&sxsrf=AE3TifP6twoVuhedCe8xy_x2cw69ihmDVA%3A1748516672478&ei=QD84aJTtHNeW7_UPw-KsqQY&ved=0ahUKEwiUjZaZxMiNAxVXy7sIHUMxK2UQ4dUDCBA&uact=5&oq=faj+technical+llc+gmb&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWZhaiB0ZWNobmljYWwgbGxjIGdtYjIFECEYoAEyBRAhGKABSIUqUMcEWNoccAF4AZABAJgBlQKgAYgOqgEDMi04uAEDyAEA-AEBmAIJoALEDsICDRAuGLADGMcBGCcYrwHCAgcQIxiwAxgnwgIKEAAYsAMY1gQYR8ICEBAuGIAEGMcBGCcYigUYrwHCAgQQIxgnwgIFEAAYgATCAgYQABgWGB7CAgsQABiABBiGAxiKBcICHRAuGIAEGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEBwgIIEAAYFhgKGB7CAggQABiABBiiBMICBRAAGO8FwgIEECEYFZgDAIgGAZAGCroGBggBEAEYFJIHBTEuMC44oAeCMrIHAzItOLgHtg7CBwcwLjIuNS4yyAcu&sclient=gws-wiz-serp#lpc=lpc&prid=7357667077339788928&scso=_2j84aLrrB-CG9u8P9oSMgAg_76:744">Gree AC services</a> ensure your unit remains cool and efficient, providing comfort and peace of mind.  </p>
 
                 <p>
-                  <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/">JAFZA</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-free-zone/">Jebel Ali Free Zone</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Palm Jumeirah</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-hills-estate/">Dubai Hills Estate</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-damac-hills/">Damac Hills</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-al-barari/">Al Barari</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-al-barsha-south/">Al Barsha South</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-al-safa/">Al Safa</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-arabian-ranches/">Arabian Ranches</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dubai-investments-park/">Dubai Investments Park</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dip/">DIP</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-production-city/">Dubai Production City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-impz/">IMPZ</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-jlt/">JLT</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-the-meadows/">Meadows</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-motor-city/">Motor City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-town-square/">Town Square</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> &nbsp;|&nbsp;
-                  <a href="">Townhouses</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-umm-suqeim/">Umm Suqeim</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-ras-al-khor-industrial-area/">Ras Al Khor</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-deira/">Deira</a>
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha/">Al Barsha</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jafza/">JAFZA</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-free-zone/">Jebel Ali Free Zone</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/damac-hills/">Damac Hills</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barari/">Al Barari</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha-south/">Al Barsha South</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-safa/">Al Safa</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/arabian-ranches/">Arabian Ranches</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dip/">Dubai Investments Park</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dip/">DIP</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-production-city/">Dubai Production City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/impz/">IMPZ</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jbr/">JBR</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jlt/">JLT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvc/">JVC</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvc/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvt/">JVT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvt/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-meadows/">Meadows</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/motor-city/">Motor City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/town-square/">Town Square</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/emirates-hills/">Emirates Hills</a> &nbsp;|&nbsp;
+                  Townhouses &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/umm-suqeim/">Umm Suqeim</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/ras-al-khor-industrial-area/">Ras Al Khor</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/deira/">Deira</a>
                 </p>
               </div>
 

@@ -206,7 +206,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review1",
+                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review1",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Bassam Sh" },
@@ -214,7 +214,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review2",
+                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review2",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Laura Terrero González" },
@@ -222,7 +222,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review3",
+                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review3",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Abdullah Kiani" },
@@ -230,7 +230,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review4",
+                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review4",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Usman Ali" },
@@ -238,7 +238,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/ac-repair-dubai/#review5",
+                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review5",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Dunja Lazović" },
