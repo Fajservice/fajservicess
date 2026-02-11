@@ -8,7 +8,12 @@ import CMTechincianCarousel from '../../Components/LandingPages/CMTechinicanCaro
 import CMTestimonial from '../../Components/LandingPages/CMTestimonial'
 import CMWhyChooseUs from '../../Components/LandingPages/CMWhyChooseUs'
 import WhyChooseUS from '../../Components/WhyChooseUS/ACWhyChooseUs'
-
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const CoffeeMachineLandingPage = () => {
   return (
     <div>

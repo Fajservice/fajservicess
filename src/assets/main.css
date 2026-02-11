@@ -9877,11 +9877,11 @@
   .process_item::before {
     font-size: 18px;
   }
-  
+/*   
   .process_item p {
     font-size: 13px;
     line-height: 1.6;
-  }
+  } */
 }
 
 /* Extra Large Desktop - 1600px and above */

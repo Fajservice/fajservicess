@@ -79,7 +79,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
+          <meta name="description" content={metadescription}></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />
@@ -111,7 +111,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Where Does FAJ Operate in Dubai? <br />Comprehensive Coverage Across Prime Dubai Locations</h1>
-            <p>We have successfully maintained, repaired, and serviced our premium air conditioning systems in a wide variety of properties throughout Dubai. Our service areas include <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-quoz/">Al Quoz</a> , <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha/">Al Barsha</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-marina/">Dubai Marina</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali/">Jebel Ali</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dip/">DIP</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jafza/">JAFZA</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/business-bay/">Business Bay</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-hills-estate/">Dubai Hills</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-springs/">The Springs</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/damac-hills/">Damac Hills</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-sports-city/">Sports City</a>, <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/motor-city/">Motor City</a>, and more.
+            <p>We have successfully maintained, repaired, and serviced our premium air conditioning systems in a wide variety of properties throughout Dubai. Our service areas include <a href="/services/air-conditioning-repair/coverage-area/al-quoz/">Al Quoz</a> , <a href="/services/air-conditioning-repair/coverage-area/al-barsha/">Al Barsha</a>, <a href="/services/air-conditioning-repair/coverage-area/dubai-marina/">Dubai Marina</a>, <a href="/services/air-conditioning-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a>, <a href="/services/air-conditioning-repair/coverage-area/jebel-ali/">Jebel Ali</a>, <a href="/services/air-conditioning-repair/coverage-area/dip/">DIP</a>, <a href="/services/air-conditioning-repair/coverage-area/jafza/">JAFZA</a>, <a href="/services/air-conditioning-repair/coverage-area/business-bay/">Business Bay</a>, <a href="/services/air-conditioning-repair/coverage-area/dubai-hills-estate/">Dubai Hills</a>, <a href="/services/air-conditioning-repair/coverage-area/the-springs/">The Springs</a>, <a href="/services/air-conditioning-repair/coverage-area/damac-hills/">Damac Hills</a>, <a href="/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a>, <a href="/services/air-conditioning-repair/coverage-area/dubai-sports-city/">Sports City</a>, <a href="/services/air-conditioning-repair/coverage-area/motor-city/">Motor City</a>, and more.
               These neighbourhoods have become hotspots for homeowners and business owners looking to enhance their indoor comfort with discreet, high-performance air conditioning. This is especially important for modern flats, luxury apartments, villas, and listed buildings where external units are not permitted.
 
             </p>
@@ -169,7 +169,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             <div className="ac_issues_grid_container">
               <div className="ac_issue_single_card">
                 <div className="ac_issue_card_header">
-                  <h3>Gas Burner Ignition Problems maintenance</h3>
+                  <h3>Waiting until hot summer to get maintenance</h3>
                 </div>
                 <div className="ac_issue_card_content">
                   <p>Your air conditioner has been inactive for months. When summer arrives and you turn it on suddenly, there may be faults or errors arising.</p>
@@ -590,22 +590,22 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             <h3 className="service_areas_sub_heading">Popular Areas:</h3>
 
             <div className="service_areas_tags_container">
-              <span className="service_area_tag"><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-marina/">Dubai Marina</a></span>
-              <span className="service_area_tag">JBR (Jumeirah Beach Residence)</span>
-              <span className="service_area_tag">The Meadows</span>
-              <span className="service_area_tag">Downtown Dubai</span>
-              <span className="service_area_tag"><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/business-bay/">Business Bay</a></span>
-              <span className="service_area_tag">Arabian Ranches</span>
-              <span className="service_area_tag">Motor City</span>
-              <span className="service_area_tag">The Springs</span>
-              <span className="service_area_tag">JLT</span>
-              <span className="service_area_tag">JLT (Jumeirah Lake Towers)</span>
-              <span className="service_area_tag">Dubai Hills Estate</span>
-              <span className="service_area_tag">Palm Jumeirah</span>
-              <span className="service_area_tag">Silicon Oasis</span>
-              <span className="service_area_tag">JVC (Jumeirah Village Circle)</span>
-              <span className="service_area_tag">Discovery Gardens</span>
-              <span className="service_area_tag">Sports City</span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/dubai-marina/">Dubai Marina</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/jbr/">JBR (Jumeirah Beach Residence)</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/the-meadows/">The Meadows</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/downtown/">Downtown Dubai</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/business-bay/">Business Bay</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/arabian-ranches/">Arabian Ranches</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/motor-city/">Motor City</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/the-springs/">The Springs</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/jlt/">JLT</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/jumeirah-lake-towers/">JLT (Jumeirah Lake Towers)</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/">Silicon Oasis</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/jvc/">JVC (Jumeirah Village Circle)</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/dubai-sport-city/">Sports City</a></span>
             </div>
           </div>
         </section>

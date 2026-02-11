@@ -1,7 +1,12 @@
 import  { useEffect } from 'react';  // 👈 Import useEffect
 import Testimonial1 from '../Testimonial/Testimonial1';
 import testimonial_data from '../../../public/data/AcData/AcTestimonial/AcRepairTestimonials.json';
-
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const CMTestimonial = () => {
 
   const subtitle = "Testimonial";
