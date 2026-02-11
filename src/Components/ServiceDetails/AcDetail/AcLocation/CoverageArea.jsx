@@ -1,11 +1,11 @@
 
 import { useEffect, useRef, useState } from 'react';
-// import Testimonial1 from '../../Testimonial/Testimonial1';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import WhatsappIconButton from '../../../Buttons/WhatsappIconButton';
 import loadBackgroudImages from '../../../Common/loadBackgroudImages';
 // import BlogCoffeeMachine from '../../../Blog/BlogCoffeeMachine';
 import '../../../../assets/main.css';
+import Testimonial1 from '../../../Testimonial/Testimonial1';
+import BlogCoffeeMachine from '../../../Services/coffeemachine/BlogCoffeeMachine';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -55,8 +55,8 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/coffeemachinesserviceFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/CoffeeMAchineReapairTestimonials.json`)
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/acfaq.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonials/AcServiceTestimonials.json`)
         ]);
 
         const faqsData = await faqsResponse.json();
@@ -109,6 +109,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             </p>
           </div>
         </section>
+
         <section className="our_process cs_py_60 bg-light-gray">
           <div className="container">
             <div className="process_wrapper">
@@ -148,371 +149,460 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           </div>
         </section>
 
-
-        {/* Shop for Coffee Machines, Equipment, and Accessories */}
-
-        <section className="section cs_py_30 bg-light-gray">
+        {/* Common Issue Ac Maintenance */}
+        <section className="ac_common_issues_section cs_py_60 bg-light-white">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Shop for Coffee Machines, Equipment, and Accessories</h2>
+            <div className="ac_issues_header_wrapper">
+              <h2>Common Issues in AC Maintenance in Dubai, UAE</h2>
+              <p>We have encountered thousands of AC systems and identified common issues.</p>
+              <p className="ac_issues_sub_text">Here are the mistakes that people frequently make:</p>
+            </div>
 
-            <div className="row align-items-center">
-              <div className="col-12 col-lg-4 mb-4 mb-lg-0">
-                <div className="service-image-wrapper">
-                  <img
-                    src={`${CDN}/shop-for-coffee-machines/public`}
-                    alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
-                    title="Commercial AC Maintenance Service in Dubai"
-                    width="500"
-                    height="400"
-                    loading="lazy"
-                    decoding="async"
-                    className="service-image"
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
-                    }}
-                  />
+            <div className="ac_issues_grid_container">
+              <div className="ac_issue_single_card">
+                <div className="ac_issue_card_header">
+                  <h3>Gas Burner Ignition Problems maintenance</h3>
+                </div>
+                <div className="ac_issue_card_content">
+                  <p>Your air conditioner has been inactive for months. When summer arrives and you turn it on suddenly, there may be faults or errors arising.</p>
+                  <h4>Better procedure:</h4>
+                  <p>Turning on your air conditioner 1-2 April before summer starts, this provides better availability, lower errors (no emergency plumbing), and a functioning product when summer arrives.</p>
                 </div>
               </div>
 
-              <div className="col-12 col-lg-8">
-                <p>If you need to buy new coffee machine, espresso machine, vending machine, coffee equipment, or replacement parts and accessories, we deliver quickly to any location.</p>
-
-                <ul className="service-bullet-list">
-                  <li><a href="https://www.fajtradingllc.com/collections/professional-espresso-machines">Professional Espresso Machines</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/automatic-coffee-machine">Automatic Coffee Machine</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/office-coffee-machines">Office Coffee Machines</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/home-coffee-machines">Home Coffee Machines</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/capsule-coffee-machines">Capsule Coffee Machines</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/coffee-grinders">Coffee Grinders</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/coffee-brewers">Coffee Brewers</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/blender">Blender</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/water-boiler">Water Boiler</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/milk-frother">Milk Frother</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/ice-crusher">Ice Crusher</a></li>
-                  <li><a href="https://www.fajtradingllc.com/collections/beverage-cooler">Beverage Cooler</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="mt-5">
-              <div className="d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
-          </div>
-
-          <style>{`
-        .service-bullet-list {
-          list-style: none;
-          padding: 0;
-          margin: 1rem 0;
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          gap: 10px;
-        }
-        
-        .service-bullet-list li {
-          position: relative;
-          padding-left: 24px;
-          font-size: 15px;
-          color: #000000;
-        }
-        
-        .service-bullet-list li::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          top: 8px;
-          width: 10px;
-          height: 10px;
-          background-color: #1a3a4a;
-          border-radius: 50%;
-        }
-        
-        @media (max-width: 576px) {
-          .service-bullet-list {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 8px;
-          }
-          
-          .service-bullet-list li {
-            font-size: 13px;
-            padding-left: 18px;
-          }
-          
-          .service-bullet-list li::before {
-            width: 8px;
-            height: 8px;
-            top: 6px;
-          }
-        }
-      `}</style>
-        </section>
-
-
-        {/* why choose */}
-        <section className="section cs_py_30">
-          <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Why Choose Our Coffee Machine Maintenance Services</h2>
-
-            <div className="row align-items-center">
-              <div className="col-12 col-lg-5 mb-4 mb-lg-0">
-                <div className="shop-ac-image-wrapper">
-                  <img
-                    src={`${CDN}/coffeemachinechoose/public`}
-                    alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
-                    title="Commercial AC Maintenance Service in Dubai"
-                    width="500"
-                    height="400"
-                    loading="lazy"
-                    decoding="async"
-                    className="shop-ac-image"
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
-                    }}
-                  />
+              <div className="ac_issue_single_card">
+                <div className="ac_issue_card_header">
+                  <h3>Only contact when something fails</h3>
+                </div>
+                <div className="ac_issue_card_content">
+                  <p>Reactive maintenance is significantly more expensive than preventive maintenance. A typical example is most people call after getting a 1800 AED emergency repair.</p>
+                  <h4>Better procedure:</h4>
+                  <p>Routine checkups and maintenance typically are annual, helps identify problems before they turn into costly emergencies.</p>
                 </div>
               </div>
 
-              <div className="col-12 col-lg-7">
-                <div className="shop-ac-bullet-list">
-                  <div className="shop-ac-bullet-col">
-                    <ul>
-                      <li><b>Expert Technicians:</b> Trained on leading different brands and types, including vending machines, espresso machines, coffee machines, and coffee equipment home, office, restaurant and cafe . We provide complete repair and maintenance services for compatible machines.</li>
-                      <li><b>Quick Turnaround:</b> We offer same-day inspections, and most repairs are completed within 48 to 72 hours.</li>
-                      <li><b>Genuine Spare Parts:</b> Using genuine parts in coffee machines, equipment, and vending machines.</li>
-                      <li><b>UAE Coverage:</b> Service is available in Dubai, Abu Dhabi, Sharjah, and throughout all the Emirates.</li>
-                      <li><b>Warranty Support:</b> For machines that are covered by a service warranty.</li>
-                    </ul>
-                  </div>
+              <div className="ac_issue_single_card">
+                <div className="ac_issue_card_header">
+                  <h3>Selecting the cheapest option</h3>
+                </div>
+                <div className="ac_issue_card_content">
+                  <p>Is that company offering AC service for 50 to 100 AED? They might be selling corners or skipping parts to stay that low. What you save now, you'll pay for in your home.</p>
+                  <h4>Better procedure:</h4>
+                  <p>Work with reputable service companies. Typically, you get what you pay for.</p>
                 </div>
               </div>
-            </div>
 
-            <div className="mt-5">
-              <div className="d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
+              <div className="ac_issue_single_card">
+                <div className="ac_issue_card_header">
+                  <h3>Allowing unqualified individuals to work on your AC</h3>
+                </div>
+                <div className="ac_issue_card_content">
+                  <p>That handyman who claims he can check your AC (though?) He might make it worse.</p>
+                  <h4>Better procedure:</h4>
+                  <p>Hire HVAC technicians who are experienced, for technical checks, knowledgeable, are skilled in HVAC.</p>
+                </div>
+              </div>
+
+              <div className="ac_issue_single_card">
+                <div className="ac_issue_card_header">
+                  <h3>Ignoring warning signs</h3>
+                </div>
+                <div className="ac_issue_card_content">
+                  <p>Strange noises, weak cooling, water leakage, and high electricity bills indicate that your AC is signaling there's a problem.</p>
+                  <h4>Better procedure:</h4>
+                  <p>Address minor issues before they escalate into major emergencies.</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-
-        {/* common problem */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* beniift */}
+        <section className="benefits_section cs_py_60 bg-light-gray">
           <div className="container">
-            <h2 className="text-center">The Most Common Problems of Coffee Machines   </h2>
-            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Malfunctions</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Most Likely Causes: Dull blades, motor issues, or a jammed grinder.
-                    </p>
-                  </div>
+            <h2 className="benefits_title">The Benefits of Professional AC Repairing</h2>
+            <div className='paragraph_sec'>
+              <p>While some homeowners or business owners may try DIY repairs, air conditioning systems are complex or offices and require professional expertise to ensure safe and effective repair. Here’s why you should trust FAJ Technical Services L.L.C:</p>
+            </div>
+            <div className="benefits_grid">
+              <div className="benefit_card">
+                <div className="benefit_icon">
+                  <img src={getImageSrc('Safety-First')} alt="Comprehensive Services" />
                 </div>
+                <h3>Safety First</h3>
+                <p>Air conditioning systems have unsafe electrical parts and refrigerants. Our qualified technicians safely repair and maintain these systems to reduce the risk of injury and damage.</p>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Brewing</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0"> Hard water can lead to a buildup of minerals and clogged filters.
-                    </p>
-                  </div>
+              <div className="benefit_card">
+                <div className="benefit_icon">
+                  <img src={getImageSrc('Real-Diagnosis')} alt="Comprehensive Services" />
                 </div>
+                <h3>Real Diagnosis</h3>
+                <p>Diagnosing air conditioning problems requires skill and tools. Our experts quickly identify issues and provide effective solutions, saving you time and frustration.</p>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Portafilter Problems</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      The gasket is worn out and not sealing properly, and the filter basket is clogged.
-                    </p>
-                  </div>
+              <div className="benefit_card">
+                <div className="benefit_icon">
+                  <img src={getImageSrc('Warranty-Protection')} alt="Comprehensive Services" />
                 </div>
+                <h3>Warranty Protection</h3>
+                <p>Many AC systems have warranties that require professional servicing. Choose FAJ Technical Services L.L.C to protect your warranty.</p>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Machine Not Turning On </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Issues such as a defective power cord, a faulty switch, or an internal electrical failure may be present.
-                    </p>
-                  </div>
+              <div className="benefit_card">
+                <div className="benefit_icon">
+                  <img src={getImageSrc('Long-Term-Reliability')} alt="Comprehensive Services" />
                 </div>
+                <h3>Long-Term Reliability</h3>
+                <p>Our professional repairs ensure lasting results by addressing the root causes of your AC issues, preventing future problems and enhancing reliability.</p>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Seals are broken, water reservoirs are cracked, and pipes are blocked.
-                    </p>
-                  </div>
+              <div className="benefit_card">
+                <div className="benefit_icon">
+                  <img src={getImageSrc('Energy-Savings')} alt="Comprehensive Services" />
                 </div>
+                <h3>Energy Savings</h3>
+                <p>By restoring your system’s efficiency, professional repairs can significantly reduce your energy consumption and lower your monthly utility bills.</p>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Poor Coffee Quality</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Possible issues include a clogged filter, an incorrect grind size, or an improper brewing temperature.</p>
-                  </div>
+              <div className="benefit_card">
+                <div className="benefit_icon">
+                  <img src={getImageSrc('Protects-Property')} alt="Comprehensive Services" />
                 </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Noisy Operation</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      The pump is worn out, there are issues with the motor, and some components are loose.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Milk Frothier Issues</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Blocks, a malfunctioning frother motor, and temperature-related issues.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Inconsistent Temperature</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Possible Causes: A malfunctioning thermostat, burnt-out heating elements, or defective temperature-regulating components.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak or Watery Coffee</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Possible causes include an incorrect coffee-to-water ratio, insufficient coffee quantity, and brewing errors.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Machine Shuts Off Mid-Brew</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Possible Causes: Overheating, electrical malfunctions, and faulty sensors.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Display Malfunctions</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Issues identified include a defective control board, wiring problems, and software bugs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Not Heating</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      The heating element is broken, there are issues with the thermostat, and there are electrical faults.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Steam or No Steam</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Issues with the steam wand include malfunctioning, pressure problems, and blocked steam nozzles.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Grounds in Cup</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      The filter is damaged and misaligned, and there are too many grounds in the basket.
-                    </p>
-                  </div>
-                </div>
+                <h3>Protects Property</h3>
+                <p>Protects electronics from damage and prevents effects from warping due to extreme heat and moisture.</p>
               </div>
             </div>
-
-            <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
-
           </div>
         </section>
 
-        {/* {!isLoading && testimonial_data.length > 0 && (
+        {/*  Why Important */}
+        <section className="ac_inspection_importance_section cs_py_60">
+          <div className="container">
+            <h2 className="ac_inspection_main_title">The Importance of AC Inspection</h2>
+
+            {/* First Block - Why It's Necessary? */}
+            <div className="ac_inspection_content_block">
+              <div className="ac_inspection_text_wrapper">
+                <h3 className="ac_inspection_sub_heading">Why It's Necessary?</h3>
+                <p className="ac_inspection_description">
+                  While some homeowners may not necessarily request for UV light repairs, air conditioning systems are complex in nature and require professional expertise to ensure safe and efficient repair. Here's why you should trust FAJ Technical Services L.L.C
+                </p>
+
+                <h4 className="ac_inspection_section_title">TIMELY DETECTION OF TECHNICAL INSPECTION</h4>
+                <p className="ac_inspection_details">
+                  The AC technical specialist has developed an eye that brings performance to a remarkable change in the Dubai homes. This has the assurance that the function of the central device air AC has been just in fresh, improved, typically is very specialized by the furnace will. It critically reduces the probability of unexpected emergencies.
+                </p>
+              </div>
+
+              <div className="ac_inspection_image_wrapper">
+                <img src={getImageSrc('acinspection')} alt="AC Inspection Service" className="ac_inspection_image" />
+              </div>
+            </div>
+
+            {/* Second Block - Why Is AC Service Important? */}
+            <div className="ac_inspection_content_block ac_inspection_reverse">
+              <div className="ac_inspection_image_wrapper">
+                <img src={getImageSrc('acimportant')} alt="AC Service Importance" className="ac_inspection_image" />
+              </div>
+
+              <div className="ac_inspection_text_wrapper">
+                <h3 className="ac_inspection_sub_heading">Why Is AC Service Important?</h3>
+                <p className="ac_inspection_description">
+                  AC service ensures longevity, checking refrigerant levels, and ensuring all components work well. Regular maintenance boosts efficiency, lowers energy bills, and prevents breakdowns.
+                </p>
+
+                <h4 className="ac_inspection_section_title">TIMELY AND CONSISTENT AC CLEANING SERVICE</h4>
+                <p className="ac_inspection_details">
+                  Besides the use of your AC unit, Dubai's sandy and dusty environment will mean sand and grit accumulation in the unit. This is a key AC service component that ensures good flow. Duct filters, condenser fins, evaporator coils and blowers are all kept cleaned so that air flow and comfort are improved in Dubai. AC unit will run almost perfectly AC, dust and pollutants FAJ.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Pricing */}
+        <section className="ac_pricing_table_section cs_py_60 bg-light-gray">
+          <div className="container">
+            <div className="ac_pricing_table_wrapper">
+              <table className="ac_pricing_table">
+                <thead className="ac_pricing_table_head">
+                  <tr>
+                    <th className="ac_pricing_th">AC Type</th>
+                    <th className="ac_pricing_th">Service</th>
+                    <th className="ac_pricing_th">Description</th>
+                    <th className="ac_pricing_th">Price</th>
+                    <th className="ac_pricing_th">Warranty</th>
+                  </tr>
+                </thead>
+                <tbody className="ac_pricing_table_body">
+                  {/* Window AC 1.5 to 2.5 Ton */}
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td ac_pricing_type" rowSpan="4">Window AC 1.5 to 2.5 Ton</td>
+                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td">On-site technical inspection Fee</td>
+                    <td className="ac_pricing_td">120 to 220 AED</td>
+                    <td className="ac_pricing_td">No Warranty</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Deep Cleaning Service</td>
+                    <td className="ac_pricing_td">Deep Cleaning Service and Gas top-up</td>
+                    <td className="ac_pricing_td">300 to 350 AED</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Repair</td>
+                    <td className="ac_pricing_td">After the Inspection, advise will be quoted based on the technical inspection report provided by our expert</td>
+                    <td className="ac_pricing_td">2 to 5 Hours</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Part Replacement</td>
+                    <td className="ac_pricing_td">All warranty for spare part replacement should be valid for 3 month</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+
+
+                  {/* Split AC 1.5 to 2.5 Ton */}
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Split AC 1.5 to 2.5 Ton</td>
+                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
+                    <td className="ac_pricing_td">195 AED +VAT</td>
+                    <td className="ac_pricing_td">-</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Basic Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas
+                      top-up As per to AC requirements.</td>
+                    <td className="ac_pricing_td">285 to 320 AED+VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Deep Cleaning Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and machine, gas top up/ minor Gas leak recommends</td>
+                    <td className="ac_pricing_td">300 to 350 AED</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Repair</td>
+                    <td className="ac_pricing_td">After the Inspection, advise will be quoted based on the technical inspection report provided by our expert</td>
+                    <td className="ac_pricing_td">2 to 5 Hours</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row ac_pricing_row_last">
+                    <td className="ac_pricing_td">Part Replacement</td>
+                    <td className="ac_pricing_td">All warranty for spare part replacement should be valid for 3 month</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+
+
+                  {/* Central AC 1.5 to 2.5 Ton */}
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Central AC 1.5 to 2.5 Ton</td>
+                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
+                    <td className="ac_pricing_td">195 AED +VAT</td>
+                    <td className="ac_pricing_td">-</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Basic Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas
+                      top-up As per to AC requirements.</td>
+                    <td className="ac_pricing_td">285 to 320 AED+VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Deep Cleaning Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and machine, gas top up/ minor Gas leak recommends</td>
+                    <td className="ac_pricing_td">300 to 350 AED</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Repair</td>
+                    <td className="ac_pricing_td">After the Inspection, advise will be quoted based on the technical inspection report provided by our expert</td>
+                    <td className="ac_pricing_td">2 to 5 Hours</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row ac_pricing_row_last">
+                    <td className="ac_pricing_td">Part Replacement</td>
+                    <td className="ac_pricing_td">All warranty for spare part replacement should be valid for 3 month</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+
+                  {/* Central AC 3.0 to 5.0 Ton */}
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Central AC 3.0 to 5.0 Ton</td>
+                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
+                    <td className="ac_pricing_td">220 to 320 AED+VAT</td>
+                    <td className="ac_pricing_td">-</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Basic Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas
+                      top-up As per to AC requirements.</td>
+                    <td className="ac_pricing_td">380 to 475 AED+VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Deep Cleaning Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and machine, gas top up/ minor Gas leak recommends</td>
+                    <td className="ac_pricing_td">420 to 520 AED +VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Repair</td>
+                    <td className="ac_pricing_td">After the Inspection, advise will be quoted based on the technical inspection report provided by our expert</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">2 to 3 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row ac_pricing_row_last">
+                    <td className="ac_pricing_td">Part Replacement</td>
+                    <td className="ac_pricing_td">All warranty for spare part replacement should be valid for 3 month</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+
+                  {/* Chiller Water FCU 1.5 TO 3.5 */}
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Central AC 1.5 to 3.5 Ton</td>
+                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
+                    <td className="ac_pricing_td">195 AED +VAT</td>
+                    <td className="ac_pricing_td">-</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Basic Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas
+                      top-up As per to AC requirements.</td>
+                    <td className="ac_pricing_td">285 to 320 AED +VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Deep Cleaning Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and machine, gas top up/ minor Gas leak recommends</td>
+                    <td className="ac_pricing_td">320 to 430 AED +VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Repair</td>
+                    <td className="ac_pricing_td">After the Inspection, advise will be quoted based on the technical inspection report provided by our expert</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">2 to 3 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row ac_pricing_row_last">
+                    <td className="ac_pricing_td">Part Replacement</td>
+                    <td className="ac_pricing_td">All warranty for spare part replacement should be valid for 3 month</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+
+                  {/* Intverter and VRV & VRF 2.5 TO  5.0 tON */}
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Central AC 2.5 to 5.0 Ton</td>
+                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
+                    <td className="ac_pricing_td">220 to 320 AED +VAT</td>
+                    <td className="ac_pricing_td">-</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Basic Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas
+                      top-up As per to AC requirements.</td>
+                    <td className="ac_pricing_td">380 to 475 AED +VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Deep Cleaning Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and machine, gas top up/ minor Gas leak recommends</td>
+                    <td className="ac_pricing_td">485 to 585 AED +VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Repair</td>
+                    <td className="ac_pricing_td">After the Inspection, advise will be quoted based on the technical inspection report provided by our expert</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">2 to 3 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row ac_pricing_row_last">
+                    <td className="ac_pricing_td">Part Replacement</td>
+                    <td className="ac_pricing_td">All warranty for spare part replacement should be valid for 3 month</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+                  {/* Package Unit HVAC 5.0 TO 20.0 TON */}
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Package Unit HVAC 5.0 TO 20.0 TON</td>
+                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
+                    <td className="ac_pricing_td">320 to 480 AED +VAT</td>
+                    <td className="ac_pricing_td">-</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Basic Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas
+                      top-up As per to AC requirements.</td>
+                    <td className="ac_pricing_td">530 to 730 AED +VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Deep Cleaning Service</td>
+                    <td className="ac_pricing_td">Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and machine, gas top up/ minor Gas leak recommends</td>
+                    <td className="ac_pricing_td">730 to 830 AED +VAT</td>
+                    <td className="ac_pricing_td">2 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row">
+                    <td className="ac_pricing_td">Repair</td>
+                    <td className="ac_pricing_td">After the Inspection, advise will be quoted based on the technical inspection report provided by our expert</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">2 to 3 Month</td>
+                  </tr>
+                  <tr className="ac_pricing_row ac_pricing_row_last">
+                    <td className="ac_pricing_td">Part Replacement</td>
+                    <td className="ac_pricing_td">All warranty for spare part replacement should be valid for 3 month</td>
+                    <td className="ac_pricing_td">-</td>
+                    <td className="ac_pricing_td">3 Month</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* Servcies Area */}
+        <section className="service_areas_dubai_section cs_py_60">
+          <div className="container">
+            <h2 className="service_areas_main_heading">Our Service Areas Across Dubai</h2>
+            <p className="service_areas_intro_text">We offer dependable air conditioning maintenance services across Dubai, including:</p>
+
+            <h3 className="service_areas_sub_heading">Popular Areas:</h3>
+
+            <div className="service_areas_tags_container">
+              <span className="service_area_tag">Dubai Marina</span>
+              <span className="service_area_tag">JBR (Jumeirah Beach Residence)</span>
+              <span className="service_area_tag">The Meadows</span>
+              <span className="service_area_tag">Downtown Dubai</span>
+              <span className="service_area_tag">Business Bay</span>
+              <span className="service_area_tag">Arabian Ranches</span>
+              <span className="service_area_tag">Motor City</span>
+              <span className="service_area_tag">The Springs</span>
+              <span className="service_area_tag">JLT</span>
+              <span className="service_area_tag">JLT (Jumeirah Lake Towers)</span>
+              <span className="service_area_tag">Dubai Hills Estate</span>
+              <span className="service_area_tag">Palm Jumeirah</span>
+              <span className="service_area_tag">Silicon Oasis</span>
+              <span className="service_area_tag">JVC (Jumeirah Village Circle)</span>
+              <span className="service_area_tag">Discovery Gardens</span>
+              <span className="service_area_tag">Sports City</span>
+            </div>
+          </div>
+        </section>
+
+        {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
@@ -520,9 +610,9 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />
-        )} */}
+        )}
 
-        {/* <BlogCoffeeMachine /> */}
+        <BlogCoffeeMachine />
 
         {/* Faqs */}
         <section className="section cs_py_30  bg-dark-blue text-light">
