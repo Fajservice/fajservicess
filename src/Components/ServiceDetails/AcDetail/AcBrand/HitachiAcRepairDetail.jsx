@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Hitachi AC Repair and Maintenance Service in Dubai | FAJ");
-  const metadescription = String(description || "Looking for Hitachi AC repair, maintenance in Dubai? Find Hitachi Cooling & Heating professionals in Dubai and get the finest service near you.");
+  const metatitle = String(titleSeo || "Best Hitachi AC Repair and Maintenance Service in Dubai | FAJ");
+  const metadescription = String(description || "Looking for Hitachi AC repair and maintenance in Dubai? Find Hitachi Cooling & Heating professionals in Dubai and get the finest service near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Hitachi AC Repair in Dubai, Hitachi AC Maintenance in Dubai, Hitachi AC Fix in Dubai, Hitachi AC Service in Dubai, Hitachi Air Condition Repair in Dubai, Hitachi Air Condition Maintenance in Dubai, Hitachi");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/hitachi/");
@@ -111,9 +111,8 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Hitachi AC Repair and Maintenance Service in Dubai!</h1>
-            <p>To achieve year-round comfort, it is crucial to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.
-              <br />
-              Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has established itself as the leading provider of Hitachi air conditioner solutions in Dubai and Sharjah. Our skilled team is dedicated to delivering top-notch AC cleaning service, including repair, thorough maintenance, and precise installation for both residential and commercial units. We take pride in optimizing the performance of your air conditioning system, ensuring that you enjoy unparalleled indoor comfort at all times.</p>
+            <p>Our team of expert AC technicians at Efficient specializes in comprehensive Hitachi air conditioning services, including maintenance, repair, and installation for both commercial and residential properties in the Dubai area. We offer next-day bookings and strive to complete any necessary repairs on the same day.
+              <br />With years of experience in installing and servicing all types of units, we are confident in our ability to provide you with exceptional air conditioning services, maintenance packages, and installation solutions—all backed by our commitment to high-quality expertise.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -132,25 +131,25 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Hitachi AC Maintenance and Services</h2>
                 <p className="mb-2">If you are in Dubai and require Hitachi <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link>  FAJ offers services for this need. The team specializes in ensuring air conditioning systems operate efficiently in Dubai and Sharjah, delivering reliable solutions for maintaining indoor comfort throughout the year. Services aim to enhance the indoor environment.</p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Hitachi AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
-
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Hitachi Ac Repair" />
               </div>

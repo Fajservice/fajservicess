@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "O General AC Repair & Maintenance Services in Dubai | FAJ");
-  const metadescription = String(description || "We offer professional O General AC repair and maintenance contracts for VRF, central, or split air conditioners in Dubai. We provide AMC services");
+  const metatitle = String(titleSeo || "O General Air Conditioning | O General AC Repair & Service Dubai");
+  const metadescription = String(description || "We provide professional O General AC repair and maintenance service for VRF, central, and split air conditioning systems AMC service in Dubai & Sharjah");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ogeneral AC Repair in Dubai, O General AC Maintenance in Dubai, O General AC Fix in Dubai, O General AC Service in Dubai, O General Air Condition Repair in Dubai, O General Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/");
@@ -111,13 +111,8 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
 
           <div className="container">
-            <h1 className=" cs_fs_30">O General AC Repair in Dubai – AC Maintenance Service</h1>
-            <p>
-              Enjoy enhanced comfort year-round by eliminating sticky summer days, stuffy nights, and allergens with clean air.
-              <br />
-              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable O General air conditioning solutions in Dubai and Sharjah since 2010. Our expert team is dedicated to O General AC cleaning service, maintenance, repairs, and installation of a wide range of residential and commercial AC units to ensure optimal performance and comfort.
-
-            </p>
+            <h1 className=" cs_fs_30">O General AC Repair and Maintenance Service in Dubai</h1>
+            <p>O General AC Repair by <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, established in 2010, is your trusted solution for any issues with your O General air conditioning system. Our AC technicians are always available to assist you in Dubai and the surrounding areas. Contact us today to schedule a visit from one of our expert technicians at a time that is convenient for you.<br />In the rare event of a fault or breakdown, our experienced O General AC repair and maintenance technicians can typically diagnose and fix your unit during their first visit. This minimizes downtime and helps restore your comfortable indoor climate as quickly as possible.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -137,26 +132,25 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <p className="mb-2">For O General air conditioning unit repairs, it’s essential to choose  a skilled technician.
                   <br />Our dedicated team specialises in AC service and maintenance across Dubai and Sharjah. FAJ is committed to providing reliable solutions that enhance indoor comfort year-round and ensure your system operates efficiently.
                 </p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need O General AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>
-
               </div>
-
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="O General Ac Repair" />
               </div>

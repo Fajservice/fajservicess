@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Price Nikai AC Repair and Maintenance Services in Dubai");
-  const metadescription = String(description || "Our expert A/C technicians provide prompt, professional maintenance for major Nikai AC repair and cleaning service in Dubai, with fast, reliable.");
+  const metatitle = String(titleSeo || "Best Price Nikai Split AC Repair and Maintenance Service Dubai");
+  const metadescription = String(description || "Our expert A/C technicians provide prompt, professional maintenance for Nikai window AC repair and cleaning service in Dubai, with fast, reliable.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Nikai AC Repair in Dubai, Nikai Air Conditioner Maintenance, Nikai AC Service, Nikai AC Cleaning, Nikai AC Installation, Nikai AC Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/nikai/");
@@ -112,13 +112,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Nikai AC Repair and Maintenance Service in Dubai</h1>
-            <p>
-              For year-round comfort, tackling issues like summer humidity, warm nights, and indoor allergens is key!
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has proudly provided top-notch Nikai air conditioning solutions in Dubai and Sharjah.
-              <br />
-              Our dedicated team is here to offer a wide range of services, including AC repair, cleaning service, maintenance, and installation for both homes and businesses.
-              We&apos;re passionate about optimizing your air conditioning system to elevate your indoor comfort. Let’s make your space a cool haven together!
-            </p>
+            <p>For year-round comfort, tackling issues like summer humidity, warm nights, and indoor allergens is key! Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has proudly provided top-notch Nikai air conditioning solutions in Dubai and Sharjah.<br />Our dedicated team is here to offer a wide range of services, including Nikal AC repair, cleaning service, maintenance, and installation for both homes and businesses. We're passionate about optimizing your air conditioning system to elevate your indoor comfort. Let’s make your space a cool haven together!</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -140,20 +134,21 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   If you are in Dubai and require Nikai <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/"> air conditioner repair</a> services, FAJ offers support.
                   <br />The team specializes in air conditioner maintenance in Dubai and Sharjah, delivering reliable solutions aimed at ensuring optimal indoor comfort throughout the year. Their services are designed to help maintain a cool environment.
                 </p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Nikai AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>

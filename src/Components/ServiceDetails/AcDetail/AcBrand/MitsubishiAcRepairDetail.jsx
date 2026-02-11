@@ -24,7 +24,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
 
   // For SEO
   const metatitle = String(titleSeo || "Mitsubishi AC Repair and Maintenance Services in Dubai | FAJ");
-  const metadescription = String(description || "Looking for Mitsubishi AC repair in Dubai? Call now for experienced technicians specializing in Mitsubishi VRF, HVAC, central & split maintenance service.");
+  const metadescription = String(description || "Looking for Mitsubishi AC repair in Dubai? Call now for expert technicians specialising in Mitsubishi VRF, HVAC, and central & split maintenance services.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Mitsubishi AC Repair, Mitsubishi AC Service, Mitsubishi Air Conditioner Maintenance, Mitsubishi HVAC Repair, Mitsubishi VRF System Service, Mitsubishi Ducted Split AC Repair, Mitsubishi Wall-Mounted AC Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/");
@@ -110,11 +110,8 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Mitsubishi AC Repair in Dubai – AC Maintenance Service</h1>
-            <p>
-              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider in the community since 2010, specializing in Mitsubishi AC repair, maintenance, and installation for both residential and commercial properties in Dubai and Sharjah.
-              <br />Mitsubishi air conditioners play a vital role in ensuring year-round indoor comfort. To reach optimal performance from your system, it is essential to conduct regular maintenance. In Dubai, professional cleaning services tailored for Mitsubishi units are available to help maintain efficiency and prolong the lifespan of your air conditioning system.
-            </p>
+            <h1 className="cs_fs_30">Mitsubishi AC Repair and Maintenance Service in Dubai</h1>
+            <p>Mitsubishi Air Conditioning repair by <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> established in 2010, is your reliable solution for any issues you may encounter with your Mitsubishi air conditioning system. Our AC technicians are always available to assist you in Dubai and its surrounding areas. Contact us today to schedule a visit from one of our expert technicians at a time that is convenient for you.<br />In the rare event of a fault or breakdown, our experienced Mitsubishi AC repair, maintenance services technicians can typically diagnose and repair your unit on their first visit. This minimizes downtime and helps restore your comfortable working climate as quickly as possible.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -139,24 +136,25 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
                   <br />Our team specializes in the cleaning service Mitsubishi air conditioner across Dubai and Sharjah. At FAJ, we are committed to providing reliable fix that ensures your comfort throughout the year.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Mitsubishi AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="Mitsubishi AC Service" />
               </div>

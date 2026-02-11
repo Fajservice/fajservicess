@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "McQuay AC Repair & Maintenance Service in Dubai | FAJ");
-  const metadescription = String(description || "We can also provide ongoing maintenance and on-demand McQuay AC repair and cleaning service in Dubai, and air conditioner fixing near you. Call 043300002");
+  const metatitle = String(titleSeo || "McQuay Air Conditioning Repair & Maintenance Service in Dubai");
+  const metadescription = String(description || "We can also provide ongoing maintenance and on-demand McQuay AC repair and cleaning service in Dubai, and air conditioner fixing near you. Call today");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "MacQuay AC Repair in Dubai, McQuay Air Conditioner Maintenance, McQuay AC Service, McQuay AC Fix, McQuay Air Condition Repair, McQuay Air Condition Maintenance, McQuay Air Con Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/mcquay/");
@@ -112,10 +112,8 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Experts McQuay AC Maintenance and AC Repair Services in Dubai</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, has been a cornerstone of the community since 2010.
-              Our highly skilled facilities team brings a wealth of experience in McQuay AC repair, maintenance, and installation services for both residential and commercial units in Dubai and Sharjah.
-              A McQuay air conditioner is essential for year-round comfort. Regular maintenance is vital for optimal performance. In Dubai, numerous professional cleaning services specialize in McQuay systems, helping you keep your air conditioning running efficiently.
+            <h1 className="cs_fs_30">Experts McQuay AC Repair and Service in Dubai</h1>
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, has been a cornerstone of the community since 2010. Our highly skilled facilities team brings a wealth of experience in McQuay AC repair, maintenance, and installation services for both residential and commercial units in Dubai and Sharjah. A McQuay air conditioner is essential for year-round comfort. Regular maintenance is vital for optimal performance. In Dubai, numerous professional cleaning services specialize in McQuay systems, helping you keep your air conditioning running efficiently.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -140,24 +138,25 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Mc Quay AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')}  alt="McQuay AC Service" />
               </div>

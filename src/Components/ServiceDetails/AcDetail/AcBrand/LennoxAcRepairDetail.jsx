@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Lennox AC Repair & Maintenance Service in Dubai with Warranty");
-  const metadescription = String(description || "For reliable Lennox AC repair in Dubai, contact FAJ professionals for affordable and prompt HVAC & central air conditioning maintenance services.");
+  const metatitle = String(titleSeo || "Expert Lennox AC Repair & Maintenance Service in Dubai");
+  const metadescription = String(description || "For reliable Lennox AC repair in Dubai, contact FAJ professionals for affordable and prompt HVAC & central air conditioning maintenance servicing.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Lennox AC Repair in Dubai, Lennox AC Maintenance in Dubai, Lennox Air Conditioner Service, Lennox Air Conditioner Repair, Lennox Air Conditioner Maintenance, Lennox Air Conditioner Fix, Lennox Air Conditioner Service in Dubai, Lennox Air Conditioning Repair in Dubai, Lennox Air Conditioning Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/lennox/");
@@ -109,10 +109,10 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Lennox AC Repair in Dubai – Lennox AC Maintenance Service </h1>
+            <h1 className="cs_fs_30">Lennox AC Repair and Maintenance Service in Dubai</h1>
             <p>
-              Are you in need of reliable and professional Lennox AC repair, service, or maintenance? Whether for routine maintenance or a new system, local Lennox AC experts are available to keep your home comfortable year-round.
-              <br />Effective management of challenges such as elevated humidity, warm nights, and indoor allergens is essential for maintaining indoor comfort.
+              Are you in need of reliable and professional Lennox AC repair, service, or maintenance? Whether for routine maintenance or a new system, local Lennox AC experts are available to keep your home comfortable year-round.<br/>
+              Effectively addressing challenges like high humidity, warm nights, and indoor allergens is crucial for ensuring indoor comfort.
               <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of Lennox air conditioning solutions in Dubai and Sharjah. Our experienced team offers a full range of services, including Lennnox AC repair, cleaning service, maintenance and installation for residential and commercial units, ensuring optimal efficiency and enhanced indoor comfort.
             </p>
 
@@ -137,24 +137,25 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   Our team specializes in servicing Lennox AC systems in both Dubai and Sharjah, providing reliable solutions that ensure your indoor space remains comfortable throughout the year while maintaining the efficiency of your system.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Lennox AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')}  alt="Lennox AC Repair Service" />
               </div>

@@ -22,7 +22,7 @@ const getImageSrc = (imgPath) => {
 const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "LG AC Repair & Maintenance in Dubai | Air Conditioning Service");
+  const metatitle = String(titleSeo || "Expert LG AC Repair & Maintenance Service in Dubai");
   const metadescription = String(description || "Need LG AC repair in Dubai? Call 043300002 to reach the nearest repair center. Our experts specialise VRF & split air conditioning maintenance service.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "LG AC Repair in Dubai, LG Air Conditioner Maintenance, LG AC Service, LG Split AC Repair, LG Central AC Service, LG VRF AC Repair, LG Air Conditioning Dubai");
@@ -108,14 +108,10 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">LG AC Repair in Dubai – LG AC Maintenance Service</h1>
+            <h1 className="cs_fs_30">LG AC Repair and Maintenance Services in Dubai</h1>
             <p>
-              For year-round comfort, it&apos;s essential to address issues such as sticky summer days, stuffy nights, and allergens in the air.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of LG air conditioning solutions in Dubai and Sharjah. Our skilled team specialises in LG AC cleaning service, maintenance, repairs, and installation of a diverse range of residential and commercial LG AC units. We are committed to ensuring that your air conditioning system operates at peak performance, promoting a comfortable indoor environment.
-
-            </p>
-
-
+              For year-round comfort, it's essential to address issues such as sticky summer days, stuffy nights, and allergens in the air.
+              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of LG air conditioning solutions in Dubai and Sharjah. Our skilled team specialises in LG AC cleaning service, maintenance, repairs, and installation of a diverse range of residential and commercial LG AC units. We are committed to ensuring that your air conditioning system operates at peak performance, promoting a comfortable indoor environment.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -137,20 +133,21 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
                   <br />Our specialized team focuses on the service and maintenance of LG air conditioning systems throughout Dubai and Sharjah. FAJ is dedicated to delivering reliable solutions that enhance indoor comfort consistently throughout the year, while also ensuring that your system operates with optimal efficiency.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need LG AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>
