@@ -81,7 +81,7 @@ const AcBrandBenifit = () => {
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team provides feedback on your Blue Star AC&apos;s health and needed repairs.
+                        Our team provides feedback on your AC&apos;s health and needed repairs.
                       </p>
                     </div>
                   </div>

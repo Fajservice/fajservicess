@@ -354,7 +354,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
                       <p className="small">
                         Regular inspections are vital for preventing electrical faults, gas leaks, and other hazards, ensuring the safety of your premises.
                       </p>
@@ -367,7 +367,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16"> Optimal Performance </h3>
                       <p className="small">
                         Regular maintenance helps your AEG appliances run smoothly and efficiently, delivering the best results every time.
                       </p>
@@ -380,7 +380,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
                       <p className="small">
                         Energy-efficient AEG appliances lead to monthly savings on utility bills, allowing you to keep more money in your pocket.
                       </p>
@@ -394,7 +394,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
                       <p className="small">
                         Preventive services identify issues early, minimizing breakdowns and repairs while extending the lifespan of AEG appliances.
                       </p>
@@ -408,7 +408,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Extending Appliance Lifespan</h3>
                       <p className="small">
                         Proper maintenance and timely servicing can greatly extend the lifespan of your AEG appliances, postponing the need for replacements.
                       </p>
@@ -423,7 +423,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Peace of Mind</h3>
                       <p className="small">
                         Ensuring your AEG appliances are functioning well boosts your confidence and reduces the stress of unexpected failures.
                       </p>
@@ -636,7 +636,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                   <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/town-square/">Town Square</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a>
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/emirates-hills/">Emirates Hills</a>
                   <span>&nbsp;|&nbsp;</span>
 
                   <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Suqeim</a>

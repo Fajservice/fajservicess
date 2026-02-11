@@ -644,7 +644,10 @@ p a {
   }
 
   .box-content-container {
-    min-height: 160px;
+    min-height: 100%;
+    min-height: -webkit-fill-available;
+    min-height: -moz-available;
+    min-height: fill-available;
     max-height: 200px;
   }
 

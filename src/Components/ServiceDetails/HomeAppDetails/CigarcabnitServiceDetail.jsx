@@ -352,7 +352,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
                   </div>
@@ -363,7 +363,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Optimal Performance
                       </h3>
                       <p className="small">Regular maintenance ensures your cigar cabinet humidor operates efficiently, providing optimal results every time.
                       </p>
@@ -376,7 +376,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
                       <p className="small">Energy-efficient cigar humidors translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
@@ -388,7 +388,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
                     </div>
 
@@ -400,7 +400,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Cigar Humidor Lifespan</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Cigar Humidor Lifespan</h3>
                       <p className="small">Timely servicing and proper care can greatly extend the life of your cigar humidor, postponing the need for replacements.</p>
                     </div>
                   </div>
@@ -412,7 +412,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
                       </h3>
                       <p className="small">Knowing that your cigar humidor is in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>

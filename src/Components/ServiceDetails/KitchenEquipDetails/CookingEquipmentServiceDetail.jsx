@@ -417,7 +417,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Enhanced Food Quality</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Enhanced Food Quality</h3>
                       <p className="small">Kitchen equipment condition directly affects overall food quality, so proper and regular maintenance is essential.</p>
                     </div>
                   </div>
@@ -428,7 +428,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Improved Workplace Safety</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Improved Workplace Safety</h3>
                       <p className="small">Regular kitchen equipment maintenance prevents contamination, reduces accidents, and ensures safe food preparation.
                       </p>
                     </div>
@@ -440,7 +440,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18 ">Ensures Compliance</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16 ">Ensures Compliance</h3>
                       <p className="small">Food safety is essential for any food business. Regular maintenance of kitchen equipment prevents contamination and ensures safety.</p>
                     </div>
                   </div>
@@ -452,7 +452,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Reduced utility cost</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Reduced utility cost</h3>
                       <p className="small">Equipment that uses electricity, gas, or water operates more efficiently when kept clean and serviced regularly.</p>
                     </div>
 
@@ -464,7 +464,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Improve Speed of Operations</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Improve Speed of Operations</h3>
                       <p className="small">A restaurant kitchen is a busy place that needs quick turnarounds to meet customer demands. Inefficiency can lead to delays and dissatisfaction.</p>
 
                     </div>
@@ -478,7 +478,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Commercial Kitchen Maintenance
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Commercial Kitchen Maintenance
                       </h3>
                       <p className="small">Commercial kitchen equipment is costly, so regular cleaning and maintenance are essential for extending its lifespan and minimizing expenses.</p>
                     </div>

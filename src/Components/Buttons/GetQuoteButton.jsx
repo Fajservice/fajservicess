@@ -7,7 +7,7 @@ const GetQuoteButton = ({ to = '/contact-us/' }) => {
     <Link to={to} className="call-now-btn">
       <img
         className="call-icon"
-        src={`${CDN}/icon/whatsapp-new-icon/public`}
+        src={`${CDN}/icon/whatsapp-now/public`}
         alt="Get Quote Button"
       />
     </Link>

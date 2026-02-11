@@ -27,7 +27,7 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metadescription = String(description || "Gas Filling and AC Services in Umm Suqeim Dubai. Call an 043300002 for AC compressor fixing, motor repair and general maintenance near me.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Umm Suqeim Dubai – Home Appliance Installation, Maintenance & Service Centre in Umm Suqeim Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/umm-suqeim/ac-services-in-umm-suqeim/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/umm-suqeim/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -162,7 +162,7 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             <div className="row gx-md-5">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Umm Suqeim</h2>
-                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Umm Suqeim, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+                <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Umm Suqeim, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Umm Suqeim Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
 
@@ -211,7 +211,7 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
             <p>
-              Regular air conditioner (AC) maintenance service in Umm Suqeim is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Umm Suqeim, contact us.
+              Regular air conditioner (AC) maintenance service in Umm Suqeim is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in Umm Suqeim, contact us.
             </p>
 
             <div className="row align-items-center">

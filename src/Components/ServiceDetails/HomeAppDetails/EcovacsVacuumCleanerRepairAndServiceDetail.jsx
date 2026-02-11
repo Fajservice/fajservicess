@@ -339,7 +339,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                        
                         <img src={getImageSrc('icon/efficiency-and-time')} alt="Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Efficiency and Time-Saving</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Efficiency and Time-Saving</h3>
                       <p className="small">Cleaning large areas quickly can significantly reduce time than traditional methods. Robotic vacuums also require minimal effort to operate.</p>
                     </div>
                   </div>
@@ -350,7 +350,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Superior Cleaning Performance</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Superior Cleaning Performance</h3>
                       <p className="small">A robot vacuum cleaner removes dirt, pet hair, and dust mites more effectively than sweeping, improving indoor air quality.</p>
                     </div>
                   </div>
@@ -361,7 +361,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/lifestyle')} alt="lifestyle" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Ideal for Busy Lifestyles</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Ideal for Busy Lifestyles</h3>
                       <p className="small">Robotic vacuums clean automatically, while cordless stick vacuums enable quick, effortless clean-ups.</p>
                     </div>
                   </div>
@@ -373,7 +373,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Cost-Effective Cleaning Solution</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Cost-Effective Cleaning Solution</h3>
                       <p className="small">Ecovacs vacuum cleaner can save money by reducing professional cleaning needs & extending the life of carpets and flooring.</p>
                     </div>
 
@@ -385,7 +385,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/wind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Improves Air Quality</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Improves Air Quality</h3>
                       <p className="small">The HEPA filter improves air quality by capturing allergens like dust and pet dander, benefiting allergy sufferers & reducing respiratory issues.</p>
                     </div>
                   </div>
@@ -396,7 +396,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/robot-vacuum')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Vacuum and Mop Function</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Vacuum and Mop Function</h3>
                       <p className="small">Robot vacuum and mop combos efficiently clean by vacuuming and mopping simultaneously, reducing the need for multiple tools.</p>
                     </div>
                   </div>

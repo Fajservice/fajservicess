@@ -31,7 +31,7 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
     const metadescription = String(description || "AC Repair in Jumeirah Village Circle, Air Conditioning Service in Jumeirah Village Circle, Air Con Maintenance & AC Installation in Jumeirah Village Circle");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in jumeirah village circle, ac service in jumeirah village circle, ac maintenance in jumeirah village circle, ac installation in jumeirah village circle, air conditioning service in jumeirah village circle, air con maintenance in jumeirah village circle, ac fixing in jumeirah village circle");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvc/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -137,7 +137,7 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Jumeirah Village Circle, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+                                <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Jumeirah Village Circle, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Jumeirah Village Circle Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
@@ -185,7 +185,7 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Jumeirah Village Circle?</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in Jumeirah Village Circle is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Jumeirah Village Circle, contact us.
+                            Regular air conditioner (AC) maintenance service in Jumeirah Village Circle is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in Jumeirah Village Circle, contact us.
                         </p>
 
                         <div className="row align-items-center">

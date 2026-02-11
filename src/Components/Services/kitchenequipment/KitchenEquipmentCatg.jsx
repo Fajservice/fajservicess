@@ -175,7 +175,7 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <section className="maintenance_importance cs_py_60 bg-light-white">
           <div className="container">
             <div className="importance_header">
-              <h2>Why is commercial kitchen equipment maintenance important?</h2>
+              <h2>Why Is Commercial Kitchen Equipment Maintenance Important?</h2>
               <p>All kitchen equipment requires care, but some need specific maintenance for safe food handling and a good working environment. Below are key items and their maintenance needs:</p>
             </div>
 

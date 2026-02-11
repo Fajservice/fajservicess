@@ -401,7 +401,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Ensuring-Safety')} alt="Ensuring-Safety" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
                   </div>
@@ -412,7 +412,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Optimal-Performance')} alt="Optimal-Performance" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Optimal Performance
                       </h3>
                       <p className="small">Regular maintenance helps your dishwasher run smoothly and efficiently, delivering the best results every time.
                       </p>
@@ -425,7 +425,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Lower-Energy-Bills" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
                       <p className="small">Energy efficient dishwasher translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
@@ -437,7 +437,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Saving-Money-on-Repair" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
                     </div>
                   </div>
@@ -448,7 +448,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/extending')} alt="extending" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Extending dishwasher Lifespan</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Extending dishwasher Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your dishwasher, delaying the need for replacements.</p>
                     </div>
                   </div>
@@ -460,7 +460,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Peace-of-Mind')} alt="Peace-of-Mind" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
                       </h3>
                       <p className="small">Knowing your dishwasher are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>

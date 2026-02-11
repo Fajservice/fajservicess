@@ -442,7 +442,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                         height="80"
                       />
                     </div>
-                    <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
+                    <h4 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h4>
                     <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                   </div>
                 </div>
@@ -457,7 +457,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                         height="80"
                       />
                     </div>
-                    <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance</h4>
+                    <h4 className="text-uppercase mb-2 cs_fs_16">Optimal Performance</h4>
                     <p className="small">Regular maintenance helps your washing machine run smoothly and efficiently, delivering the best results every time.</p>
                   </div>
                 </div>
@@ -472,7 +472,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                         height="80"
                       />
                     </div>
-                    <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
+                    <h4 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h4>
                     <p className="small">Energy efficient washing machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                   </div>
                 </div>
@@ -487,7 +487,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                         height="80"
                       />
                     </div>
-                    <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
+                    <h4 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h4>
                     <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
                   </div>
                 </div>
@@ -502,7 +502,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                         height="80"
                       />
                     </div>
-                    <h4 className="text-uppercase mb-2 cs_fs_18">Washing machine Lifespan</h4>
+                    <h4 className="text-uppercase mb-2 cs_fs_16">Washing machine Lifespan</h4>
                     <p className="small">Proper care and timely servicing can significantly increase life of your home washing machine, delaying the need for replacements.</p>
                   </div>
                 </div>
@@ -517,7 +517,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                         height="80"
                       />
                     </div>
-                    <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h4>
+                    <h4 className="text-uppercase mb-2 cs_fs_16">Peace of Mind</h4>
                     <p className="small">Knowing your washing machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                   </div>
                 </div>

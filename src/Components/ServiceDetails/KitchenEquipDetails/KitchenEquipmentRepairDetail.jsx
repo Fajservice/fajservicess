@@ -452,7 +452,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/24x7b')} alt="24x7" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Routine Service</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Routine Service</h3>
                       <p className="small">
                         Routine checks reduce the risk of faults and keep your commercial kitchen safe, efficient, and always ready to serve.
                       </p>
@@ -466,7 +466,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/call')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Reports and Updates</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Reports and Updates</h3>
                       <p className="small">
                         Detailed reports update you on equipment condition, helping you fix issues early and avoid costly, unexpected downtime.
                       </p>
@@ -481,7 +481,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/gearicon')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Improved Efficiency</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Improved Efficiency</h3>
                       <p className="small">
                         Proper maintenance improves kitchen efficiency, lowers long-term costs, and ensures the highest quality food preparation daily.
                       </p>
@@ -495,7 +495,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/wellstar')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Expert Technicians</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Expert Technicians</h3>
                       <p className="small">
                         Expert technicians keep your appliances performing at their best, supporting smooth kitchen operations and customer satisfaction.
                       </p>
@@ -509,7 +509,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/trained-b')} alt="trained icon" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Cost Efficiency</h3>
                       <p className="small">
                         Regular service reduces major repair costs and protects your investment, making your kitchen more reliable and cost-effective.
                       </p>
@@ -523,7 +523,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block border-0">
                         <img src={getImageSrc('icon/wellicon')} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Lower Maintenance Costs</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Lower Maintenance Costs</h3>
                       <p className="small">
                         High-quality equipment may cost more upfront but saves money later, with fewer breakdowns and dependable daily performance.
                       </p>

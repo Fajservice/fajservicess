@@ -334,7 +334,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">HEATING EFFICIENCY</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">HEATING EFFICIENCY</h3>
                       <p className="small">We perform a detailed evaluation of heating efficiency with the help of a temperature gun.</p>
                     </div>
                   </div>
@@ -345,7 +345,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">  DISINFECT COMPONENTS   </h3>
                       <p className="small">All components and parts of the oven are thoroughly tested and disinfected to ensure safety and reliability.</p>
                     </div>
                   </div>
@@ -356,7 +356,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">FAN ASSESSMENT</h3>
                       <p className="small">We ensure that the fan operates correctly and is free of blockages in the burner and heating element.</p>
                     </div>
                   </div>
@@ -368,7 +368,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature meter to ensure that the thermostats are working correctly.</p>
                     </div>
                   </div>
@@ -379,7 +379,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">AIRFLOW BALANCE</h3>
                       <p className="small">We make sure you get optimal airflow around every part of the oven as needed.</p>
                     </div>
                   </div>
@@ -390,7 +390,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h3>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">CUSTOMER FEEDBACK </h3>
                       <p className="small">Our team provides vital feedback on your rational oven's condition and any necessary repairs.</p>
                     </div>
                   </div>

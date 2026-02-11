@@ -139,7 +139,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/services/air-conditioning-repair/coverage-area/victory-heights/",
-        element: <Components.OvenRepairService />,
+        element: <Components.AcRepairInVictoryHeights />,
       },
       {
         path: "/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
@@ -162,11 +162,11 @@ export const router = createBrowserRouter([
         element: <Components.CommercialDishwasherServices />,
       },
       {
-        path: "/commercial-washing-machine-repair/",
+        path: "/services/commercial-washing-machine-repair/",
         element: <Components.CommercialWashingMachineRepair />,
       },
       {
-        path: "/commercial-laundry-equipment-service/",
+        path: "/services/commercial-laundry-equipment-service/",
         element: <Components.CommercialLaundryEquipmentService />,
       },
       {
@@ -542,10 +542,6 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInLimestoneHouseDifc />,
       },
       {
-        path: "/services/air-conditioning-repair/coverage-area/jvt/",
-        element: <Components.AcRepairInJumeriahVillageTriangle />,
-      },
-      {
         path: "/services/air-conditioning-repair/coverage-area/arabian-ranches-2/",
         element: <Components.AcRepairInArabianRanches2 />,
       },
@@ -690,7 +686,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInTheLakes />,
       },
       {
-        path: "/services/air-conditioning-repair/coverage-area/umm-suqeim",
+        path: "/services/air-conditioning-repair/coverage-area/umm-suqeim/",
         element: <Components.AcRepairInUmmSuqeim />,
       },
       {
@@ -814,7 +810,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInMudon />,
       },
       {
-        path: "/services/air-conditioning-repair/coverage-area/nad-al-sheba",
+        path: "/services/air-conditioning-repair/coverage-area/nad-al-sheba/",
         element: <Components.AcRepairInNadAlSheba />,
       },
       {
@@ -844,10 +840,6 @@ export const router = createBrowserRouter([
       {
         path: "/services/air-conditioning-repair/coverage-area/motor-city/",
         element: <Components.AcRepairInMotorCity />,
-      },
-      {
-        path: "/services/air-conditioning-repair/coverage-area/umm-suqeim/",
-        element: <Components.AcRepairInUmmSuqeim />,
       },
       {
         path: "/services/air-conditioning-repair/coverage-area/remraam-2/",
@@ -912,10 +904,6 @@ export const router = createBrowserRouter([
       {
         path: "/services/air-conditioning-repair/coverage-area/dubai-production-city/",
         element: <Components.AcRepairInProductionCity />,
-      },
-      {
-        path: "/services/air-conditioning-repair/coverage-area/emirates-hills/",
-        element: <Components.AcRepairandServiceInEmiratesHills />,
       },
       {
         path: "/services/air-conditioning-repair/coverage-area/town-square/",
@@ -1195,16 +1183,12 @@ export const router = createBrowserRouter([
         element: <Components.AppliancesServicesInDiscoveryGardens />,
       },
       {
-        path: "/services/home-appliances-repair/coverage-area/lakes/",
+        path: "/services/home-appliances-repair/coverage-area/the-lakes/",
         element: <Components.AppliancesServicesInTheLakes />,
       },
       {
         path: "/services/home-appliances-repair/coverage-area/jumeirah-golf-estates/",
         element: <Components.AppliancesServicesInJumeirahGolfEstates />,
-      },
-      {
-        path: "/services/home-appliances-repair/coverage-area/JLT/",
-        element: <Components.HomeAppliancesServiceCentreInJltDubai />,
       },
       {
         path: "/services/home-appliances-repair/coverage-area/emirates-hills/",
@@ -1289,22 +1273,6 @@ export const router = createBrowserRouter([
       {
         path: "/services/home-appliances-repair/coverage-area/business-bay/",
         element: <Components.WashingMachineRepairBusinessBay />,
-      },
-      {
-        path: "/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/",
-        element: <Components.WashingMachineRepairInDubaiMarina />,
-      },
-      {
-        path: "/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/",
-        element: <Components.FridgeRepairInDubaiMarina />,
-      },
-      {
-        path: "/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/",
-        element: <Components.WashingMachineRepairPalmJumeirah />,
-      },
-      {
-        path: "/fridge-repair-dubai-marina/",
-        element: <Components.FridgeRepairDubaiMarina />,
       },
       {
         path: "/services/home-appliances-repair/coverage-area/the-ritz-carlton-difc/",
@@ -1546,10 +1514,6 @@ export const router = createBrowserRouter([
         path: "/testimonials/",
         element: <Components.Testimonials />,
       },
-      {
-        path: "/services/kitchen-equipment-maintenance/",
-        element: <Components.KitchenEquipmentPage />,
-      },
 
       
       // Redirection
@@ -1616,7 +1580,7 @@ export const router = createBrowserRouter([
 
       {
         path: "/ac-maintenance-dubai/",
-        element: <Navigate to="/ac-repair-dubai/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
         path: "/dishwasher-cleaning-guidee/",
@@ -1825,11 +1789,7 @@ export const router = createBrowserRouter([
         element: <Navigate to="/blog/how-to-set-ac-temperature-for-cooling/" replace />
       },
       {
-        path: "/services/air-conditioning/ac-annual-maintenance-contract/",
-        element: <Navigate to="/services/air-conditioning-repair/ac-annual-maintenance-contract/" replace />
-      },
-      {
-        path: "/services/air-conditioning-repair/ac-service/",
+        path: "/ac-annual-maintenance-contract/",
         element: <Navigate to="/services/air-conditioning-repair/ac-annual-maintenance-contract/" replace />
       },
       {
@@ -1837,7 +1797,7 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
-        path: "/ac-repair-dubai/",
+        path: "/services/air-conditioning-repair/ac-service/",
         element: <Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
@@ -2016,24 +1976,52 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/home-appliances-repair/appliances-amc-service/" replace />
       },
       {
+        path: "/services/kitchen-equipment/oven-repair/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/oven-repair/" replace />
+      },
+      {
         path: "/oven-repair/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/oven-repair/" replace />
+      },
+      {
+        path: "/services/kitchen-equipment/meat-grinder-repair/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/meat-grinder-repair/" replace />
       },
       {
         path: "/meat-grinder-repair/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/meat-grinder-repair/" replace />
       },
       {
+        path: "/services/kitchen-equipment/commercial-kitchen-equipment-amc/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/" replace />
+      },
+      {
         path: "/commercial-kitchen-equipment-amc/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/" replace />
+      },
+      {
+        path: "/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/" replace />
       },
       {
         path: "/commercial-kitchen-equipment-maintenance-services/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/" replace />
       },
       {
+        path: "/services/kitchen-equipment/commercial-cooking-appliances-repair-service/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/" replace />
+      },
+      {
         path: "/commercial-cooking-appliances-repair-service/",
         element: <Navigate to="/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/" replace />
+      },
+      {
+        path: "/services/kitchen-equipment/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/" replace />
+      },
+      {
+        path: "/services/kitchen-equipment/unox-commercial-oven-repair-and-maintenance-service-dubai/",
+        element: <Navigate to="/services/kitchen-equipment-maintenance/unox-commercial-oven-repair-and-maintenance-service-dubai/" replace />
       },
       {
         path: "/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
@@ -2061,11 +2049,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/ac-repair-and-ac-service-in-emirates-hills/",
-        element: <Navigate to="/services/air-conditioning-repair/coverage-area/ac-service-in-emirates-hills/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/emirates-hills/" replace />
       },
       {
         path: "/ac-repair-and-ac-service-in-town-square/",
-        element: <Navigate to="/services/air-conditioning-repair/coverage-area/ac-service-in-town-square/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/town-square/" replace />
       },
       {
         path: "/ac-services-in-academy-city/",
@@ -2190,6 +2178,10 @@ export const router = createBrowserRouter([
       {
         path: "/ac-services-in-cedre-villas-silicon-oasis-dubai/",
         element: <Navigate to="/services/air-conditioning-repair/coverage-area/cedre-villas-silicon-oasis-dubai/" replace />
+      },
+      {
+        path:"/ac-repair-and-ac-service-in-damac-hills/",
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/damac-hills/" replace />
       },
       {
         path: "/ac-services-in-damac-hills/",
@@ -3321,6 +3313,18 @@ export const router = createBrowserRouter([
       {
         path: "/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/",
         element: <Navigate to="/services/home-appliances-repair/brands/zanussi/" replace />
+      },
+      {
+        path:"/commercial-dishwasher-repair/",
+        element: <Navigate to="/services/commercial-dishwasher-repair/" replace />
+      },
+      {
+        path:"/commercial-laundry-equipment-service/",
+        element: <Navigate to="/services/commercial-laundry-equipment-service/" replace />
+      },
+      {
+        path:"/commercial-washing-machine-repair/",
+        element: <Navigate to="/services/commercial-washing-machine-repair/" replace />
       },
     ],
   }

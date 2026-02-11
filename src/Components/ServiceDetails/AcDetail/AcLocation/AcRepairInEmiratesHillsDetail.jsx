@@ -27,7 +27,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metadescription = String(description || "Get your fahu, vrv, vrf or central air conditioning units repaired on an urgent basis. Dail 043300002 for ac services in emirates hills near me dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in emirates hills, ac repair in emirates hills, ac maintenance in emirates hills, ac installation in emirates hills, ac cleaning in emirates hills, air conditioning services in emirates hills, air conditioner repair in emirates hills, air conditioner maintenance in emirates hills, air conditioner installation in emirates hills, air conditioner cleaning in emirates hills");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-emirates-hills/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/emirates-hills/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -133,7 +133,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Emirates Hills</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Emirates Hills, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+                                <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Emirates Hills, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Emirates Hills Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
 
@@ -183,7 +183,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Emirates Hills?</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in Emirates Hills is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Emirates Hills, contact us.
+                            Regular air conditioner (AC) maintenance service in Emirates Hills is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in Emirates Hills, contact us.
                         </p>
 
                         <div className="row align-items-center">
