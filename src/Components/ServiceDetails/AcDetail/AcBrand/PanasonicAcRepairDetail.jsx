@@ -24,7 +24,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
 
   // For SEO
   const metatitle = String(titleSeo || "Panasonic AC Repair Best Price in Dubai | Maintenance Service");
-  const metadescription = String(description || "Panasonic AC repair and service in Dubai. FAJ has experienced technicians who can repair your aircon unit the same day to ensure proper cooling.");
+  const metadescription = String(description || "Panasonic AC repair & service in Dubai. FAJ employs experienced technicians who can repair your aircon unit on the same day to ensure optimal cooling.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Panasonic AC Repair in Dubai, Panasonic AC Maintenance in Dubai, Panasonic AC Fix in Dubai, Panasonic AC Service in Dubai, Panasonic Air Condition Repair in Dubai, Panasonic Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/");
@@ -113,14 +113,8 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Panasonic AC Repair and Maintenance Service in Dubai!</h1>
-            <p>
-              To ensure year-round comfort, it is vital to confront challenges such as humid summer days, uncomfortable nights, and airborne allergens head-on. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been the definitive choice for Panasonic air conditioning solutions in Dubai and Sharjah since 2010.
-              Our expert team excels in providing comprehensive Panansonic AC repair, cleaning service, maintenance and installation services for a wide range of residential and commercial Panasonic air conditioning units.
-              <br />We are dedicated to optimizing your system's performance for a comfortable and healthy indoor environment. Trust us for reliable expertise and service.
-
-            </p>
-
+            <h1 className="cs_fs_30">Panasonic AC Repair and Maintenance Service in Dubai</h1>
+            <p>Are you looking for reliable Panasonic AC repair and service in Dubai? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been the top choice for Panasonic air conditioning solutions in Dubai and Sharjah since 2010. Our experienced technicians are equipped to repair your air conditioning unit on the same day, ensuring optimal cooling.<br />We specialise in a complete range of services, including Panasonic AC repair, cleaning, maintenance, and installation for both residential and commercial units. Our expert team is dedicated to optimising your system's performance, creating a comfortable and healthy indoor environment. Trust us for dependable expertise and outstanding service.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -142,24 +136,25 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
                   Our skilled team focuses on AC servicing and maintenance throughout Dubai and Sharjah. At FAJ, we are dedicated to delivering reliable solutions that enhance your indoor comfort year-round while ensuring your system operates at peak efficiency.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Panasonic AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')}  alt="Panasonic AC Service" />
               </div>

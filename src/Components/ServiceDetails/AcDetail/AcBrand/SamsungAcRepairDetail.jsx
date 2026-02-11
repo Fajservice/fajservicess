@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Professional Samsung AC Repair in Dubai | Air Conditioning | FAJ");
-  const metadescription = String(description || "Our experienced team provides Samsung AC repair and maintenance in Dubai. Book now 043300002 for VRF, central and split unit service and AMC");
+  const metatitle = String(titleSeo || "Professional Samsung AC Repair and Maintenance Service Dubai");
+  const metadescription = String(description || "FAJ's experienced team provides Samsung AC repair and maintenance in Dubai. Book now 043300002 for VRF, central and split unit service and AMC");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Samsung AC Repair, Samsung AC Service, Samsung Air Conditioner Maintenance, Samsung AC Cleaning, Samsung AC Installation, Samsung AC Repair Dubai, Samsung Air Conditioner Service Dubai, Samsung Split AC Repair Dubai, Samsung Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/");
@@ -116,10 +116,8 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Samsung AC Repair in Dubai – Samsung AC Maintenance Service</h1>
-            <p>
-              Maintaining comfort throughout the year requires addressing various challenges, including high humidity on summer days, warm nights, and indoor allergens.
-              Since its establishment in 2010,  <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a reliable provider of Samsung air conditioning solutions in the Dubai and Sharjah regions. Our experienced team is trained in a variety of services, including Samsung AC cleaning service, maintenance, repair, and installation for both residential and commercial units. We are dedicated to ensuring that your air conditioning system functions at its best, thereby enhancing your indoor comfort.
+            <h1 className="cs_fs_30">Samsung Air Conditioning Repair and Maintenance Service in Dubai</h1>
+            <p>Are you looking for a reliable provider for Samsung AC repair or maintenance for your business premises? Call at  <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> stands out as the leading service for Samsung air conditioning systems. Our expert technicians specialize in both residential and commercial Samsung AC services in Dubai, making us the top choice for air conditioning needs.<br />We offer Samsung AC service and maintenance packages tailored to meet the specific requirements of your business, ensuring that your Samsung air conditioning system operates smoothly. If you require Samsung AC repair, or inspection of your Samsung air conditioning system, please fill out our inquiry form, and we will send you a quote the same day.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -144,20 +142,21 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Samsung AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>

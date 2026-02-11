@@ -27,8 +27,8 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   // For SEO
   const metatitle = titleSeo?.trim()
     ? titleSeo
-    : "Best Midea AC Repair & HVAC Maintenance in Dubai UAE";
-  const metadescription = String(description || "Experienced technicians with specialized knowledge and tools promptly diagnose and provide Midea AC repair and cleaning services near you in Dubai.");
+    : "Best Midea AC Repair & HVAC Maintenance Service in Dubai UAE";
+  const metadescription = String(description || "Experienced AC technicians with specialized knowledge and tools promptly diagnose and provide Midea AC repair and cleaning services near you Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Midea AC Repair, Midea AC Maintenance, Midea Air Conditioner Service, Midea AC Installation, Midea AC Cleaning, Midea AC Service Dubai, Midea Air Conditioning Repair Dubai, Midea Split AC Service Dubai, Midea Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/midea/");
@@ -115,13 +115,12 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Best Midea AC Repair in Dubai – AC Maintenance Service</h1>
+            <h1 className="cs_fs_30">Best Midea AC Repair and Maintenance Services in Dubai</h1>
             <p>
-              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in Midea AC repair, maintenance, and installation in both residential and commercial properties in Dubai and Sharjah.
-              <br />A Midea air conditioner is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Air Conditioner maintenance is important. In Dubai, professional cleaning services for Midea units are available to keep your system running efficiently.
-
+              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> Since 2010, we’ve proudly served our community! Our skilled facilities team brings a wealth of experience in Midea AC repair, maintenance, and installation for both homes and businesses across Dubai and Sharjah.<br/>
+              A Midea air conditioning is key to ensuring your indoor comfort throughout the year.
+              To keep it performing at its best, regular AC maintenance is essential. Rest assured, we offer professional cleaning services for Midea units to help your system run efficiently and effectively!
             </p>
-
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -141,27 +140,27 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <p className="mb-2">
                   When it comes to Midea <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/"> AC repair</a>, it is essential to hire a professional and reliable technician for your home or office.
                   <br />We specialize in the AC fixing service, and maintenance of Midea air conditioners throughout Dubai and Sharjah. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature for you all year round.
-
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Midea AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img" src={getImageSrc('acfilterinner')} alt="Midea AC Service" />
               </div>

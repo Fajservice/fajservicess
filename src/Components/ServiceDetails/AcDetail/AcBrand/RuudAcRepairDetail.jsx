@@ -113,10 +113,8 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Ruud AC Repair in Dubai – Ruud AC Maintenance Service</h1>
-            <p>Maintaining comfort year-round involves effectively tackling different challenges, such as high humidity during the summer, warm nights, and indoor allergens.
-              <br />Since its establishment in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has become a trusted provider of Ruud air conditioning solutions in Dubai and Sharjah. Our experienced team offers a wide range of Ruud AC repair, cleaning service, including maintenance and installation for both residential and commercial spaces. We&apos;re dedicated to ensuring that your air conditioning operates at peak efficiency, ultimately enhancing your indoor comfort.
-            </p>
+            <h1 className="cs_fs_30">Ruud Hvac Repair and Maintenance Service in Dubai</h1>
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>  offers Ruud air conditioning repair in Dubai, providing comprehensive maintenance service to ensure your building remains cool or warm as needed. With experience dating back to 2010, we are equipped to handle every situation and can provide Ruud air conditioning services for buildings or villas of all shapes and sizes.<br />Are you looking for ongoing Ruud AC maintenance? We can service your units to ensure optimal performance, reducing the likelihood of future breakdowns and saving you money. If you're experiencing issues such as stale odors, leaks, or power outages, our technicians are ready to respond to your emergency call and perform Ruud AC repairs or maintenance on your units as soon as possible.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -139,24 +137,25 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   We’re dedicated to providing reliable solutions that ensure your indoor space stays comfortable year-round and your system operates at peak efficiency.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Ruud AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')}  alt="ruud AC Service" />
               </div>
