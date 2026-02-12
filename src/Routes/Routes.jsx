@@ -790,7 +790,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInDubaiInternationalFinancialCenter />,
       },
       {
-        path: "/services/air-conditioning-repair/coverage-area/ac-services-in-bur-dubai/",
+        path: "/services/air-conditioning-repair/coverage-area/bur-dubai/",
         element: <Components.AcRepairInBurDubai />,
       },
       {
@@ -802,7 +802,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInDubailandMazayaQueue />,
       },
       {
-        path: "/services/air-conditioning-repair/coverage-area/ac-services-in-al-bada/",
+        path: "/services/air-conditioning-repair/coverage-area/al-bada/",
         element: <Components.AcRepairInAlBada />,
       },
       {
@@ -933,7 +933,6 @@ export const router = createBrowserRouter([
         path: "/services/home-appliances-repair/brands/aeg/",
         element: <Components.AegFridgeRepair />,
       },
-
       {
         path: "/services/home-appliances-repair/brands/hisense/",
         element: <Components.HisenseFridgeRepair />,
@@ -1307,7 +1306,7 @@ export const router = createBrowserRouter([
         element: <Components.ApplianceServiceInDubaiSiliconOasis />,
       },
       {
-        path: "/services/home-appliances-repair/coverage-area/villa/",
+        path: "/services/home-appliances-repair/coverage-area/the-villa/",
         element: <Components.ApplianceServiceInTheVilla />,
       },
       {
