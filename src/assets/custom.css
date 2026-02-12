@@ -1387,9 +1387,6 @@ img.faj-chatbox-logo {
 .faq_8 .card .cs_accordian.cs_style_1.cs_type_1{
   border-color: #000;
 }
-.cs_footer_contact_list li:nth-child(2) .footer-icons {
-  top: 10px
-}
 @media (max-width: 1024px) {
   .faq_8 .card {
     width: 340px;

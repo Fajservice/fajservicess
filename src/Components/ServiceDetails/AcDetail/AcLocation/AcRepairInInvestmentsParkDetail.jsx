@@ -27,7 +27,7 @@ const AcRepairInInvestmentsParkDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metadescription = String(description || "Dial 043300002 for AC Services in Dubai Investments Park. We are experts in central & split Air Conditioner repair & maintenance near me Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in dubai investments park, ac repair in dubai investments park, ac maintenance in dubai investments park, split ac service in dubai investments park, central ac service in dubai investments park, air conditioning service in dubai investments park, aircon service in dubai investments park, ac technician in dubai investments park, ac installation in dubai investments park, ac cleaning in dubai investments park");
-    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dip/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-investments-park/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

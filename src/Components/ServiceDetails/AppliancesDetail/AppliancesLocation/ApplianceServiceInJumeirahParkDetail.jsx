@@ -27,7 +27,7 @@ const ApplianceServiceInJumeirahParkDetail = ({ subtitle, title, reviewsbg, titl
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in jumeirah park, Refrigerator in Jumeirah Park, Oven in Jumeirah Park, Dishwasher in Jumeirah Park, Appliance Repair in Jumeirah Park, Appliance Service in Jumeirah Park, Appliance Maintenance in Jumeirah Park");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-park/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-park/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

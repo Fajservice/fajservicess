@@ -76,12 +76,17 @@ const exploreLinks = [
 ];
 
 const contactInfo = [
-  { Icon: Icons.Location, text: "Warehouse # S-02 - Gate 35 Street 18B - Al Qouz Ind.fourth - Al Quoz - Dubai - United Arab Emirates" },
+  { Icon: Icons.Location, text: "Warehouse # S-02 - Gate 35 Street 18B - Al Qouz Ind Fsourth - Al Quoz - Dubai - United Arab Emirates" },
   {
     Icon: Icons.Phone,
     items: [
-      { text: "+971 4 330 0002", href: "tel:+97143300002" },
-      { text: "+971 50 746 4712", href: "tel:+971507464712" }
+      { text: "+971 4 330 0002", href: "tel:+97143300002" }
+    ]
+  },
+  {
+    Icon: Icons.WhatsApp,
+    items: [
+      { text: "+971 50 746 4712", href: "https://api.whatsapp.com/send?phone=+971507464712&text=Hello" }
     ]
   },
   { Icon: Icons.Email, text: "info@fajservices.ae", href: "mailto:info@fajservices.ae" }
@@ -136,7 +141,7 @@ const Footer1 = () => {
               <div className="cs_footer_widget">
                 <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">About</h2>
                 <div className="cs_footer_widget_seperator">
-                  <span className="cs_accent_bg"></span>
+                  <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                 </div>
@@ -171,7 +176,7 @@ const Footer1 = () => {
               <div className="cs_footer_widget">
                 <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Our Services</h2>
                 <div className="cs_footer_widget_seperator">
-                  <span className="cs_accent_bg"></span>
+                  <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                 </div>
@@ -190,7 +195,7 @@ const Footer1 = () => {
               <div className="cs_footer_widget">
                 <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Useful Links</h2>
                 <div className="cs_footer_widget_seperator">
-                  <span className="cs_accent_bg"></span>
+                  <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                 </div>
@@ -209,7 +214,7 @@ const Footer1 = () => {
               <div className="cs_footer_widget">
                 <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Contact Us</h2>
                 <div className="cs_footer_widget_seperator">
-                  <span className="cs_accent_bg"></span>
+                  <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                 </div>

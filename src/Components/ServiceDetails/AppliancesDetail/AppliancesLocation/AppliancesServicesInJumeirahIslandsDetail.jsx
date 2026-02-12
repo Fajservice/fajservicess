@@ -27,7 +27,7 @@ const AppliancesServicesInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg,
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in jumeirah islands, Fridge Repair in Jumeirah Islands, Dishwasher Repair in Jumeirah Islands, Appliances Services in Jumeirah Islands, Appliances Repair in Jumeirah Islands, Appliance Service Center in Jumeirah Islands, Appliance Repair Service in Jumeirah Islands, Appliance Repair in Jumeirah Islands");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-islands/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-islands/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

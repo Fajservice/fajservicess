@@ -27,7 +27,7 @@ const ApplianceServiceInJebelAliDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jebel Ali, Refrigerator Repair in Jebel Ali, Appliance Service in Jebel Ali, Appliance Repair in Jebel Ali, Home Appliances Service in Jebel Ali, Home Appliances Repair in Jebel Ali, Appliance Maintenance in Jebel Ali, Appliance Installation in Jebel Ali");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

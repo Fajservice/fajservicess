@@ -27,7 +27,7 @@ const ApplianceServiceInLayanComminityDetail = ({ subtitle, title, reviewsbg, ti
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Layan Community, Refrigerator Repair in Layan Community, Appliance Repair in Layan Community, Appliance Service in Layan Community, Fridge Repair in Layan Community, Washing Machine Repair in Layan Community, Dishwasher Repair in Layan Community, Tumble Dryer Repair in Layan Community, Oven Repair in Layan Community, Stove Repair in Layan Community");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-layan-community/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/layan-community/");
 
 
     subtitle = "Testimonial"

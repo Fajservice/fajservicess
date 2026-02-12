@@ -26,7 +26,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSe
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Al Mamzar, Refrigerator in Al Mamzar, Dishwasher in Al Mamzar, Oven in Al Mamzar, Appliance Repair in Al Mamzar, Appliance Service in Al Mamzar, Appliance Maintenance in Al Mamzar, Appliance Installation in Al Mamzar");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-mamzar/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-mamzar/");
 
 
   subtitle = "Testimonial"

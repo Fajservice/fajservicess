@@ -27,7 +27,7 @@ const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo,
  const metadescription = String(description || "Best AC Services in Burj Khalifa Lake Dubai - FAJ experts here for your Central HVAC, Split Chiller FCU Air Condition Repair & Maintenance Dubai");
  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
  const metaKeyword = String(Keyword || "AC Service in Burj Khalifa Lake, AC Repair in Burj Khalifa Lake, Air Conditioning Service in Burj Khalifa Lake, Air Con Fixing in Burj Khalifa Lake, Central HVAC Service in Burj Khalifa Lake, Split Chiller FCU Air Condition Repair in Burj Khalifa Lake");
- const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-burj-khalifa-lake/");
+ const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/burj-khalifa-lake/");
  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
 

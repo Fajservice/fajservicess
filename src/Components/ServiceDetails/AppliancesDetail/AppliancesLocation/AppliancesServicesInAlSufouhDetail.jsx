@@ -26,7 +26,7 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in al sufouh, Fridge Repair in al sufouh, Appliance Repair in al sufouh, Appliance Service in al sufouh, Appliance Maintenance in al sufouh, Appliance Installation in al sufouh, Appliance AMC in al sufouh");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-sufouh/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-sufouh/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

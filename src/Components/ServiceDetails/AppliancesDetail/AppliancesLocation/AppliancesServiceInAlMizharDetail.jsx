@@ -27,7 +27,7 @@ const AppliancesServiceInAlMizharDetail = ({ subtitle, title, reviewsbg, titleSe
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Al Mizhar, Refrigerator in Al Mizhar, Dishwasher in Al Mizhar, Oven in Al Mizhar, Appliance Repair in Al Mizhar, Appliance Service in Al Mizhar, Appliance Maintenance in Al Mizhar");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-mizhar/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-mizhar/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

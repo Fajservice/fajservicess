@@ -27,7 +27,7 @@ const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "appliance service in Al Karama, washing machine repair in al karama, refrigerator repair in al karama");
-    const metaURL = String(URL || "https://www.fajservices.ae/services/Home-appliances-repair/coverage-area/al-karama/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-karama/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

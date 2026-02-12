@@ -27,7 +27,7 @@ const ApplianceServiceInDubaiInternetCityDetail = ({ subtitle, title, reviewsbg,
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "washing machine repair in dubai internet city, appliance service in dubai internet city, appliance repair in dubai internet city, refrigerator repair in dubai internet city, dishwasher repair in dubai internet city, oven repair in dubai internet city, fridge repair in dubai internet city, appliance maintenance contract in dubai internet city");
-    const metaURL = String(URL || "https://www.fajservices.ae/services/Home-appliances-repair/coverage-area/dubai-internet-city/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-internet-city/");
 
 
     subtitle = "Testimonial"

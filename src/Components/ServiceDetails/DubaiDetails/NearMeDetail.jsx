@@ -466,7 +466,7 @@ const NearMeDetail = ({ subtitle, title, reviewsbg }) => {
             <span className="d-block seprator-line mb-3"></span>
 
             <div className="near-me-grid">
-              <a href="/aftron-ac-repair-maintenance-service-in-dubai-2" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/aftron" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Aftron</div>
               </a>
               <a href="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/" className="brand-near-me-service-box">

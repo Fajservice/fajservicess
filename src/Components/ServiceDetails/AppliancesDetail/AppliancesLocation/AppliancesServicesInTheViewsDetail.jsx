@@ -29,7 +29,7 @@ const AppliancesServicesInTheViewsDetail = ({ subtitle, title, reviewsbg, titleS
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in the views, Appliance Repair in the views, Appliance Services in the views, Fridge Repair in the views, Dishwasher Repair in the views, Oven Repair in the views, Tumble Dryer Repair in the views, Washing Machine Repair in the views");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-views/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-views/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -46,7 +46,7 @@ const AppliancesServicesInRemraamDetail = ({
         Keyword || "Washing Machine in Remraam, Appliance Repair in Remraam, Fridge Repair in Remraam, Dishwasher Repair in Remraam, Oven Repair in Remraam, Washing Machine Repair in Remraam, Appliance Services in Remraam"
     );
 
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-remraam/"
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/remraam/"
     );
 
     const metaImage = String(

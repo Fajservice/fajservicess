@@ -2,7 +2,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../../Common/loadBackgroudImages';
-// import BlogCoffeeMachine from '../../../Blog/BlogCoffeeMachine';
 import '../../../../assets/main.css';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
 import BlogCoffeeMachine from '../../../Services/coffeemachine/BlogCoffeeMachine';
@@ -55,7 +54,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFAQs/AcServiceFAQs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcServiceInDubai.json`),
           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonials/AcServiceTestimonials.json`)
         ]);
 
@@ -649,6 +648,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
                       </svg>
 
+                      {/* Eye Slash */}
                       <svg
                         width="20"
                         height="20"

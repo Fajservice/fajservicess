@@ -43,7 +43,7 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
         Keyword || "Washing Machine in Jebel Ali Industrial Area, Refrigerator Repair in Jebel Ali Industrial Area, Dishwasher Repair in Jebel Ali Industrial Area, Appliance Service in Jebel Ali Industrial Area, Home Appliance Service in Jebel Ali Industrial Area, Appliance Repair in Jebel Ali Industrial Area"
     );
 
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-industrial-area/"
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-industrial-area/"
     );
 
     const metaImage = String(

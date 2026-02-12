@@ -29,7 +29,7 @@ const AppliancesServiceInAlGhadeerCommunityDetail = ({ subtitle, title, reviewsb
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in ghadeer community, Fridge repair in Al Ghadeer Community, Appliance service in Al Ghadeer Community, Appliance repair in Al Ghadeer Community, Appliance maintenance in Al Ghadeer Community, Appliance installation in Al Ghadeer Community");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-ghadeer-community/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-ghadeer-community/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

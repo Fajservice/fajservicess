@@ -27,7 +27,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "For your home and office Fujitsu AC cleaning service, FAJ Assist can provide Fujitsu air conditioner maintenance and repair near you in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Fujitsu AC Repair in Dubai, Fujitsu Air Conditioner Maintenance, Fujitsu AC Service, Fujitsu AC Fix, Fujitsu Air Condition Repair, Fujitsu Air Condition Maintenance, Fujitsu Air Condition Service, Fujitsu Air Condition Fix");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/fujitsu/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/fujitsu/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
   
   subtitle = "Testimonial"

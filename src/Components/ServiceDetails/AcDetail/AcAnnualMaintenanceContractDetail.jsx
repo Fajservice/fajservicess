@@ -441,7 +441,7 @@ const AcAnnualMaintenanceContractDetail = ({
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint Air Conditioning</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC</Link>
+                  <Link to="/services/air-conditioning-repair/brands/aftron/">Aftron AC</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>

@@ -22,7 +22,7 @@ const LocationKeyword = () => {
         <span>&nbsp;-&nbsp;</span>
         <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint AC Service</Link>
         <span>&nbsp;-&nbsp;</span>
-        <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC Maintenance Service Near Me</Link>
+        <Link to="/services/air-conditioning-repair/brands/aftron/">Aftron AC Maintenance Service Near Me</Link>
         <span>&nbsp;-&nbsp;</span>
         <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft AC Service</Link>
         <span>&nbsp;-&nbsp;</span>

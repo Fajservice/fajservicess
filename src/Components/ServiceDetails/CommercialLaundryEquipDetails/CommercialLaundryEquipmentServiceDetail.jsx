@@ -43,7 +43,7 @@ const WalkInRefrigerationServicesDetail = ({
   );
 
   const metaURL = String(
-    URL || "https://www.fajservices.ae/commercial-laundry-equipment-service/"
+    URL || "https://www.fajservices.ae/services/commercial-laundry-equipment-service/"
   );
 
   const metaImage = "https://www.fajservices.ae/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif";

@@ -83,7 +83,7 @@ const RefrigerationEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, desc
           <meta name="description" content="Best Refrigeration equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens"></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/services/coffee-machine/" />
+          <link rel="canonical" href="https://www.fajservices.ae/services/refrigeration-equipment/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="Refrigeration equipment Repair Service in Dubai - FAJ Technical Services L.L.C" />

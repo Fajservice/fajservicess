@@ -46,7 +46,7 @@ const ApplianceServiceInJbrDubaiDetail = ({
         Keyword || "Washing Machine in JBR, Fridge in JBR, Dishwasher in JBR, Appliance Service in JBR, Appliance Repair in JBR, Appliance Maintenance in JBR, Appliance Installation in JBR"
     );
 
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-washing-machine-fridge-dishwasher-service-jbr-dubai/"
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jbr-dubai/"
     );
 
     const metaImage = String(

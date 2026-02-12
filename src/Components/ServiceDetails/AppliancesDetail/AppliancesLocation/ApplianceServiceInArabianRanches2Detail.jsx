@@ -28,7 +28,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine Repair in Arabian Ranches 2, Fridge Repair in Arabian Ranches 2, Dishwasher Repair in Arabian Ranches 2, Appliance Service in Arabian Ranches 2, Appliance Repair in Arabian Ranches 2");
-    const metaURL = String(URL || "https://www.fajservices.ae/services/Home-appliances-repair/coverage-area/arabian-ranches-2/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches-2/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -29,7 +29,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
     const metadescription = String(description || "FAJ 043300002 AC Services in International Media and Production Zone Dubai. We are experts in central air conditioning maintenance near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in International Media and Production Zone, Air Conditioning Service in International Media and Production Zone, Air Con Maintenance & AC Installation in International Media and Production Zone");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-international-media-and-production-zone/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/international-media-and-production-zone/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"

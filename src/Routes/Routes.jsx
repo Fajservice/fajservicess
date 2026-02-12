@@ -406,7 +406,7 @@ export const router = createBrowserRouter([
         element: <Components.MaytagFridgeRepair />,
       },
       {
-        path: "/appliances-services-in-difc/",
+        path: "/services/home-appliances-repair/coverage-area/difc/",
         element: <Components.ApplianceServiceInDifc />,
       },
       {
@@ -3324,6 +3324,22 @@ export const router = createBrowserRouter([
       {
         path:"/commercial-washing-machine-repair/",
         element: <Navigate to="/services/commercial-washing-machine-repair/" replace />
+      },
+      {
+        path:"/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/",
+        element: <Navigate to="/services/home-appliances-repair/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/" replace />
+      },
+      {
+        path:"/roborock-vacuum-cleaner-repair-service-in-dubai/",
+        element: <Navigate to="/services/home-appliances-repair/roborock-vacuum-cleaner-repair-service-in-dubai/" replace />
+      },
+      {
+        path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/",
+        element: <Navigate to="/services/home-appliances-repair/brands/ariston/" replace />
+      },
+      {
+        path:"/appliances-services-in-difc/",
+        element: <Navigate to="/services/home-appliances-repair/coverage-area/difc/" replace />
       },
     ],
   }
