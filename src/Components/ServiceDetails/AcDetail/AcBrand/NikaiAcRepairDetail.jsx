@@ -27,7 +27,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Nikai AC Repair in Dubai, Nikai Air Conditioner Maintenance, Nikai AC Service, Nikai AC Cleaning, Nikai AC Installation, Nikai AC Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/nikai/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

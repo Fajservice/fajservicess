@@ -30,11 +30,11 @@ const TCLAcRepair = ({
   URL }) => {
 
   const metaTitle = String(
-    titleSeo || "TCL AC Repair in Dubai | AC Gas Filling | AC Servicing Near Me"
+    titleSeo || "TCL Air Conditioning Services | AC Gas Filling | AC Cleaning Near"
   );
 
   const metaDescription = String(
-    description || "FAJ offers TCL AC repair in Dubai. Contact us at 043300002 for split air conditioner maintenance services near you. Book Top Maintenance Company"
+    description || "FAJ offers TCL AC repair in Dubai. Contact us at 043300002 for split air conditioning maintenance services near you. Book Top Maintenance Company"
   );
 
   const metaAuthor = String(
@@ -49,7 +49,7 @@ const TCLAcRepair = ({
   );
 
   const metaImage = String(
-    Image || "https://www.fajservices.ae/img/ac%20filter.avif"
+    Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter.avif"
   );
 
 
@@ -134,15 +134,8 @@ const TCLAcRepair = ({
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">TCL AC Repair and Maintenance Service in Dubai            </h1>
-            <p>
-              To achieve year-round comfort, it is imperative to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.
-              <br />Established in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> stands as the premier provider of TCL air conditioning solutions in Dubai and Sharjah. Our expert team offers an extensive range of TCL AC repair, cleaning service, maintenance, and installation for both residential and commercial settings.
-              <br />We are committed to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.
-
-            </p>
-
-
+            <h1 className="cs_fs_30">TCL Air Conditioner Repair and Maintenance Service in Dubai </h1>
+            <p>Is your TCL air conditioner not working? Is it just sitting there on your wall, and you feel helpless about getting it to work again?<br/><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> understands how challenging it can be to fix your TCL AC, especially when it comes to air conditioner repair and maintenance services in Dubai and Sharjah. Our expert team offers a complete range of services, including TCL AC repair, cleaning, maintenance, and installation for both residential and commercial settings.<br />We are dedicated to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />

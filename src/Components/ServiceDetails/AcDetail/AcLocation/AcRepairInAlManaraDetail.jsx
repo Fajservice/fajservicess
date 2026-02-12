@@ -28,7 +28,7 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Manara, AC Repair in Al Manara, AC Maintenance in Al Manara, Air Conditioning Service in Al Manara, Air Conditioner Repair in Al Manara, Air Conditioning Maintenance in Al Manara, AC Cleaning in Al Manara, AC Installation in Al Manara, Air Conditioning Installation in Al Manara, AC Service Company in Al Manara, Air Conditioning Service Company in Al Manara, AC Repair Company in Al Manara, Air Conditioning Repair Company in Al Manara, AC Maintenance Company in Al Manara, Air Conditioning Maintenance Company in Al Manara");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-manara/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

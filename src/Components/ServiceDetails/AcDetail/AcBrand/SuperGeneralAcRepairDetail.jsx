@@ -22,12 +22,12 @@ const getImageSrc = (imgPath) => {
 const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Split Air Conditioner | Super General AC Repair in Dubai");
-  const metadescription = String(description || "Book 043300002 for Split Super General AC repair in Dubai. We are offering cheap AC cleaning service, gas filling, ac spare parts change with a warranty ");
+  const metatitle = String(titleSeo || "Super General Split AC Service and Repair in Dubai and Sharjah");
+  const metadescription = String(description || "Super General Split AC service & repair in Dubai. We are offering Supper General fridge, washing machine, stove, oven repairs by you with part warranty.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Super General Ac Repair in Dubai, Super General AC Maintenance in Dubai, Super General AC Fix in Dubai, Super General AC Service in Dubai, Super General Air Condition Repair in Dubai, Super General Air Con");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/super-general/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -110,8 +110,9 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Super General AC Repair and Maintenance Service in Dubai</h1>
-            <p>To achieve year-round comfort, it is imperative to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.<br />Established in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> stands as the premier provider of Super General air conditioning solutions in Dubai and Sharjah. Our expert team offers an extensive range of Super General AC repair, cleaning service, maintenance, and installation for both residential and commercial settings.<br />We are committed to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.</p>
+            <h1 className="cs_fs_30">Super Genenral AC Repair Center and Home Appliances Service Dubai</h1>
+            <p>Home appliances play a crucial role in our daily lives and have always been important for domestic comfort and convenience. At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> aim to improve our quality of life through reliable Supper General home appliances repair center. <br />Some key appliances that significantly impact our daily routines include Supper General air conditioning, Supper Genenral washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers repair, maintenance and service center Dubai. The trouble caused by any of these appliances suddenly breaking down can be considerable.
+</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -130,25 +131,25 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Best Super General AC Repair in Dubai</h2>
                 <p className="mb-2">If you find yourself in Dubai and are in need of Super General <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">air conditioner repair</a>, look no further than FAJ!<br />Our skilled team of professionals is dedicated to ensuring that your air conditioning systems operate at peak performance throughout Dubai and Sharjah.</p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Super General AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
-
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Super General Ac Repair" />
 

@@ -149,11 +149,11 @@ const Home = ({
                   "url": "https://www.fajservices.ae/",
                   "telephone": "+97143300002",
                   "priceRange": "$$",
-                  "image": "https://www.fajservices.ae/img/fajlogo.png",
+                  "image": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/fajlogo.png",
                   "logo": {
                     "@type": "ImageObject",
                     "@id": "https://www.fajservices.ae/#logo",
-                    "url": "https://www.fajservices.ae/img/FajLogo.svg",
+                    "url": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo.svg",
                     "width": 250,
                     "height": 60
                   },

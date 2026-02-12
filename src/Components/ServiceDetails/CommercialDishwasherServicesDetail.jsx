@@ -26,7 +26,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Dishwasher Repair, Commercial Dishwasher Maintenance Service");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-dishwasher-repair/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/commercial-dishwasher-service.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/commercial-dishwasher-service/public");
 
 
   subtitle = "Testimonial"

@@ -46,7 +46,7 @@ const WalkInRefrigerationServicesDetail = ({
     URL || "https://www.fajservices.ae/services/commercial-laundry-equipment-service/"
   );
 
-  const metaImage = "https://www.fajservices.ae/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif";
+  const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -22,12 +22,12 @@ const getImageSrc = (imgPath) => {
 const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Sanyo AC Repair & Maintenance Services Dubai | Air Conditioner");
-  const metadescription = String(description || "FAJ Professional offers Sanyo AC repair services in Dubai. Get in central and split air conditioner maintenance and cleaning. Call us at 043300002.");
+  const metatitle = String(titleSeo || "Sanyo Air Conditioning Repair & Maintenance Services in Dubai");
+  const metadescription = String(description || "FAJ Professional offers Sanyo AC repair and services in Dubai. Get in central and split air conditioner maintenance and cleaning. Call us at 043300002.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Sanyo Ac Repair in Dubai, Sanyo Air Conditioner Service, Sanyo AC Maintenance, Sanyo AC Fix, Sanyo AC Service, Sanyo Air Condition Repair, Sanyo Air Condition Maintenance, Sanyo Air Condition");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/sanyo/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -112,8 +112,8 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Sanyo AC Repair and Maintenance Service in Dubai!</h1>
-            <p>To achieve year-round comfort, it is crucial to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.<br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has established itself as the leading provider of Sanyo air conditioner solutions in Dubai and Sharjah. Our skilled team is dedicated to delivering top-notch AC cleaning service, including repair, thorough maintenance, and precise installation for both residential and commercial units. We take pride in optimizing the performance of your air conditioning system, ensuring that you enjoy unparalleled indoor comfort at all times.</p>
+            <h1 className="cs_fs_30">Sanyo Air Conditioning Repair and Maintenance Services in Dubai</h1>
+            <p>Sanyo air conditioning units are a great choice for homes and commercial spaces, offering reliable summer cooling. With a universal range of models, they meet diverse needs and are a smart investment for year-round climate control.<br/> At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, established in 2010, we specialise in Sanyo AC repair and maintenance, providing cost-effective solutions to keep your cooling systems efficient. Our experienced team takes repairs and replacements, particularly for Sanyo units, which are common during this season.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -132,20 +132,21 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Sanyo AC Maintenance and Services</h2>
                 <p className="mb-2">If you are in Dubai and require Sanyo <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair</a>, FAJ offers services for this need. The team specializes in ensuring air conditioning systems operate efficiently in Dubai and Sharjah, delivering reliable solutions for maintaining indoor comfort throughout the year. Services aim to enhance the indoor environment.</p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Sayno AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>

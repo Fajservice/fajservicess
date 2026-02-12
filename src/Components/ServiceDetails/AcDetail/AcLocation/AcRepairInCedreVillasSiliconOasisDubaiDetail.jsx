@@ -27,7 +27,7 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviews
  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
  const metaKeyword = String(Keyword || "ac service in cedre villas silicon oasis dubai, ac repair in cedre villas silicon oasis dubai, ac maintenance in cedre villas silicon oasis dubai, ac gas filling in cedre villas silicon oasis dubai, ac installation in cedre villas silicon oasis dubai, ac cleaning in cedre villas silicon oasis dubai");
  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/cedre-villas-silicon-oasis-dubai/");
- const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+ const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public");
 
  subtitle = "Testimonial"
  title = "What our clients say About Us"
