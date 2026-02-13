@@ -7030,6 +7030,9 @@
 
   .cs_service_details p {
     margin-bottom: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 25px;
     margin-top: 0px;
     font-family: var(--body-font);
   }
@@ -10648,458 +10651,731 @@
 
 /* air condition coverage area price section */
 
-.ac_pricing_table_section {
+.ac_service_cards_section {
   padding: 60px 0;
 }
 
-.ac_pricing_table_wrapper {
-  overflow-x: auto;
+.ac_cards_grid_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  align-items: start;
 }
 
-.ac_pricing_table {
+.ac_service_single_card { 
+  border: 1px solid #6B7280;
+  border-radius: 12px;
+  overflow: visible;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #F8F8F8;
+}
+
+.ac_card_image_container {
+  position: relative;
   width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  flex-shrink: 0;
 }
 
-.ac_pricing_th {
-  padding: 12px;
+.ac_card_main_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ac_card_qr_overlay {
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 5;
+}
+
+.ac_card_qr_overlay img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ac_card_content_wrapper {
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ac_card_warranty_text {
+  font-size: 14px;
+  color: #6B7280;
+  margin: 0 0 8px 0;
+  font-weight: 500;
   text-align: center;
-  font-size: 13px;
+  min-height: 16px;
+}
+
+.ac_card_service_title {
+  font-size: 22px;
   font-weight: 600;
   color: #1F2937;
-  border: 1px solid #4B5563;
+  margin: 0 0 10px 0;
+  text-align: left !important; 
+  min-height: 28px;
+}
+
+.ac_card_price_text {
+  font-size: 18px;
+  color: #434343;
+  margin: 0 0 15px 0;
+  text-align: left;
+  font-weight: 500;
+}
+
+.ac_card_price_amount {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00324F;
+}
+.ac_card_currency_icon{
+  font-size: 24px;
+}
+
+.ac_card_content_wrapper hr {
+  border: none;
+  border-top: 1px solid #c5c5c5;
+  margin: 15px 5px;
+  width: 100%;
+}
+
+.ac_card_short_description {
+  font-size: 14px;
+  color: #4B5563;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+  text-align: left;
+  flex: 1;
+  min-height: 54px;
+}
+
+.ac_card_buttons_row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: auto;
+}
+
+.ac_card_buy_button {
+  flex: 1;
+  padding: 10px 5px;
+  background-color: #1E3A5F;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ac_card_buy_button:hover {
+  background-color: #152B47;
+}
+
+.ac_card_readmore_button {
+  flex: 1;
+  padding: 10px 0;
+  background-color: transparent;
+  color: #1E3A5F;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: right;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.ac_card_readmore_button:hover {
+  color: #152B47;
+}
+
+.ac_readmore_arrow {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  max-width: 12%;
+}
+
+.ac_card_readmore_button:hover .ac_readmore_arrow {
+  transform: translateX(3px);
+}
+
+/* Popup Styles */
+.ac_popup_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.ac_popup_container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 85vh;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ac_popup_close_btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1F2937;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.ac_popup_close_btn:hover {
   background-color: #ffffff;
 }
 
-.ac_pricing_td {
-  padding: 10px 12px;
-  text-align: left;
-  font-size: 11px;
+.ac_popup_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ac_popup_header_image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.ac_popup_banner_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ac_popup_body_content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ac_popup_main_title {
+  font-size: 20px;
+  font-weight: 700;
   color: #1F2937;
-  border: 1px solid #4B5563;
-  vertical-align: middle;
-  line-height: 1.4;
+  margin: 0;
+  padding: 20px 25px 15px 25px;
+  background-color: #F3F4F6;
+  flex-shrink: 0;
 }
 
-.ac_pricing_type {
-  font-weight: 600;
+.ac_popup_divider_line {
+  border: none;
+  border-top: 2px solid #D1D5DB;
+  margin: 0 25px 15px 25px;
+  flex-shrink: 0;
+}
+
+.ac_popup_scrollable_area {
+  flex: 1;
+  overflow-y: scroll;
+  padding: 0 25px 25px 25px;
+}
+
+/* Custom Scrollbar - Visible */
+.ac_popup_scrollable_area::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ac_popup_scrollable_area::-webkit-scrollbar-track {
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.ac_popup_scrollable_area::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 2px solid #E5E7EB;
+}
+
+.ac_popup_scrollable_area::-webkit-scrollbar-thumb:hover {
+  background: #6B7280;
+}
+
+/* Firefox Scrollbar */
+.ac_popup_scrollable_area {
+  scrollbar-width: thin;
+  scrollbar-color: #9CA3AF #E5E7EB;
+}
+
+.ac_popup_section_block {
+  margin-bottom: 25px;
+}
+
+.ac_popup_section_block:last-child {
+  margin-bottom: 0;
+}
+
+.ac_popup_section_heading {
+  font-size: 16px;
+  font-weight: 700;
   color: #1F2937;
-  text-align: center;
-  vertical-align: middle;
-  border: 1px solid #4B5563;
-  font-size: 12px;
+  margin: 0 0 12px 0;
 }
 
-/* Service column */
-.ac_pricing_td:nth-child(1) {
-  font-weight: 600;
-  min-width: 120px;
-}
-.ac_pricing_td:nth-child(2) {
-  min-width: 120px;
+.ac_popup_scope_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* Description column */
-.ac_pricing_td:nth-child(3) {
-  max-width: 400px;
-  min-width: 250px;
-}
-
-/* Price column */
-.ac_pricing_td:nth-child(4) {
-  white-space: nowrap;
-  min-width: 100px;
-  font-weight: 500;
-}
-
-/* Warranty column */
-.ac_pricing_td:nth-child(5) {
-  text-align: center;
-  white-space: nowrap;
-  min-width: 80px;
-  font-weight: 500;
-}
-
-/* Remove row-specific borders */
-.ac_pricing_row_last {
-  border-bottom: none;
-}
-
-/* Large Desktop - 1400px and above */
-@media (min-width: 1400px) {
-  .ac_pricing_th {
-    padding: 14px 15px;
-    font-size: 14px;
-  }
-
-  .ac_pricing_td {
-    padding: 12px 14px;
-    font-size: 12px;
-    line-height: 1.5;
-  }
-
-  .ac_pricing_type {
-    font-size: 13px;
-  }
-
-  .ac_pricing_td:nth-child(1) {
-  font-weight: 600;
-  min-width: 140px;
-}
-
-  .ac_pricing_td:nth-child(2) {
-    min-width: 140px;
-  }
-
-  .ac_pricing_td:nth-child(3) {
-    max-width: 450px;
-    min-width: 280px;
-  }
-}
-
-/* Extra Large Desktop - 1600px and above */
-@media (min-width: 1600px) {
-  .ac_pricing_th {
-    padding: 16px 18px;
-    font-size: 15px;
-  }
-
-  .ac_pricing_td {
-    padding: 14px 16px;
-    font-size: 13px;
-    line-height: 1.6;
-  }
-
-  .ac_pricing_type {
-    font-size: 14px;
-  }
-
-  .ac_pricing_td:nth-child(2) {
-    min-width: 150px;
-  }
-
-  .ac_pricing_td:nth-child(3) {
-    max-width: 500px;
-    min-width: 300px;
-  }
-}
-
-/* Ultra Large Desktop - 1920px (Full HD) and above */
-@media (min-width: 1920px) {
-  .ac_pricing_table_section {
-    padding: 80px 0;
-  }
-
-  .ac_pricing_th {
-    padding: 18px 20px;
-    font-size: 16px;
-  }
-
-  .ac_pricing_td {
-    padding: 16px 18px;
-    font-size: 14px;
-    line-height: 1.7;
-  }
-
-  .ac_pricing_type {
-    font-size: 15px;
-  }
-
-  .ac_pricing_td:nth-child(2) {
-    min-width: 160px;
-  }
-
-  .ac_pricing_td:nth-child(3) {
-    max-width: 550px;
-    min-width: 320px;
-  }
-}
-
-/* Tablet */
-@media (max-width: 1024px) {
-  .ac_pricing_th {
-    padding: 10px;
-    font-size: 12px;
-  }
-
-  .ac_pricing_td {
-    padding: 8px 10px;
-    font-size: 10px;
-  }
-
-  .ac_pricing_type {
-    font-size: 11px;
-  }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-
-  .ac_pricing_th {
-    padding: 8px;
-    font-size: 10px;
-  }
-
-  .ac_pricing_td {
-    padding: 6px 8px;
-    font-size: 9px;
-  }
-
-  .ac_pricing_type {
-    font-size: 10px;
-  }
-
-  .ac_pricing_td:nth-child(2) {
-    min-width: 100px;
-  }
-
-  .ac_pricing_td:nth-child(3) {
-    max-width: none;
-    min-width: 180px;
-  }
-}
-
-/* Small Mobile */
-@media (max-width: 576px) {
-  .ac_pricing_th {
-    padding: 6px;
-    font-size: 9px;
-  }
-
-  .ac_pricing_td {
-    padding: 5px 6px;
-    font-size: 8px;
-    line-height: 1.3;
-  }
-
-  .ac_pricing_type {
-    font-size: 9px;
-  }
-
-  .ac_pricing_td:nth-child(2) {
-    min-width: 90px;
-  }
-
-  .ac_pricing_td:nth-child(3) {
-    min-width: 150px;
-  }
-}
-
-/* Servcies Area Air Condition Coverage */
-.service_areas_dubai_section {
-  padding: 60px 0;
-}
-
-.service_areas_main_heading {
-  text-align: center;
-  font-size: 26px;
-  font-weight: 600;
-  color: #1F2937;
-  margin: 0 0 15px 0;
-}
-
-.service_areas_intro_text {
-  text-align: center;
+.ac_popup_scope_item {
   font-size: 14px;
   color: #374151;
-  margin: 0 0 30px 0;
+  padding: 6px 0;
+  position: relative;
+  padding-left: 20px;
   line-height: 1.5;
+  font-family: var(--body-font);
 }
 
-.service_areas_sub_heading {
-  font-size: 16px;
-  font-weight: 600;
+.ac_popup_scope_item:before {
+  content: "•";
+  position: absolute;
+  left: 0;
   color: #1F2937;
-  margin: 0 0 20px 0;
-}
-
-.service_areas_tags_container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  align-items: center;
-}
-
-.service_area_tag {
-  display: inline-block;
-  padding: 10px 20px;
-  border: 2px solid #6B7280;
-  border-radius: 8px;
-  font-size: 13px;
-  font-weight: 500;
-  color: #1F2937;
-  transition: all 0.3s ease;
-  cursor: default;
-  white-space: nowrap;
-}
-
-.service_area_tag:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /* Large Desktop - 1400px and above */
 @media (min-width: 1400px) {
-  .service_areas_main_heading {
-    font-size: 30px;
-    margin: 0 0 18px 0;
+  .ac_cards_grid_wrapper {
+    gap: 30px;
   }
 
-  .service_areas_intro_text {
-    font-size: 15px;
-    margin: 0 0 35px 0;
+  .ac_card_image_container {
+    height: 220px;
   }
 
-  .service_areas_sub_heading {
-    font-size: 18px;
-    margin: 0 0 25px 0;
+  .ac_card_qr_overlay {
+    top: 190px;
+    width: 65px;
+    height: 65px;
   }
 
-  .service_areas_tags_container {
-    gap: 14px;
+  .ac_card_content_wrapper {
+    padding: 45px 25px 25px 25px;
   }
 
-  .service_area_tag {
-    padding: 12px 24px;
+  .ac_card_warranty_text {
+    min-height: 17px;
+  }
+
+  .ac_card_service_title {
+    font-size: 24px;
+    min-height: 30px;
+  }
+
+
+  .ac_card_price_amount {
+    font-size: 26px;
+  }
+
+  .ac_card_short_description {
+    font-size: 14px;
+    min-height: 58px;
+  }
+
+  .ac_card_buy_button {
+    font-size: 14px;
+  }
+
+  .ac_card_readmore_button {
+    font-size: 14px;
+  }
+
+  .ac_popup_container {
+    max-width: 550px;
+  }
+
+  .ac_popup_header_image {
+    height: 200px;
+  }
+
+  .ac_popup_main_title {
+    font-size: 22px;
+    padding: 22px 28px 18px 28px;
+  }
+
+  .ac_popup_divider_line {
+    margin: 0 28px 18px 28px;
+  }
+
+  .ac_popup_scrollable_area {
+    padding: 0 28px 28px 28px;
+  }
+
+  .ac_popup_section_heading {
+    font-size: 17px;
+  }
+
+  .ac_popup_scope_item {
     font-size: 14px;
   }
 }
 
 /* Extra Large Desktop - 1600px and above */
 @media (min-width: 1600px) {
-  .service_areas_main_heading {
-    font-size: 32px;
-    margin: 0 0 20px 0;
+  .ac_card_image_container {
+    height: 240px;
   }
 
-  .service_areas_intro_text {
-    font-size: 16px;
-    margin: 0 0 40px 0;
+  .ac_card_qr_overlay {
+    top: 210px;
+    width: 70px;
+    height: 70px;
   }
 
-  .service_areas_sub_heading {
-    font-size: 19px;
-    margin: 0 0 28px 0;
+  .ac_card_content_wrapper {
+    padding: 48px 25px 25px 25px;
   }
 
-  .service_areas_tags_container {
-    gap: 16px;
+  .ac_card_warranty_text {
+    min-height: 18px;
   }
 
-  .service_area_tag {
-    padding: 13px 26px;
+  .ac_card_service_title {
+    font-size: 26px;
+    min-height: 32px;
+  }
+
+  .cs_service_details p{
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .ac_card_price_text {
+    min-height: 37px;
+  }
+
+  .ac_card_price_amount {
+    font-size: 28px;
+  }
+
+  .ac_card_short_description {
+    font-size: 14px;
+    min-height: 62px;
+  }
+
+  .ac_card_buy_button {
+    font-size: 15px;
+  }
+
+  .ac_card_readmore_button {
+    font-size: 15px;
+  }
+
+  .ac_popup_container {
+    max-width: 580px;
+  }
+
+  .ac_popup_header_image {
+    height: 220px;
+  }
+
+  .ac_popup_main_title {
+    font-size: 24px;
+    padding: 24px 30px 20px 30px;
+  }
+
+  .ac_popup_divider_line {
+    margin: 0 30px 20px 30px;
+  }
+
+  .ac_popup_scrollable_area {
+    padding: 0 30px 30px 30px;
+  }
+
+  .ac_popup_section_heading {
+    font-size: 18px;
+  }
+
+  .ac_popup_scope_item {
     font-size: 15px;
   }
 }
 
 /* Ultra Large Desktop - 1920px (Full HD) and above */
 @media (min-width: 1920px) {
-  .service_areas_dubai_section {
+  .ac_service_cards_section {
     padding: 80px 0;
   }
 
-  .service_areas_main_heading {
-    font-size: 36px;
-    margin: 0 0 22px 0;
+  .ac_card_image_container {
+    height: 260px;
   }
 
-  .service_areas_intro_text {
-    font-size: 18px;
-    margin: 0 0 45px 0;
+  .ac_card_qr_overlay {
+    top: 230px;
+    width: 75px;
+    height: 75px;
   }
 
-  .service_areas_sub_heading {
-    font-size: 20px;
-    margin: 0 0 30px 0;
+  .ac_card_content_wrapper {
+    padding: 50px 28px 28px 28px;
   }
 
-  .service_areas_tags_container {
-    gap: 18px;
+  .ac_card_warranty_text {
+    min-height: 19px;
   }
 
-  .service_area_tag {
-    padding: 14px 28px;
+  .ac_card_service_title {
+    font-size: 28px;
+    min-height: 35px;
+  }
+
+  .ac_card_price_text {
+    min-height: 40px;
+  }
+
+  .ac_card_price_amount {
+    font-size: 30px;
+  }
+
+  .ac_card_short_description {
+    font-size: 15px;
+    min-height: 67px;
+  }
+
+  .ac_card_buy_button {
     font-size: 16px;
-    border-radius: 10px;
+    padding: 12px 24px;
+  }
+
+  .ac_card_readmore_button {
+    font-size: 16px;
+  }
+
+  .ac_popup_container {
+    max-width: 600px;
+  }
+
+  .ac_popup_header_image {
+    height: 240px;
+  }
+
+  .ac_popup_main_title {
+    font-size: 26px;
+    padding: 26px 32px 22px 32px;
+  }
+
+  .ac_popup_divider_line {
+    margin: 0 32px 22px 32px;
+  }
+
+  .ac_popup_scrollable_area {
+    padding: 0 32px 32px 32px;
+  }
+
+  .ac_popup_section_heading {
+    font-size: 19px;
+  }
+
+  .ac_popup_scope_item {
+    font-size: 16px;
+    padding: 7px 0;
   }
 }
 
 /* Tablet */
 @media (max-width: 1024px) {
-  .service_areas_main_heading {
-    font-size: 24px;
+  .ac_cards_grid_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
-  .service_areas_intro_text {
-    font-size: 13px;
-  }
-
-  .service_areas_sub_heading {
-    font-size: 15px;
-  }
-
-  .service_areas_tags_container {
-    gap: 10px;
-  }
-
-  .service_area_tag {
-    padding: 9px 18px;
-    font-size: 12px;
+  .ac_popup_container {
+    max-width: 90%;
   }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
-  .service_areas_main_heading {
-    font-size: 22px;
-    margin: 0 0 12px 0;
+  .ac_cards_grid_wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
-  .service_areas_intro_text {
+  .ac_card_buttons_row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ac_card_buy_button {
+    width: 100%;
+  }
+
+  .ac_readmore_arrow{
+    display: inline-block;
+    max-width: 5%;
+  }
+
+  .ac_card_readmore_button {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ac_popup_container {
+    max-width: 95%;
+    max-height: 90vh;
+  }
+
+  .ac_popup_header_image {
+    height: 160px;
+  }
+
+  .ac_popup_main_title {
+    font-size: 18px;
+    padding: 18px 20px 14px 20px;
+  }
+
+  .ac_popup_divider_line {
+    margin: 0 20px 14px 20px;
+  }
+
+  .ac_popup_scrollable_area {
+    padding: 0 20px 20px 20px;
+  }
+
+  .ac_popup_section_heading {
+    font-size: 15px;
+  }
+
+  .ac_popup_scope_item {
     font-size: 12px;
-    margin: 0 0 25px 0;
-  }
-
-  .service_areas_sub_heading {
-    font-size: 14px;
-    margin: 0 0 18px 0;
-  }
-
-  .service_areas_tags_container {
-    gap: 8px;
-  }
-
-  .service_area_tag {
-    padding: 8px 16px;
-    font-size: 11px;
   }
 }
 
 /* Small Mobile */
 @media (max-width: 576px) {
-  .service_areas_main_heading {
+  .ac_card_image_container {
+    height: 180px;
+  }
+
+  .ac_card_qr_overlay {
+    top: 150px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .ac_card_content_wrapper {
+    padding: 38px 18px 18px 18px;
+  }
+
+  .ac_card_warranty_text {
+    min-height: 15px;
+  }
+
+  .ac_card_service_title {
     font-size: 20px;
-    margin: 0 0 10px 0;
+    min-height: 25px;
   }
 
-  .service_areas_intro_text {
+  .ac_card_price_text {
+    min-height: 30px;
+  }
+
+  .ac_card_price_amount {
+    font-size: 22px;
+  }
+
+  .ac_card_short_description {
     font-size: 11px;
-    margin: 0 0 20px 0;
+    min-height: 50px;
   }
 
-  .service_areas_sub_heading {
-    font-size: 13px;
-    margin: 0 0 15px 0;
+  .ac_card_buy_button {
+    font-size: 12px;
+    padding: 9px 18px;
   }
 
-  .service_areas_tags_container {
-    gap: 8px;
-    justify-content: center;
+  .ac_card_readmore_button {
+    font-size: 12px;
   }
 
-  .service_area_tag {
-    padding: 7px 14px;
-    font-size: 10px;
+  .ac_popup_header_image {
+    height: 140px;
+  }
+
+  .ac_popup_main_title {
+    font-size: 16px;
+    padding: 16px 18px 12px 18px;
+  }
+
+  .ac_popup_divider_line {
+    margin: 0 18px 12px 18px;
+  }
+
+  .ac_popup_scrollable_area {
+    padding: 0 18px 18px 18px;
+  }
+
+  .ac_popup_section_heading {
+    font-size: 14px;
+  }
+
+  .ac_popup_scope_item {
+    font-size: 11px;
+    padding: 5px 0;
   }
 }

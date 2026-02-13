@@ -12,6 +12,7 @@ import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import AcBrandBenifit from "./ACBrandComponents/ACBrandBenifit";
+import PriceCard from "../AcLocation/PriceCard";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -125,6 +126,8 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             {/*  */}
           </div>
         </section>
+
+        <PriceCard />
 
         {/* 2 cols*/}
         <section className="section cs_py_30 bg-light-gray">
