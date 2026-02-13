@@ -20,7 +20,6 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
-
     // For SEO
     const metatitle = String(titleSeo || " Appliances Services in Al Karama - Fridge Repair Service");
     const metadescription = String(description || "FAJ offers appliance service in Al Karama. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner");
