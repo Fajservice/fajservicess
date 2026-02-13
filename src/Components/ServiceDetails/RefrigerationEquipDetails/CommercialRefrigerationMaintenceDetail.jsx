@@ -118,7 +118,21 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Commercial Refrigeration Maintenance, Commercial Refrigerator Repair Dubai, Commercial Freezer Repair, Walk in Cooler Repair, Walk in Freezer Service, Refrigeration Unit Maintenance, Commercial Refrigeration Service, Cold Room Repair, Refrigeration Compressor Maintenance, Commercial Refrigeration Technician, Refrigeration System Repair, Restaurant Refrigeration Repair, Supermarket Refrigeration Maintenance",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
           <script type="application/ld+json">
             {JSON.stringify(
               {

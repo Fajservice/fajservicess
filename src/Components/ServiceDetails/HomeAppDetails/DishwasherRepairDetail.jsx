@@ -118,7 +118,21 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher not draining, Dishwasher not cleaning, Dishwasher leaking water, Dishwasher not starting, Dishwasher Pump Repair, Dishwasher Motor Repair, Dishwasher Service Dubai, Dishwasher Maintenance, Dishwasher Repair near me, Built in Dishwasher Repair, Dishwasher Drying Problem, Dishwasher Error Code Fix, Dishwasher Technician",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "1452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
           <script type="application/ld+json">
             {JSON.stringify(
               {

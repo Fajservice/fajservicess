@@ -119,7 +119,21 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Small Home Appliances Service Center, Small Appliance Repair Dubai, Blender Repair, Electric Kettle Repair, Toaster Repair, Food Processor Repair, Mixer Grinder Repair, Juicer Repair, Sandwich Maker Repair, Hand Mixer Repair, Small Appliance Maintenance, Small Appliance Service near me, Home Appliance Repair Dubai, Small Kitchen Appliance Repair, Small Appliance Technician",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
           <script type="application/ld+json">
             {JSON.stringify(
               {

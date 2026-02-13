@@ -120,7 +120,21 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Refrigerator Repair Service, Fridge Repair Dubai, Refrigerator not cooling, Fridge not freezing, Refrigerator water leakage, Fridge Compressor Repair, Refrigerator Gas Refill, Fridge Thermostat Repair, Refrigerator Service Dubai, Fridge Maintenance, Refrigerator Repair near me, Side by Side Fridge Repair, French Door Fridge Repair, Fridge Ice Maker Repair, Refrigerator Technician",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

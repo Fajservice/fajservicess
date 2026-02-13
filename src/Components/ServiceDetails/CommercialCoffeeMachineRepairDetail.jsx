@@ -123,7 +123,21 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Coffee Machine Repairs, Coffee Machine Repair Dubai, Espresso Machine Repair, Cappuccino Machine Repair, Coffee Machine not working, Coffee Machine Leaking, Coffee Machine Cleaning, Coffee Machine Troubleshooting, Coffee Machine Pump Repair, Coffee Machine Heating Issue, Commercial Coffee Machine Repair, Coffee Machine Service, Coffee Machine Maintenance Dubai, Coffee Machine Repair near me, Coffee Machine Fix",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "2432",
+                "bestRating": "5"
+              }
+            })}
+          </script>
 
           <script type="application/ld+json">
             {JSON.stringify(

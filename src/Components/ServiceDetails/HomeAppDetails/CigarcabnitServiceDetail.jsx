@@ -114,6 +114,21 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Cigar Humidor Repair, Humidor Maintenance Dubai, Cigar Humidor Service, Humidor not maintaining humidity, Humidor Temperature Issue, Humidor Seal Repair, Humidor Hygrometer Calibration, Humidor Humidifier Replacement, Cigar Cabinet Repair, Humidor Restoration, Cigar Storage Repair, Commercial Humidor Repair, Humidor Technician Dubai, Humidor Fixing Service",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/cigar-humidor-repair/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       <HeaderForm />
 

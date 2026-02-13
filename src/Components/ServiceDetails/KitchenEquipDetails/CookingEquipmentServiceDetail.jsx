@@ -118,7 +118,21 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Commercial Cooking Appliances Repair, Commercial Kitchen Appliance Repair, Restaurant Cooking Equipment Repair, Commercial Stove Repair, Commercial Range Repair, Commercial Fryer Repair, Commercial Griddle Repair, Commercial Charboiler Repair, Commercial Pasta Cooker Repair, Commercial Bratt Pan Repair, Commercial Cooking Equipment Service, Commercial Cooking Appliance Maintenance, Commercial Cooking Appliance Technician",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/kitchen-equipment/commercial-cooking-appliances-repair-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
           <script type="application/ld+json">
             {JSON.stringify(
               {

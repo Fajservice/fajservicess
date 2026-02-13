@@ -145,8 +145,21 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
-
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "AC Service, AC Repair, AC Maintence, AC Service Dubai,AC Repair, Air Conditioning Repair, AC Service, Air Conditioning Service, AC Maintenance, Air Conditioning Maintenance, AC Installation, Air Conditioning Installation, AC Replacement, AC Duct Cleaning, AC Gas Refill, AC Emergency Repair, 24/7 AC Repair, AC not cooling, AC water leakage, AC compressor repair, AC Repair Dubai, Air Conditioning Service Dubai, AC Maintenance Dubai, Best AC Repair in Dubai, AC Service near me, AC Repair Sharjah, Split Unit AC Repair, Central AC Repair, Ducted AC Service, Window AC Repair, Chiller AC Maintenance, HVAC Services, Cooling System Repair ",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "2852",
+                "bestRating": "5"
+              }
+            })}
+          </script>
           <script type="application/ld+json">
             {JSON.stringify({
               "@context": "https://schema.org",

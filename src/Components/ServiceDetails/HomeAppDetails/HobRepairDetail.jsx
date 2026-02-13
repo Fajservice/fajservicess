@@ -179,7 +179,21 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Hob Repair Service, Hob Repair Dubai, Gas Hob Repair, Electric Hob Repair, Induction Hob Repair, Hob not working, Hob Ignition Problem, Hob Burner Repair, Cooktop Repair, Hob Service Dubai, Hob Maintenance, Hob Repair near me, Glass Hob Repair, Hob Technician, Hob Gas Valve Repair",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/hob-repair-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

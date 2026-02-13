@@ -117,7 +117,21 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Robot Vacuum Cleaner Repair, Robotic Vacuum Repair Dubai, Robot Vacuum not charging, Robot Vacuum not docking, Robot Vacuum Brush Replacement, Robot Vacuum Battery Replacement, Robot Vacuum Sensor Cleaning, Robot Vacuum Motor Repair, Robot Vacuum Error Fix, Smart Vacuum Repair, Automatic Vacuum Cleaner Service, Robot Vacuum Maintenance, Robot Vacuum Repair near me, Vacuum Robot Technician, Vacuum Cleaner Repair",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/robot-vacuum-cleaner-repair/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

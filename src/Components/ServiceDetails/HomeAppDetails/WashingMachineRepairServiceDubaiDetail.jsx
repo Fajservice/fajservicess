@@ -225,6 +225,21 @@ const WashingMachineRepairServiceDubaiDetail = ({
           <meta name="twitter:image:alt" content="Washing Machine Repair Service" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="language" content="English" />
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Washing Machine Repair Dubai, Washing Machine Service Dubai, Washing Machine not spinning, Washing Machine not draining, Washing Machine leaking water, Washing Machine Motor Repair, Washing Machine Drum Repair, Washing Machine Pump Replacement, Front Load Washer Repair, Top Load Washer Repair, Washing Machine Maintenance, Washer Dryer Repair, Washing Machine Repair near me, Washing Machine Technician",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
 

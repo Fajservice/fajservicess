@@ -145,6 +145,21 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="language" content="English" />
           <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Built In Appliances Repair, Built In Oven Repair, Built In Hob Repair, Built In Microwave Repair, Built In Coffee Machine Repair, Built In Fridge Repair, Integrated Appliance Repair, Built In Dishwasher Repair, Built In Appliance Service Dubai, Built In Appliance Maintenance, Kitchen Built In Appliance Repair, Built In Appliance Technician, Built In Appliance Fixing, Built In Appliance Repair near me",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/built-in-appliances-repair-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
+          <script type="application/ld+json">
             {JSON.stringify(
               {
                 "@context": "https://schema.org",

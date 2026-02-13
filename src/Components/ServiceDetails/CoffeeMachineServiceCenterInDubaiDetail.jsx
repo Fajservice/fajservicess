@@ -111,7 +111,21 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
         <meta name="twitter:title" content={metatitle} />
         <meta name="twitter:description" content={metadescription} />
         <meta name="twitter:image" content={metaImage} />
-        
+        <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Coffee Machine Service Center, Coffee Machine Repair Dubai, Coffee Machine Maintenance, Espresso Machine Repair, Coffee Machine Service near me, Commercial Coffee Machine Repair, Coffee Machine Descaling Service, Coffee Machine Technician, Coffee Machine AMC, Coffee Machine Spare Parts, Coffee Machine Fixing, Coffee Machine Breakdown Repair, Coffee Machine Service Contract, Coffee Machine Repair Shop",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "4352",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         <script type="application/ld+json">
           {JSON.stringify(
             {
