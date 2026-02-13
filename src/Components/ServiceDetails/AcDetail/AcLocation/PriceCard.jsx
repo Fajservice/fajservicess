@@ -17,7 +17,7 @@ const PriceCard = () => {
     {
       id: 1,
       image: getImageSrc('calloutprice'),
-      warranty: '',
+ 
       title: 'AC Call-Out',
       icon: getImageSrc('accalll'),
       price: 'AED185',

@@ -10714,6 +10714,7 @@
   padding: 40px 20px 20px 20px;
   display: flex;
   flex-direction: column;
+  height: -webkit-fill-available;
 }
 
 .ac_card_warranty_text {
@@ -10722,7 +10723,7 @@
   margin: 0 0 8px 0;
   font-weight: 500;
   text-align: center;
-  min-height: 16px;
+  min-height: 25px;
 }
 
 .ac_card_service_title {
