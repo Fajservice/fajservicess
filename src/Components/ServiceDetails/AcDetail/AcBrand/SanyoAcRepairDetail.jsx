@@ -12,6 +12,7 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+import PriceCard from "../AcLocation/PriceCard";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -123,6 +124,8 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             {/*  */}
           </div>
         </section>
+
+        <PriceCard />
 
 
         {/* Experts AC Service and Maintenance */}

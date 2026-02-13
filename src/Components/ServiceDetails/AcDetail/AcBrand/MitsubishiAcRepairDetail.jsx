@@ -12,6 +12,7 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 import AcBrandBenifit from "./ACBrandComponents/ACBrandBenifit.jsx";
+import PriceCard from "../AcLocation/PriceCard.jsx";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -121,7 +122,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
             {/*  */}
           </div>
         </section>
-
+        <PriceCard />
 
 
         {/* 2 col */}

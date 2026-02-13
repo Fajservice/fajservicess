@@ -11,6 +11,7 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
+import PriceCard from "../AcLocation/PriceCard.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -121,6 +122,8 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             {/*  */}
           </div>
         </section>
+
+        <PriceCard />
 
         {/* 2 col */}
         <section className="section cs_py_30 bg-light-gray">

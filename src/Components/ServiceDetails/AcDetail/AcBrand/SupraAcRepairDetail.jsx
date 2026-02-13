@@ -12,6 +12,7 @@ import AcProperties from "../../../Common/AcProperties";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
+import PriceCard from "../AcLocation/PriceCard.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -124,6 +125,8 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             {/*  */}
           </div>
         </section>
+
+        <PriceCard />
 
 
         {/* Experts AC Service and Maintenance */}

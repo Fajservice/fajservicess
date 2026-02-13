@@ -11,6 +11,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import PriceCard from "../AcLocation/PriceCard.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -122,6 +123,8 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             {/*  */}
           </div>
         </section>
+
+        <PriceCard />
 
         {/* 2 col */}
         <section className="section cs_py_30 bg-light-gray">
