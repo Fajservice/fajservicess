@@ -152,7 +152,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
 
             <h1 className="cs_fs_30">Kenwood Stand Mixer Repair and Maintenance Service in Dubai</h1>
             <p>
-              If your Kenwood stand mixer is giving you trouble, rely on the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we’ve been delivering fast, dependable, and cost-effective repair services explicitly designed for Kenwood appliances.
+              If your Kenwood stand mixer is giving you trouble, rely on the experts at <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we’ve been delivering fast, dependable, and cost-effective repair services explicitly designed for Kenwood appliances.
               <br />
               Our skilled technicians also repair coffee machines, blenders, and other kitchen appliances using advanced diagnostic tools to minimize downtime for your home or business in Dubai and Sharjah.
             </p>
@@ -178,7 +178,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Kenwood Appliance Service </h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we know that appliance issues often come at the worst possible time. Our certified Kenwood technicians provide trusted repair services to help you avoid costly replacements. We’ll have your stand mixer working perfectly again before it causes you any significant inconvenience.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a>, we know that appliance issues often come at the worst possible time. Our certified Kenwood technicians provide trusted repair services to help you avoid costly replacements. We’ll have your stand mixer working perfectly again before it causes you any significant inconvenience.</p>
               </div>
 
               <div className="col-md-6 ">

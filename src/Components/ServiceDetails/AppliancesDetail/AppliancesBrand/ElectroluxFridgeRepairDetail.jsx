@@ -122,7 +122,7 @@ const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         <h1 className="cs_fs_30">Electrolux Fridge Repair and Electrolux Washing Machine Service in Dubai</h1>
                         <p>
                             Having trouble finding a local technician who specializes in Electrolux kitchen appliances?
-                            At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable service since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician familiar with your specific Electrolux appliance for efficient and accurate repairs.
+                            At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable service since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician familiar with your specific Electrolux appliance for efficient and accurate repairs.
                         </p>
 
                         <div id="get-quote" className=" mt-3">

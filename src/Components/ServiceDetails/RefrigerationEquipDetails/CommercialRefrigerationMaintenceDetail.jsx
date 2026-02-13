@@ -20,8 +20,8 @@ const getImageSrc = (imgPath) => {
 };
 const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Refrigeration Annual Maintenance Contract Service in Dubai");
-  const metadescription = String(description || "FAJ offers commercial refrigeration, including restaurant, hotel, hospital freezer, chiller, cold room, refrigerator annual maintenance contract services Dubai");
+  const metatitle = String(titleSeo || "Commercial Refrigeration Maintenance & Repair Service in Dubai");
+  const metadescription = String(description || "Looking for commercial refrigeration maintenance in Dubai? Call FAJ for walk in cooler, cooling unit, biomedical freezer & chiller repair services near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/");
@@ -118,7 +118,21 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Commercial Refrigeration Maintenance, Commercial Refrigerator Repair Dubai, Commercial Freezer Repair, Walk in Cooler Repair, Walk in Freezer Service, Refrigeration Unit Maintenance, Commercial Refrigeration Service, Cold Room Repair, Refrigeration Compressor Maintenance, Commercial Refrigeration Technician, Refrigeration System Repair, Restaurant Refrigeration Repair, Supermarket Refrigeration Maintenance",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
           <script type="application/ld+json">
             {JSON.stringify(
               {
@@ -206,7 +220,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Refrigeration Maintenance Contract Services (AMC) in Dubai</h1>
+            <h1 className="cs_fs_30">Commercial Refrigeration Maintenance and| Freezer & Chiller Repair Service in Dubai</h1>
             <p>Commercial refrigeration maintenance and repairs are essential for businesses like biomedical facilities, pharmacies, supermarkets, restaurants, hotels, and food processing plants, ensuring product freshness and safety.<br />FAJ Technical Services L.L.C, established in 2010, is recognised for its reliability and flexibility. We respond promptly to refrigeration breakdowns and work diligently to address issues of any size. Our services include repairing and servicing walk-in coolers, walk-in chillers, freezers, and commercial refrigerators.<br />Timely maintenance boosts efficiency and extends equipment lifespan. At FAJ, we highlight the importance of preventative measures in commercial refrigeration to avoid costly failures. We also provide installation services for commercial chillers and freezers. </p>
 
             <div id="get-quote" className=" mt-3">

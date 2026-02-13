@@ -154,7 +154,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             <h1 className="cs_fs_30">Sears Appliances Repair and Maintenance Services in Dubai</h1>
             <p>
               Looking for an experienced local technician to repair your Sears appliances? You’ve come to the right place.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable, cost-effective repair solutions across Dubai and Sharjah. Our network of trusted professionals specializes in Sears appliance repair and understands the brand’s unique service needs. We’re dedicated to connecting you with skilled technicians near you to restore your appliances quickly and efficiently. Your satisfaction is always our top priority.
+              <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has provided reliable, cost-effective repair solutions across Dubai and Sharjah. Our network of trusted professionals specializes in Sears appliance repair and understands the brand’s unique service needs. We’re dedicated to connecting you with skilled technicians near you to restore your appliances quickly and efficiently. Your satisfaction is always our top priority.
             </p>
 
             <div id="get-quote" className=" mt-3">

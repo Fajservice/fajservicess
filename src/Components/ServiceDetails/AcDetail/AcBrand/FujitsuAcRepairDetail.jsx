@@ -28,7 +28,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Fujitsu AC Repair in Dubai, Fujitsu Air Conditioner Maintenance, Fujitsu AC Service, Fujitsu AC Fix, Fujitsu Air Condition Repair, Fujitsu Air Condition Maintenance, Fujitsu Air Condition Service, Fujitsu Air Condition Fix");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/fujitsu/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -113,7 +113,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Fujitsu AC Repair and Maintenance Services in Dubai</h1>
-            <p> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has proudly served the Dubai community since 2010, building a reputation for excellence in Fujitsu HVAC services.<br />
+            <p> <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has proudly served the Dubai community since 2010, building a reputation for excellence in Fujitsu HVAC services.<br />
             Our skilled team specializes in Fujitsu AC repair, maintenance, and installation for residential and commercial properties in Dubai and Sharjah. To maintain indoor comfort year-round, we recommend regular maintenance, including inspections and cleaning. Our expert Fujitsu AC cleaning service improves efficiency and air quality while extending the lifespan of your unit. Trust F A J for all your Fujitsu AC needs.
 
             </p>

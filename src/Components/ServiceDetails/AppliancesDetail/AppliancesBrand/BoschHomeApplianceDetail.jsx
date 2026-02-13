@@ -153,7 +153,7 @@ const BoschHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <h1 className="cs_fs_30">Bosch Home Appliance Repair Service and Installation</h1>
             <p>
-              If you're looking for a skilled local technician who specializes in Bosch appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to help.
+              If you're looking for a skilled local technician who specializes in Bosch appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to help.
               Since 2010, we've provided reliable and affordable solutions through a network of trusted, qualified professionals who understand the specific needs of Bosch appliance repair.
               <br />Our mission is to connect you with expert Bosch technicians in Dubai and Sharjah who are familiar with the full range of Bosch appliances. Your satisfaction is always our top priority.
             </p>

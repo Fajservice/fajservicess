@@ -146,6 +146,21 @@ const OvenRepairDetail = ({
           <meta name="twitter:image:alt" content="Built-in Appliances Repair Dubai" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="language" content="English" />
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Commercial Oven Repair, Commercial Kitchen Oven Repair, Pizza Oven Repair, Convection Oven Repair, Deck Oven Repair, Commercial Oven not heating, Commercial Oven Thermostat Repair, Commercial Oven Service Dubai, Commercial Oven Maintenance, Commercial Oven Repair near me, Bakery Oven Repair, Commercial Cooking Equipment Repair, Restaurant Oven Repair, Commercial Oven Technician",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/kitchen-equipment/oven-repair/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "2952",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

@@ -28,7 +28,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Samsung AC Repair, Samsung AC Service, Samsung Air Conditioner Maintenance, Samsung AC Cleaning, Samsung AC Installation, Samsung AC Repair Dubai, Samsung Air Conditioner Service Dubai, Samsung Split AC Repair Dubai, Samsung Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -117,7 +117,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Samsung Air Conditioning Repair and Maintenance Service in Dubai</h1>
-            <p>Are you looking for a reliable provider for Samsung AC repair or maintenance for your business premises? Call at  <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> stands out as the leading service for Samsung air conditioning systems. Our expert technicians specialize in both residential and commercial Samsung AC services in Dubai, making us the top choice for air conditioning needs.<br />We offer Samsung AC service and maintenance packages tailored to meet the specific requirements of your business, ensuring that your Samsung air conditioning system operates smoothly. If you require Samsung AC repair, or inspection of your Samsung air conditioning system, please fill out our inquiry form, and we will send you a quote the same day.
+            <p>Are you looking for a reliable provider for Samsung AC repair or maintenance for your business premises? Call at  <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> stands out as the leading service for Samsung air conditioning systems. Our expert technicians specialize in both residential and commercial Samsung AC services in Dubai, making us the top choice for air conditioning needs.<br />We offer Samsung AC service and maintenance packages tailored to meet the specific requirements of your business, ensuring that your Samsung air conditioning system operates smoothly. If you require Samsung AC repair, or inspection of your Samsung air conditioning system, please fill out our inquiry form, and we will send you a quote the same day.
             </p>
 
             <div id="get-quote" className=" mt-3">

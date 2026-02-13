@@ -22,12 +22,12 @@ const getImageSrc = (imgPath) => {
 const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Whirlpool Air Condition Repair in Dubai | A/C Cleaning");
-  const metadescription = String(description || "FAJ Offering Whirlpool Air Condition repair in Dubai. We are experts in Split Air Conditioning maintenance service nearby & Air con Fixing. Call 043300002");
+  const metatitle = String(titleSeo || "Whirlpool AC and Whirlpool Appliance Repair Service in Dubai");
+  const metadescription = String(description || "Whirlpool AC service & repair in Dubai. We are offering fridge freezer, washing machine, dryer, laundry, dishwasher, oven maintenance with part warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Whirpool Air Conditioner Repair in Dubai, Whirlpool AC Maintenance, Whirlpool AC Service, Whirlpool Air Conditioner Installation, Whirlpool AC Cleaning Service, Whirlpool AC Repair Dubai, Whirlpool AC AMC Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/whirlpool/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -110,11 +110,8 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Whirlpool Air Conditioner Repair and Services in Dubai</h1>
-            <p>
-              Ensuring year-round comfort requires effective management of challenges such as summer humidity, warm nights, and indoor allergens.
-              <br />Since its founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of Whirlpool air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Whirlpool AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
-            </p>
+            <h1 className="cs_fs_30">Whirlpool AC Repair Center and Home Appliances Service in Dubai</h1>
+            <p>Whirlpool home appliances play a crucial role in our daily lives by providing comfort and convenience. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, our goal is to enhance our quality of life through reliable repairs at our Whirlpool home appliances repair center.<br/>Some key Whirlpool home  appliances that significantly impact our daily routines include air conditioners, washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers. The inconvenience caused by any of these appliances breaking down unexpectedly can be considerable. That’s why we offer dedicated repair, maintenance, and service in Dubai.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -138,24 +135,25 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Whirlpool AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="Whirlpool AC Service" />
               </div>

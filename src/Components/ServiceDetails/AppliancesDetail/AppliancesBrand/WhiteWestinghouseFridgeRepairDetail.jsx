@@ -153,7 +153,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
             <h1 className="cs_fs_28">White Westinghouse Fridge Repair and Freezer Service in Dubai</h1>
             <p>
               Having trouble finding a local technician who specializes in White Westinghouse kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering reliable and affordable appliance repair services since 2010. Our extensive network includes experienced and thoroughly vetted professionals, and whenever possible, we assign a technician who is specifically trained to handle your White Westinghouse appliance, ensuring accurate, efficient service every time.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been offering reliable and affordable appliance repair services since 2010. Our extensive network includes experienced and thoroughly vetted professionals, and whenever possible, we assign a technician who is specifically trained to handle your White Westinghouse appliance, ensuring accurate, efficient service every time.
             </p>
 
             <div id="get-quote" className=" mt-3">

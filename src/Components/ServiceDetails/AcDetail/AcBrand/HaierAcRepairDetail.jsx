@@ -28,7 +28,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Haier AC Repair in Dubai, Haier Air Conditioner Service, Haier AC Maintenance, Haier AC Fix, Haier Air Condition Repair, Haier Air Condition Maintenance, Haier Air Condition Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/haier/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -146,7 +146,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <h1 className="cs_fs_30">Expert Haier AC Repair and Service in Dubai</h1>
             <p>
               To complete year-round comfort, we must embrace the challenge of overcoming summer humidity, warm nights, and indoor allergens.
-              <br /> Since our inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has established itself as a reliable and respected provider of Haier air conditioning solutions across the regions of Dubai and Sharjah.<br />
+              <br /> Since our inception in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has established itself as a reliable and respected provider of Haier air conditioning solutions across the regions of Dubai and Sharjah.<br />
               Our team of skilled technicians is well-equipped to offer a comprehensive range of services, including special Haier AC repair, thorough servicing, routine maintenance, and professional installation for both residential homes and commercial establishments.
             </p>
             <div id="get-quote" className=" mt-3">

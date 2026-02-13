@@ -183,7 +183,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 						<h1 className="cs_fs_30">Blomberg Fridge Repair and Washing Machine Service in Dubai</h1>
 						<p>
 							Having trouble finding a local technician who specializes in Blomberg kitchen appliances?
-							At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable repair services since 2010. Our extensive network of skilled and vetted professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific Blomberg appliance.
+							At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable repair services since 2010. Our extensive network of skilled and vetted professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific Blomberg appliance.
 						</p>
 
 						<div id="get-quote" className=" mt-3">

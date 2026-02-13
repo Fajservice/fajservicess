@@ -27,7 +27,7 @@ const AcRepairInGardensDetails = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "Call 043300002 for AC Services in the Gardens Dubai. FAJ here to help central chiller unit maintenance & repair near me Dubai AC fixing");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in the gardens, ac repair in the gardens, ac maintenance in the gardens, ac cleaning in the gardens, ac installation in the gardens, ac technician in the gardens, air conditioning service in the gardens, air conditioning repair in the gardens, air conditioning maintenance in the gardens, air conditioning cleaning in the gardens, air conditioning installation in the gardens");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-gardens/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-gardens/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
 
     subtitle = "Testimonial"
@@ -117,7 +117,7 @@ const AcRepairInGardensDetails = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <h1 className="cs_fs_30">AC Service in The Gardens</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me The Gardens, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                            <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me The Gardens, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">

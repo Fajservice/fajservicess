@@ -121,7 +121,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <div className="container">
                         <h1 className="cs_fs_30">Aftron Fridge Repair and Aftron Washing Machine Service in Dubai</h1>
                         <p>
-                            Struggling to find a local Aftron appliance technician who understands Aftron kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has offered trusted and cost-effective services since 2010. Our vast network includes experienced, and carefully screened professionals. When available, we assign technicians experienced with your specific Aftron model.
+                            Struggling to find a local Aftron appliance technician who understands Aftron kitchen appliances? <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has offered trusted and cost-effective services since 2010. Our vast network includes experienced, and carefully screened professionals. When available, we assign technicians experienced with your specific Aftron model.
                         </p>
 
                         <div id="get-quote" className=" mt-3">

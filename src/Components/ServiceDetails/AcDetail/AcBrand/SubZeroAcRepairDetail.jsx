@@ -22,12 +22,12 @@ const getImageSrc = (imgPath) => {
 const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Sub Zero AC Repair in Dubai | AC Cleaning Services Near Me");
-  const metadescription = String(description || "Sub Zero AC Repair in Dubai offers expert maintenance services for central and split air conditioners. We are the go-to air conditioning fix FAJ company.");
+  const metatitle = String(titleSeo || "Sub Zero AC Repair | AC Cleaning Service Dubai Near Me");
+  const metadescription = String(description || "Sub Zero AC Repair Dubai offers expert maintenance services for central and split air conditioners. We are the go-to air conditioning fix FAJ company.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Sub Zero AC Repair, Sub Zero AC Service, Sub Zero Air Conditioner Maintenance, Sub Zero AC Installation, Sub Zero AC Cleaning Service, Sub Zero AC Repair Dubai, Sub Zero Air Conditioner Service Dubai, Sub Zero AC Repair Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/sub-zero/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -111,10 +111,9 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Sub Zero AC Repair and Service in Dubai</h1>
-            <p>
-              Ensuring year-round comfort requires effective management of challenges such as summer humidity, warm nights, and indoor allergens.
-              <br /> Since its founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has been a trusted provider of Sub Zero air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Sub Zero AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
+            <h1 className="cs_fs_30">Sub Zero AC Repair and Cleaning Service in Dubai</h1>
+            <p>To ensure year-round comfort, it is essential to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.<br />Since its founding in 2010,
+ <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has been a trusted provider of Sub Zero air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Sub Zero AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -139,24 +138,25 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need SubZero AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="Sub Zero AC Service" />
               </div>

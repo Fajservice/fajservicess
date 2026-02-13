@@ -145,6 +145,21 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="language" content="English" />
           <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Built In Appliances Repair, Built In Oven Repair, Built In Hob Repair, Built In Microwave Repair, Built In Coffee Machine Repair, Built In Fridge Repair, Integrated Appliance Repair, Built In Dishwasher Repair, Built In Appliance Service Dubai, Built In Appliance Maintenance, Kitchen Built In Appliance Repair, Built In Appliance Technician, Built In Appliance Fixing, Built In Appliance Repair near me",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/built-in-appliances-repair-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
+          <script type="application/ld+json">
             {JSON.stringify(
               {
                 "@context": "https://schema.org",
@@ -263,7 +278,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
                 </h2>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">

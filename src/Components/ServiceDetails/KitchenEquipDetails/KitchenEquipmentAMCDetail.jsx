@@ -117,7 +117,21 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Commercial Kitchen Equipment AMC, Kitchen Equipment Maintenance Contract Dubai, Restaurant Equipment AMC, Commercial Kitchen AMC, Kitchen Equipment Service Contract, Commercial Appliance AMC, Kitchen Equipment Preventive Maintenance, Commercial Kitchen Maintenance Plan, Hotel Kitchen Equipment AMC, Catering Equipment AMC, Kitchen Equipment Warranty Service, Commercial Kitchen Service Contract, Kitchen Equipment Care Plan",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/kitchen-equipment/commercial-kitchen-equipment-amc/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

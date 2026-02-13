@@ -24,12 +24,12 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
 
 
   // For SEO
-  const metatitle = String(titleSeo || "West Point Split AC Repair in Dubai | A/C Cleaning Service Near");
-  const metadescription = String(description || "Are You Looking for Westpoint split AC repair in Dubai? FAJ experts in window air conditioner maintenance and service near me, Dubai. Call 043300002");
+  const metatitle = String(titleSeo || "Westpoint Split AC Repair and Window Maintenance Service Dubai");
+  const metadescription = String(description || "Westpoint Window and Split AC service & repair in Dubai. We are offering Westpoint fridge, washing machine, stove, oven repairs with part warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Westpoint AC repair in Dubai, Westpoint AC maintenance in Dubai, Westpoint AC service in Dubai, Westpoint air conditioner repair in Dubai, Westpoint split AC repair in Dubai, Westpoint wall mounted AC repair in Dubai, Westpoint ductless AC repair in Dubai, Westpoint aircon repair in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/westpoint/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -111,8 +111,8 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Westpoint AC Repair and Maintenance Service in Dubai</h1>
-            <p>To achieve year-round comfort, it is imperative to effectively confront challenges such as summer humidity, warm nights, and indoor allergens head-on.<br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has established itself as the leading provider of Westpoint air conditioning solutions in Dubai and Sharjah.<br />Our skilled team delivers comprehensive services, including AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to maximizing your air conditioning system&rsquo;s performance, ensuring that your indoor comfort is always at its best.</p>
+            <h1 className="cs_fs_30">Westpoint AC Repair Center and Home Appliances Service Dubai</h1>
+            <p>Westpoint home appliances play a crucial role in our daily lives, providing comfort and comfort. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, our goal is to improve our quality of life through reliable repairs at our Supra home appliances repair center.<br />Some key Westpoint appliances that greatly impact our daily routines include Westpoint air conditioners, washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers. The inconvenience caused by any of these appliances suddenly breaking down can be considerable, which is why we offer dedicated repair, maintenance, and service in Dubai.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -130,20 +130,21 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Westpoint AC Maintenance and Services</h2>
                 <p className="mb-2">If you're in Dubai and need Westpoint <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">air conditioner repair</a>, FAJ is the solution for you!<br />Our expert team ensures your AC systems work efficiently in Dubai and Sharjah, providing reliable service for your comfort all year round. Enjoy a cool, refreshing environment with our assistance!</p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Westpoint AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>

@@ -20,7 +20,6 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
-
     // For SEO
     const metatitle = String(titleSeo || " Appliances Services in Al Karama - Fridge Repair Service");
     const metadescription = String(description || "FAJ offers appliance service in Al Karama. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner");
@@ -162,7 +161,7 @@ const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                 </p>
 
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h2>
-                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876" target="_blank" rel="noopener noreferrer"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                                <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7" target="_blank" rel="noopener noreferrer"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                             </div>
 
                             <div className="col-md-6 ">

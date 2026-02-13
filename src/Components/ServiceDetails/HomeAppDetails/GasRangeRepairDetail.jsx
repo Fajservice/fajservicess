@@ -119,7 +119,21 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="twitter:title" content="Gas Cooker Repair in Dubai | Cooking Range Service Near Me" />
           <meta name="twitter:description" content="Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me" />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Gas Cooker Repair Service, Gas Cooker Repair Dubai, Gas Cooker not working, Gas Stove Repair, Gas Cooker Ignition Repair, Gas Cooker Flame Problem, Gas Cooker Leakage Check, Gas Cooker Maintenance, Gas Cooker Service Dubai, Gas Cooker Repair near me, Gas Cooker Oven Repair, Gas Cooker Burner Repair, Gas Cooker Technician, Gas Cooker Fix, Gas Hob Cooker Repair",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/gas-cooker-repair-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -156,7 +170,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
                 </h2>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">

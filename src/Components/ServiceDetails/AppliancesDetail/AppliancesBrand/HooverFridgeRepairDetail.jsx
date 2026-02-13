@@ -154,7 +154,7 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <h1 className="cs_fs_30">Hoover Fridge Repair & Washing Machine Service in Dubai </h1>
             <p>
-              Having trouble finding a reliable Hoover appliance technician for your kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable service since 2010. Our wide network of thoroughly vetted, experienced professionals allows us to send a technician who understands your specific Hoover appliance whenever possible.
+              Having trouble finding a reliable Hoover appliance technician for your kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable service since 2010. Our wide network of thoroughly vetted, experienced professionals allows us to send a technician who understands your specific Hoover appliance whenever possible.
             </p>
 
             <div id="get-quote" className=" mt-3">

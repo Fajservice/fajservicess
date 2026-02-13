@@ -118,7 +118,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Candy Refrigerator Repair and Candy Washing Machine Service Dubai</h1>
-            <p>Having trouble finding a reliable technician for your Candy kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our wide network of experienced, well-vetted professionals ensures that, whenever possible, you're matched with a technician who specializes in your specific Candy appliance. We’re committed to delivering fast, effective repairs to keep your appliances running smoothly.
+            <p>Having trouble finding a reliable technician for your Candy kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our wide network of experienced, well-vetted professionals ensures that, whenever possible, you're matched with a technician who specializes in your specific Candy appliance. We’re committed to delivering fast, effective repairs to keep your appliances running smoothly.
 
             </p>
 

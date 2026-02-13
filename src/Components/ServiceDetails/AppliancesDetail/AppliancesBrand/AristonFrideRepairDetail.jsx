@@ -153,7 +153,7 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             <h1 className="cs_fs_30">Ariston Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
               Struggling to find a local expert for your Ariston kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair solutions since 2010. Our extensive network includes skilled and carefully vetted technicians, and whenever possible, we’ll send someone who has hands-on experience with your specific Ariston appliance model.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair solutions since 2010. Our extensive network includes skilled and carefully vetted technicians, and whenever possible, we’ll send someone who has hands-on experience with your specific Ariston appliance model.
             </p>
 
             <div id="get-quote" className=" mt-3">

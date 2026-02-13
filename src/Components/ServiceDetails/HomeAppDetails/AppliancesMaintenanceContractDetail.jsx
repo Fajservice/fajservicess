@@ -138,6 +138,21 @@ const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,
           <meta name="twitter:description" content={metaDescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:image:alt" content="Annual Maintenance Contract" />
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Appliances AMC Service, Appliances Annual Maintenance Contract Dubai, Home Appliance AMC, Kitchen Appliance Maintenance Contract, Appliance Service Contract, Preventive Appliance Maintenance, Appliance AMC Plan, Appliance Maintenance Agreement, Appliance Servicing Contract, Appliance AMC near me, Best Appliance AMC Dubai, Appliance Warranty Service, Appliance Care Plan, Appliance Maintenance Package",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/appliances-amc-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

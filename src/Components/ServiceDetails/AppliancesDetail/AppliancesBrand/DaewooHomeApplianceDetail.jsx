@@ -122,7 +122,7 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                         <h1 className="cs_fs_30">Daewoo Home Appliance Repair Service and Installation</h1>
                         <p>
                             Having trouble finding a local technician who specializes in Daewoo kitchen appliances?
-                            At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable services since 2010. Our extensive network of qualified, experienced professionals ensures that, whenever possible, we’ll assign a technician who is familiar with your specific Daewoo appliance for accurate and efficient repairs.
+                            At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable services since 2010. Our extensive network of qualified, experienced professionals ensures that, whenever possible, we’ll assign a technician who is familiar with your specific Daewoo appliance for accurate and efficient repairs.
 
                         </p>
 

@@ -149,11 +149,11 @@ const Home = ({
                   "url": "https://www.fajservices.ae/",
                   "telephone": "+97143300002",
                   "priceRange": "$$",
-                  "image": "https://www.fajservices.ae/img/fajlogo.png",
+                  "image": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public",
                   "logo": {
                     "@type": "ImageObject",
                     "@id": "https://www.fajservices.ae/#logo",
-                    "url": "https://www.fajservices.ae/img/FajLogo.svg",
+                    "url": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public",
                     "width": 250,
                     "height": 60
                   },
@@ -206,7 +206,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review1",
+                  "@id": "https://www.fajservices.ae/#review1",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Bassam Sh" },
@@ -214,7 +214,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review2",
+                  "@id": "https://www.fajservices.ae/#review2",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Laura Terrero González" },
@@ -222,7 +222,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review3",
+                  "@id": "https://www.fajservices.ae/#review3",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Abdullah Kiani" },
@@ -230,7 +230,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review4",
+                  "@id": "https://www.fajservices.ae/#review4",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Usman Ali" },
@@ -238,7 +238,7 @@ const Home = ({
                 },
                 {
                   "@type": "Review",
-                  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#review5",
+                  "@id": "https://www.fajservices.ae/#review5",
                   "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
                   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                   "author": { "@type": "Person", "name": "Dunja Lazović" },

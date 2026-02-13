@@ -31,7 +31,7 @@ const EyeSlashIcon = () => (
 const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metaImage = "https://www.fajservices.ae/img/banners/electrical-service.jpg";
+  const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/banners/electrical-service.jpg";
   const metatitle = String(titleSeo || "Electrical Plumbung Services in dubai");
   const metadescription = String(description || "Get fast electrical plumbing service in Dubai. We have expert electricians, plumbers near me. Electrical services in office, villa, and apartment. 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");

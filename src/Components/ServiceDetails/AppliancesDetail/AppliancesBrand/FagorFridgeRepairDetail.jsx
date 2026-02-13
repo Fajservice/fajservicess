@@ -151,7 +151,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             <h1 className="cs_fs_30">Fagor Fridge Repair, Dishwasher and Ice Machine Service Dubai</h1>
             <p>
               Having trouble finding a local technician who specializes in Fagor kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with expertise in your specific Fagor appliance for efficient and accurate service.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with expertise in your specific Fagor appliance for efficient and accurate service.
             </p>
 
             <div id="get-quote" className=" mt-3">

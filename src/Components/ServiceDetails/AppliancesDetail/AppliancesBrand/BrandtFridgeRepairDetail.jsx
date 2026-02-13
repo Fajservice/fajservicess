@@ -119,7 +119,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <h1 className="cs_fs_30">Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair</h1>
                         <p>
                             Struggling to find a local technician with expertise in Brandt kitchen appliances?
-                            <br /> At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and cost-effective repair solutions since 2010. Our extensive network includes thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who understands your specific Brandt appliance to ensure prompt and accurate service.
+                            <br /> At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and cost-effective repair solutions since 2010. Our extensive network includes thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who understands your specific Brandt appliance to ensure prompt and accurate service.
                         </p>
 
                         <div id="get-quote" className=" mt-3">

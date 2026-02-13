@@ -60,7 +60,6 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/">Ecovacs Vacuum Cleaner Repair and Service in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/roborock-vacuum-cleaner-repair-service-in-dubai/">Roborock Vacuum Cleaner Repair and Service in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/unox-commercial-oven-repair-and-maintenance-service-dubai/">Unox Commercial Oven Repair and Maintenance Service Dubai</a></li>
-                            <li><a href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/">Rational Commercial Kitchen Equipment Repair and Maintenance Service Dubai</a></li>
                              <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/flamingo-villas/">Flamingo Villas</a></li>
                              <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/alaweer/">Alaweer</a></li>
                              <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-mizhar/">Al Mizhar</a></li>
@@ -114,6 +113,7 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/samsung/">Samsung</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-media-city/">Dubai Media City</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-raffa/">Al Raffa</a></li>
+       
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/hitachi/">Hitachi</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-meadows/">The Meadows</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah/">Jumeirah</a></li>
@@ -127,7 +127,6 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jafza/">Jafza</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/academy-city/">Academy City</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-furjan/">Al Furjan</a></li>
-        <li><a href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/">Rational Commercial Kitchen Equipment Repair And Maintenance Service Dubai</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/ge-general-electric/">Ge General Electric</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-dip/">Jebel Ali Dip</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches-2/">Arabian Ranches 2</a></li>
@@ -166,7 +165,6 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-healthcare-city/">Dubai Healthcare City</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/franke/">Franke</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/toshiba/">Toshiba</a></li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/cedre-villas-silicon-oasis-dubai/">Cedre Villas Silicon Oasis Dubai</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/hoover/">Hoover</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-greens/">The Greens</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/knowledge-village/">Knowledge Village</a></li>
@@ -178,7 +176,6 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/hisense/">Hisense</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-khawaneej/">Al Khawaneej</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/media-city/">Media City</a></li>
-        <li><a href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/unox-commercial-oven-repair-and-maintenance-service-dubai/">Unox Commercial Oven Repair And Maintenance Service Dubai</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali/">Jebel Ali</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-villa/">The Villa</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/admiral/">Admiral</a></li>
@@ -268,18 +265,60 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/white-westinghouse/">White Westinghouse</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jge/">Jge</a></li>
-
-       <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/bryant/">Bryant</a></li>
-        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-wasl/">Al Wasl</a></li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/bur-dubai/">Bur Dubai</a></li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/aftron/">Aftron</a></li>
-        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches-2/">Arabian Ranches 2</a></li>
-        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-karama/">Al Karama</a></li>
-        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-internet-city/">Dubai Internet City</a></li>
-        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/deira/">Deira</a></li>
-        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubailand-the-villa/">Dubailand The Villa</a></li>
-        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches/">Arabian Ranches</a></li>
-                        </ul>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-raffa/">Al Raffa</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-park/">Jumeirah Park</a></li>
+        <li><a href="https://www.fajservices.ae/services/commercial-laundry-equipment/">Commercial Laundry Equipment</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/layan-community/">Layan Community</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/umm-al-sheif/">Umm Al Sheif</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/mankhool/">Mankhool</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/oud-metha/">Oud Metha</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jbr-dubai/">Jbr Dubai</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-villa/">The Villa</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-sufouh/">Al Sufouh</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-mamzar/">Al Mamzar</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-satwa/">Al Satwa</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-quoz/">Al Quoz</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/remraam/">Remraam</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/tecom/">Tecom</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/index-tower-difc/">Index Tower Difc</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/international-media-and-production-zone/">International Media And Production Zone</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-dubai/">Jumeirah Dubai</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-investments-park/">Dubai Investments Park</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-free-zone/">Jebel Ali Free Zone</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jge/">Jge</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-badaa/">Al Badaa</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali/">Jebel Ali</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/smeg-mixer-repair/">Smeg Mixer Repair</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-village/">Jumeirah Village</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/arabian-ranches-2/">Arabian Ranches 2</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/flamingo-villas-dubai/">Flamingo Villas Dubai</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-mamzar/">Al Mamzar</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-lakes/">The Lakes</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-heights/">Jumeirah Heights</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/falcon-city-dubai/">Falcon City Dubai</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-islands/">Jumeirah Islands</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-wasl/">Al Wasl</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-bada/">Al Bada</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-healthcare-city/">Dubai Healthcare City</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-limestone-house-difc/">The Limestone House Difc</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-springs/">The Springs</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-mizhar/">Al Mizhar</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/burj-khalifa-lake/">Burj Khalifa Lake</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-furjan/">Al Furjan</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/index-tower-difc/">Index Tower Difc</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/town-dubai/">Town Dubai</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-views/">The Views</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubailand-mazaya-queue-point/">Dubailand Mazaya Queue Point</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-dip/">Jebel Ali Dip</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-ghadeer-community/">Al Ghadeer Community</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-industrial-area/">Jebel Ali Industrial Area</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/nad-al-sheba/">Nad Al Sheba</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-waha-community/">Al Waha Community</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/mudon/ ">Mudon</a></li>
+        <li><a href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/">Rational Commercial kitchen Equipment</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/cedre-villas-silicon-oasis-dubai/">Cedre Villas Silicon Oasis</a></li>
+                    </ul>
                     </div>
                 </div>
             </section>

@@ -151,7 +151,7 @@ const SiemensHomeApplianceDetail = ({
                     <div className="container">
                         <h1 className="cs_fs_30">Siemens Home Appliance Repair Service and Installation</h1>
                         <p>
-                            Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been delivering dependable Siemens appliance repair and service across Dubai. We know appliance issues can happen without warning, which is why we offer prompt, affordable solutions.
+                            Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been delivering dependable Siemens appliance repair and service across Dubai. We know appliance issues can happen without warning, which is why we offer prompt, affordable solutions.
                             Our skilled technicians are available throughout Dubai and Sharjah, ready to provide on-site Siemens washing machine repair and service.
                         </p>
 

@@ -151,7 +151,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     <div className="container">
                         <h1 className="cs_fs_30">Panasonic Fridge Repair and Washing Machine Service in Dubai </h1>
                         <p>
-                            If you're looking for a skilled technician to repair your Panasonic appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our team includes experienced professionals specializing in Panasonic appliance repair and available across Dubai and Sharjah. We focus on fast, efficient service and customer satisfaction, ensuring your appliances are back in working order without hassle.
+                            If you're looking for a skilled technician to repair your Panasonic appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our team includes experienced professionals specializing in Panasonic appliance repair and available across Dubai and Sharjah. We focus on fast, efficient service and customer satisfaction, ensuring your appliances are back in working order without hassle.
                         </p>
 
                         <div id="get-quote" className=" mt-3">

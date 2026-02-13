@@ -27,7 +27,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Rheem AC Repair, Rheem Air Conditioner Service, Rheem AC Maintenance Dubai, Rheem AC Repair Dubai, Rheem Air Conditioning Dubai, Rheem AC Service Dubai, Rheem Air Conditioner Repair Dubai, Rheem AC Installation Dubai, Rheem HVAC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning/brands/rheem/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -113,7 +113,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Rheem Air Conditioning Repair and Maintenance Service in Dubai</h1>
-            <p>With over a decade of experience since 2010 in providing Rheem AC repair to make homes comfortable year-round, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is your premier reference for HVAC systems, central air conditioning, VRF systems, ducted split AC unit maintenance services, and more. Our dedicated team is ready to deliver high-quality, professional service to ensure you and your family remain comfortable in both home and business environments.<br />A Rheem air conditioning is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Rheem AC maintenance is important. In Dubai, professional cleaning services for Rheem units are available to keep your system running efficiently
+            <p>With over a decade of experience since 2010 in providing Rheem AC repair to make homes comfortable year-round, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is your premier reference for HVAC systems, central air conditioning, VRF systems, ducted split AC unit maintenance services, and more. Our dedicated team is ready to deliver high-quality, professional service to ensure you and your family remain comfortable in both home and business environments.<br />A Rheem air conditioning is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Rheem AC maintenance is important. In Dubai, professional cleaning services for Rheem units are available to keep your system running efficiently
             </p>
 
             <div id="get-quote" className=" mt-3">

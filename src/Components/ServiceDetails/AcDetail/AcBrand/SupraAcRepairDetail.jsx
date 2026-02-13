@@ -25,12 +25,12 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   // For SEO
   const metatitle = titleSeo?.trim() 
   ? titleSeo 
-  : "Supra AC Repair in Dubai | Split Air Conditioner Cleaning";
-  const metadescription = String(description || "Same-day Supra AC repair in Dubai, our technicians are experts in Supra window A/C maintenance service and fixing aircon. Book now 043300002");
+  : "Supra AC Repair | Supra Split Air Conditioner Cleaning Dubai";
+  const metadescription = String(description || "Supra Window and Split AC service & repair in Dubai. We are offering Supra fridge, washing machine, stove, oven repairs near you  with part warranty ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Supra AC Repair Dubai, Supra Split Air Conditioner Service, Supra Aircon Maintenance Dubai, Supra AC Fix Dubai, Supra Air Conditioner Repair Dubai, Supra Air Conditioner Service Dubai, Supra AC Service Dubai, Supra AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/supra/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -113,8 +113,9 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Supra AC Repair and Maintenance Service in Dubai</h1>
-            <p>Achieving year-round comfort involves effectively addressing challenges like summer humidity, warm nights, and indoor allergens.<br />Since its inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a reliable provider of Supra air conditioner solutions in Dubai and Sharjah.<br />Our experienced team delivers a variety of services, including Supra AC repair, cleaning, maintenance, and installation, for both residential and commercial units. We are dedicated to maximizing the efficiency of your air conditioning system to improve indoor comfort.</p>
+            <h1 className="cs_fs_30">Supra AC Repair Center and Home Appliances Service Dubai</h1>
+            <p>Supra Home appliances play a crucial role in our daily lives and have always been important for domestic comfort and convenience. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> aim to improve our quality of life through reliable Supra home appliances repair center.<br />Some key home appliances that significantly impact our daily routines include Supra air conditioning, Supra washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers repair, maintenance and service center Dubai. The trouble caused by any of these Supra appliances suddenly breaking down can be considerable.
+</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -132,25 +133,25 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Supra AC Maintenance and Services</h2>
                 <p className="mb-2">If you are in Dubai and require professional repair services for Supra air conditioners, <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> is here to help.<br />Our skilled technicians ensure your air conditioning systems operate efficiently, delivering reliable cooling solutions tailored to the climate of Dubai and Sharjah.<br />Trust us to keep your indoor environment comfortable and refreshing all year round.</p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Supra AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
-
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Supra Ac Repair" />
 

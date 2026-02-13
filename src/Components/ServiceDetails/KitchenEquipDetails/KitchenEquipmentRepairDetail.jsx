@@ -115,7 +115,21 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Commercial Kitchen Equipment Maintenance, Commercial Kitchen Repair Dubai, Restaurant Equipment Repair, Commercial Kitchen Service, Kitchen Equipment Troubleshooting, Commercial Appliance Repair, Commercial Kitchen Technician, Hotel Kitchen Equipment Repair, Catering Equipment Maintenance, Commercial Kitchen Breakdown Repair, Commercial Kitchen Fixing Service, Kitchen Equipment Repair near me, Commercial Kitchen Maintenance Company",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
           <script type="application/ld+json">
             {JSON.stringify(
               {

@@ -154,7 +154,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             <h1 className="cs_fs_30">Fisher and Paykel Fridge Repair and Dishwasher Service in Dubai</h1>
             <p>
               Are you having trouble finding a local technician specializing in Fisher & Paykel kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with specific knowledge of your Fisher & Paykel appliance for efficient and accurate service.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with specific knowledge of your Fisher & Paykel appliance for efficient and accurate service.
             </p>
 
             <div id="get-quote" className=" mt-3">

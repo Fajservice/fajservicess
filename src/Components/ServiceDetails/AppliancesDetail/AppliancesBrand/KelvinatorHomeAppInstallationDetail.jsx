@@ -152,7 +152,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
             <h1 className="cs_fs_30">Kelvinator Home Appliance Repair Service and Installation</h1>
             <p>
               Finding it difficult to locate a local technician who specializes in Kelvinator kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable appliance repair services since 2010. Our wide network includes carefully screened, skilled, and experienced professionals. Whenever possible, we’ll send a technician who is well-versed in your specific Kelvinator appliance to ensure efficient and accurate service.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable appliance repair services since 2010. Our wide network includes carefully screened, skilled, and experienced professionals. Whenever possible, we’ll send a technician who is well-versed in your specific Kelvinator appliance to ensure efficient and accurate service.
             </p>
 
             <div id="get-quote" className=" mt-3">

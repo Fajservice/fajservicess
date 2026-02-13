@@ -152,7 +152,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
           <div className="container">
             <h1 className="cs_fs_30">Miele Fridge Repair and Miele Washing Machine Service in Dubai</h1>
             <p>
-              If you're looking for a qualified technician for your Miele appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our network includes skilled professionals with expertise in Miele appliance repair, serving customers across Dubai and Sharjah. We focus on customer satisfaction and provide fast, effective solutions to get your appliances working smoothly again.
+              If you're looking for a qualified technician for your Miele appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our network includes skilled professionals with expertise in Miele appliance repair, serving customers across Dubai and Sharjah. We focus on customer satisfaction and provide fast, effective solutions to get your appliances working smoothly again.
             </p>
 
             <div id="get-quote" className=" mt-3">

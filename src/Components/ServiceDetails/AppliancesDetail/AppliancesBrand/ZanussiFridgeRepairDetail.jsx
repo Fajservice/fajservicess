@@ -154,7 +154,7 @@ const ZanussiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             <h1 className="cs_fs_30">Zanussi Fridge Repair and Zanussi Professional Appliances Service in Dubai</h1>
             <p>
               If you’re in need of a knowledgeable local technician specializing in Zanussi appliances, you’ve come to the right place.
-              <br /> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable and affordable home appliances repair & services since 2010. We connect you with a network of qualified professionals who understand the specific needs of Zanussi appliance repairs and services in your area. Our main goal is to match you with an experienced Zanussi technician in Dubai and Sharjah who is familiar with the operation of Zanussi appliances. We prioritize your satisfaction above all else!
+              <br /> <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been providing reliable and affordable home appliances repair & services since 2010. We connect you with a network of qualified professionals who understand the specific needs of Zanussi appliance repairs and services in your area. Our main goal is to match you with an experienced Zanussi technician in Dubai and Sharjah who is familiar with the operation of Zanussi appliances. We prioritize your satisfaction above all else!
             </p>
 
             <div id="get-quote" className=" mt-3">

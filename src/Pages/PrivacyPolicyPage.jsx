@@ -27,7 +27,7 @@ const PrivacyPolicyPage = ({ titleSeo,
     );
 
     const metaImage = String(
-        Image || "https://www.fajservices.ae/img/page_heading_1.avif"
+        Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/page_heading_1.avif"
     );
 
     return (

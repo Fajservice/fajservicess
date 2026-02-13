@@ -119,7 +119,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
           <div className="container">
             <h1 className="cs_fs_30">AEG Fridge Repair and Washing Machine Maintenance Service in Dubai</h1>
             <p>
-              Having trouble finding a local technician for your AEG kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable, affordable appliance repairs since 2010. Our trusted network of qualified professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific AEG model.
+              Having trouble finding a local technician for your AEG kitchen appliances? <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been providing reliable, affordable appliance repairs since 2010. Our trusted network of qualified professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific AEG model.
             </p>
 
             <div id="get-quote" className=" mt-3">

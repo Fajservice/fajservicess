@@ -27,7 +27,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "LG AC Repair in Dubai, LG Air Conditioner Maintenance, LG AC Service, LG Split AC Repair, LG Central AC Service, LG VRF AC Repair, LG Air Conditioning Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -111,7 +111,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
             <h1 className="cs_fs_30">LG AC Repair and Maintenance Services in Dubai</h1>
             <p>
               For year-round comfort, it's essential to address issues such as sticky summer days, stuffy nights, and allergens in the air.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of LG air conditioning solutions in Dubai and Sharjah. Our skilled team specialises in LG AC cleaning service, maintenance, repairs, and installation of a diverse range of residential and commercial LG AC units. We are committed to ensuring that your air conditioning system operates at peak performance, promoting a comfortable indoor environment.</p>
+              <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of LG air conditioning solutions in Dubai and Sharjah. Our skilled team specialises in LG AC cleaning service, maintenance, repairs, and installation of a diverse range of residential and commercial LG AC units. We are committed to ensuring that your air conditioning system operates at peak performance, promoting a comfortable indoor environment.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />

@@ -122,7 +122,7 @@ const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, tit
                         <h1 className="cs_fs_30">Sharp Home Appliance Repair Service and Installation</h1>
                         <p>
                             Struggling to find a local technician who specializes in Sharp kitchen appliances?
-                            At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering dependable and budget-friendly repair services since 2010. Our extensive network is made up of thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who is well-acquainted with your specific Sharp appliance to ensure precise and efficient service.
+                            At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been offering dependable and budget-friendly repair services since 2010. Our extensive network is made up of thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who is well-acquainted with your specific Sharp appliance to ensure precise and efficient service.
 
                         </p>
 

@@ -466,112 +466,112 @@ const NearMeDetail = ({ subtitle, title, reviewsbg }) => {
             <span className="d-block seprator-line mb-3"></span>
 
             <div className="near-me-grid">
-              <a href="/services/air-conditioning-repair/brands/aftron" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/aftron/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Aftron</div>
               </a>
-              <a href="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/bluestar/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Bluestar</div>
               </a>
-              <a href="/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/bryant/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Bryant</div>
               </a>
-              <a href="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/coleman/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Coleman</div>
               </a>
-              <a href="/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/cooline/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Cooline</div>
               </a>
-              <a href="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/crafft/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Crafft</div>
               </a>
-              <a href="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/daewoo/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Daewoo</div>
               </a>
-              <a href="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/daikin/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Daikin</div>
               </a>
-              <a href="/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/daikool/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Daikool</div>
               </a>
-              <a href="/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/fujitsu/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Fujitsu</div>
               </a>
-              <a href="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/goodman/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Goodman</div>
               </a>
-              <a href="/gree-ac-repair-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/gree/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Gree</div>
               </a>
-              <a href="/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/haier/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Haier</div>
               </a>
-              <a href="/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/hitachi/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Hitachi</div>
               </a>
-              <a href="/lg-ac-repair-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/lg/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">LG</div>
               </a>
-              <a href="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/lennox/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Lennox</div>
               </a>
-              <a href="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/mcquay/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">MC Quay</div>
               </a>
-              <a href="/midea-ac-installation-maintenance-repair-fix-service-in-dubai" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/midea/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Midea</div>
               </a>
-              <a href="/mitsubishi-ac-repair-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/mitsubishi/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Mitsubishi</div>
               </a>
-              <a href="/nikai-ac-repair-in-dubai-nikai-ac-maintenance-in-dubai-nikai-ac-fix-in-dubai-nikai-ac-service-in-dubai-nikai-air-condition-repair-in-dubai-nikai-air-condition-maintenance-in-dubai-nikai-air-condition/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/nikai/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Nikai</div>
               </a>
-              <a href="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/o-general/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">O General</div>
               </a>
-              <a href="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/panasonic/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Panasonic</div>
               </a>
-              <a href="/rheem-ac-maintenance-in-dubai" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/rheem/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Rheem</div>
               </a>
-              <a href="/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/ruud/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Ruud</div>
               </a>
-              <a href="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/samsung/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Samsung</div>
               </a>
-              <a href="/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/sanyo/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Sanyo</div>
               </a>
-              <a href="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/supra/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">SKM</div>
               </a>
-              <a href="/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/sub-zero/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Subzero</div>
               </a>
-              <a href="/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/super-general/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Super General</div>
               </a>
-              <a href="/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/supra/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Supra</div>
               </a>
-              <a href="/tcl-ac-repair-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/tcl/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">TCL</div>
               </a>
-              <a href="/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/toshiba/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Toshiba</div>
               </a>
-              <a href="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/trane/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Trane</div>
               </a>
-              <a href="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/westpoint/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Westpoint</div>
               </a>
-              <a href="/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/whirlpool/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Whirlpool</div>
               </a>
-              <a href="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten" className="brand-near-me-service-box">
+              <a href="/services/air-conditioning-repair/brands/york/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">York</div>
               </a>
 
@@ -582,204 +582,201 @@ const NearMeDetail = ({ subtitle, title, reviewsbg }) => {
 
             <div className="near-me-grid">
 
-              <a href="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/aeg/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">AEG</div>
               </a>
-              <a href="/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/aftron/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Aftron</div>
               </a>
-              <a href="/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/admiral/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Admiral</div>
               </a>
-              <a href="/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/ariston/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Ariston</div>
               </a>
-              <a href="/baumatic-appliances/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/baumatic/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Baumatic</div>
               </a>
-              <a href="/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/beko/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Beko</div>
               </a>
-              <a href="/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/bertazzoni/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Bertazzoni</div>
               </a>
-              <a href="/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/blomberg/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Blomberg</div>
               </a>
-              <a href="/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/bompani/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Bompani</div>
               </a>
-              <a href="/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/boston/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Boston</div>
               </a>
-              <a href="/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Bosch</div>
               </a>
-              <a href="/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/brandt/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Brandt</div>
               </a>
-              <a href="/candy-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/candy/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Candy</div>
               </a>
-              <a href="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/daewoo/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Daewoo</div>
               </a>
-              <a href="/de-dietrich-fridge-repair-in-dubai-de-dietrich-washing-machine-repair-in-dubai-de-dietrich-cooker-repair-in-dubai-de-dietrich-oven-repair-in-dubai-de-dietrich-appliances-maintenance-in-dubai-de-dietri/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/de-dietrich/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">De Dietrich</div>
               </a>
-              <a href="/electrolux-fridge-repair-in-dubai-electrolux-washing-machine-repair-in-dubai-electrolux-cooker-repair-in-dubai-electrolux-oven-repair-in-dubai-electrolux-appliances-maintenance-in-dubai-electrolux-ref/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/electrolux/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Electrolux</div>
               </a>
-              <a href="/elica-appliances-service/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/elica/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Elica</div>
               </a>
-              <a href="/faber-appliances-service/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/faber/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Faber</div>
               </a>
-              <a href="/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/fagor/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Fagor</div>
               </a>
-              <a href="/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/fisher-paykel/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Fisher and Paykel</div>
               </a>
-              <a href="/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/foster/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Foster</div>
               </a>
-              <a href="/franke-appliances-repair-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/franke/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Franke</div>
               </a>
-              <a href="/frigidaire-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/frigidaire/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Frigidaire</div>
               </a>
-              <a href="/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/gaggenau/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Gaggenau</div>
               </a>
-              <a href="/ge-general-electric-fridge-repair-in-dubai-ge-general-electric-washing-machine-repair-in-dubai-ge-general-electric-cooker-repair-in-dubai-ge-general-electric-oven-repair-in-dubai-ge-general-electric-a/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/ge-general-electric/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">GE (General Electric)</div>
               </a>
-              <a href="/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/gibson/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Gibson</div>
               </a>
-              <a href="/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/gorenje/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Gorenje</div>
               </a>
-              <a href="/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/haier/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Haier</div>
               </a>
-              <a href="/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/hisense/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Hisense</div>
               </a>
-              <a href="/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/hitachi/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Hitachi</div>
               </a>
-              <a href="/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/hoover/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Hoover</div>
               </a>
-              <a href="/hotpoint-refrigerator-repair-in-dubai-hotpoint-fridge-repair-in-dubai-hotpoint-washing-machine-repair-in-dubai-hotpoint-dishwasher-cooker-oven-repairs-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/hotpoint/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Hotpoint</div>
               </a>
-              <a href="/ifb-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/ifb/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">IFB</div>
               </a>
-              <a href="/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/indesit/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Indesit</div>
               </a>
-              <a href="/kenmore-appliances-service/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/kenmore/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Kenmore</div>
               </a>
-              <a href="/kenwood-stand-mixer-repair-service-near-me-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/kenwood/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Kenwood</div>
               </a>
-              <a href="/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/kelvinator/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Kelvinator</div>
               </a>
-              <a href="/kitchenaid-refrigerator-repair-in-dubai-fridge-repair-in-dubai-kitchenaid-freezer-maintenance-in-dubai-washing-machine-repair-in-dubai-dishwasher-kitchenaid-cooker-oven-repairs-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/kitchenaid/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">KitchenAid</div>
               </a>
-              <a href="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/la-germania/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">La Germania</div>
               </a>
-              <a href="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/lg/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">LG</div>
               </a>
-              <a href="/liebherr-refrigerator-repair-in-dubai-liebherr-fridge-repair-in-dubai-liebherr-freezer-maintenance-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/liebherr/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Liebherr</div>
               </a>
-              <a href="/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/marvel/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Marvel</div>
               </a>
-              <a href="/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/maytag/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Maytag</div>
               </a>
-              <a href="/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/miele/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Miele</div>
               </a>
-              <a href="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/neff/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Neff</div>
               </a>
-              <a href="/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/panasonic/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Panasonic</div>
               </a>
-              <a href="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/samsung/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Samsung</div>
               </a>
-              <a href="/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/sanyo/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Sanyo</div>
               </a>
-              <a href="/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/sears/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Sears</div>
               </a>
-              <a href="/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/sharp/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Sharp</div>
               </a>
-              <a href="/siemens-home-appliances-repair/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/siemens/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Siemens</div>
               </a>
-              <a href="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/smeg/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Smeg</div>
               </a>
-
-              <a href="/speed-queen-washing-machine-repair-in-dubai-speed-queen-dryer-repair-in-dubai-speed-queen-washer-dryer-repair-in-dubai-maintenance-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/speed-queen/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Speed Queen</div>
               </a>
-              <a href="/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/sub-zero/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Sub‑Zero</div>
               </a>
-              <a href="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/teka/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Teka</div>
               </a>
-              <a href="/terim-appliances-service/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/terim/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Terim</div>
               </a>
-              <a href="/thermador-appliances-service/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/thermador/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Thermador</div>
               </a>
-              <a href="/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/toshiba/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Toshiba</div>
               </a>
-              <a href="/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/unimac/" className="brand-near-me-service-box">
                 <div class="brand-near-me-service-title">Unimac</div>
               </a>
-              <a href="/viking-appliances-service/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/viking/" className="brand-near-me-service-box">
                 <div class="brand-near-me-service-title">Viking</div>
               </a>
-              <a href="/westpoint-fridge-repair-in-dubai-westpoint-washing-machine-repair-in-dubai-westpoint-cooker-repair-in-dubai-westpoint-oven-repair-in-dubai-westpoint-refrigerator-fix-repairs-service-in-dubai-west-poin/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/westpoint/" className="brand-near-me-service-box">
                 <div class="brand-near-me-service-title">Westpoint</div>
               </a>
-              <a href="/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/whirlpool/" className="brand-near-me-service-box">
                 <div class="brand-near-me-service-title">Whirlpool</div>
               </a>
-              <a href="/white-westinghouse-fridge-repair-in-dubai-white-westinghouse-washing-machine-repair-in-dubai-white-westinghouse-cooker-repair-in-dubai-white-westinghouse-oven-repair-in-dubai-white-westinghouse-applia/" class="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/white-westinghouse/" className="brand-near-me-service-box">
                 <div class="brand-near-me-service-title">White Westinghouse</div>
               </a>
-              <a href="/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/" class="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/wolf/" className="brand-near-me-service-box">
                 <div class="brand-near-me-service-title">Wolf</div>
               </a>
-              <a href="/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/" class="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/brands/zanussi/" className="brand-near-me-service-box">
                 <div class="brand-near-me-service-title">Zanussi</div>
               </a>
-
-
             </div>
             <WhatsappIconButton></WhatsappIconButton>
 

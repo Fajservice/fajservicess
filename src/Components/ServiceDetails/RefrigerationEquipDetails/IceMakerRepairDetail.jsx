@@ -120,7 +120,21 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Ice Maker Repair Dubai, Commercial Ice Maker Repair, Ice Machine Repair, Ice Maker not making ice, Ice Maker leaking water, Ice Maker Cleaning Service, Ice Machine Maintenance, Ice Maker Compressor Repair, Ice Maker Condenser Cleaning, Ice Maker Water Filter Replacement, Ice Maker Service Dubai, Ice Maker Repair near me, Restaurant Ice Machine Repair, Ice Maker Technician",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/refrigeration-equipment/ice-maker-repair/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

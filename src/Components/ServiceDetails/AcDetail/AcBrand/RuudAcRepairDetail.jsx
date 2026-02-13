@@ -28,7 +28,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ruud AC Repair in Dubai, Ruud AC Maintenance Service, Ruud Air Conditioner Repair, Ruud Air Conditioner Maintenance, Ruud AC Fix in Dubai, Ruud AC Service in Dubai, Ruud Air Condition Repair in Dubai, Ruud Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/ruud/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -114,7 +114,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Ruud Hvac Repair and Maintenance Service in Dubai</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>  offers Ruud air conditioning repair in Dubai, providing comprehensive maintenance service to ensure your building remains cool or warm as needed. With experience dating back to 2010, we are equipped to handle every situation and can provide Ruud air conditioning services for buildings or villas of all shapes and sizes.<br />Are you looking for ongoing Ruud AC maintenance? We can service your units to ensure optimal performance, reducing the likelihood of future breakdowns and saving you money. If you're experiencing issues such as stale odors, leaks, or power outages, our technicians are ready to respond to your emergency call and perform Ruud AC repairs or maintenance on your units as soon as possible.</p>
+            <p><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>  offers Ruud air conditioning repair in Dubai, providing comprehensive maintenance service to ensure your building remains cool or warm as needed. With experience dating back to 2010, we are equipped to handle every situation and can provide Ruud air conditioning services for buildings or villas of all shapes and sizes.<br />Are you looking for ongoing Ruud AC maintenance? We can service your units to ensure optimal performance, reducing the likelihood of future breakdowns and saving you money. If you're experiencing issues such as stale odors, leaks, or power outages, our technicians are ready to respond to your emergency call and perform Ruud AC repairs or maintenance on your units as soon as possible.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

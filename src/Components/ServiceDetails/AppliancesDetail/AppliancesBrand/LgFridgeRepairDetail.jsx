@@ -151,7 +151,7 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <div className="container">
             <h1 className="cs_fs_30">LG Fridge Repair and LG Washing Machine Service in Dubai </h1>
             <p>
-              Having trouble finding a local LG appliance technician with expertise in LG kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable service since 2010. Our extensive network of skilled, thoroughly vetted professionals ensures that, whenever possible, we send a technician experienced with your specific LG appliance.
+              Having trouble finding a local LG appliance technician with expertise in LG kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable service since 2010. Our extensive network of skilled, thoroughly vetted professionals ensures that, whenever possible, we send a technician experienced with your specific LG appliance.
             </p>
 
             <div id="get-quote" className=" mt-3">

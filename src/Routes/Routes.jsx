@@ -74,7 +74,7 @@ export const router = createBrowserRouter([
         element: <Components.CommercialLaundaryEquipmentPage />,
       },
       {
-        path: "/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
+        path: "/services/air-conditioning-repair/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
         element: <Components.AcServiceInDubaiArabic />,
       },
       {
@@ -3340,6 +3340,10 @@ export const router = createBrowserRouter([
       {
         path:"/appliances-services-in-difc/",
         element: <Navigate to="/services/home-appliances-repair/coverage-area/difc/" replace />
+      },
+      {
+        path:"/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
+        element: <Navigate to="/services/air-conditioning-repair/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/" replace />
       },
     ],
   }

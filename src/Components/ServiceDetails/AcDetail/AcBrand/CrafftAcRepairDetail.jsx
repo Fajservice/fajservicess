@@ -28,7 +28,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Crafft AC Repair, Crafft AC Maintenance, Crafft Air Conditioner Service, Crafft Air Conditioner Repair, Crafft Air Conditioner Maintenance, Crafft Air Conditioner Fix, Crafft Air Conditioner Installation, Crafft Air Conditioner Cleaning Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/crafft/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -112,7 +112,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <h1 className="cs_fs_30">Crafft Air Conditioning Repair and Service in Dubai</h1>
             <p>Achieving comfort throughout the year requires addressing challenges like summer humidity, elevated nighttime temperatures, and indoor allergens.
-              <br />Since its inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has established itself as a trustworthy provider of Crafft air conditioning solutions in the Dubai and Sharjah regions.
+              <br />Since its inception in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has established itself as a trustworthy provider of Crafft air conditioning solutions in the Dubai and Sharjah regions.
               Our skilled team is proficient in a comprehensive range of services, including Crafft AC repair, cleaning service, maintenance and installation for both residential and commercial units. We are committed to optimizing the performance of your air conditioning system, thereby enhancing your indoor comfort.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

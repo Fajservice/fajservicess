@@ -23,7 +23,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Meat Grinder Repair, Meat Grinder Service, Meat Grinder Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/meat-grinder-repair/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/meat-grinder-repair.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/meat-grinder-repair/public");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -115,7 +115,21 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Meat Grinder Repair, Commercial Meat Grinder Repair, Meat Mincer Repair, Meat Grinder not working, Meat Grinder Motor Repair, Meat Grinder Blade Sharpening, Meat Grinder Gear Repair, Butcher Shop Equipment Repair, Meat Processing Equipment Repair, Meat Grinder Service Dubai, Meat Grinder Maintenance, Meat Grinder Repair near me, Commercial Kitchen Equipment Repair, Meat Grinder Technician",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/kitchen-equipment/meat-grinder-repair/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

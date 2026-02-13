@@ -18,12 +18,12 @@ const getImageSrc = (imgPath) => {
 };
 const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Refrigeration Maintenance & Repair Service in Dubai");
-  const metadescription = String(description || "Looking for commercial refrigeration maintenance in Dubai? Call FAJ for walk in cooler, cooling unit, biomedical freezer & chiller repair services near me");
+  const metatitle = String(titleSeo || "Refrigeration Annual Maintenance Contract Service in Dubai");
+  const metadescription = String(description || "FAJ offers commercial refrigeration, including restaurant, hotel, hospital freezer, chiller, cold room, refrigerator annual maintenance contract services Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Refrigeration Annual Maintenance Contract Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/techfridge.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/techfridge/public");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -117,7 +117,21 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Commercial Refrigeration Maintenance, Commercial Refrigeration Service Dubai, Commercial Refrigerator Repair, Commercial Freezer Repair, Walk in Cooler Maintenance, Walk in Freezer Repair, Refrigeration Unit Service, Commercial Refrigeration Preventive Maintenance, Refrigeration Compressor Repair, Commercial Refrigeration Technician, Refrigeration System Maintenance, Cold Room Maintenance, Commercial Refrigeration Contract",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
           <script type="application/ld+json">
             {JSON.stringify(
               {
@@ -205,7 +219,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Refrigeration Maintenance and| Freezer & Chiller Repair Service in Dubai</h1>
+            <h1 className="cs_fs_30">Commercial Refrigeration Maintenance Contract Services (AMC) in Dubai</h1>
             <p>
               Keep your cold room, walk-in cooler, freezer and chiller system running efficiently year-round with an Annual Maintenance Contract (AMC).
               <br />Our reliable maintenance contracts, available in Dubai and Sharjah, UAE, will help you keep your refrigeration systems running at their best.

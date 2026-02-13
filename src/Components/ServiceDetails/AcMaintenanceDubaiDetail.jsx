@@ -24,7 +24,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Maintenance, Air Conditioner Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -117,7 +117,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30" style={{ fontSize: "25px" }}>AC MAINTENANCE IN DUBAI - AC MAINTENANCE AND SERVICE NEAR YOU</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
+            <p><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
               An air conditioner unit is essential for maintainance a comfortable indoor environment year-round. Regular AC maintenance, including repairs and cleaning, is necessary for optimal performance. Our professional air conditioner maintenance services in Dubai are designed to ensure your system operates efficiently, enhancing the quality of your indoor atmosphere.</p>
 
             <div id="get-quote" className=" mt-3">

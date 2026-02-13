@@ -121,7 +121,7 @@ const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
                     <div className="container">
                         <h1 className="cs_fs_30">Samsung Home Appliance Repair Service and Installation</h1>
                         <p>
-                            Finding a skilled Samsung appliance technician nearby can be challenging, especially one who understands Samsung kitchen appliances. At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and cost-effective service since 2010. Our network of experienced, carefully screened professionals lets us send a technician familiar with your exact Samsung appliance whenever possible.
+                            Finding a skilled Samsung appliance technician nearby can be challenging, especially one who understands Samsung kitchen appliances. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and cost-effective service since 2010. Our network of experienced, carefully screened professionals lets us send a technician familiar with your exact Samsung appliance whenever possible.
                         </p>
 
                         <div id="get-quote" className=" mt-3">

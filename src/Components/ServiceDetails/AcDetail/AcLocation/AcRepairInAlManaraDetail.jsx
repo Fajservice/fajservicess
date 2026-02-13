@@ -28,7 +28,7 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Manara, AC Repair in Al Manara, AC Maintenance in Al Manara, Air Conditioning Service in Al Manara, Air Conditioner Repair in Al Manara, Air Conditioning Maintenance in Al Manara, AC Cleaning in Al Manara, AC Installation in Al Manara, Air Conditioning Installation in Al Manara, AC Service Company in Al Manara, Air Conditioning Service Company in Al Manara, AC Repair Company in Al Manara, Air Conditioning Repair Company in Al Manara, AC Maintenance Company in Al Manara, Air Conditioning Maintenance Company in Al Manara");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-manara/");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -117,7 +117,7 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <h1 className="cs_fs_30">AC Service in Al Manara</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me Al Manara, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                            <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me Al Manara, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">

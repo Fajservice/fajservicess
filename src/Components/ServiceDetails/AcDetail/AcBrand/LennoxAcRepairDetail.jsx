@@ -27,7 +27,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Lennox AC Repair in Dubai, Lennox AC Maintenance in Dubai, Lennox Air Conditioner Service, Lennox Air Conditioner Repair, Lennox Air Conditioner Maintenance, Lennox Air Conditioner Fix, Lennox Air Conditioner Service in Dubai, Lennox Air Conditioning Repair in Dubai, Lennox Air Conditioning Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/lennox/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -113,7 +113,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <p>
               Are you in need of reliable and professional Lennox AC repair, service, or maintenance? Whether for routine maintenance or a new system, local Lennox AC experts are available to keep your home comfortable year-round.<br/>
               Effectively addressing challenges like high humidity, warm nights, and indoor allergens is crucial for ensuring indoor comfort.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of Lennox air conditioning solutions in Dubai and Sharjah. Our experienced team offers a full range of services, including Lennnox AC repair, cleaning service, maintenance and installation for residential and commercial units, ensuring optimal efficiency and enhanced indoor comfort.
+              <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of Lennox air conditioning solutions in Dubai and Sharjah. Our experienced team offers a full range of services, including Lennnox AC repair, cleaning service, maintenance and installation for residential and commercial units, ensuring optimal efficiency and enhanced indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">

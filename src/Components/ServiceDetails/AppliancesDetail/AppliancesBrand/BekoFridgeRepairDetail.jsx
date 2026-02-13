@@ -152,7 +152,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <div className="container">
             <h1 className="cs_fs_30">Beko Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
-              Having trouble finding a local technician who specializes in Beko kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has offered dependable and cost-effective repair services since 2010. We work with a broad network of experienced, vetted professionals. We’ll dispatch a technician who knows your specific Beko appliance whenever available to ensure accurate, efficient service at your doorstep.
+              Having trouble finding a local technician who specializes in Beko kitchen appliances? <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has offered dependable and cost-effective repair services since 2010. We work with a broad network of experienced, vetted professionals. We’ll dispatch a technician who knows your specific Beko appliance whenever available to ensure accurate, efficient service at your doorstep.
             </p>
 
             <div id="get-quote" className=" mt-3">

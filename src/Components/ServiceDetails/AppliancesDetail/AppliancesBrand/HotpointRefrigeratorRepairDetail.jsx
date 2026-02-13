@@ -153,7 +153,7 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
             <h1 className="cs_fs_30">Hotpoint Refrigerator Repair and Hotpoint Washing Machine Service in Dubai</h1>
             <p>
               Looking for a reliable technician to handle your Hotpoint appliance repairs? You’ve come to the right place.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing trusted and affordable repair services across Dubai and Sharjah. Our team consists of experienced professionals who understand the specific repair needs of Hotpoint appliances.
+              <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been providing trusted and affordable repair services across Dubai and Sharjah. Our team consists of experienced professionals who understand the specific repair needs of Hotpoint appliances.
               We’re here to connect you with skilled local technicians who can quickly and efficiently restore your appliance’s performance. Your satisfaction remains our top priority.
             </p>
 

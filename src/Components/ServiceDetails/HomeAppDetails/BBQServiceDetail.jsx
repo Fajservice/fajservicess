@@ -116,6 +116,21 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "BBQ Repair Dubai, Barbeque Maintenance Dubai, BBQ Service Dubai, Gas BBQ Repair, Charcoal BBQ Maintenance, Electric BBQ Repair, BBQ not igniting, BBQ Flame Problem, BBQ Gas Leak Check, BBQ Burner Replacement, BBQ Cleaning Service, Commercial BBQ Repair, Outdoor BBQ Repair, BBQ Grill Repair, BBQ Technician Dubai",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
         </Helmet>
       <HeaderForm />
 

@@ -24,7 +24,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Cooking Equipment Repair, Dubai, professional Kitchen Appliances Service, professional Cooking Range Repair, professional Gas Stove Repair, professional Deep Fryer Service, professional Oven Repair, Restaurant Equipment Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/img/commercial-cooking-appliances-repair-service.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/commercial-cooking-appliances-repair-service/public");
 
 
   subtitle = "Testimonial"
@@ -118,7 +118,21 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Commercial Cooking Appliances Repair, Commercial Kitchen Appliance Repair, Restaurant Cooking Equipment Repair, Commercial Stove Repair, Commercial Range Repair, Commercial Fryer Repair, Commercial Griddle Repair, Commercial Charboiler Repair, Commercial Pasta Cooker Repair, Commercial Bratt Pan Repair, Commercial Cooking Equipment Service, Commercial Cooking Appliance Maintenance, Commercial Cooking Appliance Technician",
+              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+              "url": "https://www.fajservices.ae/services/kitchen-equipment/commercial-cooking-appliances-repair-service/",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "3452",
+                "bestRating": "5"
+              }
+            })}
+          </script>
           <script type="application/ld+json">
             {JSON.stringify(
               {

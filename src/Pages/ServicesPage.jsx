@@ -13,7 +13,7 @@ const ServicesPage = ({ titleSeo, description, Author, Keyword, URL, Image }) =>
   );
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(
-    Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif"
+    Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif"
   );
   const metaKeyword = String(Keyword || "FAJ");
   const metaURL = String(URL || "https://www.fajservices.ae/services/");

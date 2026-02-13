@@ -21,12 +21,12 @@ const getImageSrc = (imgPath) => {
 const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "York AC Repair in Dubai | Air Conditioner Maintenance Company");
-  const metadescription = String(description || "Do you need help with York AC Repair in Dubai? Call 0433 000 002 for homes and workplaces. We also offer air conditioning service and maintenance.");
+  const metatitle = String(titleSeo || "York Air Conditioning | York AC Repair and Maintenance Service");
+  const metadescription = String(description || "Looking for York AC repair in Dubai? Call 0433000002 for residential and commercial needs. We also provide York HVAC maintenance services near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "York AC Repair, York Air Conditioner Maintenance, York AC Service Dubai, York Air Conditioner Repair Dubai, York AC Installation Dubai, York AC Cleaning Dubai, York Air Conditioner Service Dubai, York Air Conditioner Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/york/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -111,13 +111,8 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">York AC Repair in Dubai – York AC Maintenance Service</h1>
-            <p>
-              Sustaining comfort throughout the year necessitates the effective management of various challenges, such as elevated humidity levels during the summer, warm nights, and the presence of indoor allergens.
-              <br />
-              Since its inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has established itself as a reliable provider of York air conditioning solutions in the Dubai and Sharjah regions.
-              <br /> Our skilled team is proficient in a comprehensive range of services, including York air conditioning cleaning, maintenance, repair, and installation for both residential and commercial units. We are committed to ensuring that your air conditioning system operates at optimal efficiency, thereby enhancing your indoor comfort.
-            </p>
+            <h1 className="cs_fs_30">York Air Conditioning | York AC Repair and Maintenance Services</h1>
+            <p>Looking for reliable servicing and maintenance for your York air conditioning and refrigeration systems?<br/>We provide expert services for York HVAC, ducted split AC, central AC, and VRF AC repair throughout Dubai. Serving both homes and businesses, we deliver high-quality HVAC service and annual maintenance contract.<br/>Established in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is a trusted provider of York air conditioning solutions in Dubai and Sharjah. Our experienced team offers York AC cleaning, maintenance, repair, and installation services for residential and commercial units, ensuring your system operates efficiently and enhances your indoor comfort.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -139,24 +134,25 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   In Dubai, it is important to hire skilled technicians for York <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair </a>services. Our team specializes in servicing York AC systems in Dubai and Sharjah, providing reliable solutions that keep your indoor space comfortable all year round while making sure your system runs efficiently.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need York AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="York AC Service" />
               </div>

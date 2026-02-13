@@ -28,7 +28,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Mitsubishi AC Repair, Mitsubishi AC Service, Mitsubishi Air Conditioner Maintenance, Mitsubishi HVAC Repair, Mitsubishi VRF System Service, Mitsubishi Ducted Split AC Repair, Mitsubishi Wall-Mounted AC Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -111,7 +111,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Mitsubishi AC Repair and Maintenance Service in Dubai</h1>
-            <p>Mitsubishi Air Conditioning repair by <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> established in 2010, is your reliable solution for any issues you may encounter with your Mitsubishi air conditioning system. Our AC technicians are always available to assist you in Dubai and its surrounding areas. Contact us today to schedule a visit from one of our expert technicians at a time that is convenient for you.<br />In the rare event of a fault or breakdown, our experienced Mitsubishi AC repair, maintenance services technicians can typically diagnose and repair your unit on their first visit. This minimizes downtime and helps restore your comfortable working climate as quickly as possible.</p>
+            <p>Mitsubishi Air Conditioning repair by <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> established in 2010, is your reliable solution for any issues you may encounter with your Mitsubishi air conditioning system. Our AC technicians are always available to assist you in Dubai and its surrounding areas. Contact us today to schedule a visit from one of our expert technicians at a time that is convenient for you.<br />In the rare event of a fault or breakdown, our experienced Mitsubishi AC repair, maintenance services technicians can typically diagnose and repair your unit on their first visit. This minimizes downtime and helps restore your comfortable working climate as quickly as possible.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

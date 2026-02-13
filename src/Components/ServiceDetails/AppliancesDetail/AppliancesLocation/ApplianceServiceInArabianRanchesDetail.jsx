@@ -26,7 +26,7 @@ const ApplianceServiceInArabianRanchesDetail = ({ subtitle, title, reviewsbg, ti
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "washing machine repair in arabian ranches, refrigerator repair in arabian ranches, appliance repair in arabian ranches, dishwasher repair in arabian ranches, oven repair in arabian ranches, appliance service in arabian ranches, appliance maintenance in arabian ranches");
-    const metaURL = String(URL || "https://www.fajservices.ae/services/Home-appliances-repair/coverage-area/arabian-ranches/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/arabian-ranches/");
 
 
     subtitle = "Testimonial"
@@ -156,7 +156,7 @@ const ApplianceServiceInArabianRanchesDetail = ({ subtitle, title, reviewsbg, ti
                                 </p>
 
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h2>
-                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                                <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                             </div>
 
                             <div className="col-md-6 ">

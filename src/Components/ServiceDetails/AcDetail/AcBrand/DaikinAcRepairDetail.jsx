@@ -109,10 +109,8 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Daikin AC Repair in Dubai and AC Maintenance Services</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in the Daikin Air Conditioner repair, maintenance, and installation for both residential and commercial properties in Dubai and Sharjah.
-              <br />
-              A Daikin air conditioner is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Daikin AC maintenance service is required in Dubai with professional Daikin AC cleaning services available to help keep your air conditioning running efficiently.
+            <h1 className="cs_fs_30">Daikin Air Conditioning Repair and Maintenance Service Specialists in Dubai</h1>
+            <p>Are you looking for a Daikin air conditioning maintenance provider for your home or business? We can help!<br/><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> offers complete services for Daikin air conditioning systems throughout Dubai, including regular repair, maintenance, and installation.<br/>Our team of Daikin AC professionals is highly skilled and knowledgeable, ensuring they meet the highest industry standards. They will arrive at your residence or commercial premises fully equipped to handle any maintenance task related to Daikin air conditioning. Additionally, we offer tailored service and maintenance packages to suit your business needs.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -142,24 +140,25 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 </p>
 
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" >Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" >Top Common Signs That You Need Daikin AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img
                   className="bordered-img w-100"

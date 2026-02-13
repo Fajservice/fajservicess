@@ -153,7 +153,7 @@ const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo,
             <h1 className="cs_fs_30">Toshiba Home Appliance Service and Toshiba Fridge Repair in Dubai</h1>
             <p>
               Having trouble finding a reliable local technician who specializes in Toshiba kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and cost-effective appliance repair services since 2010. Our large network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician familiar with your specific Toshiba appliance to ensure accurate and efficient service.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and cost-effective appliance repair services since 2010. Our large network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician familiar with your specific Toshiba appliance to ensure accurate and efficient service.
             </p>
 
             <div id="get-quote" className=" mt-3">

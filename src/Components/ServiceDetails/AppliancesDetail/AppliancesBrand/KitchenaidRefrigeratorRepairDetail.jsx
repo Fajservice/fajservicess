@@ -152,7 +152,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
             <h1 className="cs_fs_30">KitchenAid Refrigerator Repair and KitchenAid Appliance Repair in Dubai</h1>
             <p>
               Having trouble finding a reliable local technician for your Kitchenaid kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing dependable and cost-effective appliance repair services since 2010. Our extensive network of experienced, thoroughly vetted technicians ensures that, whenever possible, we send a specialist who knows your specific Kitchenaid appliance inside and out.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we've been providing dependable and cost-effective appliance repair services since 2010. Our extensive network of experienced, thoroughly vetted technicians ensures that, whenever possible, we send a specialist who knows your specific Kitchenaid appliance inside and out.
 
             </p>
 

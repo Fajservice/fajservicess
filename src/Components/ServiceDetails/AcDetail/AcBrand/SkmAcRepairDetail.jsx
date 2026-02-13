@@ -23,11 +23,11 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
 
   // For SEO
   const metatitle = String(titleSeo || "Best Prices | SKM AC Repair and Maintenance Service in Dubai");
-  const metadescription = String(description || "FAJ is offering AMC contract service and SKM AC repair in Dubai & Sharjah Right Now! Call/WhatsApp: Get quick service from FAJ Air Conditioning");
+  const metadescription = String(description || "FAJ is now offering AMC contract services and SKM AC repairs in Dubai and Sharjah. Call or WhatsApp FAJ Air Conditioning now for quick maintenance!");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Skm AC Repair, Skm Air Conditioner Service, Skm AC Maintenance, Skm Air Conditioner Repair, Skm Air Conditioner Service Dubai, Skm Air Conditioner Maintenance Dubai, Skm AC Fix Dubai, Skm AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/skm/");
-  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -113,13 +113,9 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">SKM AC Repair in Dubai – SKM AC Maintenance Service</h1>
-            <p>
-              To ensure year-round comfort, it’s crucial to manage challenges like high humidity, warm nights, and indoor allergens.
-              <br /> Founded in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is a trusted provider of SKM air conditioning solutions in Dubai and Sharjah. Our expert team offers SKM AC repair, AC cleaning services, including maintenance and installation for residential and commercial units, ensuring your system runs efficiently and improves indoor comfort.
-              <br />We are dedicated to ensuring that your air conditioning system operates at peak efficiency, ultimately enhancing your indoor comfort.
+            <h1 className="cs_fs_30">Fastest SKM AC Repair Service in Dubai at a low price</h1>
+            <p>If you're looking for the fastest and most affordable SKM AC Repair Service in Dubai, you've come to the right place. <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, providing services since 2010, is a major SKM AC repair and service expert in Dubai. We cater to all types of air conditioning systems and every type available. As one of the leading air conditioning companies in Dubai, we excel in offering top-notch repair services for both AC and HVAC systems.<br/>In Dubai, we ensure the best prices, exceptional service, and complete customer satisfaction. We are known for valuing our customers, treating each one with equal importance, and providing reliable support.
             </p>
-
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -140,24 +136,25 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                   We focus on keeping your system efficient for a refreshing climate!
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need SKM AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="SKM AC Service" />
               </div>

@@ -122,7 +122,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <h1 className="cs_fs_30">Baumatic Appliances Service Center and Washing Machine Repair in Dubai </h1>
                         <p>
                             If you're looking for a skilled local technician who specializes in Baumatic appliances, you've found the right place.
-                            <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been offering dependable and cost-effective solutions. We connect you with a network of qualified experts dedicated to addressing your Baumatic appliance repair needs and nearby services. Our main aim is to help you find a knowledgeable Baumatic technician in Dubai and Sharjah who understands how these appliances work. Your satisfaction is our foremost concern!
+                            <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been offering dependable and cost-effective solutions. We connect you with a network of qualified experts dedicated to addressing your Baumatic appliance repair needs and nearby services. Our main aim is to help you find a knowledgeable Baumatic technician in Dubai and Sharjah who understands how these appliances work. Your satisfaction is our foremost concern!
                         </p>
 
                         <div id="get-quote" className=" mt-3">

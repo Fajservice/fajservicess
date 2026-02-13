@@ -30,7 +30,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Daikool AC Repair in Dubai, Daikool Air Conditioner Maintenance, Daikool AC Service, Daikool AC Fix, Daikool Air Condition Repair, Daikool Air Condition Maintenance, Daikool Air Condition Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/daikool/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -114,7 +114,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <h1 className="cs_fs_30">Best Daikool AC Repair and Maintenance Service in Dubai</h1>
             <p>
-              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> Since 2010, our company has been committed to serving the Dubai community by specializing in Daikool air conditioning repair, maintenance, and installation for residential and commercial properties in Dubai and Sharjah.
+              <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> Since 2010, our company has been committed to serving the Dubai community by specializing in Daikool air conditioning repair, maintenance, and installation for residential and commercial properties in Dubai and Sharjah.
               <br />In our hot climate, a Daikool air conditioner is vital for year-round comfort. Regular maintenance is essential to preserve its effectiveness and extend its lifespan. Our professional cleaning services ensure that your system operates efficiently, providing the cooling relief you need.
             </p>
 

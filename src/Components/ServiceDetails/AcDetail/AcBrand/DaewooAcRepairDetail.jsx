@@ -28,7 +28,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Daewoo AC Repair in Dubai, Daewoo AC Maintenance in Dubai, Daewoo AC Service in Dubai, Daewoo Air Conditioner Repair in Dubai, Daewoo Air Conditioner Maintenance in Dubai, Daewoo Air Con Repair in Dubai, Daewoo Air Con Service in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/daewoo/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -110,7 +110,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <h1 className="cs_fs_30">Daewoo AC Repair and Cleaning Service in Dubai</h1>
             <p>For year-round comfort, it's important to address challenges like summer humidity, warm nights, and indoor allergens effectively.
-              <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>  has established itself as the leading provider of Daewoo air conditioning solutions in Dubai and Sharjah.
+              <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>  has established itself as the leading provider of Daewoo air conditioning solutions in Dubai and Sharjah.
               <br />
               Our skilled team provides Daewoo AC repair, cleaning, maintenance, and installation for home and office AC units. We focus on optimizing your system's performance to keep your indoor environment comfortable.
             </p>
