@@ -152,7 +152,7 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
       <h1 className="cs_fs_30">Unimac Washing Machine Repair, Washer Dryer Maintenance Contract Services in Dubai</h1>
 
       <p>
-       At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we provide comprehensive services for UniMac commercial washing machines, dryers, and laundry equipment. Our team specialises in the installation, maintenance, and repair of all UniMac models, including heavy-duty washers, tumble dryers, and stack washer/dryer units, ensuring your laundry operations run smoothly and efficiently.
+       At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we provide comprehensive services for UniMac commercial washing machines, dryers, and laundry equipment. Our team specialises in the installation, maintenance, and repair of all UniMac models, including heavy-duty washers, tumble dryers, and stack washer/dryer units, ensuring your laundry operations run smoothly and efficiently.
        <br />
        Whether you require scheduled maintenance or urgent repairs for your hotel, hospital, or commercial laundry facility, our experienced technicians are committed to delivering prompt and practical solutions. Trust us to keep your UniMac laundry equipment performing at its best and enjoy the peace of mind that comes with dependable service. Contact us today!
       </p>

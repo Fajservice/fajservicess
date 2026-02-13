@@ -152,7 +152,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <div className="container">
             <h1 className="cs_fs_30">Bertazzoni Cooking Range Repair and Bertazzoni Oven Service in Dubai</h1>
             <p>
-              If you’re facing issues with your Bertazzoni Cooker, Built-in Oven, Hob, or Compact Oven, trust the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services tailored specifically for Bertazzoni appliances.
+              If you’re facing issues with your Bertazzoni Cooker, Built-in Oven, Hob, or Compact Oven, trust the experts at <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services tailored specifically for Bertazzoni appliances.
               <br />
               Our experienced technicians also service Refrigerators, Dishwashers, and Kitchen Hoods using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
             </p>

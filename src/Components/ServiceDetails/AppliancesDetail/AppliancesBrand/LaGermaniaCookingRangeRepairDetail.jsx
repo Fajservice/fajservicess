@@ -151,7 +151,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <div className="container">
             <h1 className="cs_fs_30">La Germania Cooking Range Repair and La Germania Oven Service in Dubai</h1>
             <p>
-              If you are having issues with your La Germania cooker, oven, or cooking range, it's essential to find a reliable and high-quality repair service. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai specializes in prompt, efficient, and cost-effective repairs specifically designed for La Germania appliances.
+              If you are having issues with your La Germania cooker, oven, or cooking range, it's essential to find a reliable and high-quality repair service. <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> in Dubai specializes in prompt, efficient, and cost-effective repairs specifically designed for La Germania appliances.
               <br />
               With over a decade of experience since 2010, our skilled team utilizes advanced tools and techniques to diagnose and resolve issues across all La Germania models, enabling you to return to your routine in Dubai and Sharjah with minimal disruption. </p>
 

@@ -153,7 +153,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <div className="container">
             <h1 className="cs_fs_30">Viking Appliances Service, Fridge Freezer Repair and Maintenance in Dubai</h1>
             <p>
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of Viking appliance repair and service in Dubai. We know appliance breakdowns can happen without warning, which is why we deliver dependable and cost-effective repair solutions.
+              Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of Viking appliance repair and service in Dubai. We know appliance breakdowns can happen without warning, which is why we deliver dependable and cost-effective repair solutions.
               Our skilled technicians are available across Dubai and Sharjah, offering on-site Viking washing machine repairs and maintenance for your convenience.
             </p>
 

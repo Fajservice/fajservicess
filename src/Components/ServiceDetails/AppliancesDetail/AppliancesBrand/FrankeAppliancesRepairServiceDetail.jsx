@@ -151,7 +151,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
             <h1 className="cs_fs_30">Franke Appliances Repair, Dishwasher & Oven Service in Dubai</h1>
             <p>
               Having trouble finding a reliable technician for your Franke kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Franke appliance.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Franke appliance.
             </p>
 
             <div id="get-quote" className=" mt-3">

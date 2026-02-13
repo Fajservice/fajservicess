@@ -111,7 +111,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
             <h1 className="cs_fs_30">LG AC Repair and Maintenance Services in Dubai</h1>
             <p>
               For year-round comfort, it's essential to address issues such as sticky summer days, stuffy nights, and allergens in the air.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of LG air conditioning solutions in Dubai and Sharjah. Our skilled team specialises in LG AC cleaning service, maintenance, repairs, and installation of a diverse range of residential and commercial LG AC units. We are committed to ensuring that your air conditioning system operates at peak performance, promoting a comfortable indoor environment.</p>
+              <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of LG air conditioning solutions in Dubai and Sharjah. Our skilled team specialises in LG AC cleaning service, maintenance, repairs, and installation of a diverse range of residential and commercial LG AC units. We are committed to ensuring that your air conditioning system operates at peak performance, promoting a comfortable indoor environment.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />

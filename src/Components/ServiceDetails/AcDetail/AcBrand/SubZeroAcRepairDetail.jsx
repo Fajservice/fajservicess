@@ -113,7 +113,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <h1 className="cs_fs_30">Sub Zero AC Repair and Cleaning Service in Dubai</h1>
             <p>To ensure year-round comfort, it is essential to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.<br />Since its founding in 2010,
- <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has been a trusted provider of Sub Zero air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Sub Zero AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
+ <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has been a trusted provider of Sub Zero air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Sub Zero AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">

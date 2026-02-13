@@ -122,7 +122,7 @@ const BoschHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                         <h1 className="cs_fs_30">Bosch Home Appliance Repair Service and Installation</h1>
                         <p>
                             Having trouble finding a local technician for your Bosch kitchen appliances?
-                            At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable repair services since 2010. Our wide network of vetted, experienced professionals ensures that, whenever possible, we’ll send a technician who specializes in your specific Bosch appliance for reliable, efficient service.
+                            At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable repair services since 2010. Our wide network of vetted, experienced professionals ensures that, whenever possible, we’ll send a technician who specializes in your specific Bosch appliance for reliable, efficient service.
                         </p>
 
                         <div id="get-quote" className=" mt-3">

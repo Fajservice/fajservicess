@@ -17,8 +17,8 @@ const getImageSrc = (imgPath) => {
 };
 const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Cigar Humidifier Repair in Dubai | Dehumidifier Maintenance");
-  const metadescription = String(description || "FAJ is an expert in Cigar humidifier repair in Dubai. Call us for dehumidifier, fridge cooler & electric humidor maintenance & service center near me");
+  const metatitle = String(titleSeo || "Cigar Humiodor Repair in Dubai | Dehumidifier Maintenance");
+  const metadescription = String(description || "FAJ is an expert in Cigar humidor repair in Dubai. Call us for de humidor, fridge cooler & electric humidor maintenance & service center near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Cigar Cabinet Humidifier Repair, Dehumidifier Service, Cigar Fridge Repair, Cigar Cooler Service, Electric Humidor Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/cigar-humidor-repair/");
@@ -121,7 +121,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Cigar Humidifier Repair in Dubai | De Humidifier Service Center</h1>
+            <h1 className="cs_fs_30">Cigar Humidor Repair in Dubai | De Humidor Service Center</h1>
             <p>Since 2010, FAJ has been providing expert repair and maintenance for top cigar humidors and professional cigar storage. If your cigar cabinet humidor is not working, don't buy a new one!<br />
               FAJ is an authorized service center for <a href="https://afidanoshop.com/collections/all">Afidano Cigar Humidors</a>, providing in warranty and out-of-warranty repair, maintenance service in Dubai, Sharjah, and Abu Dhabi since 2024.<br />
               Our experienced team can fix problems like broken sensors, uneven humidity, and power problems, restoring your humidor to like-new condition. We use genuine spare parts and high-quality tools, focusing on repairs rather than replacements.</p>

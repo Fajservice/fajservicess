@@ -152,7 +152,7 @@ const SiemensHomeAppUnstallationDetail = ({ subtitle, title, reviewsbg, titleSeo
           <div className="container">
             <h1 className="cs_fs_30">Siemens Home Appliances Service & Siemens Washing Machine Repair in Dubai</h1>
             <p>
-              Having a hard time finding a local Siemens appliance technician with expertise in Siemens kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. With a strong network of thoroughly vetted and experienced professionals, we aim to assign a technician familiar with your specific Siemens appliance whenever possible.
+              Having a hard time finding a local Siemens appliance technician with expertise in Siemens kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. With a strong network of thoroughly vetted and experienced professionals, we aim to assign a technician familiar with your specific Siemens appliance whenever possible.
             </p>
 
             <div id="get-quote" className=" mt-3">

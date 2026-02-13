@@ -123,7 +123,7 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                         <h1 className="cs_fs_30">Hisense Fridge Repair and Hisense Washing Machine Service in Dubai</h1>
                         <p>
                             Looking for a reliable local expert to repair your Hisense appliances? You're in the right place.
-                            Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted name for affordable and efficient home appliance solutions.
+                            Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted name for affordable and efficient home appliance solutions.
                             <br />We connect you with experienced and professionals who specialize in Hisense appliance repairs and understand the specific needs of your devices. Whether in Dubai or Sharjah, we aim to ensure you receive expert service tailored to your appliance. Your satisfaction is always our top concern.
 
                         </p>

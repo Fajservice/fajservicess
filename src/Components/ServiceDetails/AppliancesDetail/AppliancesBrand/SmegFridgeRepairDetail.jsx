@@ -152,7 +152,7 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Smeg Fridge Repair & Smeg Washing Machine Service in Dubai </h1>
-            <p>Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been delivering trusted Smeg appliance maintenance and repair solutions across Dubai. We recognize that appliance failures often occur without warning, so we ensure fast, dependable, and cost-effective services.
+            <p>Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been delivering trusted Smeg appliance maintenance and repair solutions across Dubai. We recognize that appliance failures often occur without warning, so we ensure fast, dependable, and cost-effective services.
               Our expert technicians operate throughout Dubai and Sharjah, offering convenient Smeg washing machine repairs and servicing to keep your appliances running smoothly.
             </p>
 

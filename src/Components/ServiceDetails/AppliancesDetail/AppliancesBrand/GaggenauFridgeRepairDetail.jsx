@@ -151,7 +151,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <div className="container">
             <h1 className="cs_fs_30">Gaggenau Fridge Repair in Dubai | Cooking Range & Oven Service </h1>
             <p>
-              Having a hard time locating a local technician who specializes in Gaggenau kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable repair services since 2010. Our extensive network of thoroughly screened and experienced professionals ensures that, whenever possible, we’ll assign a technician with hands-on experience in servicing your specific Gaggenau appliance.
+              Having a hard time locating a local technician who specializes in Gaggenau kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable repair services since 2010. Our extensive network of thoroughly screened and experienced professionals ensures that, whenever possible, we’ll assign a technician with hands-on experience in servicing your specific Gaggenau appliance.
 
             </p>
 

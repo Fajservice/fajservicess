@@ -152,7 +152,7 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <h1 className="cs_fs_30">Gibson Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been delivering trusted Gibson appliance repair and service in Dubai. We understand that appliance issues can arise without warning, which is why we offer prompt, affordable, and high-quality repair solutions.
+              Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been delivering trusted Gibson appliance repair and service in Dubai. We understand that appliance issues can arise without warning, which is why we offer prompt, affordable, and high-quality repair solutions.
               Our experienced technicians are available across Dubai and Sharjah to provide on-site Gibson washing machine repair and service at your convenience.
             </p>
 

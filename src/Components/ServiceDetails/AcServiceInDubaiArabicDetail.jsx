@@ -19,12 +19,12 @@ const getImageSrc = (imgPath) => {
 
 const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "تصليح مكيفات - شركة تنظيف مكيفات في دبي - فني تكييف قريب مني");
-  const metadescription = String(description || "فأج احصل على أفضل خدمة تصليح مكيفات في دبي · خدمة المكيف السبليت ·تصليح مكيفات مركزي تصليح مكيفات أفضل شركات تصليح مكيفات تصليح مكيفات · صيانة مكيفات المنزلية · غسيل المكيفات المركزية");
+  const metatitle = String(titleSeo || "تصليح مكيفات دبي | صيانة مكيفات إصلاح مكيفات |  فني تكييف قريب مني");
+  const metadescription = String(description || "إذا أردت نفس اليوم تصليح مكيفات دبي، صيانة مكيفات إصلاح مكيفات، فني تكييف قريب مني اتصل الآن 043300002 أفضل شركات  · صيانة مكيفات المنزلية · غسيل المكيفات المركزية");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "خدمة التكييف، صيانة التكييف، خدمة تكييف الهواء، إصلاح التكييف، صيانة التكييف في دبي، فني تكييف، تنظيف التكييف، شركة تكييف في دبي، أفضل خدمة تكييف، أسعار صيانة التكييف");
-  const metaURL = String(URL || "https://www.fajservices.ae/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/");
-  const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/");
+  const metaImage = "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract/public";
  subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -147,8 +147,8 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">تصليح مكيفات دبي</h1>
-            <p>وداعًا لأيام الصيف الحارة ولياليها الخانقة ومسببات الحساسية. أهلاً بكم في راحة طوال العام، وهواء نقي منعش، ونوم هانئ. رائع، أليس كذلك؟<br /><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">شركة اف ايه جيه للخدمات الفنية ش.ذ.م.م.</a> تعمل منذ عام ٢٠١٠. يتمتع فريقنا المتخصص بخبرة واسعة في خدمات تنظيف وصيانة وإصلاح مكيفات الهواء، بالإضافة إلى خدمات تكييف الهواء القريبة مني، وتركيب مكيفات الهواء لمختلف وحدات التكييف السكنية والتجارية في دبي والشارقة.</p>
+            <h1 className="cs_fs_30">تصليح مكيفات ، صيانة مكيفات إصلاح مكيفات دبي</h1>
+            <p>وداعًا لأيام الصيف الحارة ولياليها الخانقة ومسببات الحساسية. أهلاً بكم في راحة طوال العام، وهواء نقي منعش، ونوم هانئ. رائع، أليس كذلك؟<br /><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">شركة اف ايه جيه للخدمات الفنية ش.ذ.م.م.</a> تعمل منذ عام ٢٠١٠. يتمتع فريقنا المتخصص بخبرة واسعة في خدمات تنظيف وصيانة وإصلاح مكيفات الهواء، بالإضافة إلى خدمات تكييف الهواء القريبة مني، وتركيب مكيفات الهواء لمختلف وحدات التكييف السكنية والتجارية في دبي والشارقة.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

@@ -153,7 +153,7 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <h1 className="cs_fs_30">Smeg Stand Mixer Repair & Service in Dubai and Small Appliance Service Center</h1>
 
             <p>
-              If your Smeg stand mixer is giving you trouble, rely on the specialists at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we’ve been delivering quick, dependable, and budget-friendly repair solutions explicitly designed for Smeg appliances. Our skilled technicians also handle repairs for coffee machines, blenders, and other kitchen appliances, using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
+              If your Smeg stand mixer is giving you trouble, rely on the specialists at <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we’ve been delivering quick, dependable, and budget-friendly repair solutions explicitly designed for Smeg appliances. Our skilled technicians also handle repairs for coffee machines, blenders, and other kitchen appliances, using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
             </p>
 
             <div id="get-quote" className=" mt-3">

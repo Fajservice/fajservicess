@@ -110,7 +110,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <h1 className="cs_fs_30">Daewoo AC Repair and Cleaning Service in Dubai</h1>
             <p>For year-round comfort, it's important to address challenges like summer humidity, warm nights, and indoor allergens effectively.
-              <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>  has established itself as the leading provider of Daewoo air conditioning solutions in Dubai and Sharjah.
+              <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>  has established itself as the leading provider of Daewoo air conditioning solutions in Dubai and Sharjah.
               <br />
               Our skilled team provides Daewoo AC repair, cleaning, maintenance, and installation for home and office AC units. We focus on optimizing your system's performance to keep your indoor environment comfortable.
             </p>

@@ -155,7 +155,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             <p>
               Sub Zero refrigerator are the best among the other brands out there. Still, products of the best brands do not last forever.
               You can fix minor issues, but mostly, you cannot. So why worry? We are the best Sub Zero fridge freezer repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all Sub Zero refrigerator, you can expect successful and swift repairs from us.
-              <br />Sub Zero Fridge Repair in Dubai. So, contact us today to get your built-in fridge freezer repair appointment. Enjoy superior Sub Zero appliance repair with <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C.</a>
+              <br />Sub Zero Fridge Repair in Dubai. So, contact us today to get your built-in fridge freezer repair appointment. Enjoy superior Sub Zero appliance repair with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C.</a>
             </p>
 
             <div id="get-quote" className=" mt-3">

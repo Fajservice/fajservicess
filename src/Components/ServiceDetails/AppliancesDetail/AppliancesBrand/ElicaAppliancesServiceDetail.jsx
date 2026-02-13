@@ -152,7 +152,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <h1 className="cs_fs_30">Elica Appliances Service and Elica Cooker Repair in Dubai</h1>
 
             <p>
-              If you’re facing problems with your Elica built-in ovens, freestanding cooking ranges, or kitchen hoods, it’s vital to find a trustworthy and effective repair service. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai is here to help with quick, reliable, and affordable repairs tailored to Elica appliances.
+              If you’re facing problems with your Elica built-in ovens, freestanding cooking ranges, or kitchen hoods, it’s vital to find a trustworthy and effective repair service. <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> in Dubai is here to help with quick, reliable, and affordable repairs tailored to Elica appliances.
               <br />
               Since 2010, our experienced team has been dedicated to using the latest tools and techniques to identify and fix issues with all Elica models. We aim to get you back to your cooking routine in Dubai and Sharjah as soon as possible with minimal hassle.
             </p>
@@ -178,7 +178,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Elica Appliances Service</h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns, especially with Elica products, never occur at a convenient time. That’s why our trained Elica technicians are here to offer reliable appliance repair services. With our assistance, you can avoid the cost of purchasing a new appliance and get your Elica appliance running again before you have a chance to worry.
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns, especially with Elica products, never occur at a convenient time. That’s why our trained Elica technicians are here to offer reliable appliance repair services. With our assistance, you can avoid the cost of purchasing a new appliance and get your Elica appliance running again before you have a chance to worry.
                 </p>
               </div>
 

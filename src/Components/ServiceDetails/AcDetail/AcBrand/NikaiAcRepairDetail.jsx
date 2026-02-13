@@ -112,7 +112,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Nikai AC Repair and Maintenance Service in Dubai</h1>
-            <p>For year-round comfort, tackling issues like summer humidity, warm nights, and indoor allergens is key! Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has proudly provided top-notch Nikai air conditioning solutions in Dubai and Sharjah.<br />Our dedicated team is here to offer a wide range of services, including Nikal AC repair, cleaning service, maintenance, and installation for both homes and businesses. We're passionate about optimizing your air conditioning system to elevate your indoor comfort. Let’s make your space a cool haven together!</p>
+            <p>For year-round comfort, tackling issues like summer humidity, warm nights, and indoor allergens is key! Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has proudly provided top-notch Nikai air conditioning solutions in Dubai and Sharjah.<br />Our dedicated team is here to offer a wide range of services, including Nikal AC repair, cleaning service, maintenance, and installation for both homes and businesses. We're passionate about optimizing your air conditioning system to elevate your indoor comfort. Let’s make your space a cool haven together!</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

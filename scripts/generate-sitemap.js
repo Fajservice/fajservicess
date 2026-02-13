@@ -2234,6 +2234,11 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <lastmod>${today}</lastmod>
     <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://www.fajservices.ae/services/air-conditioning-repair/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/</loc>
+  <lastmod>${today}</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>`;
 
 fs.writeFileSync("public/sitemap.xml", sitemap);

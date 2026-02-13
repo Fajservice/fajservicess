@@ -152,7 +152,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <h1 className="cs_fs_30">De Dietrich Fridge Repair | De Dietrich Stove & DeDietrich Oven Service in Dubai</h1>
             <p>
               Having trouble finding a reliable technician for your De Dietrich kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our extensive network of well-vetted, experienced professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific De Dietrich appliance.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our extensive network of well-vetted, experienced professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific De Dietrich appliance.
               We’re dedicated to delivering prompt, expert service to keep your appliances running efficiently.
 
             </p>

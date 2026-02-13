@@ -122,7 +122,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <h1 className="cs_fs_30">Marvel  Home Appliances Service and Marvel Fridge Repair in Dubai</h1>
                         <p>
                             Need expert help with your Marvel appliances? You’re in the right place.
-                            <br /> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been offering reliable and affordable appliances repair services since 2010. We work with a team of experienced and trusted technicians who understand the specific needs of Marvel appliance repairs and local service demands.
+                            <br /> <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been offering reliable and affordable appliances repair services since 2010. We work with a team of experienced and trusted technicians who understand the specific needs of Marvel appliance repairs and local service demands.
                             Whether you're in Dubai or Sharjah, we’ll connect you with a knowledgeable technician who can handle your Marvel appliances with care and precision. Your satisfaction is always our priority.
 
                         </p>

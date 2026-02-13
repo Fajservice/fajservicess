@@ -152,7 +152,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
 
             <h1 className="cs_fs_30">KitchenAid Stand Mixer Repair & Maintenance Service in Dubai</h1>
             <p>
-              If you’re facing issues with your KitchenAid Stand Mixer, trust the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services explicitly tailored for KitchenAid appliances.
+              If you’re facing issues with your KitchenAid Stand Mixer, trust the experts at <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services explicitly tailored for KitchenAid appliances.
               <br />
               Our experienced technicians also service coffee machines, blenders, and other kitchen appliances using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
 

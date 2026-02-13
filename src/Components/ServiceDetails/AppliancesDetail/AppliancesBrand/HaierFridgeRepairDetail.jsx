@@ -122,7 +122,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                         <h1 className="cs_fs_30">Haier Fridge Repair and Haier Washing Machine Service in Dubai</h1>
                         <p>
                             If you're looking for an experienced local technician for your Haier appliances, you've come to the right place.
-                            <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable and affordable repair services across Dubai and Sharjah. Our trusted network of professionals specializes in Haier appliance repair and understands the brand’s unique service requirements.
+                            <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has provided reliable and affordable repair services across Dubai and Sharjah. Our trusted network of professionals specializes in Haier appliance repair and understands the brand’s unique service requirements.
                             We’re committed to connecting you with skilled technicians near you who can return your Haier appliances to peak performance. Your satisfaction is always our top priority.
                         </p>
 

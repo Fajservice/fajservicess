@@ -120,7 +120,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Daewoo Home Appliance Service and Washing Machine Repair in Dubai</h1>
-                        <p>Are you having trouble finding a local Daewoo appliance technician who specializes in Daewoo kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific Daewoo appliance. </p>
+                        <p>Are you having trouble finding a local Daewoo appliance technician who specializes in Daewoo kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific Daewoo appliance. </p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">

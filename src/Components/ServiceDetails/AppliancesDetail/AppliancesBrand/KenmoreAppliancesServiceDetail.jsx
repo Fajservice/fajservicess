@@ -120,7 +120,7 @@ const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                     <div className="container">
                         <h1 className="cs_fs_30">Kenmore Appliances Service and Kenmore Oven Repair in Dubai </h1>
                         <p>
-                            If you’re looking for an expert technician for your Kenmore appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is your trusted choice.
+                            If you’re looking for an expert technician for your Kenmore appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is your trusted choice.
                             <br />Since 2010, we’ve provided reliable, budget-friendly repair services across Dubai and Sharjah. Our professional network understands Kenmore appliance repairs' specific needs and is committed to delivering prompt, effective service near you.
                             We aim to connect you with a skilled technician who knows Kenmore inside and out, because your satisfaction matters most.
 

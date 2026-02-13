@@ -152,7 +152,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <h1 className="cs_fs_30">Samsung Fridge Repair and Samsung Washing Machine Service in Dubai</h1>
             {/* <h2>Professional Samsung Home Appliances Service and Repair</h2> */}
-            <p>If you&apos;re searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a> has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service.
+            <p>If you&apos;re searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service.
               <br />
               Our primary goal is to connect you with a skilled Samsung technician in Dubai and Sharjah who is well-versed in the workings of Samsung appliances. Your satisfaction is our top priority! </p>
 

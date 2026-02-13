@@ -120,7 +120,7 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <div className="container">
                         <h1 className="cs_fs_30">Bompani Fridge Repair and Bompani Washing Machine Service in Dubai</h1>
                         <p>
-                            If you are looking for a knowledgeable local technician who specializes in Bompani appliances, you’re in the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable and affordable appliance solutions since 2010.
+                            If you are looking for a knowledgeable local technician who specializes in Bompani appliances, you’re in the right place. <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been providing reliable and affordable appliance solutions since 2010.
                             <br />We have established a network of qualified professionals dedicated to addressing the specific needs of Bompani appliance repair and nearby services. Our main aim is to connect you with a proficient Bompani technician in Dubai and Sharjah, ensuring they have a deep understanding of Bompani appliances. Your satisfaction is our highest priority!
                         </p>
 

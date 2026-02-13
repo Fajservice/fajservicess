@@ -117,7 +117,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30" style={{ fontSize: "25px" }}>AC MAINTENANCE IN DUBAI - AC MAINTENANCE AND SERVICE NEAR YOU</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
+            <p><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
               An air conditioner unit is essential for maintainance a comfortable indoor environment year-round. Regular AC maintenance, including repairs and cleaning, is necessary for optimal performance. Our professional air conditioner maintenance services in Dubai are designed to ensure your system operates efficiently, enhancing the quality of your indoor atmosphere.</p>
 
             <div id="get-quote" className=" mt-3">

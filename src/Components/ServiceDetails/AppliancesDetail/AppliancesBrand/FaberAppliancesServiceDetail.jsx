@@ -121,7 +121,7 @@ const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         <h1 className="cs_fs_30">Faber Appliances Service and Faber Oven Repair in Dubai</h1>
                         <p>
                             Having trouble finding a local technician who specializes in Faber kitchen appliances?
-                            <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering dependable and cost-effective services since 2010. We work with a wide network of experienced, qualified, and carefully vetted professionals. Whenever possible, we’ll send a technician who understands your specific Faber appliance to ensure you receive accurate and efficient repair service.
+                            <br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been offering dependable and cost-effective services since 2010. We work with a wide network of experienced, qualified, and carefully vetted professionals. Whenever possible, we’ll send a technician who understands your specific Faber appliance to ensure you receive accurate and efficient repair service.
                         </p>
 
                         <div id="get-quote" className=" mt-3">

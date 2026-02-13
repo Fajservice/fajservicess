@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "White Westinghouse AC Repairing and Aircon Fixing nearby");
-  const metadescription = String(description || "We are offering White Westinghouse AC Repairs in Dubai. Call us 043300002 for Air Conditioner Maintenance near me, Sharjah. Air Con Servicing");
+  const metatitle = String(titleSeo || "White Westinghouse AC & Home Appliances Repair Service Dubai");
+  const metadescription = String(description || "White Westinghouse AC service & repair in Dubai. We are offering fridge freezer, washing machine, dryer, laundry, oven maintenance with part warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "White Westinghouse Ac Repair In Dubai, White Westinghouse Ac Maintenance In Dubai, White Westinghouse Ac Fix In Dubai, White Westinghouse Ac Service In Dubai, White Westinghouse Air Condition Repair In Dubai, White Westinghouse Air Conditioner Repair In Dubai, White Westinghouse Air Conditioner Service In Dubai, White Westinghouse Air Conditioner Maintenance In Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/white-westinghouse/");
@@ -111,14 +111,9 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">White Westinghouse AC Repair and Maintenance Service in Dubai </h1>
-            <p>
-              For year-round comfort, it’s important to effectively manage challenges like summer humidity, warm nights, and indoor allergens.
-              <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has emerged as a leading provider of White Westinghouse air conditioning solutions in Dubai and Sharjah.
-              <br />Our highly skilled team is dedicated to delivering top-notch AC repair, service cleaning, maintenance, and installation for both residential and commercial AC units.
-              We prioritize optimizing the efficiency of your air conditioning system, ensuring that your indoor environment remains refreshing and comfortable throughout the year. Trust us to elevate your comfort and peace of mind.
-
-            </p>
+            <h1 className="cs_fs_30">White Westinghouse AC Repair Center and Home Appliances Service in Dubai</h1>
+            <p>White Westinghouse home appliances play a crucial role in our daily lives by providing comfort and convenience. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, our goal is to enhance our quality of life through reliable repairs at our White Westinghouse home appliances repair center.<br />Some key White Westinghouse home appliances that significantly impact our daily routines include air conditioners, washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers. The inconvenience caused by any of these appliances breaking down unexpectedly can be considerable. That’s why we offer dedicated repair, maintenance, and service in Dubai.
+</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -141,24 +136,25 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <br />Our team of experts is committed to ensuring that your air conditioning systems operate efficiently in both Dubai and Sharjah, offering reliable solutions that promote optimal indoor comfort throughout the year.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need White Westinghouse AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="White Westinghouse AC Service" />
               </div>

@@ -122,7 +122,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                     <div className="container">
                         <h1 className="cs_fs_30">Foster Appliances Service and Dishwasher Repair in Dubai</h1>
                         <p>
-                            Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted name for Foster appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we provide prompt, reliable, and affordable repair solutions.
+                            Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted name for Foster appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we provide prompt, reliable, and affordable repair solutions.
                             Our skilled technicians are available across Dubai and Sharjah to deliver on-site Foster washing machine repair and service whenever you need it.
                         </p>
 

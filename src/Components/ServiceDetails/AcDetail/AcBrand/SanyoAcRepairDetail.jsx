@@ -113,7 +113,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Sanyo Air Conditioning Repair and Maintenance Services in Dubai</h1>
-            <p>Sanyo air conditioning units are a great choice for homes and commercial spaces, offering reliable summer cooling. With a universal range of models, they meet diverse needs and are a smart investment for year-round climate control.<br/> At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, established in 2010, we specialise in Sanyo AC repair and maintenance, providing cost-effective solutions to keep your cooling systems efficient. Our experienced team takes repairs and replacements, particularly for Sanyo units, which are common during this season.</p>
+            <p>Sanyo air conditioning units are a great choice for homes and commercial spaces, offering reliable summer cooling. With a universal range of models, they meet diverse needs and are a smart investment for year-round climate control.<br/> At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, established in 2010, we specialise in Sanyo AC repair and maintenance, providing cost-effective solutions to keep your cooling systems efficient. Our experienced team takes repairs and replacements, particularly for Sanyo units, which are common during this season.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

@@ -151,7 +151,7 @@ const FosterAppliancesServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             <h1 className="cs_fs_30">Foster Home Appliance Repair Service and Installation</h1>
             <p>
               Struggling to find a reliable local technician for your Foster kitchen appliances?
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been delivering trusted and cost-effective repair services. Our extensive network of skilled and carefully vetted professionals ensures that, whenever possible, we’ll send a technician who is experienced with your specific Foster appliance—providing you with accurate, efficient repairs you can count on.
+              Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been delivering trusted and cost-effective repair services. Our extensive network of skilled and carefully vetted professionals ensures that, whenever possible, we’ll send a technician who is experienced with your specific Foster appliance—providing you with accurate, efficient repairs you can count on.
             </p>
 
             <div id="get-quote" className=" mt-3">

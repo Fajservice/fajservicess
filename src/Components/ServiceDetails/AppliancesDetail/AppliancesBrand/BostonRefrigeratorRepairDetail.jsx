@@ -153,7 +153,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             <h1 className="cs_fs_30">Boston Refrigerator Repair and Appliances Service In Dubai</h1>
             <p>
               Having trouble finding a local technician who specializes in Boston kitchen appliances?
-              <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. Our broad network includes thoroughly vetted, qualified, and experienced professionals. Whenever possible, we’ll assign a technician who is familiar with your specific Boston appliance to ensure expert care and prompt service.
+              <br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. Our broad network includes thoroughly vetted, qualified, and experienced professionals. Whenever possible, we’ll assign a technician who is familiar with your specific Boston appliance to ensure expert care and prompt service.
             </p>
 
             <div id="get-quote" className=" mt-3">

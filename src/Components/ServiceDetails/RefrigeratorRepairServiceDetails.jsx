@@ -118,7 +118,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">THE <a href="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ Experts</b></a> ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C.</b></a> is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
+            <p><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C.</b></a> is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
               <br />
               Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
               When your air conditioning system fails, we're here to help. Choose FAJ for all your AC repair needs in Dubai.

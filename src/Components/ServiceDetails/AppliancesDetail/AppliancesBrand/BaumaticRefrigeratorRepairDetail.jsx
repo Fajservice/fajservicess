@@ -154,7 +154,7 @@ const BaumaticRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
             <h1 className="cs_fs_30">Baumatic Home Appliance Repair Service and Installation</h1>
             <p>
               Having trouble finding a local Baumatic appliance technician who understands Baumatic kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering reliable and affordable services since 2010. Our wide network includes well-vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who knows your specific Baumatic appliance.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering reliable and affordable services since 2010. Our wide network includes well-vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who knows your specific Baumatic appliance.
             </p>
 
             <div id="get-quote" className=" mt-3">

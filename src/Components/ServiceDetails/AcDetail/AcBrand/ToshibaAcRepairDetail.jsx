@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Toshiba AC Repair Best Price in Dubai | AC Fixing Near by You");
-  const metadescription = String(description || "Get Cassette, Ducted Inverter Split & VRF System Maintenance| Toshiba AC Repair and Services in Dubai. Book now at 04 330 0002 with the best prices.");
+  const metatitle = String(titleSeo || "Toshiba Air Conditioning | Toshiba AC Repair Services Dubai");
+  const metadescription = String(description || "Get Cassette, Ducted Inverter Split & VRF AC Maintenance| Toshiba AC Repair and Services in Dubai. Book now at 04 330 0002 with the best prices.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Toshiba AC Repair in Dubai, Toshiba AC Maintenance Service, Toshiba Air Conditioner Repair, Toshiba AC Service Near Me, Toshiba AC Cleaning Service, Toshiba Air Conditioner Installation, Toshiba AC AMC Dubai, Toshiba AC Repair Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/toshiba/");
@@ -112,11 +112,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Toshiba AC Repair in Dubai and AC Maintenance Service</h1>
-            <p>
-              For year-round comfort, it is essential to effectively address challenges such as humidity, warm nights, and indoor allergens.
-              <br />Since our inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has established itself as a trusted leader in Toshiba air conditioning solutions in Dubai and Sharjah. Our highly skilled team is dedicated to providing exceptional services, including AC repair, cleaning service, maintenance, and installation for both residential and commercial settings. We are committed to enhancing the performance of your air conditioner system, ensuring that you enjoy exceptional indoor comfort throughout the year.
-
-            </p>
+            <p>Are you looking for a Toshiba air conditioning repair service for your business? We can help!<br /> <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> offers maintenance for all types of Toshiba air conditioning systems throughout Dubai. Our services include regular AC servicing, repairs, and new installations.<br />Our specialists are highly qualified and skilled, ensuring that they meet the highest Toshiba standards. They will arrive at your commercial premises fully equipped to handle any Toshiba air conditioning maintenance task. Additionally, we offer tailored service and maintenance packages to suit your business needs.<br />If you require service, repair, or inspection of a Toshiba air conditioning system, please fill out our inquiry form, and we will send you a quote within an hour.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -139,24 +135,25 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Toshiba AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="Toshiba AC Service" />
               </div>

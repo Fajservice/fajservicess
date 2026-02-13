@@ -154,7 +154,7 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
             <h1 className="cs_fs_30">Thermador Appliances Service and Thermador Repair Center in Dubai</h1>
             <p>
               Having trouble finding a local technician who specializes in Thermador kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair services since 2010. Our broad network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician who’s familiar with your specific Thermador appliance to ensure efficient and accurate service.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair services since 2010. Our broad network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician who’s familiar with your specific Thermador appliance to ensure efficient and accurate service.
             </p>
 
             <div id="get-quote" className=" mt-3">

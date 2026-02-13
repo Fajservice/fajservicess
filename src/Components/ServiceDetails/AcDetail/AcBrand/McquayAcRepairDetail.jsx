@@ -113,7 +113,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Experts McQuay AC Repair and Service in Dubai</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, has been a cornerstone of the community since 2010. Our highly skilled facilities team brings a wealth of experience in McQuay AC repair, maintenance, and installation services for both residential and commercial units in Dubai and Sharjah. A McQuay air conditioner is essential for year-round comfort. Regular maintenance is vital for optimal performance. In Dubai, numerous professional cleaning services specialize in McQuay systems, helping you keep your air conditioning running efficiently.
+            <p><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, has been a cornerstone of the community since 2010. Our highly skilled facilities team brings a wealth of experience in McQuay AC repair, maintenance, and installation services for both residential and commercial units in Dubai and Sharjah. A McQuay air conditioner is essential for year-round comfort. Regular maintenance is vital for optimal performance. In Dubai, numerous professional cleaning services specialize in McQuay systems, helping you keep your air conditioning running efficiently.
             </p>
 
             <div id="get-quote" className=" mt-3">

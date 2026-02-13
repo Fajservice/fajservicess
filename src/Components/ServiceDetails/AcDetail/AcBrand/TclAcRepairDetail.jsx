@@ -135,7 +135,7 @@ const TCLAcRepair = ({
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">TCL Air Conditioner Repair and Maintenance Service in Dubai </h1>
-            <p>Is your TCL air conditioner not working? Is it just sitting there on your wall, and you feel helpless about getting it to work again?<br/><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> understands how challenging it can be to fix your TCL AC, especially when it comes to air conditioner repair and maintenance services in Dubai and Sharjah. Our expert team offers a complete range of services, including TCL AC repair, cleaning, maintenance, and installation for both residential and commercial settings.<br />We are dedicated to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.</p>
+            <p>Is your TCL air conditioner not working? Is it just sitting there on your wall, and you feel helpless about getting it to work again?<br/><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> understands how challenging it can be to fix your TCL AC, especially when it comes to air conditioner repair and maintenance services in Dubai and Sharjah. Our expert team offers a complete range of services, including TCL AC repair, cleaning, maintenance, and installation for both residential and commercial settings.<br />We are dedicated to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -158,24 +158,25 @@ const TCLAcRepair = ({
 
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need TCL AC Maintenance</h2>
+                <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
+                      <li>AC Not Cooling Signs</li>
+                      <li>AC Motor not working</li>
+                      <li>AC Thermostat not working</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
+                      <li>Water Leaking from your AC</li>
+                      <li>AC compressor is not cooling</li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
-                </div></div>
-
+                </div>
+              </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('ac filter')} alt="TCL AC Service" />
               </div>

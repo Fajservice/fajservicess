@@ -152,7 +152,7 @@ const SpeedQueenWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titl
           <div className="container">
             <h1 className="cs_fs_30">Speed Queen Washing Machine Repair and Washer Dryer Maintenance Service in Dubai</h1>
             <p>
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we provide comprehensive services for Speed Queen washing machines, washers, dryers, and all types of laundry equipment. Our team specialises in the installation, maintenance, and repair of both top-loading and front-loading Speed Queen models, ensuring that your appliances run smoothly and efficiently.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we provide comprehensive services for Speed Queen washing machines, washers, dryers, and all types of laundry equipment. Our team specialises in the installation, maintenance, and repair of both top-loading and front-loading Speed Queen models, ensuring that your appliances run smoothly and efficiently.
               <br />
               Whether you need routine maintenance or urgent repairs for your home or commercial laundry facility, our experienced technicians are dedicated to delivering quick and effective solutions. Trust us to keep your Speed Queen laundry equipment in optimal condition and enjoy the convenience of reliable service. Contact us today!
             </p>
@@ -181,7 +181,7 @@ const SpeedQueenWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titl
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Speed Queen Appliances Service </h3>
 
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we understand that Speed Queen appliance issues can arise unexpectedly. That’s why our qualified technicians provide reliable Speed Queen appliance repair service across Dubai and Sharjah. With our expert help, you can avoid the high cost of replacements and get your appliance back in working condition in no time.
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we understand that Speed Queen appliance issues can arise unexpectedly. That’s why our qualified technicians provide reliable Speed Queen appliance repair service across Dubai and Sharjah. With our expert help, you can avoid the high cost of replacements and get your appliance back in working condition in no time.
                 </p>
               </div>
 

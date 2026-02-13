@@ -153,7 +153,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <div className="container">
             <h1 className="cs_fs_30">Neff Fridge Repair and Neff Dishwasher Service in Dubai</h1>
             <p>
-              Having difficulty finding a local Neff appliance technician with expertise in Neff kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our broad network of thoroughly vetted, experienced professionals ensures that, whenever possible, we dispatch a technician who knows your specific Neff appliance inside and out.
+              Having difficulty finding a local Neff appliance technician with expertise in Neff kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our broad network of thoroughly vetted, experienced professionals ensures that, whenever possible, we dispatch a technician who knows your specific Neff appliance inside and out.
             </p>
 
             <div id="get-quote" className=" mt-3">

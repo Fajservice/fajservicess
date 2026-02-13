@@ -112,7 +112,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <h1 className="cs_fs_30">Crafft Air Conditioning Repair and Service in Dubai</h1>
             <p>Achieving comfort throughout the year requires addressing challenges like summer humidity, elevated nighttime temperatures, and indoor allergens.
-              <br />Since its inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has established itself as a trustworthy provider of Crafft air conditioning solutions in the Dubai and Sharjah regions.
+              <br />Since its inception in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has established itself as a trustworthy provider of Crafft air conditioning solutions in the Dubai and Sharjah regions.
               Our skilled team is proficient in a comprehensive range of services, including Crafft AC repair, cleaning service, maintenance and installation for both residential and commercial units. We are committed to optimizing the performance of your air conditioning system, thereby enhancing your indoor comfort.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
