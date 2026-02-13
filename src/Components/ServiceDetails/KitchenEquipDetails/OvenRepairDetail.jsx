@@ -156,7 +156,7 @@ const OvenRepairDetail = ({
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.9",
-                "reviewCount": "3452",
+                "reviewCount": "2952",
                 "bestRating": "5"
               }
             })}
