@@ -17,19 +17,19 @@ const ApplianceSpecialise = () => {
                     <div className="row">
                         <div className="col-12">
                             <p className="mb-0">
-                                <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">
+                                <Link to="/services/home-appliances-repair/brands/lg/">
                                     <b>LG Appliance Service</b>
                                 </Link>
                                 : FAJ is here to support you when things go wrong. We understand that your LG appliances are essential for daily life, keeping your food fresh and meals cooked.
                             </p>
                             <p className="mb-0">
-                                <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/">
+                                <Link to="/services/home-appliances-repair/brands/samsung/">
                                     <b>Samsung Appliance Service</b>
                                 </Link>
                                 : If you are facing any problems with your Samsung refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
                             </p>
                             <p className="mb-0">
-                                <Link to="/electrolux-home-appliances-repair/">
+                                <Link to="/services/home-appliances-repair/brands/electrolux/">
                                     <b>Electrolux Appliance Service</b>
                                 </Link>
                                 : When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
@@ -41,25 +41,25 @@ const ApplianceSpecialise = () => {
                                 : If you are looking for the best Bosch refrigerator repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch cooking range, Washing machine, refrigerator service provider in the area.
                             </p>
                             <p className="mb-0">
-                                <Link to="/viking-appliances-service/">
+                                <Link to="/services/home-appliances-repair/brands/viking/">
                                     <b>Viking Appliance Service</b>
                                 </Link>
                                 : Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking refrigerator, range or oven repair in Dubai, rely on FAJ.
                             </p>
                             <p className="mb-0">
-                                <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
+                                <Link to="/services/home-appliances-repair/brands/daewoo/">
                                     <b>Daewoo Appliance Service</b>
                                 </Link>
                                 : We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
                             </p>
                             <p className="mb-0">
-                                <Link to="/siemens-home-appliances-repair/">
+                                <Link to="/services/home-appliances-repair/brands/siemens/">
                                     <b>Siemens Appliance Service</b>
                                 </Link>
                                 : Are you concerned about your Siemens washing machine malfunctioning and searching for a reliable Siemens appliances company in Dubai? Contact us for same-day service!
                             </p>
                             <p className="mb-0">
-                                <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
+                                <Link to="/services/home-appliances-repair/brands/teka/">
                                     <b>Teka Appliance Service</b>
                                 </Link>
                                 : If you&apos;re searching for the best Teka appliances repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
