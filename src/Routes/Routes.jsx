@@ -1124,12 +1124,16 @@ export const router = createBrowserRouter([
         element: <Components.DelonghiCoffeeMachineRepair />,
       },
       {
+        path: "/services/home-appliances-repair/brands/delonghi",
+        element: <Components.DelonghiCoffeeMachineRepair />,
+      },
+      {
         path: "/services/home-appliances-repair/coverage-area/al-mamzar/",
         element: <Components.AppliancesServiceInAlMamzar />,
       },
       {
-        path: "/services/home-appliances-repair/coverage-area/al-mizhar/",
-        element: <Components.AppliancesServiceInAlMizhar />,
+        path: "/services/home-appliances-repair/coverage-area/",
+        element: <Components.HomeCoverageAreaPage />,
       },
       {
         path: "/services/home-appliances-repair/coverage-area/damac-hills/",
