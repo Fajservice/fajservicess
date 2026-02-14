@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import HeaderForm from "../Headeform/HeaderForm";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BookingFormModal from '../BookingFormModal';
+import PriceCard from "./AcDetail/AcLocation/PriceCard";
 const CallNowButton = lazy(() => import('../Buttons/CallNowButton'));
 const ACWhyChooseUs = lazy(() => import("../WhyChooseUS/ACWhyChooseUs"));
 const MaintenanceContract = lazy(() => import("../MaintenanceContract/MaintenanceContract"));
@@ -304,7 +305,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
           </div>
         </section>
-
+        <PriceCard />
         {/* Experts Section */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">

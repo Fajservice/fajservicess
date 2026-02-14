@@ -6,7 +6,13 @@ import MaintenanceContract from "../../Components/MaintenanceContract/Maintenanc
 import loadBackgroudImages from "../../Components/Common/loadBackgroudImages";
 import HeaderForm from "../../Components/Headeform/HeaderForm";
 import Accordion from "../../Components/Common/Accordion.jsx";
+const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  return `${CDN}/${imgPath}/public`;
+};
 const FaqsDetail = ({ subtitle, title, bgImg }) => {
 
   // For SEO
@@ -18,7 +24,7 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
+  bgImg = getImageSrc('testimonialbg')
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -166,7 +172,7 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
                     <div className="responsive-container-block box-container">
                       <div className="responsive-cell-block col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="card gray">
-                          <img className="card-img" src={`${import.meta.env.BASE_URL}img/faqs/ac-faq.png`} alt="Air Conditioner FAQs" />
+                          <img className="card-img" src={getImageSrc('faqs/ac-faq')} alt="Air Conditioner FAQs" />
                           <p className="text-blk card-head">Air Conditioner (AC) FAQs</p>
                           <p className="text-blk card-text">Troubleshooting & Maintenance Tips</p>
                           <Accordion data={acdata} initialCount={5} />
@@ -174,7 +180,7 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <div className="responsive-cell-block col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="card">
-                          <img className="card-img" src={`${import.meta.env.BASE_URL}img/faqs/washing-machine-faq.png`} alt="Washing Machine FAQs" />
+                          <img className="card-img" src={getImageSrc('faqs/washing-machine-faq')} alt="Washing Machine FAQs" />
                           <p className="text-blk card-head">Washing Machine FAQs</p>
                           <p className="text-blk card-text">Solutions for Common Issues</p>
                           <Accordion data={washingdata} initialCount={4} />
@@ -182,7 +188,7 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <div className="responsive-cell-block col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="card">
-                          <img className="card-img" src={`${import.meta.env.BASE_URL}img/faqs/refrigerator-faq.png`} alt="Refrigerator FAQs" />
+                          <img className="card-img" src={getImageSrc('faqs/refrigerator-faq')} alt="Refrigerator FAQs" />
                           <p className="text-blk card-head">
                             Refrigerator FAQs
                           </p>
@@ -194,7 +200,7 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <div className="responsive-cell-block col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="card gray">
-                          <img className="card-img" src={`${import.meta.env.BASE_URL}img/faqs/dishwasher-faq.png`} alt="Dishwasher FAQs" />
+                          <img className="card-img" src={getImageSrc('faqs/dishwasher-faq')} alt="Dishwasher FAQs" />
                           <p className="text-blk card-head">
                             Dishwasher FAQs
                           </p>
@@ -206,7 +212,7 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <div className="responsive-cell-block col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="card gray">
-                          <img className="card-img" src={`${import.meta.env.BASE_URL}img/faqs/robot-vaccum-cleaner-faq.png`} alt="Robot Vacuum Cleaner FAQs" />
+                          <img className="card-img" src={getImageSrc('faqs/robot-vaccum-cleaner-faq')} alt="Robot Vacuum Cleaner FAQs" />
                           <p className="text-blk card-head">
                             Robot Vacuum Cleaner FAQs
                           </p>
@@ -218,7 +224,7 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <div className="responsive-cell-block col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="card">
-                          <img className="card-img" src={`${import.meta.env.BASE_URL}img/faqs/coffee-machine-faq.png`} alt="Coffee Machine FAQs" />
+                          <img className="card-img" src={getImageSrc('faqs/coffee-machine-faq')} alt="Coffee Machine FAQs" />
                           <p className="text-blk card-head">
                             Coffee Machine FAQs
                           </p>

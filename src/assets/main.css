@@ -7031,7 +7031,6 @@
   .cs_service_details p {
     margin-bottom: 16px;
     font-weight: 400;
-    color: #000000;
     line-height: 25px;
     margin-top: 0px;
     font-family: var(--body-font);
@@ -10717,9 +10716,9 @@
   height: -webkit-fill-available;
 }
 
-.ac_card_warranty_text {
+.cs_service_details .ac_card_warranty_text {
   font-size: 14px;
-  color: #6B7280;
+  color: #06853A;
   margin: 0 0 8px 0;
   font-weight: 500;
   text-align: center;
@@ -10761,7 +10760,7 @@
 
 .ac_card_short_description {
   font-size: 14px;
-  color: #4B5563;
+  color: #000000;
   line-height: 1.5;
   margin: 0 0 20px 0;
   text-align: left;
@@ -10995,6 +10994,7 @@
   color: #1F2937;
   font-weight: bold;
   font-size: 18px;
+  top: 2px;
 }
 
 /* Large Desktop - 1400px and above */
@@ -11017,9 +11017,6 @@
     padding: 45px 25px 25px 25px;
   }
 
-  .ac_card_warranty_text {
-    min-height: 17px;
-  }
 
   .ac_card_service_title {
     font-size: 24px;
@@ -11176,7 +11173,7 @@
   }
 
   .ac_card_warranty_text {
-    min-height: 19px;
+    min-height: 25px;
   }
 
   .ac_card_service_title {
@@ -11378,5 +11375,1355 @@
   .ac_popup_scope_item {
     font-size: 11px;
     padding: 5px 0;
+    padding-left: 11px;
+  }
+  .ac_popup_scope_item:before {
+    top: 0px;
+}
+}
+
+/* Air condition Coverage area section css */
+.our_process {
+  padding: 60px 0;
+}
+
+.process_wrapper {
+  border: 2px solid #6B7280;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.process_header {
+  text-align: center;
+  padding: 20px 30px 15px 30px;
+}
+
+.process_header h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 8px 0;
+}
+
+.process_header p {
+  font-size: 13px;
+  color: #374151;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.process_content {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 0;
+  padding: 20px;
+}
+
+.process_image {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.process_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.process_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 0 0 25px;
+  box-sizing: border-box;
+}
+
+.process_item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.process_item::before {
+  content: "•";
+  font-size: 16px;
+  color: #1F2937;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.process_item p {
+  font-size: 16px;
+  color: #374151;
+  margin: 0;
+  line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.process_item b {
+  color: #1F2937;
+  font-weight: 600;
+}
+
+/* Large Desktop - 1400px and above */
+@media (min-width: 1400px) {
+  .process_header {
+    padding: 25px 40px 18px 40px;
+  }
+
+  .process_header h2 {
+    font-size: 26px;
+    margin: 0 0 10px 0;
+  }
+  
+  .process_header p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .process_content {
+    padding: 25px;
+  }
+  
+  .process_list {
+    padding: 0 0 0 30px;
+    gap: 18px;
+  }
+  
+  .process_item::before {
+    font-size: 18px;
+  }
+  
+  .process_item p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+}
+
+/* Extra Large Desktop - 1600px and above */
+@media (min-width: 1600px) {
+  .process_header {
+    padding: 28px 50px 20px 50px;
+  }
+
+  .process_header h2 {
+    font-size: 28px;
+    margin: 0 0 12px 0;
+  }
+  
+  .process_header p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .process_content {
+    padding: 30px;
+  }
+  
+  .process_list {
+    padding: 0 0 0 35px;
+    gap: 20px;
+  }
+  
+  .process_item::before {
+    font-size: 20px;
+  }
+  
+  .process_item p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
+/* Ultra Large Desktop - 1920px (Full HD) and above */
+@media (min-width: 1920px) {
+  .our_process {
+    padding: 80px 0;
+  }
+
+  .process_header {
+    padding: 32px 60px 24px 60px;
+  }
+
+  .process_header h2 {
+    font-size: 32px;
+    margin: 0 0 14px 0;
+  }
+  
+  .process_header p {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .process_content {
+    padding: 35px;
+  }
+  
+  .process_list {
+    padding: 0 0 0 40px;
+    gap: 22px;
+  }
+  
+  .process_item::before {
+    font-size: 22px;
+  }
+  
+  .process_item p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+
+/* Tablet and below */
+@media (max-width: 968px) {
+  .process_content {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  
+  .process_image {
+    min-height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .process_list {
+    padding: 0 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .process_header {
+    padding: 18px 20px 12px 20px;
+  }
+
+  .process_header h2 {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+  }
+  
+  .process_header p {
+    font-size: 12px;
+  }
+
+  .process_content {
+    padding: 15px;
+  }
+  
+  .process_list {
+    padding: 0 10px;
+    gap: 14px;
+  }
+
+  .process_item::before {
+    font-size: 14px;
+  }
+  
+  .process_item p {
+    font-size: 11px;
+  }
+
+  .process_image {
+    min-height: 250px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 576px) {
+  .process_header {
+    padding: 15px 15px 10px 15px;
+  }
+
+  .process_header h2 {
+    font-size: 16px;
+    margin: 0 0 6px 0;
+  }
+  
+  .process_header p {
+    font-size: 11px;
+  }
+
+  .process_content {
+    padding: 12px;
+  }
+  
+  .process_list {
+    padding: 0 8px;
+    gap: 12px;
+  }
+
+  .process_item::before {
+    font-size: 13px;
+  }
+  
+  .process_item p {
+    font-size: 10px;
+    line-height: 1.4;
+  }
+
+  .process_image {
+    min-height: 200px;
+    margin-bottom: 12px;
+  }
+}
+
+/* Common issue Coverage page  section css */
+
+.ac_common_issues_section {
+  padding: 60px 0;
+}
+
+.ac_issues_header_wrapper {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.ac_issues_header_wrapper h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 10px 0;
+}
+
+.ac_issues_header_wrapper p {
+  font-size: 14px;
+  color: #1F2937;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.ac_issues_header_wrapper .ac_issues_sub_text {
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.ac_issues_grid_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.ac_issue_single_card {
+  border: 2px solid #6B7280;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: calc(33.333% - 14px);
+  flex-shrink: 0;
+}
+
+.ac_issue_card_header {
+  background-color: #1E293B;
+  padding: 2px 5px;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: Start;
+  text-align: center;
+}
+
+.ac_issue_card_header h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.ac_issue_card_content {
+  padding: 20px;
+  text-align: left;
+  flex: 1;
+}
+
+.ac_issue_card_content p {
+  font-size: 12px;
+  color: #374151;
+  margin: 0 0 15px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.ac_issue_card_content p:last-child {
+  margin-bottom: 0;
+}
+
+.ac_issue_card_content h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 15px 0 8px 0;
+  text-align: left;
+}
+
+/* Large Desktop - 1400px and above */
+@media (min-width: 1400px) {
+  .ac_issues_header_wrapper h2 {
+    font-size: 28px;
+    margin: 0 0 12px 0;
+  }
+
+  .ac_issues_header_wrapper p {
+    font-size: 15px;
+  }
+
+  .ac_issues_grid_container {
+    gap: 25px;
+  }
+
+  .ac_issue_single_card {
+    width: calc(33.333% - 17px);
+  }
+
+  .ac_issue_card_header {
+    padding: 5px 10px;
+    min-height: 80px;
+  }
+
+  .ac_issue_card_header h3 {
+    font-size: 15px;
+  }
+
+  .ac_issue_card_content {
+    padding: 22px;
+  }
+
+  .ac_issue_card_content p {
+    font-size: 13px;
+  }
+
+  .ac_issue_card_content h4 {
+    font-size: 14px;
+  }
+}
+
+/* Extra Large Desktop - 1600px and above */
+@media (min-width: 1600px) {
+  .ac_issues_header_wrapper h2 {
+    font-size: 30px;
+    margin: 0 0 14px 0;
+  }
+
+  .ac_issues_header_wrapper p {
+    font-size: 16px;
+  }
+
+  .ac_issues_grid_container {
+    gap: 28px;
+  }
+
+  .ac_issue_single_card {
+    width: calc(33.333% - 19px);
+  }
+
+  .ac_issue_card_header {
+    padding: 5px 10px;
+    min-height: 85px;
+  }
+
+  .ac_issue_card_header h3 {
+    font-size: 16px;
+  }
+
+  .ac_issue_card_content {
+    padding: 25px;
+  }
+
+  .ac_issue_card_content p {
+    font-size: 14px;
+  }
+
+  .ac_issue_card_content h4 {
+    font-size: 15px;
+  }
+}
+
+/* Ultra Large Desktop - 1920px (Full HD) and above */
+@media (min-width: 1920px) {
+  .ac_common_issues_section {
+    padding: 80px 0;
+  }
+
+  .ac_issues_header_wrapper {
+    margin-bottom: 45px;
+  }
+
+  .ac_issues_header_wrapper h2 {
+    font-size: 34px;
+    margin: 0 0 16px 0;
+  }
+
+  .ac_issues_header_wrapper p {
+    font-size: 18px;
+  }
+
+  .ac_issues_grid_container {
+    gap: 30px;
+  }
+
+  .ac_issue_single_card {
+    width: calc(33.333% - 20px);
+  }
+
+  .ac_issue_card_header {
+    padding: 25px 28px;
+    min-height: 90px;
+  }
+
+  .ac_issue_card_header h3 {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .ac_issue_card_content {
+    padding: 28px;
+  }
+
+  .ac_issue_card_content p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .ac_issue_card_content h4 {
+    font-size: 16px;
+    margin: 18px 0 10px 0;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .ac_issue_single_card {
+    width: calc(50% - 10px);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .ac_issues_header_wrapper h2 {
+    font-size: 20px;
+    margin: 0 0 8px 0;
+  }
+
+  .ac_issues_header_wrapper p {
+    font-size: 13px;
+  }
+
+  .ac_issues_grid_container {
+    gap: 18px;
+  }
+
+  .ac_issue_single_card {
+    width: 100%;
+  }
+
+  .ac_issue_card_header {
+    padding: 15px 18px;
+    min-height: 65px;
+  }
+
+  .ac_issue_card_header h3 {
+    font-size: 13px;
+  }
+
+  .ac_issue_card_content {
+    padding: 18px;
+  }
+
+  .ac_issue_card_content p {
+    font-size: 12px;
+    margin: 0 0 12px 0;
+  }
+
+  .ac_issue_card_content h4 {
+    font-size: 12px;
+    margin: 12px 0 8px 0;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 576px) {
+  .ac_issues_header_wrapper h2 {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+  }
+
+  .ac_issues_header_wrapper p {
+    font-size: 12px;
+  }
+
+  .ac_issues_grid_container {
+    gap: 16px;
+  }
+
+  .ac_issue_card_header {
+    padding: 12px 15px;
+    min-height: 60px;
+  }
+
+  .ac_issue_card_header h3 {
+    font-size: 12px;
+  }
+
+  .ac_issue_card_content {
+    padding: 15px;
+  }
+
+  .ac_issue_card_content p {
+    font-size: 11px;
+    margin: 0 0 10px 0;
+  }
+
+  .ac_issue_card_content h4 {
+    font-size: 11px;
+    margin: 10px 0 6px 0;
+  }
+}
+
+/* why important section air condition coverage page */
+.ac_inspection_importance_section {
+  padding: 60px 0;
+}
+
+.ac_inspection_main_title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 40px 0;
+}
+
+.ac_inspection_content_block {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+  margin-bottom: 40px;
+  align-items: start;
+}
+
+.ac_inspection_content_block:last-child {
+  margin-bottom: 0;
+}
+
+.ac_inspection_reverse {
+  grid-template-columns: 45% 55%;
+}
+
+.ac_inspection_text_wrapper {
+  background-color: transparent;
+}
+
+.ac_inspection_sub_heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 12px 0;
+}
+
+.ac_inspection_description {
+  font-size: 13px;
+  color: #374151;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+}
+
+.ac_inspection_section_title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1F2937;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ac_inspection_details {
+  font-size: 12px;
+  color: #374151;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.ac_inspection_image_wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.ac_inspection_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  min-height: 250px;
+}
+
+/* Large Desktop - 1400px and above */
+@media (min-width: 1400px) {
+  .ac_inspection_main_title {
+    font-size: 30px;
+    margin: 0 0 45px 0;
+  }
+
+  .ac_inspection_content_block {
+    gap: 35px;
+    margin-bottom: 45px;
+  }
+
+  .ac_inspection_sub_heading {
+    font-size: 20px;
+    margin: 0 0 14px 0;
+  }
+
+  .ac_inspection_description {
+    font-size: 14px;
+    margin: 0 0 22px 0;
+  }
+
+  .ac_inspection_section_title {
+    font-size: 13px;
+    margin: 0 0 12px 0;
+  }
+
+  .ac_inspection_details {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .ac_inspection_image {
+    min-height: 280px;
+  }
+}
+
+/* Extra Large Desktop - 1600px and above */
+@media (min-width: 1600px) {
+  .ac_inspection_main_title {
+    font-size: 32px;
+    margin: 0 0 50px 0;
+  }
+
+  .ac_inspection_content_block {
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+
+  .ac_inspection_sub_heading {
+    font-size: 22px;
+    margin: 0 0 16px 0;
+  }
+
+  .ac_inspection_description {
+    font-size: 15px;
+    margin: 0 0 24px 0;
+  }
+
+  .ac_inspection_section_title {
+    font-size: 14px;
+    margin: 0 0 14px 0;
+  }
+
+  .ac_inspection_details {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .ac_inspection_image {
+    min-height: 300px;
+  }
+}
+
+/* Ultra Large Desktop - 1920px (Full HD) and above */
+@media (min-width: 1920px) {
+  .ac_inspection_importance_section {
+    padding: 80px 0;
+  }
+
+  .ac_inspection_main_title {
+    font-size: 36px;
+    margin: 0 0 55px 0;
+  }
+
+  .ac_inspection_content_block {
+    gap: 45px;
+    margin-bottom: 55px;
+  }
+
+  .ac_inspection_sub_heading {
+    font-size: 24px;
+    margin: 0 0 18px 0;
+  }
+
+  .ac_inspection_description {
+    font-size: 16px;
+    margin: 0 0 26px 0;
+    line-height: 1.7;
+  }
+
+  .ac_inspection_section_title {
+    font-size: 15px;
+    margin: 0 0 16px 0;
+  }
+
+  .ac_inspection_details {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .ac_inspection_image {
+    min-height: 320px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .ac_inspection_content_block,
+  .ac_inspection_reverse {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .ac_inspection_image {
+    min-height: 280px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .ac_inspection_main_title {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+  }
+
+  .ac_inspection_content_block {
+    gap: 20px;
+    margin-bottom: 35px;
+  }
+
+  .ac_inspection_sub_heading {
+    font-size: 17px;
+    margin: 0 0 10px 0;
+  }
+
+  .ac_inspection_description {
+    font-size: 12px;
+    margin: 0 0 18px 0;
+  }
+
+  .ac_inspection_section_title {
+    font-size: 11px;
+    margin: 0 0 8px 0;
+  }
+
+  .ac_inspection_details {
+    font-size: 11px;
+  }
+
+  .ac_inspection_image {
+    min-height: 220px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 576px) {
+  .ac_inspection_main_title {
+    font-size: 20px;
+    margin: 0 0 25px 0;
+  }
+
+  .ac_inspection_content_block {
+    gap: 18px;
+    margin-bottom: 30px;
+  }
+
+  .ac_inspection_sub_heading {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+  }
+
+  .ac_inspection_description {
+    font-size: 11px;
+    margin: 0 0 16px 0;
+  }
+
+  .ac_inspection_section_title {
+    font-size: 10px;
+    margin: 0 0 8px 0;
+  }
+
+  .ac_inspection_details {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .ac_inspection_image {
+    min-height: 200px;
+  }
+}
+
+/* air condition coverage area price section */
+
+.ac_pricing_table_section {
+  padding: 60px 0;
+}
+
+.ac_pricing_table_wrapper {
+  overflow-x: auto;
+}
+
+.ac_pricing_table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.ac_pricing_th {
+  padding: 12px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1F2937;
+  border: 1px solid #4B5563;
+  background-color: #ffffff;
+}
+
+.ac_pricing_td {
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 11px;
+  color: #1F2937;
+  border: 1px solid #4B5563;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+.ac_pricing_type {
+  font-weight: 600;
+  color: #1F2937;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #4B5563;
+  font-size: 12px;
+}
+
+/* Service column */
+.ac_pricing_td:nth-child(1) {
+  font-weight: 600;
+  min-width: 120px;
+}
+.ac_pricing_td:nth-child(2) {
+  min-width: 120px;
+}
+
+/* Description column */
+.ac_pricing_td:nth-child(3) {
+  max-width: 400px;
+  min-width: 250px;
+}
+
+/* Price column */
+.ac_pricing_td:nth-child(4) {
+  white-space: nowrap;
+  min-width: 100px;
+  font-weight: 500;
+}
+
+/* Warranty column */
+.ac_pricing_td:nth-child(5) {
+  text-align: center;
+  white-space: nowrap;
+  min-width: 80px;
+  font-weight: 500;
+}
+
+/* Remove row-specific borders */
+.ac_pricing_row_last {
+  border-bottom: none;
+}
+.paragraph_sec {
+  margin-bottom: 50px;
+}
+/* Large Desktop - 1400px and above */
+@media (min-width: 1400px) {
+  .ac_pricing_th {
+    padding: 14px 15px;
+    font-size: 14px;
+  }
+
+  .ac_pricing_td {
+    padding: 12px 14px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .ac_pricing_type {
+    font-size: 13px;
+  }
+
+  .ac_pricing_td:nth-child(1) {
+  font-weight: 600;
+  min-width: 140px;
+}
+
+  .ac_pricing_td:nth-child(2) {
+    min-width: 140px;
+  }
+
+  .ac_pricing_td:nth-child(3) {
+    max-width: 450px;
+    min-width: 280px;
+  }
+}
+
+/* Extra Large Desktop - 1600px and above */
+@media (min-width: 1600px) {
+  .ac_pricing_th {
+    padding: 16px 18px;
+    font-size: 15px;
+  }
+
+  .ac_pricing_td {
+    padding: 14px 16px;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .ac_pricing_type {
+    font-size: 14px;
+  }
+
+  .ac_pricing_td:nth-child(2) {
+    min-width: 150px;
+  }
+
+  .ac_pricing_td:nth-child(3) {
+    max-width: 500px;
+    min-width: 300px;
+  }
+}
+
+/* Ultra Large Desktop - 1920px (Full HD) and above */
+@media (min-width: 1920px) {
+  .ac_pricing_table_section {
+    padding: 80px 0;
+  }
+
+  .ac_pricing_th {
+    padding: 18px 20px;
+    font-size: 16px;
+  }
+
+  .ac_pricing_td {
+    padding: 16px 18px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .ac_pricing_type {
+    font-size: 15px;
+  }
+
+  .ac_pricing_td:nth-child(2) {
+    min-width: 160px;
+  }
+
+  .ac_pricing_td:nth-child(3) {
+    max-width: 550px;
+    min-width: 320px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .ac_pricing_th {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .ac_pricing_td {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+
+  .ac_pricing_type {
+    font-size: 11px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .ac_pricing_th {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .ac_pricing_td {
+    padding: 6px 8px;
+    font-size: 9px;
+  }
+
+  .ac_pricing_type {
+    font-size: 10px;
+  }
+
+  .ac_pricing_td:nth-child(2) {
+    min-width: 100px;
+  }
+
+  .ac_pricing_td:nth-child(3) {
+    max-width: none;
+    min-width: 180px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 576px) {
+  .ac_pricing_th {
+    padding: 6px;
+    font-size: 9px;
+  }
+
+  .ac_pricing_td {
+    padding: 5px 6px;
+    font-size: 8px;
+    line-height: 1.3;
+  }
+
+  .ac_pricing_type {
+    font-size: 9px;
+  }
+
+  .ac_pricing_td:nth-child(2) {
+    min-width: 90px;
+  }
+
+  .ac_pricing_td:nth-child(3) {
+    min-width: 150px;
+  }
+}
+
+/* Servcies Area Air Condition Coverage */
+.service_areas_dubai_section {
+  padding: 60px 0;
+}
+
+.service_areas_main_heading {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 15px 0;
+}
+
+.service_areas_intro_text {
+  text-align: center;
+  font-size: 14px;
+  color: #374151;
+  margin: 0 0 30px 0;
+  line-height: 1.5;
+}
+
+.service_areas_sub_heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 20px 0;
+}
+
+.service_areas_tags_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.service_area_tag {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #6B7280;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1F2937;
+  transition: all 0.3s ease;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.service_area_tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Large Desktop - 1400px and above */
+@media (min-width: 1400px) {
+  .service_areas_main_heading {
+    font-size: 30px;
+    margin: 0 0 18px 0;
+  }
+
+  .service_areas_intro_text {
+    font-size: 15px;
+    margin: 0 0 35px 0;
+  }
+
+  .service_areas_sub_heading {
+    font-size: 18px;
+    margin: 0 0 25px 0;
+  }
+
+  .service_areas_tags_container {
+    gap: 14px;
+  }
+
+  .service_area_tag {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+}
+
+/* Extra Large Desktop - 1600px and above */
+@media (min-width: 1600px) {
+  .service_areas_main_heading {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+  }
+
+  .service_areas_intro_text {
+    font-size: 16px;
+    margin: 0 0 40px 0;
+  }
+
+  .service_areas_sub_heading {
+    font-size: 19px;
+    margin: 0 0 28px 0;
+  }
+
+  .service_areas_tags_container {
+    gap: 16px;
+  }
+
+  .service_area_tag {
+    padding: 13px 26px;
+    font-size: 15px;
+  }
+}
+
+/* Ultra Large Desktop - 1920px (Full HD) and above */
+@media (min-width: 1920px) {
+  .service_areas_dubai_section {
+    padding: 80px 0;
+  }
+
+  .service_areas_main_heading {
+    font-size: 36px;
+    margin: 0 0 22px 0;
+  }
+
+  .service_areas_intro_text {
+    font-size: 18px;
+    margin: 0 0 45px 0;
+  }
+
+  .service_areas_sub_heading {
+    font-size: 20px;
+    margin: 0 0 30px 0;
+  }
+
+  .service_areas_tags_container {
+    gap: 18px;
+  }
+
+  .service_area_tag {
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .service_areas_main_heading {
+    font-size: 24px;
+  }
+
+  .service_areas_intro_text {
+    font-size: 13px;
+  }
+
+  .service_areas_sub_heading {
+    font-size: 15px;
+  }
+
+  .service_areas_tags_container {
+    gap: 10px;
+  }
+
+  .service_area_tag {
+    padding: 9px 18px;
+    font-size: 12px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .service_areas_main_heading {
+    font-size: 22px;
+    margin: 0 0 12px 0;
+  }
+
+  .service_areas_intro_text {
+    font-size: 12px;
+    margin: 0 0 25px 0;
+  }
+
+  .service_areas_sub_heading {
+    font-size: 14px;
+    margin: 0 0 18px 0;
+  }
+
+  .service_areas_tags_container {
+    gap: 8px;
+  }
+
+  .service_area_tag {
+    padding: 8px 16px;
+    font-size: 11px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 576px) {
+  .service_areas_main_heading {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+
+  .service_areas_intro_text {
+    font-size: 11px;
+    margin: 0 0 20px 0;
+  }
+
+  .service_areas_sub_heading {
+    font-size: 13px;
+    margin: 0 0 15px 0;
+  }
+
+  .service_areas_tags_container {
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .service_area_tag {
+    padding: 7px 14px;
+    font-size: 10px;
   }
 }

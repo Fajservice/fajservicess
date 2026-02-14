@@ -50,7 +50,7 @@ const PriceCard = () => {
     {
       id: 2,
       image: getImageSrc('calout'),
-      warranty: '60- Days Warranty',
+      warranty: '60 - Days Warranty',
       title: 'Basic AC Cleaning',
       icon: getImageSrc('basicaccleaning'),
       price: 'AED230',
@@ -83,7 +83,7 @@ const PriceCard = () => {
     {
       id: 3,
       image: getImageSrc('maintenanceacc'),
-      warranty: '60- Days Warranty',
+      warranty: '60 - Days Warranty',
       title: 'AC Maintenance',
       icon: getImageSrc('acmatrepair'),
       price: 'AED265',
@@ -141,7 +141,7 @@ const PriceCard = () => {
   };
 
   return (
-    <section className="ac_service_cards_section cs_py_60">
+    <section className="ac_service_cards_section cs_py_30">
       <div className="container">
         <div className="ac_cards_grid_wrapper">
           {servicesData.map((service) => (
