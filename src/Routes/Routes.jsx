@@ -529,6 +529,7 @@ export const router = createBrowserRouter([
         path: "/services/air-conditioning-repair/coverage-area/",
         element: <Components.CoverageAreaPage />,
       },
+      
       {
         path: "/services/air-conditioning-repair/brands/",
         element: <Components.BrandsPage />,
@@ -912,6 +913,11 @@ export const router = createBrowserRouter([
       {
         path: "/services/air-conditioning-repair/coverage-area/old-town-dubai/",
         element: <Components.AcRepairInOldTown />,
+      },
+
+      {
+        path: "/services/home-appliance-repair/coverage-area/",
+        element: <Components.HomeCoverageAreaPage />,
       },
       {
         path: "/services/home-appliances-repair/brands/indesit/",

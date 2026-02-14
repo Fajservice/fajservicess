@@ -108,7 +108,6 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
-                    
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -194,11 +193,9 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                                     <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
 
                                     <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit's lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
                                     <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Emirates Hills Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
-
                                 </ul>
                             </div>
                         </div>

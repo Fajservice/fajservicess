@@ -87,13 +87,13 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta property="og:title" content="Book your home appliance repair today, and FAJ Service Center will arrange for an expert technician to fix your washing machine, fridge or dishwasher." />
           <meta property="og:url" content={metaURL}></meta>
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta name="twitter:title" content="Home Appliances Repair and Maintenance Services in Dubai" />
           <meta name="twitter:description" content="Coffee Machine Repair and Maintenance Services in Dubai" />
           <meta name="twitter:image" content={metaImage} />
 
