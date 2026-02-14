@@ -138,7 +138,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               <div className="process_content">
                 <div className="process_image">
-                  <img src={getImageSrc('acmaintenanceindubai')} alt="AC Maintenance Service Process" />
+                  <img src={getImageSrc('homeinsp')} alt="AC Maintenance Service Process" />
                 </div>
 
                 <div className="process_list">
@@ -317,14 +317,14 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="ac_inspection_image_wrapper">
-                <img src={getImageSrc('acinspection')} alt="AC Inspection Service" className="ac_inspection_image" />
+                <img src={getImageSrc('Refrigeratorre')} alt="AC Inspection Service" className="ac_inspection_image" />
               </div>
             </div>
 
             {/* Second Block - Why Is AC Service Important? */}
             <div className="ac_inspection_content_block ac_inspection_reverse">
               <div className="ac_inspection_image_wrapper">
-                <img src={getImageSrc('acimportant')} alt="AC Service Importance" className="ac_inspection_image" />
+                <img src={getImageSrc('Washingmch')} alt="AC Service Importance" className="ac_inspection_image" />
               </div>
 
               <div className="ac_inspection_text_wrapper">
