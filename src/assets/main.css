@@ -10647,7 +10647,18 @@
     min-height: 200px;
   }
 }
-
+.expert_section_wrapper {
+    border: 1px solid #00334E;
+    border-radius: 16px;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+.appointment-col .appointment-col-inner-wrappper {
+  border: 1px solid #00334E;
+  border-radius: 16px;
+  padding: 15px;
+  margin: 0 auto;
+}
 /* air condition coverage area price section */
 
 .ac_service_cards_section {
@@ -10715,6 +10726,10 @@
   flex-direction: column;
   height: -webkit-fill-available;
 }
+.ac_card_content_wrapper .ac_card_discount_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 
 .cs_service_details .ac_card_warranty_text {
   font-size: 14px;
@@ -10723,8 +10738,11 @@
   font-weight: 500;
   text-align: center;
   min-height: 25px;
+  text-decoration: underline;
 }
-
+.ac_card_content_wrapper .ac_card_price_wrapper p.ac_card_price_text {
+    margin-bottom: 4px;
+}
 .ac_card_service_title {
   font-size: 22px;
   font-weight: 600;
@@ -10754,7 +10772,7 @@
 .ac_card_content_wrapper hr {
   border: none;
   border-top: 1px solid #c5c5c5;
-  margin: 15px 5px;
+  margin: 0px 0px 15px;
   width: 100%;
 }
 
@@ -11029,7 +11047,7 @@
   }
 
   .ac_card_short_description {
-    font-size: 14px;
+    font-size: 16px;
     min-height: 58px;
   }
 

@@ -16,6 +16,12 @@ const Blog2 = lazy(() => import("../Blog/Blog2"));
 const Testimonial1 = lazy(() => import("../Testimonial/Testimonial1"));
 const BeforeAfter = lazy(() => import("../BeforeAfter/BeforeAfter"));
 const Serviceappointemnt = lazy(() => import('../Contact/Serviceappointemnt'));
+const Cooling = lazy(() => import('../Svg/Cooling'));
+const Improve = lazy(() => import('../Svg/Improve'));
+const Airflow = lazy(() => import('../Svg/Airflow'));
+const Customer = lazy(() => import('../Svg/Customer'));
+const Inspection = lazy(() => import('../Svg/Inspection'));
+const Thermostat = lazy(() => import('../Svg/Thermostat'));
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -307,14 +313,14 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         </section>
         <PriceCard />
         {/* Experts Section */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 pb-0">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">OUR AC Repair & Service</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">OUR AC Repair & Service</h2>
                 <p className="mb-1">When looking for<a href="https://www.fajservices.ae/services/air-conditioning-repair/">AC repair &amp; service in Dubai</a>, choose a qualified and reputable company that meets your residential or commercial needs.</p>
                 <p className="mb-1">FAJ Skilled AC technicians can quickly diagnose issues, providing your HVAC system runs efficiently. This improves comfort during hot months and reduces Dewa bill costs, providing peace of mind with your AC cooling solutions.</p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need AC Maintenance</h2>
+                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Top Common Signs That You Need AC Maintenance</h2>
                 <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -346,9 +352,11 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
             </div>
 
-            <div className="appointment-col border-small-top pt-3">
-              <h2 className="cs_fs_24 mb-1 pt-3">Our Express and Emergency AC Repair Service in Dubai</h2>
-              <p>If you are facing any problem in your air conditioning service at home or in your business, especially during the summer time, our same day and express AC repair service is here to help. Get the fastest AC repair service in Dubai today. Contact us for a quote or to schedule your emergency AC repair appointment.</p>
+            <div className="appointment-col mt-3">
+              <div className="appointment-col-inner-wrappper">
+                <h2 className="cs_fs_24 mb-1 mt-0">Our Express and Emergency AC Repair Service in Dubai</h2>
+                <p>If you are facing any problem in your air conditioning service at home or in your business, especially during the summer time, our same day and express AC repair service is here to help. Get the fastest AC repair service in Dubai today. Contact us for a quote or to schedule your emergency AC repair appointment.</p>
+              </div>
               <div id="get-quote" className="mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -444,30 +452,62 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   </div>
   
   <style>{`
+    .benefit_wrapper_box {
+        background-color: #fff;
+        border-radius: 25px;
+        padding: 4em 5px;
+        position: relative;
+        height: -webkit-fill-available;
+    }
+    .benefit_wrapper_box .benefit_wrapper_box_icon {
+        background-color: #00334E;
+        border: 1px solid #fff;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -42px;
+    }
+    .benefit_wrapper_box h3 {
+        font-size: 18px;
+        color: #0A0A0A;
+    }
+    .benefit_wrapper_box p{
+      font-size: 16px;
+      color: #0A0A0A;
+    }
     .bg-light-blue-section {
       background-color: #E9E9E9;
     }
     
     .service-cards-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 20px;
       margin-top: 24px;
     }
     
     .service-card-item {
-      padding: 16px 20px;
-      border-radius: 6px;
+        padding: 30px 15px;
+        border-radius: 10px;
+        border: 1px solid #0A0A0A;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     
     .service-card-item h3 {
-      font-size: 22px;
+      font-size: 16px;
       font-weight: 600;
       color: #000;
       margin: 0 0 8px 0;
     }
     
     .service-card-item p {
+      text-align: center;
+      font-size: 14px;
       margin: 0;
       line-height: 1.5;
     }
@@ -477,7 +517,9 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
     }
     
     .service-footer-text h3 {
-      margin: 0 0 8px 0;
+        margin: 0 0 8px 0;
+        font-size: 24px;
+        font-weight: 500;
     }
     
     .service-footer-text p {
@@ -500,70 +542,70 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 </section>
 
         {/* Benefits Of Regular AC Service and Maintenance Dubai */}
-        <section className="section cs_py_30 ac_benifit_blue">
+        <section className="section ac_benifit_blue">
             <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-10 text-center">
-                        <h2 className="cs_fs_30 text-light">Benefits Of Regular AC Service and Maintenance in Dubai
+                    <div className="text-center">
+                        <h2 className="cs_fs_30 text-light my-5">Benefits Of Regular AC Service and Maintenance in Dubai
                         </h2>
-
                         <div className="row mt-4 gx-4 gy-4">
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${CDN}/icon/cooling1/public`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                            <div className="col-md-4 mb-5">
+                                <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                                    <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
+                                      <Cooling />
+
+                                        
                                     </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
+                                    <h3 className="text-uppercase mb-2 fs-6">COOLING EFFICIENCY</h3>
                                     <p className="small">We perform a thorough evaluation of AC cooling efficiency with the use of a temperature gun.</p>
                                 </div>
                             </div>
 
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${CDN}/icon/disinfection/public`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                            <div className="col-md-4 mb-5">
+                                <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                                    <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
+                                      <Improve />
                                     </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">IMPROVED AIR QUALITY</h3>
+                                    <h3 className="text-uppercase mb-2 fs-6">IMPROVED AIR QUALITY</h3>
                                     <p className="small">Cleaning AC filters and coils removes dust, resulting in healthier and cleaner air for your family or employees.</p>
                                 </div>
                             </div>
 
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${CDN}/icon/fan/public`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                            <div className="col-md-4 mb-5">
+                                <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                                    <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
+                                      <Inspection />
                                     </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">COMPLETE INSPECTION</h3>
+                                    <h3 className="text-uppercase mb-2 fs-6">COMPLETE INSPECTION</h3>
                                     <p className="small">An AC tune-up involves checking and cleaning the filters, as well as inspecting electrical connections, to ensure optimal performance.</p>
                                 </div>
                             </div>
 
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${CDN}/icon/thermo/public`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                            <div className="col-md-4 mb-5">
+                                <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                                    <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
+                                      <Thermostat />
                                     </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
+                                    <h3 className="text-uppercase mb-2 fs-6">THERMOSTAT CHECK</h3>
                                     <p className="small">We use a laser temperature gauge to confirm that the air conditioning thermostats are functioning properly.</p>
                                 </div>
                             </div>
 
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${CDN}/icon/airflow/public`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                            <div className="col-md-4 mb-5">
+                                <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                                    <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
+                                      <Airflow />
                                     </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
+                                    <h3 className="text-uppercase mb-2 fs-6">AIRFLOW BALANCE</h3>
                                     <p className="small">We ensure optimal airflow from your air conditioning system in each room as needed.</p>
                                 </div>
                             </div>
 
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${CDN}/icon/customer/public`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                            <div className="col-md-4 mb-5">
+                                <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                                    <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
+                                      <Customer />
                                     </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
+                                    <h3 className="text-uppercase mb-2 fs-6">CUSTOMER FEEDBACK</h3>
                                     <p className="small">Our team provides essential feedback on your air conditioning health and any necessary repair.</p>
                                 </div>
                             </div>
@@ -572,7 +614,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                         <div className="text-center mb-4">
                         </div>
                     </div>
-                </div>
             </div>
         </section>
 
