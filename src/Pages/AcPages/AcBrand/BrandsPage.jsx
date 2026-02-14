@@ -1,8 +1,11 @@
-import React from 'react'
-
+import Brands from '../../../Components/ServiceDetails/AcDetail/AcBrand/Brands'
+import BreadCumb from "../../../Components/Common/BreadCumb";
 const BrandsPage = () => {
   return (
-    <div>BrandPage</div>
+      <div className="serviceDetails">
+            <BreadCumb /> 
+            <Brands />
+        </div>
   )
 }
 

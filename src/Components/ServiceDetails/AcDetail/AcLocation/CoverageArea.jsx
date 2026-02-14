@@ -4,7 +4,6 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../../Common/loadBackgroudImages';
 import '../../../../assets/main.css';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
-import BlogCoffeeMachine from '../../../Services/coffeemachine/BlogCoffeeMachine';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import Blog2 from '../../../Blog/Blog2';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
