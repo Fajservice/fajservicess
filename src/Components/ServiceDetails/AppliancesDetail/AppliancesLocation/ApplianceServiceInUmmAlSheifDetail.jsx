@@ -546,7 +546,7 @@ const ApplianceServiceInUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleS
                             {data.map((item, index) => (
                                 <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
                                     <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                                        <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                                        <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <svg
                                                 width="20"
@@ -593,8 +593,9 @@ const ApplianceServiceInUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleS
                     </div>
                 </section>
 
-                <section className="section cs_py_30">
-                    <Serviceappointemnt
+                <section className="section cs_py_30 bg-dark-blue text-light">
+          <Serviceappointemnt
+          
                         subtitle2="Contact us"
                         title2="Book An Appointment"
                     ></Serviceappointemnt>

@@ -126,7 +126,7 @@ const BeforeAfter = ({ title, subTitle, bgImg, beforeImg, afterTitle, afterImg, 
           />
         )}
         
-        <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
+        <div className="cs_section_heading cs_style_1 cs_mb_47 text-center before_after_heading">
           <h3 className="cs_section_subtitle cs_fs_18 cs_white_color text-uppercase cs_mb_12">
             <ToolSvgIcon />
             {subTitle}

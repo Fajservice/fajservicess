@@ -295,7 +295,7 @@ const Form1 = () => {
         <div className="col-12">
           <button 
             type="submit" 
-            className="cs_btn cs_style_1" 
+            className="cs_btn cs_style_1 cs_white_bg cs_accent_color" 
             disabled={status.submitting}
           >
             <span>{status.submitting ? 'Submitting...' : 'Submit'}</span>

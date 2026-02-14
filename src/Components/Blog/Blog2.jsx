@@ -49,7 +49,7 @@ const Blog2 = () => {
   }, []);
 
   return (
-    <section className="position-relative">
+    <section className="position-relative bg-light-gray">
       <div className="cs_height_80 cs_height_lg_80"></div>
       <div className="container">
         <div className="cs_section_heading cs_style_11 cs_mb_47 text-center">
@@ -60,7 +60,7 @@ const Blog2 = () => {
           <div className="text-center py-5">Loading...</div>
         ) : (
           <div className="row cs_row_gap_30 cs_gap_y_30">
-            {data.slice(0, 6).map((item, i) => (
+            {data.slice(0, 3).map((item, i) => (
               <div key={i} className="col-lg-4">
                 <div className="cs_post cs_style_1 cs_type_1">
                   <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
@@ -90,7 +90,7 @@ const Blog2 = () => {
                         <Link to={`/blog/${item.slug}/`}>{item.title}</Link>
                       </h3>
                       <p className="cs_mb_15">{item.shortdesc}</p>
-                      <Link to={`/blog/${item.slug}/`} className="cs_text_btn cs_style_1 cs_white_bg cs_accent_color">
+                      <Link to={`/blog/${item.slug}/`} className="cs_text_btn cs_style_1 cs_logo_blue cs_white_color">
                         <ArrowRightIcon size={16} />
                       </Link>
                     </div>

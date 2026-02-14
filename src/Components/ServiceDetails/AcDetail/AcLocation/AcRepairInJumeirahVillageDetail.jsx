@@ -641,7 +641,7 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 							{data.map((item, index) => (
 								<div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
 									<div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-										<span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+										<span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
 										<span className="cs_accordian_toggle">
 											<svg
 												width="20"

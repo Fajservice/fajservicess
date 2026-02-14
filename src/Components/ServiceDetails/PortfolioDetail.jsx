@@ -803,7 +803,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
             </div>
           </div>
         </section>
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"

@@ -246,9 +246,9 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
         <div className="bg-light-gray cs-py_30">
           <MaintenanceContract />
         </div>
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <Serviceappointemnt
-            subtitle2="Contact us"
+          subtitle2="Contact us"
             title2="Book An Appointment"
           />
         </section>

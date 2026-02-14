@@ -22,6 +22,7 @@ const Airflow = lazy(() => import('../Svg/Airflow'));
 const Customer = lazy(() => import('../Svg/Customer'));
 const Inspection = lazy(() => import('../Svg/Inspection'));
 const Thermostat = lazy(() => import('../Svg/Thermostat'));
+const Gallery = lazy(() => import('../Svg/Gallery'));
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -31,14 +32,16 @@ const getImageSrc = (imgPath) => {
 };
 
 const EyeIcon = () => (
-  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
-  </svg>
+ <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
 );
 const EyeSlashIcon = () => (
-  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-    <path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z" />
-  </svg>
+  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
 );
 
 const useInView = (options = {}) => {
@@ -301,7 +304,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">AC Service & AC Repair in Dubai</h1>
-            <p>Improve the comfort of your home and business premises with air conditioning cooling. Maintain a perfect temperature year-round with our expert AC technicians.<br /><a href="https://maps.app.goo.gl/KDPpprYugX3bXJ759">FAJ Technical Services L.L.C</a> has been providing AC services (Since) 2010. Our technicians are experienced in <a href="https://www.facebook.com/FAJTechnicalServicesLLC">AC repair and maintenance</a>, ensuring your air conditioning system performs at its best for an extended time, as well as AC installation of home, office, and commercial air conditioning units in Dubai and Sharjah.</p>
+            <p>Improve the comfort of your home and business premises with air conditioning cooling. Maintain a perfect temperature year-round with our expert AC technicians.<br /><a href="https://maps.app.goo.gl/KDPpprYugX3bXJ759">FAJ Technical Services L.L.C</a> has been providing AC services since 2010. Our technicians are experienced in <a href="https://www.facebook.com/FAJTechnicalServicesLLC">AC repair and maintenance</a>, ensuring your air conditioning system performs at its best for an extended time, as well as AC installation of home, office, and commercial air conditioning units in Dubai and Sharjah.</p>
 
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -317,7 +320,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">OUR AC Repair & Service</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Our AC Repair & Service</h2>
                 <p className="mb-1">When looking for<a href="https://www.fajservices.ae/services/air-conditioning-repair/">AC repair &amp; service in Dubai</a>, choose a qualified and reputable company that meets your residential or commercial needs.</p>
                 <p className="mb-1">FAJ Skilled AC technicians can quickly diagnose issues, providing your HVAC system runs efficiently. This improves comfort during hot months and reduces Dewa bill costs, providing peace of mind with your AC cooling solutions.</p>
                 <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Top Common Signs That You Need AC Maintenance</h2>
@@ -391,7 +394,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="col-md-6">
                   <ul className="mb-0">
-                    <li><strong>Dubai Hot Weather:</strong> Experiences hot Dubai temperatures over 40&deg;C (104&deg;F) in summer. Regular AC maintenance keeps it efficient during these conditions.</li>
+                    <li><strong>Dubai Hot Weather:</strong> In hot Dubai Summer where temperature increases above 40°C (104°F) Regular AC maintenance keeps it efficient during these conditions.</li>
                     <li><strong>Energy Efficiency:</strong> A well- AC cleaning service operates more efficiently, using less energy and lowering both AC electricity bills.</li>
                     <li><strong>Longevity of AC Unit:</strong> Regular AC maintenance can extend your air conditioning unit's lifespan, reducing the need for costly repair work and Genuine AC spare parts replacements, ultimately saving you money.</li>
                     <li><strong>Improved Air Quality:</strong> Regular AC unit &amp; AC duct cleaning service &amp; maintenance keep dust and allergens from building up, ensuring cleaner air.</li>
@@ -455,7 +458,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
     .benefit_wrapper_box {
         background-color: #fff;
         border-radius: 25px;
-        padding: 4em 5px;
+        padding: 4em 5px 3em;
         position: relative;
         height: -webkit-fill-available;
     }
@@ -552,8 +555,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                                 <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
                                     <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
                                       <Cooling />
-
-                                        
                                     </div>
                                     <h3 className="text-uppercase mb-2 fs-6">COOLING EFFICIENCY</h3>
                                     <p className="small">We perform a thorough evaluation of AC cooling efficiency with the use of a temperature gun.</p>
@@ -637,7 +638,31 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <LazySection>
           <ACBrandsSection />
         </LazySection>
-
+        <section className="section gallery_section bg-light-gray cs_py_30">
+          <div className="container">
+            <h2>Gallery  <Gallery /></h2>
+            <div className="row gx-3 gy-2">
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide1/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide2/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide3/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide4/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide5/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide6/public`} alt="" />
+                </div>
+            </div>
+          </div>
+        </section>
         <LazySection>
           <Practicaltip />
         </LazySection>
@@ -668,7 +693,14 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <LazySection>
           <Blog2 />
         </LazySection>
-
+        <LazySection>
+          <section className="section cs_py_30 bg-dark-blue text-light">
+            <Serviceappointemnt
+              subtitle2="Contact us"
+              title2="Book An Appointment"
+            />
+          </section>
+        </LazySection>
         {/* FAQ Section */}
         <div ref={faqRef}>
           {faqInView && (
@@ -682,14 +714,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           )}
         </div>
 
-        <LazySection>
-          <section className="section cs_py_30">
-            <Serviceappointemnt
-              subtitle2="Contact us"
-              title2="Book An Appointment"
-            />
-          </section>
-        </LazySection>
+        
       </div>
     </>
   );
@@ -736,15 +761,15 @@ const CommonACProblems = memo(() => {
 });
 
 const ACBrandsSection = memo(() => (
-  <section className="section cs_py_30 bg-light-gray">
+  <section className="section cs_py_30">
     <div className="container">
-      <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+      {/* <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
       <p className="pt-3 border-small-top">
         <strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
         <b>We provide 2-month service warranty</b><br />
         and <small>3-month parts warranty</small> as standard.
-      </p>
-      <h3 className="cs_fs_24">We specialise in air conditioning services for the following brands</h3>
+      </p> */}
+      <h3 className="cs_fs_24 text-align-left">We specialise in air conditioning services for the following brands</h3>
 
       <ul className="mb-3">
         <li><a href="https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><strong>Daikin Air Conditioning Services</strong></a><strong>:</strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong international presence through its focus on quality, innovation, and effective communication. We work with Daikin air conditioning products because the company continuously invests in research and development.</li>
@@ -812,9 +837,9 @@ const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
   }
 
   return (
-    <section className="section cs_py_30 bg-dark-blue text-light">
+    <section className="section cs_py_30 text-black">
       <div className="container">
-        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+        <h3 className="cs_fs_30">FAQ's</h3>
         <div className="cs_accordians_wrapper cs_style_1 p-0">
           {data.map((item, index) => (
             <div
@@ -822,11 +847,13 @@ const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
               className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}
             >
               <div className="cs_accordian_head" onClick={() => onItemClick(index)}>
-                <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                 <span className="cs_accordian_toggle">
                   <Suspense fallback={null}>
-                    <i className="bi bi-eye text-light"><EyeIcon /></i>
-                    <i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
+                    <i className="bi bi-eye"><EyeIcon />
+</i>
+                    <i className="bi bi-eye-slash"><EyeSlashIcon />
+</i>
                   </Suspense>
                 </span>
               </div>
