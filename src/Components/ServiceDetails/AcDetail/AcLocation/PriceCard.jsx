@@ -141,7 +141,7 @@ const PriceCard = () => {
   };
 
   return (
-    <section className="ac_service_cards_section cs_py_30">
+    <section className="ac_service_cards_section cs_py_30  bg-light-gray">
       <div className="container">
         <div className="ac_cards_grid_wrapper">
           {servicesData.map((service) => (
@@ -155,8 +155,10 @@ const PriceCard = () => {
               </div>
 
               <div className="ac_card_content_wrapper">
-                <p className="ac_card_warranty_text">{service.warranty}</p>
-                <h3 className="ac_card_service_title">{service.title}</h3>
+                <div className="ac_card_discount_wrapper">
+                  <h3 className="ac_card_service_title">{service.title}</h3>
+                  <p className="ac_card_warranty_text">{service.warranty}</p>
+                </div>
                 <div className="ac_card_price_wrapper">
                   <p className="ac_card_price_text">Starting from <span className="ac_card_price_amount">{service.price}</span></p>
                   <hr className="ac_card_divider_line" />

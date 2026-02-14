@@ -1180,6 +1180,10 @@ export const router = createBrowserRouter([
         element: <Components.AppliancesServicesInAlSafa />,
       },
       {
+        path: "/services/home-appliances-repair/coverage-area/academy-city/",
+        element: <Components.ApplianceServiceInAcademyCity/>,
+      },
+      {
         path: "/services/home-appliances-repair/coverage-area/jumeirah/",
         element: <Components.AppliancesServicesJumeirah />,
       },
@@ -3342,10 +3346,6 @@ export const router = createBrowserRouter([
       {
         path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/",
         element: <Navigate to="/services/home-appliances-repair/brands/ariston/" replace />
-      },
-      {
-        path:"/appliances-services-in-difc/",
-        element: <Navigate to="/services/home-appliances-repair/coverage-area/difc/" replace />
       },
       {
         path:"/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
