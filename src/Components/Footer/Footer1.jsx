@@ -68,15 +68,15 @@ const aboutLinks = [
 
 const exploreLinks = [
   { path: "/services/air-conditioning-repair/ac-service/", text: "AC Repair and Maintenance" },
-  { path: "/coffee-machine-service-center-in-dubai/", text: "Coffee Machine Repair and Maintenance" },
-  { path: "/appliances-repair-service/", text: "Home Appliances Services" },
-  { path: "/commercial-kitchen-equipment-maintenance-services/", text: "Commercial Kitchen Equipment Maintenance" },
-  { path: "/commercial-refrigeration-maintenance/", text: "Refrigeration Maintenance and Repair" },
-  { path: "/ice-maker-repair/", text: "Ice Maker Machine Repair Services" }
+  { path: "/services/coffee-machine/coffee-machine-service-center/", text: "Coffee Machine Repair and Maintenance" },
+  { path: "/services/home-appliances-repair/appliances-repair-service/", text: "Home Appliances Services" },
+  { path: "/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/", text: "Commercial Kitchen Equipment Maintenance" },
+  { path: "/services/refrigeration-equipment/commercial-refrigeration-maintenance/", text: "Refrigeration Maintenance and Repair" },
+  { path: "/services/refrigeration-equipment/ice-maker-repair/", text: "Ice Maker Machine Repair Services" }
 ];
 
 const contactInfo = [
-  { Icon: Icons.Location, text: "Warehouse # S-02 - Gate 35 Street 18B - Al Qouz Ind Fsourth - Al Quoz - Dubai - United Arab Emirates" },
+  { Icon: Icons.Location, text: "Warehouse # S-02 - Gate 35 Street 18B - Al Qouz Ind Fourth - Al Quoz - Dubai - United Arab Emirates" },
   {
     Icon: Icons.Phone,
     items: [

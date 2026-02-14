@@ -15,7 +15,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const metatitle = String(titleSeo || "Coverage Area | Near Me | for the Best AC Services in Dubai | FAJ");
   const metadescription = String(description || "We proudly provide Air Conditioning installation & services in all areas, including  Dubai Marina, Jumeirah, Business Bay, Al Barsha, JLT, Dubai Sports City.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
   subtitle = "Testimonial"
