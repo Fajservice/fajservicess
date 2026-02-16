@@ -9,6 +9,7 @@ import PriceCard from '../AcLocation/PriceCard';
 import Practicaltip from '../../../Common/Practicaltip';
 import AcProperties from '../../../Common/AcProperties';
 import MaintenanceContract from '../../../MaintenanceContract/MaintenanceContract';
+import Gallery from '../../../Svg/Gallery';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -16,11 +17,11 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
-  const metatitle = String(titleSeo || "Coverage Area | Near Me | Home Appliances Service Center Dubai");
-  const metadescription = String(description || "We proudly provide Home Appliances installation & services in all areas, including Dubai Marina, Jumeirah, Business Bay, Al Barsha, JLT, Dubai Hills");
+  const metatitle = String(titleSeo || "Top Brands AC Maintenance Dubai | AC Cleaning & AC Repairing");
+  const metadescription = String(description || "We provide top brand HVAC maintenance, installation & services across Dubai, including Samsung, LG, O General, Rheem, Mitsubishi, Carrier & Daikin.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/diswasherrr/public");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -145,7 +146,7 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
 
               <div className="process_content">
                 <div className="process_image">
-                  <img src={getImageSrc('diswasherrr')} alt="AC Maintenance Service Process" />
+                  <img src={getImageSrc('acmaintenanceindubai')} alt="AC Maintenance Service Process" />
                 </div>
 
                 <div className="process_list">
@@ -404,6 +405,32 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
           <Practicaltip />
           <AcProperties />
           <MaintenanceContract />
+
+            <section className="section gallery_section bg-light-gray cs_py_30">
+          <div className="container">
+            <h2>Gallery  <Gallery /></h2>
+            <div className="row gx-3 gy-2">
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide1/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide2/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide3/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide4/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide5/public`} alt="" />
+                </div>
+                <div className="col-md-4 col-6">
+                  <img src={`${CDN}/AcService/slide6/public`} alt="" />
+                </div>
+            </div>
+          </div>
+        </section>
 
         {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
