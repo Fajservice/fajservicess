@@ -13,6 +13,7 @@ import CallNowButton from "../../../Buttons/CallNowButton.jsx";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice.jsx";
 import LocationKeyword from "./LocationKeyword.jsx";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import PriceCard from "./PriceCard.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -127,6 +128,8 @@ const AcRepairInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                         {/*  */}
                     </div>
                 </section>
+
+                <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
                 <section className="section cs_py_30 bg-light-gray">

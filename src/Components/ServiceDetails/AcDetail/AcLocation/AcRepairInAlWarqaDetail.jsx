@@ -11,6 +11,7 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+import PriceCard from "./PriceCard";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -82,37 +83,6 @@ const AcRepairInAlWarqaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                fetchData();
            }, []);
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    }
     return (
         <>
             <HelmetProvider>
@@ -155,6 +125,8 @@ const AcRepairInAlWarqaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                         {/*  */}
                     </div>
                 </section>
+
+                <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
                 <section className="section cs_py_30 bg-light-gray">

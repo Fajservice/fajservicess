@@ -5,7 +5,6 @@ import loadBackgroudImages from '../../../Common/loadBackgroudImages';
 import '../../../../assets/main.css';
 import BlogCategoryHomePage from '../../../Blog/BlogCategoryHomePage';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
-import WhatsappIconButton from '../../../Buttons/WhatsappIconButton';
 import PriceCard from '../AcLocation/PriceCard';
 import Practicaltip from '../../../Common/Practicaltip';
 import AcProperties from '../../../Common/AcProperties';
@@ -20,7 +19,7 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
   const metatitle = String(titleSeo || "Coverage Area | Near Me | Home Appliances Service Center Dubai");
   const metadescription = String(description || "We proudly provide Home Appliances installation & services in all areas, including Dubai Marina, Jumeirah, Business Bay, Al Barsha, JLT, Dubai Hills");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliance-repair/coverage-area/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
 
   subtitle = "Testimonial"
@@ -306,8 +305,6 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
             </div>
           </div>
         </section>
-
-        
 
         {/* beniift */}
         <section className="benefits_section cs_py_60 bg-light-white">

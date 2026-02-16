@@ -11,6 +11,7 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+import PriceCard from "./PriceCard";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -171,6 +172,8 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         </div>
                     </div>
                 </section>
+
+                <PriceCard />
 
                 {/* AC Price Section */}
                 <FAJACPrice></FAJACPrice>
