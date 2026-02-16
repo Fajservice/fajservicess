@@ -408,7 +408,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 <AcProperties />
                 <MaintenanceContract /> */}
 
-                <section className="section gallery_section bg-light-gray cs_py_30">
+                {/* <section className="section gallery_section bg-light-gray cs_py_30">
                     <div className="container">
                         <h2>Gallery  <Gallery /></h2>
                         <div className="row gx-3 gy-2">
@@ -432,9 +432,9 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                {!isLoading && testimonial_data.length > 0 && (
+                {/* {!isLoading && testimonial_data.length > 0 && (
                     <Testimonial1
                         subtitle="What Our Clients Say"
                         title="Customer <span>Reviews</span>"
@@ -442,13 +442,13 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         testimonialData={testimonial_data}
                         sectionId="home-testimonials"
                     />
-                )}
-                <section className="ac_brands_services_section cs_py_60 bg-light-gray">
+                )} */}
+                {/* <section className="ac_brands_services_section cs_py_60 bg-light-gray">
                     <BlogCategoryHomePage />
-                </section>
+                </section> */}
                 {/* we specilized */}
 
-                <section className="ac_brands_services_section cs_py_60">
+                {/* <section className="ac_brands_services_section cs_py_60">
                     <div className="container">
                         <h2 className="ac_brands_main_heading">We specialise in air conditioning services for the following brands</h2>
 
@@ -520,7 +520,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         subtitle2="Contact us"
                         title2="Book An Appointment"
                     />
-                </section>
+                </section> */}
 
                 {/* Faqs */}
 
