@@ -6,6 +6,7 @@ import '../../../../assets/main.css';
 import BlogCategoryHomePage from '../../../Blog/BlogCategoryHomePage';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
 import BlogAppliances from '../../../Blog/BlogAppliances';
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -381,6 +382,13 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
         )}
 
         <BlogAppliances />
+
+                <section className="section cs_py_30 bg-dark-blue text-light">
+                  <Serviceappointemnt
+                    subtitle2="Contact us"
+                    title2="Book An Appointment"
+                  />
+                </section>
 
         {/* Faqs */}
         <section className="section cs_py_30">
