@@ -10437,7 +10437,7 @@
 }
 
 .ac_inspection_description {
-  font-size: 13px;
+  font-size: 16px;
   color: #374151;
   line-height: 1.6;
   margin: 0 0 20px 0;
@@ -10529,7 +10529,7 @@
   }
 
   .ac_inspection_description {
-    font-size: 15px;
+    font-size: 16px;
     margin: 0 0 24px 0;
   }
 
@@ -12073,14 +12073,14 @@
 }
 
 .ac_inspection_description {
-  font-size: 13px;
+  font-size: 16px;
   color: #374151;
   line-height: 1.6;
   margin: 0 0 20px 0;
 }
 
 .ac_inspection_section_title {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   color: #1F2937;
   margin: 0 0 10px 0;
@@ -12089,7 +12089,7 @@
 }
 
 .ac_inspection_details {
-  font-size: 12px;
+  font-size: 16px;
   color: #374151;
   line-height: 1.6;
   margin: 0;
@@ -12341,7 +12341,7 @@
 .ac_pricing_td {
   padding: 10px 12px;
   text-align: left;
-  font-size: 11px;
+  font-size: 14px;
   color: #1F2937;
   border: 1px solid #4B5563;
   vertical-align: middle;

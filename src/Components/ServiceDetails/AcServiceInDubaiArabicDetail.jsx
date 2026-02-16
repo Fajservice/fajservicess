@@ -574,17 +574,17 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <p className="mb-0">
               <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">خدمة تكييف Sanyo دبي</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/rheem-ac-maintenance-in-dubai/">خدمة تكييف Rheem</Link>
+              <Link to="/services/air-conditioning-repair/brands/rheem/">خدمة تكييف Rheem</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">خدمة تكييف SKM دبي</Link>
+              <Link to="/services/air-conditioning-repair/brands/skm/">خدمة تكييف SKM دبي</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">خدمة تكييف Daewoo دبي</Link>
+              <Link to="/services/air-conditioning-repair/brands/daewoo/">خدمة تكييف Daewoo دبي</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="#">خدمة تكييف Carrier</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">خدمة تكييف Midea بالقرب مني</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">خدمات تكييف الهواء Lennox</Link>
+              <Link to="/services/air-conditioning-repair/brands/lennox/">خدمات تكييف الهواء Lennox</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">خدمة تكييف Goodman دبي</Link>
               <span>&nbsp;-&nbsp;</span>
@@ -596,24 +596,24 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <span>&nbsp;-&nbsp;</span>
               <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">خدمة تكييف Crafft</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/">خدمة تكييف Bryant دبي</Link>
+              <Link to="/services/air-conditioning-repair/brands/bryant/">خدمة تكييف Bryant دبي</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/">خدمة تكييف Ruud</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">خدمة تكييف McQuay</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/">Blue Star</Link>
+              <Link to="/services/air-conditioning-repair/brands/blue-star/">Blue Star</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/">خدمة تكييف Supra</Link>
+              <Link to="/services/air-conditioning-repair/brands/supra/">خدمة تكييف Supra</Link>
               <span>&nbsp;-&nbsp;</span>
 
-              <Link to="/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/">خدمة تكييف Toshiba</Link>
+              <Link to="/services/air-conditioning-repair/brands/toshiba/">خدمة تكييف Toshiba</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/">خدمة تكييف Whirlpool</Link>
+              <Link to="/services/air-conditioning-repair/brands/whirlpool/">خدمة تكييف Whirlpool</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/">خدمة تكييف Super General</Link>
+              <Link to="/services/air-conditioning-repair/brands/super-general/">خدمة تكييف Super General</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/">خدمة تكييف Hitachi</Link>
+              <Link to="/services/air-conditioning-repair/brands/hitachi/">خدمة تكييف Hitachi</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">خدمة تكييف O General</Link>
               <span>&nbsp;-&nbsp;</span>
