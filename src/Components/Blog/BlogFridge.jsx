@@ -109,7 +109,7 @@ const BlogFridge = () => {
                     {/* READ MORE */}
                     <Link
                       to={`/blog/${item.slug}/`}
-                      className="cs_text_btn cs_style_1 cs_white_bg cs_accent_color"
+                      className="cs_text_btn cs_style_1 cs_logo_blue cs_white_color"
                     >
                       <svg
                         width="16"

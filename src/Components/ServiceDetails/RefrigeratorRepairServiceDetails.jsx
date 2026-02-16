@@ -561,19 +561,19 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
         )}
 
         {/* FAQ&apos;s */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
+        <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+            <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 
               {data.map((item, index) => (
                 <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                    <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"><EyeIcon /></i>
-                      <i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
+                      <i className="bi bi-eye"><EyeIcon /></i>
+                      <i className="bi bi-eye-slash "><EyeSlashIcon /></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
@@ -589,9 +589,9 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
           </div>
         </section>
 
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <Serviceappointemnt
-            subtitle2="Contact us"
+          subtitle2="Contact us"
             title2="Book An Appointment"
           />
 

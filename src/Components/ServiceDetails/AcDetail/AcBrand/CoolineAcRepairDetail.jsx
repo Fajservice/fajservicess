@@ -582,19 +582,20 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         />
 
         {/* Faqs */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
+        <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+            <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 
               {data.map((item, index) => (
                 <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                    <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
+                       
                       <svg
-                        width="20"
+                         width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -604,13 +605,13 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-                        <circle cx="12" cy="12" r="3" />
-                        <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
-                      </svg>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
                       {/* Eye Slash */}
-                      <svg
-                        width="20"
+                     
+                       <svg
+                       width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -619,11 +620,9 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                      >
-                        <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
-                        <line x1="1" y1="1" x2="23" y2="23" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
+                       >
+<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
@@ -639,7 +638,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         </section>
 
         {/* Contact */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"

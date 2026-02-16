@@ -208,7 +208,28 @@ section#get-quote {
     height: 180px;
   }
 }
-
+.before_after_heading {
+  place-items: center;
+}
+.before_after_heading h3 {
+    font-size: 32px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #0A0A0A;
+    padding: 5px 65px;
+}
+.before_after_heading h2 {
+    font-size: 28px;
+    color: #5BDBEF;
+    border: 1px solid #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    max-width: max-content;
+    margin-top: -18px;
+}
+.cs_service_details img.whatsapp-icon, .cs_service_details img.call-icon{
+  width: 100%;
+}
 .inner-acsvs-dis-sec {
   background: #D2042D;
   padding: 16px 0;
@@ -423,13 +444,13 @@ a.btn-green-yellow {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: yellow;
+  background: linear-gradient(0deg, #FFFFCF 0%, #FFFF00 100%);
   max-width: fit-content;
   min-height: 40px;
   text-decoration: none;
   color: #000;
   margin-top: 12px;
-  padding: 10px 12px;
+  padding: 10px 22px;
   border-radius: 10px;
 }
 
@@ -563,7 +584,26 @@ p a {
   background-color: #00334E;
   color: #fff;
 }
-
+.ac_benifit_blue h2{
+  display: inline-flex;
+}
+.gallery_section h2 {
+    font-size: 28px;
+    font-weight: 400;
+    background-color: #00334E;
+    color: #fff;
+    padding: 10px 10%;
+    display: table;
+    margin: 25px auto 50px;
+    border-radius: 4px;
+}
+.gallery_section h2 svg {
+    padding-left: 5px;
+}
+.gallery_section img {
+    border: 2px solid #00334E;
+    border-radius: 10px;
+}
 /* APPLIANCES BENIFIT SECTION */
 .benifit-box-container {
   background: #fff;

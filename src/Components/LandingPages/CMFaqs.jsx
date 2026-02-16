@@ -94,7 +94,7 @@ const CMFaqs = () => {
                     className="cs_accordian_head"
                     onClick={() => handleItemClick(index)}
                   >
-                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                    <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
                       <EyeIcon open={isOpen} />
                     </span>

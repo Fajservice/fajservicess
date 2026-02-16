@@ -91,7 +91,7 @@ const BlogCoffeeMachine = () => {
                         <Link to={`/blog/${item.slug}/`}>{item.title}</Link>
                       </h3>
                       <p className="cs_mb_15">{item.shortdesc}</p>
-                      <Link to={`/blog/${item.slug}/`} className="cs_text_btn cs_style_1 cs_white_bg cs_accent_color">
+                      <Link to={`/blog/${item.slug}/`} className="cs_text_btn cs_style_1 cs_logo_blue cs_white_color">
                         <ArrowRightIcon size={16} />
                       </Link>
                     </div>
