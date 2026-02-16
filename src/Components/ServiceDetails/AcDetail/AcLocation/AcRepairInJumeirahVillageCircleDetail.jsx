@@ -15,6 +15,7 @@ import AcProperties from "../../../Common/AcProperties";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+import PriceCard from "./PriceCard";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -130,6 +131,8 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
                         {/*  */}
                     </div>
                 </section>
+
+                <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
                 <section className="section cs_py_30 bg-light-gray">
