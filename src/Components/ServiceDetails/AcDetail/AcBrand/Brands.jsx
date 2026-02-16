@@ -464,62 +464,63 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
             <div className="ac_brands_list_wrapper">
               <ul className="ac_brands_bullet_list">
                 <li className="ac_brand_item">
-                  <strong>Daikin Air Conditioning Services:</strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong internationalization strategy focused on quality, innovation, and effective commercialization. We work with Daikin air conditioning products.
+                  <a href="/services/air-conditioning-repair/brands/daikin/"><strong>Daikin Air Conditioning Services:</strong></a> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong internationalization strategy focused on quality, innovation, and effective commercialization. We work with Daikin air conditioning products.
                 </li>
                 <li className="ac_brand_item">
-                  <strong>Gree AC Repair and Service:</strong> Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product lines to include various home appliances and became China's largest air conditioner manufacturer.
+                  <a href="/services/air-conditioning-repair/brands/gree/"><strong>Gree AC Repair and Service:</strong></a> Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product lines to include various home appliances and became China's largest air conditioner manufacturer.
                 </li>
                 <li className="ac_brand_item">
-                  <strong>O General AC Repair and Maintenance:</strong> O General AC, a brand of Fujitsu General, is renowned for its Japanese engineering and high-quality air conditioner solutions.
+                  <a href="/services/air-conditioning-repair/brands/o-general/"><strong>O General AC Repair and Maintenance:</strong></a> O General AC, a brand of Fujitsu General, is renowned for its Japanese engineering and high-quality air conditioner solutions.
                 </li>
                 <li className="ac_brand_item">
-                  <strong>Mitsubishi AC Service and Repair:</strong> Founded in 1954, Mitsubishi Air Conditioning has been producing air conditioning systems for nearly 70 years and is renowned for its reliability and energy efficiency.
+                  <a href="/services/air-conditioning-repair/brands/mitsubishi/"><strong>Mitsubishi AC Service and Repair:</strong></a> Founded in 1954, Mitsubishi Air Conditioning has been producing air conditioning systems for nearly 70 years and is renowned for its reliability and energy efficiency.
                 </li>
                 <li className="ac_brand_item">
-                  <strong>Samsung AC Maintenance Service:</strong> Samsung AC is a globally recognized name, known for pushing boundaries. Since 1969, they have continued to shape and lead innovations in air conditioning technology.
+                  <a href="/services/air-conditioning-repair/brands/samsung/"><strong>Samsung AC Maintenance Service:</strong></a> Samsung AC is a globally recognized name, known for pushing boundaries. Since 1969, they have continued to shape and lead innovations in air conditioning technology.
                 </li>
                 <li className="ac_brand_item">
-                  <strong>York AC Servicing and Repair:</strong> YORK® has been an industry leader since our founding in 1874.
+                  <a href="/services/air-conditioning-repair/brands/york/"><strong>York AC Servicing and Repair:</strong></a> YORK® has been an industry leader since our founding in 1874.
                 </li>
                 <li className="ac_brand_item">
-                  <strong>LG Air Maintenance and Service:</strong> LG began its air conditioning business in 1968 with the launch of its first unit.
+                  <a href="/services/air-conditioning-repair/brands/lg/"><strong>LG Air Maintenance and Service:</strong></a> LG began its air conditioning business in 1968 with the launch of its first unit.
                 </li>
                 <li className="ac_brand_item">
-                  <strong>Trane HVAC Repair and Maintenance:</strong> Trane developed its first air conditioning unit in 1931.
+                  <a href="/services/air-conditioning-repair/brands/trane/"><strong>Trane HVAC Repair and Maintenance:</strong></a> Trane developed its first air conditioning unit in 1931.
                 </li>
                 <li className="ac_brand_item">
                   <strong>Carrier AC Repair and Service in Dubai:</strong> Carrier AC, Regular and Servicing in Dubai. Since 1902, Carrier HVAC has pioneered a legacy of innovation in the heating, air conditioning and refrigeration industries.
                 </li>
                 <li className="ac_brand_item">
-                  <strong>Rheem AC Repair and Service Near Me:</strong> Rheem AC was founded in 1925 in California, initially making steel drums. It rapidly transitioned to manufacturing water heaters and, in the 1940s and 1950s, expanded into furnaces, split, and central air conditioning systems to meet the growing demand for home comfort. Today, Rheem is a leading global HVAC provider known for its innovation and diverse heating and cooling solutions.
+                  <a href="/services/air-conditioning-repair/brands/rheem/"><strong>Rheem AC Repair and Service Near Me:</strong></a> Rheem AC was founded in 1925 in California, initially making steel drums. It rapidly transitioned to manufacturing water heaters and, in the 1940s and 1950s, expanded into furnaces, split, and central air conditioning systems to meet the growing demand for home comfort. Today, Rheem is a leading global HVAC provider known for its innovation and diverse heating and cooling solutions.
                 </li>
               </ul>
             </div>
 
             <div className="ac_service_tags_container">
-              <span className="ac_service_tag">SKM AC Maintenance Dubai</span>
-              <span className="ac_service_tag">York AC Repair and Service Dubai</span>
-              <span className="ac_service_tag">Lennox Air Conditioning Maintenance Service</span>
-              <span className="ac_service_tag">Aftron AC Maintenance Service</span>
-              <span className="ac_service_tag">Bryant AC Repair Service Dubai</span>
-              <span className="ac_service_tag">Blue Star AC Repair</span>
-              <span className="ac_service_tag">Toshiba AC Fix</span>
-              <span className="ac_service_tag">Suzec AC Maintenance</span>
-              <span className="ac_service_tag">Super General AC Repair and Services in Dubai</span>
-              <span className="ac_service_tag">HAIER AC Service</span>
-              <span className="ac_service_tag">Whirlpool AC Repair</span>
-              <span className="ac_service_tag">Daewoo AC Cleaning</span>
-              <span className="ac_service_tag">Coolex AC Repair and Services in Dubai</span>
-              <span className="ac_service_tag">Craft Aircon Maintenance Servicing Dubai</span>
-              <span className="ac_service_tag">Delcool AC Repairing Dubai</span>
-              <span className="ac_service_tag">Fujitsu AC Maintenance Service Dubai</span>
-              <span className="ac_service_tag">Goodman AC Services</span>
-              <span className="ac_service_tag">Hisier AC Repair and Service</span>
-              <span className="ac_service_tag">McQuay AC Conditioning Repair</span>
-              <span className="ac_service_tag">Midea AC Service and Repair</span>
-              <span className="ac_service_tag">Panasonic Air Conditioning Services</span>
-              <span className="ac_service_tag">Ruud Air Conditioner Maintenance Servicing</span>
-              <span className="ac_service_tag">West Point AC Repair and Service</span>
+               <a href="/services/air-conditioning-repair/brands/skm/"><span className="ac_service_tag">SKM AC Maintenance Dubai</span></a>
+              <a href="/services/air-conditioning-repair/brands/york/"><span className="ac_service_tag">York AC Repair and Service Dubai</span></a>
+              <a href="/services/air-conditioning-repair/brands/lennox/"><span className="ac_service_tag">Lennox Air Conditioning Maintenance Service</span></a>
+              <a href="/services/air-conditioning-repair/brands/aftron/"><span className="ac_service_tag">Aftron AC Maintenance Service</span></a>
+              <a href="/services/air-conditioning-repair/brands/bryant/"><span className="ac_service_tag">Bryant AC Repair Service Dubai</span></a>
+              <a href="/services/air-conditioning-repair/brands/blue-star/"><span className="ac_service_tag">Blue Star AC Repair</span></a>
+              <a href="/services/air-conditioning-repair/brands/toshiba/"><span className="ac_service_tag">Toshiba AC Fix</span></a>
+              <a href="/services/air-conditioning-repair/brands/supra/"><span className="ac_service_tag">Supera AC Maintenance</span></a>
+              <a href="/services/air-conditioning-repair/brands/super-general/"><span className="ac_service_tag">Super General AC Repair and Services in Dubai</span></a>
+              <a href="/services/air-conditioning-repair/brands/hitachi/"><span className="ac_service_tag">Hitachi AC Service</span></a>
+              <a href="/services/air-conditioning-repair/brands/whirlpool/"><span className="ac_service_tag">Whirlpool AC Repair</span></a>
+              <a href="/services/air-conditioning-repair/brands/daewoo/"><span className="ac_service_tag">Daewoo AC Cleaning</span></a>
+              <a href="/services/air-conditioning-repair/brands/coleman/"><span className="ac_service_tag">Cooleman Air Condition Services</span></a>
+              <a href="/services/air-conditioning-repair/brands/cooline/"><span className="ac_service_tag">Cooline Air Condition Maintenance</span></a>
+              <a href="/services/air-conditioning-repair/brands/crafft/"><span className="ac_service_tag">Craft Aircon Maintenance Servicing Dubai</span></a>
+              <a href="/services/air-conditioning-repair/brands/daikool/"><span className="ac_service_tag">Daikool AC Repairing Dubai</span></a>
+              <a href="/services/air-conditioning-repair/brands/fujitsu/"><span className="ac_service_tag">Fujitsu AC Maintenance Service Dubai</span></a>
+              <a href="/services/air-conditioning-repair/brands/goodman/"><span className="ac_service_tag">Goodman AC Services</span></a>
+              <a href="/services/air-conditioning-repair/brands/haier/"><span className="ac_service_tag">Haier AC Repair and Service</span></a>
+              <a href="/services/air-conditioning-repair/brands/mcquay/"><span className="ac_service_tag">McQuay AC Conditioning Repair</span></a>
+              <a href="/services/air-conditioning-repair/brands/midea/"><span className="ac_service_tag">Midea AC Service and Repair</span></a>
+              <a href="/services/air-conditioning-repair/brands/panasonic/"><span className="ac_service_tag">Panasonic Air Conditioning Services</span></a>
+              <a href="/services/air-conditioning-repair/brands/ruud/"><span className="ac_service_tag">Ruud Air Conditioner Maintenance Servicing</span></a>
+              <a href="/services/air-conditioning-repair/brands/westpoint/"><span className="ac_service_tag">West Point AC Repair and Service</span></a>
             </div>
           </div>
         </section>

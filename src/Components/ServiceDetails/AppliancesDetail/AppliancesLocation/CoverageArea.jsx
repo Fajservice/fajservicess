@@ -5,6 +5,7 @@ import loadBackgroudImages from '../../../Common/loadBackgroudImages';
 import '../../../../assets/main.css';
 import BlogCategoryHomePage from '../../../Blog/BlogCategoryHomePage';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
+import BlogAppliances from '../../../Blog/BlogAppliances';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -349,22 +350,22 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <h3 className="service_areas_sub_heading">Popular Areas:</h3>
 
             <div className="service_areas_tags_container">
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/dubai-marina/">Dubai Marina</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/jbr/">JBR (Jumeirah Beach Residence)</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/downtown/">Downtown Dubai</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/business-bay/">Business Bay</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/arabian-ranches/">Arabian Ranches</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/the-springs/">The Springs</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/the-meadows/">The Meadows</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/motor-city/">Motor City</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/jvc/">JVC (Jumeirah Village Circle)</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/jlt/">JLT</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/jumeirah-lake-towers/">JLT (Jumeirah Lake Towers)</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/">Silicon Oasis</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/dubai-sport-city/">Sports City</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jbr/">JBR (Jumeirah Beach Residence)</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/downtown/">Downtown Dubai</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/arabian-ranches/">Arabian Ranches</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-springs/">The Springs</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-meadows/">The Meadows</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/motor-city/">Motor City</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jvc/">JVC (Jumeirah Village Circle)</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jlt/">JLT</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jumeirah-lake-towers/">JLT (Jumeirah Lake Towers)</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Silicon Oasis</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-sport-city/">Sports City</a></span>
             </div>
           </div>
         </section>
@@ -379,7 +380,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
           />
         )}
 
-        <BlogCategoryHomePage />
+        <BlogAppliances />
 
         {/* Faqs */}
         <section className="section cs_py_30">
