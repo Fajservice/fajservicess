@@ -919,6 +919,11 @@ export const router = createBrowserRouter([
         path: "/services/home-appliance-repair/coverage-area/",
         element: <Components.HomeCoverageAreaPage />,
       },
+
+      {
+        path: "/services/home-appliance-repair/brands/",
+        element: <Components.HomeAppBrandPage />,
+      },
       {
         path: "/services/home-appliances-repair/brands/indesit/",
         element: <Components.IndesitWashingMachine />,
