@@ -344,8 +344,8 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 <tbody className="ac_pricing_table_body">
                   {/* Window AC 1.5 to 2.5 Ton */}
                   <tr className="ac_pricing_row">
-                    <td className="ac_pricing_td ac_pricing_type" rowSpan="4">Window AC 1.5 to 2.5 Ton</td>
-                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_type" rowSpan="4">Window AC 1.5 to 2.5 Ton</td>
+                    <td className="ac_pricing_td fw-bold">Inspection</td>
                     <td className="ac_pricing_td">On-site technical inspection Fee</td>
                     <td className="ac_pricing_td">157 to 210 AED+Vat</td>
                     <td className="ac_pricing_td">No Warranty</td>
@@ -372,8 +372,8 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
                   {/* Split AC 1.5 to 2.5 Ton */}
                   <tr className="ac_pricing_row">
-                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Split AC 1.5 to 2.5 Ton</td>
-                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td ac_pricing_type fw-bold" rowSpan="5">Split AC 1.5 to 2.5 Ton</td>
+                    <td className="ac_pricing_td fw-bold">Inspection</td>
                     <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
                     <td className="ac_pricing_td">195 AED+VAT</td>
                     <td className="ac_pricing_td">-</td>
@@ -406,8 +406,8 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
                   {/* Central AC 1.5 to 2.5 Ton */}
                   <tr className="ac_pricing_row">
-                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Central AC 1.5 to 2.5 Ton</td>
-                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td ac_pricing_type fw-bold" rowSpan="5">Central AC 1.5 to 2.5 Ton</td>
+                    <td className="ac_pricing_td fw-bold">Inspection</td>
                     <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
                     <td className="ac_pricing_td">195 AED+VAT</td>
                     <td className="ac_pricing_td">-</td>
@@ -440,8 +440,8 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
                   {/* Central AC 3.0 to 5.0 Ton */}
                   <tr className="ac_pricing_row">
-                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Central AC 3.0 to 5.0 Ton</td>
-                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td ac_pricing_type fw-bold" rowSpan="5">Central AC 3.0 to 5.0 Ton</td>
+                    <td className="ac_pricing_td fw-bold">Inspection</td>
                     <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
                     <td className="ac_pricing_td">220 to 320 AED+VAT</td>
                     <td className="ac_pricing_td">-</td>
@@ -474,8 +474,8 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
                   {/* Chiller Water FCU 1.5 TO 3.5 */}
                   <tr className="ac_pricing_row">
-                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Chill Water FCU 1.5 to 3.5 Ton</td>
-                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td ac_pricing_type fw-bold" rowSpan="5">Chill Water FCU 1.5 to 3.5 Ton</td>
+                    <td className="ac_pricing_td fw-bold">Inspection</td>
                     <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
                     <td className="ac_pricing_td">195 AED+VAT</td>
                     <td className="ac_pricing_td">-</td>
@@ -508,8 +508,8 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
                   {/* Intverter and VRV & VRF 2.5 TO  5.0 tON */}
                   <tr className="ac_pricing_row">
-                    <td className="ac_pricing_td ac_pricing_type" rowSpan="5">inverter and VRV & VRF  2.6 to 5.0 Ton  </td>
-                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td ac_pricing_type fw-bold" rowSpan="5">inverter and VRV & VRF  2.6 to 5.0 Ton  </td>
+                    <td className="ac_pricing_td fw-bold">Inspection</td>
                     <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
                     <td className="ac_pricing_td">220 to 320 AED +VAT</td>
                     <td className="ac_pricing_td">-</td>
@@ -543,7 +543,7 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   {/* Package Unit HVAC 5.0 TO 20.0 TON */}
                   <tr className="ac_pricing_row">
                     <td className="ac_pricing_td ac_pricing_type" rowSpan="5">Package Unit HVAC 5.0 TO 20.0 TON</td>
-                    <td className="ac_pricing_td">Inspection</td>
+                    <td className="ac_pricing_td fw-bold">Inspection</td>
                     <td className="ac_pricing_td">There is a callout fee that applies each diagnosis.</td>
                     <td className="ac_pricing_td">320 to 480 AED +VAT</td>
                     <td className="ac_pricing_td">-</td>

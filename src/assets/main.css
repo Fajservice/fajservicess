@@ -10102,7 +10102,7 @@
 
 .ac_issues_header_wrapper p {
   font-size: 18px;
-  color: #1F2937;
+  color: #000000;
   margin: 0;
   line-height: 1.5;
 }
@@ -10154,8 +10154,8 @@
 }
 
 .ac_issue_card_content p {
-  font-size: 14px;
-  color: #374151;
+  font-size: 16px;
+  color: #000000;
   margin: 0 0 15px 0;
   line-height: 1.6;
   text-align: left;
@@ -11790,8 +11790,8 @@
 }
 
 .ac_issue_card_content p {
-  font-size: 14px;
-  color: #374151;
+  font-size: 16px;
+  color: #000000;
   margin: 0 0 15px 0;
   line-height: 1.6;
   text-align: left;
@@ -12350,11 +12350,11 @@
 
 .ac_pricing_type {
   font-weight: 600;
-  color: #1F2937;
+  color: #01133c;
   text-align: center;
   vertical-align: middle;
   border: 1px solid #4B5563;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* Service column */
@@ -12412,11 +12412,11 @@
   }
 
   .ac_pricing_td:nth-child(1) {
-  font-weight: 600;
   min-width: 140px;
 }
 
   .ac_pricing_td:nth-child(2) {
+    font-weight: 600;
     min-width: 140px;
   }
 
@@ -12592,7 +12592,7 @@
 .service_area_tag {
   display: inline-block;
   padding: 10px 20px;
-  border: 2px solid #6B7280;
+  border: 2px solid #dbdbdb;
   border-radius: 8px;
   font-size: 13px;
   font-weight: 500;

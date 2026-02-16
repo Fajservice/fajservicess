@@ -3,7 +3,6 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../../Common/loadBackgroudImages';
 import '../../../../assets/main.css';
-import BlogCategoryHomePage from '../../../Blog/BlogCategoryHomePage';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
 import BlogAppliances from '../../../Blog/BlogAppliances';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
@@ -18,7 +17,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metadescription = String(description || "We proudly provide Home Appliances installation & services in all areas, including Dubai Marina, Jumeirah, Business Bay, Al Barsha, JLT, Dubai Hills");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliance-repair/coverage-area/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac%20filter/public");
+  const metaImage = String(Image || "https://imagedelivery.net/diswasherrr/public");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

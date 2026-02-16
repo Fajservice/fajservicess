@@ -3,20 +3,28 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../../Common/loadBackgroudImages';
 import '../../../../assets/main.css';
-import BlogCategoryHomePage from '../../../Blog/BlogCategoryHomePage';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
-import Practicaltip from '../../../Common/Practicaltip';
-import AcProperties from '../../../Common/AcProperties';
-import MaintenanceContract from '../../../MaintenanceContract/MaintenanceContract';
-import Gallery from '../../../Svg/Gallery';
 import PriceCard from '../../AcDetail/AcLocation/PriceCard';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
+import BlogHomeAppliances from '../../../Blog/BlogHomeAppliances';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
     if (!imgPath) return '';
     if (imgPath.startsWith('https')) return imgPath;
     return `${CDN}/${imgPath}/public`;
 };
+
+const EyeIcon = () => (
+    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+);
+
+const EyeSlashIcon = () => (
+    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+);
 const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
     const metatitle = String(titleSeo || "Top Brand Home Appliances Repair & Maintenance Service Dubai");
     const metadescription = String(description || "FAJ provides top-brand home appliance repair, including refrigerator, fridge, washing machine, dryer, dishwasher, oven & stove service center Dubai.");
@@ -119,7 +127,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                     <div className="container">
                         <h1 className="cs_fs_30">Top Brand Home Appliances Service Center and Repair in Dubai</h1>
                         <p>
-                            Looking for a reliable home appliance service center? We specialize in the repair of appliances from major brands, including Bosch, LG, AEG, Ariston, Beko, La Germina, Electrolux, Siemens, Neff, Teka, Whirlpool, Samsung, Viking, Sub Zero, Daewoo, Gaggenau, Haier, Hitachi, Sanyo, Midea, Aftron, Maytag, Wolf, Frigidaire, Admiral, Speed Queen, Smeg, Miele, and Sharp.
+                            Looking for a reliable home appliance service center? We specialize in the repair of appliances from major brands, including <a href="/services/home-appliances-repair/brands/lg/">LG</a>, <a href="/services/home-appliances-repair/brands/aeg/">AEG</a>, <a href="/services/home-appliances-repair/brands/ariston/">Ariston</a>, <a href="/services/home-appliances-repair/brands/beko/">Beko</a>, <a href="/services/home-appliances-repair/brands/la-germania/">La Germina</a>, <a href="/services/home-appliances-repair/brands/electrolux/">Electrolux</a>, <a href="/services/home-appliances-repair/brands/siemens/">Siemens</a>, <a href="/services/home-appliances-repair/brands/neff/">neff</a>, <a href="/services/home-appliances-repair/brands/teka/">Teka</a>, <a href="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a>, <a href="/services/home-appliances-repair/brands/samsung/">Samsung</a>, <a href="/services/home-appliances-repair/brands/viking/">Viking</a>, <a href="/services/home-appliances-repair/brands/subzero/">Sub Zero</a>,  <a href="/services/home-appliances-repair/brands/daewoo/">Daewoo</a>, <a href="/services/home-appliances-repair/brands/daewoo/">gaggenau</a>, <a href="/services/home-appliances-repair/brands/haiser/">Haier</a>, <a href="/services/home-appliances-repair/brands/hitachi/">Hitachi</a>, <a href="/services/home-appliances-repair/brands/sanyo/">Sanyo</a>, <a href="/services/home-appliances-repair/brands/midea/">Midea</a>, <a href="/services/home-appliances-repair/brands/aftron/">Aftron</a>, <a href="/services/home-appliances-repair/brands/maytag/">Maytag</a>, <a href="/services/home-appliances-repair/brands/wolf/">Wolf</a>, <a href="/services/home-appliances-repair/brands/frigidaire/">Frigidaire</a>, <a href="/services/home-appliances-repair/brands/admiral/">Admiral</a>, <a href="#">Speed Queen</a>, <a href="/services/home-appliances-repair/brands/smeg/">Smeg</a>, <a href="#">Speed Queen</a>, <a href="/services/home-appliances-repair/brands/miele/">Miele</a>, and Sharp.
                             Our experienced technicians offer fast and affordable repair services for all types of home appliances, such as washing machines, dryers, refrigerators, fridge freezers, ovens, stoves, dishwashers, cooker, hood and more.
                             We are committed to providing quick and efficient repair solutions so your appliances are up and running in no time.
 
@@ -128,313 +136,122 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 </section>
 
                 <PriceCard />
-{/* 
+
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Kitchen Appliance Repairs Dubai and Sharjah, UAE</h1>
                         <p>
                             Welcome to FAJ Technical Services L.L.C, a reliable kitchen appliance repair and maintenance service company dedicated to going the extra mile for our customers. Established in 2010, our team of highly experienced technicians is available on call and undergoes regular training on new products and methods. We specialise in repairs, installations, and annual maintenance contracts (AMC) for a type freestading and built-in appliances and top brands of kitchen appliances across Dubai and Sharjah, UAE.
                         </p>
+                        <div className="ac_service_tags_container">
+                            <a href="/services/home-appliances-repair/hob-repair-service/"><span className="ac_service_tag">Hob Repair</span></a>
+                            <a href="/services/home-appliances-repair/oven-repair-service/"><span className="ac_service_tag">Oven Repair</span></a>
+                            <a href="/services/home-appliances-repair/gas-cooker-repair-service/"><span className="ac_service_tag">Gas Range Repair</span></a>
+                            <a href="/services/home-appliances-repair/refrigerator-repair-service/"><span className="ac_service_tag">Refrigerator Repair</span></a>
+                            <a href="/services/home-appliances-repair/dishwasher-repair-service/"><span className="ac_service_tag">Dishwasher Repair</span></a>
+                            <a href="/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai"><span className="ac_service_tag">BBQ Repair Service</span></a>
+                            <a href="/services/home-appliances-repair/cigar-humidor-repair/"><span className="ac_service_tag">Cigar Humdior Repair</span></a>
+                            <a href="/services/home-appliances-repair/robot-vacuum-cleaner-repair/"><span className="ac_service_tag">Vacuume Repair</span></a>
+                            <a href="/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/"><span className="ac_service_tag">Small Appliances Repair</span></a>
+                            <a href="/services/home-appliances-repair/washing-machine-repair-service-dubai/"><span className="ac_service_tag">Washing Machine Repair</span></a>
+                            <a href="/services/home-appliances-repair/built-in-appliances-repair-service/"><span className="ac_service_tag">Integrated Appliances Repair</span></a>
+                            <a href="/services/home-appliances-repair/appliances-repair-service/"><span className="ac_service_tag">Free Standing Appliances Repair</span></a>
+                            <a href="/services/home-appliances-repair/appliances-amc-service/"><span className="ac_service_tag">AMC Contract</span></a>
+                        </div>
                     </div>
-                </section> */}
-
-                {/* <section className="our_process cs_py_60 bg-light-gray">
+                </section>
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <div className="process_wrapper">
-                            <div className="process_header">
-                                <h2>Our AC Repair and Maintenance Process Quick and Efficient</h2>
-                                <p>Our service process, though comprehensive, primarily includes the following key steps:</p>
+                        <h1 className="cs_fs_30">Why Choose Top Brand FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs</h1>
+                        <p>
+                            When you need home appliance repair, it's essential to select a reliable service provider that offers quality repairs and quick service with skilled technicians. At FAJ Technical Services L.L.C, we ensure that your appliances are repaired promptly, efficiently, and at an affordable price, all while upholding the highest standards of service.
+                        </p>
+                    </div>
+                </section>
+
+                <section className="section cs_py_30 bg-light-gray">
+                    <div className="container">
+
+                        <h3 className="cs_fs_30">We are Home Appliance Service Center in Dubai , Shrarjah UAE</h3>
+                        <p>We repair top brands and models of home appliances, including washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, and hobs.All our repairs are carried out by trained technicians who are experts in appliance repair center.</p>
+                        <div className="row align-items-start">
+                            <div className="col-md-6">
+                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')} alt="Admiral Washing Machine Repair" />
                             </div>
-
-                            <div className="process_content">
-                                <div className="process_image">
-                                    <img src={getImageSrc('diswasherrr')} alt="AC Maintenance Service Process" />
-                                </div>
-
-                                <div className="process_list">
-                                    <div className="process_item">
-                                        <p><b>Initial Consultation:</b> Contact us today to discuss your air conditioning needs. We will gather information about your situation and schedule a convenient time for an inspection.</p>
-                                    </div>
-
-                                    <div className="process_item">
-                                        <p><b>Initial appointment:</b> Contact us today to discuss your air conditioning requirements. We will collect details about your condition and arrange a suitable time for an inspection.</p>
-                                    </div>
-
-                                    <div className="process_item">
-                                        <p><b>Technical Inspection & Diagnosis</b> This section explains how to identify problems. A thorough technical inspection is required for proper diagnosis, ensuring issues are understood before repair.</p>
-                                    </div>
-
-                                    <div className="process_item">
-                                        <p><b>Transparent Quotation:</b>  We provide clear and detailed quotes for all our services. Our quotes include all parts and labor, ensuring there are no hidden costs.</p>
-                                    </div>
-
-                                    <div className="process_item">
-                                        <p><b>Efficient Repair or Services:</b> Our technicians work efficiently to minimize upsets and ensure a clean, effective service.</p>
-                                    </div>
-                                    <div className="process_item">
-                                        <p><b>Final Inspection and Client Satisfaction: </b> Your happiness is our top priority. We strive to deliver high-quality work and excellent service.</p>
-                                    </div>
-                                </div>
+                            <div className="col-md-6">
+                                <ul className="mb-0">
+                                    <p> Our team has successfully handled numerous repairs across various appliances.
+                                        Whether you need assistance with your washing machine, fridge freezer, cooker, dishwasher, or tumble dryer, we will quickly fix any faults that arise. All of our repairs are guaranteed for your peace of mind. You can conveniently book our services online at any time.
+                                    </p>
+                                    <li><strong>  Expert Appliances Technicians: </strong> Our technicians are skilled and experienced in troubleshooting and fixing appliance issues for all major brands. </li>
+                                    <li><strong> Comprehensive Services: </strong> We offer a comprehensive range of services for home appliances, including minor repairs and major fixes. </li>
+                                    <li><strong> Warranty Repair: </strong> It's important to use genuine spare parts in coffee machines, equipment, and vending machines for optimal performance and longevity. </li>
+                                    <li><strong> Timely Booking:</strong>  Our online booking system is available every day of the week, allowing you to schedule repair at your convenience. </li>
+                                    <li><strong> Quick Support: </strong> We realise the importance of functional appliances in our daily lives. </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                </section> */}
+                </section>
 
                 {/* Common Issue Ac Maintenance */}
-                {/* <section className="ac_common_issues_section cs_py_60 bg-light-white">
+                <section className="ac_common_issues_section cs_py_60 bg-light-white">
                     <div className="container">
                         <div className="ac_issues_header_wrapper">
-                            <h2>Common Problems of AC Maintenance Service in Dubai, UAE</h2>
-                            <p>We have encountered thousands of AC systems and identified common issues.
-                                Here are the errors that people frequently make:</p>
+                            <h2>Common Appliance Repair Issues We Fix</h2>
+                            <p>At FAJ Technical Services L.L.C,  we offer expert home appliance repair services for a variety of issues. If you’re experiencing any of the following problems, our skilled technicians are ready to assist you.</p>
                         </div>
 
                         <div className="ac_issues_grid_container">
                             <div className="ac_issue_single_card">
                                 <div className="ac_issue_card_header">
-                                    <h3>Waiting until Dubai hot summer to get maintenance</h3>
+                                    <h3>Washing Machine Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
-                                    <p>Your air conditioning has been off for months. When summer arrives and you turn it on, it fails to work correctly. Now you’re among thousands waiting daytimes for emergency AC service.</p>
-                                    <h4>Better procedure:</h4>
-                                    <p>Schedule AC maintenance in March or April to provide better availability, lower prices, and peace of mind for your AC before hot summer.</p>
+                                    <p>Drum not rotating, door locked, power or display error, unusual noise during operation, drain blockage and water leakage, no spinning or excessive vibration.</p>
                                 </div>
                             </div>
 
                             <div className="ac_issue_single_card">
                                 <div className="ac_issue_card_header">
-                                    <h3>Only touch when something fails</h3>
+                                    <h3>Tumble Dryer Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
-                                    <p>Reactive HVAC maintenance is quite more expensive than preventive maintenance. A 199 AED service visit could have prevented an 1,850 AED emergency AC repair.</p>
-                                    <h4>Better procedure:</h4>
-                                    <p>Regular maintenance, whether performed annually or biannually, helps to identify problems before they escalate into costly emergencies.</p>
+                                    <p>No water intake, soap dispenser not working, no steam during wash cycles, white patches left on utensils, and bad odor inside the dishwasher.</p>
                                 </div>
                             </div>
 
                             <div className="ac_issue_single_card">
                                 <div className="ac_issue_card_header">
-                                    <h3>Selecting the cheapest option</h3>
+                                    <h3>Refrigerator Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
-                                    <p>Is that company offering AC service for 50 to 100 AED? They might be cutting crossings or planning to upsell you aggressively once they are in your home.</p>
-                                    <h4>Better procedure:</h4>
-                                    <p>Always seek fair pricing from reputable companies. Generally, you get what you pay for.</p>
+                                    <p>No power Not cooling properly Excessive ice formation Loud compressor noise</p>
                                 </div>
                             </div>
 
                             <div className="ac_issue_single_card">
                                 <div className="ac_issue_card_header">
-                                    <h3>Allowing unqualified individuals to work on your home appliance</h3>
+                                    <h3>Washer Dryer Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
-                                    <p>That handyman who claims he can check your AC inexpensively? He might actually make it worse.</p>
-                                    <h4>Better procedure:</h4>
-                                    <p> Choose a licensed company with professional AC technicians who are skilled and familiar.</p>
+                                    <p>Issues: Drum rotation failure, error messages displayed, clothes not drying properly, unusual noise, and excessive vibration.</p>
                                 </div>
                             </div>
 
                             <div className="ac_issue_single_card">
                                 <div className="ac_issue_card_header">
-                                    <h3>Ignoring warning signs</h3>
+                                    <h3>Freezer Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
-                                    <p>Unusual sounds, poor cooling, water leaks, and rising electricity Dewa bills mean that your AC is showing a problem.</p>
-                                    <h4>Better procedure:</h4>
-                                    <p>Handle minor issues before they escalate into major troubles.</p>
+                                    <p>No power, not cooling efficiently; ice buildup and frost issues; compressor is making loud noises.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section> */}
+                </section>
 
-                {/* How to use FAJ AC Service and AC Repair in Dubai? */}
-                {/* <section className="faj_ac_services_section cs_py_60 bg-light-gray">
-                    <div className="container">
-                        <h2 className="faj_services_main_heading">How to use FAJ AC Service and AC Repair in Dubai?</h2>
-                        <p className="faj_services_intro_text">
-                            Are you searching for reliable air conditioning services in Dubai? FAJ Technical Services L.L.C provides excellent AC repair and AC cleaning service right at your doorstep. Our team of experts is committed to providing your comfort with excellent service.
-                        </p>
-
-                        <div className="faj_services_grid_container">
-                            <div className="faj_service_box">
-                                <h3 className="faj_service_box_title">AC Repair in Dubai for Improved Performance</h3>
-                                <p className="faj_service_box_text">
-                                    Your AC not cooling effectively? Our AC technicians can diagnose and fix AC errors.
-                                </p>
-                            </div>
-
-                            <div className="faj_service_box">
-                                <h3 className="faj_service_box_title">Regular AC Cleaning for Maximum Efficiency</h3>
-                                <p className="faj_service_box_text">
-                                    For optimal performance, keep your AC clean and AC cleaning. We offer AC duct cleaning and filters for fresh.
-                                </p>
-                            </div>
-
-                            <div className="faj_service_box">
-                                <h3 className="faj_service_box_title">Essential AC Maintenance Service Dubai</h3>
-                                <p className="faj_service_box_text">
-                                    Regular AC maintenance is necessary. Our services help prepare your AC for the summer heat.
-                                </p>
-                            </div>
-
-                            <div className="faj_service_box">
-                                <h3 className="faj_service_box_title">Assistance with New AC Installation</h3>
-                                <p className="faj_service_box_text">
-                                    Upgrading to a new AC unit? Let our AC experts handle the detection, installation, and testing!
-                                </p>
-                            </div>
-
-                            <div className="faj_service_box">
-                                <h3 className="faj_service_box_title">Emergency AC Repair in Dubai</h3>
-                                <p className="faj_service_box_text">
-                                    Experiencing unexpected AC malfunction? Our 7-day emergency AC repairs is available to provide quick service.
-                                </p>
-                            </div>
-
-                            <div className="faj_service_box">
-                                <h3 className="faj_service_box_title">AC Service Dubai Available Near Me Before Summer</h3>
-                                <p className="faj_service_box_text">
-                                    Get ready for summer! Schedule your AC tune up to ensure comfort during the heat.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="faj_cta_section">
-                            <h3 className="faj_cta_heading">Schedule your FAJ AC Cleaning, AC Repair & Maintenance Services today!</h3>
-                            <p className="faj_cta_text">
-                                For reliable AC service and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!
-                            </p>
-                        </div>
-                    </div>
-                </section> */}
-
-                {/* beniift */}
-                {/* <section className="benefits_section cs_py_60 bg-light-white">
-                    <div className="container">
-                        <h2 className="benefits_title">Benefits of Professional AC Repair and Maintenance</h2>
-                        <div className='paragraph_sec'>
-                            <p>While some may consider DIY air conditioning repair, these tasks can be complex and require technical knowledge. Wrong repairs can lead to safety hazards and increased costs. Skilled technicians can accurately diagnose issues and ensure safe, effective repairs that maximize your system’s performance. Trusting their expertise is a smart choice for the longevity of your air conditioning unit. FAJ Technical Services L.L.C. is ready to assist.</p>
-                        </div>
-                        <div className="benefits_grid">
-                            <div className="benefit_card">
-                                <div className="benefit_icon">
-                                    <img src={getImageSrc('Safety-First')} alt="Comprehensive Services" />
-                                </div>
-                                <h3>Safety First</h3>
-                                <p>Our professional repair deliver lasting results by targeting the root causes of your AC issues, stopping future issues and improving reliability.</p>
-                            </div>
-
-                            <div className="benefit_card">
-                                <div className="benefit_icon">
-                                    <img src={getImageSrc('Real-Diagnosis')} alt="Comprehensive Services" />
-                                </div>
-                                <h3>Real Diagnosis</h3>
-                                <p>Diagnosing air conditioning problems requires skill and specialized tools. Our experts quickly identify problems and provide effective solutions, saving you both time and frustration.</p>
-                            </div>
-
-                            <div className="benefit_card">
-                                <div className="benefit_icon">
-                                    <img src={getImageSrc('Warranty-Protection')} alt="Comprehensive Services" />
-                                </div>
-                                <h3>Warranty Protection</h3>
-                                <p>Many air conditioning systems come with warranties that require professional servicing. Choose FAJ Technical Services L.L.C. to ensure your warranty remains covered.</p>
-                            </div>
-
-                            <div className="benefit_card">
-                                <div className="benefit_icon">
-                                    <img src={getImageSrc('Long-Term-Reliability')} alt="Comprehensive Services" />
-                                </div>
-                                <h3>Long-Term Reliability</h3>
-                                <p>Our professional repair deliver lasting results by targeting the root causes of your AC issues, stopping future issues and improving reliability.</p>
-                            </div>
-
-                            <div className="benefit_card">
-                                <div className="benefit_icon">
-                                    <img src={getImageSrc('Energy-Savings')} alt="Comprehensive Services" />
-                                </div>
-                                <h3>Energy Savings</h3>
-                                <p>Professional repair can improve your system's efficiency, greatly reducing energy consumption and reducing your monthly utility bills.</p>
-                            </div>
-
-                            <div className="benefit_card">
-                                <div className="benefit_icon">
-                                    <img src={getImageSrc('Protects-Property')} alt="Comprehensive Services" />
-                                </div>
-                                <h3>Protects Property</h3>
-                                <p>Protects electronics from damage and prevents distortion caused by hot summer extreme heat and moisture.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-
-                {/* import */}
-                {/* <section className="air_conditioning_inspection_section cs_py_60 bg-light-gray">
-                    <div className="container">
-                        <h2 className="inspection_main_heading">Importance of Air Conditioning Inspection</h2>
-
-                        <div className="inspection_content_grid">
-                            <div className="inspection_text_column">
-                                <h3 className="inspection_sub_heading">Why It's Necessary?</h3>
-                                <p className="inspection_description">
-                                    Regular inspections of AC systems help identify potential issues early, ensuring optimal performance and extending the lifespan of your AC unit. They improve energy efficiency, reduce energy bills, and improve AC indoor air quality by removing dust and mold, making a healthier climate.
-                                </p>
-                            </div>
-
-                            <div className="inspection_image_column">
-                                <img
-                                    src={getImageSrc('importbrand')}
-                                    alt="AC Inspection Service"
-                                    className="inspection_main_image"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="inspection_note_section">
-                            <p className="inspection_note_text">
-                                The AC technical inspection fee covers an on-site visit from our team and transportation to Dubai. If the customer requests services like repair, maintenance, cleaning, or part replacement during the visit, this fee will be deducted from the total service cost.
-                            </p>
-                            <p className="inspection_note_text">
-                                Please note that the inspection fee is non-refundable and does not include carpentry work, gypsum cutting actions, or AC repairs. Following the inspection, FAJ will provide a quotation.
-                            </p>
-                        </div>
-                    </div>
-                </section> */}
-
-                {/* AC Brands Section */}
-
-{/* 
-                <Practicaltip />
-                <AcProperties />
-                <MaintenanceContract /> */}
-
-                {/* <section className="section gallery_section bg-light-gray cs_py_30">
-                    <div className="container">
-                        <h2>Gallery  <Gallery /></h2>
-                        <div className="row gx-3 gy-2">
-                            <div className="col-md-4 col-6">
-                                <img src={`${CDN}/AcService/slide1/public`} alt="" />
-                            </div>
-                            <div className="col-md-4 col-6">
-                                <img src={`${CDN}/AcService/slide2/public`} alt="" />
-                            </div>
-                            <div className="col-md-4 col-6">
-                                <img src={`${CDN}/AcService/slide3/public`} alt="" />
-                            </div>
-                            <div className="col-md-4 col-6">
-                                <img src={`${CDN}/AcService/slide4/public`} alt="" />
-                            </div>
-                            <div className="col-md-4 col-6">
-                                <img src={`${CDN}/AcService/slide5/public`} alt="" />
-                            </div>
-                            <div className="col-md-4 col-6">
-                                <img src={`${CDN}/AcService/slide6/public`} alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-
-                {/* {!isLoading && testimonial_data.length > 0 && (
+                {!isLoading && testimonial_data.length > 0 && (
                     <Testimonial1
                         subtitle="What Our Clients Say"
                         title="Customer <span>Reviews</span>"
@@ -442,77 +259,9 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         testimonialData={testimonial_data}
                         sectionId="home-testimonials"
                     />
-                )} */}
-                {/* <section className="ac_brands_services_section cs_py_60 bg-light-gray">
-                    <BlogCategoryHomePage />
-                </section> */}
-                {/* we specilized */}
-
-                {/* <section className="ac_brands_services_section cs_py_60">
-                    <div className="container">
-                        <h2 className="ac_brands_main_heading">We specialise in air conditioning services for the following brands</h2>
-
-                        <div className="ac_brands_list_wrapper">
-                            <ul className="ac_brands_bullet_list">
-                                <li className="ac_brand_item">
-                                    <strong>Daikin Air Conditioning Services:</strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong internationalization strategy focused on quality, innovation, and effective commercialization. We work with Daikin air conditioning products.
-                                </li>
-                                <li className="ac_brand_item">
-                                    <strong>Gree AC Repair and Service:</strong> Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product lines to include various home appliances and became China's largest air conditioner manufacturer.
-                                </li>
-                                <li className="ac_brand_item">
-                                    <strong>O General AC Repair and Maintenance:</strong> O General AC, a brand of Fujitsu General, is renowned for its Japanese engineering and high-quality air conditioner solutions.
-                                </li>
-                                <li className="ac_brand_item">
-                                    <strong>Mitsubishi AC Service and Repair:</strong> Founded in 1954, Mitsubishi Air Conditioning has been producing air conditioning systems for nearly 70 years and is renowned for its reliability and energy efficiency.
-                                </li>
-                                <li className="ac_brand_item">
-                                    <strong>Samsung AC Maintenance Service:</strong> Samsung AC is a globally recognized name, known for pushing boundaries. Since 1969, they have continued to shape and lead innovations in air conditioning technology.
-                                </li>
-                                <li className="ac_brand_item">
-                                    <strong>York AC Servicing and Repair:</strong> YORK® has been an industry leader since our founding in 1874.
-                                </li>
-                                <li className="ac_brand_item">
-                                    <strong>LG Air Maintenance and Service:</strong> LG began its air conditioning business in 1968 with the launch of its first unit.
-                                </li>
-                                <li className="ac_brand_item">
-                                    <strong>Trane HVAC Repair and Maintenance:</strong> Trane developed its first air conditioning unit in 1931.
-                                </li>
-                                <li className="ac_brand_item">
-                                    <strong>Carrier AC Repair and Service in Dubai:</strong> Carrier AC, Regular and Servicing in Dubai. Since 1902, Carrier HVAC has pioneered a legacy of innovation in the heating, air conditioning and refrigeration industries.
-                                </li>
-                                <li className="ac_brand_item">
-                                    <strong>Rheem AC Repair and Service Near Me:</strong> Rheem AC was founded in 1925 in California, initially making steel drums. It rapidly transitioned to manufacturing water heaters and, in the 1940s and 1950s, expanded into furnaces, split, and central air conditioning systems to meet the growing demand for home comfort. Today, Rheem is a leading global HVAC provider known for its innovation and diverse heating and cooling solutions.
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div className="ac_service_tags_container">
-                            <span className="ac_service_tag">GLM AC Maintenance Dubai</span>
-                            <span className="ac_service_tag">York AC Repair and Service Dubai</span>
-                            <span className="ac_service_tag">Lennox Air Conditioning Maintenance Service</span>
-                            <span className="ac_service_tag">Aftron AC Maintenance Service</span>
-                            <span className="ac_service_tag">Bryant AC Repair Service Dubai</span>
-                            <span className="ac_service_tag">Blue Star AC Repair</span>
-                            <span className="ac_service_tag">Toshiba AC Fix</span>
-                            <span className="ac_service_tag">Suzec AC Maintenance</span>
-                            <span className="ac_service_tag">Super General AC Repair and Services in Dubai</span>
-                            <span className="ac_service_tag">HAIER AC Service</span>
-                            <span className="ac_service_tag">Whirlpool AC Repair</span>
-                            <span className="ac_service_tag">Daewoo AC Cleaning</span>
-                            <span className="ac_service_tag">Coolex AC Repair and Services in Dubai</span>
-                            <span className="ac_service_tag">Craft Aircon Maintenance Servicing Dubai</span>
-                            <span className="ac_service_tag">Delcool AC Repairing Dubai</span>
-                            <span className="ac_service_tag">Fujitsu AC Maintenance Service Dubai</span>
-                            <span className="ac_service_tag">Goodman AC Services</span>
-                            <span className="ac_service_tag">Hisier AC Repair and Service</span>
-                            <span className="ac_service_tag">McQuay AC Conditioning Repair</span>
-                            <span className="ac_service_tag">Midea AC Service and Repair</span>
-                            <span className="ac_service_tag">Panasonic Air Conditioning Services</span>
-                            <span className="ac_service_tag">Ruud Air Conditioner Maintenance Servicing</span>
-                            <span className="ac_service_tag">West Point AC Repair and Service</span>
-                        </div>
-                    </div>
+                )}
+                <section className="ac_brands_services_section cs_py_60 bg-light-white">
+                    <BlogHomeAppliances />
                 </section>
 
                 <section className="section cs_py_30 bg-dark-blue text-light">
@@ -520,10 +269,36 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         subtitle2="Contact us"
                         title2="Book An Appointment"
                     />
-                </section> */}
+                </section>
 
                 {/* Faqs */}
-
+                <section className="section cs_py_30 text-black">
+                    <div className="container">
+                        <h3 className="cs_fs_30">FAQ's</h3>
+                        <div className="cs_accordians_wrapper cs_style_1 p-0">
+                            {data.map((item, index) => (
+                                <div
+                                    key={index}
+                                    className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}
+                                >
+                                    <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                                        <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
+                                        <span className="cs_accordian_toggle">
+                                            <i className="bi bi-eye"><EyeIcon /></i>
+                                            <i className="bi bi-eye-slash"><EyeSlashIcon /></i>
+                                        </span>
+                                    </div>
+                                    <div className="cs_accordian_body" ref={accordionContentRef}>
+                                        <p
+                                            className="mb-0"
+                                            dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                                        />
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
 
             </div>
         </>
