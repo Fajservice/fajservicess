@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Aftron Fridge Repair and Aftron Washing Machine Service in Dubai");
-    const metadescription = String(description || "Trusted Aftron fridge repair in Dubai, FAJ expert Aftron washing machine, dryer, dishwasher, cooking range oven service & repair center nearby");
+    const metatitle = String(titleSeo || "Aftron Home Appliances Repair Center | Washing Machine Service");
+    const metadescription = String(description || "FAJ provide expert Aftron appliance, fridge, freezer, Aftron washing machine, dishwasher, oven, cooking range, stove and dryer repair and service in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Aftron fridge repair, Aftron washing machine repair, Aftron cooker repair, Aftron oven repair, Aftron appliances maintenance, Aftron refrigerator fix, Aftron appliance service Dubai");
@@ -119,9 +119,8 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Aftron Fridge Repair and Aftron Washing Machine Service in Dubai</h1>
-                        <p>
-                            Struggling to find a local Aftron appliance technician who understands Aftron kitchen appliances? <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has offered trusted and cost-effective services since 2010. Our vast network includes experienced, and carefully screened professionals. When available, we assign technicians experienced with your specific Aftron model.
+                        <h1 className="cs_fs_30">Best Aftron Home Appliance Repair and Service in Dubai</h1>
+                        <p>To maintain the high quality of your Aftron home appliance, trust our Repair Service. We provide reliable solutions for a wide range of appliance repairs, including refrigerators, dishwashers, washing machines, and ovens.<br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Aftron appliance at your location and promptly restore it to full working order. Count on us to bring your Aftron appliances back to life with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> dependable repair service in Dubai.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -678,9 +677,9 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 </section>
 {/* Faqs */}
-                <section className="section cs_py_30  bg-dark-blue text-light">
+                <section className="section cs_py_30">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+                        <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 
@@ -690,36 +689,34 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                         <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <svg
-                                                width="20"
-                                                height="20"
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth="2"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                                            >
-                                                <circle cx="12" cy="12" r="3" />
-                                                <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
-                                            </svg>
+                         width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                      >
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
-                                            {/* Eye Slash */}
-                                            <svg
-                                                width="20"
-                                                height="20"
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth="2"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                                            >
-                                                <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
-                                                <line x1="1" y1="1" x2="23" y2="23" />
-                                                <circle cx="12" cy="12" r="3" />
-                                            </svg>
+                      {/* Eye Slash */}
+                     
+                       <svg
+                       width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                       >
+<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>

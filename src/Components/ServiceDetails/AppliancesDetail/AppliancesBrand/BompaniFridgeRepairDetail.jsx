@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Bompani Fridge Repair and Washing Machine Service in Dubai");
-    const metadescription = String(description || "FAJ offer reliable Bompani appliance service in Dubai, including Bompani fridge repair, washing machine, oven & dishwasher repair  center near you Dubai");
+    const metatitle = String(titleSeo || "Bompani Appliance Repair Center | Bompani Washing Machine Service");
+    const metadescription = String(description || "FAJ provide expert Bompani appliance, fridge, freezer, Bompani washing machine, dishwasher, oven, cooking range, stove and dryer repair and service in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Bompani Fridge Repair, Bompani Washing Machine Repair, Bompani Cooker Repair, Bompani Oven Repair, Bompani Appliances Maintenance, Bompani Refrigerator Fix Repair");
@@ -118,10 +118,8 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Bompani Fridge Repair and Bompani Washing Machine Service in Dubai</h1>
-                        <p>
-                            If you are looking for a knowledgeable local technician who specializes in Bompani appliances, you’re in the right place. <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been providing reliable and affordable appliance solutions since 2010.
-                            <br />We have established a network of qualified professionals dedicated to addressing the specific needs of Bompani appliance repair and nearby services. Our main aim is to connect you with a proficient Bompani technician in Dubai and Sharjah, ensuring they have a deep understanding of Bompani appliances. Your satisfaction is our highest priority!
+                        <h1 className="cs_fs_30">Best Bompani Home Appliance Repair and Service in Dubai</h1>
+                        <p>To maintain the high quality of your Bompani home appliances, trust our Repair Service. We provide reliable solutions for a wide range of Bompani appliance repair, including refrigerators, dishwashers, washing machines, and ovens.<br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Bompani appliance at your location and promptly restore it to full working order. Count on us to bring your Bompani appliances back to life with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> dependable repair service in Dubai.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -138,16 +136,11 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Bompani Washing Machine Repair Near You</h2>
-                                <p className="mb-2">
-                                    Having trouble with your Bompani appliances? Our repair team is here to help! FAJ provides quick and affordable solutions for issues like washing machines that won’t drain, fridges not cooling, ovens failing to heat, and dishwashers not turning on.
-                                    <br />For dependable Bompani <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, count on us for reliable solutions!
-                                </p>
+                                <h2 className="cs_fs_20 mb-1">Specialised Bompani Washing Machine Repair and Service in Dubai</h2>
+                                <p className="mb-2">You shouldn't have to face a lack of clean clothes due to a malfunctioning Bompani washer dryer. Common issues include not powering on or failing to spin.<br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we handle these problems and also repair faulty displays and timers. Contact us today, and we'll send an expert technician to fix your Bompani appliance the same day. Replacing a Bompani washing machine or tumble dryer can be expensive, so we aim to extend the lifespan of your Bompani washing machine repair service in Dubai</p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Bompani Appliances Service</h2>
-                                <p className="mb-2">
-                                    At FAJ Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Bompani products, often happen unexpectedly. That’s why our trained and qualified Bompani technicians are available to provide you with reliable repair services. With our help, you can save the cost of purchasing a new appliance and have your Bompani appliance functioning again in no time, allowing you to put your worries aside.
-                                </p>
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Bompani Fridge Repair and Service in Dubai</h2>
+                                <p className="mb-2">We often overlook the vital role our Bompani fridge freezers play. If you notice food spoiling quickly or excessive noise.<br />At FAJ, our skilled team is ready to assist you at home. We have experience in Bompani appliance, and even if your model isn’t listed, we may still have the necessary spare parts.<br/>Our goal is to provide same-day for your Bompani fridge repair and freezer service once you reach out to us.</p>
 
                             </div>
 
