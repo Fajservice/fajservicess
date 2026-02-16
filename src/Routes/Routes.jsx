@@ -921,7 +921,7 @@ export const router = createBrowserRouter([
       },
 
       {
-        path: "/services/home-appliance-repair/brands/",
+        path: "/services/home-appliances-repair/brands/",
         element: <Components.HomeAppBrandPage />,
       },
       {

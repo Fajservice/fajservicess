@@ -10,12 +10,25 @@ import Practicaltip from '../../../Common/Practicaltip';
 import AcProperties from '../../../Common/AcProperties';
 import MaintenanceContract from '../../../MaintenanceContract/MaintenanceContract';
 import Gallery from '../../../Svg/Gallery';
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
+
+const EyeIcon = () => (
+  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+const EyeSlashIcon = () => (
+  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
 const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
   const metatitle = String(titleSeo || "Top Brands AC Maintenance Dubai | AC Cleaning & AC Repairing");
   const metadescription = String(description || "We provide top brand HVAC maintenance, installation & services across Dubai, including Samsung, LG, O General, Rheem, Mitsubishi, Carrier & Daikin.");
@@ -70,7 +83,7 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/categorybrandsfaqs.json`),
           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json`),
         ]);
 
@@ -399,35 +412,33 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
           </div>
         </section>
 
-          {/* AC Brands Section */}
 
+        <Practicaltip />
+        <AcProperties />
+        <MaintenanceContract />
 
-          <Practicaltip />
-          <AcProperties />
-          <MaintenanceContract />
-
-            <section className="section gallery_section bg-light-gray cs_py_30">
+        <section className="section gallery_section bg-light-gray cs_py_30">
           <div className="container">
             <h2>Gallery  <Gallery /></h2>
             <div className="row gx-3 gy-2">
-                <div className="col-md-4 col-6">
-                  <img src={`${CDN}/AcService/slide1/public`} alt="" />
-                </div>
-                <div className="col-md-4 col-6">
-                  <img src={`${CDN}/AcService/slide2/public`} alt="" />
-                </div>
-                <div className="col-md-4 col-6">
-                  <img src={`${CDN}/AcService/slide3/public`} alt="" />
-                </div>
-                <div className="col-md-4 col-6">
-                  <img src={`${CDN}/AcService/slide4/public`} alt="" />
-                </div>
-                <div className="col-md-4 col-6">
-                  <img src={`${CDN}/AcService/slide5/public`} alt="" />
-                </div>
-                <div className="col-md-4 col-6">
-                  <img src={`${CDN}/AcService/slide6/public`} alt="" />
-                </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide1/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide2/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide3/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide4/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide5/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide6/public`} alt="" />
+              </div>
             </div>
           </div>
         </section>
@@ -441,61 +452,108 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
             sectionId="home-testimonials"
           />
         )}
+        <section className="ac_brands_services_section cs_py_60 bg-light-gray">
+          <BlogCategoryHomePage />
+        </section>
+        {/* we specilized */}
 
-        <BlogCategoryHomePage />
-
-        {/* Faqs */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
+        <section className="ac_brands_services_section cs_py_60">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+            <h2 className="ac_brands_main_heading">We specialise in air conditioning services for the following brands</h2>
 
+            <div className="ac_brands_list_wrapper">
+              <ul className="ac_brands_bullet_list">
+                <li className="ac_brand_item">
+                  <strong>Daikin Air Conditioning Services:</strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong internationalization strategy focused on quality, innovation, and effective commercialization. We work with Daikin air conditioning products.
+                </li>
+                <li className="ac_brand_item">
+                  <strong>Gree AC Repair and Service:</strong> Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product lines to include various home appliances and became China's largest air conditioner manufacturer.
+                </li>
+                <li className="ac_brand_item">
+                  <strong>O General AC Repair and Maintenance:</strong> O General AC, a brand of Fujitsu General, is renowned for its Japanese engineering and high-quality air conditioner solutions.
+                </li>
+                <li className="ac_brand_item">
+                  <strong>Mitsubishi AC Service and Repair:</strong> Founded in 1954, Mitsubishi Air Conditioning has been producing air conditioning systems for nearly 70 years and is renowned for its reliability and energy efficiency.
+                </li>
+                <li className="ac_brand_item">
+                  <strong>Samsung AC Maintenance Service:</strong> Samsung AC is a globally recognized name, known for pushing boundaries. Since 1969, they have continued to shape and lead innovations in air conditioning technology.
+                </li>
+                <li className="ac_brand_item">
+                  <strong>York AC Servicing and Repair:</strong> YORK® has been an industry leader since our founding in 1874.
+                </li>
+                <li className="ac_brand_item">
+                  <strong>LG Air Maintenance and Service:</strong> LG began its air conditioning business in 1968 with the launch of its first unit.
+                </li>
+                <li className="ac_brand_item">
+                  <strong>Trane HVAC Repair and Maintenance:</strong> Trane developed its first air conditioning unit in 1931.
+                </li>
+                <li className="ac_brand_item">
+                  <strong>Carrier AC Repair and Service in Dubai:</strong> Carrier AC, Regular and Servicing in Dubai. Since 1902, Carrier HVAC has pioneered a legacy of innovation in the heating, air conditioning and refrigeration industries.
+                </li>
+                <li className="ac_brand_item">
+                  <strong>Rheem AC Repair and Service Near Me:</strong> Rheem AC was founded in 1925 in California, initially making steel drums. It rapidly transitioned to manufacturing water heaters and, in the 1940s and 1950s, expanded into furnaces, split, and central air conditioning systems to meet the growing demand for home comfort. Today, Rheem is a leading global HVAC provider known for its innovation and diverse heating and cooling solutions.
+                </li>
+              </ul>
+            </div>
+
+            <div className="ac_service_tags_container">
+              <span className="ac_service_tag">SKM AC Maintenance Dubai</span>
+              <span className="ac_service_tag">York AC Repair and Service Dubai</span>
+              <span className="ac_service_tag">Lennox Air Conditioning Maintenance Service</span>
+              <span className="ac_service_tag">Aftron AC Maintenance Service</span>
+              <span className="ac_service_tag">Bryant AC Repair Service Dubai</span>
+              <span className="ac_service_tag">Blue Star AC Repair</span>
+              <span className="ac_service_tag">Toshiba AC Fix</span>
+              <span className="ac_service_tag">Suzec AC Maintenance</span>
+              <span className="ac_service_tag">Super General AC Repair and Services in Dubai</span>
+              <span className="ac_service_tag">HAIER AC Service</span>
+              <span className="ac_service_tag">Whirlpool AC Repair</span>
+              <span className="ac_service_tag">Daewoo AC Cleaning</span>
+              <span className="ac_service_tag">Coolex AC Repair and Services in Dubai</span>
+              <span className="ac_service_tag">Craft Aircon Maintenance Servicing Dubai</span>
+              <span className="ac_service_tag">Delcool AC Repairing Dubai</span>
+              <span className="ac_service_tag">Fujitsu AC Maintenance Service Dubai</span>
+              <span className="ac_service_tag">Goodman AC Services</span>
+              <span className="ac_service_tag">Hisier AC Repair and Service</span>
+              <span className="ac_service_tag">McQuay AC Conditioning Repair</span>
+              <span className="ac_service_tag">Midea AC Service and Repair</span>
+              <span className="ac_service_tag">Panasonic Air Conditioning Services</span>
+              <span className="ac_service_tag">Ruud Air Conditioner Maintenance Servicing</span>
+              <span className="ac_service_tag">West Point AC Repair and Service</span>
+            </div>
+          </div>
+        </section>
+        <section className="section cs_py_30 bg-dark-blue text-light">
+          <Serviceappointemnt
+            subtitle2="Contact us"
+            title2="Book An Appointment"
+          />
+        </section>
+        {/* Faqs */}
+        <section className="section cs_py_30 text-black">
+          <div className="container">
+            <h3 className="cs_fs_30">FAQ's</h3>
             <div className="cs_accordians_wrapper cs_style_1 p-0">
-
               {data.map((item, index) => (
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                <div
+                  key={index}
+                  className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}
+                >
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                    <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                      >
-                        <circle cx="12" cy="12" r="3" />
-                        <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
-                      </svg>
-
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                      >
-                        <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
-                        <line x1="1" y1="1" x2="23" y2="23" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
+                      <i className="bi bi-eye"><EyeIcon /></i>
+                      <i className="bi bi-eye-slash"><EyeSlashIcon /></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0"
+                    <p
+                      className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
-                    ></p>
+                    />
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </section>

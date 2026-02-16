@@ -13402,3 +13402,285 @@
     font-size: 10px;
   }
 }
+
+/* we specilized home appliances brands section*/
+.ac_brands_services_section {
+  padding: 60px 0;
+}
+
+.ac_brands_main_heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 25px 0;
+}
+
+.ac_brands_list_wrapper {
+  margin-bottom: 30px;
+}
+
+.ac_brands_bullet_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ac_brand_item {
+  font-size: 16px;
+  color: #1F2937;
+  line-height: 1.6;
+  margin: 0 0 12px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.ac_brand_item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #1F2937;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.ac_brand_item strong {
+  font-weight: 500;
+  color: #1F2937;
+}
+
+.ac_service_tags_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.ac_service_tag {
+  display: inline-block;
+  padding: 10px 18px;
+  border: 2px solid #6B7280;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #1F2937;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.ac_service_tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Large Desktop - 1400px and above */
+@media (min-width: 1400px) {
+  .ac_brands_main_heading {
+    font-size: 28px;
+    margin: 0 0 30px 0;
+  }
+
+  .ac_brands_list_wrapper {
+    margin-bottom: 35px;
+  }
+
+  .ac_brand_item {
+    font-size: 14px;
+    margin: 0 0 14px 0;
+    padding-left: 22px;
+  }
+
+  .ac_brand_item::before {
+    font-size: 18px;
+  }
+
+  .ac_service_tags_container {
+    gap: 14px;
+  }
+
+  .ac_service_tag {
+    padding: 11px 20px;
+    font-size: 13px;
+  }
+}
+
+/* Extra Large Desktop - 1600px and above */
+@media (min-width: 1600px) {
+  .ac_brands_main_heading {
+    font-size: 30px;
+    margin: 0 0 35px 0;
+  }
+
+  .ac_brands_list_wrapper {
+    margin-bottom: 40px;
+  }
+
+  .ac_brand_item {
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 16px 0;
+    padding-left: 24px;
+  }
+
+  .ac_brand_item::before {
+    font-size: 20px;
+  }
+
+  .ac_service_tags_container {
+    gap: 16px;
+  }
+
+  .ac_service_tag {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+}
+
+/* Ultra Large Desktop - 1920px (Full HD) and above */
+@media (min-width: 1920px) {
+  .ac_brands_services_section {
+    padding: 80px 0;
+  }
+
+  .ac_brands_main_heading {
+    font-size: 34px;
+    margin: 0 0 40px 0;
+  }
+
+  .ac_brands_list_wrapper {
+    margin-bottom: 45px;
+  }
+
+  .ac_brand_item {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 0 18px 0;
+    padding-left: 26px;
+  }
+
+  .ac_brand_item::before {
+    font-size: 22px;
+  }
+
+  .ac_service_tags_container {
+    gap: 18px;
+  }
+
+  .ac_service_tag {
+    padding: 13px 24px;
+    font-size: 15px;
+    border-radius: 8px;
+  }
+}
+
+/* Tablet - 1024px and below */
+@media (max-width: 1024px) {
+  .ac_brands_main_heading {
+    font-size: 22px;
+  }
+
+  .ac_brand_item {
+    font-size: 12px;
+  }
+
+  .ac_service_tags_container {
+    gap: 10px;
+  }
+
+  .ac_service_tag {
+    padding: 9px 16px;
+    font-size: 11px;
+  }
+}
+
+/* Mobile - 768px and below */
+@media (max-width: 768px) {
+  .ac_brands_main_heading {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+  }
+
+  .ac_brands_list_wrapper {
+    margin-bottom: 25px;
+  }
+
+  .ac_brand_item {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    padding-left: 18px;
+  }
+
+  .ac_brand_item::before {
+    font-size: 14px;
+  }
+
+  .ac_service_tags_container {
+    gap: 8px;
+  }
+
+  .ac_service_tag {
+    padding: 8px 14px;
+    font-size: 11px;
+  }
+}
+
+/* Small Mobile - 576px and below */
+@media (max-width: 576px) {
+  .ac_brands_services_section {
+    padding: 40px 0;
+  }
+
+  .ac_brands_main_heading {
+    font-size: 18px;
+    margin: 0 0 18px 0;
+    padding: 0 5px;
+  }
+
+  .ac_brands_list_wrapper {
+    margin-bottom: 20px;
+  }
+
+  .ac_brand_item {
+    font-size: 11px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    padding-left: 16px;
+  }
+
+  .ac_brand_item::before {
+    font-size: 13px;
+  }
+
+  .ac_service_tags_container {
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .ac_service_tag {
+    padding: 7px 12px;
+    font-size: 10px;
+  }
+}
+
+/* Extra Small Mobile - 480px and below */
+@media (max-width: 480px) {
+  .ac_brands_main_heading {
+    font-size: 16px;
+    margin: 0 0 16px 0;
+  }
+
+  .ac_brand_item {
+    font-size: 10px;
+    line-height: 1.4;
+    padding-left: 15px;
+  }
+
+  .ac_brand_item::before {
+    font-size: 12px;
+  }
+
+  .ac_service_tag {
+    padding: 6px 10px;
+    font-size: 9px;
+  }
+}
