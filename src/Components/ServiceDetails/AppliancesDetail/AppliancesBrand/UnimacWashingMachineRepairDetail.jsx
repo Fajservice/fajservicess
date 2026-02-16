@@ -719,7 +719,15 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
           sectionId="home-testimonials"
         />
 
-    {/* FAQ&apos;s */}
+    <section className="section cs_py_30 bg-dark-blue text-light">
+          <Serviceappointemnt
+          
+      subtitle2="Contact us"
+      title2="Book An Appointment"
+     ></Serviceappointemnt>
+
+    </section>
+{/* FAQ&apos;s */}
     <section className="section cs_py_30  bg-dark-blue text-light">
      <div className="container">
       <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
@@ -748,14 +756,7 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
      </div>
     </section>
 
-    <section className="section cs_py_30 bg-dark-blue text-light">
-          <Serviceappointemnt
-          
-      subtitle2="Contact us"
-      title2="Book An Appointment"
-     ></Serviceappointemnt>
-
-    </section>
+    
 
    </div >
   </>

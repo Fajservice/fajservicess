@@ -536,7 +536,14 @@ const AppliancesServicesInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, 
         />
 
         {/* Faqs */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-dark-blue text-light">
+          <Serviceappointemnt
+            subtitle2="Contact us"
+            title2="Book An Appointment"
+          ></Serviceappointemnt>
+
+        </section>
+<section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
@@ -591,13 +598,7 @@ const AppliancesServicesInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, 
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <Serviceappointemnt
-            subtitle2="Contact us"
-            title2="Book An Appointment"
-          ></Serviceappointemnt>
-
-        </section>
+        
       </div >
     </>
   )

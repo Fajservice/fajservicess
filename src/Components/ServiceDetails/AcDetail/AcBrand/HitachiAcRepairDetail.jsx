@@ -525,7 +525,15 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           sectionId="home-testimonials"
         />
 
-        {/* Faqs */}
+        <div className="section">
+          <Serviceappointemnt
+            subtitle2="Contact us"
+            title2="Book An Appointment"
+          ></Serviceappointemnt>
+
+        </div>
+
+{/* Faqs */}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">FAQ&apos;s</h3>
@@ -580,13 +588,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           </div>
         </section>
 
-        <div className="section cs_py_30">
-          <Serviceappointemnt
-            subtitle2="Contact us"
-            title2="Book An Appointment"
-          ></Serviceappointemnt>
-
-        </div>
+        
 
 
       </div>

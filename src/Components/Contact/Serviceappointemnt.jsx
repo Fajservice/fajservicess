@@ -2,7 +2,7 @@ import Form1 from "../Form/Form1";
 
 const Serviceappointemnt = ({title2,subtitle2}) => {
     return (
-        <section className="my-4">
+        <section className="bg-dark-blue text-light cs_py_30">
         <div className="container">
         <h3 className="cs_section_title cs_fs_30 mb-0 wow flipInX mb-4 cs_white_bg cs_accent_color py-2">{title2}</h3>
           <div className="row cs_gap_y_50 align-items-center">

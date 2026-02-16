@@ -731,7 +731,14 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 					sectionId="home-testimonials"
 				/>
 
-				{/* Faqs */}
+				<section className="section cs_py_30">
+					<Serviceappointemnt
+						subtitle2="Contact us"
+						title2="Book An Appointment"
+					></Serviceappointemnt>
+
+				</section>
+{/* Faqs */}
 				<section className="section cs_py_30  bg-dark-blue text-light">
 					<div className="container">
 						<h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
@@ -788,13 +795,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 					</div>
 				</section>
 
-				<section className="section cs_py_30">
-					<Serviceappointemnt
-						subtitle2="Contact us"
-						title2="Book An Appointment"
-					></Serviceappointemnt>
-
-				</section>
+				
 
 			</div >
 		</>

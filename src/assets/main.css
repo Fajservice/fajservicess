@@ -3500,11 +3500,23 @@
     position: absolute;
     left: 0;
     top: -2px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgb(255, 255, 255);
     padding-left: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .cs_footer_contact_list li span.footer-icons.location{
+    color: #FF0000;
+  }
+  .cs_footer_contact_list li span.footer-icons.phone{
+    color: #0884FF;
+  }
+  .cs_footer_contact_list li span.footer-icons.whatsapp{
+    color: #4AC14B;
+  }
+  .cs_footer_contact_list li span.footer-icons.email{
+    color: #0051A2;
   }
 
   .cs_footer_contact_list li span.footer-icons svg {
@@ -3522,21 +3534,28 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 10px;
+    max-width: 150px;
   }
 
   .cs_footer_widget .cs_social_btns.cs_style_1 a {
-    height: 45px;
+    height: 36px;
     width: 45px;
     border-radius: 6px;
-    background-color: rgba(105, 105, 105, 0.3);
-    color: #fff;
+    /* background-color: rgba(105, 105, 105, 0.3);
+    color: #fff; */
     font-size: 16px;
+    border: 0;
+    -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(33.333% - 14px); /* 3 items per row with gap */
+  flex: 0 0 calc(33.333% - 14px);
   }
 
   .cs_footer_widget .cs_social_btns.cs_style_1 a:hover {
     background-color: var(--accent-color);
   }
-
+.cs_footer_widget .cs_social_btns.cs_style_1 a svg {
+    width: 40px;
+}
   .cs_footer_widget_seperator {
     display: -webkit-box;
     display: -ms-flexbox;

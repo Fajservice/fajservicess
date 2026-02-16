@@ -731,7 +731,11 @@ const WashingMachineRepairServiceDubaiDetail = ({
           <BlogWashingMachine />
         </Suspense>
 
-        {/* Faqs */}
+        <Suspense fallback={<div style={{ minHeight: '200px' }} />}>
+          <Serviceappointemnt subtitle2="Contact us" title2="Book An Appointment" />
+        </Suspense>
+      </div>
+{/* Faqs */}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">FAQ&apos;s</h3>
@@ -787,10 +791,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
           </div>
         </section>
 
-        <Suspense fallback={<div style={{ minHeight: '200px' }} />}>
-          <Serviceappointemnt subtitle2="Contact us" title2="Book An Appointment" />
-        </Suspense>
-      </div>
+        
     </>
   );
 };
