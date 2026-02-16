@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Admiral Fridge Repair & Admiral Washing Machine Service Dubai");
-    const metadescription = String(description || "We are offering an Admiral fridge repair. Including dryer, dishwasher,  freezer, cooking range, and oven service centre near me. Call us now.");
+    const metatitle = String(titleSeo || "Admiral Appliances Repair Center | Washing Machine Service");
+    const metadescription = String(description || "We provide expert Admiral home appliance, fridge, freezer, Admiral washing machine, stove, dishwasher, oven, induction dryer repair and service in Dubai ");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Amiral Fridge Repair, Admiral Washing Machine Repair, Admiral Cooker Repair, Admiral Oven Repair, Admiral Appliances Maintenance, Admiral Refrigerator Fix, Admiral Appliance Service Dubai");
@@ -115,9 +115,9 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Admiral Fridge Repair and Admiral Washing Machine Service in Dubai</h1>
+                        <h1 className="cs_fs_30">Admiral Home Appliance Repair and Service in Dubai – Fast & Reliable</h1>
                         <p>
-                            Having trouble finding a reliable technician for your Admiral kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we've been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you're matched with a technician who specializes in your specific Admiral appliance.
+                            At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> , We offer comprehensive repair and service for all your Admiral home appliances, ensuring you can enjoy them since 2010. Our qualified technicians are ready to assist you and provide expert advice for any unexpected issues that may arise. You can easily schedule an Admiral appliance repair by giving us a call. Additionally, we provide maintenance contract options for added peace of mind.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -134,19 +134,12 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Admiral Appliance Repair and Service </h2>
+                                <h2 className="cs_fs_24 mb-1">Admiral Washing Machine Repair and Service in Dubai</h2>
 
-                                <p className="mb-2">
-                                    If you need repair services for your Admiral appliances, FAJ is your trusted choice! We deliver fast, cost-effective solutions across Dubai and Sharjah.
-                                    Whether it's a built-in Admiral washing machine that won't drain, a fridge not cooling, an oven not heating, or a dishwasher that won't start, our skilled technicians are ready to assist. As your local experts, we ensure a quick response to get your appliances running smoothly again.
+                                <p className="mb-2">If your Admiral washing machine has a leaking door, drum issues, or motor problems, we can help. Our service covers all types of Admiral washing machine repair center.<br />Here at FAJ, we are Admiral washing machine repair experts and have been carrying out Admiral washing machine repair in Dubai<br />We can repair Admiral machine machine and tumble dryer service and have it back up and running quickly- with same day and next day appointments available.</p>
 
-                                </p>
-
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Admiral Appliances Service</h2>
-                                <p className="mb-2">
-                                    At FAJ Technical Services L.L.C, we know that Admiral appliance breakdowns often happen when you least expect them. That's why our expert Admiral technicians are ready to provide fast, reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it working perfectly again, before it becomes a bigger hassle.
-                                </p>
-
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Admiral Fridge Repair And Freezer Service In Dubai</h2>
+                                <p className="mb-2">If your Admiral fridge freezer is not keeping cool, don’t worry! Our Admiral fridge repair experts are here to help stop your food from going to waste. They can diagnose and fix a type of common issues with Admiral refrigerator, including cooling problems, leaks, power faults, strange noises, and any general breakdowns. Just relax and let our experts take care of it.</p>
                             </div>
 
                             <div className="col-md-6 ">
@@ -661,9 +654,9 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 </section>
 {/* Faqs */}
-                <section className="section cs_py_30  bg-dark-blue text-light">
+                <section className="section cs_py_30">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+                        <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 
@@ -673,36 +666,34 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                         <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <svg
-                                                width="20"
-                                                height="20"
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth="2"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                                            >
-                                                <circle cx="12" cy="12" r="3" />
-                                                <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
-                                            </svg>
+                         width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                      >
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
-                                            {/* Eye Slash */}
-                                            <svg
-                                                width="20"
-                                                height="20"
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth="2"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                                            >
-                                                <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
-                                                <line x1="1" y1="1" x2="23" y2="23" />
-                                                <circle cx="12" cy="12" r="3" />
-                                            </svg>
+                      {/* Eye Slash */}
+                     
+                       <svg
+                       width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                       >
+<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>

@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Ariston Fridge Repair and Washing Machine Service in Dubai");
-  const metadescription = String(description || "Book your Ariston fridge repair in Dubai. FAJ are offer expert repairs washer, cooker, freezer, dishwasher, dryer, oven, and stove center in Dubai");
+  const metatitle = String(titleSeo || "Ariston Appliance Repair Center | Ariston Washing Machine Service");
+  const metadescription = String(description || "FAJ provide expert Ariston appliance, fridge, freezer, Ariston washing machine, dishwasher, oven, cooking range, stove, dryer repair and service in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Ariston Fridge Repair, Ariston Washing Machine Repair, Ariston Cooker Repair, Ariston Oven Repair, Ariston Appliances Maintenance in Dubai, Ariston Refrigerator Fix Repair");
@@ -150,10 +150,8 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Ariston Fridge Repair and Washing Machine Service in Dubai</h1>
-            <p>
-              Struggling to find a local expert for your Ariston kitchen appliances?
-              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair solutions since 2010. Our extensive network includes skilled and carefully vetted technicians, and whenever possible, we’ll send someone who has hands-on experience with your specific Ariston appliance model.
+            <h1 className="cs_fs_30">Best Ariston Home Appliance Repair and Service in Dubai</h1>
+            <p>To maintain the high quality of your Ariston home appliances, trust our Repair Service. We provide reliable solutions for a wide range of Ariston appliance repair, including refrigerators, dishwashers, washing machines, and ovens.<br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Ariston appliance at your location and promptly restore it to full working order. Count on us to bring your Ariston appliances back to life with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> dependable repair service in Dubai.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -170,18 +168,13 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Ariston Washing Machine Repair Near You</h2>
-                <p className="mb-2">
-                  Need repair services for your Ariston appliances? FAJ has you covered with fast and affordable solutions!
-                  Whether your built-in Ariston washing machine won’t drain, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our expert repair team in Dubai and Sharjah is here to help.
-                  As a local service provider, we respond quickly and efficiently to get your appliances back in working order.
-                </p>
+                <h2 className="cs_fs_20 mb-1">Specialised Ariston Washing Machine Repair and Service in Dubai</h2>
+                <p className="mb-2">You shouldn't have to face a lack of clean clothes due to a malfunctioning Ariston washer dryer. Common issues include not powering on or failing to spin. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we handle these problems and also repair faulty displays and timers. Contact us today, and we'll send an expert technician to fix your Ariston appliance the same day.<br />Replacing an Ariston washing machine or Ariston tumble dryer can be expensive, so we aim to extend the lifespan of your Ariston washing machine repair service in Dubai
+</p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Ariston Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Ariston Fridge Repair and Freezer Service in Dubai</h2>
                 <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Ariston products, never occur at a convenient time. That’s why our trained and qualified Ariston technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Ariston appliance up and running again before you have a chance to worry about it.
-                </p>
-
+                  We often overlook the vital role our Ariston fridge freezers play. If you notice food spoiling quickly or excessive noise.<br />At FAJ, our skilled team is ready to assist you at home. We have experience with Ariston appliance, and even if your model isn’t listed, we may still have the necessary spare parts.<br />Our goal is to provide same-day service for your Ariston fridge repair and Ariston freezer service once you reach out to us.</p>
               </div>
 
               <div className="col-md-6 ">

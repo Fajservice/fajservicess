@@ -587,10 +587,9 @@ const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo
 
             </section>
 {/* FAQ&apos;s */}
-            <section className="section cs_py_30  bg-dark-blue text-light">
-               <div className="container">
-                  <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
-
+<section className="section cs_py_30">
+					<div className="container">
+						<h3 className="cs_fs_30">FAQ&apos;s</h3>
                   <div className="cs_accordians_wrapper cs_style_1 p-0">
                      {data.map((item, index) => (
                         <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >

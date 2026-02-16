@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "AEG Fridge Repair in Dubai | Washing Machine Service Near Me");
-  const metadescription = String(description || "Professional AEG fridge repair in Dubai. Our experienced team offers  AEG washing machine, stove, dishwasher, oven, and dryer service center.");
+  const metatitle = String(titleSeo || "AEG Home Appliances Repair Center | Washing Machine Service");
+  const metadescription = String(description || "We provide professional AEG appliance, fridge, freezer, AEG washing machine, stove, dishwasher, oven, induction hob, and dryer repair service in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "AEG Fridge Repair, AEG Washing Machine Repair, AEG Cooker Repair, AEG Oven Repair, AEG Appliances Maintenance, AEG Refrigerator Fix, AEG Appliance Service Dubai");
@@ -117,9 +117,9 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AEG Fridge Repair and Washing Machine Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">AEG Home Appliance Repair and Service in Dubai and Sharjah</h1>
             <p>
-              Having trouble finding a local technician for your AEG kitchen appliances? <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been providing reliable, affordable appliance repairs since 2010. Our trusted network of qualified professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific AEG model.
+              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we provide complete repair and services for all your AEG home appliance, so you can enjoy them for since 2010. Our trained technicians are available to assist you and provide expert advice in case any unexpected issues arise. You can easily book an AEG appliance repair. Give us a call. Additionally, we offer maintenance contract options for added peace of mind.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -136,19 +136,15 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">AEG Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_24 mb-1">AEG Washing Machine Repair and Service in Dubai</h2>
                 <p className="mb-2">
-                  Looking for reliable repair services for your AEG appliances? FAJ Technical Services is here to help with fast and affordable solutions.
-                  <br />Whether your built-in AEG washing machine won’t drain, your fridge won’t cool, your oven won’t heat, or your dishwasher won’t start, our expert technicians in Dubai and Sharjah are ready to fix it.
-                  As your trusted local service provider, we ensure quick response times to get your appliances working again without delay.
+                  If your AEG washing machine has a leaking door, drum issues, or motor problems, we can help. Our service covers all types of AEG washing machine repair center.<br/>Here at FAJ, we are AEG washing machine repair experts and have been carrying out AEG washing machine repair in Dubai<br/>
+                  We can repair AEG machine machine and AEG tumble dryer service and have it back up and running quickly- with same day and next day appointments available service provider, we ensure quick response times to get your appliances working again without delay.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable AEG Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that AEG appliance breakdowns rarely happen at a convenient time. That’s why our trained AEG technicians are ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a> when you need them most. We help you avoid the expense of replacing your appliance by getting it back up and running quickly, so you can carry on without the hassle.
-                </p>
-
-              </div>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">AEG Fridge Repair And AEG Freezer Service In Dubai</h2>
+                  <p className="mb-2">If your AEG fridge freezer is not keeping cool, don’t worry! Our AEG fridge repair experts are here to help stop your food from going to waste. They can diagnose and fix a type of common issues with an AEG refrigerator, including cooling problems, leaks, power faults, strange noises, and any general breakdowns. Just relax and let our experts take care of it.</p>
+                </div>
 
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="AEG Washing Machine Repair" />

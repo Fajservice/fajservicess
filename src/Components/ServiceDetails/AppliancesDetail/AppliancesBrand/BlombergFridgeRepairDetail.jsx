@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
 	// For SEO
-	const metatitle = String(titleSeo || "Blomberg Fridge Repair and Washing Machine Service in Dubai");
-	const metadescription = String(description || "For Blomberg appliance service across Dubai, contact us for fridge repair, washing machine, dishwasher, refrigerator, & oven fix service near me in Dubai.");
+	const metatitle = String(titleSeo || "Blomberg Appliance Service Center | Repair Washing Machine");
+	const metadescription = String(description || "FAJ provide expert Blomberg appliance, fridge, freezer, washing machine, dishwasher, oven, cooking range, stove and dryer repair and service in Dubai");
 	const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
 	const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
 	const metaKeyword = String(Keyword || "Blomberg fridge repair, Blomberg washing machine repair, Blomberg cooker repair, Blomberg oven repair, Blomberg appliances maintenance, Blomberg refrigerator service Dubai, Blomberg dishwasher repair Dubai, Blomberg appliance service Dubai");
@@ -180,11 +180,8 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 				{/* intro */}
 				<section className="section cs_py_30">
 					<div className="container">
-						<h1 className="cs_fs_30">Blomberg Fridge Repair and Washing Machine Service in Dubai</h1>
-						<p>
-							Having trouble finding a local technician who specializes in Blomberg kitchen appliances?
-							At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable repair services since 2010. Our extensive network of skilled and vetted professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific Blomberg appliance.
-						</p>
+						<h1 className="cs_fs_30">Fast, Affordable Blomberg Home Appliance Repair and Service in Dubai</h1>
+						<p>If your Blomberg appliance has stopped working, you don't need to replace it. In most cases, getting a professional Blomberg appliance repair in Dubai is faster, more cost-effective, and more reliable than buying a new appliance.<br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> we specialise in repairing Blomberg washing machines, dishwashers, fridges, freezers, and small Blomberg appliances throughout Dubai. Our local expert technicians carry the necessary tools, diagnostic tools, and genuine Blomberg-compatible parts to address most issues on the first visit.</p>
 
 						<div id="get-quote" className=" mt-3">
 							<div className="container d-flex justify-content-center align-items-center gap-3">
@@ -200,17 +197,11 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 					<div className="container">
 						<div className="row gx-md-5">
 							<div className="col-md-6">
-								<h2 className="cs_fs_20 mb-1">Blomberg Washing Machine Repair Near You</h2>
-								<p className="mb-2">
-									Need repair services for your Blomberg appliances? FAJ Technical Services has you covered with fast, affordable solutions.
-									<br />Whether your built-in Blomberg washing machine won’t drain, fridge isn’t cooling, oven isn’t heating, or dishwasher won’t start, our expert technicians in Dubai and Sharjah are ready to help.
-									As your local service provider, we ensure quick response times to restore your appliances to perfect working condition.
-								</p>
+								<h2 className="cs_fs_20 mb-1">Specialised Blomberg Washing Machine Repair and Service in Dubai</h2>
+								<p className="mb-2">You shouldn't have to face a lack of clean clothes due to a malfunctioning Blomberg washer dryer. Common issues include not powering on or failing to spin.<br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we handle these problems and also repair faulty displays and timers. Contact us today, and we'll send an expert technician to fix your Blomberg appliance the same day.<br />Replacing a Blomberg washing machine or Blomberg tumble dryer can be expensive, so we aim to extend the lifespan of your Blomberg washing machine repair service in Dubai</p>
 
-								<h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Blomberg Appliances Service</h2>
-								<p className="mb-2">
-									At FAJ Technical Services L.L.C, we know that Blomberg appliance breakdowns often happen at the worst times. That’s why our trained and professional Blomberg technicians are ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a> you can trust. With our expert help, you can avoid the expense of a replacement and have your Blomberg appliance running smoothly again before you even start to worry.
-								</p>
+								<h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Blomberg Fridge Repair and Freezer Service in Dubai</h2>
+								<p className="mb-2">We often overlook the vital role our Blomberg fridge freezers play. If you notice food spoiling quickly or excessive noise.<br/>At FAJ, our skilled team is ready to assist you at home. We have experience with Blomberg appliance, and even if your model isn’t listed, we may still have the necessary spare parts.<br/>Our goal is to provide same-day for your Blomberg fridge repair and Blomberg freezer service once you reach out to us.</p>
 
 							</div>
 
@@ -739,9 +730,9 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
 				</section>
 {/* Faqs */}
-				<section className="section cs_py_30  bg-dark-blue text-light">
+				<section className="section cs_py_30">
 					<div className="container">
-						<h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+						<h3 className="cs_fs_30">FAQ&apos;s</h3>
 
 						<div className="cs_accordians_wrapper cs_style_1 p-0">
 
@@ -751,36 +742,34 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 										<span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
 										<span className="cs_accordian_toggle">
 											<svg
-												width="20"
-												height="20"
-												viewBox="0 0 24 24"
-												fill="none"
-												stroke="currentColor"
-												strokeWidth="2"
-												strokeLinecap="round"
-												strokeLinejoin="round"
-												className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-											>
-												<circle cx="12" cy="12" r="3" />
-												<path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
-											</svg>
+                         width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                      >
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
-											{/* Eye Slash */}
-											<svg
-												width="20"
-												height="20"
-												viewBox="0 0 24 24"
-												fill="none"
-												stroke="currentColor"
-												strokeWidth="2"
-												strokeLinecap="round"
-												strokeLinejoin="round"
-												className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-											>
-												<path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
-												<line x1="1" y1="1" x2="23" y2="23" />
-												<circle cx="12" cy="12" r="3" />
-											</svg>
+                      {/* Eye Slash */}
+                     
+                       <svg
+                       width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                       >
+<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 										</span>
 									</div>
 									<div className="cs_accordian_body" ref={accordionContentRef}>

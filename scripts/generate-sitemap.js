@@ -85,11 +85,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/%d8%aa%d8%b5%d9%84%d9%8a%d8%ad-%d9%85%d9%83%d9%8a%d9%81%d8%a7%d8%aa-%d8%a7%d9%84%d9%87%d9%88%d8%a7%d8%a1-%d8%ae%d8%af%d9%85%d8%a9-%d9%88%d8%b5%d9%8a%d8%a7%d9%86%d8%a9-%d8%af%d8%a8%d9%8a/</loc>
-  <lastmod>${today}</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>

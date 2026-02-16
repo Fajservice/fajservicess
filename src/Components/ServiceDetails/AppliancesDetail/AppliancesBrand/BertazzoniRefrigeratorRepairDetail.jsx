@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Bertazzoni Cooking Range Repair In Dubai | Oven Service Center");
-  const metadescription = String(description || "Bertazzoni cooking range service in Dubai. Experts in Bertazzoni gas range, hob, electric stove, and oven repair center near you. Call now 0507464712.");
+  const metatitle = String(titleSeo || "Bertazzoni Appliance Repair Center | Bertazzoni Oven Service");
+  const metadescription = String(description || "FAJ provide same day Bertazzoni kitchen appliance, Bertazzoni cooking range, stove, oven, hood, hob repair and maintenance service in Dubai ");
   const metaAuthor = String(Author || "Faj Technical Services/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Bertazzoni Refrigerator Repair, Bertazzoni Fridge Repair, Bertazzoni Washing Machine Repair, Bertazzoni Dishwasher Repair, Bertazzoni Cooker Repair, Bertazzoni Oven Repair, Bertazzoni Appliance Service Dubai");
@@ -150,12 +150,8 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Bertazzoni Cooking Range Repair and Bertazzoni Oven Service in Dubai</h1>
-            <p>
-              If you’re facing issues with your Bertazzoni Cooker, Built-in Oven, Hob, or Compact Oven, trust the experts at <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services tailored specifically for Bertazzoni appliances.
-              <br />
-              Our experienced technicians also service Refrigerators, Dishwashers, and Kitchen Hoods using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
-            </p>
+            <h1 className="cs_fs_30">Bertazzoni Appliance Service and Repair Centre Dubai</h1>
+            <p>When it comes to high-quality Bertazzoni kitchen appliances, the Bertazzoni repair center Dubai means excellence. Known for their innovative design and superior performance, Bertazzoni appliances have become a favourite among discerning homeowners in Dubai.<br />However, even the most reliable Bertazzoni appliances may require maintenance or repair over time. This is where the Bertazzoni repair service in Dubai comes in, providing exceptional service to ensure that your valued appliances remain in optimal condition.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -171,24 +167,17 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Get Bertazzoni Cooker Repair Near You </h3>
+                <h3 className="cs_fs_24 mb-1">Bertazzoni Cooking Range and Cooker Repair and Service Dubai</h3>
 
-                <p className="mb-2">
-                  Bertazzoni cookers and ovens are essential kitchen appliances we depend on for daily cooking.
-                  <br />
-                  When they break down, it can disrupt your entire routine. That’s why it’s crucial to find a Bertazzoni repair and service specialist near you, whether you're in Dubai or Sharjah, for fast and reliable support.
+                <p className="mb-2">The Bertazzoni cooker repair center Dubai values your time, which is why they focus on efficiency in their operations. Once you’ve booked a service appointment, their technicians arrive promptly at your doorstep, ready to address the issue.<br />Their attention to detail ensures that they complete repairs on Bertazzoni gas cookers, cooking ranges, hobs, and induction stoves repair and service Dubai them efficiently, minimising any disruption to your daily routine.</p>
 
-                </p>
-
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Bertazzoni Appliances Service</h3>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Bertazzoni products, never occur at a convenient time. That’s why our trained and qualified Bertazzoni technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Bertazzoni appliance up and running again before you have a chance to worry about it.
-                </p>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Get Bertazzoni Oven Repair Near You</h3>
+                <p className="mb-2">Bertazzoni gas and electric ovens are essential appliances for everyday cooking and baking. When they break down, it can disrupt your entire routine. That’s why it’s crucial to find a reliable Bertazzoni oven repair and service specialist near you, whether you're in Dubai or Sharjah, for fast support.</p>
               </div>
 
               <div className="col-md-6 ">
 
-                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="Bertazzoni Refrigerator Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('gas-cooker-repair-services')}  alt="Bertazzoni Refrigerator Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -206,7 +195,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Bertazzoni Refrigerator Repair" />
+                <img className="blue-border" src={getImageSrc('oven-Range-Repair-Nearby-You-oven')}  alt="Bertazzoni Refrigerator Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -330,9 +319,8 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  src="https://www.youtube.com/embed/SLGpswtzn-w"
                   title="YouTube video player"
-                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 ></iframe>

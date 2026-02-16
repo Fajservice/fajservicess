@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Baumatic Appliances Center | Washing Machine Repair in Dubai ");
-    const metadescription = String(description || "FAJ technicians are fully professional in Baumatic appliances repair in Dubai, Experts in fridge, refrigerator, washing machine, dishwasher, oven service");
+    const metatitle = String(titleSeo || "Baumatic Appliance Service Center | Repair Washing Machine");
+    const metadescription = String(description || "FAJ provide expert Baumatic appliance, fridge, freezer, washing machine, dishwasher, oven, cooking range, stove and dryer repair and service in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Baumatic Appliances, Baumatic Washing Machine Repair, Baumatic Fridge Repair, Baumatic Dishwasher Repair, Baumatic Oven Repair, Baumatic Appliance Service Dubai");
@@ -119,11 +119,8 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Baumatic Appliances Service Center and Washing Machine Repair in Dubai </h1>
-                        <p>
-                            If you're looking for a skilled local technician who specializes in Baumatic appliances, you've found the right place.
-                            <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been offering dependable and cost-effective solutions. We connect you with a network of qualified experts dedicated to addressing your Baumatic appliance repair needs and nearby services. Our main aim is to help you find a knowledgeable Baumatic technician in Dubai and Sharjah who understands how these appliances work. Your satisfaction is our foremost concern!
-                        </p>
+                        <h1 className="cs_fs_30">Best Baumatic Home Appliance Repair and Service in Dubai</h1>
+                        <p>To maintain the high quality of your Baumatic home appliances, trust our Repair Service. We provide reliable solutions for a wide range of appliance repairs, including Baumatic refrigerators, dishwashers, washing machines, and ovens.<br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Baumatic appliance at your location and promptly restore it to full working order. Count on us to bring your Baumatic appliances back to life with our dependable repair service in Dubai.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -666,9 +663,9 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 </section>
 {/* Faqs */}
-                <section className="section cs_py_30  bg-dark-blue text-light">
+                <section className="section cs_py_30">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+                        <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 
@@ -678,36 +675,34 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                         <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <svg
-                                                width="20"
-                                                height="20"
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth="2"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                                            >
-                                                <circle cx="12" cy="12" r="3" />
-                                                <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
-                                            </svg>
+                         width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                      >
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
-                                            {/* Eye Slash */}
-                                            <svg
-                                                width="20"
-                                                height="20"
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth="2"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                                            >
-                                                <path d="M17.94 17.94A10.06 10.06 0 0 1 12 20c-6 0-10-8-10-8a18.42 18.42 0 0 1 5.06-5.94" />
-                                                <line x1="1" y1="1" x2="23" y2="23" />
-                                                <circle cx="12" cy="12" r="3" />
-                                            </svg>
+                      {/* Eye Slash */}
+                     
+                       <svg
+                       width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                       >
+<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>
