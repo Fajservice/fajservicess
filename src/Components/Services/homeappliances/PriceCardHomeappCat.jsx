@@ -23,7 +23,7 @@ const PriceCardHomeCat = () => {
       price: 'AED157',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
-      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Appliances%20Call-Out',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
       popupTitle: 'Appliance Call-out  scope of work:',
       sections: [
         {
@@ -57,7 +57,7 @@ const PriceCardHomeCat = () => {
       price: 'AED395',
       arrow: getImageSrc('iconreadmore'),
       description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
-      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Appliance%20Cleaning',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20ACCleaning',
       popupTitle: 'Cleaning Appliances',
       sections: [
         {
@@ -91,7 +91,7 @@ const PriceCardHomeCat = () => {
       price: 'AED365',
       arrow: getImageSrc('iconreadmore'),
       description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
-      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliance%20Installation',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC Maintenance',
       popupTitle: 'Appliances Installation',
       sections: [
         {
