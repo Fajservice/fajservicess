@@ -401,7 +401,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
 
                       {/* Eye Slash */}
 
-                      < svg
+                      <svg
                         width="20"
                         height="20"
                         viewBox="0 0 24 24"
@@ -413,7 +413,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                       >
                         <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                      </>
+                      </svg>
                     </span >
                   </div >
                   <div className="cs_accordian_body" ref={accordionContentRef}>

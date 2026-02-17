@@ -1598,12 +1598,12 @@ export const router = createBrowserRouter([
       },
       {
         path: "/dishwasher-cleaning-guidee/",
-        element: <Navigate to="/dishwasher-cleaning-guide/" replace />
+        element: <Navigate to="/blog/dishwasher-cleaning-guide/" replace />
       },
 
       {
         path: "/bompani-modena-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/bompani/" replace />
       },
       {
         path: "/dist/img/Kitchen-Equipment-Maintenance-Service.jpg/",
@@ -1631,11 +1631,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/appliances-services-in-the-greens-4/",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/coverage-area/the-greens/" replace />
       },
       {
         path: "/ac-services-in-dubailand-mazaya-queue.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/dubailand-mazaya-queue/" replace />
       },
       {
         path: "/dist/img/ourvalues/",
@@ -1643,19 +1643,19 @@ export const router = createBrowserRouter([
       },
       {
         path: "/skm-ac-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/brands/skm/" replace />
       },
       {
         path: "/lennox-ac-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/brands/lennox/" replace />
       },
       {
         path: "/washer-dryer-service-in-dubai/",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/washing-machine-repair-service-dubai/" replace />
       },
       {
         path: "/maytag-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/maytag/" replace />
       },
       {
         path: "/ac-services-in-jumeirah-golf-estates.php",
@@ -1664,15 +1664,15 @@ export const router = createBrowserRouter([
      
       {
         path: "/white-westinghouse-fridge-repair-in-dubai-white-westinghouse-washing-machine-repair-in-dubai-white-westinghouse-cooker-repair-in-dubai-white-westinghouse-oven-repair-in-dubai-white-westinghouse-applia.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/white-westinghouse/" replace />
       },
       {
         path: "/ac-services-jumeirah-park.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/jumeirah-park/" replace />
       },
       {
         path: "/rheem-ac-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/brands/rheem/" replace />
       },
       
       {
@@ -1693,15 +1693,15 @@ export const router = createBrowserRouter([
       },
       {
         path: "/appliances-services-in-jebel-ali-dip.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/coverage-area/jebel-ali-dip/" replace />
       },
       {
         path: "/ac-services-in-the-villa.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/the-villa/" replace />
       },
       {
         path: "/appliances-services-in-bur-dubai.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/coverage-area/bur-dubai/" replace />
       },
       {
         path: "/washer-dryer-service/",
@@ -1709,23 +1709,23 @@ export const router = createBrowserRouter([
       },
       {
         path: "/appliances-services-in-dubai-sports-city.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/coverage-area/dubai-sports-city/" replace />
       },
       {
         path: "/appliances-services-in-jebel-ali-free-zone.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/coverage-area/jebel-ali-free-zone/" replace />
       },
       {
         path: "/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/coleman/" replace />
       },
       {
         path: "/ac-services-in-arabian-ranches-2.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/arabian-ranches-2/" replace />
       },
       {
         path: "/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/hitachi/" replace />
       },
       {
         path: "/ac-services-in-jvt.php",
@@ -1738,15 +1738,15 @@ export const router = createBrowserRouter([
 
       {
         path: "/ac-services-in-dubai-studio-city.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/dubai-studio-city/" replace />
       },
       {
         path: "/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/sanyo/" replace />
       },
       {
         path: "/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai.php",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/wolf/" replace />
       },
       
       // Blogs Redirect
@@ -2881,11 +2881,11 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/air-conditioning-repair/brands/aftron/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/brands/blue-star/",
+        path: "/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/",
         element: <Navigate to="/services/air-conditioning-repair/brands/blue-star/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/brands/bryant/",
+        path: "/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/",
         element: <Navigate to="/services/air-conditioning-repair/brands/bryant/" replace />
       },
       {
@@ -2901,7 +2901,7 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/air-conditioning-repair/brands/crafft/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/brands/daewoo/",
+        path: "/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/",
         element: <Navigate to="/services/air-conditioning-repair/brands/daewoo/" replace />
       },
       {
@@ -2930,11 +2930,11 @@ export const router = createBrowserRouter([
       },
       
       {
-        path: "/services/air-conditioning-repair/brands/hitachi/",
+        path: "/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/",
         element: <Navigate to="/services/air-conditioning-repair/brands/hitachi/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/brands/lennox/",
+        path: "/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/",
         element: <Navigate to="/services/air-conditioning-repair/brands/lennox/" replace />
       },
       {
@@ -2966,7 +2966,7 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/air-conditioning-repair/brands/panasonic/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/brands/rheem/",
+        path: "/rheem-ac-maintenance-in-dubai/",
         element: <Navigate to="/services/air-conditioning-repair/brands/rheem/" replace />
       },
       {
@@ -2982,7 +2982,7 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/air-conditioning-repair/brands/sanyo/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/brands/skm/",
+        path: "/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/",
         element: <Navigate to="/services/air-conditioning-repair/brands/skm/" replace />
       },
       {
@@ -2990,20 +2990,12 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/air-conditioning-repair/brands/sub-zero/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/brands/super-general/",
+        path: "/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/",
         element: <Navigate to="/services/air-conditioning-repair/brands/super-general/" replace />
-      },
-      {
-        path: "/services/air-conditioning-repair/brands/supra/",
-        element: <Navigate to="/services/air-conditioning-repair/brands/supra/" replace />
       },
       {
         path: "/tcl-ac-repair-in-dubai/",
         element: <Navigate to="/services/air-conditioning-repair/brands/tcl/" replace />
-      },
-      {
-        path: "/services/air-conditioning-repair/brands/toshiba/",
-        element: <Navigate to="/services/air-conditioning-repair/brands/toshiba/" replace />
       },
       {
         path: "/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/",
@@ -3014,7 +3006,7 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/air-conditioning-repair/brands/westpoint/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/brands/whirlpool/",
+        path: "/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/",
         element: <Navigate to="/services/air-conditioning-repair/brands/whirlpool/" replace />
       },
       {
@@ -3097,7 +3089,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/delonghi-coffee-machine-repair/",
-        element: <Navigate to="/services/home-appliances-repair/brands/delonghi" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/delonghi/" replace />
       },
       {
         path: "/electrolux-fridge-repair-in-dubai-electrolux-washing-machine-repair-in-dubai-electrolux-cooker-repair-in-dubai-electrolux-oven-repair-in-dubai-electrolux-appliances-maintenance-in-dubai-electrolux-ref/",
@@ -3251,7 +3243,6 @@ export const router = createBrowserRouter([
         path: "/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/",
         element: <Navigate to="/services/home-appliances-repair/brands/sears/" replace />
       },
-      
       {
         path: "/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
         element: <Navigate to="/services/home-appliances-repair/brands/sharp/" replace />
@@ -3298,10 +3289,6 @@ export const router = createBrowserRouter([
       },
       {
         path: "/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/",
-        element: <Navigate to="/services/home-appliances-repair/brands/unimac/" replace />
-      },
-      {
-        path: "/services/home-appliances-repair/brands/unimac/",
         element: <Navigate to="/services/home-appliances-repair/brands/unimac/" replace />
       },
       {
