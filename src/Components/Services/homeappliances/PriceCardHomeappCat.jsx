@@ -19,7 +19,7 @@ const PriceCardHomeCat = () => {
       image: getImageSrc('applycalouthome'),
  
       title: 'Appliance Call-out',
-      icon: getImageSrc('accalll'),
+      icon: getImageSrc('washingmachinerepairhome'),
       price: 'AED157',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
@@ -53,7 +53,7 @@ const PriceCardHomeCat = () => {
       image: getImageSrc('appliancescleaninghome'),
       warranty: '50- Days Warranty',
       title: 'Appliance Cleaning',
-      icon: getImageSrc('basicaccleaning'),
+      icon: getImageSrc('refrigeratorrepair'),
       price: 'AED395',
       arrow: getImageSrc('iconreadmore'),
       description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
@@ -87,7 +87,7 @@ const PriceCardHomeCat = () => {
       image: getImageSrc('ovenhomecard'),
 
       title: 'Home Appliances Installation',
-      icon: getImageSrc('acmatrepair'),
+      icon: getImageSrc('ovenrepairhomeapp'),
       price: 'AED365',
       arrow: getImageSrc('iconreadmore'),
       description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
