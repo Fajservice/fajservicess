@@ -16,32 +16,33 @@ const PriceCardHomeCat = () => {
   const servicesData = [
     {
       id: 1,
-      image: getImageSrc('calloutprice'),
+      image: getImageSrc('applycalouthome'),
  
-      title: 'AC Call-Out',
-      icon: getImageSrc('accalll'),
+      title: 'Appliance Call-out',
+      icon: getImageSrc('washingmachinerepairhome'),
       price: 'AED157',
       arrow: getImageSrc('iconreadmore'),
-      description: 'Is your AC not cooling your place? Is the AC thermostat broken, or is the fan making strange noises? Give us a call.',
+      description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
-      popupTitle: 'AC Call-Out (Technical Inspection) scope of works:',
+      popupTitle: 'Appliance Call-out  scope of work:',
       sections: [
         {
           items: [
-            'Resolving air flow issues',
-            'AC thermostat check-up',
-            'Refrigerant Level check-up',
-            'Rectification of AC power trip',
-            'Rectification of AC water leakage',
-            'Fixing AC cooling/overcooling issues',
-            'Addressing sound problems from the AC'
+            'Inspection visit fee',
+            'Rectification of faults',
+            'Cost of minor repair work',
+            'Transportation pricing for services',
+            'Technical inspection onsite or workshop',
+            'Pick-up, drop-off, and reinstallation onsite',
+            'A quotation can be provided via call, WhatsApp, or email if needed.',
+            'The same call-out fee applies for diagnosing either one or two appliances at the same place.'
           ]
         },
         {
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 185 callout fee applies based on the type, capacity of the unit, and location for each diagnosis.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 157, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
         },
         
       ]
@@ -49,82 +50,67 @@ const PriceCardHomeCat = () => {
 
     {
       id: 2,
-      image: getImageSrc('calout'),
-      warranty: '60 - Days Warranty',
-      title: 'Basic AC Cleaning',
-      icon: getImageSrc('basicaccleaning'),
+      image: getImageSrc('appliancescleaninghome'),
+      warranty: '50- Days Warranty',
+      title: 'Appliance Cleaning',
+      icon: getImageSrc('refrigeratorrepair'),
       price: 'AED395',
       arrow: getImageSrc('iconreadmore'),
-      description: 'If your AC has reduced airflow or is leaking water, work quickly. Regularly clean filters and drain to provide efficiency and good air quality.',
+      description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20ACCleaning',
-      popupTitle: 'AC Cleaning Service scope of works:',
+      popupTitle: 'Cleaning Appliances',
       sections: [
         {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
           items: [
-            'AC filter cleaning',
-            'AC water leakage',
-            'Check AC components',
-            'Filter cleaning and replacement',
-            'Condenser coil cleaning',
-            'AC thermostat check-up',
-            'Refrigerant Level check-up',
-            'Addressing sound issues from the AC',
+            'Hob Cleaning',
+            'Oven Cleaning',
+            'Freezer Cleaning',
+            'Gas Range Cleaning',
+            'Dishwasher Cleaning',
+            'Refrigerator Cleaning',
+            'Hood / Chimney Cleaning',
+            'Washing Machine Cleaning',
           ]
         },
         {
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
          {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 230 basic cleaning service charge applies based on the type, capacity of the unit, and location for each diagnosis.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 395 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
         },
       ]
     },
 
     {
       id: 3,
-      image: getImageSrc('maintenanceacc'),
-      warranty: '60 - Days Warranty',
-      title: 'AC Maintenance',
-      icon: getImageSrc('acmatrepair'),
+      image: getImageSrc('ovenhomecard'),
+
+      title: 'Home Appliances Installation',
+      icon: getImageSrc('ovenrepairhomeapp'),
       price: 'AED365',
       arrow: getImageSrc('iconreadmore'),
-      description: 'Relax and save money by keeping our expert technicians clean and maintain your AC, stopping unnecessary breakdowns.',
+      description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC Maintenance',
-      popupTitle: 'AC Maintenance scope of works',
+      popupTitle: 'Appliances Installation',
       sections: [
         {
-          heading: 'DX Unit AC:',
+          heading: 'Depending on quantities, capacity, type, model, and area.',
           items: [
-            'Clean the condenser coil',
-            'Check, clean and flush the drain line',
-            'Check the room and grill temperatures',
-            'Check and clean the filters and air valves',
-            'Check the vibration pads and vibration isolators',
-            'Check the blowers and clean if proper access is available',
-            'Check the conditions of contactors, relays, and capacitors',
-            'Check temperature controlled thermostat and pressure sensors',
-            'Check the electrical points in the outdoor unit and tighten, clean the electrical terminals',
-            'Check the insulation on the pipeline, if damaged, recommend for replacement (Additional cost for replacement of insulation)',
+            'Refrigerator Installation',
+            'Dish Washer Installation',
+            'Electric Cooker Installation',
+            'Hood / Chimney Installation',
+            'Washing Machine Installation',
+            'Built-in Microwave Installation',
+            'Built-in Dishwasher Installation',
           ]
         },
         {
-          heading: 'Chiller FCU AC:',
-          items: [
-            'Check the vibration isolators',
-            'Check, clean and flush the drain line',
-            'Check the room and grill temperatures',
-            'Check and clean the filters and air valves',
-            'Check temperature controlled thermostat',
-            'Check the functionality of actuator valves',
-            'Check the blowers and clean if proper access is available',
-            'Check the insulation on the pipeline; if damaged, recommend for replacement (Additional cost for replacement of insulation)'
-          ]
+          paragraph: '**Excluded:** <br> Costs related to MEP, carpentry, gypsum ceilings, painting, repair work, procurement-related installation parts / materials, and installation as needed.'
         },
         {
-          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
-        },
-        {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 265 AC Maintenance charge applies based on the type, capacity of the unit, and location for each diagnosis.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 365 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
         },
       ]
     },
