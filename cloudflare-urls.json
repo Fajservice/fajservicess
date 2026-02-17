@@ -1,49 +1,28 @@
 {
   "success": [
     {
-      "originalPath": "AcService/slide1",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide1/public",
-      "id": "AcService/slide1",
+      "originalPath": "calloutcard",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/calloutcard/public",
+      "id": "calloutcard",
       "success": true
     },
     {
-      "originalPath": "AcService/slide2",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide2/public",
-      "id": "AcService/slide2",
+      "originalPath": "cleaningcard",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/cleaningcard/public",
+      "id": "cleaningcard",
       "success": true
     },
     {
-      "originalPath": "AcService/slide3",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide3/public",
-      "id": "AcService/slide3",
-      "success": true
-    },
-    {
-      "originalPath": "AcService/slide4",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide4/public",
-      "id": "AcService/slide4",
-      "success": true
-    },
-    {
-      "originalPath": "AcService/slide5",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide5/public",
-      "id": "AcService/slide5",
-      "success": true
-    },
-    {
-      "originalPath": "AcService/slide6",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide6/public",
-      "id": "AcService/slide6",
+      "originalPath": "installationcard",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/installationcard/public",
+      "id": "installationcard",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "AcService/slide1": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide1/public",
-    "AcService/slide2": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide2/public",
-    "AcService/slide3": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide3/public",
-    "AcService/slide4": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide4/public",
-    "AcService/slide5": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide5/public",
-    "AcService/slide6": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/AcService/slide6/public"
+    "calloutcard": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/calloutcard/public",
+    "cleaningcard": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/cleaningcard/public",
+    "installationcard": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/installationcard/public"
   }
 }

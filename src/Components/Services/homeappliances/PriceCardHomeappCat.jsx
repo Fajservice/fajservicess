@@ -19,11 +19,11 @@ const PriceCardHomeCat = () => {
       image: getImageSrc('applycalouthome'),
  
       title: 'Appliance Call-out',
-      icon: getImageSrc('washingmachinerepairhome'),
+      icon: getImageSrc('calloutcard'),
       price: 'AED157',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
-      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Appliances%20Call-Out',
       popupTitle: 'Appliance Call-out  scope of work:',
       sections: [
         {
@@ -53,11 +53,11 @@ const PriceCardHomeCat = () => {
       image: getImageSrc('appliancescleaninghome'),
       warranty: '50- Days Warranty',
       title: 'Appliance Cleaning',
-      icon: getImageSrc('refrigeratorrepair'),
+      icon: getImageSrc('cleaningcard'),
       price: 'AED395',
       arrow: getImageSrc('iconreadmore'),
       description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
-      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20ACCleaning',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Appliance%20Cleaning',
       popupTitle: 'Cleaning Appliances',
       sections: [
         {
@@ -87,11 +87,11 @@ const PriceCardHomeCat = () => {
       image: getImageSrc('ovenhomecard'),
 
       title: 'Home Appliances Installation',
-      icon: getImageSrc('ovenrepairhomeapp'),
+      icon: getImageSrc('installationcard'),
       price: 'AED365',
       arrow: getImageSrc('iconreadmore'),
       description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
-      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC Maintenance',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliance%20Installation',
       popupTitle: 'Appliances Installation',
       sections: [
         {
@@ -127,7 +127,7 @@ const PriceCardHomeCat = () => {
   };
 
   return (
-    <section className="ac_service_cards_section cs_py_30 ">
+    <section className="ac_service_cards_section cs_py_30 pt-3">
       <div className="container">
         <div className="ac_cards_grid_wrapper">
           {servicesData.map((service) => (
@@ -153,7 +153,7 @@ const PriceCardHomeCat = () => {
                   <hr className="ac_card_divider_line" />
                 </div>
                 <p className="ac_card_short_description">{service.description}</p>
-                <div className="ac_card_qr_overlay">
+                <div className="ac_card_qr_overlay p-0">
                   <img src={service.icon} alt="Service Icon" />
                 </div>
                 <div className="ac_card_buttons_row">

@@ -140,7 +140,8 @@ const AppliancesServicesInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
 
-        {/* Best Home Appliance Service Center */}
+        <PriceCardHomeCat />
+{/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
