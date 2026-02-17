@@ -1589,7 +1589,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/" replace />
       },
 
       {
