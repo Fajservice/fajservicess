@@ -26,7 +26,7 @@ const ApplianceServiceInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Mudon, Fridge Repair in Mudon, Appliance Repair in Mudon, Appliance Service in Mudon, Fridge Service in Mudon, Washing Machine Service in Mudon, Oven Repair in Mudon, Dishwasher Repair in Mudon, Appliance Maintenance in Mudon");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-mudon/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/mudon/");
 
 
     subtitle = "Testimonial"
@@ -570,7 +570,7 @@ const ApplianceServiceInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -586,7 +586,7 @@ const ApplianceServiceInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>

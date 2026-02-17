@@ -659,7 +659,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -675,7 +675,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>

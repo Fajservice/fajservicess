@@ -151,10 +151,10 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
           <div className="container border-1 p-0">
             <h1 className="cs_fs_30 text-center mb-4 pt-4 px-4">Select Repair Services by Category – Easily Find the Right Appliance Repair</h1>
             <div className="row align-items-center g-0 border border-dark rounded overflow-hidden">
-               <div className="col-12 col-lg-7 px-4 py-4">
+              <div className="col-12 col-lg-7 px-4 py-4">
                 <p className='text-align-left'>At FAJ Technical Services L.L.C. we simplify the process of selecting the right repair service for your home appliances. Whether you need washing machine repair, refrigerator repair, household appliance fixes, BBQ grill cleaning, vacuum cleaner repair, cigar humidor maintenance, or any household appliance service, our categorised repair options help you find the best solution quickly and easily.
                 </p>
-              </div>  
+              </div>
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
@@ -177,7 +177,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                 </div>
               </div>
 
-             
+
             </div>
             <div className="py-4 px-4">
               <div className="d-flex justify-content-center align-items-center gap-3">
@@ -396,12 +396,12 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-                        <path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-Linejoin="round" />
+                        <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
 
                       {/* Eye Slash */}
 
-                      <svg
+                      < svg
                         width="20"
                         height="20"
                         viewBox="0 0 24 24"
@@ -412,22 +412,22 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                       >
-                        <path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </span>
-                  </div>
+                        <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </>
+                    </span >
+                  </div >
                   <div className="cs_accordian_body" ref={accordionContentRef}>
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>
                   </div>
-                </div>
+                </div >
               ))}
 
-            </div>
-          </div>
-        </section>
-      </div>
+            </div >
+          </div >
+        </section >
+      </div >
     </>
   )
 }

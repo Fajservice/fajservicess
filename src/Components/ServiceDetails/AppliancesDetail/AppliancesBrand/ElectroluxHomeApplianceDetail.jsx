@@ -29,7 +29,7 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Electrolux Home Appliance Repair, Electrolux Washing Machine Repair, Electrolux Fridge Repair, Electrolux Dishwasher Repair, Electrolux Oven Repair, Electrolux Stove Repair, Electrolux Dryer Repair, Electrolux Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/electrolux-home-appliances-repair/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/electrolux/").replace(/\/?$/, '/');
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -567,12 +567,12 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <b> Electrolux Washing Machine Repair Near You in Dubai: </b>  FAJ is here to support you when things go wrong. We understand that your Electrolux washing machine is essential for daily life, keeping your laundry clean.</p>
-                <p className="mb-0"> <b> Electrolux Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Electrolux refrigerator, please contact the FAJ team for same-day Electrolux <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
+                <p className="mb-0"> <b> Electrolux Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Electrolux refrigerator, please contact the FAJ team for same-day Electrolux <a href="https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
                 <p className="mb-0"> <b> Electrolux Freezer Repair Near You in Dubai: </b> For Electrolux freezer repair and service in Dubai and Sharjah, our team of qualified technicians is available. </p>
                 <p className="mb-0"> <b> Electrolux Home Appliance Service Center Near You: </b> If you are looking for the best repair service for Electrolux washer dryer in Dubai, FAJ is an excellent choice.
                   They are renowned for their outstanding service in repairing Electrolux fridge freezer and are recognized as the leading provider for the repair of Electrolux cooking ranges, stove fixes, induction, cooktop fixes, washing machines repair, and refrigerator repairs in the area.
                 </p>
-                <p className="mb-0"> <b> Electrolux Dishwasher Repair Near You in Dubai: </b> Your Electrolux dishwasher may need repair or maintenance. For high-quality integrated Electrolux <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
+                <p className="mb-0"> <b> Electrolux Dishwasher Repair Near You in Dubai: </b> Your Electrolux dishwasher may need repair or maintenance. For high-quality integrated Electrolux <a href="https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                 <p className="mb-0"> <b> Electrolux Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Electrolux cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Electrolux refrigerators, dishwashers, dryers, and more. </p>
                 <p className="mb-0"> <b> Electrolux Dryer Repair and Service Near You: </b> Are you worried about your Electrolux dryer not working properly? Looking for a reliable Electrolux laundry machine company in Dubai? Contact us for same-day service!</p>
                 <p className="mb-0"> <b> Electrolux Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Electrolux oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Electrolux <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Electrolux ovens in the area.</p>
@@ -731,7 +731,7 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -747,7 +747,7 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>

@@ -537,12 +537,12 @@ const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, tit
                         <div className="row">
                             <div className="col-12">
                                 <p className="mb-0"> <b> Sharp Washing Machine Repair Near You in Dubai: </b>  FAJ is here to support you when things go wrong. We understand that your Sharp washing machine is essential for daily life, keeping your laundry clean.</p>
-                                <p className="mb-0"> <b> Sharp Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Sharp refrigerator, please contact the FAJ team for same-day Sharp <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
+                                <p className="mb-0"> <b> Sharp Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Sharp refrigerator, please contact the FAJ team for same-day Sharp <a href="https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
                                 <p className="mb-0"> <b> Sharp Freezer Repair Near You in Dubai: </b> For Sharp freezer repair and service in Dubai and Sharjah, our team of qualified technicians is available. </p>
                                 <p className="mb-0"> <b> Sharp Home Appliance Service Center Near You: </b> If you are looking for the best repair service for Sharp washer dryer in Dubai, FAJ is an excellent choice.
                                     They are renowned for their outstanding service in repairing Sharp fridge freezer and are recognized as the leading provider for the repair of Sharp cooking ranges, stove fixes, induction, cooktop fixes, washing machines repair, and refrigerator repairs in the area.
                                 </p>
-                                <p className="mb-0"> <b> Sharp Dishwasher Repair Near You in Dubai: </b> Your Sharp dishwasher may need repair or maintenance. For high-quality integrated Sharp <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
+                                <p className="mb-0"> <b> Sharp Dishwasher Repair Near You in Dubai: </b> Your Sharp dishwasher may need repair or maintenance. For high-quality integrated Sharp <a href="https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                                 <p className="mb-0"> <b> Sharp Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Sharp cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Sharp refrigerators, dishwashers, dryers, and more. </p>
                                 <p className="mb-0"> <b> Sharp Dryer Repair and Service Near You: </b> Are you worried about your Sharp dryer not working properly? Looking for a reliable Sharp laundry machine company in Dubai? Contact us for same-day service!</p>
                                 <p className="mb-0"> <b> Sharp Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Sharp oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Sharp <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Sharp ovens in the area.</p>
@@ -702,7 +702,7 @@ const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, tit
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -718,7 +718,7 @@ const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, tit
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>

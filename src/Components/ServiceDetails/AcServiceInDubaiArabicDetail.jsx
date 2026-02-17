@@ -559,20 +559,20 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <h3>نحن متخصصون في خدمات تكييف الهواء للعلامات التجارية التالية</h3>
 
             <ul className="mb-0">
-              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/lg-ac-repair-in-dubai/">خدمة تكييف LG:</a></strong> تقدم اف ايه جيه خدمة إصلاح تكييف LG موثوقة في دبي. مع محترفين خبراء في وحدات التقسيم، vrf، والتكييف المركزي. احصل على خدمة تكييف سريعة وموثوقة بالقرب مني، إصلاح تكييف، وصيانة تكييف في دبي.</li>
-              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/samsung-ac-repair-in-dubai/">إصلاح وخدمة تكييف Samsung:</a></strong> مقرنا في دبي، اف ايه جيه هو وجهتك المفضلة لإصلاح تكييف Samsung في دبي. متخصصون في أنظمة تكييف Samsung، نقدم خدمة شاملة تتراوح من إصلاح التكييف إلى خدمة تنظيف التكييف وصيانة التكييف.</li>
-              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">خدمة وإصلاح تكييف York:</a></strong> يضمن إصلاح وخدمة تكييف York أنك لست بحاجة للقلق لأنك في المكان الصحيح. نعم، اف ايه جيه هو المكان الذي يتم فيه إعطاء الأولوية للكفاءة والموثوقية، وتقديم خدمات تكييف الهواء بالقرب مني، خدمة تنظيف التكييف، وإصلاح التكييف.</li>
-              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">صيانة تكييف Daikin:</a></strong> اعتمد على فريقنا ذو الخبرة لمعالجة أي تحديات تواجهها مع وحدة تكييف Daikin الخاصة بك بشكل سريع وفعال. نحن متخصصون في خدمة تنظيف التكييف وإصلاح التكييف في دبي لضمان عملها بأفضل أداء، وتوفير بيئة باردة ومريحة عندما تحتاج إليها.</li>
-              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/">إصلاح Trane HVAC:</a></strong> مع خبرة متعمقة في إصلاح أنظمة تكييف الهواء Trane، نقدم خدمات تنظيف تكييف شاملة مصممة لضمان عمل الوحدة بأعلى كفاءة. خدمات صيانة وإصلاح تكييف Trane المتخصصة متاحة بسهولة في منطقتك، وتقديم حلول سريعة وفعالة للحفاظ على عمل نظام تكييف الهواء الخاص بك بسلاسة وموثوقية. سواء كنت بحاجة إلى صيانة روتينية أو إصلاح عاجل، نحن هنا لمساعدتك في الحفاظ على بيئة مريحة في منزلك أو عملك.</li>
-              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">خدمة وإصلاح تكييف Panasonic:</a></strong> بغض النظر عن المشكلة في مكيف الهواء Panasonic الخاص بك، يمكن لفنيينا المهرة في دبي والشارقة تشخيصها وإصلاحها بسرعة. نقدم خدمات تكييف هواء موثوقة بالقرب مني وإصلاح تكييف في منطقتك، مما يضمن عودة نظامك للعمل بسلاسة مرة أخرى.</li>
-              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/gree-ac-repair-in-dubai/">خدمة وصيانة تكييف Gree:</a></strong> هل وحدة تكييف الهواء الخاصة بك لا تعمل بشكل صحيح، أو هل ترى خطأ Gree AC معروضًا على الشاشة؟ لم يعد عليك التعامل مع درجات حرارة غير مريحة أو هواء راكد. في FAJ، نحن متخصصون في استعادة تكييف Gree الخاص بك إلى الأداء الأمثل بسرعة. تضمن خدمات إصلاح وصيانة تكييف الهواء الموثوقة لدينا أن نظامك يعمل بكفاءة وفعالية، مما يمنع أي ضرر إضافي وانزعاج. سواء كنت بحاجة إلى خدمات إصلاح تكييف خبير، خدمات صيانة تكييف روتينية، أو خدمات تكييف هواء شاملة في دبي، نحن نغطي احتياجاتك! استمتع ببيئة منعشة وباردة مرة أخرى مع حلولنا الاحترافية!</li>
-              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">خدمة وإصلاح تكييف O General:</a></strong> لخدمات تنظيف تكييف الهواء في دبي، المساعدة المتخصصة ضرورية للإدارة الفعالة لمشاكل التكييف. تقدم شركتنا خدمات إصلاح وصيانة تكييف خالية من المتاعب، متاحة بسهولة في كل من دبي والشارقة. ثق بنا للحفاظ على منزلك مريحًا طوال العام.</li>
-              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/">خدمة وإصلاح تكييف Mitsubishi:</a></strong> هل تبحث عن الراحة من الحرارة الشديدة؟ اكتشف سر الحفاظ على عمل تكييف Mitsubishi الخاص بك بسلاسة في دبي! تضمن خدمة تنظيف وإصلاح تكييف Mitsubishi الخبيرة لدينا بقاء التكييف باردًا وفعالاً، مما يوفر الراحة وراحة البال. خدمة تنظيف تكييف الهواء بالقرب مني في دبي والشارقة، إصلاح التكييف وخدمة صيانة التكييف في دبي</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/">خدمة تكييف LG:</a></strong> تقدم اف ايه جيه خدمة إصلاح تكييف LG موثوقة في دبي. مع محترفين خبراء في وحدات التقسيم، vrf، والتكييف المركزي. احصل على خدمة تكييف سريعة وموثوقة بالقرب مني، إصلاح تكييف، وصيانة تكييف في دبي.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/">إصلاح وخدمة تكييف Samsung:</a></strong> مقرنا في دبي، اف ايه جيه هو وجهتك المفضلة لإصلاح تكييف Samsung في دبي. متخصصون في أنظمة تكييف Samsung، نقدم خدمة شاملة تتراوح من إصلاح التكييف إلى خدمة تنظيف التكييف وصيانة التكييف.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/york/">خدمة وإصلاح تكييف York:</a></strong> يضمن إصلاح وخدمة تكييف York أنك لست بحاجة للقلق لأنك في المكان الصحيح. نعم، اف ايه جيه هو المكان الذي يتم فيه إعطاء الأولوية للكفاءة والموثوقية، وتقديم خدمات تكييف الهواء بالقرب مني، خدمة تنظيف التكييف، وإصلاح التكييف.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/daikin/">صيانة تكييف Daikin:</a></strong> اعتمد على فريقنا ذو الخبرة لمعالجة أي تحديات تواجهها مع وحدة تكييف Daikin الخاصة بك بشكل سريع وفعال. نحن متخصصون في خدمة تنظيف التكييف وإصلاح التكييف في دبي لضمان عملها بأفضل أداء، وتوفير بيئة باردة ومريحة عندما تحتاج إليها.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/">إصلاح Trane HVAC:</a></strong> مع خبرة متعمقة في إصلاح أنظمة تكييف الهواء Trane، نقدم خدمات تنظيف تكييف شاملة مصممة لضمان عمل الوحدة بأعلى كفاءة. خدمات صيانة وإصلاح تكييف Trane المتخصصة متاحة بسهولة في منطقتك، وتقديم حلول سريعة وفعالة للحفاظ على عمل نظام تكييف الهواء الخاص بك بسلاسة وموثوقية. سواء كنت بحاجة إلى صيانة روتينية أو إصلاح عاجل، نحن هنا لمساعدتك في الحفاظ على بيئة مريحة في منزلك أو عملك.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/">خدمة وإصلاح تكييف Panasonic:</a></strong> بغض النظر عن المشكلة في مكيف الهواء Panasonic الخاص بك، يمكن لفنيينا المهرة في دبي والشارقة تشخيصها وإصلاحها بسرعة. نقدم خدمات تكييف هواء موثوقة بالقرب مني وإصلاح تكييف في منطقتك، مما يضمن عودة نظامك للعمل بسلاسة مرة أخرى.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/">خدمة وصيانة تكييف Gree:</a></strong> هل وحدة تكييف الهواء الخاصة بك لا تعمل بشكل صحيح، أو هل ترى خطأ Gree AC معروضًا على الشاشة؟ لم يعد عليك التعامل مع درجات حرارة غير مريحة أو هواء راكد. في FAJ، نحن متخصصون في استعادة تكييف Gree الخاص بك إلى الأداء الأمثل بسرعة. تضمن خدمات إصلاح وصيانة تكييف الهواء الموثوقة لدينا أن نظامك يعمل بكفاءة وفعالية، مما يمنع أي ضرر إضافي وانزعاج. سواء كنت بحاجة إلى خدمات إصلاح تكييف خبير، خدمات صيانة تكييف روتينية، أو خدمات تكييف هواء شاملة في دبي، نحن نغطي احتياجاتك! استمتع ببيئة منعشة وباردة مرة أخرى مع حلولنا الاحترافية!</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/">خدمة وإصلاح تكييف O General:</a></strong> لخدمات تنظيف تكييف الهواء في دبي، المساعدة المتخصصة ضرورية للإدارة الفعالة لمشاكل التكييف. تقدم شركتنا خدمات إصلاح وصيانة تكييف خالية من المتاعب، متاحة بسهولة في كل من دبي والشارقة. ثق بنا للحفاظ على منزلك مريحًا طوال العام.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/">خدمة وإصلاح تكييف Mitsubishi:</a></strong> هل تبحث عن الراحة من الحرارة الشديدة؟ اكتشف سر الحفاظ على عمل تكييف Mitsubishi الخاص بك بسلاسة في دبي! تضمن خدمة تنظيف وإصلاح تكييف Mitsubishi الخبيرة لدينا بقاء التكييف باردًا وفعالاً، مما يوفر الراحة وراحة البال. خدمة تنظيف تكييف الهواء بالقرب مني في دبي والشارقة، إصلاح التكييف وخدمة صيانة التكييف في دبي</li>
               <li><strong>إصلاح وخدمة تكييف Carrier في دبي:</strong> نحن ندرك مدى أهمية تكييف الهواء Carrier لمنزلك أو عملك. تقدم اف ايه جيه خدمات صيانة تكييف Carrier سريعة وموثوقة وفعالة. عادةً ما تكون خدمة التنظيف المنتظمة لوحدات Carrier VRF (تدفق المبرد المتغير)، المركزية، المنفصلة، الوحدة المجمعة، أو النوع الكاسيت في دبي والشارقة كافية للحفاظ على عمل نظامك بسلاسة. ومع ذلك، إذا تعرض نظام تكييف الهواء Carrier الخاص بك لعطل أو عيب أو خلل، فقد يؤثر ذلك سلبًا على بيئتك الداخلية.</li>
 
             </ul>
             <p className="mb-0">
-              <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">خدمة تكييف Sanyo دبي</Link>
+              <Link to="/services/air-conditioning-repair/brands/sanyo/">خدمة تكييف Sanyo دبي</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/services/air-conditioning-repair/brands/rheem/">خدمة تكييف Rheem</Link>
               <span>&nbsp;-&nbsp;</span>
@@ -582,23 +582,23 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <span>&nbsp;-&nbsp;</span>
               <Link to="#">خدمة تكييف Carrier</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">خدمة تكييف Midea بالقرب مني</Link>
+              <Link to="/services/air-conditioning-repair/brands/midea/">خدمة تكييف Midea بالقرب مني</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/services/air-conditioning-repair/brands/lennox/">خدمات تكييف الهواء Lennox</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">خدمة تكييف Goodman دبي</Link>
+              <Link to="/services/air-conditioning-repair/brands/goodman/">خدمة تكييف Goodman دبي</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">خدمات تكييف Coleman</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">خدمة تكييف Westpoint</Link>
+              <Link to="/services/air-conditioning-repair/brands/westpoint/">خدمة تكييف Westpoint</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/services/air-conditioning-repair/brands/aftron/">خدمة صيانة تكييف Aftron بالقرب مني</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">خدمة تكييف Crafft</Link>
+              <Link to="/services/air-conditioning-repair/brands/crafft/">خدمة تكييف Crafft</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/services/air-conditioning-repair/brands/bryant/">خدمة تكييف Bryant دبي</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/">خدمة تكييف Ruud</Link>
+              <Link to="/services/air-conditioning-repair/brands/ruud/">خدمة تكييف Ruud</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">خدمة تكييف McQuay</Link>
               <span>&nbsp;-&nbsp;</span>
@@ -615,9 +615,9 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <span>&nbsp;-&nbsp;</span>
               <Link to="/services/air-conditioning-repair/brands/hitachi/">خدمة تكييف Hitachi</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">خدمة تكييف O General</Link>
+              <Link to="/services/air-conditioning-repair/brands/o-general/">خدمة تكييف O General</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/">خدمة تكييف Cooline بالقرب مني</Link>
+              <Link to="/services/air-conditioning-repair/brands/cooline/">خدمة تكييف Cooline بالقرب مني</Link>
             </p>
 
 
@@ -758,7 +758,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -774,7 +774,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>

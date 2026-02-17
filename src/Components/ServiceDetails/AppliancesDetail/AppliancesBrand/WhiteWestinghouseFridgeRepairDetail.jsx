@@ -560,7 +560,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <b> White Westinghouse Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your White Westinghouse washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best White Westinghouse <a href="https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>
-                <p className="mb-0"> <b> White Westinghouse Fridge Repair Near You in Dubai: </b> If you are having problems with your White Westinghouse refrigerator, please contact the FAJ team for same-day White Westinghouse <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair service</a> in Dubai. </p>
+                <p className="mb-0"> <b> White Westinghouse Fridge Repair Near You in Dubai: </b> If you are having problems with your White Westinghouse refrigerator, please contact the FAJ team for same-day White Westinghouse <a href="https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/">refrigerator repair service</a> in Dubai. </p>
                 <p className="mb-0"> <b> White Westinghouse Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for White Westinghouse freezer repair and service in Dubai and Sharjah. </p>
                 <p className="mb-0"> <b> White Westinghouse Home Appliance Service Center Near You: </b> If you are seeking the best repair service White Westinghouse washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing White Westinghouse fridge freezer and are recognized as the leading provider for repairs of fix White Westinghouse cooking range, stove fixes, induction cooktops, repair White Westinghouse washing machines, and White Westinghouse refrigerator in the area. </p>
                 <p className="mb-0"> <b> White Westinghouse Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your White Westinghouse dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's White Westinghouse service center in Dubai, which specializes in integrated White Westinghouse dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
@@ -722,7 +722,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -738,7 +738,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>

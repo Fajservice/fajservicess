@@ -544,106 +544,106 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
             <div className="row">
               <div className="col-12">
                 <ul className="mb-0">
-                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"><strong>LG Refrigerator Repair</strong></a><strong>: </strong>FAJ is here to support you when things go wrong. We understand that your LG refrigerator is essential for daily life, preserving your food and ensuring your meals are always prepared. FAJ is here for refrigerator repair near me and fridge freezer maintenance service in Dubai and Sharjah.</li>
-                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/"><strong>Samsung Refrigerator Repair</strong></a><strong>:</strong> If you are facing any problems with your Samsung refrigerator repair, Samsung fridge freezer service, fix washer dryer, or dishwasher, contact the FAJ team for same day fridge repair near me service in Dubai.</li>
-                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/electrolux-home-appliances-repair/"><strong>Electrolux Refrigerator Repair</strong></a><strong>:</strong> When you need Electrolux refrigerator repair near me in Dubai, we have a team of professional and qualified fridge technicians available throughout Dubai. Call us now for freezer maintenance, fridge repair service near you in Dubai</li>
-                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/bosch-home-appliances-repair/"><strong>Bosch Refrigerator Repair</strong></a><strong>: </strong>If you are looking for the best Bosch fridge repair near me service in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch appliance service provider in the area. FAJ is here to help with refrigerator repair near by you, freezer fridge maintenance service near me in Dubai</li>
-                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/viking-appliances-service/"><strong>Viking Fridge Freezer Repair</strong></a><strong>: </strong>Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking Fridge Freezer repair near me service in Dubai, rely on FAJ. Get same day refrigerator repair near me and built in refrigerator service and fix refrigerator error by FAJ.</li>
-                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>Daewoo Refrigerator Repair</strong></a><strong>: </strong>We provide expert Daewoo fridge repair near me service in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator repair, washing machine repair, dryer repair service and more. Book now fridge repair in Sharjah and Dubai Area.</li>
-                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/siemens-home-appliances-repair/"><strong>Siemens Refrigerator Repair</strong></a><strong>:</strong> Are you concerned about your Siemens appliance malfunctioning and searching for a reliable Siemens refrigerator repair services near me in Dubai? Contact us for same-day fridge repair near me service in your location Dubai and Sharjah!</li>
-                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>Teka Refrigerator Repair</strong></a>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerator maintenance and Teka refrigerator repair near me service, washing machine repair, and oven repairs. Freezer repair and freezer maintenance service. FAJ is recognized as the leading Teka appliance service provider in the area.</li>
+                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/lg/"><strong>LG Refrigerator Repair</strong></a><strong>: </strong>FAJ is here to support you when things go wrong. We understand that your LG refrigerator is essential for daily life, preserving your food and ensuring your meals are always prepared. FAJ is here for refrigerator repair near me and fridge freezer maintenance service in Dubai and Sharjah.</li>
+                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/samsung/"><strong>Samsung Refrigerator Repair</strong></a><strong>:</strong> If you are facing any problems with your Samsung refrigerator repair, Samsung fridge freezer service, fix washer dryer, or dishwasher, contact the FAJ team for same day fridge repair near me service in Dubai.</li>
+                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/electrolux/"><strong>Electrolux Refrigerator Repair</strong></a><strong>:</strong> When you need Electrolux refrigerator repair near me in Dubai, we have a team of professional and qualified fridge technicians available throughout Dubai. Call us now for freezer maintenance, fridge repair service near you in Dubai</li>
+                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/"><strong>Bosch Refrigerator Repair</strong></a><strong>: </strong>If you are looking for the best Bosch fridge repair near me service in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch appliance service provider in the area. FAJ is here to help with refrigerator repair near by you, freezer fridge maintenance service near me in Dubai</li>
+                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/viking/"><strong>Viking Fridge Freezer Repair</strong></a><strong>: </strong>Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking Fridge Freezer repair near me service in Dubai, rely on FAJ. Get same day refrigerator repair near me and built in refrigerator service and fix refrigerator error by FAJ.</li>
+                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/daewoo/"><strong>Daewoo Refrigerator Repair</strong></a><strong>: </strong>We provide expert Daewoo fridge repair near me service in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator repair, washing machine repair, dryer repair service and more. Book now fridge repair in Sharjah and Dubai Area.</li>
+                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/siemens/"><strong>Siemens Refrigerator Repair</strong></a><strong>:</strong> Are you concerned about your Siemens appliance malfunctioning and searching for a reliable Siemens refrigerator repair services near me in Dubai? Contact us for same-day fridge repair near me service in your location Dubai and Sharjah!</li>
+                  <li><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/teka/"><strong>Teka Refrigerator Repair</strong></a>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerator maintenance and Teka refrigerator repair near me service, washing machine repair, and oven repairs. Freezer repair and freezer maintenance service. FAJ is recognized as the leading Teka appliance service provider in the area.</li>
                 </ul>
 
                 <p className="mb-0">
-                  <Link to="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</Link>
+                  <Link to="/services/home-appliances-repair/brands/aeg/">AEG</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</Link>
+                  <Link to="/services/home-appliances-repair/brands/ariston/">Ariston</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</Link>
+                  <Link to="/services/home-appliances-repair/brands/beko/">Beko</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</Link>
+                  <Link to="/services/home-appliances-repair/brands/blomberg/">Blomberg</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/faber-appliances-service/">Faber</Link>
+                  <Link to="/services/home-appliances-repair/brands/faber/">Faber</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</Link>
+                  <Link to="/services/home-appliances-repair/brands/fagor/">Fagor</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</Link>
+                  <Link to="/services/home-appliances-repair/brands/fisher-paykel/">Fisher and Paykel</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</Link>
+                  <Link to="/services/home-appliances-repair/brands/foster/">Foster</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</Link>
+                  <Link to="/services/home-appliances-repair/brands/gaggenau/">Gaggenau</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</Link>
+                  <Link to="/services/home-appliances-repair/brands/hitachi/">Hitachi</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</Link>
+                  <Link to="/services/home-appliances-repair/brands/hoover/">Hoover</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit</Link>
+                  <Link to="/services/home-appliances-repair/brands/indesit/">Indesit</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">LG</Link>
+                  <Link to="/services/home-appliances-repair/brands/lg/">LG</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">Neff</Link>
+                  <Link to="/services/home-appliances-repair/brands/neff/">Neff</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">Smeg</Link>
+                  <Link to="/services/home-appliances-repair/brands/smeg/">Smeg</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</Link>
+                  <Link to="/services/home-appliances-repair/brands/sub-zero/">Sub Zero</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/terim-appliances-service/">Terim</Link>
+                  <Link to="/services/home-appliances-repair/brands/terim/">Terim</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</Link>
+                  <Link to="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</Link>
+                  <Link to="/services/home-appliances-repair/brands/zanussi/">Zanussi</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/de-dietrich-appliance-repair-service/">De Dietrich</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/baumatic-appliances/">Baumatic</Link>
+                  <Link to="/services/home-appliances-repair/brands/baumatic/">Baumatic</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</Link>
+                  <Link to="/services/home-appliances-repair/brands/bertazzoni/">Bertazzoni</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</Link>
+                  <Link to="/services/home-appliances-repair/brands/bompani/">Bompani</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</Link>
+                  <Link to="/services/home-appliances-repair/brands/boston/">Boston</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</Link>
+                  <Link to="/services/home-appliances-repair/brands/brandt/">Brandt</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</Link>
+                  <Link to="/services/home-appliances-repair/brands/gibson/">Gibson</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</Link>
+                  <Link to="/services/home-appliances-repair/brands/gorenje/">Gorenje</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</Link>
+                  <Link to="/services/home-appliances-repair/brands/hisense/">Hisense</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</Link>
+                  <Link to="/services/home-appliances-repair/brands/kelvinator/">Kelvinator</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/kenmore-appliances-service/">Kenmore</Link>
+                  <Link to="/services/home-appliances-repair/brands/kenmore/">Kenmore</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</Link>
+                  <Link to="/services/home-appliances-repair/brands/panasonic/">Panasonic</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</Link>
+                  <Link to="/services/home-appliances-repair/brands/sanyo/">Sanyo</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</Link>
+                  <Link to="/services/home-appliances-repair/brands/sears/">Sears</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</Link>
+                  <Link to="/services/home-appliances-repair/brands/wolf/">Wolf</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</Link>
+                  <Link to="/services/home-appliances-repair/brands/haier/">Haier</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/elica-appliances-service/">Elica</Link>
+                  <Link to="/services/home-appliances-repair/brands/elica/">Elica</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</Link>
+                  <Link to="/services/home-appliances-repair/brands/marvel/">Marvel</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</Link>
+                  <Link to="/services/home-appliances-repair/brands/miele/">Miele</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</Link>
+                  <Link to="/services/home-appliances-repair/brands/maytag/">Maytag</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</Link>
+                  <Link to="/services/home-appliances-repair/brands/toshiba/">Toshiba</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/thermador-appliances-service/">Thermador</Link>
+                  <Link to="/services/home-appliances-repair/brands/thermador/">Thermador</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</Link>
+                  <Link to="/services/home-appliances-repair/brands/sharp/">Sharp</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</Link>
+                  <Link to="/services/home-appliances-repair/brands/admiral/">Admiral</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</Link>
+                  <Link to="/services/home-appliances-repair/brands/aftron/">Aftron</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</Link>
+                  <Link to="/services/home-appliances-repair/brands/unimac/">Unimac</Link>
                 </p>
               </div>
             </div>
@@ -715,7 +715,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -731,7 +731,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>

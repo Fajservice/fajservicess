@@ -1125,11 +1125,7 @@ export const router = createBrowserRouter([
         element: <Components.RoboRockVacuumCleanerRepairAndService />,
       },
       {
-        path: "/services/home-appliances-repair/brands/delonghi",
-        element: <Components.DelonghiCoffeeMachineRepair />,
-      },
-      {
-        path: "/services/home-appliances-repair/brands/delonghi",
+        path: "/services/home-appliances-repair/brands/delonghi/",
         element: <Components.DelonghiCoffeeMachineRepair />,
       },
       {
@@ -3359,6 +3355,10 @@ export const router = createBrowserRouter([
       {
         path:"/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
         element: <Navigate to="/services/air-conditioning-repair/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/" replace />
+      },
+      {
+        path:"/de-dietrich-appliance-repair-service/",
+        element: <Navigate to="/services/home-appliances-repair/brands/de-dietrich/" replace />
       },
     ],
   }

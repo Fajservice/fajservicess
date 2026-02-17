@@ -637,7 +637,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       <span>Air Conditioning Services</span>
                       <span><ArrowRightIcon size={28} /></span>
                     </Link></li>
-                    <li><Link to="/appliances-repair-service/">
+                    <li><Link to="/services/home-appliances-repair/appliances-repair-service/">
                       <span>Home Appliances Repair Services</span>
                       <span><ArrowRightIcon size={28} /></span>
                     </Link></li>

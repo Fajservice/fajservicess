@@ -4,7 +4,6 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import loadBackgroudImages from '../../../Common/loadBackgroudImages';
 import '../../../../assets/main.css';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
-import PriceCard from '../../AcDetail/AcLocation/PriceCard';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import BlogHomeAppliances from '../../../Blog/BlogHomeAppliances';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
@@ -134,8 +133,8 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         </p>
                     </div>
                 </section>
-
-                <PriceCard />
+{/* 
+                <PriceCard /> */}
 
                 <section className="section cs_py_30">
                     <div className="container">
