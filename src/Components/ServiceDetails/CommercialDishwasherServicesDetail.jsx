@@ -25,7 +25,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
   const metadescription = String(description || "Get fast commercial dishwasher repair in Dubai. FAJ offer Fagor, Electrolux, Meiko, Elettrobar, Hobart maintenance services near by you and AMC");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Dishwasher Repair, Commercial Dishwasher Maintenance Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-dishwasher-repair/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/commercial-dishwasher-repair/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/commercial-dishwasher-service/public");
 
 

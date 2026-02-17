@@ -3320,7 +3320,7 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/commercial-dishwasher-repair/" replace />
       },
       {
-        path:"/commercial-laundry-equipment-service/",
+        path:"/services/commercial-laundry-equipment-service/",
         element: <Navigate to="/services/commercial-laundry-equipment-service/" replace />
       },
       {

@@ -109,8 +109,8 @@ const navItems = [
       {
         label: 'Commercial Laundry Equipment',
         children: [
-          { path: '/commercial-washing-machine-repair/', label: 'Washing Machine Repair' },
-          { path: '/commercial-laundry-equipment-service/', label: 'Laundry Equipment Service' }
+          { path: '/services/commercial-washing-machine-repair/', label: 'Washing Machine Repair' },
+          { path: '/services/commercial-laundry-equipment-service/', label: 'Laundry Equipment Service' }
         ]
       }
        
