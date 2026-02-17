@@ -1908,7 +1908,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
-        element: <Navigate to="/services/home-appliances-repair/barbeque-repair-in-dubai/" replace />
+        element: <Navigate to="/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/" replace />
       },
       {
         path: "/cigar-humidor-repair/",

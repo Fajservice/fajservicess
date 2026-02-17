@@ -5,7 +5,7 @@
     "title": "Commercial Coffee Machine Services",
     "desc": "Keep your commercial coffee machines in top condition with expert maintenance, deep cleaning, and fast repairs, perfect for cafés, restaurants, hotels, and offices.",
     "btnText": "READ MORE",
-    "btnLink": "/coffee-machine-repairs/"
+    "btnLink": "/services/coffee-machine/coffee-machine-repairs/"
   },
   {
     "img": "kitchen-equipment",
@@ -13,7 +13,7 @@
     "title": "Kitchen Equipment Services",
     "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services to restore equipment to working condition.",
     "btnText": "READ MORE",
-    "btnLink": "/commercial-kitchen-equipment-maintenance-services/"
+    "btnLink": "/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/"
   },
   {
     "img": "Commercial-Cooking-Appliance-Services",
@@ -21,7 +21,7 @@
     "title": "Commercial Cooking Appliance Services",
     "desc": "We provide expert repair and maintenance for commercial ovens, stoves, fryers, and grills to keep your kitchen running smoothly in restaurants and hotels.",
     "btnText": "READ MORE",
-    "btnLink": "/commercial-cooking-appliances-repair-service/"
+    "btnLink": "/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/"
   },
   {
     "img": "icemaker-repair",
@@ -29,7 +29,7 @@
     "title": "Ice Maker Services",
     "desc": "Ensure a steady supply of clean ice with our professional ice maker repair, maintenance, and servicing, perfect for hotels, restaurants, bars, and cafes.",
     "btnText": "READ MORE",
-    "btnLink": "/ice-maker-repair/"
+    "btnLink": "/services/refrigeration-equipment/ice-maker-repair/"
   },
   {
     "img": "Commercial-refrigeration-service",
@@ -37,7 +37,7 @@
     "title": "Commercial Refrigeration Services",
     "desc": "Prevent losses when your refrigeration system fails. Keeping your stock in optimal condition is vital for extending storage life and managing costs. We provide reliable repair and maintenance for all refrigeration to ensure efficient operation.",
     "btnText": "READ MORE",
-    "btnLink": "/commercial-refrigeration-maintenance/"
+    "btnLink": "/services/refrigeration-equipment/commercial-refrigeration-maintenance/"
   },
   {
     "img": "Commercial-Dishwasher-Services",
@@ -45,7 +45,7 @@
     "title": "Commercial Dishwasher Services",
     "desc": "Maintain flawless cleaning results with our expert commercial dishwasher repair, maintenance, and servicing, ideal for restaurants, hotels, and high-volume kitchens.",
     "btnText": "READ MORE",
-    "btnLink": "/commercial-dishwasher-repair/"
+    "btnLink": "/services/commercial-dishwasher-repair/"
   },
   {
     "img": "Laundry-equipment-services",
@@ -61,7 +61,7 @@
     "title": "Meat Grinder Services",
     "desc": "Keep your meat grinders working efficiently and safely with our expert maintenance, repair, and servicing, ideal for restaurants, hotels, and butcher shops.",
     "btnText": "READ MORE",
-    "btnLink": "/meat-grinder-repair/"
+    "btnLink": "/services/kitchen-equipment-maintenance/meat-grinder-repair/"
   },
   {
     "img": "Laundry-equipment-services",
@@ -85,7 +85,7 @@
     "title": "Coffee Machine Services",
     "desc": "Without coffee, routines can be affected. A broken coffee machine at home, office, or in a restaurant can disrupt productivity and business.We understand the importance of having your coffee or espresso machine work smoothly. Our expert repair team provides maintenance services for various coffee machines.",
     "btnText": "READ MORE",
-    "btnLink": "/coffee-machine-service-center-in-dubai/"
+    "btnLink": "/services/coffee-machine/coffee-machine-service-center/"
   },
   {
     "img": "Vacuum-Cleaner-Services",
@@ -93,7 +93,7 @@
     "title": "Vacuum Cleaner Services",
     "desc": "Maintain strong, efficient cleaning with our expert vacuum cleaner maintenance, repairs, and service — ideal for hotels, offices, and commercial facilities.",
     "btnText": "READ MORE",
-    "btnLink": "/robot-vacuum-cleaner-repair/"
+    "btnLink": "/services/home-appliances-repair/robot-vacuum-cleaner-repair/"
   },
   {
     "img": "Small-Home-Appliances-Services",
@@ -101,7 +101,7 @@
     "title": "Small Home Appliances Services",
     "desc": "Restore and maintain your small appliances with our skilled repair, thorough servicing, and reliable care — ideal for kitchen gadgets and household essentials.",
     "btnText": "READ MORE",
-    "btnLink": "/small-home-appliances-service-center-in-dubai/"
+    "btnLink": "/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/"
   },
   {
     "img": "Cigar-Humidor-Services",
@@ -109,7 +109,7 @@
     "title": "Cigar Humidor Services",
     "desc": "Protect your cigars' freshness and flavor with our expert cigar humidor repair, maintenance, and calibration — ideal for lounges, hotels, and collectors.",
     "btnText": "READ MORE",
-    "btnLink": "/cigar-humidor-repair/"
+    "btnLink": "/services/home-appliances-repair/cigar-humidor-repair/"
   },
   {
     "img": "BBQ-Repair-Services",
@@ -117,6 +117,6 @@
     "title": "Barbecue Repair Services",
     "desc": "Enjoy flawless grilling with our reliable barbecue repair, thorough maintenance, and cleaning, ideal for restaurants, hotels, and home use.",
     "btnText": "READ MORE",
-    "btnLink": "/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/"
+    "btnLink": "/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/"
   }
 ]
