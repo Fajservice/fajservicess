@@ -7,6 +7,7 @@ import loadBackgroudImages from '../../Common/loadBackgroudImages';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 import ApplianceCategories from './ApplianceCategories';
 import BlogWashingMachine from '../../Blog/BlogWashingMachine';
+import PriceCardHomeCat from './PriceCardHomeappCat';
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
@@ -100,11 +101,13 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
         </Helmet>
       </HelmetProvider>
       <div className="cs_service_details">
+
+        <PriceCardHomeCat />
         {/* Technical Services to Keep Your Coffee Flowing */}
-        <section className="section cs_py_30 bg-light-white">
-          <div className="container">
-            <h1 className="cs_fs_30 text-center mb-4">Home Appliance Repair & Service Center in Dubai</h1>
-            <div className="row align-items-center">
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container border-1 p-0">
+            <h1 className="cs_fs_30 text-center mb-4 pt-4 px-4">Home Appliance Repair & Service Center in Dubai</h1>
+            <div className="row align-items-center g-0 border border-dark rounded overflow-hidden">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
@@ -118,26 +121,24 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                     className="service-image"
                     style={{
                       width: '100%',
-                      height: 'auto',
+                      height: '100%',
                       display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
+                      objectFit: 'cover',
+                      borderRadius: '0'
                     }}
                   />
                 </div>
               </div>
 
-              <div className="col-12 col-lg-7">
+              <div className="col-12 col-lg-7 px-4 py-4">
                 <p className='text-align-left'><b>Expert Appliance Repair Near You</b></p>
                 <p>Reliable Home Appliance Repair Services – Fast & Affordable
                   Are you searching for a reliable home appliance repair service center near you?
                   We provide expert repair and support for all major home appliances, including washing machines, refrigerators, ovens, stoves, dishwashers, and more. Our appliance technicians provide quick and efficient repair services, ensuring your appliances are fixed promptly and affordably.
                 </p>
-               
               </div>
             </div>
-            <div className="mt-5">
+            <div className="py-4 px-4">
               <div className="d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
               </div>
@@ -145,18 +146,19 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
           </div>
         </section>
 
-        {/*Select Repair Services by Category – Easily Find the Right Appliance Repair */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Select Repair Services by Category – Easily Find the Right Appliance Repair</h2>
-            <div className="row align-items-center">
-              <div className="col-12 col-lg-7">
-                <p>At <b>FAJ Technical Services L.L.C.</b> we simplify the process of selecting the right repair service for your home appliances. Whether you need washing machine repair, refrigerator repair, household appliance fixes, BBQ grill cleaning, vacuum cleaner repair, cigar humidor maintenance, or any household appliance service, our categorised repair options help you find the best solution quickly and easily.</p>
-              </div>
+        {/* Select Repair Services by Category – Easily Find the Right Appliance Repair */}
+        <section className="section cs_py_30 bg-light-white">
+          <div className="container border-1 p-0">
+            <h1 className="cs_fs_30 text-center mb-4 pt-4 px-4">Select Repair Services by Category – Easily Find the Right Appliance Repair</h1>
+            <div className="row align-items-center g-0 border border-dark rounded overflow-hidden">
+               <div className="col-12 col-lg-7 px-4 py-4">
+                <p className='text-align-left'>At FAJ Technical Services L.L.C. we simplify the process of selecting the right repair service for your home appliances. Whether you need washing machine repair, refrigerator repair, household appliance fixes, BBQ grill cleaning, vacuum cleaner repair, cigar humidor maintenance, or any household appliance service, our categorised repair options help you find the best solution quickly and easily.
+                </p>
+              </div>  
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
                   <img
-                    src={`${CDN}/home-appliance-repair/public`}
+                    src={`${CDN}/home-appliance/public`}
                     alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
                     title="Commercial AC Maintenance Service in Dubai"
                     width="500"
@@ -166,17 +168,18 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                     className="service-image"
                     style={{
                       width: '100%',
-                      height: 'auto',
+                      height: '100%',
                       display: 'block',
-                      border: '4px solid #030303',
-                      borderRadius: '8px',
-                      objectFit: 'cover'
+                      objectFit: 'cover',
+                      borderRadius: '0'
                     }}
                   />
                 </div>
               </div>
+
+             
             </div>
-            <div className="mt-5">
+            <div className="py-4 px-4">
               <div className="d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
               </div>
@@ -185,10 +188,13 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
         </section>
 
         {/* category icon */}
-        <ApplianceCategories />
+        <div className='bg-light-white'>
+          <ApplianceCategories />
+        </div>
+
 
         {/* why choose */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Why Choose FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs</h2>
             <p>When you require home appliance repair, it's essential to choose a reliable service center provider that offers quality repairs, quick service, and appliance technicians. At <b>FAJ Technical Services L.L.C.</b> we ensure that your appliances will be repaired promptly, efficiently, and at an affordable price, all while maintaining the highest standards of service.</p>
@@ -280,7 +286,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                   </div>
                 </div>
               </div>
-               <div className="col-12 col-md-4 col-lg-4">
+              <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwasher Repair</h3>
@@ -342,7 +348,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                 </div>
               </div>
 
-             
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -378,9 +384,9 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                       
+
                       <svg
-                         width="20"
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -390,13 +396,13 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                        <path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-Linejoin="round" />
+                      </svg>
 
                       {/* Eye Slash */}
-                     
-                       <svg
-                       width="20"
+
+                      <svg
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -405,9 +411,9 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                       >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                      >
+                        <path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>

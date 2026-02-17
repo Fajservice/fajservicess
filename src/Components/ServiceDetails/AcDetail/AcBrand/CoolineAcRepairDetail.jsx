@@ -100,7 +100,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:description" content="HVAC Maintenance Services | Cooline Air Conditioning Repair" />
           <meta property="og:description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near." />
           <meta name="twitter:image" content={metaImage} />
-          
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -138,7 +138,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Cooline AC Maintenance</h2>
                 <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
-                 <div className="row">
+                <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
                       <li>AC Not Cooling Signs</li>
@@ -421,12 +421,12 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
                 <img
-                      className="blue-border-2 w-100 why-choose-img"
-                      src={getImageSrc('ACServicescomponent')}
-                      alt="Ac Maintenance Services"
-                      loading="lazy"
-                      decoding="async"
-                    />
+                  className="blue-border-2 w-100 why-choose-img"
+                  src={getImageSrc('ACServicescomponent')}
+                  alt="Ac Maintenance Services"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -581,7 +581,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           sectionId="home-testimonials"
         />
 
-         {/* Contact */}
+        {/* Contact */}
         <section className="section cs_py_30 bg-dark-blue text-light">
           <Serviceappointemnt
             subtitle2="Contact us"
@@ -589,7 +589,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           ></Serviceappointemnt>
 
         </section>
-{/* Faqs */}
+        {/* Faqs */}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">FAQ&apos;s</h3>
@@ -601,9 +601,9 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                       
+
                       <svg
-                         width="20"
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -613,13 +613,13 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                        <path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
 
                       {/* Eye Slash */}
-                     
-                       <svg
-                       width="20"
+
+                      <svg
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -628,9 +628,9 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                       >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                      >
+                        <path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
@@ -645,7 +645,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           </div>
         </section>
 
-       
+
 
       </div >
 

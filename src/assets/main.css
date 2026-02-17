@@ -8984,8 +8984,9 @@
 /* Home Appliances Categories */
 
 .appliance-categories-grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -8998,6 +8999,8 @@
   border-radius: 8px;
   transition: all 0.3s ease;
   background: #fff;
+  width: calc(12.5% - 20px); /* 8 columns = 12.5% */
+  min-width: 120px;
 }
 
 .appliance-category-card:hover {
@@ -9006,21 +9009,22 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.appliance-category-card:hover .appliance-category-icon {
-  color: #1a3a4a;
-}
-
 .appliance-category-icon {
   width: 50px;
   height: 50px;
   margin-bottom: 12px;
-  color: #333;
-  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
-.appliance-category-icon svg {
+.appliance-category-icon-img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.appliance-category-card:hover .appliance-category-icon {
+  transform: translateY(-3px);
 }
 
 .appliance-category-name {
@@ -9033,17 +9037,17 @@
 
 /* Large screens - 6 columns */
 @media (max-width: 1200px) {
-  .appliance-categories-grid {
-    grid-template-columns: repeat(6, 1fr);
-    gap: 16px;
+  .appliance-category-card {
+    width: calc(16.666% - 20px); /* 6 columns */
+    min-width: 100px;
   }
 }
 
 /* Medium screens - 5 columns */
 @media (max-width: 992px) {
-  .appliance-categories-grid {
-    grid-template-columns: repeat(5, 1fr);
-    gap: 14px;
+  .appliance-category-card {
+    width: calc(20% - 14px); /* 5 columns */
+    min-width: 90px;
   }
 
   .appliance-category-icon {
@@ -9059,11 +9063,12 @@
 /* Tablet - 4 columns */
 @media (max-width: 768px) {
   .appliance-categories-grid {
-    grid-template-columns: repeat(4, 1fr);
     gap: 12px;
   }
 
   .appliance-category-card {
+    width: calc(25% - 12px); /* 4 columns */
+    min-width: 80px;
     padding: 12px 6px;
   }
 
@@ -9081,11 +9086,12 @@
 /* Small tablet - 3 columns */
 @media (max-width: 576px) {
   .appliance-categories-grid {
-    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
 
   .appliance-category-card {
+    width: calc(33.333% - 10px); /* 3 columns */
+    min-width: 70px;
     padding: 10px 4px;
   }
 
@@ -9104,11 +9110,12 @@
 /* Mobile - 2 columns */
 @media (max-width: 400px) {
   .appliance-categories-grid {
-    grid-template-columns: repeat(2, 1fr);
     gap: 8px;
   }
 
   .appliance-category-card {
+    width: calc(50% - 8px); /* 2 columns */
+    min-width: 0;
     padding: 12px 8px;
   }
 
@@ -9120,9 +9127,7 @@
   .appliance-category-name {
     font-size: 10px;
   }
-}
-
-/* coverage page csssssss */
+} 
 
 /* Location Service List Section */
 .location-service-list {
