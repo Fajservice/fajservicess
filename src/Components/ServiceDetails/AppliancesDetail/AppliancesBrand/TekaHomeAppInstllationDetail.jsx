@@ -553,7 +553,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <b> Teka Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your Teka washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best Teka <a href="https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>
-                <p className="mb-0"> <b> Teka Fridge Repair Near You in Dubai: </b> If you are having problems with your Teka refrigerator, please contact the FAJ team for same-day Teka <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair service</a> in Dubai. </p>
+                <p className="mb-0"> <b> Teka Fridge Repair Near You in Dubai: </b> If you are having problems with your Teka refrigerator, please contact the FAJ team for same-day Teka <a href="https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/">refrigerator repair service</a> in Dubai. </p>
                 <p className="mb-0"> <b> Teka Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for Teka freezer repair and service in Dubai and Sharjah. </p>
                 <p className="mb-0"> <b> Teka Home Appliance Service Center Near You: </b> If you are seeking the best repair service Teka washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Teka fridge freezer and are recognized as the leading provider for repairs of fix Teka cooking range, stove fixes, induction cooktops, repair Teka washing machines, and Teka refrigerator in the area. </p>
                 <p className="mb-0"> <b> Teka Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Teka dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Teka service center in Dubai, which specializes in integrated Teka dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
@@ -716,7 +716,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -732,7 +732,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>

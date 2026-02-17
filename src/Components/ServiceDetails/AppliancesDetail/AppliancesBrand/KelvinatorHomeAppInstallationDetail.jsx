@@ -566,12 +566,12 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <b> Kelvinator Washing Machine Repair Near You in Dubai: </b>  FAJ is here to support you when things go wrong. We understand that your Kelvinator washing machine is essential for daily life, keeping your laundry clean.</p>
-                <p className="mb-0"> <b> Kelvinator Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Kelvinator refrigerator, please contact the FAJ team for same-day Kelvinator <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
+                <p className="mb-0"> <b> Kelvinator Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Kelvinator refrigerator, please contact the FAJ team for same-day Kelvinator <a href="https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
                 <p className="mb-0"> <b> Kelvinator Freezer Repair Near You in Dubai: </b> For Kelvinator freezer repair and service in Dubai and Sharjah, our team of qualified technicians is available. </p>
                 <p className="mb-0"> <b> Kelvinator Home Appliance Service Center Near You: </b> If you are looking for the best repair service for Kelvinator washer dryer in Dubai, FAJ is an excellent choice.
                   They are renowned for their outstanding service in repairing Kelvinator fridge freezer and are recognized as the leading provider for the repair of Kelvinator cooking ranges, stove fixes, induction, cooktop fixes, washing machines repair, and refrigerator repairs in the area.
                 </p>
-                <p className="mb-0"> <b> Kelvinator Dishwasher Repair Near You in Dubai: </b> Your Kelvinator dishwasher may need repair or maintenance. For high-quality integrated Kelvinator <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
+                <p className="mb-0"> <b> Kelvinator Dishwasher Repair Near You in Dubai: </b> Your Kelvinator dishwasher may need repair or maintenance. For high-quality integrated Kelvinator <a href="https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                 <p className="mb-0"> <b> Kelvinator Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Kelvinator cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Kelvinator refrigerators, dishwashers, dryers, and more. </p>
                 <p className="mb-0"> <b> Kelvinator Dryer Repair and Service Near You: </b> Are you worried about your Kelvinator dryer not working properly? Looking for a reliable Kelvinator laundry machine company in Dubai? Contact us for same-day service!</p>
                 <p className="mb-0"> <b> Kelvinator Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Kelvinator oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Kelvinator <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Kelvinator ovens in the area.</p>
@@ -731,7 +731,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -747,7 +747,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>

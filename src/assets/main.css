@@ -7061,7 +7061,7 @@
     font-weight: 400;
     line-height: 25px;
     margin-top: 0px;
-    font-family: 14px;
+    font-family: var(--body-font);
   }
 
   /*--------------------------------------------------------------

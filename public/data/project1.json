@@ -15,12 +15,12 @@
     "img": "Kitchen-Equipment-Maintenance-Service",   
     "title": "Kitchen Equipment Maintenance Service Contract",
     "desc": "Regular maintenance with a contract and prompt repairs for commercial kitchens are essential for the longevity and efficiency of kitchen equipment.",
-    "serviceLink":"/commercial-kitchen-equipment-amc/"
+    "serviceLink":/services/home-appliances-repair/brands/haier/"
   },
   {
     "img": "Coffee-Machine-Maintenance-Service",   
     "title": "Coffee Machine Maintenance Service Contract ",
     "desc": "A scheduled maintenance contract that includes cleaning and descaling is essential for optimal performance and consistent quality from a coffee machine. Regular maintenance helps prevent breakdowns and ensures great-tasting coffee",
-    "serviceLink":"/commercial-kitchen-equipment-amc/"
+    "serviceLink":/services/home-appliances-repair/brands/haier/"
   }       
 ]

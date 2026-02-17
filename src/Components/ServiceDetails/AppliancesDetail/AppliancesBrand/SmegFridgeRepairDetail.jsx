@@ -565,12 +565,12 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <b> Smeg Washing Machine Repair Near You in Dubai: </b>  FAJ is here to support you when things go wrong. We understand that your Smeg washing machine is essential for daily life, keeping your laundry clean.</p>
-                <p className="mb-0"> <b> Smeg Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Smeg refrigerator, please contact the FAJ team for same-day Smeg <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
+                <p className="mb-0"> <b> Smeg Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Smeg refrigerator, please contact the FAJ team for same-day Smeg <a href="https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
                 <p className="mb-0"> <b> Smeg Freezer Repair Near You in Dubai: </b> For Smeg freezer repair and service in Dubai and Sharjah, our team of qualified technicians is available. </p>
                 <p className="mb-0"> <b> Smeg Home Appliance Service Center Near You: </b> If you are looking for the best repair service for Smeg washer dryer in Dubai, FAJ is an excellent choice.
                   They are renowned for their outstanding service in repairing Smeg fridge freezer and are recognized as the leading provider for the repair of Smeg cooking ranges, stove fixes, induction, cooktop fixes, washing machines repair, and refrigerator repairs in the area.
                 </p>
-                <p className="mb-0"> <b> Smeg Dishwasher Repair Near You in Dubai: </b> Your Smeg dishwasher may need repair or maintenance. For high-quality integrated Smeg <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
+                <p className="mb-0"> <b> Smeg Dishwasher Repair Near You in Dubai: </b> Your Smeg dishwasher may need repair or maintenance. For high-quality integrated Smeg <a href="https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
                 <p className="mb-0"> <b> Smeg Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Smeg cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Smeg refrigerators, dishwashers, dryers, and more. </p>
                 <p className="mb-0"> <b> Smeg Dryer Repair and Service Near You: </b> Are you worried about your Smeg dryer not working properly? Looking for a reliable Smeg laundry machine company in Dubai? Contact us for same-day service!</p>
                 <p className="mb-0"> <b> Smeg Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Smeg oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Smeg <a href="https://www.fajservices.ae/services/home-appliances-repair/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Smeg ovens in the area.</p>
@@ -731,7 +731,7 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
                       {/* Eye Slash */}
@@ -747,7 +747,7 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
                        >
-<path d="M2 8H14" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
                     </span>
                   </div>
