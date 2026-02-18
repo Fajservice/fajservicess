@@ -1,28 +1,14 @@
 {
   "success": [
     {
-      "originalPath": "calloutcard",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/calloutcard/public",
-      "id": "calloutcard",
-      "success": true
-    },
-    {
-      "originalPath": "cleaningcard",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/cleaningcard/public",
-      "id": "cleaningcard",
-      "success": true
-    },
-    {
-      "originalPath": "installationcard",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/installationcard/public",
-      "id": "installationcard",
+      "originalPath": "ramadanpopup",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ramadanpopup/public",
+      "id": "ramadanpopup",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "calloutcard": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/calloutcard/public",
-    "cleaningcard": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/cleaningcard/public",
-    "installationcard": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/installationcard/public"
+    "ramadanpopup": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ramadanpopup/public"
   }
 }

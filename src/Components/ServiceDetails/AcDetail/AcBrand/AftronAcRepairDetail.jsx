@@ -111,12 +111,25 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Aftron AC Repair, Maintenance Services in Dubai</h1>
-            <p>Year-round indoor comfort helps us overcome challenges like summer humidity, warm nights, and indoor allergens, turning our spaces into havens of serenity and well-being.
-              <br />
-              Founded in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of Aftron Air Conditioner solutions in Dubai and Sharjah. Our experienced team specializes in a range of services, including cleaning, repair, maintenance, and installation of Aftron AC units for both residential and commercial properties.
-              <br />We are committed to optimizing the performance of your air conditioning system to enhance indoor comfort effectively.
-            </p>
+            <div className="row">
+                <div className="col-md-10">
+                     <h1 className="cs_fs_30">Aftron AC Repair, Maintenance Services in Dubai</h1>
+                      <p>Year-round indoor comfort helps us overcome challenges like summer humidity, warm nights, and indoor allergens, turning our spaces into havens of serenity and well-being.
+                        <br />
+                        Founded in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of Aftron Air Conditioner solutions in Dubai and Sharjah. Our experienced team specializes in a range of services, including cleaning, repair, maintenance, and installation of Aftron AC units for both residential and commercial properties.
+                        <br />We are committed to optimizing the performance of your air conditioning system to enhance indoor comfort effectively.
+                      </p>
+                </div>
+                <div className="col-md-2">
+                    <img
+                      src={getImageSrc('aclogos/aftaon')}
+                      alt="Aftron Ac Repair"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                </div>
+            </div>
+           
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

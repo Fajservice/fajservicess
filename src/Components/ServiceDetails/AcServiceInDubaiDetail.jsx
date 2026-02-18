@@ -84,7 +84,90 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
-
+ 
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+          { "@type": "ListItem", "position": 2, "name": "Air Conditioning Repair", "item": "https://www.fajservices.ae/services/air-conditioning-repair/" },
+          { "@type": "ListItem", "position": 3, "name": "AC Service", "item": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/" }
+        ]
+      },
+      {
+        "@type": "HVACBusiness",
+        "@id": "https://www.fajservices.ae/#organization",
+        "name": "FAJ Technical Services L.L.C",
+        "url": "https://www.fajservices.ae/",
+        "telephone": "+97143300002",
+        "priceRange": "$$",
+        "image": "https://www.fajservices.ae/img/fajlogo.png",
+        "logo": { "@type": "ImageObject", "@id": "https://www.fajservices.ae/#logo", "url": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public", "width": 250, "height": 60 },
+        "address": { "@type": "PostalAddress", "streetAddress": "Warehouse # 2, Street 18b, Al Quoz Industrial Area 4", "addressLocality": "Dubai", "addressRegion": "Dubai", "postalCode": "00000", "addressCountry": "AE" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 25.11067467777471, "longitude": 55.227508295580904 },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "2800", "bestRating": "5" },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"], "opens": "08:00", "closes": "18:30" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "11:30" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "14:30", "closes": "18:30" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "12:00", "closes": "18:00" }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/FAJTechnicalServicesLLC",
+          "https://www.instagram.com/fajtechnicalservicesllc/",
+          "https://x.com/FAJTechnical/",
+          "https://ae.linkedin.com/company/faj-technical-services-llc",
+          "https://www.pinterest.com/fajtechnicalservices/"
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#service",
+        "name": "AC Service & AC Repair in Dubai",
+        "serviceType": "Air Conditioning Repair and Maintenance Services",
+        "provider": { "@id": "https://www.fajservices.ae/#organization" },
+        "areaServed": { "@type": "City", "name": "Dubai" },
+        "description": "FAJ Technical Services L.L.C provides AC Service, AC Repair, AC Maintenance, AC Installation, AC Replacement, AC Duct Cleaning, AC Gas Refill, 24/7 AC Repair, Central AC Repair, Split AC Repair and HVAC services in Dubai UAE.",
+        "mainEntityOfPage": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/",
+        "subjectOf": [ { "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#video" }, { "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#faq" } ]
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#video",
+        "name": "Air Conditioning Repair Services: Your Home's Cooling Solution | FAJ",
+        "description": "Expert advice on air conditioning repair and maintenance in Dubai.",
+        "thumbnailUrl": "https://img.youtube.com/vi/sxBhB1_gxYA/maxresdefault.jpg",
+        "uploadDate": "2023-09-15T07:59:44Z",
+        "duration": "PT48S",
+        "contentUrl": "https://www.youtube.com/watch?v=sxBhB1_gxYA",
+        "embedUrl": "https://www.youtube.com/embed/sxBhB1_gxYA",
+        "publisher": { "@id": "https://www.fajservices.ae/#organization" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "How much is AC service in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit's size and condition, as well as the service provider." } },
+          { "@type": "Question", "name": "Why is my AC not cooling in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly." } },
+          { "@type": "Question", "name": "Why is AC repair so expensive?", "acceptedAnswer": { "@type": "Answer", "text": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai’s climate, which demands frequent AC use, also adds to the cost." } },
+          { "@type": "Question", "name": "Why is my AC giving cool air but not cooling?", "acceptedAnswer": { "@type": "Answer", "text": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance." } },
+          { "@type": "Question", "name": "How often should AC be cleaned in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "AC units in Dubai should be cleaned every 3-6 months due to high okay dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use." } },
+          { "@type": "Question", "name": "Which company is best for central AC?", "acceptedAnswer": { "@type": "Answer", "text": "FAJ Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently." } },
+          { "@type": "Question", "name": "What maintenance is needed for AC?", "acceptedAnswer": { "@type": "Answer", "text": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan." } },
+          { "@type": "Question", "name": "How can I maintain my AC?", "acceptedAnswer": { "@type": "Answer", "text": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs." } },
+          { "@type": "Question", "name": "What is routine AC maintenance?", "acceptedAnswer": { "@type": "Answer", "text": "Routine AC maintenance typically involves cleaning filters, inspecting the refrigerant, cleaning the coils, and checking the system’s overall performance. Regular maintenance keeps your AC running smoothly." } },
+          { "@type": "Question", "name": "How do I fix my air conditioner that is not cooling?", "acceptedAnswer": { "@type": "Answer", "text": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed." } },
+          { "@type": "Question", "name": "How often should an air conditioner be serviced?", "acceptedAnswer": { "@type": "Answer", "text": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit's lifespan." } },
+          { "@type": "Question", "name": "Is AC duct cleaning important in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better." } },
+          { "@type": "Question", "name": "Is AC duct cleaning worth it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It’s a cost-effective investment for long-term benefits." } },
+          { "@type": "Question", "name": "How often should AC ducts be cleaned?", "acceptedAnswer": { "@type": "Answer", "text": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency." } }
+        ]
+      }
+    ]
+  };
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const [faqData, setFaqData] = useState([]);
@@ -139,7 +222,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   return (
     <>
       <HelmetProvider>
-        <Helmet>
+        <Helmet script={[{ type: 'application/ld+json', innerHTML: JSON.stringify(schema) }]}>
           <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
           <meta name="author" content={metaAuthor} />
@@ -151,176 +234,9 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
           <meta property="og:image" content={metaImage} />
-          <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-         <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#service",
-              "name": "Air Conditioning Repair and Maintenance Service",
-              "description": "FAJ Technical Services L.L.C provides AC Service, AC Repair, AC Maintence, AC Service Dubai,AC Repair, Air Conditioning Repair, AC Service, Air Conditioning Service, AC Maintenance, Air Conditioning Maintenance, AC Installation, Air Conditioning Installation, AC Replacement, AC Duct Cleaning, AC Gas Refill, AC Emergency Repair, 24/7 AC Repair, AC not cooling, AC water leakage, AC compressor repair, AC Repair Dubai, Air Conditioning Service Dubai, AC Maintenance Dubai, Best AC Repair in Dubai, AC Service near me, AC Repair Sharjah, Split Unit AC Repair, Central AC Repair, Ducted AC Service, Window AC Repair, Chiller AC Maintenance, HVAC Services and Cooling System Repair in Dubai UAE.",
-              "serviceType": "Air Conditioning Repair and Maintenance",
-              "url": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/",
-              "image": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public",
-              "provider": {
-                "@type": "HVACBusiness",
-                "@id": "https://www.fajservices.ae/#organization",
-                "name": "FAJ Technical Services L.L.C",
-                "url": "https://www.fajservices.ae/",
-                "telephone": "+97143300002",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Warehouse # 2, Street 18b, Al Quoz Industrial Area 4",
-                  "addressLocality": "Dubai",
-                  "addressRegion": "Dubai",
-                  "addressCountry": "UAE"
-                }
-              },
-              "areaServed": [
-                {
-                  "@type": "City",
-                  "name": "Dubai"
-                },
-                {
-                  "@type": "City",
-                  "name": "Sharjah"
-                }
-              ],
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": 4.9,
-                "reviewCount": 2852,
-                "bestRating": 5
-              }
-            })}
-          </script>
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-               
-                {
-                  "@type": "Question",
-                  "name": "Why is AC repair so expensive?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai's climate, which demands frequent AC use, also adds to the cost."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Why is my AC giving cool air but not cooling?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
-                  }
-                },
-                 {
-                  "@type": "Question",
-                  "name": "How much is AC service in Dubai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit's size and condition, as well as the service provider."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Why is my AC not cooling in Dubai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How often should AC be cleaned in Dubai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
-                  }
-                },
-                
-                {
-                  "@type": "Question",
-                  "name": "What maintenance is needed for AC?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Which company is best for central AC?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "FAJ Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How can I maintain my AC?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
-                  }
-                },
-                
-                {
-                  "@type": "Question",
-                  "name": "Is AC duct cleaning important in Dubai?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Is AC duct cleaning worth it?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It's a cost-effective investment for long-term benefits."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What is routine AC maintenance?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Routine AC maintenance typically involves cleaning filters, inspecting the refrigerant, cleaning the coils, and checking the system's overall performance. Regular maintenance keeps your AC running smoothly."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How do I fix my air conditioner that is not cooling?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How often should an air conditioner be serviced?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit's lifespan."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How often should AC ducts be cleaned?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
-                  }
-                }
-              ]
-            })}
-          </script>
-
         </Helmet>
       </HelmetProvider>
 
