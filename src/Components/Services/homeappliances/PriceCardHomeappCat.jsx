@@ -7,17 +7,19 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 
-const PriceCardHomeCat = () => {
+const PriceCardHomeCat = ({ services = [] }) => {
   const [activePopup, setActivePopup] = useState(null);
+  
   const formatParagraph = (text) => {
     if (!text) return '';
     return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   };
-  const servicesData = [
+
+  // Default services data (your existing data)
+  const defaultServicesData = [
     {
       id: 1,
       image: getImageSrc('applycalouthome'),
- 
       title: 'Appliance Call-out',
       icon: getImageSrc('calloutcard'),
       price: 'AED157',
@@ -44,10 +46,8 @@ const PriceCardHomeCat = () => {
         {
           paragraph: '**Terms & Conditions:** <br> *Starting from AED 157, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
         },
-        
       ]
     },
-
     {
       id: 2,
       image: getImageSrc('appliancescleaninghome'),
@@ -76,16 +76,14 @@ const PriceCardHomeCat = () => {
         {
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
-         {
+        {
           paragraph: '**Terms & Conditions:** <br> *Starting from AED 395 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
         },
       ]
     },
-
     {
       id: 3,
       image: getImageSrc('ovenhomecard'),
-
       title: 'Home Appliances Installation',
       icon: getImageSrc('installationcard'),
       price: 'AED365',
@@ -115,6 +113,9 @@ const PriceCardHomeCat = () => {
       ]
     },
   ];
+
+  // Use provided services if available, otherwise use default
+  const servicesData = services.length > 0 ? services : defaultServicesData;
 
   const openPopup = (id) => {
     setActivePopup(id);

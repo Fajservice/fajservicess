@@ -612,7 +612,7 @@ const NearMeDetail = ({ subtitle, title, reviewsbg }) => {
               <a href="/services/home-appliances-repair/brands/boston/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Boston</div>
               </a>
-              <a href="/services/home-appliances-repair" className="brand-near-me-service-box">
+              <a href="/services/home-appliances-repair/" className="brand-near-me-service-box">
                 <div className="brand-near-me-service-title">Bosch</div>
               </a>
               <a href="/services/home-appliances-repair/brands/brandt/" className="brand-near-me-service-box">
