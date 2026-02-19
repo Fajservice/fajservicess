@@ -171,7 +171,6 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                       height: '100%',
                       display: 'block',
                       objectFit: 'cover',
-                      borderRadius: '0'
                     }}
                   />
                 </div>
@@ -218,7 +217,6 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                       width: '100%',
                       height: '100%',
                       display: 'block',
-                      borderRadius: '8px',
                       objectFit: 'cover',
                     }}
                   />
