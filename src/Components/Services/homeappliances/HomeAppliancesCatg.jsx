@@ -220,7 +220,6 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                       display: 'block',
                       borderRadius: '8px',
                       objectFit: 'cover',
-                      borderRadius: '0'
                     }}
                   />
                 </div>
