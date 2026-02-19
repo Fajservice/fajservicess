@@ -126,13 +126,41 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
       {
         "@type": "Service",
         "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#service",
-        "name": "AC Service & AC Repair in Dubai",
+        "name": "AC Repair Dubai | Best HVAC Maintenance & AC Service",
         "serviceType": "Air Conditioning Repair and Maintenance Services",
         "provider": { "@id": "https://www.fajservices.ae/#organization" },
         "areaServed": { "@type": "City", "name": "Dubai" },
         "description": "FAJ Technical Services L.L.C provides AC Service, AC Repair, AC Maintenance, AC Installation, AC Replacement, AC Duct Cleaning, AC Gas Refill, 24/7 AC Repair, Central AC Repair, Split AC Repair and HVAC services in Dubai UAE.",
         "mainEntityOfPage": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/",
         "subjectOf": [ { "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#video" }, { "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#faq" } ]
+      },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "AC Repair and Maintenance Services",
+          "description": "FAJ has been providing the best AC Service Dubai since 2010. Get fast AC repair, maintenance, servicing & AC cleaning from expert technicians nearby.",
+          "image": [
+            "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public"
+           ],
+          "brand": {
+            "@type": "Brand",
+            "name": "FAJ Technical Services L.L.C"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "bestRating": "5",
+            "ratingValue": "4.9",
+            "ratingCount": 4784
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "availability": "InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "priceCurrency": "AED",
+            "url": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/"
+          }
+        
       },
       {
         "@type": "VideoObject",

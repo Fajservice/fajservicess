@@ -1177,6 +1177,10 @@ export const router = createBrowserRouter([
         element: <Components.AppliancesServicesInJlt />,
       },
       {
+        path: "/services/home-appliances-repair/coverage-area/al-mizhar/",
+        element: <Components.AppliancesServiceInAlMizhar />,
+      },
+      {
         path: "/services/home-appliances-repair/coverage-area/the-views/",
         element: <Components.AppliancesServicesInTheViews />,
       },
@@ -2179,6 +2183,10 @@ export const router = createBrowserRouter([
       },
       {
         path: "/ac-services-in-bur-dubai/",
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/bur-dubai/" replace />
+      },
+      {
+        path: "/services/air-conditioning-repair/coverage-area/ac-services-in-bur-dubai/",
         element: <Navigate to="/services/air-conditioning-repair/coverage-area/bur-dubai/" replace />
       },
       {

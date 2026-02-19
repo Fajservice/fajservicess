@@ -495,11 +495,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/appliances-services-in-difc/</loc>
-  <lastmod>${today}</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.fajservices.ae/services/home-appliances-repair/brands/smeg/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
@@ -965,7 +960,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/ac-services-in-bur-dubai/</loc>
+  <loc>https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/bur-dubai/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
@@ -980,7 +975,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/bada/</loc>
+  <loc>https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-bada/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>

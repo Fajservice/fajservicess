@@ -148,7 +148,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                             <a href="/services/home-appliances-repair/gas-cooker-repair-service/"><span className="ac_service_tag">Gas Range Repair</span></a>
                             <a href="/services/home-appliances-repair/refrigerator-repair-service/"><span className="ac_service_tag">Refrigerator Repair</span></a>
                             <a href="/services/home-appliances-repair/dishwasher-repair-service/"><span className="ac_service_tag">Dishwasher Repair</span></a>
-                            <a href="/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai"><span className="ac_service_tag">BBQ Repair Service</span></a>
+                            <a href="/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/"><span className="ac_service_tag">BBQ Repair Service</span></a>
                             <a href="/services/home-appliances-repair/cigar-humidor-repair/"><span className="ac_service_tag">Cigar Humdior Repair</span></a>
                             <a href="/services/home-appliances-repair/robot-vacuum-cleaner-repair/"><span className="ac_service_tag">Vacuume Repair</span></a>
                             <a href="/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/"><span className="ac_service_tag">Small Appliances Repair</span></a>
