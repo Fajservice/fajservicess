@@ -210,6 +210,7 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/fagor/">Fagor</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/blomberg/">Blomberg</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/bur-dubai/">Bur Dubai</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/bur-dubai/">Bur Dubai</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubailand-the-villa/">Dubailand The Villa</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-heights/">Jumeirah Heights</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-marina/">Dubai Marina</a></li>
@@ -282,6 +283,7 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/tecom/">Tecom</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/index-tower-difc/">Index Tower Difc</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/international-media-and-production-zone/">International Media And Production Zone</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/international-media-and-production-zone/">International Media And Production Zone</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-dubai/">Jumeirah Dubai</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-investments-park/">Dubai Investments Park</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-free-zone/">Jebel Ali Free Zone</a></li>
@@ -300,6 +302,7 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-wasl/">Al Wasl</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-bada/">Al Bada</a></li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-bada/">Al Bada</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-healthcare-city/">Dubai Healthcare City</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-limestone-house-difc/">The Limestone House Difc</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-springs/">The Springs</a></li>
@@ -309,6 +312,7 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/index-tower-difc/">Index Tower Difc</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/town-dubai/">Town Dubai</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/the-views/">The Views</a></li>
+        <li><a href="https://www.fajservices.ae/services/home-appliance-repair/coverage-area/">Home Aplliances Coverage Area</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubailand-mazaya-queue-point/">Dubailand Mazaya Queue Point</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jebel-ali-dip/">Jebel Ali Dip</a></li>
         <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-ghadeer-community/">Al Ghadeer Community</a></li>
