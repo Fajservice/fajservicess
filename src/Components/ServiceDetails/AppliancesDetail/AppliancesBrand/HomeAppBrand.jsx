@@ -6,6 +6,7 @@ import '../../../../assets/main.css';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import BlogHomeAppliances from '../../../Blog/BlogHomeAppliances';
+import WhatsappIconButton from '../../../Buttons/WhatsappIconButton';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
     if (!imgPath) return '';
@@ -133,7 +134,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         </p>
                     </div>
                 </section>
-{/* 
+                {/* 
                 <PriceCard /> */}
 
                 <section className="section cs_py_30">
@@ -160,28 +161,27 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                     </div>
                 </section>
                 <section className="section cs_py_30 bg-light-white">
-                    <div className="container">
-                        <h1 className="cs_fs_30">Why Choose Top Brand FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs</h1>
-                        <p>
-                            When you need home appliance repair, it's essential to select a reliable service provider that offers quality repairs and quick service with skilled technicians. At FAJ Technical Services L.L.C, we ensure that your appliances are repaired promptly, efficiently, and at an affordable price, all while upholding the highest standards of service.
-                        </p>
-                    </div>
+
                 </section>
 
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
+                        <div className="container">
+                            <h1 className="cs_fs_30">Why Choose Top Brand FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs</h1>
+                            <p>
+                                When you need home appliance repair, it's essential to select a reliable service provider that offers quality repairs and quick service with skilled technicians. At FAJ Technical Services L.L.C, we ensure that your appliances are repaired promptly, efficiently, and at an affordable price, all while upholding the highest standards of service.
+                            </p>
+                        </div>
 
                         <h3 className="cs_fs_30">We are Home Appliance Service Center in Dubai , Shrarjah UAE</h3>
-                        <p>We repair top brands and models of home appliances, including washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, and hobs.All our repairs are carried out by trained technicians who are experts in appliance repair center.</p>
+                        <p>We repair top brands and models of home appliances, including washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, and hobs.All our repairs are carried out by trained technicians who are experts in appliance repair center.Our team has successfully handled numerous repairs across various appliances.
+                            Whether you need assistance with your washing machine, fridge freezer, cooker, dishwasher, or tumble dryer, we will quickly fix any faults that arise. All of our repairs are guaranteed for your peace of mind. You can conveniently book our services online at any time.</p>
                         <div className="row align-items-start">
                             <div className="col-md-6">
                                 <img className="blue-border" src={getImageSrc('dishwasher-repair-service')} alt="Admiral Washing Machine Repair" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
-                                    <p> Our team has successfully handled numerous repairs across various appliances.
-                                        Whether you need assistance with your washing machine, fridge freezer, cooker, dishwasher, or tumble dryer, we will quickly fix any faults that arise. All of our repairs are guaranteed for your peace of mind. You can conveniently book our services online at any time.
-                                    </p>
                                     <li><strong>  Expert Appliances Technicians: </strong> Our technicians are skilled and experienced in troubleshooting and fixing appliance issues for all major brands. </li>
                                     <li><strong> Comprehensive Services: </strong> We offer a comprehensive range of services for home appliances, including minor repairs and major fixes. </li>
                                     <li><strong> Warranty Repair: </strong> It's important to use genuine spare parts in coffee machines, equipment, and vending machines for optimal performance and longevity. </li>
@@ -191,8 +191,13 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                             </div>
                         </div>
                     </div>
+                    <div id="get-quote" className=" mt-3">
+                                  <div className="container d-flex justify-content-center align-items-center gap-3">
+                                    <WhatsappIconButton />
+                                  </div>
+                                </div>
                 </section>
-
+                
                 {/* Common Issue Ac Maintenance */}
                 <section className="ac_common_issues_section cs_py_60 bg-light-white">
                     <div className="container">
@@ -214,6 +219,14 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                             <div className="ac_issue_single_card">
                                 <div className="ac_issue_card_header">
                                     <h3>Tumble Dryer Repair</h3>
+                                </div>
+                                <div className="ac_issue_card_content">
+                                    <p>No water intake, soap dispenser not working, no steam during wash cycles, white patches left on utensils, and bad odor inside the dishwasher.</p>
+                                </div>
+                            </div>
+                            <div className="ac_issue_single_card">
+                                <div className="ac_issue_card_header">
+                                    <h3>Dishwasher Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
                                     <p>No water intake, soap dispenser not working, no steam during wash cycles, white patches left on utensils, and bad odor inside the dishwasher.</p>

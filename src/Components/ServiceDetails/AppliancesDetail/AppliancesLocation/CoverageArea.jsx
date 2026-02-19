@@ -183,9 +183,9 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <h3>Schedule maintenance for appliances before they break down</h3>
                 </div>
                 <div className="ac_issue_card_content">
-                  <p>Your home appliance has been inactive for months. When summer arrives and you turn it on, it fails to work properly. Now you’re among thousands waiting days for emergency home appliance service.</p>
+                  <p>Your home appliance is not used for months and when you turn it on in summer, it is not working properly. Now, you are also waiting for emergency home appliance service. </p>
                   <h4>Better procedure:</h4>
-                  <p>Schedule maintenance in March or April before summer starts. This ensures better availability, lower prices (no emergency premiums), and provides peace of mind knowing your home appliance is ready.</p>
+                  <p>Schedule maintenance in March or April before summer starts. This ensures better availability, lower prices, & provides peace of mind.</p>
                 </div>
               </div>
 
@@ -227,7 +227,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <h3>Ignoring warning signs</h3>
                 </div>
                 <div className="ac_issue_card_content">
-                  <p>Signs of damage, electrical faults, and high bills indicate problems with your home appliance</p>
+                  <p>Signs of damage, electrical faults, and high bills indicate problems with your home appliance.</p>
                   <h4>Better procedure:</h4>
                   <p>Address minor issues promptly to stop them from escalating into major emergencies.</p>
                 </div>
@@ -241,7 +241,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <h2 className="benefits_title">The Benefits of Professional Home Appliances Services</h2>
             <div className='paragraph_sec'>
-              <p>While some homeowners or business owners may attempt DIY repairs, home appliances are complex and require professional expertise to ensure safe and effective repairs. Here’s why you should trust FAJ Technical Services L.L.C:</p>
+              <p>While some homeowners or business owners may attempt DIY repairs, home appliances are complex and require professional expertise to ensure safe and effective repairs. Here’s why you should trust FAJ Technical Services L.L.C.</p>
             </div>
             <div className="benefits_grid">
               <div className="benefit_card">
@@ -298,46 +298,49 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/*  Why Important */}
         <section className="ac_inspection_importance_section cs_py_60">
           <div className="container">
-            <h2 className="ac_inspection_main_title">The Importance of Home Appliances Inspection:</h2>
+            <h2 className="ac_inspection_main_title">The Importance of Home Appliances Inspection</h2>
 
             {/* First Block - Why It's Necessary? */}
             <div className="ac_inspection_content_block">
               <div className="ac_inspection_text_wrapper">
-                <h3 className="ac_inspection_sub_heading">Why It's Necessary?</h3>
+                <h3 className="text-start">Why It's Necessary?</h3>
                 <p className="ac_inspection_description">
                   Regular inspections of home appliances identify potential issues early, ensuring optimal performance and extending the lifespan of your units. They enhance energy efficiency, lower energy bills, and improve quality by removing hazards, creating a healthier environment.
 
                 </p>
 
-                <h4 className="ac_inspection_section_title">TERMS AND CONDITIONS OF TECHNICAL INSPECTION:</h4>
-                <p className="ac_inspection_details">
-                  The fee for the home appliances technical inspection includes an on-site visit from our technical team, as well as transportation charges to the Dubai location.
-                  This fee will be deducted from the final invoice if the customer requests any home appliance services, such as repair, maintenance, cleaning, or part replacement, during the same visit. Please note that a separate fee will apply for any additional visits.
-                  Additionally, the inspection fee is non-refundable and does not cover carpentry work, access to gypsum ceilings, or any home appliance repairs. After the inspection, FAJ will provide the customer with a quotation.
-                </p>
+
               </div>
 
               <div className="ac_inspection_image_wrapper">
-                <img src={getImageSrc('Refrigeratorre')} alt="AC Inspection Service" className="ac_inspection_image" />
+                <img src={getImageSrc('necesaryhomecov')} alt="AC Inspection Service" className="ac_inspection_image" />
               </div>
-            </div>
 
+            </div>
+            <h4 className="text-start mb-0">TERMS AND CONDITIONS OF TECHNICAL INSPECTION</h4>
+            <p className="ac_inspection_details termservice">
+              The fee for the home appliances technical inspection includes an on-site visit from our technical team, as well as transportation charges to the Dubai location.
+              This fee will be deducted from the final invoice if the customer requests any home appliance services, such as repair, maintenance, cleaning, or part replacement, during the same visit. Please note that a separate fee will apply for <br /> any additional visits. <br />
+              Additionally, the inspection fee is non-refundable and does not cover carpentry work, access to gypsum ceilings, or any home appliance repairs. After the inspection, FAJ will provide the customer with a quotation.
+            </p>
             {/* Second Block - Why Is AC Service Important? */}
             <div className="ac_inspection_content_block ac_inspection_reverse">
               <div className="ac_inspection_image_wrapper">
-                <img src={getImageSrc('Washingmch')} alt="AC Service Importance" className="ac_inspection_image" />
+                <img src={getImageSrc('importcoveragehome')} alt="AC Service Importance" className="ac_inspection_image" />
               </div>
 
               <div className="ac_inspection_text_wrapper">
-                <h3 className="ac_inspection_sub_heading">Why is Home Appliances Service Important?</h3>
+                <h3 className="text-start">Why is Home Appliances Service Important?</h3>
                 <p className="ac_inspection_description">
                   Home appliance service involves cleaning, checking for faults, and ensuring all components function properly. Regular maintenance enhances efficiency, reduces energy costs, and prevents breakdowns.
-                  TERMS AND CONDITIONS OF CLEANING SERVICE
-                  The Home Appliances service fee includes an on-site visit from our technical team and transportation to Dubai. This fee is non-refundable.
-                  The service does not cover carpentry, gypsum ceiling access, repairs, maintenance, installation, or spare part replacement. Any additional work needed for faulty home appliances will be quoted separately, with details provided by FAJ.
                 </p>
               </div>
             </div>
+            <h4 className="text-start mb-0">TERMS AND CONDITIONS OF TECHNICAL INSPECTION</h4>
+            <p className="ac_inspection_details termservice">
+              The Home Appliances service fee includes an on-site visit from our technical team and transportation to Dubai. This fee is non-refundable.<br />
+              The service does not cover carpentry, gypsum ceiling access, repairs, maintenance, installation, or spare part replacement. Any additional work needed for faulty home appliances will be quoted separately, with details provided by FAJ.
+            </p>
           </div>
         </section>
 
@@ -351,21 +354,61 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
             <div className="service_areas_tags_container">
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jbr/">JBR (Jumeirah Beach Residence)</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/downtown/">Downtown Dubai</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/arabian-ranches/">Arabian Ranches</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-springs/">The Springs</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-meadows/">The Meadows</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/motor-city/">Motor City</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jvc/">JVC (Jumeirah Village Circle)</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jlt/">JLT</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jumeirah-lake-towers/">JLT (Jumeirah Lake Towers)</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Silicon Oasis</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jbr/">JBR - JLT</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/academy-city/">Academy City</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-bada/">Al Bada</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-barsha/">Al Barsha</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-internet-city/">Dubai Internet City</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-barsha-south/">Al Barsha South</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-furjan/">Al Furjan</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-jafiliya/">Jafiliya</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-karama/">Al Karama</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Al Khawaneej</a></span>        
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-mamzar/">Al Mamzar</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/downtown/">Downtown Dubai</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/difc/">DifC</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-manara/">Al Manara</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-quoz/">Al Quoz</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Al Quusais</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/deira/">Deira </a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-sufouh/">Al Sufoh </a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-safa/">Al Safa</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Al Warqa</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Emirates Hills</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/discovery-gardens/">Discovery Garden</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-wasl/">Al Wasl</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/arabian-ranches/">Arabian Ranches</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/damac-hills/">Damac Hills</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-meadows/">The Meadows</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-springs/">The Springs</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jumeirah-islands/">Jumierah Island</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jumeirah-park/">Jumierah Park</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jvc/">JVC</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Mirdif</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-sport-city/">Sports City</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-studio-city/">Dubai Studio City</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jebel-ali/">Jebel Ali</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jumeirah-golf-estates/">Jumeirah Golf Estes</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jumeirah-village-triangle/">JVT</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-motor-city/">Dubai Motor City</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jvc/">JVC (Jumeirah Village Circle)</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Ras Al khor</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-greens/">The Greens</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-villa/">The Villas</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/umm-al-sheif/">Umm Al Sheif</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Ramool Umm Suqeim</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/victory-heights/">Victory Heights</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jlt/">JLt</a></span>
+              
+              
+              
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></span>
+              
             </div>
           </div>
         </section>
@@ -382,12 +425,12 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
         <BlogAppliances />
 
-                <section className="section cs_py_30 bg-dark-blue text-light">
-                  <Serviceappointemnt
-                    subtitle2="Contact us"
-                    title2="Book An Appointment"
-                  />
-                </section>
+        <section className="section cs_py_30 bg-dark-blue text-light">
+          <Serviceappointemnt
+            subtitle2="Contact us"
+            title2="Book An Appointment"
+          />
+        </section>
 
         {/* Faqs */}
         <section className="section cs_py_30">
@@ -401,8 +444,8 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                       <svg
-                         width="20"
+                      <svg
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -412,13 +455,13 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                        <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
 
                       {/* Eye Slash */}
-                     
-                       <svg
-                       width="20"
+
+                      <svg
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -427,9 +470,9 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                       >
-<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                      >
+                        <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>

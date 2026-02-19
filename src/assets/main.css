@@ -7056,6 +7056,10 @@
     width: 100%;
   }
 
+  .p.ac_inspection_details.termservice{
+    margin-bottom: 40px;
+  }
+
   .cs_service_details p {
     margin-bottom: 16px;
     font-weight: 400;
@@ -7063,6 +7067,10 @@
     margin-top: 0px;
     font-family: var(--body-font);
   }
+
+  p.ac_inspection_details.termservice {
+    font-size: 12px;
+}
 
   /*--------------------------------------------------------------
     20. Tabs
@@ -9376,7 +9384,7 @@
   font-size: 28px;
   font-weight: 600;
   color: #1F2937;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .benefits_grid {
@@ -9391,7 +9399,7 @@
   background-color: #ffffff;
   border: 2px solid #9CA3AF;
   border-radius: 12px;
-  padding: 30px 25px;
+  padding: 30px 2px;
   text-align: center;
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -10153,7 +10161,7 @@
 }
 
 .ac_issue_card_content {
-  padding: 20px;
+  padding: 10px;
   text-align: left;
   flex: 1;
 }
@@ -10419,7 +10427,7 @@
   grid-template-columns: 55% 45%;
   gap: 30px;
   margin-bottom: 40px;
-  align-items: start;
+  align-items: center;
 }
 
 .ac_inspection_content_block:last-child {
@@ -11789,7 +11797,7 @@
 }
 
 .ac_issue_card_content {
-  padding: 20px;
+  padding: 10px;
   text-align: left;
   flex: 1;
 }
@@ -12055,7 +12063,7 @@
   grid-template-columns: 55% 45%;
   gap: 30px;
   margin-bottom: 40px;
-  align-items: start;
+  align-items: ccenter;
 }
 
 .ac_inspection_content_block:last-child {
@@ -13690,3 +13698,5 @@
     font-size: 9px;
   }
 }
+
+
