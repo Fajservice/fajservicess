@@ -195,14 +195,14 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
 
         {/* why choose */}
         <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
+          <div className="container border-1 p-0">
             <h2 className="cs_fs_30 text-center mb-4">Why Choose FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs</h2>
             <p>When you require home appliance repair, it's essential to choose a reliable service center provider that offers quality repairs, quick service, and appliance technicians. At <b>FAJ Technical Services L.L.C.</b> we ensure that your appliances will be repaired promptly, efficiently, and at an affordable price, all while maintaining the highest standards of service.</p>
             <h4>We are Home Appliance Repair Service Centers</h4>
             <p>We repair all brands and models of Home appliances including washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. All our repairs are performed by trained technicians.
               We are experts in appliance repair, and our technicians have successfully handled multiple repairs inculding washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. Whether it is your Washing Machine, Fridge, freezer, Cooker, Dishwasher or Tumble Dryer. We will quickly fix any faults that develop, and all our repair are guaranteed. You can book online at any time.
             </p>
-            <div className="row align-items-center">
+            <div className="row align-items-center g-0 border border-dark rounded overflow-hidden">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="shop-ac-image-wrapper">
                   <img
@@ -213,23 +213,22 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                     height="400"
                     loading="lazy"
                     decoding="async"
-                    className="shop-ac-image"
+                    className="service-image"
                     style={{
                       width: '100%',
-                      height: 'auto',
+                      height: '100%',
                       display: 'block',
-                      border: '4px solid #030303',
                       borderRadius: '8px',
-                      objectFit: 'cover'
+                      objectFit: 'cover',
+                      borderRadius: '0'
                     }}
                   />
                 </div>
               </div>
-
-              <div className="col-12 col-lg-7">
+              <div className="col-12 col-lg-7 px-3">
                 <div className="shop-ac-bullet-list">
                   <div className="shop-ac-bullet-col">
-                    <ul>
+                    <ul className='m-1'>
                       <li><b>Expert Technicians:</b> Our technicians are trained and experienced in resolving appliance issues across all major brands.</li>
                       <li><b>Comprehensive Services:</b> We provide a wide range of services for home appliances, from minor fixes to major repair.</li>
                       <li><b>Warranty Repair:</b> Using genuine parts in coffee machines, equipment, and vending machines.</li>
