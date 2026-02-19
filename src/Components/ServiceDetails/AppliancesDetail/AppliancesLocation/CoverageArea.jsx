@@ -139,7 +139,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               <div className="process_content">
                 <div className="process_image">
-                  <img src={getImageSrc('diswasherrr')} alt="AC Maintenance Service Process" />
+                  <img src={getImageSrc('ourprocesshome')} alt="AC Maintenance Service Process" />
                 </div>
 
                 <div className="process_list">
