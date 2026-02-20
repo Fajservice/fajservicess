@@ -152,7 +152,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 {/* why choose */}
                 <section className="section cs_py_30 bg-light-white ">
                     <div className="container border-1 p-0">
-                        <h2 className="cs_fs_30 text-center mb-4">Why Choose FAJ Appliance Repair Service? Trusted & Reliable Home Appliance Repairs</h2>
+                        <h2 className="cs_fs_30 text-center mb-4">Why Choose FAJ Appliance Repair Service? Trusted & Reliable Home <br></br> Appliance Repairs</h2>
                         <p>When you require home appliance repair, it's essential to choose a reliable service center provider that offers quality repairs, quick service, and appliance technicians. At FAJ Technical Services L.L.C. we ensure that your appliances will be repaired promptly, efficiently, and at an affordable price, all while maintaining the highest standards of service.</p>
                         <h3>We are Home Appliance Repair Service Centers</h3>
                         <p>We repair all brands and models of Home appliances including washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. All our repairs are performed by trained technicians. We are experts in appliance repair, and our technicians have successfully handled multiple repairs inculding washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. Whether it is your Washing Machine, Fridge, freezer, Cooker, Dishwasher or Tumble Dryer. We will quickly fix any faults that develop, and all our repair are guaranteed. You can book online at any time.

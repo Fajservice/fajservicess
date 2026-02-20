@@ -449,7 +449,6 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
         )}
 
         <BlogAppliances />
-
         <section className="section cs_py_30 bg-dark-blue text-light">
           <Serviceappointemnt
             subtitle2="Contact us"
