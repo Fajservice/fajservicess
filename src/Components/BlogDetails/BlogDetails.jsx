@@ -645,11 +645,11 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       <span>Laundry Equipment Service</span>
                       <span><ArrowRightIcon size={28} /></span>
                     </Link></li>
-                    <li><Link to="/coffee-machine-service-center-in-dubai/">
+                    <li><Link to="/services/coffee-machine/coffee-machine-service-center/">
                       <span>Coffee Machine Services</span>
                       <span><ArrowRightIcon size={28} /></span>
                     </Link></li>
-                    <li><Link to="/commercial-cooking-appliances-repair-service/">
+                    <li><Link to="/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/">
                       <span>Kitchen Equipment Repair</span>
                       <span><ArrowRightIcon size={28} /></span>
                     </Link></li>

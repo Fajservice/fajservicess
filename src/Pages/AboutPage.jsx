@@ -142,7 +142,7 @@ const AboutPage = () => {
                            </p>
            
                            <div className="cs_about_btns">
-                             <Link to="/about-us/" className="cs_btn cs_style_1">
+                             <Link to="/our-history/" className="cs_btn cs_style_1">
                                <span>Read more</span>
                              </Link>
                            </div>

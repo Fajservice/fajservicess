@@ -1549,7 +1549,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/commercial-refrigeration-services/",
-        element: <Navigate to="/commercial-refrigeration-maintenance/" replace />
+        element: <Navigate to="/services/refrigeration-equipment/commercial-refrigeration-maintenance/" replace />
       },
       {
         path: "/washing-machine-service-center-dubai/",
@@ -1569,7 +1569,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/walk-in-freezer-display-freezer-open-freezer-maintenance/",
-        element: <Navigate to="/commercial-refrigeration-maintenance/" replace />
+        element: <Navigate to="/services/refrigeration-equipment/commercial-refrigeration-maintenance/" replace />
       },
       {
         path: "/fridge-freezer-repair-service-in-dubai/",

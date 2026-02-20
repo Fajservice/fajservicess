@@ -8,28 +8,12 @@
     "btnLink": "/services/coffee-machine/coffee-machine-repairs/"
   },
   {
-    "img": "kitchen-equipment",
-    "icon": "icon/kitchen-equipment",
-    "title": "Kitchen Equipment Services",
-    "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services to restore equipment to working condition.",
-    "btnText": "READ MORE",
-    "btnLink": "/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/"
-  },
-  {
     "img": "Commercial-Cooking-Appliance-Services",
     "icon": "icon/Commercial-Cooking-Appliance-Services",
     "title": "Commercial Cooking Appliance Services",
     "desc": "We provide expert repair and maintenance for commercial ovens, stoves, fryers, and grills to keep your kitchen running smoothly in restaurants and hotels.",
     "btnText": "READ MORE",
     "btnLink": "/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/"
-  },
-  {
-    "img": "icemaker-repair",
-    "icon": "icon/Ice-Maker-Services",
-    "title": "Ice Maker Services",
-    "desc": "Ensure a steady supply of clean ice with our professional ice maker repair, maintenance, and servicing, perfect for hotels, restaurants, bars, and cafes.",
-    "btnText": "READ MORE",
-    "btnLink": "/services/refrigeration-equipment/ice-maker-repair/"
   },
   {
     "img": "Commercial-refrigeration-service",
@@ -72,6 +56,14 @@
     "btnLink": "/services/home-appliances-repair/appliances-repair-service/"
   },
   {
+    "img": "kitchen-equipment",
+    "icon": "icon/kitchen-equipment",
+    "title": "Kitchen Equipment Services",
+    "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services to restore equipment to working condition.",
+    "btnText": "READ MORE",
+    "btnLink": "/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/"
+  },
+  {
     "img": "service_img_1",
     "icon": "icon/air-conditioning",
     "title": "Air Conditioning Services",
@@ -98,10 +90,18 @@
   {
     "img": "Small-Home-Appliances-Services",
     "icon": "icon/Small-Home-Appliances-Services",
-    "title": "Small Home Appliances Services",
+    "title": "Small Appliances Services",
     "desc": "Restore and maintain your small appliances with our skilled repair, thorough servicing, and reliable care — ideal for kitchen gadgets and household essentials.",
     "btnText": "READ MORE",
     "btnLink": "/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/"
+  },
+  {
+    "img": "icemaker-repair",
+    "icon": "icon/Ice-Maker-Services",
+    "title": "Ice Maker Services",
+    "desc": "Ensure a steady supply of clean ice with our professional ice maker repair, maintenance, and servicing, perfect for hotels, restaurants, bars, and cafes.",
+    "btnText": "READ MORE",
+    "btnLink": "/services/refrigeration-equipment/ice-maker-repair/"
   },
   {
     "img": "Cigar-Humidor-Services",

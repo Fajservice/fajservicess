@@ -75,7 +75,7 @@ const heroSlides = [
     title: "FAJ ensures comfort with professional air conditioning services year-round!",
     description: "We provide honest, friendly, and professional repair, servicing, maintenance contracts, and installation through our expert technicians",
     buttonText: "Read more",
-    buttonLink: "/about-us/",
+    buttonLink: "/services/air-conditioning-repair/ac-service/",
     phone: "(+971) 507464712",
     phoneLink: "tel:+971507464712"
   },
@@ -86,7 +86,7 @@ const heroSlides = [
     title: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
     description: "We understand that appliance breakdowns can happen at any time, which is why our team at FAJ is always ready to respond and repair quickly",
     buttonText: "Read more",
-    buttonLink: "/about-us/",
+    buttonLink: "/services/home-appliances-repair/",
     phone: "(+971) 507464712",
     phoneLink: "tel:+971507464712"
   },
@@ -97,7 +97,7 @@ const heroSlides = [
     title: "We are here to help you with your commercial refrigeration system repair problems",
     description: "At FAJ Refrigeration and Freezer Maintenance, we focus on keeping your products and premises at the optimal temperature, helping you maintain your cool!",
     buttonText: "Read more",
-    buttonLink: "/about-us/",
+    buttonLink: "/services/refrigeration-equipment/commercial-refrigeration-maintenance/",
     phone: "(+971) 507464712",
     phoneLink: "tel:+971507464712"
   }

@@ -409,7 +409,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
             <div className="row">
               <div className="col-12">
                 <p className="mb-0">
-                  <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Repair</b></Link>: FAJ offers reliable LG AC repair, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
+                  <Link to="/services/air-conditioning-repair/brands/lg/"><b>LG Air Conditioner Repair</b></Link>: FAJ offers reliable LG AC repair, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
                 </p>
                 <p className="mb-0">
                   <Link to="/services/air-conditioning-repair/brands/samsung/"><b>Samsung Air Conditioner Repair and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC Repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from maintenance to repair.
@@ -424,7 +424,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
                   <Link to="/services/air-conditioning-repair/brands/trane/"><b>Trane HVAC Repair</b></Link>: With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.
                 </p>
                 <p className="mb-0">
-                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/"><b>Panasonic AC Repair and Service</b></Link>: No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.
+                  <Link to="/services/air-conditioning-repair/brands/panasonic/"><b>Panasonic AC Repair and Service</b></Link>: No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.
                 </p>
                 <p className="mb-0">
                   <Link to="/services/air-conditioning-repair/brands/gree/"><b>Gree AC Repair and Service</b></Link>: Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment (broken gree air conditioning in a room, for example, can be a disaster!) – FAJ get your gree air conditioning back up and running in no time!
@@ -454,7 +454,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/goodman/">Goodman AC Repair Dubai</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC Reapair Services</Link>
+                  <Link to="/services/air-conditioning-repair/brands/coleman/">Coleman AC Reapair Services</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/westpoint/">Westpoint Repair</Link>
                   <span>&nbsp;-&nbsp;</span>
@@ -466,7 +466,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/ruud/">Ruud Air Conditioner Repair Service</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning Repair</Link>
+                  <Link to="/services/air-conditioning-repair/brands/mcquay/">McQuay Air Conditioning Repair</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/blue-star/">Blue Star</Link>
                   <span>&nbsp;-&nbsp;</span>
