@@ -603,7 +603,7 @@ const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,
                   : FAJ is here to support you when things go wrong. We understand that your LG appliances are essential for daily life, keeping your food fresh and meals cooked.
                 </p>
                 <p className="mb-0">
-                  <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/">
+                  <Link to="/services/home-appliances-repair/brands/samsung/">
                     <b>Samsung Appliance Service</b>
                   </Link>
                   : If you are facing any problems with your Samsung refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
@@ -632,7 +632,7 @@ const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,
                   : We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
                 </p>
                 <p className="mb-0">
-                  <Link to="/siemens-home-appliances-repair/">
+                  <Link to="/services/home-appliances-repair/brands/siemens/">
                     <b>Siemens Appliance Service</b>
                   </Link>
                   : Are you concerned about your Siemens washing machine malfunctioning and searching for a reliable Siemens appliances company in Dubai? Contact us for same-day service!

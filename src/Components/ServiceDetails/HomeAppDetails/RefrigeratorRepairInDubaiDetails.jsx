@@ -593,7 +593,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/home-appliances-repair/brands/zanussi/">Zanussi</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/de-dietrich-appliance-repair-service/">De Dietrich</Link>
+                  <Link to="/services/home-appliances-repair/brands/de-dietrich/">De Dietrich</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/home-appliances-repair/brands/baumatic/">Baumatic</Link>
                   <span>&nbsp;-&nbsp;</span>

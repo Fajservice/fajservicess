@@ -84,7 +84,7 @@ const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => 
             </HelmetProvider>
             <section
                 className="cs_page_heading cs_bg_filed cs_primary_bg"
-                style={{ backgroundImage: `url(${import.meta.env.BASE_URL}img/FAJ-Banner-calculator.jpg)` }}
+                style={{ backgroundImage: `url(https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FAJ-Banner-calculator/public)` }}
             >
                 </section>
                 <div className="container h-100">

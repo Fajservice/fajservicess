@@ -308,7 +308,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <ul className="mb-0">
                       <li>Water Leaking from your AC</li>
                       <li>AC compressor is not cooling</li>
-                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling" >High AC electricity (DEWA) bills</a></li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling" ><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>

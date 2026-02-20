@@ -223,6 +223,7 @@ const AcAnnualMaintenanceContractDetail = ({
                 <WhatsappIconButton />
               </div>
             </div>
+            <MaintenanceContract />
           </div>
         </section>
 
@@ -425,12 +426,12 @@ const AcAnnualMaintenanceContractDetail = ({
             <div className="row">
               <div className="col-12">
                 <ul className="mb-0">
-                  <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/lg-ac-repair-in-dubai/">LG Air Conditioner Maintenance</a>:</strong> FAJ offers reliable LG AC Maintenance, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/services/air-conditioning-repair/brands/lg/">LG Air Conditioner Maintenance</a>:</strong> FAJ offers reliable LG AC Maintenance, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.</li>
                   <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/services/air-conditioning-repair/brands/samsung/">Samsung Air Conditioner Maintenance and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC Maintenance in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from repairs to Maintenance.</li>
                   <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/services/air-conditioning-repair/brands/york/">York AC Maintenance and Service</a>:</strong> The York AC Maintenance service ensures you don&rsquo;t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.</li>
                   <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/services/air-conditioning-repair/brands/daikin/">Daikin Air Conditioner Maintenance</a>:</strong> Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.</li>
                   <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/services/air-conditioning-repair/brands/trane/">Trane HVAC Maintenance</a>:</strong> With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.</li>
-                  <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic AC Maintenance and Service</a>:</strong> No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/services/air-conditioning-repair/brands/panasonic/">Panasonic AC Maintenance and Service</a>:</strong> No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.</li>
                   <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/services/air-conditioning-repair/brands/gree/">Gree AC Maintenance and Service</a>:</strong> Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment (broken gree air conditioning in a room, for example, can be a disaster!) &ndash; FAJ get your gree air conditioning back up and running in no time!</li>
                   <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/services/air-conditioning-repair/brands/o-general/">O General AC Maintenance and Service</a>:</strong> O General AC maintenance in Dubai requires expert help because only specialized ones know how to address aircon issues. We are a hassle-free air condition Maintenance service provider.</li>
                   <li><strong><a className='text-decoration-underline' href="https://fajservices.ae/mitsubishi-ac-repair-in-dubai/">Mitsubishi Air Conditioner Maintenance and Service</a>:</strong> Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.</li>
@@ -452,7 +453,7 @@ const AcAnnualMaintenanceContractDetail = ({
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/goodman/">Goodman Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC</Link>
+                  <Link to="/services/air-conditioning-repair/brands/coleman/">Coleman AC</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/westpoint/">Westpoint Air Conditioning</Link>
                   <span>&nbsp;-&nbsp;</span>
@@ -464,7 +465,7 @@ const AcAnnualMaintenanceContractDetail = ({
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/ruud/">Ruud Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning</Link>
+                  <Link to="/services/air-conditioning-repair/brands/mcquay/">McQuay Air Conditioning</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/blue-star/">Blue Star Air Conditioning</Link>
                   <span>&nbsp;-&nbsp;</span>
@@ -484,7 +485,7 @@ const AcAnnualMaintenanceContractDetail = ({
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/white-westinghouse/">White Westinghouse AC</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic Air Conditioner</Link>
+                  <Link to="/services/air-conditioning-repair/brands/panasonic/">Panasonic Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/daikin/">Daikin AC</Link>
                   <span>&nbsp;-&nbsp;</span>
@@ -496,7 +497,7 @@ const AcAnnualMaintenanceContractDetail = ({
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/haier/">Haier Air Condition</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/lg-ac-repair-in-dubai/">LG Air Conditioner</Link>
+                  <Link to="/services/air-conditioning-repair/brands/lg/">LG Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/services/air-conditioning-repair/brands/nikai/">Nikai AC</Link>
                   <span>&nbsp;-&nbsp;</span>
@@ -522,7 +523,7 @@ const AcAnnualMaintenanceContractDetail = ({
 
         <Practicaltip />
         <AcProperties />
-        <MaintenanceContract />
+        
 
         {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1

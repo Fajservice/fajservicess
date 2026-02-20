@@ -588,7 +588,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <span>&nbsp;-&nbsp;</span>
               <Link to="/services/air-conditioning-repair/brands/goodman/">خدمة تكييف Goodman دبي</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">خدمات تكييف Coleman</Link>
+              <Link to="/services/air-conditioning-repair/brands/coleman/">خدمات تكييف Coleman</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/services/air-conditioning-repair/brands/westpoint/">خدمة تكييف Westpoint</Link>
               <span>&nbsp;-&nbsp;</span>
@@ -600,7 +600,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <span>&nbsp;-&nbsp;</span>
               <Link to="/services/air-conditioning-repair/brands/ruud/">خدمة تكييف Ruud</Link>
               <span>&nbsp;-&nbsp;</span>
-              <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">خدمة تكييف McQuay</Link>
+              <Link to="/services/air-conditioning-repair/brands/mcquay/">خدمة تكييف McQuay</Link>
               <span>&nbsp;-&nbsp;</span>
               <Link to="/services/air-conditioning-repair/brands/blue-star/">Blue Star</Link>
               <span>&nbsp;-&nbsp;</span>

@@ -210,7 +210,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                   <li><strong>Extending Lifespan:</strong> Regular maintenance prolongs machine life, saving on replacement costs.</li>
                   <li><strong>Lowering Maintenance Costs: </strong>Addressing minor issues early can prevent larger, more expensive repairs.</li>
                   <li><strong>Maintaining Efficiency:</strong> Consistent upkeep ensures optimal performance and reduces energy consumption.</li>
-                  <li><strong>Professional Service for Commercial Use:</strong> Commercial machines need <a href="https://www.fajservices.ae/coffee-machine-repairs/" style={{textDecoration:"underline"}}><b>specialised maintenance</b></a> for safety and performance</li>
+                  <li><strong>Professional Service for Commercial Use:</strong> Commercial machines need <a href="https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/" style={{textDecoration:"underline"}}><b>specialised maintenance</b></a> for safety and performance</li>
                   <li><strong>Importance in Commercial Kitchens:</strong> In the UAE, proper maintenance of DeLonghi coffee machines is essential service. Regular upkeep improves their quality and lifespan, benefiting both home and business users in Dubai.</li>
                 </ul>
               </div>
@@ -310,7 +310,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                     <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Professional Help</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">For more complex issues or if you are unable to troubleshoot the problem yourself, contact FAJ qualified <a href="https://www.fajservices.ae/coffee-machine-service-center-in-dubai/">coffee machine repair</a> technician for maintenance.</p>
+                    <p className="p-2 mb-0">For more complex issues or if you are unable to troubleshoot the problem yourself, contact FAJ qualified <a href="https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/">coffee machine repair</a> technician for maintenance.</p>
                   </div>
                 </div>
               </div>

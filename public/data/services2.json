@@ -13,7 +13,7 @@
     "title": "Commercial Refrigeration Services",
     "desc": "Prevent losses when your refrigeration system fails. Keeping your stock in optimal condition is vital for extending storage life and managing costs. We provide reliable repair and maintenance for all refrigeration to ensure efficient operation.",   
     "btnText": "READ MORE",
-    "btnLink": "/commercial-refrigeration-maintenance/"
+    "btnLink": "/services/refrigeration-equipment/commercial-refrigeration-maintenance/"
   },
   {
     "img": "img/Laundry-equipment-services.avif",
@@ -29,7 +29,7 @@
     "title": "Coffee Machine Services",
     "desc": "Without coffee, routines can be affected. A broken coffee machine at home, office, or in a restaurant can disrupt productivity and business.We understand the importance of having your coffee or espresso machine work smoothly. Our expert repair team provides maintenance services for various coffee machines.",   
     "btnText": "READ MORE",
-    "btnLink": "/coffee-machine-service-center-in-dubai/"
+    "btnLink": "/services/coffee-machine/coffee-machine-service-center/"
   },
   {
     "img": "img/kitchen-equipment.avif",
@@ -37,7 +37,7 @@
     "title": "Kitchen Equipment Services",
     "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services to restore equipment to working condition.",
     "btnText": "READ MORE",
-    "btnLink": "/commercial-cooking-appliances-repair-service/"
+    "btnLink": "/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/"
   },
   {
     "img": "img/home-appliances-service.avif",
