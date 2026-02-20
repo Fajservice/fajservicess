@@ -9904,7 +9904,7 @@
   }
 
   .process_header h2 {
-    font-size: 26px;
+    font-size: 30px;
     margin: 0 0 10px 0;
   }
   
@@ -9939,7 +9939,7 @@
   }
 
   .process_header h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin: 0 0 12px 0;
   }
   
@@ -10191,6 +10191,7 @@
   color: #1F2937;
   margin: 15px 0 8px 0;
   text-align: left;
+  font-weight: 500;
 }
 
 /* Large Desktop - 1400px and above */
