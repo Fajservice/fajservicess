@@ -10153,10 +10153,8 @@
   background-color: #1E293B;
   padding: 2px 5px;
   min-height: 70px;
-  display: flex;
   align-items: center;
   justify-content: Start;
-  text-align: center;
 }
 
 .ac_issue_card_header h3 {
@@ -11795,7 +11793,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15px;
 }
 
 .bgdarkblue h3 {

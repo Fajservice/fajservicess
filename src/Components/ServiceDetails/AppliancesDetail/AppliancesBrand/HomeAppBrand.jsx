@@ -127,7 +127,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             <div className="cs_service_details">
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Top Brand Home Appliances Service Center and Repair in Dubai</h1>
+                        <h1 className="cs_fs_30">Top Brand Home Appliances Service Center <br /> and Repair in Dubai</h1>
                         <p>
                             Looking for a reliable home appliance service center? We specialize in the repair of appliances from major brands, including <a href="/services/home-appliances-repair/brands/lg/">LG</a>, <a href="/services/home-appliances-repair/brands/aeg/">AEG</a>, <a href="/services/home-appliances-repair/brands/ariston/">Ariston</a>, <a href="/services/home-appliances-repair/brands/beko/">Beko</a>, <a href="/services/home-appliances-repair/brands/la-germania/">La Germina</a>, <a href="/services/home-appliances-repair/brands/electrolux/">Electrolux</a>, <a href="/services/home-appliances-repair/brands/siemens/">Siemens</a>, <a href="/services/home-appliances-repair/brands/neff/">neff</a>, <a href="/services/home-appliances-repair/brands/teka/">Teka</a>, <a href="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a>, <a href="/services/home-appliances-repair/brands/samsung/">Samsung</a>, <a href="/services/home-appliances-repair/brands/viking/">Viking</a>, <a href="/services/home-appliances-repair/brands/subzero/">Sub Zero</a>,  <a href="/services/home-appliances-repair/brands/daewoo/">Daewoo</a>, <a href="/services/home-appliances-repair/brands/gaggenau/">gaggenau</a>, <a href="/services/home-appliances-repair/brands/haier/">Haier</a>, <a href="/services/home-appliances-repair/brands/hitachi/">Hitachi</a>, <a href="/services/home-appliances-repair/brands/sanyo/">Sanyo</a>, <a href="/services/home-appliances-repair/brands/midea/">Midea</a>, <a href="/services/home-appliances-repair/brands/aftron/">Aftron</a>, <a href="/services/home-appliances-repair/brands/maytag/">Maytag</a>, <a href="/services/home-appliances-repair/brands/wolf/">Wolf</a>, <a href="/services/home-appliances-repair/brands/frigidaire/">Frigidaire</a>, <a href="/services/home-appliances-repair/brands/admiral/">Admiral</a>, <a href="#">Speed Queen</a>, <a href="/services/home-appliances-repair/brands/smeg/">Smeg</a>, <a href="/services/home-appliances-repair/brands/miele/">Miele</a>, and Sharp.<br />
                             Our experienced technicians offer fast and affordable repair services for all types of home appliances, such as washing machines, dryers, refrigerators, fridge freezers, ovens, stoves, dishwashers, cooker, hood and more.<br />
@@ -203,33 +203,34 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 </section>
 
                 {/* Common Issue Ac Maintenance */}
-                <section className="ac_common_issues_section cs_py_60 bg-light-white">
+                <section className="ac_common_issues_section cs_py_60 bg-light-gray">
                     <div className="container">
                         <div className="ac_issues_header_wrapper">
                             <h2>Common Appliance Repair Issues We Fix</h2>
-                            <p>At FAJ Technical Services L.L.C,  we offer expert home appliance repair services for a variety of issues. If you’re experiencing any of the following problems, our skilled technicians are ready to assist you.</p>
+                            <p>At <b>FAJ Technical Services L.L.C</b> , we offer expert home appliance repair services for a variety of issues. If you’re experiencing any of the following problems, <br /> our skilled technicians are ready to assist you.</p>
                         </div>
 
                         <div className="ac_issues_grid_container">
                             <div className="ac_issue_single_card">
-                                <div className="ac_issue_card_header">
+                                <div className="text-center text-white bgdarkblue">
                                     <h3>Washing Machine Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
-                                    <p>Drum not rotating, door locked, power or display error, unusual noise during operation, drain blockage and water leakage, no spinning or excessive vibration.</p>
+                                    <p>Drum not rotating, door locked, power or display error, unusual noise during operation, drain blockage and water leakage, no spinning or excessive vibration. </p>
                                 </div>
                             </div>
 
                             <div className="ac_issue_single_card">
-                                <div className="ac_issue_card_header">
+                                <div className="text-center text-white bgdarkblue">
                                     <h3>Tumble Dryer Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
                                     <p>No water intake, soap dispenser not working, no steam during wash cycles, white patches left on utensils, and bad odor inside the dishwasher.</p>
                                 </div>
                             </div>
+
                             <div className="ac_issue_single_card">
-                                <div className="ac_issue_card_header">
+                                <div className="text-center text-white bgdarkblue">
                                     <h3>Dishwasher Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
@@ -238,7 +239,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                             </div>
 
                             <div className="ac_issue_single_card">
-                                <div className="ac_issue_card_header">
+                                <div className="text-center text-white bgdarkblue">
                                     <h3>Refrigerator Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
@@ -247,16 +248,15 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                             </div>
 
                             <div className="ac_issue_single_card">
-                                <div className="ac_issue_card_header">
+                                <div className="text-center text-white bgdarkblue">
                                     <h3>Washer Dryer Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
                                     <p>Issues: Drum rotation failure, error messages displayed, clothes not drying properly, unusual noise, and excessive vibration.</p>
                                 </div>
                             </div>
-
-                            <div className="ac_issue_single_card">
-                                <div className="ac_issue_card_header">
+                             <div className="ac_issue_single_card">
+                                <div className="text-center text-white bgdarkblue">
                                     <h3>Freezer Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
@@ -265,15 +265,15 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                             </div>
                         </div>
                     </div>
-                    <div className="mt-5">
-                            <div className="d-flex justify-content-center align-items-center gap-3">
-                                <WhatsappIconButton />
-                            </div>
-                        </div>
+                    <div className="py-4 px-4">
+              <div className="d-flex justify-content-center align-items-center gap-3">
+                <WhatsappIconButton />
+              </div>
+            </div>
                 </section>
 
                 {/* Gallery */}
-                <section className="section gallery_section bg-light-gray cs_py_30">
+                <section className="section gallery_section bg-light-white cs_py_30">
                     <div className="container">
                         <h2>Gallery  <Gallery /></h2>
                         <div className="row gx-3 gy-2">
