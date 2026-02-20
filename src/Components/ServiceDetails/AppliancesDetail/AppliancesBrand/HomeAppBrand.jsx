@@ -7,6 +7,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import BlogHomeAppliances from '../../../Blog/BlogHomeAppliances';
 import WhatsappIconButton from '../../../Buttons/WhatsappIconButton';
+import ApplianceCategories from '../../../Services/homeappliances/ApplianceCategories';
+import Gallery from '../../../Svg/Gallery';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
     if (!imgPath) return '';
@@ -127,15 +129,14 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                     <div className="container">
                         <h1 className="cs_fs_30">Top Brand Home Appliances Service Center and Repair in Dubai</h1>
                         <p>
-                            Looking for a reliable home appliance service center? We specialize in the repair of appliances from major brands, including <a href="/services/home-appliances-repair/brands/lg/">LG</a>, <a href="/services/home-appliances-repair/brands/aeg/">AEG</a>, <a href="/services/home-appliances-repair/brands/ariston/">Ariston</a>, <a href="/services/home-appliances-repair/brands/beko/">Beko</a>, <a href="/services/home-appliances-repair/brands/la-germania/">La Germina</a>, <a href="/services/home-appliances-repair/brands/electrolux/">Electrolux</a>, <a href="/services/home-appliances-repair/brands/siemens/">Siemens</a>, <a href="/services/home-appliances-repair/brands/neff/">neff</a>, <a href="/services/home-appliances-repair/brands/teka/">Teka</a>, <a href="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a>, <a href="/services/home-appliances-repair/brands/samsung/">Samsung</a>, <a href="/services/home-appliances-repair/brands/viking/">Viking</a>, <a href="/services/home-appliances-repair/brands/subzero/">Sub Zero</a>,  <a href="/services/home-appliances-repair/brands/daewoo/">Daewoo</a>, <a href="/services/home-appliances-repair/brands/daewoo/">gaggenau</a>, <a href="/services/home-appliances-repair/brands/haier/">Haier</a>, <a href="/services/home-appliances-repair/brands/hitachi/">Hitachi</a>, <a href="/services/home-appliances-repair/brands/sanyo/">Sanyo</a>, <a href="/services/home-appliances-repair/brands/midea/">Midea</a>, <a href="/services/home-appliances-repair/brands/aftron/">Aftron</a>, <a href="/services/home-appliances-repair/brands/maytag/">Maytag</a>, <a href="/services/home-appliances-repair/brands/wolf/">Wolf</a>, <a href="/services/home-appliances-repair/brands/frigidaire/">Frigidaire</a>, <a href="/services/home-appliances-repair/brands/admiral/">Admiral</a>, <a href="#">Speed Queen</a>, <a href="/services/home-appliances-repair/brands/smeg/">Smeg</a>, <a href="#">Speed Queen</a>, <a href="/services/home-appliances-repair/brands/miele/">Miele</a>, and Sharp.
-                            Our experienced technicians offer fast and affordable repair services for all types of home appliances, such as washing machines, dryers, refrigerators, fridge freezers, ovens, stoves, dishwashers, cooker, hood and more.
+                            Looking for a reliable home appliance service center? We specialize in the repair of appliances from major brands, including <a href="/services/home-appliances-repair/brands/lg/">LG</a>, <a href="/services/home-appliances-repair/brands/aeg/">AEG</a>, <a href="/services/home-appliances-repair/brands/ariston/">Ariston</a>, <a href="/services/home-appliances-repair/brands/beko/">Beko</a>, <a href="/services/home-appliances-repair/brands/la-germania/">La Germina</a>, <a href="/services/home-appliances-repair/brands/electrolux/">Electrolux</a>, <a href="/services/home-appliances-repair/brands/siemens/">Siemens</a>, <a href="/services/home-appliances-repair/brands/neff/">neff</a>, <a href="/services/home-appliances-repair/brands/teka/">Teka</a>, <a href="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a>, <a href="/services/home-appliances-repair/brands/samsung/">Samsung</a>, <a href="/services/home-appliances-repair/brands/viking/">Viking</a>, <a href="/services/home-appliances-repair/brands/subzero/">Sub Zero</a>,  <a href="/services/home-appliances-repair/brands/daewoo/">Daewoo</a>, <a href="/services/home-appliances-repair/brands/gaggenau/">gaggenau</a>, <a href="/services/home-appliances-repair/brands/haier/">Haier</a>, <a href="/services/home-appliances-repair/brands/hitachi/">Hitachi</a>, <a href="/services/home-appliances-repair/brands/sanyo/">Sanyo</a>, <a href="/services/home-appliances-repair/brands/midea/">Midea</a>, <a href="/services/home-appliances-repair/brands/aftron/">Aftron</a>, <a href="/services/home-appliances-repair/brands/maytag/">Maytag</a>, <a href="/services/home-appliances-repair/brands/wolf/">Wolf</a>, <a href="/services/home-appliances-repair/brands/frigidaire/">Frigidaire</a>, <a href="/services/home-appliances-repair/brands/admiral/">Admiral</a>, <a href="#">Speed Queen</a>, <a href="/services/home-appliances-repair/brands/smeg/">Smeg</a>, <a href="/services/home-appliances-repair/brands/miele/">Miele</a>, and Sharp.<br />
+                            Our experienced technicians offer fast and affordable repair services for all types of home appliances, such as washing machines, dryers, refrigerators, fridge freezers, ovens, stoves, dishwashers, cooker, hood and more.<br />
                             We are committed to providing quick and efficient repair solutions so your appliances are up and running in no time.
 
                         </p>
                     </div>
                 </section>
-                {/* 
-                <PriceCard /> */}
+
 
                 <section className="section cs_py_30">
                     <div className="container">
@@ -143,61 +144,64 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         <p>
                             Welcome to FAJ Technical Services L.L.C, a reliable kitchen appliance repair and maintenance service company dedicated to going the extra mile for our customers. Established in 2010, our team of highly experienced technicians is available on call and undergoes regular training on new products and methods. We specialise in repairs, installations, and annual maintenance contracts (AMC) for a type freestading and built-in appliances and top brands of kitchen appliances across Dubai and Sharjah, UAE.
                         </p>
-                        <div className="ac_service_tags_container">
-                            <a href="/services/home-appliances-repair/hob-repair-service/"><span className="ac_service_tag">Hob Repair</span></a>
-                            <a href="/services/home-appliances-repair/oven-repair-service/"><span className="ac_service_tag">Oven Repair</span></a>
-                            <a href="/services/home-appliances-repair/gas-cooker-repair-service/"><span className="ac_service_tag">Gas Range Repair</span></a>
-                            <a href="/services/home-appliances-repair/refrigerator-repair-service/"><span className="ac_service_tag">Refrigerator Repair</span></a>
-                            <a href="/services/home-appliances-repair/dishwasher-repair-service/"><span className="ac_service_tag">Dishwasher Repair</span></a>
-                            <a href="/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/"><span className="ac_service_tag">BBQ Repair Service</span></a>
-                            <a href="/services/home-appliances-repair/cigar-humidor-repair/"><span className="ac_service_tag">Cigar Humdior Repair</span></a>
-                            <a href="/services/home-appliances-repair/robot-vacuum-cleaner-repair/"><span className="ac_service_tag">Vacuume Repair</span></a>
-                            <a href="/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/"><span className="ac_service_tag">Small Appliances Repair</span></a>
-                            <a href="/services/home-appliances-repair/washing-machine-repair-service-dubai/"><span className="ac_service_tag">Washing Machine Repair</span></a>
-                            <a href="/services/home-appliances-repair/built-in-appliances-repair-service/"><span className="ac_service_tag">Integrated Appliances Repair</span></a>
-                            <a href="/services/home-appliances-repair/appliances-repair-service/"><span className="ac_service_tag">Free Standing Appliances Repair</span></a>
-                            <a href="/services/home-appliances-repair/appliances-amc-service/"><span className="ac_service_tag">AMC Contract</span></a>
-                        </div>
                     </div>
                 </section>
-                <section className="section cs_py_30 bg-light-white">
-
-                </section>
-
-                <section className="section cs_py_30 bg-light-gray">
-                    <div className="container">
-                        <div className="container">
-                            <h1 className="cs_fs_30">Why Choose Top Brand FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs</h1>
-                            <p>
-                                When you need home appliance repair, it's essential to select a reliable service provider that offers quality repairs and quick service with skilled technicians. At FAJ Technical Services L.L.C, we ensure that your appliances are repaired promptly, efficiently, and at an affordable price, all while upholding the highest standards of service.
-                            </p>
-                        </div>
-
-                        <h3 className="cs_fs_30">We are Home Appliance Service Center in Dubai , Shrarjah UAE</h3>
-                        <p>We repair top brands and models of home appliances, including washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, and hobs.All our repairs are carried out by trained technicians who are experts in appliance repair center.Our team has successfully handled numerous repairs across various appliances.
-                            Whether you need assistance with your washing machine, fridge freezer, cooker, dishwasher, or tumble dryer, we will quickly fix any faults that arise. All of our repairs are guaranteed for your peace of mind. You can conveniently book our services online at any time.</p>
-                        <div className="row align-items-start">
-                            <div className="col-md-6">
-                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')} alt="Admiral Washing Machine Repair" />
-                            </div>
-                            <div className="col-md-6">
-                                <ul className="mb-0">
-                                    <li><strong>  Expert Appliances Technicians: </strong> Our technicians are skilled and experienced in troubleshooting and fixing appliance issues for all major brands. </li>
-                                    <li><strong> Comprehensive Services: </strong> We offer a comprehensive range of services for home appliances, including minor repairs and major fixes. </li>
-                                    <li><strong> Warranty Repair: </strong> It's important to use genuine spare parts in coffee machines, equipment, and vending machines for optimal performance and longevity. </li>
-                                    <li><strong> Timely Booking:</strong>  Our online booking system is available every day of the week, allowing you to schedule repair at your convenience. </li>
-                                    <li><strong> Quick Support: </strong> We realise the importance of functional appliances in our daily lives. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="get-quote" className=" mt-3">
-                                  <div className="container d-flex justify-content-center align-items-center gap-3">
-                                    <WhatsappIconButton />
-                                  </div>
+                <div className='bg-light-gray'>
+                    <ApplianceCategories />
+                </div>
+                {/* why choose */}
+                <section className="section cs_py_30 bg-light-white ">
+                    <div className="container border-1 p-0">
+                        <h2 className="cs_fs_30 text-center mb-4">Why Choose FAJ Appliance Repair Service? Trusted & Reliable Home Appliance Repairs</h2>
+                        <p>When you require home appliance repair, it's essential to choose a reliable service center provider that offers quality repairs, quick service, and appliance technicians. At FAJ Technical Services L.L.C. we ensure that your appliances will be repaired promptly, efficiently, and at an affordable price, all while maintaining the highest standards of service.</p>
+                        <h3>We are Home Appliance Repair Service Centers</h3>
+                        <p>We repair all brands and models of Home appliances including washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. All our repairs are performed by trained technicians. We are experts in appliance repair, and our technicians have successfully handled multiple repairs inculding washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. Whether it is your Washing Machine, Fridge, freezer, Cooker, Dishwasher or Tumble Dryer. We will quickly fix any faults that develop, and all our repair are guaranteed. You can book online at any time.
+                        </p>
+                        <div className="row align-items-center g-0 border border-dark rounded overflow-hidden">
+                            <div className="col-12 col-lg-5 mb-4 mb-lg-0">
+                                <div className="shop-ac-image-wrapper">
+                                    <img
+                                        src={`${CDN}/techfridge/public`}
+                                        alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
+                                        title="Commercial AC Maintenance Service in Dubai"
+                                        width="500"
+                                        height="400"
+                                        loading="lazy"
+                                        decoding="async"
+                                        className="service-image"
+                                        style={{
+                                            width: '100%',
+                                            height: '100%',
+                                            display: 'block',
+                                            objectFit: 'cover',
+                                        }}
+                                    />
                                 </div>
+                            </div>
+
+                            <div className="col-12 col-lg-7 px-3">
+                                <div className="shop-ac-bullet-list">
+                                    <div className="shop-ac-bullet-col">
+                                        <ul className='m-1'>
+                                            <li><b>Expert Technicians:</b> Our technicians are trained and experienced in resolving appliance issues across all major brands.</li>
+                                            <li><b>Comprehensive Services:</b> We provide a wide range of services for home appliances, from minor fixes to major repair.</li>
+                                            <li><b>Warranty Repair:</b> Using genuine parts in coffee machines, equipment, and vending machines.</li>
+                                            <li><b>Timely Booking:</b> Our online booking system is available seven days a week, allowing you to schedule repairs at your convenience.</li>
+                                            <li><b>Quick Support:</b> We recognize the importance of functional appliances in our daily lives and work hard to deliver prompt and efficient repair services.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="mt-5">
+                            <div className="d-flex justify-content-center align-items-center gap-3">
+                                <WhatsappIconButton />
+                            </div>
+                        </div>
+                    </div>
                 </section>
-                
+
                 {/* Common Issue Ac Maintenance */}
                 <section className="ac_common_issues_section cs_py_60 bg-light-white">
                     <div className="container">
@@ -238,7 +242,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                                     <h3>Refrigerator Repair</h3>
                                 </div>
                                 <div className="ac_issue_card_content">
-                                    <p>No power Not cooling properly Excessive ice formation Loud compressor noise</p>
+                                    <p>No power Not cooling properly Excessive ice formation Loud compressor noise.</p>
                                 </div>
                             </div>
 
@@ -258,6 +262,38 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                                 <div className="ac_issue_card_content">
                                     <p>No power, not cooling efficiently; ice buildup and frost issues; compressor is making loud noises.</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mt-5">
+                            <div className="d-flex justify-content-center align-items-center gap-3">
+                                <WhatsappIconButton />
+                            </div>
+                        </div>
+                </section>
+
+                {/* Gallery */}
+                <section className="section gallery_section bg-light-gray cs_py_30">
+                    <div className="container">
+                        <h2>Gallery  <Gallery /></h2>
+                        <div className="row gx-3 gy-2">
+                            <div className="col-md-4 col-6">
+                                <img src={`${CDN}/homeappliances/galleryimghome/public`} alt="" />
+                            </div>
+                            <div className="col-md-4 col-6">
+                                <img src={`${CDN}/galleryimghome2/public`} alt="" />
+                            </div>
+                            <div className="col-md-4 col-6">
+                                <img src={`${CDN}/homeappliances/galleryimg3/public`} alt="" />
+                            </div>
+                            <div className="col-md-4 col-6">
+                                <img src={`${CDN}/homeappliances/galleryimg4/public`} alt="" />
+                            </div>
+                            <div className="col-md-4 col-6">
+                                <img src={`${CDN}/homeappliances/galleryimg5/public`} alt="" />
+                            </div>
+                            <div className="col-md-4 col-6">
+                                <img src={`${CDN}/homeappliances/galleryimg6/public`} alt="" />
                             </div>
                         </div>
                     </div>

@@ -6,6 +6,7 @@ import '../../../../assets/main.css';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
 import BlogAppliances from '../../../Blog/BlogAppliances';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
+import Gallery from '../../../Svg/Gallery';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -113,8 +114,8 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* Technical Services to Keep Your Coffee Flowing */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">In which areas does FAJ Home Appliances Repair operate in Dubai?</h1>
-            <p>At FAJ Technical Services L.L.C, one of the most common questions we receive is, “Which areas of Dubai do you serve?” We are proud to serve over 100 locations throughout Dubai and its surrounding areas, catering to homes, offices, and businesses. Our expert teams in home appliance services provide installations, repairs, maintenance, and annual maintenance contracts directly at your location, whether in the city center or the outskirts.
+            <h1 className="cs_fs_30">In which areas does FAJ Home Appliances <br /> Repair operate in Dubai?</h1>
+            <p>At <b>FAJ Technical Services L.L.C</b>, one of the most common questions we receive is, “Which areas of Dubai do you serve?” We are proud to serve over 100 locations throughout Dubai and its surrounding areas, catering to homes, offices, and businesses. Our expert teams in home appliance services provide installations, repairs, maintenance, and annual maintenance contracts directly at your location, whether in the city center or the outskirts.
             </p>
           </div>
         </section>
@@ -122,7 +123,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Where Does FAJ Operate in Dubai? <br />Comprehensive Coverage Across Prime Dubai Locations</h1>
-            <p>We have successfully maintained, repaired, and serviced premium home appliances across a diverse range of properties throughout Dubai. Our service areas include <a href="/services/home-appliances-repair/coverage-area/al-barsha/">Al Barsha</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a>, <a href="/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a>, <a href="/services/home-appliances-repair/coverage-area/jebel-ali/">Jebel Ali</a>, <a href="/services/home-appliances-repair/coverage-area/dip/">DIP</a>, <a href="/services/home-appliances-repair/coverage-area/jafza/">JAFZA</a>, <a href="/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills</a>, <a href="/services/home-appliances-repair/coverage-area/the-springs/">The Springs</a>, <a href="/services/home-appliances-repair/coverage-area/damac-hills/">Damac Hills</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-sports-city/">Sports City</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-motor-city/">Motor City</a>, and more.
+            <p>We have successfully maintained, repaired, and serviced premium home appliances across a diverse range of properties throughout Dubai. Our service areas include <a href="/services/home-appliances-repair/coverage-area/al-barsha/">Al Barsha</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a>, <a href="/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a>, <a href="/services/home-appliances-repair/coverage-area/jebel-ali/">Jebel Ali</a>, <a href="/services/home-appliances-repair/coverage-area/dip/">DIP</a>, <a href="/services/home-appliances-repair/coverage-area/jafza/">JAFZA</a>, <a href="/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills</a>, <a href="/services/home-appliances-repair/coverage-area/the-springs/">The Springs</a>, <a href="/services/home-appliances-repair/coverage-area/damac-hills/">Damac Hills</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-sports-city/">Sports City</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-motor-city/">Motor City</a>, and more.<br />
               These areas have become popular among homeowners and business owners seeking to enhance their indoor comfort with discreet, high-performance appliances. We installed these appliances in modern flats, luxury apartments, and villas.
 
             </p>
@@ -173,13 +174,12 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <div className="ac_issues_header_wrapper">
               <h2>Common Issues in Home Appliances Maintenance in Dubai, UAE</h2>
-              <p>We have encountered numerous home appliances and identified common issues.</p>
-              <p className="ac_issues_sub_text">Here are the mistakes that people often make:</p>
+              <p>We have encountered numerous home appliances and identified common issues. <br />Here are the mistakes that people often make:</p>
             </div>
 
             <div className="ac_issues_grid_container">
               <div className="ac_issue_single_card">
-                <div className="ac_issue_card_header">
+                <div className="text-center text-white bgdarkblue">
                   <h3>Schedule maintenance for appliances before they break down</h3>
                 </div>
                 <div className="ac_issue_card_content">
@@ -190,7 +190,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="ac_issue_single_card">
-                <div className="ac_issue_card_header">
+                <div className="text-center text-white bgdarkblue">
                   <h3>Only contact when something fails</h3>
                 </div>
                 <div className="ac_issue_card_content">
@@ -201,7 +201,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="ac_issue_single_card">
-                <div className="ac_issue_card_header">
+                <div className="text-center text-white bgdarkblue">
                   <h3>Selecting the cheapest option</h3>
                 </div>
                 <div className="ac_issue_card_content">
@@ -212,7 +212,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="ac_issue_single_card">
-                <div className="ac_issue_card_header">
+                <div className="text-center text-white bgdarkblue">
                   <h3>Allowing unqualified individuals to work on your home appliance</h3>
                 </div>
                 <div className="ac_issue_card_content">
@@ -223,7 +223,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="ac_issue_single_card">
-                <div className="ac_issue_card_header">
+                <div className="text-center text-white bgdarkblue">
                   <h3>Ignoring warning signs</h3>
                 </div>
                 <div className="ac_issue_card_content">
@@ -239,9 +239,10 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* beniift */}
         <section className="benefits_section cs_py_60 bg-light-gray">
           <div className="container">
+           
+         <div className="paragraph_sec">
             <h2 className="benefits_title">The Benefits of Professional Home Appliances Services</h2>
-            <div className='paragraph_sec'>
-              <p>While some homeowners or business owners may attempt DIY repairs, home appliances are complex and require professional expertise to ensure safe and effective repairs. Here’s why you should trust FAJ Technical Services L.L.C.</p>
+            <p className="fs-5 lh-base">While some homeowners or business owners may attempt DIY repairs, home appliances are complex and require professional expertise to ensure safe and effective repairs. Here’s why you should trust FAJ Technical Services L.L.C.</p>
             </div>
             <div className="benefits_grid">
               <div className="benefit_card">
@@ -347,10 +348,10 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* Servcies Area */}
         <section className="service_areas_dubai_section cs_py_60">
           <div className="container">
-            <h2 className="service_areas_main_heading">Our Service Areas Across Dubai</h2>
+            <h2 className="service_areas_main_heading ">Our Service Areas Across Dubai</h2>
             <p className="service_areas_intro_text">We offer dependable air conditioning maintenance services across Dubai, including:</p>
 
-            <h3 className="service_areas_sub_heading">Popular Areas:</h3>
+            <p className="text-left"><b>Popular Areas:</b></p>
 
             <div className="service_areas_tags_container">
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a></span>
@@ -365,7 +366,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-furjan/">Al Furjan</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-jafiliya/">Jafiliya</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-karama/">Al Karama</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Al Khawaneej</a></span>        
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Al Khawaneej</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-mamzar/">Al Mamzar</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/downtown/">Downtown Dubai</a></span>
@@ -404,11 +405,35 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Ramool Umm Suqeim</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/victory-heights/">Victory Heights</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jlt/">JLt</a></span>
-              
-              
-              
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></span>
-              
+
+            </div>
+          </div>
+        </section>
+
+        {/* Gallery */}
+        <section className="section gallery_section bg-light-gray cs_py_30">
+          <div className="container">
+            <h2>Gallery  <Gallery /></h2>
+            <div className="row gx-3 gy-2">
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/homeappliances/galleryimghome/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/galleryimghome2/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/homeappliances/galleryimg3/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/homeappliances/galleryimg4/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/homeappliances/galleryimg5/public`} alt="" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/homeappliances/galleryimg6/public`} alt="" />
+              </div>
             </div>
           </div>
         </section>

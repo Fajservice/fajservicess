@@ -9,6 +9,7 @@ import ApplianceCategories from './ApplianceCategories';
 import BlogWashingMachine from '../../Blog/BlogWashingMachine';
 import PriceCardHomeCat from './PriceCardHomeappCat';
 
+
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -222,6 +223,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
                   />
                 </div>
               </div>
+              
               <div className="col-12 col-lg-7 px-3">
                 <div className="shop-ac-bullet-list">
                   <div className="shop-ac-bullet-col">
