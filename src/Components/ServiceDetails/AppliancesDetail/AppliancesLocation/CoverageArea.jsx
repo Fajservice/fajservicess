@@ -356,7 +356,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <div className="service_areas_tags_container">
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jbr/">JBR - JLT</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jbr/">JBR</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/academy-city/">Academy City</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-bada/">Al Bada</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-barsha/">Al Barsha</a></span>
