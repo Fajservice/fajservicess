@@ -114,7 +114,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* Technical Services to Keep Your Coffee Flowing */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">In which areas does FAJ Home Appliances <br /> Repair operate in Dubai?</h1>
+            <h1 className="cs_fs_50">In which areas does FAJ Home Appliances <br /> Repair operate in Dubai?</h1>
             <p>At <b>FAJ Technical Services L.L.C</b>, one of the most common questions we receive is, “Which areas of Dubai do you serve?” We are proud to serve over 100 locations throughout Dubai and its surrounding areas, catering to homes, offices, and businesses. Our expert teams in home appliance services provide installations, repairs, maintenance, and annual maintenance contracts directly at your location, whether in the city center or the outskirts.
             </p>
           </div>
@@ -122,7 +122,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Where Does FAJ Operate in Dubai? <br />Comprehensive Coverage Across Prime Dubai Locations</h1>
+            <h2 className="cs_fs_30">Where Does FAJ Operate in Dubai? <br />Comprehensive Coverage Across Prime Dubai Locations</h2>
             <p>We have successfully maintained, repaired, and serviced premium home appliances across a diverse range of properties throughout Dubai. Our service areas include <a href="/services/home-appliances-repair/coverage-area/al-barsha/">Al Barsha</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-marina/">Dubai Marina</a>, <a href="/services/home-appliances-repair/coverage-area/palm-jumeirah/">Palm Jumeirah</a>, <a href="/services/home-appliances-repair/coverage-area/jebel-ali/">Jebel Ali</a>, <a href="/services/home-appliances-repair/coverage-area/dip/">DIP</a>, <a href="/services/home-appliances-repair/coverage-area/jafza/">JAFZA</a>, <a href="/services/home-appliances-repair/coverage-area/business-bay/">Business Bay</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills</a>, <a href="/services/home-appliances-repair/coverage-area/the-springs/">The Springs</a>, <a href="/services/home-appliances-repair/coverage-area/damac-hills/">Damac Hills</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-silicon-oasis/">Dubai Silicon Oasis</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-sports-city/">Sports City</a>, <a href="/services/home-appliances-repair/coverage-area/dubai-motor-city/">Motor City</a>, and more.<br />
               These areas have become popular among homeowners and business owners seeking to enhance their indoor comfort with discreet, high-performance appliances. We installed these appliances in modern flats, luxury apartments, and villas.
 
