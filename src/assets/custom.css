@@ -152,17 +152,7 @@ section#get-quote {
   position: relative;
 }
 
-.border-small-top::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 260px;
-  height: 4px;
-  background-color: var(--bg-dark-blue);
-  border-radius: 50%;
-}
+
 
 .border-small-left {
   position: relative;
@@ -771,10 +761,6 @@ p a {
 
   .appointment-col.border-small-top {
     border-top: 0 !important;
-  }
-
-  .appointment-col.border-small-top::before {
-    display: none;
   }
 
   .right-border-col.border-col-end {

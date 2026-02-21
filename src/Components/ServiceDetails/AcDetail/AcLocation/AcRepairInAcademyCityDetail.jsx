@@ -16,6 +16,7 @@ import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import { EyeIcon, EyeSlashIcon } from "../../../../icons/EyeIcon";
 import PriceCard from "./PriceCard";
+import AcBenefits from "../AcBenefit";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -136,7 +137,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
@@ -358,80 +359,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 </section>
 
                 {/* The Benefits Of Regular AC Service*/}
-                <section className="section cs_py_30 ac_benifit_blue">
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-10 text-center">
-                                <h2 className="cs_fs_30 text-light"> Benefits Of Regular AC Service and Maintenance in Academy City </h2>
-
-                                <div className="row mt-4 gx-4 gy-4">
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
-                                            <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
-                                            <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                                            <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
-                                            <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
-                                            <p className="small">We ensure you get optimal air flow around each room as needed.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                                            <p className="small">Our team provides vital feedback on your AC&apos;s health and any needed air con repair.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="text-center mb-4">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <AcBenefits city="Academy City"/>
 
                 {/* Why choose us AC */}
                 <section className="section cs_py_30">
