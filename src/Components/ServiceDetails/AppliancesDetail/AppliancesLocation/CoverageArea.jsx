@@ -180,11 +180,11 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <div className="ac_issues_grid_container">
               <div className="ac_issue_single_card">
                 <div className="text-center text-white bgdarkblue">
-                  <h3>Schedule maintenance for appliances before they break down</h3>
+                  <h3>Schedule maintenance for appliances <br /> before they break down</h3>
                 </div>
                 <div className="ac_issue_card_content">
                   <p>Your home appliance is not used for months and when you turn it on in summer, it is not working properly. Now, you are also waiting for emergency home appliance service. </p>
-                  <h4>Better procedure:</h4>
+                  <p><b>Better procedure:</b></p>
                   <p>Schedule maintenance in March or April before summer starts. This ensures better availability, lower prices, & provides peace of mind.</p>
                 </div>
               </div>
@@ -195,7 +195,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="ac_issue_card_content">
                   <p>Reactive maintenance is much more costly than preventive maintenance. A 99 AED service visit could have prevented a 1250 AED emergency repair.</p>
-                  <h4>Better procedure:</h4>
+                  <p><b>Better procedure:</b></p>
                   <p>Routine maintenance, whether annually or biannually, helps to identify issues before they escalate into expensive emergencies.</p>
                 </div>
               </div>
@@ -206,7 +206,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="ac_issue_card_content">
                   <p>Is that company offering home appliance service for 50 to 100 AED? They might be cutting corners or planning to aggressively upsell you once they're in your home.</p>
-                  <h4>Better procedure:</h4>
+                  <p><b>Better procedure:</b></p>
                   <p>Seek competitive pricing from trusted companies. Generally, you tend to receive quality in proportion to the amount you spend.</p>
                 </div>
               </div>
@@ -217,7 +217,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="ac_issue_card_content">
                   <p>That handyman who claims he can repair your home appliances cheaply might actually make the issue worse.</p>
-                  <h4>Better procedure:</h4>
+                  <p><b>Better procedure:</b></p>
                   <p> Choose a licensed company with experienced home appliance technicians who are skilled and knowledgeable in their work.</p>
                 </div>
               </div>
@@ -227,8 +227,8 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <h3>Ignoring warning signs</h3>
                 </div>
                 <div className="ac_issue_card_content">
-                  <p>Signs of damage, electrical faults, and high bills indicate problems with your home appliance.</p>
-                  <h4>Better procedure:</h4>
+                  <p>Signs of damage, electrical faults, and high bills indicate problems with your home <br /> appliance.</p>
+                  <p><b>Better procedure:</b></p>
                   <p>Address minor issues promptly to stop them from escalating into major emergencies.</p>
                 </div>
               </div>
@@ -242,7 +242,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
            
          <div className="paragraph_sec">
             <h2 className="benefits_title">The Benefits of Professional Home Appliances Services</h2>
-            <p className="fs-5 lh-base">While some homeowners or business owners may attempt DIY repairs, home appliances are complex and require professional expertise to ensure safe and effective repairs. Here’s why you should trust FAJ Technical Services L.L.C.</p>
+            <p className="fs-5 lh-base">While some homeowners or business owners may attempt DIY repairs, home appliances are complex and require <br /> professional expertise to ensure safe and effective repairs. Here’s why you should trust <b>FAJ Technical Services L.L.C.</b> </p>
             </div>
             <div className="benefits_grid">
               <div className="benefit_card">
@@ -258,7 +258,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <img src={getImageSrc('Real-Diagnosis')} alt="Comprehensive Services" />
                 </div>
                 <h3>Real Diagnosis</h3>
-                <p>Diagnosing problems with home appliances requires both skill and tools. Our experts quickly identify issues and offer effective solutions, saving you time and frustration.</p>
+                <p>Diagnosing problems with home appliances requires both skill and tools. Our experts <br /> quickly identify issues and offer effective solutions, saving you time and frustration.</p>
               </div>
 
               <div className="benefit_card">
@@ -274,7 +274,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <img src={getImageSrc('Long-Term-Reliability')} alt="Comprehensive Services" />
                 </div>
                 <h3>Long-Term Reliability</h3>
-                <p>Our expert repair provides lasting solutions by addressing the root causes of your home appliance issues, preventing future problems, and enhancing reliability.</p>
+                <p>Our expert repair provides lasting solutions by addressing the root causes of your home appliance issues, preventing future <br /> problems, and enhancing reliability.</p>
               </div>
 
               <div className="benefit_card">
@@ -282,7 +282,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <img src={getImageSrc('Energy-Savings')} alt="Comprehensive Services" />
                 </div>
                 <h3>Energy Savings</h3>
-                <p>Professional repair can enhance your system's efficiency, significantly reducing energy consumption and lowering your monthly utility bills.</p>
+                <p>Professional repair can enhance your system's efficiency, significantly reducing energy consumption and lowering your <br /> monthly utility bills.</p>
               </div>
 
               <div className="benefit_card">
@@ -290,7 +290,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <img src={getImageSrc('Protects-Property')} alt="Comprehensive Services" />
                 </div>
                 <h3>Protects Property</h3>
-                <p>Safeguards electronics against damage and prevents warping from heat and moisture.</p>
+                <p>Safeguards electronics against damage and prevents warping from heat and <br /> moisture.</p>
               </div>
             </div>
           </div>
@@ -370,12 +370,12 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-mamzar/">Al Mamzar</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/downtown/">Downtown Dubai</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/difc/">DifC</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/difc/">DIFC</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-manara/">Al Manara</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-quoz/">Al Quoz</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Al Quusais</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/deira/">Deira </a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-sufouh/">Al Sufoh </a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-sufouh/">Al Sufouh </a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-safa/">Al Safa</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Al Warqa</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Emirates Hills</a></span>
@@ -390,7 +390,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jumeirah-park/">Jumierah Park</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jvc/">JVC</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Mirdif</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-sport-city/">Sports City</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-sports-city/">Sports City</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-studio-city/">Dubai Studio City</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jebel-ali/">Jebel Ali</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills</a></span>
@@ -402,10 +402,10 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-greens/">The Greens</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-villa/">The Villas</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/umm-al-sheif/">Umm Al Sheif</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Ramool Umm Suqeim</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Suqeim</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Umm Ramool</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/victory-heights/">Victory Heights</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jlt/">JLt</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jlt/">JLT</a></span>
 
             </div>
           </div>
