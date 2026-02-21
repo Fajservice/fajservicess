@@ -12,13 +12,13 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 
-const AcBrandBenifit = () => {
+const AcBrandBenifit = ({ brandName = "AC" }) => {
     return (
       
         <section className="section ac_benifit_blue">
             <div className="container">
                     <div className="text-center">
-                        <h2 className="cs_fs_30 text-light my-5">Benefits of Regular AC Service and Maintenance in Dubai
+                        <h2 className="cs_fs_30 text-light my-5">Benefits of Regular {brandName} Service and Maintenance in Dubai
                         </h2>
                         <div className="row mt-4 gx-4 gy-4">
                             <div className="col-md-4 mb-5">

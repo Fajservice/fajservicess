@@ -535,7 +535,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
               <div className="usptext">
                 <h3 className="">جدير بالثقة</h3>
-                <p>فنيو التكييف <a href="https://www.facebook.com/ACRepairUAE"><b>الماهرون لدينا</b></a> مدربون تدريباً عالياً، ونقدم خدمة ممتازة لمجموعة متنوعة من علامات التكييف الكبرى بكفاءة.
+                <p>فنيو التكييف <a href="https://www.facebook.com/acrepairservices"><b>الماهرون لدينا</b></a> مدربون تدريباً عالياً، ونقدم خدمة ممتازة لمجموعة متنوعة من علامات التكييف الكبرى بكفاءة.
                 </p>
               </div>
             </div>

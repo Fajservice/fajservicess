@@ -181,7 +181,7 @@ const TCLAcRepair = ({
                 </div>
               </div>
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('ac filter')} alt="TCL AC Service" />
+                <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="TCL AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
@@ -342,7 +342,7 @@ const TCLAcRepair = ({
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR TCL AC SYSTEMS</h2>
+            <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR TCL AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -537,7 +537,7 @@ const TCLAcRepair = ({
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
                 </div>

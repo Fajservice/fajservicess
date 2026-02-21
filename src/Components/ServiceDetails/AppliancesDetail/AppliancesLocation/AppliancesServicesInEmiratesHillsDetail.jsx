@@ -12,6 +12,7 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
+import PriceCardHomeCat from '../../../Services/homeappliances/PriceCardHomeappCat.jsx';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -302,7 +303,7 @@ const AppliancesServicesInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h2>
+            <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">

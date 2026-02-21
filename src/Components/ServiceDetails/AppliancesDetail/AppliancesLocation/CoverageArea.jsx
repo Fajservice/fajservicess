@@ -370,12 +370,12 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-mamzar/">Al Mamzar</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills Estate</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/downtown/">Downtown Dubai</a></span>
-              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/difc/">DifC</a></span>
+              <span className="service_area_tag"><a href="/services/air-conditioning-repair/coverage-area/difc/">DIFC</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-manara/">Al Manara</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-quoz/">Al Quoz</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Al Quusais</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/deira/">Deira </a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-sufouh/">Al Sufoh </a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-sufouh/">Al Sufouh </a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/al-safa/">Al Safa</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Al Warqa</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Emirates Hills</a></span>
@@ -390,7 +390,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jumeirah-park/">Jumierah Park</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jvc/">JVC</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Mirdif</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-sport-city/">Sports City</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-sports-city/">Sports City</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-studio-city/">Dubai Studio City</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jebel-ali/">Jebel Ali</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/dubai-hills-estate/">Dubai Hills</a></span>
@@ -402,10 +402,10 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-greens/">The Greens</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/the-villa/">The Villas</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/umm-al-sheif/">Umm Al Sheif</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Ramool Umm Suqeim</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/umm-suqeim/">Umm Suqeim</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/appliances-repair-service/">Umm Ramool</a></span>
               <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/victory-heights/">Victory Heights</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jlt/">JLt</a></span>
-              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/discovery-gardens/">Discovery Gardens</a></span>
+              <span className="service_area_tag"><a href="/services/home-appliances-repair/coverage-area/jlt/">JLT</a></span>
 
             </div>
           </div>

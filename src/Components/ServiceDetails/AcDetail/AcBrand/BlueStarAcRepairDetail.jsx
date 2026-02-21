@@ -132,7 +132,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
         {/* 2 col */}
         <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5  expert_section_wrapper">
+            <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" style={{ fontSize: "24px" }}>Blue Star Ac Maintenance and Services </h2>
 
@@ -329,7 +329,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
         {/* HERE  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Blue Star AC SYSTEMS</h2>
+            <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR Blue Star AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -362,7 +362,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
         </section >
 
         {/*  Benefits */}
-        <AcBrandBenifit />
+        <AcBrandBenifit brandName="Blue Star AC"/>
 
         {/* CHOOSE US  */}
         <section className="section cs_py_30">
@@ -437,7 +437,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
                 </div>

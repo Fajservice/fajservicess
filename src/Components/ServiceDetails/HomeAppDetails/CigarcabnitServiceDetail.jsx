@@ -333,7 +333,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* HERE ARE   */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h2 className="cs_fs_30">Here Are The Services We offer For All Cigar Humidors</h2>
+            <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR All Cigar Humidors</h2>
             <p className='mb-0'>We specialise in all types and brands of Cigar cabinet humidor, including cigar walk in chiller:</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
