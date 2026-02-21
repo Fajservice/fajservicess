@@ -373,7 +373,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         </section >
 
         {/*  Benefits */}
-        <AcBrandBenifit />
+        <AcBrandBenifit brandName="Aftron AC"/>
 
         {/* CHOOSE US  */}
         <section className="section cs_py_30">

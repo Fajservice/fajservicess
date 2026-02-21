@@ -181,7 +181,7 @@ const TCLAcRepair = ({
                 </div>
               </div>
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('ac filter')} alt="TCL AC Service" />
+                <img className="bordered-img w-100" src={getImageSrc('acfilterinner')} alt="TCL AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>

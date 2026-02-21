@@ -1749,7 +1749,7 @@ img.emoji {
   }
   
 }
-img.blue-border {
+img.blue-border, img.bordered-img {
     max-height: 380px;
     object-fit: cover;
     object-position: top;

@@ -12,6 +12,7 @@ import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
+import PriceCardHomeCat from '../../../Services/homeappliances/PriceCardHomeappCat.jsx';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
