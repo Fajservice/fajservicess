@@ -242,7 +242,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
            
          <div className="paragraph_sec">
             <h2 className="benefits_title">The Benefits of Professional Home Appliances Services</h2>
-            <p className="fs-5 lh-base">While some homeowners or business owners may attempt DIY repairs, home appliances are complex and require professional expertise to ensure safe and effective repairs. Here’s why you should trust FAJ Technical Services L.L.C.</p>
+            <p className="fs-5 lh-base">While some homeowners or business owners may attempt DIY repairs, home appliances are complex and require <br /> professional expertise to ensure safe and effective repairs. Here’s why you should trust <b>FAJ Technical Services L.L.C.</b> </p>
             </div>
             <div className="benefits_grid">
               <div className="benefit_card">
@@ -258,7 +258,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <img src={getImageSrc('Real-Diagnosis')} alt="Comprehensive Services" />
                 </div>
                 <h3>Real Diagnosis</h3>
-                <p>Diagnosing problems with home appliances requires both skill and tools. Our experts quickly identify issues and offer effective solutions, saving you time and frustration.</p>
+                <p>Diagnosing problems with home appliances requires both skill and tools. Our experts <br /> quickly identify issues and offer effective solutions, saving you time and frustration.</p>
               </div>
 
               <div className="benefit_card">
@@ -274,7 +274,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <img src={getImageSrc('Long-Term-Reliability')} alt="Comprehensive Services" />
                 </div>
                 <h3>Long-Term Reliability</h3>
-                <p>Our expert repair provides lasting solutions by addressing the root causes of your home appliance issues, preventing future problems, and enhancing reliability.</p>
+                <p>Our expert repair provides lasting solutions by addressing the root causes of your home appliance issues, preventing future <br /> problems, and enhancing reliability.</p>
               </div>
 
               <div className="benefit_card">
@@ -282,7 +282,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <img src={getImageSrc('Energy-Savings')} alt="Comprehensive Services" />
                 </div>
                 <h3>Energy Savings</h3>
-                <p>Professional repair can enhance your system's efficiency, significantly reducing energy consumption and lowering your monthly utility bills.</p>
+                <p>Professional repair can enhance your system's efficiency, significantly reducing energy consumption and lowering your <br /> monthly utility bills.</p>
               </div>
 
               <div className="benefit_card">
@@ -290,7 +290,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <img src={getImageSrc('Protects-Property')} alt="Comprehensive Services" />
                 </div>
                 <h3>Protects Property</h3>
-                <p>Safeguards electronics against damage and prevents warping from heat and moisture.</p>
+                <p>Safeguards electronics against damage and prevents warping from heat and <br /> moisture.</p>
               </div>
             </div>
           </div>

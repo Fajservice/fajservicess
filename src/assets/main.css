@@ -9439,8 +9439,8 @@
 }
 
 .benefit_card p {
-  font-size: 14px;
-  color: #374151;
+  font-size: 16px;
+  color: #0A0A0A;
   line-height: 1.6;
   margin: 0;
 }
@@ -10453,7 +10453,7 @@
 
 .ac_inspection_description {
   font-size: 16px;
-  color: #374151;
+  color: #0A0A0A;
   line-height: 1.6;
   margin: 0 0 20px 0;
 }
@@ -10469,7 +10469,7 @@
 
 .ac_inspection_details {
   font-size: 12px;
-  color: #374151;
+  color: #0A0A0A;
   line-height: 1.6;
   margin: 0;
 }
@@ -12118,7 +12118,7 @@
 
 .ac_inspection_details {
   font-size: 16px;
-  color: #374151;
+  color: #0A0A0A;
   line-height: 1.6;
   margin: 0;
 }
