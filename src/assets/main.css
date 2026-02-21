@@ -11749,15 +11749,16 @@
 .ac_issues_header_wrapper h2 {
   font-size: 24px;
   font-weight: 600;
-  color: #1F2937;
+  color: #0A0A0A;
   margin: 0 0 10px 0;
 }
 
 .ac_issues_header_wrapper p {
-  font-size: 16px;
-  color: #1F2937;
+  font-size: 18px;
+  color: #0A0A0A;
   margin: 0;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 .ac_issues_header_wrapper .ac_issues_sub_text {
@@ -11773,7 +11774,7 @@
 }
 
 .ac_issue_single_card {
-  border: 2px solid #6B7280;
+  border: 1px solid #0A0A0A;
   border-radius: 12px;
   overflow: hidden;
   display: flex;
@@ -11815,7 +11816,7 @@
 }
 
 .ac_issue_card_content {
-  padding: 10px;
+  padding: 15px;
   text-align: left;
   flex: 1;
 }
