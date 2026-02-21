@@ -3,10 +3,8 @@ import { Link } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -14,12 +12,13 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
+import AcBenefits from "../AcBenefit";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+    if (!imgPath) return '';
+    if (imgPath.startsWith('https')) return imgPath;
+    return `${CDN}/${imgPath}/public`;
 };
 const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
@@ -38,53 +37,53 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
     // State for fetched data
-        const [data, setData] = useState([]);
-        const [testimonial_data, setTestimonialData] = useState([]);
-        const [isLoading, setIsLoading] = useState(true);
-    
-        const handleItemClick = index => {
-            if (index === openItemIndex) {
-                setOpenItemIndex(-1);
-            } else {
-                setOpenItemIndex(index);
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
+        }
+    };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
+        }
+    }, [firstItemOpen]);
+
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const [faqsResponse, testimonialsResponse] = await Promise.all([
+                    fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                ]);
+
+                const faqsData = await faqsResponse.json();
+                const testimonialsData = await testimonialsResponse.json();
+
+                setData(faqsData);
+                setTestimonialData(testimonialsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
             }
         };
-        useEffect(() => {
-            if (firstItemOpen) {
-                setOpenItemIndex(0);
-                setFirstItemOpen(false);
-            }
-        }, [firstItemOpen]);
-    
-        useEffect(() => {
-            loadBackgroudImages();
-        }, []);
-    
-        // Fetch JSON data
-        useEffect(() => {
-            const fetchData = async () => {
-                try {
-                    const [faqsResponse, testimonialsResponse] = await Promise.all([
-                        fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json`),
-                        fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
-                    ]);
-    
-                    const faqsData = await faqsResponse.json();
-                    const testimonialsData = await testimonialsResponse.json();
-    
-                    setData(faqsData);
-                    setTestimonialData(testimonialsData);
-                } catch (error) {
-                    console.error('Error fetching data:', error);
-                } finally {
-                    setIsLoading(false);
-                }
-            };
-    
-            fetchData();
-        }, []);
 
-    
+        fetchData();
+    }, []);
+
+
     return (
         <>
             <HelmetProvider>
@@ -105,12 +104,11 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
-                    
+
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
-
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Repair & Service in Town Square</h1>
@@ -129,14 +127,14 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                 <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 bg-light-white">   
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 expert_section_wrapper align-items-center">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Best AC Repair in Town Square</h2>
+                                <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Town Square</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Town Square, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Town Square Dubai.  The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
+                                <h2 className="cs_fs_24 text-align-left">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -156,13 +154,15 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="AC Repair in Town Square"  />
+                                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="AC Repair in Town Square" />
 
                             </div>
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
+                            <div className="expert_section_wrapper px-4">
                             <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Town Square. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            </div>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -184,13 +184,13 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                             Regular air conditioner (AC) maintenance service in Town Square is essential for optimal performance.  FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in Town Square, contact us.
                         </p>
 
-                        <div className="row align-items-center">
+                        <div className="row">
                             <div className="col-md-6">
-                                <img className="blue-border" src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')} alt="Air Conditioning Service in Town Square"  />
+                                <img className="blue-border" src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')} alt="Air Conditioning Service in Town Square" />
                             </div>
                             <div className="col-md-6">
-                                <ul className="mb-0">
-                                    <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
+                                <ul className="mb-0 ">
+                                    <li className="lh-lg"> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
 
                                     <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
 
@@ -205,7 +205,7 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                 </section>
 
                 {/* Common AC Problems That May Require Maintenance */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -351,82 +351,10 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                 </section>
 
                 {/* The Benefits Of Regular AC Service*/}
-                <section className="section cs_py_30 ac_benifit_blue">
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-10 text-center">
-                                <h2 className="cs_fs_30 text-light"> Benefits Of Regular AC Service and Maintenance in Town Square </h2>
+                <AcBenefits city="Town Square"/>
 
-                                <div className="row mt-4 gx-4 gy-4">
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
-                                            <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
-                                            <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                                            <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
-                                            <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
-                                            <p className="small">We ensure you get optimal air flow around each room as needed.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                                            <p className="small">Our team provides vital feedback on your AC&apos;s health and any needed air con repair.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="text-center mb-4">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 {/* Why choose us AC */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container container-md container-sm">
                         <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
                         <div className="usps align-items-center	">
@@ -514,7 +442,6 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                     </div>
                 </section>
 
-
                 {/* We specialise in air conditioning services for the following brands */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
@@ -541,7 +468,7 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/">Trane HVAC Repair</a>:</strong> With in-depth expertise in the repair of Trane air conditioning systems, we offer comprehensive Town Square AC repair near me and AC cleaning services designed to ensure your unit operates at peak efficiency. Our specialized Trane AC maintenance and repair service in Town Square Dubai, is conveniently available in your area, providing timely and effective solutions to keep your air conditioning system running smoothly and reliably. Whether you need routine home air conditioner repair near me or office AC service and maintenance in Town Square or urgent repair, we are here to help you maintain a comfortable environment in your home or business.</li>
 
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/">Panasonic AC Service and Repair</a>:</strong> No matter the issue with your Panasonic air conditioner, our skilled AC technicians in Town Square Dubai and Sharjah can quickly diagnose and fix it. We offer reliable air conditioning services near me in Town Square Dubai, and AC repair right in your Town Square area, ensuring your system runs smoothly again. </li>
-strong
+                            strong
                             <li><><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/">Gree AC Service and Maintenance</a>:</> Is your air conditioning unit not functioning properly, or are you seeing a Gree AC error displayed on the screen? You don’t have to struggle with uncomfortable temperatures or stale air any longer. At FAJ, we specialise in quickly restoring your Gree air conditioning to optimal performance. Our reliable air conditioning repair and maintenance services ensure that your system operates efficiently and effectively, preventing any further damage and discomfort. Whether you need emergency air conditioning repair near me in Town Square, air conditioning service near me and routine ac maintenance services, or comprehensive air conditioning cleaning services in Dubai, we’ve got you covered. Enjoy a refreshing and cool environment once again with our professional solutions!</li>
 
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/">O General AC Service and Repair</a>:</strong> For air conditioning cleaning services in Dubai, specialized help is crucial for effectively managing aircon issues. Our company provides hassle-free villa AC repair / office AC cleaning service or home AC maintenance services in Town Square, conveniently available in both Dubai and Sharjah. Trust us to keep your home comfortable all year round.</li>
@@ -593,7 +520,7 @@ strong
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img src={getImageSrc('benafit-acimg')} alt="Air Con Maintenance & AC Installation in Town Square"  />
+                                    <img src={getImageSrc('benafit-acimg')} alt="Air Con Maintenance & AC Installation in Town Square" />
                                 </div>
                             </div>
                             <div className="col-lg-4">
@@ -614,79 +541,79 @@ strong
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
-               <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg={reviewsbg}
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+                <Testimonial1
+                    subtitle="What Our Clients Say"
+                    title="Customer <span>Reviews</span>"
+                    bgImg={reviewsbg}
+                    testimonialData={testimonial_data}
+                    sectionId="home-testimonials"
+                />
 
                 <section className="section cs_py_30 bg-dark-blue text-light">
-          <Serviceappointemnt
-          
+                    <Serviceappointemnt
+
                         subtitle2="Contact us"
                         title2="Book An Appointment"
                     ></Serviceappointemnt>
 
                 </section>
-{/* Faqs */}
-        <section className="section cs_py_30">
-          <div className="container">
-            <h3 className="cs_fs_30">FAQ&apos;s</h3>
+                {/* Faqs */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
-            <div className="cs_accordians_wrapper cs_style_1 p-0">
+                        <div className="cs_accordians_wrapper cs_style_1 p-0">
 
-              {data.map((item, index) => (
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
-                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
-                    <span className="cs_accordian_toggle">
-                       
-                      <svg
-                         width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                      >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                            {data.map((item, index) => (
+                                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                                    <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                                        <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
+                                        <span className="cs_accordian_toggle">
 
-                      {/* Eye Slash */}
-                     
-                       <svg
-                       width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                       >
-<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
-                    </span>
-                  </div>
-                  <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0"
-                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
-                    ></p>
-                  </div>
-                </div>
-              ))}
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
 
-            </div>
-          </div>
-        </section>
+                                            {/* Eye Slash */}
 
-                
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div className="cs_accordian_body" ref={accordionContentRef}>
+                                        <p className="mb-0"
+                                            dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                                        ></p>
+                                    </div>
+                                </div>
+                            ))}
+
+                        </div>
+                    </div>
+                </section>
+
+
 
             </div>
         </>

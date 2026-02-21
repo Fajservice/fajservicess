@@ -3,10 +3,8 @@ import { Link } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
@@ -14,6 +12,7 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
+import AcBenefits from "../AcBenefit";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -134,12 +133,12 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                 {/* Experts AC Service and Maintenance */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 expert_section_wrapper align-items-center">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Emirates Hills</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Emirates Hills, it's essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Emirates Hills Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
+                                <h2 className="cs_fs_24 align-items-center">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -165,7 +164,10 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Emirates Hills. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <div className="expert_section_wrapper">
+                                <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Emirates Hills. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            </div>
+                            
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -319,7 +321,6 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                                     height="350"
                                     src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
                                     title="YouTube video player"
-                                    frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowFullScreen
                                 ></iframe>
@@ -351,81 +352,8 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                     </div>
                 </section>
 
-                {/* The Benefits Of Regular AC Service*/}
-                <section className="section cs_py_30 ac_benifit_blue">
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-10 text-center">
-                                <h2 className="cs_fs_30 text-light"> Benefits Of Regular AC Service and Maintenance in Emirates Hills </h2>
+                <AcBenefits city="EmiratesHills"/>
 
-                                <div className="row mt-4 gx-4 gy-4">
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
-                                            <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
-                                            <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                                            <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
-                                            <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
-                                            <p className="small">We ensure you get optimal air flow around each room as needed.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                                            <p className="small">Our team provides vital feedback on your AC&apos;s health and any needed air con repair.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="text-center mb-4">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 {/* Why choose us AC */}
                 <section className="section cs_py_30">
                     <div className="container container-md container-sm">
@@ -627,14 +555,14 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                 )}
 
                 <section className="section cs_py_30 bg-dark-blue text-light">
-          <Serviceappointemnt
-          
+                    <Serviceappointemnt
+
                         subtitle2="Contact us"
                         title2="Book An Appointment"
                     ></Serviceappointemnt>
 
                 </section>
-{/* Faqs */}
+                {/* Faqs */}
                 <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">FAQ&apos;s</h3>
@@ -647,34 +575,34 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                                         <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <svg
-                         width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                      >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
 
-                      {/* Eye Slash */}
-                     
-                       <svg
-                       width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                       >
-<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                                            {/* Eye Slash */}
+
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>
@@ -689,7 +617,7 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                     </div>
                 </section>
 
-                
+
 
             </div>
         </>
