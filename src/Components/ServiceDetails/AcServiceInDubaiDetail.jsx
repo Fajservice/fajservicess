@@ -382,138 +382,51 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <CommonACProblems />
         </LazySection>
 
-        <section className="section cs_py_30 bg-light-blue-section">
-          <div className="container">
-            <h2 className="cs_fs_28">How to use FAJ AC Service and AC Repair in Dubai?</h2>
-            <p className="cs-fs_14">Are you searching for reliable air conditioning services in Dubai? FAJ Technical Services L.L.C provides excellent AC repair and AC cleaning service right at your doorstep. Our team of experts is committed to providing your comfort with excellent service.</p>
-
-            <div className="service-cards-grid">
-              <div className="service-card-item">
-                <h3>AC Repair in Dubai for Improved Performance:</h3>
-                <p className="cs_fs_14">Is your AC not cooling effectively? Our AC technicians can diagnose and fix AC errors.</p>
-              </div>
-
-              <div className="service-card-item">
-                <h3>Regular AC Cleaning for Maximum Efficiency:</h3>
-                <p className="cs_fs_14">For optimal performance, keep your AC cleaning. We offer AC duct cleaning and filters for fresh, healthy air.</p>
-              </div>
-
-              <div className="service-card-item">
-                <h3>Essential AC Maintenance Service Dubai:</h3>
-                <p className="cs_fs_14">Regular AC maintenance is necessary. Our services help prepare your AC for the summer heat.</p>
-              </div>
-
-              <div className="service-card-item">
-                <h3>Assistance with New AC Installation:</h3>
-                <p className="cs_fs_14">Upgrading to a new AC unit? Let our AC experts handle the selection, installation, and testing!</p>
-              </div>
-
-              <div className="service-card-item">
-                <h3>Emergency AC Repair in Dubai:</h3>
-                <p className="cs_fs_14">Experiencing unexpected AC breakdowns? Our 7-day emergency AC repairs is available to provide quick service.</p>
-              </div>
-
-              <div className="service-card-item">
-                <h3>AC Service Dubai Available Near Me Before Summer:</h3>
-                <p className="cs_fs_14">Get ready for summer! Schedule your AC tune up to ensure comfort during the heat.</p>
-              </div>
-            </div>
-
-            <div className="service-footer-text">
-              <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair & Maintenance Services today!</h3>
-              <p className="cs_fs_14">For reliable AC service and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
-            </div>
-          </div>
-
-          <style>{`
-    .benefit_wrapper_box {
-        background-color: #fff;
-        border-radius: 25px;
-        padding: 4em 5px 3em;
-        position: relative;
-        height: -webkit-fill-available;
-    }
-    .benefit_wrapper_box .benefit_wrapper_box_icon {
-        background-color: #00334E;
-        border: 1px solid #fff;
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: -42px;
-    }
-    .benefit_wrapper_box h3 {
-        font-size: 18px;
-        color: #0A0A0A;
-    }
-    .benefit_wrapper_box p{
-      font-size: 16px;
-      color: #0A0A0A;
-    }
-    .bg-light-blue-section {
-      background-color: #E9E9E9;
-    }
+         <section className="section cs_py_30 bg-light-blue-section">
+  <div className="container">
+    <h2 className="cs_fs_28">How to use FAJ AC Service and AC Repair in Dubai?</h2>
+    <p className="cs-fs_14">Are you searching for reliable air conditioning services in Dubai? FAJ Technical Services L.L.C provides excellent AC repair and AC cleaning service right at your doorstep. Our team of experts is committed to providing your comfort with excellent service.</p>
     
-    .service-cards-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      margin-top: 24px;
-    }
-    
-    .service-card-item {
-        padding: 30px 15px;
-        border-radius: 10px;
-        border: 1px solid #0A0A0A;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .service-card-item h3 {
-      font-size: 16px;
-      font-weight: 600;
-      color: #000;
-      margin: 0 0 8px 0;
-    }
-    
-    .service-card-item p {
-      text-align: center;
-      font-size: 14px;
-      margin: 0;
-      line-height: 1.5;
-    }
-    
-    .service-footer-text {
-      margin-top: 24px;
-    }
-    
-    .service-footer-text h3 {
-        margin: 0 0 8px 0;
-        font-size: 24px;
-        font-weight: 500;
-    }
-    
-    .service-footer-text p {
-      margin: 0;
-      line-height: 1.5;
-    }
-    
-    @media (max-width: 768px) {
-      .service-cards-grid {
-        grid-template-columns: 1fr;
-        gap: 16px;
-      }
+    <div className="service-cards-grid">
+      <div className="service-card-item">
+        <h3>AC Repair in Dubai for Improved Performance:</h3>
+        <p className="cs_fs_14">Is your AC not cooling effectively? Our AC technicians can diagnose and fix AC errors.</p>
+      </div>
       
-      .service-card-item {
-        padding: 14px 16px;
-      }
+      <div className="service-card-item">
+        <h3>Regular AC Cleaning for Maximum Efficiency:</h3>
+        <p className="cs_fs_14">For optimal performance, keep your AC cleaning. We offer AC duct cleaning and filters for fresh, healthy air.</p>
+      </div>
       
-    }
-  `}</style>
-        </section>
+      <div className="service-card-item">
+        <h3>Essential AC Maintenance Service Dubai:</h3>
+        <p className="cs_fs_14">Regular AC maintenance is necessary. Our services help prepare your AC for the summer heat.</p>
+      </div>
+      
+      <div className="service-card-item">
+        <h3>Assistance with New AC Installation:</h3>
+        <p className="cs_fs_14">Upgrading to a new AC unit? Let our AC experts handle the selection, installation, and testing!</p>
+      </div>
+      
+      <div className="service-card-item">
+        <h3>Emergency AC Repair in Dubai:</h3>
+        <p className="cs_fs_14">Experiencing unexpected AC breakdowns? Our 7-day emergency AC repairs is available to provide quick service.</p>
+      </div>
+      
+      <div className="service-card-item">
+        <h3>AC Service Dubai Available Near Me Before Summer:</h3>
+        <p className="cs_fs_14">Get ready for summer! Schedule your AC tune up to ensure comfort during the heat.</p>
+      </div>
+    </div>
+    
+    <div className="service-footer-text">
+      <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair & Maintenance Services today!</h3>
+      <p className="cs_fs_14">For reliable AC service and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
+    </div>
+  </div>
+  
+  
+</section>
 
         {/* Benefits Of Regular AC Service and Maintenance Dubai */}
         <section className="section ac_benifit_blue">

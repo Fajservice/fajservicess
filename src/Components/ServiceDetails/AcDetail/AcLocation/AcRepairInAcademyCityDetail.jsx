@@ -139,12 +139,12 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 {/* Experts AC Service and Maintenance */}
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 expert_section_wrapper align-items-center">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Academy City</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Academy City, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link>  near me for your home AC or office AC.</p>
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Academy City Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
+                                <h2 className="cs_fs_24 align-items-center">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -169,7 +169,10 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Academy City. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <div className="expert_section_wrapper px-4">
+                                 <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Academy City. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            </div>
+                           
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />

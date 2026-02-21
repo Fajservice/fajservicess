@@ -129,12 +129,12 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                 {/* Experts AC Service and Maintenance */}
                 <section className="section cs_py_30 bg-light-white">   
                     <div className="container">
-                        <div className="row gx-md-5 expert_section_wrapper">
+                        <div className="row gx-md-5 expert_section_wrapper align-items-center">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Town Square</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Town Square, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Town Square Dubai.  The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
+                                <h2 className="cs_fs_24 text-align-left">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -205,7 +205,7 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                 </section>
 
                 {/* Common AC Problems That May Require Maintenance */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -354,7 +354,7 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                 <AcBenefits city="Town Square"/>
 
                 {/* Why choose us AC */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container container-md container-sm">
                         <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
                         <div className="usps align-items-center	">
