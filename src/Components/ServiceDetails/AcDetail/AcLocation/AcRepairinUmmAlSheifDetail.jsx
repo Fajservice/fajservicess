@@ -313,7 +313,7 @@ const AcRepairinUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                 {/* HERE ARE THE */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONING SYSTEMS</h2>
+                        <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONING SYSTEMS</h2>
                         <div className="row">
                             <div className="col-xl-6">
                                 <iframe
@@ -504,7 +504,7 @@ const AcRepairinUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
-                                        <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                                        <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                                         </p>
                                     </div>
                                 </div>
