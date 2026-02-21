@@ -13,6 +13,7 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 import AcBrandBenifit from "./ACBrandComponents/ACBrandBenifit.jsx";
 import PriceCard from "../AcLocation/PriceCard.jsx";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -126,16 +127,16 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         <PriceCard />
 
         {/* 2 col */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Gree AC Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Gree AC Maintenance and Servicing</h2>
                 <p className="mb-2">
                   When it comes to Gree <a href="/services/air-conditioning-repair/ac-service/">AC repair</a>, it is important to hire a professional and reliable Gree AC technician for your home or office.
                   <br />We specialise in Gree air conditioner (AC) repair, service, and maintenance throughout Dubai and Sharjah. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is committed to ensuring a comfortable temperature for you all year round.
                 </p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Gree AC Maintenance</h2>
+                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Top Common Signs That You Need Gree AC Maintenance</h2>
                 <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -166,7 +167,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         <FAJACPrice></FAJACPrice>
 
         {/* Why*/}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Gree AC Maintenance Service Important in Dubai?</h3>
@@ -194,7 +195,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         </section>
 
         {/* Problems  */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="text-center">Common Gree AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -316,7 +317,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         </section>
 
         {/* HERE  */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR GREE AC SYSTEMS</h3>
 
@@ -350,7 +351,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         </section >
 
         {/*  Benefits */}
-        <AcBrandBenifit />
+        <AcBrandBenifit brandName="Gree AC"/>
 
         {/* CHOOSE US  */}
         <section className="section cs_py_30">
@@ -442,9 +443,17 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             </div>
           </div>
         </section>
-
+        <BeforeAfter
+          title="Recent Completed Service"
+          subTitle="Before & After Service"
+          bgImg={`${CDN}/background-image-2/public`}
+          beforeImg={`${CDN}/after_img_1/public`}
+          afterTitle="After"
+          afterImg={`${CDN}/before_img_1/public`}
+          beforeTitle="Before"
+        />
         {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
