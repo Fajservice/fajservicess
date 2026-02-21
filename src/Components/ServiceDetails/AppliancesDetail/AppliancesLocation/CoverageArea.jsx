@@ -180,11 +180,11 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <div className="ac_issues_grid_container">
               <div className="ac_issue_single_card">
                 <div className="text-center text-white bgdarkblue">
-                  <h3>Schedule maintenance for appliances before they break down</h3>
+                  <h3>Schedule maintenance for appliances <br /> before they break down</h3>
                 </div>
                 <div className="ac_issue_card_content">
                   <p>Your home appliance is not used for months and when you turn it on in summer, it is not working properly. Now, you are also waiting for emergency home appliance service. </p>
-                  <h4>Better procedure:</h4>
+                  <p><b>Better procedure:</b></p>
                   <p>Schedule maintenance in March or April before summer starts. This ensures better availability, lower prices, & provides peace of mind.</p>
                 </div>
               </div>
@@ -195,7 +195,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="ac_issue_card_content">
                   <p>Reactive maintenance is much more costly than preventive maintenance. A 99 AED service visit could have prevented a 1250 AED emergency repair.</p>
-                  <h4>Better procedure:</h4>
+                  <p><b>Better procedure:</b></p>
                   <p>Routine maintenance, whether annually or biannually, helps to identify issues before they escalate into expensive emergencies.</p>
                 </div>
               </div>
@@ -206,7 +206,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="ac_issue_card_content">
                   <p>Is that company offering home appliance service for 50 to 100 AED? They might be cutting corners or planning to aggressively upsell you once they're in your home.</p>
-                  <h4>Better procedure:</h4>
+                  <p><b>Better procedure:</b></p>
                   <p>Seek competitive pricing from trusted companies. Generally, you tend to receive quality in proportion to the amount you spend.</p>
                 </div>
               </div>
@@ -217,7 +217,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
                 <div className="ac_issue_card_content">
                   <p>That handyman who claims he can repair your home appliances cheaply might actually make the issue worse.</p>
-                  <h4>Better procedure:</h4>
+                  <p><b>Better procedure:</b></p>
                   <p> Choose a licensed company with experienced home appliance technicians who are skilled and knowledgeable in their work.</p>
                 </div>
               </div>
@@ -227,8 +227,8 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <h3>Ignoring warning signs</h3>
                 </div>
                 <div className="ac_issue_card_content">
-                  <p>Signs of damage, electrical faults, and high bills indicate problems with your home appliance.</p>
-                  <h4>Better procedure:</h4>
+                  <p>Signs of damage, electrical faults, and high bills indicate problems with your home <br /> appliance.</p>
+                  <p><b>Better procedure:</b></p>
                   <p>Address minor issues promptly to stop them from escalating into major emergencies.</p>
                 </div>
               </div>
