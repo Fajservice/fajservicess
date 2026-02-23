@@ -143,7 +143,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <br /> Our organization specializes in the AC repair, service, and maintenance of Fujitsu units across Dubai and Sharjah. The  <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to providing exceptional service to ensure your comfort throughout the year.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" >Top Common Signs That You Need Fujitsu AC Maintenance</h2>
+                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left" >Top Common Signs That You Need Fujitsu AC Maintenance</h2>
                 <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">

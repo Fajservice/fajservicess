@@ -404,7 +404,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
         {/*HERE ARE THE SERVICES */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE REFRIGERATION</h3>
+            <h3 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR THE REFRIGERATION</h3>
             <p>We specialise in all types and brands of commercial freezer and chiller, including built-in refrigeration.</p>
             <div className="row align-items-center">
               <div className="col-xl-6">

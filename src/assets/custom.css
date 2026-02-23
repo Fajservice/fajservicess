@@ -16,7 +16,10 @@
   object-fit: contain;
   width: auto;
 }
-
+.cs_post_details a {
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+}
 @-webkit-keyframes spinAnimation {
   0% {
     -webkit-transform: rotateX(-20deg) rotateY(0deg);

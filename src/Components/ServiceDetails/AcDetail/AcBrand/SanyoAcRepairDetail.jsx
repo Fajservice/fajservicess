@@ -13,6 +13,8 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "../AcLocation/PriceCard";
+import AcBrandBenifit from "./ACBrandComponents/ACBrandBenifit";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -129,13 +131,13 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
 
         {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Sanyo AC Maintenance and Services</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Sanyo AC Maintenance and Services</h2>
                 <p className="mb-2">If you are in Dubai and require Sanyo <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair</a>, FAJ offers services for this need. The team specializes in ensuring air conditioning systems operate efficiently in Dubai and Sharjah, delivering reliable solutions for maintaining indoor comfort throughout the year. Services aim to enhance the indoor environment.</p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Sayno AC Maintenance</h2>
+                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Top Common Signs That You Need Sayno AC Maintenance</h2>
                 <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -325,85 +327,105 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           </div>
         </section>
         {/* The Benefits Of Regular AC Service*/}
-        <section className="section cs_py_30" style={{ backgroundColor: "#00334E", color: "white" }}>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-10 text-center">
-                <h2 className="cs_fs_30 text-light">Benefits of Regular Sanyo AC Service and Maintenance in Dubai</h2>
-
-                <div className="row mt-4 gx-4 gy-4">
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
-                      <p className="small">We conduct a thorough evaluation of cooling efficiency using a temperature gun.</p>
-                    </div>
+        <AcBrandBenifit brandName="Sanyo AC"/>
+        {/*Why Choose FAJ Technical Services L.L.C? */}
+        <section className="section cs_py_30">
+          <div className="container container-md container-sm">
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
+            <div className="usps align-items-center	">
+              <div className="uspcol col-1">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${CDN}/icon/fast-reliable/public`} alt="Fast, Reliable Service" />
                   </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
-                      <p className="small">All hardware components have been tested and disinfected, including filters and vents.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                      <p className="small">We make sure fan operates properly and there are no blockages in evaporator coil.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
-                      <p className="small">We use a laser temperature gauge to verify that the thermostats are operating correctly.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
-                      <p className="small">We make sure that each room receives the optimal airflow it needs.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                      <p className="small">Our team provides vital feedback on your Sanyo AC's health and any needed repairs.</p>
-                    </div>
+                  <div className="usptext">
+                    <h3>Reliable, Priority, and Quick</h3>
+                    <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly. </p>
                   </div>
                 </div>
 
-                <div className="text-center mb-4">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${CDN}/icon/experts/public`} alt="We Are Experts" />
+                  </div>
+                  <div className="usptext">
+                    <h3>Feeling Of Calm</h3>
+                    <p>With <a href="/services/air-conditioning-repair/ac-annual-maintenance-contract/"><b>annual maintenance contract</b></a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="" src={`${CDN}/icon/full-control/public`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3>You Are in Control</h3>
+                    <p>Choose a day and time for your Sanyo AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="uspdelimit col-2 d-none d-xl-block">
+
+                <img className="blue-border-2 w-100 why-choose-img" src={`${CDN}/ACServicescomponent/public`} alt="Ac Maintenance Services" />
+              </div>
+
+              {/* <!-- Second Column --> */}
+              <div className="uspcol col-3">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${CDN}/icon/value/public`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3>We Are Experts</h3>
+                    <p>We are experts in Sanyo AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                  </div>
+                </div>
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${CDN}/icon/confidence-guarantee/public`} alt="FAJ icon service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3>Great Value</h3>
+                    <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
+
+                  </div>
+                </div>
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="cs_iconbox_title cs_fs_18 cs_bold" src={`${CDN}/icon/trustworthy/public`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3>Trustworthy</h3>
+                    <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    </p>
+                  </div>
                 </div>
               </div>
+
+
+            </div>
+            {/* <!-- Delimit mobile --> */}
+            <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
+              <img className="blue-border-2 w-100" src={`${CDN}/ACServicescomponent/public`} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>
-        {/*Why Choose FAJ Technical Services L.L.C? */}
-        <ACWhyChooseUs />
-
+        <BeforeAfter
+          title="Recent Completed Service"
+          subTitle="Before & After Service"
+          bgImg={`${CDN}/background-image-2/public`}
+          beforeImg={`${CDN}/after_img_1/public`}
+          afterTitle="After"
+          afterImg={`${CDN}/before_img_1/public`}
+          beforeTitle="Before"
+        />
         {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>

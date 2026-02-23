@@ -325,7 +325,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* HERE ARE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SAMSUNG APPLIANCES</h3>
+            <h3 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR SAMSUNG APPLIANCES</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">

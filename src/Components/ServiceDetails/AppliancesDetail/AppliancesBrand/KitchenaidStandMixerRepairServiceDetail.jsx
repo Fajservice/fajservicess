@@ -350,7 +350,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR KITCHENAID STAND MIXERS</h3>
+            <h3 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR KITCHENAID STAND MIXERS</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
