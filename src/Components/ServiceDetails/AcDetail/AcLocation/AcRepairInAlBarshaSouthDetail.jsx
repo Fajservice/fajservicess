@@ -14,6 +14,7 @@ import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
 import AcBenefits from "../AcBenefit";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -35,86 +36,86 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
-  
+
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
- // State for fetched data
-         const [data, setData] = useState([]);
-         const [testimonial_data, setTestimonialData] = useState([]);
-         const [isLoading, setIsLoading] = useState(true);
-     
-         const handleItemClick = index => {
-             if (index === openItemIndex) {
-                 setOpenItemIndex(-1);
-             } else {
-                 setOpenItemIndex(index);
-             }
-         };
-         useEffect(() => {
-             if (firstItemOpen) {
-                 setOpenItemIndex(0);
-                 setFirstItemOpen(false);
-             }
-         }, [firstItemOpen]);
-     
-         useEffect(() => {
-             loadBackgroudImages();
-         }, []);
-     
-         // Fetch JSON data
-         useEffect(() => {
-             const fetchData = async () => {
-                 try {
-                     const [faqsResponse, testimonialsResponse] = await Promise.all([
-                         fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlBarshaSouth.json`),
-                         fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
-                     ]);
-     
-                     const faqsData = await faqsResponse.json();
-                     const testimonialsData = await testimonialsResponse.json();
-     
-                     setData(faqsData);
-                     setTestimonialData(testimonialsData);
-                 } catch (error) {
-                     console.error('Error fetching data:', error);
-                 } finally {
-                     setIsLoading(false);
-                 }
-             };
-     
-             fetchData();
-         }, []);
+  // State for fetched data
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlBarshaSouth.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <>
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
-                    <meta name="keywords" content={metaKeyword} />
-                    <meta name="author" content={metaAuthor} />
-                    <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href={metaURL} />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
-                    <meta property="og:url" content={metaURL} />
-                    <meta property="og:image" content={metaImage} />
-                    {/* Twitter Card */}
-                    <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
-                    <meta name="twitter:image" content={metaImage} />
-                    
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">
 
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-white">
           <div className="container">
             <h1 className="cs_fs_30">AC Service in Al Barsha South</h1>
             {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
@@ -133,14 +134,14 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         <PriceCard />
 
         {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Best AC Repair in Al Barsha South</h2>
+                <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Al Barsha South</h2>
                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Al Barsha South, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
                 <p>We specialize in air conditioner (AC) repair, service, and maintenance near me in Al Barsha South. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
+                <h2 className="cs_fs_24 text-align-left">Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -161,13 +162,15 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Ac Repair in Al Barsha South"  />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Ac Repair in Al Barsha South" />
 
               </div>
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <a href="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></a>, air conditioning repair, or AC maintenance near me in Al Barsha South. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <div className="expert_section_wrapper px-3">
+                <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <a href="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></a>, air conditioning repair, or AC maintenance near me in Al Barsha South. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              </div>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -179,10 +182,10 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         </section>
 
         {/* AC Price Section */}
-          <FAJACPrice></FAJACPrice>
+        <FAJACPrice></FAJACPrice>
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-white">
           <div className="container">
             <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Al Barsha South?</h2>
             <p>
@@ -191,7 +194,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')} alt="Ac Service in Al Barsha South"  />
+                <img className="blue-border" src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')} alt="Ac Service in Al Barsha South" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -207,7 +210,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         </section>
 
         {/* Common AC Problems That May Require Maintenance */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -309,55 +312,55 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         </section>
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
-         <section className="section cs_py_30 bg-light-gray">
-            <div className="container">
-                <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONING SYSTEMS</h2>
-                <div className="row">
-                    <div className="col-xl-6">
-                        <iframe
-                            className="bordered-img blue-border"
-                            width="100%"
-                            height="350"
-                            src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowFullScreen
-                        ></iframe>
-                    </div>
+        <section className="section cs_py_30 bg-light-white">
+          <div className="container">
+            <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONING SYSTEMS</h2>
+            <div className="row">
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
 
-                    <div className="col-xl-6">
-                        <p className='mb-0'>We specialise in all types and brands of air conditioning systems, HVAC and FAHU</p>
-                        <p className='mb-0'><strong>Our services include:</strong></p>
-                        <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-1">
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialise in all types and brands of air conditioning systems, HVAC and FAHU</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-1">
 
-                            <li>
-                                <strong>Installation:</strong>  Expert installation of various types and brands of central AC cooling systems, ensuring optimal performance and efficiency.
-                            </li>
+                  <li>
+                    <strong>Installation:</strong>  Expert installation of various types and brands of central AC cooling systems, ensuring optimal performance and efficiency.
+                  </li>
 
-                            <li>
-                                <strong>Diagnostics:</strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
-                            </li>
+                  <li>
+                    <strong>Diagnostics:</strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
+                  </li>
 
-                            <li>
-                                <strong>Repair Service:</strong> Efficient repair services for all air conditioner components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
-                            </li>
+                  <li>
+                    <strong>Repair Service:</strong> Efficient repair services for all air conditioner components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
+                  </li>
 
-                            <li>
-                                <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the air conditioner annual maintenance contract in Al Barsha South. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                  <li>
+                    <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the air conditioner annual maintenance contract in Al Barsha South. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </section>
 
         {/* The Benefits Of Regular AC Service*/}
-                <AcBenefits city="AlBarsha South"/>
+        <AcBenefits city="Al Barsha South" />
 
 
         {/* Why choose us AC */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
             <div className="usps align-items-center	">
@@ -446,42 +449,50 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           </div>
         </section>
 
+        <BeforeAfter
+          title="Recent Completed Projects"
+          subTitle="Before & after"
+          beforeImg={`${CDN}/after_img_1/public`}
+          afterTitle="After"
+          afterImg={`${CDN}/before_img_1/public`}
+          beforeTitle="Before"
+        />
 
         {/* We specialise in air conditioning services for the following brands */}
-        <section className="section cs_py_30 bg-light-gray">
-        <div className="container">
-          <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-          <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-          <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month service warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+        <section className="section cs_py_30 bg-light-white">
+          <div className="container">
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+              <b>We provide 2-month service warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
 
-          <h3>We specialise in air conditioning services for the following brands</h3>
+            <h3>We specialise in air conditioning services for the following brands</h3>
 
-          <ul className="mb-3">
-            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/">LG Air Conditioner Service</a>:</strong> FAJ offers reliable LG AC repair and services near me in Al Barsha South. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near you, including AC repair and maintenance in Al Barsha South Dubai.</li>
-            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/">Samsung Air Conditioner Repair and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai Al Barsha South. Specialising in Samsung air conditioning repair service near me, we offer comprehensive air conditioning service ranging from AC fixing to AC cleaning service and AC maintenance in Al Barsha South Dubai.</li>
-            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/york/">York AC Service and Repair</a>:</strong> The York AC repair and service in Al Barsha South Dubai, ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritised, providing air conditioning service near me, Al Barsha South, AC cleaning service, and AC fixing.</li>
-            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/daikin/">Daikin Air Conditioner Maintenance</a>:</strong> Count on our experienced team to promptly and effectively address any challenges you may encounter with your Daikin air conditioning unit. We specialise in AC cleaning service and AC repairing in Al Barsha South Dubai, to ensure it operates at optimal functionality, providing you with a cool and comfortable environment when you need it most.</li>
-            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/">Trane HVAC Repair</a>:</strong> With in-depth expertise in the repair of Trane air conditioning systems, we offer comprehensive Al Barsha South AC repair near me and AC cleaning services designed to ensure your unit operates at peak efficiency. Our specialized Trane AC maintenance and repair service in Al Barsha South Dubai, is conveniently available in your area, providing timely and effective solutions to keep your air conditioning system running smoothly and reliably. Whether you need routine home air conditioner repair near me or office AC service and maintenance in Al Barsha South or urgent repair, we are here to help you maintain a comfortable environment in your home or business.</li>
-            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/">Panasonic AC Service and Repair</a>:</strong> No matter the issue with your Panasonic air conditioner, our skilled AC technicians in Al Barsha South Dubai and Sharjah can quickly diagnose and fix it. We offer reliable air conditioning services near me in Al Barsha South Dubai, and AC repair right in your Al Barsha South area, ensuring your system runs smoothly again.</li>
-            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/">Gree AC Service and Maintenance</a>:</strong> Is your air conditioning unit not functioning properly, or are you seeing a Gree AC error displayed on the screen? You don’t have to struggle with uncomfortable temperatures or stale air any longer. At FAJ, we specialise in quickly restoring your Gree air conditioning to optimal performance. Our reliable air conditioning repair and maintenance services ensure that your system operates efficiently and effectively, preventing any further damage and discomfort. Whether you need emergency air conditioning repair near me in Al Barsha South, air conditioning service near me and routine ac maintenance services, or comprehensive air conditioning cleaning services in Dubai, we’ve got you covered. Enjoy a refreshing and cool environment once again with our professional solutions!</li>
-            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/">O General AC Service and Repair</a>:</strong> For air conditioning cleaning services in Dubai, specialized help is crucial for effectively managing aircon issues. Our company provides hassle-free villa AC repair / office AC cleaning service or home AC maintenance services in Al Barsha South, conveniently available in both Dubai and Sharjah. Trust us to keep your home comfortable all year round.</li>
-            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/">Mitsubishi Air Conditioner Service and Repair</a>:</strong> Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi Air Conditioning cleaning service and AC repairing ensure your AC stays cool and efficient, providing comfort and peace of mind. Expert Air conditioning cleaning service near me in Al Barsha South Dubai and Sharjah, aircon fixing and ac maintenance service in Al Barsha South Dubai.</li>
-            <li><strong>Carrier AC Repair and Service in Dubai</strong>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services in Al Barsha South Dubai, that are both efficient and dependable. Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Al Barsha South Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</li>
-          </ul>
+            <ul className="mb-3">
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/">LG Air Conditioner Service</a>:</strong> FAJ offers reliable LG AC repair and services near me in Al Barsha South. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near you, including AC repair and maintenance in Al Barsha South Dubai.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/">Samsung Air Conditioner Repair and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai Al Barsha South. Specialising in Samsung air conditioning repair service near me, we offer comprehensive air conditioning service ranging from AC fixing to AC cleaning service and AC maintenance in Al Barsha South Dubai.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/york/">York AC Service and Repair</a>:</strong> The York AC repair and service in Al Barsha South Dubai, ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritised, providing air conditioning service near me, Al Barsha South, AC cleaning service, and AC fixing.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/daikin/">Daikin Air Conditioner Maintenance</a>:</strong> Count on our experienced team to promptly and effectively address any challenges you may encounter with your Daikin air conditioning unit. We specialise in AC cleaning service and AC repairing in Al Barsha South Dubai, to ensure it operates at optimal functionality, providing you with a cool and comfortable environment when you need it most.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/">Trane HVAC Repair</a>:</strong> With in-depth expertise in the repair of Trane air conditioning systems, we offer comprehensive Al Barsha South AC repair near me and AC cleaning services designed to ensure your unit operates at peak efficiency. Our specialized Trane AC maintenance and repair service in Al Barsha South Dubai, is conveniently available in your area, providing timely and effective solutions to keep your air conditioning system running smoothly and reliably. Whether you need routine home air conditioner repair near me or office AC service and maintenance in Al Barsha South or urgent repair, we are here to help you maintain a comfortable environment in your home or business.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/">Panasonic AC Service and Repair</a>:</strong> No matter the issue with your Panasonic air conditioner, our skilled AC technicians in Al Barsha South Dubai and Sharjah can quickly diagnose and fix it. We offer reliable air conditioning services near me in Al Barsha South Dubai, and AC repair right in your Al Barsha South area, ensuring your system runs smoothly again.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/">Gree AC Service and Maintenance</a>:</strong> Is your air conditioning unit not functioning properly, or are you seeing a Gree AC error displayed on the screen? You don’t have to struggle with uncomfortable temperatures or stale air any longer. At FAJ, we specialise in quickly restoring your Gree air conditioning to optimal performance. Our reliable air conditioning repair and maintenance services ensure that your system operates efficiently and effectively, preventing any further damage and discomfort. Whether you need emergency air conditioning repair near me in Al Barsha South, air conditioning service near me and routine ac maintenance services, or comprehensive air conditioning cleaning services in Dubai, we’ve got you covered. Enjoy a refreshing and cool environment once again with our professional solutions!</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/">O General AC Service and Repair</a>:</strong> For air conditioning cleaning services in Dubai, specialized help is crucial for effectively managing aircon issues. Our company provides hassle-free villa AC repair / office AC cleaning service or home AC maintenance services in Al Barsha South, conveniently available in both Dubai and Sharjah. Trust us to keep your home comfortable all year round.</li>
+              <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/">Mitsubishi Air Conditioner Service and Repair</a>:</strong> Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi Air Conditioning cleaning service and AC repairing ensure your AC stays cool and efficient, providing comfort and peace of mind. Expert Air conditioning cleaning service near me in Al Barsha South Dubai and Sharjah, aircon fixing and ac maintenance service in Al Barsha South Dubai.</li>
+              <li><strong>Carrier AC Repair and Service in Dubai</strong>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services in Al Barsha South Dubai, that are both efficient and dependable. Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Al Barsha South Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</li>
+            </ul>
 
-          <LocationKeyword />
+            <LocationKeyword />
 
-          <div id="get-quote" className=" mt-3">
-            <div className="container d-flex justify-content-center align-items-center gap-3">
-              <GetQuoteButton />
-              <CallNowButton />
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
+              </div>
             </div>
-          </div>
 
-        </div>
-      </section>
+          </div>
+        </section>
 
         <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
@@ -514,7 +525,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img src={getImageSrc('benafit-acimg')} alt="benefit"  />
+                  <img src={getImageSrc('benafit-acimg')} alt="benefit" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -551,7 +562,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           ></Serviceappointemnt>
 
         </section>
-<section className="section cs_py_30">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
@@ -562,9 +573,9 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                       
+
                       <svg
-                         width="20"
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -574,13 +585,13 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                        <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
 
                       {/* Eye Slash */}
-                     
-                       <svg
-                       width="20"
+
+                      <svg
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -589,9 +600,9 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                       >
-<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                      >
+                        <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
@@ -606,7 +617,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           </div>
         </section>
 
-        
+
 
       </div>
     </>

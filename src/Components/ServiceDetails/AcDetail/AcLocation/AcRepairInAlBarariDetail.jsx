@@ -113,7 +113,7 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             <HeaderForm />
             <div className="cs_service_details">
 
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Al Barari</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
@@ -133,15 +133,15 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 expert_section_wrapper">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Best AC Repair in Al Barari</h2>
+                                <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Al Barari</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Al Barari, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Al Barari Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
+                                <h2 className="cs_fs_24 text-align-left">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -167,7 +167,10 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Al Barari. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <div className="expert_section_wrapper px-3">
+                                <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Al Barari. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            </div>
+                            
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -210,7 +213,7 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 </section>
 
                 {/* Common AC Problems That May Require Maintenance */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -358,10 +361,10 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
 
                 {/* The Benefits Of Regular AC Service*/}
-                <AcBenefits city="AlBarai"/>
+                <AcBenefits city="Al Barari"/>
 
                 {/* Why choose us AC */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container container-md container-sm">
                         <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
                         <div className="usps align-items-center	">
@@ -498,7 +501,7 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     </div>
                 </section>
 
-                <section className="section cs_py_30 bg-dark-blue text-light">
+                <section className="section cs_py_30 bg-dark-blue text-light-white">
                     <div className="container text-center">
                         <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                         <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>

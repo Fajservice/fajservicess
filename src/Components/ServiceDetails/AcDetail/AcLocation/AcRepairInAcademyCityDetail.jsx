@@ -17,12 +17,13 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 import { EyeIcon, EyeSlashIcon } from "../../../../icons/EyeIcon";
 import PriceCard from "./PriceCard";
 import AcBenefits from "../AcBenefit";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+    if (!imgPath) return '';
+    if (imgPath.startsWith('https')) return imgPath;
+    return `${CDN}/${imgPath}/public`;
 };
 const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -43,54 +44,54 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-   // State for fetched data
-       const [data, setData] = useState([]);
-       const [testimonial_data, setTestimonialData] = useState([]);
-       const [isLoading, setIsLoading] = useState(true);
-   
-       const handleItemClick = index => {
-           if (index === openItemIndex) {
-               setOpenItemIndex(-1);
-           } else {
-               setOpenItemIndex(index);
-           }
-       };
-       useEffect(() => {
-           if (firstItemOpen) {
-               setOpenItemIndex(0);
-               setFirstItemOpen(false);
-           }
-       }, [firstItemOpen]);
-   
-       useEffect(() => {
-           loadBackgroudImages();
-       }, []);
-   
-       // Fetch JSON data
-       useEffect(() => {
-           const fetchData = async () => {
-               try {
-                   const [faqsResponse, testimonialsResponse] = await Promise.all([
-                       fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAcademyCity.json`),
-                       fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
-                   ]);
-   
-                   const faqsData = await faqsResponse.json();
-                   const testimonialsData = await testimonialsResponse.json();
-   
-                   setData(faqsData);
-                   setTestimonialData(testimonialsData);
-               } catch (error) {
-                   console.error('Error fetching data:', error);
-               } finally {
-                   setIsLoading(false);
-               }
-           };
-   
-           fetchData();
-       }, []);
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
-    
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
+        }
+    };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
+        }
+    }, [firstItemOpen]);
+
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const [faqsResponse, testimonialsResponse] = await Promise.all([
+                    fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAcademyCity.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                ]);
+
+                const faqsData = await faqsResponse.json();
+                const testimonialsData = await testimonialsResponse.json();
+
+                setData(faqsData);
+                setTestimonialData(testimonialsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
+
+
     return (
         <>
             <HelmetProvider>
@@ -112,14 +113,14 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
-                    
+
                 </Helmet>
             </HelmetProvider>
 
             <HeaderForm />
             <div className="cs_service_details">
 
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Academy City</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
@@ -137,7 +138,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-white">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5 expert_section_wrapper align-items-center">
                             <div className="col-md-6">
@@ -164,15 +165,15 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Air Con Maintenance & Air Con Installation in Academy City"  />
+                                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Air Con Maintenance & Air Con Installation in Academy City" />
                             </div>
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
                             <div className="expert_section_wrapper px-4">
-                                 <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Academy City. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                                <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Academy City. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             </div>
-                           
+
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -187,7 +188,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 <FAJACPrice></FAJACPrice>
 
                 {/* Why is AC Maintenance Service Important in Dubai? */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Academy City?</h2>
                         <p>
@@ -214,7 +215,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 </section>
 
                 {/* Common AC Problems That May Require Maintenance */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -316,7 +317,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 </section>
 
                 {/* Here are the  */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONING SYSTEMS</h2>
                         <div className="row">
@@ -362,10 +363,10 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 </section>
 
                 {/* The Benefits Of Regular AC Service*/}
-                <AcBenefits city="Academy City"/>
+                <AcBenefits city="Academy City" />
 
                 {/* Why choose us AC */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container container-md container-sm">
                         <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
                         <div className="usps align-items-center	">
@@ -457,9 +458,17 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     </div>
                 </section>
 
+                <BeforeAfter
+                    title="Recent Completed Projects"
+                    subTitle="Before & after"
+                    beforeImg={`${CDN}/after_img_1/public`}
+                    afterTitle="After"
+                    afterImg={`${CDN}/before_img_1/public`}
+                    beforeTitle="Before"
+                />
 
                 {/* We specialise in air conditioning services for the following brands */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
                         <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
@@ -510,22 +519,22 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 <MaintenanceContract />
                 {/* testimobial section */}
                 <Testimonial1
-                          subtitle="What Our Clients Say"
-                          title="Customer <span>Reviews</span>"
-                          bgImg="img/testimonialbg.jpg"
-                          testimonialData={testimonial_data}
-                          sectionId="home-testimonials"
-                        />
+                    subtitle="What Our Clients Say"
+                    title="Customer <span>Reviews</span>"
+                    bgImg="img/testimonialbg.jpg"
+                    testimonialData={testimonial_data}
+                    sectionId="home-testimonials"
+                />
 
                 <section className="section cs_py_30 bg-dark-blue text-light">
-          <Serviceappointemnt
-          
+                    <Serviceappointemnt
+
                         subtitle2="Contact us"
                         title2="Book An Appointment"
                     ></Serviceappointemnt>
 
                 </section>
-{/* FAQ&apos;s */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">FAQ&apos;s</h3>
@@ -538,7 +547,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                         <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <i className="bi bi-eye text-light"><EyeIcon /></i>
-											<i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
+                                            <i className="bi bi-eye-slash text-light"><EyeSlashIcon /></i>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>
@@ -553,7 +562,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     </div>
                 </section>
 
-                
+
 
             </div>
         </>

@@ -12,6 +12,8 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
+import AcBenefits from "../AcBenefit";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -38,51 +40,51 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
   const [firstItemOpen, setFirstItemOpen] = useState(true);
 
   // State for fetched data
-          const [data, setData] = useState([]);
-          const [testimonial_data, setTestimonialData] = useState([]);
-          const [isLoading, setIsLoading] = useState(true);
-      
-          const handleItemClick = index => {
-              if (index === openItemIndex) {
-                  setOpenItemIndex(-1);
-              } else {
-                  setOpenItemIndex(index);
-              }
-          };
-          useEffect(() => {
-              if (firstItemOpen) {
-                  setOpenItemIndex(0);
-                  setFirstItemOpen(false);
-              }
-          }, [firstItemOpen]);
-      
-          useEffect(() => {
-              loadBackgroudImages();
-          }, []);
-      
-          // Fetch JSON data
-          useEffect(() => {
-              const fetchData = async () => {
-                  try {
-                      const [faqsResponse, testimonialsResponse] = await Promise.all([
-                          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlQuoz.json`),
-                          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
-                      ]);
-      
-                      const faqsData = await faqsResponse.json();
-                      const testimonialsData = await testimonialsResponse.json();
-      
-                      setData(faqsData);
-                      setTestimonialData(testimonialsData);
-                  } catch (error) {
-                      console.error('Error fetching data:', error);
-                  } finally {
-                      setIsLoading(false);
-                  }
-              };
-      
-              fetchData();
-          }, []);
+  const [data, setData] = useState([]);
+  const [testimonial_data, setTestimonialData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  // Fetch JSON data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [faqsResponse, testimonialsResponse] = await Promise.all([
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlQuoz.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+        ]);
+
+        const faqsData = await faqsResponse.json();
+        const testimonialsData = await testimonialsResponse.json();
+
+        setData(faqsData);
+        setTestimonialData(testimonialsData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
   return (
     <>
       <HelmetProvider>
@@ -104,13 +106,13 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">
 
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-white">
           <div className="container">
             <h1 className="cs_fs_30">AC Service in Al Quoz</h1>
             {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
@@ -131,13 +133,13 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Best AC Repair in Al Quoz</h2>
+                <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Al Quoz</h2>
                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Al Quoz, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Al Quoz Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
+                <h2 className="cs_fs_24 text-align-left">Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -163,7 +165,9 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Al Quoz. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <div className="expert_section_wrapper px-3">
+                <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Al Quoz. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              </div>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -175,8 +179,8 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         </section>
 
         {/* AC Price Section */}
-            <FAJACPrice></FAJACPrice>
- 
+        <FAJACPrice></FAJACPrice>
+
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
@@ -212,7 +216,7 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         </section>
 
         {/* Common AC Problems That May Require Maintenance */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-white">
           <div className="container">
             <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -361,81 +365,7 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         </section>
 
         {/* The Benefits Of Regular AC Service*/}
-        <section className="section cs_py_30 ac_benifit_blue">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-10 text-center">
-                <h2 className="cs_fs_30 text-light">Benefits Of Regular AC Service and Maintenance in Al Quoz
-                </h2>
-
-                <div className="row mt-4 gx-4 gy-4">
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
-                      <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
-                      <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                      <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
-                      <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
-                      <p className="small">We ensure you get optimal air flow around each room as needed.</p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                      <p className="small">Our team provides vital feedback on your AC&apos;s health and any needed air con repair.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="text-center mb-4">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <AcBenefits city="Al Quoz" />
 
         {/* Why choose us AC */}
         <section className="section cs_py_30">
@@ -527,9 +457,17 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           </div>
         </section>
 
+        <BeforeAfter
+          title="Recent Completed Projects"
+          subTitle="Before & after"
+          beforeImg={`${CDN}/after_img_1/public`}
+          afterTitle="After"
+          afterImg={`${CDN}/before_img_1/public`}
+          beforeTitle="Before"
+        />
 
         {/* We specialise in air conditioning services for the following brands */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-white">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
@@ -640,7 +578,7 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           ></Serviceappointemnt>
 
         </section>
-<section className="section cs_py_30">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
@@ -651,9 +589,9 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                       
+
                       <svg
-                         width="20"
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -663,13 +601,13 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                         strokeLinejoin="round"
                         className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
                       >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                        <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
 
                       {/* Eye Slash */}
-                     
-                       <svg
-                       width="20"
+
+                      <svg
+                        width="20"
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
@@ -678,9 +616,9 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                       >
-<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                      >
+                        <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
@@ -695,7 +633,7 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           </div>
         </section>
 
-        
+
 
       </div>
     </>

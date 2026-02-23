@@ -771,7 +771,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInInvestmentsPark />,
       },
       {
-        path: "/services/air-conditioning-repair/coverage-area/alaweer/",
+        path: "/services/air-conditioning-repair/coverage-area/al-aweer/",
         element: <Components.AcRepairInAlaweer />,
       },
       {
@@ -3024,6 +3024,10 @@ export const router = createBrowserRouter([
       {
         path: "/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
         element: <Navigate to="/services/air-conditioning-repair/brands/york/" replace />
+      },
+      {
+        path: "/services/air-conditioning-repair/coverage-area/alaweer/",
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/al-aweer/" replace />
       },
 
       // Home Appliances Brands

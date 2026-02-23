@@ -13,6 +13,7 @@ import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
 import AcBenefits from "../AcBenefit";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -109,7 +110,7 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Repair & Service in Town Square</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
@@ -127,9 +128,9 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                 <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-white">   
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <div className="row gx-md-5 expert_section_wrapper align-items-center">
+                        <div className="row gx-md-5 expert_section_wrapper">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Town Square</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Town Square, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
@@ -160,8 +161,8 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <div className="expert_section_wrapper px-4">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Town Square. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <div className="expert_section_wrapper px-3">
+                                <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Town Square. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             </div>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -351,7 +352,7 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                 </section>
 
                 {/* The Benefits Of Regular AC Service*/}
-                <AcBenefits city="Town Square"/>
+                <AcBenefits city="Town Square" />
 
                 {/* Why choose us AC */}
                 <section className="section cs_py_30 bg-light-white">
@@ -442,8 +443,17 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
                     </div>
                 </section>
 
+                <BeforeAfter
+                    title="Recent Completed Projects"
+                    subTitle="Before & after"
+                    beforeImg={`${CDN}/after_img_1/public`}
+                    afterTitle="After"
+                    afterImg={`${CDN}/before_img_1/public`}
+                    beforeTitle="Before"
+                />
+
                 {/* We specialise in air conditioning services for the following brands */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
 
                         <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
@@ -536,7 +546,6 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
 
                     </div>
                 </section>
-
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
