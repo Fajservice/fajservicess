@@ -136,7 +136,6 @@ const AcRepairInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Al Mamzar</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Al Mamzar, it’s essential to hire a professional and trustworthy  <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
-
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Al Mamzar Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 align-items-left">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>

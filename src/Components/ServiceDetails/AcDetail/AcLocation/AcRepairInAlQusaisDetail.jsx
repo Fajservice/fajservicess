@@ -453,7 +453,7 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
 
                 {/* We specialise in air conditioning services for the following brands */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 bg-light-white">
                     <div className="container">
                         <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
                         <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
