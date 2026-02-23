@@ -3355,6 +3355,10 @@ export const router = createBrowserRouter([
         path:"/de-dietrich-appliance-repair-service/",
         element: <Navigate to="/services/home-appliances-repair/brands/de-dietrich/" replace />
       },
+      {
+        path:"/services/air-conditioning-repair/brands/ogeneral/",
+        element: <Navigate to="/services/air-conditioning-repair/brands/o-general/" replace />
+      },
     ],
   }
 ]);

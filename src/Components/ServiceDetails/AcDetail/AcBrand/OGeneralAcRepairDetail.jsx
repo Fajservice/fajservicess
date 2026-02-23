@@ -13,6 +13,7 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 import AcBrandBenifit from "./ACBrandComponents/ACBrandBenifit.jsx";
 import PriceCard from "../AcLocation/PriceCard.jsx";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -127,15 +128,15 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <PriceCard />
 
         {/* 2 cols */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">O General Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">O General Ac Maintenance and Servicing</h2>
                 <p className="mb-2">For O General air conditioning unit repairs, it’s essential to choose  a skilled technician.
                   <br />Our dedicated team specialises in AC service and maintenance across Dubai and Sharjah. FAJ is committed to providing reliable solutions that enhance indoor comfort year-round and ensure your system operates efficiently.
                 </p>
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need O General AC Maintenance</h2>
+                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Top Common Signs That You Need O General AC Maintenance</h2>
                 <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -167,7 +168,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <FAJACPrice></FAJACPrice>
 
         {/* Why*/}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">Why is O General AC Maintenance Service Important in Dubai?</h2>
             <p className="mb-0">To keep your O General air conditioner running efficiently in Dubai's heat, <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential. At FAJ, we provide expert services tailored for O General ACs, ensuring your unit delivers optimal cooling and comfort all year round.
@@ -193,7 +194,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         </section>
 
         {/* Problems */}
-        <section className="section cs_py_30 bg-light-gray ">
+        <section className="section cs_py_30">
           <div className="container">
             <h2 className="text-center"> Common O General AC Problems That May Require Maintenance </h2>
             <div className="row gx-lg-3 gy-lg-4">
@@ -307,7 +308,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         </section>
 
         {/* HERE  */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">
               HERE ARE THE SERVICES WE OFFER FOR O GENERAL AC SYSTEMS
@@ -344,7 +345,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         </section >
 
         {/*  Benefits */}
-        <AcBrandBenifit />
+        <AcBrandBenifit brandName="O General AC"/>
 
         {/* CHOOSE */}
         <section className="section cs_py_30">
@@ -435,9 +436,17 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
           </div>
         </section>
-
+        <BeforeAfter
+          title="Recent Completed Service"
+          subTitle="Before & After Service"
+          bgImg={`${CDN}/background-image-2/public`}
+          beforeImg={`${CDN}/after_img_1/public`}
+          afterTitle="After"
+          afterImg={`${CDN}/before_img_1/public`}
+          beforeTitle="Before"
+        />
         {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>

@@ -13,6 +13,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 import AcBrandBenifit from "./ACBrandComponents/ACBrandBenifit.jsx";
 import PriceCard from "../AcLocation/PriceCard.jsx";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter.jsx";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -126,18 +127,18 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
 
 
         {/* 2 col */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Mitsubishi AC Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Mitsubishi AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   When addressing Mitsubishi <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair</a> needs, it’s important to choose a professional and trustworthy technician for the space.
                   <br />Our team specializes in the cleaning service Mitsubishi air conditioner across Dubai and Sharjah. At FAJ, we are committed to providing reliable fix that ensures your comfort throughout the year.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need Mitsubishi AC Maintenance</h2>
+                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Top Common Signs That You Need Mitsubishi AC Maintenance</h2>
                 <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -168,7 +169,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
         <FAJACPrice></FAJACPrice>
 
         {/* Why*/}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Mitsubishi AC Maintenance Service Important in Dubai?</h2>
@@ -198,7 +199,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
         </section>
 
         {/* Problems  */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h2 className="text-center">Common Mitsubishi AC Problems That May Require Maintenance</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -320,7 +321,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
         </section>
 
         {/* HERE  */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR MITSUBISHI AC SYSTEMS</h2>
 
@@ -356,7 +357,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
         </section >
 
         {/*  Benefits */}
-       <AcBrandBenifit />
+       <AcBrandBenifit brandName="Mitsubishi AC"/>
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -448,9 +449,17 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
             </div>
           </div>
         </section>
-
+        <BeforeAfter
+          title="Recent Completed Service"
+          subTitle="Before & After Service"
+          bgImg={`${CDN}/background-image-2/public`}
+          beforeImg={`${CDN}/after_img_1/public`}
+          afterTitle="After"
+          afterImg={`${CDN}/before_img_1/public`}
+          beforeTitle="Before"
+        />
         {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>

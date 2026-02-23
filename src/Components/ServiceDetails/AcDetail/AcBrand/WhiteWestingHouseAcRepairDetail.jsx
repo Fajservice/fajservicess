@@ -12,6 +12,8 @@ import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 import PriceCard from "../AcLocation/PriceCard.jsx";
+import AcBrandBenifit from "./ACBrandComponents/ACBrandBenifit.jsx";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -128,18 +130,18 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
         <PriceCard />
 
         {/* 2 col */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1" style={{ fontSize: "18px" }}>White Westinghouse Ac Maintenance and Services </h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">White Westinghouse Ac Maintenance and Services </h2>
 
                 <p className="mb-2">
                   If you are located in Dubai and need AC repair services for White Westinghouse air conditioners, FAJ is prepared to assist you.
                   <br />Our team of experts is committed to ensuring that your air conditioning systems operate efficiently in both Dubai and Sharjah, offering reliable solutions that promote optimal indoor comfort throughout the year.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Common Signs That You Need White Westinghouse AC Maintenance</h2>
+                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Top Common Signs That You Need White Westinghouse AC Maintenance</h2>
                 <p className="mb-2">If you notice any of these AC signs, please contact us via phone or WhatsApp chat. We are here to assist your AC cooling system in getting optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -170,7 +172,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
         <FAJACPrice></FAJACPrice>
 
         {/* Why*/}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
 
             <h2 className="cs_fs_30">Why is White Westinghouse AC Maintenance Service Important in Dubai?</h2>
@@ -199,7 +201,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
         </section>
 
         {/* Problems  */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h2 className="text-center">Common White Westinghouse AC Problems That May Require Maintenance</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -317,7 +319,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
         </section>
 
         {/* HERE  */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR White Westinghouse AC SYSTEMS</h2>
 
@@ -352,92 +354,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
         </section >
 
         {/*  Benefits */}
-        <section className="section cs_py_30" style={{ backgroundColor: "#00334E", color: "white" }}>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-10 text-center">
-                <h2 className="cs_fs_30 text-light">Benefits Of Regular White Westinghouse AC Service and Maintenance in Dubai </h2>
-
-                <div className="row mt-4 gx-4 gy-4">
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
-                      <p className="small">
-                        We conduct a thorough evaluation of cooling efficiency using a temperature gun.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
-                      <p className="small">
-                        All hardware components have been tested and disinfected, including filters and vents.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                      <p className="small">
-                        We make sure fan operates properly and there are no blockages in evaporator coil.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
-                      <p className="small">
-                        We use a laser temperature gauge to verify that the thermostats are operating correctly.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
-                      <p className="small">
-                        We make sure that each room receives the optimal airflow it needs.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-2">
-                    <div className="d-flex flex-column align-items-center px-2">
-                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                      <p className="small">
-                        Our team provides feedback on your White Westinghouse AC's health & repairs.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="text-center mb-4">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <AcBrandBenifit brandName="White WestingHouse AC"/>
 
         {/* CHOOSE US  */}
         <section className="section cs_py_30">
@@ -528,9 +445,17 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
             </div>
           </div>
         </section>
-
+        <BeforeAfter
+          title="Recent Completed Service"
+          subTitle="Before & After Service"
+          bgImg={`${CDN}/background-image-2/public`}
+          beforeImg={`${CDN}/after_img_1/public`}
+          afterTitle="After"
+          afterImg={`${CDN}/before_img_1/public`}
+          beforeTitle="Before"
+        />
         {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
