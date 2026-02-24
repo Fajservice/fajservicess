@@ -1,14 +1,21 @@
 {
   "success": [
     {
-      "originalPath": "ramadanpopup",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ramadanpopup/public",
-      "id": "ramadanpopup",
+      "originalPath": "lagermaniacallout",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/lagermaniacallout/public",
+      "id": "lagermaniacallout",
+      "success": true
+    },
+    {
+      "originalPath": "lagermaniaservice",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/lagermaniaservice/public",
+      "id": "lagermaniaservice",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "ramadanpopup": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ramadanpopup/public"
+    "lagermaniacallout": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/lagermaniacallout/public",
+    "lagermaniaservice": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/lagermaniaservice/public"
   }
 }

@@ -41,105 +41,9 @@ const ChooseSkeleton = () => (
     <div className="cs_height_70 cs_height_lg_70"></div>
   </section>
 );
-
-const ServicesSkeleton = () => (
-  <section className="cs_gray_bg" style={{ minHeight: '650px' }}>
-    <div className="cs_height_60"></div>
-    <div className="container">
-      <div style={{ height: 80, background: '#e8e8e8', borderRadius: 4, marginBottom: 40 }} />
-      <div style={{ display: 'flex', gap: 30 }}>
-        {[1, 2, 3].map(i => (
-          <div key={i} style={{ flex: 1, minHeight: 450, background: '#e8e8e8', borderRadius: 10 }} />
-        ))}
-      </div>
-    </div>
-    <div className="cs_height_40"></div>
-  </section>
-);
-
-const DEFAULT_SEO = {
-  title: "FAJ / Installation, Repair and Maintenance Company in Dubai ",
-  description:
-    "FAJ Established in 2010, / with experts Air Conditioner, Refrigeration, Kitchen Equipment, Appliances installation, Repair & Maintenance Services in Dubai",
-  author: "Faj Technical Services",
-  keywords:
-    "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Service, Washing Machine Repair, Washing Machine Service, Refrigerator Repair, Freezer Repair, Fridge Repair, Appliances Repair, Appliances Service, Appliances Fix, Appliances Maintenance, Appliances Installation, Appliances Dubai",
-  url: "https://www.fajservices.ae/",
-};
-
-const heroSlides = [
-  {
-    image: `${CDN}/4707802c-9c00-4a6f-b8c4-aa21dd4e0600/public`,
-    alt: "FAJ ensures comfort with professional air conditioning services year-round",
-    content: true,
-    title: "FAJ ensures comfort with professional air conditioning services year-round!",
-    description: "We provide honest, friendly, and professional repair, servicing, maintenance contracts, and installation through our expert technicians",
-    buttonText: "Read more",
-    buttonLink: "/services/air-conditioning-repair/ac-service/",
-    phone: "(+971) 507464712",
-    phoneLink: "tel:+971507464712"
-  },
-  {
-    image: `${CDN}/appliances-repair-service/public`,
-    alt: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
-    content: true,
-    title: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
-    description: "We understand that appliance breakdowns can happen at any time, which is why our team at FAJ is always ready to respond and repair quickly",
-    buttonText: "Read more",
-    buttonLink: "/services/home-appliances-repair/",
-    phone: "(+971) 507464712",
-    phoneLink: "tel:+971507464712"
-  },
-  {
-    image: `${CDN}/b9e9f46b-45bd-4f4e-62f2-999539063600/public`,
-    alt: "We are here to help you with your commercial refrigeration system repair problems",
-    content: true,
-    title: "We are here to help you with your commercial refrigeration system repair problems",
-    description: "At FAJ Refrigeration and Freezer Maintenance, we focus on keeping your products and premises at the optimal temperature, helping you maintain your cool!",
-    buttonText: "Read more",
-    buttonLink: "/services/refrigeration-equipment/commercial-refrigeration-maintenance/",
-    phone: "(+971) 507464712",
-    phoneLink: "tel:+971507464712"
-  }
-];
-
-const Home = ({
-  titleSeo = DEFAULT_SEO.title,
-  description = DEFAULT_SEO.description,
-  Author = DEFAULT_SEO.author,
-  Keyword = DEFAULT_SEO.keywords,
-  URL = DEFAULT_SEO.url,
-}) => {
-  const canonicalUrl = URL.replace(/\/?$/, "/");
-
-  const [testimonialData, setTestimonialData] = useState([]);
-
-  useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/testimonial1.json`)
-      .then(res => res.json())
-      .then(data => setTestimonialData(data))
-      .catch(err => console.error('Error fetching testimonial data:', err));
-  }, []);
-
-  return (
-    <>
-      <Helmet>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description} />
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:url" content={canonicalUrl} />
-        
-        {/* Structured Data (JSON-LD) */}
-        <script type="application/ld+json">
-          {`
-            {
+const Schema =() => (
+    
+{
               "@context": "https://schema.org",
               "@graph": [
                 {
@@ -257,8 +161,101 @@ const Home = ({
                 }
               ]
             }
-          `}
-        </script>
+);
+const ServicesSkeleton = () => (
+  <section className="cs_gray_bg" style={{ minHeight: '650px' }}>
+    <div className="cs_height_60"></div>
+    <div className="container">
+      <div style={{ height: 80, background: '#e8e8e8', borderRadius: 4, marginBottom: 40 }} />
+      <div style={{ display: 'flex', gap: 30 }}>
+        {[1, 2, 3].map(i => (
+          <div key={i} style={{ flex: 1, minHeight: 450, background: '#e8e8e8', borderRadius: 10 }} />
+        ))}
+      </div>
+    </div>
+    <div className="cs_height_40"></div>
+  </section>
+);
+
+const DEFAULT_SEO = {
+  title: "FAJ / Installation, Repair and Maintenance Company in Dubai ",
+  description:
+    "FAJ Established in 2010, / with experts Air Conditioner, Refrigeration, Kitchen Equipment, Appliances installation, Repair & Maintenance Services in Dubai",
+  author: "Faj Technical Services",
+  keywords:
+    "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Service, Washing Machine Repair, Washing Machine Service, Refrigerator Repair, Freezer Repair, Fridge Repair, Appliances Repair, Appliances Service, Appliances Fix, Appliances Maintenance, Appliances Installation, Appliances Dubai",
+  url: "https://www.fajservices.ae/",
+};
+
+const heroSlides = [
+  {
+    image: `${CDN}/4707802c-9c00-4a6f-b8c4-aa21dd4e0600/public`,
+    alt: "FAJ ensures comfort with professional air conditioning services year-round",
+    content: true,
+    title: "FAJ ensures comfort with professional air conditioning services year-round!",
+    description: "We provide honest, friendly, and professional repair, servicing, maintenance contracts, and installation through our expert technicians",
+    buttonText: "Read more",
+    buttonLink: "/services/air-conditioning-repair/ac-service/",
+    phone: "(+971) 507464712",
+    phoneLink: "tel:+971507464712"
+  },
+  {
+    image: `${CDN}/appliances-repair-service/public`,
+    alt: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
+    content: true,
+    title: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
+    description: "We understand that appliance breakdowns can happen at any time, which is why our team at FAJ is always ready to respond and repair quickly",
+    buttonText: "Read more",
+    buttonLink: "/services/home-appliances-repair/",
+    phone: "(+971) 507464712",
+    phoneLink: "tel:+971507464712"
+  },
+  {
+    image: `${CDN}/b9e9f46b-45bd-4f4e-62f2-999539063600/public`,
+    alt: "We are here to help you with your commercial refrigeration system repair problems",
+    content: true,
+    title: "We are here to help you with your commercial refrigeration system repair problems",
+    description: "At FAJ Refrigeration and Freezer Maintenance, we focus on keeping your products and premises at the optimal temperature, helping you maintain your cool!",
+    buttonText: "Read more",
+    buttonLink: "/services/refrigeration-equipment/commercial-refrigeration-maintenance/",
+    phone: "(+971) 507464712",
+    phoneLink: "tel:+971507464712"
+  }
+];
+
+const Home = ({
+  titleSeo = DEFAULT_SEO.title,
+  description = DEFAULT_SEO.description,
+  Author = DEFAULT_SEO.author,
+  Keyword = DEFAULT_SEO.keywords,
+  URL = DEFAULT_SEO.url,
+}) => {
+  const canonicalUrl = URL.replace(/\/?$/, "/");
+
+  const [testimonialData, setTestimonialData] = useState([]);
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/testimonial1.json`)
+      .then(res => res.json())
+      .then(data => setTestimonialData(data))
+      .catch(err => console.error('Error fetching testimonial data:', err));
+  }, []);
+
+  return (
+    <>
+      <Helmet script={[{ type: 'application/ld+json', innerHTML: JSON.stringify(Schema) }]}>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description} />
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonicalUrl} />
+        
       </Helmet>
       
       <div className="homepage">
