@@ -35,13 +35,12 @@ const EyeIcon = () => (
   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
-
 );
+
 const EyeSlashIcon = () => (
   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
-
 );
 
 const useInView = (options = {}) => {
@@ -85,8 +84,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
 
-<script type="application/ld+json">
-  {JSON.stringify({
+  const schema = {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -240,10 +238,9 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         ]
       }
     ]
-  })}
-</script>
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  };
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [faqData, setFaqData] = useState([]);
   const [testimonialData, setTestimonialData] = useState([]);
   const [openItemIndex, setOpenItemIndex] = useState(0);
@@ -283,7 +280,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
       .catch(err => console.error('Error fetching FAQ data:', err));
   }, [faqInView, faqData.length]);
 
-
   useEffect(() => {
     if (!testimonialInView || testimonialData.length > 0) return;
 
@@ -296,7 +292,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   return (
     <>
       <HelmetProvider>
-        <Helmet script={[{ type: 'application/ld+json', innerHTML: JSON.stringify(schema) }]}>
+        <Helmet>
           <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
           <meta name="author" content={metaAuthor} />
@@ -311,6 +307,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       </HelmetProvider>
 
@@ -354,7 +351,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <ul className="mb-0">
                       <li>Water Leaking from your AC</li>
                       <li>AC compressor is not cooling</li>
-                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling" ><b>High AC electricity (DEWA) bills</b></a></li>
+                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
                     </ul>
                   </div>
                 </div>
@@ -428,61 +425,53 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <CommonACProblems />
         </LazySection>
 
-         <section className="section cs_py_30 bg-light-blue-section">
-  <div className="container">
-    <h2 className="cs_fs_28">How to use FAJ AC Service and AC Repair in Dubai?</h2>
-    <p className="cs-fs_14">Are you searching for reliable air conditioning services in Dubai? FAJ Technical Services L.L.C provides excellent AC repair and AC cleaning service right at your doorstep. Our team of experts is committed to providing your comfort with excellent service.</p>
-    
-    <div className="service-cards-grid">
-      <div className="service-card-item">
-        <h3>AC Repair in Dubai for Improved Performance:</h3>
-        <p className="cs_fs_14">Is your AC not cooling effectively? Our AC technicians can diagnose and fix AC errors.</p>
-      </div>
-      
-      <div className="service-card-item">
-        <h3>Regular AC Cleaning for Maximum Efficiency:</h3>
-        <p className="cs_fs_14">For optimal performance, keep your AC cleaning. We offer AC duct cleaning and filters for fresh, healthy air.</p>
-      </div>
-      
-      <div className="service-card-item">
-        <h3>Essential AC Maintenance Service Dubai:</h3>
-        <p className="cs_fs_14">Regular AC maintenance is necessary. Our services help prepare your AC for the summer heat.</p>
-      </div>
-      
-      <div className="service-card-item">
-        <h3>Assistance with New AC Installation:</h3>
-        <p className="cs_fs_14">Upgrading to a new AC unit? Let our AC experts handle the selection, installation, and testing!</p>
-      </div>
-      
-      <div className="service-card-item">
-        <h3>Emergency AC Repair in Dubai:</h3>
-        <p className="cs_fs_14">Experiencing unexpected AC breakdowns? Our 7-day emergency AC repairs is available to provide quick service.</p>
-      </div>
-      
-      <div className="service-card-item">
-        <h3>AC Service Dubai Available Near Me Before Summer:</h3>
-        <p className="cs_fs_14">Get ready for summer! Schedule your AC tune up to ensure comfort during the heat.</p>
-      </div>
-    </div>
-    
-    <div className="service-footer-text">
-      <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair & Maintenance Services today!</h3>
-      <p className="cs_fs_14">For reliable AC service and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
-    </div>
-  </div>
-  
-  
-</section>
+        <section className="section cs_py_30 bg-light-blue-section">
+          <div className="container">
+            <h2 className="cs_fs_28">How to use FAJ AC Service and AC Repair in Dubai?</h2>
+            <p className="cs-fs_14">Are you searching for reliable air conditioning services in Dubai? FAJ Technical Services L.L.C provides excellent AC repair and AC cleaning service right at your doorstep. Our team of experts is committed to providing your comfort with excellent service.</p>
+
+            <div className="service-cards-grid">
+              <div className="service-card-item">
+                <h3>AC Repair in Dubai for Improved Performance:</h3>
+                <p className="cs_fs_14">Is your AC not cooling effectively? Our AC technicians can diagnose and fix AC errors.</p>
+              </div>
+              <div className="service-card-item">
+                <h3>Regular AC Cleaning for Maximum Efficiency:</h3>
+                <p className="cs_fs_14">For optimal performance, keep your AC cleaning. We offer AC duct cleaning and filters for fresh, healthy air.</p>
+              </div>
+              <div className="service-card-item">
+                <h3>Essential AC Maintenance Service Dubai:</h3>
+                <p className="cs_fs_14">Regular AC maintenance is necessary. Our services help prepare your AC for the summer heat.</p>
+              </div>
+              <div className="service-card-item">
+                <h3>Assistance with New AC Installation:</h3>
+                <p className="cs_fs_14">Upgrading to a new AC unit? Let our AC experts handle the selection, installation, and testing!</p>
+              </div>
+              <div className="service-card-item">
+                <h3>Emergency AC Repair in Dubai:</h3>
+                <p className="cs_fs_14">Experiencing unexpected AC breakdowns? Our 7-day emergency AC repairs is available to provide quick service.</p>
+              </div>
+              <div className="service-card-item">
+                <h3>AC Service Dubai Available Near Me Before Summer:</h3>
+                <p className="cs_fs_14">Get ready for summer! Schedule your AC tune up to ensure comfort during the heat.</p>
+              </div>
+            </div>
+
+            <div className="service-footer-text">
+              <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair & Maintenance Services today!</h3>
+              <p className="cs_fs_14">For reliable AC service and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
+            </div>
+          </div>
+        </section>
 
         {/* Benefits Of Regular AC Service and Maintenance Dubai */}
         <section className="section ac_benifit_blue">
           <div className="container">
             <div className="text-center">
-              <h2 className="cs_fs_30 text-light my-5">Benefits Of Regular AC Service and Maintenance in Dubai
-              </h2>
+              <h2 className="cs_fs_30 text-light my-5">Benefits Of Regular AC Service and Maintenance in Dubai</h2>
               <div className="row mt-4 gx-4 gy-4">
                 <div className="col-md-4 mb-5">
-                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2">
                     <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
                       <Cooling />
                     </div>
@@ -490,9 +479,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <p className="small">We perform a thorough evaluation of AC cooling efficiency with the use of a temperature gun.</p>
                   </div>
                 </div>
-
                 <div className="col-md-4 mb-5">
-                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2">
                     <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
                       <Improve />
                     </div>
@@ -500,9 +488,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <p className="small">Cleaning AC filters and coils removes dust, resulting in healthier and cleaner air for your family or employees.</p>
                   </div>
                 </div>
-
                 <div className="col-md-4 mb-5">
-                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2">
                     <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
                       <Inspection />
                     </div>
@@ -510,9 +497,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <p className="small">An AC tune-up involves checking and cleaning the filters, as well as inspecting electrical connections, to ensure optimal performance.</p>
                   </div>
                 </div>
-
                 <div className="col-md-4 mb-5">
-                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2">
                     <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
                       <Thermostat />
                     </div>
@@ -520,9 +506,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <p className="small">We use a laser temperature gauge to confirm that the air conditioning thermostats are functioning properly.</p>
                   </div>
                 </div>
-
                 <div className="col-md-4 mb-5">
-                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2">
                     <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
                       <Airflow />
                     </div>
@@ -530,9 +515,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <p className="small">We ensure optimal airflow from your air conditioning system in each room as needed.</p>
                   </div>
                 </div>
-
                 <div className="col-md-4 mb-5">
-                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2 ">
+                  <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2">
                     <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
                       <Customer />
                     </div>
@@ -540,9 +524,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <p className="small">Our team provides essential feedback on your air conditioning health and any necessary repair.</p>
                   </div>
                 </div>
-              </div>
-
-              <div className="text-center mb-4">
               </div>
             </div>
           </div>
@@ -568,9 +549,10 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <LazySection>
           <ACBrandsSection />
         </LazySection>
+
         <section className="section gallery_section bg-light-gray cs_py_30">
           <div className="container">
-            <h2>Gallery  <Gallery /></h2>
+            <h2>Gallery <Gallery /></h2>
             <div className="row gx-3 gy-2">
               <div className="col-md-4 col-6">
                 <img src={`${CDN}/AcService/slide1/public`} alt="" />
@@ -593,6 +575,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
           </div>
         </section>
+
         <LazySection>
           <Practicaltip />
         </LazySection>
@@ -623,6 +606,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <LazySection>
           <Blog2 />
         </LazySection>
+
         <LazySection>
           <section className="section cs_py_30 bg-dark-blue text-light">
             <Serviceappointemnt
@@ -631,6 +615,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             />
           </section>
         </LazySection>
+
         {/* FAQ Section */}
         <div ref={faqRef}>
           {faqInView && (
@@ -643,7 +628,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </Suspense>
           )}
         </div>
-
 
       </div>
     </>
@@ -693,21 +677,14 @@ const CommonACProblems = memo(() => {
 const ACBrandsSection = memo(() => (
   <section className="section cs_py_30">
     <div className="container">
-      {/* <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-      <p className="pt-3 border-small-top">
-        <strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-        <b>We provide 2-month service warranty</b><br />
-        and <small>3-month parts warranty</small> as standard.
-      </p> */}
       <h3 className="cs_fs_24 text-align-left">We specialise in air conditioning services for the following brands</h3>
-
       <ul className="mb-3">
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/daikin/"><strong>Daikin Air Conditioning Services</strong></a><strong>:</strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong international presence through its focus on quality, innovation, and effective communication. We work with Daikin air conditioning products because the company continuously invests in research and development.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/"><strong>Gree AC Repair and Service</strong></a><strong>:</strong> Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product line to include various home appliances and became China's largest air conditioner manufacturer by 2000.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/"><strong>O General AC Repair and Maintenance</strong></a><strong>:</strong> O General AC, a brand of Fujitsu General, is renowned for its Japanese engineering and high-quality air conditioning solutions.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/"><strong>Mitsubishi AC Service and Repair</strong></a><strong>:</strong> Founded in 1954, Mitsubishi Air Conditioning has been producing air conditioning systems for nearly 75 years and is renowned for its reliability and energy efficiency.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/"><strong>Samsung AC Maintenance Service</strong></a><strong>:</strong> Samsung AC is a globally recognized name, known for pushing boundaries. Since 1969, they have continued to shape the future with innovative air conditioning technology.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/york/"><strong>York AC Servicing and Repair</strong></a><strong>:</strong> YORK&reg; has been an industry leader since our founding in 1874.</li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/york/"><strong>York AC Servicing and Repair</strong></a><strong>:</strong> YORK® has been an industry leader since our founding in 1874.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/"><strong>LG AC Maintenance and Service</strong></a><strong>:</strong> LG history in air conditioning began in 1968 with the launch of its first unit.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/"><strong>Trane HVAC Repair and Maintenance:</strong></a> Trane developed its first air conditioning unit in 1931.</li>
         <li><strong>Carrier AC Repair and Services in Dubai:</strong> Since 1902, Carrier HVAC has cultivated a history of proven innovation in the heating, air-conditioning and refrigeration industries.</li>
@@ -780,10 +757,8 @@ const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
                 <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                 <span className="cs_accordian_toggle">
                   <Suspense fallback={null}>
-                    <i className="bi bi-eye"><EyeIcon />
-                    </i>
-                    <i className="bi bi-eye-slash"><EyeSlashIcon />
-                    </i>
+                    <i className="bi bi-eye"><EyeIcon /></i>
+                    <i className="bi bi-eye-slash"><EyeSlashIcon /></i>
                   </Suspense>
                 </span>
               </div>
@@ -800,7 +775,6 @@ const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
     </section>
   );
 });
-
 
 const SectionPlaceholder = memo(({ height = "200px" }) => (
   <div style={{ height, background: "#f5f5f5" }} />

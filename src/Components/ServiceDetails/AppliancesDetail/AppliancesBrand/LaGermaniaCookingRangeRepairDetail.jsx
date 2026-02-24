@@ -21,6 +21,7 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
+
 const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "La Germania Cooking Range Repair and Oven Service in Dubai");
@@ -36,7 +37,109 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+// Custom Services Data for Wolf Appliances
+  const lagermaniaServicesData = [
+     {
+      id: 1,
+      image: getImageSrc('lagermaniacallout'),
+ 
+      title: 'Appliance Call-out',
+      icon: getImageSrc('calloutcard'),
+      price: 'AED315',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
+      popupTitle: 'Appliance Call-out  scope of work:',
+      sections: [
+        {
+          items: [
+            'Inspection visit fee',
+            'Rectification of faults',
+            'Cost of minor repair work',
+            'Transportation pricing for services',
+            'Technical inspection onsite or workshop',
+            'Pick-up, drop-off, and reinstallation onsite',
+            'A quotation can be provided via call, WhatsApp, or email if needed.',
+            'The same call-out fee applies for diagnosing either one or two appliances at the same place.'
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 315, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
+        },
+        
+      ]
+    },
 
+    {
+      id: 2,
+      image: getImageSrc('lagermaniaservice'),
+      warranty: '50- Days Warranty',
+      title: 'Appliance Cleaning',
+      icon: getImageSrc('cleaningcard'),
+      price: 'AED1325',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20Home%20Appliances%20Cleaning',
+      popupTitle: 'Cleaning Appliances',
+      sections: [
+        {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
+          items: [
+            'Hob Cleaning',
+            'Oven Cleaning',
+            'Freezer Cleaning',
+            'Gas Range Cleaning',
+            'Dishwasher Cleaning',
+            'Refrigerator Cleaning',
+            'Hood / Chimney Cleaning',
+            'Washing Machine Cleaning',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+         {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 1325 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+
+    {
+      id: 3,
+      image: getImageSrc('ovenhomecard'),
+
+      title: 'Home Appliances Installation',
+      icon: getImageSrc('installationcard'),
+      price: 'AED365',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Maintenance',
+      popupTitle: 'Appliances Installation',
+      sections: [
+        {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
+          items: [
+            'Refrigerator Installation',
+            'Dish Washer Installation',
+            'Electric Cooker Installation',
+            'Hood / Chimney Installation',
+            'Washing Machine Installation',
+            'Built-in Microwave Installation',
+            'Built-in Dishwasher Installation',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Costs related to MEP, carpentry, gypsum ceilings, painting, repair work, procurement-related installation parts / materials, and installation as needed.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 365 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+  ];
   // State for fetched data
      const [data, setData] = useState([]);
      const [testimonial_data, setTestimonialData] = useState([]);
@@ -163,7 +266,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
             </div>
           </div>
         </section>
-        <PriceCardHomeCat />
+        <PriceCardHomeCat  services={lagermaniaServicesData}/>
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
