@@ -85,171 +85,163 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
 
-  const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Product",
-      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#product",
-      "name": "AC Service & AC Repair in Dubai",
-      "description": "FAJ Technical Services provides professional AC repair, maintenance, and installation in Dubai. Our certified technicians handle split AC, central AC, and HVAC systems for residential and commercial clients across Dubai, Sharjah, and Abu Dhabi.",
-      "brand": { "@type": "Brand", "name": "FAJ Technical Services L.L.C" },
-      "image": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public",
-      "mainEntityOfPage": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/",
-      "offers": {
-        "@type": "Offer",
+<script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "name": "AC Repair Dubai - FAJ Technical Services",
+        "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
         "url": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/",
-        "priceCurrency": "AED",
-        "price":"00",
-        "availability": "https://schema.org/InStock"
+        "telephone": "+971 4 330 0002",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "3500",
+          "bestRating": "5"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Dubai" },
+          { "@type": "City", "name": "Sharjah" },
+          { "@type": "City", "name": "Abu Dhabi" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "AC Services",
+          "itemListElement": [
+            {
+              "@type": "OfferCatalog",
+              "name": "AC Repair",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Split AC Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ducted AC Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Window AC Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Central AC Repair" } }
+              ]
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "AC Service",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Filter Cleaning" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Coil Cleaning" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Gas Refill" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Duct Cleaning" } }
+              ]
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "AC Maintenance",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Annual Maintenance Contract" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Preventive AC Maintenance" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Performance Check" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Thermostat Check" } }
+              ]
+            }
+          ]
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ahsan Raza" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+            "reviewBody": "We recently faced an urgent situation when our Daikin VRV air conditioning unit malfunctioned, continuously blowing hot air into our home. FAJ responded promptly and resolved the issue with remarkable efficiency. From the initial call to the completion of the AC repair, everyone involved was professional, courteous, and meticulous in their work. We highly recommend their services to anyone in need."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Abdullah Kiani" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "My AC was not working and taking too much load with no cooling. I contacted FAJ Technical Services and they sent a technician named Taranpal Singh. That guy was a genius and super expert in his work. Very clean and very efficient services. Strongly recommend and super friendly."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Sanjeewa Supun" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "I knew they were the right choice. I am grateful for their effort in fixing my LG air conditioner, which is essential in this heat. If you are experiencing the same issue, I highly recommend their air conditioning repair service!"
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Palesa Molelekoa" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "My apartment AC stopped working during my tour. Despite trying all DIY tips my AC was not cooling. My friend suggested FAJ and they came for same day service and did LG AC repair in two hours. They topped the refrigerant level and replaced the AC thermostat. Technician was friendly and very polite. Would recommend their AC technicians to whoever needs assistance."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Affu Affu" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "4.9", "bestRating": "5" },
+            "reviewBody": "Highly recommended. They are the best in AC repair services in Dubai."
+          }
+        ]
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "3500",
-        "bestRating": "5"
+      {
+        "@type": "VideoObject",
+        "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#video",
+        "name": "Air Conditioning Repair Services: Your Home's Cooling Solution | FAJ",
+        "description": "Expert advice on air conditioning repair and maintenance in Dubai.",
+        "thumbnailUrl": "https://img.youtube.com/vi/sxBhB1_gxYA/maxresdefault.jpg",
+        "uploadDate": "2023-09-15T07:59:44Z",
+        "duration": "PT48S",
+        "contentUrl": "https://www.youtube.com/watch?v=sxBhB1_gxYA",
+        "embedUrl": "https://www.youtube.com/embed/sxBhB1_gxYA",
+        "potentialAction": { "@type": "WatchAction", "target": "https://www.youtube.com/watch?v=sxBhB1_gxYA" },
+        "publisher": { "@id": "https://www.fajservices.ae/#organization" }
       },
-      "review": [
-        {
-          "@type": "Review",
-          "author": { "@type": "Person", "name": "Ahsan Raza" },
-          "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
-          "reviewBody": "We recently faced an urgent situation when our Daikin VRV air conditioning unit malfunctioned, continuously blowing hot air into our home. FAJ responded promptly and resolved the issue with remarkable efficiency. From the initial call to the completion of the AC repair, everyone involved was professional, courteous, and meticulous in their work. We highly recommend their services to anyone in need."
-        },
-        {
-          "@type": "Review",
-          "author": { "@type": "Person", "name": "Abdullah Kiani" },
-          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-          "reviewBody": "My AC was not working and taking too much load with no cooling. I contacted FAJ Technical Services and they sent a technician named Taranpal Singh. That guy was a genius and super expert in his work. Very clean and very efficient services. Strongly recommend and super friendly."
-        },
-        {
-          "@type": "Review",
-          "author": { "@type": "Person", "name": "Sanjeewa Supun" },
-          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-          "reviewBody": "I knew they were the right choice. I am grateful for their effort in fixing my LG air conditioner, which is essential in this heat. If you are experiencing the same issue, I highly recommend their air conditioning repair service!"
-        },
-        {
-          "@type": "Review",
-          "author": { "@type": "Person", "name": "Palesa Molelekoa" },
-          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-          "reviewBody": "My apartment AC stopped working during my tour. Despite trying all DIY tips my AC was not cooling. My friend suggested FAJ and they came for same day service and did LG AC repair in two hours. They topped the refrigerant level and replaced the AC thermostat. Technician was friendly and very polite. Would recommend their AC technicians to whoever needs assistance."
-        },
-        {
-          "@type": "Review",
-          "author": { "@type": "Person", "name": "Affu Affu" },
-          "reviewRating": { "@type": "Rating", "ratingValue": "4.9", "bestRating": "5" },
-          "reviewBody": "Highly recommended. They are the best in AC repair services in Dubai."
-        }
-      ]
-    },
-    {
-      "@type": "VideoObject",
-      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#video",
-      "name": "Air Conditioning Repair Services: Your Home's Cooling Solution | FAJ",
-      "description": "Expert advice on air conditioning repair and maintenance in Dubai.",
-      "thumbnailUrl": "https://img.youtube.com/vi/sxBhB1_gxYA/maxresdefault.jpg",
-      "uploadDate": "2023-09-15T07:59:44Z",
-      "duration": "PT48S",
-      "contentUrl": "https://www.youtube.com/watch?v=sxBhB1_gxYA",
-      "embedUrl": "https://www.youtube.com/embed/sxBhB1_gxYA",
-      "potentialAction": { "@type": "WatchAction", "target": "https://www.youtube.com/watch?v=sxBhB1_gxYA" },
-      "publisher": { "@id": "https://www.fajservices.ae/#organization" }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much is AC service in Dubai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit size, condition, and service provider."
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much is AC service in Dubai?",
+            "acceptedAnswer": { "@type": "Answer", "text": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit size, condition, and service provider." }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is my AC not cooling in Dubai?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly." }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is AC repair so expensive?",
+            "acceptedAnswer": { "@type": "Answer", "text": "AC repairs can be expensive due to the high cost of parts like compressors or coils and specialized labor. The complexity of repairs and Dubai's climate, which demands frequent AC use, also adds to the cost." }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is my AC giving cool air but not cooling the room?",
+            "acceptedAnswer": { "@type": "Answer", "text": "If your AC is blowing cool air but not cooling the room, it could be due to low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance." }
+          },
+          {
+            "@type": "Question",
+            "name": "How often should AC be cleaned in Dubai?",
+            "acceptedAnswer": { "@type": "Answer", "text": "AC units in Dubai should be cleaned every 3 to 6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use." }
+          },
+          {
+            "@type": "Question",
+            "name": "Which company is best for central AC in Dubai?",
+            "acceptedAnswer": { "@type": "Answer", "text": "FAJ Technical Services L.L.C is one of the best companies for central AC services in Dubai, offering reliable and professional services to ensure your system runs efficiently." }
+          },
+          {
+            "@type": "Question",
+            "name": "What maintenance is needed for AC?",
+            "acceptedAnswer": { "@type": "Answer", "text": "AC maintenance includes cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan." }
           }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is my AC not cooling in Dubai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is AC repair so expensive?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AC repairs can be expensive due to the high cost of parts like compressors or coils and specialized labor. The complexity of repairs and Dubai's climate, which demands frequent AC use, also adds to the cost."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is my AC giving cool air but not cooling the room?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If your AC is blowing cool air but not cooling the room, it could be due to low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How often should AC be cleaned in Dubai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AC units in Dubai should be cleaned every 3 to 6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which company is best for central AC in Dubai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "FAJ Technical Services L.L.C is one of the best companies for central AC services in Dubai, offering reliable and professional services to ensure your system runs efficiently."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What maintenance is needed for AC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AC maintenance includes cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
-          }
-        }
-      ]
-    },
-  {
-  "@type": "BreadcrumbList",
-  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#breadcrumb",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.fajservices.ae/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Services",
-      "item": "https://www.fajservices.ae/services/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Air Conditioning Repair",
-      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "AC Service",
-      "item": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/"
-    }
-  ]
-}
-
-  ]
-};
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+          { "@type": "ListItem", "position": 3, "name": "Air Conditioning Repair", "item": "https://www.fajservices.ae/services/air-conditioning-repair/" },
+          { "@type": "ListItem", "position": 4, "name": "AC Service", "item": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/" }
+        ]
+      }
+    ]
+  })}
+</script>
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const [faqData, setFaqData] = useState([]);
