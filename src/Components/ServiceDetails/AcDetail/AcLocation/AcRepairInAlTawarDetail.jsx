@@ -386,7 +386,7 @@ const AcRepairInAlTawarDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With <a href="/services/air-conditioning-repair/ac-service/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
+                                        <p>With <a href="/services/air-conditioning-repair/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                                         </p>
                                     </div>
                                 </div>

@@ -7055,7 +7055,7 @@
   }
 
   .blue-border {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     border: 4px solid #00334e;
     border-radius: 15px;
     width: 100%;

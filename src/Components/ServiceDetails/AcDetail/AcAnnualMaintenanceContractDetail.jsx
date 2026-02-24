@@ -51,7 +51,150 @@ const AcAnnualMaintenanceContractDetail = ({
   const metaKeyword = String(Keyword || "AC Annual Maintenance Contract Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract.avif";
-
+   const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/#product",
+      "name": "AC Annual Maintenance Contract (AMC) in Dubai",
+      "description": "FAJ Technical Services offers comprehensive AC Annual Maintenance Contract (AMC) services in Dubai. Our AC AMC Service Dubai includes HVAC Maintenance, Split AC Maintenance, and Central AC AMC with cost savings through fixed-price bundled services, comprehensive inspections, cleaning, repairs, preventive maintenance, energy efficiency optimization, and tailored plans for homes and workplaces.",
+      "brand": { "@type": "Brand", "name": "FAJ Technical Services L.L.C" },
+      "image": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/",
+        "priceCurrency": "AED",
+        "price": "00",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahsan Raza" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+          "reviewBody": "We recently faced an urgent situation when our Daikin VRV air conditioning unit malfunctioned, continuously blowing hot air into our home. FAJ responded promptly and resolved the issue with remarkable efficiency. From the initial call to the completion of the AC repair, everyone involved was professional, courteous, and meticulous in their work. We highly recommend their services to anyone in need."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Abdullah Kiani" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "My AC was not working and taking too much load with no cooling. I contacted FAJ Technical Services and they sent a technician named Taranpal Singh. That guy was a genius and super expert in his work. Very clean and very efficient services. Strongly recommend and super friendly."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sanjeewa Supun" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I knew they were the right choice. I am grateful for their effort in fixing my LG air conditioner, which is essential in this heat. If you are experiencing the same issue, I highly recommend their air conditioning repair service!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Palesa Molelekoa" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "My apartment AC stopped working during my tour. Despite trying all DIY tips my AC was not cooling. My friend suggested FAJ and they came for same day service and did LG AC repair in two hours. They topped the refrigerant level and replaced the AC thermostat. Technician was friendly and very polite. Would recommend their AC technicians to whoever needs assistance."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Affu Affu" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "4.9", "bestRating": "5" },
+          "reviewBody": "Highly recommended. They are the best in AC repair services in Dubai."
+        }
+      ],
+      "mainEntityOfPage": "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an annual maintenance contract (AMC)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AC AMC usually involves a set of maintenance services for a specific period, such as a year. These services may include HVAC, maintenance and electrical repair on your property. The contract’s specifics will vary depending on the service provider, but it will typically include regular testing, cleanings, and repairs to make sure that the systems are in good working order."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many types of AMC are there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Annual Maintenance Contracts (AMCs) are classified into two types: comprehensive and non-comprehensive/call-based. Comprehensive AMCs cover the repair and replacement of faulty equipment parts for one flat fee. Non-inclusive/Call-based AMCs, on the other hand, only provide maintenance services as needed, with each service request billed separately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it worth getting your AMC contract?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With the FAJ Technical Service LLC Annual Maintenance Contract (AMC), you receive a range of customized services at a reasonable price. Enjoy peace of mind for an entire year as we streamline maintenance and provide high-quality support results"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the benefits of an AC AMC contract?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The FAJ Team's Annual Maintenance Contract for AC units guarantees optimal performance and longevity through proactive care, significantly reducing the risk of costly repairs and maximizing energy efficiency; our seasoned professionals provide comprehensive services including AC filter and AC coil cleaning, Air conditioner, and system optimization, ensuring your peace of mind and consistent comfort throughout the year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does an AC unit need to be serviced every year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, annual servicing keeps your AC efficient, lowers energy bills, and prevents unexpected breakdowns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is typically covered under an AMC for an AC unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AMC for an AC unit usually covers regular inspections, cleaning, servicing, and minor repairs. It may also include replacing certain parts, such as filters, and priority support for emergency breakdowns."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "AC Annual Maintenance Contract",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/"
+        }
+      ]
+    }
+  
+  ]
+};
   const [openItemIndex, setOpenItemIndex] = useState(0);
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
@@ -96,7 +239,7 @@ const AcAnnualMaintenanceContractDetail = ({
 
   return (
     <>
-        <Helmet>
+        <Helmet script={[{ type: 'application/ld+json', innerHTML: JSON.stringify(schema) }]}>
           <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
