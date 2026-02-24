@@ -106,7 +106,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
         <PriceCardHomeCat />
         {/* Technical Services to Keep Your Coffee Flowing */}
         <section className="section cs_py_30 bg-light-gray">
-          <div className="container border-1 p-0">
+          <div className="container">
             <h1 className="cs_fs_30 text-center mb-4 pt-4 px-4">Home Appliance Repair & Service Center in Dubai</h1>
             <div className="row align-items-center g-0 border border-dark rounded overflow-hidden">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
@@ -149,8 +149,8 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
 
         {/* Select Repair Services by Category – Easily Find the Right Appliance Repair */}
         <section className="section cs_py_30 bg-light-white">
-          <div className="container border-1 p-0">
-            <h1 className="cs_fs_30 text-center mb-4 pt-4 px-4">Select Repair Services by Category – Easily Find the Right Appliance Repair</h1>
+          <div className="container">
+            <h2 className="cs_fs_30 text-center mb-4 pt-4 px-4">Select Repair Services by Category – Easily Find the Right Appliance Repair</h2>
             <div className="row align-items-center g-0 border border-dark rounded overflow-hidden">
               <div className="col-12 col-lg-7 px-4 py-4">
                 <p className='text-align-left'>At FAJ Technical Services L.L.C. we simplify the process of selecting the right repair service for your home appliances. Whether you need washing machine repair, refrigerator repair, household appliance fixes, BBQ grill cleaning, vacuum cleaner repair, cigar humidor maintenance, or any household appliance service, our categorised repair options help you find the best solution quickly and easily.
@@ -195,7 +195,7 @@ const HomeAppliancesCatg = ({ subtitle, title, reviewsbg, titleSeo, description,
 
         {/* why choose */}
         <section className="section cs_py_30 bg-light-gray">
-          <div className="container border-1 p-0">
+          <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">Why Choose FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs</h2>
             <p>When you require home appliance repair, it's essential to choose a reliable service center provider that offers quality repairs, quick service, and appliance technicians. At <b>FAJ Technical Services L.L.C.</b> we ensure that your appliances will be repaired promptly, efficiently, and at an affordable price, all while maintaining the highest standards of service.</p>
             <h4>We are Home Appliance Repair Service Centers</h4>

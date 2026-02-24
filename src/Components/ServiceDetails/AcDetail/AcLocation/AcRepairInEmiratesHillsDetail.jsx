@@ -15,12 +15,13 @@ import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
 import AcBenefits from "../AcBenefit";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+    if (!imgPath) return '';
+    if (imgPath.startsWith('https')) return imgPath;
+    return `${CDN}/${imgPath}/public`;
 };
 const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -38,54 +39,54 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-   // State for fetched data
-           const [data, setData] = useState([]);
-           const [testimonial_data, setTestimonialData] = useState([]);
-           const [isLoading, setIsLoading] = useState(true);
-       
-           const handleItemClick = index => {
-               if (index === openItemIndex) {
-                   setOpenItemIndex(-1);
-               } else {
-                   setOpenItemIndex(index);
-               }
-           };
-           useEffect(() => {
-               if (firstItemOpen) {
-                   setOpenItemIndex(0);
-                   setFirstItemOpen(false);
-               }
-           }, [firstItemOpen]);
-       
-           useEffect(() => {
-               loadBackgroudImages();
-           }, []);
-       
-           // Fetch JSON data
-           useEffect(() => {
-               const fetchData = async () => {
-                   try {
-                       const [faqsResponse, testimonialsResponse] = await Promise.all([
-                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlBadaa.json`),
-                           fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
-                       ]);
-       
-                       const faqsData = await faqsResponse.json();
-                       const testimonialsData = await testimonialsResponse.json();
-       
-                       setData(faqsData);
-                       setTestimonialData(testimonialsData);
-                   } catch (error) {
-                       console.error('Error fetching data:', error);
-                   } finally {
-                       setIsLoading(false);
-                   }
-               };
-       
-               fetchData();
-           }, []);
+    // State for fetched data
+    const [data, setData] = useState([]);
+    const [testimonial_data, setTestimonialData] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
-    
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
+        }
+    };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
+        }
+    }, [firstItemOpen]);
+
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    // Fetch JSON data
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const [faqsResponse, testimonialsResponse] = await Promise.all([
+                    fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlBadaa.json`),
+                    fetch(`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`)
+                ]);
+
+                const faqsData = await faqsResponse.json();
+                const testimonialsData = await testimonialsResponse.json();
+
+                setData(faqsData);
+                setTestimonialData(testimonialsData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
+
+
     return (
         <>
             <HelmetProvider>
@@ -107,7 +108,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
-                    
+
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -134,14 +135,14 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                 {/* Experts AC Service and Maintenance */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 expert_section_wrapper">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Best AC Repair in Emirates Hills</h2>
+                                <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Emirates Hills</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Emirates Hills, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Emirates Hills Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
 
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
+                                <h2 className="cs_fs_24 text-align-left">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -360,7 +361,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                 </section>
 
                 {/* The Benefits Of Regular AC Service*/}
-                <AcBenefits city="EmiratesHills"/>
+                <AcBenefits city="EmiratesHills" />
 
                 {/* Why choose us AC */}
                 <section className="section cs_py_30">
@@ -451,6 +452,15 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                         </div>
                     </div>
                 </section>
+
+                <BeforeAfter
+                    title="Recent Completed Projects"
+                    subTitle="Before & after"
+                    beforeImg={`${CDN}/after_img_1/public`}
+                    afterTitle="After"
+                    afterImg={`${CDN}/before_img_1/public`}
+                    beforeTitle="Before"
+                />
 
 
                 {/* We specialise in air conditioning services for the following brands */}
@@ -551,78 +561,78 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                 <MaintenanceContract />
                 {/* testimobial section */}
                 <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg={reviewsbg}
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+                    subtitle="What Our Clients Say"
+                    title="Customer <span>Reviews</span>"
+                    bgImg={reviewsbg}
+                    testimonialData={testimonial_data}
+                    sectionId="home-testimonials"
+                />
 
                 <section className="section cs_py_30 bg-dark-blue text-light">
-          <Serviceappointemnt
-          
+                    <Serviceappointemnt
+
                         subtitle2="Contact us"
                         title2="Book An Appointment"
                     ></Serviceappointemnt>
 
                 </section>
-{/* Faqs */}
-        <section className="section cs_py_30">
-          <div className="container">
-            <h3 className="cs_fs_30">FAQ&apos;s</h3>
+                {/* Faqs */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <h3 className="cs_fs_30">FAQ&apos;s</h3>
 
-            <div className="cs_accordians_wrapper cs_style_1 p-0">
+                        <div className="cs_accordians_wrapper cs_style_1 p-0">
 
-              {data.map((item, index) => (
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
-                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
-                    <span className="cs_accordian_toggle">
-                       
-                      <svg
-                         width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                      >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+                            {data.map((item, index) => (
+                                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                                    <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                                        <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
+                                        <span className="cs_accordian_toggle">
 
-                      {/* Eye Slash */}
-                     
-                       <svg
-                       width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                       >
-<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
-                    </span>
-                  </div>
-                  <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0"
-                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
-                    ></p>
-                  </div>
-                </div>
-              ))}
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
 
-            </div>
-          </div>
-        </section>
+                                            {/* Eye Slash */}
 
-                
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+                                            >
+                                                <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div className="cs_accordian_body" ref={accordionContentRef}>
+                                        <p className="mb-0"
+                                            dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                                        ></p>
+                                    </div>
+                                </div>
+                            ))}
+
+                        </div>
+                    </div>
+                </section>
+
+
 
             </div>
         </>

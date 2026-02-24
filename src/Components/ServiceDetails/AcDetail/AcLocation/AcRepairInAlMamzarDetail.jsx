@@ -111,7 +111,7 @@ const AcRepairInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             <HeaderForm />
             <div className="cs_service_details">
 
-                <section className="section cs_py_30 bg-light-white">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Repair and Service in Al Mamzar</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
@@ -130,7 +130,7 @@ const AcRepairInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-white">
+                <section className="section cs_py_30">
                     <div className="container">
                         <div className="row gx-md-5 expert_section_wrapper">
                             <div className="col-md-6">
@@ -446,14 +446,14 @@ const AcRepairInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     </div>
                 </section>
 
-                <BeforeAfter
-                    title="Recent Completed Projects"
-                    subTitle="Before & after"
-                    beforeImg={`${CDN}/after_img_1/public`}
-                    afterTitle="After"
-                    afterImg={`${CDN}/before_img_1/public`}
-                    beforeTitle="Before"
-                />
+                    <BeforeAfter
+                        title="Recent Completed Projects"
+                        subTitle="Before & after"
+                        beforeImg={`${CDN}/after_img_1/public`}
+                        afterTitle="After"
+                        afterImg={`${CDN}/before_img_1/public`}
+                        beforeTitle="Before"
+                    />
 
 
                 {/* We specialise in air conditioning services for the following brands */}
