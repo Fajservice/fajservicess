@@ -27,6 +27,126 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
   const metaKeyword = String(Keyword || "Commercial Dishwasher Repair, Commercial Dishwasher Maintenance Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/commercial-dishwasher-repair/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/commercial-dishwasher-service/public");
+  const schema ={
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Commercial Dishwasher Repair and Maintenance Service in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/commercial-dishwasher-repair/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3450",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Commercial Dishwasher Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Dishwasher Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Commercial Dishwasher Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Industrial Dishwasher Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Dishwasher Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Dishwasher Leak Repair" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Stefanie Giersch" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Thanks to Abdullah I can cook and go wild in my kitchen, knowing my dishwasher is set and ready. More importantly, me being German, he arrived as scheduled on time every time. Friendly, efficient, and my pup Stevie was very happy with him."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Muhammad Haseeb" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I was more than satisfied with the service provided in repair service my washing machine, refrigerator freezer and dishwasher machine. The engineer was prompt, polite and remarkably efficient."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Mr. Abdullah and Tarin came to fix our built-in dishwasher and they were very helpful. Fixed our issue within 10 mins and with a reasonable price."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/commercial-dishwasher-repair/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How can I determine whether my business dishwasher requires maintenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A commercial dishwasher that isn't cleaning properly or keeps leaking might make strange noises or display error codes. it's best to get professional repair services if you see any of these problems."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which commercial dishwasher brands do you repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer repair services for a variety of commercial dishwasher brands at FAJ Technical Services L.L.C. Our skilled technicians have handled a variety of makes and models."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "In what time frame can you reply to a request for commercial dishwasher repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aiming to minimize downtime for your business, we usually respond to repair requests in a timely manner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the professionals you send to fix commercial dishwashers certified?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely, our technicians are qualified and experienced in fixing commercial dishwashers. They accurately diagnose problems and put effective solutions in place."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/commercial-dishwasher-repair/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Commercial Dishwasher Repair", "item": "https://www.fajservices.ae/services/commercial-dishwasher-repair/" }
+      ]
+    }
+  ]
+}
 
 
   subtitle = "Testimonial"
@@ -121,7 +241,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

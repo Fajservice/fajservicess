@@ -595,7 +595,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/metha/</loc>
+  <loc>https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/oud-metha/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
@@ -935,7 +935,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/alaweer/</loc>
+  <loc>https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-aweer/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>

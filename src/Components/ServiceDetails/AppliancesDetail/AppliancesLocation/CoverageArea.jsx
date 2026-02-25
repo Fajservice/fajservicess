@@ -17,7 +17,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metatitle = String(titleSeo || "Coverage Area | Near Me | Home Appliances Service Center Dubai");
   const metadescription = String(description || "We proudly provide Home Appliances installation & services in all areas, including Dubai Marina, Jumeirah, Business Bay, Al Barsha, JLT, Dubai Hills");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliance-repair/coverage-area/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/");
   const metaImage = String(Image || "https://imagedelivery.net/diswasherrr/public");
 
   subtitle = "Testimonial"

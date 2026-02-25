@@ -11,6 +11,7 @@ import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
+import PriceCardHomeCat from '../../Services/homeappliances/PriceCardHomeappCat';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -262,7 +263,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
             </div>
           </div>
         </section>
-
+        <PriceCardHomeCat />
         {/* heading 1 */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">

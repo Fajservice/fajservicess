@@ -36,6 +36,149 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
   const metaKeyword = String(Keyword || "Commercial COffee Machine repair, 3 Group Coffee Machine Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Coffee-machine-servicing-title-image/public");
+const schema ={
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Commercial Coffee Machine Repairs and Maintenance Servicing Dubai",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3450",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Coffee Machine Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Coffee Machine Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Commercial Coffee Machine Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Espresso Machine Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Delonghi Coffee Machine Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Nespresso Machine Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Coffee Grinder Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Coffee Machine Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Coffee Machine Descaling" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Bean-to-Cup Machine Repair" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Rida N" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Took their JURA Z10 coffee machine to Adnan for repair and service. Throughout the entire process — from initial contact to collecting the machine — communication was excellent. The team was also very accommodating about drop-off and collection arrangements. The machine was serviced and repaired quickly, and they would happily recommend his services to anyone looking to have their coffee machine serviced or maintained."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Arbaz C" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "After their coffee grinder stopped working, they reached out to FAJ and found them very responsive and informative on WhatsApp. The technician quickly assessed the issue and explained that required parts were unavailable, but provided alternative solutions and kept them informed throughout. The machine was ultimately fixed successfully."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Bassam SH" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I am very satisfied with their prompt, efficient & cordial service from Technician Abdullah, as he was very professional, on time, responsive and reasonably priced. I would definitely recommend them & specially Mr Abdullah to my mother if needed. Thank you for a great job all together."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Gintarė Sutkauskaitė" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+          "reviewBody": "Technician Que was fantastic, fixed both of my coffee machines and been very thorough in explaining what preventative actions to take in the future, highly recommend their service!"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much power does a commercial espresso machine use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On average, commercial coffee machines consume between 1,500 to 3,500 watts per hour. This means that a machine running for 8 hours a day would use approximately 12,000 to 28,000 watt-hours per day, equating to around 360 to 840 kilowatt-hours per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a commercial espresso machine last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically, a well-maintained commercial coffee machine can last anywhere from 5 to 15 years. The lifespan varies due to differences in brands, models, and, most importantly, the level of maintenance and servicing it receives over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do commercial espresso machines need a drain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, commercial espresso machines often require drain lines. These machines generate condensation and have liquid lines designed to direct excess water into the drain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a common problem with coffee machines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Insufficient water flow can be a major issue. If your coffee machine is producing weak or slow water flow, it may be due to a clogged water line or filter. Check the water reservoir for debris or mineral buildup that could be obstructing flow, and inspect the water filter, replacing it if necessary."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Coffee Machine", "item": "https://www.fajservices.ae/services/coffee-machine/" },
+        { "@type": "ListItem", "position": 4, "name": "Coffee Machine Repairs", "item": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/" }
+      ]
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -125,122 +268,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Coffee Machine Repairs, Coffee Machine Repair Dubai, Espresso Machine Repair, Cappuccino Machine Repair, Coffee Machine not working, Coffee Machine Leaking, Coffee Machine Cleaning, Coffee Machine Troubleshooting, Coffee Machine Pump Repair, Coffee Machine Heating Issue, Commercial Coffee Machine Repair, Coffee Machine Service, Coffee Machine Maintenance Dubai, Coffee Machine Repair near me, Coffee Machine Fix",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "2432",
-                "bestRating": "5"
-              }
-            })}
-          </script>
-
-          <script type="application/ld+json">
-            {JSON.stringify(
-              {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                  "@type": "Question",
-                  "name": "How much power does a commercial espresso machine use?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "On average, commercial coffee machines consume between 1,500 to 3,500 watts per hour. This means that a machine running for 8 hours a day would use approximately 12,000 to 28,000 watt-hours per day, equating to around 360 to 840 kilowatt-hours per month."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How long does a commercial espresso machine last?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Typically, a well-maintained commercial coffee machine can last anywhere from 5 to 15 years. The lifespan varies due to differences in brands, models, and, most importantly, the level of maintenance and servicing it receives over time."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Do commercial espresso machines need a drain?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, commercial espresso machines often require drain lines. These machines generate condensation and have liquid lines designed to direct excess water into the drain."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What pressure do commercial espresso machines use?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Espresso is primarily brewed at around 9 bars of pressure. However, some machines, particularly specialized espresso makers, can reach pressures of up to 20 bars. This higher pressure helps ensure consistent extraction, especially in compact or portable devices."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is the flow rate of an espresso machine?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The pump in espresso machines delivers a maximum water flow, referred to as water debit. There are two types of pumps commonly used: vibration and rotary. Vibration pumps typically yield flow rates of 8 mL/s, while rotary pumps can achieve up to 30 mL/s."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How often should a commercial espresso machine be cleaned?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Cleaning should occur daily and weekly. it's important to clean your espresso machine daily with backflush chemicals, along with brushing down and removing any accumulated coffee grounds or oils. This maintenance significantly extends the machine's lifespan."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How does a commercial espresso machine work?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Key components include a pump that draws water from the reservoir, a boiler, and the portafilter, which is part of the group head. Most machines use an electric pump to force water through the compacted coffee in the portafilter."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is a common problem with coffee machines?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Insufficient water flow can be a major issue. If your coffee machine is producing weak or slow water flow, it may be due to a clogged water line or filter. Check the water reservoir for debris or mineral buildup that could be obstructing flow, and inspect the water filter, replacing it if necessary."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What temperature should a commercial coffee maker be?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The optimal brewing temperature for coffee is between 195 degrees and 205 degrees Fahrenheit. This temperature range is crucial for ensuring the best extraction, depending on your grind consistency."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Should commercial coffee machines be turned off at night?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "It is important to allow the temperatures, particularly in your brew groups, to stabilize to ensure proper brewing. If your commercial espresso machine does not have a programmed on/off feature, it is recommended that you leave it on when not in use."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What happens if a coffee machine is not cleaned regularly?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Disregarding to clean machines regularly can lead to poor-tasting coffee and puts the machine at risk of damage. Most machines have a microporous steel filter, and the buildup of coffee tannins over time can clog this filter, causing jams and potential breakdowns."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Is descaling a coffee machine necessary?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Regular descaling of your coffee machine is essential to produce the best quality coffee. The frequency of descaling depends on how often the machine is used and the hardness of the water in your area."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Do coffee machines need servicing?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, coffee machines experience significant wear and tear over time. Regular servicing can help identify any parts that need replacement or repair, potentially preventing major breakdowns in the future."
-                  }
-                }
-                ]
-              })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
 
         </Helmet>
       </HelmetProvider>

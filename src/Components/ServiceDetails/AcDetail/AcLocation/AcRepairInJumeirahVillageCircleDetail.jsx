@@ -16,6 +16,8 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
+import AcBenefits from "../AcBenefit";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -135,15 +137,15 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
                 <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 pb-0">
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 expert_section_wrapper">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h2>
+                                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Best AC Repair in Dubai</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Jumeirah Village Circle, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Jumeirah Village Circle Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
+                                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -168,8 +170,8 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
                             </div>
                         </div>
 
-                        <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Jumeirah Village Circle. Please click below, To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                        <div className="appointment-col pt-3">
+                            <p className="expert_section_wrapper p-4">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Jumeirah Village Circle. Please click below, To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -358,80 +360,7 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
                 </section>
 
                 {/* The Benefits Of Regular AC Service*/}
-                <section className="section cs_py_30 ac_benifit_blue">
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-10 text-center">
-                                <h2 className="cs_fs_30 text-light">Benefits Of Regular AC Service and Maintenance in Jumeirah Village Circle </h2>
-
-                                <div className="row mt-4 gx-4 gy-4">
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/cooling1')} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
-                                            <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
-                                            <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                                            <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
-                                            <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
-                                            <p className="small">We ensure you get optimal air flow around each room as needed.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                                            <p className="small">Our team provides vital feedback on your AC&apos;s health and any needed air con repair.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="text-center mb-4">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <AcBenefits city="Jumeirah Village Circle" />
 
                 {/* Why choose us AC */}
                 <section className="section cs_py_30">
@@ -525,9 +454,17 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
                         </div>
                     </div>
                 </section>
-
+                <BeforeAfter
+                    title="Recent Completed Service"
+                    subTitle="Before & After Service"
+                    bgImg={`${CDN}/background-image-2/public`}
+                    beforeImg={`${CDN}/after_img_1/public`}
+                    afterTitle="After"
+                    afterImg={`${CDN}/before_img_1/public`}
+                    beforeTitle="Before"
+                    />
                 {/* We specialise in air conditioning services for the following brands */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
                         <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
