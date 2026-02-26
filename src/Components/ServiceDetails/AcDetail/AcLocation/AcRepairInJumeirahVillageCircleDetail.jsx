@@ -508,7 +508,33 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
                     </div>
                 </section>
 
-                <Practicaltip></Practicaltip>
+                <section className="section gallery_section bg-light-gray cs_py_30">
+					<div className="container">
+						<h2>Gallery <Gallery /></h2>
+						<div className="row gx-3 gy-2">
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide1/public`} alt="Ac Service" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide2/public`} alt="AC Repair" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide3/public`} alt="AC Maintenance" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide4/public`} alt="AC CLeaning" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide5/public`} alt="AC Fixing" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide6/public`} alt="AC Gas Filling" />
+						</div>
+						</div>
+					</div>
+					</section>
+
+<Practicaltip></Practicaltip>
                 <AcProperties></AcProperties>
 
 
