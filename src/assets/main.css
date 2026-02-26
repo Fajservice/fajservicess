@@ -4672,7 +4672,6 @@
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    line-clamp: 2;
     -webkit-box-orient: vertical;
     text-align: left;
   }
@@ -5976,13 +5975,12 @@
 
   .cs_card.cs_style_2 .cs_card_title {
     -webkit-line-clamp: 2;
-    line-clamp: 2;
     -webkit-box-orient: vertical;
+    line-clamp: 2;
   }
 
   .cs_card.cs_style_2 .cs_card_subtitle {
     -webkit-line-clamp: 3;
-    line-clamp: 3;
     -webkit-box-orient: vertical;
   }
 

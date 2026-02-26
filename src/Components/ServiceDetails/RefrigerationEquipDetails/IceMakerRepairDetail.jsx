@@ -23,6 +23,152 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metaURL = String(URL || "https://www.fajservices.ae/services/refrigeration-equipment/ice-maker-repair/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/newicemaker/public");
   const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+  const schema ={
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Ice Maker Repair and Commercial Ice Machine Maintenance Service in Dubai",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/ice-maker-repair/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3280",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Ice Maker Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Ice Maker Maintenance & Repair",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Water Inlet & Valve Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Ice Tray & Bin Cleaning" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Filter Replacement" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Cooling System & Motor Fix" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Vita Zheng" },
+          "datePublished": "2025-10-10",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Specifically praised Mr. Fasalu as an 'amazing' technician. She noted that multiple people had checked her refrigerator and couldn't find the problem, but Fasalu 'found it easily and fixed it'."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Rukmini Mitra" },
+          "datePublished": "2025-10-10",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "A business owner who hired them for a fridge repair in Dubai. She gave 'special thanks to Mark for his outstanding support' and mentioned the team provided a quick response."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Muhammad Haseeb" },
+          "datePublished": "2019-10-11",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Reported being 'more than satisfied' with a repair that included his refrigerator/freezer. He highlighted that the engineer was prompt, polite, and efficient, and noted that the cost was well worth the value."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/ice-maker-repair/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How frequently should my ice maker be serviced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ice Maker should be serviced every six months to identify possible problems early. Routine maintenance ensures optimal performance, prevents malfunctions, and prolongs appliance life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If my ice maker isn't making as much ice as it usually does, what can I do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the freezer temperature, inspect the water inlet valve, and ensure water lines are clear. These steps address common causes of reduced ice production."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is there an odd taste or smell in my ice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clean the ice maker and water supply lines regularly. Consider installing a water filter to maintain fresh and odor-free ice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I keep my ice maker clean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Follow the manufacturer's cleaning instructions, disinfect the ice bin, and maintain a hygienic environment. Regular cleaning ensures peak efficiency and pure ice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If water is seeping out of my ice maker, what should I do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ensure the ice maker is level, check the water inlet valve, and inspect for disconnected or damaged water lines. These steps help resolve leaks and maintain proper operation."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/ice-maker-repair/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Ice Maker Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/ice-maker-repair/" }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Ice Maker Repair Service in Dubai | FAJ Technical Services",
+      "description": "FAJ Technical Services provides professional ice maker repair in Dubai, including water line inspection, filter replacement, and cooling system repair for optimal ice production.",
+      "thumbnailUrl": "https://img.youtube.com/vi/XYZ123IceMaker/maxresdefault.jpg",
+      "uploadDate": "2023-08-10T09:15:00Z",
+      "duration": "PT1M20S",
+      "contentUrl": "https://www.youtube.com/watch?v=XYZ123IceMaker",
+      "embedUrl": "https://www.youtube.com/embed/XYZ123IceMaker",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=XYZ123IceMaker"
+      }
+    }
+  ]
+}
 
   const getImageSrc = (imgPath) => {
     if (!imgPath) return '';
@@ -120,21 +266,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Ice Maker Repair Dubai, Commercial Ice Maker Repair, Ice Machine Repair, Ice Maker not making ice, Ice Maker leaking water, Ice Maker Cleaning Service, Ice Machine Maintenance, Ice Maker Compressor Repair, Ice Maker Condenser Cleaning, Ice Maker Water Filter Replacement, Ice Maker Service Dubai, Ice Maker Repair near me, Restaurant Ice Machine Repair, Ice Maker Technician",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/refrigeration-equipment/ice-maker-repair/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
