@@ -27,6 +27,254 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
   const metaKeyword = String(Keyword || "Refrigerator repair, Fridge repair, Refrigerator service, Freezer repair, Dubai refrigerator repair, Fridge service Dubai, Appliance repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/fridgerepair/public");
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Refrigerator Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Refrigerator Repair & Freezer Service Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3420",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Refrigerator & Freezer Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Refrigerator Maintenance & Repair",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Condenser Coil Cleaning" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Compressor & Cooling System Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermostat & Temperature Control Fix" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Line & Ice Maker Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Door Seal & Gasket Replacement" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "USMAN ALI" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Abdullah from FAJ did a great job fixing our fridge and washing machine here in Arabian Ranches. He came on time, was super friendly, and got everything working again without any hassle. Really professional but also easy to deal with. If you ever need appliance repairs around the Ranches, I’d definitely recommend calling him!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Vita Zheng" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Mr. Fasalu is amazing. A lot of people checked my fridge and couldn’t find the problem. He found it easily and fixed it. Best service in town!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Khalid Walid" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "FAJ technical services fixed our fridge. Everyone we dealt with was professional and helpful. Highly impressed."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Rukmini Mitra" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Special thanks to Mark for his outstanding support. Prompt response and professional approach for our fridge repair in Dubai."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Muhammad Haseeb" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I’m more than satisfied. He was prompt, polite and very efficient. The engineer arrived quickly and fixed the issue with my fridge freezer."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Nameesh A. Abdul Rasheed" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "My freezer is working perfectly now after getting help with the right spare parts from FAJ."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Shehan Chanaka" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Fixed my refrigerator for a limited price. Technical person Adnan is very good person with good technical knowledge."
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Refrigerator Repair and Maintenance Service in Dubai | Common Refrigerator/Freezer Problems | FAJ",
+      "description": "If you're in need of hassle-free refrigerator repair service in Dubai, you're in the right place. We understand that a malfunctioning refrigerator can disrupt your daily life and cause inconvenience. That's why we offer reliable and efficient refrigerator repair services to get your appliance back in working order quickly and with minimal hassle. Our team of skilled technicians is experienced in repairing all major refrigerator brands and models. Whether you have a traditional top-freezer refrigerator, a side-by-side model, a French door refrigerator, or a specialized wine cooler, we have the expertise to diagnose and fix the problem. We offer Prompt Response, Experienced Technicians, Quality Parts, Transparent Pricing, Convenient Scheduling, Guaranteed Satisfaction, and Emergency Services.",
+      
+      "thumbnailUrl": "https://img.youtube.com/vi/VAmZ-qKWkjw/maxresdefault.jpg",
+      "uploadDate": "2023-10-03T00:00:00Z",
+      "duration": "PT1M13S",
+      "contentUrl": "https://www.youtube.com/watch?v=VAmZ-qKWkjw",
+      "embedUrl": "https://www.youtube.com/embed/VAmZ-qKWkjw",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=VAmZ-qKWkjw"
+      },
+     
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction to Refrigerator Repair Service",
+          "startOffset": 0,
+          "endOffset": 15,
+          "url": "https://www.youtube.com/watch?v=VAmZ-qKWkjw&t=0s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Common Fridge and Freezer Problems",
+          "startOffset": 16,
+          "endOffset": 40,
+          "url": "https://www.youtube.com/watch?v=VAmZ-qKWkjw&t=16s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Expert Diagnosis for All Brands & Models",
+          "startOffset": 41,
+          "endOffset": 58,
+          "url": "https://www.youtube.com/watch?v=VAmZ-qKWkjw&t=41s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Scheduling Inspection and Contact Information",
+          "startOffset": 59,
+          "endOffset": 73,
+          "url": "https://www.youtube.com/watch?v=VAmZ-qKWkjw&t=59s"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a safe temperature for a fridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The safe temperature for a refrigerator is 40°F (4°C) or below. Keeping foods at the proper temperatures slows bacteria growth. Freezer should be set at 0°F (-18°C)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the rules for a new refrigerator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once the refrigerator is in your home, leave it to sit for 3 hours. Then plug it in and turn it on. Allow it to stabilize overnight before placing fresh food inside."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a refrigerator last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most refrigerators last between 10 and 20 years. If your fridge is over ten years old and experiencing issues, replacing it may save money in the long run."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to control fridge temperature?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Locate the temperature controls on the interior or exterior panel. Adjust dials, sliders, or digital displays per manufacturer instructions to reach 35°F to 38°F for fridge and -18°F or below for freezer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take for a fridge to cool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A running refrigerator starts cooling within a few hours, but it may take up to 24 hours to reach optimal temperature. Wait at least 24 hours for new fridges before loading perishable items."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to know if a fridge is working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seven warning signs of malfunctioning fridge: 1) Not cold enough 2) Food spoiling quickly 3) Condensation inside 4) Ice buildup 5) Hot motor 6) Loud noises 7) Water on the floor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my fridge not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Causes include dirty condenser coils, poor ventilation, improper installation, faulty gaskets, disorganized food, appliance placement, or malfunctioning internal parts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a fridge cool faster when empty or full?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Optimal filling is about three-quarters full, allowing sufficient air circulation while keeping enough food to help cool neighboring items."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to check the fridge thermostat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disconnect fridge from power, use a multimeter on ohms setting to test thermostat terminals. At room temperature, reading should be 0-1 ohm. Faulty readings indicate replacement needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my refrigerator cooling less?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dust and debris on condenser coils reduce cooling efficiency. Clean coils with a brush attachment or coil cleaning brush to restore performance."
+          }
+        }
+      ]
+    }
+  ]
+}
 
 
   subtitle = "Testimonial"
@@ -120,21 +368,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Refrigerator Repair Service, Fridge Repair Dubai, Refrigerator not cooling, Fridge not freezing, Refrigerator water leakage, Fridge Compressor Repair, Refrigerator Gas Refill, Fridge Thermostat Repair, Refrigerator Service Dubai, Fridge Maintenance, Refrigerator Repair near me, Side by Side Fridge Repair, French Door Fridge Repair, Fridge Ice Maker Repair, Refrigerator Technician",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

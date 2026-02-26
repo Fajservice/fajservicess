@@ -44,6 +44,277 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const metaImage = String(
     Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/oven-repair-service.avif/public"
   );
+  const schema={
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Built In Home Appliances Repair and Maintenance Service in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/built-in-appliances-repair-service/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3420",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Built-In Appliance Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Appliance Repair",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cooking Range Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fridge Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coffee Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Annual Maintenance Contracts (AMC Dubai)" } }
+            ]
+          }
+        ]
+      },
+        "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anna Wolf" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Very happy with my air conditioning system maintenance, very professional and friendly guys Muhammad Azeem and Adnan, best price offered, not a rip off company, will recommend it to everyone..."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Malik DuBAi" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "...amazingly quick and efficient service provided by Masoom and Adnan, a delightful experience."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Muhammad Haseeb" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Technician was prompt, polite and remarkably efficient, offering great value."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Virendra Lal" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Praised Shakeer for repairing a device and thanked Neha for quick assistance."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanzla Hunny" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Quick and efficient emergency AC repair."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Usman Ali" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Abdullah from FAJ did a great job fixing our fridge and washing machine here in Arabian Ranches. He came on time, was super friendly, and got everything working again without any hassle. Really professional but also easy to deal with. If you ever need appliance repairs around the Ranches, I’d definitely recommend calling him!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ghasif Sajid" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I had an excellent experience with FAJ! They came to repair my washing machine and also serviced my AC in The Greens. ABDULLAH was professional, punctual, and explained everything clearly. The washing machine was fixed quickly, and my AC is now running smoothly and cooling much better. Really impressed with their efficiency and customer service. Highly recommend FAJ for reliable home appliance repairs and AC servicing!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Maria Malik" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I highly recommend this place if your home appliances is broken. I gave them to fix a robot vacuum cleaner (roborock s 5 max). First they did diagnostics, identified the problem. The repair was done flawlessly, moreover, they returned the vacuum cleaner to me in a clean condition, for which I did not pay extra. I really liked the support service, the guys are very nice and answer all questions immediately. Thanks again."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Mr.Abdullah and Tarin come to fix our built in dishwasher and they were very helpful on the matter. Fixed our issue within 10 mins and also with a reasonable price!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Dunja Lazovic" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Fast and reliable services. Our washing machine broke down, the team came same day, on day 2 we got the quote for the repair, approved it, and on day 3 the machine was delivered back to us. Thank you to Mr. Abdullah for fast reinstallation."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Syed Shah" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I was really impressed with their quick response time and the professionalism of their technicians, we hired them to repair and fix our Commercial Coffee machine and coffee Grinder in Dubai Marina. They know exactly what they're doing and get the job done efficiently. If you're looking for top-notch AC repair services in Dubai, this team is definitely one of the best. Highly recommended!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Farah B" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Abdullah did a great job fixing our fridge. Very professional services."
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Appliances Repair in Dubai | Appliances Maintenance Service in Dubai | FAJ Technical Services LLC",
+      "description": "Count on FAJ Technical Services LLC for expert Built-In Appliance Repair in Dubai. With our skilled technicians and dedication to quality, we'll have your appliances running smoothly in no time. Trust us to keep your built-in appliances performing at their best",
+      "thumbnailUrl": "https://img.youtube.com/vi/9T9CIvMIsfw/maxresdefault.jpg",
+      "uploadDate": "2024-01-29T11:59:20Z",
+      "duration": "PT1M50S",
+      "embedUrl": "https://www.youtube.com/embed/9T9CIvMIsfw",
+      "contentUrl": "https://www.youtube.com/watch?v=9T9CIvMIsfw",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=9T9CIvMIsfw"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Kitchen and Home Appliance Usage",
+          "startOffset": 0,
+          "endOffset": 45,
+          "url": "https://www.youtube.com/watch?v=9T9CIvMIsfw&t=0s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Common Cooking Range and Oven Issues",
+          "startOffset": 46,
+          "endOffset": 59,
+          "url": "https://www.youtube.com/watch?v=9T9CIvMIsfw&t=46s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Fridge and Dishwasher Troubleshooting",
+          "startOffset": 60,
+          "endOffset": 107,
+          "url": "https://www.youtube.com/watch?v=9T9CIvMIsfw&t=60s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Coffee Machine and Washing Machine Repair",
+          "startOffset": 108,
+          "endOffset": 119,
+          "url": "https://www.youtube.com/watch?v=9T9CIvMIsfw&t=108s"
+        },
+        {
+          "@type": "Clip",
+          "name": "FAJ Repair and Maintenance Services",
+          "startOffset": 120,
+          "endOffset": 139,
+          "url": "https://www.youtube.com/watch?v=9T9CIvMIsfw&t=120s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Annual Maintenance Contracts (AMC) Dubai",
+          "startOffset": 140,
+          "endOffset": 150,
+          "url": "https://www.youtube.com/watch?v=9T9CIvMIsfw&t=140s"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "FAJ Technical Services L.L.C",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.fajservices.ae/img/FajLogo.svg",
+          "width": 250,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can integrated appliances be used freestanding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Freestanding kitchen appliances are not attached to walls or floors, allowing for easy movement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you put integrated appliances next to each other?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To ensure proper support for the worktop above an integrated appliance, it is essential to have two units on either side of it. If you have more than two integrated appliances placed next to each other, we recommend adding an end panel to provide additional support for the worktop above."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are integrated appliances more expensive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally, integrated appliances are usually more expensive than freestanding models, although this can vary based on the specific make and model you select."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best material for appliances?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stainless steel appliances are popular in kitchens due to their timeless and versatile style, which complements both modern and traditional designs. Their neutral color and sleek appearance can blend seamlessly with almost any color scheme. Additionally, the durability of stainless steel makes it perfect for heavy usage, as it is resistant to rust, heat, and damage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which appliance costs most in electricity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The largest electricity consumers in an average household are heating and cooling appliances. Central air conditioners and heaters use significant amounts of energy to maintain the desired temperature in your home."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are built-in appliances called?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Built-in and integrated appliances are similar as they are fixed directly into cabinetry that is designed to meet the exact specifications of the appliance; however, integrated appliances provide a more seamless look."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many watts is a refrigerator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home refrigerator typically uses between 350 and 780 watts. Some models are more energy-efficient than others, so it's a good idea to check the label on yours or look it up online to determine its power consumption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a normal fridge be integrated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typical refrigerators aren’t meant for built-in installation, but with some creativity, you can modify them. Ensuring proper airflow is crucial to prevent overheating, so you may need to create vents or gaps in the cabinetry."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are all integrated appliances the same size?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is both yes and no. All built-in ovens are designed to fit into standard housing units, which are typically 60 cm wide. However, some single oven housing units can be 90 cm wide. As a result, most ovens have similar widths and depths."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does appliance installation include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your appliances will be installed in place, levelled, and connected to the appropriate power source. We will also conduct tests to ensure they are ready for use. Installation includes connecting the new appliance to water, electricity, and gas."
+          }
+        }
+      ]
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -145,99 +416,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <meta name="twitter:image:alt" content="Built-in Appliances Repair Dubai" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="language" content="English" />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Built In Appliances Repair, Built In Oven Repair, Built In Hob Repair, Built In Microwave Repair, Built In Coffee Machine Repair, Built In Fridge Repair, Integrated Appliance Repair, Built In Dishwasher Repair, Built In Appliance Service Dubai, Built In Appliance Maintenance, Kitchen Built In Appliance Repair, Built In Appliance Technician, Built In Appliance Fixing, Built In Appliance Repair near me",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/built-in-appliances-repair-service/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
-          <script type="application/ld+json">
-            {JSON.stringify(
-              {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                  "@type": "Question",
-                  "name": "Can integrated appliances be used freestanding?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Freestanding kitchen appliances are not attached to walls or floors, allowing for easy movement."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Can you put integrated appliances next to each other?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "To ensure proper support for the worktop above an integrated appliance, it is essential to have two units on either side of it. If you have more than two integrated appliances placed next to each other, we recommend adding an end panel to provide additional support for the worktop above."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Are integrated appliances more expensive?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Generally, integrated appliances are usually more expensive than freestanding models, although this can vary based on the specific make and model you select."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is the best material for appliances?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Stainless steel appliances are popular in kitchens due to their timeless and versatile style, which complements both modern and traditional designs. Their neutral color and sleek appearance can blend seamlessly with almost any color scheme. Additionally, the durability of stainless steel makes it perfect for heavy usage, as it is resistant to rust, heat, and damage."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Which appliance costs most in electricity?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The largest electricity consumers in an average household are heating and cooling appliances. Central air conditioners and heaters use significant amounts of energy to maintain the desired temperature in your home."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What are built-in appliances called?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Built-in and integrated appliances are similar as they are fixed directly into cabinetry that is designed to meet the exact specifications of the appliance; however, integrated appliances provide a more seamless look."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How many watts is a refrigerator?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The average home refrigerator typically uses between 350 and 780 watts. Some models are more energy-efficient than others, so it's a good idea to check the label on yours or look it up online to determine its power consumption."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Can a normal fridge be integrated?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Typical refrigerators aren’t meant for built-in installation, but with some creativity, you can modify them. Ensuring proper airflow is crucial to prevent overheating, so you may need to create vents or gaps in the cabinetry."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Are all integrated appliances the same size?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The answer is both yes and no. All built-in ovens are designed to fit into standard housing units, which are typically 60 cm wide. However, some single oven housing units can be 90 cm wide. As a result, most ovens have similar widths and depths."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What does appliance installation include?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Your appliances will be installed in place, levelled, and connected to the appropriate power source. We will also conduct tests to ensure they are ready for use. Installation includes connecting the new appliance to water, electricity, and gas."
-                  }
-                }]
-              })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

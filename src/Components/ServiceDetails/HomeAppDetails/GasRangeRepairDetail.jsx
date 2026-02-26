@@ -27,6 +27,221 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metaKeyword = String(Keyword || "Gas Cooker Repair, Gas Stove Repair, Cooking Range Service, Induction Repair, Dubai, Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/gas-cooker-repair-service/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/gas-cooker-repair-services/public");
+  const schema ={
+  "@context": "https://schema.org",
+  "@graph": [
+   
+    {
+      "@type": "LocalBusiness",
+      "name": "Gas Cooker Repair | Electric Stove and Cooking Range Service in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/gas-cooker-repair-service/",
+      "telephone": "+971 4 330 0002",
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3420",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Gas Cooker & Cooking Range Repair Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Gas Stove & Gas Burner Repair" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Electric Cooktop & Stove Repair" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Ceramic Hob & Glass Top Repair" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Induction Range & Hob Service" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Cooking Range Maintenance" }
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Linda Michel" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Praised the service for fixing a cooktop, dishwasher, and fridge, specifically mentioning Regina for keeping them updated."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Vita Zheng" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Highlighted Mr. Fasalu for expertly fixing a hob that others could not repair."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Looney Rayco" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Commended Fasalu for safe delivery and repair of a coffee machine."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Virendra Lal" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Appreciated Shakeer for quality repair work and Ms. Neha for prompt administrative help."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ram Kanta" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Recommended the team for kitchen hood installation, specifically thanking Fasalu."
+        }
+      ]
+    },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Gas Cooker Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/gas-cooker-repair-service/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the benefits of using a gas stove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gas stoves offer instant heat control, cost-effectiveness with natural gas, and consistent heat for even cooking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I clean a gas stove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regular cleaning involves wiping the surface with a damp cloth and mild detergent. For tougher stains, use a specialised stove cleaner and scrub the grates and burners."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I check my gas stove for leaks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It’s advisable to check for leaks annually or whenever you smell gas near the stove."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if I smell gas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Do not light any matches or turn on any electrical switches. Open windows to ventilate, turn off the gas supply if possible, and call a professional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What’s the difference between a conventional and a convection gas stove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Convection stoves have fans that circulate hot air, cooking food more evenly and quickly than conventional stoves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I convert my gas stove from natural gas to propane?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You need a conversion kit, and to ensure safety, a qualified technician should perform the conversion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I install a gas stove myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It’s recommended to have your gas stove installed by an expert professional to ensure it meets safety standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do gas stoves provide better temperature control than electric stoves?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, gas stoves allow for precise and immediate temperature adjustments while cooking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best way to clean the burners on a gas stove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Remove the burners, soak them in warm water and detergent, then scrub with a non-abrasive brush."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of gas stoves are available on the market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Options include freestanding ranges, slide-in ranges, and built-in cooktops."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I improve the efficiency of my gas stove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regularly clean burners and use the correct size pots with lids to conserve heat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I cook on a gas stove during a gas leak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, cooking or even turning on the stove is extremely dangerous if you suspect a gas leak."
+          }
+        }
+      ]
+    }
+  ]
+}
 
 
   subtitle = "Testimonial"
@@ -119,21 +334,8 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="twitter:title" content="Gas Cooker Repair in Dubai | Cooking Range Service Near Me" />
           <meta name="twitter:description" content="Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me" />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Gas Cooker Repair Service, Gas Cooker Repair Dubai, Gas Cooker not working, Gas Stove Repair, Gas Cooker Ignition Repair, Gas Cooker Flame Problem, Gas Cooker Leakage Check, Gas Cooker Maintenance, Gas Cooker Service Dubai, Gas Cooker Repair near me, Gas Cooker Oven Repair, Gas Cooker Burner Repair, Gas Cooker Technician, Gas Cooker Fix, Gas Hob Cooker Repair",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/gas-cooker-repair-service/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
+          
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

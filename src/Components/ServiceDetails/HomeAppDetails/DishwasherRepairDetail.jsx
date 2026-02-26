@@ -27,6 +27,228 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaKeyword = String(Keyword || "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher Service Dubai, Dishwasher Fix Dubai, Dishwasher Maintenance Dubai, Dishwasher Machine Repair Dubai, Dishwasher Machine Service Dubai, Dishwasher Machine Fix Dubai, Dishwasher Machine Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/dishwasher-repair/public";
+  const schema ={
+  "@context": "https://schema.org",
+  "@graph": [
+    
+    {
+      "@type": "LocalBusiness",
+      "name": "Dishwasher Repair | Dishwasher Maintenance Service in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/",
+      "telephone": "+971 4 330 0002",
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3420",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Dishwasher Repair & Maintenance Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Dishwasher Not Draining Repair" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Dishwasher Water Leakage Fix" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Dishwasher Door & Latch Repair" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Dishwasher Noise Troubleshooting" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Dishwasher General Maintenance & Cleaning" }
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Mr.Abdullah and Tarin come to fix our built in dishwasher and they were very helpful on the matter. Fixed our issue within 10 mins and also with a reasonable price!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Stefanie Giersch" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Thanks to abdullah i can cook and go wild in my kitchen, knowing my dishwasher is set and ready. More importantly, me being german, he arrived as scheduled on time everytime. Friendly, efficient, and my pup stevie was very happy with him. That says alot to me as a dog mom. Thanks abdullah 👌💪🏻"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Dishwasher Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Dishwasher Repair and Maintenance Service in Dubai | How To Fix Dishwasher | Dishwasher Cleaning",
+      "description": "In this video, we're here to help you Fix Dishwasher Fast and enjoy a hassle-free service from your trusted appliance. Whether your dishwasher is giving you trouble or you want to ensure it keeps running smoothly, you're in the right place. We cover troubleshooting made easy, home appliance maintenance, and increased efficiency. Our highly skilled FAJ technicians are here to resolve issues like water leakage, drainage problems, ineffective cleaning, unusual noises, and door malfunctions. Take advantage of our special appliance inspection offers in Dubai and get your dishwasher back in action today!",
+      
+      "thumbnailUrl": "https://img.youtube.com/vi/Cye_OFTAT3E/maxresdefault.jpg",
+      "uploadDate": "2023-10-05T11:53:06Z",
+      "duration": "PT1M23S",
+      "contentUrl": "https://www.youtube.com/watch?v=Cye_OFTAT3E",
+      "embedUrl": "https://www.youtube.com/embed/Cye_OFTAT3E",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=Cye_OFTAT3E"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "FAJ Technical Services LLC",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.fajservices.ae/img/FajLogo.svg",
+          "width": 250,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the three most important rules when using a dishwasher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First, make sure to use every inch of space to maximize efficiency and avoid wasting water. However, be careful not to overfill it. Second, avoid placing certain materials in the dishwasher, such as specific metals, wood, thin plastic, and other delicate items. Finally, try to use the eco-mode whenever possible to conserve energy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What cannot be washed in a dishwasher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While most everyday dishes are generally safe to wash in a dishwasher, there are items that are best washed by hand. Wood, certain pots and pans, crystal, and knives can be damaged by dishwasher detergent and high heat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most common problem with dishwashers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most common issues with dishwashers stem from user misunderstandings and blockages. Installation problems, such as kinked or crushed hoses, restricted outlet connections, and power outlet issues, also account for a significant percentage of service calls within the first few weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long can a dishwasher sit without being used?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your dishwasher can remain unused for a while without any issues. However, if left completely unused for more than a year, it may develop problems. To keep it in good condition, it's best to run your dishwasher a few times throughout the year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the safe temperature for a dishwasher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For dishwashers that use chemicals for sanitizing, the wash and rinse cycles should reach at least 120ºF (49ºC). High-temperature machines should have a sanitizing rinse temperature of at least 165ºF (74ºC) for stationary rack, single-temperature machines, and 180ºF (82ºC) for all other machines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to make a dishwasher last longer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Here are some tips for extending the life of your dishwasher: - Use it regularly. - Clean it on a regular basis. - Allow it to air out. - Remove buildup as needed. - Use the correct detergent. - Be mindful of what you place in your dishwasher. - Clean the filter screens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can nonstick cookware go in the dishwasher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nonstick-coated pans may be placed in the dishwasher if they are made by reputable manufacturers and the care instructions permit it. Always check the manufacturer's guidelines to be sure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can bacteria survive in a dishwasher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Up to 74 species of bacteria can be found in a dirty dishwasher, including Gram-positive bacteria like Stenotrophomonas maltophilia and Escherichia coli. Some of these bacteria can be drug-resistant, cause diarrhea, and pose a serious risk to immunocompromised individuals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a dishwasher clean without detergent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can run a dishwasher without detergent, but it won't clean your dishes effectively. Initially, the impact might be minimal, but over time, it could compromise the hygiene of your kitchenware."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good lifespan for a dishwasher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average lifespan of a dishwasher is about 10 years, according to manufacturers surveyed by Consumer Reports. However, issues tend to arise within the first five years of use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I open the dishwasher during a cycle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the machine is in the washing or rinsing phase, steam or hot water may escape, so it’s advisable to open it slowly. Opening during the drying phase might release heat, but it won’t disrupt the cleaning process. Keep in mind that certain cycles, like sanitizing or intense drying, may be very hot inside."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you wash pots in the dishwasher?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can put pots and pans in a dishwasher to help streamline cleanup and save you time in the kitchen. Checking to make sure your cookware is labeled “dishwasher safe” before beginning a wash cycle can help you get the most out of this helpful kitchen appliance."
+          }
+        }
+      ]
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -118,71 +340,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher not draining, Dishwasher not cleaning, Dishwasher leaking water, Dishwasher not starting, Dishwasher Pump Repair, Dishwasher Motor Repair, Dishwasher Service Dubai, Dishwasher Maintenance, Dishwasher Repair near me, Built in Dishwasher Repair, Dishwasher Drying Problem, Dishwasher Error Code Fix, Dishwasher Technician",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "1452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
-          <script type="application/ld+json">
-            {JSON.stringify(
-              {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                  "@type": "Question",
-                  "name": "How can I determine whether my business dishwasher requires maintenance?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A commercial dishwasher that isn't cleaning properly or keeps leaking might make strange noises or display error codes. it's best to get professional repair services if you see any of these problems."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Which commercial dishwasher brands do you repair?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We offer repair services for a variety of commercial dishwasher brands at FAJ Technical Services L.L.C. To guarantee thorough fixes, our skilled technicians have handled a variety of makes and models."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "In what time frame can you reply to a request for commercial dishwasher repair?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Aiming to minimize downtime for your business, we usually respond to repair requests in a timely manner."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Are the professionals you send to fix commercial dishwashers certified?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely, our technicians are qualified and experienced in fixing commercial dishwashers. With their expertise, you can be sure that your equipment is operating properly because they can accurately diagnose problems and put effective solutions in place."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Do you provide commercial dishwasher maintenance services?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Unquestionably. We offer routine maintenance services for commercial dishwashers in addition to repairs. Regular maintenance keeps your equipment operating at its best, prolongs its lifespan, and helps prevent breakdowns."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Can you give me an estimate of the cost before the repair is done?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Sure, we provide clear, up-front pricing estimates for our repair services for commercial dishwashers."
-                  }
-                }]
-              })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
 
         </Helmet>
       </HelmetProvider>
