@@ -15,6 +15,7 @@ import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 import AcBenefits from "../AcBenefit";
+import Gallery from "../../../Svg/Gallery";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {

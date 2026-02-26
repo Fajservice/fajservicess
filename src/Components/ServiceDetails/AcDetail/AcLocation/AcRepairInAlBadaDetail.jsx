@@ -15,6 +15,7 @@ import LocationKeyword from "./LocationKeyword.jsx";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 import PriceCard from "./PriceCard.jsx";
 import AcBenefits from "../AcBenefit.jsx";
+import Gallery from "../../../Svg/Gallery";
 import BeforeAfter from "../../../BeforeAfter/BeforeAfter.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 

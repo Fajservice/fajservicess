@@ -14,6 +14,7 @@ import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
 import AcBenefits from "../AcBenefit";
+import Gallery from "../../../Svg/Gallery";
 import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 

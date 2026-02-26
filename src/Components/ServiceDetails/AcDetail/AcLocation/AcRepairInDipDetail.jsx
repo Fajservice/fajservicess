@@ -16,6 +16,7 @@ import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import PriceCard from "./PriceCard";
 import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 import AcBenefits from "../AcBenefit";
+import Gallery from "../../../Svg/Gallery";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
