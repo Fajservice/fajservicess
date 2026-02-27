@@ -24,6 +24,89 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaKeyword = String(Keyword || "Kitchen Equipment Repair, Commercial Cooking Equipment Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/kitchen-equip-amc-service/public");
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Commercial Kitchen Equipment Maintenance Services and Repair in Dubai",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3340",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Commercial Kitchen Equipment Maintenance Services and Repair",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Kitchen Equipment Installation",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Kitchen Equipment Diagnostics" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Kitchen Equipment Repair Service" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Restaurant Kitchen Equipment Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Kitchen Equipment Annual Maintenance Contract" }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kitchen Equipment Maintenance",
+          "item": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Commercial Kitchen Equipment Maintenance Services",
+          "item": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/"
+        }
+      ]
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -115,127 +198,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Commercial Kitchen Equipment Maintenance, Commercial Kitchen Repair Dubai, Restaurant Equipment Repair, Commercial Kitchen Service, Kitchen Equipment Troubleshooting, Commercial Appliance Repair, Commercial Kitchen Technician, Hotel Kitchen Equipment Repair, Catering Equipment Maintenance, Commercial Kitchen Breakdown Repair, Commercial Kitchen Fixing Service, Kitchen Equipment Repair near me, Commercial Kitchen Maintenance Company",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/kitchen-equipment/commercial-kitchen-equipment-maintenance-services/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
-          <script type="application/ld+json">
-            {JSON.stringify(
-              {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                  "@type": "Question",
-                  "name": "What are the general requirements for equipment maintenance?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Regular cleaning and inspection,Timely repairs or replacements when needed,Adhering to the manufacturer's recommendations,Following safety protocols while handling or operating equipment"
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is the maintenance checklist?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Maintenance checklists are crucial for ensuring that machines, equipment, or facilities operate safely and efficiently. They provide a detailed list of tasks to be completed regularly, helping to ensure that the equipment is in good working condition and does not pose any safety risks."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is a PPM checklist?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A preventive maintenance checklist consists of a series of tasks designed for the regular inspection of physical assets. It helps ensure that equipment functions properly and is ready for use when needed. Preventive maintenance involves proactively checking and inspecting equipment to avoid costly emergency repairs."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is a maintenance inspection?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "As a crucial part of a maintenance program, inspections involve tasks that assess the condition of equipment. They help determine what tools, materials, and labor are needed for servicing. A maintenance inspection is the process of evaluating the condition of equipment or machines."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Is bleach allowed in a commercial kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Although detergents and bleach can effectively clean surfaces, they are unsuitable for use in commercial kitchens. These substances can be corrosive and potentially harmful to your health."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What products should be under the hood in a commercial kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Type I hoods are required for equipment that produces smoke or grease-laden fumes, including fryers, ranges, griddles, convection ovens, tilt skillets, and broilers."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How do you ventilate a commercial kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Wall-mounted hoods are generally a safer choice compared to overhead hoods. It is important to attach the kitchen vent hood directly above the ovens to optimize the effectiveness of the ventilation system. Additionally, incorporating makeup air is a crucial aspect of proper ventilation."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is the high risk equipment in the kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hot oil, boiling water, and certain chemicals can pose kitchen hazards, along with hot pans, ovens, and griddles. Contact with these items can result in skin burns."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What are the risks of working in a kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Slips, Trips, and Falls,Fire Safety,Burns and Scalds,Sharp Objects,Biological Hazards,Chemicals,Manual Handling,Environmental Hazards"
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How should food be stored in a commercial kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Keep it cold: Always store perishable foods at the correct temperature to prevent the growth of harmful bacteria.Keep it clean: Ensure your storage areas are kept clean and free of pests.Keep it separate: Raw foods should be stored away from cooked foods to prevent cross-contamination."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What are the four major systems in a commercial kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The kitchen is the area where all food preparation, cooking, and plating occur. To ensure smooth operations, it is essential to have the necessary commercial kitchen equipment, as well as four major systems in place:Ventilation,Refrigeration,Plumbing,Electrical systems"
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is food preparation in commercial kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In commercial kitchens, food preparation involves organizing and setting up the necessary ingredients and equipment to efficiently perform cooking tasks."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What are the 3 sinks in a commercial kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "As the name suggests, the 3-compartment sink method utilizes three distinct sink compartments, each designated for a specific step in the warewashing process:Wash,Rinse,Sanitize"
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Do you need ventilation in a commercial kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Here are the key regulations and rules for commercial kitchen ventilation:All hot air and cooking fumes must be removed from the kitchen.Clean and cool air needs to be circulated throughout the space.The ventilation system should be designed to prevent employee discomfort.The system must be regularly maintained and cleaned."
-                  }
-                }]
-              })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
 
         </Helmet>
       </HelmetProvider>

@@ -53,6 +53,153 @@ const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,
   const [testimonial_data, setTestimonialData] = useState([]);
   const [brandsLogo_data, setBrandsLogoData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "LocalBusiness",
+      "name": "Home Appliances AMC Services with Best Maintenance Contract in Dubai",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/appliances-amc-service/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3430",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Appliances AMC Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "AMC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Refrigerator AMC"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Washing Machine AMC"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Oven AMC"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Dishwasher AMC"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/appliances-amc-service/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an annual maintenance contract (AMC)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AC AMC usually involves a set of maintenance services for a specific period, such as a year. These services may include HVAC, maintenance and electrical repair on your property. The contract’s specifics will vary depending on the service provider, but it will typically include regular testing, cleanings, and repairs to make sure that the systems are in good working order."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many types of AMC are there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Annual Maintenance Contracts (AMCs) are classified into two types: comprehensive and non-comprehensive/call-based. Comprehensive AMCs cover the repair and replacement of faulty equipment parts for one flat fee. Non-inclusive/Call-based AMCs, on the other hand, only provide maintenance services as needed, with each service request billed separately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it worth getting your AMC contract?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With the FAJ Technical Service LLC Annual Maintenance Contract (AMC), you receive a range of customized services at a reasonable price. Enjoy peace of mind for an entire year as we streamline maintenance and provide high-quality support results"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the benefits of an AC AMC contract?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The FAJ Team's Annual Maintenance Contract for AC units guarantees optimal performance and longevity through proactive care, significantly reducing the risk of costly repairs and maximizing energy efficiency; our seasoned professionals provide comprehensive services including AC filter and AC coil cleaning, Air conditioner, and system optimization, ensuring your peace of mind and consistent comfort throughout the year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the advantages of the AMC contract?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AMC ensures regular maintenance, reducing repair costs and extending the equipment’s lifespan with professional service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Do You Need an AMC in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Dubai’s harsh climate, an AMC ensures your AC runs efficiently year-round, preventing costly repairs and discomfort."
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/appliances-amc-service/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Appliances AMC Service",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/appliances-amc-service/"
+        }
+      ]
+    }
+
+  ]
+}
 
   const openModal = useCallback((e) => {
     e.preventDefault();
@@ -138,21 +285,7 @@ const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,
           <meta name="twitter:description" content={metaDescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:image:alt" content="Annual Maintenance Contract" />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Appliances AMC Service, Appliances Annual Maintenance Contract Dubai, Home Appliance AMC, Kitchen Appliance Maintenance Contract, Appliance Service Contract, Preventive Appliance Maintenance, Appliance AMC Plan, Appliance Maintenance Agreement, Appliance Servicing Contract, Appliance AMC near me, Best Appliance AMC Dubai, Appliance Warranty Service, Appliance Care Plan, Appliance Maintenance Package",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/appliances-amc-service/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
