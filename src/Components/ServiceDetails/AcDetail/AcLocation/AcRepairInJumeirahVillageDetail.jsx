@@ -21,9 +21,9 @@ import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+	if (!imgPath) return '';
+	if (imgPath.startsWith('https')) return imgPath;
+	return `${CDN}/${imgPath}/public`;
 };
 const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -140,7 +140,7 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 					<meta name="twitter:title" content={metatitle} />
 					<meta name="twitter:description" content={metadescription} />
 					<meta name="twitter:image" content={metaImage} />
-					
+
 				</Helmet>
 			</HelmetProvider>
 			<HeaderForm />
@@ -612,7 +612,7 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 					></Serviceappointemnt>
 
 				</section>
-{/* Faqs */}
+				{/* Faqs */}
 				<section className="section cs_py_30">
 					<div className="container">
 						<h3 className="cs_fs_30">FAQ&apos;s</h3>
@@ -625,34 +625,34 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 										<span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
 										<span className="cs_accordian_toggle">
 											<svg
-                         width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
-                      >
-<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+												width="20"
+												height="20"
+												viewBox="0 0 24 24"
+												fill="none"
+												stroke="currentColor"
+												strokeWidth="2"
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												className={`eye-open ${index === openItemIndex ? 'd-none' : ''}`}
+											>
+												<path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+											</svg>
 
-                      {/* Eye Slash */}
-                     
-                       <svg
-                       width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
-                       >
-<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+											{/* Eye Slash */}
+
+											<svg
+												width="20"
+												height="20"
+												viewBox="0 0 24 24"
+												fill="none"
+												stroke="currentColor"
+												strokeWidth="2"
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												className={`eye-slash ${index !== openItemIndex ? 'd-none' : ''}`}
+											>
+												<path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+											</svg>
 										</span>
 									</div>
 									<div className="cs_accordian_body" ref={accordionContentRef}>
@@ -667,7 +667,7 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 					</div>
 				</section>
 
-				
+
 
 			</div>
 		</>
