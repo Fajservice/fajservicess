@@ -74,7 +74,7 @@ const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, Auth
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/KitchenEquipments/FAQs/MeatGrinderRepairFaqs.json`),
+          fetch(`${import.meta.env.BASE_URL}data/CommercialLaundryEquipData/FAQs/CommercialWashingMachineRepairFaqs.json`),
           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/WashingMachineRepairServiceTestimonials.json`),
           fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
         ]);

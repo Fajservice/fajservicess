@@ -462,7 +462,7 @@ export const router = createBrowserRouter([
         element: <Components.HomeAppliancesPage />,
       },
       {
-        path: "/blogs",
+        path: "/blogs/",
         element: <Components.BlogPage />,
       },
       {
@@ -498,7 +498,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInSiliconOasis />,
       },
       {
-        path: "/services/air-conditioning-repair/coverage-area/metha/",
+        path: "/services/air-conditioning-repair/coverage-area/oud-metha/",
         element: <Components.AcRepairInMetha />,
       },
       {
@@ -916,7 +916,7 @@ export const router = createBrowserRouter([
       },
 
       {
-        path: "/services/home-appliance-repair/coverage-area/",
+        path: "/services/home-appliances-repair/coverage-area/",
         element: <Components.HomeCoverageAreaPage />,
       },
 
@@ -1759,6 +1759,10 @@ export const router = createBrowserRouter([
         element: <Navigate to="/blogs/" replace />
       },
       {
+        path: "/blog/",
+        element: <Navigate to="/blogs/" replace />
+      },
+      {
         path: "/blog/hvac-contractor-in-dubai-your-ultimate-guide-2023.php",
         element: <Navigate to="/blog/hvac-contractor-in-dubai-your-ultimate-guide-2023/" replace />
       },
@@ -1815,7 +1819,7 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/ac-service/",
+        path: "/ac-repair-dubai/",
         element: <Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
@@ -1823,7 +1827,7 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
-        path: "/services/air-conditioning-repair/ac-service/",
+        path: "/ac-service-in-dubai/",
         element: <Navigate to="/services/air-conditioning-repair/ac-service/" replace />
       },
       {
@@ -2383,7 +2387,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/ac-services-in-metha/",
-        element: <Navigate to="/services/air-conditioning-repair/coverage-area/metha/" replace />
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/oud-metha/" replace />
+      },
+      {
+        path: "/services/air-conditioning-repair/coverage-area/metha/",
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/oud-metha/" replace />
       },
       {
         path: "/ac-services-in-motor-city/",

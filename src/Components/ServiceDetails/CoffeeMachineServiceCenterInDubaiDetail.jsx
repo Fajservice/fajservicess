@@ -24,6 +24,145 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
   const metaKeyword = String(Keyword || "Coffee Machine Repair, Coffee Machine Service, Coffee Machine Descaling, Coffee Machine Service Center");
   const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Coffee-machine-servicing-title-image/public");
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Get Professional Coffee Machine Service & Repair Across Dubai, Sharjah, and Abu Dhabi",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3450",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Haris M" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "We're facing the issue with our franke coffee machine and we reached the correct service centre FAJ done a good job now the coffee machine is working fine thank you team FAJ and technician Que"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Janson Miller" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I had my nine year Jura Z6 coffee machine repaired by Q. He was super friendly and knowledgeable and repaired my machine with no problem. I highly recommend FAJ."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Bassam SH" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I am very satisfied with their prompt, efficient & cordial service from Technician Abdullah, as he was very professional, on time, responsive and reasonably priced. I would definitely recommend them & specially Mr Abdullah to my mother if needed. Thank you for a great job all together."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Gintarė Sutkauskaitė" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+          "reviewBody": "Technician Que was fantastic, fixed both of my coffee machines and been very thorough in explaining what preventative actions to take in the future, highly recommend their service!"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/#video",
+      "name": "COFFEE MACHINE - Complete SERVICE /CLEANING/REPAIRING | Commercial Coffee Machines | FAJ Dubai",
+      "description": "Celebrate coffee moments with us! Experience the magic of perfectly brewed coffee, sip by sip. Our expert team in UAE is dedicated to ensuring your coffee machine is always at its best. Say goodbye to coffee machine troubles and hello to hassle-free mornings. Ready to enjoy your daily brew without worries? Contact us today for top-notch coffee machine repair and maintenance services",
+      "thumbnailUrl": "https://img.youtube.com/vi/IjckdZLs_Qg/maxresdefault.jpg",
+      "uploadDate": "2023-10-02T12:19:33Z",
+      "duration": "PT1M26S",
+      "contentUrl": "https://www.youtube.com/watch?v=IjckdZLs_Qg",
+      "embedUrl": "https://www.youtube.com/embed/IjckdZLs_Qg",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=IjckdZLs_Qg"
+      },
+      "hasPart": [
+        { "@type": "Clip", "name": "Introduction and Morning Coffee Ritual", "startOffset": 0, "endOffset": 30, "url": "https://www.youtube.com/watch?v=IjckdZLs_Qg&t=0s" },
+        { "@type": "Clip", "name": "Common Coffee Machine Issues (Leakage & Error Messages)", "startOffset": 31, "endOffset": 50, "url": "https://www.youtube.com/watch?v=IjckdZLs_Qg&t=31s" },
+        { "@type": "Clip", "name": "Professional Maintenance and Repair Services", "startOffset": 51, "endOffset": 59, "url": "https://www.youtube.com/watch?v=IjckdZLs_Qg&t=51s" },
+        { "@type": "Clip", "name": "Descaling and Calibration for Quality Performance", "startOffset": 60, "endOffset": 86, "url": "https://www.youtube.com/watch?v=IjckdZLs_Qg&t=60s" }
+      ],
+      "publisher": {
+        "@id": "https://www.fajservices.ae/#organization"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What types of coffee machines do you repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We service espresso machines, drip coffee makers, single-serve brewers, and other types of coffee appliances. Smeg, Black and Decker, Beko, Nobel, Espresso, Delonghi, Melitta, Electrolux, Breville, and Philips are among the popular brands we repair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a coffee machine repair typically take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The time required for the repair is determined by the complexity of the problem. Minor repairs can often be done in a matter of hours, however, more serious repairs may take longer. Our specialists work hard to provide quick service while also ensuring that the repair is done correctly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my coffee machine cannot be repaired?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the rare situation that your coffee machine is beyond repair, our professionals will also offer you an honest assessment. So, we can also help you look into other possibilities, such as suggesting a replacement or advising you on how to buy a new coffee machine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is your coffee machine service center located in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we have a coffee machine servicing center in Dubai. Customers looking for coffee machine repair services in the region can simply find us."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide on-site coffee machine repair service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we do on-site coffee machine repair in Dubai. Our professionals may come to your site to diagnose and repair your coffee machine, making service at your door handy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you service Delonghi coffee machines in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! We specialize in repairing Delonghi coffee machines as a coffee machine service facility in Dubai."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Coffee Machine", "item": "https://www.fajservices.ae/services/coffee-machine/" },
+        { "@type": "ListItem", "position": 4, "name": "Coffee Machine Service Center", "item": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/" }
+      ]
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -111,100 +250,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
         <meta name="twitter:title" content={metatitle} />
         <meta name="twitter:description" content={metadescription} />
         <meta name="twitter:image" content={metaImage} />
-        <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Coffee Machine Service Center, Coffee Machine Repair Dubai, Coffee Machine Maintenance, Espresso Machine Repair, Coffee Machine Service near me, Commercial Coffee Machine Repair, Coffee Machine Descaling Service, Coffee Machine Technician, Coffee Machine AMC, Coffee Machine Spare Parts, Coffee Machine Fixing, Coffee Machine Breakdown Repair, Coffee Machine Service Contract, Coffee Machine Repair Shop",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "4352",
-                "bestRating": "5"
-              }
-            })}
-          </script>
-        <script type="application/ld+json">
-          {JSON.stringify(
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [{
-                "@type": "Question",
-                "name": "What types of coffee machines do you repair?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We service espresso machines, drip coffee makers, single-serve brewers, and other types of coffee appliances. Smeg, Black and Decker, Beko, Nobel, Espresso, Delonghi, Melitta, Electrolux, Breville, and Philips are among the popular brands we repair."
-                }
-              }, {
-                "@type": "Question",
-                "name": "How long does a coffee machine repair typically take?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "The time require for the repair is determine by the complexity of the problem. Minor repairs can often be done in a matter of hours, however, more serious repairs may take longer. Our specialists work hard to provide quick service while also ensuring that the repair is done correctly."
-                }
-              }, {
-                "@type": "Question",
-                "name": "What if my coffee machine cannot repair?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "In the rare situation that your coffee machine is beyond repair, our professionals will also offer you an honest assessment. So, we can also help you look into other possibilities, such as suggesting a replacement or advising you on how to buy a new coffee machine."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Is your coffee machine service center located in Dubai?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we have a coffee machine servicing center in Dubai. Customers looking for coffee machine repair services in the region can simply find us."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Do you provide on-site coffee machine repair service?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we do on-site coffee machine repair in Dubai. Our professionals may come to your site to diagnose and repair your coffee machine, making service at your door handy."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Can you service Delonghi coffee machines in Dubai?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Absolutely! We specialize in repairing Delonghi coffee machines as a coffee machine service facility in Dubai. We can conduct the necessary repairs to restore the functionality of your Delonghi espresso machine or drip coffee maker."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Is it worth repairing a coffee machine?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, it can be worth repairing a coffee machine, especially if it’s a high-quality model. Repairs can restore its functionality and extend its life, making it a more cost-effective option than buying a new one."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Can coffee makers be repaired?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Absolutely! Most coffee makers can be repaired. Common issues like broken parts, faulty pumps, or clogged water lines can often be fixed by a professional."
-                }
-              }, {
-                "@type": "Question",
-                "name": "What is the common problem with coffee machines?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Common problems include clogged water lines, malfunctioning pumps, heating element failures, or issues with the brewing cycle. These problems often arise from lack of regular cleaning or mineral buildup."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Can coffee machines be fixed?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, most coffee machines can be repaired depending on the issue. Simple problems like water not flowing or the machine not heating can often be fixed quickly. More complicated issues might require professional service."
-                }
-              }
-              ]
-            })}
-        </script>
+        <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
 
       <HeaderForm />

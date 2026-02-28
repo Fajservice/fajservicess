@@ -27,6 +27,213 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metaKeyword = String(Keyword || "mixer repair, steam iron repair, toaster repair, microwave oven repair, air fryer repair, water dispenser repair, small home appliances service, household appliance repair near me");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/");
   const metaImage = Image || getImageSrc('small-mixer-service');
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Small Home Appliance Repair Service in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/",
+      "telephone": "+971 4 330 0002",
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3420",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Small Home Appliance Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Appliance Repair",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coffee Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Stand Mixer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vacuum Cleaner Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Microwave Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "KitchenAid Stand Mixer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Robot Vacuum Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Looney Rayco" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I appreciate the assistance of Mr. Fasalu for the safe delivery and for the repair of the Coffee Machine. Highly recommended."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Virendra Lal" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Technician Shakeer done a good job. Satisfied with the repair work and the way it was handled. I'm also thankful to Ms. Neha for her follow-up and quick response."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anand K" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I had a great experience with FAJ Technical Services. They repaired my microwave oven quickly and at a reasonable price. Special thanks to Fasalu for his expertise."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Diana Dalaty" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "FAJ repaired our fryer and oven quickly. Their commercial cooking equipment service is professional and reliable."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Linda Michel" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "FAJ repaired my cooktop, dishwasher and replaced broken refrigerator shelves! Their service was outstanding, great communication! Regina was on top of everything."
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Small Appliance Repair Service in Dubai | DIY Fix | FAJ Technical Services LLC",
+      "description": "Welcome to our Small Appliance Repair Services! We understand the frustration of having your everyday household appliances break down unexpectedly. Whether it's your trusty toaster, coffee maker, blender, or any other small appliance, we've got you covered. Our team of expert technicians is here to ensure that you can enjoy the convenience and efficiency of your small appliances once again. We specialize in diagnosing and fixing a wide range of issues, from malfunctioning heating elements to electrical problems and everything in between.",
+      
+      "thumbnailUrl": "https://img.youtube.com/vi/nkqs5jeMQl0/maxresdefault.jpg",
+      "uploadDate": "2023-10-20T06:42:10Z",
+      "duration": "PT2M6S",
+      "contentUrl": "https://www.youtube.com/watch?v=nkqs5jeMQl0&t=1s",
+      "embedUrl": "https://www.youtube.com/embed/nkqs5jeMQl0",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=nkqs5jeMQl0&t=1s"
+      },
+     
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction to Small Appliance Repair",
+          "startOffset": 0,
+          "endOffset": 30,
+          "url": "https://www.youtube.com/watch?v=nkqs5jeMQl0&t=0s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Common Issues with Coffee Makers and Blenders",
+          "startOffset": 31,
+          "endOffset": 75,
+          "url": "https://www.youtube.com/watch?v=nkqs5jeMQl0&t=31s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Vacuum Cleaners and Robot Vacuum Troubleshooting",
+          "startOffset": 76,
+          "endOffset": 110,
+          "url": "https://www.youtube.com/watch?v=nkqs5jeMQl0&t=76s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Microwave Oven Repairs and DIY Fix Tips",
+          "startOffset": 111,
+          "endOffset": 136,
+          "url": "https://www.youtube.com/watch?v=nkqs5jeMQl0&t=111s"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the important household appliances?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Major appliances, commonly referred to as white goods, include essential household items such as air conditioners, dishwashers, clothes dryers, drying cabinets, freezers, refrigerators, kitchen stoves, water heaters, washing machines, trash compactors, microwave ovens, and induction cookers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which supply is used in home appliances?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alternating current (AC) power is the standard for residential electrical systems in many regions. The electricity supplied by utility companies is primarily AC, and homes are usually equipped with AC outlets and appliances designed to operate on AC power."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which appliances use the least electricity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair dryers, ovens, and space heaters consume very few kilowatt hours, and even refrigerators are energy efficient. This is particularly true for newer refrigerators, which use only 30 kilowatt hours per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are major appliances for home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Essential appliances include refrigerators, washers & dryers, freezers, dishwashers, oven & ranges, and range hoods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are household appliances AC or DC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most homes and commercial buildings use alternating current (AC), which is often referred to as 'household electricity.' However, modern appliances and consumer electronics, such as computers and smartphones, actually operate on direct current (DC). This is primarily because transistors, which are essential components in these devices, require DC to function."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do household appliances work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Electricity provides the energy needed to operate small appliances and other electrical devices. Current travels to the device through the hot wire, which is typically black, and returns through the neutral wire, usually white. The force that drives the current is known as voltage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do small appliances need a dedicated circuit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any equipment that operates on 220-volt power needs its own circuit. Dedicated circuits are necessary to prevent excessive electrical loads that could overheat wiring and potentially cause an electrical fire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do appliances short circuit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Short circuits can occur due to damaged insulation, overloading, loose connections, faulty appliances, or power cords. They pose risks such as overheating, electrical burns, and fires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I stop my appliance from tripping the power?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use appliances sequentially: Only operate one high-wattage appliance at a time. For instance, if the microwave is causing the breaker to trip, finish using other appliances before turning it on. Install dedicated circuits: Consider hiring a professional to install dedicated circuits for high-power appliances."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I adjust my kitchen to any kind of weather/season?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Slate, travertine, and concrete are excellent options for both appearance and slip resistance, as well as durability. Installing a roof or overhang can help protect your outdoor kitchen from rain and sun damage. Be sure to weatherproof your appliances with fitted outdoor kitchen covers, and consider adding electricity and heating if you live in a colder region."
+          }
+        }
+      ]
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -119,99 +326,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Small Home Appliances Service Center, Small Appliance Repair Dubai, Blender Repair, Electric Kettle Repair, Toaster Repair, Food Processor Repair, Mixer Grinder Repair, Juicer Repair, Sandwich Maker Repair, Hand Mixer Repair, Small Appliance Maintenance, Small Appliance Service near me, Home Appliance Repair Dubai, Small Kitchen Appliance Repair, Small Appliance Technician",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
-          <script type="application/ld+json">
-            {JSON.stringify(
-              {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                  "@type": "Question",
-                  "name": "What are the important household appliances?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Major appliances, commonly referred to as white goods, include essential household items such as air conditioners, dishwashers, clothes dryers, drying cabinets, freezers, refrigerators, kitchen stoves, water heaters, washing machines, trash compactors, microwave ovens, and induction cookers."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Which supply is used in home appliances?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Alternating current (AC) power is the standard for residential electrical systems in many regions. The electricity supplied by utility companies is primarily AC, and homes are usually equipped with AC outlets and appliances designed to operate on AC power."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Which appliances use the least electricity?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hair dryers, ovens, and space heaters consume very few kilowatt hours, and even refrigerators are energy efficient. This is particularly true for newer refrigerators, which use only 30 kilowatt hours per month."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What are major appliances for home?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Essential appliances include refrigerators, washers & dryers, freezers, dishwashers, oven & ranges, and range hoods."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Are household appliances AC or DC?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Most homes and commercial buildings use alternating current (AC), which is often referred to as 'household electricity.' However, modern appliances and consumer electronics, such as computers and smartphones, actually operate on direct current (DC). This is primarily because transistors, which are essential components in these devices, require DC to function."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How do household appliances work?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Electricity provides the energy needed to operate small appliances and other electrical devices. Current travels to the device through the hot wire, which is typically black, and returns through the neutral wire, usually white. The force that drives the current is known as voltage."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Do small appliances need a dedicated circuit?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Any equipment that operates on 220-volt power needs its own circuit. Dedicated circuits are necessary to prevent excessive electrical loads that could overheat wiring and potentially cause an electrical fire."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How do appliances short circuit?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Short circuits can occur due to damaged insulation, overloading, loose connections, faulty appliances, or power cords. They pose risks such as overheating, electrical burns, and fires."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How do I stop my appliance from tripping the power?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Use appliances sequentially: Only operate one high-wattage appliance at a time. For instance, if the microwave is causing the breaker to trip, finish using other appliances before turning it on. Install dedicated circuits: Consider hiring a professional to install dedicated circuits for high-power appliances."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How do I adjust my kitchen to any kind of weather/season?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Slate, travertine, and concrete are excellent options for both appearance and slip resistance, as well as durability. Installing a roof or overhang can help protect your outdoor kitchen from rain and sun damage. Be sure to weatherproof your appliances with fitted outdoor kitchen covers, and consider adding electricity and heating if you live in a colder region."
-                  }
-                }]
-              })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
 
         </Helmet>
       </HelmetProvider>

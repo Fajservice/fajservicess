@@ -14,8 +14,9 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
-import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 import AcBenefits from "../AcBenefit";
+import Gallery from "../../../Svg/Gallery";
+import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -164,14 +165,14 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 				<PriceCard />
 
 				{/* Experts AC Service and Maintenance */}
-				<section className="section cs_py_30">
+				<section className="section cs_py_30 pb-0">
 					<div className="container">
 						<div className="row gx-md-5 expert_section_wrapper">
 							<div className="col-md-6">
-								<h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Jumeirah Village</h2>
+								<h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Best AC Repair in Jumeirah Village</h2>
 								<p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Jumeirah Village Dubai, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 								<p>We specialize in air conditioner (AC) repair, service, and maintenance near me in Jumeirah Village Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-								<h2 className="cs_fs_24 text-align-left">Signs You Need An AC Service</h2>
+								<h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Signs You Need An AC Service</h2>
 								<p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
 								<div className="row">
 									<div className="col-sm-6">
@@ -196,11 +197,8 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 							</div>
 						</div>
 
-						<div className="appointment-col border-small-top pt-3">
-							<div className="expert_section_wrapper px-3">
-							<p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Jumeirah Village Dubai. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-
-							</div>
+						<div className="appointment-col pt-3">
+							<p className="expert_section_wrapper p-4">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Jumeirah Village Dubai. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
 							<div id="get-quote" className=" mt-3">
 								<div className="container d-flex justify-content-center align-items-center gap-3">
 									<WhatsappIconButton />
@@ -388,8 +386,7 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 				</section>
 
 				{/* The Benefits Of Regular AC Service*/}
-                <AcBenefits city="Jumeriah Village" />
-
+				<AcBenefits city="Jumeirah Village" />
 				{/* Why choose us AC */}
 				<section className="section cs_py_30">
 					<div className="container container-md container-sm">
@@ -478,16 +475,15 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 						</div>
 					</div>
 				</section>
-
 				<BeforeAfter
-					title="Recent Completed Projects"
-					subTitle="Before & after"
-					beforeImg={`${CDN}/after_img_1/public`}
-					afterTitle="After"
-					afterImg={`${CDN}/before_img_1/public`}
-					beforeTitle="Before"
-				/>
-
+                    title="Recent Completed Service"
+                    subTitle="Before & After Service"
+                    bgImg={`${CDN}/background-image-2/public`}
+                    beforeImg={`${CDN}/after_img_1/public`}
+                    afterTitle="After"
+                    afterImg={`${CDN}/before_img_1/public`}
+                    beforeTitle="Before"
+                    />
 				{/* We specialise in air conditioning services for the following brands */}
 				<section className="section cs_py_30">
 					<div className="container">
@@ -523,8 +519,34 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 					</div>
 				</section>
 
-				<section className="section cs_py_30 bg-dark-blue text-light">
-					<div className="container text-center">
+				<section className="section gallery_section bg-light-gray cs_py_30">
+					<div className="container">
+						<h2>Gallery <Gallery /></h2>
+						<div className="row gx-3 gy-2">
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide1/public`} alt="Ac Service" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide2/public`} alt="AC Repair" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide3/public`} alt="AC Maintenance" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide4/public`} alt="AC CLeaning" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide5/public`} alt="AC Fixing" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide6/public`} alt="AC Gas Filling" />
+						</div>
+						</div>
+					</div>
+					</section>
+
+<section className="section cs_py_30 bg-dark-blue text-light">
+                    <div className="container text-center">
 						<h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
 						<p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
 						<a
@@ -582,8 +604,8 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 					testimonialData={testimonial_data}
 					sectionId="home-testimonials"
 				/>
-
-				<section className="section cs_py_30">
+				
+				<section className="section cs_py_30 pt-0">
 					<Serviceappointemnt
 						subtitle2="Contact us"
 						title2="Book An Appointment"

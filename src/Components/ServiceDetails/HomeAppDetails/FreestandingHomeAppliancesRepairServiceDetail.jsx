@@ -11,6 +11,7 @@ import loadBackgroudImages from "../../Common/loadBackgroudImages.jsx";
 import HeaderForm from "../../Headeform/HeaderForm.jsx";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
+import PriceCardHomeCat from "../../Services/homeappliances/PriceCardHomeappCat.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -218,7 +219,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
             </div>
           </div>
         </section>
-
+        <PriceCardHomeCat />
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">

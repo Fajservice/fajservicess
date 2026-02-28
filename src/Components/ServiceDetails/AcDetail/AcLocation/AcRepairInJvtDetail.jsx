@@ -15,6 +15,7 @@ import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import PriceCard from "./PriceCard";
 import AcBenefits from "../AcBenefit";
+import Gallery from "../../../Svg/Gallery";
 import BeforeAfter from "../../../BeforeAfter/BeforeAfter";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -134,15 +135,15 @@ const AcRepairInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                 <PriceCard />
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30 pb-0">
                     <div className="container">
                         <div className="row gx-md-5 expert_section_wrapper">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in JVT</h2>
+                                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Best AC Repair in JVT</h2>
                                 <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in JVT, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in JVT Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                                <h2 className="cs_fs_24 text-align-left">Signs You Need An AC Service</h2>
+                                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -168,10 +169,8 @@ const AcRepairInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                             </div>
                         </div>
 
-                        <div className="appointment-col border-small-top pt-3">
-                            <div className="expert_section_wrapper px-3">
-                                <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in JVT. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-                            </div>
+                        <div className="appointment-col pt-3">
+                            <p className="expert_section_wrapper p-4">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in JVT. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -455,18 +454,17 @@ const AcRepairInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                         </div>
                     </div>
                 </section>
-
                 <BeforeAfter
-                    title="Recent Completed Projects"
-                    subTitle="Before & after"
+                    title="Recent Completed Service"
+                    subTitle="Before & After Service"
+                    bgImg={`${CDN}/background-image-2/public`}
                     beforeImg={`${CDN}/after_img_1/public`}
                     afterTitle="After"
                     afterImg={`${CDN}/before_img_1/public`}
                     beforeTitle="Before"
-                />
-
+                    />
                 {/* We specialise in air conditioning services for the following brands */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
                         <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
@@ -510,7 +508,33 @@ const AcRepairInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                     </div>
                 </section>
 
-                <section className="section cs_py_30 bg-dark-blue text-light">
+                <section className="section gallery_section bg-light-gray cs_py_30">
+					<div className="container">
+						<h2>Gallery <Gallery /></h2>
+						<div className="row gx-3 gy-2">
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide1/public`} alt="Ac Service" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide2/public`} alt="AC Repair" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide3/public`} alt="AC Maintenance" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide4/public`} alt="AC CLeaning" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide5/public`} alt="AC Fixing" />
+						</div>
+						<div className="col-md-4 col-6">
+							<img src={`${CDN}/AcService/slide6/public`} alt="AC Gas Filling" />
+						</div>
+						</div>
+					</div>
+					</section>
+
+<section className="section cs_py_30 bg-dark-blue text-light">
                     <div className="container text-center">
                         <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                         <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>

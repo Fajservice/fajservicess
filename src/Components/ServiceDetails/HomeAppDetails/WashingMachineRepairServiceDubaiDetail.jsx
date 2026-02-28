@@ -119,6 +119,134 @@ const WashingMachineRepairServiceDubaiDetail = ({
   const metaImage = String(
     Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/small-mixer-service/public"
   );
+const schema ={
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Washing Machine Repair Service Dubai - FAJ Technical Services",
+      "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3440",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Washing Machine Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Washing Machine Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Front Load Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Top Load Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Washing Machine Maintenance" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "LEENU JACOB" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+          "reviewBody": "Very satisfied with the washing machine service. Quick response and efficient repair."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "KARTHIKA" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Same-day inspection and helpful technician. Smooth repair process."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "CHRISTDAI ALBURO" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Arrived quickly and fixed the washing machine without delay."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "DUNJA LAZOVIC" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Fast quote, quick repair, and smooth reinstallation."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if my washing machine needs repair?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Common signs include leaks, excessive noise, failure to start, spinning or draining issues, vibrations, or error codes." }
+        },
+        {
+          "@type": "Question",
+          "name": "How much will the washing machine repair cost?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Cost depends on the issue and required parts. A transparent estimate is provided after diagnosis." }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I attempt to repair the washing machine myself?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Professional repair is recommended to avoid damage or injury." }
+        },
+        {
+          "@type": "Question",
+          "name": "What parts fail in a washing machine?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Motor, pump, belts, hoses, and control panel commonly fail due to wear and tear." }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Washing Machine Repair Service Dubai", "item": "https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/" }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Washing Machine Repair Service Dubai | Fixing Washing Machine At Home | FAJ",
+      "description": "Are you tired of dealing with a malfunctioning washing machine? Do you need expert guidance to fix it near you? You're in the right place! In this video, we bring you the ultimate guide to addressing the common issue of a Washing Machine Near Me in partnership with FAJ, your go-to experts in appliance repair. Expert Solutions with FAJ Technical Services LLC. At FAJ, we have over a decade of experience in providing top-notch solutions for your appliance problems.",
+      "thumbnailUrl": "https://img.youtube.com/vi/EnSAQA_AjzY/maxresdefault.jpg",
+      "uploadDate": "2023-09-27T06:50:01Z",
+      "duration": "PT1M10S",
+      "contentUrl": "https://www.youtube.com/watch?v=EnSAQA_AjzY",
+      "embedUrl": "https://www.youtube.com/embed/EnSAQA_AjzY",
+      "keywords": [
+        "Washing Machine Repair Service Dubai",
+        "Fixing Washing Machine At Home",
+        "FAJ Technical Services LLC",
+        "Washing machine repair near me",
+        "Tumble dryer repair Dubai",
+        "Washing machine leakage fix",
+        "Domestic and commercial laundry repair",
+        "Appliance inspection deals Dubai",
+        "AMC for washing machines"
+      ],
+      "hasPart": [
+        { "@type": "Clip", "name": "Common Washing Machine & Dryer Issues", "startOffset": 0, "endOffset": 37, "url": "https://www.youtube.com/watch?v=EnSAQA_AjzY&t=0s" },
+        { "@type": "Clip", "name": "Dependable Repair & AMC Services", "startOffset": 38, "endOffset": 53, "url": "https://www.youtube.com/watch?v=EnSAQA_AjzY&t=38s" },
+        { "@type": "Clip", "name": "Special Deals on Appliance Inspections", "startOffset": 54, "endOffset": 70, "url": "https://www.youtube.com/watch?v=EnSAQA_AjzY&t=54s" }
+      ],
+      "potentialAction": { "@type": "WatchAction", "target": "https://www.youtube.com/watch?v=EnSAQA_AjzY" }
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   titlereview = "What our clients say About Us"
@@ -225,21 +353,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
           <meta name="twitter:image:alt" content="Washing Machine Repair Service" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="language" content="English" />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Washing Machine Repair Dubai, Washing Machine Service Dubai, Washing Machine not spinning, Washing Machine not draining, Washing Machine leaking water, Washing Machine Motor Repair, Washing Machine Drum Repair, Washing Machine Pump Replacement, Front Load Washer Repair, Top Load Washer Repair, Washing Machine Maintenance, Washer Dryer Repair, Washing Machine Repair near me, Washing Machine Technician",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       </HelmetProvider>
 

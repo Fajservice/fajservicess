@@ -105,10 +105,9 @@ const Breadcrumb = () => {
 
       <style>{`
         .breadcrumb-nav {
-          padding-top: 20px;
+          padding: 10px 0px 6px;
           background-color: #fff;
-        }
-        
+      } 
         .breadcrumb-list {
           display: flex;
           flex-wrap: wrap;

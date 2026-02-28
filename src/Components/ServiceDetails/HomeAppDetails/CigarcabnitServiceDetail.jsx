@@ -23,6 +23,169 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metaKeyword = String(Keyword || "Cigar Cabinet Humidifier Repair, Dehumidifier Service, Cigar Fridge Repair, Cigar Cooler Service, Electric Humidor Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/cigar-humidor-repair/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/cigarcabnitrepair/public");
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+   
+    {
+      "@type": "LocalBusiness",
+      "name": "Cigar Humidor Repair in Dubai | De Humidor Service Center - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/cigar-humidor-repair/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3420",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Cigar Humidor Repair Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Humidifier Machine Repair" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Humidor Transformer Repair" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Cigar Humidor Cabinet Maintenance" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Humidity Control System Calibration" }
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "George Thomas" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Brought a few broken humidifying machines and transformers to get them fixed. They managed to repair everything beautifully and in a timely manner. Highly recommend you get your products fixed here."
+        }
+      ]
+    },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Cigar Humidor Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/cigar-humidor-repair/"
+        }
+      ]
+    },
+    
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long will a cigar last in a cigar humidor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you purchase a cigar humidor and take care of it, ensuring that your cigars are stored in ideal conditions, they can last for many years—potentially even indefinitely, depending on the quality of the cigar humidor. This allows you to build a collection of various brands and enjoy them at your leisure, rather than feeling rushed to smoke through them!"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the rules for cigar humidor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The general guideline for storing premium cigars is to maintain a 70/70 environment in your humidor: 70 degrees Fahrenheit and 70% relative humidity. If your humidor or cigar box maintains these conditions consistently, your cigars will stay in optimal condition for an extended period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it better to leave cigars wrapped in a humidor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This has an impact on how you might want to store them. If you plan to keep them in the humidor, removing the wrapper can enhance humidity exchange. However, if you will be taking them out or traveling with them, keeping the wrapper on will help minimize humidity loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can dry cigars be revived in a cigar humidor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Storing the cigar in a well-maintained humidor at 70% humidity or using a rehydration pack can effectively restore its moisture over time and improve its smoking quality. However, the success of the rehydration process depends on the extent of the dryness and any damage the cigar may have sustained."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it OK to store cigars in box in cigar cabinet humidor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cigars are uniquely packaged. It is acceptable to store cigars in their box after purchasing, but only if the box is kept inside a cigar humidor or cigar cabinet refrigerator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I maintain my cigar humidor cabinet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To keep your humidor in optimal condition, it's essential to maintain consistent humidity levels. The Klaro line of humidors works best when humidity is kept between 65% and 72%. Additionally, try to maintain the temperature around 70 degrees Fahrenheit, with some flexibility. Following these guidelines will help you properly care for your cigar humidor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I keep cigars fresh without a humidor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Storing cigars using Ziploc bags is a straightforward method. Simply place your cigars in the bag along with a cigar humidity pack, ensuring the bag is sealed properly. When storing the cigars, keep the bag in a dark place, away from direct sunlight. This method will help keep your cigars fresh for several weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I moisten my humidor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The humidifier should be recharged only when the relative humidity (RH%) falls below 67%. Aim to maintain the RH at an average of 70%, but do not allow it to exceed 72%. Additionally, check your cigars regularly—at least three times a week—to ensure they remain supple, avoiding both excessive moisture and dryness."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What humidity is best for cigars?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The generally accepted ideal relative humidity (RH) range for cigars is between 62% and 70%. However, preferences are shifting lower, typically between 65% and 68%, to enhance burn quality and reduce the risk of mold. When the relative humidity is below the target range, cigars can dry out, causing them to lose essential oils. This results in brittle wrappers, a harsh taste, and uneven, rapid burning."
+          }
+        }
+      ]
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -114,21 +277,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Cigar Humidor Repair, Humidor Maintenance Dubai, Cigar Humidor Service, Humidor not maintaining humidity, Humidor Temperature Issue, Humidor Seal Repair, Humidor Hygrometer Calibration, Humidor Humidifier Replacement, Cigar Cabinet Repair, Humidor Restoration, Cigar Storage Repair, Commercial Humidor Repair, Humidor Technician Dubai, Humidor Fixing Service",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/cigar-humidor-repair/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       <HeaderForm />
 

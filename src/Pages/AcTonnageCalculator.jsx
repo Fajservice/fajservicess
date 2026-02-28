@@ -8,7 +8,7 @@ const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => 
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "FAJ, AC Tonnage Calculator, Air Conditioner Size Calculator");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-tonnage-calculator/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-tonnage-calculator/");
   const [form, setForm] = useState({
     length: "",
     width: "",

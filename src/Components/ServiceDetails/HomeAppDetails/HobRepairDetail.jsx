@@ -26,6 +26,175 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaKeyword = String(Keyword || "Electric Hob Repair, Gas Hob Repair, Gas Hob Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/hob-repair-service/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Hob-Repair-Service-in-Dubai-UAE/public");
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Hob Repair & Service | Gas & Electric Stove Repairs in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/hob-repair-service/",
+      "telephone": "+971 4 330 0002",
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3420",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Hob & Stove Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Gas & Electric Hob Repair",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gas Burner Repair & Replacement" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ignition Switch & Spark Module Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Induction Hob Power Board Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Glass Top Replacement" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermostat & Control Knob Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Linda Michel" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "FAJ repaired my cooktop, dishwasher and replaced broken refrigerator shelves! Their service was outstanding, great communication! Regina was on top of everything and kept me updated"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ram Kanta" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "fixing kitchen hood in my home. good installation and excellent Well recommended"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Diana Dalaty" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "FAJ repaired our fryer and oven quickly. Their commercial cooking equipment service is professional and reliable"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hob Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/hob-repair-service/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do induction hobs work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Induction hobs generate a magnetic field that heats the cookware directly, rather than heating the hob itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What cookware is needed for induction hobs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You will need cookware made of ferrous metals, such as cast iron or stainless steel, that can be attracted to a magnet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there any downsides to induction hobs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You might need to buy new cookware, and some users find induction hobs noisy, especially at high temperatures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do induction hobs last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With proper maintenance, induction hobs can last between 10 to 15 years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I use a non-compatible pan on an induction hob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you use a pan that is not compatible, nothing will happen; the hob will not heat the pan unless it has a magnetic base."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I clean an induction hob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Induction hobs are generally easy to clean. Many models come with a quick clean feature, allowing you to wipe away spills and stains before they set."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What cannot be cooked on induction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aluminium or aluminium-clad, copper or copper-clad, aluminium foil, glass/ceramic, and some stainless steel products cannot be used because they will not attract and hold a magnet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I leave the induction hob on overnight?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As previously explained, without a pan, there is no heat; you can't leave an induction hob on unintentionally unless you also leave the pan in place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we boil eggs on an induction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Place the eggs in a pot and cover with cold water by an inch. Bring to a gentle boil over medium-high heat. Setting number 6 is good if you're using induction."
+          }
+        }
+      ]
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -179,21 +348,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Hob Repair Service, Hob Repair Dubai, Gas Hob Repair, Electric Hob Repair, Induction Hob Repair, Hob not working, Hob Ignition Problem, Hob Burner Repair, Cooktop Repair, Hob Service Dubai, Hob Maintenance, Hob Repair near me, Glass Hob Repair, Hob Technician, Hob Gas Valve Repair",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/hob-repair-service/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

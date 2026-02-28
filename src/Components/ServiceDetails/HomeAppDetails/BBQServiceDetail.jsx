@@ -27,6 +27,206 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Barbeque-Repair/public");
+  const schema ={
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Barbeque Repair | Gas & Electric BBQ Grill Cleaning Service Dubai- FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3450",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Barbeque Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "BBQ Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Gas BBQ Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Charcoal BBQ Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "BBQ Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Infrared BBQ Repair" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Gunnar Paul" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "It looked like an old Boretti BBQ grill when I brought it to these guys, believe me when I tell you it has been in a closet with all grease and dust for a year. I was expecting a judgmental look, but the team was so sweet. They told me it will take a day to get it back to life and they did. It was spotless with no grease. The response time was fast and they had texted me when my barbeque grill was cleaned and ready to be picked up. These guys would be my go-to for BBQ grill cleaning and if you are looking for BBQ grill repair in Dubai, I would recommend them!"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are 3 rules for using the grill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Always ensure that the lid of your gas grill is open before lighting it. Keep children and pets at least three feet away from the grilling area. If you're using starter fluid for charcoal grilling, make sure to use only charcoal starter fluid. Never add charcoal fluid or any other flammable liquids to an existing fire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a barbecue grill work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fuel used in your grill is funneled through small pores in the ceramic brick of the side burner. When the gas ignites, it burns and heats the ceramic until it glows with heat. When food is placed near the fire, on lit charcoal, or at the infrared sear station, the heat directly reaches the food."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you maintain a BBQ grill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "How to Properly Clean and Maintain a BBQ or Grill: Cleaning the Burner. The burner and gas tubes are the most important part of the grill. Clean the Inside of Your BBQ. Burn Off the Grease. Clean the Grates. Clean the Outside of the BBQ. Check and Clean the Gas Feed Pipe. Keep Propane Tanks in Good Condition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the safest type of grill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When considering the safest grilling option, it's important to note that no type of grill is entirely free of health risks. However, gas grills tend to have lower risks associated with carcinogen exposure compared to charcoal grills. While electric grills are less popular, they present the lowest risk among the three options, as they do not produce open flames or smoke."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the first rule of grilling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patience is essential for successful grilling. Preheat your grill, sear confidently, keep the lid closed, and flip carefully. Avoid handling your food too much, and let it rest before serving."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do you need for BBQ grill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This guide will help you understand the essential BBQ equipment for beginners, enabling you to grill like a professional. Grill. Your BBQ journey begins with a grill. Tongs and Spatula. A sturdy set of grill tongs and a spatula are essential. Meat Thermometer. Grill Brush. Chimney Starter. Basting Brush. Grill Gloves. BBQ Skewers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you keep the grill open or closed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When the grill lid is raised, the heat doesn't accumulate and intensify as it would with the lid closed. Foods like thin pork chops, shrimp, and burgers cook quickly when the lid is up. However, leaving the grill lid open will slow down the cooking process by lowering the temperature around the meat. For thicker cuts, it’s best to close the lid to maintain a high and even temperature."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What grill type is best?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gas grills, like the Char-Broil Commercial three-burner, are great for switching between high heat for searing and lower heat for steady cooking. However, if you want to cook meats such as whole chickens or racks of ribs for several hours, you will achieve better results with a charcoal grill, pellet grill, or smoker."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does BBQ include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fare includes barbecue sandwiches, brisket, barbecue chicken, pulled pork, pork shoulder, pork ribs, beef ribs, beef steak, and various other foods. Side dishes such as baked beans, macaroni and cheese, coleslaw, and corn on the cob are typically available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What temperature to grill steak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The ideal temperature for grilling steak is high heat, between 450°F and 550°F. To achieve the perfect steak, there are two main cooking methods: the direct-heat method and the reverse-searing method."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the temperature of a BBQ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BBQ is a cooking method that uses low and slow, indirect heat. These moderate cooking temperatures range from 200 to 300°F (93 to 149°C), which is significantly lower than the high temperatures used in grilling."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Barbeque Repair & BBQ Maintenance Dubai",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Barbeque Repair in Dubai | Gas & Electric BBQ Grill Cleaning Service",
+      "description": "In Dubai and dealing with a malfunctioning BBQ grill? Look no further! Our top-rated Barbeque Repair Service in Dubai is here to rescue your grill and get it back to sizzling perfection. Whether your BBQ needs a minor tune-up or a complete overhaul, our expert technicians are ready to restore your grill today.",
+      "keywords": "BBQ Grill Repair Dubai, Barbeque Grill Rebuild, Gas Grill Burner Replacement, FAJ Technical Services LLC, Advanced gas barbecue grill repair, Gas leakage repair, Ignition system problems, Built-in barbecue grills, Freestanding barbecue grills, Appliance inspection service",
+      "thumbnailUrl": "https://img.youtube.com/vi/-9QrAXOJkRY/maxresdefault.jpg",
+      "uploadDate": "2023-10-30T10:01:08Z",
+      "duration": "PT1M48S",
+      "contentUrl": "https://www.youtube.com/watch?v=-9QrAXOJkRY",
+      "embedUrl": "https://www.youtube.com/embed/-9QrAXOJkRY",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=-9QrAXOJkRY"
+      }
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -116,21 +316,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "BBQ Repair Dubai, Barbeque Maintenance Dubai, BBQ Service Dubai, Gas BBQ Repair, Charcoal BBQ Maintenance, Electric BBQ Repair, BBQ not igniting, BBQ Flame Problem, BBQ Gas Leak Check, BBQ Burner Replacement, BBQ Cleaning Service, Commercial BBQ Repair, Outdoor BBQ Repair, BBQ Grill Repair, BBQ Technician Dubai",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       <HeaderForm />
 
