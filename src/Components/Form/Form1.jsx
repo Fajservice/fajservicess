@@ -282,7 +282,7 @@ const Form1 = () => {
             name="message" 
             rows="6" 
             placeholder="Message" 
-            className="cs_form_field"
+            className="cs_form_field cs_radius_5"
             value={formData.message} 
             onChange={handleChange} 
             required

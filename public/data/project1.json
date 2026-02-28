@@ -9,18 +9,18 @@
     "img": "Refrigeration-Maintenance-Service",   
     "title": "Refrigeration Maintenance Service Contract",
     "desc": "An AMC for refrigeration systems performance. It helps prevent unexpected breakdowns, boosts energy efficiency, and extends system lifespan through scheduled maintenance & expert care.",
-    "serviceLink":"/commercial-refrigeration-maintenance-contact-services/"
+    "serviceLink":"/services/refrigeration-equipment/commercial-refrigeration-maintenance/"
   },
   {
     "img": "Kitchen-Equipment-Maintenance-Service",   
     "title": "Kitchen Equipment Maintenance Service Contract",
     "desc": "Regular maintenance with a contract and prompt repairs for commercial kitchens are essential for the longevity and efficiency of kitchen equipment.",
-    "serviceLink":/services/home-appliances-repair/brands/haier/"
+    "serviceLink":"/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/"
   },
   {
     "img": "Coffee-Machine-Maintenance-Service",   
     "title": "Coffee Machine Maintenance Service Contract ",
     "desc": "A scheduled maintenance contract that includes cleaning and descaling is essential for optimal performance and consistent quality from a coffee machine. Regular maintenance helps prevent breakdowns and ensures great-tasting coffee",
-    "serviceLink":/services/home-appliances-repair/brands/haier/"
+    "serviceLink":"/services/coffee-machine/coffee-machine-service-center/"
   }       
 ]

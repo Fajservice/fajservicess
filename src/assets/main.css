@@ -7295,7 +7295,7 @@
   .cs_form_field {
     display: block;
     width: 100%;
-    border: 1px solid var(--white-color);
+    border: 1px solid var(--border-color);
     min-height: 54px;
     padding: 12px 20px;
     background-color: var(--white-color);
