@@ -182,7 +182,7 @@ export const router = createBrowserRouter([
         element: <Components.IceMakerRepair />,
       },
       {
-        path: "/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/",
+        path: "/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/",
         element: <Components.RefrigerationAMCServices />,
       },
       {
@@ -2059,7 +2059,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/commercial-refrigeration-maintenance-contact-services/",
-        element: <Navigate to="/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/" replace />
+        element: <Navigate to="/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/" replace />
+      },
+      {
+        path: "/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/",
+        element: <Navigate to="/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/" replace />
       },
       {
         path: "/commercial-refrigeration-maintenance/",

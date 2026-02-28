@@ -215,7 +215,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/</loc>
+  <loc>https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>
