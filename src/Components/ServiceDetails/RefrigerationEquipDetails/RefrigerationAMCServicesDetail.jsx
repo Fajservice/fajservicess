@@ -22,7 +22,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const metadescription = String(description || "FAJ offers commercial refrigeration, including restaurant, hotel, hospital freezer, chiller, cold room, refrigerator annual maintenance contract services Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Refrigeration Annual Maintenance Contract Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/techfridge/public");
 
   subtitle = "Testimonial"
@@ -123,7 +123,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               "@type": "Service",
               "name": "Commercial Refrigeration Maintenance, Commercial Refrigeration Service Dubai, Commercial Refrigerator Repair, Commercial Freezer Repair, Walk in Cooler Maintenance, Walk in Freezer Repair, Refrigeration Unit Service, Commercial Refrigeration Preventive Maintenance, Refrigeration Compressor Repair, Commercial Refrigeration Technician, Refrigeration System Maintenance, Cold Room Maintenance, Commercial Refrigeration Contract",
               "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/",
+              "url": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/",
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.9",

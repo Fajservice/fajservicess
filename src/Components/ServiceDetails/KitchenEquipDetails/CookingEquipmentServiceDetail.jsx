@@ -25,6 +25,220 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metaKeyword = String(Keyword || "Commercial Cooking Equipment Repair, Dubai, professional Kitchen Appliances Service, professional Cooking Range Repair, professional Gas Stove Repair, professional Deep Fryer Service, professional Oven Repair, Restaurant Equipment Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/commercial-cooking-appliances-repair-service/public");
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Best Commercial Cooking Appliances Repair Service in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3445",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Commercial Cooking Appliance Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Repair Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Cooking Range Oven Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Commercial Oven Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Grill & Hob Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Preventive Maintenance for Cooking Appliances" }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/#video",
+      "name": "Cooking Range Oven Repair Service in Dubai | Cooking Range Oven Maintenance | FAJ",
+      "description": "If you're dealing with a malfunctioning cooking range or oven, it's time to dive deep into the world of appliance repair with our expert guide. In this video, we'll provide essential maintenance and cleaning tips specifically tailored for commercial cooking machines in FAJ Dubai. Learn how to diagnose common issues and perform effective repairs, ensuring your kitchen runs smoothly. Whether you're a professional chef or a home cook, these insights will help you keep your cooking equipment in top shape. Don't let a faulty oven slow you down—watch now and discover the best practices for service and maintenance!",
+      "thumbnailUrl": "https://img.youtube.com/vi/SLGpswtzn-w/maxresdefault.jpg",
+      "uploadDate": "2023-10-16T12:00:10Z",
+      "duration": "PT2M8S",
+      "contentUrl": "https://www.youtube.com/watch?v=SLGpswtzn-w",
+      "embedUrl": "https://www.youtube.com/embed/SLGpswtzn-w",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=SLGpswtzn-w"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "FAJ Technical Services LLC",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.fajservices.ae/img/FajLogo.svg"
+        }
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction and Culinary Adventure",
+          "startOffset": 0,
+          "endOffset": 38,
+          "url": "https://www.youtube.com/watch?v=SLGpswtzn-w&t=0s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Common Issues: Temperature & Door Troubles",
+          "startOffset": 39,
+          "endOffset": 59,
+          "url": "https://www.youtube.com/watch?v=SLGpswtzn-w&t=39s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Technical Faults: Control Panels & Gas Sparks",
+          "startOffset": 60,
+          "endOffset": 107,
+          "url": "https://www.youtube.com/watch?v=SLGpswtzn-w&t=60s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Commercial & Domestic Repair Services",
+          "startOffset": 108,
+          "endOffset": 128,
+          "url": "https://www.youtube.com/watch?v=SLGpswtzn-w&t=108s"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the most important piece of equipment in a commercial kitchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Commercial ranges are essential in professional kitchens, enabling chefs to cook multiple dishes at different heat levels simultaneously."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is cooking equipment important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Using high-quality kitchen equipment allows for precise temperature control, consistent cooking methods, and optimal food preparation techniques. This leads to consistently high-quality dishes, enhancing customer satisfaction and strengthening brand reputation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is commercial cooking equipment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ovens, grills, and hobs are essential in every kitchen. While deep fryers, salamander broilers, steam tables, and griddles are popular, they are not always needed in every kitchen. Additionally, some cooking equipment is required only for preparing specialized dishes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What material is used to make most commercial kitchen equipment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "304 Stainless Steel is a type of austenitic steel that is especially favored in the foodservice industry because of its corrosion resistance, ease of cleaning, and ability to endure humid environments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should commercial kitchen equipment last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The core of the kitchen is its cooking equipment, which includes ovens, ranges, and gas stovetops. These items are essential in the food production process and have an average lifespan of 10 to 15 years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What equipment is needed in a restaurant kitchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ovens: Ovens are likely the first pieces of equipment that come to mind when considering restaurant cooking tools.\nRanges and Ventilation: Ranges are essential for various cooking methods, and proper ventilation is crucial for maintaining air quality in the kitchen.\nFood Processors: These are invaluable for efficiently preparing ingredients.\nMixers: Mixers are necessary for baking and other food preparation tasks.\nSlicers: Slicers help with quickly preparing meats, cheeses, and vegetables.\nFood Prep Counters and Cutting Boards: These surfaces are vital for food preparation and maintaining hygiene.\nFreezers and Refrigerators: Proper storage equipment is important for preserving food quality and safety.\nSafety Equipment: This includes items like fire extinguishers and first aid kits to ensure a safe working environment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is cooking equipment designed for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cooking equipment should be designed to take advantage of our knowledge regarding how different factors influence food during the cooking process. This approach will allow food processors to create methods that not only meet essential food safety standards but also enhance quality and maximize production efficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is induction cooking equipment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Induction ranges provide a fast, efficient, and precise cooking method that is perfect for commercial kitchens. They use electromagnetic energy to heat the cookware directly, rather than warming the surface of the range itself. This direct heating leads to quicker heating times and improved temperature control."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is HoReCa equipment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HoReCa products encompass a wide range of essential items for the hospitality and food industry. These include commercial kitchen equipment, tableware, linens, and cleaning supplies. Additionally, the industry features food and beverage ingredients as well as technology solutions."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kitchen Equipment Maintenance",
+          "item": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Commercial Cooking Appliances Repair Service",
+          "item": "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/"
+        }
+      ]
+    }
+  ]
+}
 
 
   subtitle = "Testimonial"
@@ -118,92 +332,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Commercial Cooking Appliances Repair, Commercial Kitchen Appliance Repair, Restaurant Cooking Equipment Repair, Commercial Stove Repair, Commercial Range Repair, Commercial Fryer Repair, Commercial Griddle Repair, Commercial Charboiler Repair, Commercial Pasta Cooker Repair, Commercial Bratt Pan Repair, Commercial Cooking Equipment Service, Commercial Cooking Appliance Maintenance, Commercial Cooking Appliance Technician",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/kitchen-equipment/commercial-cooking-appliances-repair-service/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
-          <script type="application/ld+json">
-            {JSON.stringify(
-              {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                  "@type": "Question",
-                  "name": "What is the most important piece of equipment in a commercial kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Commercial ranges are essential in professional kitchens, enabling chefs to cook multiple dishes at different heat levels simultaneously."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "Why is cooking equipment important?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Using high-quality kitchen equipment allows for precise temperature control, consistent cooking methods, and optimal food preparation techniques. This leads to consistently high-quality dishes, enhancing customer satisfaction and strengthening brand reputation."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is commercial cooking equipment?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ovens, grills, and hobs are essential in every kitchen. While deep fryers, salamander broilers, steam tables, and griddles are popular, they are not always needed in every kitchen. Additionally, some cooking equipment is required only for preparing specialized dishes."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What material is used to make most commercial kitchen equipment?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "304 Stainless Steel is a type of austenitic steel that is especially favored in the foodservice industry because of its corrosion resistance, ease of cleaning, and ability to endure humid environments."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How long should commercial kitchen equipment last?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The core of the kitchen is its cooking equipment, which includes ovens, ranges, and gas stovetops. These items are essential in the food production process and have an average lifespan of 10 to 15 years."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What equipment is needed in a restaurant kitchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ovens: Ovens are likely the first pieces of equipment that come to mind when considering restaurant cooking tools.Ranges and Ventilation: Ranges are essential for various cooking methods, and proper ventilation is crucial for maintaining air quality in the kitchen.Food Processors: These are invaluable for efficiently preparing ingredients.Mixers: Mixers are necessary for baking and other food preparation tasks.Slicers: Slicers help with quickly preparing meats, cheeses, and vegetables.Food Prep Counters and Cutting Boards: These surfaces are vital for food preparation and maintaining hygiene.Freezers and Refrigerators: Proper storage equipment is important for preserving food quality and safety.Safety Equipment: This includes items like fire extinguishers and first aid kits to ensure a safe working environment."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is cooking equipment designed for?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Cooking equipment should be designed to take advantage of our knowledge regarding how different factors influence food during the cooking process. This approach will allow food processors to create methods that not only meet essential food safety standards but also enhance quality and maximize production efficiency."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is induction cooking equipment?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Induction ranges provide a fast, efficient, and precise cooking method that is perfect for commercial kitchens. They use electromagnetic energy to heat the cookware directly, rather than warming the surface of the range itself. This direct heating leads to quicker heating times and improved temperature control."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is HoReCa equipment?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "HoReCa products encompass a wide range of essential items for the hospitality and food industry. These include commercial kitchen equipment, tableware, linens, and cleaning supplies. Additionally, the industry features food and beverage ingredients as well as technology solutions."
-                  }
-                }]
-              })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
 
         </Helmet>
       </HelmetProvider>

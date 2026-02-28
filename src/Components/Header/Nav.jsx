@@ -88,7 +88,7 @@ const navItems = [
         label: 'Refrigeration Equipment',
         children: [
           { path: '/services/refrigeration-equipment/ice-maker-repair/', label: 'Ice Maker Repair' },
-          { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance-contact-services/', label: 'Refrigeration AMC Services' },
+          { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/', label: 'Refrigeration AMC Services' },
           { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance/', label: 'Commercial Refrigeration Maintenance' }
         ]
       },

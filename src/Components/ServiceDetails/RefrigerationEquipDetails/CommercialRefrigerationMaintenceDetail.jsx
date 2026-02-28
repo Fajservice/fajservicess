@@ -26,6 +26,149 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
   const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/");
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/commercial-ref%20-mc/public";
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Best Commercial Refrigeration Maintenance Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "2",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Commercial Refrigeration Maintenance Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Maintenance Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Walk-in Cooler Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Refrigerated Display Case Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Freezer Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Preventive Commercial Refrigeration Maintenance" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Farah B" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Abdullah did a great job fixing our fridge. Very professional services."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "USMAN ALI" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Abdullah from FAJ did a great job fixing our fridge and washing machine in Arabian Ranches. He came on time, was friendly, and resolved everything without hassle."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I choose the right refrigeration system for my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The size of the business, the quantity of products to be stored, the location of operations, and regulatory requirements are all factors that must be considered when selecting the appropriate refrigeration system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do we properly maintain our refrigeration system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regular maintenance of refrigeration systems is crucial for optimal operation. This includes checking temperatures, locating leaks, cleaning filters, and verifying refrigerant levels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I save on costs in operating commercial refrigeration systems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The refrigeration equipment used to create cold air consumes significant energy. You can reduce costs by using night curtains, switching to LED lighting, and ensuring freezer doors remain sealed with quality gaskets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to choose the correct refrigerated display case size?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Display cases range from 2 to 12 feet wide for open cases and 2-door to 6-door designs. Choose based on your sales floor space and storage requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What temperature is the danger zone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The temperature danger zone is between 41°F and 135°F, where bacteria grow most rapidly in food."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Refrigeration Equipment",
+          "item": "https://www.fajservices.ae/services/refrigeration-equipment/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Commercial Refrigeration Maintenance",
+          "item": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/"
+        }
+      ]
+    }
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -118,99 +261,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Commercial Refrigeration Maintenance, Commercial Refrigerator Repair Dubai, Commercial Freezer Repair, Walk in Cooler Repair, Walk in Freezer Service, Refrigeration Unit Maintenance, Commercial Refrigeration Service, Cold Room Repair, Refrigeration Compressor Maintenance, Commercial Refrigeration Technician, Refrigeration System Repair, Restaurant Refrigeration Repair, Supermarket Refrigeration Maintenance",
-              "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-              "url": "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "3452",
-                "bestRating": "5"
-              }
-            })}
-          </script>
-          <script type="application/ld+json">
-            {JSON.stringify(
-              {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                  "@type": "Question",
-                  "name": "How do I choose the right refrigeration system for my business?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The size of the business, the quantity of products to be stored, the location of operations, and regulatory requirements are all factors that must be considered when selecting the appropriate refrigeration system."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How do we properly maintain our refrigeration system?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Regular maintenance of refrigeration systems is crucial for optimal operation. This includes checking temperatures, locating leaks, cleaning filters, and verifying refrigerant levels."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How can I save on costs in operating commercial refrigeration systems?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The refrigeration equipment used to create cold air consumes a significant amount of energy. This is one of the key reasons why reducing costs is essential for food retailers of all sizes. There are several ways to save on energy and expenses related to your display cases. For example, you can use night curtains to keep open cases cold when your store is closed, switch to energy-saving LED lights instead of fluorescent lighting, and ensure freezer doors stay closed and sealed by using high-quality gaskets that are durable and long-lasting."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How to choose the correct refrigerated display case size?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Selecting the appropriate size of a refrigerated display case for your food retail business is crucial to minimizing costs and avoiding the waste of valuable sales space and energy. Depending on your sales floor area and the amount of food you need to showcase, display cases are available in a variety of sizes, ranging from 2 feet to 12 feet wide for open cases and from 2-door to 6-door designs for door cases. The volume of these display cases typically varies between 5 to 80 cubic feet each."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What should I do if a part needs to be replaced?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "FAJ Technical Services L.L.C. is committed to providing reliable and trouble-free refrigeration solutions through a wide range of quality products equipped with advanced features. To ensure the highest quality and long-lasting dependability of any refrigeration unit, we recommend using genuine replacement parts. For more information, please contact us at info@fajservices.ae or call +971 50 746 4712"
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "How often should I schedule maintenance for my refrigeration equipment?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We recommend scheduling regular maintenance at least twice a year to ensure your refrigeration equipment operates smoothly and efficiently. However, the frequency may vary based on factors such as the type of equipment and its usage."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What are some common applications of commercial refrigeration?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Commercial refrigeration is widely used in grocery stores, supermarkets, restaurants, and convenience stores. It plays a crucial role in keeping food and beverages at the appropriate temperatures to maintain their freshness and safety for consumers. Supermarkets implement commercial refrigeration systems to store and display perishable items like dairy products, meats, fruits, vegetables, and frozen goods. These systems include open display cases, walk-in coolers, and freezers, all designed to provide optimal storage conditions. Restaurants typically use equipment such as reach-in refrigerators, under-counter refrigerators, and walk-in coolers to store ingredients, prepared meals, and beverages."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What Maintenance Contracts Do You Offer?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Refrigeration companies often provide regular maintenance contracts to ensure that your systems remain functional. Proper maintenance is essential, and it's important to find the right price for this coverage. In addition to routine maintenance and servicing, a reliable refrigeration company should also offer prompt emergency repairs and spare parts when needed, all at reasonable prices."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What temperature is the danger zone?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The temperature danger zone is between 41°F and 135°F, where bacteria grow most rapidly in food. Particularly, bacteria multiply fastest between 70°F and 125°F."
-                  }
-                }, {
-                  "@type": "Question",
-                  "name": "What is the common problem in chillers?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Incorrect operating practices, lack of maintenance, and improper chiller sizing are three common causes of chiller problems. Operators must actively consider these factors to mitigate potential risks to the cooling equipment."
-                  }
-                }]
-              })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
 
         </Helmet>
       </HelmetProvider>

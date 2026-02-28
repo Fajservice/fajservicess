@@ -27,6 +27,167 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
   const metaKeyword = String(Keyword || "Appliances Repair Dubai, Appliance Service Dubai, Appliance Repair Near Me, Home Appliances Repair Dubai, Washing Machine Repair Dubai, Refrigerator Repair Dubai, Dishwasher Repair Dubai, Oven Repair Dubai, Dryer Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Best Home Appliances Repair and Maintenance Service in Dubai - FAJ Technical Services",
+      "image": [
+        "https://www.fajservices.ae/img/FajLogo.svg"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3426",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Appliance Repair Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Refrigerator Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Washing Machine Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Oven Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Dishwasher Repair" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Haris M" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "We're facing the issue with our franke coffee machine and we reached the correct service centre FAJ done a good job now thr coffee machine is working fine thank you team FAJ and technician Que"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Janson Miller" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I had my nine year Jura Z6 coffee machine repaired by Q. He was super friendly and knowledgeable and repaired my machine with no problem. I highly recommend FAJ."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Bassam SH" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "I am very satisfied with their prompt, efficient & cordial service from Technician Abdullah, as he was very professional, on time, responsive and reasonably priced."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Gintarė Sutkauskaitė" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Technician Que was fantastic, fixed both of my coffee machines and been very thorough in explaining what preventative actions to take in the future, highly recommend their service!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Alexander Burger" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Fantastic service in cleaning our BBQ. Abdullah and his team member did a great job with their pick up from home and delivery back to home again."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When is the best time to have my appliance repaired?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When you see a problem, contact our experts right away. If you suspect a problem, such as an appliance not working properly or performing poorly, it may require repair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kinds of appliances does FAJ repair, replace, maintain, and install?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our skilled experts repair freezers, refrigerators, dryers, ovens, stoves, microwaves, washers, dishwashers, ranges, and more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do when my appliance breaks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unplug it immediately and turn off the main power circuit. Clean any leaks and contact our appliance repair specialist as soon as possible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does FAJ take for an appliance to be repaired?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our repair experts provide an estimated completion time before starting the job so you know what to expect."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it better to repair or replace an appliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the repair costs less than half the price of a new one and the appliance isn’t too old, repair it. Otherwise, replace it."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Appliances Repair Service",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/"
+        }
+      ]
+    }
+  ]
+}
 
 
 
@@ -120,85 +281,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
         <meta name="twitter:title" content={metatitle} />
         <meta name="twitter:description" content={metadescription} />
         <meta name="twitter:image" content={metaImage} />
-        
-        <script type="application/ld+json">
-          {JSON.stringify(
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [{
-                "@type": "Question",
-                "name": "When is the best time to have my appliance repaired?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "When you see a problem, contact our experts right away. If you suspect a problem, such as an appliance not working properly or performing poorly, it may require repair. You don’t have to wait till your appliance breaks to contact our repair service."
-                }
-              }, {
-                "@type": "Question",
-                "name": "What kinds of appliances does FAJ repair, replace, maintain, and install?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Our skilled experts have repaired a wide range of appliances, including freezers, refrigerators, dryers, ovens, stoves, microwaves, washers, dish washers, ranges, and trash compactors."
-                }
-              }, {
-                "@type": "Question",
-                "name": "What should I do when my appliance breaks?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "If your appliance suddenly stops working and you’re not sure why, unplug it straight away. To be safe, you should turn off the main power circuit. Wipe up any leaks that may have happened, such as with a refrigerator or washing machine, but turn it off first. It’s critical to fix the problem as soon as possible, so contact our appliance repair Dubai specialist who can respond quickly."
-                }
-              }, {
-                "@type": "Question",
-                "name": "How long does FAJ take For an appliance to be repaired?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Our appliance repair experts can provide an approximate completion time for the job before we start working on it, so you know what to expect."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Is it better to repair or replace an appliance?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "If the repair costs less than half the price of a new one and the appliance isn’t too old, repair it. Otherwise, replace it."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Is it worth it to repair a refrigerator?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, if it’s under 10 years old and the repair isn’t too expensive. Older models may be better replaced."
-                }
-              }, {
-                "@type": "Question",
-                "name": "How can I improve the life of my refrigerator?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Clean the coils, keep door seals tight, don’t overload it, set the right temperature, and make sure it’s level."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Why is the dishwasher not working properly?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "It could be due to clogged filters, blocked spray arms, or drainage issues. Regular cleaning helps prevent problems."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Do ovens need servicing?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, occasional servicing keeps them safe and efficient. Check heating elements and clean regularly."
-                }
-              }, {
-                "@type": "Question",
-                "name": "Is it easy to fix an oven?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Some fixes are simple, like replacing a heating element. For gas or electrical issues, call F A J."
-                }
-              }]
-            })}
-        </script>
+        <script type="application/ld+json">{JSON.stringify(schema)}</script>
 
       </Helmet>
       <HeaderForm />
