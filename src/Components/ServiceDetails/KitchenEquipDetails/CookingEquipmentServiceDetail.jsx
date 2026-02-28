@@ -368,7 +368,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                   We have implemented a cloud-based Field Service and annual maintenance contract (AMC) to provide efficient and transparent service for all breakdowns and kitchen maintenance.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>EMERGENCY Cooking Equipments REPAIR</h2>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Emergency Cooking Equipments Repair</h2>
                 <p className="mb-0">
                   <b>Terms & Conditions:</b> There is a callout fee that applies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
                   <b>CHOOSE FAJ FOR YOUR PEACE OF MIND<br />
