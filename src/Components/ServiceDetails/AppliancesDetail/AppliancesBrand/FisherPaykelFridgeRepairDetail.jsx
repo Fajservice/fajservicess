@@ -24,7 +24,7 @@ const getImageSrc = (imgPath) => {
 const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Fisher and Paykel Fridge Repair | Dishwasher Service in Dubai");
-  const metadescription = String(description || "Fisher & Paykel fridge repair across Dubai. FAJ offers washer dryer, dishwasher, rcooker, ange, stove & oven repair service in Dubai with a warranty.");
+  const metadescription = String(description || "Fisher & Paykel fridge repair across Dubai. FAJ offers F & P dishwasher, freezer, range, stove, oven repairs & service center in Dubai with a warranty.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Fisher and Paykel Fridge Repair, Fisher and Paykel Washing Machine Repair, Fisher and Paykel Dishwasher Repair, Fisher and Paykel Stove Repair, Fisher and Paykel Oven Repair, Fisher and Paykel Appliance Service Dubai");
@@ -152,11 +152,8 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Fisher and Paykel Fridge Repair and Dishwasher Service in Dubai</h1>
-            <p>
-              Are you having trouble finding a local technician specializing in Fisher & Paykel kitchen appliances?
-              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with specific knowledge of your Fisher & Paykel appliance for efficient and accurate service.
-            </p>
+            <h1 className="cs_fs_30">Fisher and Paykel Home Appliance Repair and Maintenance Service in Dubai</h1>
+            <p>At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, We have been providing reliable and affordable service center since 2010 of Fisher and Paykel appliances. We service all models, including Fisher and Paykel fridge freezer, cookers, hoods, dishwasher, and more. Booking your Fisher and Paykel repair with us is simple: just select your Fisher and Paykel appliance type, choose your chosen repair date, and wait for one of our friendly technicians to assist you.<br />No matter what issue you’re experiencing with your Fisher and Paykel appliance, our repair experts at FAJ are in your area and ready to resolve any fault quickly. Contact us today!</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -173,18 +170,11 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1" style={{ fontSize: "20px" }}>Fisher & Paykel Washing Machine Repair Near You</h2>
-                <p className="mb-2">
-                  If you’re in need of repair services for your Fisher & Paykel appliances, FAJ is here for you! We offer fast, affordable, and reliable solutions.
-                  <br />Whether your built-in Fisher & Paykel washing machine won’t drain, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start,  our skilled repair team in Dubai and Sharjah is ready to assist.
-                  As a trusted local service provider, we respond quickly to restore your appliances to proper working condition.
+                <h2 className="cs_fs_20 mb-1 mt-0" style={{ fontSize: "20px" }}>Specialised Fisher & Paykel Dishwasher Repair and Service in Dubai</h2>
+                <p className="mb-1">Facing a faulty Fisher & Paykel dishwasher can be frustrating, especially when you need clean dishes or glasses. Common issues include the dishwasher failing to power on or wash properly. We specialise in fixing these problems, as well as addressing faulty displays and timers. Contact us today, and we will send a qualified technician to resolve your Fisher & Paykel dishwasher and washing machine issues on the same day. Rather of incurring the cost of a replacement, our goal is to extend the lifespan of your appliances through our reliable Fisher & Paykel dishwasher repair service in Dubai.</p>
 
-                </p>
-
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "18px" }}>Fast and Reliable Fisher & Paykel Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Fisher & Paykel products, never occur at a convenient time. That’s why our trained and qualified Fisher & Paykel technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Fisher & Paykel appliance up and running again before you have a chance to worry about it.
-                </p>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0" style={{ fontSize: "18px" }}>Fisher and Paykel Fridge Repair and Service in Dubai</h2>
+                <p className="mb-2">We often underestimate the importance of our Fisher & Paykel fridge freezer. If your food is spoiling quickly or your Fisher & Paykel refrigerator is making noise, it's time to seek assistance. At FAJ, our skilled team is ready to help you at home. We have experience with Fisher & Paykel refrigerators and can address a variety of issues, often having the necessary spare parts on hand. We seek to provide same-day Fisher & Paykel fridge repair and services to keep your food fresh and ensure your refrigerator runs smoothly. Your convenience is our top priority.</p>
 
               </div>
 

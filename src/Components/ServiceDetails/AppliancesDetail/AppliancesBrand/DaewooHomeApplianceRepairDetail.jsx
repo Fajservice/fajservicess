@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Daewoo Home Appliance | Washing Machine Repair in Dubai");
-    const metadescription = String(description || "Daewoo home appliance service in Dubai. Get fast Daewoo fridge repair, washing machine repair & dishwasher, oven service centre near me Dubai");
+    const metatitle = String(titleSeo || "Daewoo Home Appliance | Daewoo Washing Machine Repair");
+    const metadescription = String(description || "Daewoo home appliance service in Dubai. Get fast Daewoo fridge repair, washing machine repair & dishwasher, stove & oven service centre near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Daewoo home appliance repair, Daewoo washing machine service, Daewoo refrigerator repair, Daewoo dishwasher service, Daewoo fridge service center, Daewoo appliance installation Dubai, Daewoo appliance maintenance Dubai");
@@ -120,8 +120,8 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Daewoo Home Appliance Service and Washing Machine Repair in Dubai</h1>
-                        <p>Are you having trouble finding a local Daewoo appliance technician who specializes in Daewoo kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific Daewoo appliance. </p>
+                        <h1 className="cs_fs_30">Daewoo Home Appliance Repair and Service in Dubai</h1>
+                        <p>FAJ Technical Services L.L.C. is a specialized Daewoo home appliance service company in Dubai. We employ fully qualified technicians who are experts in repairing a wide range of Daewoo appliances. Our workshop provides a range of spare parts to meet all your repair needs.<br />We offer a timely home visit service, where our skilled technicians will inspect and repair your Daewoo appliance on-site. You can trust <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> to provide reliable Daewoo appliance repair services in Dubai.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -137,17 +137,14 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Daewoo Washing Machine Repair Near You</h2>
+                                <h2 className="cs_fs_24 mb-1 mt-0">Specialised Daewoo Washing Machine Repair and Service in Dubai</h2>
 
                                 <p className="mb-2">
-                                    If you need repair services for your Daewoo appliances, we’ve got you covered! Choose FAJ for quick and affordable service.
-                                    <br />Whether your built-in Daewoo washing machine won’t drain, your Daewoo fridge won’t cool, your oven won’t heat, or your Daewoo dishwasher won’t turn on, our expert repair service team in  Dubai and Sharjah is ready to assist you.
-                                    <br /> We are local and can quickly resolve any issues you may have.
-                                </p>
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Daewoo Appliances Service</h2>
+                                    Facing a need of clean clothing due to a malfunctioning Daewoo washer-dryer can be frustrating, with common issues including failure to power on or spin.
+                                    <br />We specialise in repairing these problems, along with faulty displays and timers. Contact us today, and we will send a qualified technician to resolve the issues with your Daewoo washing machine repair and dryer repairs on the same day.<br />Instead of incurring the cost of replacement, our aim is to extend the lifespan of your appliances through our dependable Daewoo washing machine repair service in Dubai.</p>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0">Daewoo Fridge Repair and Service in Dubai</h2>
                                 <p className="mb-2">
-                                    At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Daewoo products, never occur at a convenient time. That’s why our trained and qualified Daewoo technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Daewoo appliance up and running again before you have a chance to worry about it.
-                                </p>
+                                    We often minimise the importance of our Daewoo fridge freezer. If food is spoiling quickly or the Daewoo refrigerator is noisy, it's time to get help.<br />At FAJ, our skilled team can assist you at home. We have experience with Daewoo refrigerator and can handle different issues, often having the necessary spare parts on hand. We aim for same-day Daewoo fridge repair services to keep your food fresh and your Daewoo refrigerator running smoothly. Your convenience is our priority.</p>
 
                             </div>
 

@@ -25,7 +25,7 @@ const getImageSrc = (imgPath) => {
 const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Foster Appliances Service | Dishwasher Repair in Dubai | Oven");
-    const metadescription = String(description || "Our specialist Foster appliance service in Dubai, Contact us Foster dishwasher, stove, hob, oven, fridge repair, and Foster appliance fix near you.");
+    const metadescription = String(description || "We specialist Foster appliance service in Dubai, Contact us Foster dishwasher, stove, hob, oven, fridge repair, and Foster appliance fix near you.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Foster Appliances Service, Foster Dishwasher Repair Dubai, Foster Washing Machine Repair Dubai, Foster Fridge Repair Dubai, Foster Cooker Repair Dubai, Foster Appliance Maintenance Dubai");
@@ -121,11 +121,9 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Foster Appliances Service and Dishwasher Repair in Dubai</h1>
+                        <h1 className="cs_fs_30">Foster Home Appliance Repair and Maintenance Service in Dubai</h1>
                         <p>
-                            Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted name for Foster appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we provide prompt, reliable, and affordable repair solutions.
-                            Our skilled technicians are available across Dubai and Sharjah to deliver on-site Foster washing machine repair and service whenever you need it.
-                        </p>
+                            Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> Since 2010, we have been providing reliable and affordable service for Foster appliances. We service all models, including Foster fridge freezers, cookers, hoods, Foster dishwashers, and more. Booking a repair with us is simple: just select your Foster appliance type, choose your preferred repair date, and wait for one of our friendly technicians to assist you.<br />No matter the issue you're facing with your Foster appliance, our repair experts at FAJ are in your area and ready to resolve any problem quickly. Contact us today!</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -141,17 +139,12 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Foster Appliance Repair and Service </h2>
+                                <h2 className="cs_fs_24 mb-1 mt-0">Specialised Foster Dishwasher Repair and Service in Dubai</h2>
 
-                                <p className="mb-2">
-                                    If you need Foster refrigerator repair, FAJ is your go-to choice for fast and affordable appliance repair service in Dubai and Sharjah. Our expert team is equipped to handle all types of issues, whether it’s a Foster washing machine that won’t drain, a fridge that’s not cooling, an oven that won’t heat, or a dishwasher that won’t start. We’re nearby and ready to get your appliances back up and running quickly and efficiently.
-                                </p>
+                                <p className="mb-1">Dealing with a malfunctioning Foster dishwasher can be frustrating, especially when you need clean dishes or glasses. Common issues include the Foster dishwasher failing to power on or wash properly.<br />We specialize in resolving these problems, along with any issues related to faulty displays and timers. Contact us today, and we will send a qualified technician to address your Foster dishwasher and washing machine issues on the same day. Instead of facing the expense of a replacement, our plan is to extend the lifespan of your Foster appliances through our reliable Foster dishwasher repair and service in Dubai.</p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Foster Appliances Service</h2>
-                                <p className="mb-2">
-                                    At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Foster products, never occur at a convenient time. That’s why our trained and qualified Foster technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Foster appliance up and running again before you have a chance to worry about it.
-                                </p>
-
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0">Foster Fridge Repair and Service in Dubai</h2>
+                                <p className="mb-2">We usually minimise the importance of our Foster fridge freezer. If your food is spoiling quickly or your Foster refrigerator is making noise, it’s time to seek assistance. At FAJ, our skilled team is ready to help you at home. We have experience with Foster refrigerators and can address a type of issues, often having the necessary spare parts on hand. We desire to provide same-day Foster fridge repair and service to keep your food fresh and ensure that your refrigerator runs smoothly. Your convenience is our top priority.</p>
                             </div>
 
                             <div className="col-md-6 ">

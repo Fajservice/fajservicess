@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const data = {
   "AC": [
@@ -117,32 +118,50 @@ export default function ServicesPage() {
   const [search, setSearch] = useState("");
 
   return (
+    <><HelmetProvider>
+      <Helmet>
+        <title>FAJ PRICE LIST</title>
+        <meta name="description" content="Best prices of faj technical services llc"></meta>
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.fajservices.ae/faj-price-list/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content="FAJ PRICE LIST" />
+        <meta property="og:description" content="Best prices of faj technical services llc" />
+        <meta property="og:url" content="https://www.fajservices.ae/faj-price-list/" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="FAJ PRICE LIST" />
+        <meta name="twitter:description" content="Best prices of faj technical services llc" />
+
+      </Helmet>
+    </HelmetProvider>
     <div className="container py-4">
-      <h1 className="text-center">FAJ Price List</h1>
-      <ul className="nav nav-tabs mb-3">
-        {Object.keys(data).map(category => (
-          <li className="nav-item" key={category}>
-            <button
-              className={`nav-link ${activeTab === category ? "active" : ""}`}
-              onClick={() => setActiveTab(category)}
-            >
-              {category}
-            </button>
-          </li>
-        ))}
-      </ul>
+        <h1 className="text-center">FAJ Price List</h1>
+        <ul className="nav nav-tabs mb-3">
+          {Object.keys(data).map(category => (
+            <li className="nav-item" key={category}>
+              <button
+                className={`nav-link ${activeTab === category ? "active" : ""}`}
+                onClick={() => setActiveTab(category)}
+              >
+                {category}
+              </button>
+            </li>
+          ))}
+        </ul>
 
-      <div className="mb-3">
-        <input
-          type="text"
-          className="form-control"
-          placeholder={`Search in ${activeTab}...`}
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-      </div>
+        <div className="mb-3">
+          <input
+            type="text"
+            className="form-control"
+            placeholder={`Search in ${activeTab}...`}
+            value={search}
+            onChange={(e) => setSearch(e.target.value)} />
+        </div>
 
-      <ServiceTable items={data[activeTab]} search={search} />
-    </div>
+        <ServiceTable items={data[activeTab]} search={search} />
+      </div></>
   );
 }

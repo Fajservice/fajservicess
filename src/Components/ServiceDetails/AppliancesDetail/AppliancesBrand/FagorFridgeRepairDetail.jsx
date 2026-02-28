@@ -150,10 +150,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Fagor Fridge Repair, Dishwasher and Ice Machine Service Dubai</h1>
-            <p>
-              Having trouble finding a local technician who specializes in Fagor kitchen appliances?
-              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with expertise in your specific Fagor appliance for efficient and accurate service.
-            </p>
+            <p>Fagor Home Appliance Repair and Maintenance Service in Dubai. Are you working to find a trustworthy technician for your Fagor appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> we have been providing reliable and affordable services since 2010.<br />Our skilled technicians are fully equipped to Fagor appliance service and repair all Fagor appliances, including Fagor washing machines, Fagor cookers, Fagor refrigerators and freezers, and Fagor tumble dryers. After each repair, we conduct a safety check and offer a warranty on all parts and labor. As an official Fagor appliance service center, we ensure prompt and professional service, with a warranty on all work performed.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -170,18 +167,11 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Fagor Washing Machine Repair Near You</h2>
-                <p className="mb-2">
-                  If you need repair services for your Fagor appliances, FAJ is here to help! We provide quick, reliable, and cost-effective solutions.
-                  Whether it’s a built-in Fagor washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, our expert technicians in Dubai and Sharjah are ready to assist.
-                  <br />As your trusted local service provider, we ensure a fast response to restore your appliances to proper working condition
+                <h2 className="cs_fs_20 mb-1 mt-0">Specialised Fagor Washing Machine Repair and Dryer Service in Dubai</h2>
+                <p className="mb-1">Handling a malfunctioning Fagor washer dryer can be very frustrating, especially when you're relying on clean clothes. Common issues often arise, such as the machine refusing to power on or spin properly, leaving you in a bind.<br />We specialize in fixing these problems, along with repairing faulty displays and timers. Contact us today, and we will send a qualified technician to address your Fagor washing machine and dryer issues on the same day. Rather of incurring the cost of replacement, our goal is to extend the lifespan of your Fagor appliances through our reliable Fagor washing machine repair and Fagor dryer service in Dubai.</p>
 
-                </p>
-
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Fagor Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we know that Fagor appliance breakdowns often happen when you least expect them. That’s why our trained Fagor technicians are ready to provide dependable and efficient <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it working smoothly again, before it becomes a major inconvenience.
-                </p>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0">Fagor Fridge Repair and Freezer Service in Dubai</h2>
+                <p className="mb-2">The importance of the Fagor fridge freezer is usually ignored. If you notice food spoiling quickly or if your Fagor refrigerator is making unusual noises, it is essential to seek professional assistance promptly. At FAJ, our experienced Fagor technicians are ready to provide support at your home. We specialize in Fagor refrigerators and are equipped to address different issues, usually with the necessary spare parts on hand. We offer same-day Fagor fridge repair and Fagor freezer service, ensuring your food stays fresh and your Fagor appliance operates efficiently. Your happiness and comfort are our top priorities, and we strive to restore your Fagor refrigerator's optimal performance with minimal disruption to your routine.</p>
 
               </div>
 

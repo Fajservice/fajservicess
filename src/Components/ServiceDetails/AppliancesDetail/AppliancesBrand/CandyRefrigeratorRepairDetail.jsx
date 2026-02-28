@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Candy Refrigerator Repair & Best Washing Machine Service Dubai");
-  const metadescription = String(description || "With Warranty Candy refrigerator repair in Dubai. Call us for your fridge, candy washing machine, Candy dishwasher, oven, repairs center near me ");
+  const metatitle = String(titleSeo || "Candy Home Appliance Service & Candy Fridge Repair Dubai");
+  const metadescription = String(description || "With Warranty Candy appliance repair in Dubai. Call us for your dryer, candy washing machine, Candy dishwasher, oven, repairs center near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Candy Refrigerator Repair Dubai, Candy Washing Machine Repair Dubai, Candy Dishwasher Repair Dubai, Candy Cooker Oven Repair Dubai, Candy Fridge Repair Dubai, Candy Appliance Service Dubai, Candy Appliance Maintenance Dubai");
@@ -118,10 +118,8 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Candy Refrigerator Repair and Candy Washing Machine Service Dubai</h1>
-            <p>Having trouble finding a reliable technician for your Candy kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our wide network of experienced, well-vetted professionals ensures that, whenever possible, you're matched with a technician who specializes in your specific Candy appliance. We’re committed to delivering fast, effective repairs to keep your appliances running smoothly.
-
-            </p>
+            <h1 className="cs_fs_30">Best Candy Home Appliance Repair and Service in Dubai</h1>
+            <p>To maintain the high quality of your Candy home appliance, trust our Repair Service. We provide reliable solutions for a wide range of Candy appliance repair, including Candy refrigerators, dishwashers, washing machines, and ovens.<br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Candy appliance at your location and promptly correct it to full working order. Count on us to bring your Candy appliances back to life with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> dependable repair service in Dubai</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -138,19 +136,11 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Candy Washing Machine Repair Near You</h2>
-                <p className="mb-2">
-                  Need reliable repair services for your Candy appliances? FAJ Technical Services L.L.C is here to help!
-                  We offer fast and affordable solutions for all types of Candy appliance issues. Whether it’s a built-in washing machine that won’t drain, a fridge not cooling, an oven not heating, or a dishwasher that won’t start, our expert team in Dubai and Sharjah is ready to assist.
-                  As a trusted local service provider, we respond quickly to get your appliances back in perfect working condition.
+                <h2 className="cs_fs_20 mb-1 mt-0">Specialised Candy Washing Machine Repair and Service in Dubai</h2>
+                <p className="mb-1">You shouldn't have to face a lack of clean clothes due to a faulty Candy washer dryer. Common issues include not powering on or failing to spin. At<a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a>, we handle these problems and also repair faulty displays and timers. Contact us today, and we'll send an expert technician to fix your Candy appliance the same day.<br/>Replacing a Candy washing machine or tumble dryer can be expensive, so we aim to extend the lifespan of your Candy washing machine repair service in Dubai</p>
 
-                </p>
-
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Candy Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Candy products, never happen at a convenient time. That’s why our trained and experienced Candy technicians are ready to provide dependable Candy <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it running smoothly again before it causes any major disruption.
-
-                </p>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0">Candy Fridge Repair and Service in Dubai</h2>
+                <p className="mb-2">We often overlook the vital role our Candy fridge freezers play. If you notice food spoiling quickly or excessive noise.At FAJ, our skilled team is ready to assist you at home. We have experience in Candy appliance, and even if your model isn’t listed, we may still have the necessary spare parts. Our goal is to provide same-day Candy fridge repair and freezer service once you reach out to us.</p>
 
               </div>
 
