@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Electrolux Fridge Repair in Dubai | Washing Machine Service");
-    const metadescription = String(description || "Expert Electrolux fridge repair in Dubai, including dishwasher, washing machine, cooker, and oven fix, as well as an appliance service center near you.");
+    const metatitle = String(titleSeo || "Electrolux Appliance Service | Electrolux Washing Machine Repair");
+    const metadescription = String(description || "Best Electrolux appliance service, with reliable Electrolux fridge repair, freezer, dishwasher, washer dryer, stove & oven repair center near you, Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Electrolux Fridge Repair, Electrolux Washing Machine Repair, Electrolux Cooker Repair, Electrolux Oven Repair, Electrolux Appliances Maintenance, Electrolux Appliance Service Dubai");
@@ -120,10 +120,8 @@ const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Electrolux Fridge Repair and Electrolux Washing Machine Service in Dubai</h1>
-                        <p>
-                            Having trouble finding a local technician who specializes in Electrolux kitchen appliances?
-                            At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable service since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician familiar with your specific Electrolux appliance for efficient and accurate repairs.
+                        <h1 className="cs_fs_30">Electrolux Home Appliance Repair and Service in Dubai</h1>
+                        <p>Are you having trouble finding a trustworthy technician for your Electrolux home appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we have been providing reliable and affordable services since 2010.<br />Our field technicians are fully equipped to service and repair all Electrolux appliances, including Electrolux washing machines, cookers, ovens, and tumble dryers. After each Electrolux appliance repair, we perform a safety check and offer a warranty on all parts and labor. As an Electrolux appliance service center, we ensure prompt and professional service, with a warranty on all work performed.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -141,18 +139,11 @@ const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Electrolux Washing Machine Repair Near You</h2>
-                                <p className="mb-2">
-                                    Need repair services for your Electrolux appliances? FAJ Technical Services is here to provide fast, affordable solutions.
-                                    <br />Whether it's a built-in Electrolux washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, our expert technicians in Dubai and Sharjah are ready to assist.
-                                    As your trusted local service provider, we promptly restore your appliances to full working order.
-                                </p>
+                                <h2 className="cs_fs_20 mb-1">Specialised Electrolux Washing Machine Repair and Service in Dubai</h2>
+                                <p className="mb-2">Dealing with a malfunctioning Electrolux washer dryer can be frustrating, especially when you need clean clothes. Common issues include failure to power on or spin. We specialize in repairing these problems, as well as fixing faulty displays and timers. Contact us today, and we will send a qualified technician to address your Electrolux washing machine and Electrolux dryer issues on the same day. Instead of incurring the cost of replacement, our goal is to extend the lifespan of your appliances through our reliable Electrolux washing machine repair and service in Dubai.</p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Electrolux Appliances Service</h2>
-                                <p className="mb-2">
-                                    At FAJ Technical Services L.L.C, we know that Electrolux appliance breakdowns often happen when you least expect them. That’s why our expert Electrolux technicians are ready to deliver prompt and reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our professional support, you can avoid the expense of replacing your appliance and have it up and running again before it causes any major inconvenience.
-                                </p>
-
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Electrolux Fridge Repair and Service in Dubai</h2>
+                                <p className="mb-2">We often underestimate the importance of our Electrolux fridge freezer. If your food is spoiling quickly or your Electrolux refrigerator is making noise, it's time to seek help. At FAJ, our skilled team is ready to assist you at home. We have extensive experience with Electrolux refrigerators and can address a variety of issues, often having the necessary spare parts on hand. We strive to provide same-day Electrolux fridge repair and service to keep your food fresh and ensure your Electrolux refrigerator operates smoothly. Your convenience is our top priority.</p>
                             </div>
 
                             <div className="col-md-6 ">

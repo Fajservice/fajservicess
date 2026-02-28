@@ -16,30 +16,7 @@ const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink, tit
 
   return (
     <>
-          <HelmetProvider>
-            <Helmet>
-              <title>Dubai Best AC Service Prices - Air Conditioner Maintenance</title>
-              <meta name="description" content="Book 043300002 for affordable AC services in Dubai! We offer reliable maintenance, and repair for central AC, split AC, HVAC, VRV/VRF systems, & more." />
-              <meta name="keywords" content={metaKeyword} />
-              <meta name="author" content={metaAuthor} />
-              <meta name="robots" content="index, follow" />
-    
-              <link rel="canonical" href="Dubai Best AC Service Prices - Air Conditioner Maintenance" />
-              <meta property="og:type" content="website" />
-              <meta property="og:locale" content="en_US" />
-              <meta property="og:title" content="Dubai Best AC Service Prices - Air Conditioner Maintenance" />
-              <meta property="og:description" content={metadescription} />
-              <meta property="og:url" content={metaURL} />
-              <meta property="og:image" content={metaImage} />
-    
-              {/* Twitter Card */}
-              <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:title" content="Dubai Best AC Service Prices - Air Conditioner Maintenance" />
-              <meta name="twitter:description" content="Book 043300002 for affordable AC services in Dubai! We offer reliable maintenance, and repair for central AC, split AC, HVAC, VRV/VRF systems, & more." />
-              <meta name="twitter:image" content={metaImage} />
-              
-            </Helmet>
-          </HelmetProvider>
+          
     <div className="col-lg-4 mb-4">
       <div className="inner-acsvs-sec-feat">
         <div className="avsvs-sec-feat-sub">
@@ -86,7 +63,15 @@ const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink, tit
   );
 };
 
-const ACServiceSection = () => {
+const ACServiceSection = ({ title, subtitle, price, color, details, whatsappLink, titleSeo, description, Author, Keyword, URL }) => {
+
+  // For SEO
+  <title>Dubai Best AC Service Prices - Air Conditioner Maintenance</title>
+  const metadescription = String(description || "Book 043300002 for affordable AC services in Dubai! We offer reliable maintenance, and repair for central AC, split AC, HVAC, VRV/VRF systems, & more.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
+  const metaKeyword = String(Keyword || "Dubai AC Service Prices");
+  const metaURL = String(URL || "https://www.fajservices.ae/dubai-ac-service-price-list/");
+  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   const technicalServices = [
     {
       "title": "AC Technical Inspection Fee 1.5 to 3.0 Ton",
@@ -337,6 +322,30 @@ const ServiceTable = ({ items, search }) => {
 };
   return (
     <>
+    <HelmetProvider>
+            <Helmet>
+              <title>Dubai Best AC Service Prices - Air Conditioner Maintenance</title>
+              <meta name="description" content="Book 043300002 for affordable AC services in Dubai! We offer reliable maintenance, and repair for central AC, split AC, HVAC, VRV/VRF systems, & more." />
+              <meta name="keywords" content={metaKeyword} />
+              <meta name="author" content={metaAuthor} />
+              <meta name="robots" content="index, follow" />
+    
+              <link rel="canonical" href={metaURL} />
+              <meta property="og:type" content="website" />
+              <meta property="og:locale" content="en_US" />
+              <meta property="og:title" content="Dubai Best AC Service Prices - Air Conditioner Maintenance" />
+              <meta property="og:description" content={metadescription} />
+              <meta property="og:url" content={metaURL} />
+              <meta property="og:image" content={metaImage} />
+    
+              {/* Twitter Card */}
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="twitter:title" content="Dubai Best AC Service Prices - Air Conditioner Maintenance" />
+              <meta name="twitter:description" content="Book 043300002 for affordable AC services in Dubai! We offer reliable maintenance, and repair for central AC, split AC, HVAC, VRV/VRF systems, & more." />
+              <meta name="twitter:image" content={metaImage} />
+              
+            </Helmet>
+          </HelmetProvider>
        {/* Importance Section */}
        <section className='section pt-3'>
             <div className='container'>

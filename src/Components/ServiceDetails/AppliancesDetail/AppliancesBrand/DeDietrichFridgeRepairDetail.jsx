@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "De Dietrich Fridge Repair | Stove & Oven Service in Dubai");
-  const metadescription = String(description || "De Dietrich appliances service, with reliable De Dietrich fridge repair, freezer, dishwasher, washer dryer, stove & oven repair center near you, Dubai");
+  const metatitle = String(titleSeo || "De Dietrich Appliances | De Dietrich Stove & Oven Repair in Dubai");
+  const metadescription = String(description || "Best De Dietrich appliances service, with reliable De Dietrich fridge repair, freezer, dishwasher, washer dryer, stove & oven repair center near you, Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "De Dietrich Fridge Repair, De Dietrich Washing Machine Repair, De Dietrich Cooker Repair, De Dietrich Oven Repair, De Dietrich Appliances Maintenance in Dubai, De Dietrich Appliance Repair Dubai");
@@ -150,13 +150,8 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">De Dietrich Fridge Repair | De Dietrich Stove & DeDietrich Oven Service in Dubai</h1>
-            <p>
-              Having trouble finding a reliable technician for your De Dietrich kitchen appliances?
-              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our extensive network of well-vetted, experienced professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific De Dietrich appliance.
-              We’re dedicated to delivering prompt, expert service to keep your appliances running efficiently.
-
-            </p>
+            <h1 className="cs_fs_30">De Dietrich Home Appliance Repair and Service in Dubai</h1>
+            <p>Are you having problems finding a trustworthy technician for your De Dietrich home appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. <br />At FAJ, our field technicians are fully equipped to De Dietrich appliances service and repair all De Dietrich appliances, including De Dietrich washing machines, cookers, ovens, and tumble dryers. We perform a safety check after each De Dietrich repair and provide a warranty on all parts and labor. As a De Dietrich appliance service center, we ensure prompt and professional service with a warranty on all work.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -173,17 +168,11 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">De Dietrich Washing Machine Repair Near You</h2>
-                <p className="mb-2">
-                  Need repair services for your De Dietrich appliances? FAJ has you covered!
-                  We provide fast, affordable solutions for a wide range of De Dietrich appliance issues. Whether it’s a built-in washing machine that won’t drain, a fridge not cooling, an oven not heating, or a dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to help.
-                  As a trusted local service provider, we respond quickly to restore your appliances to full working order.
-                </p>
+                <h2 className="cs_fs_20 mb-1 mt-0">De Dietrich Fridge Repair and Service Near You</h2>
+                  <p className="mb-1">If you need repair services for your De Dietrich refrigerator, FAJ is here to help! We offer fast and affordable solutions for a wide range of De Dietrich fridge issues. Whether you’re dealing with a built-in washing machine that won’t drain, a De Dietrich refrigerator that isn’t cooling, an oven that won’t heat, or a  De Dietrich dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to assist you.<br />As a trusted De Dietrich fridge service provider, we respond quickly to restore your  De Dietrich appliances to full working order.</p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable De Dietrich Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with De Dietrich products, never occur at a convenient time. That’s why our trained and qualified De Dietrich technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your De Dietrich appliance up and running again before you have a chance to worry about it.
-                </p>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0" style={{ fontSize: "20px" }}>De Dietrich Oven Repair and Service in Dubai</h2>
+                <p className="mb-2">We often overlook the importance of our De Dietrich oven or stove. If your oven isn't heating properly, it’s time to get help. At FAJ, our experienced team can assist you at home with De Dietrich induction hobs and has many spare parts readily available. We aim to provide same-day repair services to keep your De Dietrich cooker running smoothly, prioritising your convenience.</p>
               </div>
 
               <div className="col-md-6 ">
