@@ -181,8 +181,6 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
       <div className="cs_service_details">
 
         <PriceCardHomeCat />
-
-        {/* ── Intro ── */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h1 className="cs_fs_30 text-center mb-4 pt-4 px-4">Home Appliance Repair & Service Center in Dubai</h1>
@@ -289,7 +287,7 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
             </div>
           </div>
         </section>
-        
+
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="text-center">Common Appliance Repair Issues We Fix</h2>
