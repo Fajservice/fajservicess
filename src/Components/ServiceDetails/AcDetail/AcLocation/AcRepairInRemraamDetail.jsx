@@ -489,7 +489,7 @@ const AcRepairInRemraamDetail = ({
 
                         
 
-                        <h3>We specialise in air conditioning services for the following brands</h3>
+                        <h3 className="text-align-left">We specialise in air conditioning services for the following brands</h3>
 
 
                         <ul className="mb-3">

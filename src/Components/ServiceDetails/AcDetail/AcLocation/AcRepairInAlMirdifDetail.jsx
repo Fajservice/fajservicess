@@ -466,7 +466,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             
 
-            <h3>We specialise in air conditioning services for the following brands</h3>
+            <h3 className="text-align-left">We specialise in air conditioning services for the following brands</h3>
             <ul className="mb-3">
               <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/">LG Air Conditioner Service</a>:</strong> FAJ offers reliable LG AC repair and services near me in Al Mirdif. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near you, including AC repair and maintenance in Al Mirdif Dubai.</li>
 
