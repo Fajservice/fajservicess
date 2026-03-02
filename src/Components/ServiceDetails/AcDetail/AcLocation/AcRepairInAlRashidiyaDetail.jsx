@@ -466,7 +466,7 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                         
 
-                        <h3 className="text-align-left">We specialise in air conditioning services for the following brands</h3>
+                        <h3 className="cs_fs_24 text-align-left">We specialise in air conditioning services for the following brands</h3>
 
 
                         <ul className="mb-3">

@@ -523,14 +523,10 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* We specialise  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-              <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+           
 
 
-            <h3>We specialise in Aftron AC services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Aftron AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong> Aftron Air Conditioner Installation Service in Dubai: </strong>  A comprehensive solution for your cooling needs. We specialize in high-quality <a href="https://www.google.com/search?q=faj+technical+service+llc&rlz=1C1GCEU_en-GBPK1161PK1162&oq=faj+technical+service+llc&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQg3Mzg1ajBqN6gCCLACAfEF5bSBoZc-GIs&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-8538718177430601680">Aftron AC installation</a> services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>

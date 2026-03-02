@@ -456,14 +456,10 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* We specialise  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-              <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+           
 
 
-            <h3>We specialise in Coleman AC services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Coleman AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <strong>  Coleman Split Air Conditioner Service: </strong> FAJ provides dependable repair and maintenance services for Coleman AC units in Dubai. Our team consists of professionals who are experts in Coleman split systems, Coleman VRF, and Coleman central air conditioning units. </p>
