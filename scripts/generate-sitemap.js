@@ -1855,11 +1855,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/dubai-service-center-coffee-machine/</loc>
-  <lastmod>${today}</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.fajservices.ae/career/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>

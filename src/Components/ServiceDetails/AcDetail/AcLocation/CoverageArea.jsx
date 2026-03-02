@@ -686,3 +686,4 @@ const CoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 }
 
 export default CoverageArea
+

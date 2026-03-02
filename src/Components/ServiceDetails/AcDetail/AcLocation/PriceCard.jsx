@@ -234,3 +234,4 @@ const PriceCard = () => {
 };
 
 export default PriceCard;
+
