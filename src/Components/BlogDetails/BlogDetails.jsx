@@ -403,12 +403,14 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const renderSection = (sectionName) => {
     const h2Key = `${sectionName}_h2`;
     const h2PKey = `${sectionName}_h2_p`;
+    const bulletsKey = `${sectionName}_bullets`;
     const imgKey = `${sectionName}_img`;
+    
 
     if (!blogPost[h2Key]) return null;
 
     return (
-      <div className="row" key={sectionName}>
+      <div  key={sectionName}>
         <h2>{blogPost[h2Key]}</h2>
         {blogPost[imgKey] && (
           <div className="col-md-8">
@@ -418,10 +420,19 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
         {renderContent(blogPost[h2PKey])}
 
+        {blogPost[bulletsKey] && Array.isArray(blogPost[bulletsKey]) && (
+        <ul>
+          {blogPost[bulletsKey].map((bullet, i) => (
+            <li key={i}>{bullet}</li>
+          ))}
+        </ul>
+      )}
+
         {[...Array(13)].map((_, i) => {
           const h3Key = `${sectionName}_h3_${i + 1}`;
           const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
           const h3ImgKey = `${sectionName}_h3_${i + 1}_img`;
+          
 
           if (!blogPost[h3Key]) return null;
 
