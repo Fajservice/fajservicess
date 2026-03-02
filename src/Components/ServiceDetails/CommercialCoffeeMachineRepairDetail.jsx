@@ -230,10 +230,10 @@ const coffeemachineServicesData = [
 
     {
       id: 2,
-      image: getImageSrc('CoffeeMachinesImages/coffee-machines-repair-8'),
+      image: getImageSrc('CoffeeMachinesImages/commercial-coffee-machine-repairs-service'),
       warranty: '50- Days Warranty',
       title: 'Coffee Machine Cleaning',
-      icon: getImageSrc('cleaningcard'),
+      icon: getImageSrc('coffeemachinecleaning'),
       price: 'AED395',
       arrow: getImageSrc('iconreadmore'),
       description: 'Book reliable coffee machine cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',

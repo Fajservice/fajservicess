@@ -40,6 +40,223 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, description, Author, Keywo
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Bryant AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/bryant/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bryant AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Bryant AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Bryant Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Bryant Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Bryant AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Bryant AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar U." },
+          "reviewBody": "I am extremely impressed with the OG AC repair service I received for my O General AC in my villa in Al Barsha. The technician, Rehman, was prompt, professional, and knowledgeable. He quickly diagnosed the issue and provided a clear explanation of the necessary aircon repairs. The work was completed efficiently and at a fair price for the AC cleaning service. I appreciated the communication throughout the process, from scheduling to follow-up. The team's attention to detail and commitment to customer satisfaction was evident. Now, my O General AC is running smoothly, and I couldn't be happier. I highly recommend this company for any air conditioning needs. They truly deserve a 5-star rating!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Max R." },
+          "reviewBody": "I recently had the pleasure of using FAJ Gree AC Repair and Maintenance company for my home in Damac Hills, and I must say they were exceptionally efficient. From the moment they arrived, their professionalism was evident. They quickly assessed the situation and went to work, wasting no time. What stood out was their precision and attention to detail in fixing the Gree AC. The technicians left no mess behind, and the final result was a neatly executed cooling system. It's clear that FAJ takes pride in its work and ensures customer satisfaction. I highly recommend their AC services for anyone in need of reliable and tidy Gree air conditioning solutions."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahsan R." },
+          "reviewBody": "We recently faced an urgent situation when our Daikin VRV air conditioning unit malfunctioned, continuously blowing hot air into our home. With two elderly adults in the household who both have medical conditions, this became a serious concern. Upon contacting FAJ Daikin Central AC Repair and Services at Jumeirah Golf Estate, we experienced exceptional understanding and empathy from their team."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Aleem A." },
+          "reviewBody": "FAJ Technical Services LLC will be handling the air conditioning repairs at our new restaurant in Business Bay Dubai. The entire process, from the initial stages to the maintenance service, was straightforward. The team was friendly and accommodating, making the experience pleasant."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mohsin S." },
+          "reviewBody": "My AC broke on a Thursday when temperatures reached 35 degrees. I called FAJ Technical Services LLC, and within an hour, their AC technicians arrived in our JVC area. They provided quick and affordable AC cleaning and repair services for my LG air conditioner. The job was neat and tidy; they didn't leave a speck of mess behind. I would rate their service 10/10 and highly recommend Joe and the FAJ team!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via 2GIS)" },
+          "reviewBody": "Very happy with my air conditioning system maintenance, very professional and friendly guys Muhammad Azeem and Adnan, best price offered, not a rip off company, will recommend it to everyone. Job was done on Saturday morning, guys cleaned up after, checked to make sure all working fine. Big thanks!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via 2GIS)" },
+          "reviewBody": "It's rare to find a business that 'delights' you as a customer. Only that can describe my experience start to finish with Masoom and Adnan. From the initial contact to the actual diagnostic/regas itself. So very accommodating, amazingly quick and efficient, my air condition was up and running again before I even knew it."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanzla H. (via 2GIS)" },
+          "reviewBody": "Their emergency AC repair service is quick and efficient. Also, their annual maintenance contract (AMC) gives peace of mind. Best AC service in Dubai."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via FAJ website)" },
+          "reviewBody": "An efficient team who could diagnose the fault and rectify the problem. They washed the indoor unit with water and took all the care not to mess up our office."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mr. Adnan (mentioned by customer, via FAJ website)" },
+          "reviewBody": "Mr Adnan give us the best service for AC Servicing. And he also repaired our AC and Refrigerator in limited price. Keep it up 👍👍"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/bryant/#faq",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How to read Bryant AC model numbers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bryant uses two styles of model number identification: Style 1: Starts with a letter indicating the manufacturing location, followed by two digits representing the year of manufacture (from 2000 onward). Example: 'C12A00152' means it was made at the Clarksville Plant in 2012. Style 2: Starts with numbers, where the first two digits indicate the year of manufacture."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to tell the tonnage of a Bryant AC unit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Look for a sticker or plaque on the AC unit. Tonnage is shown as an even two-digit number between 18 and 60 in or near the model number. Divide this number by 12 to get the tonnage."
+        }
+      },{
+        "@type": "Question",
+        "name": "How long does a Bryant air conditioner last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bryant air conditioners typically last 15 to 20 years with proper care. Lower-end systems may only last about 10 years and often need costly repairs."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why won't my Bryant thermostat change temperature?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your thermostat might be locked. To unlock it, press the '+' and '–' buttons simultaneously for 3–4 seconds. Then try adjusting the temperature again."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to maintain a Bryant AC unit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Steps to maintain your AC: 1. Shut off power. 2. Remove debris. 3. Clean and straighten fins. 4. Clear the area around the unit. 5. Level the unit. 6. Clean the evaporator coil. 7. Clean the evaporator drain."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do I reset a Bryant air conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To reset your Bryant AC: 1. Turn off the unit. 2. Locate the circuit breaker. 3. Identify and switch off the AC breaker. 4. Wait 30 seconds. 5. Switch it back on."
+        }
+      },{
+        "@type": "Question",
+        "name": "How often should Bryant AC filters be changed in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Change the air filter every 90 days (3 months), or more frequently in dusty environments, homes with pets, or if the system is older."
+        }
+      },{
+        "@type": "Question",
+        "name": "Do air conditioners need regassing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, not unless there’s a refrigerant leak. Properly installed ACs don’t require re-gassing. If cooling drops, have a technician check for leaks."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to reset Bryant AC thermostat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Turn off the thermostat/HVAC breaker for 20–30 seconds, then switch it back on. Wait several minutes for the system to reboot."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is error 79 on Bryant thermostat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Error 79 means the low-pressure switch has detected low suction pressure, triggering a hard lockout. This protects your HVAC system from potential compressor damage."
+        }
+      }]
+    },
+   {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/bryant/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Bryant",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/bryant/"
+    }
+  ]
+}
+
+  ]
+}
 
   
  const handleItemClick = index => {
@@ -103,6 +320,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, description, Author, Keywo
           <meta name="twitter:title" content="Bryant Air Conditioning | Bryant Repair and Services in Dubai " />
           <meta name="twitter:description" content="Home and Commercial · Bryant (AC) Air Conditioning Repair in Dubai. Same-day HVAC, central, chiller AC, & FCU A/C maintenance services near you." />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
