@@ -167,9 +167,6 @@ const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <div className="expert_section_wrapper px-3">
-                            <p className="expert_section_wrapper p-4">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in JBR. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-                            </div>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -661,3 +658,4 @@ const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description
 }
 
 export default AcRepairInJBRDetail
+

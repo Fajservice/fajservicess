@@ -198,7 +198,6 @@ const AcRepairInRemraamDetail = ({
                         </div>
 
                         <div className="appointment-col pt-3">
-                            <p className="expert_section_wrapper p-4">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/services/air-conditioning-repair/ac-service/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Remraam. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -689,3 +688,4 @@ const AcRepairInRemraamDetail = ({
 }
 
 export default AcRepairInRemraamDetail
+
