@@ -140,7 +140,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Kitchen Appliance Repairs Dubai and Sharjah, UAE</h1>
+                        <h2 className="cs_fs_30">Kitchen Appliance Repairs Dubai and Sharjah, UAE</h2>
                         <p>
                             Welcome to FAJ Technical Services L.L.C, a reliable kitchen appliance repair and maintenance service company dedicated to going the extra mile for our customers. Established in 2010, our team of highly experienced technicians is available on call and undergoes regular training on new products and methods. We specialise in repairs, installations, and annual maintenance contracts (AMC) for a type freestading and built-in appliances and top brands of kitchen appliances across Dubai and Sharjah, UAE.
                         </p>
