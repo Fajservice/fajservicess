@@ -261,7 +261,6 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           </div>
         </section>
 
-
         {/* common problem */}
         <section className="common_problems cs_py_60">
           <div className="container">
