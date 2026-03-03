@@ -1,21 +1,21 @@
 {
   "success": [
     {
-      "originalPath": "lagermaniacallout",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/lagermaniacallout/public",
-      "id": "lagermaniacallout",
+      "originalPath": "laundry-equipment-maintenance-service",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/laundry-equipment-maintenance-service/public",
+      "id": "laundry-equipment-maintenance-service",
       "success": true
     },
     {
-      "originalPath": "lagermaniaservice",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/lagermaniaservice/public",
-      "id": "lagermaniaservice",
+      "originalPath": "laundry-equipment-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/laundry-equipment-repair/public",
+      "id": "laundry-equipment-repair",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "lagermaniacallout": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/lagermaniacallout/public",
-    "lagermaniaservice": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/lagermaniaservice/public"
+    "laundry-equipment-maintenance-service": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/laundry-equipment-maintenance-service/public",
+    "laundry-equipment-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/laundry-equipment-repair/public"
   }
 }

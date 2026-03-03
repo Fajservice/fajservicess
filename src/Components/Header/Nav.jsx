@@ -92,8 +92,13 @@ const navItems = [
           { path: '/services/refrigeration-equipment/commercial-refrigeration-maintenance/', label: 'Commercial Refrigeration Maintenance' }
         ]
       },
-      
       { path: '/services/commercial-dishwasher-repair/', label: 'Commercial Dishwasher' },
+      {
+        path: '/services/laundry-equipment-repair/',
+        label: 'Laundry Equipment Repair',
+      },
+      
+      
 
       {
         path: '/services/kitchen-equipment-maintenance/',
@@ -104,13 +109,6 @@ const navItems = [
           { path: '/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/', label: 'Kitchen Equipment AMC' },
           { path: '/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/', label: 'Kitchen Equipment Repair' },
           { path: '/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/', label: 'Cooking Equipment Service' }
-        ]
-      },
-      {
-        label: 'Commercial Laundry Equipment',
-        children: [
-          { path: '/services/commercial-washing-machine-repair/', label: 'Washing Machine Repair' },
-          { path: '/services/commercial-laundry-equipment-service/', label: 'Laundry Equipment Service' }
         ]
       }
        

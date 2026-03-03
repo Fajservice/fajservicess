@@ -128,7 +128,7 @@
   <url>
     <loc>https://www.fajservices.ae/services/air-conditioning-repair/ac-service/</loc>
     <lastmod>2026-03-03</lastmod>
-    <priority>0.80</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/</loc>
@@ -138,12 +138,12 @@
   <url>
     <loc>https://www.fajservices.ae/services/home-appliances-repair/</loc>
     <lastmod>2026-03-03</lastmod>
-    <priority>0.80</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/</loc>
     <lastmod>2026-03-03</lastmod>
-    <priority>0.80</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.fajservices.ae/services/home-appliances-repair/appliances-amc-service/</loc>
@@ -223,7 +223,7 @@
   <url>
     <loc>https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/</loc>
     <lastmod>2026-03-03</lastmod>
-    <priority>0.80</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/</loc>
@@ -258,7 +258,7 @@
   <url>
     <loc>https://www.fajservices.ae/services/kitchen-equipment-maintenance/oven-repair/</loc>
     <lastmod>2026-03-03</lastmod>
-    <priority>0.80</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.fajservices.ae/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/</loc>
@@ -283,7 +283,7 @@
   <url>
     <loc>https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/</loc>
     <lastmod>2026-03-03</lastmod>
-    <priority>0.80</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/</loc>
@@ -296,19 +296,9 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.fajservices.ae/services/commercial-washing-machine-repair/</loc>
+    <loc>https://www.fajservices.ae/services/laundry-equipment-repair/</loc>
     <lastmod>2026-03-03</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.fajservices.ae/services/commercial-laundry-equipment/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.fajservices.ae/services/commercial-laundry-equipment-service/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <priority>0.80</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.fajservices.ae/services/air-conditioning-repair/brands/</loc>

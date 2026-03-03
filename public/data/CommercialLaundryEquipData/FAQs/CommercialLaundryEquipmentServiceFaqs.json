@@ -14,5 +14,25 @@
     {
         "title": "How do I avoid problems in between service calls?",
         "desc": "Maintain lint traps on a regular basis, abide by equipment instructions, and report strange sounds or behaviors right away."
+    },
+    {
+        "title": "What are signs a washer dryer needs professional repair?",
+        "desc": "<ul><li>Ongoing unusual noises, vibration, or burning smells.</li><li>Washer dryer machines are failing to drain, spin, or heat properly.</li><li>Electrical, timer, or payment system malfunctions.</li></ul>"
+    },
+    {
+        "title": "How long do commercial washers dryers last?",
+        "desc": "On average, equipment lasts between 10 to 15 years, with high-quality models reaching 10,000 to 30,000 cycles."
+    },
+    {
+        "title": "Why is my commercial dryer not heating?",
+        "desc": "<ul><li>Common reasons include a broken heating element.</li><li>A faulty thermal fuse.</li><li>A malfunctioning igniter (for gas models).</li><li>Clogged airflow that reduces efficiency.</li></ul>"
+    },
+    {
+        "title": "How often should I clean my laundry equipment?",
+        "desc": "<ul><li>Lint filters should be cleaned after every use.</li><li>Deep cleaning (e.g., removing lint buildup inside the cabinet) should be done periodically based on usage volume.</li></ul>"
+    },
+    {
+        "title": "What are the daily, weekly, and monthly maintenance tasks for commercial laundry equipment?",
+        "desc": "<ul><li><strong>Daily:</strong> Clean lint filters, wipe down exteriors, and check for leaks.</li><li><strong>Weekly:</strong> Inspect door seals and gaskets, check detergent dispensers, and examine payment systems.</li><li><strong>Monthly/Quarterly:</strong> Inspect drive belts, clean water inlet filters, check drainage, and review error logs.</li></ul>"
     }
 ]
