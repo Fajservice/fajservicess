@@ -41,6 +41,164 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "LG AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3200",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "LG AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "LG AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "LG Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "LG Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "LG AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "LG AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Rashid A." },
+          "reviewBody": "FAJ repaired my LG AC in Dubai Marina. The technician was professional and completed the repair quickly. Highly satisfied."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sara M." },
+          "reviewBody": "My LG AC was not cooling. FAJ refilled gas and cleaned the coils. Excellent service and very reliable team."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar K." },
+          "reviewBody": "Scheduled maintenance for my LG split AC. Filters and compressor were inspected. Service was punctual and professional."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Fatima R." },
+          "reviewBody": "Quick and efficient LG AC repair in Jumeirah. FAJ team was friendly and knowledgeable. Highly recommend."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is F1, F2, F3 in LG AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "F1, F2, F3 Error Codes: If you see the unit displaying F1, F2, or F3, it means the air conditioner is in FAN mode, and the number shown indicates the set fan speed. This is normal operation, and the air conditioner is functioning properly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does E4 mean on an LG air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The E4 code indicates that your unit is entering defrost mode. It may also be caused by a malfunctioning temperature sensor or the unit becoming too cold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the common problem of an LG air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common issues include cooling inefficiency, unusual noises, water leaks, and error codes. These help diagnose problems like sensor failures, refrigerant leaks, or compressor malfunctions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my LG AC suddenly not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Factors include dirty air filters blocking airflow and incorrect thermostat settings. Cleaning or replacing filters and verifying thermostat settings can restore cooling efficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I troubleshoot my LG air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check that the thermostat is set to 'cool' mode, inspect the air filter for dirt, and ensure no obstructions. If the filter is clean and the unit still malfunctions, contact FAJ technicians."
+          }
+        }
+      ]
+    },
+ {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "LG",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/"
+    }
+  ]
+}
+
+  ]
+}
 
   const handleItemClick = index => {
     if (index === openItemIndex) {
@@ -102,6 +260,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

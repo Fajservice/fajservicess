@@ -41,6 +41,171 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Toshiba AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/toshiba/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Toshiba AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Toshiba AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Toshiba Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Toshiba Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Toshiba AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Toshiba AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Aisha R." },
+          "reviewBody": "Professional Toshiba AC repair service. The team fixed my AC quickly and it works perfectly now."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Fahad K." },
+          "reviewBody": "Excellent maintenance service for my Toshiba AC. Technicians cleaned the filters and coils thoroughly."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sara H." },
+          "reviewBody": "Reliable and fast repair service. My Toshiba AC was not cooling properly, and they fixed it on the same day."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via Google)" },
+          "reviewBody": "Highly recommended Toshiba AC servicing company. Professional technicians and fair pricing."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/toshiba/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the lifespan of a Toshiba air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With proper maintenance, which includes regular cleaning, inspections, and timely repairs by FAJ's professionals, a Toshiba air conditioner can last 15 years or more. Its lifespan can be affected by usage patterns, environmental conditions, and installation quality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is involved in servicing a Toshiba air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The technician will inspect both units to ensure smooth operation. They will clean the filters and coils of the indoor unit, remove dirt or dust, and check for proper airflow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you know Toshiba AC needs servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your AC is blowing warm air or not cooling properly, it needs maintenance. You may need to replace air filters, refill refrigerant, or have the Toshiba AC coils professionally cleaned by FAJ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in aircon servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FAJ Professional Air Conditioning Servicing Includes:\n- Cleaning or Replacement of AC Air Filters\n- Checking and Cleaning the AC Evaporator Coils\n- Cleaning and Checking of AC Condenser Coil\n- Inspection of AC Refrigerant Levels\n- Checking of the AC Electrical Connections\n- Inspection of AC Fan and Blower Motor\n- Cleaning the AC Drainage System"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it necessary to service AC every year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While regular aircon maintenance checks are not mandatory, they are advisable. We recommend servicing your air conditioner at least once a year, even if no defects are noticeable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I check my AC problem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the AC airflow.\nBe aware of unusual noises.\nCheck the electricity Dewa bills.\nInspect any water leakage or ice buildup.\nEnsure sufficient refrigerant gas level.\nNotice any strange odors or a hot outdoor unit."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/toshiba/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Toshiba",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/toshiba/"
+        }
+      ]
+    }
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -105,6 +270,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

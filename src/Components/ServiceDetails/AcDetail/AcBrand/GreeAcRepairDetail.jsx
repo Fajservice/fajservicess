@@ -42,6 +42,171 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Gree AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Gree AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Gree AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Gree Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Gree Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Gree AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Gree AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar S." },
+          "reviewBody": "Excellent Gree AC repair service. The technician fixed my unit quickly and explained all the maintenance tips. Highly professional!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sara K." },
+          "reviewBody": "Reliable Gree AC maintenance. Filters and coils cleaned thoroughly, cooling improved instantly. Very happy with the service."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ali R." },
+          "reviewBody": "Quick and efficient Gree AC repair. My unit was not cooling properly, but the FAJ team fixed it the same day."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via Google)" },
+          "reviewBody": "Professional and trustworthy Gree AC servicing company. Fair pricing and skilled technicians."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/#faq",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How to maintain a Gree air conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Single Zone Mini-Split AC Maintenance for Your GREE Comfort Clients: Change the air filter every 3 to 6 months based on usage frequency. Clean both indoor and outdoor coils. Check and clean the drain pan and drain line. Inspect refrigerant levels and conduct an annual tune-up."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to save energy in Gree Air Conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Under COOL mode, press “TEMP” and “CLOCK” buttons simultaneously to start up or turn off the energy-saving function. When activated, “SE” appears on the remote, and the unit automatically adjusts the temperature for maximum energy savings."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the best setting for Gree AC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For maximum comfort and energy efficiency during summer, set your GREE AC thermostat to approximately 78°F (26°C). GREE's Setting Timer feature enables scheduled cooling based on your daily routine."
+        }
+      },{
+        "@type": "Question",
+        "name": "Does Gree AC consume less electricity?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gree air conditioners use significantly less power compared to other brands while delivering excellent cooling, thanks to their advanced energy-efficient technology."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why does my Gree AC keep turning off?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This may happen due to overheating from grime buildup in the compressor, refrigerant leaks, or faulty thermostat wiring. A professional technician should inspect the unit for proper diagnosis."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the code E1 on Gree AC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "E1 indicates high pressure in the system, often caused by dirty coils, restrictions, or overcharging. Inspect the coils, fans, and consult a technician if needed."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the error code E3 on a Gree?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "E3 indicates low pressure protection. If the low-pressure switch remains off for 30 seconds during operation, the unit triggers a low-pressure alert. Repeated faults may require a technician's inspection."
+        }
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Gree",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/"
+        }
+      ]
+    }
+  ]
+}
 
   
   const handleItemClick = index => {
@@ -104,6 +269,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

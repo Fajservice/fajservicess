@@ -42,6 +42,176 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "McQuay AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/mcquay/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "McQuay AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "McQuay AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "McQuay Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "McQuay Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "McQuay AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "McQuay AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar U." },
+          "reviewBody": "FAJ’s McQuay AC repair service was excellent. The technician diagnosed my split AC problem quickly and fixed it efficiently. Highly recommended!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Max R." },
+          "reviewBody": "I had my central McQuay AC serviced by FAJ. The team was professional, thorough, and courteous. Everything works perfectly now."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahsan R." },
+          "reviewBody": "Emergency repair for my McQuay AC was handled quickly. FAJ technicians arrived on time and resolved the issue without delay."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Aleem A." },
+          "reviewBody": "FAJ Technical Services took care of my McQuay AC maintenance. From scheduling to completion, the service was smooth, professional, and reliable."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mohsin S." },
+          "reviewBody": "My McQuay AC stopped cooling on a hot day. FAJ team arrived promptly and fixed it efficiently. Highly recommend their services!"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/mcquay/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How to maintain a McQuay AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tips on Maintaining Your McQuay Air Conditioner: Keep AC coils clean, trim surrounding shrubbery, angle dryer vents away from AC, check and seal ducts, change air filter, adjust thermostat, and schedule annual maintenance with FAJ McQuay HVAC professional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does my McQuay air conditioner keep shutting off?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dirty condenser coils reduce efficiency, forcing the system to work harder and potentially overheat, causing repeated shutdowns. Keep the area around the unit clear of debris."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you reset a McQuay AC thermostat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To reset certain McQuay thermostat models, press the up and down arrows simultaneously. This restores factory settings, so previously customized settings will need reprogramming."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often does my AC need maintenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule two maintenance visits per year to minimize damage risk, improve energy efficiency, and reduce bills. Some seasons are more suitable, but you can call +971 50 746 4712 to request maintenance anytime."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my AC needs maintenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Signs your McQuay AC needs maintenance: strange noises, reduced cooling, higher Dewa bills, water leakage, high humidity, or weak airflow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the internal control fault detected by McQuay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Error Code: 93 – Internal Control Fault. The sensor detects abnormal outdoor temperature, indicating a malfunction in the control system."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/mcquay/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "McQuay",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/mcquay/"
+        }
+      ]
+    }
+  ]
+}
 
   
   const handleItemClick = index => {
@@ -105,6 +275,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

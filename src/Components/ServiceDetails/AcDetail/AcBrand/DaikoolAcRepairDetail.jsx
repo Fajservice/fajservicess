@@ -43,6 +43,188 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Daikool AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/daikool/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Daikool AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Daikool AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Daikool Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Daikool Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Daikool AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Daikool AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ali H." },
+          "reviewBody": "FAJ Technical Services provided excellent service for my Daikool AC in Dubai Marina. The technician was punctual, professional, and fixed the AC quickly. Highly recommended!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Fatima S." },
+          "reviewBody": "I scheduled maintenance for my Daikool AC and the team cleaned the filters, checked the gas, and ensured optimal performance. Very satisfied with the service."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar R." },
+          "reviewBody": "Our Daikool AC showed EP error, and FAJ's team diagnosed and fixed it efficiently. Professional and reliable AC repair service."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sara T." },
+          "reviewBody": "Prompt and affordable Daikool AC repair service from FAJ. The technician explained the issues clearly and completed the job quickly. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/daikool/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How many times does Daikool AC needs to be serviced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is generally recommended to service your air conditioning unit at least twice a year, particularly at the start of summer. This ensures that your Daikool AC will operate efficiently when you need it the most. Air conditioners are made up of several complex electronic components that require regular maintenance to function at their best."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reset my Daikool AC error?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Press the TEST button. You will hear a click as the RESET button pops out. Next, press the RESET button."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my Daikool air conditioner blinking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The blue blinking light on a Daikool air conditioner typically indicates a problem with the temperature sensor. This could mean that the sensor is malfunctioning or that the room's temperature is not being accurately measured."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my Daikool AC showing EL and OC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 'EC' or 'EL 0C' code indicates an error caused by low refrigerant levels. This issue can occur in a new installation for several reasons. One common reason is that the valves on the outdoor unit are not fully open, which prevents the refrigerant from flowing from the outdoor unit into the system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Daikool AC oC fault code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An overcurrent (oC) fault occurs when the output current exceeds the overcurrent detection level, typically between 180% and 200% of the drive's rated current, depending on the model. Possible causes for this fault include: the load being too heavy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my Daikool air conditioner not turning on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check to see if the cord is properly plugged in, as it may have a loose connection or be unplugged. Secure the plug and test whether your air conditioning unit functions correctly. If it still doesn’t work, inspect the breaker box for any tripped circuit breakers that may have occurred during the restart. If you find a tripped breaker, flip the switch back to restore power."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is error EP in Daikool Air Conditioning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The EP indicates that there is a failure alarm for the discharge temperature sensor of the copper pipe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Daikool aircon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "How to fix it:\n- Turn off the power to the aircon unit for a few minutes, then turn it back on.\n- Check the air filters to see if they are dirty or clogged.\n- Check the wiring and connections between the indoor and outdoor units.\n- Inspect the temperature sensor(s) to see if they are functioning properly."
+          }
+        }
+      ]
+    },
+{
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/daikool/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Daikool",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/daikool/"
+    }
+  ]
+}
+
+  ]
+}
 
   
   const handleItemClick = index => {
@@ -105,6 +287,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

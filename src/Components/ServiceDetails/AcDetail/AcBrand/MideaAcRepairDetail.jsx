@@ -46,7 +46,183 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Midea AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/midea/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Midea AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Midea AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Midea Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Midea Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Midea AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Midea AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar U." },
+          "reviewBody": "The Midea AC repair service by FAJ was excellent. Technician Malik was prompt, explained the issue clearly, and fixed my split AC efficiently. Highly recommend their services!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Max R." },
+          "reviewBody": "FAJ Midea AC service team was professional and timely. They cleaned and repaired my central AC in Damac Hills with zero hassle. Very satisfied!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahsan R." },
+          "reviewBody": "I had an emergency with my Midea AC not cooling. FAJ’s technicians came quickly, diagnosed the problem, and fixed it efficiently. Very reliable service."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/midea/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When should I do AC maintenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "According to FAJ Engineer Malik Tayyeb, it’s generally recommended to have your Midea air conditioner serviced twice a year: once in the spring and once in the fall. This maintenance ensures the unit is clean, all parts are functioning properly, and the system operates at peak efficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many times does Midea AC need to be serviced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is generally recommended to service your air conditioning unit at least twice a year, particularly at the start of summer. This ensures that your Midea AC operates efficiently when you need it most."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reset my Midea AC error?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Press the TEST button. You will hear a click as the RESET button pops out. Next, press the RESET button to reset your AC."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my Midea air conditioner blinking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The blue blinking light typically indicates a problem with the temperature sensor, meaning it may be malfunctioning or the room's temperature is not being accurately measured."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my Midea AC showing EL and OC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The \"EC\" or \"EL 0C\" code indicates an error caused by low refrigerant levels. This could occur in a new installation if the outdoor unit valves are not fully open, preventing proper refrigerant flow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Midea AC oC fault code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An overcurrent (oC) fault occurs when the output current exceeds the overcurrent detection level, usually between 180% and 200% of the drive's rated current. This can be caused by heavy load or wiring issues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my Midea air conditioner not turning on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the power cord and ensure it’s plugged in securely. Inspect the breaker box for any tripped switches. If the unit still does not turn on, contact a professional technician."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is error EP in Midea Air Conditioning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The EP code indicates a failure alarm for the discharge temperature sensor of the copper pipe."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/midea/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Midea",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/midea/"
+        }
+      ]
+    }
+  ]
+}
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -108,6 +284,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

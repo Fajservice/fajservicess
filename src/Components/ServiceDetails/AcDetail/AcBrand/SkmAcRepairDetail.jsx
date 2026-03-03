@@ -42,6 +42,173 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "SKM AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/skm/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "SKM AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "SKM AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SKM Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SKM Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SKM AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SKM AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/skm/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is preventive maintenance service in SKM AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A trained technician performs tasks like checking refrigerant levels, cleaning and straightening condenser coils, inspecting gas connections for leaks, and tightening electrical connections during preventive maintenance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is AC not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Possible reasons include dirty air filters, incorrect thermostat settings, refrigerant leaks, dirty condenser coils, blocked vents, faulty compressors, frozen evaporator coils, or electrical problems."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many hours should AC run per day?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically, an AC should run for 12 to 16 hours on a hot day, depending on factors such as outdoor and indoor temperatures, unit efficiency, and home insulation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best temperature for AC to save electricity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Set the thermostat between 24°C (75°F) and 26°C (78°F) to balance comfort and energy efficiency. Lower settings increase energy consumption without faster cooling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can AC run continuously for 12 hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, air conditioners can run for 12 hours continuously. Window and wall units may need breaks, but most modern systems are built to handle extended operation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is sleep mode in AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sleep mode gradually increases the temperature by 0.5 to 1°C per hour (up to 3°C), helping save energy while maintaining comfort overnight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which mode is best for AC in summer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 'Cool' mode is ideal for summer. Setting the AC to around 78°F provides efficient cooling while minimizing energy use and humidity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is error code E7 on SKM split AC unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E7 usually indicates a fault with the outdoor fan, such as a blocked port or a communication error. The severity varies depending on the model."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the capacity of an SKM package unit AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SKM packaged units range from 5 TR to 145 TR and are available in multiple series like PACVD, PACVS, APMR, and PACS, with microprocessor control and electronic expansion valves."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/skm/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "SKM",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/skm/"
+        }
+      ]
+    }
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -107,6 +274,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
