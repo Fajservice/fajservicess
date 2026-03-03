@@ -195,7 +195,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fajservices.ae/services/commercial-laundry-equipment-service/</loc>
+  <loc>https://www.fajservices.ae/services/laundry-equipment-repair/</loc>
   <lastmod>${today}</lastmod>
   <priority>0.80</priority>
 </url>

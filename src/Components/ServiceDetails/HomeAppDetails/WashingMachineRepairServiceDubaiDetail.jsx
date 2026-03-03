@@ -655,7 +655,7 @@ const schema ={
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0">The Benefits Of washing machine Service Dubai</h2>
+              <h2 className="cs_fs_30 mb-0">The Benefits Of Washing Machine Service Dubai</h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
@@ -945,8 +945,7 @@ const schema ={
         <Suspense fallback={<div style={{ minHeight: '200px' }} />}>
           <Serviceappointemnt subtitle2="Contact us" title2="Book An Appointment" />
         </Suspense>
-      </div>
-{/* Faqs */}
+        {/* Faqs */}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">FAQ&apos;s</h3>
@@ -1001,6 +1000,8 @@ const schema ={
             </div>
           </div>
         </section>
+
+      </div>
 
         
     </>

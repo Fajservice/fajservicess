@@ -166,7 +166,7 @@ export const router = createBrowserRouter([
         element: <Components.CommercialWashingMachineRepair />,
       },
       {
-        path: "/services/commercial-laundry-equipment-service/",
+        path: "/services/laundry-equipment-repair/",
         element: <Components.CommercialLaundryEquipmentService />,
       },
       {
@@ -3345,7 +3345,7 @@ export const router = createBrowserRouter([
       },
       {
         path:"/services/commercial-laundry-equipment-service/",
-        element: <Navigate to="/services/commercial-laundry-equipment-service/" replace />
+        element: <Navigate to="/services/laundry-equipment-repair/" replace />
       },
       {
         path:"/commercial-washing-machine-repair/",

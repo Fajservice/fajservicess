@@ -93,11 +93,11 @@ const Contact = ({
                     <LocationIcon className="contact-icons" />
                   </div>
                   <div className="cs_iconbox_info">
-                    <p className="mb-0">{address}</p>
+                    <p className="mb-0 mt-0">{address}</p>
                   </div>
                 </div>
 
-                <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb-18">
+                <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb_18">
                   <div className="cs_iconbox_icon cs_center">
                     <MailIcon className="contact-icons" />
                   </div>
@@ -112,7 +112,7 @@ const Contact = ({
                   </div>
                   <div className="cs_iconbox_info">
                     <a className="cs_tab active" href={numberLink}>{number}</a>
-                    <br />
+                    
                     <a className="cs_tab active" href={number1Link}>{number1}</a>
                   </div>
                 </div>
@@ -129,8 +129,8 @@ const Contact = ({
               </div>
 
               <div className="cs_client_info_wapper cs_white_bg">
-                <h2 className="cs_fs_30 cs_accent_color">{clientNumber}</h2>
-                <p className="cs_fs_14 mb-0">{client}</p>
+                <h2 className="cs_fs_30 cs_accent_color my-0">{clientNumber}</h2>
+                <p className="cs_fs_14 my-0">{client}</p>
               </div>
             </div>
             <div className="cs_height_44 cs_height_lg_30"></div>
