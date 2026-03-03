@@ -42,6 +42,171 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Nikai AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/nikai/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Nikai AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Nikai AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Nikai Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Nikai Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Nikai AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Nikai AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hassan R." },
+          "reviewBody": "Very professional Nikai AC repair service in Dubai. The technician quickly fixed the cooling issue and explained everything clearly."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Aisha K." },
+          "reviewBody": "Excellent Nikai AC maintenance service. The filters and coils were cleaned properly and cooling improved significantly."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Bilal M." },
+          "reviewBody": "Fast response and reliable Nikai AC repair. My AC was not working and FAJ repaired it the same day."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via Google)" },
+          "reviewBody": "Highly recommended Nikai AC servicing company in Dubai. Skilled technicians and fair pricing."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/nikai/#faq",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is the lifespan of a Nikai air conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With proper maintenance, which includes regular cleaning, inspections, and timely repairs by FAJ's professionals, a Nikai air conditioner can last 15 years or more. However, its lifespan can also be affected by factors such as usage patterns, environmental conditions, and the quality of installation."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is involved in servicing a Nikai air conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The technician will inspect both units to ensure they operate smoothly. They will clean the filters and coils of the indoor unit, remove any dirt or dust, and check for proper airflow."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do you know Nikai AC needs servicing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If your air conditioning unit is blowing warm air or not cooling properly, it's a clear sign that it needs maintenance. You may need to replace the air filters, refill the refrigerant, or have the Nikai AC coils professionally cleaned by a team from FAJ."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is included in aircon servicing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "FAJ Professional Air Conditioning Servicing Include: Cleaning or Replacement of AC Air Filters Checking and Cleaning the AC Evaporator Coils Cleaning and Checking of AC Condenser Coil Inspection of AC Refrigerant Levels Checking of the AC Electrical Connections Inspection of AC Fan and Blower Motor Cleaning the AC Drainage System"
+        }
+      },{
+        "@type": "Question",
+        "name": "Is it necessary to service AC every year?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While regular aircon maintenance checks are not mandatory, they are advisable. We recommend having your air conditioner serviced at least once a year, even in the absence of noticeable defects, to ensure optimal performance."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can I check my AC problem?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Check the AC airflow. Be aware of AC unusual noises. Check the electricity Dewa bills. Inspect any AC water leakage or ice buildup. Sufficient AC refrigerant gas level. Strange odours and AC hot outdoor unit"
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the most common Nikai AC repair?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most Common Nikai Air-Conditioning Problems and Repairs: Bad Capacitor, Low Gas, Clogged Condensate Drain Line, and Failing Blower Motor are the most frequent issues handled by professional technicians."
+        }
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/nikai/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Nikai",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/nikai/"
+        }
+      ]
+    }
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -105,6 +270,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

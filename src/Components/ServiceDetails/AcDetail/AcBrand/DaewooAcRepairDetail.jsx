@@ -40,6 +40,172 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Daewoo AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/daewoo/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Daewoo AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Daewoo AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Daewoo Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Daewoo Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Daewoo AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Daewoo AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sarah K." },
+          "reviewBody": "FAJ Technical Services provided excellent service for my Daewoo AC in Jumeirah. The technician was punctual, professional, and repaired the AC efficiently. Highly recommended!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahmed R." },
+          "reviewBody": "I called FAJ for Daewoo AC maintenance and they were amazing. Cleaned the coils, checked gas levels, and made sure everything worked perfectly. Very satisfied."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Leena T." },
+          "reviewBody": "Prompt and affordable Daewoo AC repair service from FAJ. The technician explained the issues clearly and completed the job quickly. I would definitely use them again."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mohammed S." },
+          "reviewBody": "Our Daewoo inverter AC showed E2 error. FAJ team diagnosed and fixed it in no time. Professional and reliable service!"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/daewoo/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the lifespan of a Daewoo air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With proper maintenance, which includes regular cleaning, inspections, and timely repairs by FAJ's professionals, a Daewoo air conditioner can last 15 years or more. However, its lifespan can also be affected by factors such as usage patterns, environmental conditions, and the quality of installation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is involved in servicing a Daewoo air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The technician will inspect both units to ensure they operate smoothly. They will clean the filters and coils of the indoor unit, remove any dirt or dust, and check for proper airflow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you know Daewoo AC needs servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your air conditioning unit is blowing warm air or not cooling properly, it's a clear sign that it needs maintenance. You may need to replace the air filters, refill the refrigerant, or have the Daewoo AC coils professionally cleaned by a team from FAJ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most common Daewoo AC repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most Common Daewoo Air-Conditioning Problems and Repairs:\n- Bad Capacitor\n- Low Gas\n- Clogged Condensate Drain Line\n- Failing Blower Motor"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to know if a Daewoo AC capacitor is bad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The short answer is that you may have a failing AC capacitor if you are experiencing any of the following symptoms:\n- Your AC system isn't blowing cold air.\n- You hear a humming noise coming from the outdoor or indoor unit.\n- Your monthly Dewa bills are rising unexpectedly.\n- Your air conditioner will shut off unexpectedly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is E2 error on Daewoo inverter AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your air conditioning system displays an E2 error, it indicates an issue with the outdoor unit sensor. You can identify this error by a small LED light on your air conditioner. This problem occurs when the evaporation temperature is lower than the temperature in cooling or dry mode."
+          }
+        }
+      ]
+    },
+  {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/daewoo/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Daewoo",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/daewoo/"
+    }
+  ]
+}
+
+  ]
+}
 
   const handleItemClick = index => {
     if (index === openItemIndex) {
@@ -101,6 +267,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

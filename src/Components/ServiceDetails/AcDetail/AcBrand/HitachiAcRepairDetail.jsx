@@ -41,7 +41,173 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Hitachi AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/hitachi/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3300",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Hitachi AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Hitachi AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Hitachi Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Hitachi Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Hitachi AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Hitachi AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ali R." },
+          "reviewBody": "FAJ fixed my Hitachi AC quickly in JLT. Technician was professional and thorough. Highly recommended!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sara K." },
+          "reviewBody": "Our Hitachi AC was not cooling due to low refrigerant. FAJ refilled it and checked the entire system. Excellent service."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar H." },
+          "reviewBody": "Scheduled maintenance for my Hitachi AC. Filters, coils, and compressor were cleaned and serviced. Very satisfied."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Nadia T." },
+          "reviewBody": "Highly recommend FAJ for Hitachi AC repair. Technician arrived on time and repaired the AC efficiently."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/hitachi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the lifespan of a Hitachi air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With proper maintenance, including cleaning, inspections, and timely repairs by FAJ professionals, a Hitachi air conditioner can last 15 years or more. Usage, environment, and installation quality can also affect lifespan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is involved in servicing a Hitachi air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The technician inspects both indoor and outdoor units, cleans filters and coils, removes dust and debris, and checks airflow and system performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you know Hitachi AC needs servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the AC is blowing warm air or not cooling properly, it needs maintenance. Common services include replacing filters, refilling refrigerant, or cleaning coils by FAJ technicians."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to know if a Hitachi AC capacitor is bad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Symptoms of a failing AC capacitor include: AC not blowing cold air, humming noises from units, rising energy bills, or AC shutting off unexpectedly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is E2 error on Hitachi inverter AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E2 error indicates a problem with the outdoor unit sensor. It occurs when the evaporation temperature is lower than the temperature in cooling or dry mode, often shown via a small LED indicator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Hitachi AC is not working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the Hitachi AC is not cooling, the compressor may be faulty. The compressor circulates refrigerant through the evaporator and condenser. When it fails, the cooling cycle cannot start."
+          }
+        }
+      ]
+    },
+  {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/hitachi/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Hitachi",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/hitachi/"
+    }
+  ]
+}
+
+  ]
+}
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -103,6 +269,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

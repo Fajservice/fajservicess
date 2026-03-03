@@ -42,6 +42,171 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Trane AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Trane AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Trane AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Trane Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Trane Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Trane AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Trane AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mohammed R." },
+          "reviewBody": "Excellent Trane AC repair service in Dubai. The technician diagnosed the issue quickly and restored cooling efficiently. Highly recommended."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Fatima K." },
+          "reviewBody": "Very professional and reliable team. They serviced my Trane central AC thoroughly and ensured everything was working perfectly."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ali S." },
+          "reviewBody": "Fast response and same-day repair for my Trane split AC. Great service and reasonable pricing."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via Google)" },
+          "reviewBody": "Skilled technicians and smooth service process. My Trane AC maintenance was handled professionally."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/#faq",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How to read Trane AC model numbers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Trane/American Standard uses two styles for their product identification. Style 1 begins with a letter (manufacturing location), followed by two numbers (last two digits of the year from 2000). For example, 'C12A00152' means it was made at the Clarksville Plant. Style 2 starts with numbers, and the first two digits represent the year of manufacture."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do you tell the tonnage of a Trane AC unit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Look for a plaque or sticker on the side of the unit with the model number. The tonnage is indicated as an even, two-digit number between 18 and 60, representing the BTU capacity. Divide this number by 12 to get the tonnage."
+        }
+      },{
+        "@type": "Question",
+        "name": "How long does a Trane air conditioner last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Trane AC units are built for durability, typically lasting 15 to 20 years. Lower-quality systems may only last about 10 years and often require costly repairs due to poor manufacturing."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why won't my Trane thermostat change temperature?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It could be locked. Press the plus (“+”) and minus (“-”) keys at the same time for 3 to 4 seconds to unlock it, then try adjusting the temperature again."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to maintain a Trane AC unit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Shut off the power, remove debris, clean and straighten fins, clear the area around the unit, level the unit, clean the evaporator coil and drain. Regular maintenance helps keep the unit running efficiently."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do I reset a Trane air conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Turn off the AC, locate the circuit breaker, identify and switch off the AC circuit, wait for 30 seconds, then switch it back on. This resets the system safely."
+        }
+      },{
+        "@type": "Question",
+        "name": "How often should Trane AC filters be changed in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Change air filters every 90 days or 3 months. Frequency may vary due to climate, presence of pets, or system age. Dusty environments like Dubai may require more frequent changes."
+        }
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Trane",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/"
+        }
+      ]
+    }
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -105,6 +270,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

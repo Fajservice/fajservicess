@@ -42,6 +42,171 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "York AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/york/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "York AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "York AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "York Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "York Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "York AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "York AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahmed K." },
+          "reviewBody": "Excellent York AC repair service in Dubai. The technician arrived on time, diagnosed the issue quickly, and restored the cooling efficiently. Highly recommended."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sarah M." },
+          "reviewBody": "Very professional team. They fixed my York central AC and cleaned the entire system properly. Fair pricing and great customer support."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Imran A." },
+          "reviewBody": "Quick response and reliable service. My York split AC was not cooling, and they repaired it the same day. Great experience overall."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via Google)" },
+          "reviewBody": "Technicians were knowledgeable and efficient. They handled the York AC gas refilling and maintenance professionally."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/york/#faq",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What are the reasons AC York is not cooling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reasons Why York AC Is Not Cooling Your House: Thermostat is Set Incorrectly, Dirty AC Air Filter, Blocked Outdoor Condenser Unit, Damaged Heat Pump, Frozen Evaporator Coil, Refrigerant Leak, and Undersized Air Conditioner."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why is my central AC not working?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If your central air conditioning isn't working at all, check the main electrical panel for a tripped breaker or blown fuse. Also, the thermostat setting might be the issue."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to maintain an AC unit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Easy steps include shutting off power, removing debris, cleaning and straightening fins, cleaning around the unit, leveling it, and cleaning both the evaporator coil and drain."
+        }
+      },{
+        "@type": "Question",
+        "name": "How much does AC maintenance cost in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AC Cleaning: AED 230++, Coil Cleaning: AED 250-680, Repair: AED 1,000-4,000, depending on unit capacity and location."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is AC duct cleaning important in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Poor indoor air quality can cause respiratory issues. Regular duct cleaning is crucial due to year-round AC usage in Dubai."
+        }
+      },{
+        "@type": "Question",
+        "name": "How much is AC service in Dubai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Regular Cleaning: AED 230, Duct Cleaning & Sanitization: From AED 550, Deep Coil Cleaning: AED 250-830, AC Repair & Installation: AED 150 per hour."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to check AC problems?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Check thermostat settings, close windows and doors, check for tripped breakers, clean filters, inspect for leaks, open vents, clean ducts, and call a technician if needed."
+        }
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/york/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "York",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/york/"
+        }
+      ]
+    }
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -105,6 +270,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

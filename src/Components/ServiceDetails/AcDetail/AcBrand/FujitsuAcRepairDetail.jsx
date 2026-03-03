@@ -41,8 +41,197 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Fujitsu AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/fujitsu/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3400",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Fujitsu AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Fujitsu AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Fujitsu Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Fujitsu Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Fujitsu AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Fujitsu AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahmed M." },
+          "reviewBody": "FAJ Technical Services provided prompt and professional service for my Fujitsu AC in Dubai Marina. The technician fixed the issue quickly and explained everything clearly. Highly recommended!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sara H." },
+          "reviewBody": "Our Fujitsu AC was showing an E3 error. FAJ team diagnosed and repaired it efficiently. Very reliable and professional service."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mohammed R." },
+          "reviewBody": "I scheduled maintenance for my Fujitsu AC and the technicians cleaned the filters, checked gas levels, and ensured everything worked perfectly. Excellent service!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Leena T." },
+          "reviewBody": "Highly satisfied with the Fujitsu AC repair service from FAJ. Punctual, professional, and affordable. My AC works like new again."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/fujitsu/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I clear Fujitsu AC error code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To reset your Fujitsu AC unit: Press and hold the On/Off button on the remote for two seconds, release it, press it again once, and then press it a third time. The unit should reset and resume operation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is E3 code on Fujitsu AC VRV?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E3 indicates excessively high pressure due to activation of the high-pressure switch (HPS). Possible causes include an overloaded or short-circuited condenser or a dirty heat exchanger."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I troubleshoot my Fujitsu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check if the unit is off, if the operation lamp is flashing, if the set temperature is correct, if the filters are clean, and ensure there are no obstructions. Also inspect doors, windows, and the sensor for proper function."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are Fujitsu AC Error codes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common error codes:\nAA0 – External protection activated\nA1 – Indoor unit PCB malfunction\nA3 – Drain level issue\nA4 – Freezing protection fault\nA5 – High pressure or freeze-up protection\nE3 – High pressure switch activated\nE4 – Low pressure switch activated\nE5 – Compressor motor or overheat\nJ1–J5 – Various sensor and thermistor faults"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should a Fujitsu air conditioner be serviced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Although not mandatory, annual inspections are recommended even if the unit seems fine. Regular servicing ensures long-term efficiency and performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the common problem with Fujitsu air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common issues include the unit not starting due to a blown fuse, refrigerant leaks, and dirty air filters that slow cooling performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change AC Gas R410A to Gas R32?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, switching refrigerants violates manufacturer instructions, voids warranties, and causes non-compliance with CE marking and safety regulations. It may also affect insurance validity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many times Fujitsu AC needs to be serviced in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Dubai, it’s recommended to service your Fujitsu AC at least twice a year—especially before the summer—to maintain optimal performance and avoid breakdowns during peak usage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if you Don&apos;t get aircon serviced every 3 months in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Neglecting service can lead to dust, rust, and debris buildup, reducing your AC’s efficiency and performance. Over time, the system may deteriorate more quickly and cost more in repairs."
+          }
+        }
+      ]
+    },
+    {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/fujitsu/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Fujitsu",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/fujitsu/"
+    }
+  ]
+}
 
-  
+  ]
+}
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -105,7 +294,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

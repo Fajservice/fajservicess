@@ -41,7 +41,172 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Blue Star AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/blue-star/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Blue Star AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Blue Star AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Blue Star Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Blue Star Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Blue Star AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Blue Star AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ali R." },
+          "reviewBody": "Professional Blue Star AC repair service. The technicians fixed my AC quickly and it is working perfectly now."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mona S." },
+          "reviewBody": "Excellent maintenance for my Blue Star AC. Filters and coils were cleaned thoroughly and performance is great."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hassan K." },
+          "reviewBody": "Quick and reliable service. My Blue Star AC was not cooling well, and the team resolved it on the same day."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via Google)" },
+          "reviewBody": "Highly recommended Blue Star AC servicing company. Professional technicians and fair pricing."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/blue-star/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the lifespan of a Blue Star air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With proper maintenance, which includes regular cleaning, inspections, and timely repairs by FAJ's professionals, a Blue Star air conditioner can last 15 years or more. Its lifespan can be affected by usage patterns, environmental conditions, and installation quality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is involved in servicing a Blue Star air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The technician will inspect both units to ensure smooth operation. They will clean the filters and coils of the indoor unit, remove dirt or dust, and check for proper airflow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you know Blue Star AC needs servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your AC is blowing warm air or not cooling properly, it needs maintenance. You may need to replace air filters, refill refrigerant, or have the Blue Star AC coils professionally cleaned by FAJ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in aircon servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FAJ Professional Air Conditioning Servicing Includes:\n- Cleaning or Replacement of AC Air Filters\n- Checking and Cleaning the AC Evaporator Coils\n- Cleaning and Checking of AC Condenser Coil\n- Inspection of AC Refrigerant Levels\n- Checking of the AC Electrical Connections\n- Inspection of AC Fan and Blower Motor\n- Cleaning the AC Drainage System"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it necessary to service AC every year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While regular aircon maintenance checks are not mandatory, they are advisable. We recommend servicing your air conditioner at least once a year, even if no defects are noticeable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I check my AC problem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the AC airflow.\nBe aware of unusual noises.\nCheck the electricity Dewa bills.\nInspect any water leakage or ice buildup.\nEnsure sufficient refrigerant gas level.\nNotice any strange odors or a hot outdoor unit."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/blue-star/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Blue Star",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/blue-star/"
+        }
+      ]
+    }
+  ]
+}
+
    const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -104,6 +269,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
           <meta name="twitter:title" content="Low Prices Service | Blue Star AC Repair and Maintenance Dubai" />
           <meta name="twitter:description" content="FAJ, providing Blue Star AC repair in Dubai, with the finest and most comprehensive range of services, to take care of your air conditioning system." />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

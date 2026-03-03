@@ -42,6 +42,174 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Ruud AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/ruud/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Ruud AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Ruud AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Ruud Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Ruud Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Ruud AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Ruud AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar U." },
+          "reviewBody": "FAJ’s Ruud AC repair service was fantastic. The technician arrived on time, diagnosed the problem quickly, and fixed my split AC efficiently. Highly recommend!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Max R." },
+          "reviewBody": "I had my central Ruud AC serviced by FAJ. The team was professional, courteous, and thorough. Everything works perfectly now."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahsan R." },
+          "reviewBody": "Emergency repair for my Ruud AC was handled exceptionally. FAJ technicians reached quickly and resolved the issue without delay."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/ruud/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the reasons for AC Ruud not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common reasons include: Thermostat set incorrectly, dirty air filter, blocked outdoor condenser unit, damaged heat pump, frozen evaporator coil, refrigerant leak, or an undersized air conditioner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my central AC not working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check your main electrical panel for a tripped breaker or blown fuse. Also ensure your thermostat is set correctly, as incorrect settings can prevent the system from turning on."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to maintain an AC unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Basic maintenance steps include: 1. Shut off power 2. Remove debris 3. Clean and straighten fins 4. Clean area around the unit 5. Level the unit 6. Clean evaporator coil and drain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does AC maintenance cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Estimated maintenance costs: AC Cleaning: AED 230+, Coil Cleaning: AED 250–680, Repairs: AED 1,000–4,000 depending on the issue."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is AC duct cleaning important in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. In dusty climates like Dubai, clean ducts are essential for good indoor air quality. Dirty systems can lead to allergies, respiratory issues, and inefficient cooling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to check AC problems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Troubleshooting tips: 1. Check thermostat settings 2. Close windows and doors 3. Check circuit breakers 4. Clean filters 5. Call technician for gas leak 6. Open air vents 7. Clean ducts 8. Inspect for water leaks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is AC included in Dewa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In chiller-free apartments, AC is included in the rent. In District Cooling setups, tenants pay separately based on usage, capacity, and metering charges."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/ruud/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Ruud",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/ruud/"
+        }
+      ]
+    }
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -106,6 +274,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

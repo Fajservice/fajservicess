@@ -42,6 +42,179 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Panasonic AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Panasonic AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Panasonic AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Panasonic Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Panasonic Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Panasonic AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Panasonic AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Adeel H." },
+          "reviewBody": "Efficient Panasonic AC repair in Dubai. Technician identified the issue fast and restored cooling immediately. Very professional service."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Maryam S." },
+          "reviewBody": "Excellent maintenance for my Panasonic AC. Filters and coils were cleaned thoroughly, and the unit runs perfectly now."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Saeed K." },
+          "reviewBody": "Quick and reliable Panasonic AC repair. FAJ team responded promptly and fixed my unit on the same day."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via Google)" },
+          "reviewBody": "Professional Panasonic AC servicing company. Skilled technicians, fair pricing, and excellent customer support."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are F1, F2, and F3 in Panasonic AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "These are not error codes. F1, F2, or F3 indicates the AC is in FAN mode, with the number representing the set fan speed. This is a normal operating condition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does E4 mean on a Panasonic air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E4 indicates the unit is in defrost mode, normal during low-temperature operation. Frequent occurrences may point to a faulty temperature sensor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the common problem of a Panasonic air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common issues include cooling inefficiency, water leaks, strange noises, and error codes caused by refrigerant leaks, sensor faults, or compressor problems."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my Panasonic AC suddenly not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This may be due to dirty air filters, incorrect thermostat settings, or internal faults. Clean/replace filters and verify thermostat settings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I troubleshoot my Panasonic air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ensure the thermostat is in cool mode, check and clean the air filter, and call a professional if the problem persists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if an air conditioner is not serviced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Neglecting servicing can reduce performance, increase electricity bills, cause breakdowns, and shorten the unit's lifespan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you know AC needs servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Signs include warm air, poor airflow, strange noises, visible dirt on filters/coils, and potential refrigerant or electrical issues requiring professional inspection."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Panasonic",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/"
+        }
+      ]
+    }
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -105,6 +278,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

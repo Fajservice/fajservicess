@@ -40,8 +40,173 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Lennox AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/lennox/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "950",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Lennox AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Lennox AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Lennox Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Lennox Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Lennox AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Lennox AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahmed S." },
+          "reviewBody": "FAJ technicians quickly repaired my Lennox AC in Jumeirah. Professional and reliable service. Highly recommended!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Leila M." },
+          "reviewBody": "My Lennox AC was not cooling properly. FAJ inspected, refilled refrigerant, and cleaned the coils. Very satisfied with the service."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Khalid R." },
+          "reviewBody": "Scheduled maintenance on my Lennox AC. Filters and compressor were checked and cleaned. Excellent service and punctual."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Fatima H." },
+          "reviewBody": "Reliable AC repair service for my Lennox units. Technician was courteous and fixed the problem efficiently."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/lennox/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is my Lennox AC not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A dirty or incorrectly placed air filter can restrict airflow, causing the fan to run without cooling. Additionally, debris like dust, leaves, and sap can dirty the unit and coils, leading to malfunctions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does my Lennox air conditioner keep shutting off?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Overheating due to dirt buildup in the compressor or a refrigerant leak can cause shutdowns. Faulty thermostat wiring or electrical issues may also be responsible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if AC is not serviced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lack of regular servicing reduces efficiency, raises energy costs, and increases the risk of breakdowns. Dust and debris buildup in filters and coils impairs cooling performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Lennox E6 error code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Try power cycling the system, checking wiring between units, and confirming the condensate pump is working. If the issue remains, contact a professional technician."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is E5 error on Lennox?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E5 indicates a voltage protection or temperature sensor error. It may result from unusually high or low voltage, especially in mini-split systems."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is E3 error on Lennox?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E3 signifies a problem with the indoor unit’s drain pump. If you're also seeing an E2 code, it points to an outdoor temperature sensor issue that may require replacement."
+          }
+        }
+      ]
+    },
+    {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/lennox/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Lennox",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/lennox/"
+    }
+  ]
+}
 
-  
+  ]
+}
+
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -103,6 +268,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

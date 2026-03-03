@@ -41,7 +41,165 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Rheem AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Rheem AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Rheem AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Rheem Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Rheem Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Rheem AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Rheem AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How to maintain a Rheem AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tips on Maintaining Your Rheem Air Conditioner: Keep AC coils clean, trim surrounding shrubbery, angle dryer vent away from AC, check and seal AC ducts, change AC air filter, adjust thermostat, and schedule regular professional maintenance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does my Rheem air conditioner keep shutting off?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dirty condenser units and coils reduce efficiency, forcing the system to work harder and possibly overheat, causing shutdowns. Keep the area around the unit clear of debris."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you reset a Rheem AC thermostat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simultaneously press the up and down arrows on certain Rheem thermostat models. This restores factory settings, so you will need to reprogram customized settings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the internal control fault detected by Rheem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Error Code 93 – Internal Control Fault. The sensor detects an abnormal outdoor temperature, and the control system is malfunctioning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Rheem AC error code E3 or F3?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E3 or F3 indicates a faulty thermostat or PCB. This impacts the unit's ability to regulate temperature effectively."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Rheem AC error code E1?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E1 indicates a communication error between the indoor and outdoor units, possibly caused by wiring issues or a faulty control board."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Rheem AC error code E4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E4 usually indicates an issue with the outdoor temperature sensor or its wiring. Inspect for damage or corrosion and ensure connections are secure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Rheem AC error code E6?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E6 indicates a communication failure between indoor and outdoor components due to faulty wiring, malfunctioning control boards, or power issues."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Rheem",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/"
+        }
+      ]
+    }
+  ]
+}
 
   const handleItemClick = index => {
     if (index === openItemIndex) {
@@ -105,6 +263,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

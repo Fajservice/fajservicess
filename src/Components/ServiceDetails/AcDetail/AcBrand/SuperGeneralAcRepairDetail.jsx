@@ -42,6 +42,179 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Super General AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/super-general/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Super General AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Super General AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Super General Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Super General Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Super General AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Super General AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahmed R." },
+          "reviewBody": "Professional Super General AC repair service in Dubai. The technician quickly resolved the cooling issue. Highly recommended."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sara K." },
+          "reviewBody": "Excellent maintenance service. Filters and coils of my Super General AC were cleaned thoroughly and the unit works perfectly."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Bilal M." },
+          "reviewBody": "Fast response and reliable repair. My Super General AC was not cooling properly, and they fixed it the same day."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via Google)" },
+          "reviewBody": "Professional Super General AC servicing company with skilled technicians and fair pricing."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/super-general/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the lifespan of a Super General air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With proper maintenance, which includes regular cleaning, inspections, and timely repairs by FAJ's professionals, a Super General air conditioner can last 15 years or more. Its lifespan can also be affected by usage patterns, environmental conditions, and installation quality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is involved in servicing a Super General air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The technician will inspect both units to ensure smooth operation. They will clean the filters and coils of the indoor unit, remove dirt or dust, and check for proper airflow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you know Super General AC needs servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your AC is blowing warm air or not cooling properly, it needs maintenance. You may need to replace air filters, refill refrigerant, or have the coils professionally cleaned by FAJ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in aircon servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FAJ Professional Air Conditioning Servicing Includes:\n- Cleaning or Replacement of AC Air Filters\n- Checking and Cleaning the AC Evaporator Coils\n- Cleaning and Checking of AC Condenser Coil\n- Inspection of AC Refrigerant Levels\n- Checking of the AC Electrical Connections\n- Inspection of AC Fan and Blower Motor\n- Cleaning the AC Drainage System"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it necessary to service AC every year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While regular maintenance checks are not mandatory, they are advisable. We recommend servicing your AC at least once a year, even if no defects are noticeable, to ensure optimal performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most common Super General AC repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most Common Super General Air-Conditioning Problems and Repairs:\n- Bad Capacitor\n- Low Gas\n- Clogged Condensate Drain Line\n- Failing Blower Motor"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to know if a Super General AC capacitor is bad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You may have a failing AC capacitor if you experience:\n- AC not blowing cold air\n- Humming noise from indoor or outdoor unit\n- Rising monthly electricity bills\n- AC shutting off unexpectedly"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/super-general/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Super General",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/super-general/"
+        }
+      ]
+    }
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -105,6 +278,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

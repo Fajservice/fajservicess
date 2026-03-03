@@ -42,6 +42,180 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Goodman AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/goodman/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1100",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Goodman AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Goodman AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Goodman Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Goodman Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Goodman AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Goodman AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Khalid A." },
+          "reviewBody": "FAJ Technical Services fixed my Goodman AC promptly in Jumeirah. The technician was professional and explained the issue clearly. Highly recommended!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Reem S." },
+          "reviewBody": "Our Goodman AC was not cooling due to low gas. FAJ team refilled it and checked the system thoroughly. Efficient and reliable service."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar H." },
+          "reviewBody": "Scheduled maintenance for my Goodman AC and the filters, coils, and compressor were serviced perfectly. Very satisfied!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Lina T." },
+          "reviewBody": "Excellent Goodman AC repair by FAJ. Technician arrived on time, worked efficiently, and ensured my AC worked perfectly."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/goodman/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the E6 error in Goodman AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The E6 error code in air conditioners usually indicates a communication failure between the indoor and outdoor units. This issue disrupts the synchronised operation of the system, leading to reduced cooling efficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the error code H3 on Goodman AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The H3 error code typically indicates a refrigerant leak in the AC system. Refrigerant is crucial for the cooling process, and a leak can lead to reduced cooling efficiency or even a total failure of the AC system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my Goodman AC not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the Goodman air conditioner is not cooling, the compressor may be defective. The compressor is a motor that compresses the refrigerant and circulates it through the evaporator and condenser coils. If the compressor fails, the cooling cycle does not initiate, and the Goodman air conditioner will not cool properly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the reasons for the Goodman AC not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Here are the five most common causes of not cooling the Goodman AC and how to solve it:\n- Your outdoor unit requires additional maintenance due to exposure to sunlight, rain, and debris.\n- Unfitted AC unit.\n- AC Clogged filter\n- AC Low Gas\n- The broken thermistor on the outdoor aircon unit"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the benefit of VRF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With VRF technology, it's easy to heat and cool only the spaces that require it. These systems circulate just the right amount of refrigerant needed for each individual zone to meet the building's demands. Since they do not use ducts, this approach eliminates the energy waste typically associated with duct losses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the ideal temperature for a baby's / kids room?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When it comes to room temperature, if you feel that it's too cold, your baby likely feels the same way, and the same goes for warmth. Therefore, it's advisable to maintain a temperature between 68 and 72 degrees Fahrenheit, which is comfortable for both summer and winter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What temperature should I set my AC in summer in Dubai, UAE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "During the summer, the ideal room temperature is between 22 and 26 degrees Celsius. This range is considered comfortable for most people, as it helps keep the room cool while ensuring a pleasant living environment, as said by FAJ Engineer Malik Tayyeb."
+          }
+        }
+      ]
+    },
+   {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/goodman/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Goodman",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/goodman/"
+    }
+  ]
+}
+
+  ]
+}
 
   
   const handleItemClick = index => {
@@ -104,6 +278,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

@@ -45,6 +45,171 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Supra AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/supra/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Supra AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Supra AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Supra Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Supra Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Supra AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Supra AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sami K." },
+          "reviewBody": "Professional Supra AC repair service. Technicians resolved the cooling issue quickly and ensured the unit was running perfectly."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Huda A." },
+          "reviewBody": "Excellent maintenance service. Filters and coils of my Supra AC were thoroughly cleaned and everything works efficiently now."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Faris M." },
+          "reviewBody": "Reliable and fast repair service. My Supra AC was not cooling properly, and they fixed it on the same day."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via Google)" },
+          "reviewBody": "Highly recommended Supra AC servicing company. Professional technicians and reasonable pricing."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/supra/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the lifespan of a Supra air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With proper maintenance, which includes regular cleaning, inspections, and timely repairs by FAJ's professionals, a Supra air conditioner can last 15 years or more. Its lifespan can be affected by usage patterns, environmental conditions, and installation quality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is involved in servicing a Supra air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The technician will inspect both units to ensure smooth operation. They will clean the filters and coils of the indoor unit, remove dirt or dust, and check for proper airflow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you know Supra AC needs servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your AC is blowing warm air or not cooling properly, it needs maintenance. You may need to replace air filters, refill refrigerant, or have the Supra AC coils professionally cleaned by FAJ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in aircon servicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FAJ Professional Air Conditioning Servicing Includes:\n- Cleaning or Replacement of AC Air Filters\n- Checking and Cleaning the AC Evaporator Coils\n- Cleaning and Checking of AC Condenser Coil\n- Inspection of AC Refrigerant Levels\n- Checking of the AC Electrical Connections\n- Inspection of AC Fan and Blower Motor\n- Cleaning the AC Drainage System"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to know if a Supra AC capacitor is bad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You may have a failing AC capacitor if you notice:\n- AC system isn't blowing cold air\n- Humming noise from outdoor/indoor unit\n- Rising monthly Dewa bills\n- Air conditioner shuts off unexpectedly"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is E2 error on Supra inverter AC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An E2 error indicates an issue with the outdoor unit sensor. It occurs when the evaporation temperature is lower than the temperature in cooling or dry mode and can be identified by a small LED light on your AC."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/supra/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Air Conditioning Repair",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Supra",
+          "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/supra/"
+        }
+      ]
+    }
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -109,6 +274,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
