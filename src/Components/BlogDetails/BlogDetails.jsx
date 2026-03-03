@@ -404,13 +404,14 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     const h2Key = `${sectionName}_h2`;
     const h2PKey = `${sectionName}_h2_p`;
     const bulletsKey = `${sectionName}_bullets`;
+    const h2PointsKey = `${sectionName}_h2_points`;
     const imgKey = `${sectionName}_img`;
-    
+
 
     if (!blogPost[h2Key]) return null;
 
     return (
-      <div  key={sectionName}>
+      <div key={sectionName}>
         <h2>{blogPost[h2Key]}</h2>
         {blogPost[imgKey] && (
           <div className="col-md-8">
@@ -421,18 +422,26 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         {renderContent(blogPost[h2PKey])}
 
         {blogPost[bulletsKey] && Array.isArray(blogPost[bulletsKey]) && (
-        <ul>
-          {blogPost[bulletsKey].map((bullet, i) => (
-            <li key={i}>{bullet}</li>
-          ))}
-        </ul>
-      )}
+          <ul>
+            {blogPost[bulletsKey].map((bullet, i) => (
+              <li key={i}>{bullet}</li>
+            ))}
+          </ul>
+        )}
+
+        {blogPost[h2PointsKey] && Array.isArray(blogPost[h2PointsKey]) && (
+          <ol>
+            {blogPost[h2PointsKey].map((point, i) => (
+              <li key={i}>{point}</li>
+            ))}
+          </ol>
+        )}
 
         {[...Array(13)].map((_, i) => {
           const h3Key = `${sectionName}_h3_${i + 1}`;
           const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
           const h3ImgKey = `${sectionName}_h3_${i + 1}_img`;
-          
+
 
           if (!blogPost[h3Key]) return null;
 
@@ -445,6 +454,20 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 </div>
               )}
               {renderContent(blogPost[h3ContentKey])}
+              {blogPost[`${sectionName}_h3_${i + 1}_bullets`] && (
+                <ul>
+                  {blogPost[`${sectionName}_h3_${i + 1}_bullets`].map((bullet, idx) => (
+                    <li key={idx}>{bullet}</li>
+                  ))}
+                </ul>
+              )}
+              {blogPost[`${sectionName}_h3_${i + 1}_points`] && (
+                <ol>
+                  {blogPost[`${sectionName}_h3_${i + 1}_points`].map((point, idx) => (
+                    <li key={idx}>{point}</li>
+                  ))}
+                </ol>
+              )}
             </div>
           );
         })}
@@ -492,7 +515,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-          
+
         </Helmet>
       </HelmetProvider>
 
