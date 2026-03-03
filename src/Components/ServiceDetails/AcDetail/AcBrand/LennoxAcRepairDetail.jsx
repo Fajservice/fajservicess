@@ -456,14 +456,10 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* We specialise  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-              <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+            
 
 
-            <h3>We specialise in Lennox ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Lennox ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Lennox Split Air Conditioner Service: </strong> FAJ is a trusted provider of <a href="https://www.google.com/search?q=faj+technical+llc+gmb&rlz=1C1GCEU_en-GBPK1161PK1162&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIPCAYQLhgnGK8BGMcBGOoCMgkIBxAjGCcY6gLSAQsyNzQ0OTUwajBqN6gCCLACAfEFNHg2jm1mi9w&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=5820948940647875925">Lennox air conditioning repair</a> and maintenance services in Dubai. Our skilled technicians specialize in Lennox VRF air conditioning units, central AC ensuring optimal performance. Whether for routine maintenance or urgent repairs, we are committed to delivering customized services that prioritize client comfort.</p>

@@ -453,14 +453,10 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-              <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+            
 
 
-            <h3>We specialise in Trane ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Trane ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Trane Split Air Conditioner Service: </strong> FAJ is a reputable provider of Trane air conditioning cleaning services and maintenance in Dubai. Our team of skilled technicians specializes in Trane VRF central air conditioning units, ensuring they operate at optimal levels. Whether you require routine <a href="/services/air-conditioning-repair/ac-service/">AC maintenance</a> or immediate repairs, we are committed to delivering tailored services that prioritize your comfort.</p>

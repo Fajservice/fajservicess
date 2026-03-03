@@ -10,6 +10,7 @@ import HeaderForm from "../Headeform/HeaderForm";
 import Testimonial1 from "../Testimonial/Testimonial1";
 import BrandsSliderSection from "../BrandsSliderSection";
 import BeforeAfter from "../BeforeAfter/BeforeAfter";
+import PriceCardHomeCat from "../Services/homeappliances/PriceCardHomeappCat";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -176,7 +177,108 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
   const [testimonial_data, setTestimonialData] = useState([]);
   const [brandsLogo_data, setBrandsLogoData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+const coffeemachineServicesData = [
+     {
+      id: 1,
+      image: getImageSrc('coffee-machine-service'),
+ 
+      title: 'Coffee Machine Call-out',
+      icon: getImageSrc('calloutcard'),
+      price: 'AED230',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Just tell us about your faulty coffee machine, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
+      popupTitle: 'Coffee Machine Call-out  scope of work',
+      sections: [
+        {
+          items: [
+            'Inspection visit fee',
+            'Rectification of faults',
+            'Cost of minor repair work',
+            'Transportation pricing for services',
+            'Technical inspection onsite or workshop',
+            'Pick-up, drop-off, and reinstallation onsite',
+            'A quotation can be provided via call, WhatsApp, or email if needed.',
+            'The same call-out fee applies for diagnosing the coffee machine.'
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 230, callout fee applies based on the type, brand, capacity of the coffee machine unit, and location for each diagnosis.'
+        },
+        
+      ]
+    },
 
+    {
+      id: 2,
+      image: getImageSrc('CoffeeMachinesImages/coffee-machines-repair-8'),
+      warranty: '50- Days Warranty',
+      title: 'Coffee Machine Cleaning',
+      icon: getImageSrc('coffeemachinecleaning'),
+      price: 'AED395',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Book reliable coffee machine cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20Home%20Appliances%20Cleaning',
+      popupTitle: 'Coffee Machine Cleaning',
+      sections: [
+        {
+          heading: 'Depending on Capacity, Based on Type, Model, and Area',
+          items: [
+            'Coffee Maker',
+            'Coffee Brewer',
+            'Coffee Grinder',
+            'Coffee Machine',
+            'Vending Machine',
+            'Espresso Machine',
+            'Automatic Coffee Machine',
+            'Commercial Coffee Machine',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+         {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AAED 395 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+
+    {
+      id: 3,
+      image: getImageSrc('What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai'),
+
+      title: 'Coffee Machine Installation',
+      icon: getImageSrc('installationcard'),
+      price: 'AEDXXX',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'FAJ expert technicians will provide assistance to install coffee machines. Upgrade your kitchen with professional coffee machine installations!',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Maintenance',
+      popupTitle: 'Coffee Machine Installation',
+      sections: [
+        {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
+          items: [
+            'Coffee Maker Installation',
+            'Coffee Brewer Installation',
+            'Coffee Grinder Installation',
+            'Coffee Machine Installation',
+            'Vedning Machine Installation',
+            'Automatic Coffee Machine Installation',
+            'Commercial Coffee Machine Installation',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Costs related to MEP, carpentry, gypsum ceilings, painting, repair work, procurement-related installation parts / materials, and installation as needed.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED XXX fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+  ];
   const openModal = useCallback((e) => {
     e.preventDefault();
     setIsModalOpen(true);
@@ -269,7 +371,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
             </div>
           </div>
         </section>
-
+        <PriceCardHomeCat  services={coffeemachineServicesData}/>
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">

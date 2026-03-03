@@ -30,6 +30,223 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaKeyword = String(Keyword || "Ogeneral AC Repair in Dubai, O General AC Maintenance in Dubai, O General AC Fix in Dubai, O General AC Service in Dubai, O General Air Condition Repair in Dubai, O General Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "O General AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "O General AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "O General AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "O General Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "O General Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "O General AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "O General AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar U." },
+          "reviewBody": "I am extremely impressed with the OG AC repair service I received for my O General AC in my villa in Al Barsha. The technician, Rehman, was prompt, professional, and knowledgeable. He quickly diagnosed the issue and provided a clear explanation of the necessary aircon repairs. The work was completed efficiently and at a fair price for the AC cleaning service. I appreciated the communication throughout the process, from scheduling to follow-up. The team's attention to detail and commitment to customer satisfaction was evident. Now, my O General AC is running smoothly, and I couldn't be happier. I highly recommend this company for any air conditioning needs. They truly deserve a 5-star rating!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Max R." },
+          "reviewBody": "I recently had the pleasure of using FAJ Gree AC Repair and Maintenance company for my home in Damac Hills, and I must say they were exceptionally efficient. From the moment they arrived, their professionalism was evident. They quickly assessed the situation and went to work, wasting no time. What stood out was their precision and attention to detail in fixing the Gree AC. The technicians left no mess behind, and the final result was a neatly executed cooling system. It's clear that FAJ takes pride in its work and ensures customer satisfaction. I highly recommend their AC services for anyone in need of reliable and tidy Gree air conditioning solutions."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahsan R." },
+          "reviewBody": "We recently faced an urgent situation when our Daikin VRV air conditioning unit malfunctioned, continuously blowing hot air into our home. With two elderly adults in the household who both have medical conditions, this became a serious concern. Upon contacting FAJ Daikin Central AC Repair and Services at Jumeirah Golf Estate, we experienced exceptional understanding and empathy from their team."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Aleem A." },
+          "reviewBody": "FAJ Technical Services LLC will be handling the air conditioning repairs at our new restaurant in Business Bay Dubai. The entire process, from the initial stages to the maintenance service, was straightforward. The team was friendly and accommodating, making the experience pleasant."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mohsin S." },
+          "reviewBody": "My AC broke on a Thursday when temperatures reached 35 degrees. I called FAJ Technical Services LLC, and within an hour, their AC technicians arrived in our JVC area. They provided quick and affordable AC cleaning and repair services for my LG air conditioner. The job was neat and tidy; they didn't leave a speck of mess behind. I would rate their service 10/10 and highly recommend Joe and the FAJ team!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via 2GIS)" },
+          "reviewBody": "Very happy with my air conditioning system maintenance, very professional and friendly guys Muhammad Azeem and Adnan, best price offered, not a rip off company, will recommend it to everyone. Job was done on Saturday morning, guys cleaned up after, checked to make sure all working fine. Big thanks!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via 2GIS)" },
+          "reviewBody": "It's rare to find a business that 'delights' you as a customer. Only that can describe my experience start to finish with Masoom and Adnan. From the initial contact to the actual diagnostic/regas itself. So very accommodating, amazingly quick and efficient, my air condition was up and running again before I even knew it."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanzla H. (via 2GIS)" },
+          "reviewBody": "Their emergency AC repair service is quick and efficient. Also, their annual maintenance contract (AMC) gives peace of mind. Best AC service in Dubai."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via FAJ website)" },
+          "reviewBody": "An efficient team who could diagnose the fault and rectify the problem. They washed the indoor unit with water and took all the care not to mess up our office."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mr. Adnan (mentioned by customer, via FAJ website)" },
+          "reviewBody": "Mr Adnan give us the best service for AC Servicing. And he also repaired our AC and Refrigerator in limited price. Keep it up 👍👍"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/#faq",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is the warranty maintenance period?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In most cases, the maintenance period lasts between thirteen weeks and six months or longer, as specified in the contract. This means that any maintenance issues or defects that arise during this time are the builder's responsibility to fix and repair at no additional cost to you."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the E6 error in O General AC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The E6 error code in air conditioners usually indicates a communication failure between the indoor and outdoor units. This issue disrupts the synchronised operation of the system, leading to reduced cooling efficiency."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the error code H3 on O General AC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The H3 error code typically indicates a refrigerant leak in the AC system. Refrigerant is crucial for the cooling process, and a leak can lead to reduced cooling efficiency or even a total failure of the AC system."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why is my O General AC not cooling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If the O General air conditioner is not cooling, the compressor may be defective. The compressor is a motor that compresses the refrigerant and circulates it through the evaporator and condenser coils. If the compressor fails, the cooling cycle does not initiate, and the O General air conditioner will not cool properly."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can I increase my AC cooling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "9 Ways to Maximize Your A/C Efficiency: Seal AC Ducts, Raise the Thermostat, Install a Programmable Thermostat, Insulate and Weatherize, Check and Change AC Filters, Install Your Room aircon in the Shade, Keep Your AC Compressor Cool and Clean, Get Air Conditioning Annual Inspections."
+        }
+      },{
+        "@type": "Question",
+        "name": "What are the reasons for the O General AC not cooling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Here are the five most common causes of not cooling the O General AC and how to solve it: Your outdoor unit requires additional maintenance due to exposure to sunlight, rain, and debris. Unfitted AC unit; AC Clogged filter; AC Low Gas; The broken thermistor on the outdoor aircon unit."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the benefit of VRF?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With VRF technology, it's easy to heat and cool only the spaces that require it. These systems circulate just the right amount of refrigerant needed for each individual zone to meet the building's demands. Since they do not use ducts, this approach eliminates the energy waste typically associated with duct losses."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do I know the tonnage of my AC unit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To estimate the air conditioning tonnage you need, start by multiplying the square footage of the space you want to cool by 25. This calculation will give you the total number of BTUs required for adequate cooling. Next, divide that number by 12,000 to determine the tonnage capacity necessary for your new air conditioning unit."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to calculate AC tonnage from kW?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To convert tons of air conditioning (AC) to kilowatts (kW), follow these steps: 1 ton is equivalent to 12000 BTU (British Thermal Units). Additionally, 1 ton is equal to 0.0003929 horsepower (hp). Example: 1.5 tons = 1.5 x 12000 = 18000 BTU. hp = 18000 x 0.0003929 = 7.072 hp. 1 hp = 0.746 kW. Therefore, kW = 7.072 x 0.746 = 5.275 kW. This is a quick reference guide for converting tonnes to kilowatts in 2 seconds."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do I know if my baby is cold at night?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keep a close eye on your baby for signs of being too cold, such as cool skin, shivering, fussiness, or pale skin. To create an ideal sleep environment, maintain your baby’s room temperature between 68 and 72 degrees Fahrenheit and keep humidity levels around 40 to 60 percent. Dress your baby in layers to ensure they stay comfortable."
+        }
+      }]
+    },
+ {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "O General",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/"
+    }
+  ]
+}
+
+  ]
+}
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -104,6 +321,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -448,13 +666,9 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* We specialise  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-              <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+            
 
-            <h3>We specialise in O General ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in O General ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong> O General Split Air Conditioner Service: </strong> FAJ offers reliable repair and maintenance for O General split air conditioner in Dubai. Our expert team specialises in O General VRF and central AC, ensuring optimal performance and comfort. Count on us for both routine <a href="/services/air-conditioning-repair/ac-service/">AC maintenance</a> and urgent repairs. </p>

@@ -3375,6 +3375,10 @@ export const router = createBrowserRouter([
         path:"/services/air-conditioning-repair/brands/ogeneral/",
         element: <Navigate to="/services/air-conditioning-repair/brands/o-general/" replace />
       },
+      {
+        path:"/services/home-appliances-repair/brands/delonghi-coffee-machine-rep",
+        element: <Navigate to="/services/home-appliances-repair/brands/delonghi/" replace />
+      },
     ],
   }
 ]);

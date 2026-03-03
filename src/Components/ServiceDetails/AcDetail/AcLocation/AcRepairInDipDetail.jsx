@@ -468,7 +468,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                 {/* We specialise in air conditioning services for the following brands */}
                 <section className="section cs_py_30">
                     <div className="container">
-                         <h3 className="text-align-left">We specialise in air conditioning services for the following brands</h3>
+                         <h3 className="cs_fs_24 text-align-left">We specialise in air conditioning services for the following brands</h3>
                         <ul className="mb-3">
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/">LG Air Conditioner Service</a>:</strong> FAJ offers reliable LG AC repair and services near me in DIP. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near you, including AC repair and maintenance in DIP Dubai.</li>
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/">Samsung Air Conditioner Repair and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai DIP. Specialising in Samsung air conditioning repair service near me, we offer comprehensive air conditioning service ranging from AC fixing to AC cleaning service and AC maintenance in DIP Dubai.</li>

@@ -38,6 +38,223 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Coleman AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/coleman/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Coleman AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Coleman AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Coleman Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Coleman Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Coleman AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Coleman AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar U." },
+          "reviewBody": "I am extremely impressed with the OG AC repair service I received for my O General AC in my villa in Al Barsha. The technician, Rehman, was prompt, professional, and knowledgeable. He quickly diagnosed the issue and provided a clear explanation of the necessary aircon repairs. The work was completed efficiently and at a fair price for the AC cleaning service. I appreciated the communication throughout the process, from scheduling to follow-up. The team's attention to detail and commitment to customer satisfaction was evident. Now, my O General AC is running smoothly, and I couldn't be happier. I highly recommend this company for any air conditioning needs. They truly deserve a 5-star rating!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Max R." },
+          "reviewBody": "I recently had the pleasure of using FAJ Gree AC Repair and Maintenance company for my home in Damac Hills, and I must say they were exceptionally efficient. From the moment they arrived, their professionalism was evident. They quickly assessed the situation and went to work, wasting no time. What stood out was their precision and attention to detail in fixing the Gree AC. The technicians left no mess behind, and the final result was a neatly executed cooling system. It's clear that FAJ takes pride in its work and ensures customer satisfaction. I highly recommend their AC services for anyone in need of reliable and tidy Gree air conditioning solutions."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahsan R." },
+          "reviewBody": "We recently faced an urgent situation when our Daikin VRV air conditioning unit malfunctioned, continuously blowing hot air into our home. With two elderly adults in the household who both have medical conditions, this became a serious concern. Upon contacting FAJ Daikin Central AC Repair and Services at Jumeirah Golf Estate, we experienced exceptional understanding and empathy from their team."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Aleem A." },
+          "reviewBody": "FAJ Technical Services LLC will be handling the air conditioning repairs at our new restaurant in Business Bay Dubai. The entire process, from the initial stages to the maintenance service, was straightforward. The team was friendly and accommodating, making the experience pleasant."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mohsin S." },
+          "reviewBody": "My AC broke on a Thursday when temperatures reached 35 degrees. I called FAJ Technical Services LLC, and within an hour, their AC technicians arrived in our JVC area. They provided quick and affordable AC cleaning and repair services for my LG air conditioner. The job was neat and tidy; they didn't leave a speck of mess behind. I would rate their service 10/10 and highly recommend Joe and the FAJ team!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via 2GIS)" },
+          "reviewBody": "Very happy with my air conditioning system maintenance, very professional and friendly guys Muhammad Azeem and Adnan, best price offered, not a rip off company, will recommend it to everyone. Job was done on Saturday morning, guys cleaned up after, checked to make sure all working fine. Big thanks!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via 2GIS)" },
+          "reviewBody": "It's rare to find a business that 'delights' you as a customer. Only that can describe my experience start to finish with Masoom and Adnan. From the initial contact to the actual diagnostic/regas itself. So very accommodating, amazingly quick and efficient, my air condition was up and running again before I even knew it."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanzla H. (via 2GIS)" },
+          "reviewBody": "Their emergency AC repair service is quick and efficient. Also, their annual maintenance contract (AMC) gives peace of mind. Best AC service in Dubai."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via FAJ website)" },
+          "reviewBody": "An efficient team who could diagnose the fault and rectify the problem. They washed the indoor unit with water and took all the care not to mess up our office."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mr. Adnan (mentioned by customer, via FAJ website)" },
+          "reviewBody": "Mr Adnan give us the best service for AC Servicing. And he also repaired our AC and Refrigerator in limited price. Keep it up 👍👍"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/coleman/#faq",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How to maintain a Coleman air conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For single-zone mini-split systems, change the air filter every 3 to 6 months, clean both indoor and outdoor coils, check and clean the drain pan and line, inspect refrigerant levels, and schedule an annual tune-up."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to save energy in a Coleman Air Conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In COOL mode, press 'TEMP' and 'CLOCK' together to activate the energy-saving function. The display will show 'SE', and the system will automatically optimize the temperature for energy efficiency."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the best setting for Coleman AC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Set the thermostat to 78°F (26°C) during summer for comfort and energy efficiency. Use the timer feature to schedule cooling around your daily routine."
+        }
+      },{
+        "@type": "Question",
+        "name": "Does Coleman AC consume less electricity?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Coleman ACs are designed with advanced technology to use less power compared to other brands while still offering effective cooling. Their inverter systems are particularly energy-efficient."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why does my Coleman AC keep turning off?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your unit may be overheating due to compressor grime, or there could be a refrigerant leak. A faulty thermostat, damaged wiring, or an electrical issue might also cause repeated shut-offs."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the code E1 on Coleman AC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "E1 indicates high pressure in the system, often caused by dirty coils, restrictions, or overcharging. Check the coils and fans first. If the issue persists, a technician should inspect the high-pressure switch and refrigerant levels."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the error code E3 on a Coleman?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "E3 signals a low pressure protection alert. If the low-pressure switch stays off for 30 seconds while the unit is on or in standby, the system triggers this fault. After three such faults in 30 minutes, the system stops auto-resetting."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the error code E2, E4, and E5 on Coleman AC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "E2: Indicates frosting on the indoor unit radiator. E4: Signals high-temperature protection due to compressor tube overheating. E5: Triggers over-current protection caused by high or unstable voltage."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why is my Coleman air conditioner not cooling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Check for a dirty air filter and clean it if necessary. Ensure that the temperature is correctly set and that all required doors and windows are closed for optimal cooling."
+        }
+      },{
+        "@type": "Question",
+        "name": "What does temperature mean in a Coleman AC remote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pressing the TEMP button lets you cycle between viewing the set temperature, indoor ambient temperature, and outdoor ambient temperature on the display of the indoor unit."
+        }
+      }]
+    },
+ {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/coleman/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Coleman",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/coleman/"
+    }
+  ]
+}
+
+  ]
+}
 
   
  const handleItemClick = index => {
@@ -101,6 +318,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="twitter:title" content="Coleman Air Conditioning Cleaning and Maintenance Service" />
           <meta name="twitter:description" content="Relax with Residential And Commercial Coleman Air Conditioning. We are experts in HVAC and central air conditioner repair, maintenance service Dubai" />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -456,14 +674,10 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* We specialise  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-              <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+           
 
 
-            <h3>We specialise in Coleman AC services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Coleman AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <strong>  Coleman Split Air Conditioner Service: </strong> FAJ provides dependable repair and maintenance services for Coleman AC units in Dubai. Our team consists of professionals who are experts in Coleman split systems, Coleman VRF, and Coleman central air conditioning units. </p>

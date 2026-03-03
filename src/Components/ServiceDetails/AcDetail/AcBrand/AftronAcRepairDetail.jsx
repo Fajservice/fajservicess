@@ -45,6 +45,216 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const [data, setData] = useState([]);
   const [testimonial_data, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Aftron AC Repair Services in Dubai - FAJ Technical Services",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/air-conditioning-repair/brands/aftron/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Aftron AC Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Aftron AC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Aftron Split AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Aftron Central AC Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Aftron AC Maintenance" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Aftron AC Gas Refilling" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Omar U." },
+          "reviewBody": "I am extremely impressed with the OG AC repair service I received for my O General AC in my villa in Al Barsha. The technician, Rehman, was prompt, professional, and knowledgeable. He quickly diagnosed the issue and provided a clear explanation of the necessary aircon repairs. The work was completed efficiently and at a fair price for the AC cleaning service. I appreciated the communication throughout the process, from scheduling to follow-up. The team's attention to detail and commitment to customer satisfaction was evident. Now, my O General AC is running smoothly, and I couldn't be happier. I highly recommend this company for any air conditioning needs. They truly deserve a 5-star rating!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Max R." },
+          "reviewBody": "I recently had the pleasure of using FAJ Gree AC Repair and Maintenance company for my home in Damac Hills, and I must say they were exceptionally efficient. From the moment they arrived, their professionalism was evident. They quickly assessed the situation and went to work, wasting no time. What stood out was their precision and attention to detail in fixing the Gree AC. The technicians left no mess behind, and the final result was a neatly executed cooling system. It's clear that FAJ takes pride in its work and ensures customer satisfaction. I highly recommend their AC services for anyone in need of reliable and tidy Gree air conditioning solutions."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahsan R." },
+          "reviewBody": "We recently faced an urgent situation when our Daikin VRV air conditioning unit malfunctioned, continuously blowing hot air into our home. With two elderly adults in the household who both have medical conditions, this became a serious concern. Upon contacting FAJ Daikin Central AC Repair and Services at Jumeirah Golf Estate, we experienced exceptional understanding and empathy from their team."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Aleem A." },
+          "reviewBody": "FAJ Technical Services LLC will be handling the air conditioning repairs at our new restaurant in Business Bay Dubai. The entire process, from the initial stages to the maintenance service, was straightforward. The team was friendly and accommodating, making the experience pleasant."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mohsin S." },
+          "reviewBody": "My AC broke on a Thursday when temperatures reached 35 degrees. I called FAJ Technical Services LLC, and within an hour, their AC technicians arrived in our JVC area. They provided quick and affordable AC cleaning and repair services for my LG air conditioner. The job was neat and tidy; they didn't leave a speck of mess behind. I would rate their service 10/10 and highly recommend Joe and the FAJ team!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via 2GIS)" },
+          "reviewBody": "Very happy with my air conditioning system maintenance, very professional and friendly guys Muhammad Azeem and Adnan, best price offered, not a rip off company, will recommend it to everyone. Job was done on Saturday morning, guys cleaned up after, checked to make sure all working fine. Big thanks!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via 2GIS)" },
+          "reviewBody": "It's rare to find a business that 'delights' you as a customer. Only that can describe my experience start to finish with Masoom and Adnan. From the initial contact to the actual diagnostic/regas itself. So very accommodating, amazingly quick and efficient, my air condition was up and running again before I even knew it."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanzla H. (via 2GIS)" },
+          "reviewBody": "Their emergency AC repair service is quick and efficient. Also, their annual maintenance contract (AMC) gives peace of mind. Best AC service in Dubai."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anonymous (via FAJ website)" },
+          "reviewBody": "An efficient team who could diagnose the fault and rectify the problem. They washed the indoor unit with water and took all the care not to mess up our office."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Mr. Adnan (mentioned by customer, via FAJ website)" },
+          "reviewBody": "Mr Adnan give us the best service for AC Servicing. And he also repaired our AC and Refrigerator in limited price. Keep it up 👍👍"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/aftron/#faq",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is the lifespan of a Aftron air conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With proper maintenance, which includes regular cleaning, inspections, and timely repairs by FAJ's professionals, a Aftron air conditioner can last 15 years or more. However, its lifespan can also be affected by factors such as usage patterns, environmental conditions, and the quality of installation."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is involved in servicing a Aftron air conditioner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The technician will inspect both units to ensure they operate smoothly. They will clean the filters and coils of the indoor unit, remove any dirt or dust, and check for proper airflow."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do you know Aftron AC needs servicing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If your air conditioning unit is blowing warm air or not cooling properly, it's a clear sign that it needs maintenance. You may need to replace the air filters, refill the refrigerant, or have the Aftron AC coils professionally cleaned by a team from FAJ."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is included in aircon servicing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "FAJ Professional Air Conditioning Servicing Include: Cleaning or Replacement of AC Air Filters Checking and Cleaning the AC Evaporator Coils Cleaning and Checking of AC Condenser Coil Inspection of AC Refrigerant Levels Checking of the AC Electrical Connections Inspection of AC Fan and Blower Motor Cleaning the AC Drainage System"
+        }
+      },{
+        "@type": "Question",
+        "name": "Is it necessary to service AC every year?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While regular aircon maintenance checks are not mandatory, they are advisable. We recommend having your air conditioner serviced at least once a year, even in the absence of noticeable defects, to ensure optimal performance."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the most common Aftron AC repair?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most Common Aftron Air Conditioning Problems and Repairs Most Common Air Conditioning Repair – Bad Capacitor. Most Common Air Conditioning Repair – Low Gas. Most Common Air Conditioning Repair – Clogged Condensate Drain Line. Most Common Air Conditioning Repair – Failing Blower Motor"
+        }
+      },{
+        "@type": "Question",
+        "name": "How to know if a Aftron AC capacitor is bad?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The short answer is that you may have a failing AC capacitor if you are experiencing any of the following symptoms: Your AC system isn't blowing cold air. You hear a humming noise coming from the outdoor or indoor unit. Your monthly Dewa bills are rising unexpectedly. Your air conditioner will shut off unexpectedly."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is E2 error on Aftron inverter AC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If your air conditioning system displays an E2 error, it indicates an issue with the outdoor unit sensor. You can identify this error by a small LED light on your air conditioner. This problem occurs when the evaporation temperature is lower than the temperature in cooling or dry mode."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why Aftron AC is not working?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If the Aftron AC is not cooling, the problem may lie with the compressor. The compressor is a motor that compresses the refrigerant and circulates it through the evaporator and condenser coils. When the compressor malfunctions, the cooling cycle cannot initiate, causing the Aftron AC to fail in cooling effectively."
+        }
+      }]
+    },
+ {
+  "@type": "BreadcrumbList",
+  "@id": "https://www.fajservices.ae/services/air-conditioning-repair/brands/aftron/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fajservices.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://www.fajservices.ae/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Air Conditioning Repair",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Brands",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Aftron",
+      "item": "https://www.fajservices.ae/services/air-conditioning-repair/brands/aftron/"
+    }
+  ]
+}
+
+  ]
+}
 
 
   const handleItemClick = index => {
@@ -106,6 +316,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <meta name="twitter:title" content={metaTitle} />
           <meta name="twitter:description" content={metaDescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -523,14 +734,10 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* We specialise  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-              <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+           
 
 
-            <h3>We specialise in Aftron AC services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Aftron AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong> Aftron Air Conditioner Installation Service in Dubai: </strong>  A comprehensive solution for your cooling needs. We specialize in high-quality <a href="https://www.google.com/search?q=faj+technical+service+llc&rlz=1C1GCEU_en-GBPK1161PK1162&oq=faj+technical+service+llc&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQg3Mzg1ajBqN6gCCLACAfEF5bSBoZc-GIs&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-8538718177430601680">Aftron AC installation</a> services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
