@@ -281,11 +281,11 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
         const faqsData = await faqsResponse.json();
         const testimonialsData = await testimonialsResponse.json();
-        const brandsLogo_data = await brandsResponse.json();
+        const brandsLogoData = await brandsResponse.json();
 
         setData(faqsData);
         setTestimonialData(testimonialsData);
-        setBrandsLogoData(brandsLogo_data);
+        setBrandsLogoData(brandsLogoData);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
@@ -670,7 +670,10 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* Brands section */}
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
-            brandsData={brandsLogo_data}
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
             sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
