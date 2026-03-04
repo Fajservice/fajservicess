@@ -276,13 +276,16 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
         const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/BBQServiceFaqs.json`),
           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/BBQServiceTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/bbqBrandsLogo.json`),
         ]);
 
         const faqsData = await faqsResponse.json();
         const testimonialsData = await testimonialsResponse.json();
+        const brandsLogo_data = await brandsResponse.json();
 
         setData(faqsData);
         setTestimonialData(testimonialsData);
+        setBrandsLogoData(brandsLogo_data);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
