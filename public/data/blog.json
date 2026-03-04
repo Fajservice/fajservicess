@@ -5164,44 +5164,43 @@
             "Enhanced cooling consistency",
             "Better indoor air quality"
         ],
-        "sec_five_h3_content": [
-            "In regions with high dust levels, such as the UAE, AC filter cleaning Dubai services are particularly important. Sand particles and fine dust accumulate rapidly, making professional cleaning a necessity rather than an option."
-        ],
-        "sec_five_h3_4": "Enhanced Comfort",
-        "sec_five_h3_content_4": [
-            "Air circulation eliminates stuffiness and maintains consistent airflow, especially in rooms with ceiling ac vents that distribute air evenly from above."
-        ],
-
-         "sec_six_h2": "5. When Should You Use Ac vent mode?",
+         "sec_six_h2": "5. When to Consider AC Air Filter Replacement",
         "sec_six_h2_p": [
-            "Choosing the correct setting depends on weather conditions and indoor air quality needs."
+            "While cleaning helps, filters do not last forever. Ac air filter replacement becomes necessary when:"
         ],
-        "sec_six_h3_1": "Ideal Situations",
+        "sec_six_bullets": [
+            "The filter shows visible damage",
+            "It remains clogged after cleaning",
+            "Airflow remains weak",
+            "Allergy symptoms increase indoors"
+        ],
+
+        "sec_six_h3_1": "Most HVAC professionals recommend replacement every 1 to 3 months, depending on:",
         "sec_six_h3_1_bullets": [
-            "Mild outdoor temperatures",
-            "Low humidity conditions",
-            "When indoor air feels stale",
-            "During night time, when cooling is unnecessary"
-        ],
-         "sec_six_h3_2": "When to Avoid Vent Mode",
-        "sec_six_h3_content_2": [
-            "Avoid using ventilation when outdoor air quality is poor, extremely humid, or excessively hot. In such cases, the cooling mode is more appropriate to maintain comfort and humidity control.",
-            "Understanding these distinctions ensures you maximize the efficiency of the Ac vent mode without compromising comfort."
+            "Usage frequency",
+            "Presence of pets",
+            "Local air quality",
+            "Filter type"
         ],
 
-        "sec_seven_h2": "6. Maintenance Matters: Keeping Your AC Vent System Clean",
+        "sec_seven_h2": "6. Where Is the AC Filter Located in Your System",
         "sec_seven_h2_p": [
-            "Ventilation performance depends heavily on maintenance. Dirty ducts and blocked vents can circulate dust instead of fresh air."
+            "Many homeowners ask, where is the AC filter located? The answer depends on your HVAC configuration. Typically, it can be found in one of the following areas:"
         ],
-         "sec_seven_h3_1": "AC Maintenance Tips for Proper Airflow",
 
-         "sec_seven_h3_2": "1. Inspect AC vent covers",
-         "sec_seven_h3_content_2": [
-            "Dust often accumulates on AC vent covers, restricting airflow. Cleaning them regularly ensures proper air distribution."
+         "sec_seven_h3_1": "1. Return Air Vent",
+         "sec_seven_h3_content_1": [
+            "Often installed behind a grille in the wall or ceiling."
         ],
-        "sec_seven_h3_3": "2. Learn how to clean AC vents",
+
+         "sec_seven_h3_2": "2. Air Handler Unit",
+         "sec_seven_h3_content_2": [
+            "Located inside the indoor HVAC unit, usually in a dedicated slot."
+        ],
+        "sec_seven_h3_3": "3. Furnace Compartment",
         "sec_seven_h3_content_3": [
-            "Homeowners can gently vacuum visible vent openings. However, deep duct cleaning requires professional tools to remove hidden contaminants."
+            "In central systems, the filter may sit inside the furnace cabinet.",
+            "If you are unsure, consulting a qualified HVAC technician ensures proper handling and correct installation."
         ],
 
         "sec_seven_h3_4": "3. Schedule Professional AC vent cleaning near me",
