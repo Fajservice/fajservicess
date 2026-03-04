@@ -16,68 +16,7 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const schemaData = {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "HVACBusiness",
-      "@id": "https://www.fajservices.ae/#organization",
-      "name": "FAJ Technical Services L.L.C",
-      "url": "https://www.fajservices.ae/",
-      "telephone": "+97143300002",
-      "priceRange": "$$",
-      "image": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public",
-      "logo": {
-        "@type": "ImageObject",
-        "@id": "https://www.fajservices.ae/#logo",
-        "url": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public",
-        "width": 250,
-        "height": 60
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Warehouse # 2, Street 18b, Al Quoz Industrial Area 4",
-        "addressLocality": "Dubai",
-        "addressRegion": "Dubai",
-        "postalCode": "00000",
-        "addressCountry": "AE"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 25.110703822323963,
-        "longitude": 55.22749756674561
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
-          "opens": "08:00",
-          "closes": "18:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Friday",
-          "opens": "08:00",
-          "closes": "11:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Friday",
-          "opens": "14:30",
-          "closes": "18:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "12:00",
-          "closes": "18:00"
-        }
-      ],
-      "sameAs": [
-        "https://www.facebook.com/FAJTechnicalServicesLLC",
-        "https://www.instagram.com/fajtechnicalservicesllc/",
-        "https://x.com/FAJTechnical/",
-        "https://ae.linkedin.com/company/faj-technical-services-llc",
-        "https://www.pinterest.com/fajtechnicalservices/"
-      ]
-    },
+
     {
       "@type": "Review",
       "@id": "https://www.fajservices.ae/#review1",
