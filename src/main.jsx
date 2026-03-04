@@ -20,6 +20,7 @@ createRoot(document.getElementById("root")).render(
       <WelcomePopup />
       <HelmetProvider>
         <RouterProvider router={router} />
+        
       </HelmetProvider>
     </PopupProvider>
   </StrictMode>
