@@ -76,7 +76,6 @@ const LazyYouTube = ({ videoId, title }) => {
           style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
           src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
           title={title}
-          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
@@ -147,7 +146,7 @@ const schema ={
           {
             "@type": "OfferCatalog",
             "name": "Washing Machine Services",
-            "itemListElement": [
+            "itemListElement": [  
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Front Load Washing Machine Repair" } },
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Top Load Washing Machine Repair" } },
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Washing Machine Repair" } },
