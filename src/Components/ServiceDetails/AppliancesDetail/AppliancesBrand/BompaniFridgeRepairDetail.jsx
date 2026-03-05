@@ -136,7 +136,7 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_20 mb-1 mt-1">Specialised Bompani Washing Machine Repair and Service in Dubai</h2>
                                 <p className="mb-2">You shouldn't have to face a lack of clean clothes due to a malfunctioning Bompani washer dryer. Common issues include not powering on or failing to spin.<br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we handle these problems and also repair faulty displays and timers. Contact us today, and we'll send an expert technician to fix your Bompani appliance the same day. <br />Replacing a Bompani washing machine or tumble dryer can be expensive, so we aim to extend the lifespan of your Bompani washing machine repair service in Dubai</p>

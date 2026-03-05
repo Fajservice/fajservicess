@@ -252,8 +252,10 @@ const maytagServicesData = [
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Neff Home Appliance Repair and Service in Dubai</h1>
-            <p>When your Neff home appliance break down, it can be a real bother and throw off your entire day. This is where <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> steps in. With many years of experience since 2010, we offer dependable Neff kitchen appliance repair and servicing in Dubai.< br />We focus on resolving issues with Neff refrigerators, washing machines, dishwashers, Neff ovens, and stoves. If you're looking for white goods repair services in Dubai or Sharjah, reach out to us today, and we'll get your Neff appliance up and running in no time!</p>
+            <h1 className="cs_fs_30">Maytag Fridge Repair and Maytag Washing Machine Service in Dubai</h1>
+            <p>
+              If you're looking for a qualified technician for your Maytag appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we’ve offered dependable and affordable home appliance repair services. Our network features skilled professionals who specialize in Maytag appliance repair and are available nearby. We connect you with experienced technicians across Dubai and Sharjah who focus on your satisfaction and deliver efficient, reliable solutions for all your appliance needs.
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -267,15 +269,24 @@ const maytagServicesData = [
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Neff Fridge Repair and Service in Dubai</h2>
+                <h2 className="cs_fs_24 mb-1">Maytag Appliance Repair and Service </h2>
 
-                <p className="mb-2">We care to overlook how important our Neff fridge freezer really is. If your food is going bad too quickly or if your Neff fridge is making strange sounds, it’s time to get some help.<br/>At FAJ, our friendly team is ready to assist you at home. We know our way around Neff refrigerator repair and can tackle different issues, often having the right spare parts on hand.<br/>We strive to offer same-day Neff fridge repair and service, making sure your food stays fresh and your refrigerator runs like a champ. Your convenience is what matters most to us.</p>
+                <p className="mb-2">
+                  If you're experiencing problems with your Maytag appliances, FAJ is ready to help! Our expert repair team offers fast and affordable solutions for a wide range of issues, whether it’s a Maytag washing machine that won’t drain, a refrigerator that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start.
+                  Count on us for reliable Maytag appliance repair in Dubai and Sharjah. We deliver trusted, efficient service to get your appliances back in top condition.
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Specialised Neff Oven Repair and Stove Service in Dubai</h2>
-                <p className="mb-2">Is your gas or electric Neff oven not working, not heating up, or has the light gone out? Whatever the issue may be, we can help—welcome to FAJ!<br/>Our technicians have extensive experience with all models of Neff ovens and have encountered a wide variety of Neff oven and Neff induction problems. We understand how inconvenient it is to have a non-functioning oven or Neff stove. That’s why we offer same-day and next-day repair services, as well as out-of-hours repairs.<br/>Our goal is to restore your oven to working order as quickly as possible at a time that is convenient for you.</p>
+                </p>
+
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Maytag Appliances Service</h2>
+                <p className="mb-2">
+                  At FAJ Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Maytag products, often happen at the most inconvenient times. That’s why our trained and qualified Maytag technicians are available to provide you with reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Maytag appliance back in working order, allowing you to put your worries aside.
+
+                </p>
+
               </div>
+
               <div className="col-md-6 ">
 
                 <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="Maytag Washing Machine Repair" />

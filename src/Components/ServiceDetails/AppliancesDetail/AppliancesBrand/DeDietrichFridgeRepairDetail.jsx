@@ -166,7 +166,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_20 mb-1 mt-0">De Dietrich Fridge Repair and Service Near You</h2>
                   <p className="mb-1">If you need repair services for your De Dietrich refrigerator, FAJ is here to help! We offer fast and affordable solutions for a wide range of De Dietrich fridge issues. <br />Whether you’re dealing with a built-in washing machine that won’t drain, a De Dietrich refrigerator that isn’t cooling, an oven that won’t heat, or a  De Dietrich dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to assist you.<br />As a trusted De Dietrich fridge service provider, we respond quickly to restore your  De Dietrich appliances to full working order.</p>

@@ -167,7 +167,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Neff Fridge Repair and Service in Dubai</h2>
                 <p className="mb-2">We care to overlook how important our Neff fridge freezer really is. If your food is going bad too quickly or if your Neff fridge is making strange sounds, it’s time to get some help.< br/>At FAJ, our friendly team is ready to assist you at home. We know our way around Neff refrigerator repair and can tackle different issues, often having the right spare parts on hand.< br/>We strive to offer same-day Neff fridge repair and service, making sure your food stays fresh and your refrigerator runs like a champ. Your convenience is what matters most to us.</p>

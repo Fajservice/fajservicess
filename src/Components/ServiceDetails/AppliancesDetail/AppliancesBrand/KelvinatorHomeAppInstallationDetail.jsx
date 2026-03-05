@@ -167,7 +167,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_20 mb-1">Kelvinator Home Appliance Service and Kelvinator Refrigerator Repair in Dubai</h2>
                 <p className="mb-2">

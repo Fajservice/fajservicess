@@ -165,7 +165,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Gaggenau Fridge Repair and Service in Dubai</h2>
                 <p className="mb-1">We often underestimate the importance of our Gaggenau fridge freezer. If your food is spoiling quickly or your Gaggenau refrigerator is making unusual noises, it’s time to seek assistance. <br />At FAJ, our skilled team is ready to help you at home. We have experience with Gaggenau refrigerators and can manage a combination of issues, often having the necessary spare parts available. <br />We seek to provide same-day repair and service for your Gaggenau fridge, ensuring that your food stays fresh and your refrigerator runs smoothly. Your convenience is our top priority.</p>

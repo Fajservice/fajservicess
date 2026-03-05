@@ -171,7 +171,7 @@ We complete most Hoover kitchen appliance repair and services, including Hoover 
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Hoover Washing Machine Repair and Dryer Service</h2>
                 <p className="mb-2">Experiencing issues with a malfunctioning Hoover washer dryer can be frustrating, especially when faced with power failures or spinning problems. <br />Our company specializes in resolving these challenges, including faulty displays and timers. Contact us, and we will promptly dispatch a qualified Hoover technician to address your Hoover washing machine and Hoover dryer issues on the same day. <br />Instead of opting for replacement, we aim to extend the lifespan of your Hoover appliances through our reliable Hoover washing machine repair service in Dubai.</p>

@@ -137,7 +137,7 @@ const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_20 mb-1">Specialised Electrolux Washing Machine Repair and Service in Dubai</h2>
                                 <p className="mb-2">Dealing with a malfunctioning Electrolux washer dryer can be frustrating, especially when you need clean clothes. Common issues include failure to power on or spin. <br />We specialize in repairing these problems, as well as fixing faulty displays and timers. Contact us today, and we will send a qualified technician to address your Electrolux washing machine and Electrolux dryer issues on the same day. <br />Instead of incurring the cost of replacement, our goal is to extend the lifespan of your appliances through our reliable Electrolux washing machine repair and service in Dubai.</p>

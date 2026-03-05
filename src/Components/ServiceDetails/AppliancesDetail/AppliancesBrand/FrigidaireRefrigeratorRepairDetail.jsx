@@ -164,7 +164,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1 mt-0 text-align-left">Specialised Frigidaire Washing Machine Repair and Service in Dubai</h3>
 

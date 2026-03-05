@@ -168,7 +168,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_20 mb-1 mt-0" style={{ fontSize: "20px" }}>Specialised Fisher & Paykel Dishwasher Repair and Service in Dubai</h2>
                 <p className="mb-1">Facing a faulty Fisher & Paykel dishwasher can be frustrating, especially when you need clean dishes or glasses. Common issues include the dishwasher failing to power on or wash properly. <br />We specialise in fixing these problems, as well as addressing faulty displays and timers. Contact us today, and we will send a qualified technician to resolve your Fisher & Paykel dishwasher and washing machine issues on the same day. <br />Rather of incurring the cost of a replacement, our goal is to extend the lifespan of your appliances through our reliable Fisher & Paykel dishwasher repair service in Dubai.</p>

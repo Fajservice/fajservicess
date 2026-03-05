@@ -165,7 +165,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_20 mb-1 mt-0">Specialised Fagor Washing Machine Repair and Dryer Service in Dubai</h2>
                 <p className="mb-1">Handling a malfunctioning Fagor washer dryer can be very frustrating, especially when you're relying on clean clothes. Common issues often arise, such as the machine refusing to power on or spin properly, leaving you in a bind.<br />We specialize in fixing these problems, along with repairing faulty displays and timers. Contact us today, and we will send a qualified technician to address your Fagor washing machine and dryer issues on the same day. <br />Rather of incurring the cost of replacement, our goal is to extend the lifespan of your Fagor appliances through our reliable Fagor washing machine repair and Fagor dryer service in Dubai.</p>
