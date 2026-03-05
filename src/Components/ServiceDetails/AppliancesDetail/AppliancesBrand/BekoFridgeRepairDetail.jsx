@@ -152,7 +152,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Fast, Affordable Beko Home Appliance Repair and Service in Dubai</h1>
-            <p>If your Beko appliance has stopped working, you don't need to replace it. In most cases, getting a professional Beko appliance repair in Dubai is faster, more cost-effective, and more reliable than buying a new appliance. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> we specialise in repairing Beko washing machines, dishwashers, fridges, freezers, and small Beko appliances throughout Dubai. Our local expert technicians carry the necessary tools, diagnostic tools, and genuine Beko-compatible parts to address most issues on the first visit.</p>
+            <p>If your Beko appliance has stopped working, you don't need to replace it. In most cases, getting a professional Beko appliance repair in Dubai is faster, more cost-effective, and more reliable than buying a new appliance. <br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> we specialise in repairing Beko washing machines, dishwashers, fridges, freezers, and small Beko appliances throughout Dubai. Our local expert technicians carry the necessary tools, diagnostic tools, and genuine Beko-compatible parts to address most issues on the first visit.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

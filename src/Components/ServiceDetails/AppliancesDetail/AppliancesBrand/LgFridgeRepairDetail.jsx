@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "LG Fridge Repair in Dubai | LG Washing Machine Repair Near Me");
-  const metadescription = String(description || "Reliable & Fast LG fridge repair in Dubai. FAJ specialises in LG washer dryer, refrigerator, dishwasher repair & cooker LG service center in Dubai");
+  const metatitle = String(titleSeo || "LG Appliances Service | LG Washing Machine Repair Dubai");
+  const metadescription = String(description || "Reliable & Fast LG appliances service. FAJ specialises in LG fridge, washing machine, dryer, LG refrigerator, dishwasher & cooker LG repair center Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "LG Fridge Repair, LG Washing Machine Repair, LG Cooker Repair, LG Oven Repair, LG Appliances Maintenance, LG Refrigerator Fix, LG Dishwasher Repair");

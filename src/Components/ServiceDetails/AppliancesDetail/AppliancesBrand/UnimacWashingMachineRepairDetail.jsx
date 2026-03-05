@@ -86,7 +86,7 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
 const unimacServicesData = [
      {
       id: 1,
-      image: getImageSrc('applycalouthome'),
+      image: getImageSrc('laundry-equipment-maintenance-service'),
  
       title: 'Appliance Call-out',
       icon: getImageSrc('calloutcard'),
@@ -120,7 +120,7 @@ const unimacServicesData = [
 
     {
       id: 2,
-      image: getImageSrc('appliancescleaninghome'),
+      image: getImageSrc('laundry-equipment-repair'),
       warranty: '50- Days Warranty',
       title: 'Appliance Cleaning',
       icon: getImageSrc('cleaningcard'),

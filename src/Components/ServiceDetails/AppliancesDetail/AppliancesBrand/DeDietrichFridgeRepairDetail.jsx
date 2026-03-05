@@ -151,7 +151,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">De Dietrich Home Appliance Repair and Service in Dubai</h1>
-            <p>Are you having problems finding a trustworthy technician for your De Dietrich home appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. <br />At FAJ, our field technicians are fully equipped to De Dietrich appliances service and repair all De Dietrich appliances, including De Dietrich washing machines, cookers, ovens, and tumble dryers. We perform a safety check after each De Dietrich repair and provide a warranty on all parts and labor. As a De Dietrich appliance service center, we ensure prompt and professional service with a warranty on all work.</p>
+            <p>Are you having problems finding a trustworthy technician for your De Dietrich home appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. <br />At FAJ, our field technicians are fully equipped to De Dietrich appliances service and repair all De Dietrich appliances, including De Dietrich washing machines, cookers, ovens, and tumble dryers. We perform a safety check after each De Dietrich repair and provide a warranty on all parts and labor. <br />As a De Dietrich appliance service center, we ensure prompt and professional service with a warranty on all work.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -169,10 +169,10 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <div className="row gx-md-5">
               <div className="col-md-6">
                 <h2 className="cs_fs_20 mb-1 mt-0">De Dietrich Fridge Repair and Service Near You</h2>
-                  <p className="mb-1">If you need repair services for your De Dietrich refrigerator, FAJ is here to help! We offer fast and affordable solutions for a wide range of De Dietrich fridge issues. Whether you’re dealing with a built-in washing machine that won’t drain, a De Dietrich refrigerator that isn’t cooling, an oven that won’t heat, or a  De Dietrich dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to assist you.<br />As a trusted De Dietrich fridge service provider, we respond quickly to restore your  De Dietrich appliances to full working order.</p>
+                  <p className="mb-1">If you need repair services for your De Dietrich refrigerator, FAJ is here to help! We offer fast and affordable solutions for a wide range of De Dietrich fridge issues. <br />Whether you’re dealing with a built-in washing machine that won’t drain, a De Dietrich refrigerator that isn’t cooling, an oven that won’t heat, or a  De Dietrich dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to assist you.<br />As a trusted De Dietrich fridge service provider, we respond quickly to restore your  De Dietrich appliances to full working order.</p>
 
                 <h2 className="cs_fs_20 mb-1 pt-1 mt-0" style={{ fontSize: "20px" }}>De Dietrich Oven Repair and Service in Dubai</h2>
-                <p className="mb-2">We often overlook the importance of our De Dietrich oven or stove. If your oven isn't heating properly, it’s time to get help. At FAJ, our experienced team can assist you at home with De Dietrich induction hobs and has many spare parts readily available. We aim to provide same-day repair services to keep your De Dietrich cooker running smoothly, prioritising your convenience.</p>
+                <p className="mb-2">We often overlook the importance of our De Dietrich oven or stove. If your oven isn't heating properly, it’s time to get help. <br />At FAJ, our experienced team can assist you at home with De Dietrich induction hobs and has many spare parts readily available. <br />We aim to provide same-day repair services to keep your De Dietrich cooker running smoothly, prioritising your convenience.</p>
               </div>
 
               <div className="col-md-6 ">

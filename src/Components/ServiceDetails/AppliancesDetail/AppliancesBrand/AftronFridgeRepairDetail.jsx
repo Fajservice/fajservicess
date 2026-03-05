@@ -154,7 +154,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')} alt="Aftron Washing Machine Repair" />
+                                <img className="bordered-img w-100" src={getImageSrc('aclogos/aftaon')} alt="Aftron Washing Machine Repair" style={{objectFit: "contain"}}/>
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>

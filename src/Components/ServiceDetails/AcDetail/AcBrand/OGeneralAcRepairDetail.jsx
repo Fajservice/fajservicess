@@ -348,7 +348,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* 2 cols */}
         <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5 expert_section_wrapper">
+            <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">O General Ac Maintenance and Servicing</h2>
                 <p className="mb-2">For O General air conditioning unit repairs, it’s essential to choose  a skilled technician.

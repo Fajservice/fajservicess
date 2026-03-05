@@ -37,7 +37,108 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+   const bertazzoniServicesData = [
+     {
+      id: 1,
+      image: getImageSrc('gas-cooker-repair-services'),
+ 
+      title: 'Appliance Call-out',
+      icon: getImageSrc('calloutcard'),
+      price: 'AED315',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
+      popupTitle: 'Appliance Call-out  scope of work:',
+      sections: [
+        {
+          items: [
+            'Inspection visit fee',
+            'Rectification of faults',
+            'Cost of minor repair work',
+            'Transportation pricing for services',
+            'Technical inspection onsite or workshop',
+            'Pick-up, drop-off, and reinstallation onsite',
+            'A quotation can be provided via call, WhatsApp, or email if needed.',
+            'The same call-out fee applies for diagnosing either one or two appliances at the same place.'
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 315, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
+        },
+        
+      ]
+    },
 
+    {
+      id: 2,
+      image: getImageSrc('lagermaniaservice'),
+      warranty: '50- Days Warranty',
+      title: 'Appliance Cleaning',
+      icon: getImageSrc('cleaningcard'),
+      price: 'AED1325',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20Home%20Appliances%20Cleaning',
+      popupTitle: 'Cleaning Appliances',
+      sections: [
+        {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
+          items: [
+            'Hob Cleaning',
+            'Oven Cleaning',
+            'Freezer Cleaning',
+            'Gas Range Cleaning',
+            'Dishwasher Cleaning',
+            'Refrigerator Cleaning',
+            'Hood / Chimney Cleaning',
+            'Washing Machine Cleaning',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+         {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 1325 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+
+    {
+      id: 3,
+      image: getImageSrc('ovenhomecard'),
+
+      title: 'Home Appliances Installation',
+      icon: getImageSrc('installationcard'),
+      price: 'AED365',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Maintenance',
+      popupTitle: 'Appliances Installation',
+      sections: [
+        {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
+          items: [
+            'Refrigerator Installation',
+            'Dish Washer Installation',
+            'Electric Cooker Installation',
+            'Hood / Chimney Installation',
+            'Washing Machine Installation',
+            'Built-in Microwave Installation',
+            'Built-in Dishwasher Installation',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Costs related to MEP, carpentry, gypsum ceilings, painting, repair work, procurement-related installation parts / materials, and installation as needed.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 365 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+  ];
    // State for fetched data
       const [data, setData] = useState([]);
       const [testimonial_data, setTestimonialData] = useState([]);
@@ -163,17 +264,17 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           </div>
         </section>
 
-        <PriceCardHomeCat />
+        <PriceCardHomeCat services={bertazzoniServicesData}/>
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Bertazzoni Cooking Range and Cooker Repair and Service Dubai</h3>
+                <h3 className="cs_fs_24 mb-1 mt-0">Bertazzoni Cooking Range and Cooker Repair and Service Dubai</h3>
 
                 <p className="mb-2">The Bertazzoni cooker repair center Dubai values your time, which is why they focus on efficiency in their operations. Once you’ve booked a service appointment, their technicians arrive promptly at your doorstep, ready to address the issue.<br />Their attention to detail ensures that they complete repairs on Bertazzoni gas cookers, cooking ranges, hobs, and induction stoves repair and service Dubai them efficiently, minimising any disruption to your daily routine.</p>
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Get Bertazzoni Oven Repair Near You</h3>
+                <h3 className="cs_fs_24 mb-1 pt-1 mt-0">Get Bertazzoni Oven Repair Near You</h3>
                 <p className="mb-2">Bertazzoni gas and electric ovens are essential appliances for everyday cooking and baking. When they break down, it can disrupt your entire routine. That’s why it’s crucial to find a reliable Bertazzoni oven repair and service specialist near you, whether you're in Dubai or Sharjah, for fast support.</p>
               </div>
 

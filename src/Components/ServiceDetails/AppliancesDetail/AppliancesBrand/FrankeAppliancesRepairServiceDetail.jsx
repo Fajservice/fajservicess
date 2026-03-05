@@ -149,11 +149,9 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Franke Appliances Repair, Dishwasher & Oven Service in Dubai</h1>
-            <p>
-              Having trouble finding a reliable technician for your Franke kitchen appliances?
-              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Franke appliance.
-            </p>
+            <h1 className="cs_fs_30">Franke Home Appliance Repair and Maintenance Service in Dubai</h1>
+            <p>When your appliances break down, it’s not only inconvenient, but it can also disrupt your entire day. That’s where <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> comes in. With over a decade of experience since 2010, we provide reliable repair and service for Franke appliances. We specialize in the repair of Franke refrigerators, washing machines, dishwashers, ovens, and stoves. If you need white goods repair services in Dubai or Sharjah, book with us today, and we’ll have your Franke appliance fixed in no time!
+</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -170,20 +168,12 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Franke Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Franke Fridge Repair and Service in Dubai</h2>
 
-                <p className="mb-2">
-                  If you're in need of repair services for your Franke appliances, FAJ Technical Services L.L.C has you covered!
-                  We provide fast, affordable solutions for all your Franke appliance issues. Whether it’s a built-in washing machine that won’t drain, a fridge not cooling, an oven not heating, or a dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to help.
-                  As your trusted local service provider, we respond quickly to get your appliances back in perfect working order.
+                <p className="mb-1">We often underestimate the importance of our Franke fridge freezer. If your food is spoiling quickly or your Franke refrigerator is making unusual noises, it’s time to seek assistance. <br />At FAJ, our skilled team is ready to help you at home. We have experience with Franke refrigerators and can manage a combination of issues, often having the necessary spare parts available. <br />We seek to provide same-day repair and service for your Franke fridge, ensuring that your food stays fresh and your refrigerator runs smoothly. Your convenience is our top priority.</p>
 
-
-                </p>
-
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable  Franke Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Franke products, rarely happen at a convenient time. That’s why our trained Franke technicians are ready to provide reliable Franke <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
-                </p>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Specialised Franke Oven Repair and Stove Service in Dubai</h2>
+                <p className="mb-2">Is your Franke oven not working, not heating up, or has the light gone out? Whatever the issue may be, we can help—welcome to FAJ! <br />Our technicians have extensive experience with all models of Franke ovens and have experienced a wide variety of Franke oven or stove problems and faults. We understand how inconvenient it can be to have a non-working oven or Franke stove, which is why we offer same-day and next-day repair services. We also provide out-of-hours Franke oven repairs. <br />Our goal is to get your oven operational again as quickly as possible at a time that is convenient for you.</p>
 
               </div>
 

@@ -306,7 +306,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5 expert_section_wrapper">
+            <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Best Super General AC Repair in Dubai</h2>
                 <p className="mb-2">If you find yourself in Dubai and are in need of Super General <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">air conditioner repair</a>, look no further than FAJ!<br />Our skilled team of professionals is dedicated to ensuring that your air conditioning systems operate at peak performance throughout Dubai and Sharjah.</p>

@@ -3379,6 +3379,14 @@ export const router = createBrowserRouter([
         path:"/services/home-appliances-repair/brands/delonghi-coffee-machine-rep",
         element: <Navigate to="/services/home-appliances-repair/brands/delonghi/" replace />
       },
+      {
+        path:"/services/commercial-washing-machine-repair/",
+        element : <Navigate to="/services/commercial-washing-machine-repair/" replace />
+      },
+      {
+        path:"ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/",
+        element: <Navigate to="/services/air-conditioning-repair/coverage-area/al-barsha/" replace />
+      },
     ],
   }
 ]);

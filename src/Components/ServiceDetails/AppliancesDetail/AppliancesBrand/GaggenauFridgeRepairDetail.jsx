@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Gaggenau Fridge Repair in Dubai | Stove & Oven Service Near Me");
-  const metadescription = String(description || "FAJ specialises in Gaggenau fridge repair in Dubai and cooker, dishwasher, repairs, refrigerator freezer, and washer service centre near me");
+  const metatitle = String(titleSeo || "Gaggenau Fridge Repair Dubai | Gaggenau Stove & Oven Service");
+  const metadescription = String(description || "FAJ specialises in Gaggenau appliance repair Dubai and cooker, dishwasher, repairs, Gaggenau refrigerator freezer, and washer service centre near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Gaggenau Fridge Repair, Gaggenau Washing Machine Repair, Gaggenau Cooker Repair, Gaggenau Oven Repair, Gaggenau Appliances Maintenance, Gaggenau Refrigerator Service Dubai");
@@ -150,11 +150,8 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Gaggenau Fridge Repair in Dubai | Cooking Range & Oven Service </h1>
-            <p>
-              Having a hard time locating a local technician who specializes in Gaggenau kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable repair services since 2010. Our extensive network of thoroughly screened and experienced professionals ensures that, whenever possible, we’ll assign a technician with hands-on experience in servicing your specific Gaggenau appliance.
-
-            </p>
+            <h1 className="cs_fs_30">Gaggenau Home Appliance Repair and Maintenance Service in Dubai</h1>
+            <p>When your Gaggenau appliances break down, it’s not only inconvenient, but it can also disrupt your entire day. That’s where <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> comes in. With over a decade of experience since 2010, we provide reliable repair and service for Gaggenau appliances.<br/>We specialise in the repair of Gaggenau refrigerators, washing machines, dishwashers, ovens, and stoves. If you need white goods repair services in Dubai or Sharjah, book with us today, and we’ll have your Gaggenau appliance fixed in no time!</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -170,17 +167,11 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Gaggenau Washing Machine Repair Near You</h2>
-                <p className="mb-2">
-                  If you need repair services for your Gaggenau appliances, FAJ Technical Services is here to assist! We deliver fast, reliable, and cost-effective solutions.
-                  Whether your built-in Gaggenau washing machine isn’t draining, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our experienced repair team in Dubai and Sharjah is ready to help.
-                  As a trusted local provider, we ensure quick response times to get your appliances running smoothly again.
-                </p>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Gaggenau Fridge Repair and Service in Dubai</h2>
+                <p className="mb-1">We often underestimate the importance of our Gaggenau fridge freezer. If your food is spoiling quickly or your Gaggenau refrigerator is making unusual noises, it’s time to seek assistance. <br />At FAJ, our skilled team is ready to help you at home. We have experience with Gaggenau refrigerators and can manage a combination of issues, often having the necessary spare parts available. <br />We seek to provide same-day repair and service for your Gaggenau fridge, ensuring that your food stays fresh and your refrigerator runs smoothly. Your convenience is our top priority.</p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Gaggenau Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that Gaggenau appliance breakdowns often happen when you least expect them. That’s why our skilled and Gaggenau technicians are ready to provide dependable and timely <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your Gaggenau appliance back in working condition before it causes any major disruption.
-                </p>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Specialised Gaggenau Oven Repair and Stove Service in Dubai</h2>
+                <p className="mb-2">Is your Gaggenau oven not working, not heating up, or has the light gone out? Whatever the issue may be, we can help—welcome to FAJ! <br />Our technicians have extensive experience with all models of Gaggenau ovens and have experienced a wide variety of Gaggenau oven or stove problems and faults. We understand how inconvenient it can be to have a non-working oven or Gaggenau stove, which is why we offer same-day and next-day repair services. We also provide out-of-hours Franke oven repairs. <br />Our goal is to get your oven operational again as quickly as possible at a time that is convenient for you.</p>
 
               </div>
 

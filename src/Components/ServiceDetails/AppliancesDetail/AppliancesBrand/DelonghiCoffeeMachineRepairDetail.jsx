@@ -23,7 +23,7 @@ const getImageSrc = (imgPath) => {
 const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "DeLonghi Coffee Machine Repair and Maintenance Service Dubai");
-  const metadescription = String(description || "Quick DeLonghi coffee machine repair in Dubai. Your trusted center for automatic coffee machine & espresso machine, descaling & cleaning services.");
+  const metadescription = String(description || "DeLonghi coffee machine service. Your trusted repair center for automatic coffee machine & espresso machine cleaning, maintenance & descaling Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/delonghi/");
@@ -248,10 +248,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
             <h1 className="cs_fs_30">DeLonghi Coffee Machine Repair and Maintenance Service in Dubai</h1>
             {/* 
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
-            <p>
-              At De’Longhi, we take pride in offering services that meet the diverse needs of coffee lovers in Dubai, UAE. Since 2010, <a href="https://www.fajservices.ae/">FAJ Technical Services L.L.C</a> has been providing a range of DeLonghi coffee machine repair and maintenance services, including cleaning and descaling.<br />Whether you enjoy single-origin coffees or premium ground blends, we are here to assist you. Whether you prefer brewing your coffee at the push of a button or mastering the art of coffee-making with a manual machine, we hope you enjoy many years of use from your De’Longhi coffee machine.
-
-            </p>
+            <p>At De’Longhi, we take pride in offering services that meet the diverse needs of coffee lovers in Dubai, UAE. Since 2010, <a href="https://www.fajservices.ae/">FAJ Technical Services L.L.C</a> has been providing a range of DeLonghi coffee maker, DeLonghi coffee machine repair and maintenance services, including cleaning and descaling.< br/>Whether you enjoy single-origin coffees or premium ground blends, we are here to assist you. Whether you prefer brewing your coffee at the push of a button or mastering the art of coffee-making with a manual machine, we hope you enjoy many years of use from your De’Longhi coffee machine.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -269,18 +266,12 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">DeLonghi Coffee Machine Serving and Descaling</h3>
+                <h3 className="cs_fs_24 mb-1">DeLonghi Coffee Machine Servicing and Descaling</h3>
 
-                <p className="mb-2">
-                  When your DeLonghi coffee machine breaks down, it can disrupt your routine. FAJ offers fast and efficient DeLonghi coffee machine repair services near you.< br />
-We specialise in DeLonghi espresso machine descaling, cleaning, water leaks, steam wand issues, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back in shape.
-
-                </p>
+                <p className="mb-2">When your DeLonghi coffee machine breaks down, it can disrupt your routine. FAJ offers fast and efficient DeLonghi coffee machine repair services near you.< br/>We specialise in DeLonghi espresso machine cleaning service, descaling, water leaks, steam wand issues, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back in shape.</p>
 
                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">DeLonghi Coffee Machine Repair and Maintenance Contract</h3>
-                <p className="mb-2">We are here to help with whatever you need. A scheduled AMC service contract for your DeLonghi coffee machine covering cleaning and descaling is essential for smooth operation year-round.< br />
-Regular maintenance is important for all types of coffee machines, whether for home, office, café, or restaurant use. Let us make your life easier.
-</p>
+                <p className="mb-2">We are here to help with whatever you need. A scheduled AMC service contract for your De Longhi coffee machine covering cleaning and descaling is essential for smooth operation year-round.< br/>Regular maintenance is important for all types of coffee machines, whether for home, office, café, or restaurant use. Let us make your life easier.</p>
               </div>
 
               <div className="col-md-6 ">
