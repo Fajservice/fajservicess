@@ -36,6 +36,69 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Hotpoint Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/hotpoint/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3320",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Hotpoint Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Hotpoint Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotpoint Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotpoint Fridge Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotpoint Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotpoint Home Appliance Service Center" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotpoint Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotpoint Cooking Range and Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotpoint Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotpoint Oven Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Anusri Chan" }, "reviewBody": "Hotpoint washing machine repair completed efficiently. Technician ensured proper functioning and shared maintenance tips.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Haris M" }, "reviewBody": "Hotpoint oven was repaired professionally. Technician Que handled the service quickly and thoroughly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Khurram Mahmood" }, "reviewBody": "Excellent Hotpoint refrigerator repair service. Technician was knowledgeable and resolved the issue without delay.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Jason Miller" }, "reviewBody": "Hotpoint dishwasher repair was seamless. Team communicated well and delivered excellent results.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Affu Affu" }, "reviewBody": "Highly recommend FAJ for Hotpoint appliance repairs. Reliable, professional, and efficient service from start to finish.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/hotpoint/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Hotpoint", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/hotpoint/" }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -141,6 +204,7 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

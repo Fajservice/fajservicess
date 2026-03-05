@@ -36,6 +36,118 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Bompani Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/bompani/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "3347",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bompani Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Bompani Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bompani Washing Machine Repair Near You in Dubai" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bompani Fridge Repair Near You in Dubai" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bompani Freezer Repair Near You in Dubai" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bompani Home Appliance Service Center Near You" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bompani Dishwasher Repair Near You in Dubai" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bompani Cooking Range and Oven Repair Near You" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bompani Dryer Repair and Service Near You" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bompani Oven Repair Near Me Dubai" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewBody": "Mr.Abdullah and Tarin come to fix our built in dishwasher and they were very helpful on the matter. Fixed our issue within 10 mins and also with a reasonable price!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Stefanie Giersch" },
+          "reviewBody": "Thanks to abdullah i can cook and go wild in my kitchen, knowing my dishwasher is set and ready. More importantly, me being german, he arrived as scheduled on time everytime. Friendly, efficient, and my pup stevie was very happy with him. That says alot to me as a dog mom. Thanks abdullah 👌💪🏻",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "GHASIF SAJID" },
+          "reviewBody": "I had an excellent experience with FAJ! They came to repair my washing machine and also serviced my AC in The Greens. ABDULLAH was professional, punctual, and explained everything clearly. The washing machine was fixed quickly, and my AC is now running smoothly and cooling much better. Really impressed with their efficiency and customer service. Highly recommend FAJ for reliable home appliance repairs and AC servicing!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "DUNJA LAZOVIC" },
+          "reviewBody": "Fast and reliable services. Our washing machine broke down, the team came same day, on day 2 we got the quote for the repair, approved it, and on day 3 the machine was delivered back to us. Thank you to Mr. Abdullah for fast reinstallation.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "CHRISTDAI ALBURO" },
+          "reviewBody": "I was so pleased with the service I received from FAJ Technical Service. They went above and beyond to help me fix my washing machine! Thanks to Ms. Regina from customer service, she was very helpful and explained what was needed. The team arrived in less than an hour and fixed the machine without any delay. Thank you so much Kazeem from the technician. Highly recommend their quality and fast service! Thank you FAJ! one of my favorites!!! :)",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "KARTHIKA" },
+          "reviewBody": "These guys are fast! Came to check my broken washing machine the very same day I messaged them. In a week it was fixed and brought back to me. Abdullah was the one who assisted me and he was very helpful and patient.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "LEENU JACOB" },
+          "reviewBody": "I am very satisfied with the washing machine service. The team responded quickly to my request and identified the problem without delay. The repair was done efficiently, and now the machine is working perfectly. I really appreciate the prompt response and successful service.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Farah B" },
+          "reviewBody": "Abdullah did a great job fixing our fridge. Very professional services.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "USMAN ALI" },
+          "reviewBody": "Abdullah from FAJ did a great job fixing our fridge and washing machine here in Arabian Ranches. He came on time, was super friendly, and got everything working again without any hassle. Really professional but also easy to deal with. If you ever need appliance repairs around the Ranches, I’d definitely recommend calling him!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/bompani/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Bompani", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/bompani/" }
+      ]
+    }
+  ]
+}
 
     // State for fetched data
        const [data, setData] = useState([]);
@@ -110,6 +222,7 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
+                    <script type="application/ld+json">{JSON.stringify(schema)}</script>
                     
                 </Helmet>
             </HelmetProvider>

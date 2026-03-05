@@ -38,6 +38,117 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Terim Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/terim/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3000",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Terim Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Terim Appliances Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Terim Oven Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Terim Dishwasher Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Terim Cooker Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Terim Hood & Hob Repair" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewBody": "Mr.Abdullah and Tarin come to fix our built in dishwasher and they were very helpful on the matter. Fixed our issue within 10 mins and also with a reasonable price!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Stefanie Giersch" },
+          "reviewBody": "Thanks to abdullah i can cook and go wild in my kitchen, knowing my dishwasher is set and ready. More importantly, me being german, he arrived as scheduled on time everytime. Friendly, efficient, and my pup stevie was very happy with him. That says alot to me as a dog mom. Thanks abdullah",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/terim/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Terim",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/terim/"
+        }
+      ]
+    }
+  ]
+}
 
     // State for fetched data
        const [data, setData] = useState([]);
@@ -141,6 +252,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
+                    <script type="application/ld+json">{JSON.stringify(schema)}</script>
                     
                 </Helmet>
             </HelmetProvider>

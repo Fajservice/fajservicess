@@ -36,6 +36,94 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "KitchenAid Stand Mixer Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/kitchenaid-stand-mixer-repair/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3300",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "KitchenAid Stand Mixer Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "KitchenAid Stand Mixer Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "KitchenAid Stand Mixer Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Other Kitchen Appliances Repair" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anusri Chan" },
+          "reviewBody": "The stand mixer repair was completed successfully. The mixer is functioning smoothly and I am satisfied with the quality of service. Special thanks to Abdullah for the support.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Affu Affu" },
+          "reviewBody": "Highly recommended service. They repaired my stand mixer very quickly and also provide washing machine and fridge repair services.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Tohidur Rahman" },
+          "reviewBody": "They repaired my stand mixer efficiently. Good service center in Dubai with reliable technicians. Highly recommended.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanan Tariq" },
+          "reviewBody": "Friendly and efficient service. FAJ Technical Services L.L.C diagnosed the mixer issue quickly and fixed it without delay.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ziddy Jatt" },
+          "reviewBody": "We received genuine parts for our stand mixer repair. They also handle refrigerator and AC repair services using original parts.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/kitchenaid-stand-mixer-repair/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "KitchenAid Stand Mixer", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/kitchenaid-stand-mixer-repair/" }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -141,6 +229,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

@@ -36,6 +36,65 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Gaggenau Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/gaggenau/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "2920",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Gaggenau Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Gaggenau Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gaggenau Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gaggenau Hob Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gaggenau Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gaggenau General Appliance Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Khurram Mahmood" }, "reviewBody": "Gaggenau oven repair done efficiently. Technician Abdullah was professional and ensured everything worked perfectly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Anusri Chan" }, "reviewBody": "FAJ repaired my Gaggenau dishwasher quickly. Staff were friendly and explained the process clearly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Haris M" }, "reviewBody": "Our Gaggenau hob was malfunctioning. Technician Que resolved the issue promptly and professionally.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Jason Miller" }, "reviewBody": "Excellent service for Gaggenau appliances. Repair was fast, efficient, and communication was clear throughout.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Affu Affu" }, "reviewBody": "Highly recommend FAJ for Gaggenau appliance repairs. Quick response and professional service.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/gaggenau/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Gaggenau", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/gaggenau/" }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -141,6 +200,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

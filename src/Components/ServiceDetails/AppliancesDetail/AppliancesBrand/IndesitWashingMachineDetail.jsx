@@ -38,6 +38,69 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Indesit Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/indesit/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3230",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Indesit Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Indesit Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indesit Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indesit Fridge Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indesit Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indesit Home Appliance Service Center" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indesit Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indesit Cooking Range and Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indesit Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indesit Oven Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Kiran P." }, "reviewBody": "Fantastic Indesit washing machine repair service. The technician fixed the fault quickly and explained everything clearly. Great service overall.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Maya L." }, "reviewBody": "FAJ Technical Services L.L.C resolved my Indesit fridge cooling issue the same day I called. Professional, neat, and affordable – highly recommend!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Javed S." }, "reviewBody": "Efficient and friendly service for my Indesit dishwasher repair. They arrived on time and fixed it without any hassle.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Sofia R." }, "reviewBody": "Indesit oven wasn’t heating properly. FAJ team replaced the faulty part and now it works perfectly. Very happy with the service!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Amir Q." }, "reviewBody": "Great experience with Indesit appliance repair. Prompt service, good pricing, and technicians were courteous and knowledgeable.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/indesit/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Indesit", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/indesit/" }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -143,6 +206,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

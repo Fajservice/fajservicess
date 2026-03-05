@@ -37,6 +37,147 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Teka Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/teka/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3000",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Home Appliances Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Oven Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Dishwasher Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Cooker Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Hood & Hob Repair" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anusri Chan" },
+          "reviewBody": "The oven repair was completed successfully. The appliance now works perfectly and the service was smooth and professional.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Affu Affu" },
+          "reviewBody": "Highly recommended service. They fixed my dishwasher efficiently and also provide washing machine and fridge repair services.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Tohidur Rahman" },
+          "reviewBody": "Professional and quick service for my cooker repair. Technicians were knowledgeable and ensured everything was working properly.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanan Tariq" },
+          "reviewBody": "Friendly and efficient service. FAJ Technical Services L.L.C diagnosed the hob and hood issue quickly and fixed it without delay.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Khurram Mahmood" },
+          "reviewBody": "Excellent experience with FAJ Technical Services L.L.C for appliance repair. The technician was experienced and resolved the issue quickly.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/teka/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Teka",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/teka/"
+        }
+      ]
+    }
+  ]
+}
 
    // State for fetched data
       const [data, setData] = useState([]);
@@ -142,6 +283,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

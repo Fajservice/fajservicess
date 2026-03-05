@@ -36,6 +36,74 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "De Dietrich Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/de-dietrich/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3300",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "De Dietrich Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "De Dietrich Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Fridge Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Home Appliance Service Center" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Cooking Range and Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Oven Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Anusri Chan" }, "reviewBody": "The washing machine repair was completed successfully. The machine is functioning smoothly and I am satisfied with the quality of service. Special thanks to Abdullah for the support.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Affu Affu" }, "reviewBody": "Highly recommended service. They repaired my Pritti mixer very quickly and also provide washing machine and fridge repair services.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Tohidur Rahman" }, "reviewBody": "They repaired my Samsung washing machine efficiently. Good service center in Dubai with reliable technicians. Highly recommended.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Hanan Tariq" }, "reviewBody": "Friendly and efficient service. FAJ Technical Services L.L.C diagnosed the washing machine issue quickly and fixed it without delay.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Ziddy Jatt" }, "reviewBody": "We received genuine parts for our washing machine repair. They also handle AC and refrigerator repair services using original parts.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Khurram Mahmood" }, "reviewBody": "Excellent experience with FAJ Technical Services L.L.C for my washing machine repair. The technician was experienced and resolved the issue quickly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Haris M" }, "reviewBody": "Our Franke coffee machine was repaired properly and is working perfectly now. Technician Que did a good job.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Jason Miller" }, "reviewBody": "I had my nine-year-old Jura Z6 coffee machine repaired. The technician was friendly and knowledgeable. Highly recommend their service.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Syed Shah" }, "reviewBody": "We hired FAJ to repair our commercial coffee machine and grinder in Dubai Marina. Quick response and professional technicians.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Gintare Sutkauskaite" }, "reviewBody": "Technician Que fixed both coffee machines and explained preventative maintenance steps. Very thorough and highly recommended.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/de-dietrich/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "De Dietrich", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/de-dietrich/" }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -141,6 +209,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

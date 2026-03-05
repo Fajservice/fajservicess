@@ -34,6 +34,70 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Kelvinator Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/kelvinator/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3556",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Kelvinator Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Kelvinator Appliance Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kelvinator Refrigerator Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kelvinator Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kelvinator Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kelvinator Microwave Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kelvinator Home Appliance Service Center" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kelvinator Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kelvinator Cooking Range and Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kelvinator Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kelvinator Oven Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Hafsa B." }, "reviewBody": "Excellent Kelvinator refrigerator repair service. Technician arrived fast, fixed the cooling issue, and explained the repair. Very satisfied with FAJ Technical Services L.L.C.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Arjun S." }, "reviewBody": "FAJ resolved my Kelvinator washing machine problem quickly. Professional, courteous, and the price was fair. Highly recommended!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Leila A." }, "reviewBody": "They fixed my Kelvinator freezer door seal and now it cools superbly. Great service and quick response. Very happy customer.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Omar F." }, "reviewBody": "My Kelvinator microwave wasn’t heating evenly. Technician diagnosed and repaired it efficiently. Fantastic service and communication!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Sana M." }, "reviewBody": "Prompt Kelvinator appliance repair service. FAJ team was neat, punctual, and fixed my fridge freezer issue without any hassle.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/kelvinator/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Kelvinator", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/kelvinator/" }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -138,6 +202,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

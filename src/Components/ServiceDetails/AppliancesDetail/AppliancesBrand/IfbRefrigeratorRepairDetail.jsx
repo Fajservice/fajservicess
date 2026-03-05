@@ -36,6 +36,69 @@ const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "IFB Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/ifb/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "IFB Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "IFB Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IFB Washing Machine Repair Near You in Dubai" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IFB Fridge Repair Near You in Dubai" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IFB Freezer Repair Near You in Dubai" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IFB Home Appliance Service Center Near You" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IFB Dishwasher Repair Near You in Dubai" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IFB Cooking Range and Oven Repair Near You" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IFB Dryer Repair and Service Near You" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IFB Oven Repair Near Me Dubai" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Sara M." }, "reviewBody": "Excellent IFB washing machine repair service in Dubai. The technician arrived on time, diagnosed the issue quickly, and fixed the problem with genuine parts. Very happy with the overall experience.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Ravi K." }, "reviewBody": "FAJ Technical Services L.L.C did a professional job fixing my IFB refrigerator. Great communication, affordable pricing, and no mess left behind at my home.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Leena A." }, "reviewBody": "Prompt and courteous service. My IFB microwave wasn’t heating properly — the technician replaced the faulty component and now it works perfectly. Highly recommend IFB appliance repair!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Jamal S." }, "reviewBody": "IFB dishwasher repair was handled expertly. They diagnosed a leak and fixed it at the first visit. Great customer service and attention to detail.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Nadia R." }, "reviewBody": "Very satisfied with the IFB service for my washing machine. Quick response, excellent workmanship, and professional approach. Pricing was fair too.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/ifb/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "IFB", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/ifb/" }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -140,6 +203,7 @@ const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
 

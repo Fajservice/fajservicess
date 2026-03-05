@@ -40,6 +40,90 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
     const [data, setData] = useState([]);
     const [testimonial_data, setTestimonialData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "KitchenAid Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/kitchenaid/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "KitchenAid Home Appliance Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "KitchenAid Appliance Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "KitchenAid Refrigerator Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "KitchenAid Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "KitchenAid Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "KitchenAid Washing Machine Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Adil M." },
+          "reviewBody": "My KitchenAid refrigerator stopped cooling properly. FAJ technician diagnosed the compressor issue and repaired it efficiently. Excellent service.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Noura S." },
+          "reviewBody": "Very professional KitchenAid dishwasher repair. The technician fixed the drainage problem and tested everything before leaving.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Kamran A." },
+          "reviewBody": "KitchenAid oven was not heating evenly. FAJ team replaced the faulty element and now it works perfectly.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hiba R." },
+          "reviewBody": "Quick response for my KitchenAid washing machine repair. Technician was punctual, knowledgeable, and completed the job neatly.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Saeed K." },
+          "reviewBody": "Reliable KitchenAid appliance repair in Dubai. Professional team and fair pricing. Would definitely recommend.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/kitchenaid/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "KitchenAid", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/kitchenaid/" }
+      ]
+    }
+  ]
+}
 
     const handleItemClick = index => {
         if (index === openItemIndex) {
@@ -140,6 +224,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>

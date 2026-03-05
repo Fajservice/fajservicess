@@ -43,6 +43,107 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const [data, setData] = useState([]);
     const [testimonial_data, setTestimonialData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Hisense Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/hisense/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3230",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Hisense Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Hisense Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hisense Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hisense Refrigerator Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hisense Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hisense Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hisense Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hisense Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hisense Cooker Hood Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hisense Coffee Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hisense General Home Appliance Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anusri Chan" },
+          "reviewBody": "Hisense washing machine repair completed quickly. Technician ensured smooth operation and provided maintenance advice.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Haris M" },
+          "reviewBody": "Our Hisense oven was repaired efficiently. Technician Que handled the service professionally and checked everything thoroughly.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Khurram Mahmood" },
+          "reviewBody": "Excellent Hisense refrigerator repair service. Technician was knowledgeable and resolved the issue without delay.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Jason Miller" },
+          "reviewBody": "Hisense dishwasher repair was seamless. Team communicated well and delivered great results.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Affu Affu" },
+          "reviewBody": "Highly recommend FAJ for Hisense appliance repairs. Reliable, professional, and efficient service from start to finish.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewBody": "The Hisense built-in dishwasher was fixed promptly. Technician Abdullah ensured everything worked perfectly.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Stefanie Giersch" },
+          "reviewBody": "Thanks to Abdullah, my Hisense dishwasher works flawlessly. Arrived on time and was very helpful.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/hisense/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Hisense", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/hisense/" }
+      ]
+    }
+  ]
+}
 
     const handleItemClick = index => {
         if (index === openItemIndex) {
@@ -112,6 +213,7 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <meta name="twitter:title" content="Hisense Fridge Repair In Dubai | Washing Machine Service Near" />
                     <meta name="twitter:description" content="Need assistance with your Hisense appliance service? FAJ offers Hisense fridge repair, washing machine, dishwasher, cooker, & dryer repair center." />
                     <meta name="twitter:image" content={metaImage} />
+                    <script type="application/ld+json">{JSON.stringify(schema)}</script>
                     
                 </Helmet>
             </HelmetProvider>
