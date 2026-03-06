@@ -320,7 +320,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   If you need Teka refrigerator repair, FAJ is your trusted choice for fast and affordable appliance repair service in Dubai and Sharjah. Our expert technicians are ready to handle any issue, whether it’s a Teka washing machine that won’t drain, a fridge that’s not cooling, an oven that isn’t heating, or a dishwasher that won’t start. We’re local and can quickly get your appliances back up and running with minimal downtime.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Teka Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Teka Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that Teka appliances often break down at the most inconvenient times. That’s why our trained technicians are ready to provide reliable Teka <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a> when you need them most. With our expert assistance, you can avoid the expense of replacing your appliance and have it functioning properly again, quickly and hassle-free.
                 </p>

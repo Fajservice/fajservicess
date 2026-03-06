@@ -173,13 +173,13 @@ const BoschHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Bosch Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Bosch Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you're facing problems with your Bosch appliances, FAJ is ready to assist! We offer fast and affordable repair solutions for common issues, such as Bosch washing machines that won’t drain, refrigerators that won’t cool, ovens that don’t heat, and dishwashers that won’t start.
                   <br />Trust FAJ for reliable Bosch appliance repair in Dubai and Sharjah, we’re here to resolve any appliance issue with expert care and efficiency.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Bosch Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Bosch Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we know that Bosch appliance breakdowns often happen when you least expect them. That’s why our expert Bosch technicians are ready to provide dependable and timely <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a>. With our expert support, you can avoid the cost of replacing your appliance and get your Bosch equipment running smoothly again, before it turns into a major issue.
                 </p>

@@ -319,12 +319,12 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Smeg Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Smeg Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you need Smeg refrigerator repair, FAJ is your reliable choice for fast and budget-friendly appliance service in Dubai and Sharjah. Our experienced technicians can tackle all kinds of issues, whether a Smeg washing machine not draining, a fridge not cooling, an oven failing to heat, or a dishwasher that won’t start. We're locally based and ready to repair your appliances efficiently and with minimal delay.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Smeg Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Smeg Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that Smeg appliance issues can arise unexpectedly. That’s why our qualified technicians provide reliable Smeg <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a> across Dubai and Sharjah. With our expert help, you can avoid the high cost of replacements and get your appliance back in working condition in no time.
                 </p>

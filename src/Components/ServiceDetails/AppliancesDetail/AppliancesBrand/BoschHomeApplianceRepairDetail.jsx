@@ -139,14 +139,14 @@ const BoschHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                     <div className="container">
                         <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Bosch Washing Machine Repair Near You</h2>
+                                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Bosch Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     Looking for reliable repair services for your Bosch appliances? FAJ Technical Services has you covered with fast and affordable solutions.
                                     Whether it’s a built-in Bosch washing machine that won’t drain, a fridge that’s not cooling, an oven that won’t heat, or a dishwasher that won’t start, our expert team in Dubai and Sharjah is ready to assist.
                                     As a trusted local service provider, we ensure prompt response and efficient repairs to get your appliances running smoothly again.
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Bosch Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Bosch Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, we understand that Bosch appliance breakdowns rarely happen at a convenient time. That’s why our expert Bosch technicians are ready to deliver reliable and efficient Bosch appliance <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
                                 </p>

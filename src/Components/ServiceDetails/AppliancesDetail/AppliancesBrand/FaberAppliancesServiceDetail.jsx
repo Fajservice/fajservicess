@@ -217,7 +217,7 @@ const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                                     As your trusted local technicians, we’ll fix the issue promptly and efficiently.
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Faber Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Faber Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially involving Faber products, rarely happen at a convenient time. That’s why our skilled Faber technicians are ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appiance repair services</a>. With our help, you can avoid the high cost of replacement and have your Faber appliance restored to full working condition before it becomes a bigger concern.
                                 </p>

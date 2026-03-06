@@ -284,7 +284,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                 <h2 className="cs_fs_24 mb-1">Specialised Beko Washing Machine Repair and Service in Dubai</h2>
                 <p className="mb-2">You shouldn't have to face a lack of clean clothes due to a malfunctioning Beko washer dryer. Common issues include not powering on or failing to spin.<br/>At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we handle these problems and also repair faulty displays and timers. Contact us today, and we'll send an expert technician to fix your Beko appliance the same day.<br />Replacing a Beko washing machine or Beko tumble dryer can be expensive, so we aim to extend the lifespan of your Beko washing machine repair service in Dubai. </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Beko Fridge Repair and Beko Freezer Service in Dubai</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Beko Fridge Repair and Beko Freezer Service in Dubai</h2>
                 <p className="mb-2">We often overlook the vital role our Beko fridge freezers play. If you notice food spoiling quickly or excessive noise.<br />At FAJ, our skilled team is ready to assist you at home. We have experience with Beko appliance, and even if your model isn’t listed, we may still have the necessary spare parts.<br />Our goal is to provide same-day service for your Beko fridge repair and Beko freezer service once you reach out to us.
 </p>
 

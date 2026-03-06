@@ -425,12 +425,12 @@ const vikingServicesData = [
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Viking Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Viking Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   FAJ is your go-to service provider for fast and affordable appliance repairs in Dubai and Sharjah if you need Viking refrigerator repair. Our experienced technicians can tackle all kinds of issues, whether it’s a Viking washing machine that won’t drain, a fridge that’s not cooling, an oven that’s not heating, or a dishwasher that won’t start. We’re local, responsive, and ready to restore your appliances quickly and efficiently.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Viking Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Viking Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that Viking appliance breakdowns often happen at the worst times. That’s why our trained technicians are ready to deliver dependable Viking <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a>. With our help, you can skip the high cost of a replacement and get your Viking appliance back in working condition quickly and affordably.
                 </p>

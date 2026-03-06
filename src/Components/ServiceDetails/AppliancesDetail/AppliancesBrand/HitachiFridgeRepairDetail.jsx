@@ -237,7 +237,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Hitachi Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Hitachi Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you need repair services for your Hitachi appliances, FAJ is here to help! We provide fast, affordable solutions you can rely on.
                   Whether it’s a built-in Hitachi washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, our expert technicians in Dubai and Sharjah are ready to assist.
@@ -245,7 +245,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Hitachi Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Hitachi Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Hitachi products, never occur at a convenient time. That’s why our trained and qualified Hitachi technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Hitachi appliance up and running again before you have a chance to worry about it.
                 </p>

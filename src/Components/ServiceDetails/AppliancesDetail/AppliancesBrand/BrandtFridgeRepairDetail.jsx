@@ -257,7 +257,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <div className="container">
                         <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Brandt Washing Machine Repair Near You</h2>
+                                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Brandt Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     If you need repair services for your Brandt appliances, FAJ is here to help! Trust us for fast and affordable service you can count on.
                                     <br />Whether your built-in Brandt washer isn’t draining, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our expert repair team in Dubai and Sharjah is ready to assist.
@@ -265,7 +265,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Brandt Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Brandt Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, we know that Brandt appliance failures often happen when you least expect them. That’s why our team of qualified and experienced Brandt technicians is always prepared to provide reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a>. With our help, you can avoid the high cost of replacement and get your Brandt appliance functioning properly again before it causes any further trouble.
                                 </p>

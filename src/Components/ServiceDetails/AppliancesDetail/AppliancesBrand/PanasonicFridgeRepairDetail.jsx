@@ -178,7 +178,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Panasonic Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Panasonic Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, we understand that Panasonic appliance breakdowns often occur when you least expect them. That’s why our skilled Panasonic technicians are ready to deliver reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a> when you need it most. With our prompt support, you can avoid the cost of replacing your appliance and have it running smoothly again in no time, so you can focus on what matters without the stress.
                                 </p>

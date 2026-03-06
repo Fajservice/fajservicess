@@ -208,10 +208,10 @@ const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <div className="container">
                         <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Specialised Electrolux Washing Machine Repair and Service in Dubai</h2>
+                                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Specialised Electrolux Washing Machine Repair and Service in Dubai</h2>
                                 <p className="mb-2">Dealing with a malfunctioning Electrolux washer dryer can be frustrating, especially when you need clean clothes. Common issues include failure to power on or spin. <br />We specialize in repairing these problems, as well as fixing faulty displays and timers. Contact us today, and we will send a qualified technician to address your Electrolux washing machine and Electrolux dryer issues on the same day. <br />Instead of incurring the cost of replacement, our goal is to extend the lifespan of your appliances through our reliable Electrolux washing machine repair and service in Dubai.</p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Electrolux Fridge Repair and Service in Dubai</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Electrolux Fridge Repair and Service in Dubai</h2>
                                 <p className="mb-2">We often underestimate the importance of our Electrolux fridge freezer. If your food is spoiling quickly or your Electrolux refrigerator is making noise, it's time to seek help. <br />At FAJ, our skilled team is ready to assist you at home. We have extensive experience with Electrolux refrigerators and can address a variety of issues, often having the necessary spare parts on hand. <br />We strive to provide same-day Electrolux fridge repair and service to keep your food fresh and ensure your Electrolux refrigerator operates smoothly. Your convenience is our top priority.</p>
                             </div>
 

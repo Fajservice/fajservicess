@@ -148,7 +148,7 @@ const WashingMachineRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Get Expert Washing Machine Repair in Dubai </h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Get Expert Washing Machine Repair in Dubai </h2>
 
                 <p className="mb-2">
                   If your washing machine is not draining properly or making strange noises, it’s time to book a washing machine repair service with Fantastic Services. The washing machine technician we work with are fully trained to handle a wide range of repair on all makes and models of washing machines, dryers, including Daewoo, LG, Electrolux, AEG, Beko, Bosch, Indesit, Miele, Samsung, GE, Maytag, Hoover, and many more. They can diagnose and troubleshoot any issue while adhering to all safety standards and codes.</p>

@@ -173,14 +173,14 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Thermador Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Thermador Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you're looking for repair services for your Thermador appliances, FAJ has you covered! Trust us for quick, cost-effective, and dependable solutions.
                   <br />Whether your built-in Thermador washing machine won’t drain, your fridge has stopped cooling, your oven isn’t heating, or your dishwasher refuses to start, our experienced repair team in Dubai and Sharjah is here to help.
                   As local experts, we’re ready to diagnose and fix the issue without delay.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Thermador  Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Thermador  Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we know that appliance breakdowns, especially with Thermador products, rarely happen at a convenient time. That’s why our experienced Thermador technicians are ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it back in working condition before it causes any further inconvenience.
 

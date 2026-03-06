@@ -173,14 +173,14 @@ const BaumaticRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Baumatic Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Baumatic Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you need repair services for your Baumatic appliances, FAJ has you covered! Count on us for fast and affordable service.
                   <br />Whether it’s a built-in Baumatic washing machine not draining, a fridge not cooling, an oven not heating, or a dishwasher that won’t start, our expert team in Dubai and Sharjah is ready to help.
                   We’re local and can resolve your appliance issues quickly and efficiently.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Baumatic Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Baumatic Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> is often needed when you least expect it, especially with Baumatic products. That’s why our experienced Baumatic technicians are here to deliver reliable appliance repair services. With our support, you can avoid the cost of replacing your unit and get your Baumatic appliance back to proper working condition quickly.
                 </p>

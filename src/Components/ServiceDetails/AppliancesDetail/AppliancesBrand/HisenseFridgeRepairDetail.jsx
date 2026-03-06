@@ -252,7 +252,7 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                     <br /> Count on us for dependable Hisense <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, delivering trusted service for all your appliance issues.
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Hisense Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Hisense Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, appliance breakdowns can happen when you least expect them, especially with your trusted Hisense products. That’s why our expert Hisense technicians are ready to deliver dependable repairs you can count on. Let us help you save money and restore your appliance quickly so you can return to your routine without stress.
                                 </p>

@@ -267,14 +267,14 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <div className="container">
                         <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Aftron Washing Machine Repair Near You</h2>
+                                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Aftron Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     If you need repair services for your Aftron appliances, we’re here to help! Trust FAJ for fast and affordable solutions.
                                     <br />From built-in Aftron washing machines that won’t drain to ovens that won’t heat, fridges not cooling, or dishwashers not starting, our skilled team in Dubai and Sharjah is ready to assist.
                                     We’re local, experienced, and quick to fix any issue you face.
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Aftron Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Aftron Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, we understand that Aftron appliance breakdowns often happen at the worst times. That’s why our experienced Aftron technicians are here to provide reliable and timely <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a>. With our support, you can avoid the cost of a new appliance and get your Aftron unit back to working condition quickly.
                                 </p>

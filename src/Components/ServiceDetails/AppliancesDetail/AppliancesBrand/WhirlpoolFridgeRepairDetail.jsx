@@ -325,7 +325,7 @@ const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Whirlpool Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Whirlpool Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you need repair services for your Whirlpool appliances, FAJ is here to help with fast and affordable solutions.
                   Whether your built-in Whirlpool washing machine won’t drain, your fridge won’t cool, your oven won’t heat, or your dishwasher won’t start, our experienced repair team in Dubai and Sharjah is ready to assist.
@@ -333,7 +333,7 @@ const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Whirlpool Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Whirlpool Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we know that Whirlpool appliance breakdowns often happen when you least expect them. That’s why our skilled Whirlpool technicians are ready to provide reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a> whenever you need them. With our support, you can avoid the expense of buying a new appliance and have your Whirlpool product running smoothly again in no time.
                 </p>

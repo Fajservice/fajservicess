@@ -264,7 +264,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   Whether it’s a built-in Kitchenaid washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that refuses to start,  our skilled technicians in Dubai and Sharjah are ready to assist. As your trusted local service provider, we ensure prompt response times to restore your appliances efficiently.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Kitchenaid Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Kitchenaid Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Kitchenaid products, rarely happen at a convenient time. That’s why our trained Kitchenaid technicians are ready to provide reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a> when you need it most. With our help, you can avoid the high cost of replacement and get your Kitchenaid appliance running smoothly again in no time.
                 </p>

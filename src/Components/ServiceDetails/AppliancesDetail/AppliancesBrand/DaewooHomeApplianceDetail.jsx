@@ -142,7 +142,7 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <div className="container">
                         <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Daewoo Washing Machine Repair Near You</h2>
+                                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Daewoo Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     If you need repair services for your Daewoo appliances, FAJ Technical Services is here to help! We deliver prompt and budget-friendly solutions.
                                     Whether it’s a built-in Daewoo washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, our skilled technicians in Dubai and Sharjah are ready to assist.
@@ -150,7 +150,7 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Daewoo Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Daewoo Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, we understand that Daewoo appliance breakdowns often happen unexpectedly. That’s why our skilled Daewoo technicians are ready to provide reliable and efficient <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>    . With our expert help, you can avoid the expense of buying a new unit and have your Daewoo appliance back in working order before it becomes a major concern.
                                 </p>

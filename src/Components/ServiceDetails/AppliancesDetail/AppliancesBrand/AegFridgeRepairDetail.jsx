@@ -252,7 +252,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                   We can repair AEG machine machine and AEG tumble dryer service and have it back up and running quickly- with same day and next day appointments available service provider, we ensure quick response times to get your appliances working again without delay.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">AEG Fridge Repair And AEG Freezer Service In Dubai</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">AEG Fridge Repair And AEG Freezer Service In Dubai</h2>
                   <p className="mb-2">If your AEG fridge freezer is not keeping cool, don’t worry! Our AEG fridge repair experts are here to help stop your food from going to waste. They can diagnose and fix a type of common issues with an AEG refrigerator, including cooling problems, leaks, power faults, strange noises, and any general breakdowns. Just relax and let our experts take care of it.</p>
                 </div>
 

@@ -270,7 +270,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
 
                 <p className="mb-2">When your DeLonghi coffee machine breaks down, it can disrupt your routine. FAJ offers fast and efficient DeLonghi coffee machine repair services near you.< br/>We specialise in DeLonghi espresso machine cleaning service, descaling, water leaks, steam wand issues, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back in shape.</p>
 
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">DeLonghi Coffee Machine Repair and Maintenance Contract</h3>
+                <h3 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">DeLonghi Coffee Machine Repair and Maintenance Contract</h3>
                 <p className="mb-2">We are here to help with whatever you need. A scheduled AMC service contract for your De Longhi coffee machine covering cleaning and descaling is essential for smooth operation year-round.< br/>Regular maintenance is important for all types of coffee machines, whether for home, office, café, or restaurant use. Let us make your life easier.</p>
               </div>
 

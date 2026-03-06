@@ -319,7 +319,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <br />Get dependable Sanyo <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah with service you can trust for any issue.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Sanyo Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Sanyo Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that Sanyo appliance breakdowns often happen at the worst possible time. That’s why our skilled technicians are ready to deliver dependable appliances repair services when you need them most. With our expert support, you can avoid the expense of buying a new appliance and get your Sanyo unit back to working condition quickly and stress-free.
                 </p>

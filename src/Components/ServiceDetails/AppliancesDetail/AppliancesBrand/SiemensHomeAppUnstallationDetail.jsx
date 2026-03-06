@@ -313,14 +313,14 @@ const SiemensHomeAppUnstallationDetail = ({ subtitle, title, reviewsbg, titleSeo
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Siemens Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Siemens Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   Need repair services for your Siemens appliances? FAJ is here to deliver fast and affordable solutions you can rely on.
                   Whether it’s a built-in Siemens washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, our skilled technicians in Dubai and Sharjah are ready to help.
                   As your trusted local provider, we quickly restore your appliances to perfect working condition.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Siemens Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Siemens Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Siemens products, never occur at a convenient time. That’s why our trained and qualified Siemens technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Siemens appliance up and running again before you have a chance to worry about it.
                 </p>

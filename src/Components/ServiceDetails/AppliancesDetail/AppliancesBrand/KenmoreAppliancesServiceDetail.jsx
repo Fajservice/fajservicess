@@ -202,13 +202,13 @@ const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                     <div className="container">
                         <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Kenmore Washing Machine Repair Near You</h2>
+                                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Kenmore Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     Having trouble with your Kenmore appliances? FAJ is here to help with fast and affordable appliance repair services! From washing machines that won’t drain to refrigerators not cooling, ovens that won’t heat, or dishwashers that won’t start, we handle it all.
                                     <br />Trust FAJ for expert Kenmore <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah. We deliver dependable solutions for every appliance issue, big or small.
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Kenmore Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Kenmore Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, we understand that Kenmore appliance breakdowns often happen when you least expect them. That’s why our experienced technicians are ready to provide prompt, reliable repair services. With our expert support, you can avoid the expense of replacing your appliance and have your Kenmore unit running smoothly again, before it disrupts your routine.
                                 </p>

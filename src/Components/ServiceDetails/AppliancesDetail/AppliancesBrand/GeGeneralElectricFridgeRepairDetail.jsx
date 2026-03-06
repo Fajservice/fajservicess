@@ -239,7 +239,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                   If you need GE General refrigerator repair, FAJ is your go-to provider for fast and budget-friendly appliance repair services in Dubai and Sharjah. Our experienced technicians can tackle any problem, whether your GE General washing machine won’t drain, your fridge has stopped cooling, your oven isn’t heating, or your dishwasher won’t start. We're located nearby and ready to restore your appliances quickly and efficiently.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Ge General Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Ge General Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand how inconvenient it can be when your GE General appliance suddenly stops working. That’s why our expert technicians are committed to providing fast, dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a> you can count on. Avoid the high cost of replacement—let us restore your appliance to perfect working condition.
                   One call is all it takes to get expert help right at your doorstep.

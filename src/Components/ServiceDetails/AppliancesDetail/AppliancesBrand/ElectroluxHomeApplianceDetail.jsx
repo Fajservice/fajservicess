@@ -172,14 +172,14 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Electrolux Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Electrolux Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you need repair services for your Electrolux appliances, FAJ Technical Services is here to assist! We provide quick and budget-friendly solutions.
                   Whether it’s a built-in Electrolux washing machine that won’t drain, a refrigerator that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, our skilled technicians in Dubai and Sharjah are ready to help.
                   <br />As a trusted local service provider, we ensure a fast response to get your appliances running smoothly again.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Electrolux Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Electrolux Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that Electrolux appliance breakdowns often happen at the worst possible time. That’s why our skilled Electrolux technicians are ready to provide dependable and efficient <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our support, you can avoid the high cost of replacement and have your Electrolux appliance working again before it becomes a major inconvenience.
                 </p>

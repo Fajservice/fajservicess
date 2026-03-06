@@ -391,10 +391,8 @@ const maytagServicesData = [
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Maytag Fridge Repair and Maytag Washing Machine Service in Dubai</h1>
-            <p>
-              If you're looking for a qualified technician for your Maytag appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we’ve offered dependable and affordable home appliance repair services. Our network features skilled professionals who specialize in Maytag appliance repair and are available nearby. We connect you with experienced technicians across Dubai and Sharjah who focus on your satisfaction and deliver efficient, reliable solutions for all your appliance needs.
-            </p>
+            <h1 className="cs_fs_30">Maytag Home Appliance Repair and Maintenance Service Dubai</h1>
+            <p>If you're looking for a qualified technician for your Maytag appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we’ve offered reliable and affordable Maytag home appliance repair and services.<br/>Our network features skilled professionals who specialize in Maytag appliance repair and are available nearby.<br/>We connect you with experienced technicians across Dubai and Sharjah who focus on your satisfaction and deliver efficient, reliable solutions for all your appliance needs.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -408,15 +406,10 @@ const maytagServicesData = [
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Maytag Appliance Repair and Service </h2>
-                <p className="mb-2">
-                  If you're experiencing problems with your Maytag appliances, FAJ is ready to help! Our expert repair team offers fast and affordable solutions for a wide range of issues, whether it’s a Maytag washing machine that won’t drain, a refrigerator that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start.
-                  Count on us for reliable Maytag appliance repair in Dubai and Sharjah. We deliver trusted, efficient service to get your appliances back in top condition.
-                </p>
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Maytag Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Maytag products, often happen at the most inconvenient times. That’s why our trained and qualified Maytag technicians are available to provide you with reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Maytag appliance back in working order, allowing you to put your worries aside.
-                </p>
+                <h2 className="cs_fs_24 mb-1">Maytag Fridge Repair and Freezer Service in Dubai</h2>
+                <p className="mb-2">We often ignore the importance of our Maytag fridge freezer. If your food is spoiling quickly or your fridge is making strange noises, it's time for assistance.<br/>At FAJ, our friendly team specializes in Maytag refrigerator repair and maintenance. We often have spare parts on hand and strive to provide same-day service to keep your food fresh and your fridge running smoothly. Your convenience is our priority.</p>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Maytag Washing Machine Repair and Dryer Service in Dubai</h2>
+                <p className="mb-2">Dealing with a malfunctioning Maytag washer dryer can be frustrating, especially when you need clean clothes. Common issues include failure to power on or spin.<br/>We specialize in repairing these problems and offer same-day service by qualified technicians. Instead of replacing your Maytag washing machine repair center, let us help extend its lifespan with our reliable Maytag repair and service in Dubai.</p>
               </div>
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="Maytag Washing Machine Repair" />

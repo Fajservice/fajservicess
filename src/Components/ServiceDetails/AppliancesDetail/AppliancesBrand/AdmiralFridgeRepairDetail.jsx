@@ -241,7 +241,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                                 <p className="mb-2">If your Admiral washing machine has a leaking door, drum issues, or motor problems, we can help. Our service covers all types of Admiral washing machine repair center.<br />Here at FAJ, we are Admiral washing machine repair experts and have been carrying out Admiral washing machine repair in Dubai<br />We can repair Admiral machine machine and tumble dryer service and have it back up and running quickly- with same day and next day appointments available.</p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Admiral Fridge Repair And Freezer Service In Dubai</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Admiral Fridge Repair And Freezer Service In Dubai</h2>
                                 <p className="mb-2">If your Admiral fridge freezer is not keeping cool, don’t worry! Our Admiral fridge repair experts are here to help stop your food from going to waste. They can diagnose and fix a type of common issues with Admiral refrigerator, including cooling problems, leaks, power faults, strange noises, and any general breakdowns. Just relax and let our experts take care of it.</p>
                             </div>
 

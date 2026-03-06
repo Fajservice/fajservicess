@@ -339,7 +339,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Boston Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Boston Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we know that appliance issues,especially with Boston products, often happen when you least expect them. That’s why our skilled and experienced Boston technicians are always ready to deliver trustworthy <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair</a> solutions. With our help, you can avoid spending money on a new appliance and get your current Boston unit functioning properly again without added stress.
                 </p>

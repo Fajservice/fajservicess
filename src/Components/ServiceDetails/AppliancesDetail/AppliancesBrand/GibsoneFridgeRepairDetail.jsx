@@ -244,7 +244,7 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   If you need Gibson refrigerator repair, FAJ is your trusted choice for fast and affordable appliance repair service in Dubai and Sharjah. Our skilled team is ready to tackle any issue, whether it’s a Gibson washing machine that won’t drain, a fridge that’s not cooling, an oven that won’t heat, or a dishwasher that won’t start. We’re nearby and equipped to get your appliances running smoothly again without delay.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Gibson Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Gibson Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that Gibson appliances can break down when you least expect it. That’s why our experienced technicians are ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">Gibson appliance repair services</a>. With our help, you can avoid the high cost of replacement and have your appliance working properly again in no time.
                 </p>

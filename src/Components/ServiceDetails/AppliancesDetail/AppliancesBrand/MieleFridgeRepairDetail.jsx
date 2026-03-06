@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Miele Fridge Repair in Dubai | Miele Washing Machine Service");
-  const metadescription = String(description || "Fast, reliable & professional Miele fridge repair in Dubai. Book now for your appliance, washing machine, dishwasher, oven fix & service near you.");
+  const metatitle = String(titleSeo || "Miele Appliance Service | Miele Washing Machine Repair Dubai");
+  const metadescription = String(description || "Fast, reliable & professional Miele appliance service. Book now for your Miele refrigerator, fridge, washing machine, dishwasher, and oven repair near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Miele Fridge Repair Dubai, Miele Washing Machine Repair Dubai, Miele Cooker Repair Dubai, Miele Oven Repair Dubai, Miele Appliances Maintenance Dubai, Miele Refrigerator Fix Repairs Service");
@@ -289,10 +289,8 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Miele Fridge Repair and Miele Washing Machine Service in Dubai</h1>
-            <p>
-              If you're looking for a qualified technician for your Miele appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our network includes skilled professionals with expertise in Miele appliance repair, serving customers across Dubai and Sharjah. We focus on customer satisfaction and provide fast, effective solutions to get your appliances working smoothly again.
-            </p>
+            <h1 className="cs_fs_30">Miele Appliance Repair and Maintenance Service in Dubai</h1>
+            <p>If you're looking for a qualified technician for your Miele appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we have been providing reliable and affordable services.<br/>Do you need a fast and reliable Miele appliance repair? We can offer the best Miele appliance repair and service in Dubai.<br/>We are providing Miele ovens, cookers, dishwashers, Miele fridge freezers, Miele washing machines, and tumble dryers repair and service in Dubai – and we aim to reach you on the same or next day, regardless of your location!</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -309,18 +307,12 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Miele Appliance Repair and Service </h2>
+                <h2 className="cs_fs_24 mb-1">Miele Fridge Repair and Freezer Service in Dubai</h2>
 
-                <p className="mb-2">
-                  If you're facing problems with your Miele appliances, FAJ is here to help! Our expert repair team offers fast and affordable solutions for a range of issues, whether it’s a Miele washing machine that won’t drain, a refrigerator that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start.
-                  Trust FAJ for reliable Miele appliance repair in Dubai and Sharjah. We deliver professional, efficient service to resolve any appliance issue you may have.
+                <p className="mb-2">We usually overlook the importance of our Miele fridge freezer. If your food is spoiling quickly or your fridge is making strange noises, it's time to seek professional help.<br/>At FAJ, our friendly team specializes in Miele refrigerator repair and maintenance. We typically have spare parts available and aim to provide same-day service to keep your food fresh and your Miele fridge running smoothly. Your convenience is our top priority.</p>
 
-                </p>
-
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Miele Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that Miele appliances can break down at the worst possible times. That’s why our experienced technicians are always ready to provide dependable Miele <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair service</a>. With our support, you can avoid the high cost of a replacement and have your appliance running smoothly again, so you can move forward without the hassle. We’re committed to delivering fast, efficient, and long-lasting repair solutions to your doorstep.
-                </p>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Miele Washing Machine Repair and Dryer Service in Dubai</h2>
+                <p className="mb-2">Dealing with a malfunctioning Miele washer dryer can be frustrating, especially when you need clean clothes. Common issues include failure to power on or spin.<br/>We specialize in repairing these problems and offer same-day service by qualified technicians. Instead of replacing your Miele washing machine repair center, let us help extend its lifespan with our reliable Miele repair and service in Dubai.</p>
 
               </div>
 

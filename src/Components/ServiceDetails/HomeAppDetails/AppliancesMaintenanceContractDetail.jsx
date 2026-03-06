@@ -323,7 +323,7 @@ const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,
                 </p>
 
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Planned Preventative Maintenance (PPM) Services</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Planned Preventative Maintenance (PPM) Services</h2>
                 <p className="mb-0">
                   Our appliances technician can create a customized Planned Preventative Maintenance Package for your house or business properties. <br />
                   This package is created to keep your washing machines, dryers, dishwashers, ovens, refrigerators, and coffee machines running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and the costs associated with them.<br />

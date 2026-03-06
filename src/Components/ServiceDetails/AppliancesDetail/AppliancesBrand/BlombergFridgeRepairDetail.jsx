@@ -310,10 +310,10 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 					<div className="container">
 						<div className="row gx-md-5 align-items-center">
 							<div className="col-md-6">
-								<h2 className="cs_fs_20 mb-1">Specialised Blomberg Washing Machine Repair and Service in Dubai</h2>
+								<h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Specialised Blomberg Washing Machine Repair and Service in Dubai</h2>
 								<p className="mb-2">You shouldn't have to face a lack of clean clothes due to a malfunctioning Blomberg washer dryer. Common issues include not powering on or failing to spin.<br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we handle these problems and also repair faulty displays and timers. Contact us today, and we'll send an expert technician to fix your Blomberg appliance the same day.<br />Replacing a Blomberg washing machine or Blomberg tumble dryer can be expensive, so we aim to extend the lifespan of your Blomberg washing machine repair service in Dubai</p>
 
-								<h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Blomberg Fridge Repair and Freezer Service in Dubai</h2>
+								<h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Blomberg Fridge Repair and Freezer Service in Dubai</h2>
 								<p className="mb-2">We often overlook the vital role our Blomberg fridge freezers play. If you notice food spoiling quickly or excessive noise.<br/>At FAJ, our skilled team is ready to assist you at home. We have experience with Blomberg appliance, and even if your model isn’t listed, we may still have the necessary spare parts.<br/>Our goal is to provide same-day for your Blomberg fridge repair and Blomberg freezer service once you reach out to us.</p>
 
 							</div>

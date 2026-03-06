@@ -230,7 +230,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 <h2 className="cs_fs_20 mb-1" style={{ fontSize: "23px" }}>Catering Equipment Maintenance Services</h2>
                 <p className="mb-2">We know that quick service and repair of your catering equipment is essential, as downtime can severely affect your profits.<br /> The catering industry is fast-paced and highly demanding, which is why we at FAJ prioritise minimising downtime and ensuring smooth operations. This includes servicing freezers, chillers, ovens, ranges, hoods, ice makers, dishwashers, and air conditioning units.</p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Commercial Cooking Equipment Call-out</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "24px" }}>Commercial Cooking Equipment Call-out</h2>
                 <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
               </div>
 

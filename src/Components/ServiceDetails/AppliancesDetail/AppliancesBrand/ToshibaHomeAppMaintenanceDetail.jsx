@@ -364,7 +364,7 @@ const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Toshiba Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Toshiba Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you're looking for repair services for your Toshiba appliances, FAJ has you covered! Count on us for fast and affordable solutions.
                   <br />Whether your built-in Toshiba washing machine isn’t draining, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our experienced repair team in Dubai and Sharjah is ready to help.
@@ -372,7 +372,7 @@ const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Toshiba Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Toshiba Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we know that appliance failures, especially with Toshiba products, tend to happen when it's least convenient. That’s why our skilled Toshiba technicians are always ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our professional support, you can avoid the expense of replacing your appliance and have it operating smoothly again before it causes any major disruption.
                 </p>

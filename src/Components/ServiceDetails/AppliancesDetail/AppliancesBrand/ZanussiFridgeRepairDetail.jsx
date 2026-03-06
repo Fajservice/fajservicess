@@ -270,13 +270,13 @@ const ZanussiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Zanussi Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Zanussi Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   Having trouble with your Zanussi appliances? FAJ offers quick and affordable repair solutions for issues like washing machines not draining, refrigerators not cooling, ovens not heating, and dishwashers not turning on.
                   <br />Count on us for dependable Zanussi <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> services in Dubai and Sharjah; we deliver trustworthy solutions for any appliance problems you might encounter.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Zanussi Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Zanussi Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we know appliance breakdowns with Zanussi products are always inconvenient. Our qualified technicians provide reliable appliance repair service, helping you avoid the cost of a new appliance and getting your Zanussi appliance running smoothly again.
                 </p>

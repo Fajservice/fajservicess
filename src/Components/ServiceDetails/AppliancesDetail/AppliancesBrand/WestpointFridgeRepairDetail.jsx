@@ -327,14 +327,14 @@ const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Westpoint Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Westpoint Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you need repair services for your Westpoint appliances, FAJ is here to help! Count on us for fast and affordable service.
                   <br />Whether your built-in Westpoint washing machine won’t drain, fridge isn’t cooling, oven won’t heat, or dishwasher won’t start, our expert repair team in Dubai and Sharjah is ready to assist.
                   We’re local and can quickly resolve any appliance issues you’re facing.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Westpoint Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Westpoint Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Westpoint products, never occur at a convenient time. That’s why our trained and qualified Westpoint technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Westpoint appliance up and running again before you have a chance to worry about it.
                 </p>

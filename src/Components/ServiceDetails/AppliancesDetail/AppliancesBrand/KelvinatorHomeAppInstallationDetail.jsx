@@ -234,14 +234,14 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Kelvinator Home Appliance Service and Kelvinator Refrigerator Repair in Dubai</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Kelvinator Home Appliance Service and Kelvinator Refrigerator Repair in Dubai</h2>
                 <p className="mb-2">
                   If you need repair services for your Kelvinator appliances, FAJ is here to help! Rely on us for fast and affordable support.
                   Whether your built-in Kelvinator washer isn’t draining, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our expert repair team in Dubai and Sharjah is ready to assist.
                   As your local specialists, we can quickly diagnose and fix any issues you’re facing.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Kelvinator Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Fast and Reliable Kelvinator Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Kelvinator products, often happen at the worst possible time. That’s why our experienced Kelvinator technicians are ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it back in working order before it becomes a major inconvenience.
                 </p>

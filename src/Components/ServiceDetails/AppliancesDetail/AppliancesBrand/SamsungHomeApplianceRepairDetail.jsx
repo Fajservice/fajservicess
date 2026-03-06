@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 };
 const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Samsung Appliances Repair - Samsung Refrigerator Service");
-    const metadescription = String(description || "Trouble with your Samsung home appliances? FAJ provides Samsung washing machine, dryer, fridge, dishwasher service near me dubai. Dail 043300002");
+    const metatitle = String(titleSeo || "Samsung Appliances Service | Samsung Fridge Repair Dubai | FAJ");
+    const metadescription = String(description || "Looking for Samsung home appliances service Dubai? FAJ provides Samsung washing machine, dryer, fridge, freezer dishwasher repair center near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Samsung home appliances repair, samsung washing machine repair, samsung fridge repair, samsung dishwasher repair, samsung cooker repair, samsung appliance service near me, samsung appliance maintenance Dubai");
@@ -233,10 +233,8 @@ const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Samsung Home Appliance Repair Service and Installation</h1>
-                        <p>
-                            Finding a skilled Samsung appliance technician nearby can be challenging, especially one who understands Samsung kitchen appliances. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and cost-effective service since 2010. Our network of experienced, carefully screened professionals lets us send a technician familiar with your exact Samsung appliance whenever possible.
-                        </p>
+                        <h1 className="cs_fs_30">Samsung Appliance Repair and Maintenance Service in Dubai</h1>
+                        <p>If you're looking for a qualified technician for your Samsung appliances, At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we have been providing reliable and affordable services.<br/>Do you need a fast and reliable Samsung appliance repair? We can offer the best Samsung appliance repair and service in Dubai.<br/>We are providing Samsung ovens, cookers, Samsung dishwashers, Samsung fridge freezers, Samsung washing machines, and tumble dryers repair and service in Dubai – and we aim to reach you on the same or next day, regardless of your location!</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -253,17 +251,11 @@ const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
                     <div className="container">
                         <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Samsung Washing Machine Repair Near You</h2>
-                                <p className="mb-2">
-                                    If you're looking for repair services for your Samsung appliances, FAJ has you covered! We offer fast and affordable solutions.
-                                    From built-in Samsung washing machines that won’t drain to fridges that don't cool, ovens that don't heat, or dishwashers that don't start, our expert repair team in Dubai and Sharjah is here to help.
-                                    As a local service provider, we respond quickly to get your appliances back in working order.
-                                </p>
+                                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Samsung Fridge Repair and Freezer Service in Dubai</h2>
+                                <p className="mb-2">We usually overlook the importance of our Samsung fridge freezer. If your food is spoiling quickly or your Samsung fridge is making strange noises, it's time to seek professional help.<br/>At FAJ, our friendly team specializes in Samsung refrigerator repair and maintenance. We typically have spare parts available and aim to provide same-day service to keep your food fresh and your Samsung fridge running smoothly. Your convenience is our top priority.</p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Samsung Appliances Service</h2>
-                                <p className="mb-2">
-                                    At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Samsung products, never occur at a convenient time. That’s why our trained and qualified Samsung technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Samsung appliance up and running again before you have a chance to worry about it.
-                                </p>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "20px" }}>Samsung Washing Machine Repair and Dryer Service in Dubai</h2>
+                                <p className="mb-2">Dealing with a malfunctioning Samsung washer dryer can be frustrating, especially when you need clean clothes. Common issues include failure to power on or spin.<br/>We specialize in repairing these problems and offer same-day service by qualified technicians. Instead of replacing your Samsung washing machine repair center, let us help extend its lifespan with our reliable Samsung repair and service in Dubai.</p>
 
                             </div>
 

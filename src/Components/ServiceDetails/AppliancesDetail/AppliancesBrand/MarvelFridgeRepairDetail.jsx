@@ -287,7 +287,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     <br /> Count on us for dependable Marvel <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah. We offer trusted solutions to get your appliances running smoothly again.
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Marvel Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Marvel Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, we know that Marvel appliances can break down when you least expect it. That’s why our experienced Marvel technicians are ready to provide dependable repair services when you need them most. With our expert help, you can avoid the expense of buying a new appliance and have your Marvel unit working again before it becomes a bigger problem.
                                 </p>

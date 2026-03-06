@@ -310,7 +310,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                 <h2 className="cs_fs_24 mb-1">Neff Fridge Repair and Service in Dubai</h2>
                 <p className="mb-2">We care to overlook how important our Neff fridge freezer really is. If your food is going bad too quickly or if your Neff fridge is making strange sounds, it’s time to get some help.< br/>At FAJ, our friendly team is ready to assist you at home. We know our way around Neff refrigerator repair and can tackle different issues, often having the right spare parts on hand.< br/>We strive to offer same-day Neff fridge repair and service, making sure your food stays fresh and your refrigerator runs like a champ. Your convenience is what matters most to us.</p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Specialised Neff Oven Repair and Stove Service in Dubai</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Specialised Neff Oven Repair and Stove Service in Dubai</h2>
                 <p className="mb-2">Is your gas or electric Neff oven not working, not heating up, or has the light gone out? Whatever the issue may be, we can help—welcome to FAJ!< br/>Our technicians have extensive experience with all models of Neff ovens and have encountered a wide variety of Neff oven and Neff induction problems. We understand how inconvenient it is to have a non-functioning oven or Neff stove. That’s why we offer same-day and next-day repair services, as well as out-of-hours repairs.< br/>Our goal is to restore your oven to working order as quickly as possible at a time that is convenient for you.</p>
 
               </div>

@@ -179,7 +179,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <br />Get reliable Samsung appliance repair in Dubai and Sharjah; we provide trusted solutions for any appliance issue you may have.
                 </p>
 
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Samsung Appliances Service
+                <h3 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Samsung Appliances Service
                 </h3>
                 <p className="mb-0">
                   At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Samsung products, never occur at a convenient time. That’s why our trained and qualified Samsung technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Samsung appliance up and running again before you have a chance to worry about it.

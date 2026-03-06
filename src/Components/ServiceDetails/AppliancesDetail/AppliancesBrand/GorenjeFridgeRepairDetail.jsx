@@ -239,14 +239,14 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Gorenje Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Gorenje Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you're looking for repair services for your Gorenje appliances, FAJ is here to help! Count on us for fast and affordable solutions.
                   Whether your built-in Gorenje washing machine isn’t draining, your fridge isn’t cooling, your oven won’t heat, or your dishwasher refuses to start, our skilled repair team in Dubai and Sharjah is ready to assist.
                   As your local experts, we quickly diagnose and resolve any issues you’re facing.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Gorenje  Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Gorenje  Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that appliance failures, particularly with Gorenje products, often happen when you least expect them. That’s why our skilled and expert Gorenje technicians are always ready to provide dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of buying a replacement and have your Gorenje appliance back in working order before it becomes a bigger problem.
                 </p>

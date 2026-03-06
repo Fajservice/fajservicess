@@ -285,14 +285,14 @@ const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, tit
                     <div className="container">
                         <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_20 mb-1">Sharp Washing Machine Repair Near You</h2>
+                                <h2 className="cs_fs_20 mb-1 mt-0 text-align-left">Sharp Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     If you’re in need of repair services for your Sharp appliances, FAJ has you covered! Rely on us for prompt, affordable, and professional support.
                                     <br />Whether your built-in Sharp washer won’t drain, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our skilled repair team in Dubai and Sharjah is ready to help.
                                     As your trusted local experts, we ensure fast and efficient solutions to any appliance issue.
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Sharp Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Fast and Reliable Sharp Appliances Service</h2>
                                 <p className="mb-2">
                                     At FAJ Technical Services L.L.C, we understand that appliance issues, especially with Sharp products, often arise at the most inconvenient times. That’s why our experienced Sharp technicians are ready to deliver dependable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our support, you can avoid the expense of buying a new appliance and have your Sharp unit back in working order before it becomes a major concern.
                                 </p>

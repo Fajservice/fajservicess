@@ -331,7 +331,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                   Serving Dubai and Sharjah, our experienced technicians provide fast, affordable, and reliable White Westinghouse appliance repair. As your trusted local service provider, we ensure a quick response to get your appliances running smoothly again.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "16px" }}>Fast and Reliable White Westinghouse Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "16px" }}>Fast and Reliable White Westinghouse Appliances Service</h2>
                 <p className="mb-2">
                   At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with White Westinghouse products, never happen at a convenient time. That’s why our trained and qualified technicians are here to provide reliable White Westinghouse <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your appliance up and running again before it disrupts your routine.
                 </p>
