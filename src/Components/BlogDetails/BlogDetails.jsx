@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -8,7 +9,6 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-
 
 const CalendarIcon = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -71,6 +71,27 @@ const ArrowRightIcon = ({ size = 28, color = "currentColor" }) => (
   </svg>
 );
 
+// ─── Reusable banner renderer — supports string OR array ─────────────────────
+const renderBannerImg = (imgValue, altText) => {
+  if (!imgValue) return null;
+  const images = Array.isArray(imgValue) ? imgValue : [imgValue];
+  return (
+    <div className="cs_section_banner" style={{ marginBottom: '24px', marginTop: '16px' }}>
+      {images.map((img, idx) => (
+        <img
+          key={idx}
+          src={getImageSrc(img)}
+          alt={altText}
+          decoding="async"
+          width="100%"
+          height="auto"
+          style={{ borderRadius: '8px', display: 'block', marginBottom: idx < images.length - 1 ? '16px' : '0' }}
+        />
+      ))}
+    </div>
+  );
+};
+
 const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const { slug } = useParams();
   const [blogPost, setBlogPost] = useState(null);
@@ -93,17 +114,13 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     [blogTitle, shareUrl]
   );
 
-  // Fetch blog data
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch(`${import.meta.env.BASE_URL}data/blog.json`);
         const data = await response.json();
-
         setAllPosts(data);
-
         const post = data.find(item => item.slug === slug);
-
         if (post) {
           setBlogPost(post);
         } else {
@@ -120,7 +137,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         setLoading(false);
       }
     };
-
     fetchData();
   }, [slug]);
 
@@ -128,10 +144,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     if (!paragraph || typeof paragraph !== 'string') return paragraph;
 
     const hasRegularHTML = /<(?!Link|\/Link|b|\/b)[a-zA-Z]/i.test(paragraph);
-
-    if (hasRegularHTML) {
-      return renderMixedContent(paragraph);
-    }
+    if (hasRegularHTML) return renderMixedContent(paragraph);
 
     const parts = [];
     const tagRegex = /<Link url="(.*?)">(.*?)<\/Link>|<b>(.*?)<\/b>/g;
@@ -142,54 +155,28 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     try {
       while ((match = tagRegex.exec(paragraph)) !== null) {
         const [fullMatch, linkUrl, linkText, boldText] = match;
-
-        if (match.index > lastIndex) {
-          parts.push(paragraph.slice(lastIndex, match.index));
-        }
+        if (match.index > lastIndex) parts.push(paragraph.slice(lastIndex, match.index));
 
         if (linkUrl && linkText) {
           const isFullUrl = linkUrl.startsWith('http://') || linkUrl.startsWith('https://') || linkUrl.startsWith('www.');
           const isAbsolutePath = linkUrl.startsWith('/');
-
           if (isFullUrl) {
             let finalUrl = linkUrl;
-            if (linkUrl.startsWith('http://')) {
-              finalUrl = linkUrl.replace('http://', 'https://');
-            } else if (linkUrl.startsWith('www.')) {
-              finalUrl = 'https://' + linkUrl;
-            }
-
-            parts.push(
-              <a key={`link-${key++}`} href={finalUrl} target="_blank" rel="noopener noreferrer">
-                {linkText}
-              </a>
-            );
+            if (linkUrl.startsWith('http://')) finalUrl = linkUrl.replace('http://', 'https://');
+            else if (linkUrl.startsWith('www.')) finalUrl = 'https://' + linkUrl;
+            parts.push(<a key={`link-${key++}`} href={finalUrl} target="_blank" rel="noopener noreferrer">{linkText}</a>);
           } else if (isAbsolutePath) {
-            const fullUrl = `https://www.fajservices.ae${linkUrl}`;
-            parts.push(
-              <a key={`link-${key++}`} href={fullUrl} target="_blank" rel="noopener noreferrer">
-                {linkText}
-              </a>
-            );
+            parts.push(<a key={`link-${key++}`} href={`https://www.fajservices.ae${linkUrl}`} target="_blank" rel="noopener noreferrer">{linkText}</a>);
           } else {
-            parts.push(
-              <Link key={`router-link-${key++}`} to={linkUrl}>
-                {linkText}
-              </Link>
-            );
+            parts.push(<Link key={`router-link-${key++}`} to={linkUrl}>{linkText}</Link>);
           }
         } else if (boldText) {
           parts.push(<b key={`bold-${key++}`}>{boldText}</b>);
         }
-
         lastIndex = match.index + fullMatch.length;
       }
-
-      if (lastIndex < paragraph.length) {
-        parts.push(paragraph.slice(lastIndex));
-      }
+      if (lastIndex < paragraph.length) parts.push(paragraph.slice(lastIndex));
       tagRegex.lastIndex = 0;
-
       return parts.length > 0 ? <>{parts}</> : paragraph;
     } catch (err) {
       console.error("Error parsing paragraph links:", err);
@@ -205,7 +192,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
       const linkRegex = /<Link url="(.*?)">(.*?)<\/Link>/g;
       let linkMatch;
-
       while ((linkMatch = linkRegex.exec(content)) !== null) {
         const [fullMatch, linkUrl, linkText] = linkMatch;
         const token = `__LINK_${linkCounter}__`;
@@ -228,7 +214,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       const convertNodeToReact = (node, index = 0) => {
         if (node.nodeType === Node.TEXT_NODE) {
           let text = node.textContent;
-
           for (const [token, linkData] of linkMap) {
             if (text.includes(token)) {
               const parts = text.split(token);
@@ -239,33 +224,15 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   if (i < parts.length - 1) {
                     const isFullUrl = linkData.url.startsWith('https://') || linkData.url.startsWith('http://') || linkData.url.startsWith('www.');
                     const isAbsolutePath = linkData.url.startsWith('/');
-
                     if (isFullUrl) {
                       let finalUrl = linkData.url;
-                      if (linkData.url.startsWith('http://')) {
-                        finalUrl = linkData.url.replace('http://', 'https://');
-                      } else if (linkData.url.startsWith('www.')) {
-                        finalUrl = 'https://' + linkData.url;
-                      }
-
-                      result.push(
-                        <a key={`mixed-link-${index}-${i}`} href={finalUrl} target="_blank" rel="noopener noreferrer">
-                          {linkData.text}
-                        </a>
-                      );
+                      if (linkData.url.startsWith('http://')) finalUrl = linkData.url.replace('http://', 'https://');
+                      else if (linkData.url.startsWith('www.')) finalUrl = 'https://' + linkData.url;
+                      result.push(<a key={`mixed-link-${index}-${i}`} href={finalUrl} target="_blank" rel="noopener noreferrer">{linkData.text}</a>);
                     } else if (isAbsolutePath) {
-                      const fullUrl = `https://www.fajservices.ae${linkData.url}`;
-                      result.push(
-                        <a key={`mixed-link-${index}-${i}`} href={fullUrl} target="_blank" rel="noopener noreferrer">
-                          {linkData.text}
-                        </a>
-                      );
+                      result.push(<a key={`mixed-link-${index}-${i}`} href={`https://www.fajservices.ae${linkData.url}`} target="_blank" rel="noopener noreferrer">{linkData.text}</a>);
                     } else {
-                      result.push(
-                        <Link key={`mixed-router-link-${index}-${i}`} to={linkData.url}>
-                          {linkData.text}
-                        </Link>
-                      );
+                      result.push(<Link key={`mixed-router-link-${index}-${i}`} to={linkData.url}>{linkData.text}</Link>);
                     }
                   }
                 }
@@ -273,52 +240,32 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               }
             }
           }
-
           return text;
         } else if (node.nodeType === Node.ELEMENT_NODE) {
           const children = Array.from(node.childNodes).map((child, childIndex) =>
             convertNodeToReact(child, childIndex)
           ).flat();
-
-          // Pass key directly to each element, not via spread
           switch (node.tagName.toLowerCase()) {
-            case 'ul':
-              return <ul key={`element-${index}`}>{children}</ul>;
-            case 'ol':
-              return <ol key={`element-${index}`}>{children}</ol>;
-            case 'li':
-              return <li key={`element-${index}`}>{children}</li>;
-            case 'p':
-              return <p key={`element-${index}`}>{children}</p>;
-            case 'div':
-              return <div key={`element-${index}`}>{children}</div>;
-            case 'span':
-              return <span key={`element-${index}`}>{children}</span>;
+            case 'ul': return <ul key={`element-${index}`}>{children}</ul>;
+            case 'ol': return <ol key={`element-${index}`}>{children}</ol>;
+            case 'li': return <li key={`element-${index}`}>{children}</li>;
+            case 'p': return <p key={`element-${index}`}>{children}</p>;
+            case 'div': return <div key={`element-${index}`}>{children}</div>;
+            case 'span': return <span key={`element-${index}`}>{children}</span>;
             case 'strong':
-            case 'b':
-              return <strong key={`element-${index}`}>{children}</strong>;
+            case 'b': return <strong key={`element-${index}`}>{children}</strong>;
             case 'em':
-            case 'i':
-              return <em key={`element-${index}`}>{children}</em>;
-            case 'br':
-              return <br key={`element-${index}`} />;
-            case 'table':
-              return <table key={`table-${index}`} className="table table-bordered">{children}</table>;
-            case 'thead':
-              return <thead key={`thead-${index}`}>{children}</thead>;
-            case 'tbody':
-              return <tbody key={`tbody-${index}`}>{children}</tbody>;
-            case 'tr':
-              return <tr key={`tr-${index}`}>{children}</tr>;
-            case 'th':
-              return <th key={`th-${index}`}>{children}</th>;
-            case 'td':
-              return <td key={`td-${index}`}>{children}</td>;
-            default:
-              return <span key={`element-${index}`}>{children}</span>;
+            case 'i': return <em key={`element-${index}`}>{children}</em>;
+            case 'br': return <br key={`element-${index}`} />;
+            case 'table': return <table key={`table-${index}`} className="table table-bordered">{children}</table>;
+            case 'thead': return <thead key={`thead-${index}`}>{children}</thead>;
+            case 'tbody': return <tbody key={`tbody-${index}`}>{children}</tbody>;
+            case 'tr': return <tr key={`tr-${index}`}>{children}</tr>;
+            case 'th': return <th key={`th-${index}`}>{children}</th>;
+            case 'td': return <td key={`td-${index}`}>{children}</td>;
+            default: return <span key={`element-${index}`}>{children}</span>;
           }
         }
-
         return null;
       };
 
@@ -326,9 +273,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       const children = Array.from(rootDiv.childNodes).map((child, index) =>
         convertNodeToReact(child, index)
       ).flat();
-
       return <>{children}</>;
-
     } catch (err) {
       console.error("Error parsing mixed content:", err);
       return <div dangerouslySetInnerHTML={{ __html: content }} />;
@@ -337,40 +282,19 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
   const renderContent = (content) => {
     if (!content) return null;
-
     if (Array.isArray(content)) {
       return content.map((item, index) => {
         if (typeof item === 'object' && item !== null && (item.Pros || item.Cons)) {
           return (
-            <div key={index} className="pros-cons-container" style={{
-              display: 'flex',
-              gap: '20px',
-              marginBottom: '15px',
-              padding: '15px',
-              border: '1px solid #e0e0e0',
-              borderRadius: '8px',
-              backgroundColor: '#f9f9f9'
-            }}>
+            <div key={index} className="pros-cons-container" style={{ display: 'flex', gap: '20px', marginBottom: '15px', padding: '15px', border: '1px solid #e0e0e0', borderRadius: '8px', backgroundColor: '#f9f9f9' }}>
               {item.Pros && (
-                <div className="pros" style={{
-                  flex: 1,
-                  padding: '10px',
-                  backgroundColor: '#e8f5e8',
-                  borderRadius: '5px',
-                  borderLeft: '4px solid #4caf50'
-                }}>
+                <div className="pros" style={{ flex: 1, padding: '10px', backgroundColor: '#e8f5e8', borderRadius: '5px', borderLeft: '4px solid #4caf50' }}>
                   <strong style={{ color: '#2e7d32' }}>✓ Pros:</strong>{' '}
                   <span dangerouslySetInnerHTML={{ __html: item.Pros.replace(/^<b>.*?<\/b>:\s*/, '') }} />
                 </div>
               )}
               {item.Cons && (
-                <div className="cons" style={{
-                  flex: 1,
-                  padding: '10px',
-                  backgroundColor: '#ffeaea',
-                  borderRadius: '5px',
-                  borderLeft: '4px solid #f44336'
-                }}>
+                <div className="cons" style={{ flex: 1, padding: '10px', backgroundColor: '#ffeaea', borderRadius: '5px', borderLeft: '4px solid #f44336' }}>
                   <strong style={{ color: '#c62828' }}>✗ Cons:</strong>{' '}
                   <span dangerouslySetInnerHTML={{ __html: item.Cons.replace(/^<b>.*?<\/b>:\s*/, '') }} />
                 </div>
@@ -378,54 +302,72 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
             </div>
           );
         } else if (typeof item === 'string') {
-          // Check if string contains block-level elements
           const hasBlockElements = /<(ul|ol|li|div|table|p|h[1-6])/i.test(item);
-          if (hasBlockElements) {
-            return <div key={index}>{renderParagraphWithLinks(item)}</div>;
-          }
+          if (hasBlockElements) return <div key={index}>{renderParagraphWithLinks(item)}</div>;
           return <p key={index}>{renderParagraphWithLinks(item)}</p>;
         } else {
           return <p key={index}>{String(item)}</p>;
         }
       });
     } else if (typeof content === 'string') {
-      // Check if string contains block-level elements
       const hasBlockElements = /<(ul|ol|li|div|table|p|h[1-6])/i.test(content);
-      if (hasBlockElements) {
-        return <div>{renderParagraphWithLinks(content)}</div>;
-      }
+      if (hasBlockElements) return <div>{renderParagraphWithLinks(content)}</div>;
       return <p>{renderParagraphWithLinks(content)}</p>;
     } else {
       return <p>{String(content)}</p>;
     }
   };
 
-  const renderSection = (sectionName) => {
-    const h2Key = `${sectionName}_h2`;
-    const h2PKey = `${sectionName}_h2_p`;
-    const bulletsKey = `${sectionName}_bullets`;
-    const h2PointsKey = `${sectionName}_h2_points`;
-    const imgKey = `${sectionName}_img`;
-    const bannerKey = `${sectionName}_banner`;
+  // ─── Reusable bullets renderer ───────────────────────────────────────────
+  // Supports: plain strings OR { text, desc } objects
+  const renderBullets = (bullets, keyPrefix) => {
+    if (!bullets || !Array.isArray(bullets)) return null;
+    return (
+      <ul>
+        {bullets.map((bullet, i) => {
+          if (typeof bullet === 'object' && bullet !== null) {
+            return (
+              <li key={`${keyPrefix}-${i}`}>
+                {bullet.text}
+                {bullet.desc && (
+                  <p style={{ marginTop: '6px', fontWeight: 'normal' }}>
+                    {renderParagraphWithLinks(bullet.desc)}
+                  </p>
+                )}
+              </li>
+            );
+          }
+          return <li key={`${keyPrefix}-${i}`}>{bullet}</li>;
+        })}
+      </ul>
+    );
+  };
 
+  const renderSection = (sectionName) => {
+    const h2Key       = `${sectionName}_h2`;
+    const h2PKey      = `${sectionName}_h2_p`;
+    const bulletsKey  = `${sectionName}_bullets`;
+    const h2PointsKey = `${sectionName}_h2_points`;
+    const imgKey      = `${sectionName}_img`;
+
+    // Banner positions:
+    // bannerKey   → BEFORE h2 heading
+    // banner_2Key → AFTER h2 bullets/points, BEFORE h3 loop
+    // h3 banner   → sec_X_h3_N_banner → AFTER that specific h3's content
+    const bannerKey   = `${sectionName}_banner`;
+    const banner2Key  = `${sectionName}_banner_2`;
 
     if (!blogPost[h2Key]) return null;
 
     return (
       <div key={sectionName}>
-         {blogPost[bannerKey] && (
-        <div className="cs_blog_banner" style={{ marginBottom: '24px' }}>
-          <img
-            src={getImageSrc(blogPost[bannerKey])}
-            alt={blogPost.title}
-            decoding="async"
-            width="100%"
-            height="auto"
-            style={{ borderRadius: '8px' }}
-          />
-        </div>
-      )}
+
+        {/* ── Banner 1: before h2 heading ── */}
+        {renderBannerImg(blogPost[bannerKey], blogPost.title)}
+
         <h2>{blogPost[h2Key]}</h2>
+
+        {/* Section-level image */}
         {blogPost[imgKey] && (
           <div className="col-md-8">
             <img src={getImageSrc(blogPost[imgKey])} alt={blogPost.title} decoding="async" width="100%" height="auto" />
@@ -434,13 +376,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
         {renderContent(blogPost[h2PKey])}
 
-        {blogPost[bulletsKey] && Array.isArray(blogPost[bulletsKey]) && (
-          <ul>
-            {blogPost[bulletsKey].map((bullet, i) => (
-              <li key={i}>{bullet}</li>
-            ))}
-          </ul>
-        )}
+        {renderBullets(blogPost[bulletsKey], `${sectionName}_bullet`)}
 
         {blogPost[h2PointsKey] && Array.isArray(blogPost[h2PointsKey]) && (
           <ol>
@@ -450,37 +386,48 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           </ol>
         )}
 
-        {[...Array(13)].map((_, i) => {
-          const h3Key = `${sectionName}_h3_${i + 1}`;
-          const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
-          const h3ImgKey = `${sectionName}_h3_${i + 1}_img`;
+        {/* ── Banner 2: after h2 content, before h3 loop ── */}
+        {renderBannerImg(blogPost[banner2Key], blogPost.title)}
 
+        {/* ── H3 loop ── */}
+        {[...Array(13)].map((_, i) => {
+          const h3Key        = `${sectionName}_h3_${i + 1}`;
+          const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
+          const h3ImgKey     = `${sectionName}_h3_${i + 1}_img`;
+          const h3BulletsKey = `${sectionName}_h3_${i + 1}_bullets`;
+          const h3PointsKey  = `${sectionName}_h3_${i + 1}_points`;
+          const h3BannerKey  = `${sectionName}_h3_${i + 1}_banner`; 
+          const h3Banner2Key = `${sectionName}_h3_${i + 1}_banner2`; 
 
           if (!blogPost[h3Key]) return null;
 
           return (
             <div key={`${sectionName}_h3_${i + 1}`}>
               <h3 className="cs_fs_24 mb-2">{blogPost[h3Key]}</h3>
+
               {blogPost[h3ImgKey] && (
                 <div className="col-md-8">
                   <img src={getImageSrc(blogPost[h3ImgKey])} alt={blogPost.title} decoding="async" width="100%" height="auto" />
                 </div>
               )}
+
               {renderContent(blogPost[h3ContentKey])}
-              {blogPost[`${sectionName}_h3_${i + 1}_bullets`] && (
-                <ul>
-                  {blogPost[`${sectionName}_h3_${i + 1}_bullets`].map((bullet, idx) => (
-                    <li key={idx}>{bullet}</li>
-                  ))}
-                </ul>
-              )}
-              {blogPost[`${sectionName}_h3_${i + 1}_points`] && (
+
+              {/* ── banner2: after content, before bullets ── */}
+              {renderBannerImg(blogPost[h3Banner2Key], blogPost.title)}
+
+              {renderBullets(blogPost[h3BulletsKey], `${sectionName}_h3_${i + 1}_bullet`)}
+
+              {blogPost[h3PointsKey] && (
                 <ol>
-                  {blogPost[`${sectionName}_h3_${i + 1}_points`].map((point, idx) => (
+                  {blogPost[h3PointsKey].map((point, idx) => (
                     <li key={idx}>{point}</li>
                   ))}
                 </ol>
               )}
+
+              {/* ── banner: after bullets/points (h3 end) ── */}
+              {renderBannerImg(blogPost[h3BannerKey], blogPost.title)}
             </div>
           );
         })}
@@ -488,24 +435,16 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     );
   };
 
-  if (loading) {
-    return <div className="container py-5 text-center">Loading...</div>;
-  }
+  if (loading)   return <div className="container py-5 text-center">Loading...</div>;
+  if (error)     return <div className="container py-5 text-center text-danger">{error}</div>;
+  if (!blogPost) return <div className="container py-5 text-center">Blog post not found.</div>;
 
-  if (error) {
-    return <div className="container py-5 text-center text-danger">{error}</div>;
-  }
-
-  if (!blogPost) {
-    return <div className="container py-5 text-center">Blog post not found.</div>;
-  }
-
-  const metatitle = String(titleSeo || blogPost.metatitle || blogPost.title || '');
+  const metatitle       = String(titleSeo || blogPost.metatitle || blogPost.title || '');
   const metadescription = String(description || blogPost.metadesc || '');
-  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`);
-  const metaImage = blogPost.img ? getImageSrc(blogPost.img) : '';
+  const metaAuthor      = String(Author || "FAJ Technical Services L.L.C.");
+  const metaKeyword     = String(Keyword || "");
+  const metaURL         = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`);
+  const metaImage       = blogPost.img ? getImageSrc(blogPost.img) : '';
 
   return (
     <>
@@ -522,13 +461,10 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
           <meta property="og:url" content={metaURL} />
-
-          {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
-
         </Helmet>
       </HelmetProvider>
 
@@ -538,7 +474,9 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
               <div className="cs_post_details">
-                {blogPost.img && <img src={getImageSrc(blogPost.img)} alt={blogPost.title} fetchpriority="high" decoding="async" width="100%" height="auto" />}
+                {blogPost.img && (
+                  <img src={getImageSrc(blogPost.img)} alt={blogPost.title} fetchpriority="high" decoding="async" width="100%" height="auto" />
+                )}
 
                 <div className="cs_post_meta_wrapper cs_mb_20">
                   <div className="cs_post_meta">
@@ -558,7 +496,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 <h1 className="cs_fs_36">{blogPost.title}</h1>
                 {renderContent(blogPost.content)}
 
-                {['sec_two', 'sec_three', 'sec_four', 'sec_five', 'sec_six', 'sec_seven', 'sec_eight', 'sec_nine', 'sec_ten', 'sec_eleven', 'sec_tweleve', 'sec_thirteen', 'sec_fourteen', 'sec_fifteen', 'sec_sixteen', 'sec_seventeen', 'sec_eighteen', 'sec_nineteen', 'sec_twenty'].map(sectionName =>
+                {['sec_two','sec_three','sec_four','sec_five','sec_six','sec_seven','sec_eight','sec_nine','sec_ten','sec_eleven','sec_tweleve','sec_thirteen','sec_fourteen','sec_fifteen','sec_sixteen','sec_seventeen','sec_eighteen','sec_nineteen','sec_twenty'].map(sectionName =>
                   renderSection(sectionName)
                 )}
 
@@ -569,18 +507,14 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   </div>
                 )}
 
-                {/* FAQ section */}
                 {blogPost.sec_faq_h2 && (
                   <div className="row">
                     <h2>{blogPost.sec_faq_h2}</h2>
                     {renderContent(blogPost.sec_faq_h2_p)}
-
                     {[...Array(10)].map((_, i) => {
                       const faqH3Key = `sec_faq_h3_${i + 1}`;
-                      const faqPKey = `sec_faq_h3_p_${i + 1}`;
-
+                      const faqPKey  = `sec_faq_h3_p_${i + 1}`;
                       if (!blogPost[faqH3Key]) return null;
-
                       return (
                         <div key={`faq_${i + 1}`}>
                           <h3 className="cs_fs_24 mb-2">{blogPost[faqH3Key]}</h3>
@@ -600,47 +534,19 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     {renderContent(blogPost.sec_tag_content)}
                   </div>
                 </div>
-
                 <div className="cs_post_socials">
                   <h3 className="cs_fs_24">Share:</h3>
                   <div className="cs_social_btns cs_style_1">
-
-                    <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cs_center cs_radius_50"
-                      aria-label="Share on Facebook"
-                    >
+                    <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="cs_center cs_radius_50" aria-label="Share on Facebook">
                       <FacebookIcon size={14} />
                     </a>
-
-
-                    <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogTitle)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cs_center cs_radius_50"
-                      aria-label="Share on Twitter"
-                    >
+                    <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogTitle)}`} target="_blank" rel="noopener noreferrer" className="cs_center cs_radius_50" aria-label="Share on Twitter">
                       <TwitterIcon size={14} />
                     </a>
-
-
-                    <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cs_center cs_radius_50"
-                      aria-label="Share on LinkedIn"
-                    >
+                    <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="cs_center cs_radius_50" aria-label="Share on LinkedIn">
                       <LinkedInIcon size={14} />
                     </a>
-
-
-                    <a href={`https://api.whatsapp.com/send?phone=+971507464712&text=${encodeURIComponent(message)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cs_center cs_radius_50"
-                      aria-label="Share on WhatsApp"
-                    >
+                    <a href={`https://api.whatsapp.com/send?phone=+971507464712&text=${encodeURIComponent(message)}`} target="_blank" rel="noopener noreferrer" className="cs_center cs_radius_50" aria-label="Share on WhatsApp">
                       <WhatsAppIcon size={14} />
                     </a>
                   </div>
@@ -680,26 +586,11 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
                   <ul className="cs_categories cs_fs_18 cs_semibold cs_mp_0">
-                    <li><Link to="/services/air-conditioning-repair/ac-service/">
-                      <span>Air Conditioning Services</span>
-                      <span><ArrowRightIcon size={28} /></span>
-                    </Link></li>
-                    <li><Link to="/services/home-appliances-repair/appliances-repair-service/">
-                      <span>Home Appliances Repair Services</span>
-                      <span><ArrowRightIcon size={28} /></span>
-                    </Link></li>
-                    <li><Link to="/services/laundry-equipment-repair/">
-                      <span>Laundry Equipment Service</span>
-                      <span><ArrowRightIcon size={28} /></span>
-                    </Link></li>
-                    <li><Link to="/services/coffee-machine/coffee-machine-service-center/">
-                      <span>Coffee Machine Services</span>
-                      <span><ArrowRightIcon size={28} /></span>
-                    </Link></li>
-                    <li><Link to="/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/">
-                      <span>Kitchen Equipment Repair</span>
-                      <span><ArrowRightIcon size={28} /></span>
-                    </Link></li>
+                    <li><Link to="/services/air-conditioning-repair/ac-service/"><span>Air Conditioning Services</span><span><ArrowRightIcon size={28} /></span></Link></li>
+                    <li><Link to="/services/home-appliances-repair/appliances-repair-service/"><span>Home Appliances Repair Services</span><span><ArrowRightIcon size={28} /></span></Link></li>
+                    <li><Link to="/services/laundry-equipment-repair/"><span>Laundry Equipment Service</span><span><ArrowRightIcon size={28} /></span></Link></li>
+                    <li><Link to="/services/coffee-machine/coffee-machine-service-center/"><span>Coffee Machine Services</span><span><ArrowRightIcon size={28} /></span></Link></li>
+                    <li><Link to="/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/"><span>Kitchen Equipment Repair</span><span><ArrowRightIcon size={28} /></span></Link></li>
                   </ul>
                 </div>
 
