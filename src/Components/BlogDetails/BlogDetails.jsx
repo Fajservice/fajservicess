@@ -406,12 +406,25 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     const bulletsKey = `${sectionName}_bullets`;
     const h2PointsKey = `${sectionName}_h2_points`;
     const imgKey = `${sectionName}_img`;
+    const bannerKey = `${sectionName}_banner`;
 
 
     if (!blogPost[h2Key]) return null;
 
     return (
       <div key={sectionName}>
+         {blogPost[bannerKey] && (
+        <div className="cs_blog_banner" style={{ marginBottom: '24px' }}>
+          <img
+            src={getImageSrc(blogPost[bannerKey])}
+            alt={blogPost.title}
+            decoding="async"
+            width="100%"
+            height="auto"
+            style={{ borderRadius: '8px' }}
+          />
+        </div>
+      )}
         <h2>{blogPost[h2Key]}</h2>
         {blogPost[imgKey] && (
           <div className="col-md-8">
