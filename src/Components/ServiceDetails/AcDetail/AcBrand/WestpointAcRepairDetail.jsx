@@ -131,7 +131,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5 expert_section_wrapper">
+            <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Westpoint AC Maintenance and Services</h2>
                 <p className="mb-2">If you're in Dubai and need Westpoint <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">air conditioner repair</a>, FAJ is the solution for you!<br />Our expert team ensures your AC systems work efficiently in Dubai and Sharjah, providing reliable service for your comfort all year round. Enjoy a cool, refreshing environment with our assistance!</p>

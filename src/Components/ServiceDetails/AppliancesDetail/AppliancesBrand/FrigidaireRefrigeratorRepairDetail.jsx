@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Frigidaire Refrigerator Repair | Washing Machine Maintenance");
-  const metadescription = String(description || "FAJ specialises in Frigidaire home appliances service in Dubai. Get fast washing machine, dishwasher, oven, and cooking range repair center near me.");
+  const metatitle = String(titleSeo || "Frigidaire Refrigerator Repair | Frigidaire Washing Machine Service");
+  const metadescription = String(description || "FAJ specialises in Frigidaire home appliances service in Dubai. Get fast Frigidaire washing machine, dishwasher, oven, and cooking range repair center");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Frigidaire Refrigerator Repair, Frigidaire Fridge Repair, Frigidaire Washing Machine Repair, Frigidaire Dishwasher Repair, Frigidaire Cooker Repair, Frigidaire Oven Repair, Frigidaire Appliance Service Dubai");
@@ -36,6 +36,65 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Frigidaire Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3300",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Frigidaire Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Frigidaire Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire Refrigerator Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire General Home Appliance Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Anusri Chan" }, "reviewBody": "Frigidaire washing machine repair was completed efficiently. Technician Abdullah was professional and thorough.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Haris M" }, "reviewBody": "FAJ fixed our Frigidaire coffee machine perfectly. Technician Que explained everything clearly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Khurram Mahmood" }, "reviewBody": "Frigidaire refrigerator repair was fast and professional. Technician handled the issue expertly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Jason Miller" }, "reviewBody": "Frigidaire dishwasher repair went smoothly. Friendly staff and efficient service.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Affu Affu" }, "reviewBody": "Highly recommended. FAJ repaired our Frigidaire appliances quickly and maintained great communication.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Frigidaire", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/" }
+      ]
+    }
+  ]
+}
 
  // State for fetched data
      const [data, setData] = useState([]);
@@ -138,6 +197,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -147,10 +207,8 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Frigidaire Refrigerator Repair and Washing Machine Service Maintenance in Dubai</h1>
-            <p>
-              Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has provided reliable Frigidaire appliance repair and service in Dubai. We understand that appliances can break down unexpectedly, so we offer quality and affordable solutions.
-              <br />Our trained technicians are available throughout Dubai and Sharjah to provide Frigidaire washing machine repair and service at your location.
+            <h1 className="cs_fs_30">Frigidaire Home Appliance Repair and Service in Dubai</h1>
+            <p>To maintain the high quality of your Frigidaire home appliances, trust our Repair Service. We provide reliable solutions for a wide range of Frigidaire appliance repair, including Frigidaire refrigerators, dishwashers, washing machines, and ovens. <br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Frigidaire appliance at your location and promptly restore it to full working order. Count on us to bring your Frigidaire appliances back to life with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> dependable repair service in Dubai.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -166,16 +224,14 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1"> Frigidaire Appliance Repair and Service </h3>
+                <h3 className="cs_fs_24 mb-1 mt-0 text-align-left">Specialised Frigidaire Washing Machine Repair and Service in Dubai</h3>
 
-                <p className="mb-2">
-                  If you require Frigidaire refrigerator repair, FAJ is your top choice for quick and affordable appliance repair service in Dubai and Sharjah. Our expert team is prepared to handle any issue, whether it’s an Frigidaire washing machine that won’t drain, fridge that isn’t working, an oven that isn’t heating, or a dishwasher that won’t turn on. We are nearby and can efficiently fix your appliances as quickly as possible
-                </p>
+                <p className="mb-1">You shouldn't have to face a lack of clean clothes due to a malfunctioning Frigidaire washer dryer. Common issues include not powering on or failing to spin. <br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we handle these problems and also repair faulty displays and timers. Contact us today, and we'll send an expert technician to fix your Frigidaire appliance the same day. <br />Replacing an Frigidaire washing machine or Frigidaire tumble dryer can be expensive, so we aim to extend the lifespan of your Frigidaire washing machine repair service in Dubai.</p>
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "21px" }}> Fast and Reliable Frigidaire Appliances Service </h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns, especially with Frigidaire products, never occur at a convenient time. That’s why our trained and qualified Frigidaire technicians are here to offer you reliable appliance repair services. With our assistance, you can avoid the cost of purchasing a new appliance and get your Frigidaire appliance up and running again before you have a chance to worry about it.</p>
+                <h3 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left" style={{ fontSize: "21px" }}>Frigidaire Fridge Repair and Freezer Service in Dubai</h3>
+                <p className="mb-2">We often overlook the vital role our Frigidaire fridge freezers play. If you notice food spoiling quickly or excessive noise. <br />At FAJ, our skilled team is ready to assist you at home. We have experience with Frigidaire appliance repairs, and even if your model isn’t listed, we may still have the necessary spare parts. <br />Our goal is to provide same-day service for your Frigidaire fridge repair and Frigidaire freezer service once you reach out to us.</p>
               </div>
 
               <div className="col-md-6 ">

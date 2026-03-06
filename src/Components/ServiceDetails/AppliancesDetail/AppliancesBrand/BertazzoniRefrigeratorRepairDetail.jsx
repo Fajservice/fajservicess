@@ -37,7 +37,219 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Bertazzoni Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/bertazzoni/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3355",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bertazzoni Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Bertazzoni Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bertazzoni Cooker Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bertazzoni Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bertazzoni Hob Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bertazzoni Refrigerator Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bertazzoni Hood Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bertazzoni Dishwasher Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewBody": "Mr.Abdullah and Tarin come to fix our built in dishwasher and they were very helpful on the matter. Fixed our issue within 10 mins and also with a reasonable price!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Stefanie Giersch" },
+          "reviewBody": "Thanks to abdullah i can cook and go wild in my kitchen, knowing my dishwasher is set and ready. More importantly, me being german, he arrived as scheduled on time everytime. Friendly, efficient, and my pup stevie was very happy with him. That says alot to me as a dog mom. Thanks abdullah 👌💪🏻",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "GHASIF SAJID" },
+          "reviewBody": "I had an excellent experience with FAJ! They came to repair my washing machine and also serviced my AC in The Greens. ABDULLAH was professional, punctual, and explained everything clearly. The washing machine was fixed quickly, and my AC is now running smoothly and cooling much better. Really impressed with their efficiency and customer service. Highly recommend FAJ for reliable home appliance repairs and AC servicing!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "DUNJA LAZOVIC" },
+          "reviewBody": "Fast and reliable services. Our washing machine broke down, the team came same day, on day 2 we got the quote for the repair, approved it, and on day 3 the machine was delivered back to us. Thank you to Mr. Abdullah for fast reinstallation.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "CHRISTDAI ALBURO" },
+          "reviewBody": "I was so pleased with the service I received from FAJ Technical Service. They went above and beyond to help me fix my washing machine! Thanks to Ms. Regina from customer service, she was very helpful and explained what was needed. The team arrived in less than an hour and fixed the machine without any delay. Thank you so much Kazeem from the technician. Highly recommend their quality and fast service! Thank you FAJ! one of my favorites!!! :)",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "KARTHIKA" },
+          "reviewBody": "These guys are fast! Came to check my broken washing machine the very same day I messaged them. In a week it was fixed and brought back to me. Abdullah was the one who assisted me and he was very helpful and patient.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "LEENU JACOB" },
+          "reviewBody": "I am very satisfied with the washing machine service. The team responded quickly to my request and identified the problem without delay. The repair was done efficiently, and now the machine is working perfectly. I really appreciate the prompt response and successful service.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Farah B" },
+          "reviewBody": "Abdullah did a great job fixing our fridge. Very professional services",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "USMAN ALI" },
+          "reviewBody": "Abdullah from FAJ did a great job fixing our fridge and washing machine here in Arabian Ranches. He came on time, was super friendly, and got everything working again without any hassle. Really professional but also easy to deal with. If you ever need appliance repairs around the Ranches, I’d definitely recommend calling him!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/bertazzoni/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Bertazzoni", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/bertazzoni/" }
+      ]
+    }
+  ]
+}
 
+   const bertazzoniServicesData = [
+     {
+      id: 1,
+      image: getImageSrc('gas-cooker-repair-services'),
+ 
+      title: 'Appliance Call-out',
+      icon: getImageSrc('calloutcard'),
+      price: 'AED315',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
+      popupTitle: 'Appliance Call-out  scope of work:',
+      sections: [
+        {
+          items: [
+            'Inspection visit fee',
+            'Rectification of faults',
+            'Cost of minor repair work',
+            'Transportation pricing for services',
+            'Technical inspection onsite or workshop',
+            'Pick-up, drop-off, and reinstallation onsite',
+            'A quotation can be provided via call, WhatsApp, or email if needed.',
+            'The same call-out fee applies for diagnosing either one or two appliances at the same place.'
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 315, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
+        },
+        
+      ]
+    },
+
+    {
+      id: 2,
+      image: getImageSrc('lagermaniaservice'),
+      warranty: '50- Days Warranty',
+      title: 'Appliance Cleaning',
+      icon: getImageSrc('cleaningcard'),
+      price: 'AED1325',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20Home%20Appliances%20Cleaning',
+      popupTitle: 'Cleaning Appliances',
+      sections: [
+        {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
+          items: [
+            'Hob Cleaning',
+            'Oven Cleaning',
+            'Freezer Cleaning',
+            'Gas Range Cleaning',
+            'Dishwasher Cleaning',
+            'Refrigerator Cleaning',
+            'Hood / Chimney Cleaning',
+            'Washing Machine Cleaning',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+         {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 1325 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+
+    {
+      id: 3,
+      image: getImageSrc('ovenhomecard'),
+
+      title: 'Home Appliances Installation',
+      icon: getImageSrc('installationcard'),
+      price: 'AED365',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Maintenance',
+      popupTitle: 'Appliances Installation',
+      sections: [
+        {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
+          items: [
+            'Refrigerator Installation',
+            'Dish Washer Installation',
+            'Electric Cooker Installation',
+            'Hood / Chimney Installation',
+            'Washing Machine Installation',
+            'Built-in Microwave Installation',
+            'Built-in Dishwasher Installation',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Costs related to MEP, carpentry, gypsum ceilings, painting, repair work, procurement-related installation parts / materials, and installation as needed.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 365 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+  ];
    // State for fetched data
       const [data, setData] = useState([]);
       const [testimonial_data, setTestimonialData] = useState([]);
@@ -142,6 +354,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -163,17 +376,17 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           </div>
         </section>
 
-        <PriceCardHomeCat />
+        <PriceCardHomeCat services={bertazzoniServicesData}/>
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Bertazzoni Cooking Range and Cooker Repair and Service Dubai</h3>
+                <h3 className="cs_fs_24 mb-1 mt-0">Bertazzoni Cooking Range and Cooker Repair and Service Dubai</h3>
 
                 <p className="mb-2">The Bertazzoni cooker repair center Dubai values your time, which is why they focus on efficiency in their operations. Once you’ve booked a service appointment, their technicians arrive promptly at your doorstep, ready to address the issue.<br />Their attention to detail ensures that they complete repairs on Bertazzoni gas cookers, cooking ranges, hobs, and induction stoves repair and service Dubai them efficiently, minimising any disruption to your daily routine.</p>
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Get Bertazzoni Oven Repair Near You</h3>
+                <h3 className="cs_fs_24 mb-1 pt-1 mt-0">Get Bertazzoni Oven Repair Near You</h3>
                 <p className="mb-2">Bertazzoni gas and electric ovens are essential appliances for everyday cooking and baking. When they break down, it can disrupt your entire routine. That’s why it’s crucial to find a reliable Bertazzoni oven repair and service specialist near you, whether you're in Dubai or Sharjah, for fast support.</p>
               </div>
 

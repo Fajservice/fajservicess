@@ -170,7 +170,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* 2 cols */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Samsung Washing Machine Repair</h3>
 

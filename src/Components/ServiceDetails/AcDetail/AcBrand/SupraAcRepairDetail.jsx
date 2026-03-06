@@ -300,7 +300,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5 expert_section_wrapper">
+            <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Supra AC Maintenance and Services</h2>
                 <p className="mb-2">If you are in Dubai and require professional repair services for Supra air conditioners, <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> is here to help.<br />Our skilled technicians ensure your air conditioning systems operate efficiently, delivering reliable cooling solutions tailored to the climate of Dubai and Sharjah.<br />Trust us to keep your indoor environment comfortable and refreshing all year round.</p>

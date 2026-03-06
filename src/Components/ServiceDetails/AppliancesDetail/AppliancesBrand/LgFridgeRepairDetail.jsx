@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "LG Fridge Repair in Dubai | LG Washing Machine Repair Near Me");
-  const metadescription = String(description || "Reliable & Fast LG fridge repair in Dubai. FAJ specialises in LG washer dryer, refrigerator, dishwasher repair & cooker LG service center in Dubai");
+  const metatitle = String(titleSeo || "LG Appliances Service | LG Washing Machine Repair Dubai");
+  const metadescription = String(description || "Reliable & Fast LG appliances service. FAJ specialises in LG fridge, washing machine, dryer, LG refrigerator, dishwasher & cooker LG repair center Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "LG Fridge Repair, LG Washing Machine Repair, LG Cooker Repair, LG Oven Repair, LG Appliances Maintenance, LG Refrigerator Fix, LG Dishwasher Repair");
@@ -36,6 +36,145 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "LG Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/lg/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3500",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "LG Home Appliance Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "LG Appliance Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "LG Washing Machine Repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "LG Refrigerator Repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "LG Dishwasher Repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "LG Dryer Repair"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ahmed R." },
+
+
+          "reviewBody": "My LG washing machine was not draining water. FAJ technician fixed the pump issue quickly and tested everything properly before leaving."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sara K." },
+          "reviewBody": "Excellent LG refrigerator repair service. The cooling problem was diagnosed fast and resolved on the first visit.",
+   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Bilal S." },
+          "reviewBody": "LG dryer stopped heating. The technician replaced the faulty heating element and now it works perfectly.",
+   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+
+
+
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Maha A." },
+          "reviewBody": "Professional LG dishwasher repair in Dubai. Quick response, clear explanation, and neat workmanship.",
+   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Usman T." },
+          "reviewBody": "Reliable LG appliance repair service. The team arrived on time and completed the job efficiently at a fair price.",
+   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/lg/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "LG",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/lg/"
+        }
+      ]
+    }
+  ]
+}
 
    // State for fetched data
       const [data, setData] = useState([]);
@@ -141,6 +280,7 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -168,7 +308,7 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">LG Washing Machine Repair Near You</h2>
                 <p className="mb-2">

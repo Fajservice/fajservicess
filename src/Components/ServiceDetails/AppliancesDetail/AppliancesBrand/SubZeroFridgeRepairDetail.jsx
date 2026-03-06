@@ -37,6 +37,158 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Sub‑Zero Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/sub-zero/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3000",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Sub‑Zero Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Sub‑Zero Appliances Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Sub‑Zero Refrigerator Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Sub‑Zero Freezer Repair" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Sub Zero Fridge Service" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Sub‑Zero Wine Cooler Repair" }
+              }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anusri Chan" },
+          "reviewBody": "The Sub‑Zero refrigerator repair was completed successfully. The unit is now cooling perfectly and I am extremely satisfied with the quality of service.",
+"reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+
+
+
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Affu Affu" },
+          "reviewBody": "Highly recommended service! They fixed my Sub‑Zero freezer issue quickly and provided clear communication throughout.",
+"reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+
+
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Tohidur Rahman" },
+          "reviewBody": "Professional and efficient service for my Sub‑Zero ice maker repair. Great service center in Dubai with reliable technicians.",
+"reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+
+
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanan Tariq" },
+          "reviewBody": "Friendly and efficient team. FAJ Technical Services L.L.C diagnosed the Sub‑Zero wine cooler problem quickly and fixed it without delay.",
+"reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+
+
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Khurram Mahmood" },
+          "reviewBody": "Excellent experience with FAJ Technical Services L.L.C for my Sub‑Zero refrigerator repair. The technician was experienced and resolved the issue quickly.",
+"reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+
+
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/sub-zero/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Sub‑Zero",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/sub-zero/"
+        }
+      ]
+    }
+  ]
+}
 
    // State for fetched data
       const [data, setData] = useState([]);
@@ -243,6 +395,7 @@ const subzeroServicesData = [
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -271,7 +424,7 @@ const subzeroServicesData = [
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Sub Zero Fridge Service Near You</h3>
 

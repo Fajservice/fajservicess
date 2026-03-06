@@ -41,7 +41,119 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
      const [data, setData] = useState([]);
      const [testimonial_data, setTestimonialData] = useState([]);
      const [isLoading, setIsLoading] = useState(true);
- 
+    const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Fast, Affordable Beko Home Appliance Repair and Service in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/beko/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "3330",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Beko Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Beko Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beko Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beko Fridge Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beko Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beko Home Appliance Service Center" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beko Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beko Cooking Range and Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beko Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beko Oven Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewBody": "Mr.Abdullah and Tarin come to fix our built in dishwasher and they were very helpful on the matter. Fixed our issue within 10 mins and also with a reasonable price!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Stefanie Giersch" },
+          "reviewBody": "Thanks to abdullah i can cook and go wild in my kitchen, knowing my dishwasher is set and ready. More importantly, me being german, he arrived as scheduled on time everytime. Friendly, efficient, and my pup stevie was very happy with him. That says alot to me as a dog mom. Thanks abdullah 👌💪🏻",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "GHASIF SAJID" },
+          "reviewBody": "I had an excellent experience with FAJ! They came to repair my washing machine and also serviced my AC in The Greens. ABDULLAH was professional, punctual, and explained everything clearly. The washing machine was fixed quickly, and my AC is now running smoothly and cooling much better. Really impressed with their efficiency and customer service. Highly recommend FAJ for reliable home appliance repairs and AC servicing!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "DUNJA LAZOVIC" },
+          "reviewBody": "Fast and reliable services. Our washing machine broke down, the team came same day, on day 2 we got the quote for the repair, approved it, and on day 3 the machine was delivered back to us. Thank you to Mr. Abdullah for fast reinstallation.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "CHRISTDAI ALBURO" },
+          "reviewBody": "I was so pleased with the service I received from FAJ Technical Service. They went above and beyond to help me fix my washing machine! Thanks to Ms. Regina from customer service, she was very helpful and explained what was needed. The team arrived in less than an hour and fixed the machine without any delay. Thank you so much Kazeem from the technician. Highly recommend their quality and fast service! Thank you FAJ! one of my favorites!!! :)",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "KARTHIKA" },
+          "reviewBody": "These guys are fast! Came to check my broken washing machine the very same day I messaged them. In a week it was fixed and brought back to me. Abdullah was the one who assisted me and he was very helpful and patient.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "LEENU JACOB" },
+          "reviewBody": "I am very satisfied with the washing machine service. The team responded quickly to my request and identified the problem without delay. The repair was done efficiently, and now the machine is working perfectly. I really appreciate the prompt response and successful service.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Farah B" },
+          "reviewBody": "Abdullah did a great job fixing our fridge. Very professional services",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "USMAN ALI" },
+          "reviewBody": "Abdullah from FAJ did a great job fixing our fridge and washing machine here in Arabian Ranches. He came on time, was super friendly, and got everything working again without any hassle. Really professional but also easy to deal with. If you ever need appliance repairs around the Ranches, I’d definitely recommend calling him!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/beko/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Beko", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/beko/" }
+      ]
+    }
+  ]
+}
+
      const handleItemClick = index => {
          if (index === openItemIndex) {
              setOpenItemIndex(-1);
@@ -141,6 +253,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -152,7 +265,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Fast, Affordable Beko Home Appliance Repair and Service in Dubai</h1>
-            <p>If your Beko appliance has stopped working, you don't need to replace it. In most cases, getting a professional Beko appliance repair in Dubai is faster, more cost-effective, and more reliable than buying a new appliance. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> we specialise in repairing Beko washing machines, dishwashers, fridges, freezers, and small Beko appliances throughout Dubai. Our local expert technicians carry the necessary tools, diagnostic tools, and genuine Beko-compatible parts to address most issues on the first visit.</p>
+            <p>If your Beko appliance has stopped working, you don't need to replace it. In most cases, getting a professional Beko appliance repair in Dubai is faster, more cost-effective, and more reliable than buying a new appliance. <br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> we specialise in repairing Beko washing machines, dishwashers, fridges, freezers, and small Beko appliances throughout Dubai. Our local expert technicians carry the necessary tools, diagnostic tools, and genuine Beko-compatible parts to address most issues on the first visit.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -166,7 +279,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Specialised Beko Washing Machine Repair and Service in Dubai</h2>
                 <p className="mb-2">You shouldn't have to face a lack of clean clothes due to a malfunctioning Beko washer dryer. Common issues include not powering on or failing to spin.<br/>At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we handle these problems and also repair faulty displays and timers. Contact us today, and we'll send an expert technician to fix your Beko appliance the same day.<br />Replacing a Beko washing machine or Beko tumble dryer can be expensive, so we aim to extend the lifespan of your Beko washing machine repair service in Dubai. </p>

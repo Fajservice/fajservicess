@@ -293,7 +293,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_30">
           <div className="container">
-            <div className="row gx-md-5 expert_section_wrapper">
+            <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Sanyo AC Maintenance and Services</h2>
                 <p className="mb-2">If you are in Dubai and require Sanyo <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair</a>, FAJ offers services for this need. The team specializes in ensuring air conditioning systems operate efficiently in Dubai and Sharjah, delivering reliable solutions for maintaining indoor comfort throughout the year. Services aim to enhance the indoor environment.</p>

@@ -36,6 +36,74 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "De Dietrich Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/de-dietrich/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3300",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "De Dietrich Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "De Dietrich Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Fridge Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Home Appliance Service Center" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Cooking Range and Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De Dietrich Oven Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Anusri Chan" }, "reviewBody": "The washing machine repair was completed successfully. The machine is functioning smoothly and I am satisfied with the quality of service. Special thanks to Abdullah for the support.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Affu Affu" }, "reviewBody": "Highly recommended service. They repaired my Pritti mixer very quickly and also provide washing machine and fridge repair services.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Tohidur Rahman" }, "reviewBody": "They repaired my Samsung washing machine efficiently. Good service center in Dubai with reliable technicians. Highly recommended.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Hanan Tariq" }, "reviewBody": "Friendly and efficient service. FAJ Technical Services L.L.C diagnosed the washing machine issue quickly and fixed it without delay.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Ziddy Jatt" }, "reviewBody": "We received genuine parts for our washing machine repair. They also handle AC and refrigerator repair services using original parts.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Khurram Mahmood" }, "reviewBody": "Excellent experience with FAJ Technical Services L.L.C for my washing machine repair. The technician was experienced and resolved the issue quickly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Haris M" }, "reviewBody": "Our Franke coffee machine was repaired properly and is working perfectly now. Technician Que did a good job.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Jason Miller" }, "reviewBody": "I had my nine-year-old Jura Z6 coffee machine repaired. The technician was friendly and knowledgeable. Highly recommend their service.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Syed Shah" }, "reviewBody": "We hired FAJ to repair our commercial coffee machine and grinder in Dubai Marina. Quick response and professional technicians.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Gintare Sutkauskaite" }, "reviewBody": "Technician Que fixed both coffee machines and explained preventative maintenance steps. Very thorough and highly recommended.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/de-dietrich/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "De Dietrich", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/de-dietrich/" }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -141,6 +209,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -151,7 +220,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">De Dietrich Home Appliance Repair and Service in Dubai</h1>
-            <p>Are you having problems finding a trustworthy technician for your De Dietrich home appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. <br />At FAJ, our field technicians are fully equipped to De Dietrich appliances service and repair all De Dietrich appliances, including De Dietrich washing machines, cookers, ovens, and tumble dryers. We perform a safety check after each De Dietrich repair and provide a warranty on all parts and labor. As a De Dietrich appliance service center, we ensure prompt and professional service with a warranty on all work.</p>
+            <p>Are you having problems finding a trustworthy technician for your De Dietrich home appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. <br />At FAJ, our field technicians are fully equipped to De Dietrich appliances service and repair all De Dietrich appliances, including De Dietrich washing machines, cookers, ovens, and tumble dryers. We perform a safety check after each De Dietrich repair and provide a warranty on all parts and labor. <br />As a De Dietrich appliance service center, we ensure prompt and professional service with a warranty on all work.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -166,13 +235,13 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_20 mb-1 mt-0">De Dietrich Fridge Repair and Service Near You</h2>
-                  <p className="mb-1">If you need repair services for your De Dietrich refrigerator, FAJ is here to help! We offer fast and affordable solutions for a wide range of De Dietrich fridge issues. Whether you’re dealing with a built-in washing machine that won’t drain, a De Dietrich refrigerator that isn’t cooling, an oven that won’t heat, or a  De Dietrich dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to assist you.<br />As a trusted De Dietrich fridge service provider, we respond quickly to restore your  De Dietrich appliances to full working order.</p>
+                  <p className="mb-1">If you need repair services for your De Dietrich refrigerator, FAJ is here to help! We offer fast and affordable solutions for a wide range of De Dietrich fridge issues. <br />Whether you’re dealing with a built-in washing machine that won’t drain, a De Dietrich refrigerator that isn’t cooling, an oven that won’t heat, or a  De Dietrich dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to assist you.<br />As a trusted De Dietrich fridge service provider, we respond quickly to restore your  De Dietrich appliances to full working order.</p>
 
                 <h2 className="cs_fs_20 mb-1 pt-1 mt-0" style={{ fontSize: "20px" }}>De Dietrich Oven Repair and Service in Dubai</h2>
-                <p className="mb-2">We often overlook the importance of our De Dietrich oven or stove. If your oven isn't heating properly, it’s time to get help. At FAJ, our experienced team can assist you at home with De Dietrich induction hobs and has many spare parts readily available. We aim to provide same-day repair services to keep your De Dietrich cooker running smoothly, prioritising your convenience.</p>
+                <p className="mb-2">We often overlook the importance of our De Dietrich oven or stove. If your oven isn't heating properly, it’s time to get help. <br />At FAJ, our experienced team can assist you at home with De Dietrich induction hobs and has many spare parts readily available. <br />We aim to provide same-day repair services to keep your De Dietrich cooker running smoothly, prioritising your convenience.</p>
               </div>
 
               <div className="col-md-6 ">

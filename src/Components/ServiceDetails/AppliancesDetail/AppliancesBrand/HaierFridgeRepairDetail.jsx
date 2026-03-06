@@ -37,6 +37,72 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
+    const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Haier Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/haier/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3420",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Haier Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Haier Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haier Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haier Refrigerator Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haier Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haier Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haier Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haier Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haier Cooker Hood Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haier Coffee Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haier General Home Appliance Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Anusri Chan" }, "reviewBody": "Haier washing machine repair done efficiently. Technician ensured the machine runs perfectly and explained care tips.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Haris M" }, "reviewBody": "Our Haier oven repair was handled professionally. Technician Que fixed the issue quickly and thoroughly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Khurram Mahmood" }, "reviewBody": "Excellent Haier refrigerator repair service. Technician was knowledgeable and resolved the problem promptly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Jason Miller" }, "reviewBody": "Haier dishwasher repair completed seamlessly. Team communicated well and delivered excellent service.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Affu Affu" }, "reviewBody": "Highly recommend FAJ for Haier appliance repairs. Quick, professional, and reliable service from start to finish.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Narges" }, "reviewBody": "The Haier built-in dishwasher was fixed within 10 minutes. Technician Abdullah was very helpful and affordable.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Stefanie Giersch" }, "reviewBody": "Thanks to Abdullah, I can use my Haier dishwasher worry-free. Arrived on time every time and was very friendly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/haier/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Haier", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/haier/" }
+      ]
+    }
+  ]
+}
 
     // State for fetched data
         const [data, setData] = useState([]);
@@ -111,6 +177,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
+                    <script type="application/ld+json">{JSON.stringify(schema)}</script>
                     
                 </Helmet>
             </HelmetProvider>
@@ -140,7 +207,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Haier Washing Machine Repair Near You</h2>
                                 <p className="mb-2">

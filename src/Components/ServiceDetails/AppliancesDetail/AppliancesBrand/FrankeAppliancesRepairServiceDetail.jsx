@@ -35,6 +35,75 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Franke Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/franke/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3300",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Franke Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Franke Appliances Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Franke Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Franke Fridge Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Franke Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Franke Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Franke Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Franke Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Franke Cooker Hood Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Franke Coffee Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Franke General Home Appliance Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Narges" }, "reviewBody": "Mr.Abdullah and Tarin come to fix our built in dishwasher and they were very helpful on the matter. Fixed our issue within 10 mins and also with a reasonable price!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Stefanie Giersch" }, "reviewBody": "Thanks to abdullah i can cook and go wild in my kitchen, knowing my dishwasher is set and ready. More importantly, me being german, he arrived as scheduled on time everytime. Friendly, efficient, and my pup stevie was very happy with him. That says alot to me as a dog mom. Thanks abdullah 👌💪🏻", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "GHASIF SAJID" }, "reviewBody": "I had an excellent experience with FAJ! They came to repair my washing machine and also serviced my AC in The Greens. ABDULLAH was professional, punctual, and explained everything clearly. The washing machine was fixed quickly, and my AC is now running smoothly and cooling much better. Really impressed with their efficiency and customer service. Highly recommend FAJ for reliable home appliance repairs and AC servicing!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "DUNJA LAZOVIC" }, "reviewBody": "Fast and reliable services. Our washing machine broke down, the team came same day, on day 2 we got the quote for the repair,approved it, and on day 3 the machine was delivered back to us. Thank you to Mr. Abdullah for fast reinstallation.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "CHRISTDAI ALBURO" }, "reviewBody": "I was so pleased with the service I received from FAJ Technical Service. They went above and beyond to help me fix my washing machine! Thanks to Ms. Regina from customer service, she was very helpful and explained what was needed. The team arrived in less than an hour and fixed the machine without any delay. Thank you so much Kazeem from the technician. Highly recommend their quality and fast service! Thank you FAJ! one of my favorites!!! :)", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "KARTHIKA" }, "reviewBody": "These guys are fast! Came to check my broken washing machine the very same day I messaged them. In a week it was fixed and brought back to me. Abdullah was the one who assisted me and he was very helpful and patient.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "LEENU JACOB" }, "reviewBody": "I am very satisfied with the washing machine service. The team responded quickly to my request and identified the problem without delay. The repair was done efficiently, and now the machine is working perfectly. I really appreciate the prompt response and successful service.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Farah B" }, "reviewBody": "Abdullah did a great job fixing our fridge. Very professional services", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "USMAN ALI" }, "reviewBody": "Abdullah from FAJ did a great job fixing our fridge and washing machine here in Arabian Ranches. He came on time, was super friendly, and got everything working again without any hassle. Really professional but also easy to deal with. If you ever need appliance repairs around the Ranches, I’d definitely recommend calling him!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Rawad Jaber" }, "reviewBody": "I had issues with my robot vacuum cleaner and hand hoover. Shakeer did an amazing job! Great services", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/franke/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "Franke", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/franke/" }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -140,6 +209,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -149,11 +219,9 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Franke Appliances Repair, Dishwasher & Oven Service in Dubai</h1>
-            <p>
-              Having trouble finding a reliable technician for your Franke kitchen appliances?
-              At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Franke appliance.
-            </p>
+            <h1 className="cs_fs_30">Franke Home Appliance Repair and Maintenance Service in Dubai</h1>
+            <p>When your appliances break down, it’s not only inconvenient, but it can also disrupt your entire day. That’s where <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> comes in. With over a decade of experience since 2010, we provide reliable repair and service for Franke appliances. We specialize in the repair of Franke refrigerators, washing machines, dishwashers, ovens, and stoves. If you need white goods repair services in Dubai or Sharjah, book with us today, and we’ll have your Franke appliance fixed in no time!
+</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -168,22 +236,14 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Franke Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Franke Fridge Repair and Service in Dubai</h2>
 
-                <p className="mb-2">
-                  If you're in need of repair services for your Franke appliances, FAJ Technical Services L.L.C has you covered!
-                  We provide fast, affordable solutions for all your Franke appliance issues. Whether it’s a built-in washing machine that won’t drain, a fridge not cooling, an oven not heating, or a dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to help.
-                  As your trusted local service provider, we respond quickly to get your appliances back in perfect working order.
+                <p className="mb-1">We often underestimate the importance of our Franke fridge freezer. If your food is spoiling quickly or your Franke refrigerator is making unusual noises, it’s time to seek assistance. <br />At FAJ, our skilled team is ready to help you at home. We have experience with Franke refrigerators and can manage a combination of issues, often having the necessary spare parts available. <br />We seek to provide same-day repair and service for your Franke fridge, ensuring that your food stays fresh and your refrigerator runs smoothly. Your convenience is our top priority.</p>
 
-
-                </p>
-
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable  Franke Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Franke products, rarely happen at a convenient time. That’s why our trained Franke technicians are ready to provide reliable Franke <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
-                </p>
+                <h2 className="cs_fs_20 mb-1 pt-1 mt-0 text-align-left">Specialised Franke Oven Repair and Stove Service in Dubai</h2>
+                <p className="mb-2">Is your Franke oven not working, not heating up, or has the light gone out? Whatever the issue may be, we can help—welcome to FAJ! <br />Our technicians have extensive experience with all models of Franke ovens and have experienced a wide variety of Franke oven or stove problems and faults. We understand how inconvenient it can be to have a non-working oven or Franke stove, which is why we offer same-day and next-day repair services. We also provide out-of-hours Franke oven repairs. <br />Our goal is to get your oven operational again as quickly as possible at a time that is convenient for you.</p>
 
               </div>
 

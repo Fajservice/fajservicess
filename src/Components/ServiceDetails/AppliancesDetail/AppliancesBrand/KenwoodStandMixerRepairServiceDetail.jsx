@@ -36,6 +36,184 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.fajservices.ae/#organization",
+      "name": "Kenwood Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/kenwood/",
+      "telephone": "+971 4 330 0002",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3378",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Dubai"
+        },
+        {
+          "@type": "City",
+          "name": "Sharjah"
+        },
+        {
+          "@type": "City",
+          "name": "Abu Dhabi"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Kenwood Home Appliance Repair Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kenwood Refrigerator Repair"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kenwood Washing Machine Repair"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kenwood Dishwasher Repair"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kenwood Oven Repair"
+            }
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Hassan J."
+          },
+          "reviewBody": "My Kenwood refrigerator stopped cooling properly. FAJ technician identified the compressor issue and fixed it efficiently. Very satisfied with the service.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Areeba N."
+          },
+          "reviewBody": "Excellent Kenwood washing machine repair. The technician arrived on time, diagnosed the fault quickly, and completed the job neatly.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Farhan M."
+          },
+          "reviewBody": "Kenwood dishwasher was not draining water. FAJ team cleared the blockage and tested everything properly before leaving.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Zainab K."
+          },
+          "reviewBody": "Very professional Kenwood oven repair service. Heating issue was resolved on the first visit. Clear communication and fair pricing.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Rashid A."
+          },
+          "reviewBody": "Reliable Kenwood appliance repair in Dubai. Quick response and clean workmanship. Would definitely call them again.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/kenwood/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Kenwood",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/kenwood/"
+        }
+      ]
+    }
+  ]
+}
 
   // State for fetched data
       const [data, setData] = useState([]);
@@ -141,6 +319,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -171,7 +350,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
 {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Get Kenwood Stand Mixer Repair Near You</h3>
 

@@ -37,6 +37,114 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "AEG Home Appliance Repair and Service in Dubai and Sharjah - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/aeg/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3000",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AEG Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "AEG Appliance Service",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Fridge Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Cooking Range Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Washer Dryer Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Appliance Annual Maintenance Contract" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEG Stove / Oven Repair in Dubai" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anusri Chan" },
+          "reviewBody": "The washing machine repair was completed successfully. The machine is functioning smoothly and I am satisfied with the quality of service. Special thanks to Abdullah for the support.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Affu Affu" },
+          "reviewBody": "Highly recommended service. They repaired my Pritti mixer very quickly and also provide washing machine and fridge repair services.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanan Tariq" },
+          "reviewBody": "Friendly and efficient service. FAJ Technical Services L.L.C diagnosed the washing machine issue quickly and fixed it without delay.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ziddy Jatt" },
+          "reviewBody": "We received genuine parts for our washing machine repair. They also handle AC and refrigerator repair services using original parts.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Khurram Mahmood" },
+          "reviewBody": "Excellent experience with FAJ Technical Services L.L.C for my washing machine repair. The technician was experienced and resolved the issue quickly.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "LR" },
+          "reviewBody": "Immediate response to all inquiries and full support from diagnosis to fixing. Highly recommended.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewBody": "Mr.Abdullah and Tarin come to fix our built in dishwasher and they were very helpful on the matter. Fixed our issue within 10 mins and also with a reasonable price!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Stefanie Giersch" },
+          "reviewBody": "Thanks to abdullah i can cook and go wild in my kitchen, knowing my dishwasher is set and ready. More importantly, me being german, he arrived as scheduled on time everytime. Friendly, efficient, and my pup stevie was very happy with him. That says alot to me as a dog mom. Thanks abdullah 👌",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/aeg/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+        { "@type": "ListItem", "position": 5, "name": "AEG", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/aeg/" }
+      ]
+    }
+  ]
+}
 
    // State for fetched data
       const [data, setData] = useState([]);
@@ -108,6 +216,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -131,11 +240,11 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
           </div>
         </section>
-
+        <PriceCardHomeCat />
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">AEG Washing Machine Repair and Service in Dubai</h2>
                 <p className="mb-2">

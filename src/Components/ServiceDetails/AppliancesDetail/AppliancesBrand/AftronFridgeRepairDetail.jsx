@@ -42,6 +42,133 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const [data, setData] = useState([]);
     const [testimonial_data, setTestimonialData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Aftron Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/aftron/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3100",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+"hasOfferCatalog": {
+"@type": "OfferCatalog",
+"name": "Aftron Home Appliances Repair Services",
+"itemListElement": [
+{
+"@type": "OfferCatalog",
+"name": "Aftron Appliances Services",
+"itemListElement": [
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aftron Washing Machine Repair" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aftron Fridge Repair" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aftron Freezer Repair" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aftron Home Appliance Service Center" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aftron Dishwasher Repair" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aftron Cooking Range and Oven Repair" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aftron Dryer Repair and Service" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aftron Oven Repair" } }
+]
+}
+]
+},
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Anusri Chan" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+
+          "reviewBody": "The washing machine repair was completed successfully. The machine is functioning smoothly and I am satisfied with the quality of service. Special thanks to Abdullah for the support."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Affu Affu" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+
+          "reviewBody": "Highly recommended service. They repaired my Pritti mixer very quickly and also provide washing machine and fridge repair services."
+        },
+       
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Hanan Tariq" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+
+          "reviewBody": "Friendly and efficient service. FAJ Technical Services L.L.C diagnosed the washing machine issue quickly and fixed it without delay."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ziddy Jatt" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+
+          "reviewBody": "We received genuine parts for our washing machine repair. They also handle AC and refrigerator repair services using original parts."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Khurram Mahmood" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+
+          "reviewBody": "Excellent experience with FAJ Technical Services L.L.C for my washing machine repair. The technician was experienced and resolved the issue quickly."
+        },
+       
+                                                                    {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "LR" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+
+          "reviewBody": "Immediate response to all inquiries and full support from diagnosis to fixing. Highly recommended."
+        }
+                                        ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/aftron/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Aftron",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/aftron/"
+        }
+      ]
+    }
+  ]
+}
 
     const handleItemClick = index => {
         if (index === openItemIndex) {
@@ -111,6 +238,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <meta name="twitter:title" content={metatitle} />
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
+                    <script type="application/ld+json">{JSON.stringify(schema)}</script>
                     
                 </Helmet>
             </HelmetProvider>
@@ -137,7 +265,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <div className="row gx-md-5">
+                        <div className="row gx-md-5 align-items-center">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_20 mb-1">Aftron Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
@@ -154,7 +282,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')} alt="Aftron Washing Machine Repair" />
+                                <img className="bordered-img w-100" src={getImageSrc('aclogos/aftaon')} alt="Aftron Washing Machine Repair" style={{objectFit: "contain"}}/>
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>

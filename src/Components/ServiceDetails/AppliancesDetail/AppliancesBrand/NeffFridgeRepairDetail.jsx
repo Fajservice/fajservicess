@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Neff Fridge Repair in Dubai | Neff Dishwasher Service | Oven Fix");
-  const metadescription = String(description || "FAJ offer Neff fridge repair in Dubai. And expert in washing machine, dryer, dishwasher, oven & stove, cooker service at our center nearby Dubai");
+  const metatitle = String(titleSeo || "Neff Appliance Service | Neff Refrigerator Repair Dubai");
+  const metadescription = String(description || "Neff appliance service. Since 2010 FAJ providing Neff washing machine, fridge, dishwasher, oven, stove, & cooker at our repair center near you in Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Neff Fridge Repair, Neff Washing Machine Repair, Neff Cooker Repair, Neff Oven Repair, Neff Appliances Maintenance, Neff Refrigerator Fix, Neff Dishwasher Service");
@@ -42,7 +42,144 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
      const [data, setData] = useState([]);
      const [testimonial_data, setTestimonialData] = useState([]);
      const [isLoading, setIsLoading] = useState(true);
- 
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Neff Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+      "image": [
+        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+      ],
+      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/neff/",
+      "telephone": "+971 4 330 0002",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3331",
+        "bestRating": "5"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Sharjah" },
+        { "@type": "City", "name": "Abu Dhabi" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Home Appliances Repair Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Appliance Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Washing Machine Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fridge Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Freezer Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Home Appliance Service Center" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dishwasher Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cooking Range and Oven Repair" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dryer Repair and Service" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Oven Repair" } }
+            ]
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Narges" },
+          "reviewBody": "Mr.Abdullah and Tarin come to fix our built in dishwasher and they were very helpful on the matter. Fixed our issue within 10 mins and also with a reasonable price!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Stefanie Giersch" },
+          "reviewBody": "Thanks to abdullah i can cook and go wild in my kitchen, knowing my dishwasher is set and ready. More importantly, me being german, he arrived as scheduled on time everytime. Friendly, efficient, and my pup stevie was very happy with him. That says alot to me as a dog mom. Thanks abdullah 👌💪🏻",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "GHASIF SAJID" },
+          "reviewBody": "I had an excellent experience with FAJ! They came to repair my washing machine and also serviced my AC in The Greens. ABDULLAH was professional, punctual, and explained everything clearly. The washing machine was fixed quickly, and my AC is now running smoothly and cooling much better. Really impressed with their efficiency and customer service. Highly recommend FAJ for reliable home appliance repairs and AC servicing!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "DUNJA LAZOVIC" },
+          "reviewBody": "Fast and reliable services. Our washing machine broke down, the team came same day, on day 2 we got the quote for the repair, approved it, and on day 3 the machine was delivered back to us. Thank you to Mr. Abdullah for fast reinstallation.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "CHRISTDAI ALBURO" },
+          "reviewBody": "I was so pleased with the service I received from FAJ Technical Service. They went above and beyond to help me fix my washing machine! Thanks to Ms. Regina from customer service, she was very helpful and explained what was needed. The team arrived in less than an hour and fixed the machine without any delay. Thank you so much Kazeem from the technician. Highly recommend their quality and fast service! Thank you FAJ! one of my favorites!!! :)",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "KARTHIKA" },
+          "reviewBody": "These guys are fast! Came to check my broken washing machine the very same day I messaged them. In a week it was fixed and brought back to me. Abdullah was the one who assisted me and he was very helpful and patient.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "LEENU JACOB" },
+          "reviewBody": "I am very satisfied with the washing machine service. The team responded quickly to my request and identified the problem without delay. The repair was done efficiently, and now the machine is working perfectly. I really appreciate the prompt response and successful service.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Farah B" },
+          "reviewBody": "Abdullah did a great job fixing our fridge. Very professional services",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "USMAN ALI" },
+          "reviewBody": "Abdullah from FAJ did a great job fixing our fridge and washing machine here in Arabian Ranches. He came on time, was super friendly, and got everything working again without any hassle. Really professional but also easy to deal with. If you ever need appliance repairs around the Ranches, I’d definitely recommend calling him!",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/neff/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fajservices.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.fajservices.ae/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Home Appliances Repair",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brands",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Neff",
+          "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/neff/"
+        }
+      ]
+    }
+  ]
+}
+
      const handleItemClick = index => {
          if (index === openItemIndex) {
              setOpenItemIndex(-1);
@@ -142,6 +279,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
+          <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
         </Helmet>
       </HelmetProvider>
@@ -152,10 +290,8 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Neff Fridge Repair and Neff Dishwasher Service in Dubai</h1>
-            <p>
-              Having difficulty finding a local Neff appliance technician with expertise in Neff kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our broad network of thoroughly vetted, experienced professionals ensures that, whenever possible, we dispatch a technician who knows your specific Neff appliance inside and out.
-            </p>
+            <h1 className="cs_fs_30">Neff Home Appliance Repair and Service in Dubai</h1>
+            <p>When your Neff home appliance break down, it can be a real bother and throw off your entire day. This is where <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> steps in. With many years of experience since 2010, we offer dependable Neff kitchen appliance repair and servicing in Dubai.< br/>We focus on resolving issues with Neff refrigerators, washing machines, dishwashers, Neff ovens, and stoves. If you're looking for white goods repair services in Dubai or Sharjah, reach out to us today, and we'll get your Neff appliance up and running in no time!</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -169,21 +305,13 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Neff Washing Machine Repair Near You</h2>
-                <p className="mb-2">
-                  Looking for reliable repair services for your Neff appliances? FAJ is here to help with fast and affordable solutions.
-                  Whether it’s a built-in Neff washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, our skilled technicians in Dubai and Sharjah are ready to assist.
-                  As your trusted local service provider, we ensure prompt responses to get your appliances back up and running smoothly.
+                <h2 className="cs_fs_24 mb-1">Neff Fridge Repair and Service in Dubai</h2>
+                <p className="mb-2">We care to overlook how important our Neff fridge freezer really is. If your food is going bad too quickly or if your Neff fridge is making strange sounds, it’s time to get some help.< br/>At FAJ, our friendly team is ready to assist you at home. We know our way around Neff refrigerator repair and can tackle different issues, often having the right spare parts on hand.< br/>We strive to offer same-day Neff fridge repair and service, making sure your food stays fresh and your refrigerator runs like a champ. Your convenience is what matters most to us.</p>
 
-
-                </p>
-
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Neff Appliances Service</h2>
-                <p className="mb-2">
-                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Neff products, never occur at a convenient time. That’s why our trained and qualified Neff technicians are here to offer you reliable <a href="https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Neff appliance up and running again before you have a chance to worry about it.
-                </p>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Specialised Neff Oven Repair and Stove Service in Dubai</h2>
+                <p className="mb-2">Is your gas or electric Neff oven not working, not heating up, or has the light gone out? Whatever the issue may be, we can help—welcome to FAJ!< br/>Our technicians have extensive experience with all models of Neff ovens and have encountered a wide variety of Neff oven and Neff induction problems. We understand how inconvenient it is to have a non-functioning oven or Neff stove. That’s why we offer same-day and next-day repair services, as well as out-of-hours repairs.< br/>Our goal is to restore your oven to working order as quickly as possible at a time that is convenient for you.</p>
 
               </div>
 
