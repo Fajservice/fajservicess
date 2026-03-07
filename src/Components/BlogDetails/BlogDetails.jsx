@@ -71,7 +71,6 @@ const ArrowRightIcon = ({ size = 28, color = "currentColor" }) => (
   </svg>
 );
 
-// ─── Reusable banner renderer — supports string OR array ─────────────────────
 const renderBannerImg = (imgValue, altText) => {
   if (!imgValue) return null;
   const images = Array.isArray(imgValue) ? imgValue : [imgValue];
@@ -318,30 +317,28 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   };
 
-  // ─── Reusable bullets renderer ───────────────────────────────────────────
-  // Supports: plain strings OR { text, desc } objects
   const renderBullets = (bullets, keyPrefix) => {
-    if (!bullets || !Array.isArray(bullets)) return null;
-    return (
-      <ul>
-        {bullets.map((bullet, i) => {
-          if (typeof bullet === 'object' && bullet !== null) {
-            return (
-              <li key={`${keyPrefix}-${i}`}>
-                {bullet.text}
-                {bullet.desc && (
-                  <p style={{ marginTop: '6px', fontWeight: 'normal' }}>
-                    {renderParagraphWithLinks(bullet.desc)}
-                  </p>
-                )}
-              </li>
-            );
-          }
-          return <li key={`${keyPrefix}-${i}`}>{bullet}</li>;
-        })}
-      </ul>
-    );
-  };
+  if (!bullets || !Array.isArray(bullets)) return null;
+  return (
+    <ul>
+      {bullets.map((bullet, i) => {
+        if (typeof bullet === 'object' && bullet !== null) {
+          return (
+            <li key={`${keyPrefix}-${i}`}>
+              <span dangerouslySetInnerHTML={{ __html: bullet.text }} />
+              {bullet.desc && (
+                <p style={{ marginTop: '6px', fontWeight: 'normal' }}>
+                  {renderParagraphWithLinks(bullet.desc)}
+                </p>
+              )}
+            </li>
+          );
+        }
+        return <li key={`${keyPrefix}-${i}`}>{bullet}</li>;
+      })}
+    </ul>
+  );
+};
 
   const renderSection = (sectionName) => {
     const h2Key       = `${sectionName}_h2`;
@@ -350,10 +347,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     const h2PointsKey = `${sectionName}_h2_points`;
     const imgKey      = `${sectionName}_img`;
 
-    // Banner positions:
-    // bannerKey   → BEFORE h2 heading
-    // banner_2Key → AFTER h2 bullets/points, BEFORE h3 loop
-    // h3 banner   → sec_X_h3_N_banner → AFTER that specific h3's content
     const bannerKey   = `${sectionName}_banner`;
     const banner2Key  = `${sectionName}_banner_2`;
 
@@ -361,13 +354,10 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
     return (
       <div key={sectionName}>
-
-        {/* ── Banner 1: before h2 heading ── */}
         {renderBannerImg(blogPost[bannerKey], blogPost.title)}
 
         <h2>{blogPost[h2Key]}</h2>
 
-        {/* Section-level image */}
         {blogPost[imgKey] && (
           <div className="col-md-8">
             <img src={getImageSrc(blogPost[imgKey])} alt={blogPost.title} decoding="async" width="100%" height="auto" />
@@ -386,10 +376,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           </ol>
         )}
 
-        {/* ── Banner 2: after h2 content, before h3 loop ── */}
         {renderBannerImg(blogPost[banner2Key], blogPost.title)}
-
-        {/* ── H3 loop ── */}
         {[...Array(13)].map((_, i) => {
           const h3Key        = `${sectionName}_h3_${i + 1}`;
           const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
@@ -412,8 +399,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               )}
 
               {renderContent(blogPost[h3ContentKey])}
-
-              {/* ── banner2: after content, before bullets ── */}
               {renderBannerImg(blogPost[h3Banner2Key], blogPost.title)}
 
               {renderBullets(blogPost[h3BulletsKey], `${sectionName}_h3_${i + 1}_bullet`)}
@@ -426,7 +411,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 </ol>
               )}
 
-              {/* ── banner: after bullets/points (h3 end) ── */}
               {renderBannerImg(blogPost[h3BannerKey], blogPost.title)}
             </div>
           );
@@ -508,7 +492,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 )}
 
                 {blogPost.sec_faq_h2 && (
-                  <div className="row">
+                  <div className="row mt-4">
                     <h2>{blogPost.sec_faq_h2}</h2>
                     {renderContent(blogPost.sec_faq_h2_p)}
                     {[...Array(10)].map((_, i) => {
@@ -526,7 +510,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 )}
               </div>
 
-              {/* Share section */}
               <div className="cs_post_share_wrapper">
                 <div className="cs_post_tags cs_style_1">
                   <h3 className="cs_fs_24">Tags:</h3>
