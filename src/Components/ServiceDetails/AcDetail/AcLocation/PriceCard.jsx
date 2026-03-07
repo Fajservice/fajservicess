@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback, useMemo } from 'react';
+
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -7,17 +8,24 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 
+const formatParagraph = (text) => {
+  if (!text) return null;
+  return text.split(/(\*\*.*?\*\*|<br>)/g).map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
+    }
+    if (part === '<br>') return <br key={i} />;
+    return part;
+  });
+};
+
 const PriceCard = () => {
   const [activePopup, setActivePopup] = useState(null);
-  const formatParagraph = (text) => {
-    if (!text) return '';
-    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-  };
-  const servicesData = [
+
+  const servicesData = useMemo(() => [
     {
       id: 1,
       image: getImageSrc('calloutprice'),
- 
       title: 'AC Call-Out',
       icon: getImageSrc('accalll'),
       price: 'AED185',
@@ -34,19 +42,13 @@ const PriceCard = () => {
             'Rectification of AC power trip',
             'Rectification of AC water leakage',
             'Fixing AC cooling/overcooling issues',
-            'Addressing sound problems from the AC'
-          ]
+            'Addressing sound problems from the AC',
+          ],
         },
-        {
-          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
-        },
-        {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 185 callout fee applies based on the type, capacity of the unit, and location for each diagnosis.'
-        },
-        
-      ]
+        { paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.' },
+        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 185 callout fee applies based on the type, capacity of the unit, and location for each diagnosis.' },
+      ],
     },
-
     {
       id: 2,
       image: getImageSrc('calout'),
@@ -69,17 +71,12 @@ const PriceCard = () => {
             'AC thermostat check-up',
             'Refrigerant Level check-up',
             'Addressing sound issues from the AC',
-          ]
+          ],
         },
-        {
-          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
-        },
-         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 230 basic cleaning service charge applies based on the type, capacity of the unit, and location for each diagnosis.'
-        },
-      ]
+        { paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.' },
+        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 230 basic cleaning service charge applies based on the type, capacity of the unit, and location for each diagnosis.' },
+      ],
     },
-
     {
       id: 3,
       image: getImageSrc('maintenanceacc'),
@@ -105,7 +102,7 @@ const PriceCard = () => {
             'Check temperature controlled thermostat and pressure sensors',
             'Check the electrical points in the outdoor unit and tighten, clean the electrical terminals',
             'Check the insulation on the pipeline, if damaged, recommend for replacement (Additional cost for replacement of insulation)',
-          ]
+          ],
         },
         {
           heading: 'Chiller FCU AC:',
@@ -117,31 +114,31 @@ const PriceCard = () => {
             'Check temperature controlled thermostat',
             'Check the functionality of actuator valves',
             'Check the blowers and clean if proper access is available',
-            'Check the insulation on the pipeline; if damaged, recommend for replacement (Additional cost for replacement of insulation)'
-          ]
+            'Check the insulation on the pipeline; if damaged, recommend for replacement (Additional cost for replacement of insulation)',
+          ],
         },
-        {
-          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
-        },
-        {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 265 AC Maintenance charge applies based on the type, capacity of the unit, and location for each diagnosis.'
-        },
-      ]
+        { paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.' },
+        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 265 AC Maintenance charge applies based on the type, capacity of the unit, and location for each diagnosis.' },
+      ],
     },
-  ];
+  ], []);
 
-  const openPopup = (id) => {
+  const openPopup = useCallback((id) => {
     setActivePopup(id);
     document.body.style.overflow = 'hidden';
-  };
+  }, []);
 
-  const closePopup = () => {
+  const closePopup = useCallback(() => {
     setActivePopup(null);
     document.body.style.overflow = 'auto';
-  };
+  }, []);
+
+  const activeService = activePopup
+    ? servicesData.find((s) => s.id === activePopup)
+    : null;
 
   return (
-    <section className="ac_service_cards_section cs_py_30  bg-light-gray">
+    <section className="ac_service_cards_section cs_py_30 bg-light-gray">
       <div className="container">
         <div className="ac_cards_grid_wrapper">
           {servicesData.map((service) => (
@@ -151,6 +148,7 @@ const PriceCard = () => {
                   src={service.image}
                   alt={service.title}
                   className="ac_card_main_image"
+                  loading="lazy"
                 />
               </div>
 
@@ -160,12 +158,14 @@ const PriceCard = () => {
                   <p className="ac_card_warranty_text">{service.warranty}</p>
                 </div>
                 <div className="ac_card_price_wrapper">
-                  <p className="ac_card_price_text">Starting from <span className="ac_card_price_amount">{service.price}</span></p>
+                  <p className="ac_card_price_text">
+                    Starting from <span className="ac_card_price_amount">{service.price}</span>
+                  </p>
                   <hr className="ac_card_divider_line" />
                 </div>
                 <p className="ac_card_short_description">{service.description}</p>
                 <div className="ac_card_qr_overlay">
-                  <img src={service.icon} alt="Service Icon" />
+                  <img src={service.icon} alt="Service Icon" loading="lazy" />
                 </div>
                 <div className="ac_card_buttons_row">
                   <a href={service.buyLink} className="ac_card_buy_button">Book Now</a>
@@ -174,7 +174,7 @@ const PriceCard = () => {
                     className="ac_card_readmore_button"
                   >
                     Read More
-                    <img className="ac_readmore_arrow" src={service.arrow} alt="Arrow" />
+                    <img className="ac_readmore_arrow" src={service.arrow} alt="Arrow" loading="lazy" />
                   </button>
                 </div>
               </div>
@@ -184,48 +184,47 @@ const PriceCard = () => {
       </div>
 
       {/* Popup Modal */}
-      {activePopup && (
+      {activeService && (
         <div className="ac_popup_overlay" onClick={closePopup}>
           <div className="ac_popup_container" onClick={(e) => e.stopPropagation()}>
             <button className="ac_popup_close_btn" onClick={closePopup}>✕</button>
 
-            {servicesData.filter(s => s.id === activePopup).map((service) => (
-              <div key={service.id} className="ac_popup_content_wrapper">
-                <div className="ac_popup_header_image">
-                  <img src={service.image} alt={service.title} className="ac_popup_banner_image" />
-                </div>
+            <div className="ac_popup_content_wrapper">
+              <div className="ac_popup_header_image">
+                <img
+                  src={activeService.image}
+                  alt={activeService.title}
+                  className="ac_popup_banner_image"
+                />
+              </div>
 
-                <div className="ac_popup_body_content">
-                  <h2 className="ac_popup_main_title">{service.popupTitle}</h2>
-                  <hr className="ac_popup_divider_line" />
+              <div className="ac_popup_body_content">
+                <h2 className="ac_popup_main_title">{activeService.popupTitle}</h2>
+                <hr className="ac_popup_divider_line" />
 
-                  <div className="ac_popup_scrollable_area">
-                    {service.sections.map((section, sectionIndex) => (
-                      <div key={sectionIndex} className="ac_popup_section_block">
-                        {section.heading && (
-                          <h3 className="ac_popup_section_heading">{section.heading}</h3>
-                        )}
-
-                        {section.items && (
-                          <ul className="ac_popup_scope_list">
-                            {section.items.map((item, itemIndex) => (
-                              <li key={itemIndex} className="ac_popup_scope_item">{item}</li>
-                            ))}
-                          </ul>
-                        )}
-
-                        {section.paragraph && (
-                          <p
-                            className="ac_popup_paragraph_text"
-                            dangerouslySetInnerHTML={{ __html: formatParagraph(section.paragraph) }}
-                          />
-                        )}
-                      </div>
-                    ))}
-                  </div>
+                <div className="ac_popup_scrollable_area">
+                  {activeService.sections.map((section, sectionIndex) => (
+                    <div key={sectionIndex} className="ac_popup_section_block">
+                      {section.heading && (
+                        <h3 className="ac_popup_section_heading">{section.heading}</h3>
+                      )}
+                      {section.items && (
+                        <ul className="ac_popup_scope_list">
+                          {section.items.map((item, itemIndex) => (
+                            <li key={itemIndex} className="ac_popup_scope_item">{item}</li>
+                          ))}
+                        </ul>
+                      )}
+                      {section.paragraph && (
+                        <p className="ac_popup_paragraph_text">
+                          {formatParagraph(section.paragraph)}
+                        </p>
+                      )}
+                    </div>
+                  ))}
                 </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       )}
@@ -234,4 +233,3 @@ const PriceCard = () => {
 };
 
 export default PriceCard;
-
