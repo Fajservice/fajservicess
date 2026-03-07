@@ -97,47 +97,6 @@ export default function Header1({ variant = '' }) {
   return (
     <div className='header-area2 header_nav_03'>
       <header className={headerClasses} style={headerStyles}>
-        <div className="cs_top_header">
-          <div className="container-fluid">
-            {/* <div className="cs_top_header_in">
-              <div className="cs_top_header_left">
-                <ul className="cs_header_contact_list cs_mp_0">
-                  {contactItems.map((item, index) => (
-                    <li key={`contact-${index}`}>
-                      {item.icon}
-                      {item.href ? (
-                        <a href={item.href} aria-label={item.content}>
-                          {item.content}
-                        </a>
-                      ) : (
-                        <span className="text-white fs-14px">{item.content}</span>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="cs_top_header_right">
-                <div className="cs_header_social_links_wrap">
-                  <div className="cs_header_social_links">
-                    {socialLinks.map((social, index) => (
-                      <a
-                        key={index}
-                        href={social.href}
-                        className="cs_center cs_accent_bg_light"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={social.name}
-                      >
-                        <SocialIcon name={social.name} className="cs_icon" />
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </div>
-        </div>
 
         <div className="cs_main_header">
           <div className="container-fluidd">

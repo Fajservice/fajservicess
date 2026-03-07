@@ -168,7 +168,7 @@
   /*--------------------------------------------------------------
   3. Preloader
   ----------------------------------------------------------------*/
-  #preloader {
+  /* #preloader {
     position: fixed;
     left: 0;
     top: 0;
@@ -177,7 +177,7 @@
     z-index: 99999;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
-  }
+  } */
 
   #preloader.hide {
     opacity: 0;
@@ -1976,10 +1976,6 @@
   .cs_heading_color {
     color: var(--heading-color);
   }
-
-  /* .cs_body_color {
-    color: var(--body-color);
-  } */
 
   .cs_accent_color {
     color: var(--accent-color) !important;
