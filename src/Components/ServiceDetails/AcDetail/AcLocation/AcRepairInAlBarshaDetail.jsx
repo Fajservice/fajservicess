@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Al Barsha - O General AC Repair Service");
-    const metadescription = String(description || "043300002 FAJ AC Services in Al Barsha Dubai. We are experts in central & split air condition maintenance & repairing near me Dubai AC fix");
+    const metatitle = String(titleSeo || "Best AC Repair in Al Barsha | HVAC Maintenance Services");
+    const metadescription = String(description || "Get AC Repair in Al Barsha, Dubai. We are experts in the maintenance and servicing of central & split AC near you. Contact us for same  fix AC");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Barsha, AC Repair in Al Barsha, Air Conditioning Service in Al Barsha, Air Conditioner Repair in Al Barsha, AC Maintenance in Al Barsha, Air Conditioning Maintenance in Al Barsha, AC Installation in Al Barsha, Air Conditioner Installation in Al Barsha, AC Cleaning in Al Barsha, Air Conditioner Cleaning in Al Barsha");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha/");
@@ -116,7 +116,7 @@ const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Al Barsha</h1>
+                        <h1 className="cs_fs_30">AC Repair and Maintenance Services in Al Barsha, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Barsha, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

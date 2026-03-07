@@ -29,8 +29,8 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   // For SEO
   const metatitle = titleSeo?.trim()
     ? titleSeo
-    : "AC Services In Al Mirdif - Inverter AC Repairs Near Me #1";
-  const metadescription = String(description || "FAJ Provides Inverter AC Services in Al Mirdif, Our Technicians are Experts in HVAC Air Condition Maintenance & Repair near me Dubai AC Fixing.");
+    : "AC Repair and Servicing In Al Mirdif | Inverter AC Fix Dubai";
+  const metadescription = String(description || "FAJ offers inverter AC repair services in Al Mirdif. Our AC technicians are experts in Chiller FCU, HVAC maintenance and repairs in your area, Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-mirdif/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
@@ -118,7 +118,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Service in Al Mirdif</h1>
+            <h1 className="cs_fs_30">AC Service and Maintenance in Al Mirdif, Dubai</h1>
             {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>,  AC maintenance, AC repair near me Al Mirdif, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

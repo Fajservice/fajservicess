@@ -26,8 +26,8 @@ const AcRepairInAlkaramaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Al Karama - AC Maintenance - AC Repairs #1");
-    const metadescription = String(description || "Installing, Maintaining and AC Services in Al Karama Dubai Call 043300002 for central & split Air Conditioner maintenance, repair near me Dubai");
+    const metatitle = String(titleSeo || "Aircon Repair and Service in Al Karama - Air Con Fixing By FAJ");
+    const metadescription = String(description || "Best AC repair and service in Al Karama. We also offer AC compressor replacement, AC motor changing, and AC gas refill, with AC spare parts warranty.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Al Karama, AC Maintenance, AC Repair, Air Conditioner Service, Air Conditioner Repair, Air Conditioner Maintenance, Central AC Service, Split AC Service, Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-karama/");
@@ -118,7 +118,7 @@ const AcRepairInAlkaramaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Al Karama</h1>
+                        <h1 className="cs_fs_30">Best Split AC Repair and Central AC Servicing in Al Karama, Dubai</h1>
 
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Karama, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

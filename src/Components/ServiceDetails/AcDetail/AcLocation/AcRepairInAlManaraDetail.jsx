@@ -27,8 +27,8 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In Al Manara - Repair Service AC Dubai #1");
-    const metadescription = String(description || "Book Sharjah AC and Dubai AC Services in Al Manara. Call 043300002 for inverter, multi-split AC (Air Conditioner) repair service near me location");
+    const metatitle = String(titleSeo || "Best AC Repair in Al Manara | Air Conditioning Services");
+    const metadescription = String(description || "Same-day air conditioning repair and maintenance service in Al Manara, Dubai, & Sharjah. Book an inverter or multi split AC service near your location");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Manara, AC Repair in Al Manara, AC Maintenance in Al Manara, Air Conditioning Service in Al Manara, Air Conditioner Repair in Al Manara, Air Conditioning Maintenance in Al Manara, AC Cleaning in Al Manara, AC Installation in Al Manara, Air Conditioning Installation in Al Manara, AC Service Company in Al Manara, Air Conditioning Service Company in Al Manara, AC Repair Company in Al Manara, Air Conditioning Repair Company in Al Manara, AC Maintenance Company in Al Manara, Air Conditioning Maintenance Company in Al Manara");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-manara/");
@@ -117,7 +117,7 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             <div className="cs_service_details">
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Al Manara</h1>
+                        <h1 className="cs_fs_30">Air Conditioner Repair and Maintenance Service in Al Manara, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me Al Manara, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

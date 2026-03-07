@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Repair and Service in Al Mamzar - Gree AC Maintenance");
-    const metadescription = String(description || "Get same day AC repair and service in Al Mamzar Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
+    const metatitle = String(titleSeo || "AC Repair and Maintenance in Al Mamzar | HVAC Servicing");
+    const metadescription = String(description || "Get same-day AC service and repair in Al Mamzar, Dubai. Call now at 043300002 for repairs of your VRV and VRF AC units and to fix errors near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Al Mamzar, AC Service in Al Mamzar, Air Conditioner Repair Dubai, AC Repair Dubai, Air Conditioning Service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-mamzar/");
@@ -114,7 +114,7 @@ const AcRepairInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Repair and Service in Al Mamzar</h1>
+                        <h1 className="cs_fs_30">AC Repair and Inverter AC Cleaning Service in Al Mamzar, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Mamzar, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
