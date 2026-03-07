@@ -71,9 +71,7 @@ const urls = [
   { loc: "/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/" },
 
   { loc: "/services/commercial-dishwasher-repair/" },
-  { loc: "/services/commercial-washing-machine-repair/", priority: "0.90" },
-  { loc: "/services/commercial-laundry-equipment/", priority: "0.90" },
-  { loc: "/services/commercial-laundry-equipment-service/" },
+  { loc: "/services/laundry-equipment-repair/", priority: "0.90" },
 
   { loc: "/services/air-conditioning-repair/brands/" },
   { loc: "/services/air-conditioning-repair/brands/aftron/" },
