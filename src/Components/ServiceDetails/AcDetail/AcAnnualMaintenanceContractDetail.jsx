@@ -322,7 +322,7 @@ const AcAnnualMaintenanceContractDetail = ({
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                  src="https://www.youtube.com/embed/R-YSpErBWbM?si=3zlYRAKSAB89dQq-"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
