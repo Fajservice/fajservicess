@@ -29,7 +29,7 @@ const CMBannerCta = () => {
         <div className="banner-content-form">
           {/* Left Side - Text Content */}
           <div className="banner-text-section">
-            <h1 className="banner-title-form">NATIONWIDE<br />DELIVERY</h1>
+            <h2 className="banner-title-form">NATIONWIDE<br />DELIVERY</h2>
             <p className="banner-description-form">
               From coast to coast in the UK.<br />
               Find everything you love,<br />
