@@ -1,29 +1,30 @@
-import { useEffect, useRef, useState, useCallback, useMemo, memo, lazy, Suspense } from "react";
+import { useEffect, useRef, useState, useCallback, memo, lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 import HeaderForm from "../Headeform/HeaderForm";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BookingFormModal from '../BookingFormModal';
 import PriceCard from "./AcDetail/AcLocation/PriceCard";
+import Cooling    from '../Svg/Cooling';
+import Improve    from '../Svg/Improve';
+import Airflow    from '../Svg/Airflow';
+import Customer   from '../Svg/Customer';
+import Inspection from '../Svg/Inspection';
+import Thermostat from '../Svg/Thermostat';
+import Gallery    from '../Svg/Gallery';
 
-const CallNowButton    = lazy(() => import('../Buttons/CallNowButton'));
-const ACWhyChooseUs    = lazy(() => import("../WhyChooseUS/ACWhyChooseUs"));
+const CallNowButton       = lazy(() => import('../Buttons/CallNowButton'));
+const ACWhyChooseUs       = lazy(() => import("../WhyChooseUS/ACWhyChooseUs"));
 const MaintenanceContract = lazy(() => import("../MaintenanceContract/MaintenanceContract"));
-const Practicaltip     = lazy(() => import("../Common/Practicaltip"));
-const AcProperties     = lazy(() => import("../Common/AcProperties"));
-const FAJACPrice       = lazy(() => import("../Miscellaneous/FAJACPrice"));
-const GetQuoteButton   = lazy(() => import("../Buttons/GetQuoteButton"));
-const Blog2            = lazy(() => import("../Blog/Blog2"));
-const Testimonial1     = lazy(() => import("../Testimonial/Testimonial1"));
-const BeforeAfter      = lazy(() => import("../BeforeAfter/BeforeAfter"));
-const Serviceappointemnt = lazy(() => import('../Contact/Serviceappointemnt'));
-const Cooling          = lazy(() => import('../Svg/Cooling'));
-const Improve          = lazy(() => import('../Svg/Improve'));
-const Airflow          = lazy(() => import('../Svg/Airflow'));
-const Customer         = lazy(() => import('../Svg/Customer'));
-const Inspection       = lazy(() => import('../Svg/Inspection'));
-const Thermostat       = lazy(() => import('../Svg/Thermostat'));
-const Gallery          = lazy(() => import('../Svg/Gallery'));
+const Practicaltip        = lazy(() => import("../Common/Practicaltip"));
+const AcProperties        = lazy(() => import("../Common/AcProperties"));
+const FAJACPrice          = lazy(() => import("../Miscellaneous/FAJACPrice"));
+const GetQuoteButton      = lazy(() => import("../Buttons/GetQuoteButton"));
+const Blog2               = lazy(() => import("../Blog/Blog2"));
+const Testimonial1        = lazy(() => import("../Testimonial/Testimonial1"));
+const BeforeAfter         = lazy(() => import("../BeforeAfter/BeforeAfter"));
+const Serviceappointemnt  = lazy(() => import('../Contact/Serviceappointemnt'));
+
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -164,32 +165,82 @@ const SCHEMA = {
       "@type": "BreadcrumbList",
       "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
-        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
-        { "@type": "ListItem", "position": 3, "name": "Air Conditioning Repair", "item": "https://www.fajservices.ae/services/air-conditioning-repair/" },
-        { "@type": "ListItem", "position": 4, "name": "AC Service", "item": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/" }
+        { "@type": "ListItem", "position": 1, "name": "Home",                  "item": "https://www.fajservices.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Services",              "item": "https://www.fajservices.ae/services/" },
+        { "@type": "ListItem", "position": 3, "name": "Air Conditioning Repair","item": "https://www.fajservices.ae/services/air-conditioning-repair/" },
+        { "@type": "ListItem", "position": 4, "name": "AC Service",            "item": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/" }
       ]
     }
   ]
 };
 
 const SCHEMA_STRING = JSON.stringify(SCHEMA);
+const PROBLEMS = [
+  { title: "High Humidity Levels",   desc: "An air conditioning unit that doesn't reduce indoor humidity may have cooling capacity issues or operate improperly." },
+  { title: "Leaking Water",          desc: "Water pooling around the AC or dripping from vents may signal a blocked drain, frozen coils, or other serious issues." },
+  { title: "Increased Energy Bills", desc: "High DEWA bills without increased usage may signal AC inefficiencies from dirty filters, AC duct leaks, or other issues." },
+  { title: "Weak Airflow",           desc: "Reduced airflow from your AC duct may signal problems like a blocked filter or a faulty AC motor." },
+  { title: "Warm Air",               desc: "If your AC blows warm or room temperature air instead of cold, it could indicate ac compressor, gas, or duct work issues requiring fix." },
+  { title: "Strange Noises",         desc: "Unusual sounds such as grinding, squealing, or banging from your AC motor can indicate problems that require attention." },
+  { title: "Foul Odors",             desc: "Unpleasant odors coming from the vents might indicate the presence of mold or mildew, which requires immediate attention." },
+  { title: "Frequent Cycling",       desc: "It may indicate issues with maintaining desired AC temperatures, such as dirty filters, low refrigerant, or a faulty thermostat." }
+];
 
-const useInView = (options = {}) => {
+const BENEFITS = [
+  { Icon: Cooling,    title: "COOLING EFFICIENCY",   desc: "We perform a thorough evaluation of AC cooling efficiency with the use of a temperature gun." },
+  { Icon: Improve,    title: "IMPROVED AIR QUALITY",  desc: "Cleaning AC filters and coils removes dust, resulting in healthier and cleaner air for your family or employees." },
+  { Icon: Inspection, title: "COMPLETE INSPECTION",   desc: "An AC tune-up involves checking and cleaning the filters, as well as inspecting electrical connections, to ensure optimal performance." },
+  { Icon: Thermostat, title: "THERMOSTAT CHECK",      desc: "We use a laser temperature gauge to confirm that the air conditioning thermostats are functioning properly." },
+  { Icon: Airflow,    title: "AIRFLOW BALANCE",       desc: "We ensure optimal airflow from your air conditioning system in each room as needed." },
+  { Icon: Customer,   title: "CUSTOMER FEEDBACK",     desc: "Our team provides essential feedback on your air conditioning health and any necessary repair." },
+];
+
+const GALLERY_ITEMS = [
+  { src: 'AcService/slide1', alt: 'Ac Service' },
+  { src: 'AcService/slide2', alt: 'AC Repair' },
+  { src: 'AcService/slide3', alt: 'AC Maintenance' },
+  { src: 'AcService/slide4', alt: 'AC Cleaning' },
+  { src: 'AcService/slide5', alt: 'AC Fixing' },
+  { src: 'AcService/slide6', alt: 'AC Gas Filling' },
+];
+
+const BRANDS_LIST = [
+  { name: "Rheem AC Repair & Service",                     url: "/services/air-conditioning-repair/brands/rheem/" },
+  { name: "SKM AC Maintenance Dubai",                      url: "/services/air-conditioning-repair/brands/skm/" },
+  { name: "Carrier AC Repair",                             url: "#" },
+  { name: "Lennox Air Conditioning Maintenance Service",   url: "/services/air-conditioning-repair/brands/lennox/" },
+  { name: "Aftron AC Maintenance Service",                 url: "/services/air-conditioning-repair/brands/aftron/" },
+  { name: "Bryant AC Repair Service Dubai",                url: "/services/air-conditioning-repair/brands/bryant/" },
+  { name: "Blue Star AC Repair",                           url: "/services/air-conditioning-repair/brands/blue-star/" },
+  { name: "Supra AC Maintenance",                          url: "/services/air-conditioning-repair/brands/supra/" },
+  { name: "Toshiba AC Fix",                                url: "/services/air-conditioning-repair/brands/toshiba/" },
+  { name: "Super General AC Repair and Services in Dubai", url: "/services/air-conditioning-repair/brands/super-general/" },
+  { name: "Hitachi AC Service",                            url: "/services/air-conditioning-repair/brands/hitachi/" },
+  { name: "Whirlpool AC Repair",                           url: "/services/air-conditioning-repair/brands/whirlpool/" },
+  { name: "Daewoo AC Cleaning",                            url: "/services/air-conditioning-repair/brands/daewoo/" },
+];
+
+const useInView = (rootMargin = "200px") => {
   const [isInView, setIsInView] = useState(false);
   const ref = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        setIsInView(true);
-        observer.disconnect();
-      }
-    }, { rootMargin: "200px", ...options });
+    const el = ref.current;
+    if (!el) return;
 
-    if (ref.current) observer.observe(ref.current);
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsInView(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin }
+    );
+
+    observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, []); 
 
   return [ref, isInView];
 };
@@ -232,12 +283,9 @@ const YouTubeFacade = memo(({ videoId, title }) => {
       className="bordered-img blue-border"
       onClick={() => setClicked(true)}
       style={{
-        position: 'relative',
-        width: '100%',
-        height: '350px',
-        cursor: 'pointer',
-        overflow: 'hidden',
-        background: '#000',
+        position: 'relative', width: '100%', height: '350px',
+        cursor: 'pointer', overflow: 'hidden', background: '#000',
+        contain: 'layout style',
       }}
       role="button"
       aria-label={`Play video: ${title}`}
@@ -250,14 +298,13 @@ const YouTubeFacade = memo(({ videoId, title }) => {
         height="350"
         style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.85 }}
       />
-      {/* Play button overlay */}
       <div style={{
         position: 'absolute', top: '50%', left: '50%',
         transform: 'translate(-50%, -50%)',
         width: '68px', height: '48px',
-        background: '#ff0000',
-        borderRadius: '12px',
+        background: '#ff0000', borderRadius: '12px',
         display: 'flex', alignItems: 'center', justifyContent: 'center',
+        pointerEvents: 'none',
       }}>
         <svg viewBox="0 0 68 48" width="68" height="48">
           <polygon points="28,16 28,32 44,24" fill="#fff" />
@@ -272,29 +319,157 @@ const SectionPlaceholder = memo(({ height = "200px" }) => (
 ));
 
 const ButtonPlaceholder = memo(() => (
-  <div style={{ width: '120px', height: '44px', minWidth: '120px', minHeight: '44px', background: "#e0e0e0", borderRadius: '8px', display: 'inline-block' }} />
+  <div style={{
+    width: '120px', height: '44px', minWidth: '120px', minHeight: '44px',
+    background: "#e0e0e0", borderRadius: '8px', display: 'inline-block'
+  }} />
 ));
 
-const FAQPlaceholder = memo(() => (
-  <section className="section cs_py_30 bg-dark-blue text-light">
+const CommonACProblems = memo(() => (
+  <section className="section cs_py_30" style={{ contain: 'layout style' }}>
     <div className="container">
-      <h3 className="cs_fs_30 text-light">FAQ's</h3>
-      <div style={{ minHeight: '200px' }} />
+      <h2 className="text-center">Most Common AC Problems That May Require Maintenance</h2>
+      <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
+        {PROBLEMS.map((problem) => (
+          <div key={problem.title} className="col-12 col-md-4 col-lg-3">
+            <div className="box-content-container rounded border shadow">
+              <div className="text-center">
+                <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">
+                  {problem.title}
+                </h3>
+              </div>
+              <div className="inner-apcs-feat-desc">
+                <p className="p-2 mb-0">{problem.desc}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="mb-0 mt-3">
+        <div className="container d-flex justify-content-center align-items-center gap-3">
+          <WhatsappIconButton />
+        </div>
+      </div>
     </div>
   </section>
 ));
 
+const BrandLinks = memo(() => (
+  <p className="mt-2 mb-0">
+    {BRANDS_LIST.map((brand, i) => (
+      <span key={brand.url}>
+        <Link to={brand.url}>{brand.name}</Link>
+        {i < BRANDS_LIST.length - 1 && <span>&nbsp;-&nbsp;</span>}
+      </span>
+    ))}
+  </p>
+));
+
+const ACBrandsSection = memo(() => (
+  <section className="section cs_py_30" style={{ contain: 'layout style' }}>
+    <div className="container">
+      <h3 className="cs_fs_24 text-align-left">
+        We specialise in air conditioning services for the following brands
+      </h3>
+      <ul className="mb-3">
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/daikin/"><strong>Daikin Air Conditioning Services</strong></a><strong>:</strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong international presence through its focus on quality, innovation, and effective communication. We work with Daikin air conditioning products because the company continuously invests in research and development.</li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/"><strong>Gree AC Repair and Service</strong></a><strong>:</strong> Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product line to include various home appliances and became China's largest air conditioner manufacturer by 2000.</li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/"><strong>O General AC Repair and Maintenance</strong></a><strong>:</strong> O General AC, a brand of Fujitsu General, is renowned for its Japanese engineering and high-quality air conditioning solutions.</li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/"><strong>Mitsubishi AC Service and Repair</strong></a><strong>:</strong> Founded in 1954, Mitsubishi Air Conditioning has been producing air conditioning systems for nearly 75 years and is renowned for its reliability and energy efficiency.</li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/"><strong>Samsung AC Maintenance Service</strong></a><strong>:</strong> Samsung AC is a globally recognized name, known for pushing boundaries. Since 1969, they have continued to shape the future with innovative air conditioning technology.</li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/york/"><strong>York AC Servicing and Repair</strong></a><strong>:</strong> YORK® has been an industry leader since our founding in 1874.</li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/"><strong>LG AC Maintenance and Service</strong></a><strong>:</strong> LG history in air conditioning began in 1968 with the launch of its first unit.</li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/"><strong>Trane HVAC Repair and Maintenance:</strong></a> Trane developed its first air conditioning unit in 1931.</li>
+        <li><strong>Carrier AC Repair and Services in Dubai:</strong> Since 1902, Carrier HVAC has cultivated a history of proven innovation in the heating, air-conditioning and refrigeration industries.</li>
+        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/"><strong>Rheem AC Repair &amp; Service Near Me:</strong></a> Rheem AC was founded in 1925 in California, initially making steel drums. It quickly transitioned to manufacturing water heaters and, in the 1940s and 1950s, expanded into furnaces, split, central air conditioning systems to meet the growing demand for home comfort. Today, Rheem is a leading global HVAC provider known for its innovation and diverse heating and cooling solutions.</li>
+      </ul>
+      <BrandLinks />
+      <div className="mt-3">
+        <div className="container d-flex justify-content-center align-items-center gap-3">
+          <Suspense fallback={<ButtonPlaceholder />}><GetQuoteButton /></Suspense>
+          <Suspense fallback={<ButtonPlaceholder />}><CallNowButton /></Suspense>
+        </div>
+      </div>
+    </div>
+  </section>
+));
+
+const GallerySection = memo(() => (
+  <section className="section gallery_section bg-light-gray cs_py_30" style={{ contain: 'layout style' }}>
+    <div className="container">
+      <h2>Gallery <Gallery /></h2>
+      <div className="row gx-3 gy-2">
+        {GALLERY_ITEMS.map(({ src, alt }) => (
+          <div key={src} className="col-md-4 col-6">
+            <img
+              src={`${CDN}/${src}/public`}
+              alt={alt}
+              loading="lazy"
+              width="400"
+              height="300"
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+));
+
+const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
+  if (!data || data.length === 0) {
+    return (
+      <section className="section cs_py_30 bg-dark-blue text-light">
+        <div className="container">
+          <h3 className="cs_fs_30 text-light">FAQ's</h3>
+          <div style={{ minHeight: '200px' }} />
+        </div>
+      </section>
+    );
+  }
+
+  return (
+    <section className="section cs_py_30 text-black">
+      <div className="container">
+        <h3 className="cs_fs_30">FAQ's</h3>
+        <div className="cs_accordians_wrapper cs_style_1 p-0">
+          {data.map((item, index) => (
+            <div
+              key={index}
+              className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}
+            >
+              <div className="cs_accordian_head" onClick={() => onItemClick(index)}>
+                <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
+                <span className="cs_accordian_toggle">
+                  <i className="bi bi-eye"><EyeIcon /></i>
+                  <i className="bi bi-eye-slash"><EyeSlashIcon /></i>
+                </span>
+              </div>
+              <div className="cs_accordian_body">
+                <p
+                  className="mb-0"
+                  dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+});
+
 const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  const metatitle       = String(titleSeo   || "AC Repair Dubai | Best HVAC Maintenance & AC Service");
+  const metatitle       = String(titleSeo    || "AC Repair Dubai | Best HVAC Maintenance & AC Service");
   const metadescription = String(description || "FAJ has been providing the best AC Service Dubai since 2010. Get fast AC repair, maintenance, servicing & AC cleaning from expert technicians nearby.");
-  const metaAuthor      = String(Author || "FAJ Technical Services L.L.C");
-  const metaURL         = String(URL    || "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/");
+  const metaAuthor      = String(Author  || "FAJ Technical Services L.L.C");
+  const metaURL         = String(URL     || "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/");
   const metaImage       = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
 
-  const [isModalOpen,    setIsModalOpen]    = useState(false);
-  const [faqData,        setFaqData]        = useState([]);
+  const [isModalOpen,     setIsModalOpen]     = useState(false);
+  const [faqData,         setFaqData]         = useState([]);
   const [testimonialData, setTestimonialData] = useState([]);
-  const [openItemIndex,  setOpenItemIndex]  = useState(0);
+  const [openItemIndex,   setOpenItemIndex]   = useState(0);
 
   const [faqRef,         faqInView]         = useInView();
   const [testimonialRef, testimonialInView] = useInView();
@@ -315,11 +490,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   }, []);
 
   useEffect(() => {
-    let loaded = false;
-    if (loaded) return;
     import("../Common/loadBackgroudImages").then(({ default: loadBg }) => {
       loadBg();
-      loaded = true;
     });
   }, []);
 
@@ -341,35 +513,35 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description"        content={metadescription} />
-          <meta name="author"             content={metaAuthor} />
-          <meta name="robots"             content="index, follow" />
-          <link rel="canonical"           href={metaURL} />
-          <meta property="og:type"        content="website" />
-          <meta property="og:locale"      content="en_US" />
-          <meta property="og:title"       content={metatitle} />
-          <meta property="og:description" content={metadescription} />
-          <meta property="og:url"         content={metaURL} />
-          <meta property="og:image"       content={metaImage} />
-          <meta name="twitter:title"       content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image"       content={metaImage} />
-          <link rel="preconnect" href="https://imagedelivery.net" />
-          <link rel="dns-prefetch" href="https://imagedelivery.net" />
-          <link rel="preconnect" href="https://img.youtube.com" />
-          <script type="application/ld+json">{SCHEMA_STRING}</script>
-        </Helmet>
-      </HelmetProvider>
+      <Helmet>
+        <title>{metatitle}</title>
+        <meta name="description"        content={metadescription} />
+        <meta name="author"             content={metaAuthor} />
+        <meta name="robots"             content="index, follow" />
+        <link rel="canonical"           href={metaURL} />
+        <meta property="og:type"        content="website" />
+        <meta property="og:locale"      content="en_US" />
+        <meta property="og:title"       content={metatitle} />
+        <meta property="og:description" content={metadescription} />
+        <meta property="og:url"         content={metaURL} />
+        <meta property="og:image"       content={metaImage} />
+        <meta name="twitter:title"       content={metatitle} />
+        <meta name="twitter:description" content={metadescription} />
+        <meta name="twitter:image"       content={metaImage} />
+        <link rel="preconnect" href="https://imagedelivery.net" />
+        <link rel="dns-prefetch" href="https://imagedelivery.net" />
+        <link rel="preconnect" href="https://img.youtube.com" />
+        <script type="application/ld+json">{SCHEMA_STRING}</script>
+      </Helmet>
 
       <HeaderForm />
 
       <div className="cs_service_details">
+
+        {/* ── Hero Section ── */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Service & AC Repair in Dubai</h1>
+            <h1 className="cs_fs_30">AC Service &amp; AC Repair in Dubai</h1>
             <p>
               Improve the comfort of your home and business premises with air conditioning cooling.
               Maintain a perfect temperature year-round with our expert AC technicians.<br />
@@ -379,7 +551,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               ensuring your air conditioning system performs at its best for an extended time, as well
               as AC installation of home, office, and commercial air conditioning units in Dubai and Sharjah.
             </p>
-            <div id="get-quote" className="mt-3">
+            <div id="get-quote-hero" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
                 <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
@@ -389,14 +561,18 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         </section>
 
         <PriceCard />
+
+        {/* ── Our AC Repair & Service ── */}
         <section className="section cs_py_30 pb-0">
           <div className="container">
             <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Our AC Repair & Service</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Our AC Repair &amp; Service</h2>
                 <p className="mb-1">
                   When looking for{' '}
-                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/">AC repair &amp; service in Dubai</a>,
+                  <a href="https://www.fajservices.ae/services/air-conditioning-repair/">
+                    AC repair &amp; service in Dubai
+                  </a>,
                   choose a qualified and reputable company that meets your residential or commercial needs.
                 </p>
                 <p className="mb-1">
@@ -404,7 +580,9 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   efficiently. This improves comfort during hot months and reduces Dewa bill costs,
                   providing peace of mind with your AC cooling solutions.
                 </p>
-                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">Top Common Signs That You Need AC Maintenance</h2>
+                <h2 className="cs_fs_24 mb-1 pt-1 mt-0 text-align-left">
+                  Top Common Signs That You Need AC Maintenance
+                </h2>
                 <p className="mb-2">
                   If you notice any of these AC signs, please contact us via phone or WhatsApp chat.
                   We are here to assist your AC cooling system in getting optimal efficiency.
@@ -421,7 +599,11 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <ul className="mb-0">
                       <li>Water Leaking from your AC</li>
                       <li>AC compressor is not cooling</li>
-                      <li><a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling"><b>High AC electricity (DEWA) bills</b></a></li>
+                      <li>
+                        <a href="https://www.dewa.gov.ae/en/consumer/sustainability/sustainability-and-conservation/cooling">
+                          <b>High AC electricity (DEWA) bills</b>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -436,7 +618,9 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
             <div className="appointment-col mt-3">
               <div className="appointment-col-inner-wrappper">
-                <h2 className="cs_fs_24 mb-1 mt-0">Our Express and Emergency AC Repair Service in Dubai</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0">
+                  Our Express and Emergency AC Repair Service in Dubai
+                </h2>
                 <p>
                   If you are facing any problem in your air conditioning service at home or in your business,
                   especially during the summer time, our same day and express AC repair service is here to help.
@@ -444,7 +628,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   emergency AC repair appointment.
                 </p>
               </div>
-              <div id="get-quote" className="mt-3">
+              <div id="get-quote-emergency" className="mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
                   <Suspense fallback={<ButtonPlaceholder />}>
@@ -455,12 +639,15 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
           </div>
         </section>
+
+        {/* ── Price ── */}
         <LazySection minHeight="300px">
           <FAJACPrice />
         </LazySection>
 
+        {/* ── Why AC Maintenance Important ── */}
         <LazySection minHeight="400px">
-          <section className="section cs_py_30 bg-light-gray">
+          <section className="section cs_py_30 bg-light-gray" style={{ contain: 'layout style' }}>
             <div className="container">
               <h2 className="cs_fs_30">Why is AC Maintenance Important in Dubai, UAE?</h2>
               <p>
@@ -495,11 +682,13 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           </section>
         </LazySection>
 
+        {/* ── Common AC Problems ── */}
         <LazySection minHeight="350px">
           <CommonACProblems />
         </LazySection>
 
-        <section className="section cs_py_30 bg-light-blue-section">
+        {/* ── How to use FAJ ── */}
+        <section className="section cs_py_30 bg-light-blue-section" style={{ contain: 'layout style' }}>
           <div className="container">
             <h2 className="cs_fs_28">How to use FAJ AC Service and AC Repair in Dubai?</h2>
             <p className="cs-fs_14">
@@ -516,31 +705,25 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="service-card-item"><h3>AC Service Dubai Available Near Me Before Summer:</h3><p className="cs_fs_14">Get ready for summer! Schedule your AC tune up to ensure comfort during the heat.</p></div>
             </div>
             <div className="service-footer-text">
-              <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair & Maintenance Services today!</h3>
+              <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair &amp; Maintenance Services today!</h3>
               <p className="cs_fs_14">For reliable AC service and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
             </div>
           </div>
         </section>
 
-        <section className="section ac_benifit_blue">
+        {/* ── Benefits Section ── */}
+        <section className="section ac_benifit_blue" style={{ contain: 'layout style' }}>
           <div className="container">
             <div className="text-center">
-              <h2 className="cs_fs_30 text-light my-5">Benefits Of Regular AC Service and Maintenance in Dubai</h2>
+              <h2 className="cs_fs_30 text-light my-5">
+                Benefits Of Regular AC Service and Maintenance in Dubai
+              </h2>
               <div className="row mt-4 gx-4 gy-4">
-                {[
-                  { Icon: Cooling,     title: "COOLING EFFICIENCY",   desc: "We perform a thorough evaluation of AC cooling efficiency with the use of a temperature gun." },
-                  { Icon: Improve,     title: "IMPROVED AIR QUALITY", desc: "Cleaning AC filters and coils removes dust, resulting in healthier and cleaner air for your family or employees." },
-                  { Icon: Inspection,  title: "COMPLETE INSPECTION",  desc: "An AC tune-up involves checking and cleaning the filters, as well as inspecting electrical connections, to ensure optimal performance." },
-                  { Icon: Thermostat,  title: "THERMOSTAT CHECK",     desc: "We use a laser temperature gauge to confirm that the air conditioning thermostats are functioning properly." },
-                  { Icon: Airflow,     title: "AIRFLOW BALANCE",      desc: "We ensure optimal airflow from your air conditioning system in each room as needed." },
-                  { Icon: Customer,    title: "CUSTOMER FEEDBACK",    desc: "Our team provides essential feedback on your air conditioning health and any necessary repair." },
-                ].map(({ Icon, title: t, desc }, i) => (
-                  <div key={i} className="col-md-4 mb-5">
+                {BENEFITS.map(({ Icon, title: t, desc }) => (
+                  <div key={t} className="col-md-4 mb-5">
                     <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2">
                       <div className="mb-3 benefit_wrapper_box_icon" style={{ width: "80px", height: "80px" }}>
-                        <Suspense fallback={<div style={{ width: 80, height: 80 }} />}>
-                          <Icon />
-                        </Suspense>
+                        <Icon />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6">{t}</h3>
                       <p className="small">{desc}</p>
@@ -568,39 +751,19 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           />
         </LazySection>
 
-        <LazySection minHeight="300px">
+        <LazySection minHeight="400px">
           <ACBrandsSection />
         </LazySection>
-        <section className="section gallery_section bg-light-gray cs_py_30">
-          <div className="container">
-            <h2>Gallery <Suspense fallback={null}><Gallery /></Suspense></h2>
-            <div className="row gx-3 gy-2">
-              {[
-                { src: 'AcService/slide1', alt: 'Ac Service' },
-                { src: 'AcService/slide2', alt: 'AC Repair' },
-                { src: 'AcService/slide3', alt: 'AC Maintenance' },
-                { src: 'AcService/slide4', alt: 'AC Cleaning' },
-                { src: 'AcService/slide5', alt: 'AC Fixing' },
-                { src: 'AcService/slide6', alt: 'AC Gas Filling' },
-              ].map(({ src, alt }) => (
-                <div key={src} className="col-md-4 col-6">
-                  <img
-                    src={`${CDN}/${src}/public`}
-                    alt={alt}
-                    loading="lazy"
-                    width="400"
-                    height="300"
-                    style={{ width: '100%', height: 'auto', display: 'block' }}
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+
+        <LazySection minHeight="300px">
+          <GallerySection />
+        </LazySection>
 
         <LazySection minHeight="300px"><Practicaltip /></LazySection>
         <LazySection minHeight="300px"><AcProperties /></LazySection>
         <LazySection minHeight="300px"><MaintenanceContract /></LazySection>
+
+        {/* ── Testimonials ── */}
         <div ref={testimonialRef} style={{ minHeight: '400px' }}>
           {testimonialInView && testimonialData.length > 0 && (
             <Suspense fallback={<SectionPlaceholder height="400px" />}>
@@ -617,11 +780,14 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
         <LazySection minHeight="300px"><Blog2 /></LazySection>
 
+        {/* ── Book Appointment ── */}
         <LazySection minHeight="200px">
           <section className="section cs_py_30 bg-dark-blue text-light">
             <Serviceappointemnt subtitle2="Contact us" title2="Book An Appointment" />
           </section>
         </LazySection>
+
+        {/* ── FAQ ── */}
         <div ref={faqRef} style={{ minHeight: '300px' }}>
           {faqInView && (
             <Suspense fallback={<SectionPlaceholder height="300px" />}>
@@ -638,128 +804,5 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
     </>
   );
 };
-
-const PROBLEMS = [
-  { title: "High Humidity Levels",  desc: "An air conditioning unit that doesn't reduce indoor humidity may have cooling capacity issues or operate improperly." },
-  { title: "Leaking Water",         desc: "Water pooling around the AC or dripping from vents may signal a blocked drain, frozen coils, or other serious issues." },
-  { title: "Increased Energy Bills",desc: "High DEWA bills without increased usage may signal AC inefficiencies from dirty filters, AC duct leaks, or other issues." },
-  { title: "Weak Airflow",          desc: "Reduced airflow from your AC duct may signal problems like a blocked filter or a faulty AC motor." },
-  { title: "Warm Air",              desc: "If your AC blows warm or room temperature air instead of cold, it could indicate ac compressor, gas, or duct work issues requiring fix." },
-  { title: "Strange Noises",        desc: "Unusual sounds such as grinding, squealing, or banging from your AC motor can indicate problems that require attention." },
-  { title: "Foul Odors",            desc: "Unpleasant odors coming from the vents might indicate the presence of mold or mildew, which requires immediate attention." },
-  { title: "Frequent Cycling",      desc: "It may indicate issues with maintaining desired AC temperatures, such as dirty filters, low refrigerant, or a faulty thermostat." }
-];
-
-const CommonACProblems = memo(() => (
-  <section className="section cs_py_30">
-    <div className="container">
-      <h2 className="text-center">Most Common AC Problems That May Require Maintenance</h2>
-      <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-        {PROBLEMS.map((problem, i) => (
-          <div key={i} className="col-12 col-md-4 col-lg-3">
-            <div className="box-content-container rounded border shadow">
-              <div className="text-center">
-                <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">{problem.title}</h3>
-              </div>
-              <div className="inner-apcs-feat-desc">
-                <p className="p-2 mb-0" dangerouslySetInnerHTML={{ __html: problem.desc }} />
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-      <div id="get-quote" className="mb-0 mt-3">
-        <div className="container d-flex justify-content-center align-items-center gap-3">
-          <WhatsappIconButton />
-        </div>
-      </div>
-    </div>
-  </section>
-));
-
-const BRANDS_LIST = [
-  { name: "Rheem AC Repair & Service",                  url: "/services/air-conditioning-repair/brands/rheem/" },
-  { name: "SKM AC Maintenance Dubai",                   url: "/services/air-conditioning-repair/brands/skm/" },
-  { name: "Carrier AC Repair",                          url: "#" },
-  { name: "Lennox Air Conditioning Maintenance Service",url: "/services/air-conditioning-repair/brands/lennox/" },
-  { name: "Aftron AC Maintenance Service",              url: "/services/air-conditioning-repair/brands/aftron/" },
-  { name: "Bryant AC Repair Service Dubai",             url: "/services/air-conditioning-repair/brands/bryant/" },
-  { name: "Blue Star AC Repair",                        url: "/services/air-conditioning-repair/brands/blue-star/" },
-  { name: "Supra AC Maintenance",                       url: "/services/air-conditioning-repair/brands/supra/" },
-  { name: "Toshiba AC Fix",                             url: "/services/air-conditioning-repair/brands/toshiba/" },
-  { name: "Super General AC Repair and Services in Dubai", url: "/services/air-conditioning-repair/brands/super-general/" },
-  { name: "Hitachi AC Service",                         url: "/services/air-conditioning-repair/brands/hitachi/" },
-  { name: "Whirlpool AC Repair",                        url: "/services/air-conditioning-repair/brands/whirlpool/" },
-  { name: "Daewoo AC Cleaning",                         url: "/services/air-conditioning-repair/brands/daewoo/" },
-];
-
-const BrandLinks = memo(() => (
-  <p className="mt-2 mb-0">
-    {BRANDS_LIST.map((brand, i) => (
-      <span key={brand.url}>
-        <Link to={brand.url}>{brand.name}</Link>
-        {i < BRANDS_LIST.length - 1 && <span>&nbsp;-&nbsp;</span>}
-      </span>
-    ))}
-  </p>
-));
-
-const ACBrandsSection = memo(() => (
-  <section className="section cs_py_30">
-    <div className="container">
-      <h3 className="cs_fs_24 text-align-left">We specialise in air conditioning services for the following brands</h3>
-      <ul className="mb-3">
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/daikin/"><strong>Daikin Air Conditioning Services</strong></a><strong>:</strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong international presence through its focus on quality, innovation, and effective communication. We work with Daikin air conditioning products because the company continuously invests in research and development.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/"><strong>Gree AC Repair and Service</strong></a><strong>:</strong> Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product line to include various home appliances and became China's largest air conditioner manufacturer by 2000.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/"><strong>O General AC Repair and Maintenance</strong></a><strong>:</strong> O General AC, a brand of Fujitsu General, is renowned for its Japanese engineering and high-quality air conditioning solutions.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/"><strong>Mitsubishi AC Service and Repair</strong></a><strong>:</strong> Founded in 1954, Mitsubishi Air Conditioning has been producing air conditioning systems for nearly 75 years and is renowned for its reliability and energy efficiency.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/"><strong>Samsung AC Maintenance Service</strong></a><strong>:</strong> Samsung AC is a globally recognized name, known for pushing boundaries. Since 1969, they have continued to shape the future with innovative air conditioning technology.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/york/"><strong>York AC Servicing and Repair</strong></a><strong>:</strong> YORK® has been an industry leader since our founding in 1874.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/"><strong>LG AC Maintenance and Service</strong></a><strong>:</strong> LG history in air conditioning began in 1968 with the launch of its first unit.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/"><strong>Trane HVAC Repair and Maintenance:</strong></a> Trane developed its first air conditioning unit in 1931.</li>
-        <li><strong>Carrier AC Repair and Services in Dubai:</strong> Since 1902, Carrier HVAC has cultivated a history of proven innovation in the heating, air-conditioning and refrigeration industries.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/"><strong>Rheem AC Repair &amp; Service Near Me:</strong></a> Rheem AC was founded in 1925 in California, initially making steel drums. It quickly transitioned to manufacturing water heaters and, in the 1940s and 1950s, expanded into furnaces, split, central air conditioning systems to meet the growing demand for home comfort. Today, Rheem is a leading global HVAC provider known for its innovation and diverse heating and cooling solutions.</li>
-      </ul>
-      <BrandLinks />
-      <div id="get-quote" className="mt-3">
-        <div className="container d-flex justify-content-center align-items-center gap-3">
-          <Suspense fallback={<ButtonPlaceholder />}><GetQuoteButton /></Suspense>
-          <Suspense fallback={<ButtonPlaceholder />}><CallNowButton /></Suspense>
-        </div>
-      </div>
-    </div>
-  </section>
-));
-
-const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
-  if (!data || data.length === 0) return <FAQPlaceholder />;
-
-  return (
-    <section className="section cs_py_30 text-black">
-      <div className="container">
-        <h3 className="cs_fs_30">FAQ's</h3>
-        <div className="cs_accordians_wrapper cs_style_1 p-0">
-          {data.map((item, index) => (
-            <div
-              key={index}
-              className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`}
-            >
-              <div className="cs_accordian_head" onClick={() => onItemClick(index)}>
-                <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
-                <span className="cs_accordian_toggle">
-                  <i className="bi bi-eye"><EyeIcon /></i>
-                  <i className="bi bi-eye-slash"><EyeSlashIcon /></i>
-                </span>
-              </div>
-              <div className="cs_accordian_body">
-                <p className="mb-0" dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }} />
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-});
 
 export default memo(AcServiceInDubai);
