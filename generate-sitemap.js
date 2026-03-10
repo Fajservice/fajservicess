@@ -429,6 +429,7 @@ const urls = [
   { loc: "/blog/what-is-the-ideal-room-temperature-for-comfortable-living-across-different-ages-including-children-and-adults/" },
   { loc: "/blog/how-ac-filter-boost-coling-perrformance-and-air-quality/" },
   { loc: "/blog/ac-repair-dubai-questions-before-hiring-ac-repair-companies-dubai/" },
+  { loc: "/blog/ac-compressor-replacement-signs-causes-when-to-replace/" },
   { loc: "/services/air-conditioning-repair/\u062a\u0635\u0644\u064a\u062d-\u0645\u0643\u064a\u0641\u0627\u062a-\u0627\u0644\u0647\u0648\u0627\u0621-\u062e\u062f\u0645\u0629-\u0648\u0635\u064a\u0627\u0646\u0629-\u062f\u0628\u064a/" },
 
   { loc: "/orphan/" },

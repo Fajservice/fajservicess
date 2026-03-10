@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback, memo } from "react";
-import "./Testimonial1.css";
+import { useState, useEffect, useRef, useCallback, memo } from "react";
 import parse from "html-react-parser";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
@@ -10,50 +9,67 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 
-const StarIcon = ({ size = 14 }) => (
-  <svg
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="#ffc107"
-    aria-hidden="true"
-  >
-    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-  </svg>
-);
-
-const QuoteIcon = ({ size = 40 }) => (
-  <svg
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    aria-hidden="true"
-  >
-    <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
-  </svg>
-);
-
-const DiamondIcon = ({ size = 16 }) => (
-  <svg
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    className="decorative-icon"
-    aria-hidden="true"
-  >
-    <path d="M12 2L2 12l10 10 10-10L12 2z" />
-  </svg>
-);
-
-const StarRating = () => (
-  <div className="rating-area">
-    {[...Array(5)].map((_, i) => (
-      <StarIcon key={i} size={14} />
+const STARS_SVG = (
+  <svg width="70" height="14" viewBox="0 0 70 14" fill="#ffc107" aria-hidden="true">
+    {[0,1,2,3,4].map(i => (
+      <path key={i} transform={`translate(${i*14},0)`}
+        d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.3l-3.7 2 .7-4.1-3-2.9 4.2-.7z"/>
     ))}
-  </div>
+  </svg>
 );
+
+// const QuoteIcon = () => (
+//   <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+//     <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
+//   </svg>
+// );
+
+const DiamondIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 2L2 12l10 10 10-10L12 2z"/>
+  </svg>
+);
+
+const TestimonialCard = memo(({ item }) => (
+  <div className="cs_testimonial card shadow-sm border-0 h-100 p-3">
+    <div className="card-body">
+      <div className="d-flex align-items-center mb-2">
+        <div className="cs_testimonial_thumbnail me-3">
+          <img
+            src={getImageSrc(item.img1)}
+            alt={item.title}
+            className="rounded-circle"
+            width="60"
+            height="60"
+            loading="lazy"
+            decoding="async"
+            draggable="false"
+          />
+        </div>
+        <div>
+          <div className="rating-area">{STARS_SVG}</div>
+          <h3 className="mb-1 text-uppercase">{item.title}</h3>
+          <p className="cs_fs_16 mb-0">{item.subTitle}</p>
+        </div>
+      </div>
+      <blockquote className="blockquote mb-0">
+        <p className="cs_fs_16 mb-0">{item.desc}</p>
+      </blockquote>
+ 
+    </div>
+  </div>
+));
+TestimonialCard.displayName = 'TestimonialCard';
+
+const SLIDER_STYLES = `
+  .testimonial-slider{position:relative;width:100%;cursor:grab}
+  .testimonial-slider--dragging{cursor:grabbing;user-select:none}
+  .testimonial-slider__track{display:flex;will-change:transform;transition:transform .5s ease}
+  .testimonial-slider__track--no-transition{transition:none}
+  .testimonial-slider__slide{flex-shrink:0;padding:0 15px;box-sizing:border-box}
+  .testimonial-slider__slide img{pointer-events:none}
+  .rating-area{display:flex;gap:2px;margin-bottom:4px}
+`;
 
 const TestimonialSection = ({
   subtitle = "What Our Clients Say",
@@ -73,119 +89,86 @@ const TestimonialSection = ({
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesPerView, setSlidesPerView] = useState(1);
-  const [isTransitioning, setIsTransitioning] = useState(false);
-  const [isDragging, setIsDragging] = useState(false);
-  const [dragOffset, setDragOffset] = useState(0);
-  const intervalRef = useRef(null);
+  const isTransitioning = useRef(false);
+  const isDragging = useRef(false);
+  const dragOffset = useRef(0);
   const startX = useRef(0);
-  const currentX = useRef(0);
-  const sliderRef = useRef(null);
+  const trackRef = useRef(null);
+  const intervalRef = useRef(null);
 
   useEffect(() => {
-    const handleResize = () => {
-      const width = window.innerWidth;
-      if (width >= 1200) setSlidesPerView(breakpoints[1200]?.slidesPerView || 2);
-      else if (width >= 992) setSlidesPerView(breakpoints[992]?.slidesPerView || 2);
-      else if (width >= 768) setSlidesPerView(breakpoints[768]?.slidesPerView || 1);
-      else setSlidesPerView(1);
+    const getSlides = (width) => {
+      if (width >= 1200) return breakpoints[1200]?.slidesPerView || 2;
+      if (width >= 992)  return breakpoints[992]?.slidesPerView  || 2;
+      if (width >= 768)  return breakpoints[768]?.slidesPerView  || 1;
+      return 1;
     };
 
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    setSlidesPerView(getSlides(window.innerWidth));
+
+    const ro = new ResizeObserver(entries => {
+      setSlidesPerView(getSlides(entries[0].contentRect.width));
+    });
+    ro.observe(document.documentElement);
+    return () => ro.disconnect();
   }, [breakpoints]);
 
   const maxIndex = Math.max(0, testimonialData.length - slidesPerView);
+  const slideWidth = 100 / slidesPerView;
 
   const goToNext = useCallback(() => {
-    if (isTransitioning) return;
-    setIsTransitioning(true);
-    setCurrentIndex((prev) => (prev >= maxIndex ? 0 : prev + 1));
-    setTimeout(() => setIsTransitioning(false), 500);
-  }, [maxIndex, isTransitioning]);
+    if (isTransitioning.current) return;
+    isTransitioning.current = true;
+    setCurrentIndex(prev => (prev >= maxIndex ? 0 : prev + 1));
+    setTimeout(() => { isTransitioning.current = false; }, 500);
+  }, [maxIndex]);
 
   const goToPrev = useCallback(() => {
-    if (isTransitioning) return;
-    setIsTransitioning(true);
-    setCurrentIndex((prev) => (prev <= 0 ? maxIndex : prev - 1));
-    setTimeout(() => setIsTransitioning(false), 500);
-  }, [maxIndex, isTransitioning]);
+    if (isTransitioning.current) return;
+    isTransitioning.current = true;
+    setCurrentIndex(prev => (prev <= 0 ? maxIndex : prev - 1));
+    setTimeout(() => { isTransitioning.current = false; }, 500);
+  }, [maxIndex]);
 
-  // Autoplay
   useEffect(() => {
-    if (!autoplay || testimonialData.length <= slidesPerView || isDragging) return;
-
+    if (!autoplay || testimonialData.length <= slidesPerView) return;
     intervalRef.current = setInterval(goToNext, autoplayDelay);
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-    };
-  }, [autoplay, autoplayDelay, testimonialData.length, slidesPerView, goToNext, isDragging]);
+    return () => clearInterval(intervalRef.current);
+  }, [autoplay, autoplayDelay, testimonialData.length, slidesPerView, goToNext]);
 
-  // Touch events
-  const handleTouchStart = (e) => {
-    startX.current = e.touches[0].clientX;
-    setIsDragging(true);
-  };
+  const updateTrack = useCallback((offset) => {
+    if (!trackRef.current) return;
+    const baseTranslate = -(currentIndex * slideWidth);
+    trackRef.current.style.transform = `translateX(calc(${baseTranslate}% + ${offset}px))`;
+  }, [currentIndex, slideWidth]);
 
-  const handleTouchMove = (e) => {
-    if (!isDragging) return;
-    currentX.current = e.touches[0].clientX;
-    const diff = currentX.current - startX.current;
-    setDragOffset(diff);
-  };
+  const handleDragStart = useCallback((clientX) => {
+    clearInterval(intervalRef.current);
+    isDragging.current = true;
+    startX.current = clientX;
+    dragOffset.current = 0;
+    if (trackRef.current) trackRef.current.classList.add('testimonial-slider__track--no-transition');
+  }, []);
 
-  const handleTouchEnd = () => {
-    handleDragEnd();
-  };
+  const handleDragMove = useCallback((clientX) => {
+    if (!isDragging.current) return;
+    dragOffset.current = clientX - startX.current;
+    updateTrack(dragOffset.current);
+  }, [updateTrack]);
 
-  // Mouse events
-  const handleMouseDown = (e) => {
-    e.preventDefault();
-    startX.current = e.clientX;
-    setIsDragging(true);
-  };
+  const handleDragEnd = useCallback(() => {
+    if (!isDragging.current) return;
+    isDragging.current = false;
+    if (trackRef.current) trackRef.current.classList.remove('testimonial-slider__track--no-transition');
 
-  const handleMouseMove = (e) => {
-    if (!isDragging) return;
-    currentX.current = e.clientX;
-    const diff = currentX.current - startX.current;
-    setDragOffset(diff);
-  };
+    if (dragOffset.current < -50) goToNext();
+    else if (dragOffset.current > 50) goToPrev();
+    else updateTrack(0);
 
-  const handleMouseUp = () => {
-    handleDragEnd();
-  };
+    dragOffset.current = 0;
+  }, [goToNext, goToPrev, updateTrack]);
 
-  const handleMouseLeave = () => {
-    if (isDragging) handleDragEnd();
-  };
-
-  const handleDragEnd = () => {
-    if (!isDragging) return;
-    
-    const diff = startX.current - currentX.current;
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) goToNext();
-      else goToPrev();
-    }
-    
-    setIsDragging(false);
-    setDragOffset(0);
-  };
-
-  if (!testimonialData || testimonialData.length === 0) {
-    return (
-      <section className="cs_slider cs_style_1 position-relative py-5">
-        <div className="container">
-          <div className="text-center">
-            <p>No testimonials available</p>
-          </div>
-        </div>
-      </section>
-    );
-  }
-
-  const slideWidth = 100 / slidesPerView;
+  if (!testimonialData?.length) return null;
 
   return (
     <section
@@ -193,40 +176,30 @@ const TestimonialSection = ({
       className={`cs_slider cs_style_2 position-relative py-5 ${className}`}
       style={{ backgroundImage: `url(${getImageSrc(bgImg)})` }}
     >
-      <style>{`
-        .testimonial-slider{position:relative;width:100%;cursor:grab}
-        .testimonial-slider--dragging{cursor:grabbing}
-        .testimonial-slider__track{display:flex;will-change:transform}
-        .testimonial-slider__track--animate{transition:transform .5s ease}
-        .testimonial-slider__slide{flex-shrink:0;padding:0 15px;box-sizing:border-box;user-select:none}
-        .testimonial-slider__slide img{pointer-events:none}
-        .rating-area{display:flex;gap:2px;margin-bottom:4px}
-        .rating-area svg{color:#ffc107}
-      `}</style>
-
+      <style>{SLIDER_STYLES}</style>
       <div className="container">
         <div className="cs_section_heading text-center mb-5">
           <h3 className="cs_section_subtitle text-uppercase cs_fs_18 mb-3">
-            <DiamondIcon size={16} /> {subtitle} <DiamondIcon size={16} />
+            <DiamondIcon /> {subtitle} <DiamondIcon />
           </h3>
           <h2 className="cs_section_title">{parse(title)}</h2>
         </div>
 
         <div
-          ref={sliderRef}
-          className={`testimonial-slider ${isDragging ? 'testimonial-slider--dragging' : ''}`}
-          onTouchStart={handleTouchStart}
-          onTouchMove={handleTouchMove}
-          onTouchEnd={handleTouchEnd}
-          onMouseDown={handleMouseDown}
-          onMouseMove={handleMouseMove}
-          onMouseUp={handleMouseUp}
-          onMouseLeave={handleMouseLeave}
+          className="testimonial-slider"
+          onMouseDown={e => { e.preventDefault(); handleDragStart(e.clientX); }}
+          onMouseMove={e => handleDragMove(e.clientX)}
+          onMouseUp={handleDragEnd}
+          onMouseLeave={handleDragEnd}
+          onTouchStart={e => handleDragStart(e.touches[0].clientX)}
+          onTouchMove={e => handleDragMove(e.touches[0].clientX)}
+          onTouchEnd={handleDragEnd}
         >
           <div
-            className={`testimonial-slider__track ${!isDragging ? 'testimonial-slider__track--animate' : ''}`}
+            ref={trackRef}
+            className="testimonial-slider__track"
             style={{
-              transform: `translateX(calc(-${currentIndex * slideWidth}% - ${currentIndex * (spaceBetween / slidesPerView)}px + ${dragOffset}px))`,
+              transform: `translateX(calc(-${currentIndex * slideWidth}% - ${currentIndex * (spaceBetween / slidesPerView)}px))`,
             }}
           >
             {testimonialData.map((item, index) => (
@@ -244,39 +217,5 @@ const TestimonialSection = ({
     </section>
   );
 };
-
-const TestimonialCard = memo(({ item }) => (
-  <div className="cs_testimonial card shadow-sm border-0 h-100">
-    <div className="card-body">
-      <div className="d-flex align-items-center mb-2">
-        <div className="cs_testimonial_thumbnail me-3">
-          <img
-            src={getImageSrc(item.img1)}
-            alt={item.title}
-            className="rounded-circle"
-            width="60"
-            height="60"
-            loading="lazy"
-            decoding="async"
-            draggable="false"
-          />
-        </div>
-        <div>
-          <StarRating />
-          <h3 className="mb-1 text-uppercase">{item.title}</h3>
-          <p className="cs_fs_16 mb-0">{item.subTitle}</p>
-        </div>
-      </div>
-
-      <blockquote className="blockquote mb-0">
-        <p className="cs_fs_16 mb-0">{item.desc}</p>
-      </blockquote>
-
-      <div className="cs_quote_icon position-absolute bottom-0 end-0 opacity-25 p-3">
-        <QuoteIcon size={40} />
-      </div>
-    </div>
-  </div>
-));
 
 export default memo(TestimonialSection);
