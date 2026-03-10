@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInArabianRanchesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Arabian Ranches - Air Con Repair Near Me #1");
-    const metadescription = String(description || "Are you finding for AC Services in Arabian Ranches Dubai? Dail 043300002 for Carrier, LG air conditioning repair and maintenance near me. AC fix");
+    const metatitle = String(titleSeo || "Emergency AC Repair and Service in Arabian Ranches with Expert");
+    const metadescription = String(description || "Looking for the best AC repair & service in Arabian Ranches, Dubai? Call 043300002 for LG AC & Carrier air conditioning repair & maintenance near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Arabian Ranches, Air Conditioning Service in Arabian Ranches, Air Con Maintenance & AC Installation in Arabian Ranches");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/arabian-ranches/");
@@ -116,7 +116,7 @@ const AcRepairInArabianRanchesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Arabian Ranches</h1>
+                        <h1 className="cs_fs_30">Trusted AC Repair and Maintenance Servicing in in Arabian Ranches, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Arabian Ranches, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

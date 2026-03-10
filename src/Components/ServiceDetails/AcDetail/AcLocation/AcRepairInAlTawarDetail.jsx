@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlTawarDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Emergency AC Services In Al Tawar - Split AC Repair Dubai #1");
-    const metadescription = String(description || "Are you finding AC Services in Al Tawar? Contact us 043300002 for your Ac Cooling Problem Air Conditioner Maintenance, Air con Repair your Area.");
+    const metatitle = String(titleSeo || "Best AC Repair and Service in Al Tawar | Central AC Near Me");
+    const metadescription = String(description || "Are you finding AC repair in Al Tawar? Contact us at 043300002 for your central, split, VRF air conditioning maintenance and service needs in your area");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Al Tawar, Air Conditioning Service in Al Tawar, Air Con Maintenance & Air Con Installation in Al Tawar");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-tawar/");
@@ -116,7 +116,7 @@ const AcRepairInAlTawarDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30"> AC Service in Al Tawar</h1>
+                        <h1 className="cs_fs_30">Fast & Emergency AC Repair and Service Available in Al Tawar, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Tawar, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

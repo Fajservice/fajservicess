@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInArabianRanches2Detail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Arabian Ranches 2 - Aircon Fix - Ac Repair #1");
-    const metadescription = String(description || "FAJ AC Services in Arabian Ranches 2 Dubai. We are experts in central, Carrier, LG Air Conditioner repair, maintenance near me Dubai AC fix");
+    const metatitle = String(titleSeo || "Get Best AC Repair & Maintenance Services in Arabian Ranches 2");
+    const metadescription = String(description || "Expert AC repair and service in Arabian Ranches 2, Dubai. We specialize in central, Carrier, and LG air conditioning maintenance and repairs near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Arabian Ranches 2, Air Conditioning Service in Arabian Ranches 2, Air Con Maintenance & AC Installation in Arabian Ranches 2");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/arabian-ranches-2/");
@@ -118,7 +118,7 @@ const AcRepairInArabianRanches2Detail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Arabian Ranches 2</h1>
+                        <h1 className="cs_fs_30">Reliable and Fast AC Repair and Maintenance Services in Arabian Ranches 2, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me Arabian Ranches 2, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

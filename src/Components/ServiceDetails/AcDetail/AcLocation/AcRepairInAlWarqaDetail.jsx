@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlWarqaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Al Warqa - Air Conditioning Maintenance #1");
-    const metadescription = String(description || "Have you a cooling problem? Call us on 043300002 for AC Services in Al Warqa. With Experts in Central Unit Air Conditioning Maintenance, Repair.");
+    const metatitle = String(titleSeo || "Cheap & Reliable AC Repair Services Near Me in Al Warqa, Dubai");
+    const metadescription = String(description || "Do you have an A/C cooling problem? Call us at 043300002 for AC repair or service in Al Warqa. We specialize in central air conditioning maintenance");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Al Warqa, Air Conditioning Maintenance, AC Repair in Al Warqa, AC Service in Al Warqa, Central Unit Air Conditioning Maintenance, Air Conditioning Repair in Al Warqa, Air Conditioning Installation in Al Warqa");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-warqa/");
@@ -115,7 +115,7 @@ const AcRepairInAlWarqaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Al Warqa</h1>
+                        <h1 className="cs_fs_30">Top-Rated Air Conditioning Repair and Maintenance Services in Al Warqa and Al Warqa 2, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Warqa, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
