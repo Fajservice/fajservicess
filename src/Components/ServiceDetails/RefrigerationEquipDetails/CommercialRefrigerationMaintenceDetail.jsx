@@ -31,7 +31,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Best Commercial Refrigeration Maintenance Services in Dubai - FAJ Technical Services",
+      "name": "Best Commercial Refrigeration Maintenance Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

@@ -32,7 +32,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Small Home Appliance Repair Service in Dubai - FAJ Technical Services",
+      "name": "Small Home Appliance Repair Service in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

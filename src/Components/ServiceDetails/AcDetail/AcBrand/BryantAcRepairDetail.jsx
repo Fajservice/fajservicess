@@ -45,7 +45,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, description, Author, Keywo
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Bryant AC Repair Services in Dubai - FAJ Technical Services",
+      "name": "Bryant AC Repair Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

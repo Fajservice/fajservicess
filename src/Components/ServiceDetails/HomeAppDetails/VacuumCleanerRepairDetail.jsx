@@ -31,7 +31,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center Dubai - FAJ Technical Services",
+      "name": "Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],
@@ -207,7 +207,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     },
     {
       "@type": "VideoObject",
-      "name": "Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center in Dubai | FAJ Technical Services",
+      "name": "Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center in Dubai | FAJ Technical Services L.L.C",
       "description": "If your RoboRock vacuum is not functioning properly, our expert technicians at FAJ in Dubai will repair sensors, motors, and batteries efficiently, restoring your robot vacuum to perfect working condition.",
       "keywords": "Robot vacuum repair, RoboVac sensor repair, Battery replacement, Motor repair, FAJ Technical Services LLC, Vacuum maintenance, Home appliance repair Dubai",
       "thumbnailUrl": "https://img.youtube.com/vi/M9ghmjMAJ3E/maxresdefault.jpg",

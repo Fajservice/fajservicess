@@ -51,7 +51,7 @@ const SCHEMA = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "AC Repair Dubai - FAJ Technical Services",
+      "name": "AC Repair Dubai - FAJ Technical Services L.L.C",
       "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
       "url": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/",
       "telephone": "+971 4 330 0002",

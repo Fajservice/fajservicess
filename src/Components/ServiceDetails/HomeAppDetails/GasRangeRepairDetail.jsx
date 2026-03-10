@@ -34,7 +34,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
    
     {
       "@type": "LocalBusiness",
-      "name": "Gas Cooker Repair | Electric Stove and Cooking Range Service in Dubai - FAJ Technical Services",
+      "name": "Gas Cooker Repair | Electric Stove and Cooking Range Service in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

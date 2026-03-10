@@ -32,7 +32,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Barbeque Repair | Gas & Electric BBQ Grill Cleaning Service Dubai- FAJ Technical Services",
+      "name": "Barbeque Repair | Gas & Electric BBQ Grill Cleaning Service Dubai- FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],
@@ -312,7 +312,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
-          <meta property="og:site_name" content="FAJ Technical Services" />
+          <meta property="og:site_name" content="FAJ Technical Services L.L.C" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />

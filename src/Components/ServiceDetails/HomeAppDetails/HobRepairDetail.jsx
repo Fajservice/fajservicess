@@ -32,7 +32,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Hob Repair & Service | Gas & Electric Stove Repairs in Dubai - FAJ Technical Services",
+      "name": "Hob Repair & Service | Gas & Electric Stove Repairs in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

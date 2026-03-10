@@ -56,7 +56,7 @@ const AcAnnualMaintenanceContractDetail = ({
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "AC Annual Maintenance Contract (AMC) in Dubai - FAJ Technical Services",
+      "name": "AC Annual Maintenance Contract (AMC) in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

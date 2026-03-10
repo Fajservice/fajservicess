@@ -162,7 +162,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                                 <div className="shop-ac-image-wrapper">
                                     <img
                                         src={`${CDN}/techfridge/public`}
-                                        alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services"
+                                        alt="Commercial Air Conditioning Maintenance Services in Dubai - FAJ Technical Services L.L.C"
                                         title="Commercial AC Maintenance Service in Dubai"
                                         width="500"
                                         height="400"

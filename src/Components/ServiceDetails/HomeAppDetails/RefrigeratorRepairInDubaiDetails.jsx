@@ -63,7 +63,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
     },
     {
       "@type": "LocalBusiness",
-      "name": "Refrigerator Repair & Freezer Service Dubai - FAJ Technical Services",
+      "name": "Refrigerator Repair & Freezer Service Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

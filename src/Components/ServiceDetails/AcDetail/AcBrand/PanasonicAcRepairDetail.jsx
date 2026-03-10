@@ -47,7 +47,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Panasonic AC Repair Services in Dubai - FAJ Technical Services",
+      "name": "Panasonic AC Repair Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

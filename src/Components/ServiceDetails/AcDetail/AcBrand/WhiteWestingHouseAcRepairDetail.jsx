@@ -47,7 +47,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "White Westinghouse AC Repair Services in Dubai - FAJ Technical Services",
+      "name": "White Westinghouse AC Repair Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

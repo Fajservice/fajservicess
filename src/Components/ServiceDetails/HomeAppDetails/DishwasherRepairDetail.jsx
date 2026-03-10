@@ -34,7 +34,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     
     {
       "@type": "LocalBusiness",
-      "name": "Dishwasher Repair | Dishwasher Maintenance Service in Dubai - FAJ Technical Services",
+      "name": "Dishwasher Repair | Dishwasher Maintenance Service in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],
