@@ -5215,7 +5215,7 @@
         "img": "blog/whatistheidealroomtemperature",
         "slug": "what-is-the-ideal-room-temperature-for-comfortable-living-across-different-ages-including-children-and-adults",
         "blogcat": "Technical Services",
-        "date": "06 March",
+        "date": "06 Mar",
         "admin": "Admin",
         "comments": 0,
         "title": "What is the ideal room temperature for comfortable living across different ages, including children and adults?",
@@ -5405,7 +5405,7 @@
         "metatitle": "10 Questions to Ask Before Hiring AC Repair Dubai Experts | Complete Homeowner Guide",
         "metadesc": "Looking for reliable AC repair Dubai services? Discover the 10 essential questions you should ask before hiring AC repair companies in Dubai to ensure quality service, fair pricing, and long-lasting cooling performance.",
         "shortdesc": "The perfect room air conditioning (AC) temperature for comfort can change depending on factors such as age (Children and adults), gender, activity level, and personal choices.",
-        "img": "blog/whatistheidealroomtemperature",
+        "img": "blog/10questionsblog",
         "slug": "ac-repair-dubai-questions-before-hiring-ac-repair-companies-dubai",
         "blogcat": "Technical Services",
         "date": "06 March",
@@ -5715,7 +5715,7 @@
         "img": "blog/whatistheidealroomtemperature",
         "slug": "how-to-clean-an-air-conditioner-ac-drain-line-for-better-cooling-performance",
         "blogcat": "Technical Services",
-        "date": "09 March",
+        "date": "09 Mar",
         "admin": "Admin",
         "comments": 0,
         "title": "How to Clean an Air Conditioner AC Drain Line for Better Cooling Performance",
@@ -5847,12 +5847,12 @@
             "This simple inspection step helps determine how serious the blockage is before moving to the cleaning stage."
         ],
 
-         "sec_eight_h3_4": "Step 4: Use an ac drain line cleaner Solution",
-       "sec_eight_h3_content_4": [
+         "sec_seven_h3_4": "Step 4: Use an ac drain line cleaner Solution",
+       "sec_seven_h3_content_4": [
             "A cleaning solution helps dissolve organic buildup inside the pipe. Many technicians recommend using a natural ac drain line cleaner such as distilled white vinegar.",
             "To apply the solution:"
         ],
-         "sec_ten_bullets": [
+         "sec_seven_h3_4_bullets": [
             {
                 "text": "<b>Remove the cap from the drain pipe</b>"
             },
@@ -5865,19 +5865,19 @@
         
         ],
 
-        "sec_eleven_h3_1": "Step 5: Flush with Water or Drain line cleaner",
-       "sec_eleven_h3_content_1": [
-            "After the solution has worked, flush the pipe with warm water or a mild Drain line cleaner",
+        "sec_seven_h3_5": "Step 5: Flush with Water or Drain line cleaner",
+       "sec_seven_h3_content_5": [
+            "After the solution has worked, flush the pipe with warm water or a mild <b>Drain line cleaner</b>",
             "This step removes the remaining debris and clears the pipe completely. Check the outdoor outlet to confirm that dirty water and particles are exiting properly.",
             "If water flows smoothly, the drain system is functioning correctly again."
         ],
 
-         "sec_tweleve_h3_1": "Step 6: Use a Vacuum to unclog ac drain line",
-       "sec_tweleve_h3_content_1": [
+         "sec_seven_h3_6": "Step 6: Use a Vacuum to unclog ac drain line",
+       "sec_seven_h3_content_6": [
             "If the blockage remains, a wet dry vacuum can help unclog ac drain line quickly.",
             "Follow these steps:"
         ],
-         "sec_tweleve_bullets": [
+         "sec_seven_h3_6_bullets": [
             {
                 "text": "<b>Place the vacuum hose over the outdoor drain pipe opening</b>"
             },
@@ -5909,6 +5909,7 @@
             {
                 "text": "<b>The pipe shows signs of mold growth</b>"
             }
+           
         
         ],
         "sec_fourteen_h2": [
@@ -5931,7 +5932,7 @@
                 
             },
             {
-                "text": "<bPoor system maintenance over long periods</b>"
+                "text": "<b>Poor system maintenance over long periods</b>"
                 
             }
         
@@ -5964,11 +5965,11 @@
             }
         ],
 
-        "sec_sixteen_h3_1": "Conclusion",
-        "sec_sixteen_h3_content_1": [
-            "Regular maintenance plays a major role in keeping an air conditioner running efficiently. A clean ac drain line ensures that moisture flows out of the system properly, preventing leaks, odors, and performance issues.",
+        "sec_sixteen_h2": "Conclusion",
+        "sec_sixteen_h2_p": [
+            "Regular maintenance plays a major role in keeping an air conditioner running efficiently. A clean <b>ac drain line</b> ensures that moisture flows out of the system properly, preventing leaks, odors, and performance issues.",
             "By following the steps explained in this guide, homeowners can safely maintain their cooling system and avoid costly repairs. Simple practices such as periodic flushing, filter replacement, and routine inspection help prevent future blockages.",
-            "If the issue becomes complex or repeated blockages occur, professional support is the best option. FAJ Technical Services L.L.C is widely recognized as a trusted and authentic company that provides professional AC repair services in Dubai, helping homeowners maintain efficient and reliable cooling systems."
+            "If the issue becomes complex or repeated blockages occur, professional support is the best option. <Link url=\"https://www.fajservices.ae/\">FAJ Technical Services L.L.C</Link>  is widely recognized as a trusted and authentic company that provides professional <Link url=\"https://www.fajservices.ae/services/air-conditioning-repair/ac-service/\">AC repair</Link>  services in Dubai, helping homeowners maintain efficient and reliable cooling systems."
         ],
         "sec_faq_h2": "Frequently Asked Questions",
         "sec_faq_h3_1": "1. Why is cleaning the drain pipe important?",
