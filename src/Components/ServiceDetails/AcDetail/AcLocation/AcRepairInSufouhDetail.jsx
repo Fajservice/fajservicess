@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInSufouhDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services in Al Sufouh - Aircon Maintenance Dubai Near Me");
-    const metadescription = String(description || "AC Services in Al Sufouh Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai 043300002");
+    const metatitle = String(titleSeo || "AC Service & AC Repair Near Me in Al Sufouh | Expert Technicians");
+    const metadescription = String(description || "Best AC cleaning service in Al Sufouh, Dubai. We are experts in central & split air conditioning repairs & maintenance. Also AC compressor & motor fix");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services in Al Sufouh, AC Repair in Al Sufouh, Air Conditioner Maintenance Dubai, Aircon Service Dubai, Split AC Repair Dubai, Central AC Service Dubai, AC Installation Dubai, AC Cleaning Dubai, Air Conditioning Services Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-sufouh/");
@@ -118,7 +118,7 @@ const AcRepairInSufouhDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Al Sufouh</h1>
+                        <h1 className="cs_fs_30">Afforable AC Cleaning Service and AC Repair in Al Sufouh, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Sufouh, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.

@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In Al Wasl - Air Conditioning Company");
-    const metadescription = String(description || "Dial :043300002 Get Best AC Services in Al Wasl Dubai. We are experts in central & split AC (Air Conditioner) repair service near me Dubai");
+    const metatitle = String(titleSeo || "Best AC Repair and Maintenance Servicing in Al Wasl");
+    const metadescription = String(description || "Dial 043300002 for the low cost AC repair & services in Al Wasl, Dubai. We specialize in HVAC and split AC maintenance & fix A/C error near you in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Wasl, AC Repair in Al Wasl, AC Maintenance in Al Wasl, Air Conditioning Company in Al Wasl, Best AC Services in Al Wasl, Split AC Repair in Al Wasl, Central AC Repair in Al Wasl");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-wasl/");
@@ -116,7 +116,7 @@ const AcRepairInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Al Wasl</h1>
+                        <h1 className="cs_fs_30">Top-Rated Air Conditioning Company: AC Repair & Maintenance Services in Al Wasl, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Wasl, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInBaySquareDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In Bay Square- Air Conditioner Fixing #1");
-    const metadescription = String(description || "Contact us 043300002 for AC Services in Bay Square Dubai - Best Price and Quality in Central, Ducted Split, Air Conditioner Maintenance & Repair");
+    const metatitle = String(titleSeo || "Affordable AC Maintenance and Cleaning Service in Bay Square");
+    const metadescription = String(description || "Contact us 043300002 for AC Maintenance in Bay Square Dubai - Best Price and Quality in Chiller FCU, Central, Ducted Split, Aircon Repair and Service");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Bay Square, AC Service in Bay Square, Air Conditioner Repair in Bay Square, Air Conditioner Service in Bay Square, AC Maintenance in Bay Square, AC Installation in Bay Square, Ducted AC Service in Bay Square, Split AC Service in Bay Square");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/bay-square/");
@@ -117,7 +117,7 @@ const AcRepairInBaySquareDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Bay Square</h1>
+                        <h1 className="cs_fs_30">Top-Rated Air Conditioning Company: AC Repair & Maintenance Services in in Bay Square, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Bay Square, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
