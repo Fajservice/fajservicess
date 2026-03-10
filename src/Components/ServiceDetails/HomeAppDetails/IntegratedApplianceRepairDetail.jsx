@@ -49,7 +49,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Built In Home Appliances Repair and Maintenance Service in Dubai - FAJ Technical Services",
+      "name": "Built In Home Appliances Repair and Maintenance Service in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],
@@ -405,7 +405,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <meta property="og:description" content={metaDescription} />
           <meta property="og:image" content={metaImage} />
           <meta property="og:image:alt" content="Built-in Appliances Repair Dubai" />
-          <meta property="og:site_name" content="FAJ Technical Services" />
+          <meta property="og:site_name" content="FAJ Technical Services L.L.C" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />

@@ -47,7 +47,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Gree AC Repair Services in Dubai - FAJ Technical Services",
+      "name": "Gree AC Repair Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

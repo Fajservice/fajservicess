@@ -20,7 +20,7 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Refrigerator Repair Service Near Me | Fridge Repair Dubai");
   const metadescription = String(description || "Best Refrigerator Repair & Service in Dubai. FAJ Experts to get same-day Fridge repair & maintenance near you. Freezer fixing & service center.");
@@ -63,7 +63,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
     },
     {
       "@type": "LocalBusiness",
-      "name": "Refrigerator Repair & Freezer Service Dubai - FAJ Technical Services",
+      "name": "Refrigerator Repair & Freezer Service Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

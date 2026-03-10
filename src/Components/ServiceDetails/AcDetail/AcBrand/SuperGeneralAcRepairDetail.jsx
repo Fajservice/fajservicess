@@ -47,7 +47,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Super General AC Repair Services in Dubai - FAJ Technical Services",
+      "name": "Super General AC Repair Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

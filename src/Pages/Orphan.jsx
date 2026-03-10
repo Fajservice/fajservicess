@@ -268,7 +268,6 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jge/">Jge</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-raffa/">Al Raffa</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/jumeirah-park/">Jumeirah Park</a></li>
-                            <li><a href="https://www.fajservices.ae/services/commercial-laundry-equipment/">Commercial Laundry Equipment</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/layan-community/">Layan Community</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/umm-al-sheif/">Umm Al Sheif</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/mankhool/">Mankhool</a></li>

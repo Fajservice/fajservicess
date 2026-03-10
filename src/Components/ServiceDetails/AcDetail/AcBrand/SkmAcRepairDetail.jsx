@@ -47,7 +47,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "SKM AC Repair Services in Dubai - FAJ Technical Services",
+      "name": "SKM AC Repair Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

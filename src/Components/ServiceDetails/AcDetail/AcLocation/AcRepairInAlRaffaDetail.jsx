@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "AC Repair & AC Gas Filling Service in Al Raffa Dubai");
-  const metadescription = String(description || "Book an 043300002. AC Services in Al Raffa Dubai. We are here to help with central & split AC (Air Condition) maintenance & service near me in Dubai");
+  const metatitle = String(titleSeo || "Best AC Repair Near Me and Broken AC Service Al Raffa Dubai");
+  const metadescription = String(description || "Trusted AC repair in Al Raffa. FAJ helps with central & split AC servicing near you Dubai, including AC compressor repair & AC fixes from HVAC contractor");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Service in Al Raffa, AC Repair in Al Raffa, AC Maintenance in Al Raffa, Air Conditioning Service in Al Raffa, Air Conditioner Repair in Al Raffa, Air Conditioner Maintenance in Al Raffa");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-raffa/");
@@ -116,7 +116,7 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Same-Day AC Repair & AC Gas Filling Service in Al Raffa Dubai</h1>
+            <h1 className="cs_fs_30">Same-Day AC Repair & Gas Filling Service in Al Raffa, Dubai</h1>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Raffa, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

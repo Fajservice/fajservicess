@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Top AC Repair & AC Cleaning Service in Al Rashidiya Dubai");
-    const metadescription = String(description || "Efficient AC Repair and Services in Al Rashidiya, Dubai. Inverter, central and split air conditioner maintenance service near me. Call now at 043300002");
+    const metatitle = String(titleSeo || "AC Repair in Rashidiya | Top-Rated Air Conditioning Company");
+    const metadescription = String(description || "Efficient AC repair and service in Al Rashidiya. Affordable AC maintenance for inverter, central, and split AC cleaning near me. Call now at 043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-rashidiya/");
@@ -117,7 +117,7 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Top AC Repair & AC Cleaning Service in Al Rashidiya Dubai</h1>
+                        <h1 className="cs_fs_30">Affordable AC Repair and Cleaning Services in Al Rashidiya, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Rashidiya, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

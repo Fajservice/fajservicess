@@ -27,8 +27,8 @@ const AcRepairInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
     // For SEO
     const metatitle = titleSeo?.trim()
         ? titleSeo
-        : "Best AC Cleaning | AC Repair and Maintenance Service Al Safa";
-    const metadescription = String(description || "Get Expert AC Repair and Maintenance Servicing in Al Safa. We are offering central & split AC (Air Conditioner) fix service near your location Dubai");
+        : "Low Cost AC Cleaning | AC Repair & Maintenance Service Al Safa";
+    const metadescription = String(description || "Get Expert AC Repair and Maintenance in Al Safa. We are offering a lower price for central & split AC (Air Conditioner) service near your location Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Safa, AC Repair in Al Safa, AC Maintenance in Al Safa, Air Conditioning Service in Al Safa, Air Conditioning Repair in Al Safa, Air Conditioning Maintenance in Al Safa, Split AC Service in Al Safa, Central AC Service in Al Safa");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-safa/");
@@ -119,7 +119,7 @@ const AcRepairInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">Get Reliable AC Repair & Maintenance Service in Al Safa, Dubai</h1>
+                        <h1 className="cs_fs_30">Best AC Repair & Maintenance Service Company in Al Safa, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Safa, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

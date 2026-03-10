@@ -27,12 +27,12 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     // For SEO
     const metatitle = titleSeo?.trim()
         ? titleSeo
-        : "Best AC Repair Al Badaa | Air Conditioning Repair Near Me";
-    const metadescription = String(description || "For AC repair services in Al Badaa, Dubai, call 043300002. FAJ offers assistance with split and central air conditioning cleaning and error fixing near you");
+        : "Best AC Repair Company in Al Badaa | AC Servicing Near Me";
+    const metadescription = String(description || "Fast AC repair and services in Al Badaa, Dubai, call 043300002. FAJ offers help with split and central air conditioning cleaning and error fixing near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service Al Badaa, AC Repair Al Badaa, Air Conditioning Service Al Badaa, Air Conditioner Repair Al Badaa, Split AC Service Al Badaa, Central AC Service Al Badaa, Aircon Cleaning Al Badaa, Air Conditioner Maintenance Al Badaa");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-badaa/");
-    const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public";
+    const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = getImageSrc('testimonialbg')
@@ -117,8 +117,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Cleaning Service and AC Repair in Al Badaa, Dubai</h1>
-
+                        <h1 className="cs_fs_30">Emergency AC Repair and AC Service in Al Badaa, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Badaa, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

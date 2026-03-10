@@ -124,7 +124,7 @@ const schema ={
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Washing Machine Repair Service Dubai - FAJ Technical Services",
+      "name": "Washing Machine Repair Service Dubai - FAJ Technical Services L.L.C",
       "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
       "url": "https://www.fajservices.ae/services/home-appliances-repair/washing-machine-repair-service-dubai/",
       "telephone": "+971 4 330 0002",
@@ -438,7 +438,7 @@ const schema ={
           <meta property="og:description" content={metaDescription} />
           <meta property="og:image" content={metaImage} />
           <meta property="og:image:alt" content="Washing Machine Repair Service" />
-          <meta property="og:site_name" content="FAJ Technical Services" />
+          <meta property="og:site_name" content="FAJ Technical Services L.L.C" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />

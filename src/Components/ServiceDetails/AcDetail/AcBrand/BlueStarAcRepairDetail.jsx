@@ -46,7 +46,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Blue Star AC Repair Services in Dubai - FAJ Technical Services",
+      "name": "Blue Star AC Repair Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

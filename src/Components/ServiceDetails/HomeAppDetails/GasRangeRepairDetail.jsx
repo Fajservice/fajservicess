@@ -34,7 +34,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
    
     {
       "@type": "LocalBusiness",
-      "name": "Gas Cooker Repair | Electric Stove and Cooking Range Service in Dubai - FAJ Technical Services",
+      "name": "Gas Cooker Repair | Electric Stove and Cooking Range Service in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],
@@ -419,12 +419,13 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/services/home-appliances-repair/gas-cooker-repair-service/" />
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="Gas Cooker Repair in Dubai | Cooking Range Service Near Me" />
           <meta property="og:description" content="Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me" />
           <meta property="og:image" content={metaImage} />
+          <meta property="og:url" content={metaURL} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />

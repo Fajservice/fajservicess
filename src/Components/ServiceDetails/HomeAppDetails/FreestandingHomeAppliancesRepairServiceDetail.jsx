@@ -32,7 +32,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Best Home Appliances Repair and Maintenance Service in Dubai - FAJ Technical Services",
+      "name": "Best Home Appliances Repair and Maintenance Service in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://www.fajservices.ae/img/FajLogo.svg"
       ],

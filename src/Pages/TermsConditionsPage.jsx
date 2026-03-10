@@ -46,7 +46,7 @@ const TermsConditionsPage = ({
           <meta property="og:description" content={description} />
           <meta property="og:image" content={metaImage} />
           <meta property="og:image:alt" content="Terms & Conditions" />
-          <meta property="og:site_name" content="FAJ Technical Services" />
+          <meta property="og:site_name" content="FAJ Technical Services L.L.C" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />

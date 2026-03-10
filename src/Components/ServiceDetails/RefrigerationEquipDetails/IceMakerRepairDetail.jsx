@@ -155,7 +155,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     },
     {
       "@type": "VideoObject",
-      "name": "Ice Maker Repair Service in Dubai | FAJ Technical Services",
+      "name": "Ice Maker Repair Service in Dubai | FAJ Technical Services L.L.C",
       "description": "FAJ Technical Services provides professional ice maker repair in Dubai, including water line inspection, filter replacement, and cooling system repair for optimal ice production.",
       "thumbnailUrl": "https://img.youtube.com/vi/XYZ123IceMaker/maxresdefault.jpg",
       "uploadDate": "2023-08-10T09:15:00Z",

@@ -45,7 +45,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Daewoo AC Repair Services in Dubai - FAJ Technical Services",
+      "name": "Daewoo AC Repair Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

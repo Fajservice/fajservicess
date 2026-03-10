@@ -48,7 +48,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "name": "Sanyo AC Repair Services in Dubai - FAJ Technical Services",
+      "name": "Sanyo AC Repair Services in Dubai - FAJ Technical Services L.L.C",
       "image": [
         "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
       ],

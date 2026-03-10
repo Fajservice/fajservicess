@@ -60,7 +60,7 @@ const schemaData = {
     {
       "@type": "WebSite",
       "@id": "https://www.fajservices.ae/#website",
-      "name": "FAJ Technical Services",
+      "name": "FAJ Technical Services L.L.C",
       "url": "https://www.fajservices.ae/",
       "potentialAction": {
         "@type": "SearchAction",
@@ -118,7 +118,7 @@ const ServicesSkeleton = () => (
 const DEFAULT_SEO = {
   title: "FAJ / Installation, Repair and Maintenance Company in Dubai",
   description: "FAJ Established in 2010, / with experts Air Conditioner, Refrigeration, Kitchen Equipment, Appliances installation, Repair & Maintenance Services in Dubai",
-  author: "Faj Technical Services",
+  author: "FAJ Technical Services L.L.C",
   keywords: "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Service, Washing Machine Repair, Washing Machine Service, Refrigerator Repair, Freezer Repair, Fridge Repair, Appliances Repair, Appliances Service, Appliances Fix, Appliances Maintenance, Appliances Installation, Appliances Dubai",
   url: "https://www.fajservices.ae/",
 };
