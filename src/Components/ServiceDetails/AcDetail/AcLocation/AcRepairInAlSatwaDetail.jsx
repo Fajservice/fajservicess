@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Cleaning Services in Al Satwa  | AC Maintenance Dubaii");
-    const metadescription = String(description || "WhatsApp or Call: 0433 000 02. AC Cleaning Services in Al Satwa, Dubai. We are experts in central and split AC (air conditioning) repair services near");
+    const metatitle = String(titleSeo || "Best AC Cleaning Services in Al Satwa  | AC Maintenance Near You");
+    const metadescription = String(description || "Trusted AC repair and service in Al Satwa, Dubai. We provide 7-day emergency repair for central and split AC (air conditioning) units near you.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Satwa, AC Repair in Al Satwa, AC Maintenance in Al Satwa, Air Conditioning Service in Al Satwa, Air Conditioning Repair in Al Satwa, Air Conditioning Maintenance in Al Satwa");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-satwa/");
@@ -115,7 +115,7 @@ const AcRepairInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Get Reliable AC Repair & Maintenance Service in Al Satwa, Dubai</h1>
+                        <h1 className="cs_fs_30">Residential and Commercial AC Repair and Maintenance Services in Al Satwa, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me Al Satwa, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

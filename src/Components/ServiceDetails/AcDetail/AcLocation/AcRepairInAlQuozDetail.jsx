@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Expert AC Repair and Maintenance Servicing in Al Quoz, Dubai");
-  const metadescription = String(description || "Looking for AC repair in Al Quoz? Call 043300002 for central HVAC maintenance, split air conditioner maintenance, and air conditioning servicing nearby.");
+  const metatitle = String(titleSeo || "Best AC Repair and AC Maintenance Servicing in Al Quoz, Dubai");
+  const metadescription = String(description || "Looking for AC repair in Al Quoz? Call 04-3300002 for central & ceiling air conditioning maintenance, and ducted split AC cleaning service near me Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Services in Al Quoz, AC Repair in Al Quoz, AC Maintenance in Al Quoz, Air Conditioner Service in Al Quoz, Split AC Service in Al Quoz, Central AC Service in Al Quoz, HVAC Service in Al Quoz");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-quoz/");
@@ -115,7 +115,7 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h1 className="cs_fs_30">Expert AC Repair and Maintenance Servicing in Al Quoz, Dubai</h1>
+            <h1 className="cs_fs_30">Trusted AC Repair and Maintenance Servicing in Al Quoz, Dubai</h1>
             {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Quoz, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

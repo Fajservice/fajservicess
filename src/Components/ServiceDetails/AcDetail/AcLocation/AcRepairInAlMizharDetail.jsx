@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlMizharDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Repair and Service in Al Mizhar - Gree AC Maintenance");
-    const metadescription = String(description || "Get same day AC repair and service in Al Mizhar Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
+    const metatitle = String(titleSeo || "Professional AC Repair & AC Service Near Me in Al Mizhar, Dubai");
+    const metadescription = String(description || "Get same-day AC repair and service in Al Mizhar, Dubai. Call now 043300002 for your central air conditioner repairs and fix the AC error near you in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Al Mizhar, AC Maintenance in Al Mizhar, AC Service in Al Mizhar, Air Conditioner Repair in Al Mizhar, Air Conditioning Service in Al Mizhar");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-mizhar/");
@@ -116,7 +116,7 @@ const AcRepairInAlMizharDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">Ac Repair & Service in Al Mizhar</h1>
+                        <h1 className="cs_fs_30">Expert AC Repair and AC Maintenance Services Near Me in Al Mizhar, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Mizhar, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Central AC Repair in Al Khawaneej | Ceiling AC Maintenance");
-  const metadescription = String(description || "Fast and reliable AC repair and maintenance in Al Khawaneej. We offer inverter AC and split air & central conditioner cleaning services near you Dubai");
+  const metatitle = String(titleSeo || "Best Central AC Repair and Ceiling AC Services in Al Khawaneej");
+  const metadescription = String(description || "Fast and reliable AC repair and maintenance in Al Khawaneej. We offer inverter air conditioner and split air & central AC cleaning services near you Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Service in Al Khawaneej, AC Repair in Al Khawaneej, AC Maintenance in Al Khawaneej, Inverter AC Service in Al Khawaneej, Split AC Service in Al Khawaneej/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
@@ -117,7 +117,7 @@ const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h1 className="cs_fs_30">Best AC Repair and Maintenance Servicing in Al Khawaneej, Dubai</h1>
+            <h1 className="cs_fs_30">Trusted AC Repair and Maintenance Services in Al Khawaneej, Dubai</h1>
             {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me Al Khawaneej, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

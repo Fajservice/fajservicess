@@ -441,6 +441,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
+          <meta property="og:url" content={metaURL} />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metatitle} />
           <meta name="twitter:description" content={metadescription} />
