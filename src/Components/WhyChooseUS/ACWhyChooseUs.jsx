@@ -2,7 +2,6 @@ import { memo } from "react";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-// ✅ FIX: One image, CSS handles show/hide — no duplicate DOM node
 const WhyChooseUS = () => (
   <section className="section cs_py_30">
     <div className="container container-md container-sm">
@@ -40,7 +39,6 @@ const WhyChooseUS = () => (
           </div>
         </div>
 
-        {/* ✅ FIX: Single image — CSS classes handle responsive visibility */}
         <div className="uspdelimit col-2">
           <img
             className="blue-border-2 w-100 why-choose-img"
