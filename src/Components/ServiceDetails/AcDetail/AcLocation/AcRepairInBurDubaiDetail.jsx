@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best AC Services In Bur Dubai - Air Conditioning Fix #1");
-  const metadescription = String(description || "Book Fast & Reliable AC Services in Bur Dubai - Call us 043300002 for window and split AC (Air Conditioner) maintenance service near me Dubai");
+  const metatitle = String(titleSeo || "Top Split & Window AC Repair Service in Bur Dubai with Low Cost");
+  const metadescription = String(description || "Book the best and fastest AC repair and maintenance services in Bur Dubai. Call us at 043300002 for window and split AC servicing near you in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Repair in Bur Dubai, AC Service in Bur Dubai, Air Conditioning Service in Bur Dubai, AC Maintenance in Bur Dubai, AC Installation in Bur Dubai, Split AC Service in Bur Dubai, Window AC Service in Bur Dubai, Air Conditioner Repair in Bur Dubai, Air Conditioner Service in Bur Dubai, Air Conditioner Maintenance in Bur Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/bur-dubai/");
@@ -115,7 +115,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h1 className="cs_fs_30">AC Service in Bur Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Air Conditioner Repair and Maintenance in Bur Dubai with 7 Days Services</h1>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Bur Dubai, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah. </p>
 

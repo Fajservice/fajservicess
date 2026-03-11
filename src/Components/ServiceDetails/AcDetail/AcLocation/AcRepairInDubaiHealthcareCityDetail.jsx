@@ -26,8 +26,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In Dubai Healthcare City - A/C Repairing #1");
-    const metadescription = String(description || "If you are finding AC Services in Dubai Healthcare City. Contact us 043300002 for Air Conditioner maintenance, repairs near me Dubai A/C fix");
+    const metatitle = String(titleSeo || "Best AC Repair and AC Services In Dubai Healthcare City");
+    const metadescription = String(description || "If you are looking for the best AC Services in Dubai Healthcare City. Contact us 043300002 for Air Conditioner maintenance, repairs near me and  A/C fix");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in dubai healthcare city, ac repair in dubai healthcare city, ac maintenance in dubai healthcare city, air conditioning service in dubai healthcare city, air conditioner repair in dubai healthcare city, air conditioning maintenance in dubai healthcare city");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-healthcare-city/");
@@ -116,7 +116,7 @@ const AcRepairInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, title
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Dubai Healthcare City</h1>
+                        <h1 className="cs_fs_30">Emergency AC Cleaning Service and AC Repair in Dubai Healthcare City, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Dubai Healthcare City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

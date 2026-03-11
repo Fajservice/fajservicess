@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDownTownDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Downtown - AC Maintenance Company Dubai #1");
-    const metadescription = String(description || "Get reliable & fast AC Services in Downtown Dubai. Book an 043300002 for central cooling unit air conditioner maintenance & repair near me.");
+    const metatitle = String(titleSeo || "AC Cleaning Services and Maintenance in Downtown, Dubai");
+    const metadescription = String(description || "Are you looking for the best AC Repair Service in Downtown, Dubai? Contact us 043300002 for Chiller FCU air conditioner cleaning & maintenance near");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in downtown, ac service in downtown, ac maintenance in downtown, ac installation in downtown, ac cleaning in downtown, ac technician in downtown, air conditioning service in downtown, air conditioner repair in downtown, air conditioner service in downtown, air conditioner maintenance in downtown");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/downtown/");
@@ -117,7 +117,7 @@ const AcRepairInDownTownDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Downtown</h1>
+                        <h1 className="cs_fs_30">Top-Rated Air Conditioner AC Service and Repair in Downtown, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Downtown, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

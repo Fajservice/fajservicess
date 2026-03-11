@@ -44,7 +44,7 @@ const BlogFridge = () => {
         <div className="row cs_row_gap_30 cs_gap_y_30">
           {data.slice(0, 6).map((item, i) => (
             <div key={i} className="col-lg-4">
-              <div className="cs_post cs_style_1 cs_type_1">
+              <div className="cs_post cs_style_1 cs_type_1 justify-content-center">
                 <Link
                   to={`/blog/${item.slug}/`}
                   className="cs_post_thumbnail cs_mb_16 position-relative"

@@ -26,7 +26,7 @@ const categories = [
 
 const ApplianceCategories = () => {
   return (
-    <section className="section cs_py_30 bg-light-white">
+    <section className="section cs_py_30">
       <div className="container">
         <div className="appliance-categories-grid">
           {categories.map((category, index) => (

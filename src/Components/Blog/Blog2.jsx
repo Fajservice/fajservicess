@@ -35,7 +35,7 @@ const ArrowRight = (
 // ✅ Memoized card — won't re-render on parent state changes
 const BlogCard = memo(({ item }) => (
   <div className="col-lg-4">
-    <div className="cs_post cs_style_1 cs_type_1">
+    <div className="cs_post cs_style_1 cs_type_1 justify-content-center">
       <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
         <img
           src={getImageSrc(item.img)}

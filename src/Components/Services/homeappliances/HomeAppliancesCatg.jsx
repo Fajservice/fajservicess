@@ -7,6 +7,7 @@ import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 import ApplianceCategories from './ApplianceCategories';
 import BlogWashingMachine from '../../Blog/BlogWashingMachine';
 import PriceCardHomeCat from './PriceCardHomeappCat';
+import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
@@ -180,7 +181,7 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
 
       <div className="cs_service_details">
 
-        <PriceCardHomeCat />
+        
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h1 className="cs_fs_30 text-center mb-4 pt-4 px-4">Home Appliance Repair & Service Center in Dubai</h1>
@@ -210,8 +211,8 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
             </div>
           </div>
         </section>
-
-        <section className="section cs_py_30 bg-light-white">
+        <PriceCardHomeCat />
+        <section className="section  mt-0">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4 pt-4 px-4">
               Select Repair Services by Category – Easily Find the Right Appliance Repair
@@ -242,11 +243,11 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
           </div>
         </section>
 
-        <div className="bg-light-white">
+        <div className="bg-light-gray">
           <ApplianceCategories />
         </div>
 
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30 text-center mb-4">
               Why Choose FAJ Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs
@@ -316,7 +317,12 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
         )}
 
         <BlogWashingMachine />
-
+        <section className="section cs_py_30 bg-dark-blue text-light">
+          <Serviceappointemnt
+            subtitle2="Contact us"
+            title2="Book An Appointment"
+          ></Serviceappointemnt>
+          </section>
         {/* ── FAQs ── */}
         <section className="section cs_py_30">
           <div className="container">
