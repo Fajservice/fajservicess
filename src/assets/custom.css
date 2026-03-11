@@ -128,6 +128,10 @@ section#get-quote {
   position: relative;
 }
 
+.cs_testimonial.card.shadow-sm.border-3.h-100.p-3{
+  border: 1px soild #4e4e4e;
+}
+
 /* .cs_hero_bg {
   position: absolute;
   top: 0;
