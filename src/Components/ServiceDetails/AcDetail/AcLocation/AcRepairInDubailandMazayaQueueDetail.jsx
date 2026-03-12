@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Dubailand Mazaya Queue - AC Error Fix");
-    const metadescription = String(description || "AC Services in Dubailand Mazaya Queue. We are experts in York central air conditioner repair & maintenance near me Dubai AC fix Call 043300002");
+    const metatitle = String(titleSeo || "Best AC Repair and Service in Dubai Land Mazaya Queue");
+    const metadescription = String(description || "Trusted AC repair and cleaning in the Dubai Land Mazaya Queue. We are experts in central AC maintenance & cleaning near me Dubai. Call 043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "Ac Services In Dubailand Mazaya Queue, AC Repair in Dubailand Mazaya Queue, AC Maintenance in Dubailand Mazaya Queue, York central air conditioner repair, AC fix near me Dubai, AC service near me Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubailand-mazaya-queue/");
@@ -118,7 +118,7 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, reviewsbg, titl
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Dubailand Mazaya Queue</h1>
+                        <h1 className="cs_fs_30">Affordable Air Conditioning Repair and Service in Dubai Land Mazaya Queue</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Dubailand Mazaya Queue, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

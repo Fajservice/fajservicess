@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Dubai Studio City - Air Conditioner Fixing");
-    const metadescription = String(description || "Are you need AC Services in Dubai Studio City? Call 043300002 for central, ceiling, chiller air conditioner repairs and maintenance near me dubai");
+    const metatitle = String(titleSeo || "Best AC Repair and Maintenance Service in Dubai Studio City");
+    const metadescription = String(description || "Do you need AC repair and services in Dubai Studio City? Call 043300002 for central, ceiling, and FCU air conditioner cleaning & maintenance near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Dubai Studio City, Air Conditioning Service in Dubai Studio City, Air Con Maintenance & AC Installation in Dubai Studio City");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-studio-city/");
@@ -118,7 +118,7 @@ const AcRepairInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Dubai Studio City</h1>
+                        <h1 className="cs_fs_30">Emergency Air Conditioning Repair and Maintenance Services in Dubai Studio City</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b> AC service</b></a>, AC maintenance, AC repair near me Dubai Studio City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

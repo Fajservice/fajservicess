@@ -29,8 +29,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In International Media Production Zone Repair");
-    const metadescription = String(description || "FAJ 043300002 AC Services in International Media and Production Zone Dubai. We are experts in central air conditioning maintenance near me");
+    const metatitle = String(titleSeo || "AC Repair & Service in International Media and Production Zone");
+    const metadescription = String(description || "Best AC repair and services in International Media and Production Zone, Dubai. Keep your system efficient & grow its lifespan with AC maintenance");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in International Media and Production Zone, Air Conditioning Service in International Media and Production Zone, Air Con Maintenance & AC Installation in International Media and Production Zone");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/international-media-and-production-zone/");
@@ -120,7 +120,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in International Media and Production Zone</h1>
+                        <h1 className="cs_fs_30">Best AC Repair and Service in International Media and Production Zone, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me International Media and Production Zone, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah..</p>

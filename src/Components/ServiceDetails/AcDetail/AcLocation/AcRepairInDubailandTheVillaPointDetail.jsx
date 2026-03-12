@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDubailandTheVillaPointDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "AC Services In Dubailand The Villa Point - Aircon Fixing");
-  const metadescription = String(description || "FAJ is here to help you with AC Services in Dubailand The Villa Point. Dail 043300002 for central air conditioning maintenance nearby in Dubai");
+  const metatitle = String(titleSeo || "Best AC Service and AC Repair in Dubai Land The Villa Point");
+  const metadescription = String(description || "FAJ is here to help you with AC Services in Dubailand, The Villa Point. Call 043300002 for Ducted spliit & central AC maintenance nearby in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "ac services in dubailand the villa point, ac repair dubai, ac maintenance dubai, ac service dubai, ac cleaning service dubai, ac installation dubai, ac technician dubai, air conditioning service dubai, air conditioning repair dubai, air conditioning maintenance dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubailand-the-villa-point/");
@@ -116,7 +116,7 @@ const AcRepairInDubailandTheVillaPointDetail = ({ subtitle, title, reviewsbg, ti
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Service in Dubailand The Villa Point</h1>
+            <h1 className="cs_fs_30">Same-Day AC Service and AC Repair in Dubai Land The Villa Point</h1>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Dubailand The Villa Point, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

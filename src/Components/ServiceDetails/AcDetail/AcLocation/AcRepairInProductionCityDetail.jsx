@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInProductionCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Repair and Service in Dubai Production City - Gree AC Maintenance");
-    const metadescription = String(description || "Get same day AC repair and service in Dubai Production City Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
+    const metatitle = String(titleSeo || "Best AC Cleaning Services and AC Repair in Dubai Production City");
+    const metadescription = String(description || "Get same-day AC repair and service in Dubai Production City, Dubai. Call now 043300002 for your air conditioning maintenance and fix the AC error");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Dubai Production City, Gree AC Service Dubai, Gree AC Maintenance Dubai, Gree Air Conditioner Repair Dubai, Gree AC Error Fix Dubai, Gree AC Service Near Me, Gree AC Repair Near Me, Gree Air Conditioner Service Dubai, Gree Air Conditioner Maintenance Dubai, Gree Air Conditioner Repair Near Me");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-production-city/");
@@ -118,7 +118,7 @@ const AcRepairInProductionCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Repair & Service in Dubai Production City</h1>
+                        <h1 className="cs_fs_30">Same-Day AC Repair and Maintenance Service in Dubai Production City</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Dubai Production City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

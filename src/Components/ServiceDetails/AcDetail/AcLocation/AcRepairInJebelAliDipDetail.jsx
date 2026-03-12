@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Jebel Ali Dip Dubai - Air Con Servicing #1");
-    const metadescription = String(description || "Get Fast AC Services in Jebel Ali DIP. FAJ providing central, hvac, split air condition maintenance & repair near me Dubai ac fixing service");
+    const metatitle = String(titleSeo || "Best AC Maintenance Service & AC Repair in Jebel Ali | DIP Dubai");
+    const metadescription = String(description || "Fast AC maintenance services are available in Jebel Ali, DIP. FAJ provides central HVAC, split AC, and repair services. Contact us for service near you ");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in jebel ali dip, ac repair in jebel ali dip, ac maintenance in jebel ali dip, ac service in jebel ali dip, air conditioning service in jebel ali dip, air conditioner service in jebel ali dip, ac installation in jebel ali dip, ac fixing in jebel ali dip, ac technician in jebel ali dip, ac company in jebel ali dip, ac servicing in jebel ali dip");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-dip/");
@@ -118,7 +118,7 @@ const AcRepairInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30"> AC Service in Jebel Ali DIP</h1>
+                        <h1 className="cs_fs_30">Fast and Reliable AC Repair and Maintenance Servicing in Jebel Ali and DIP</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Jebel Ali Dip, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

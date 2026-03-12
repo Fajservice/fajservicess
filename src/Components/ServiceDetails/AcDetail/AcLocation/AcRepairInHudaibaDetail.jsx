@@ -30,8 +30,8 @@ const AcRepairInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     // For SEO
     const metatitle = titleSeo?.trim()
         ? titleSeo
-        : "AC Services In Hudaiba - Emergency AC Repair Service Nearby";
-    const metadescription = String(description || "Quick and Best Price AC Services in Hudaiba Dubai. We are experts in central & split AC (Air Condition) repairing service near me Dubai Fix A/C");
+        : "Expert AC Maintenance and Repair Services in Al Hudaiba, Dubai";
+    const metadescription = String(description || "Fast AC maintenance and repair in Al Hudaiba, Dubai. Keep your system efficient & grow its lifespan with the service experts at FAJ Air Conditioning");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in hudaiba, ac repair in hudaiba, ac maintenance in hudaiba, ac cleaning in hudaiba, ac installation in hudaiba, ac technician in hudaiba, ac servicing in hudaiba, air conditioning service in hudaiba, air conditioning repair in hudaiba, air conditioning maintenance in hudaiba");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/hudaiba/");
@@ -121,7 +121,7 @@ const AcRepairInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Hudaiba</h1>
+                        <h1 className="cs_fs_30">Best AC Maintenance and Repair Services in Al Hudaiba, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Hudaiba, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

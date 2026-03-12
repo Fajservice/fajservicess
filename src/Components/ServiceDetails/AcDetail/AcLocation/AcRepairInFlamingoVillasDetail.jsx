@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInFlamingoVillasDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Expert AC Repair in Al Flamingo Villas - Get Central AC Service");
-    const metadescription = String(description || "Dial 043300002 AC Services in Flamingo Villas Dubai. We are experts in central & split air conditioning repair and maintenance service near me");
+    const metatitle = String(titleSeo || "Best Central AC Cleaning Service and Repair in Al Flamingo Villas");
+    const metadescription = String(description || "Contact 043300002 for Expert AC repair and services in Flamingo Villas, Dubai. We specialise in central and split air conditioning maintenance nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in flamingo villas, ac service in flamingo villas, ac maintenance in flamingo villas, ac cleaning in flamingo villas, ac installation in flamingo villas, central ac service in flamingo villas, split ac service in flamingo villas, ac technician in flamingo villas, ac servicing in flamingo villas, air conditioning service in flamingo villas");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/flamingo-villas/");
@@ -118,7 +118,7 @@ const AcRepairInFlamingoVillasDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Flamingo Villas</h1>
+                        <h1 className="cs_fs_30">Top Rated Air Conditioning Repair and Maintenance Service in Flamingo Villas, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Flamingo Villas, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

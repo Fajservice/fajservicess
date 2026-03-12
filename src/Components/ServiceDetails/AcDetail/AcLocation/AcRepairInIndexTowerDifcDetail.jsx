@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In Index Tower DIFC - AC Servicing #1");
-    const metadescription = String(description || "Ph:043300002. AC Services in Index Tower Difc. Get best and quick HVAC repair service near me Dubai AC fix Air Con repairs");
+    const metatitle = String(titleSeo || "Best AC Service and AC Repair in Index Tower DIFC, Dubai");
+    const metadescription = String(description || "Get AC service and repair at Index Tower, DIFC, Dubai. Maintain your system's efficiency & extend its lifespan with the experts at FAJ Air Conditioning");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in index tower difc, ac repair in index tower difc, ac maintenance in index tower difc, ac servicing in index tower difc, ac cleaning in index tower difc, ac installation in index tower difc, ac technician in index tower difc, ac company in index tower difc");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/index-tower-difc/");
@@ -117,7 +117,7 @@ const AcRepairInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30"> AC Service in Index Tower DIFC</h1>
+                        <h1 className="cs_fs_30">Emergency AC Service, Repair, and Maintenance in Index Tower, DIFC, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Index Tower DIFC, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

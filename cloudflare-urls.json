@@ -1,49 +1,49 @@
 {
   "success": [
     {
-      "originalPath": "icon/Ensuring-Safety-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Ensuring-Safety-New/public",
-      "id": "icon/Ensuring-Safety-New",
+      "originalPath": "homeappliances-gallery/bbq-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/bbq-repair/public",
+      "id": "homeappliances-gallery/bbq-repair",
       "success": true
     },
     {
-      "originalPath": "icon/extending-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/extending-New/public",
-      "id": "icon/extending-New",
+      "originalPath": "homeappliances-gallery/dispenser-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/dispenser-repair/public",
+      "id": "homeappliances-gallery/dispenser-repair",
       "success": true
     },
     {
-      "originalPath": "icon/Lower-Energy-Bills-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Lower-Energy-Bills-New/public",
-      "id": "icon/Lower-Energy-Bills-New",
+      "originalPath": "homeappliances-gallery/hob-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/hob-repair/public",
+      "id": "homeappliances-gallery/hob-repair",
       "success": true
     },
     {
-      "originalPath": "icon/Optimal-Performance-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Optimal-Performance-New/public",
-      "id": "icon/Optimal-Performance-New",
+      "originalPath": "homeappliances-gallery/oven-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/oven-repair/public",
+      "id": "homeappliances-gallery/oven-repair",
       "success": true
     },
     {
-      "originalPath": "icon/Peace-of-Mind-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Peace-of-Mind-New/public",
-      "id": "icon/Peace-of-Mind-New",
+      "originalPath": "homeappliances-gallery/refrigerator-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/refrigerator-repair/public",
+      "id": "homeappliances-gallery/refrigerator-repair",
       "success": true
     },
     {
-      "originalPath": "icon/Saving-Money-on-Repair-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Saving-Money-on-Repair-New/public",
-      "id": "icon/Saving-Money-on-Repair-New",
+      "originalPath": "homeappliances-gallery/washing-machine-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/washing-machine-repair/public",
+      "id": "homeappliances-gallery/washing-machine-repair",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "icon/Ensuring-Safety-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Ensuring-Safety-New/public",
-    "icon/extending-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/extending-New/public",
-    "icon/Lower-Energy-Bills-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Lower-Energy-Bills-New/public",
-    "icon/Optimal-Performance-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Optimal-Performance-New/public",
-    "icon/Peace-of-Mind-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Peace-of-Mind-New/public",
-    "icon/Saving-Money-on-Repair-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Saving-Money-on-Repair-New/public"
+    "homeappliances-gallery/bbq-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/bbq-repair/public",
+    "homeappliances-gallery/dispenser-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/dispenser-repair/public",
+    "homeappliances-gallery/hob-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/hob-repair/public",
+    "homeappliances-gallery/oven-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/oven-repair/public",
+    "homeappliances-gallery/refrigerator-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/refrigerator-repair/public",
+    "homeappliances-gallery/washing-machine-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/washing-machine-repair/public"
   }
 }

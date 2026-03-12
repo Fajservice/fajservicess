@@ -28,8 +28,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJLTDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Service JLT Near Me - Air Con Repair & Maintenance");
-    const metadescription = String(description || "Get best AC service JLT near me. Air Con repair & maintenance experts for central AC maintenance & repair. Call 043300002 for reliable fixed AC");
+    const metatitle = String(titleSeo || "Best AC Repair and Maintenance Servicing in JLT, Dubai");
+    const metadescription = String(description || "Experts in AC repair and maintenance services in JLT, Dubai. We specialise in central & chiller FCU AC (air conditioning) fix and maintenance near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service jlt, ac repair jlt, ac maintenance jlt, air conditioning service jlt, air conditioning repair jlt, air conditioning maintenance jlt, ac technician jlt, ac cleaning jlt, ac installation jlt, central ac service jlt, central ac repair jlt, central ac maintenance jlt");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jlt/");
@@ -118,7 +118,7 @@ const AcRepairInJLTDetail = ({ subtitle, title, reviewsbg, titleSeo, description
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in JLT</h1>
+                        <h1 className="cs_fs_30">Reliable and Fast AC Repair and Maintenance Services in JLT, Dubai</h1>
 
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />

@@ -26,8 +26,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJqeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In JGE Dubai - #1 Daikin VRV - Mitsubishi VRF");
-    const metadescription = String(description || "Dial FAJ: 043300002 AC Services in JGE Dubai. We are experts in central & multi split ac (air conditioner) repairs & maintenance service near me");
+    const metatitle = String(titleSeo || "Best AC Repair in JGE | Daikin VRV AC & Mitsubishi VRF Services");
+    const metadescription = String(description || "Experts in AC repair and maintenance services in JGE Dubai. We specialise in central & multi-split AC (air conditioner) fix and maintenance near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in jge, ac repair in jge, ac maintenance in jge, ac installation in jge, ac cleaning in jge, ac service near me, ac repair near me, ac maintenance near me, ac installation near me, ac cleaning near me");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jge/");
@@ -115,7 +115,7 @@ const AcRepairInJqeDetail = ({ subtitle, title, reviewsbg, titleSeo, description
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in JGE</h1>
+                        <h1 className="cs_fs_30">Top-Rated Air Conditioning Service, Repair, and Maintenance in JGE, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me JGE, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

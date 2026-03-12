@@ -26,8 +26,8 @@ const getImageSrc = (imgPath) => {
 };
 const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Jumeirah Golf Estates - #1 Inverter AC Fix");
-    const metadescription = String(description || "Are you finding for ac services in jumeirah golf estates dubai? Call 043300002 for your inverter and central air conditioner repair & maintenance..");
+    const metatitle = String(titleSeo || "Best AC Repair and Maintenance Service in Jumeirah Golf Estates");
+    const metadescription = String(description || "Book expert AC repair and maintenance service in Jumeirah Golf Estates, Dubai. We offer inverter AC and VRF & VRV air conditioning solutions near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || " ac services in jumeirah golf estates, ac repair in jumeirah golf estates, ac maintenance in jumeirah golf estates, ac installation in jumeirah golf estates, ac cleaning in jumeirah golf estates, ac service in jumeirah golf estates, ac technician in jumeirah golf estates, ac company in jumeirah golf estates");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-golf-estates/");
@@ -117,7 +117,7 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, title
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Jumeirah Golf Estates</h1>
+                        <h1 className="cs_fs_30">Emergency AC Repair & Maintenance Services in Jumeirah Golf Estates, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Jumeirah Golf Estates, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
