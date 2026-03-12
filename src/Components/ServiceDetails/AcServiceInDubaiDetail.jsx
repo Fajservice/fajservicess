@@ -540,7 +540,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <ul className="mb-0">
                     <li><strong>Dubai Hot Weather:</strong> In hot Dubai Summer where temperature increases above 40°C (104°F) Regular AC maintenance keeps it efficient during these conditions.</li>
                     <li><strong>Energy Efficiency:</strong> A well-maintained AC operates more efficiently, using less energy and lowering both AC electricity bills.</li>
-                    <li><strong>Longevity of AC Unit:</strong> Regular AC maintenance can extend your air conditioning unit's lifespan, reducing the need for costly repair work and Genuine AC spare parts replacements, ultimately saving you money.</li>
+                    <li><strong>Longevity of AC Unit:</strong> Regular AC maintenance can extend your air conditioning unit's lifespan, reducing the need for costly repair work and Genuine <a href="https://www.fajtradingllc.com/collections/ac-spare-parts"><strong>AC spare parts</strong></a> replacements, ultimately saving you money.</li>
                     <li><strong>Improved Air Quality:</strong> Regular AC unit &amp; AC duct cleaning service &amp; maintenance keep dust and allergens from building up, ensuring cleaner air.</li>
                     <li><strong>Improved Comfort:</strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><strong>AC servicing</strong></a> in Dubai ensures comfort, efficiency, and even cooling daily.</li>
                   </ul>
@@ -561,7 +561,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="service-card-item"><h3>AC Repair in Dubai for Improved Performance:</h3><p className="cs_fs_14">Is your AC not cooling effectively? Our AC technicians can diagnose and fix AC errors.</p></div>
               <div className="service-card-item"><h3>Regular AC Cleaning for Maximum Efficiency:</h3><p className="cs_fs_14">For optimal performance, keep your AC cleaning. We offer AC duct cleaning and filters for fresh, healthy air.</p></div>
               <div className="service-card-item"><h3>Essential AC Maintenance Service Dubai:</h3><p className="cs_fs_14">Regular AC maintenance is necessary. Our services help prepare your AC for the summer heat.</p></div>
-              <div className="service-card-item"><h3>Assistance with New AC Installation:</h3><p className="cs_fs_14">Upgrading to a new AC unit? Let our AC experts handle the selection, installation, and testing!</p></div>
+              <div className="service-card-item"><h3>Assistance with <a href="https://www.fajtradingllc.com/collections/air-conditioners"><strong>New AC</strong></a> Installation:</h3><p className="cs_fs_14">Upgrading to a new AC unit? Let our AC experts handle the selection, installation, and testing!</p></div>
               <div className="service-card-item"><h3>Emergency AC Repair in Dubai:</h3><p className="cs_fs_14">Experiencing unexpected AC breakdowns? Our 7-day emergency AC repairs is available to provide quick service.</p></div>
               <div className="service-card-item"><h3>AC Service Dubai Available Near Me Before Summer:</h3><p className="cs_fs_14">Get ready for summer! Schedule your AC tune up to ensure comfort during the heat.</p></div>
             </div>

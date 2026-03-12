@@ -1,6 +1,5 @@
+import { useState, useEffect, useMemo, memo } from "react";
 import { Link } from "react-router-dom";
-import { useState, useEffect, memo } from "react";
-import SectionTitle2 from "../Common/SectionTitle2";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -32,7 +31,7 @@ const ArrowRight = (
 );
 
 const BlogCard = memo(({ item }) => (
-  <div className="col-lg-4">
+  <div className="col-lg-4 col-md-6">
     <div className="cs_post cs_style_1 cs_type_1">
       <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
         <img
@@ -53,7 +52,7 @@ const BlogCard = memo(({ item }) => (
           <div className="cs_post_meta_wrapper cs_mb_11">
             <div className="cs_post_meta">
               <span className="cs_accent_color">{CommentIcon}</span>
-              <span className="cs_heading_color">{item.comments || "02"} Comments</span>
+              <span className="cs_heading_color">{item.comments || "0"} Comments</span>
             </div>
             <div className="cs_post_meta">
               <span className="cs_accent_color">{PeopleIcon}</span>
@@ -74,40 +73,78 @@ const BlogCard = memo(({ item }) => (
 ));
 BlogCard.displayName = 'BlogCard';
 
-const Blog2 = () => {
-  const [data, setData] = useState([]);
+const BlogCategoryFilter = ({ allPosts = [], activeCat = "All", showPosts = true }) => {
+  const [selectedCat, setSelectedCat] = useState(activeCat || "All");
 
   useEffect(() => {
-    const controller = new AbortController();
-    fetch('/data/acblog.json', { signal: controller.signal })
-      .then(res => res.json())
-      .then(blogs => setData(blogs.slice(0, 3)))
-      .catch(err => { if (err.name !== 'AbortError') console.error('Blog fetch error:', err); });
-    return () => controller.abort();
-  }, []);
+    if (activeCat) setSelectedCat(activeCat);
+  }, [activeCat]);
 
-  if (!data.length) return null;
+  const categories = useMemo(() => {
+    const cats = allPosts
+      .map(p => p.blogcat)
+      .filter(Boolean);
+    return ["All", ...new Set(cats)];
+  }, [allPosts]);
+
+  const filteredPosts = useMemo(() => {
+    if (selectedCat === "All") return allPosts;
+    return allPosts.filter(p => p.blogcat === selectedCat);
+  }, [selectedCat, allPosts]);
 
   return (
-    <section className="position-relative bg-light-gray cs_py_30">
-      <div className="container">
-        <div className="cs_section_heading cs_style_11 cs_mb_47 text-center">
-          <SectionTitle2 SubTitle="NEWS & UPDATES" Title="" />
-        </div>
-        <div className="row cs_row_gap_30 cs_gap_y_30">
-          {data.map((item, i) => (
-            <BlogCard key={item.slug || i} item={item} />
-          ))}
-        </div>
-        <div className="text-center mt-4">
-          <Link to="/blogs/" className="cs_btn cs_style_1">
-            <span>View all Articles</span>
-            {ArrowRight}
-          </Link>
-        </div>
+    <div className="cs_blog_category_section">
+      {/* Category Filter Buttons */}
+      <div className="cs_category_filter_wrapper" style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        gap: '10px',
+        margin: '20px 0 30px 0',
+        alignItems: 'center'
+      }}>
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setSelectedCat(cat)}
+            className={`cs_category_btn ${selectedCat === cat ? 'cs_category_btn_active' : ''}`}
+            style={{
+              padding: '8px 20px',
+              borderRadius: '25px',
+              border: '2px solid var(--cs-accent, #0066cc)',
+              backgroundColor: selectedCat === cat ? 'var(--cs-accent, #001E2F)' : 'transparent',
+              color: selectedCat === cat ? '#fff' : 'var(--cs-accent, #0066cc)',
+              fontSize: '14px',
+              fontWeight: '600',
+              cursor: 'pointer',
+              transition: 'all 0.25s ease',
+              whiteSpace: 'nowrap',
+              fontFamily: 'inherit',
+            }}
+            aria-pressed={selectedCat === cat}
+          >
+            {cat}
+          </button>
+        ))}
       </div>
-    </section>
+
+      {/* Blog Cards Grid */}
+      {showPosts && (
+        <>
+          {filteredPosts.length === 0 ? (
+            <p style={{ color: '#888', textAlign: 'center', padding: '40px 0' }}>
+              No posts found in this category.
+            </p>
+          ) : (
+            <div className="row cs_row_gap_30 cs_gap_y_30">
+              {filteredPosts.map((item, i) => (
+                <BlogCard key={item.slug || i} item={item} />
+              ))}
+            </div>
+          )}
+        </>
+      )}
+    </div>
   );
 };
 
-export default memo(Blog2);
+export default BlogCategoryFilter;
