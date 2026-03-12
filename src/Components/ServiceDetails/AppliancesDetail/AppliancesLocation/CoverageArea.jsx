@@ -442,7 +442,7 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
+            bgImg="testimonialbg"
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />

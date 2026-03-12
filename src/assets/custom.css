@@ -128,6 +128,10 @@ section#get-quote {
   position: relative;
 }
 
+.cs_testimonial.card.shadow-sm.border-3.h-100.p-3{
+  border: 1px soild #4e4e4e;
+}
+
 /* .cs_hero_bg {
   position: absolute;
   top: 0;
@@ -609,21 +613,25 @@ p a {
 
 
 .icon-img-block {
-  height: 65px;
-  width: 65px;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 100%;
-  border: 1px solid #000;
-  border-color: var(--bg-dark-blue);
-  background-color: #fff;
+    height: 65px;
+    width: 65px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: 1px solid #ffffff;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 6px 0px;
 }
 
 

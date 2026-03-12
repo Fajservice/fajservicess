@@ -177,7 +177,6 @@ const BRANDS_LIST = [
   { name: "Daewoo AC Cleaning",                            url: "/services/air-conditioning-repair/brands/daewoo/" },
 ];
 
-// ✅ FIX: Single useInView hook — no duplication
 const useInView = (rootMargin = "200px") => {
   const [isInView, setIsInView] = useState(false);
   const ref = useRef(null);
@@ -194,7 +193,6 @@ const useInView = (rootMargin = "200px") => {
   return [ref, isInView];
 };
 
-// ✅ FIX: LazySection uses useInView internally — no manual ref needed outside
 const LazySection = memo(({ children, minHeight = "200px" }) => {
   const [ref, isInView] = useInView();
   return (
@@ -278,7 +276,6 @@ const CommonACProblems = memo(() => (
   </section>
 ));
 
-// ✅ FIX: BrandLinks rendered once, memoized
 const BrandLinks = memo(() => (
   <p className="mt-2 mb-0">
     {BRANDS_LIST.map((brand, i) => (
@@ -338,7 +335,7 @@ const GallerySection = memo(() => (
   </section>
 ));
 
-// ✅ FIX: FAQSection — no Suspense needed, it's not lazy. Render directly inside LazySection
+
 const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
   if (!data?.length) return <div style={{ minHeight: '300px' }} />;
   return (
@@ -381,8 +378,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const [testimonialData, setTestimonialData] = useState([]);
   const [openItemIndex,   setOpenItemIndex]   = useState(0);
 
-  // ✅ FIX: Use LazySection for BOTH faq & testimonials — no manual refs needed
-  // testimonialData & faqData fetch triggered by LazySection's built-in inView
   const [faqSectionRef,         faqSectionInView]         = useInView();
   const [testimonialSectionRef, testimonialSectionInView] = useInView();
 
@@ -642,8 +637,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <Serviceappointemnt subtitle2="Contact us" title2="Book An Appointment" />
           </section>
         </LazySection>
-
-        {/* ✅ FIX: FAQ — ref for data fetch, renders inside when in view */}
         <div ref={faqSectionRef} style={{ minHeight: '300px' }}>
           {faqSectionInView && (
             <FAQSection

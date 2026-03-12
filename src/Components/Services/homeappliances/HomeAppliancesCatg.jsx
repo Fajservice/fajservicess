@@ -8,6 +8,10 @@ import ApplianceCategories from './ApplianceCategories';
 import BlogWashingMachine from '../../Blog/BlogWashingMachine';
 import PriceCardHomeCat from './PriceCardHomeappCat';
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
+import { Link } from 'react-router-dom';
+import MaintenanceContract from '../../MaintenanceContract/MaintenanceContract';
+import BrandsSliderSection from '../../BrandsSliderSection';
+import GetQuoteButton from '../../Buttons/GetQuoteButton';
 
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
@@ -93,6 +97,7 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
   const [faqs, setFaqs] = useState([]);
   const [testimonialData, setTestimonialData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [brandsLogo_data, setBrandsLogoData] = useState([]);
 
 
   const handleItemClick = useCallback((index) => {
@@ -107,13 +112,17 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [faqsRes, testimonialsRes] = await Promise.all([
+        const [faqsRes, testimonialsRes, brandsResponse] = await Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/SmallAppliancesFaqs.json`),
           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/SmallAppliancesRepairTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
         ]);
         const [faqsData, testimonialsData] = await Promise.all([faqsRes.json(), testimonialsRes.json()]);
+        const brandsData = await brandsResponse.json();
         setFaqs(faqsData);
         setTestimonialData(testimonialsData);
+        
+        setBrandsLogoData(brandsData);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
@@ -182,21 +191,10 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
       <div className="cs_service_details">
 
         
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30 text-center mb-4 pt-4 px-4">Home Appliance Repair & Service Center in Dubai</h1>
-            <div className="row align-items-center g-0 border border-dark rounded overflow-hidden">
-              <div className="col-12 col-lg-5 mb-4 mb-lg-0">
-                <div className="service-image-wrapper">
-                  <ServiceImage
-                    src={`${CDN}/home-appliance/public`}
-                    alt="Home Appliance Repair Service Center in Dubai - FAJ Technical Services"
-                    title="Home Appliance Repair Service in Dubai"
-                  />
-                </div>
-              </div>
-              <div className="col-12 col-lg-7 px-4 py-4">
-                <p><b>Expert Appliance Repair Near You</b></p>
+            <h1 className='mb-4'>Home Appliance Repair & Service Center in Dubai</h1>
+             <h2><b>Expert Appliance Repair Near You</b></h2>
                 <p>
                   Reliable Home Appliance Repair Services – Fast & Affordable. Are you searching for a reliable home
                   appliance repair service center near you? We provide expert repair and support for all major home
@@ -204,9 +202,8 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
                   appliance technicians provide quick and efficient repair services, ensuring your appliances are fixed
                   promptly and affordably.
                 </p>
-              </div>
-            </div>
-            <div className="py-4 px-4 d-flex justify-content-center align-items-center gap-3">
+           
+            <div className="pt-4 px-4 d-flex justify-content-center align-items-center">
               <WhatsappIconButton />
             </div>
           </div>
@@ -304,7 +301,392 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
             </div>
           </div>
         </section>
+        {/* The Benefits  */}
+        <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
+          <div className="container">
+            <div className="row justify-content-center">
+              <h2 className="cs_fs_30 mb-0 text-light">The Benefits Of Home Appliances Service Dubai
+              </h2>
+              <div className="row gx-3 gy-5 mt-0">
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
+                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Optimal Performance
+                      </h3>
+                      <p className="small">Regular maintenance helps your Home Appliances run smoothly and efficiently, delivering the best results every time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
+                      <p className="small">Energy efficient Home Appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                    </div>
+                  </div>
+                </div>
 
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
+                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                    </div>
+
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Extending Appliance Lifespan</h3>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home Home Appliances, delaying the need for replacements.</p>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
+                      </h3>
+                      <p className="small">Knowing your Home Appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* CHOOSE US */}
+        <section className="section cs_py_30">
+          <div className="container container-md container-sm">
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
+
+            <div className="usps align-items-center	">
+              {/* <!-- First Column --> */}
+              <div className="uspcol col-1">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                  </div>
+                </div>
+
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
+                  </div>
+                  <div className="usptext">
+                    <h3>Feeling Of Calm</h3>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                  </div>
+                </div>
+
+
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3>You Are in Control</h3>
+                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              {/* <!-- Delimit Section --> */}
+              <div className="uspdelimit col-2 d-none d-xl-block">
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+              </div>
+
+              {/* <!-- Second Column --> */}
+              <div className="uspcol col-3">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3>We Are Experts</h3>
+                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                  </div>
+                </div>
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img src={getImageSrc('icon/confidence-guarantee')} alt="FAJ icon service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Great Value</h3>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two Home Appliances at the same location in Dubai.</p>
+                  </div>
+                </div>
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Trustworthy</h3>
+                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Delimit mobile --> */}
+              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
+              </div>
+            </div>
+          </div>
+        </section>
+         <section className="section cs_py_30 bg-light-gray">
+            <div className="container">
+              <h3>We specialise in Home Appliances services for the following brands </h3>
+              <div className="row">
+                <div className="col-12">
+                  <ul className="mb-0">
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/smeg/">Smeg Home Appliances Repair</a>:</strong> FAJ is here to assist you when things go wrong. We understand that your Smeg Home Appliances is essential for daily life, helping keep your food fresh and your meals prepared. We offer electric home appliances repair near me service, gas home appliances repair and maintenance services in Dubai</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/siemens/">Siemens Home Appliances Repair</a>:</strong> If you're experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai. Contact us for fix gas home appliances, and gas home appliances servicing near by your location in Dubai.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/la-germania/">La Germania Gas Home Appliances Repair</a>:</strong> When you need La Germania gas oven repair in Dubai, for La Germania electric oven service and repair in Dubai, our qualified home appliances repair technicians are available throughout.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/">Bosch Electric Home Appliances Repair</a>:</strong> If you're searching for the best Bosch electric Home Appliances repair and stove oven repair company in Dubai, FAJ is the perfect choice. They are renowned for delivering exceptional service for all Bosch electric Home Appliances maintenance and are recognized as the leading Bosch appliance service provider in the region.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/viking/">Viking Stove and Home Appliances Repair</a>:</strong> Your Viking appliances may need repair or maintenance, and we can help. For high-quality Viking stove and microwave oven repair near me service in Dubai, trust FAJ.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/daewoo/">Daewoo Home Appliances Repair</a>:</strong> We offer expert Daewoo gas home appliances repair services in Dubai. Our experienced technicians possess the knowledge and skills to diagnose and microwave oven repair issues with Daewoo electric stove oven maintenance near me service, refrigerators, washing machines, dryers, and more.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/neff/">Neff Home Appliances Repair</a>:</strong> Are you worried about your Neff Home Appliances malfunctioning and looking for a trustworthy Neff Home Appliances repair and service in Dubai? Contact us for same-day electrical home appliances repair near me service!</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/teka/">Teka Stove and Home Appliances Repair</a>:</strong> If you're looking for the best Teka Home Appliances repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, fixing gas oven and gas oven servicing. FAJ is recognised as the leading Teka appliance service provider in the region.</li>
+                  </ul>
+
+                  <p><a href="/services/home-appliances-repair/brands/aeg/">AEG</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/ariston/">Ariston</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/beko/">Beko</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/blomberg/">Blomberg</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/electrolux/">Electrolux</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/faber/">Faber</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/fagor/">Fagor</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/fisher-paykel/">Fisher and Paykel</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/foster/">Foster</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/gaggenau/">Gaggenau</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/hitachi/">Hitachi</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/hoover/">Hoover</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/indesit/">Indesit </a>
+                    <span>&nbsp;-&nbsp;</span>
+                    <a href="/services/home-appliances-repair/brands/lg/"> LG</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/sub-zero/">Sub Zero</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/terim/">Terim</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/zanussi/">Zanussi</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/de-dietrich/">De Dietrich</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/baumatic/">Baumatic</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/bertazzoni/">Bertazzoni</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/bompani/">Bompani</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/boston/">Boston</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/brandt/">Brandt</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/gibson/">Gibson</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/gorenje/">Gorenje</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/hisense/">Hisense</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/kelvinator/">Kelvinator</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/kenmore/">Kenmore</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/panasonic/">Panasonic</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/sanyo/">Sanyo</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/sears/">Sears</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/wolf/">Wolf</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/haier/">Haier</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/elica/">Elica</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/marvel/">Marvel</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/miele/">Miele</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/maytag/">Maytag</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/toshiba/">Toshiba</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/thermador/">Thermador</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/sharp/">Sharp</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/admiral/">Admiral</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/aftron/">Aftron</a>
+
+                    <span>&nbsp;-&nbsp;</span>
+
+                    <a href="/services/home-appliances-repair/brands/unimac/">Unimac</a>
+                  </p>
+                </div>
+              </div>
+
+              <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <GetQuoteButton />
+                  <CallNowButton />
+                </div>
+              </div>
+            </div>
+          </section>
+        {/* Brands section */}
+        {!isLoading && brandsLogo_data.length > 0 && (
+          <BrandsSliderSection
+            brandsData={brandsLogo_data.map(item => ({
+              ...item,
+              logo: getImageSrc(item.logo)
+            }))}
+            sectionId="home-brands"
+            logoMaxHeight="60px"
+            logoMaxWidth="120px"
+            containerHeight="100px"
+          />
+        )}
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
         {/* ── Testimonials ── */}
         {!isLoading && testimonialData.length > 0 && (
           <Testimonial1

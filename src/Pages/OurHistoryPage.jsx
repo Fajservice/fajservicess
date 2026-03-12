@@ -163,7 +163,7 @@ const OurVisionOurMissionPage = () => {
       <Testimonial1
         subtitle="Testimonial"
         title="What our clients say <br> About Us"
-        bgImg="img/testimonialbg.jpg"
+        bgImg="testimonialbg"
       />
 
       <Brand1 />

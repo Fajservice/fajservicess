@@ -58,10 +58,10 @@ const BlogAppliances = () => {
             Title=""
           ></SectionTitle2>
         </div>
-        <div className="row cs_row_gap_30 cs_gap_y_30">
+        <div className="row cs_row_gap_30 cs_gap_y_30 justify-content-center">
           {data.slice(0, 6).map((item, i) => (
             <div key={i} className="col-lg-4">
-              <div className="cs_post cs_style_1 cs_type_1 justify-content-center">
+              <div className="cs_post cs_style_1 cs_type_1">
                 <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
                   <img src={getImageSrc(item.img)} alt="Post Image" />
                   <div className="cs_post_date cs_accent_bg cs_fs_18 cs_white_color cs_center position-absolute">10 Oct</div>
