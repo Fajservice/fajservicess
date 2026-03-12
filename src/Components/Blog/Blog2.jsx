@@ -94,7 +94,7 @@ const Blog2 = () => {
         <div className="cs_section_heading cs_style_11 cs_mb_47 text-center">
           <SectionTitle2 SubTitle="NEWS & UPDATES" Title="" />
         </div>
-        <div className="row cs_row_gap_30 cs_gap_y_30">
+        <div className="row cs_row_gap_30 cs_gap_y_30 justify-content-center">
           {data.map((item, i) => (
             <BlogCard key={item.slug || i} item={item} />
           ))}

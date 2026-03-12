@@ -46,7 +46,7 @@ const TestimonialsPage = ({ titleSeo, description, Author, Keyword, URL }) => {
             <Testimonial1 
                 subtitle="What Our Clients Say"
                 title="Customer <span>Reviews</span>"
-                bgImg="img/testimonialbg.jpg"
+                bgImg="testimonialbg"
                 testimonialData={data}
                 sectionId="home-testimonials"
             />

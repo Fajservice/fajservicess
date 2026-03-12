@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Deira - A/C Maintenance - AC Repair Ac Fix #1");
-    const metadescription = String(description || "T:043300002 Efficient Air Conditioning Repairs and AC Services in Deira Dubai. Central & Split Maintenance Near Me and Aircon Compressor Fixing");
+    const metatitle = String(titleSeo || "Best AC Cleaning Service and AC Repair Near Me Deira, Dubai");
+    const metadescription = String(description || "Book the Best AC cleaning service in Deira, Dubai. Contact us for central and split air conditioner repair, maintenance, and AC leakage inspection nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, aircon service in deira, aircon repair in deira, aircon maintenance in deira");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/deira/");
@@ -115,7 +115,7 @@ const AcRepairInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Deira</h1>
+                        <h1 className="cs_fs_30">Reliable and Best AC Repair and Maintenance Services in Deira, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Deira, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

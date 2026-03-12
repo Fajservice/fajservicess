@@ -412,16 +412,16 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
           </div>
         </section>
 
-        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+        <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0">The Benefits Of Laundry Equipments Service Dubai</h2>
+              <h2 className="cs_fs_30 mb-0 text-light">The Benefits of Laundry Equipments Service Dubai</h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Ensuring-Safety')}
+                        src={getImageSrc('icon/Ensuring-Safety-New')}
                         alt="Ensuring Safety"
                         className="icon-img-block-icon"
                         width="80"
@@ -436,7 +436,7 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Optimal-Performance')}
+                        src={getImageSrc('icon/Optimal-Performance-New')}
                         alt="Optimal Performance"
                         className="icon-img-block-icon"
                         width="80"
@@ -451,7 +451,7 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Lower-Energy-Bills')}
+                        src={getImageSrc('icon/Lower-Energy-Bills-New')}
                         alt="Lower Energy Bills"
                         className="icon-img-block-icon"
                         width="80"
@@ -466,7 +466,7 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Saving-Money-on-Repair')}
+                        src={getImageSrc('icon/Saving-Money-on-Repair-New')}
                         alt="Saving Money on Repair"
                         className="icon-img-block-icon"
                         width="80"
@@ -481,7 +481,7 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/extending')}
+                        src={getImageSrc('icon/extending-New')}
                         alt="Extending Appliance Lifespan"
                         className="icon-img-block-icon"
                         width="80"
@@ -496,7 +496,7 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Peace-of-Mind')}
+                        src={getImageSrc('icon/Peace-of-Mind-New')}
                         alt="Peace of Mind"
                         className="icon-img-block-icon"
                         width="80"

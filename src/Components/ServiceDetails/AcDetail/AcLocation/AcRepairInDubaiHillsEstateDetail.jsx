@@ -26,8 +26,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Repair and Service in Dubai Hills Estate - Gree AC Maintenance");
-    const metadescription = String(description || "Get same day AC repair and service in Dubai Hills Estate Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
+    const metatitle = String(titleSeo || "Best AC Repair and Cleaning Service in Dubai Hills Estate");
+    const metadescription = String(description || "Book the best AC repair and service in Dubai Hills Estate. Our experts in central and HVAC maintenance and cleaning, as well as AC servicing");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in dubai hills estate, ac service in dubai hills estate, gree ac maintenance in dubai hills estate, ac repair near me, ac service near me, gree ac repair in dubai hills estate, gree ac service in dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-hills-estate/");
@@ -115,7 +115,7 @@ const AcRepairInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Dubai Hills Estate</h1>
+                        <h1 className="cs_fs_30">Reliable AC Repair and Maintenance Services in Dubai Hills Estate</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Dubai Hills Estate, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

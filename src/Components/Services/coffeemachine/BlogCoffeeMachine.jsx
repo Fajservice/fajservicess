@@ -60,7 +60,7 @@ const BlogCoffeeMachine = () => {
         {loading ? (
           <div className="text-center py-5">Loading...</div>
         ) : (
-          <div className="row cs_row_gap_30 cs_gap_y_30">
+          <div className="row cs_row_gap_30 cs_gap_y_30 justify-content-center">
             {data.slice(0, 6).map((item, i) => (
               <div key={i} className="col-lg-4">
                 <div className="cs_post cs_style_1 cs_type_1">

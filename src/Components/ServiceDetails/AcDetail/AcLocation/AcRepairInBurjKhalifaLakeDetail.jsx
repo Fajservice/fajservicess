@@ -27,8 +27,8 @@ const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In Burj Khalifa Lake - Air Con Fixing #1");
-    const metadescription = String(description || "Best AC Services in Burj Khalifa Lake Dubai - FAJ experts here for your Central HVAC, Split Chiller FCU Air Condition Repair & Maintenance Dubai");
+    const metatitle = String(titleSeo || "Best AC Repairs and Services in Burj Khalifa Lake & Downtown");
+    const metadescription = String(description || "Get the Best AC Repair in Burj Khalifa Lake Dubai - FAJ experts here for help your Central HVAC, Split Chiller FCU Aircon Servicing & Maintenance Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Burj Khalifa Lake, AC Repair in Burj Khalifa Lake, Air Conditioning Service in Burj Khalifa Lake, Air Con Fixing in Burj Khalifa Lake, Central HVAC Service in Burj Khalifa Lake, Split Chiller FCU Air Condition Repair in Burj Khalifa Lake");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/burj-khalifa-lake/");
@@ -117,7 +117,7 @@ const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Burj Khalifa Lake</h1>
+                        <h1 className="cs_fs_30">Top-Rated Air Conditioning Repair and Maintenance Services in Burj Khalifa Lake and Downtown, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Burj Khalifa Lake, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

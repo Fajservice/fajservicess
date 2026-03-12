@@ -29,8 +29,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
    // For SEO
-   const metatitle = String(titleSeo || "AC Services In Discovery Gardens - Air Conditioner Repairs 1");
-   const metadescription = String(description || "Are you finding for AC Services in Discovery Gardens Dubai? Contact us 043300002 for air conditioner repair & maintenance near by in dubai Fix ac");
+   const metatitle = String(titleSeo || "Best AC Repair & AC Maintenance Servicing in Discovery Gardens");
+   const metadescription = String(description || "Are you looking for the best AC Repair in Discovery Gardens, Dubai? Contact us 043300002 for Chiller FCU air conditioner service & maintenance near by");
    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
    const metaKeyword = String(Keyword || "AC Repair in Discovery Gardens, Air Conditioning Service in Discovery Gardens, Air Con Maintenance & AC Installation in Discovery Gardens");
    const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/discovery-gardens/");
@@ -118,7 +118,7 @@ const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo
 
             <section className="section cs_py_30">
                <div className="container">
-                  <h1 className="cs_fs_30">AC Service in Discovery Gardens</h1>
+                  <h1 className="cs_fs_30">Emergency AC Repair and Cleaning Service in Discovery Gardens</h1>
                   <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                      <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me Discovery Gardens, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

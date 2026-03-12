@@ -9007,7 +9007,7 @@
   padding: 16px 8px;
   border-radius: 8px;
   transition: all 0.3s ease;
-  background: #fff;
+  /* background: #fff; */
   width: calc(13.5% - 20px); /* 8 columns = 12.5% */
   min-width: 120px;
 }

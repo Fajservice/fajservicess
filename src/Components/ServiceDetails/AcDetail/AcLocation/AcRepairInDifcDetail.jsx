@@ -29,8 +29,8 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   // For SEO
   const metatitle = titleSeo?.trim()
     ? titleSeo
-    : "Ac Repair in DIFC";
-  const metadescription = String(description || "Contact us: 043300002. AC Services in DIFC. Our team is experts in central HVAC maintenance & repair near me Dubai AC fix servicing company");
+    : "Fast AC Repair and AC Maintenance & Servicing in DIFC, Dubai";
+  const metadescription = String(description || "Contact us at 0433 00002 for the best AC service in DIFC. Our team is an expert in chiller FCU, central HVAC maintenance & repair, AC servicing in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "ac services in difc, ac repair in difc, ac maintenance in difc, ac service in difc, ac repair near me, ac maintenance near me, ac service near me, ac repair company in difc, ac maintenance company in difc, ac service company in difc");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/difc/");
@@ -117,7 +117,7 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Service in DIFC</h1>
+            <h1 className="cs_fs_30">Top-Rated AC Repair and AC Maintenance & Servicing in DIFC, Dubai</h1>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me DIFC, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

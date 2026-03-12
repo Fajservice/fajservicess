@@ -1,21 +1,49 @@
 {
   "success": [
     {
-      "originalPath": "laundry-equipment-maintenance-service",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/laundry-equipment-maintenance-service/public",
-      "id": "laundry-equipment-maintenance-service",
+      "originalPath": "icon/Ensuring-Safety-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Ensuring-Safety-New/public",
+      "id": "icon/Ensuring-Safety-New",
       "success": true
     },
     {
-      "originalPath": "laundry-equipment-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/laundry-equipment-repair/public",
-      "id": "laundry-equipment-repair",
+      "originalPath": "icon/extending-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/extending-New/public",
+      "id": "icon/extending-New",
+      "success": true
+    },
+    {
+      "originalPath": "icon/Lower-Energy-Bills-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Lower-Energy-Bills-New/public",
+      "id": "icon/Lower-Energy-Bills-New",
+      "success": true
+    },
+    {
+      "originalPath": "icon/Optimal-Performance-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Optimal-Performance-New/public",
+      "id": "icon/Optimal-Performance-New",
+      "success": true
+    },
+    {
+      "originalPath": "icon/Peace-of-Mind-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Peace-of-Mind-New/public",
+      "id": "icon/Peace-of-Mind-New",
+      "success": true
+    },
+    {
+      "originalPath": "icon/Saving-Money-on-Repair-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Saving-Money-on-Repair-New/public",
+      "id": "icon/Saving-Money-on-Repair-New",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "laundry-equipment-maintenance-service": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/laundry-equipment-maintenance-service/public",
-    "laundry-equipment-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/laundry-equipment-repair/public"
+    "icon/Ensuring-Safety-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Ensuring-Safety-New/public",
+    "icon/extending-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/extending-New/public",
+    "icon/Lower-Energy-Bills-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Lower-Energy-Bills-New/public",
+    "icon/Optimal-Performance-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Optimal-Performance-New/public",
+    "icon/Peace-of-Mind-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Peace-of-Mind-New/public",
+    "icon/Saving-Money-on-Repair-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Saving-Money-on-Repair-New/public"
   }
 }

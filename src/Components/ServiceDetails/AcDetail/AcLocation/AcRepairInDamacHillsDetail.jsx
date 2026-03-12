@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Repair and Service in Damac Hills - Gree AC Maintenance");
-    const metadescription = String(description || "Get same day AC repair and service in Damac Hills Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
+    const metatitle = String(titleSeo || "AC Repair & Maintenance Service in Damac Hills, Dubai");
+    const metadescription = String(description || "Book the Best AC repair and maintenance in Damac Hills, Dubai. Call at 043300002 for air conditioning cleaning service & fix errors near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in damac hills, ac service in damac hills, ac maintenance in damac hills, gree ac repair in damac hills, gree ac service in damac hills, gree ac maintenance in damac hills, ac technician in damac hills, ac cleaning in damac hills, ac installation in damac hills, ac gas refilling in damac hills");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/damac-hills/");
@@ -118,7 +118,7 @@ const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Repair & Service in Damac Hills</h1>
+                        <h1 className="cs_fs_30">Trusted AC Repair and Maintenance Service in Damac Hills, Dubai</h1>
 
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Damac Hills, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

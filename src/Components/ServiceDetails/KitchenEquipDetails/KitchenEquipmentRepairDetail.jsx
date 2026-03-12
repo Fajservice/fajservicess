@@ -416,10 +416,10 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         </section >
 
         {/* Benefits */}
-        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+        <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0">Benefits Of Regular Appliance Service and Maintenance in Dubai
+              <h2 className="cs_fs_30 mb-0 text-light">Benefits Of Regular Appliance Service and Maintenance in Dubai
               </h2>
               <div className="row gx-3 gy-5 mt-0">
 
@@ -650,7 +650,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
-            bgImg="img/testimonialbg.jpg"
+            bgImg="testimonialbg"
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />

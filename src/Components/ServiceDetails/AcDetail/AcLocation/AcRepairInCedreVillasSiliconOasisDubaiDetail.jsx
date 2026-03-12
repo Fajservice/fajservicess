@@ -26,8 +26,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Cedre Villas Silicon Oasis Dubai - Gas Fill 1");
-    const metadescription = String(description || "AC Gas Leak Problem or Not Working? Call an 043300002 and get fast AC Services in Cedre Villas Silicon Oasis Dubai centralized air condition fix");
+    const metatitle = String(titleSeo || "Best Central AC Repair Service in Cedre Villas Silicon Oasis Dubai");
+    const metadescription = String(description || "Is your AC not cooling? Call 043300002 for fast AC repair and services in Cedre Villas, Silicon Oasis, Dubai, for centralised air conditioning repair");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in cedre villas silicon oasis dubai, ac repair in cedre villas silicon oasis dubai, ac maintenance in cedre villas silicon oasis dubai, ac gas filling in cedre villas silicon oasis dubai, ac installation in cedre villas silicon oasis dubai, ac cleaning in cedre villas silicon oasis dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/cedre-villas-silicon-oasis-dubai/");
@@ -115,7 +115,7 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviews
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Cedre Villas Silicon Oasis Dubai</h1>
+                        <h1 className="cs_fs_30">Reliable and Fast AC Repair and Maintenance Services in  Cedre Villas Silicon Oasis Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Cedre Villas Silicon Oasis Dubai, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
