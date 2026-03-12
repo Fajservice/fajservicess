@@ -391,7 +391,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
     import("../Common/loadBackgroudImages").then(({ default: loadBg }) => loadBg());
   }, []);
 
-  // ✅ FIX: Fetch only when section scrolls into view — AbortController for cleanup
   useEffect(() => {
     if (!faqSectionInView || faqData.length > 0) return;
     const controller = new AbortController();
