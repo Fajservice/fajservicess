@@ -609,7 +609,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                       <h3 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
                       </h3>
                       <p className="small">Knowing your vacuum cleaner are in top condition gives you confidence and removes the stress of unexpected failures.</p>
-                    </div>
+                    </div>  
                 </div>
               </div>
             </div>

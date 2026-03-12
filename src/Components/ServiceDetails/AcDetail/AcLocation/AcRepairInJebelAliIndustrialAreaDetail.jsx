@@ -28,8 +28,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJebelAliIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Jebel Ali Industrial Area - Repair Aircon");
-    const metadescription = String(description || "Call 043300002 for AC Services in Jebel Ali Industrial Area Dubai. Central, split HVAC air conditioning maintenance and ac fix servicing Dubai");
+    const metatitle = String(titleSeo || "Top AC Repair and Maintenance Service in Jebel Ali Industrial Area");
+    const metadescription = String(description || "Looking for the best AC repair and AC cleaning service in Jebel Ali Industrial Area? Call 043300002 for split & central air conditioner maintenance near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning service near me, air conditioning repair near me, air conditioning maintenance near me");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-industrial-area/");
@@ -119,7 +119,7 @@ const AcRepairInJebelAliIndustrialAreaDetail = ({ subtitle, title, reviewsbg, ti
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service In Jebel Ali Industrial Area</h1>
+                        <h1 className="cs_fs_30">Highly Rated AC Repair AC and Maintenance Service in Jebel Ali Industrial Area, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="/"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Jebel Ali Industrial Area, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

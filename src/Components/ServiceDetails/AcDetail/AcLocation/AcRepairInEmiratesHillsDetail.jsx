@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Emirates Hills - #1 Air Conditioner Repairs");
-    const metadescription = String(description || "Get your fahu, vrv, vrf or central air conditioning units repaired on an urgent basis. Dail 043300002 for ac services in emirates hills near me dubai");
+    const metatitle = String(titleSeo || "Best AC Repair & AC Maintenance Service in Emirates Hills, Dubai");
+    const metadescription = String(description || "Do you need AC repair and service in Emirates Hills? Call 043300002 for cleaning and maintenance of central, & chiller FCU air conditioners near Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in emirates hills, ac repair in emirates hills, ac maintenance in emirates hills, ac installation in emirates hills, ac cleaning in emirates hills, air conditioning services in emirates hills, air conditioner repair in emirates hills, air conditioner maintenance in emirates hills, air conditioner installation in emirates hills, air conditioner cleaning in emirates hills");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/emirates-hills/");
@@ -117,7 +117,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Emirates Hills</h1>
+                        <h1 className="cs_fs_30">Top Rated Air Conditioning Repair and Maintenance Service in Emirates Hills, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Emirates Hills, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

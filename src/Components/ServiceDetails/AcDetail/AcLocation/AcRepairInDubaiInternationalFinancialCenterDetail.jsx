@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Dubai International Financial Centre");
-    const metadescription = String(description || "Book an 043300002. AC Services in Dubai International Financial Centre. We are experts in central AC maintenance service near me Dubai AC fix");
+    const metatitle = String(titleSeo || "AC Maintenance & Service Dubai International Financial Centre");
+    const metadescription = String(description || "Book an appointment for AC cleaning services at Dubai International Financial Centre. We are experts in FCU AC maintenance and nearby Dubai AC fixes");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in Dubai International Financial Centre, ac repair in Dubai International Financial Centre, ac maintenance in Dubai International Financial Centre, ac cleaning service in Dubai International Financial Centre, ac technician in Dubai International Financial Centre, ac servicing in Dubai International Financial Centre, central ac maintenance service near me Dubai, ac fix Dubai International Financial Centre");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-international-financial-centre/");
@@ -117,7 +117,7 @@ const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, re
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Dubai International Financial Centre</h1>
+                        <h1 className="cs_fs_30">Affordable AC Repair and Maintenance Services in Dubai International Financial Centre</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Dubai International Financial Centre, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

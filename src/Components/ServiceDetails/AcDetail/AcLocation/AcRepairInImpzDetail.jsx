@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInImpzDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In IMPZ - AC Maintenance - AC Repairing #1");
-    const metadescription = String(description || "Call 043300002 AC Services in IMPZ Dubai. We are experts in central & split air conditioner repairing and maintenance near me Dubai AC fixing");
+    const metatitle = String(titleSeo || "Best AC Repair and Maintenance Servicing in IMPZ, Dubai");
+    const metadescription = String(description || "Affordable and fast AC repair and maintenance in IMPZ, Dubai. We are experts in central and split air conditioner cleaning services near your area Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in impz, ac repair in impz, ac maintenance in impz, ac servicing in impz, ac cleaning in impz, ac technician in impz, ac installation in impz, ac service near me, ac repair near me, ac maintenance near me, ac servicing near me, ac cleaning near me, ac technician near me");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/impz/");
@@ -118,7 +118,7 @@ const AcRepairInImpzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in IMPZ</h1>
+                        <h1 className="cs_fs_30">Highly Rated Air Conditioning Service, Repair, and Maintenance in IMPZ</h1>
 
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me IMPZ, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Dubai Marina - #1 Air Conditioner Repairs");
-    const metadescription = String(description || "Get it done affordably cost. Dail now 043300002 for ac services in dubai marina and best chiller fcu air conditioner repair & maintenance near me");
+    const metatitle = String(titleSeo || "Best AC Cleaning Service and AC Repair in Dubai Marina");
+    const metadescription = String(description || "Get it done affordably. Call at 043300002 for AC repair and service in Dubai Marina and chiller FCU air conditioner maintenance & AC cleaning near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in dubai marina, ac repair in dubai marina, ac maintenance in dubai marina, air conditioner repair in dubai marina, ac service near me, ac technician in dubai marina, ac cleaning service in dubai marina, ac installation in dubai marina");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-marina/");
@@ -116,7 +116,7 @@ const AcRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Dubai Marina</h1>
+                        <h1 className="cs_fs_30">Reliable and Affordable AC Repair and Maintenance Services in Dubai Marina</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Dubai Marina, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.

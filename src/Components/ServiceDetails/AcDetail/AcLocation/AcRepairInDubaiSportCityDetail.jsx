@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Dubai Sport City - Air Conditioning Repairs");
-    const metadescription = String(description || "Call 043300002 AC Services in Dubai Sport City. We are experts in air conditioning repairing and maintenance near me Dubai AC fix Air Con repairs");
+    const metatitle = String(titleSeo || "Same Day AC Cleaning Service and AC Repair in Dubai Sport City");
+    const metadescription = String(description || "Professional AC cleaning and repair in Dubai Sport City. We specialise in air conditioning maintenance & service near you, with efficient solutions");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in dubai sport city, ac service in dubai sport city, ac maintenance in dubai sport city, ac technician in dubai sport city, ac cleaning in dubai sport city, ac installation in dubai sport city, ac gas refilling in dubai sport city, ac repair near me, ac service near me, ac maintenance near me");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-sport-city/");
@@ -115,7 +115,7 @@ const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Dubai Sport City</h1>
+                        <h1 className="cs_fs_30">Fast AC Repair and Inverter AC Maintenance Service in Dubai Sport City</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>,  AC maintenance, AC repair near me Dubai Sport City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

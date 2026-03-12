@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 import MaintenanceContract from '../../MaintenanceContract/MaintenanceContract';
 import BrandsSliderSection from '../../BrandsSliderSection';
 import GetQuoteButton from '../../Buttons/GetQuoteButton';
+import Gallery from '../../Svg/Gallery';
 
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
@@ -131,7 +132,14 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
     };
     fetchData();
   }, []);
-
+const GALLERY_ITEMS = [
+  { src: 'homeappliances-gallery/washing-machine-repair', alt: 'Washing Machine Repair' },
+  { src: 'homeappliances-gallery/bbq-repair', alt: 'bbq repair' },
+  { src: 'homeappliances-gallery/hob-repair', alt: 'hob repair' },
+  { src: 'homeappliances-gallery/oven-repair', alt: 'oven repair' },
+  { src: 'homeappliances-gallery/refrigerator-repair', alt: 'refrigerator repair' },
+  { src: 'homeappliances-gallery/dispenser-repair', alt: 'dispenser repair' },
+];
   const problemCards = useMemo(() =>
     COMMON_PROBLEMS.map(({ title, desc }) => (
       <div key={title} className="col-12 col-md-4 col-lg-4">
@@ -687,6 +695,24 @@ const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
+        <section className="section gallery_section bg-light-gray cs_py_30" style={{ contain: 'layout style' }}>
+            <div className="container">
+              <h2>Gallery <Gallery /></h2>
+              <div className="row gx-3 gy-3">
+                {GALLERY_ITEMS.map(({ src, alt }) => (
+                  <div key={src} className="col-md-4 col-6">
+                    <img
+                      src={`${CDN}/${src}/public`}
+                      alt={alt}
+                      loading="lazy"
+                      width="400" height="300"
+                      style={{ width: '100%', height: 'auto', display: 'block' }}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
         {/* ── Testimonials ── */}
         {!isLoading && testimonialData.length > 0 && (
           <Testimonial1

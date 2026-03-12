@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInSiliconOasisDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Expert AC Services in Dubai Silicon Oasis | Air Conditioner Fixing");
-    const metadescription = String(description || "If you urgently need AC Services in Dubai Silicon Oasis, Dial now 043300002 for ceiling & central air conditioning maintenance near your location.");
+    const metatitle = String(titleSeo || "Best AC Cleaning Service and AC Repair in Dubai Silicon Oasis");
+    const metadescription = String(description || "If you urgently need AC Service in Dubai Silicon Oasis. Call now 043300002 for ceiling & central air conditioning repair & maintenance near your location");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Dubai Silicon Oasis, Air Conditioning Services in Dubai Silicon Oasis, Air Con Maintenance in  Dubai Silicon Oasis, AC Installation in Dubai Silicon Oasis, AC Technician in Dubai Silicon Oasis");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/dubai-silicon-oasis/");
@@ -118,7 +118,7 @@ const AcRepairInSiliconOasisDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Dubai Silicon Oasis</h1>
+                        <h1 className="cs_fs_30">Trusted Air Conditioning Repair and Maintenance Service in Dubai Silicon Oasis</h1>
 
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />

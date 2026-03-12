@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In JBR - Chilled Water FCU Repair Near Me #1");
-    const metadescription = String(description || "Get quality AC Services in JBR Dubai. We are offering the best chiller fan coil unit air conditioner repair, maintenance and aircon fix Call:043300002");
+    const metatitle = String(titleSeo || "Top AC Repair and Cleaning Service in JBR, Dubai | Fix FCU AC");
+    const metadescription = String(description || "Get top-notch AC repair and cleaning service in JBR, Dubai. We offer the best maintenance for chiller fan coil unit FCU air conditioner with part warranty");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in jbr, ac repair in jbr, ac maintenance in jbr, air conditioning services in jbr, air conditioner repair in jbr, aircon service in jbr, chilled water fcus repair in jbr, chilled water fcus maintenance in jbr, chilled water fcus service in jbr");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jbr/");
@@ -118,7 +118,7 @@ const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in JBR</h1>
+                        <h1 className="cs_fs_30">Fast and Reliable AC Repair and Maintenance Servicing in JBR, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me JBR, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
