@@ -640,7 +640,7 @@ const unimacServicesData = [
      <div className="container">
       <div className="row justify-content-center">
        <h2 className="cs_fs_30 mb-0 text-light">The Benefits of UniMac Appliances Service in Dubai
-       </h3>
+       </h2>
        <div className="row gx-3 gy-5 mt-0">
         <div className="col-md-4 mb-2">
          <div className="">

@@ -628,10 +628,10 @@ p a {
     border-top-right-radius: 30%;
     border-top-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     border-color: #ffffff;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 6px 0px;
+    background-color: #00334E;
+    box-shadow: 0px 0px 6px 0px #FFFFFF;
 }
 
 
