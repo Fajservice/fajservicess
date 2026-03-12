@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet-async";
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -32,9 +32,13 @@ const ArrowRightIcon = ({ size = 24, color = "currentColor" }) => (
   </svg>
 );
 
+const POSTS_PER_PAGE = 21;
+
 const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [selectedCat, setSelectedCat] = useState("All");
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     fetch('/data/blog.json')
@@ -49,12 +53,71 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
       });
   }, []);
 
+  const categories = useMemo(() => {
+    const cats = data.map(p => p.blogcat).filter(Boolean);
+    return ["All", ...new Set(cats)];
+  }, [data]);
+
+  const filteredData = useMemo(() => {
+    if (selectedCat === "All") return data;
+    return data.filter(item => item.blogcat === selectedCat);
+  }, [selectedCat, data]);
+
+  const totalPages = Math.ceil(filteredData.length / POSTS_PER_PAGE);
+
+  const paginatedData = useMemo(() => {
+    const start = (currentPage - 1) * POSTS_PER_PAGE;
+    return filteredData.slice(start, start + POSTS_PER_PAGE);
+  }, [filteredData, currentPage]);
+
+  const handleCategoryChange = (cat) => {
+    setSelectedCat(cat);
+    setCurrentPage(1);
+  };
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const getPageNumbers = () => {
+    if (totalPages <= 7) {
+      return Array.from({ length: totalPages }, (_, i) => i + 1);
+    }
+    if (currentPage <= 4) {
+      return [1, 2, 3, 4, 5, '...', totalPages];
+    }
+    if (currentPage >= totalPages - 3) {
+      return [1, '...', totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+    }
+    return [1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages];
+  };
+
   const metatitle = String(titleSeo || "Discover The Ultimate Guide To Home Maintenance - FAJ Blogs");
   const metadescription = String(description || "Welcome to FAJ Services blog! Expert insights, tips, and tricks for homeowners.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Latest Blogs");
   const metaURL = String(URL || "https://www.fajservices.ae/blogs/");
   const metaImage = `${CDN}/page_heading_1/public`;
+
+  const pageBtnStyle = (isActive, isDisabled = false) => ({
+    minWidth: '40px',
+    height: '40px',
+    padding: '0 12px',
+    borderRadius: '6px',
+    border: `2px solid ${isDisabled ? '#ddd' : 'var(--cs-accent, #0066cc)'}`,
+    backgroundColor: isActive ? 'var(--cs-accent, #0066cc)' : 'transparent',
+    color: isActive ? '#fff' : isDisabled ? '#bbb' : 'var(--cs-accent, #0066cc)',
+    fontSize: '14px',
+    fontWeight: '600',
+    cursor: isDisabled ? 'not-allowed' : 'pointer',
+    transition: 'all 0.2s ease',
+    fontFamily: 'inherit',
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '4px',
+  });
 
   return (
     <>
@@ -74,7 +137,6 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
         <meta name="twitter:title" content={metatitle} />
         <meta name="twitter:description" content={metadescription} />
         <meta name="twitter:image" content={metaImage} />
-        
       </Helmet>
 
       <section className="position-relative">
@@ -82,46 +144,151 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
           {loading ? (
             <div className="text-center py-5">Loading blogs...</div>
           ) : (
-            <div className="row cs_row_gap_30 cs_gap_y_30 justify-content-center">
-              {data.map((item, i) => (
-                <div key={i} className="col-lg-4">
-                  <div className="cs_post cs_style_1 cs_type_1">
-                    <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
-                      <img 
-                        src={getImageSrc(item.img)} 
-                        alt={item.title}
-                        loading="lazy"
-                        decoding="async"
-                      />
-                      <div className="cs_post_date cs_accent_bg cs_fs_18 cs_semibold cs_white_color cs_center position-absolute">
-                        {item.date}
-                      </div>
-                    </Link>
-                    <div className="cs_post_content_wrapper">
-                      <div className="cs_post_content">
-                        <div className="cs_post_meta_wrapper cs_mb_11">
-                          <div className="cs_post_meta">
-                            <span className="cs_accent_color"><CommentIcon size={16} /></span>
-                            <span className="cs_heading_color">{item.comments} Comments</span>
+            <>
+              {/*Category Filter Buttons */}
+              <div
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  gap: '10px',
+                  margin: '10px 0 30px 0',
+                  alignItems: 'center',
+                }}
+              >
+                {categories.map((cat) => (
+                  <button
+                    key={cat}
+                    onClick={() => handleCategoryChange(cat)}
+                    style={{
+                      padding: '8px 20px',
+                      borderRadius: '25px',
+                      border: '2px solid var(--cs-accent, #0066cc)',
+                      backgroundColor: selectedCat === cat ? 'var(--cs-accent, #0066cc)' : 'transparent',
+                      color: selectedCat === cat ? '#fff' : 'var(--cs-accent, #0066cc)',
+                      fontSize: '14px',
+                      fontWeight: '600',
+                      cursor: 'pointer',
+                      transition: 'all 0.25s ease',
+                      whiteSpace: 'nowrap',
+                      fontFamily: 'inherit',
+                    }}
+                    aria-pressed={selectedCat === cat}
+                  >
+                    {cat}
+                  </button>
+                ))}
+              </div>
+
+              {/* Results count */}
+              {filteredData.length > 0 && (
+                <p style={{ color: '#888', fontSize: '14px', marginBottom: '20px' }}>
+                  Showing {(currentPage - 1) * POSTS_PER_PAGE + 1}–{Math.min(currentPage * POSTS_PER_PAGE, filteredData.length)} of {filteredData.length} articles
+                </p>
+              )}
+
+              {/* Blog Cards Grid */}
+              {paginatedData.length === 0 ? (
+                <p style={{ textAlign: 'center', color: '#888', padding: '40px 0' }}>
+                  No posts found in this category.
+                </p>
+              ) : (
+                <div className="row cs_row_gap_30 cs_gap_y_30">
+                  {paginatedData.map((item, i) => (
+                    <div key={item.slug || i} className="col-lg-4">
+                      <div className="cs_post cs_style_1 cs_type_1">
+                        <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
+                          <img
+                            src={getImageSrc(item.img)}
+                            alt={item.title}
+                            loading="lazy"
+                            decoding="async"
+                          />
+                          <div className="cs_post_date cs_accent_bg cs_fs_18 cs_semibold cs_white_color cs_center position-absolute">
+                            {item.date}
                           </div>
-                          <div className="cs_post_meta">
-                            <span className="cs_accent_color"><PeopleIcon size={16} /></span>
-                            <span className="cs_heading_color">{item.admin}</span>
+                        </Link>
+                        <div className="cs_post_content_wrapper">
+                          <div className="cs_post_content">
+                            <div className="cs_post_meta_wrapper cs_mb_11">
+                              <div className="cs_post_meta">
+                                <span className="cs_accent_color"><CommentIcon size={16} /></span>
+                                <span className="cs_heading_color">{item.comments} Comments</span>
+                              </div>
+                              <div className="cs_post_meta">
+                                <span className="cs_accent_color"><PeopleIcon size={16} /></span>
+                                <span className="cs_heading_color">{item.admin}</span>
+                              </div>
+                            </div>
+                            <h3 className="cs_fs_20 cs_mb_5">
+                              <Link to={`/blog/${item.slug}/`}>{item.title}</Link>
+                            </h3>
+                            <p className="cs_mb_15">{item.shortdesc}</p>
+                            <Link to={`/blog/${item.slug}/`} className="cs_text_btn cs_style_1 cs_logo_blue cs_white_color">
+                              <ArrowRightIcon size={24} />
+                            </Link>
                           </div>
                         </div>
-                        <h3 className="cs_fs_20 cs_mb_5">
-                          <Link to={`/blog/${item.slug}/`}>{item.title}</Link>
-                        </h3>
-                        <p className="cs_mb_15">{item.shortdesc}</p>
-                        <Link to={`/blog/${item.slug}/`} className="cs_text_btn cs_style_1 cs_logo_blue cs_white_color">
-                          <ArrowRightIcon size={24} />
-                        </Link>
                       </div>
                     </div>
-                  </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              )}
+
+              {/* Pagination */}
+              {totalPages > 1 && (
+                <div
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    gap: '8px',
+                    marginTop: '50px',
+                    flexWrap: 'wrap',
+                  }}
+                >
+                  {/* Prev */}
+                  <button
+                    onClick={() => handlePageChange(currentPage - 1)}
+                    disabled={currentPage === 1}
+                    style={pageBtnStyle(false, currentPage === 1)}
+                    aria-label="Previous page"
+                  >
+                    ‹ Prev
+                  </button>
+
+                  {/* Page numbers */}
+                  {getPageNumbers().map((page, idx) =>
+                    page === '...' ? (
+                      <span
+                        key={`ellipsis-${idx}`}
+                        style={{ padding: '0 4px', color: '#888', fontSize: '18px', lineHeight: '40px' }}
+                      >
+                        …
+                      </span>
+                    ) : (
+                      <button
+                        key={page}
+                        onClick={() => handlePageChange(page)}
+                        style={pageBtnStyle(currentPage === page)}
+                        aria-label={`Page ${page}`}
+                        aria-current={currentPage === page ? 'page' : undefined}
+                      >
+                        {page}
+                      </button>
+                    )
+                  )}
+
+                  <button
+                    onClick={() => handlePageChange(currentPage + 1)}
+                    disabled={currentPage === totalPages}
+                    style={pageBtnStyle(false, currentPage === totalPages)}
+                    aria-label="Next page"
+                  >
+                    Next ›
+                  </button>
+                </div>
+              )}
+            </>
           )}
         </div>
         <div className="cs_height_80 cs_height_lg_40"></div>
