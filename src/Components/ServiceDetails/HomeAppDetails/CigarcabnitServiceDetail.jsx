@@ -507,7 +507,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0">The Benefits Of Cigar Cabinet Service Dubai
+              <h2 className="cs_fs_30 mb-0 text-light">The Benefits of Cigar Cabinet Service Dubai
               </h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
