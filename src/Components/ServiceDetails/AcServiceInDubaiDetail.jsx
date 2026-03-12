@@ -561,7 +561,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="service-card-item"><h3>AC Repair in Dubai for Improved Performance:</h3><p className="cs_fs_14">Is your AC not cooling effectively? Our AC technicians can diagnose and fix AC errors.</p></div>
               <div className="service-card-item"><h3>Regular AC Cleaning for Maximum Efficiency:</h3><p className="cs_fs_14">For optimal performance, keep your AC cleaning. We offer AC duct cleaning and filters for fresh, healthy air.</p></div>
               <div className="service-card-item"><h3>Essential AC Maintenance Service Dubai:</h3><p className="cs_fs_14">Regular AC maintenance is necessary. Our services help prepare your AC for the summer heat.</p></div>
-              <div className="service-card-item"><h3>Assistance with <a href="https://www.fajtradingllc.com/collections/air-conditioners"><strong>New AC</strong></a> Installation:</h3><p className="cs_fs_14">Upgrading to a new AC unit? Let our AC experts handle the selection, installation, and testing!</p></div>
+              <div className="service-card-item"><h3>Assistance with New AC Installation:</h3><p className="cs_fs_14">Upgrading to a <a href="https://www.fajtradingllc.com/collections/air-conditioners"><strong>New AC</strong></a> unit? Let our AC experts handle the selection, installation, and testing!</p></div>
               <div className="service-card-item"><h3>Emergency AC Repair in Dubai:</h3><p className="cs_fs_14">Experiencing unexpected AC breakdowns? Our 7-day emergency AC repairs is available to provide quick service.</p></div>
               <div className="service-card-item"><h3>AC Service Dubai Available Near Me Before Summer:</h3><p className="cs_fs_14">Get ready for summer! Schedule your AC tune up to ensure comfort during the heat.</p></div>
             </div>
@@ -614,7 +614,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <LazySection minHeight="300px"><AcProperties /></LazySection>
         <LazySection minHeight="300px"><MaintenanceContract /></LazySection>
 
-        {/* ✅ FIX: Testimonials — LazySection handles inView, ref used for data fetch */}
         <div ref={testimonialSectionRef} style={{ minHeight: '400px' }}>
           {testimonialSectionInView && testimonialData.length > 0 && (
             <Suspense fallback={<div style={{ height: '400px', background: '#f5f5f5' }} />}>

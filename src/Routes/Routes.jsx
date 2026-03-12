@@ -469,6 +469,10 @@ export const router = createBrowserRouter([
         path: "/blog/:slug",
         element: <Components.BlogDetailsPage />,
       },
+      // {
+      //   path: "/ac-calculator",
+      //   element: <Components.AcCalculator />,
+      // },
       {
         path: "/contact-us/",
         element: <Components.ContactPage />,

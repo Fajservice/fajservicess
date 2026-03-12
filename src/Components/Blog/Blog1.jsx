@@ -32,7 +32,7 @@ const ArrowRightIcon = ({ size = 24, color = "currentColor" }) => (
   </svg>
 );
 
-const POSTS_PER_PAGE = 20;
+const POSTS_PER_PAGE = 21;
 
 const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
   const [data, setData] = useState([]);
@@ -278,7 +278,6 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
                     )
                   )}
 
-                  {/* Next */}
                   <button
                     onClick={() => handlePageChange(currentPage + 1)}
                     disabled={currentPage === totalPages}
