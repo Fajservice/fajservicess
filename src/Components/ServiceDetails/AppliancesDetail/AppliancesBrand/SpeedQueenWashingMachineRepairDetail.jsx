@@ -636,7 +636,7 @@ const speedServicesData = [
         </section >
 
         {/* The Benefits Of Appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+        <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits of Speed Queen Appliances Service in Dubai  </h3>

@@ -514,7 +514,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         </section >
 
         {/* The Benefits O */}
-        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+        <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
           <div className="container">
             <div className="row justify-content-center">
               <h2 className="cs_fs_30 mb-0">The Benefits Of Ice Maker Service Dubai
