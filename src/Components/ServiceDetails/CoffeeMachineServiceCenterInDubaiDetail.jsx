@@ -612,21 +612,19 @@ const coffeemachineServicesData = [
               </h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                  <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
-                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Optimal Performance
                       </h3>
@@ -636,54 +634,44 @@ const coffeemachineServicesData = [
                   </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                  <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
                       <p className="small">Energy efficient coffee machines translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
-                  </div>
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                  <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
                     </div>
-
-                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                   <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/extending')} className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending-New')} className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Coffee Machine Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your coffee machines, delaying the need for replacements.</p>
 
                     </div>
-
-                  </div>
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                  <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
                       </h3>
                       <p className="small">Knowing your coffee machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
-                  </div>
                 </div>
               </div>
             </div>

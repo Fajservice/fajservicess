@@ -536,7 +536,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <div className="row justify-content-center">
               <h2 className="cs_fs_30 mb-0 text-light">Tips for Preparing for Your BBQ</h2>
-              <ul style={{ paddingLeft: '20px' }}>
+              <ul className="text-light" style={{ paddingLeft: '20px' }}>
                 <li><strong>Clean the grill:&nbsp;</strong>Inspect and clean your barbecue if it&apos;s been outside for a while. Even after use, it&apos;s a good idea to clean and dry it. Always follow the manufacturer's maintenance instructions.</li>
                 <li><strong>Cooking on Charcoal:&nbsp;</strong>If using charcoal instead of gas, make sure the coals are glowing red with a grey, powdery surface before cooking.</li>
                 <li><strong>Defrosting Meat:&nbsp;</strong>Frozen meat can cook unevenly on a BBQ. For best results, defrost it overnight in a lipped dish in the fridge. If you&apos;re short on time, use the microwave's defrost setting. Cook and eat the meat within 24 hours of defrosting.</li>

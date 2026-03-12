@@ -333,8 +333,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
               <h2 className="cs_fs_30 mb-0 text-light">What are the benefits of an Ecovacs vacuum cleaner?</h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                   <div className="benifit-box-container">
                       <div className="icon-img-block">
                        
                         <img src={getImageSrc('icon/efficiency-and-time')} alt="Efficiency" className="icon-img-block-icon" />
@@ -342,64 +341,52 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                       <h3 className="text-uppercase mb-2 cs_fs_16">Efficiency and Time-Saving</h3>
                       <p className="small">Cleaning large areas quickly can significantly reduce time than traditional methods. Robotic vacuums also require minimal effort to operate.</p>
                     </div>
-                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                  <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Superior Cleaning Performance</h3>
                       <p className="small">A robot vacuum cleaner removes dirt, pet hair, and dust mites more effectively than sweeping, improving indoor air quality.</p>
                     </div>
-                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                  <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/lifestyle')} alt="lifestyle" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Ideal for Busy Lifestyles</h3>
                       <p className="small">Robotic vacuums clean automatically, while cordless stick vacuums enable quick, effortless clean-ups.</p>
                     </div>
-                  </div>
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                  <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Cost-Effective Cleaning Solution</h3>
                       <p className="small">Ecovacs vacuum cleaner can save money by reducing professional cleaning needs & extending the life of carpets and flooring.</p>
                     </div>
-
-                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                  <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/wind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Improves Air Quality</h3>
                       <p className="small">The HEPA filter improves air quality by capturing allergens like dust and pet dander, benefiting allergy sufferers & reducing respiratory issues.</p>
                     </div>
-                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
+                  <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/robot-vacuum')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Vacuum and Mop Function</h3>
                       <p className="small">Robot vacuum and mop combos efficiently clean by vacuuming and mopping simultaneously, reducing the need for multiple tools.</p>
                     </div>
-                  </div>
                 </div>
               </div>
             </div>
