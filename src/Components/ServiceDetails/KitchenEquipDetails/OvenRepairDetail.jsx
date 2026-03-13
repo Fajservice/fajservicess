@@ -399,7 +399,7 @@ const OvenRepairDetail = ({
                   <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/HEATINGEFFICIENCY')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/HEATINGEFFICIENCY-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">HEATING EFFICIENCY</h3>
                       <p className="small">
@@ -412,7 +412,7 @@ const OvenRepairDetail = ({
                   <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/DISINFECTCOMPONENTS')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/DISINFECTCOMPONENTS-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">  DISINFECT COMPONENTS   </h3>
                       <p className="small">

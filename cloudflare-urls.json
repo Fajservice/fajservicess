@@ -1,49 +1,84 @@
 {
   "success": [
     {
-      "originalPath": "homeappliances-gallery/bbq-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/bbq-repair/public",
-      "id": "homeappliances-gallery/bbq-repair",
+      "originalPath": "icon/airflow-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/airflow-New/public",
+      "id": "icon/airflow-New",
       "success": true
     },
     {
-      "originalPath": "homeappliances-gallery/dispenser-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/dispenser-repair/public",
-      "id": "homeappliances-gallery/dispenser-repair",
+      "originalPath": "icon/CommercialGrinderMaintenance-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/CommercialGrinderMaintenance-New/public",
+      "id": "icon/CommercialGrinderMaintenance-New",
       "success": true
     },
     {
-      "originalPath": "homeappliances-gallery/hob-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/hob-repair/public",
-      "id": "homeappliances-gallery/hob-repair",
+      "originalPath": "icon/Customer-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Customer-New/public",
+      "id": "icon/Customer-New",
       "success": true
     },
     {
-      "originalPath": "homeappliances-gallery/oven-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/oven-repair/public",
-      "id": "homeappliances-gallery/oven-repair",
+      "originalPath": "icon/disinfection-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/disinfection-New/public",
+      "id": "icon/disinfection-New",
       "success": true
     },
     {
-      "originalPath": "homeappliances-gallery/refrigerator-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/refrigerator-repair/public",
-      "id": "homeappliances-gallery/refrigerator-repair",
+      "originalPath": "icon/EnhancedFoodQuality-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/EnhancedFoodQuality-New/public",
+      "id": "icon/EnhancedFoodQuality-New",
       "success": true
     },
     {
-      "originalPath": "homeappliances-gallery/washing-machine-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/washing-machine-repair/public",
-      "id": "homeappliances-gallery/washing-machine-repair",
+      "originalPath": "icon/EnsuresCompliance-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/EnsuresCompliance-New/public",
+      "id": "icon/EnsuresCompliance-New",
+      "success": true
+    },
+    {
+      "originalPath": "icon/Fan-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Fan-New/public",
+      "id": "icon/Fan-New",
+      "success": true
+    },
+    {
+      "originalPath": "icon/HEATINGEFFICIENCY-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/HEATINGEFFICIENCY-New/public",
+      "id": "icon/HEATINGEFFICIENCY-New",
+      "success": true
+    },
+    {
+      "originalPath": "icon/ImprovedWorkplceSafety-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/ImprovedWorkplceSafety-New/public",
+      "id": "icon/ImprovedWorkplceSafety-New",
+      "success": true
+    },
+    {
+      "originalPath": "icon/ImproveSpeedofOperations-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/ImproveSpeedofOperations-New/public",
+      "id": "icon/ImproveSpeedofOperations-New",
+      "success": true
+    },
+    {
+      "originalPath": "icon/thermo-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/thermo-New/public",
+      "id": "icon/thermo-New",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "homeappliances-gallery/bbq-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/bbq-repair/public",
-    "homeappliances-gallery/dispenser-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/dispenser-repair/public",
-    "homeappliances-gallery/hob-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/hob-repair/public",
-    "homeappliances-gallery/oven-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/oven-repair/public",
-    "homeappliances-gallery/refrigerator-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/refrigerator-repair/public",
-    "homeappliances-gallery/washing-machine-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/washing-machine-repair/public"
+    "icon/airflow-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/airflow-New/public",
+    "icon/CommercialGrinderMaintenance-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/CommercialGrinderMaintenance-New/public",
+    "icon/Customer-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Customer-New/public",
+    "icon/disinfection-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/disinfection-New/public",
+    "icon/EnhancedFoodQuality-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/EnhancedFoodQuality-New/public",
+    "icon/EnsuresCompliance-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/EnsuresCompliance-New/public",
+    "icon/Fan-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Fan-New/public",
+    "icon/HEATINGEFFICIENCY-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/HEATINGEFFICIENCY-New/public",
+    "icon/ImprovedWorkplceSafety-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/ImprovedWorkplceSafety-New/public",
+    "icon/ImproveSpeedofOperations-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/ImproveSpeedofOperations-New/public",
+    "icon/thermo-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/thermo-New/public"
   }
 }
