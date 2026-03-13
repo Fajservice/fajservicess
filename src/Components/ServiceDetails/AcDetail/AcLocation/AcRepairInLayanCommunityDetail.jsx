@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInLayanCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Layan Community - Central AC Repairs #1");
-    const metadescription = String(description || "Best FAJ AC Services in Layan community Dubai. We are experts in central, HVAC air conditioner repair and maintenance nearby Dubai. Call 043300002");
+    const metatitle = String(titleSeo || "Best AC Repair and Service in Layan Community, Dubai");
+    const metadescription = String(description || "For the best AC repair in the Layan Community, Dubai, choose FAJ! We provide maintenance for both central and split air conditioning services nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair al qusais, ac service al qusais, ac maintenance al qusais, ac installation al qusais, central ac service al qusais, split ac service al qusais, air conditioning repair al qusais, air conditioning service al qusais, air conditioning maintenance al qusais");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/layan-community/");
@@ -117,8 +117,7 @@ const AcRepairInLayanCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Layan Community</h1>
-
+                        <h1 className="cs_fs_30">Affordable AC Repair and Maintenance Servicing in Layan Community, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Layan Community, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

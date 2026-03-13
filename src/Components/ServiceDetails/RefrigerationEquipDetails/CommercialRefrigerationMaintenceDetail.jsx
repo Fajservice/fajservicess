@@ -491,7 +491,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/coolicon')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/coolicon-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_16">COOLING EFFICIENCY</h4>
                       <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>

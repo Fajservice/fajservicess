@@ -113,7 +113,6 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/samsung/">Samsung</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-media-city/">Dubai Media City</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-raffa/">Al Raffa</a></li>
-                        
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/hitachi/">Hitachi</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-meadows/">The Meadows</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah/">Jumeirah</a></li>
@@ -322,8 +321,31 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/">Rational Commercial kitchen Equipment</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/cedre-villas-silicon-oasis-dubai/">Cedre Villas Silicon Oasis</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-gardens/">The Gardens</a></li>
-                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barsha-south/">Al BArsha South</a></li>
-                    </ul>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barsha-south/">Al Barsha South</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/types-of-air-conditioners/">Types of Air Conditioners</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/what-is-vent-mode/">What is Vent Mode</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/benefits-of-smart-thermostats/">Benefits of Smart Thermostats</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-reset-o-general-ac/">How to Reset O General AC</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/is-air-fryer-healthy/">Is Air Fryer Healthy</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/ac-compressor-replacement-signs-causes-when-to-replace/">AC Compressor Replacement - Signs, Causes & When to Replace</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/top-10-signs-you-need-ac-repair-in-dubai/">Top 10 Signs You Need AC Repair in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/top-10-signs-you-need-ac-service-in-dubai/">Top 10 Signs You Need AC Service in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/washing-machine-problems-and-solutions-dubai/">Washing Machine Problems and Solutions Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/espresso-machine-cleaning-schedule-and-how-to-do-it/">Espresso Machine Cleaning Schedule and How To Do It</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/what-is-the-ideal-room-temperature-for-comfortable-living-across-different-ages-including-children-and-adults/">What is the Ideal Room Temperature for Comfortable Living Across Different Ages Including Children and Adults</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-ac-filter-boost-coling-perrformance-and-air-quality/">How AC Filter Boost Cooling Performance and Air Quality</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-choose-the-right-ac-repair-service/">How to Choose the Right AC Repair Service</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/the-complete-handbook-for-maintaining-a-dust-free-air-conditioner-in-dubai/">The Complete Handbook for Maintaining a Dust Free Air Conditioner in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-clean-bosch-washing-machine/">How to Clean Bosch Washing Machine</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/10-coffee-machine-problems-and-how-to-diy-fix-them-like-a-pro/">10 Coffee Machine Problems and How to DIY Fix Them Like a Pro</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-bagless-vacuum-cleaner-work/">How Bagless Vacuum Cleaner Work</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/dishwasher-cleaning-guide/">Dishwasher Cleaning Guide</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-clean-your-oven/">How to Clean Your Oven</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/midea-air-conditioner-maintenance-guide/">Midea Air Conditioner Maintenance Guide</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-clean-ac-condenser/">How to Clean AC Condenser</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/a-guide-to-diy-refrigerator-maintenance-at-home-keep-your-fridge-running-like-new/">A Guide to DIY Refrigerator Maintenance at Home - Keep Your Fridge Running Like New</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/ac-repair-dubai-questions-before-hiring-ac-repair-companies-dubai/">AC Repair Dubai - Questions Before Hiring AC Repair Companies Dubai</a></li>
+                        </ul>
                     </div>
                 </div>
             </section>

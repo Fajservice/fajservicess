@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Knowledge Village - Air Conditioning Repairs");
-    const metadescription = String(description || "FAJ 043300002 AC Services in Knowledge Village Dubai. We are experts in central & split air condition repair and maintenance nearby Dubai AC fix");
+    const metatitle = String(titleSeo || "Emergency AC Repair and Maintenance Service Knowledge Village");
+    const metadescription = String(description || "Book the best AC repair in Knowledge Village, Dubai, choose FAJ! We offer maintenance for central & split air conditioning services nearby. Call us today!");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in knowledge village, ac repair in knowledge village, ac maintenance in knowledge village, ac installation in knowledge village, ac cleaning in knowledge village, ac technician in knowledge village, ac service near me, ac repair near me, ac maintenance near me, ac installation near me, ac cleaning near me, ac technician near me");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/knowledge-village/");
@@ -148,7 +148,7 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Knowledge Village</h1>
+                        <h1 className="cs_fs_30">Top-Rated Air Conditioning Company: AC Repair and Maintenance Services in Knowledge Village, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Knowledge Village, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

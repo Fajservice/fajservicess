@@ -1,84 +1,14 @@
 {
   "success": [
     {
-      "originalPath": "icon/airflow-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/airflow-New/public",
-      "id": "icon/airflow-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/CommercialGrinderMaintenance-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/CommercialGrinderMaintenance-New/public",
-      "id": "icon/CommercialGrinderMaintenance-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/Customer-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Customer-New/public",
-      "id": "icon/Customer-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/disinfection-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/disinfection-New/public",
-      "id": "icon/disinfection-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/EnhancedFoodQuality-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/EnhancedFoodQuality-New/public",
-      "id": "icon/EnhancedFoodQuality-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/EnsuresCompliance-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/EnsuresCompliance-New/public",
-      "id": "icon/EnsuresCompliance-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/Fan-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Fan-New/public",
-      "id": "icon/Fan-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/HEATINGEFFICIENCY-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/HEATINGEFFICIENCY-New/public",
-      "id": "icon/HEATINGEFFICIENCY-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/ImprovedWorkplceSafety-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/ImprovedWorkplceSafety-New/public",
-      "id": "icon/ImprovedWorkplceSafety-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/ImproveSpeedofOperations-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/ImproveSpeedofOperations-New/public",
-      "id": "icon/ImproveSpeedofOperations-New",
-      "success": true
-    },
-    {
-      "originalPath": "icon/thermo-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/thermo-New/public",
-      "id": "icon/thermo-New",
+      "originalPath": "icon/robot-vacuum-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/robot-vacuum-New/public",
+      "id": "icon/robot-vacuum-New",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "icon/airflow-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/airflow-New/public",
-    "icon/CommercialGrinderMaintenance-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/CommercialGrinderMaintenance-New/public",
-    "icon/Customer-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Customer-New/public",
-    "icon/disinfection-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/disinfection-New/public",
-    "icon/EnhancedFoodQuality-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/EnhancedFoodQuality-New/public",
-    "icon/EnsuresCompliance-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/EnsuresCompliance-New/public",
-    "icon/Fan-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/Fan-New/public",
-    "icon/HEATINGEFFICIENCY-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/HEATINGEFFICIENCY-New/public",
-    "icon/ImprovedWorkplceSafety-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/ImprovedWorkplceSafety-New/public",
-    "icon/ImproveSpeedofOperations-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/ImproveSpeedofOperations-New/public",
-    "icon/thermo-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/thermo-New/public"
+    "icon/robot-vacuum-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/robot-vacuum-New/public"
   }
 }

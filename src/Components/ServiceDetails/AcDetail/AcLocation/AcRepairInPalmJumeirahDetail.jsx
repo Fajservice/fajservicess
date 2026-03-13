@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Palm Jumeirah - #1 Central Cooling Repair");
-    const metadescription = String(description || "If you are looking for Trane or Chiller FCU AC Services in Palm Jumeirah, Call FAJ 043300002 for Air Conditioner Maintenance & Service in Dubai");
+    const metatitle = String(titleSeo || "Best Air Conditioning Servicing and AC Repair in Palm Jumeirah");
+    const metadescription = String(description || "Get low-cost Air Conditioning servicing in Palm Jumeirah, Dubai. We specialise in the ducted & central AC repair & maintenance for both office & villas");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Palm Jumeirah, AC Repair in Palm Jumeirah, AC Maintenance in Palm Jumeirah, Central Cooling System in Palm Jumeirah, Trane AC Service in Palm Jumeirah, Chiller FCU AC Service in Palm Jumeirah");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/palm-jumeirah/");
@@ -148,7 +148,7 @@ const AcRepairInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Palm Jumeirah</h1>
+                        <h1 className="cs_fs_30">Premium Quality Air Conditioning Service and AC Repair in Palm Jumeirah, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Palm Jumeirah, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

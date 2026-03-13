@@ -66,180 +66,184 @@ const ApplianceSpecialise = () => {
                             </p>
 
                             <br />
-                            <p>
+                            <div className="specialize-section">
+                                <p>
                                 <a href="/services/home-appliances-repair/brands/aeg/">AEG</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/ariston/">Ariston</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/beko/">Beko</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/blomberg/">Blomberg</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/faber/">Faber</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/fagor/">Fagor</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/fisher-paykel/">Fisher and Paykel</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/foster/">Foster</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/gaggenau/">Gaggenau</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/hitachi/">Hitachi</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/hoover/">Hoover</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/indesit/">Indesit</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/neff/">Neff</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/smeg/">Smeg</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/sub-zero/">Sub Zero</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/terim/">Terim</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/zanussi/">Zanussi</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/de-dietrich/">De Dietrich</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/baumatic/">Baumatic</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/bertazzoni/">Bertazzoni</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/bompani/">Bompani</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/boston/">Boston</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/brandt/">Brandt</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/gibson/">Gibson</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/gorenje/">Gorenje</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/hisense/">Hisense</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/kelvinator/">Kelvinator</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/kenmore/">Kenmore</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/panasonic/">Panasonic</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/sanyo/">Sanyo</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/sears/">Sears</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/wolf/">Wolf</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/haier/">Haier</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/elica/">Elica</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/marvel/">Marvel</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/miele/">Miele</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/maytag/">Maytag</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/toshiba/">Toshiba</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/thermador/">Thermador</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/sharp/">Sharp</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/admiral/">Admiral</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
                                 <a href="/services/home-appliances-repair/brands/aftron/">Aftron</a>
 
-                                <span>&nbsp;-&nbsp;</span>
+                                
 
-                                <a href="/services/home-appliances-repair/brands/unimac/">Unimac</a></p>
+                                <a href="/services/home-appliances-repair/brands/unimac/">Unimac</a>
+                                </p>
+                            </div>
+                            
                         </div>
 
                     </div>

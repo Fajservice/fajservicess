@@ -264,7 +264,7 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
           </div>
         </section>
-
+        <PriceCardHomeCat />
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">

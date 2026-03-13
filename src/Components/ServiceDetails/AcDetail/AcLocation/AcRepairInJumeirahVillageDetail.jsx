@@ -28,8 +28,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 	// For SEO
-	const metatitle = String(titleSeo || "AC Services In Jumeirah Village - Cheap AC Repairs Near Me");
-	const metadescription = String(description || "If you are looking for the best ac services in jumeirah village dubai. Call FAJ 043300002 for low cost central & split a/c system repairing nearby..");
+	const metatitle = String(titleSeo || "Trusted AC Repair & AC Maintenance Service in Jumeirah Village");
+	const metadescription = String(description || "If you are looking for the best AC repair and service in Jumeirah Village, Dubai, Call FAJ for low-cost central and split A/C system maintenance nearby");
 	const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
 	const metaKeyword = String(Keyword || "AC Repair in Jumeirah Village, Air Conditioning Service in Jumeirah Village, Air Con Maintenance in & AC Installation in Jumeirah Village");
 	const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-village/");
@@ -148,7 +148,7 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
 				<section className="section cs_py_30">
 					<div className="container">
-						<h1 className="cs_fs_30">AC Service in Jumeirah Village Dubai</h1>
+						<h1 className="cs_fs_30">Top-Quality AC Repair and Maintenance Services in Jumeirah Village, Dubai</h1>
 						{/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
 						<p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
 							<a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Jumeirah Village Dubai, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

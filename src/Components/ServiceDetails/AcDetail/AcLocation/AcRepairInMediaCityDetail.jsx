@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInMediaCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Media City - #1 Air Conditioning Repairs");
-    const metadescription = String(description || "Get it done affordably. Dail now 043300002 for ac services in media city dubai and the best chiller air conditioner repair & maintenance and fix aircon");
+    const metatitle = String(titleSeo || "Fast AC Cleaning and Affordable AC Repair in Media City, Dubai");
+    const metadescription = String(description || "Fast AC cleaning and AC repair in Media City, Dubai. Keep your system efficient & grow its lifespan with the maintenance service experts at FAJ");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in media city, ac repair in media city, ac maintenance in media city, air conditioning services in media city, air conditioning repair in media city, air conditioning maintenance in media city, ac service dubai, ac repair dubai, ac maintenance dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/media-city/");
@@ -116,7 +116,7 @@ const AcRepairInMediaCityDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Media City</h1>
+                        <h1 className="cs_fs_30">Top-Quality AC Cleaning, AC Repair and Maintenance Service in Media City, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Media City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

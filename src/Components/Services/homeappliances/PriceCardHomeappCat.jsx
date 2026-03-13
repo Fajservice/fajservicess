@@ -128,7 +128,7 @@ const PriceCardHomeCat = ({ services = [] }) => {
   };
 
   return (
-    <section className="ac_service_cards_section cs_py_30 pt-3">
+    <section className="ac_service_cards_section py-4 pt-3">
       <div className="container">
         <div className="ac_cards_grid_wrapper">
           {servicesData.map((service) => (
