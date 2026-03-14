@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJumeirahLakeTowersDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Jumeirah Lake Towers - AC Repair - #1 Fix");
-    const metadescription = String(description || "If you are looking for best ac services in jumeirah lake towers dubai. Call now FAJ 043300002 for centralized air conditioning system servicing..");
+    const metatitle = String(titleSeo || "Expert AC Service and AC Repair in Jumeirah Lake Towers, Dubai");
+    const metadescription = String(description || "Choose the premier AC service & AC repair in Jumeirah Lake Towers, Dubai. We offer maintenance solutions for FCU, ducted split & central AC near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in jumeirah lake towers, ac repair in jumeirah lake towers, ac maintenance in jumeirah lake towers, ac installation in jumeirah lake towers, ac cleaning in jumeirah lake towers, ac service near me, ac service dubai, ac service sharjah");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-lake-towers/");
@@ -118,7 +118,7 @@ const AcRepairInJumeirahLakeTowersDetail = ({ subtitle, title, reviewsbg, titleS
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Jumeirah Lake Towers</h1>
+                        <h1 className="cs_fs_30">High-Quality AC Repair and Cleaning Services in Jumeirah Lake Towers, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Jumeirah Lake Towers, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

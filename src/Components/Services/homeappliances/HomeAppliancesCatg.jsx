@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet-async';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 import ApplianceCategories from './ApplianceCategories';
-import BlogWashingMachine from '../../Blog/BlogWashingMachine';
+import BlogHomeAppliances from '../../Blog/BlogHomeAppliances';
 import PriceCardHomeCat from './PriceCardHomeappCat';
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import { Link } from 'react-router-dom';
@@ -137,7 +137,7 @@ const GALLERY_ITEMS = [
   { src: 'homeappliances-gallery/bbq-repair', alt: 'bbq repair' },
   { src: 'homeappliances-gallery/hob-repair', alt: 'hob repair' },
   { src: 'homeappliances-gallery/oven-repair', alt: 'oven repair' },
-  { src: 'homeappliances-gallery/refrigerator-repair', alt: 'refrigerator repair' },
+  { src: 'fridgerepair', alt: 'refrigerator repair' },
   { src: 'homeappliances-gallery/dispenser-repair', alt: 'dispenser repair' },
 ];
   const problemCards = useMemo(() =>
@@ -217,14 +217,15 @@ const GALLERY_ITEMS = [
           </div>
         </section>
         <PriceCardHomeCat />
-        <section className="section  mt-0">
+        <section className="section mt-0">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4 pt-4 px-4">
-              Select Repair Services by Category – Easily Find the Right Appliance Repair
-            </h2>
+            
             <div className="row align-items-center g-0 border border-dark rounded overflow-hidden">
               <div className="col-12 col-lg-7 px-4 py-4">
-                <p>
+                <h2 className="cs_fs_24 text-align-left mt-0 mb-2">
+                  Select Repair Services by Category – Easily Find the Right Appliance Repair
+                </h2>
+                <p className="mb-0">
                   At FAJ Technical Services L.L.C. we simplify the process of selecting the right repair service for
                   your home appliances. Whether you need washing machine repair, refrigerator repair, household
                   appliance fixes, BBQ grill cleaning, vacuum cleaner repair, cigar humidor maintenance, or any
@@ -320,7 +321,7 @@ const GALLERY_ITEMS = [
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Ensuring-Safety-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -331,7 +332,7 @@ const GALLERY_ITEMS = [
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Optimal-Performance-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Optimal Performance
                       </h3>
@@ -344,7 +345,7 @@ const GALLERY_ITEMS = [
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Lower-Energy-Bills-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
                       <p className="small">Energy efficient Home Appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -356,7 +357,7 @@ const GALLERY_ITEMS = [
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Saving-Money-on-Repair-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -368,7 +369,7 @@ const GALLERY_ITEMS = [
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/extending-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Extending Appliance Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home Home Appliances, delaying the need for replacements.</p>
@@ -382,7 +383,7 @@ const GALLERY_ITEMS = [
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Peace-of-Mind-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
                       </h3>
@@ -480,192 +481,66 @@ const GALLERY_ITEMS = [
             </div>
           </div>
         </section>
-         <section className="section cs_py_30 bg-light-gray">
+         <section className="section cs_py_30 bg-light-gray specialize-section">
             <div className="container">
               <h3>We specialise in Home Appliances services for the following brands </h3>
               <div className="row">
                 <div className="col-12">
                   <ul className="mb-0">
-                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/smeg/">Smeg Home Appliances Repair</a>:</strong> FAJ is here to assist you when things go wrong. We understand that your Smeg Home Appliances is essential for daily life, helping keep your food fresh and your meals prepared. We offer electric home appliances repair near me service, gas home appliances repair and maintenance services in Dubai</li>
-                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/siemens/">Siemens Home Appliances Repair</a>:</strong> If you're experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai. Contact us for fix gas home appliances, and gas home appliances servicing near by your location in Dubai.</li>
-                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/la-germania/">La Germania Gas Home Appliances Repair</a>:</strong> When you need La Germania gas oven repair in Dubai, for La Germania electric oven service and repair in Dubai, our qualified home appliances repair technicians are available throughout.</li>
-                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/">Bosch Electric Home Appliances Repair</a>:</strong> If you're searching for the best Bosch electric Home Appliances repair and stove oven repair company in Dubai, FAJ is the perfect choice. They are renowned for delivering exceptional service for all Bosch electric Home Appliances maintenance and are recognized as the leading Bosch appliance service provider in the region.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/smeg/">Smeg Home Appliances Repair</a>:</strong> FAJ is here to assist you when things go wrong. We understand that your Smeg Home Appliances is essential for daily life, helping keep your food fresh and your meals prepared. We offer  home appliances repair near me and maintenance services in Dubai</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/siemens/">Siemens Home Appliances Repair</a>:</strong> If you're experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai. Contact us to fix home appliances servicing near by your location in Dubai.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/la-germania/">La Germania Home Appliances Repair</a>:</strong> When you need La Germania gas oven repair in Dubai, for La Germania electric oven service and repair in Dubai, our qualified home appliances repair technicians are available throughout.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/">Bosch Home Appliances Repair</a>:</strong> If you're searching for the best Bosch  Home Appliances repair and stove oven repair company in Dubai, FAJ is the perfect choice. They are renowned for delivering exceptional service for all Bosch  Home Appliances maintenance and are recognized as the leading Bosch appliance service provider in the region.</li>
                     <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/viking/">Viking Stove and Home Appliances Repair</a>:</strong> Your Viking appliances may need repair or maintenance, and we can help. For high-quality Viking stove and microwave oven repair near me service in Dubai, trust FAJ.</li>
-                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/daewoo/">Daewoo Home Appliances Repair</a>:</strong> We offer expert Daewoo gas home appliances repair services in Dubai. Our experienced technicians possess the knowledge and skills to diagnose and microwave oven repair issues with Daewoo electric stove oven maintenance near me service, refrigerators, washing machines, dryers, and more.</li>
-                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/neff/">Neff Home Appliances Repair</a>:</strong> Are you worried about your Neff Home Appliances malfunctioning and looking for a trustworthy Neff Home Appliances repair and service in Dubai? Contact us for same-day electrical home appliances repair near me service!</li>
-                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/teka/">Teka Stove and Home Appliances Repair</a>:</strong> If you're looking for the best Teka Home Appliances repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, fixing gas oven and gas oven servicing. FAJ is recognised as the leading Teka appliance service provider in the region.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/daewoo/">Daewoo Home Appliances Repair</a>:</strong> We offer expert Daewoo home appliances repair services in Dubai. Our experienced technicians possess the knowledge and skills to diagnose and microwave oven repair issues with Daewoo electric stove oven maintenance near me service, refrigerators, washing machines, dryers, and more.</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/neff/">Neff Home Appliances Repair</a>:</strong> Are you worried about your Neff Home Appliances malfunctioning and looking for a trustworthy Neff Home Appliances repair and service in Dubai? Contact us for same-day home appliances repair near me service!</li>
+                    <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/home-appliances-repair/brands/teka/">Teka Home Appliances Repair</a>:</strong> If you're looking for the best Teka Home Appliances repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, fixing gas oven and gas oven servicing. FAJ is recognised as the leading Teka appliance service provider in the region.</li>
                   </ul>
 
                   <p><a href="/services/home-appliances-repair/brands/aeg/">AEG</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/ariston/">Ariston</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/beko/">Beko</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/blomberg/">Blomberg</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/electrolux/">Electrolux</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/faber/">Faber</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/fagor/">Fagor</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/fisher-paykel/">Fisher and Paykel</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/foster/">Foster</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/gaggenau/">Gaggenau</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/hitachi/">Hitachi</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/hoover/">Hoover</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/indesit/">Indesit </a>
-                    <span>&nbsp;-&nbsp;</span>
-                    <a href="/services/home-appliances-repair/brands/lg/"> LG</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
+                                        
+                                        <a href="/services/home-appliances-repair/brands/lg/"> LG</a>
                     <a href="/services/home-appliances-repair/brands/sub-zero/">Sub Zero</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/terim/">Terim</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/zanussi/">Zanussi</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/de-dietrich/">De Dietrich</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/baumatic/">Baumatic</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/bertazzoni/">Bertazzoni</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/bompani/">Bompani</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/boston/">Boston</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/brandt/">Brandt</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/gibson/">Gibson</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/gorenje/">Gorenje</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/hisense/">Hisense</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/kelvinator/">Kelvinator</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/kenmore/">Kenmore</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/panasonic/">Panasonic</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/sanyo/">Sanyo</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/sears/">Sears</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/wolf/">Wolf</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/haier/">Haier</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/elica/">Elica</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/marvel/">Marvel</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/miele/">Miele</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/maytag/">Maytag</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/toshiba/">Toshiba</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/thermador/">Thermador</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/sharp/">Sharp</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/admiral/">Admiral</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/aftron/">Aftron</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
                     <a href="/services/home-appliances-repair/brands/unimac/">Unimac</a>
                   </p>
                 </div>
@@ -706,7 +581,7 @@ const GALLERY_ITEMS = [
                       alt={alt}
                       loading="lazy"
                       width="400" height="300"
-                      style={{ width: '100%', height: 'auto', display: 'block' }}
+                      style={{ width: '100%', height: '100%', display: 'block' }}
                     />
                   </div>
                 ))}
@@ -724,7 +599,7 @@ const GALLERY_ITEMS = [
           />
         )}
 
-        <BlogWashingMachine />
+        <BlogHomeAppliances />
         <section className="section cs_py_30 bg-dark-blue text-light">
           <Serviceappointemnt
             subtitle2="Contact us"

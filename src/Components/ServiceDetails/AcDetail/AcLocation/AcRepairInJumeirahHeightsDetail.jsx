@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "AC Services In Jumeirah Heights Dubai - #1 A/C Servicing");
-  const metadescription = String(description || "If you are looking for best ac services in jumeirah heights dubai. Call 043300002 for centralized a/c system repairing and a/c fixing in my location");
+  const metatitle = String(titleSeo || "Expert Air Conditioner Repair & Service in Jumeirah Heights, Dubai ");
+  const metadescription = String(description || "Book the best air conditioner repair and service in Jumeirah Heights, Dubai. We offer FCU, ducted split and central aircon maintenance solutions near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Services In Jumeirah Heights, AC Repair in Jumeirah Heights, AC Maintenance in Jumeirah Heights, Air Conditioning Service in Jumeirah Heights, Centralized A/C System Repairing in Jumeirah Heights, A/C Fixing in Jumeirah Heights");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-heights/");
@@ -117,7 +117,7 @@ const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Service in Jumeirah Heights</h1>
+            <h1 className="cs_fs_30">Top-Rated Air Conditioner Repair and Maintenance Services in Jumeirah Heights</h1>
             {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Jumeirah Heights, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

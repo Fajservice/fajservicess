@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Panasonic AC Repair Best Price in Dubai | Maintenance Service");
-  const metadescription = String(description || "Panasonic AC repair & service in Dubai. FAJ employs experienced technicians who can repair your aircon unit on the same day to ensure optimal cooling.");
+  const metatitle = String(titleSeo || "Best Panasonic AC Repair and Maintenance Service in Dubai");
+  const metadescription = String(description || "Top-rated Panasonic AC repair and service in Dubai. FAJ employs experienced technicians who can fix your AC on same day to ensure optimal cooling");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Panasonic AC Repair in Dubai, Panasonic AC Maintenance in Dubai, Panasonic AC Fix in Dubai, Panasonic AC Service in Dubai, Panasonic Air Condition Repair in Dubai, Panasonic Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/");
@@ -289,7 +289,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Panasonic AC Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">High-Quality Panasonic AC Repair and Maintenance Services in Dubai</h1>
             <p>Are you looking for reliable Panasonic AC repair and service in Dubai? <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been the top choice for Panasonic air conditioning solutions in Dubai and Sharjah since 2010. Our experienced technicians are equipped to repair your air conditioning unit on the same day, ensuring optimal cooling.<br />We specialise in a complete range of services, including Panasonic AC repair, cleaning, maintenance, and installation for both residential and commercial units. Our expert team is dedicated to optimising your system's performance, creating a comfortable and healthy indoor environment. Trust us for dependable expertise and outstanding service.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

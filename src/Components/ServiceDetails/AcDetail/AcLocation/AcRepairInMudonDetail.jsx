@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "AC Services In Mudon - Air Conditioner Repairing -Aircon Fix");
-  const metadescription = String(description || "Call 043300002 AC Services in Mudon Dubai. We are experts in central, hvac air conditioning repairing and maintenance near me Dubai AC fix");
+  const metatitle = String(titleSeo || "Expert AC Repair Service and Maintenance in Mudon, Dubai");
+  const metadescription = String(description || "Get the best AC repair service in Mudon, Dubai. Keep your system efficient and extend its lifespan with the central & ducted maintenance experts at FAJ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "ac services in mudon, ac repair in mudon, ac maintenance in mudon, air conditioning services in mudon, air conditioner repair in mudon, aircon fix in mudon, ac service near me mudon, ac technician in mudon, ac cleaning service in mudon");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/mudon/");
@@ -147,7 +147,7 @@ const AcRepairInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Service in Mudon</h1>
+            <h1 className="cs_fs_30">Affordable and High-Quality AC Repair and Maintenance Services in Mudon, Dubai</h1>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Mudon, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

@@ -24,7 +24,7 @@ const getImageSrc = (imgPath) => {
 const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Rheem AC Maintenance and Rheem AC Repair & Service Dubai");
+  const metatitle = String(titleSeo || "Top Rheem AC Repair and Maintenance Services in Dubai");
   const metadescription = String(description || "Are you looking for professional Rheem AC maintenance in Dubai? Since 2010, FAJ has been providing Rheem AC repair & services in UAE. Call us now!");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Rheem AC Repair, Rheem Air Conditioner Service, Rheem AC Maintenance Dubai, Rheem AC Repair Dubai, Rheem Air Conditioning Dubai, Rheem AC Service Dubai, Rheem Air Conditioner Repair Dubai, Rheem AC Installation Dubai, Rheem HVAC Service Dubai");
@@ -273,7 +273,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Rheem Air Conditioning Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Rheem Air Conditioning Repair and Maintenance Service in Dubai</h1>
             <p>With over a decade of experience since 2010 in providing Rheem AC repair to make homes comfortable year-round, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is your premier reference for HVAC systems, central air conditioning, VRF systems, ducted split AC unit maintenance services, and more. Our dedicated team is ready to deliver high-quality, professional service to ensure you and your family remain comfortable in both home and business environments.<br />A Rheem air conditioning is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Rheem AC maintenance is important. In Dubai, professional cleaning services for Rheem units are available to keep your system running efficiently
             </p>
 

@@ -36,11 +36,11 @@ const AcRepairInRitzDetail = ({
     URL }) => {
 
     const metaTitle = String(
-        titleSeo || "AC Services In The Ritz Carlton Difc AC Repair In My Area 1"
+        titleSeo || "Top Air Conditioning Repair & Service in The Ritz Carlton DIFC"
     );
 
     const metaDescription = String(
-        description || "Get AC Services in the Ritz Carlton DIFC. We are experts in central Cooling Air Condition maintenance, fix service nearby Dubai Fixing Aircon"
+        description || "Top AC repair and service in The Ritz Carlton DIFC, Dubai. We specialise in HVAC repairs and central A/C maintenance. Contact us today at 04-3300002"
     );
 
     const metaAuthor = String(
@@ -149,7 +149,7 @@ const AcRepairInRitzDetail = ({
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in the Ritz Carlton DIFC</h1>
+                        <h1 className="cs_fs_30">Same-Day Air Conditioning Service, Repair, and Maintenance in the Ritz Carlton DIFC</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me the Ritz Carlton DIFC, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

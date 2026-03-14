@@ -26,8 +26,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInMotorCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Motor City Dubai - Air Conditioner Fixing #1");
-    const metadescription = String(description || "T:043300002 FAJ AC Services in Motor City Dubai. We are experts in air conditioner maintenance and repair near me Dubai AC fix Air Con repairs");
+    const metatitle = String(titleSeo || "Best Air Conditioner Repair and Service in Motor City, Dubai");
+    const metadescription = String(description || "Same-day Air Conditioner repair and service in Motor City, Dubai. Keep your system efficient & grow its lifespan with the maintenance experts at FAJ");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in motor city, ac repair in motor city, ac maintenance in motor city, air conditioner service in motor city, air conditioner repair in motor city, air conditioner maintenance in motor city, ac technician in motor city, ac cleaning in motor city, ac installation in motor city, ac gas refilling in motor city");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/motor-city/");
@@ -128,7 +128,7 @@ const AcRepairInMotorCityDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Motor City</h1>
+                        <h1 className="cs_fs_30">Top-Rated Air Conditioner Repair, Maintenance, and Cleaning Services in Motor City, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Motor City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

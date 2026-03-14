@@ -29,8 +29,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairinTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In The Greens -#1 A/C Maintenance - A/C Repair");
-    const metadescription = String(description || "If you are looking for best ac services in the greens dubai. Call FAJ 043300002 for emergency centralized fcu a/c system repairing and servicing.");
+    const metatitle = String(titleSeo || "Same-Day Air Conditioner Repair and Service in The Greens");
+    const metadescription = String(description || "If you are looking for the best AC repair in Greens Dubai, call FAJ at 043300002 for emergency centralised FCU A/C system maintenance and servicing");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in The Greens, Air Conditioning Service in The Greens, Air Con Maintenance & AC Installation in The Greens");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-greens/");
@@ -120,7 +120,7 @@ const AcRepairinTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in The Greens</h1>
+                        <h1 className="cs_fs_30">Cost Efective Air Conditioner Repair and Maintenance Service in The Greens, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me The Greens, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

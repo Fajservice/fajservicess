@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInTheViewsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In The Views - #1 AC Maintenance - A/C Fixing");
-    const metadescription = String(description || "Get it done affordably cost. Call FAJ 043300002 for ac services in the views dubai and the best chiller air conditioner repairs & maintenance dubai");
+    const metatitle = String(titleSeo || "Best AC Repair and Maintenance Services in The Views, Dubai");
+    const metadescription = String(description || "Get affordable AC repair and services in The Views, Dubai. Call FAJ at 043300002 for the best central air conditioner cleaning and maintenance near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In The Views, AC Maintenance In The Views, AC Repair In The Views, Air Conditioner Service In The Views, Air Conditioning Service In The Views, Chiller Service In The Views, Chiller Repair In The Views, HVAC Service In The Views, HVAC Repair In The Views");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-views/");
@@ -147,7 +147,7 @@ const AcRepairInTheViewsDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in The Views</h1>
+                        <h1 className="cs_fs_30">Premium Quality AC Repair and Maintenance Service in The Views, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me The Views, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

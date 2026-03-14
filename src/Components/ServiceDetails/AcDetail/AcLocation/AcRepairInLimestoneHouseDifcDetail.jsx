@@ -28,8 +28,8 @@ const AcRepairInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsbg, titleS
 
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In Limestone House Difc - AC Maintenance #1");
-    const metadescription = String(description || "Dial: 043300002 | AC Services in Limestone House DIFC - Get best central & HVAC (Air Conditioner) maintenance service near me area Dubai");
+    const metatitle = String(titleSeo || "Best AC Services and AC Repair in Limestone House DIFC, Dubai");
+    const metadescription = String(description || "Get the best AC repair and service in Limestone House DIFC, Dubai. We provide cleaning, maintenance & installation for residential and commercial unit");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Limestone House DIFC, Air Conditioning Service in Limestone House DIFC, Air Con Maintenance & AC Installation in Limestone House DIFC");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/limestone-house-difc/");
@@ -119,7 +119,7 @@ const AcRepairInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsbg, titleS
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Limestone House DIFC</h1>
+                        <h1 className="cs_fs_30">Same-Day Air Conditioning Service, Repair, and Maintenance in Limestone House DIFC</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>,  AC maintenance, AC repair near me Limestone House DIFC, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

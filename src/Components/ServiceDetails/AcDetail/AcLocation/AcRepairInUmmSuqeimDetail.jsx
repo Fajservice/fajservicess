@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best AC Services In Umm Suqeim - AC Repair Dubai Near Me #1");
-  const metadescription = String(description || "Gas Filling and AC Services in Umm Suqeim Dubai. Call an 043300002 for AC compressor fixing, motor repair and general maintenance near me.");
+  const metatitle = String(titleSeo || "Best AC Repair and Maintenance Service in Umm Suqeim, Dubai");
+  const metadescription = String(description || "Book the best AC repair and maintenance services in Umm Suqeim, Dubai. Call 043300002 for AC compressor fixing, motor, and cleaning near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Umm Suqeim Dubai – Home Appliance Installation, Maintenance & Service Centre in Umm Suqeim Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/umm-suqeim/");
@@ -147,7 +147,7 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Service in Umm Suqeim</h1>
+            <h1 className="cs_fs_30">Top-Rated Air Conditioning Company: AC Repair and Maintenance Service in Umm Suqeim, Dubai</h1>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Umm Suqeim, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

@@ -230,7 +230,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                        <img src={getImageSrc('icon/Fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
@@ -260,7 +260,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                        <img src={getImageSrc('icon/Customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Peace of Mind</h3>
                       <p className="small">With FAJ Company's AC Service in Dubai, you can enjoy peace of mind knowing your cooling needs are in expert hands.</p>

@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Split AC Cleaning | Daewoo AC Repair and Maintenance Dubai");
-  const metadescription = String(description || "Are You Looking for fast Daewoo split AC repair in Dubai? We are providing service in Sharjah for window AC maintenance services near you");
+  const metatitle = String(titleSeo || "Best Daewoo AC Repair Service and Split AC Maintenance Dubai");
+  const metadescription = String(description || "Are You Looking for fast Daewoo split AC repair in Dubai? We are providing service in Sharjah for window Daewoo AC maintenance services near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Daewoo AC Repair in Dubai, Daewoo AC Maintenance in Dubai, Daewoo AC Service in Dubai, Daewoo Air Conditioner Repair in Dubai, Daewoo Air Conditioner Maintenance in Dubai, Daewoo Air Con Repair in Dubai, Daewoo Air Con Service in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/daewoo/");
@@ -277,7 +277,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Daewoo AC Repair and Cleaning Service in Dubai</h1>
+            <h1 className="cs_fs_30">Cost Efective Daewoo AC Repair and Cleaning Service in Dubai</h1>
             <p>For year-round comfort, it's important to address challenges like summer humidity, warm nights, and indoor allergens effectively.
               <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>  has established itself as the leading provider of Daewoo air conditioning solutions in Dubai and Sharjah.
               <br />

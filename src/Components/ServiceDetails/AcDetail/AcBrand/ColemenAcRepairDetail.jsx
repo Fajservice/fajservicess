@@ -299,8 +299,8 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Coleman Air Conditioning Cleaning and Maintenance Service</title>
-          <meta name="description" content="Relax with Residential And Commercial Coleman Air Conditioning. We are experts in HVAC and central air conditioner repair, maintenance service Dubai" />
+          <title>The #1 Coleman Air Conditioning Cleaning & Maintenance Service</title>
+          <meta name="description" content="Relax with Residential And Commercial Best Coleman Air Conditioning. We are experts in HVAC & central Coleman AC repair, maintenance service Dubai" />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -308,15 +308,15 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Coleman Air Conditioning Cleaning and Maintenance Service" />
-          <meta property="og:description" content="Relax with Residential And Commercial Coleman Air Conditioning. We are experts in HVAC and central air conditioner repair, maintenance service Dubai" />
+          <meta property="og:title" content="The #1 Coleman Air Conditioning Cleaning & Maintenance Service" />
+          <meta property="og:description" content="Relax with Residential And Commercial Best Coleman Air Conditioning. We are experts in HVAC & central Coleman AC repair, maintenance service Dubai" />
           <meta property="og:url" content={metaURL}/>
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Coleman Air Conditioning Cleaning and Maintenance Service" />
-          <meta name="twitter:description" content="Relax with Residential And Commercial Coleman Air Conditioning. We are experts in HVAC and central air conditioner repair, maintenance service Dubai" />
+          <meta name="twitter:title" content="The #1 Coleman Air Conditioning Cleaning & Maintenance Service" />
+          <meta name="twitter:description" content="Relax with Residential And Commercial Best Coleman Air Conditioning. We are experts in HVAC & central Coleman AC repair, maintenance service Dubai" />
           <meta name="twitter:image" content={metaImage} />
           <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
@@ -328,7 +328,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Coleman Air Conditioner Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Coleman Air Conditioning Repair and Maintenance Service in Dubai</h1>
             <p><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>,  established in 2010, boasts an experienced facilities team specializing in Coleman HVAC repair, maintenance, and installation in Dubai and Sharjah for both residential and commercial units.
               <br /> A Coleman air conditioner is essential for maintaining a comfortable indoor environment year-round. Regular AMC servicing is key to optimal performance, and we offer professional Coleman air conditioner servicing in Dubai to ensure your system runs smoothly and efficiently.
             </p>

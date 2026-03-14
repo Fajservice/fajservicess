@@ -359,7 +359,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
-                      <img src={getImageSrc('icon/Optimal-Performance-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                     </div>
                     <h3 className="text-uppercase mb-2 cs_fs_16">Superior Cleaning Performance</h3>
                     <p className="small">A robotic vacuum cleaner effectively removes dirt, pet hair, and dust mites, improving indoor air quality compared to traditional sweeping methods.</p>
@@ -378,7 +378,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Saving-Money-on-Repair-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Cost-Effective Cleaning Solution</h3>
                       <p className="small">Roborock vacuum cleaners save money by reducing the need for professional cleaning and extending the life of carpets and flooring.</p>

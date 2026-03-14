@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInOldTownDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Central AC Services In Old Town Dubai - Air Con Fix Dubai #1");
-    const metadescription = String(description || "Get the Best AC Services in Old Town Dubai with FAJ experts in Central Cooling, FCU, HVAC Air Conditioner Maintenance & Repair near me Dubai");
+    const metatitle = String(titleSeo || "Best AC Repair Service & Maintenance Near You, Old Town Dubai");
+    const metadescription = String(description || "Get low-cost AC repair service in Old Town Dubai. We specialise in the ducted & central AC maintenance & cleaning for both office and villa properties");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Old Town Dubai, AC Repair in Old Town Dubai, AC Maintenance in Old Town Dubai, Central AC Services in Old Town Dubai, Air Con Fix Dubai, HVAC Services in Old Town Dubai, Air Conditioner Repair Dubai, Air Conditioner Maintenance Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/old-town-dubai/");
@@ -148,7 +148,7 @@ const AcRepairInOldTownDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Old Town Dubai</h1>
+                        <h1 className="cs_fs_30">Top-Quality AC Repair Service and Maintenance in Old Town, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Old Town Dubai, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

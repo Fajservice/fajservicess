@@ -29,8 +29,8 @@ const AcRepairInMethaDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
     // For SEO
     const metatitle = titleSeo?.trim()
         ? titleSeo
-        : "Best AC Services In Oud Metha - AC Cleaning Service #1";
-    const metadescription = String(description || "Get Fast & Professional AC Services in Oud Metha - Call 043300002 for your central & split Air Conditioner maintenance, repair near me, & Air con fix");
+        : "Top AC Repair and AC Maintenance Service in Oud Metha, Dubai";
+    const metadescription = String(description || "Fast AC repair and AC cleaning in Oud Metha, Dubai. Keep your system efficient & grow its lifespan with the maintenance service experts at FAJ");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair & Service in Oud Metha, Air Con Maintenance in Oud Metha, AC Installation in Oud Metha, AC Technician in Oud Metha");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/oud-metha/");
@@ -119,7 +119,7 @@ const AcRepairInMethaDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Oud Metha</h1>
+                        <h1 className="cs_fs_30">Best Air Conditioning Repair, Maintenance, and Cleaning Services in Oud Metha, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Oud Metha, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

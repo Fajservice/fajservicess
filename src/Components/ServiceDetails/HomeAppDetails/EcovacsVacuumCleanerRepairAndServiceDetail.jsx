@@ -345,7 +345,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Optimal-Performance-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Superior Cleaning Performance</h3>
                       <p className="small">A robot vacuum cleaner removes dirt, pet hair, and dust mites more effectively than sweeping, improving indoor air quality.</p>
@@ -364,7 +364,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Saving-Money-on-Repair-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Cost-Effective Cleaning Solution</h3>
                       <p className="small">Ecovacs vacuum cleaner can save money by reducing professional cleaning needs & extending the life of carpets and flooring.</p>

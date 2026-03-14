@@ -1,49 +1,14 @@
 {
   "success": [
     {
-      "originalPath": "homeappliances-gallery/bbq-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/bbq-repair/public",
-      "id": "homeappliances-gallery/bbq-repair",
-      "success": true
-    },
-    {
-      "originalPath": "homeappliances-gallery/dispenser-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/dispenser-repair/public",
-      "id": "homeappliances-gallery/dispenser-repair",
-      "success": true
-    },
-    {
-      "originalPath": "homeappliances-gallery/hob-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/hob-repair/public",
-      "id": "homeappliances-gallery/hob-repair",
-      "success": true
-    },
-    {
-      "originalPath": "homeappliances-gallery/oven-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/oven-repair/public",
-      "id": "homeappliances-gallery/oven-repair",
-      "success": true
-    },
-    {
-      "originalPath": "homeappliances-gallery/refrigerator-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/refrigerator-repair/public",
-      "id": "homeappliances-gallery/refrigerator-repair",
-      "success": true
-    },
-    {
-      "originalPath": "homeappliances-gallery/washing-machine-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/washing-machine-repair/public",
-      "id": "homeappliances-gallery/washing-machine-repair",
+      "originalPath": "icon/robot-vacuum-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/robot-vacuum-New/public",
+      "id": "icon/robot-vacuum-New",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "homeappliances-gallery/bbq-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/bbq-repair/public",
-    "homeappliances-gallery/dispenser-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/dispenser-repair/public",
-    "homeappliances-gallery/hob-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/hob-repair/public",
-    "homeappliances-gallery/oven-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/oven-repair/public",
-    "homeappliances-gallery/refrigerator-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/refrigerator-repair/public",
-    "homeappliances-gallery/washing-machine-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/homeappliances-gallery/washing-machine-repair/public"
+    "icon/robot-vacuum-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/robot-vacuum-New/public"
   }
 }

@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Toshiba Air Conditioning | Toshiba AC Repair Services Dubai");
-  const metadescription = String(description || "Get Cassette, Ducted Inverter Split & VRF AC Maintenance| Toshiba AC Repair and Services in Dubai. Book now at 04 330 0002 with the best prices.");
+  const metatitle = String(titleSeo || "Best Toshiba AC Repair and Maintenance Services in Dubai");
+  const metadescription = String(description || "Get high-quality repair for Cassette, Ducted Inverter Split, and VRF ACs. Toshiba AC Services in Dubai. Book now at 04 330 0002 for the best prices");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Toshiba AC Repair in Dubai, Toshiba AC Maintenance Service, Toshiba Air Conditioner Repair, Toshiba AC Service Near Me, Toshiba AC Cleaning Service, Toshiba Air Conditioner Installation, Toshiba AC AMC Dubai, Toshiba AC Repair Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/toshiba/");
@@ -280,7 +280,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Toshiba AC Repair in Dubai and AC Maintenance Service</h1>
+            <h1 className="cs_fs_30">Top-Quality Toshiba AC Repair in Dubai and AC Maintenance Service in Dubai</h1>
             <p>Are you looking for a Toshiba air conditioning repair service for your business? We can help!<br /> <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> offers maintenance for all types of Toshiba air conditioning systems throughout Dubai. Our services include regular AC servicing, repairs, and new installations.<br />Our specialists are highly qualified and skilled, ensuring that they meet the highest Toshiba standards. They will arrive at your commercial premises fully equipped to handle any Toshiba air conditioning maintenance task. Additionally, we offer tailored service and maintenance packages to suit your business needs.<br />If you require service, repair, or inspection of a Toshiba air conditioning system, please fill out our inquiry form, and we will send you a quote within an hour.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

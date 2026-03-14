@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Repair and Service in Town Square - Gree AC Maintenance");
-    const metadescription = String(description || "Get same day AC repair and service in Town Square Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
+    const metatitle = String(titleSeo || "Best AC Repair and Cleaning Service in Town Square, Dubai");
+    const metadescription = String(description || "Get same-day AC repair and service in Town Square, Dubai. Contact us today for your air conditioning maintenance and to fix AC errors near you in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/town-square/");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
@@ -113,7 +113,7 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
             <div className="cs_service_details">
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Repair & Service in Town Square</h1>
+                        <h1 className="cs_fs_30">Highly Rated Air Conditioning Company: AC Repair and Maintenance Service in Town Square, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Town Square, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

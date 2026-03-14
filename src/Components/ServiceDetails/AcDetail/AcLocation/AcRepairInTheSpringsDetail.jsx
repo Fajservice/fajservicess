@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In The Springs - #1 Central AC Repair And Fix");
-    const metadescription = String(description || "Get sameday ac services in the springs dubai. We are experts in central & split air conditioner maintenance & ac repairs near me Dubai 043300002");
+    const metatitle = String(titleSeo || "Best AC Air Conditioning Repair and Maintenance in The Springs");
+    const metadescription = String(description || "Get same-day AC repair and services in the Springs, Dubai. We are experts in central air conditioner maintenance near you. Contact us at 043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in The Springs, Air Conditioning Service in The Springs, Air Con Maintenance & AC Installation in The Springs");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-springs/");
@@ -117,7 +117,7 @@ const AcRepairInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in The Springs</h1>
+                        <h1 className="cs_fs_30">Cost Efective Air Conditioning Repair and Maintenance Service in The Springs</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me The Springs, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

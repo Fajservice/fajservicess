@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInRemraam2Detail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Remraam 2 - Air Condition Repairs Near Me");
-    const metadescription = String(description || "Rapid AC Services in Remraam 2, Call FAJ 043300002 for HVAC, Central Air Conditioner Repair, Maintenance or Air Con Serving in Your Area Dubai");
+    const metatitle = String(titleSeo || "Best AC Repair and AC Cleaning Service in Remraam 2, Dubai");
+    const metadescription = String(description || "Fast and expert AC repair and services in Remraam 2, Dubai. Call FAJ for HVAC, maintenance, or central air conditioning servicing in your area, Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Remraam 2, Air Condition Repairs Near Me, AC Repair Dubai, AC Service Dubai, Air Conditioning Service Dubai, Air Conditioner Repair Dubai, Air Conditioning Repair Dubai, AC Maintenance Dubai, AC Installation Dubai, Central Air Conditioner Repair Dubai, HVAC Services Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/remraam-2/");
@@ -117,7 +117,7 @@ const AcRepairInRemraam2Detail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Remraam 2</h1>
+                        <h1 className="cs_fs_30">Fast and Reliable AC Repair and Maintenance Service in Remraam 2</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Remraam 2, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

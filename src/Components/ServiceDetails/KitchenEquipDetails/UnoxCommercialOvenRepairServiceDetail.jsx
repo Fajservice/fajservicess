@@ -330,7 +330,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Ensuring-Safety-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">HEATING EFFICIENCY</h3>
                       <p className="small">We complete a thorough assessment of heating efficiency using a temperature gun.</p>
@@ -341,7 +341,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Optimal-Performance-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">  DISINFECT COMPONENTS   </h3>
                       <p className="small">All parts and components of the oven experience thorough testing and disinfection to ensure safety and reliability.</p>
@@ -352,7 +352,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Lower-Energy-Bills-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">FAN ASSESSMENT</h3>
                       <p className="small">We ensure the fan operates correctly and is free of blockages in both the burner and heating element.</p>
@@ -364,7 +364,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Saving-Money-on-Repair-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">THERMOSTAT CHECK</h3>
                       <p className="small">We use a laser temperature meter to verify that the thermostats are functioning properly.</p>
@@ -375,7 +375,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/extending-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">AIRFLOW BALANCE</h3>
                       <p className="small">We ensure optimal airflow around every part of the oven.</p>
@@ -386,7 +386,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
                   <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Peace-of-Mind-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">CUSTOMER FEEDBACK </h3>
                       <p className="small">Our team offers essential feedback on the condition of your Unox oven and any needed repairs.</p>

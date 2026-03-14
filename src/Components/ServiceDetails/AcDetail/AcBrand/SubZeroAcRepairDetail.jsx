@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Sub Zero AC Repair | AC Cleaning Service Dubai Near Me");
-  const metadescription = String(description || "Sub Zero AC Repair Dubai offers expert maintenance services for central and split air conditioners. We are the go-to air conditioning fix FAJ company.");
+  const metatitle = String(titleSeo || "Best Sub Zero AC Repair and AC Cleaning Service Dubai Near Me");
+  const metadescription = String(description || "Book Sub Zero AC Repair in Dubai provides expert maintenance services for air conditioners. We are the preferred company for air conditioning repairs");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Sub Zero AC Repair, Sub Zero AC Service, Sub Zero Air Conditioner Maintenance, Sub Zero AC Installation, Sub Zero AC Cleaning Service, Sub Zero AC Repair Dubai, Sub Zero Air Conditioner Service Dubai, Sub Zero AC Repair Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/sub-zero/");
@@ -273,7 +273,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Sub Zero AC Repair and Cleaning Service in Dubai</h1>
+            <h1 className="cs_fs_30">Cost-Effective Sub Zero AC Repair and Cleaning Service in Dubai</h1>
             <p>To ensure year-round comfort, it is essential to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.<br />Since its founding in 2010,
  <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has been a trusted provider of Sub Zero air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Sub Zero AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
             </p>

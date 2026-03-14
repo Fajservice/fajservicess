@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Sanyo Air Conditioning Repair & Maintenance Services in Dubai");
-  const metadescription = String(description || "FAJ Professional offers Sanyo AC repair and services in Dubai. Get in central and split air conditioner maintenance and cleaning. Call us at 043300002.");
+  const metatitle = String(titleSeo || "Best Sanyo Air Conditioning Repair & Maintenance Service Dubai ");
+  const metadescription = String(description || "FAJ Professional provides Sanyo AC repair and services in Dubai, including maintenance and cleaning for both central and split AC. Call us at 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Sanyo Ac Repair in Dubai, Sanyo Air Conditioner Service, Sanyo AC Maintenance, Sanyo AC Fix, Sanyo AC Service, Sanyo Air Condition Repair, Sanyo Air Condition Maintenance, Sanyo Air Condition");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/sanyo/");
@@ -275,7 +275,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Sanyo Air Conditioning Repair and Maintenance Services in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Sanyo Air Conditioning Repair and Maintenance Services in Dubai</h1>
             <p>Sanyo air conditioning units are a great choice for homes and commercial spaces, offering reliable summer cooling. With a universal range of models, they meet diverse needs and are a smart investment for year-round climate control.<br/> At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, established in 2010, we specialise in Sanyo AC repair and maintenance, providing cost-effective solutions to keep your cooling systems efficient. Our experienced team takes repairs and replacements, particularly for Sanyo units, which are common during this season.</p>
 
             <div id="get-quote" className=" mt-3">

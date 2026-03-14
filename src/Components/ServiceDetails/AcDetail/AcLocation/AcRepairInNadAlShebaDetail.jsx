@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Nad Al Sheba - Fix AC Problems And Errors");
-    const metadescription = String(description || "Fixing AC Error. Best AC Services in Nad Al Sheba & Dubai Hills. Offering air conditioner gas filling and fix compressor. Get fast ac repairing near me");
+    const metatitle = String(titleSeo || "Best Air Conditioner Repair and AC Service in Nad Al Sheba, Dubai");
+    const metadescription = String(description || "Get cost-effective AC repair in Nad Al Sheba, Dubai. We specialise in the ducted split & central AC maintenance service for both office and villa properties");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || " AC Services In Nad Al Sheba, AC Repair in Nad Al Sheba, AC Maintenance in Nad Al Sheba, AC Installation in Nad Al Sheba, Air Conditioner Service in Nad Al Sheba, Air Conditioner Repair in Nad Al Sheba, Air Conditioner Maintenance in Nad Al Sheba, Air Conditioner Installation in Nad Al Sheba");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/nad-al-sheba/");
@@ -118,7 +118,7 @@ const AcRepairInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Nad Al Sheba</h1>
+                        <h1 className="cs_fs_30">Reliable Air Conditioner Repair and Maintenance Services in Nad Al Sheba, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Nad Al Sheba, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

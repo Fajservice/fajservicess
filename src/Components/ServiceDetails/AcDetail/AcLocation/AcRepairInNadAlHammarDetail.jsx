@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInNadAlHammarDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Nad Al Hammar - #1 Air Condition Maintenance");
-    const metadescription = String(description || "Get Fast Ac Services in Nad Al Hammar. We are experts in Central & Split Air Conditioning Maintenance Service near me and Ac Fix in Dubai");
+    const metatitle = String(titleSeo || "Best AC Repair and AC Cleaning Service in Nad Al Hammar, Dubai");
+    const metadescription = String(description || "Get expert AC repair in Nad Al Hammar, Dubai. We specialise in the air conditioner maintenance  of central & ducted split for both residential & commercial");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in nad al hammar, ac repair in nad al hammar, ac maintenance in nad al hammar, ac cleaning in nad al hammar, ac installation in nad al hammar, air conditioning service in nad al hammar, air conditioning repair in nad al hammar, air conditioning maintenance in nad al hammar, air conditioning cleaning in nad al hammar, air conditioning installation in nad al hammar");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/nad-al-hammar/");
@@ -117,7 +117,7 @@ const AcRepairInNadAlHammarDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Nad Al Hammar</h1>
+                        <h1 className="cs_fs_30">Fast and Reliable AC Repair and Maintenance Servicing in Nad Al Hammar, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Nad Al Hammar, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Super General Split AC Service and Repair in Dubai and Sharjah");
-  const metadescription = String(description || "Super General Split AC service & repair in Dubai. We are offering Supper General fridge, washing machine, stove, oven repairs by you with part warranty.");
+  const metatitle = String(titleSeo || "Best Super General Split AC Service and Repair in Dubai - Sharjah");
+  const metadescription = String(description || "Professional Super General Split AC service and repair in Dubai. We offer fridge, washing machine, stove, and oven fix, with a warranty on parts");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Super General Ac Repair in Dubai, Super General AC Maintenance in Dubai, Super General AC Fix in Dubai, Super General AC Service in Dubai, Super General Air Condition Repair in Dubai, Super General Air Con");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/super-general/");
@@ -287,7 +287,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Super Genenral AC Repair Center and Home Appliances Service Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Super General AC Repair Center and Home Appliances Service Dubai</h1>
             <p>Home appliances play a crucial role in our daily lives and have always been important for domestic comfort and convenience. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> aim to improve our quality of life through reliable Supper General home appliances repair center. <br />Some key appliances that significantly impact our daily routines include Supper General air conditioning, Supper Genenral washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers repair, maintenance and service center Dubai. The trouble caused by any of these appliances suddenly breaking down can be considerable.
 </p>
 

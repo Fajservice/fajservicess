@@ -27,8 +27,8 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   // For SEO
   const metatitle = titleSeo?.trim()
         ? titleSeo
-        : "Trusted Daikool Air Conditioning Maintenance and Service";
-  const metadescription = String(description || "For Daikool AC repair in Dubai, call us at 043300002. Get the best air conditioner (A/C) maintenance and service near your location.");
+        : "Trusted Daikool Air Conditioning Maintenance and Service Dubai";
+  const metadescription = String(description || "For Daikool AC repair in Dubai, call us at 04 330 0002. Get the best central and split air conditioner (A/C) maintenance and service near your location");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Daikool AC Repair in Dubai, Daikool Air Conditioner Maintenance, Daikool AC Service, Daikool AC Fix, Daikool Air Condition Repair, Daikool Air Condition Maintenance, Daikool Air Condition Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/daikool/");
@@ -297,7 +297,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Best Daikool AC Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Reliable and Fast Daikool AC Repair and Maintenance Service in Dubai</h1>
             <p>
               <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> Since 2010, our company has been committed to serving the Dubai community by specializing in Daikool air conditioning repair, maintenance, and installation for residential and commercial properties in Dubai and Sharjah.
               <br />In our hot climate, a Daikool air conditioner is vital for year-round comfort. Regular maintenance is essential to preserve its effectiveness and extend its lifespan. Our professional cleaning services ensure that your system operates efficiently, providing the cooling relief you need.

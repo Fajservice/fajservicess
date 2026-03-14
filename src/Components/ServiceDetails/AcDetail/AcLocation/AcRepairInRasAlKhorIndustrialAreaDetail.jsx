@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In  Ras Al Khor Industrial Area - AC Repair #1");
-    const metadescription = String(description || "AC Services in Ras Al Khor Industrial Area - Call Experts in Ceiling & Split Air Conditioner Maintenance & Repair near me Dubai AC Fixing Dubai");
+    const metatitle = String(titleSeo || "Best AC Repair and AC Cleaning in Ras Al Khor Industrial Area");
+    const metadescription = String(description || "Reliable AC repair and cleaning services in Ras Al Khor Industrial Area. Call experts for central and split air conditioning maintenance near you, Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services in Ras Al Khor Industrial Area, AC Repair in Ras Al Khor Industrial Area, AC Maintenance in Ras Al Khor Industrial Area, Air Conditioner Repair in Ras Al Khor Industrial Area, Air Conditioning Service in Ras Al Khor Industrial Area, Split AC Repair in Ras Al Khor Industrial Area, Ceiling AC Repair in Ras Al Khor Industrial Area, Dubai AC Fixing, Dubai AC Service, Dubai AC Repair");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/ras-al-khor-industrial-area/");
@@ -148,7 +148,7 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, reviewsbg, t
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Ras Al Khor Industrial Area</h1>
+                        <h1 className="cs_fs_30">Premium Quality AC Repair and Maintenance Service in Ras Al Khor Industrial Area, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Ras Al Khor Industrial Area, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

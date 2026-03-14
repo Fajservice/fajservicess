@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In JVT Dubai - #1 AC Maintenance - A/C Fix");
-    const metadescription = String(description || "T:043300002 for AC Services in JVT Dubai. We are experts in carrier, york central & split AC (Air Conditioner) maintenance & repairs near me Dubai");
+    const metatitle = String(titleSeo || "Best AC Repair Service and Maintenance in JVT, Dubai");
+    const metadescription = String(description || "Get top-quality AC repair and service in JVT, Dubai. We offer maintenance solutions for ducted, split, and central AC systems nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in jvt, ac repair in jvt, ac maintenance in jvt, ac cleaning in jvt, ac installation in jvt, ac technician in jvt, ac service near me, ac repair near me, ac maintenance near me, ac cleaning near me, ac installation near me");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jvt/");
@@ -118,7 +118,7 @@ const AcRepairInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, description
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in JVT</h1>
+                        <h1 className="cs_fs_30">Top-Rated AC Repair Service and Maintenance in JVT, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me JVT, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInJumeirahParkDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services in Jumeirah Park Near Me - AC Repair Dubai ");
-    const metadescription = String(description || "We offer the best ac services jumeirah park dubai Call 043300002 for central & split ac (air conditioner) repair, maintenance near me and Aircon fix");
+    const metatitle = String(titleSeo || "Best AC Cleaning Service and AC Repair in Jumeirah Park, Dubai");
+    const metadescription = String(description || "Top-quality AC cleaning and repair service in Jumeirah Park, Dubai. We provide maintenance solutions for ducted, split, and central AC systems near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services jumeirah park, ac repair jumeirah park, ac maintenance jumeirah park, ac service near me, ac repair near me, ac maintenance near me, air conditioning services jumeirah park, air conditioning repair jumeirah park, air conditioning maintenance jumeirah park");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jumeirah-park/");
@@ -147,7 +147,7 @@ const AcRepairInJumeirahParkDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Jumeirah Park</h1>
+                        <h1 className="cs_fs_30">Top-Rated AC Repair Service and Maintenance in Jumeirah Park, Dubai</h1>
 
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />

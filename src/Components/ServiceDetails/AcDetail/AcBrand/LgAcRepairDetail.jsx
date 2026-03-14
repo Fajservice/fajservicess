@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Expert LG AC Repair & Maintenance Service in Dubai");
-  const metadescription = String(description || "Need LG AC repair in Dubai? Call 043300002 to reach the nearest repair center. Our experts specialise VRF & split air conditioning maintenance service.");
+  const metatitle = String(titleSeo || "Expert LG AC Repair and LG AC Maintenance Service in Dubai");
+  const metadescription = String(description || "Need LG AC repair in Dubai? Call 043300002 to reach the nearest repair center. Our experts specialise VRF & split air conditioning maintenance service");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "LG AC Repair in Dubai, LG Air Conditioner Maintenance, LG AC Service, LG Split AC Repair, LG Central AC Service, LG VRF AC Repair, LG Air Conditioning Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/");
@@ -269,7 +269,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">LG AC Repair and Maintenance Services in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality LG AC Repair and Maintenance Services in Dubai</h1>
             <p>
               For year-round comfort, it's essential to address issues such as sticky summer days, stuffy nights, and allergens in the air.
               <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of LG air conditioning solutions in Dubai and Sharjah. Our skilled team specialises in LG AC cleaning service, maintenance, repairs, and installation of a diverse range of residential and commercial LG AC units. We are committed to ensuring that your air conditioning system operates at peak performance, promoting a comfortable indoor environment.</p>

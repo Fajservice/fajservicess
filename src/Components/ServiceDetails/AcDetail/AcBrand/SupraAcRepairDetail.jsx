@@ -28,8 +28,8 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   // For SEO
   const metatitle = titleSeo?.trim() 
   ? titleSeo 
-  : "Supra AC Repair | Supra Split Air Conditioner Cleaning Dubai";
-  const metadescription = String(description || "Supra Window and Split AC service & repair in Dubai. We are offering Supra fridge, washing machine, stove, oven repairs near you  with part warranty ");
+  : "Best Supra Split AC Cleaning and Repair Service in Dubai";
+  const metadescription = String(description || "High-quality Supra window and split AC service & repair in Dubai. We offer fridge, washing machine, stove, and oven fix near you with a parts warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Supra AC Repair Dubai, Supra Split Air Conditioner Service, Supra Aircon Maintenance Dubai, Supra AC Fix Dubai, Supra Air Conditioner Repair Dubai, Supra Air Conditioner Service Dubai, Supra AC Service Dubai, Supra AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/supra/");
@@ -282,7 +282,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Supra AC Repair Center and Home Appliances Service Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Supra AC Repair Center and Home Appliances Service Dubai</h1>
             <p>Supra Home appliances play a crucial role in our daily lives and have always been important for domestic comfort and convenience. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> aim to improve our quality of life through reliable Supra home appliances repair center.<br />Some key home appliances that significantly impact our daily routines include Supra air conditioning, Supra washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers repair, maintenance and service center Dubai. The trouble caused by any of these Supra appliances suddenly breaking down can be considerable.
 </p>
             <div id="get-quote" className=" mt-3">

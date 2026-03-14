@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Service in Victory Heights - AC Repair Dubai Near Me");
-    const metadescription = String(description || "FAJ offers AC services in Victory Heights, Dubai. We specialize in AC repair and maintenance for split and central units. Call us at 043300002.");
+    const metatitle = String(titleSeo || "Expert AC Repair and Cleaning Service in Victory Heights, Dubai");
+    const metadescription = String(description || "FAJ offers the best AC repair and cleaning services in Victory Heights, Dubai. We specialise in the service and maintenance of split and central units");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Victory Heights, AC Repair in Victory Heights, AC Maintenance in Victory Heights, Split AC Service in Victory Heights, Central AC Service in Victory Heights, Air Conditioning Service in Victory Heights, Air Conditioner Repair in Victory Heights, Air Conditioner Maintenance in Victory Heights, HVAC Service in Victory Heights, FAJ Technical Services L.L.C");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/victory-heights/");
@@ -117,7 +117,7 @@ const AcRepairInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Victory Heights</h1>
+                        <h1 className="cs_fs_30">Premium Quality AC Repair and Maintenance Service in Victory Heights, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Victory Heights, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
