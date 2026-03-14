@@ -25,7 +25,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
   // For SEO
   const metatitle = String(titleSeo || "Best Price Nikai Split AC Repair and Maintenance Service Dubai");
-  const metadescription = String(description || "Our expert A/C technicians provide prompt, professional maintenance for Nikai window AC repair and cleaning service in Dubai, with fast, reliable.");
+  const metadescription = String(description || "Our expert A/C technicians provide prompt, professional maintenance for Nikai window AC repair and cleaning service in Dubai, with fast, reliable");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Nikai AC Repair in Dubai, Nikai Air Conditioner Maintenance, Nikai AC Service, Nikai AC Cleaning, Nikai AC Installation, Nikai AC Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/nikai/");
@@ -279,7 +279,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Nikai AC Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Nikai AC Repair and Maintenance Service in Dubai</h1>
             <p>For year-round comfort, tackling issues like summer humidity, warm nights, and indoor allergens is key! Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has proudly provided top-notch Nikai air conditioning solutions in Dubai and Sharjah.<br />Our dedicated team is here to offer a wide range of services, including Nikal AC repair, cleaning service, maintenance, and installation for both homes and businesses. We're passionate about optimizing your air conditioning system to elevate your indoor comfort. Let’s make your space a cool haven together!</p>
 
             <div id="get-quote" className=" mt-3">

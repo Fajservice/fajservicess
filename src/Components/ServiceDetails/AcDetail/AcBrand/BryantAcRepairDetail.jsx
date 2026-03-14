@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const BryantAcRepair = ({ subtitle, title, reviewsbg, description, Author, Keyword, URL }) => {
 
   // For SEO
-  <title>Bryant Air Conditioning | Bryant Repair and Services in Dubai </title>
-  const metadescription = String(description || "Home and Commercial · Bryant (AC) Air Conditioning Repair in Dubai. Same-day HVAC, central, chiller AC, & FCU A/C maintenance services near you.");
+  <title>Expert Bryant Air Conditioning | Bryant Repair & Services in Dubai</title>
+  const metadescription = String(description || "Home and Commercial. Best Bryant (AC) Air Conditioning Repair in Dubai. Same-day HVAC, central AC, & FCU A/C maintenance services near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Bryant AC Repair in Dubai, Bryant AC Maintenance in Dubai, Bryant AC Fix in Dubai, Bryant AC Service in Dubai, Bryant Air Condition Repair in Dubai, Bryant Air Condition Maintenance in Dubai, Bryant Air Con Repair in Dubai, Bryant Air Con Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/bryant/");
@@ -301,7 +301,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, description, Author, Keywo
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Bryant Air Conditioning | Bryant Repair and Services in Dubai </title>
+          <title>Expert Bryant Air Conditioning | Bryant Repair & Services in Dubai</title>
           <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
@@ -310,15 +310,15 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, description, Author, Keywo
           <link rel="canonical" href="https://www.fajservices.ae/services/air-conditioning-repair/brands/bryant/ " />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Bryant Air Conditioning | Bryant Repair and Services in Dubai " />
-          <meta property="og:description" content="Home and Commercial · Bryant (AC) Air Conditioning Repair in Dubai. Same-day HVAC, central, chiller AC, & FCU A/C maintenance services near you." />
+          <meta property="og:title" content="Expert Bryant Air Conditioning | Bryant Repair & Services in Dubai" />
+          <meta property="og:description" content="Home and Commercial. Best Bryant (AC) Air Conditioning Repair in Dubai. Same-day HVAC, central AC, & FCU A/C maintenance services near you" />
           <meta property="og:url" content={metaURL} />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Bryant Air Conditioning | Bryant Repair and Services in Dubai " />
-          <meta name="twitter:description" content="Home and Commercial · Bryant (AC) Air Conditioning Repair in Dubai. Same-day HVAC, central, chiller AC, & FCU A/C maintenance services near you." />
+          <meta name="twitter:title" content="Expert Bryant Air Conditioning | Bryant Repair & Services in Dubai" />
+          <meta name="twitter:description" content="Home and Commercial. Best Bryant (AC) Air Conditioning Repair in Dubai. Same-day HVAC, central AC, & FCU A/C maintenance services near you" />
           <meta name="twitter:image" content={metaImage} />
           <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
@@ -330,7 +330,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, description, Author, Keywo
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Bryant Air Conditioning – Bryant AC Repair and  Service Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Bryant Air Conditioning – Bryant AC Repair and  Service Dubai</h1>
             <p>
               To ensure optimal comfort throughout the year, it is imperative to address challenges such as elevated humidity levels, warm nights, and indoor allergens.
               <br />Established in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is a reputable provider of Bryant air conditioning solutions in Dubai and Sharjah.

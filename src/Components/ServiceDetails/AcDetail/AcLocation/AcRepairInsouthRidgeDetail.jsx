@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInsouthRidgeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In South Ridge Dubai - AC Repairing #1");
-    const metadescription = String(description || "Call 043300002 Best AC Services in South Ridge Dubai. Are You Finding for Central Chiller FCU Maintenance Repair in Your Area? Contact us Now");
+    const metatitle = String(titleSeo || "Best AC Cleaning and AC Repair Service in South Ridge, Dubai");
+    const metadescription = String(description || "Expert AC repair and service in South Ridge, Dubai. We specialise in HVAC repairs and central A/C maintenance. Contact us today at 04-3300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services in South Ridge, AC Repair in South Ridge, AC Maintenance in South Ridge, AC Installation in South Ridge, Air Conditioning Services in South Ridge, Air Conditioner Repair in South Ridge, Air Conditioner Maintenance in South Ridge, Air Conditioner Installation in South Ridge");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/south-ridge/");
@@ -120,7 +120,7 @@ const AcRepairInsouthRidgeDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in South Ridge</h1>
+                        <h1 className="cs_fs_30">Top-Quality AC Repair and Maintenance Service in South Ridge, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me South Ridge, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

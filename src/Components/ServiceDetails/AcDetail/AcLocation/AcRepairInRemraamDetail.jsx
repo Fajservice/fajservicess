@@ -35,11 +35,11 @@ const AcRepairInRemraamDetail = ({
     URL }) => {
 
     const metaTitle = String(
-        titleSeo || "AC Services In Remraam - Central Air Conditioner Repairs #1"
+        titleSeo || "Affordable AC Repair and Maintenance Service in Remraam, Dubai"
     );
 
     const metaDescription = String(
-        description || "FAJ 043300002 AC Services in Remraam Dubai. We are experts in central, hvac repairs and maintenance near me Dubai AC fixing nearby"
+        description || "Top-rated AC repair and service in Remraam, Dubai. We specialise in HVAC repairs and central A/C maintenance. Contact us today at 04-3300002"
     );
 
     const metaAuthor = String(
@@ -128,7 +128,7 @@ const AcRepairInRemraamDetail = ({
                     <meta property="og:title" content={metaTitle} />
                     <meta property="og:description" content={metaDescription} />
                     <meta property="og:image" content={metaImage} />
-                    <meta property="og:image:alt" content="AC Services In Remraam - Central Air Conditioner Repairs #1" />
+                    <meta property="og:image:alt" content="Reliable Air Conditioner Repair and Maintenance Services in Remraam, Dubai" />
                     <meta property="og:site_name" content="FAJ Technical Services L.L.C" />
 
                     {/* Twitter Card */}
@@ -137,7 +137,7 @@ const AcRepairInRemraamDetail = ({
                     <meta name="twitter:title" content={metaTitle} />
                     <meta name="twitter:description" content={metaDescription} />
                     <meta name="twitter:image" content={metaImage} />
-                    <meta name="twitter:image:alt" content="AC Services In Remraam - Central Air Conditioner Repairs #1" />
+                    <meta name="twitter:image:alt" content="Reliable Air Conditioner Repair and Maintenance Services in Remraam, Dubai" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <meta name="language" content="English" />
                 </Helmet>
@@ -147,7 +147,7 @@ const AcRepairInRemraamDetail = ({
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Remraam</h1>
+                        <h1 className="cs_fs_30">Reliable Air Conditioner Repair and Maintenance Services in Remraam, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Remraam, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

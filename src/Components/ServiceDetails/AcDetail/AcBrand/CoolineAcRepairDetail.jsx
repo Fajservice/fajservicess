@@ -285,8 +285,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     <>
       <HelmetProvider>
         <Helmet>
-          <title>HVAC Maintenance Services | Cooline Air Conditioning Repair</title>
-          <meta name="description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near."></meta>
+          <title>Best Cooline Air Conditioning Repair and Maintenance Service</title>
+          <meta name="description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near"></meta>
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -294,15 +294,14 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="HVAC Maintenance Services | Cooline Air Conditioning Repair" />
-          <meta property="og:description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near." />
+          <meta property="og:title" content="Best Cooline Air Conditioning Repair and Maintenance Service" />
+          <meta property="og:description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near" />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="HVAC Maintenance Services | Cooline Air Conditioning Repair" />
-          <meta name="twitter:description" content="HVAC Maintenance Services | Cooline Air Conditioning Repair" />
-          <meta property="og:description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near." />
+          <meta name="twitter:title" content="Best Cooline Air Conditioning Repair and Maintenance Service" />
+          <meta name="twitter:description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near" />
           <meta name="twitter:image" content={metaImage} />
           <script type="application/ld+json">{JSON.stringify(schema)}</script>
 
@@ -313,7 +312,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Best Cooline AC Repair and Service in Dubai</h1>
+            <h1 className="cs_fs_30">Cost-Effective Cooling AC Repair and Maintenance Service in Dubai</h1>
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a top provider of repair, maintenance, and installation services for Cooline air conditioning systems in Dubai and Sharjah, focusing on both residential and commercial properties.
               <br />Embracing regular Cooline AC maintenance is vital for unlocking their maximum potential and ensuring consistent comfort throughout the year. Our dedicated professional cleaning services in Dubai are crafted to elevate the efficiency and reliability of Cooline units, empowering our clients to enjoy optimal indoor environments and a higher quality of life.

@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Mitsubishi AC Repair and Maintenance Services in Dubai | FAJ");
-  const metadescription = String(description || "Looking for Mitsubishi AC repair in Dubai? Call now for expert technicians specialising in Mitsubishi VRF, HVAC, and central & split maintenance services.");
+  const metatitle = String(titleSeo || "Best Mitsubishi AC Repair and Maintenance Services in Dubai");
+  const metadescription = String(description || "Need reliable Mitsubishi AC repair in Dubai? Contact us now for skilled technicians specialising in Mitsubishi AC maintenance services for central and split");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Mitsubishi AC Repair, Mitsubishi AC Service, Mitsubishi Air Conditioner Maintenance, Mitsubishi HVAC Repair, Mitsubishi VRF System Service, Mitsubishi Ducted Split AC Repair, Mitsubishi Wall-Mounted AC Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/");
@@ -112,7 +112,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Mitsubishi AC Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Mitsubishi AC Repair and Maintenance Service in Dubai</h1>
             <p>Mitsubishi Air Conditioning repair by <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> established in 2010, is your reliable solution for any issues you may encounter with your Mitsubishi air conditioning system. Our AC technicians are always available to assist you in Dubai and its surrounding areas. Contact us today to schedule a visit from one of our expert technicians at a time that is convenient for you.<br />In the rare event of a fault or breakdown, our experienced Mitsubishi AC repair, maintenance services technicians can typically diagnose and repair your unit on their first visit. This minimizes downtime and helps restore your comfortable working climate as quickly as possible.</p>
 
             <div id="get-quote" className=" mt-3">

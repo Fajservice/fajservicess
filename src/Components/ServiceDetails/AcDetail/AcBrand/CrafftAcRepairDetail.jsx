@@ -26,7 +26,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
   // For SEO
   const metatitle = String(titleSeo || "Affordable Crafft Air Conditioning Repair and Maintenance Dubai");
-  const metadescription = String(description || "Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now.");
+  const metadescription = String(description || "Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Crafft AC Repair, Crafft AC Maintenance, Crafft Air Conditioner Service, Crafft Air Conditioner Repair, Crafft Air Conditioner Maintenance, Crafft Air Conditioner Fix, Crafft Air Conditioner Installation, Crafft Air Conditioner Cleaning Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/crafft/");
@@ -290,14 +290,14 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="Affordable Crafft Air Conditioning Repair and Maintenance Dubai" />
-          <meta property="og:description" content="Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now." />
+          <meta property="og:description" content="Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now" />
           <meta property="og:url" content={metaURL} />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Affordable Crafft Air Conditioning Repair and Maintenance Dubai" />
-          <meta name="twitter:description" content="Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now." />
+          <meta name="twitter:description" content="Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now" />
           <meta name="twitter:image" content={metaImage} />
           <script type="application/ld+json">{JSON.stringify(schema)}</script>
           
@@ -309,7 +309,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Crafft Air Conditioning Repair and Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Crafft Air Conditioning Repair and Maintenance Service in Dubai</h1>
             <p>Achieving comfort throughout the year requires addressing challenges like summer humidity, elevated nighttime temperatures, and indoor allergens.
               <br />Since its inception in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has established itself as a trustworthy provider of Crafft air conditioning solutions in the Dubai and Sharjah regions.
               Our skilled team is proficient in a comprehensive range of services, including Crafft AC repair, cleaning service, maintenance and installation for both residential and commercial units. We are committed to optimizing the performance of your air conditioning system, thereby enhancing your indoor comfort.</p>

@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairinUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In Umm Al Sheif - Air Con Repairing #1");
-    const metadescription = String(description || "Water Leakage Issue or AC Services in Umm Al Sheif Dubai ? Call 043300002 offering best air conditioning maintenance near me in my area dubai");
+    const metatitle = String(titleSeo || "Best AC Repair and Maintenance Servicing in Umm Al Sheif, Dubai");
+    const metadescription = String(description || "Experiencing water leakage or need AC repair services in Umm Al Sheif, Dubai? Contact us today for the best air conditioning maintenance in your area");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Umm Al Sheif, Air Conditioning Service in Umm Al Sheif, Air Con Maintenance & AC Installation in Umm Al Sheif");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/umm-al-sheif/");
@@ -118,7 +118,7 @@ const AcRepairinUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Umm Al Sheif</h1>
+                        <h1 className="cs_fs_30">Premium Quality AC Repair and Maintenance Services in Umm Al Sheif, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Umm Al Sheif, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

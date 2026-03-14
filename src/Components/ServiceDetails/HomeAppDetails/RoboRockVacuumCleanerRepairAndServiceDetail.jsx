@@ -350,7 +350,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/efficiency-and-time-New')} alt="Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/efficiency-and-time')} alt="Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Efficiency and Time-Saving</h3>
                       <p className="small">Cleaning large areas quickly can significantly reduce the time required compared to traditional methods. Additionally, robotic vacuums require minimal effort to operate.</p>
@@ -359,7 +359,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
-                      <img src={getImageSrc('icon/Optimal-Performance-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                     </div>
                     <h3 className="text-uppercase mb-2 cs_fs_16">Superior Cleaning Performance</h3>
                     <p className="small">A robotic vacuum cleaner effectively removes dirt, pet hair, and dust mites, improving indoor air quality compared to traditional sweeping methods.</p>
@@ -368,7 +368,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Lifestyle-New')} alt="lifestyle" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/lifestyle')} alt="lifestyle" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Ideal for Busy Lifestyles</h3>
                       <p className="small">Robotic vacuums clean autonomously, while cordless stick vacuums allow for quick and easy clean-ups.</p>
@@ -378,7 +378,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Saving-Money-on-Repair-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Cost-Effective Cleaning Solution</h3>
                       <p className="small">Roborock vacuum cleaners save money by reducing the need for professional cleaning and extending the life of carpets and flooring.</p>
@@ -387,7 +387,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                 <div className="col-md-4 mb-2">
                    <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Wind-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/wind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Improves Air Quality</h3>
                       <p className="small">The HEPA filter enhances air quality by trapping allergens such as dust and pet dander, providing relief for allergy sufferers and minimizing respiratory problems.</p>
@@ -396,7 +396,7 @@ const RoboRockVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsb
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/robot-vacuum-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/robot-vacuum')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Vacuum and Mop Function</h3>
                       <p className="small">Robot vacuum and mop combos clean efficiently by vacuuming and mopping at the same time, minimizing the need for multiple tools.</p>

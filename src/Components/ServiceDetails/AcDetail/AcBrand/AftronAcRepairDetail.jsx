@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metaTitle = String(titleSeo || "Aftron Split Air Conditioner Repair, Maintenance Service Dubai");
-  const metaDescription = String(description || "Are you looking for air conditioning repair in the summer? Call 043300002 for Aftron AC Repair & Maintenance Service near you in Dubai.");
+  const metaTitle = String(titleSeo || "Best Aftron Split AC Repair, Maintenance Service Dubai");
+  const metaDescription = String(description || "Looking for top-quality Aftron air conditioning repair this summer? Call 043300002 for Aftron AC repair & maintenance service near you in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Aftron AC Repair, Aftron AC Maintenance, Aftron AC Service, Aftron Air Conditioner Repair Dubai, Aftron Air Conditioner Service Dubai, Aftron Air Conditioner Maintenance Dubai, Aftron Air Conditioner Installation Dubai, Aftron Air Conditioner Cleaning Dubai, Aftron AC Repair Dubai, Aftron AC Service Dubai, Aftron AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/aftron/");
@@ -325,7 +325,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <section className="section cs_py_30">
           <div className="container">
             
-              <h1 className="cs_fs_30">Aftron AC Repair, Maintenance Services in Dubai</h1>
+              <h1 className="cs_fs_30">Choose the leading Aftron AC Repair and Maintenance Services in Dubai</h1>
               <p>Year-round indoor comfort helps us overcome challenges like summer humidity, warm nights, and indoor allergens, turning our spaces into havens of serenity and well-being.
                 <br />
                 Founded in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of Aftron Air Conditioner solutions in Dubai and Sharjah. Our experienced team specializes in a range of services, including cleaning, repair, maintenance, and installation of Aftron AC units for both residential and commercial properties.

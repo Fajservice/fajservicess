@@ -28,8 +28,8 @@ const AcRepairInTheLakesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In The Lakes - Emergency AC Repair Service #1");
-    const metadescription = String(description || "If you are looking for the best ac services in the lakes dubai. Call FAJ 043300002 for centralized, hvac, air conditioner system repairs. aircon fixing");
+    const metatitle = String(titleSeo || "Emergency AC Repair and Maintenance Service The Lakes, Dubai");
+    const metadescription = String(description || "If you are seeking the best AC repair and services in the Lakes, Dubai, call FAJ at 043300002 for HVAC and central air conditioner maintenance and fixing");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In The Lakes, AC Repair In The Lakes, AC Maintenance In The Lakes, Air Conditioning Services In The Lakes, Air Conditioner Service In The Lakes, Air Conditioner Repair In The Lakes, Air Conditioner Maintenance In The Lakes, AC Installation In The Lakes, AC Cleaning In The Lakes");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-lakes/");
@@ -119,7 +119,7 @@ const AcRepairInTheLakesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in The Lakes</h1>
+                        <h1 className="cs_fs_30">Cost Efective Air Conditioning Repair and Maintenance Service in The Lakes, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me The Lakes, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

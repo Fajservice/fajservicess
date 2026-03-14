@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Mankhool - Aircon Repair And Maintenance #1");
-    const metadescription = String(description || "A/C Repair, Maintenance and AC Services in Mankhool. Call 043300002 for Central Air Conditioner, Split A/C Repairing, Servicing in my location");
+    const metatitle = String(titleSeo || "Best AC Services and AC Repair Near you Mankhool, Dubai");
+    const metadescription = String(description || "Highly rated AC service and repair in Mankhool, Dubai. Book today for central air conditioner and split A/C repairing and servicing in my location");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in mankhool, ac repair in mankhool, ac maintenance in mankhool, ac servicing in mankhool, ac cleaning in mankhool, air conditioning service in mankhool, air conditioning repair in mankhool, air conditioning maintenance in mankhool, air conditioning servicing in mankhool, air conditioning cleaning in mankhool");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/mankhool/");
@@ -148,7 +148,7 @@ const AcRepairInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">AC Service in Mankhool</h1>
+                        <h1 className="cs_fs_30">Choose the premier  AC Service and AC Repair in Mankhool, Dubai</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Mankhool, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

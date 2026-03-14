@@ -220,7 +220,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/disinfection-New')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                        <img src={getImageSrc('icon/disinfection')} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Improved Air Quality</h3>
                       <p className="small"> Clean filters and vents ensure fresher, healthier air circulates in your home, free from dust, allergens, and pollutants.</p>
@@ -230,7 +230,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/Fan-New')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                        <img src={getImageSrc('icon/Fan')} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
@@ -240,7 +240,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/thermo-New')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                        <img src={getImageSrc('icon/thermo')} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Extended AC Lifespan</h3>
                       <p className="small">Proper care and maintenance can significantly extend the lifespan of your AC unit, helping you save money on premature replacements.</p>
@@ -250,7 +250,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/airflow-New')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                        <img src={getImageSrc('icon/airflow')} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Energy Efficiency</h3>
                       <p className="small">A well-maintained AC consumes less energy, which leads to lower utility bills and a reduced environmental impact.</p>
@@ -260,7 +260,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <div className="col-md-4 mb-2">
                     <div className="d-flex flex-column align-items-center px-2">
                       <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                        <img src={getImageSrc('icon/Customer-New')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                        <img src={getImageSrc('icon/Customer')} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">Peace of Mind</h3>
                       <p className="small">With FAJ Company's AC Service in Dubai, you can enjoy peace of mind knowing your cooling needs are in expert hands.</p>

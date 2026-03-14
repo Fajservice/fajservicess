@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "O General Air Conditioning | O General AC Repair & Service Dubai");
-  const metadescription = String(description || "We provide professional O General AC repair and maintenance service for VRF, central, and split air conditioning systems AMC service in Dubai & Sharjah");
+  const metatitle = String(titleSeo || "O General AC| Best O General AC Repair & Service in Dubai");
+  const metadescription = String(description || "We provide professional O General AC repair and maintenance service for VRF, central, and split air conditioner systems AMC service in Dubai & Sharjah");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ogeneral AC Repair in Dubai, O General AC Maintenance in Dubai, O General AC Fix in Dubai, O General AC Service in Dubai, O General Air Condition Repair in Dubai, O General Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/");
@@ -331,7 +331,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
 
           <div className="container">
-            <h1 className=" cs_fs_30">O General AC Repair and Maintenance Service in Dubai</h1>
+            <h1 className=" cs_fs_30">Cost-Effective O General AC Repair and Maintenance Service in Dubai</h1>
             <p>O General AC Repair by <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, established in 2010, is your trusted solution for any issues with your O General air conditioning system. Our AC technicians are always available to assist you in Dubai and the surrounding areas. Contact us today to schedule a visit from one of our expert technicians at a time that is convenient for you.<br />In the rare event of a fault or breakdown, our experienced O General AC repair and maintenance technicians can typically diagnose and fix your unit during their first visit. This minimizes downtime and helps restore your comfortable indoor climate as quickly as possible.</p>
 
             <div id="get-quote" className=" mt-3">

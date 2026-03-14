@@ -679,7 +679,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Ensuring-Safety-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Ensuring-Safety')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -690,7 +690,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Optimal-Performance-New')} alt="Optimal-Performance" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Optimal-Performance')} alt="Optimal-Performance" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Optimal Performance
                       </h3>
@@ -703,7 +703,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Lower-Energy-Bills-New')} alt="Lower-Energy-Bills" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Lower-Energy-Bills')} alt="Lower-Energy-Bills" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
                       <p className="small">Energy efficient induction hob translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -715,7 +715,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Saving-Money-on-Repair-New')} alt="Saving-Money-on-Repair" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Saving-Money-on-Repair')} alt="Saving-Money-on-Repair" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -726,7 +726,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/extending-New')} alt="extending" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/extending')} alt="extending" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Extending Hob Lifespan</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your hob, delaying the need for replacements.</p>
@@ -738,7 +738,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Peace-of-Mind-New')} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={getImageSrc('icon/Peace-of-Mind')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
                       </h3>

@@ -660,7 +660,7 @@ const schema ={
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Ensuring-Safety-New')}
+                        src={getImageSrc('icon/Ensuring-Safety')}
                         alt="Ensuring Safety"
                         className="icon-img-block-icon"
                         width="80"
@@ -675,7 +675,7 @@ const schema ={
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Optimal-Performance-New')}
+                        src={getImageSrc('icon/Optimal-Performance')}
                         alt="Optimal Performance"
                         className="icon-img-block-icon"
                         width="80"
@@ -690,7 +690,7 @@ const schema ={
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Lower-Energy-Bills-New')}
+                        src={getImageSrc('icon/Lower-Energy-Bills')}
                         alt="Lower Energy Bills"
                         className="icon-img-block-icon"
                         width="80"
@@ -705,7 +705,7 @@ const schema ={
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Saving-Money-on-Repair-New')}
+                        src={getImageSrc('icon/Saving-Money-on-Repair')}
                         alt="Saving Money on Repair"
                         className="icon-img-block-icon"
                         width="80"
@@ -720,7 +720,7 @@ const schema ={
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/extending-New')}
+                        src={getImageSrc('icon/extending')}
                         alt="Extending Appliance Lifespan"
                         className="icon-img-block-icon"
                         width="80"
@@ -735,7 +735,7 @@ const schema ={
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage
-                        src={getImageSrc('icon/Peace-of-Mind-New')}
+                        src={getImageSrc('icon/Peace-of-Mind')}
                         alt="Peace of Mind"
                         className="icon-img-block-icon"
                         width="80"

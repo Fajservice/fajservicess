@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Top Ruud AC Repair in Dubai | Air Conditioning Service Near You");
-  const metadescription = String(description || "We provide service and maintenance for all types of Ruud AC repair in Dubai. Call us at  04 3300002 for HVAC, central and ducted split servicing nearby");
+  const metatitle = String(titleSeo || "Best Ruud AC Repair and Ruud AC Maintenance Service in Dubai");
+  const metadescription = String(description || "Looking for professional Ruud AC repair in Dubai? Since 2010, FAJ has been offering Ruud AC maintenance and services in the UAE. Call us now!");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ruud AC Repair in Dubai, Ruud AC Maintenance Service, Ruud Air Conditioner Repair, Ruud Air Conditioner Maintenance, Ruud AC Fix in Dubai, Ruud AC Service in Dubai, Ruud Air Condition Repair in Dubai, Ruud Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/ruud/");
@@ -284,7 +284,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Ruud Hvac Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Cost-Effective Ruud HVAC Repair and AC Maintenance Service in Dubai</h1>
             <p><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>  offers Ruud air conditioning repair in Dubai, providing comprehensive maintenance service to ensure your building remains cool or warm as needed. With experience dating back to 2010, we are equipped to handle every situation and can provide Ruud air conditioning services for buildings or villas of all shapes and sizes.<br />Are you looking for ongoing Ruud AC maintenance? We can service your units to ensure optimal performance, reducing the likelihood of future breakdowns and saving you money. If you're experiencing issues such as stale odors, leaks, or power outages, our technicians are ready to respond to your emergency call and perform Ruud AC repairs or maintenance on your units as soon as possible.</p>
 
             <div id="get-quote" className=" mt-3">
