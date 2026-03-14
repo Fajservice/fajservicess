@@ -341,7 +341,7 @@ const urls = [
   { loc: "/services/home-appliances-repair/coverage-area/jbr-dubai/" },
   { loc: "/services/home-appliances-repair/coverage-area/jebel-ali/" },
   { loc: "/services/home-appliances-repair/coverage-area/jebel-ali-dip/" },
-  { loc: "/services/home-appliances-repair/coverage-area/jebel-ali-free-zone/" },
+  { loc: "/services/home-aphttps://www.fajservices.ae/services/air-conditioning-repair/coveragepliances-repair/coverage-area/jebel-ali-free-zone/" },
   { loc: "/services/home-appliances-repair/coverage-area/jebel-ali-industrial-area/" },
   { loc: "/services/home-appliances-repair/coverage-area/jebel-ali-village/" },
   { loc: "/services/home-appliances-repair/coverage-area/jge/" },
