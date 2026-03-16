@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "White Westinghouse AC & Home Appliances Repair Service Dubai");
-  const metadescription = String(description || "White Westinghouse AC service & repair in Dubai. We are offering fridge freezer, washing machine, dryer, laundry, oven maintenance with part warranty");
+  const metatitle = String(titleSeo || "Best White Westinghouse AC & Appliances Repair Service Dubai");
+  const metadescription = String(description || "Top-rated White Westinghouse AC service & repair in Dubai. We offer maintenance for fridge freezer, washing machine, laundry appliances, and ovens");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "White Westinghouse Ac Repair In Dubai, White Westinghouse Ac Maintenance In Dubai, White Westinghouse Ac Fix In Dubai, White Westinghouse Ac Service In Dubai, White Westinghouse Air Condition Repair In Dubai, White Westinghouse Air Conditioner Repair In Dubai, White Westinghouse Air Conditioner Service In Dubai, White Westinghouse Air Conditioner Maintenance In Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/white-westinghouse/");
@@ -280,7 +280,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">White Westinghouse AC Repair Center and Home Appliances Service in Dubai</h1>
+            <h1 className="cs_fs_30">Same-Day White Westinghouse AC Repair Center and Home Appliances Service in Dubai</h1>
             <p>White Westinghouse home appliances play a crucial role in our daily lives by providing comfort and convenience. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, our goal is to enhance our quality of life through reliable repairs at our White Westinghouse home appliances repair center.<br />Some key White Westinghouse home appliances that significantly impact our daily routines include air conditioners, washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers. The inconvenience caused by any of these appliances breaking down unexpectedly can be considerable. That’s why we offer dedicated repair, maintenance, and service in Dubai.
 </p>
 

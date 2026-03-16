@@ -20,8 +20,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Hudaiba - Washing Machine Repair");
-    const metadescription = String(description || "Looking for appliance service in Hudaiba. Call 043300002 for fridge repair near me in Dubai. Get fix washing machine, dishwasher, refrigerator");
+    const metatitle = String(titleSeo || "Top-Rated Appliances Services and Refrigerator Repair in Hudaiba");
+    const metadescription = String(description || "We provide fast home appliance repair in Hudaiba, Dubai. Contact us for service on washing machine, dishwasher, dryer, cooker, and oven in your area");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Hudaiba, Appliance Repair in Hudaiba, Fridge Repair in Hudaiba, Dishwasher Repair in Hudaiba, Refrigerator Repair in Hudaiba, Appliance Service in Hudaiba");
@@ -125,7 +125,7 @@ const ApplianceServiceInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services in Hudaiba</h1>
+                        <h1 className="cs_fs_30">Same-Day Home Appliance Repair and Maintenance Service in Hudaiba, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

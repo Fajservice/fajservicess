@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Best Appliances Services in DIP - Fridge Repair Near Me");
-    const metadescription = String(description || "FAJ offers appliance service in DIP. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner");
+    const metatitle = String(titleSeo || "Best Appliances Services and Refrigerator Repair in DIP, Dubai");
+    const metadescription = String(description || "FAJ offers home appliance repair services in DIP, Dubai. Book now to fix your washing machine, fridge, dishwasher, oven and vacuum nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in DIP, Fridge Repair in DIP, Appliance Service in DIP, Appliance Repair in DIP, Home Appliances Service in DIP, Home Appliances Repair in DIP, Appliance Maintenance in DIP, Appliance Installation in DIP");
@@ -128,7 +128,7 @@ const ApplianceServiceInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in DIP</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Repair and Fix Service in DIP, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

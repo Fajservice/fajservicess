@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Best Appliances Services In JVC Jumeirah Village Circle");
-    const metadescription = String(description || "Need appliance Services in JVC. We provide refrigerator repair near me, fridge, fix washing machine, dryer, cooker oven & more. Call us now  043300002");
+    const metatitle = String(titleSeo || "Best Appliances Repair and Service in JVC Jumeirah Village Circle");
+    const metadescription = String(description || "Need home appliance service in JVC Jumeirah Village Circle, Dubai? We provide repair for refrigerator, washing machine, dryer, cooker, and ovens");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in JVC, Refrigerator in JVC, Dishwasher in JVC, Oven in JVC, Appliance Repair in JVC, Appliance Service in JVC, Appliance Maintenance in JVC");
@@ -126,7 +126,7 @@ const ApplianceServiceInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in JVC</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Service and Repair in JVC, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

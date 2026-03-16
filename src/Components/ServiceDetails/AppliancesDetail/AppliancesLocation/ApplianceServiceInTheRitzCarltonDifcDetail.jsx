@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best Appliances Services in The Ritz Carlton DIFC Near Me");
-    const metadescription = String(description || "Get best appliance services in The Ritz Carlton DIFC. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine, oven & dishwasher fix");
+    const metatitle = String(titleSeo || "Best Appliances Service & Fridge Repair in The Ritz Carlton DIFC");
+    const metadescription = String(description || "Book home appliance service in The Ritz-Carlton DIFC, Dubai. FAJ experts in fridge repair near you. Call 043300002 for washing machine, & dishwasher fix");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in The Ritz Carlton DIFC, Fridge Repair in The Ritz Carlton DIFC, Oven Repair in The Ritz Carlton DIFC, Dishwasher Repair in The Ritz Carlton DIFC, Appliance Service in The Ritz Carlton DIFC, Appliance Repair in The Ritz Carlton DIFC");
@@ -127,7 +127,7 @@ const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in The Ritz Carlton DIFC</h1>
+                        <h1 className="cs_fs_30">Affordable Home Appliances Repair and Services in The Ritz Carlton DIFC, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

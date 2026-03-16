@@ -27,8 +27,8 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
 
 
   // For SEO
-  const metatitle = String(titleSeo || "Westpoint Split AC Repair and Window Maintenance Service Dubai");
-  const metadescription = String(description || "Westpoint Window and Split AC service & repair in Dubai. We are offering Westpoint fridge, washing machine, stove, oven repairs with part warranty");
+  const metatitle = String(titleSeo || "Best West Point Split AC Repair & Window Cleaning Service Dubai");
+  const metadescription = String(description || "High-rated West Point window and split AC repair & service in Dubai. Additionally, we provide repair services for refrigerator, washing machine, & oven");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Westpoint AC repair in Dubai, Westpoint AC maintenance in Dubai, Westpoint AC service in Dubai, Westpoint air conditioner repair in Dubai, Westpoint split AC repair in Dubai, Westpoint wall mounted AC repair in Dubai, Westpoint ductless AC repair in Dubai, Westpoint aircon repair in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/westpoint/");
@@ -114,7 +114,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Westpoint AC Repair Center and Home Appliances Service Dubai</h1>
+            <h1 className="cs_fs_30">Cost-Effective West Point Air Conditioning Repair and Maintenance Services in Dubai, UAE</h1>
             <p>Westpoint home appliances play a crucial role in our daily lives, providing comfort and comfort. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, our goal is to improve our quality of life through reliable repairs at our Supra home appliances repair center.<br />Some key Westpoint appliances that greatly impact our daily routines include Westpoint air conditioners, washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers. The inconvenience caused by any of these appliances suddenly breaking down can be considerable, which is why we offer dedicated repair, maintenance, and service in Dubai.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

@@ -20,8 +20,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInJumeriahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Jumeirah Heights - Fridge Repair");
-    const metadescription = String(description || "Get appliance services in Jumeirah Heights. FAJ offers fridge repair near me in Dubai. Call 043300002 for dishwasher, oven, washing machine.");
+    const metatitle = String(titleSeo || "Trusted Appliances Repair and Fridge Service in Jumeirah Heights");
+    const metadescription = String(description || "Cost-Effective home appliance services in Jumeirah Heights. Get fast repair for washing machine, fridge, dishwasher, dryer, oven & cooker near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Heights, Fridge Repair in Jumeirah Heights, Dishwasher Repair in Jumeirah Heights, Oven Repair in Jumeirah Heights, Appliance Service in Jumeirah Heights, Appliance Repair in Jumeirah Heights");
@@ -125,7 +125,7 @@ const ApplianceServiceInJumeriahHeightsDetail = ({ subtitle, title, reviewsbg, t
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Jumeirah Heights</h1>
+                        <h1 className="cs_fs_30">Cost-Effective Home Appliances Service and Repair in Jumeirah Heights, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInDubailandMazayaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services in Dubailand Mazaya - Fridge Repair");
-  const metadescription = String(description || "Get appliance services in Dubailand Mazaya. FAJ Experts refrigerator repair near me. Call 043300002 to fix washing machine, dishwasher, oven, fridge");
+  const metatitle = String(titleSeo || "Best Appliances Repair Service in Dubailand Mazaya Queue Point");
+  const metadescription = String(description || "Looking for appliance repair services in Dubailand Mazaya Queue Point? Get the best fix for washing machine, fridge, dishwasher & cooker near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in dubailand mazaya, Fridge Repair in dubailand mazaya, Dishwasher Repair in dubailand mazaya, Oven Repair in dubailand mazaya, Appliances Services in dubailand mazaya, Appliances Service Center in dubailand mazaya, Appliances Repair in dubailand mazaya");
@@ -127,7 +127,7 @@ const AppliancesServicesInDubailandMazayaDetail = ({ subtitle, title, reviewsbg,
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Appliances Services In Dubailand Mazaya</h1>
+            <h1 className="cs_fs_30">Affordable Home Appliances Repair and Services in Dubai Land Mazaya Queue Point</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

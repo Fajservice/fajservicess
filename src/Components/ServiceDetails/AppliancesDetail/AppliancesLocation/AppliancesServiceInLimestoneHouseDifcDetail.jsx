@@ -20,8 +20,8 @@ const getImageSrc = (imgPath) => {
 };
 const AppliancesServiceInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services in The Limestone House DIFC Near Me");
-  const metadescription = String(description || "Get appliances services in the Limestone house DIFC. Looking for refrigerator, fridge, washing machine repair and oven fix near me than call at 043300002");
+  const metatitle = String(titleSeo || "Best Appliances Service & Fix Oven in The Limestone House DIFC");
+  const metadescription = String(description || "Expert home appliance service in The Limestone House DIFC, Dubai. Get the best washing machine, fridge, dryer, dishwasher & cooker repair near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in limestone house DIFC, Refrigerator in limestone house DIFC, Dishwasher in limestone house DIFC, Oven in limestone house DIFC, Appliances service in limestone house DIFC, Appliances repair in limestone house DIFC, Appliances maintenance in limestone house DIFC, Appliances installation in limestone house DIFC");
@@ -124,7 +124,7 @@ const AppliancesServiceInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsb
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Home Appliance Service in Limestone House DIFC</h1>
+            <h1 className="cs_fs_30">Top-Quality Home Appliances Repair and Service in DIFC, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services In Damac Hills - Washing Machine Repair");
-  const metadescription = String(description || "Get appliance services in Damac Hills. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
+  const metatitle = String(titleSeo || "Best Appliances Service & Washing Machine Repair in Damac Hills");
+  const metadescription = String(description || "Get appliance services in Damac Hills, Dubai. FAJ Experts offers refrigerator repair near me Book now to fix your dryer, fridge, dishwasher & oven");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Damac Hills, Refrigerator Repair in Damac Hills, Dishwasher Repair in Damac Hills, Oven Repair in Damac Hills, Appliance Service in Damac Hills, Appliance Repair in Damac Hills, Appliance Maintenance in Damac Hills");
@@ -127,7 +127,7 @@ const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, title
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Home Appliance Service in Damac Hills</h1>
+            <h1 className="cs_fs_30">Premium Quality Home Appliances Repair and Services in Damac Hills, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Dubai Sports City - Fridge Repair");
-    const metadescription = String(description || "We offer best appliance services in Dubai Sports City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
+    const metatitle = String(titleSeo || "Fast Appliances Service and Fridge Repair in Dubai Sports City");
+    const metadescription = String(description || "Are you looking for home appliance services in Dubai Sports City? Contact us for refrigerator, washing machine, dryer, dishwasher, & oven repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubai Sports City, Fridge Repair in Dubai Sports City, Dishwasher Repair in Dubai Sports City, Oven Repair in Dubai Sports City, Appliance Service in Dubai Sports City");
@@ -128,7 +128,7 @@ const ApplianceServiceInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, ti
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Dubai Sports City</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Service and Repair in Dubai Sports City</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

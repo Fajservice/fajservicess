@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || " Appliances Services in Al Wasl - Washing Machine Repair  ");
-    const metadescription = String(description || "We are experts appliance service in Al Wasl, Dubai. Get refrigerator repair near me. Book 043300002 to fix your dishwasher, washing machine. ");
+    const metatitle = String(titleSeo || "Cost-Effective Appliances Service and Fridge Repair in Al Wasl");
+    const metadescription = String(description || "Book the best home appliance services in Al Wasl, Dubai. FAJ offers refrigerator, dishwasher, stove, oven, and washing machine repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine Repair in AL wasl, Refrigerator Repair in Al Wasl, Dishwasher Repair in Al Wasl, Appliance Service in Al Wasl, Appliance Repair in Al Wasl, Home Appliance Service in Al Wasl, Home Appliance Repair in Al Wasl");
@@ -127,7 +127,7 @@ const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Al Wasl</h1>
+                        <h1 className="cs_fs_30">Cost-Effective Home Appliances Service and Repair in Al Wasl, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

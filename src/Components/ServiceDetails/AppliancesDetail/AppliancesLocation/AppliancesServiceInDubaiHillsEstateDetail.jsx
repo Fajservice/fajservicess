@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServiceInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services In Dubai Hills Estate - Washing Machine Repair");
-  const metadescription = String(description || "Get appliance services in Dubai Hills Estate. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
+  const metatitle = String(titleSeo || "Best Appliances Service and Fridge Repair in Dubai Hills Estate");
+  const metadescription = String(description || "Top-quality home appliance service in Dubai Hills Estate. FAJ Experts provide refrigerator, washing machine, dishwasher, oven, & stove repair near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machinein dubai Hills Estate, Refrigerator Repair Dubai Hills Estate, Dishwasher Repair Dubai Hills Estate, Oven Repair Dubai Hills Estate, Appliance Service Dubai Hills Estate");
@@ -128,7 +128,7 @@ const AppliancesServiceInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg,
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Home Appliance Service in Dubai Hills Estate</h1>
+            <h1 className="cs_fs_30">Top-Quality Home Appliances Service and Repair in Dubai Hills Estate, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

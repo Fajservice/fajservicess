@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Dubai Studio City - Fridge Repair");
-    const metadescription = String(description || "FAJ offers best appliance service in Dubai Studio City. Get washing machine repair near me. Call 043300002 for dishwasher, oven and fridge fix.");
+    const metatitle = String(titleSeo || "Top-Rated Appliances Service & Fridge Repair in Dubai Studio City");
+    const metadescription = String(description || "FAJ offers the best appliance service in Dubai Studio City. Call us for washing machine, refrigerator, dishwasher, dryer, oven, and cooker repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubai, Fridge Repair in Dubai, Dishwasher Repair in Dubai, Oven Repair in Dubai, Appliance Service in Dubai Studio City");
@@ -128,7 +128,7 @@ const ApplianceServiceInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, t
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Dubai Studio City</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Repair and Service in Dubai Studio City</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

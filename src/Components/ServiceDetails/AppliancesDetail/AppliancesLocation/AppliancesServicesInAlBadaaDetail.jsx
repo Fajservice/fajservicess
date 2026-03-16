@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Al Badaa - Washing Machine Repair");
-    const metadescription = String(description || "We offer best appliance services in Al Badaa. Get fridge repair near me in Dubai. Book 043300002 for oven, dishwasher, washing machine maintenance");
+    const metatitle = String(titleSeo || "Best Appliances Services and Washing Machine Repair in Al Badaa");
+    const metadescription = String(description || "High-quality home appliance service in Al Badaa, Dubai. We offer fast refrigerator, washing machine, dishwasher, stove, and oven repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || " Washing Machine in al Badaa, Fridge Repair in al Badaa, Dishwasher Repair in al Badaa, Oven Repair in al Badaa, Appliance Services in al Badaa, Appliance Repair in al Badaa, Appliance Maintenance in al Badaa, Appliance Service Center in al Badaa");
@@ -128,7 +128,7 @@ const AppliancesServicesInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSe
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services In Al Badaa</h1>
+                        <h1 className="cs_fs_30">Trusted Home Appliances Service and Repair in Al Badaa, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

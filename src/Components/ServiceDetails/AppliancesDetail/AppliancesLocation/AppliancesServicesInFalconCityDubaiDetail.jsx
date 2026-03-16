@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services in Falcon City - Washing Machine Repair");
-  const metadescription = String(description || "We offer best appliance services in Falcon City. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance");
+  const metatitle = String(titleSeo || "Best Appliances Services and Fix Washing Machine in Falcon City");
+  const metadescription = String(description || "FAJ offers quick appliance repair in Falcon City, Dubai. Contact us for washing machine, dishwasher, dryer, fridge, cooker, and oven service in your area");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in falcon city, Appliance Repair in Falcon City, Appliance Services in Falcon City, Fridge Repair in Falcon City, Oven Repair in Falcon City, Dishwasher Repair in Falcon City, Washing Machine Repair in Falcon City");
@@ -127,7 +127,7 @@ const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, reviewsbg,
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Appliances Services In Falcon City Dubai</h1>
+            <h1 className="cs_fs_30">Highly Rated Home Appliance Repair and Service in Falcon City, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

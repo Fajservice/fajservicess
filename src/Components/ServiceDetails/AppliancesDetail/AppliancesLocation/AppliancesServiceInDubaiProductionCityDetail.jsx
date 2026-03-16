@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services In Dubai Production City - Washing Machine Repair");
-    const metadescription = String(description || "Get appliance services in Dubai Production City. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher");
+    const metatitle = String(titleSeo || "Get Appliances Service and Fridge Repair in Dubai Production City");
+    const metadescription = String(description || "Top-rated home appliance service in Dubai Production City. FAJ experts in refrigerator, oven, cooker, and dishwasher repair are available near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in dubai production city, refrigerator repair in dubai production city, dishwasher repair in dubai production city, oven repair in dubai production city, appliance service in dubai production city, appliance repair in dubai production city, appliance maintenance in dubai production city");
@@ -126,7 +126,7 @@ const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, reviews
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Dubai Production City</h1>
+                        <h1 className="cs_fs_30">Professional Home Appliances Repair and Service in Dubai Production City</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai Production City, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Al Raffa - Fridge Repair Near Me ");
-    const metadescription = String(description || "Get Appliances Services in Al Raffa. We specilize in fridge repair near me, Call 043300002 to fix washing machine, dishwasher and oven. ");
+    const metatitle = String(titleSeo || "Fast Appliances Service & Washing Machine Repair in Al Raffa");
+    const metadescription = String(description || "Top-rated home appliance repair service in Al Raffa, Dubai. FAJ offers refrigerator, dishwasher, stove, oven, and washing machine repairs near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Appliances Services in Al Raffa, Fridge Repair in al raffa, Washing Machine Repair in al raffa, Dishwasher Repair in al raffa, Oven Repair in al raffa, Appliance Repair in al raffa, Appliance Service in al raffa, Appliance Maintenance in al raffa, Appliance Installation in al raffa");
@@ -128,7 +128,7 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Al Raffa</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Repair and Service in Al Raffa, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

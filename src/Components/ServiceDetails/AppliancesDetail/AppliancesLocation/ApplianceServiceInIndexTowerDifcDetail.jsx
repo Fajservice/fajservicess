@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Index Tower DIFC - Fridge Repair");
-    const metadescription = String(description || "Best appliance services in Index Tower DIFC. FAJ offers fridge repair near me. Call 043300002 for dishwasher, oven, washing machine maintenance");
+    const metatitle = String(titleSeo || "Cost-Effective Appliances Service & Fix Fridge in Index Tower DIFC");
+    const metadescription = String(description || "Same-day home appliance repair in Index Tower DIFC, Dubai. Contact us for service on washing machines, dryers, cookers, and ovens in near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Index Tower DIFC, Fridge Repair in Index Tower DIFC, Dishwasher Repair in Index Tower DIFC, Oven Repair in Index Tower DIFC, Appliance Service in Index Tower DIFC, Appliance Maintenance in Index Tower DIFC");
@@ -128,7 +128,7 @@ const ApplianceServiceInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, ti
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Index Tower DIFC</h1>
+                        <h1 className="cs_fs_30">Reliable and Efficient Home Appliance Repair and Service in Index Tower, DIFC, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

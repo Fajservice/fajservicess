@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInDubaiMediaCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services In Dubai Media City - Fridge Repair");
-    const metadescription = String(description || "Best Appliances Services in Dubai Media City. Get Washing Machine Repair Near me. Call now at 043300002. Fridge , refrigerator, oven Fix. ");
+    const metatitle = String(titleSeo || "Trusted Appliances Service and Fridge Repair in Dubai Media City");
+    const metadescription = String(description || "Same-day home appliances service in Dubai Media City. Expert technicians fix washing machine, dishwasher, oven, & stove repair near your location");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing machine repair in Dubai Media City, Fridge repair in Dubai Media City, Appliance repair in Dubai Media City, Home appliance service in Dubai Media City, Appliance maintenance in Dubai Media City, Same day appliance repair in Dubai Media City, Affordable appliance service in Dubai Media City, Reliable appliance repair in Dubai Media City");
@@ -128,7 +128,7 @@ const ApplianceServiceInDubaiMediaCityDetail = ({ subtitle, title, reviewsbg, ti
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Dubai Media City</h1>
+                        <h1 className="cs_fs_30">Highly Rated Home Appliance Repair and Service in Dubai Media City</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

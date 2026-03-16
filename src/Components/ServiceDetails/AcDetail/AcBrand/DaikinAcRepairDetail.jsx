@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Reliable HVAC Services | Daikin AC Repair & Maintenance Dubai");
-  const metadescription = String(description || "FAJ technicians specialise in Daikin AC repair and VRV systems, as well as ducted split systems, utilising Daikin maintenance service for all repairs Dubai");
+  const metatitle = String(titleSeo || "Best Daikin AC Repair & Daikin AC Maintenance Services in Dubai");
+  const metadescription = String(description || "FAJ technicians specialise in Daikin Air Conditioning repair and Daikin AC VRV systems service, as well as ducted split maintenance for all repairs in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Daikin AC Repair in Dubai, Daikin Air Conditioner Maintenance, Daikin AC Service, Daikin Air Conditioning Repair, Daikin AC Fix, Daikin Air Conditioner Service, Daikin AC Cleaning, Daikin Air Conditioner Installation");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/daikin/");
@@ -330,7 +330,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Daikin Air Conditioning Repair and Maintenance Service Specialists in Dubai</h1>
+            <h1 className="cs_fs_30">High-Rated Daikin Air Conditioning Repair and Maintenance Service Specialists in Dubai</h1>
             <p>Are you looking for a Daikin air conditioning maintenance provider for your home or business? We can help!<br/><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> offers complete services for Daikin air conditioning systems throughout Dubai, including regular repair, maintenance, and installation.<br/>Our team of Daikin AC professionals is highly skilled and knowledgeable, ensuring they meet the highest industry standards. They will arrive at your residence or commercial premises fully equipped to handle any maintenance task related to Daikin air conditioning. Additionally, we offer tailored service and maintenance packages to suit your business needs.
             </p>
 

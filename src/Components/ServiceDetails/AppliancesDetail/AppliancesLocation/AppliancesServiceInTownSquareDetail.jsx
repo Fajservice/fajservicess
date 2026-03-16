@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services In Town Square - Washing Machine Repair");
-    const metadescription = String(description || "Get appliance services in Town Square. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
+    const metatitle = String(titleSeo || "Expert Appliances Service and Washing Machine in Town Square");
+    const metadescription = String(description || "Get affordable home appliance services in Town Square, Dubai. FAJ Experts offer refrigerator, dryer, dishwasher, oven & stove repair near your location");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in town square, refrigerator repair in town square, dishwasher repair in town square, oven repair in town square, appliance service in town square, appliance repair in town square, appliance maintenance in town square, appliance installation in town square");
@@ -128,7 +128,7 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, title
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Town Square Dubai</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Repair and Fix Service in Town Square, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Town Square Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

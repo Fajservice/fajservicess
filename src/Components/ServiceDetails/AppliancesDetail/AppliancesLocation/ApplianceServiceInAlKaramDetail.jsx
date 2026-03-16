@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || " Appliances Services in Al Karama - Fridge Repair Service");
-    const metadescription = String(description || "FAJ offers appliance service in Al Karama. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner");
+    const metatitle = String(titleSeo || "Best Home Appliances Service & Refrigerator Repair in Al Karama");
+    const metadescription = String(description || "Get high-quality home appliance repair services in Al Karama, Dubai. FAJ offers fridge, dishwasher, stove, oven, and washing machine repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "appliance service in Al Karama, washing machine repair in al karama, refrigerator repair in al karama");
@@ -134,7 +134,7 @@ const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Al Karama</h1>
+                        <h1 className="cs_fs_30">Cost-Effective Home Appliances Service and Repair in Al Karama, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

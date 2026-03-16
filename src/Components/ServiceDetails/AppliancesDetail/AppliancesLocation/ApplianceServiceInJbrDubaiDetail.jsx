@@ -32,11 +32,11 @@ const ApplianceServiceInJbrDubaiDetail = ({
     URL }) => {
 
     const metaTitle = String(
-        titleSeo || "Appliances Washing Machine Fridge Dishwasher Service JBR"
+        titleSeo || "Expert Appliances Repair & Washing Machine Repair in JBR Dubai"
     );
 
     const metaDescription = String(
-        description || "Same-day appliances services in JBR. Get refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher & fridge"
+        description || "Are you looking for home appliance services in JBR, Dubai? Call us for best repair of refrigerator, washing machine, dryer, dishwasher, and oven near you"
     );
 
     const metaAuthor = String(
@@ -158,7 +158,7 @@ const ApplianceServiceInJbrDubaiDetail = ({
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in JBR Dubai</h1>
+                        <h1 className="cs_fs_30">Highly-Rated Home Appliance Service and Repair in JBR Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

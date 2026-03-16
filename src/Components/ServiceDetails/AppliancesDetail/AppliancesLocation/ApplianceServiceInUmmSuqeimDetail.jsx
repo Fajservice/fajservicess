@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services In Umm Suqeim - Refrigerator Repair");
-    const metadescription = String(description || "Best appliance services in Umm Suqeim. FAJ specializes in fridge repair near me in Dubai. Call 043300002 for reliable washing machine & oven fix.");
+    const metatitle = String(titleSeo || "Fast Appliances Services and Refrigerator Repair in Umm Suqeim");
+    const metadescription = String(description || "Book the best home appliance services in Umm Suqeim. FAJ specialises in reliable fridge, washing machine, oven, and dishwasher repairs near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in umm suqeim, Refrigerator in umm suqeim, Oven in umm suqeim, Dishwasher in umm suqeim, Appliances repair in umm suqeim, Appliances service in umm suqeim, Appliances maintenance in umm suqeim, Appliances installation in umm suqeim");
@@ -128,7 +128,7 @@ const ApplianceServiceInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSe
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Umm Suqeim</h1>
+                        <h1 className="cs_fs_30">Reliable and Efficient Home Appliance Repair and Service in Umm Suqeim, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

@@ -18,8 +18,8 @@ const getImageSrc = (imgPath) => {
 };
 const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "AC Repair Near Me - Expert AC Maintenance Near Me - FAJ");
-  const metadescription = String(description || "Looking for AC repair near me in Dubai? Contact us at 043300002 for AC maintenance. Get same-day air conditioner repair service near me, Sharjah");
+  const metatitle = String(titleSeo || "Best Dubai AC Repair Near Me & AC Cleaning Service");
+  const metadescription = String(description || "FAJ technicians specialise in AC repair near me in Dubai. Also, we offer ducted split and central cleaning services for all repairs in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Repair Near Me, AC Service Near Me, Air Conditioner Repair Near Me, Air Conditioner Service Near Me, AC Maintenance Near Me, Split AC Repair Near Me, Split AC Service Near Me, Central AC Repair Near Me, Central AC Service Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/dubai/ac-repair-near-me/");
@@ -121,7 +121,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Repair Near Me </h1>
+            <h1 className="cs_fs_30">Top-Rated AC Repair Near Me Dubai and Best AC Cleaning Service</h1>
             <p>As one of Dubai's leading air conditioning companies, we possess the skills and experience necessary to support your air conditioning system. Our team of AC technicians provides comprehensive coverage across Dubai for AC installation, AC servicing, and AC repair.
               <br />
               We provide services for all types of air conditioning systems in Dubai and Sharjah, ensuring high quality.

@@ -25,8 +25,8 @@ const AppliancesServiceInAlGhadeerCommunityDetail = ({ subtitle, title, reviewsb
     // For SEO
     const metatitle = titleSeo?.trim()
         ? titleSeo
-        : "Appliances Services in Al Ghadeer Community - Fridge Repair";
-    const metadescription = String(description || "Faj offers appliance service in Al Ghadeer Community. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, Coffee machine");
+        : "Best Appliances Service & Fridge Repair in Al Ghadeer Community";
+    const metadescription = String(description || "Get the best home appliance repair service in Al Ghadeer Community, Dubai. FAJ offers dishwasher, oven, and washing machine repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in ghadeer community, Fridge repair in Al Ghadeer Community, Appliance service in Al Ghadeer Community, Appliance repair in Al Ghadeer Community, Appliance maintenance in Al Ghadeer Community, Appliance installation in Al Ghadeer Community");
@@ -130,7 +130,7 @@ const AppliancesServiceInAlGhadeerCommunityDetail = ({ subtitle, title, reviewsb
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Al Ghadeer Community</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Repair and Service in Al Ghadeer Community, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

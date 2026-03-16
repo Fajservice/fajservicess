@@ -25,8 +25,8 @@ const ApplianceServiceInJumeirahVillageTriangleDetail = ({ subtitle, title, revi
     // For SEO
     const metatitle = titleSeo?.trim()
         ? titleSeo
-        : "Best Appliances Services in Jumeirah Village Triangle";
-    const metadescription = String(description || "Looking appliance service in Jumeirah Village Triangle in Dubai. FAJ provide refrigerator repair near me, washing machine & more. Call now 043300002");
+        : "Trusted Appliances Repair & Services in Jumeirah Village Triangle";
+    const metadescription = String(description || "Looking for reliable home appliance repair in Jumeirah Village Triangle? Get trusted fridges, washing machine, dishwasher, and ovens service near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Village Triangle, Refrigerator Repair in Jumeirah Village Triangle, Dishwasher Repair in Jumeirah Village Triangle, Appliance Service in Jumeirah Village Triangle, Home Appliance Service in Jumeirah Village Triangle, Appliance Repair in Jumeirah Village Triangle");
@@ -130,7 +130,7 @@ const ApplianceServiceInJumeirahVillageTriangleDetail = ({ subtitle, title, revi
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Jumeirah Village Triangle</h1>
+                        <h1 className="cs_fs_30">Reliable and Quick Home Appliance Repair and Service in Jumeirah Village Triangle, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

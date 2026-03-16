@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Al Jafiliya - Washing Machine Repair");
-    const metadescription = String(description || "We offer best appliance services in Al Jafiliya. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance.");
+    const metatitle = String(titleSeo || "Top Appliances Service and Washing Machine Repair in Al Jafiliya");
+    const metadescription = String(description || "Get top-notch home appliance repair services in Al Jafiliya, Dubai. FAJ provides refrigerator, dishwasher, oven, and washing machine repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in al jafiliya, Appliances Services in Al Jafiliya, Appliance Repair in Al Jafiliya, Fridge Repair in Al Jafiliya, Oven Repair in Al Jafiliya, Dishwasher Repair in Al Jafiliya");
@@ -128,7 +128,7 @@ const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titl
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services In Al Jafiliya</h1>
+                        <h1 className="cs_fs_30">Top-Rated Home Appliances Repair and Services in Al Jafiliya, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

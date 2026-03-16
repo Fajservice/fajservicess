@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Appliances Services in Jumeirah Golf Estates Near Me");
-  const metadescription = String(description || "Best appliances services in Jumeirah Golf Estates. Get fast  washing machine repair near me in Dubai. Book 043300002 to fix your refrigerator, & oven");
+  const metatitle = String(titleSeo || "Reliable Appliances Repair Services in Jumeirah Golf Estates");
+  const metadescription = String(description || "Book the best home appliance services in Jumeirah Golf Estates. Get fast repair for washing machine, fridge, dishwasher, dryer, oven & cooker near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Golf Estates, Refrigerator in Jumeirah Golf Estates, Oven in Jumeirah Golf Estates, Dishwasher in Jumeirah Golf Estates, Tumble Dryer in Jumeirah Golf Estates, Stove in Jumeirah Golf Estates, Freezer in Jumeirah Golf Estates, Coffee Machine in Jumeirah Golf Estates");
@@ -127,7 +127,7 @@ const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, review
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Appliances Services In Jumeirah Golf Estates</h1>
+            <h1 className="cs_fs_30">Highly-Rated Home Appliances Service and Repair in Jumeirah Golf Estates, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

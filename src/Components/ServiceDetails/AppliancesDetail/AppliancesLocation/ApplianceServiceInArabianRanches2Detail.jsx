@@ -24,8 +24,8 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
 
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Arabian Ranches 2 - Fridge Repair");
-    const metadescription = String(description || "Looking for appliance services in Arabian Ranches 2? Get expert refrigerator repair near me in Dubai. Call 043300002 to fix your washing machine");
+    const metatitle = String(titleSeo || "Expert Appliances Service and Fridge Repair in Arabian Ranches 2");
+    const metadescription = String(description || "Need appliance services in Arabian Ranches 2? Contact an expert refrigerator repair in Dubai. Call 043300002 to have your washing machine fixed");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine Repair in Arabian Ranches 2, Fridge Repair in Arabian Ranches 2, Dishwasher Repair in Arabian Ranches 2, Appliance Service in Arabian Ranches 2, Appliance Repair in Arabian Ranches 2");
@@ -130,7 +130,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
             <div className="cs_service_details">
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Arabian Ranches 2</h1>
+                        <h1 className="cs_fs_30">Top-Rated Home Appliances Repair and Service in Arabian Ranches 2 Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

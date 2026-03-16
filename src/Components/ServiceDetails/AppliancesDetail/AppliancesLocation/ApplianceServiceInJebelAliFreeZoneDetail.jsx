@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInJebelAliFreeZoneDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Jebel Ali Free Zone -Fridge Repair");
-    const metadescription = String(description || "Get appliance services in Jebel Ali Free Zone. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher");
+    const metatitle = String(titleSeo || "Expert Appliances Services & Fridge Repair in Jebel Ali Free Zone");
+    const metadescription = String(description || "Top-rated home appliance services available in Jebel Ali Free Zone. We offer fridge, cooker, oven, dishwasher, & washing machine repair near your area");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Jebel Ali Free Zone, Refrigerator Repair in Jebel Ali Free Zone, Dishwasher Repair in Jebel Ali Free Zone, Appliance Service in Jebel Ali Free Zone, Fridge Repair in Jebel Ali Free Zone, Home Appliance Service in Jebel Ali Free Zone");
@@ -129,7 +129,7 @@ const ApplianceServiceInJebelAliFreeZoneDetail = ({ subtitle, title, reviewsbg, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Jebel Ali Free Zone</h1>
+                        <h1 className="cs_fs_30">Reliable and Efficient Home Appliances Repair and Service in Jebel Ali Free Zone, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

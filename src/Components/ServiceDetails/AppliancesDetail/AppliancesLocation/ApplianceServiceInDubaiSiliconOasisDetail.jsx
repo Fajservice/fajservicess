@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInDubaiSiliconOasisDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Dubai Silicon Oasis - Fridge Repair");
-    const metadescription = String(description || "Same-day appliance service in Dubai Silicon Oasis. Get refrigerator repair near me. Call 043300002 to fix washing machine, dishwasher, fridge, and oven.");
+    const metatitle = String(titleSeo || "Top Appliances Services and Fridge Repair in Dubai Silicon Oasis");
+    const metadescription = String(description || "Top-rated home appliance service in Dubai Silicon Oasis. Book repair for your refrigerator, washing machine, dishwasher, oven & stove near your location");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Dubai Silicon Oasis, Fridge Repair Dubai Silicon Oasis, Dishwasher Repair Dubai Silicon Oasis, Oven Repair Dubai Silicon Oasis, Appliance Service Dubai Silicon Oasis");
@@ -128,7 +128,7 @@ const ApplianceServiceInDubaiSiliconOasisDetail = ({ subtitle, title, reviewsbg,
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Dubai Silicon Oasis</h1>
+                        <h1 className="cs_fs_30">Top-Rated Home Appliances Repair and Services in Dubai Silicon Oasis</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

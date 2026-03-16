@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInJbrDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in JBR - Refrigerator Repair Near Me");
-    const metadescription = String(description || "Appliance services in JBR, Dubai. Experts in refrigerator repair near me. Contact 043300002 to fix washing machine, oven & dishwasher");
+    const metatitle = String(titleSeo || "Expert Appliances Repair and Washing Machine Service in JBR");
+    const metadescription = String(description || "Top-rated home appliance services in JBR. Contact us for refrigerator, washer dryer, dishwasher, oven, & electric induction stove repair near your location");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in JBR, Refrigerator Repair in JBR, Appliance Repair in JBR, Dishwasher Repair in JBR, Oven Repair in JBR, Appliance Services in JBR, Home Appliances Service in JBR");
@@ -129,7 +129,7 @@ const ApplianceServiceInJbrDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in JBR</h1>
+                        <h1 className="cs_fs_30">Cost-Effective Home Appliances Repair and Services in JBR, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

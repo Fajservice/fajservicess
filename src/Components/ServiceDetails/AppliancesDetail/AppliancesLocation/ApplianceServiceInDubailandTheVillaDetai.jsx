@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInDubailandTheVillaDetai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Dubailand The Villa - Fridge Repair");
-    const metadescription = String(description || "Best appliance services in Dubailand the Villa. FAJ offers fridge repair near me. Call 043300002 for dishwasher, oven, washing machine maintenance");
+    const metatitle = String(titleSeo || "Best Appliances Services & Fridge Repair in Dubailand The Villas");
+    const metadescription = String(description || "Cost-effective home appliance services in Dubailand and The Villa. FAJ offers repair for refrigerators, washing machines, dryers, dishwashers, and ovens");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "washing machine repair dubailand the villa, dubailand the villa appliance repair, dubailand the villa appliance service, dubailand the villa appliance maintenance, dubailand the villa appliance installation, dubailand the villa appliance service center, dubailand the villa appliance technician, dubailand the villa appliance specialist, dubailand the villa appliance expert, dubailand the villa appliance company, dubailand the villa appliance services");
@@ -128,7 +128,7 @@ const ApplianceServiceInDubailandTheVillaDetai = ({ subtitle, title, reviewsbg, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Dubailand The Villa</h1>
+                        <h1 className="cs_fs_30">Top-Rated Home Appliances Repair and Services in  Dubailand, The Villa, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

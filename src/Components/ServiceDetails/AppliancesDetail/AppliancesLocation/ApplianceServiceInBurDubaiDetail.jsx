@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || " Appliances Services in Bur Dubai - Fridge Repair Near Me");
-    const metadescription = String(description || "We are experts in appliance services in Bur Dubai. Get the best refrigerator repair near me. Contact 043300002 to fix your washing machine & oven");
+    const metatitle = String(titleSeo || "Best Appliances Service and Washing Machine Repair in Bur Dubai");
+    const metadescription = String(description || "Cost-effective appliance repair service in Bur Dubai. Get expert repair for refrigerator, dishwasher, stove, oven, and washing machines near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine repair in bur dubai, Fridge repair near me bur dubai, Appliance service in bur dubai, Appliance repair in bur dubai, Oven repair in bur dubai, Dishwasher repair in bur dubai");
@@ -127,7 +127,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services in Bur Dubai</h1>
+                        <h1 className="cs_fs_30">Affordable Home Appliances Repair and Services in Bur Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

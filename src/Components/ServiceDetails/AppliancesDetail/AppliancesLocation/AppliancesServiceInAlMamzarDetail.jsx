@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services In Al Mamzar - Washing Machine Repair");
-  const metadescription = String(description || "Get appliance services in Al Mamzar. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
+  const metatitle = String(titleSeo || "Best Appliances Services & Washing Machine Repair in Al Mamzar");
+  const metadescription = String(description || "Book top-quality home appliance repair services in Al Mamzar, Dubai. FAJ offers fridge, dishwasher, stove, oven, and washing machine repair near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in Al Mamzar, Refrigerator in Al Mamzar, Dishwasher in Al Mamzar, Oven in Al Mamzar, Appliance Repair in Al Mamzar, Appliance Service in Al Mamzar, Appliance Maintenance in Al Mamzar, Appliance Installation in Al Mamzar");
@@ -127,7 +127,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSe
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Home Appliance Service in Al Mamzar</h1>
+            <h1 className="cs_fs_30">High-Quality Home Appliances Repair and Service in Al Mamzar, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

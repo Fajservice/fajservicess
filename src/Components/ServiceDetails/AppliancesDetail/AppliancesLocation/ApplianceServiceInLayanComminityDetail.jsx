@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInLayanComminityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Layan Community - Fridge Repair");
-    const metadescription = String(description || "FAJ offers appliance Services in Layan community. Call now at 043300002  for refrigerator, washing machine repair near me, washer dryer & more fix");
+    const metatitle = String(titleSeo || "Trusted Appliances Service and Fridge Repair in Layan Community");
+    const metadescription = String(description || "Top-rated home appliance service in Layan Community, Dubai. Get the best  washing machine, fridge, dryer, dishwasher, cookers, & oven repair near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Layan Community, Refrigerator Repair in Layan Community, Appliance Repair in Layan Community, Appliance Service in Layan Community, Fridge Repair in Layan Community, Washing Machine Repair in Layan Community, Dishwasher Repair in Layan Community, Tumble Dryer Repair in Layan Community, Oven Repair in Layan Community, Stove Repair in Layan Community");
@@ -129,7 +129,7 @@ const ApplianceServiceInLayanComminityDetail = ({ subtitle, title, reviewsbg, ti
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Layan Community</h1>
+                        <h1 className="cs_fs_30">Cost-Effective Home Appliances Service and Repair in Layan Community, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
