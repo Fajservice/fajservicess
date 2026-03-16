@@ -345,6 +345,8 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/how-to-clean-ac-condenser/">How to Clean AC Condenser</a></li>
                             <li><a href="https://www.fajservices.ae/blog/a-guide-to-diy-refrigerator-maintenance-at-home-keep-your-fridge-running-like-new/">A Guide to DIY Refrigerator Maintenance at Home - Keep Your Fridge Running Like New</a></li>
                             <li><a href="https://www.fajservices.ae/blog/ac-repair-dubai-questions-before-hiring-ac-repair-companies-dubai/">AC Repair Dubai - Questions Before Hiring AC Repair Companies Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-ac-maintenance-in-dubai-for-Long-lasting-cooling-performance/">Guide for AC Maintenance</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/repair-or-replac-what-to-do-with-a-broken-washing-machine-in-dubai/">Repair or Replace in Washing Machine</a></li>
                         </ul>
                     </div>
                 </div>
