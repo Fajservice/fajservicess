@@ -32,11 +32,11 @@ const AppliancesServicesInRemraamDetail = ({
     URL }) => {
 
     const metaTitle = String(
-        titleSeo || "Appliances Services in Remraam - Washing Machine Repair"
+        titleSeo || "Trusted Appliances Repair & Refrigerator Service in Remraam"
     );
 
     const metaDescription = String(
-        description || "We offer (Integrated) built-in appliance repair Dubai. Book an fridge, washing machine, dishwasher, stove cooktop oven fix service center near me"
+        description || "We offer built-in appliance repair services in Remraam, Dubai. Book a fridge, washing machine, dishwasher, stove, or oven repair service near you"
     );
 
     const metaAuthor = String(
@@ -157,7 +157,7 @@ const AppliancesServicesInRemraamDetail = ({
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services In Remraam</h1>
+                        <h1 className="cs_fs_30">Affordable Home Appliances Repair and Service in Remraam, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -496,7 +496,7 @@ const AppliancesServicesInRemraamDetail = ({
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

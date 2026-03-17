@@ -213,7 +213,7 @@ const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">IFB Refrigerator Repair and IFB Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Reliable IFB Home Appliances Service Center and Repair</h1>
             <p>
               Struggling to find a local IFB appliance technician who specializes in IFB kitchen appliances?
               At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable services since 2010. Our large network includes well-vetted, experienced professionals. Whenever possible, we’ll assign a technician familiar with your specific IFB appliance.
@@ -577,7 +577,7 @@ const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

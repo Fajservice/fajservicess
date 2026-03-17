@@ -294,7 +294,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Sears Appliances Repair and Maintenance Services in Dubai</h1>
+            <h1 className="cs_fs_30">Professional Sears Home Appliances Repair Center and Service</h1>
             <p>
               Looking for an experienced local technician to repair your Sears appliances? You’ve come to the right place.
               <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has provided reliable, cost-effective repair solutions across Dubai and Sharjah. Our network of trusted professionals specializes in Sears appliance repair and understands the brand’s unique service needs. We’re dedicated to connecting you with skilled technicians near you to restore your appliances quickly and efficiently. Your satisfaction is always our top priority.
@@ -643,7 +643,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

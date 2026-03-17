@@ -1105,6 +1105,10 @@ export const router = createBrowserRouter([
         element: <Components.CandyRefrigeratorRepair />,
       },
       {
+        path: "/services/home-appliances-repair/brands/bosch/",
+        element: <Components.BoschHomeApplianceRepair />,
+      },
+      {
         path: "/services/home-appliances-repair/brands/hotpoint/",
         element: <Components.HotpointRefrigeratorRepair />,
       },
@@ -1597,7 +1601,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Navigate to="/services/home-appliances-repair/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/bosch/" replace />
       },
 
       {
@@ -3089,7 +3093,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/bosch-home-appliances-repair/",
-        element: <Navigate to="/" replace />
+        element: <Navigate to="/services/home-appliances-repair/brands/bosch/" replace />
       },
       {
         path: "/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/",

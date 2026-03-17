@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Aftron Home Appliances Repair Center | Washing Machine Service");
-    const metadescription = String(description || "FAJ provide expert Aftron appliance, fridge, freezer, Aftron washing machine, dishwasher, oven, cooking range, stove and dryer repair and service in Dubai");
+    const metatitle = String(titleSeo || "Aftron Home Appliances Repair & Washing Machine Service Dubai");
+    const metadescription = String(description || "Trusted Aftron fridge repair in Dubai, FAJ expert Aftron washing machine, dryer, dishwasher, cooking range oven service & repair center nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Aftron fridge repair, Aftron washing machine repair, Aftron cooker repair, Aftron oven repair, Aftron appliances maintenance, Aftron refrigerator fix, Aftron appliance service Dubai");
@@ -248,7 +248,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Best Aftron Home Appliance Repair and Service in Dubai</h1>
+                        <h1 className="cs_fs_30">Affordable Aftron Home Appliances Repair Center and Service</h1>
                         <p>To maintain the high quality of your Aftron home appliance, trust our Repair Service. We provide reliable solutions for a wide range of appliance repairs, including refrigerators, dishwashers, washing machines, and ovens.<br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Aftron appliance at your location and promptly restore it to full working order. Count on us to bring your Aftron appliances back to life with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> dependable repair service in Dubai.
                         </p>
 
@@ -610,7 +610,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

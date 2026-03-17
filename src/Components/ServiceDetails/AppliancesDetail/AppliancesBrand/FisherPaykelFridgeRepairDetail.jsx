@@ -222,7 +222,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Fisher and Paykel Home Appliance Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">High-Quality Fisher and Paykel Home Appliances Service Center and Repair</h1>
             <p>At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, We have been providing reliable and affordable service center since 2010 of Fisher and Paykel appliances. We service all models, including Fisher and Paykel fridge freezer, cookers, hoods, dishwasher, and more. Booking your Fisher and Paykel repair with us is simple: just select your Fisher and Paykel appliance type, choose your chosen repair date, and wait for one of our friendly technicians to assist you.<br />No matter what issue you’re experiencing with your Fisher and Paykel appliance, our repair experts at FAJ are in your area and ready to resolve any fault quickly. Contact us today!</p>
 
             <div id="get-quote" className=" mt-3">
@@ -577,7 +577,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

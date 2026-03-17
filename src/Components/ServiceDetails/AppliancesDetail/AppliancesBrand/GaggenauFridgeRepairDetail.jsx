@@ -210,7 +210,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Gaggenau Home Appliance Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Gaggenau Home Appliances Repair Center and Service</h1>
             <p>When your Gaggenau appliances break down, it’s not only inconvenient, but it can also disrupt your entire day. That’s where <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> comes in. With over a decade of experience since 2010, we provide reliable repair and service for Gaggenau appliances.<br/>We specialise in the repair of Gaggenau refrigerators, washing machines, dishwashers, ovens, and stoves. If you need white goods repair services in Dubai or Sharjah, book with us today, and we’ll have your Gaggenau appliance fixed in no time!</p>
 
             <div id="get-quote" className=" mt-3">
@@ -564,7 +564,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

@@ -465,7 +465,7 @@ const AppliancesServicesInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInOudMethaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Oud Metha - Washing Machine Repair");
-    const metadescription = String(description || "FAJ offers best appliance services in Oud Metha. Get washing machine repair near me in Dubai. Call 043300002 for fridge, dishwasher, and oven fix");
+    const metatitle = String(titleSeo || "Fast Appliances Service & Fix Washing Machine in Oud Metha");
+    const metadescription = String(description || "Expert home appliance repair services in Oud Metha, Dubai. Get fast repairs for your washing machine, refrigerator, dishwasher, oven, and cooker nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Oud Metha, Appliance Repair in Oud Metha, Appliance Service in Oud Metha, Fridge Repair in Oud Metha, Dishwasher Repair in Oud Metha, Oven Repair in Oud Metha, Home Appliances Service in Oud Metha");
@@ -127,7 +127,7 @@ const ApplianceServiceInOudMethaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Oud Metha</h1>
+                        <h1 className="cs_fs_30">Cost-Effective Home Appliances Service and Repair in Oud Metha, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -466,7 +466,7 @@ const ApplianceServiceInOudMethaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

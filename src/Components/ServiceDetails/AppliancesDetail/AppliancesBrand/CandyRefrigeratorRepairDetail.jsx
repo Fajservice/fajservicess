@@ -187,7 +187,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Best Candy Home Appliance Repair and Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Candy Home Appliances Service Center and Repair</h1>
             <p>To maintain the high quality of your Candy home appliance, trust our Repair Service. We provide reliable solutions for a wide range of Candy appliance repair, including Candy refrigerators, dishwashers, washing machines, and ovens.<br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Candy appliance at your location and promptly correct it to full working order. Count on us to bring your Candy appliances back to life with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> dependable repair service in Dubai</p>
 
             <div id="get-quote" className=" mt-3">
@@ -542,7 +542,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

@@ -290,7 +290,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Neff Home Appliance Repair and Service in Dubai</h1>
+            <h1 className="cs_fs_30">Highly-Rated Neff Home Appliances Repair Center and Service</h1>
             <p>When your Neff home appliance break down, it can be a real bother and throw off your entire day. This is where <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> steps in. With many years of experience since 2010, we offer dependable Neff kitchen appliance repair and servicing in Dubai.< br/>We focus on resolving issues with Neff refrigerators, washing machines, dishwashers, Neff ovens, and stoves. If you're looking for white goods repair services in Dubai or Sharjah, reach out to us today, and we'll get your Neff appliance up and running in no time!</p>
 
             <div id="get-quote" className=" mt-3">
@@ -644,7 +644,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

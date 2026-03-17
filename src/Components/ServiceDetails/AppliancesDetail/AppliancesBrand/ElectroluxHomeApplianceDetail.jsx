@@ -151,7 +151,7 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Electrolux Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Cost-Effective Electrolux Home Appliances Repair Center and Service</h1>
             <p>
               Having trouble finding a local technician who specializes in Electrolux kitchen appliances?
               Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been providing reliable and cost-effective repair services. Our wide network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with expertise in your specific Electrolux appliance.
@@ -515,7 +515,7 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

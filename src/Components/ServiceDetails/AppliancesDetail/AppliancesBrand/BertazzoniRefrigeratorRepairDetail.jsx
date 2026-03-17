@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Bertazzoni Appliance Repair Center | Bertazzoni Oven Service");
-  const metadescription = String(description || "FAJ provide same day Bertazzoni kitchen appliance, Bertazzoni cooking range, stove, oven, hood, hob repair and maintenance service in Dubai ");
+  const metatitle = String(titleSeo || "Bertazzoni Appliance Repair Center and Bertazzoni Oven Service");
+  const metadescription = String(description || "FAJ provides same-day Bertazzoni kitchen appliance repair, Bertazzoni cooking range, stove, oven, hood, hob fix and maintenance service  near you Dubai");
   const metaAuthor = String(Author || "Faj Technical Services/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Bertazzoni Refrigerator Repair, Bertazzoni Fridge Repair, Bertazzoni Washing Machine Repair, Bertazzoni Dishwasher Repair, Bertazzoni Cooker Repair, Bertazzoni Oven Repair, Bertazzoni Appliance Service Dubai");
@@ -364,7 +364,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Bertazzoni Appliance Service and Repair Centre Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Bertazzoni Cooking Range Repair and Oven Service Center</h1>
             <p>When it comes to high-quality Bertazzoni kitchen appliances, the Bertazzoni repair center Dubai means excellence. Known for their innovative design and superior performance, Bertazzoni appliances have become a favourite among discerning homeowners in Dubai.<br />However, even the most reliable Bertazzoni appliances may require maintenance or repair over time. This is where the Bertazzoni repair service in Dubai comes in, providing exceptional service to ensure that your valued appliances remain in optimal condition.</p>
 
             <div id="get-quote" className=" mt-3">
@@ -703,7 +703,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

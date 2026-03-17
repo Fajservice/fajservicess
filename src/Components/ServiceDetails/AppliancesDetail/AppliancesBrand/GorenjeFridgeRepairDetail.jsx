@@ -218,7 +218,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Gorenje Fridge Repair and Gorenje Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Premium Quality Gorenje Home Appliances Repair Center and Service</h1>
             <p>
               Having difficulty finding a local technician who specializes in Gorenje kitchen appliances?
               <br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and cost-effective repair services since 2010. Our extensive network includes highly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who is well-acquainted with your specific Gorenje appliance to ensure accurate and efficient service.
@@ -582,7 +582,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

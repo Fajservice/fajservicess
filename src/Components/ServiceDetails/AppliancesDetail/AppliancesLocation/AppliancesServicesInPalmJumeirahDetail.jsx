@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services in Palm Jumeirah - Fridge Repair Dubai");
-  const metadescription = String(description || "Same-day appliance service in Palm Jumeirah. Get refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher, oven, fridge");
+  const metatitle = String(titleSeo || "Best Appliances Services and Fridge Repair in Palm Jumeirah");
+  const metadescription = String(description || "Same-Day home appliance repair services in Palm Jumeirah, Dubai. Get fast washing machine, refrigerator, dishwasher, oven, and cooker repair nearby");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in palm jumeirah, Fridge Repair in palm jumeirah, Dishwasher Repair in palm jumeirah, Oven Repair in palm jumeirah, Appliance Service in palm jumeirah, Appliance Repair in palm jumeirah, Appliance Maintenance in palm jumeirah, Appliance Installation in palm jumeirah");
@@ -127,7 +127,7 @@ const AppliancesServicesInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, ti
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Appliances Services In Palm Jumeirah</h1>
+            <h1 className="cs_fs_30">Top-Quality Home Appliances Repair and Service in Palm Jumeirah, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -468,7 +468,7 @@ const AppliancesServicesInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, ti
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

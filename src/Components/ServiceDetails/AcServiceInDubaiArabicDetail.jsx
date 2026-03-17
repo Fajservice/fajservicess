@@ -506,7 +506,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
           {/* <!-- قسم الفاصل --> */}
           <div className="uspdelimit col-2 d-none d-xl-block">
-            <img className="blue-border-2 w-100 why-choose-img" src={`${CDN}/ACServicescomponent/public`} alt="خدمات صيانة التكييف" />
+            <img className="blue-border-2 w-100 why-choose-img" src={`${CDN}/ACServicescomponent-New/public`} alt="خدمات صيانة التكييف" />
           </div>
 
           {/* <!-- العمود الثاني --> */}
@@ -543,7 +543,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         </div>
         {/* <!-- فاصل للجوال --> */}
         <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-          <img className="blue-border-2 w-100" src={`${CDN}/ACServicescomponent/public`} alt="خدمات صيانة التكييف" />
+          <img className="blue-border-2 w-100" src={`${CDN}/ACServicescomponent-New/public`} alt="خدمات صيانة التكييف" />
         </div>
       </div>
     </section>

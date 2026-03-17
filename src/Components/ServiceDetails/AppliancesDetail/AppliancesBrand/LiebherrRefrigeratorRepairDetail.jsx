@@ -288,7 +288,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Liebherr Fridge Repair and Liebherr Freezer Service in Dubai</h1>
+            <h1 className="cs_fs_30">Highly-Rated Liebherr Refrigerator Repair Center and Freezer Service</h1>
 
             <p>Liebherr refrigerators are the best among the other brands out there. Still, products of the best brands do not last forever. <br/>You can fix minor issues, but mostly, you cannot. So why worry? We are the best Liebherr fridge repair and freezer service provider in Dubai. We are the most experienced drive experts, serving since 2010 in Dubai. With hands-on experience with all Liebherr refrigerator maintenance, you can expect successful and swift repairs from us. Liebherr Fridge repair in Dubai. So, contact us today to get your Liebherr built-in fridge freezer repair appointment. Enjoy superior Liebherr appliance repair with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>.</p>
 
@@ -657,7 +657,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

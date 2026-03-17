@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Faber Appliances Service | Faber Oven Repair in Dubai");
-    const metadescription = String(description || "Faber Appliance Service FAJ offers reliable repair for oven, cooking range, hood, dishwasher, washing machine, and refrigerator in Dubai.");
+    const metatitle = String(titleSeo || "Faber Appliances Service and Faber Cooker Hood Repair Dubai");
+    const metadescription = String(description || "Exceptional service for Faber home appliances in Dubai. Our expert cooker hoods, refrigerator, washing machine, and oven repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Faber Appliances Service, Faber Oven Repair, Faber Dishwasher Repair, Faber Washing Machine Repair, Faber Fridge Repair, Faber Cooker Repair, Faber Hood Repair, Faber Appliance Maintenance Dubai");
@@ -189,7 +189,7 @@ const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Faber Appliances Service and Faber Oven Repair in Dubai</h1>
+                        <h1 className="cs_fs_30">Reliable and Efficient Faber Home Appliances Repair Center and Service</h1>
                         <p>
                             Having trouble finding a local technician who specializes in Faber kitchen appliances?
                             <br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been offering dependable and cost-effective services since 2010. We work with a wide network of experienced, qualified, and carefully vetted professionals. Whenever possible, we’ll send a technician who understands your specific Faber appliance to ensure you receive accurate and efficient repair service.
@@ -553,7 +553,7 @@ const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

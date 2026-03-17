@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in The Meadows - Fridge Repair Dubai");
-    const metadescription = String(description || "We offer best appliance services in The Meadows. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance.");
+    const metatitle = String(titleSeo || "Cost-Effective Appliances Service & Fridge Repair in The Meadows");
+    const metadescription = String(description || "We offer the best appliance services in The Meadows. Get fix washing machine near you in Dubai. Book 043300002 for fridge, oven & dishwasher repair");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in the Meadows, Appliance Service in Meadows, Dishwasher Repair in the meadows, Oven Repair the meadows");
@@ -128,7 +128,7 @@ const ApplianceServiceInMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Meadows</h1>
+                        <h1 className="cs_fs_30">High-Quality Home Appliances Repair and Service in Meadows, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -467,7 +467,7 @@ const ApplianceServiceInMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

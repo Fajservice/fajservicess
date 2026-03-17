@@ -305,7 +305,7 @@ const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Whirlpool Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Cost-Effective Whirlpool Home Appliances Repair Center and Service</h1>
             <p>
               Having trouble finding a local Whirlpool appliance technician who understands Whirlpool kitchen appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable appliance repair services since 2010. Our wide network of skilled and experienced professionals ensures that, whenever possible, we send a technician who knows your specific Whirlpool appliance inside and out.
             </p>
@@ -669,7 +669,7 @@ const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

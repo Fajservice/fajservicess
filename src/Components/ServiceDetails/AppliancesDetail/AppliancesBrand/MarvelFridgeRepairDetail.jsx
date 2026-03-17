@@ -258,7 +258,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Marvel  Home Appliances Service and Marvel Fridge Repair in Dubai</h1>
+                        <h1 className="cs_fs_30">Trusted Marvel Home Appliances Repair Center and Service</h1>
                         <p>
                             Need expert help with your Marvel appliances? You’re in the right place.
                             <br /> <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been offering reliable and affordable appliances repair services since 2010. We work with a team of experienced and trusted technicians who understand the specific needs of Marvel appliance repairs and local service demands.
@@ -608,7 +608,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

@@ -395,7 +395,7 @@ const coffeemachineServicesData = [
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Coffee Machine Repair & Maintenance </h2>
+                <h2 className="cs_fs_24 mb-1 mt-0" style={{ fontSize: "24px" }}>Coffee Machine Repair & Maintenance </h2>
 
                 <p className="mb-2">
                   If you&apos;re searching for the best coffee machine repairs in Dubai for both businesses and residents, you&apos;ve come to the right place.
@@ -419,7 +419,7 @@ const coffeemachineServicesData = [
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
+                  src="https://www.youtube.com/embed/u3cvf6mkJ1k?si=kmFZRvyU0zbmeorF"
                   title="FAJ Videos"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen

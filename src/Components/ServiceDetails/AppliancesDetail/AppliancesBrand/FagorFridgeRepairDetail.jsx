@@ -219,7 +219,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Fagor Fridge Repair, Dishwasher and Ice Machine Service Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Professional Fagor Appliances Repair and Laundry Machine Services</h1>
             <p>Fagor Home Appliance Repair and Maintenance Service in Dubai. Are you working to find a trustworthy technician for your Fagor appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> we have been providing reliable and affordable services since 2010.<br />Our skilled technicians are fully equipped to Fagor appliance service and repair all Fagor appliances, including Fagor washing machines, Fagor cookers, Fagor refrigerators and freezers, and Fagor tumble dryers. After each repair, we conduct a safety check and offer a warranty on all parts and labor. <br />As an official Fagor appliance service center, we ensure prompt and professional service, with a warranty on all work performed.</p>
 
             <div id="get-quote" className=" mt-3">
@@ -574,7 +574,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

@@ -567,7 +567,7 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
               <div className="uspdelimit col-2 d-none d-xl-block">
                 <OptimizedImage
                   className="blue-border-2 w-100 why-choose-img"
-                  src={getImageSrc('fajteam-1')}
+                  src={getImageSrc('fajteam-1-new')}
                   alt="FAJ Team"
                   width="400"
                   height="600"

@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Admiral Appliances Repair Center | Washing Machine Service");
-    const metadescription = String(description || "We provide expert Admiral home appliance, fridge, freezer, Admiral washing machine, stove, dishwasher, oven, induction dryer repair and service in Dubai ");
+    const metatitle = String(titleSeo || "Admiral Home Appliances Service and Fridge Repair in Dubai");
+    const metadescription = String(description || "We offer the best Admiral refrigerator repair in Dubai, including dryer, dishwasher, freezer, cooking range, and oven service near you. Call us now!");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Amiral Fridge Repair, Admiral Washing Machine Repair, Admiral Cooker Repair, Admiral Oven Repair, Admiral Appliances Maintenance, Admiral Refrigerator Fix, Admiral Appliance Service Dubai");
@@ -218,7 +218,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Admiral Home Appliance Repair and Service in Dubai – Fast & Reliable</h1>
+                        <h1 className="cs_fs_30">Top-Quality Admiral Home Appliances Repair Center and Service</h1>
                         <p>
                             At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> , We offer comprehensive repair and service for all your Admiral home appliances, ensuring you can enjoy them since 2010. Our qualified technicians are ready to assist you and provide expert advice for any unexpected issues that may arise. You can easily schedule an Admiral appliance repair by giving us a call. Additionally, we provide maintenance contract options for added peace of mind.
                         </p>
@@ -561,7 +561,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

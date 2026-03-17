@@ -292,7 +292,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Sanyo Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Top-Rated Sanyo Home Appliances Repair Center and Service</h1>
             <p>
               Looking for a reliable local technician for your Sanyo appliances? You’re in the right place.
               <br />Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has provided trusted and affordable appliance repair services across Dubai and Sharjah. Our professionals specialize in Sanyo appliances and understand their unique repair needs. We’re committed to connecting you with skilled technicians near you who can restore your appliances quickly and efficiently. Your satisfaction is always our highest priority.
@@ -641,7 +641,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

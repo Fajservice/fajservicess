@@ -574,7 +574,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" loading="lazy" decoding="async" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent-New')} alt="Ac Maintenance Services" loading="lazy" decoding="async" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -613,7 +613,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('icon/ACServicescomponent')} alt="Ac Maintenance Services" loading="lazy" decoding="async" />
+              <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('icon/ACServicescomponent-New')} alt="Ac Maintenance Services" loading="lazy" decoding="async" />
             </div>
           </div>
         </section>

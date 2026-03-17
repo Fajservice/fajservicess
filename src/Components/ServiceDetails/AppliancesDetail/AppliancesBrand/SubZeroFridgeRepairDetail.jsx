@@ -406,7 +406,7 @@ const subzeroServicesData = [
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">SubZero Fridge Repair and Refrigerator Freezer Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Premium Quality SubZero Fridge Repair Center and Freezer Service</h1>
             <p>
               Sub Zero refrigerator are the best among the other brands out there. Still, products of the best brands do not last forever.
               You can fix minor issues, but mostly, you cannot. So why worry? We are the best Sub Zero fridge freezer repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all Sub Zero refrigerator, you can expect successful and swift repairs from us.
@@ -770,7 +770,7 @@ const subzeroServicesData = [
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
