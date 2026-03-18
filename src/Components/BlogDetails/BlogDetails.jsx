@@ -71,6 +71,7 @@ const ArrowRightIcon = ({ size = 28, color = "currentColor" }) => (
   </svg>
 );
 
+// ─── Reusable banner renderer — supports string OR array ─────────────────────
 const renderBannerImg = (imgValue, altText) => {
   if (!imgValue) return null;
   const images = Array.isArray(imgValue) ? imgValue : [imgValue];
@@ -317,28 +318,71 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   };
 
+  // ─── Bullets: supports plain string OR { text, desc } objects ────────────
   const renderBullets = (bullets, keyPrefix) => {
-  if (!bullets || !Array.isArray(bullets)) return null;
-  return (
-    <ul>
-      {bullets.map((bullet, i) => {
-        if (typeof bullet === 'object' && bullet !== null) {
-          return (
-            <li key={`${keyPrefix}-${i}`}>
-              <span dangerouslySetInnerHTML={{ __html: bullet.text }} />
-              {bullet.desc && (
-                <p style={{ marginTop: '6px', fontWeight: 'normal' }}>
-                  {renderParagraphWithLinks(bullet.desc)}
-                </p>
-              )}
-            </li>
-          );
-        }
-        return <li key={`${keyPrefix}-${i}`}>{bullet}</li>;
-      })}
-    </ul>
-  );
-};
+    if (!bullets || !Array.isArray(bullets)) return null;
+    return (
+      <ul>
+        {bullets.map((bullet, i) => {
+          if (typeof bullet === 'object' && bullet !== null) {
+            return (
+              <li key={`${keyPrefix}-${i}`}>
+                {/* dangerouslySetInnerHTML so <b>, <strong>, <i> in text work */}
+                <span dangerouslySetInnerHTML={{ __html: bullet.text }} />
+                {bullet.desc && (
+                  <p style={{ marginTop: '6px', fontWeight: 'normal' }}>
+                    {renderParagraphWithLinks(bullet.desc)}
+                  </p>
+                )}
+              </li>
+            );
+          }
+          return <li key={`${keyPrefix}-${i}`}>{bullet}</li>;
+        })}
+      </ul>
+    );
+  };
+
+  // ─── Table renderer ───────────────────────────────────────────────────────
+  // JSON format:
+  //   "sec_X_table"      → directly on section (after h2 content)
+  //   "sec_X_h2_table"   → same position, alias key
+  //   "sec_X_h3_N_table" → after h3 content, before bullets
+  const renderTable = (tableData) => {
+    if (!tableData || !tableData.headers || !tableData.rows) return null;
+    const b = '1px solid #dee2e6';
+    return (
+      <div style={{ overflowX: 'auto', marginBottom: '16px' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', border: b }}>
+          <thead>
+            <tr>
+              {tableData.headers.map((header, i) => (
+                <th
+                  key={i}
+                  style={{ padding: '10px 14px', textAlign: 'left', fontWeight: '600', whiteSpace: 'nowrap', border: b, backgroundColor: '#f8f9fa' }}
+                >
+                  {header}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {tableData.rows.map((row, rowIdx) => (
+              <tr key={rowIdx} style={{ backgroundColor: rowIdx % 2 === 0 ? '#fff' : '#f8f9fa' }}>
+                {row.map((cell, cellIdx) => (
+                  <td
+                    key={cellIdx}
+                    style={{ padding: '9px 14px', border: b }}
+                    dangerouslySetInnerHTML={{ __html: cell }}
+                  />
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  };
 
   const renderSection = (sectionName) => {
     const h2Key       = `${sectionName}_h2`;
@@ -346,18 +390,25 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     const bulletsKey  = `${sectionName}_bullets`;
     const h2PointsKey = `${sectionName}_h2_points`;
     const imgKey      = `${sectionName}_img`;
-
     const bannerKey   = `${sectionName}_banner`;
     const banner2Key  = `${sectionName}_banner_2`;
 
     if (!blogPost[h2Key]) return null;
 
+    // Table key priority:
+    // 1. sec_X_table        → direct key (e.g. sec_tweleve_table)
+    // 2. sec_X_h2_table     → alias (same position)
+    const sectionTableData = blogPost[`${sectionName}_table`] || blogPost[`${sectionName}_h2_table`];
+
     return (
       <div key={sectionName}>
+
+        {/* Banner 1: before h2 */}
         {renderBannerImg(blogPost[bannerKey], blogPost.title)}
 
         <h2>{blogPost[h2Key]}</h2>
 
+        {/* Section-level image */}
         {blogPost[imgKey] && (
           <div className="col-md-8">
             <img src={getImageSrc(blogPost[imgKey])} alt={blogPost.title} decoding="async" width="100%" height="auto" />
@@ -376,15 +427,22 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           </ol>
         )}
 
+        {/* Section-level table: after h2 content/bullets/points */}
+        {renderTable(sectionTableData)}
+
+        {/* Banner 2: after h2 content, before h3 loop */}
         {renderBannerImg(blogPost[banner2Key], blogPost.title)}
+
+        {/* H3 loop */}
         {[...Array(13)].map((_, i) => {
           const h3Key        = `${sectionName}_h3_${i + 1}`;
           const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
           const h3ImgKey     = `${sectionName}_h3_${i + 1}_img`;
           const h3BulletsKey = `${sectionName}_h3_${i + 1}_bullets`;
           const h3PointsKey  = `${sectionName}_h3_${i + 1}_points`;
-          const h3BannerKey  = `${sectionName}_h3_${i + 1}_banner`; 
-          const h3Banner2Key = `${sectionName}_h3_${i + 1}_banner2`; 
+          const h3BannerKey  = `${sectionName}_h3_${i + 1}_banner`;   // after h3 end
+          const h3Banner2Key = `${sectionName}_h3_${i + 1}_banner2`;  // after content, before bullets
+          const h3TableKey   = `${sectionName}_h3_${i + 1}_table`;    // after content, before bullets
 
           if (!blogPost[h3Key]) return null;
 
@@ -399,7 +457,10 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               )}
 
               {renderContent(blogPost[h3ContentKey])}
+
+              {/* banner2 + table: after content, before bullets */}
               {renderBannerImg(blogPost[h3Banner2Key], blogPost.title)}
+              {renderTable(blogPost[h3TableKey])}
 
               {renderBullets(blogPost[h3BulletsKey], `${sectionName}_h3_${i + 1}_bullet`)}
 
@@ -411,6 +472,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 </ol>
               )}
 
+              {/* banner: after bullets/points — h3 end */}
               {renderBannerImg(blogPost[h3BannerKey], blogPost.title)}
             </div>
           );
@@ -510,6 +572,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 )}
               </div>
 
+              {/* Share section */}
               <div className="cs_post_share_wrapper">
                 <div className="cs_post_tags cs_style_1">
                   <h3 className="cs_fs_24">Tags:</h3>
