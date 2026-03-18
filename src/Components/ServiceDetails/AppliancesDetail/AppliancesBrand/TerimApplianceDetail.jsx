@@ -263,7 +263,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Terim Appliances Service and Terim Washing Machine Repair in Dubai</h1>
+                        <h1 className="cs_fs_30">Same-Day Terim Home Appliance Service Center and Repair</h1>
                         <p>
                             If you need a qualified technician for Terim appliances, you’re in the right place. Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has provided reliable and affordable home appliances repair & services. Our network includes skilled professionals who understand Terim appliance repair and nearby services. We connect you with experienced technicians in Dubai and Sharjah who prioritize your satisfaction and ensure efficient solutions for all your appliance needs!
                         </p>
@@ -610,7 +610,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

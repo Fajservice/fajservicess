@@ -397,7 +397,7 @@ const unimacServicesData = [
     {/* intro */}
     <section className="section cs_py_30">
      <div className="container">
-      <h1 className="cs_fs_30">Unimac Washing Machine Repair, Washer Dryer Maintenance Contract Services in Dubai</h1>
+      <h1 className="cs_fs_30">Trusted Unimac Washing Machine Repair and Laundry Machine Maintenance Service</h1>
 
       <p>
        At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we provide comprehensive services for UniMac commercial washing machines, dryers, and laundry equipment. Our team specialises in the installation, maintenance, and repair of all UniMac models, including heavy-duty washers, tumble dryers, and stack washer/dryer units, ensuring your laundry operations run smoothly and efficiently.
@@ -775,7 +775,7 @@ const unimacServicesData = [
 
        {/* <!-- Delimit Section --> */}
        <div className="uspdelimit col-2 d-none d-xl-block">
-        <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+        <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
        </div>
 
        {/* <!-- Second Column --> */}

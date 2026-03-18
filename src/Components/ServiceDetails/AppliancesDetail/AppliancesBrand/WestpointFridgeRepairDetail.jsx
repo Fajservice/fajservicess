@@ -305,7 +305,7 @@ const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Westpoint Fridge Repair and Westpoint Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Westpoint Home Appliances Repair Center and Service</h1>
             <p>
               Are you struggling to find a local Westpoint appliance technician who specializes in Westpoint kitchen appliances?
               At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been delivering reliable and affordable services since 2010. Our extensive network includes carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll assign a technician who understands your specific Westpoint appliance.
@@ -670,7 +670,7 @@ const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

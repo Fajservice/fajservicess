@@ -189,7 +189,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Daewoo Home Appliance Repair and Service in Dubai</h1>
+                        <h1 className="cs_fs_30">High-Quality Daewoo Home Appliances Repair Center and Service</h1>
                         <p>FAJ Technical Services L.L.C. is a specialized Daewoo home appliance service company in Dubai. We employ fully qualified technicians who are experts in repairing a wide range of Daewoo appliances. Our workshop provides a range of spare parts to meet all your repair needs.<br />We offer a timely home visit service, where our skilled technicians will inspect and repair your Daewoo appliance on-site. You can trust <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> to provide reliable Daewoo appliance repair services in Dubai.</p>
 
                         <div id="get-quote" className=" mt-3">
@@ -522,7 +522,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

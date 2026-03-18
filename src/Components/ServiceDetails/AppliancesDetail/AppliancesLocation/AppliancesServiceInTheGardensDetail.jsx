@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services in The Gardens - Refrigerator Repair");
-  const metadescription = String(description || "We offer appliance services in The Gardens. Need refrigerator, washing machine, fridge repair near me? Call 043300002 for quick solutions!");
+  const metatitle = String(titleSeo || "Best Appliances Service and Fridge Repair in The Gardens");
+  const metadescription = String(description || "Book the best home appliance services in The Gardens, Dubai. Schedule a fridge, washing machine, dishwasher, stove, or oven repair service near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in the Gardens, Refrigerator Repair in the Gardens, Appliance Service in the Gardens, Appliance Repair in the Gardens, Appliance Maintenance in the Gardens, Appliance Installation in the Gardens, Appliance AMC in the Gardens, Appliance Service Center in the Gardens, Home Appliances Service in the Gardens");
@@ -127,7 +127,7 @@ const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, title
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Home Appliance Service in The Gardens</h1>
+            <h1 className="cs_fs_30">High-Quality Home Appliances Repair and Services in The Gardens, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -467,7 +467,7 @@ const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, title
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

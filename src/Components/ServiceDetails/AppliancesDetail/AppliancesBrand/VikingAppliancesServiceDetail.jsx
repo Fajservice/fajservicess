@@ -405,7 +405,7 @@ const vikingServicesData = [
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Viking Appliances Service, Fridge Freezer Repair and Maintenance in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Viking Home Appliances Repair Center and Service</h1>
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of Viking appliance repair and service in Dubai. We know appliance breakdowns can happen without warning, which is why we deliver dependable and cost-effective repair solutions.
               Our skilled technicians are available across Dubai and Sharjah, offering on-site Viking washing machine repairs and maintenance for your convenience.
@@ -766,7 +766,7 @@ const vikingServicesData = [
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

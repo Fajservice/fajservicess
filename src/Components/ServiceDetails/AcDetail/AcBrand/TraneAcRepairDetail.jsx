@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Trane HVAC Repair and Maintenance Services in Dubai | FAJ");
-  const metadescription = String(description || "Find trustworthy Trane AC repair and service in Dubai. Learn when to schedule maintenance and cleaning for Trane central & ducted split air conditioning.");
+  const metatitle = String(titleSeo || "Best Trane AC Repair and HVAC Maintenance Services in Dubai");
+  const metadescription = String(description || "Get reliable Trane AC repair and service in Dubai. Find out when to schedule maintenance and cleaning for Trane central and ducted split air conditioning.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Trane AC Repair, Trane Air Conditioner Maintenance, Trane AC Service, Trane HVAC Repair, Trane Air Conditioning Cleaning Service, Trane AC Installation, Trane AC Repair Dubai, Trane Air Conditioner Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/");
@@ -280,7 +280,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Trane Air Conditioning Repair and Maintenance Services in Dubai and Sharjah</h1>
+            <h1 className="cs_fs_30">Top-Quality Trane Air Conditioning Repair and Maintenance Services in Dubai, UAE</h1>
             <p>In the active and ever-changing climate of Dubai, a malfunctioning air conditioning system can greatly impact your comfort at home or in the workplace. To maintain a cool environment, trust <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> and their team of expert Trane AC system.<br />When issues arise, timely and efficient Trane AC repair are essential in Dubai. FAJ is a trusted name, recognized for its reliability and expertise in Trane AC repair services. In this comprehensive report, we will explore why HVAC is the preferred choice for Trane AC repair in Dubai and how our services enhance both your comfort and system efficiency.</p>
 
             <div id="get-quote" className=" mt-3">
@@ -562,7 +562,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
 
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent')}  alt="Ac Maintenance Services" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent-New')}  alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -603,7 +603,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent')}  alt="Ac Maintenance Services" />
+              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent-New')}  alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>

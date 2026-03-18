@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair");
-    const metadescription = String(description || "Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me");
+    const metatitle = String(titleSeo || "Brandt Home Appliances Service Center and Fridge Repair Dubai");
+    const metadescription = String(description || "Get the best Brandt home appliance service in Dubai We are experts in fridge repair, washing machine, oven, and dishwasher fixes in Dubai. Book now!");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Brandt Fridge Repair, Brandt Washing Machine Repair, Brandt Cooker Repair, Brandt Oven Repair, Brandt Appliances Maintenance, Brandt Refrigerator Fix Repairs");
@@ -236,7 +236,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair</h1>
+                        <h1 className="cs_fs_30">Highly-Rated Brandt Home Appliances Service Center and Repair</h1>
                         <p>
                             Struggling to find a local technician with expertise in Brandt kitchen appliances?
                             <br /> At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and cost-effective repair solutions since 2010. Our extensive network includes thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who understands your specific Brandt appliance to ensure prompt and accurate service.
@@ -601,7 +601,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

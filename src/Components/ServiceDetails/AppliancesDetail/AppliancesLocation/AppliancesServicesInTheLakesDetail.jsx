@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInTheLakesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best Appliances Services in The Lakes - Refrigerator Repair");
-    const metadescription = String(description || "Looking for appliances services in The Lakes. Call us now at 043300002 to get fridge, washing machine, refrigerator repair near me in Dubai.");
+    const metatitle = String(titleSeo || "Best Appliances Service and Refrigerator Repair in The Lakes");
+    const metadescription = String(description || "Professional home appliance services in The Lakes, Dubai. Find the best repair for washing machine, refrigerator, dryer, dishwasher, and cookers near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in The Lakes, Refrigerator Repair in The Lakes, Appliance Repair in The Lakes, Appliance Services in The Lakes, Appliance Maintenance in The Lakes, Appliance Installation in The Lakes, Appliance Service Center in The Lakes, Home Appliances Repair in The Lakes");
@@ -128,7 +128,7 @@ const AppliancesServicesInTheLakesDetail = ({ subtitle, title, reviewsbg, titleS
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services In The Lakes</h1>
+                        <h1 className="cs_fs_30">Highly-Rated Home Appliances Service and Repair in The Lakes, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -467,7 +467,7 @@ const AppliancesServicesInTheLakesDetail = ({ subtitle, title, reviewsbg, titleS
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

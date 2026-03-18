@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInJgeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in JGE - Washing Machine Repair Near me");
-    const metadescription = String(description || "Looking for appliance service in JGE. Call 043300002 for fridge repair near me in Dubai. Get fix washing machine, dishwasher, refrigerator");
+    const metatitle = String(titleSeo || "Trusted Appliances Services and Washing Machine Repair in JGE");
+    const metadescription = String(description || "Looking for the best home appliance service in JGE? Call us for your fix on fridge, washing machine, dishwasher, dryer, cooker, and oven repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in JGE, Appliance Service in JGE, Fridge Repair Near Me, Dishwasher Repair Dubai, Refrigerator Repair Dubai, Home Appliances Service Dubai");
@@ -128,7 +128,7 @@ const ApplianceServiceInJgeDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in JGE</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Repair and Fix Service in JGE, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -467,7 +467,7 @@ const ApplianceServiceInJgeDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

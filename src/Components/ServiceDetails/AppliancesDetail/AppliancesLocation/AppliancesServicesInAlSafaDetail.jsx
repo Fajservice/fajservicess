@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services in Al Safa - Refrigerator Repair Near Me");
-  const metadescription = String(description || "FAJ offers appliance services in Al Safa. We specialize in washing machine repair near me in Dubai. Book 043300002 for fridge, dishwasher, oven fix");
+  const metatitle = String(titleSeo || "Premium Appliances Service & Washing Machine Repair in Al Safa");
+  const metadescription = String(description || "Affordable home appliance repair service in Al Safa, Dubai. FAJ provides refrigerator, dishwasher, stove, oven, and washing machine repairs near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in al safa, Refrigerator in al safa, Dishwasher in al safa, Oven in al safa, Appliance repair in al safa, Appliance service in al safa, Appliance maintenance in al safa, Appliance installation in al safa");
@@ -127,7 +127,7 @@ const AppliancesServicesInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Appliances Services In Al Safa</h1>
+            <h1 className="cs_fs_30">Same-Day Home Appliances Repair and Maintenance Service in Al Safa, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -465,7 +465,7 @@ const AppliancesServicesInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

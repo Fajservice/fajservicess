@@ -289,7 +289,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Miele Appliance Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Professional Miele Home Appliances Repair Center and Service</h1>
             <p>If you're looking for a qualified technician for your Miele appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we have been providing reliable and affordable services.<br/>Do you need a fast and reliable Miele appliance repair? We can offer the best Miele appliance repair and service in Dubai.<br/>We are providing Miele ovens, cookers, dishwashers, Miele fridge freezers, Miele washing machines, and tumble dryers repair and service in Dubai – and we aim to reach you on the same or next day, regardless of your location!</p>
 
             <div id="get-quote" className=" mt-3">
@@ -632,7 +632,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

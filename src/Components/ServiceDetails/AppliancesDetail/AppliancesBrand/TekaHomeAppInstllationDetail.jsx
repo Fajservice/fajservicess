@@ -294,7 +294,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Teka Home Appliance Service and Teka Fridge Repair in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Teka Home Appliances Repair Center and Service</h1>
             <p>Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted provider of Teka appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we offer prompt, high-quality, and affordable repair solutions.
               Our skilled technicians are available across Dubai and Sharjah to deliver reliable Teka washing machine repair and service right at your doorstep.
             </p>
@@ -643,7 +643,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

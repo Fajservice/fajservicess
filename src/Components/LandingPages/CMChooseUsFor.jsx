@@ -46,7 +46,7 @@ const WhyChooseUS = () => {
           {/* <!-- Delimit Section --> */}
           <div className="uspdelimit col-2 d-none d-xl-block">
 
-            <img className="blue-border-2 w-100 why-choose-img" src={`${CDN}/icon/ACServicescomponent/public`} alt="Ac Maintenance Services" />
+            <img className="blue-border-2 w-100 why-choose-img" src={`${CDN}/icon/ACServicescomponent-New/public`} alt="Ac Maintenance Services" />
           </div>
 
           {/* <!-- Second Column --> */}
@@ -87,7 +87,7 @@ const WhyChooseUS = () => {
         </div>
         {/* <!-- Delimit mobile --> */}
         <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-          <img className="blue-border-2 w-100" src={`${CDN}/icon/ACServicescomponent/public`} alt="Ac Maintenance Services" />
+          <img className="blue-border-2 w-100" src={`${CDN}/icon/ACServicescomponent-New/public`} alt="Ac Maintenance Services" />
         </div>
       </div>
     </section>

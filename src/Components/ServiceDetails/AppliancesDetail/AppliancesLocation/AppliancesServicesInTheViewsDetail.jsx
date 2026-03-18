@@ -25,8 +25,8 @@ const AppliancesServicesInTheViewsDetail = ({ subtitle, title, reviewsbg, titleS
 
 
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Services in The Views - Washing Machine Repair");
-  const metadescription = String(description || "We offer best appliance services in The Views. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance");
+  const metatitle = String(titleSeo || "Best Appliances Services & Washing Machine Repair in The Views");
+  const metadescription = String(description || "We provide top-notch appliance repair in The Views, Dubai. Get help with washing machine, fridge, oven, dishwasher, dryer, & cooker service near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Washing Machine in the views, Appliance Repair in the views, Appliance Services in the views, Fridge Repair in the views, Dishwasher Repair in the views, Oven Repair in the views, Tumble Dryer Repair in the views, Washing Machine Repair in the views");
@@ -129,7 +129,7 @@ const AppliancesServicesInTheViewsDetail = ({ subtitle, title, reviewsbg, titleS
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Appliances Services In The Views</h1>
+            <h1 className="cs_fs_30">Cost-Effective Home Appliances Service and Repair in The Views, Dubai</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -467,7 +467,7 @@ const AppliancesServicesInTheViewsDetail = ({ subtitle, title, reviewsbg, titleS
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

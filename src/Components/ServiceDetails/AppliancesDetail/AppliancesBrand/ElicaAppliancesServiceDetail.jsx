@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Elica Appliances Service in Dubai | Elica Cooker Repair | Hood Fix");
-  const metadescription = String(description || "To book your Elica appliances service in Dubai. FAJ offers an Elica hob, stove, cooker, oven, hood maintenance and repair center near you. Book with us");
+  const metatitle = String(titleSeo || "Elica Appliances Service and Elica Cooker Hood Repair Dubai");
+  const metadescription = String(description || "Experience top-notch Elica home appliances service in Dubai. Our experts specialize in cooker hood, refrigerator, washing machine, oven repair near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Elica Appliances Service, Elica Hob Repair, Elica Cooker Repair, Elica Oven Repair, Elica Hood Repair, Elica Stove Repair, Elica Fridge Repair, Elica Washing Machine Repair, Elica Dishwasher Repair, Elica Appliance Maintenance Dubai");
@@ -220,7 +220,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Elica Appliances Service and Elica Cooker Repair in Dubai</h1>
+            <h1 className="cs_fs_30">Highly-Rated Elica Home Appliances Service Center and Repair</h1>
 
             <p>
               If you’re facing problems with your Elica built-in ovens, freestanding cooking ranges, or kitchen hoods, it’s vital to find a trustworthy and effective repair service. <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> in Dubai is here to help with quick, reliable, and affordable repairs tailored to Elica appliances.
@@ -592,7 +592,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

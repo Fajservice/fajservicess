@@ -638,7 +638,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
               <div className="uspdelimit col-2 d-none d-xl-block">
                 <img
                   className="blue-border-2 w-100 why-choose-img"
-                  src={getImageSrc('ACServicescomponent')}
+                  src={getImageSrc('ACServicescomponent-New')}
                   alt="Ac Maintenance Services"
                   loading="lazy"
                   decoding="async"
@@ -702,7 +702,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
               <img
                 className="blue-border"
-                src={getImageSrc('ACServicescomponent')}
+                src={getImageSrc('ACServicescomponent-New')}
                 alt="Ac Maintenance Services"
                 loading="lazy"
                 decoding="async"

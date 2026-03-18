@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services In Al Barsha - Washing Machine Repair");
-    const metadescription = String(description || "Get appliance services in Al Barsha. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven ");
+    const metatitle = String(titleSeo || "Top Appliances Service & Washing Machine Repair in Al Barsha");
+    const metadescription = String(description || "We offer quality home appliance services in Al Barsha, Dubai. Trusted for fridge, washing machine, dishwasher, stove, and oven repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "appliances services in Al Barsha, washing machine repair in al barsha, refrigerator repair in al barsha, dishwasher repair in al barsha, oven repair in al barsha, appliance repair in al barsha, appliance service center in al barsha, appliance maintenance in al barsha");
@@ -126,7 +126,7 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Al Barsha</h1>
+                        <h1 className="cs_fs_30">Top-Rated Home Appliances Repair and Services in Al Barsha, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -465,7 +465,7 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Al Satwa - Washing Machine Repair");
-    const metadescription = String(description || "Appliance services in Al Satwa, Dubai. Experts in refrigerator repair near me. Contact 043300002 to fix washing machine, oven & dishwasher");
+    const metatitle = String(titleSeo || "The #1 Appliances Service & Washing Machine Repair in Al Satwa");
+    const metadescription = String(description || "Top-Quality home appliances service in Al Satwa, Dubai. FAJ provides refrigerator, dishwasher, stove, oven, and washing machine repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Al Satwa, Refrigerator Repair in Al Satwa, Appliance Repair in Al Satwa, Dishwasher Repair in Al Satwa, Oven Repair in Al Satwa, Appliance Services in Al Satwa, Appliance Maintenance in Al Satwa");
@@ -128,7 +128,7 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services In Al Satwa</h1>
+                        <h1 className="cs_fs_30">Affordable Home Appliance Repair and Service in Al Satwa, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -467,7 +467,7 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

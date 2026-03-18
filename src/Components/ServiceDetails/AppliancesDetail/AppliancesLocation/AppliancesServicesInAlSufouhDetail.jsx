@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Al Sufouh -  Fridge Repair Near Me");
-    const metadescription = String(description || "Best appliance services in Al Sufouh. FAJ specializes in fridge repair near me in Dubai. Call 043300002 for reliable washing machine & oven fix ");
+    const metatitle = String(titleSeo || "Trusted Appliances Service and Refrigerator Repair in Al Sufouh");
+    const metadescription = String(description || "Top-rated home appliance service in Al Sufouh, Dubai. FAJ offers repair services for fridge, dishwashers, stoves, ovens, and washing machines near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in al sufouh, Fridge Repair in al sufouh, Appliance Repair in al sufouh, Appliance Service in al sufouh, Appliance Maintenance in al sufouh, Appliance Installation in al sufouh, Appliance AMC in al sufouh");
@@ -127,7 +127,7 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Al Sufouh</h1>
+                        <h1 className="cs_fs_30">Premium Quality Home Appliance Repair and Service in Al Sufouh, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -466,7 +466,7 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

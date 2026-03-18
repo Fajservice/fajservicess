@@ -20,8 +20,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || " Appliances Services In Al Waha Community - Fridge Repair");
-    const metadescription = String(description || "Get the best appliance services in Al Waha Community. Call 043300002 for washing machine repair near me in Dubai, we also fix fridge, dishwasher ");
+    const metatitle = String(titleSeo || "Top Appliance Services and Fridge Repair in Al Waha Community");
+    const metadescription = String(description || "Best home appliances services in Al Waha Community, Dubai. FAJ offers for refrigerator, dishwasher, stove, oven, and washing machine repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine Repair in Al Waha Community, Fridge Repair in Al Waha Community, Dishwasher Repair in Al Waha Community, Appliance Services in Al Waha Community");
@@ -126,7 +126,7 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, t
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Al Waha Community</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Service and Repair in Waha Community, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -465,7 +465,7 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, t
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

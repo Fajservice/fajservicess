@@ -406,7 +406,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Wolf Home Appliances Service, Wolf Cooker & Wolf Oven Repair in Dubai</h1>
+            <h1 className="cs_fs_30">Premium Quality Wolf Cooking Appliances Repair Center and Wolf Oven Service</h1>
             <p>
               If you're experiencing issues with your Wolf cooking appliances, such as ranges, built-in ovens, or cooktops, finding a reliable repair service is crucial. <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> in Dubai specializes in prompt, efficient, and cost-effective repairs tailored specifically for Wolf appliances.
               <br />
@@ -427,7 +427,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Get Wolf Range Repair Near You</h3>
+                <h2 className="cs_fs_24 mb-1">Get Wolf Range Repair Near You</h2>
 
                 <p className="mb-2">
                   Wolf ranges are essential kitchen appliances that many depend on for their daily cooking needs. When they malfunction, it can throw off your entire routine. That’s why it’s important to find a Wolf range repair and service specialist near you, whether you're in Dubai or Sharjah, for fast and reliable support.</p>
@@ -774,7 +774,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

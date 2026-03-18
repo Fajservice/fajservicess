@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
 	// For SEO
-	const metatitle = String(titleSeo || "Blomberg Appliance Service Center | Repair Washing Machine");
-	const metadescription = String(description || "FAJ provide expert Blomberg appliance, fridge, freezer, washing machine, dishwasher, oven, cooking range, stove and dryer repair and service in Dubai");
+	const metatitle = String(titleSeo || "Blomberg Appliance Service Center and Repair Washing Machine");
+	const metadescription = String(description || "FAJ expert in Blomberg home appliances repair, fridge, washing machine, dishwasher, oven, cooker, stove and dryer repair & service near you, Dubai");
 	const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
 	const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
 	const metaKeyword = String(Keyword || "Blomberg fridge repair, Blomberg washing machine repair, Blomberg cooker repair, Blomberg oven repair, Blomberg appliances maintenance, Blomberg refrigerator service Dubai, Blomberg dishwasher repair Dubai, Blomberg appliance service Dubai");
@@ -292,7 +292,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 				{/* intro */}
 				<section className="section cs_py_30">
 					<div className="container">
-						<h1 className="cs_fs_30">Fast, Affordable Blomberg Home Appliance Repair and Service in Dubai</h1>
+						<h1 className="cs_fs_30">Reliable and Efficient Blomberg Home Appliances Repair Center and Service</h1>
 						<p>If your Blomberg appliance has stopped working, you don't need to replace it. In most cases, getting a professional Blomberg appliance repair in Dubai is faster, more cost-effective, and more reliable than buying a new appliance.<br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> we specialise in repairing Blomberg washing machines, dishwashers, fridges, freezers, and small Blomberg appliances throughout Dubai. Our local expert technicians carry the necessary tools, diagnostic tools, and genuine Blomberg-compatible parts to address most issues on the first visit.</p>
 
 						<div id="get-quote" className=" mt-3">
@@ -647,7 +647,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
 							{/* <!-- Delimit Section --> */}
 							<div className="uspdelimit col-2 d-none d-xl-block">
-								<img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+								<img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
 							</div>
 
 							{/* <!-- Second Column --> */}

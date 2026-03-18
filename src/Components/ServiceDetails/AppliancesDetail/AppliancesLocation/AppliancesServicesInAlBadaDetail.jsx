@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Al Bada - Refrigerator Repair Dubai");
-    const metadescription = String(description || "Same-day appliance service in Al Bada. Get refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher, fridge, and oven.");
+    const metatitle = String(titleSeo || "Best Home Appliances Service and Refrigerator Repair in Al Bada");
+    const metadescription = String(description || "Same-day home appliance service in Al Bada. Get refrigerator repair nearby in Dubai. Call 043300002 to fix your washing machine, dishwasher, and oven");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in al Bada, Refrigerator Repair in al Bada, Dishwasher Repair in al Bada, Oven Repair in al Bada, Appliance Service in al Bada, Appliance Repair in al Bada, Appliance Maintenance in al Bada, Appliance Installation in al Bada");
@@ -128,7 +128,7 @@ const AppliancesServicesInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Al Bada</h1>
+                        <h1 className="cs_fs_30">Cost-Effective Home Appliances Repair and Fix Service in Al Bada, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -467,7 +467,7 @@ const AppliancesServicesInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

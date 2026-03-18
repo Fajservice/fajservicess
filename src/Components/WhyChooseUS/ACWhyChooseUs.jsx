@@ -42,7 +42,7 @@ const WhyChooseUS = () => (
         <div className="uspdelimit col-2">
           <img
             className="blue-border-2 w-100 why-choose-img"
-            src={`${CDN}/ACServicescomponent/public`}
+            src={`${CDN}/ACServicescomponent-New/public`}
             alt="Ac Maintenance Services"
             loading="lazy"
             width="400"

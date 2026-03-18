@@ -212,7 +212,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">GE - General Fridge Repair and GE Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Trusted General Electric ( GE ) Home Appliances Repair Center and Service</h1>
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a trusted name for GE General appliance repair and maintenance across Dubai. We know appliance failures can happen without warning, which is why we deliver dependable and cost-effective repair solutions.
               Our skilled technicians are on hand throughout Dubai and Sharjah to offer on-site GE General washing machine repairs and servicing.
@@ -563,7 +563,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

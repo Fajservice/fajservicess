@@ -191,7 +191,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Foster Home Appliance Repair and Maintenance Service in Dubai</h1>
+                        <h1 className="cs_fs_30">Cost-Effective Foster Home Appliances Repair Center and Service</h1>
                         <p>
                             Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> Since 2010, we have been providing reliable and affordable service for Foster appliances. We service all models, including Foster fridge freezers, cookers, hoods, Foster dishwashers, and more. Booking a repair with us is simple: just select your Foster appliance type, choose your preferred repair date, and wait for one of our friendly technicians to assist you.<br />No matter the issue you're facing with your Foster appliance, our repair experts at FAJ are in your area and ready to resolve any problem quickly. Contact us today!</p>
 
@@ -533,7 +533,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

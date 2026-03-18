@@ -25,8 +25,8 @@ const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, reviewsbg, tit
     // For SEO
     const metatitle = titleSeo?.trim()
         ? titleSeo
-        : "Home Appliances Service in Jumeirah - Washing Machine Repair";
-    const metadescription = String(description || "FAJ offering home appliances service in Jumeirah. Book an 043300002 for Siemens, Bosch, Daewoo, Electrolux, Teka refrigerator, fridge, oven repair.");
+        : "Best Home Appliances Service & Fridge Repair in Jumeirah";
+    const metadescription = String(description || "FAJ offers home appliance services in Jumeirah. Call 043300002 for Siemens, Bosch, Daewoo, Electrolux, and Teka refrigerator and oven repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in jumeirah dubai, Refrigerator in jumeirah dubai, Oven in jumeirah dubai, Dishwasher in jumeirah dubai, Tumble Dryer in jumeirah dubai, Stove in jumeirah dubai, Freezer in jumeirah dubai, Coffee Machine in jumeirah dubai");
@@ -130,7 +130,7 @@ const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, reviewsbg, tit
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Jumeirah Dubai</h1>
+                        <h1 className="cs_fs_30">Choose the Leading Home Appliance Repair and Service Provider in Jumeirah, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -468,7 +468,7 @@ const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, reviewsbg, tit
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

@@ -245,7 +245,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">DeLonghi Coffee Machine Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Premium Quality DeLonghi Coffee Machine Repair Center and Service</h1>
             {/* 
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>At De’Longhi, we take pride in offering services that meet the diverse needs of coffee lovers in Dubai, UAE. Since 2010, <a href="https://www.fajservices.ae/">FAJ Technical Services L.L.C</a> has been providing a range of DeLonghi coffee maker, DeLonghi coffee machine repair and maintenance services, including cleaning and descaling.< br/>Whether you enjoy single-origin coffees or premium ground blends, we are here to assist you. Whether you prefer brewing your coffee at the push of a button or mastering the art of coffee-making with a manual machine, we hope you enjoy many years of use from your De’Longhi coffee machine.</p>
@@ -577,7 +577,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}   alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}   alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Baumatic Appliance Service Center | Repair Washing Machine");
-    const metadescription = String(description || "FAJ provide expert Baumatic appliance, fridge, freezer, washing machine, dishwasher, oven, cooking range, stove and dryer repair and service in Dubai");
+    const metatitle = String(titleSeo || "Baumatic Appliances Center and Washing Machine Repair in Dubai");
+    const metadescription = String(description || "FAJ technicians are fully professional in Baumatic appliances repair in Dubai, Experts in fridge, washing machine, dishwasher, oven service near you.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Baumatic Appliances, Baumatic Washing Machine Repair, Baumatic Fridge Repair, Baumatic Dishwasher Repair, Baumatic Oven Repair, Baumatic Appliance Service Dubai");
@@ -233,7 +233,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Best Baumatic Home Appliance Repair and Service in Dubai</h1>
+                        <h1 className="cs_fs_30">Same-Day Baumatic Home Appliances Service Center and Repair</h1>
                         <p>To maintain the high quality of your Baumatic home appliances, trust our Repair Service. We provide reliable solutions for a wide range of appliance repairs, including Baumatic refrigerators, dishwashers, washing machines, and ovens.<br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Baumatic appliance at your location and promptly restore it to full working order. Count on us to bring your Baumatic appliances back to life with our dependable repair service in Dubai.</p>
 
                         <div id="get-quote" className=" mt-3">
@@ -582,7 +582,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

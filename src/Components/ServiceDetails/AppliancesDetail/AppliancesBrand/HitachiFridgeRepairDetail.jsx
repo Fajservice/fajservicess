@@ -217,7 +217,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Hitachi Fridge Repair in Dubai | Refrigerator Service Near Me </h1>
+            <h1 className="cs_fs_30">Highly-Rated Hitachi Home Appliances Repair Center and Service</h1>
             <p>
               Having trouble locating a reliable Hitachi appliance technician for your kitchen appliances? <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been offering trusted, affordable service since 2010. Our extensive network of qualified and experienced professionals ensures we send a technician who knows your specific Hitachi appliance whenever possible.
             </p>
@@ -581,7 +581,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

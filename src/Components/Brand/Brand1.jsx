@@ -16,7 +16,7 @@ const Brand1 = () => {
     return (
         <div className="cs_brands_area">
         <div className="container">
-          <div className="cs_brands_wrapper cs_white_bg cs_heading_color cs_bg_filed" data-background={`${import.meta.env.BASE_URL}img/brand_bg_1.svg`}>
+          <div className="cs_brands_wrapper cs_white_bg cs_heading_color cs_bg_filed" data-background={getImageSrc('brand_bg_1')}>
             <div className="cs_brand">
                 <img src={getImageSrc('companylogos/airforce')} alt="Air Force" />
             </div>

@@ -29,11 +29,11 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
     URL }) => {
      
     const metaTitle = String(
-        titleSeo || "Best Appliances Services in Jebel Ali Industrial Area"
+        titleSeo || "Best Appliances Service & Fridge Repair in Jebel Ali Industrial Area"
     );
 
     const metaDescription = String(
-        description || "Best appliance services in Jebel Ali Industrial Area. Call 043300002 for fridge repair near me in Dubai. FAJ offers to fix dishwasher, washing machine"
+        description || "Same-day home appliance service in Jebel Ali Industrial Area. Contact us for dishwasher, washing machine, dryer, fridge, oven, & cooker repair near you"
     );
 
     const metaAuthor = String(
@@ -149,7 +149,7 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Jebel Ali Industrial Area</h1>
+                        <h1 className="cs_fs_30">Premium Quality Home Appliances Repair and Services in Jebel Ali Industrial Area, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -487,7 +487,7 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

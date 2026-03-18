@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "AEG Home Appliances Repair Center | Washing Machine Service");
-  const metadescription = String(description || "We provide professional AEG appliance, fridge, freezer, AEG washing machine, stove, dishwasher, oven, induction hob, and dryer repair service in Dubai");
+  const metatitle = String(titleSeo || "AEG Home Appliances Repair & AEG Refrigerator Service in Dubai");
+  const metadescription = String(description || "Professional AEG fridge repair in Dubai. Our experienced team offers AEG washing machine, cooker, dishwasher, oven, and dryer service center near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "AEG Fridge Repair, AEG Washing Machine Repair, AEG Cooker Repair, AEG Oven Repair, AEG Appliances Maintenance, AEG Refrigerator Fix, AEG Appliance Service Dubai");
@@ -227,7 +227,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AEG Home Appliance Repair and Service in Dubai and Sharjah</h1>
+            <h1 className="cs_fs_30">High-Quality AEG Home Appliances Repair Center and Service in Dubai</h1>
             <p>
               At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we provide complete repair and services for all your AEG home appliance, so you can enjoy them for since 2010. Our trained technicians are available to assist you and provide expert advice in case any unexpected issues arise. You can easily book an AEG appliance repair. Give us a call. Additionally, we offer maintenance contract options for added peace of mind.
             </p>
@@ -585,7 +585,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

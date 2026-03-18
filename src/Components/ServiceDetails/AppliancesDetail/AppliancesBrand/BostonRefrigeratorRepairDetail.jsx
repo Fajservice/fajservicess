@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Boston Refrigerator Repair In Dubai | Appliances Service Near Me");
-  const metadescription = String(description || "Looking for an affordable Boston Refrigerator Repair in Dubai. We're a team of appliance maintenance technicians in your local area book now");
+  const metatitle = String(titleSeo || "Boston Home Appliances Service Center and Repair in Dubai");
+  const metadescription = String(description || "Are you looking best Boston home appliances service in Dubai? We're a team of fridge, washing machine and oven repair technicians in your local area");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Boston Refrigerator Repair, Boston Fridge Repair in Dubai, Boston Washing Machine Repair, Boston Dishwasher Repair, Boston Cooker Repair, Boston Appliance Service Dubai");
@@ -309,7 +309,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Boston Refrigerator Repair and Appliances Service In Dubai</h1>
+            <h1 className="cs_fs_30">Reliable and Quick Boston Home Appliances Service Center and Repair</h1>
             <p>
               Having trouble finding a local technician who specializes in Boston kitchen appliances?
               <br />At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. Our broad network includes thoroughly vetted, qualified, and experienced professionals. Whenever possible, we’ll assign a technician who is familiar with your specific Boston appliance to ensure expert care and prompt service.
@@ -675,7 +675,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

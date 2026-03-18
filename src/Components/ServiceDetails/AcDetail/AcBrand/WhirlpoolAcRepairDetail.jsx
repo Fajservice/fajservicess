@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Whirlpool AC and Whirlpool Appliance Repair Service in Dubai");
-  const metadescription = String(description || "Whirlpool AC service & repair in Dubai. We are offering fridge freezer, washing machine, dryer, laundry, dishwasher, oven maintenance with part warranty");
+  const metatitle = String(titleSeo || "Best Whirlpool AC and Whirlpool Appliance Repair Service in Dubai");
+  const metadescription = String(description || "Reliable Whirlpool AC repair & service in Dubai. We offer maintenance for fridge freezers, washing machines, & dishwasher, all with a parts warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Whirpool Air Conditioner Repair in Dubai, Whirlpool AC Maintenance, Whirlpool AC Service, Whirlpool Air Conditioner Installation, Whirlpool AC Cleaning Service, Whirlpool AC Repair Dubai, Whirlpool AC AMC Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/whirlpool/");
@@ -287,7 +287,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Whirlpool AC Repair Center and Home Appliances Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Whirlpool AC Repair Center and Home Appliances Service in Dubai</h1>
             <p>Whirlpool home appliances play a crucial role in our daily lives by providing comfort and convenience. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, our goal is to enhance our quality of life through reliable repairs at our Whirlpool home appliances repair center.<br/>Some key Whirlpool home  appliances that significantly impact our daily routines include air conditioners, washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers. The inconvenience caused by any of these appliances breaking down unexpectedly can be considerable. That’s why we offer dedicated repair, maintenance, and service in Dubai.</p>
 
             <div id="get-quote" className=" mt-3">
@@ -572,7 +572,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
 
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent-New')} alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -613,7 +613,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
+              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent-New')} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>

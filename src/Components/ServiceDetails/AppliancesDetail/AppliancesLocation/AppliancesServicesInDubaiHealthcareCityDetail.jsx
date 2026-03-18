@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const AppliancesServicesInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Dubai Healthcare City - Fridge Repair");
-    const metadescription = String(description || "We offer best appliance services in Dubai Healthcare City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
+    const metatitle = String(titleSeo || "Expert Appliances Service & Fridge Repair in Dubai Healthcare City");
+    const metadescription = String(description || "We provide affordable home appliance services in Dubai Healthcare City. Get your fridge, oven, dishwasher, & washing machine repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Dubai Healthcare City, Fridge Repair Dubai Healthcare City, Dishwasher Repair Dubai Healthcare City, Oven Repair Dubai Healthcare City, Appliance Services in Dubai Healthcare City");
@@ -128,7 +128,7 @@ const AppliancesServicesInDubaiHealthcareCityDetail = ({ subtitle, title, review
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services In Dubai Healthcare City</h1>
+                        <h1 className="cs_fs_30">Affordable Home Appliances Repair and Services in Dubai Healthcare City</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -467,7 +467,7 @@ const AppliancesServicesInDubaiHealthcareCityDetail = ({ subtitle, title, review
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Cedre Villas Silicon Oasis Dubai ");
-    const metadescription = String(description || "FAJ provides appliance services in Cedre Villas, Silicon Oasis, Dubai. Get fast washing machine repair & maintenance near me. Book 043300002");
+    const metatitle = String(titleSeo || "Top Appliances Repair Services in Cedre Villas Silicon Oasis Dubai");
+    const metadescription = String(description || "Experience top-notch appliance repair in Cedre Villas, Silicon Oasis, Dubai. We specialise in fridge, washing machines, ovens, & dishwasher service");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing machine repair in Cedre Villas Silicon Oasis Dubai, refrigerator repair in Cedre Villas Silicon Oasis Dubai, dishwasher repair in Cedre Villas Silicon Oasis Dubai, appliance repair in Cedre Villas Silicon Oasis Dubai, appliance service in Cedre Villas Silicon Oasis Dubai");
@@ -128,7 +128,7 @@ const ApplianceServiceInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title,
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Cedre Villas Silicon Oasis Dubai</h1>
+                        <h1 className="cs_fs_30">Highly-Rated Home Appliances Repair and Services in Cedre Villas Silicon Oasis Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -467,7 +467,7 @@ const ApplianceServiceInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title,
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best Appliances Services in Flamingo Villas - Fridge Repair");
-    const metadescription = String(description || "FAJ offers appliance service in Flamingo Villas. Get fridge repair near me in Dubai. Call 043300002 to fix washing machine, refrigerator, vacuum cleaner ");
+    const metatitle = String(titleSeo || "Top Appliances Services and Fridge Repair in Flamingo Villas");
+    const metadescription = String(description || "We offer quick home appliance repair in Flamingo Villas, Dubai. Contact us for washing machine, dishwasher, dryer, cooker, and oven service in your area");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine Repair in Flamingo Villas, Refrigerator Repair in Flamingo Villas, Appliance Service in Flamingo Villas, Fridge Repair in Flamingo Villas, Home Appliances Service in Dubai, Appliance Repair Dubai");
@@ -129,7 +129,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Flamingo Villas Dubai</h1>
+                        <h1 className="cs_fs_30">Affordable Home Appliances Repair and Services in Flamingo Villas, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -468,7 +468,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

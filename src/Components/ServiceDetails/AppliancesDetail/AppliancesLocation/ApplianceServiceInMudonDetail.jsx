@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services In Mudon - Fridge Repair Dubai");
-    const metadescription = String(description || "FAJ offers appliances services in Mudon. Looking for refrigerator, fridge, washing machine repair and oven fix in Dubai near me. Call at 043300002.");
+    const metatitle = String(titleSeo || "Fast Appliances Service and Fridge Repair in Mudon, Dubai");
+    const metadescription = String(description || "Are you looking for the best home appliance service in Mudon, Dubai? We provide repair service for refrigerator, washing machine, dryer, cooker, and oven");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in Mudon, Fridge Repair in Mudon, Appliance Repair in Mudon, Appliance Service in Mudon, Fridge Service in Mudon, Washing Machine Service in Mudon, Oven Repair in Mudon, Dishwasher Repair in Mudon, Appliance Maintenance in Mudon");
@@ -128,7 +128,7 @@ const ApplianceServiceInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Mudon</h1>
+                        <h1 className="cs_fs_30">Affordable Home Appliances Repair and Services in Mudon, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -467,7 +467,7 @@ const ApplianceServiceInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

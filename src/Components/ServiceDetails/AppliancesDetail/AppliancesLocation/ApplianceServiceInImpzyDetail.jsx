@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in IMPZ - Washing Machine Repair Dubai");
-    const metadescription = String(description || "We offer best appliance services in IMPZ. Get fridge repair near me in Dubai. Book 043300002 for oven, dishwasher, washing machine maintenance");
+    const metatitle = String(titleSeo || "Trusted Appliances Service and Washing Machine Repair in IMPZ");
+    const metadescription = String(description || "Same-day home appliance repair in IMPZ, Dubai. Contact us for service on washing machines, dishwashers, dryers, cookers, and ovens in your area");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in IMPZ, Fridge Repair in IMPZ, Oven Repair in IMPZ, Dishwasher Repair in IMPZ, Appliance Service in IMPZ, Appliance Maintenance in IMPZ");
@@ -128,7 +128,7 @@ const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in IMPZ</h1>
+                        <h1 className="cs_fs_30">Highly-Rated Home Appliances Repair and Services in IMPZ, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -466,7 +466,7 @@ const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

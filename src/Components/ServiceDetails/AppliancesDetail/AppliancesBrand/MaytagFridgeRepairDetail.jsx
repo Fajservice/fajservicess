@@ -391,7 +391,7 @@ const maytagServicesData = [
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Maytag Home Appliance Repair and Maintenance Service Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Maytag Home Appliances Repair Center and Service</h1>
             <p>If you're looking for a qualified technician for your Maytag appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we’ve offered reliable and affordable Maytag home appliance repair and services.<br/>Our network features skilled professionals who specialize in Maytag appliance repair and are available nearby.<br/>We connect you with experienced technicians across Dubai and Sharjah who focus on your satisfaction and deliver efficient, reliable solutions for all your appliance needs.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -726,7 +726,7 @@ const maytagServicesData = [
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

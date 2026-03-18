@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInArabianRanchesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Service in Arabian Ranches - Fridge Repair Dubai");
-    const metadescription = String(description || "Same-day appliance services in Arabian Ranches. FAJ offers washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher fix");
+    const metatitle = String(titleSeo || "Best Appliances Service & Refrigerator Repair in Arabian Ranches");
+    const metadescription = String(description || "Trusted home appliance services in Arabian Ranches, Dubai. FAJ provides refrigerator, dishwasher, stove, oven, and washing machine repair near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "washing machine repair in arabian ranches, refrigerator repair in arabian ranches, appliance repair in arabian ranches, dishwasher repair in arabian ranches, oven repair in arabian ranches, appliance service in arabian ranches, appliance maintenance in arabian ranches");
@@ -130,7 +130,7 @@ const ApplianceServiceInArabianRanchesDetail = ({ subtitle, title, reviewsbg, ti
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services in Arabian Ranches</h1>
+                        <h1 className="cs_fs_30">High-Quality Home Appliances Repair and Service in Arabian Ranches, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -468,7 +468,7 @@ const ApplianceServiceInArabianRanchesDetail = ({ subtitle, title, reviewsbg, ti
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

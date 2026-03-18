@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Gibson Fridge Repair in Dubai | Washer Dryer Service Near Me");
-  const metadescription = String(description || "Expert Gibson fridge repair in Dubai. Book now washing machine, dryer, refrigerator, freezer, dishwasher, cooker, oven maintenance, service center near");
+  const metatitle = String(titleSeo || "Best Gibson Home Appliances Service and Fridge Repair in Dubai");
+  const metadescription = String(description || "Cost-effective Gibson home appliances service in Dubai. Get the best fridge, freezer, washing machine, dishwasher, oven & stove repair near your area");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Gibson Fridge Repair in Dubai, Gibson Washing Machine Repair in Dubai, Gibson Cooker Repair in Dubai, Gibson Oven Repair in Dubai, Gibson Appliances Maintenance in Dubai, Gibson Refrigerator Fix Repairs Service");
@@ -217,7 +217,7 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Gibson Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Professional Gibson Home Appliances Repair Center and Service</h1>
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been delivering trusted Gibson appliance repair and service in Dubai. We understand that appliance issues can arise without warning, which is why we offer prompt, affordable, and high-quality repair solutions.
               Our experienced technicians are available across Dubai and Sharjah to provide on-site Gibson washing machine repair and service at your convenience.
@@ -567,7 +567,7 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

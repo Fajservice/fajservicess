@@ -216,7 +216,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Indesit Fridge Repair and Washing Machine Service Near Me in Dubai</h1>
+            <h1 className="cs_fs_30">Cost-Effective Indesit Home Appliances Repair Center and Service</h1>
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has provided reliable Indesit appliance repair and service in Dubai. We understand that appliances can break down unexpectedly, so we offer quality and affordable solutions.
               <br />Our trained technicians are available throughout Dubai and Sharjah to provide Indesit washing machine repair and service at your location.
@@ -564,7 +564,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Deira - Refrigerator Repair Dubai");
-    const metadescription = String(description || "Expert appliance services in Deira. Get refrigerator repair near me in Dubai. Contact 043300002 to fix your washing machine, cooker, and dishwasher ");
+    const metatitle = String(titleSeo || "Best Appliances Services and Refrigerator Repair Deira, Dubai");
+    const metadescription = String(description || "Expert home appliance repair services in Deira, Dubai. Contact us to fix your washing machine, fridge, dryer, oven, cooker & dishwasher near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "washing machine repair in deira, refrigerator repair in deira, appliance repair in deira, appliance service in deira, appliance maintenance in deira, appliance installation in deira, appliance repair near me, appliance service near me, appliance maintenance near me, appliance installation near me");
@@ -127,7 +127,7 @@ const ApplianceServiceInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Deira</h1>
+                        <h1 className="cs_fs_30">Cost-Effective Home Appliances Repair and Services in Deira, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -466,7 +466,7 @@ const ApplianceServiceInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

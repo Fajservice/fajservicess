@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const ApplianceServiceInTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in The Greens - Washing Machine Repair");
-    const metadescription = String(description || "Need appliances services in The Greens? FAJ offers refrigerator, washing machine, fridge repair and oven fix in dubai near me. Contact us 043300002 now.");
+    const metatitle = String(titleSeo || "Best Appliances Service & Washing Machine Repair in The Greens");
+    const metadescription = String(description || "We offer built-in appliance repair services in The Greens, Dubai. Book a fridge, washing machine, dishwasher, stove, or oven repair service near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in The Greens, Refrigerator Repair in The Greens, Fridge Repair in The Greens, Oven Repair in The Greens, Appliance Service in The Greens, Appliance Repair in The Greens, Appliance Maintenance in The Greens, Appliance Installation in The Greens");
@@ -126,7 +126,7 @@ const ApplianceServiceInTheGreensDetail = ({ subtitle, title, reviewsbg, titleSe
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in The Greens</h1>
+                        <h1 className="cs_fs_30">Top-Quality Home Appliances Service and Repair in The Greens, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -466,7 +466,7 @@ const ApplianceServiceInTheGreensDetail = ({ subtitle, title, reviewsbg, titleSe
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

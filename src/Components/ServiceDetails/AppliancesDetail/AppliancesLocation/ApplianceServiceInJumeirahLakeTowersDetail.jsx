@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 const ApplianceServiceInJumeirahLakeTowersDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best Appliances Services in Jumeirah Lake Towers Near me");
-    const metadescription = String(description || "FAJ provides appliance services in Jumeirah Lake Towers. Get fast washing machine repair near me in Dubai. Call 043300002 for fridge & dishwasher");
+    const metatitle = String(titleSeo || "Trusted Appliances Repair Services in Jumeirah Lake Towers");
+    const metadescription = String(description || "Top-rated home appliance services in Jumeirah Lake Towers. Get fast repair for washing machine, fridge, dishwasher, dryer, oven & cooker near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in jumeirah lake towers, Refrigerator in jumeirah lake towers, Dishwasher in jumeirah lake towers, Oven in jumeirah lake towers, Tumble Dryer in jumeirah lake towers, Stove in jumeirah lake towers, Freezer in jumeirah lake towers, Coffee Machine in jumeirah lake towers");
@@ -128,7 +128,7 @@ const ApplianceServiceInJumeirahLakeTowersDetail = ({ subtitle, title, reviewsbg
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Jumeirah Lake Towers</h1>
+                        <h1 className="cs_fs_30">High-Quality Home Appliances Repair and Service in Jumeirah Lake Towers, Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -467,7 +467,7 @@ const ApplianceServiceInJumeirahLakeTowersDetail = ({ subtitle, title, reviewsbg
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}

@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "York Air Conditioning | York AC Repair and Maintenance Service");
-  const metadescription = String(description || "Looking for York AC repair in Dubai? Call 0433000002 for residential and commercial needs. We also provide York HVAC maintenance services near you.");
+  const metatitle = String(titleSeo || "York Air Conditioning Repair and York AC Maintenance Service");
+  const metadescription = String(description || "Looking for the best York AC repair in Dubai? Call 0433000002 for homes and office needs. We also provide York HVAC maintenance services near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "York AC Repair, York Air Conditioner Maintenance, York AC Service Dubai, York Air Conditioner Repair Dubai, York AC Installation Dubai, York AC Cleaning Dubai, York Air Conditioner Service Dubai, York Air Conditioner Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/york/");
@@ -280,7 +280,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">York Air Conditioning | York AC Repair and Maintenance Services</h1>
+            <h1 className="cs_fs_30">Fast and Reliable York Air Conditioning | York AC Repair and Maintenance Services in Dubai</h1>
             <p>Looking for reliable servicing and maintenance for your York air conditioning and refrigeration systems?<br/>We provide expert services for York HVAC, ducted split AC, central AC, and VRF AC repair throughout Dubai. Serving both homes and businesses, we deliver high-quality HVAC service and annual maintenance contract.<br/>Established in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is a trusted provider of York air conditioning solutions in Dubai and Sharjah. Our experienced team offers York AC cleaning, maintenance, repair, and installation services for residential and commercial units, ensuring your system operates efficiently and enhances your indoor comfort.</p>
 
             <div id="get-quote" className=" mt-3">
@@ -564,7 +564,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
 
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('ACServicescomponent-New')} alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -605,7 +605,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent')} alt="Ac Maintenance Services" />
+              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent-New')} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>

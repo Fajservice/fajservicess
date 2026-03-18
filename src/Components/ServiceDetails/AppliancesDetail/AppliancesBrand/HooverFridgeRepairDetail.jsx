@@ -216,7 +216,7 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Hoover Kitchen Appliance Repair and Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Hoover Home Appliances Repair Center and Service</h1>
             <p><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> expert technicians have been offering reliable warranty Hoover appliance repairing since 2010. We will come to your home to service your Hoover appliances at a time that suits you.
 We complete most Hoover kitchen appliance repair and services, including Hoover refrigerators, freezers, washing machines, tumble dryers, dishwashers, ovens, and cooking ranges repair center near you in Dubai, during the first visit.
             </p>
@@ -573,7 +573,7 @@ We complete most Hoover kitchen appliance repair and services, including Hoover 
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1')}  alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={getImageSrc('fajteam-1-new')}  alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}

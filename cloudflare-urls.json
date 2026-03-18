@@ -1,14 +1,21 @@
 {
   "success": [
     {
-      "originalPath": "icon/robot-vacuum-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/robot-vacuum-New/public",
-      "id": "icon/robot-vacuum-New",
+      "originalPath": "ACServicescomponent-New",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ACServicescomponent-New/public",
+      "id": "ACServicescomponent-New",
+      "success": true
+    },
+    {
+      "originalPath": "fajteam-1-new",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/fajteam-1-new/public",
+      "id": "fajteam-1-new",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "icon/robot-vacuum-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/icon/robot-vacuum-New/public"
+    "ACServicescomponent-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ACServicescomponent-New/public",
+    "fajteam-1-new": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/fajteam-1-new/public"
   }
 }
