@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 };
 const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "GE - General Fridge Repair & GE Washing Machine Service Dubai");
-  const metadescription = String(description || "FAJ offers General Electric (GE) fridge repair in Dubai, with warranty for freezer, GE refrigerator service, washer dryer maintenance repair center near me");
+  const metatitle = String(titleSeo || "GE - General Electric Home Appliances Repair and Service Dubai");
+  const metadescription = String(description || "Trusted GE - General Electric Home appliances service in Dubai. Get the best refrigerator, washing machine, dishwasher, oven & stove repair near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "GE General Electric Fridge Repair, GE General Electric Washing Machine Repair, GE General Electric Cooker Repair, GE General Electric Oven Repair, GE General Electric Appliance Repair Dubai");
