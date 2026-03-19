@@ -28,7 +28,7 @@ const BoschHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Bosch Home Appliances Repair, Bosch Washing Machine Repair, Bosch Refrigerator Repair, Bosch Dishwasher Repair, Bosch Stove Repair, Bosch Oven Repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/bosch/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
