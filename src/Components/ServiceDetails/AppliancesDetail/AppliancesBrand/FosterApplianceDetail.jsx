@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 };
 const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Foster Appliances Service | Dishwasher Repair in Dubai | Oven");
-    const metadescription = String(description || "We specialist Foster appliance service in Dubai, Contact us Foster dishwasher, stove, hob, oven, fridge repair, and Foster appliance fix near you.");
+    const metatitle = String(titleSeo || "Foster Appliances Service | Foster Dishwasher Repair in Dubai");
+    const metadescription = String(description || "Get professional Foster home appliances service in Dubai. Contact us for Foster dishwasher, stove, hob, oven, and fridge freezer repair center near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Foster Appliances Service, Foster Dishwasher Repair Dubai, Foster Washing Machine Repair Dubai, Foster Fridge Repair Dubai, Foster Cooker Repair Dubai, Foster Appliance Maintenance Dubai");

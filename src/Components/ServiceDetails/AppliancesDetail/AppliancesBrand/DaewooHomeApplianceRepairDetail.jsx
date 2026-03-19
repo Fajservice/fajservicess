@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Daewoo Home Appliance | Daewoo Washing Machine Repair");
-    const metadescription = String(description || "Daewoo home appliance service in Dubai. Get fast Daewoo fridge repair, washing machine repair & dishwasher, stove & oven service centre near me");
+    const metatitle = String(titleSeo || "Daewoo Appliances Service and Daewoo Fridge Repair in Dubai");
+    const metadescription = String(description || "Get top-rated Daewoo home appliances service in Dubai. Book now Daewoo washing machine, dryer, dishwasher, freezer & cooker repair center near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Daewoo home appliance repair, Daewoo washing machine service, Daewoo refrigerator repair, Daewoo dishwasher service, Daewoo fridge service center, Daewoo appliance installation Dubai, Daewoo appliance maintenance Dubai");

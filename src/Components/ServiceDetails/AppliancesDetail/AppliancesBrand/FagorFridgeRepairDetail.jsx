@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Fagor Fridge Repair | Dishwasher | Ice Machine Service Dubai");
-  const metadescription = String(description || "At Fagor Professional, FAJ offers reliable Fagor refrigerator, washing machine, dryer, dishwasher, ice maker, oven repair & maintenance service in Dubai");
+  const metatitle = String(titleSeo || "Fagor Professional Appliances Repair and Maintenance Service");
+  const metadescription = String(description || "FAJ offers expert Fagor Professional appliances, including refrigerator, washing machines, dryer, dishwasher, ice maker, oven, repair & services in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Fagor Fridge Repair, Fagor Washing Machine Repair, Fagor Cooker Repair, Fagor Oven Repair, Fagor Appliances Maintenance, Fagor Refrigerator Fix, Fagor Appliance Service");
