@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Fisher and Paykel Fridge Repair | Dishwasher Service in Dubai");
-  const metadescription = String(description || "Fisher & Paykel fridge repair across Dubai. FAJ offers F & P dishwasher, freezer, range, stove, oven repairs & service center in Dubai with a warranty.");
+  const metatitle = String(titleSeo || "Fisher and Paykel Appliances Service | F & P Dishwasher Repair");
+  const metadescription = String(description || "High-quality Fisher & Paykel appliance repair in Dubai. FAJ offers F & P dishwasher, freezer, range, stove, & oven service centre with warranty repairs");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Fisher and Paykel Fridge Repair, Fisher and Paykel Washing Machine Repair, Fisher and Paykel Dishwasher Repair, Fisher and Paykel Stove Repair, Fisher and Paykel Oven Repair, Fisher and Paykel Appliance Service Dubai");

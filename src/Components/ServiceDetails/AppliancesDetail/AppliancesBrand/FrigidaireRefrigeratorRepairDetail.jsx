@@ -25,7 +25,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
   // For SEO
   const metatitle = String(titleSeo || "Frigidaire Refrigerator Repair | Frigidaire Washing Machine Service");
-  const metadescription = String(description || "FAJ specialises in Frigidaire home appliances service in Dubai. Get fast Frigidaire washing machine, dishwasher, oven, and cooking range repair center");
+  const metadescription = String(description || "Trusted Frigidaire home appliance service in Dubai. Book now Frigidaire refrigerator, freezer, washing machine, dryer & oven repair center near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Frigidaire Refrigerator Repair, Frigidaire Fridge Repair, Frigidaire Washing Machine Repair, Frigidaire Dishwasher Repair, Frigidaire Cooker Repair, Frigidaire Oven Repair, Frigidaire Appliance Service Dubai");

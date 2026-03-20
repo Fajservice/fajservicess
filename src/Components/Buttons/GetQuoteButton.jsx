@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const GetQuoteButton = ({ to = '/contact-us/' }) => {
+const GetQuoteButton = ({ whatsapp = 'https://api.whatsapp.com/send?phone=+971507464712&text=Hello' }) => {
   return (
-    <Link to={to} className="call-now-btn">
+    <Link to={whatsapp} className="call-now-btn">
       <img
         className="call-icon"
         src={`${CDN}/icon/whatsapp-now/public`}

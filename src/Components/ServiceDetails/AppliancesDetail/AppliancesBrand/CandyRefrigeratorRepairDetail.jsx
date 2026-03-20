@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Candy Home Appliance Service & Candy Fridge Repair Dubai");
-  const metadescription = String(description || "With Warranty Candy appliance repair in Dubai. Call us for your dryer, candy washing machine, Candy dishwasher, oven, repairs center near me");
+  const metatitle = String(titleSeo || "Candy Home Appliance Service and Candy Fridge Repair in Dubai");
+  const metadescription = String(description || "With Warranty Candy home appliances service in Dubai. Call us for your Candy washing machine, dryer, dishwasher, stove & oven, repair center near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Candy Refrigerator Repair Dubai, Candy Washing Machine Repair Dubai, Candy Dishwasher Repair Dubai, Candy Cooker Oven Repair Dubai, Candy Fridge Repair Dubai, Candy Appliance Service Dubai, Candy Appliance Maintenance Dubai");
