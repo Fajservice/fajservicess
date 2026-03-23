@@ -1548,6 +1548,10 @@ export const router = createBrowserRouter([
         element: <Navigate to="/blog/is-air-fryer-healthy/" replace />
       },
       {
+        path: "/blog/repair-or-replac-what-to-do-with-a-broken-washing-machine-in-dubai/",
+        element: <Navigate to="/blog/repair-or-replace-what-to-do-with-a-broken-washing-machine-in-dubai/" replace />
+      },
+      {
         path: "/cigar-cabinet-humidifier-repair",
         element: <Navigate to="/cigar-humidor-repair/" replace />
       },
