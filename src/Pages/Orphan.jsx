@@ -348,6 +348,13 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/ac-repair-dubai-questions-before-hiring-ac-repair-companies-dubai/">AC Repair Dubai - Questions Before Hiring AC Repair Companies Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-ac-maintenance-in-dubai-for-Long-lasting-cooling-performance/">Guide for AC Maintenance</a></li>
                             <li><a href="https://www.fajservices.ae/blog/repair-or-replac-what-to-do-with-a-broken-washing-machine-in-dubai/">Repair or Replace in Washing Machine</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-clean-an-air-conditioner-ac-drain-line-for-better-cooling-performance/">How to Clean an Air Conditioner AC Drain Line for Better Cooling Performance</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-do-you-clean-a-refrigerator-complete-guide-to-refrigerator-maintenance/">How Do You Clean a Refrigerator? Complete Guide to Refrigerator Maintenance</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-ac-service-for-healthier-air-and-better-indoor-air-quality/">The Ultimate Guide to AC Service for Healthier Air and Better Indoor Air Quality</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-calculate-ac-tonnage-for-a-room-complete-guide-to-ac-tonnage-calculation/">How to Calculate AC Tonnage for a Room: Complete Guide to AC Tonnage Calculation</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/top-10-signs-your-ac-needs-maintenance-in-dubai/">Top 10 Signs Your AC Needs Maintenance in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/repair-or-replace-what-to-do-with-a-broken-washing-machine-in-dubai/">Repair or Replace? What to Do with a Broken Washing Machine in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/bosch/">Bosch Home Appliances Repair Services</a></li>
                         </ul>
                     </div>
                 </div>

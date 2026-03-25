@@ -82,12 +82,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
       "thumbnailUrl": "https://img.youtube.com/vi/IjckdZLs_Qg/maxresdefault.jpg",
       "uploadDate": "2023-10-02T12:19:33Z",
       "duration": "PT1M26S",
-      "contentUrl": "https://www.youtube.com/watch?v=IjckdZLs_Qg",
       "embedUrl": "https://www.youtube.com/embed/IjckdZLs_Qg",
-      "potentialAction": {
-        "@type": "WatchAction",
-        "target": "https://www.youtube.com/watch?v=IjckdZLs_Qg"
-      },
       "hasPart": [
         { "@type": "Clip", "name": "Introduction and Morning Coffee Ritual", "startOffset": 0, "endOffset": 30, "url": "https://www.youtube.com/watch?v=IjckdZLs_Qg&t=0s" },
         { "@type": "Clip", "name": "Common Coffee Machine Issues (Leakage & Error Messages)", "startOffset": 31, "endOffset": 50, "url": "https://www.youtube.com/watch?v=IjckdZLs_Qg&t=31s" },
@@ -361,7 +356,7 @@ const coffeemachineServicesData = [
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Get Professional Coffee Machine Service & Repair Across Dubai, Sharjah, and Abu Dhabi</h1>
+            <h1 className="cs_fs_30">Trusted Coffee Machine Service Center and Repair Near You in Dubai, Sharjah & Abu Dhabi, UAE</h1>
             <p>Since 2010, FAJ has been providing reliable and trusted expertise in installation, coffee machine service and maintenance, specializing in coffee machine repair in Dubai, serving home coffee machine service, office coffee machine repair, restaurant coffee machine maintenance, and cafes.<br />We work with a variety of coffee equipment, including tea &amp; coffee vending machine repair, espresso machine maintenance, coffee grinders servicing, professional coffee machine, and automatic coffee machine error fix.&nbsp;<br />Our dedicated team understands the importance of functioning coffee machine servicing, and we prioritise timely maintenance.&nbsp;<br />As specialists in espresso machines, we are committed to managing and maintaining your equipment throughout its lifespan, ensuring that you enjoy reliable, great-tasting coffee every day.</p>
 
             <div id="get-quote" className=" mt-3">

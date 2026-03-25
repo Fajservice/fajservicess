@@ -99,9 +99,7 @@ const SCHEMA = {
       "thumbnailUrl": "https://img.youtube.com/vi/sxBhB1_gxYA/maxresdefault.jpg",
       "uploadDate": "2023-09-15T07:59:44Z",
       "duration": "PT48S",
-      "contentUrl": "https://www.youtube.com/watch?v=sxBhB1_gxYA",
       "embedUrl": "https://www.youtube.com/embed/sxBhB1_gxYA",
-      "potentialAction": { "@type": "WatchAction", "target": "https://www.youtube.com/watch?v=sxBhB1_gxYA" },
       "publisher": { "@id": "https://www.fajservices.ae/#organization" }
     },
     {
@@ -441,7 +439,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* Hero */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Service &amp; AC Repair in Dubai</h1>
+            <h1 className="cs_fs_30">Trusted AC Repair and Maintenance Serviceing</h1>
             <p>
               Improve the comfort of your home and business premises with air conditioning cooling.
               Maintain a perfect temperature year-round with our expert AC technicians.<br />

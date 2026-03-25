@@ -342,7 +342,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Cooking Appliances Repair & Maintenance Services in Dubai</h1>
+            <h1 className="cs_fs_30">Best Commercial Cooking Appliances Repair & Maintenance Servicing Near You in Dubai, UAE</h1>
             <p>FAJ, established in 2010, specialises in minimising downtime for the catering industry through repair and annual maintenance contracts. Our catering division supplies, installs, repairs, and maintains commercial catering and warewashing equipment.<br />
               We provide services ranging from emergency repairs on electric and gas catering appliances to complete commercial kitchen installations, as well as repair and maintenance services tailored to businesses of all sizes
             </p>

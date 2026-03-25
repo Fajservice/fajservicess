@@ -294,7 +294,7 @@ const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Home Appliances AMC Services with Best Maintenance Contract in Dubai</h1>
+            <h1 className="cs_fs_30">Best Home Appliances AMC Services - Maintenance Contract in Dubai, UAE</h1>
             <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010.< br />
               Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.
               As appliances age, they become more prone to breakdowns, often at inconvenient times.< br />

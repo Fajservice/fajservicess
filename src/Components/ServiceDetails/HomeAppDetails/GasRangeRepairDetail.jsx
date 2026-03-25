@@ -442,7 +442,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Gas Cooker Repair | Electric Stove and Cooking Range Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top Gas Cooker Repair, Electric Stove and Cooking Range Service Center Near You</h1>
             <p>
               Since 2010, F A J has supported you when things go wrong. We understand that your cooking appliances are essential for daily life.
               The induction cooktop, stove, or range is often key to an enjoyable cooking experience in a modern kitchen. After all, home-cooked meals are an excellent way to bring family and friends together. When your cooker breaks down, it can be both inconvenient and frustrating.

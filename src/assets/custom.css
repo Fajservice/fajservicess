@@ -426,8 +426,10 @@ section#get-quote {
 
 /* Common box  */
 .box-content-container {
-  min-height: 165px;
-  max-height: 165px;
+  min-height: 100%;
+  height: 100%;
+  height: -webkit-fill-available;
+  max-height: -webkit-max-content;
   overflow-y: auto;
 }
 
@@ -699,13 +701,13 @@ p a {
     border-bottom: 1px solid #83838338;
   }
 
-  .box-content-container {
+  /* .box-content-container {
     min-height: 100%;
     min-height: -webkit-fill-available;
     min-height: -moz-available;
     min-height: fill-available;
     max-height: 200px;
-  }
+  } */
 
 }
 
@@ -717,10 +719,10 @@ p a {
 
 @media screen and (max-width: 1024px) {
 
-  .box-content-container {
+  /* .box-content-container {
     min-height: 210px;
     max-height: 210px;
-  }
+  } */
 
   .col-1,
   .col-2,
@@ -769,10 +771,10 @@ p a {
     display: none;
   }
 
-  .box-content-container {
+  /* .box-content-container {
     min-height: 120px;
     max-height: 130px;
-  }
+  } */
 
   .cs_page_heading {
     height: 122px;
@@ -821,10 +823,10 @@ p a {
   }
 
 
-  .box-content-container {
+  /* .box-content-container {
     min-height: auto;
     max-height: 185px;
-  }
+  } */
 
   .cs_team_slider img {
     max-height: 150px !important;

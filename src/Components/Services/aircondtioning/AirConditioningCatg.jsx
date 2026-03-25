@@ -95,7 +95,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
         {/* Section 1 - Intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Air Conditioning Maintenance, Repair and Servicing in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Air Conditioning Maintenance, Repair, and Service Company in Dubai and Sharjah, UAE</h1>
             <p>FAJ Technical Services L.L.C. is a leading provider of air conditioning installation, repair, and maintenance services in Dubai. We offer comprehensive solutions to keep your facility cool in the summer and warm in the winter. With experience since 2010, we ensure your Air Conditioning systems operate at optimum energy efficiency. Our services help reduce the possibility of breakdowns, ultimately saving you money and time.</p>
 
             <div id="get-quote" className="mt-3">

@@ -271,7 +271,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Refrigeration Maintenance and| Freezer & Chiller Repair Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top Quality Commercial Refrigeration Maintenance and Freezer & Chiller Repair Services Near You, in Dubai</h1>
             <p>Commercial refrigeration maintenance and repairs are essential for businesses like biomedical facilities, pharmacies, supermarkets, restaurants, hotels, and food processing plants, ensuring product freshness and safety.<br />FAJ Technical Services L.L.C, established in 2010, is recognised for its reliability and flexibility. We respond promptly to refrigeration breakdowns and work diligently to address issues of any size. Our services include repairing and servicing walk-in coolers, walk-in chillers, freezers, and commercial refrigerators.<br />Timely maintenance boosts efficiency and extends equipment lifespan. At FAJ, we highlight the importance of preventative measures in commercial refrigeration to avoid costly failures. We also provide installation services for commercial chillers and freezers. </p>
 
             <div id="get-quote" className=" mt-3">

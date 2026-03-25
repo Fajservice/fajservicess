@@ -109,12 +109,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
       "thumbnailUrl": "https://img.youtube.com/vi/nkqs5jeMQl0/maxresdefault.jpg",
       "uploadDate": "2023-10-20T06:42:10Z",
       "duration": "PT2M6S",
-      "contentUrl": "https://www.youtube.com/watch?v=nkqs5jeMQl0&t=1s",
       "embedUrl": "https://www.youtube.com/embed/nkqs5jeMQl0",
-      "potentialAction": {
-        "@type": "WatchAction",
-        "target": "https://www.youtube.com/watch?v=nkqs5jeMQl0&t=1s"
-      },
      
       "hasPart": [
         {
@@ -336,7 +331,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Small Home Appliances Service Center and Household Appliance Repair in Dubai</h1>
+            <h1 className="cs_fs_30">Best Small Home Appliances Service Center and Household Appliance Repair Near You, Dubai</h1>
             <p>
               Do you need small appliance repair? If you&apos;re looking for a reliable and trusted service, look no further than FAJ Technical Services L.L.C, established in 2010.
               We understand the inconvenience caused by a malfunctioning appliance, which is why we offer fast and professional small home appliance repair services in your area.

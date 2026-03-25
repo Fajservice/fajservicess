@@ -1,12 +1,14 @@
 [
+  
   {
-    "img": "AirConditionerService",
-    "title": "Air Conditioning Services",
-    "desc": "Stay cool this hot summer! Make your home or workplace a more comfortable place....",   
+    "img": "kitchen-equipment",
+    "title": "Kitchen Equipment Services",
+    "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services.",
     "btnText": "READ MORE",
-    "btnLink": "/services/air-conditioning-repair/ac-service/",
-    "icon": "icon/airconditioningservices"
+    "btnLink": "/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/",
+    "icon": "icon/kitchenequipmentservices"
   },
+  
   {
     "img": "Commercial-refrigeration-service",
     "title": "Commercial Refrigeration Services",
@@ -24,20 +26,20 @@
     "icon": "icon/laundryequipmentservices"
   },
   {
+    "img": "AirConditionerService",
+    "title": "Air Conditioning Services",
+    "desc": "Stay cool this hot summer! Make your home or workplace a more comfortable place....",   
+    "btnText": "READ MORE",
+    "btnLink": "/services/air-conditioning-repair/ac-service/",
+    "icon": "icon/airconditioningservices"
+  },
+  {
     "img": "coffee-machine-service",
     "title": "Coffee Machine Services",
     "desc": "Without coffee, routines can be affected. A broken coffee machine at home, office, or in a restaurant can disrupt productivity and business.We understand the importance of coffee.",   
     "btnText": "READ MORE",
     "btnLink": "/services/coffee-machine/coffee-machine-service-center/",
     "icon": "icon/coffeemachineservices"
-  },
-  {
-    "img": "kitchen-equipment",
-    "title": "Kitchen Equipment Services",
-    "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services.",
-    "btnText": "READ MORE",
-    "btnLink": "/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/",
-    "icon": "icon/kitchenequipmentservices"
   },
   {
     "img": "home-appliances-service",

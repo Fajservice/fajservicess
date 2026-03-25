@@ -1716,7 +1716,7 @@
 
   @media (max-width: 991px) {
     .cs_fs_30 {
-      font-size: 26px;
+      font-size: 24px;
       font-family: var(--heading-font);
     }
   }
@@ -10763,6 +10763,7 @@
   display: flex;
   flex-direction: column;
   height: -webkit-fill-available;
+  flex: 1;
 }
 .ac_card_content_wrapper .ac_card_discount_wrapper {
     display: flex;

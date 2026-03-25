@@ -245,7 +245,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Oven Repair & Service | Gas and Electric Oven Maintenance in Dubai</h1>
+            <h1 className="cs_fs_30">Expert Oven Repair and Gas & Electric Oven Service Center Near You</h1>
             <p>
               If you&apos;re having issues with your oven, it&apos;s important to locate a trustworthy and high-quality oven repair service. Our company in Dubai is focused on providing quick, effective, and affordable repairs for all your oven repair requirements.
               <br />

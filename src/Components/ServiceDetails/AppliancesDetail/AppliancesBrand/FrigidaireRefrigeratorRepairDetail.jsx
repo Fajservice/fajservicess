@@ -37,64 +37,64 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
   const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "LocalBusiness",
-      "name": "Frigidaire Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
-      "image": [
-        "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
-      ],
-      "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/",
-      "telephone": "+971 4 330 0002",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "3300",
-        "bestRating": "5"
-      },
-      "areaServed": [
-        { "@type": "City", "name": "Dubai" },
-        { "@type": "City", "name": "Sharjah" },
-        { "@type": "City", "name": "Abu Dhabi" }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Frigidaire Home Appliances Repair Services",
-        "itemListElement": [
-          {
-            "@type": "OfferCatalog",
-            "name": "Frigidaire Appliances Services",
-            "itemListElement": [
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire Washing Machine Repair" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire Refrigerator Repair" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire Dishwasher Repair" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire General Home Appliance Repair" } }
-            ]
-          }
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "name": "Frigidaire Home Appliances Repair Services in Dubai - FAJ Technical Services L.L.C",
+        "image": [
+          "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
+        ],
+        "url": "https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/",
+        "telephone": "+971 4 330 0002",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "3300",
+          "bestRating": "5"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Dubai" },
+          { "@type": "City", "name": "Sharjah" },
+          { "@type": "City", "name": "Abu Dhabi" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Frigidaire Home Appliances Repair Services",
+          "itemListElement": [
+            {
+              "@type": "OfferCatalog",
+              "name": "Frigidaire Appliances Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire Washing Machine Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire Refrigerator Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire Dishwasher Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Frigidaire General Home Appliance Repair" } }
+              ]
+            }
+          ]
+        },
+        "review": [
+          { "@type": "Review", "author": { "@type": "Person", "name": "Anusri Chan" }, "reviewBody": "Frigidaire washing machine repair was completed efficiently. Technician Abdullah was professional and thorough.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Haris M" }, "reviewBody": "FAJ fixed our Frigidaire coffee machine perfectly. Technician Que explained everything clearly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Khurram Mahmood" }, "reviewBody": "Frigidaire refrigerator repair was fast and professional. Technician handled the issue expertly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Jason Miller" }, "reviewBody": "Frigidaire dishwasher repair went smoothly. Friendly staff and efficient service.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Affu Affu" }, "reviewBody": "Highly recommended. FAJ repaired our Frigidaire appliances quickly and maintained great communication.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
         ]
       },
-      "review": [
-        { "@type": "Review", "author": { "@type": "Person", "name": "Anusri Chan" }, "reviewBody": "Frigidaire washing machine repair was completed efficiently. Technician Abdullah was professional and thorough.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
-        { "@type": "Review", "author": { "@type": "Person", "name": "Haris M" }, "reviewBody": "FAJ fixed our Frigidaire coffee machine perfectly. Technician Que explained everything clearly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
-        { "@type": "Review", "author": { "@type": "Person", "name": "Khurram Mahmood" }, "reviewBody": "Frigidaire refrigerator repair was fast and professional. Technician handled the issue expertly.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
-        { "@type": "Review", "author": { "@type": "Person", "name": "Jason Miller" }, "reviewBody": "Frigidaire dishwasher repair went smoothly. Friendly staff and efficient service.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } },
-        { "@type": "Review", "author": { "@type": "Person", "name": "Affu Affu" }, "reviewBody": "Highly recommended. FAJ repaired our Frigidaire appliances quickly and maintained great communication.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" } }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/#breadcrumb",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
-        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
-        { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
-        { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
-        { "@type": "ListItem", "position": 5, "name": "Frigidaire", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/" }
-      ]
-    }
-  ]
-}
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fajservices.ae/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.fajservices.ae/services/" },
+          { "@type": "ListItem", "position": 3, "name": "Home Appliances Repair", "item": "https://www.fajservices.ae/services/home-appliances-repair/" },
+          { "@type": "ListItem", "position": 4, "name": "Brands", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/" },
+          { "@type": "ListItem", "position": 5, "name": "Frigidaire", "item": "https://www.fajservices.ae/services/home-appliances-repair/brands/frigidaire/" }
+        ]
+      }
+    ]
+  }
 
  // State for fetched data
      const [data, setData] = useState([]);
