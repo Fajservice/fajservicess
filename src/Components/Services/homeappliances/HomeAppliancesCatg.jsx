@@ -201,7 +201,7 @@ const GALLERY_ITEMS = [
         
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className='mb-4'>Cost-Effective Home Appliance Repair and Service Center Near You</h1>
+            <h1 className='mb-4 cs_fs_30'>Cost-Effective Home Appliance Repair and Service Center Near You</h1>
              <h2><b>Expert Appliance Repair Near You</b></h2>
                 <p>
                   Reliable Home Appliance Repair Services – Fast & Affordable. Are you searching for a reliable home
