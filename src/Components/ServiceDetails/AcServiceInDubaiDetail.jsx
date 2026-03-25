@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback, memo, lazy, Suspense } from "react";
+import { useEffect, useRef, useState, useCallback, memo, Suspense } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import HeaderForm from "../Headeform/HeaderForm";
@@ -13,17 +13,17 @@ import Inspection from '../Svg/Inspection';
 import Thermostat from '../Svg/Thermostat';
 import Gallery    from '../Svg/Gallery';
 
-const CallNowButton       = lazy(() => import('../Buttons/CallNowButton'));
-const ACWhyChooseUs       = lazy(() => import("../WhyChooseUS/ACWhyChooseUs"));
-const MaintenanceContract = lazy(() => import("../MaintenanceContract/MaintenanceContract"));
-const Practicaltip        = lazy(() => import("../Common/Practicaltip"));
-const AcProperties        = lazy(() => import("../Common/AcProperties"));
-const FAJACPrice          = lazy(() => import("../Miscellaneous/FAJACPrice"));
-const GetQuoteButton      = lazy(() => import("../Buttons/GetQuoteButton"));
-const Blog2               = lazy(() => import("../Blog/Blog2"));
-const Testimonial1        = lazy(() => import("../Testimonial/Testimonial1"));
-const BeforeAfter         = lazy(() => import("../BeforeAfter/BeforeAfter"));
-const Serviceappointemnt  = lazy(() => import('../Contact/Serviceappointemnt'));
+import CallNowButton       from '../Buttons/CallNowButton';
+import ACWhyChooseUs       from "../WhyChooseUS/ACWhyChooseUs";
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
+import Practicaltip        from "../Common/Practicaltip";
+import AcProperties        from "../Common/AcProperties";
+import FAJACPrice          from "../Miscellaneous/FAJACPrice";
+import GetQuoteButton      from "../Buttons/GetQuoteButton";
+import Blog2               from "../Blog/Blog2";
+import Testimonial1        from "../Testimonial/Testimonial1";
+import BeforeAfter         from "../BeforeAfter/BeforeAfter";
+import Serviceappointemnt  from '../Contact/Serviceappointemnt';
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
