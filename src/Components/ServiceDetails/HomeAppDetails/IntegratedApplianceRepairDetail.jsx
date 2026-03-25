@@ -167,12 +167,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
       "thumbnailUrl": "https://img.youtube.com/vi/9T9CIvMIsfw/maxresdefault.jpg",
       "uploadDate": "2024-01-29T11:59:20Z",
       "duration": "PT1M50S",
-      "embedUrl": "https://www.youtube.com/embed/9T9CIvMIsfw",
       "contentUrl": "https://www.youtube.com/watch?v=9T9CIvMIsfw",
-      "potentialAction": {
-        "@type": "WatchAction",
-        "target": "https://www.youtube.com/watch?v=9T9CIvMIsfw"
-      },
       "hasPart": [
         {
           "@type": "Clip",
@@ -425,7 +420,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Built In Home Appliances Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">To Built In Home Appliances Repair and Service Center Near You in Dubai</h1>
             <p>
               FAJ Technical Services L.L.C has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
               <br />

@@ -10763,6 +10763,7 @@
   display: flex;
   flex-direction: column;
   height: -webkit-fill-available;
+  flex: 1;
 }
 .ac_card_content_wrapper .ac_card_discount_wrapper {
     display: flex;

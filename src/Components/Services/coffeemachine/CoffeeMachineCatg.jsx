@@ -237,7 +237,7 @@ const CoffeeMachineCatg = ({ titleSeo, description, Author, URL }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Exceptional Coffee Machine Maintenance Services Since 2010</h1>
+            <h1 className="cs_fs_30">Top-Rated Coffee Machine Maintenance Services and Repair Across Dubai and Abu Dhabi, UAE</h1>
             <p>
               Brewing Quality and Expertise, one cup at a time. FAJ Technical Services L.L.C. provides high-quality
               coffee and espresso machines maintenance, installation, descaling, and cleaning services and annual

@@ -121,7 +121,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Rational Commercial Kitchen Equipment Repair & Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Rational Commercial Kitchen Equipment Repair and Maintenance Services Near You, in Dubai, UAE</h1>
             <p>FAJ Technical Services L.L.C. has been serving Dubai since 2010, providing reliable service solutions. Our skilled technicians specialize in Rational commercial kitchen equipment, including the iCombi Pro Oven, iCombi Classic Oven, iVario Pro Cooking System, iVario XS Cooking, and Rational iHexagon Oven repair and maintenance and we offer our services throughout Dubai.</p>
 
             <div id="get-quote" className=" mt-3">

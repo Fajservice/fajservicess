@@ -203,7 +203,6 @@ const schema ={
       "thumbnailUrl": "https://img.youtube.com/vi/EnSAQA_AjzY/maxresdefault.jpg",
       "uploadDate": "2023-09-27T06:50:01Z",
       "duration": "PT1M10S",
-      "contentUrl": "https://www.youtube.com/watch?v=EnSAQA_AjzY",
       "embedUrl": "https://www.youtube.com/embed/EnSAQA_AjzY",
       "keywords": [
         "Washing Machine Repair Service Dubai",
@@ -436,7 +435,7 @@ const schema ={
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Washing Machine Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top Quality Washing Machine Repair and Service Center Near You, Dubai</h1>
             <p>Since 2010, FAJ Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai and Sharjah.<br />Our experts are here to assist with any issues, from top-loading and front-loading washing machine repair and service near you. You can trust us to keep your washing machine running smoothly.<br /> You can rely on us for both routine repairs and emergency washing machine service. Contact us now for reliable services at competitive prices!</p>
 
             <div id="get-quote" className="mt-3">

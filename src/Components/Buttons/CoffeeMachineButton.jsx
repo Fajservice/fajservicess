@@ -30,6 +30,7 @@ const CoffeeMachineButton = () => {
   }
   .ac-service-btn img{
     height: 60px;
+    object-fit: contain;
   }
   .ac-service-btn:hover {
     filter: drop-shadow(0 5px 5px rgba(14, 14, 14, 0.3));

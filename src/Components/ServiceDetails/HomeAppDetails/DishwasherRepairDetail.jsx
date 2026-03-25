@@ -130,12 +130,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
       "thumbnailUrl": "https://img.youtube.com/vi/Cye_OFTAT3E/maxresdefault.jpg",
       "uploadDate": "2023-10-05T11:53:06Z",
       "duration": "PT1M23S",
-      "contentUrl": "https://www.youtube.com/watch?v=Cye_OFTAT3E",
       "embedUrl": "https://www.youtube.com/embed/Cye_OFTAT3E",
-      "potentialAction": {
-        "@type": "WatchAction",
-        "target": "https://www.youtube.com/watch?v=Cye_OFTAT3E"
-      },
       "publisher": {
         "@type": "Organization",
         "name": "FAJ Technical Services LLC",
@@ -447,7 +442,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Dishwasher Repair | Dishwasher Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Fast Dishwasher Repair and Dishwasher Service Center Near You</h1>
             <p>
               Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
               <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!

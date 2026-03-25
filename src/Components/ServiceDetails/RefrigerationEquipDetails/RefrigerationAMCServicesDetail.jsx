@@ -219,7 +219,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Refrigeration Maintenance Contract Services (AMC) in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Rated Commercial Refrigeration Maintenance Contract Services - AMC in Dubai, UAE</h1>
             <p>
               Keep your cold room, walk-in cooler, freezer and chiller system running efficiently year-round with an Annual Maintenance Contract (AMC).
               <br />Our reliable maintenance contracts, available in Dubai and Sharjah, UAE, will help you keep your refrigeration systems running at their best.

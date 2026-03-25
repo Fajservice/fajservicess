@@ -213,12 +213,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
       "thumbnailUrl": "https://img.youtube.com/vi/M9ghmjMAJ3E/maxresdefault.jpg",
       "uploadDate": "2023-05-04T13:12:34Z",
       "duration": "PT32S",
-      "contentUrl": "https://www.youtube.com/watch?v=M9ghmjMAJ3E",
-      "embedUrl": "https://www.youtube.com/embed/M9ghmjMAJ3E",
-      "potentialAction": {
-        "@type": "WatchAction",
-        "target": "https://www.youtube.com/watch?v=M9ghmjMAJ3E"
-      }
+      "embedUrl": "https://www.youtube.com/embed/M9ghmjMAJ3E"
     }
   ]
 }
@@ -322,7 +317,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         <section className="section cs_py_30">
           <div className="container">
 
-            <h1 className="cs_fs_30">Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center in Dubai</h1>
+            <h1 className="cs_fs_30">Cost-Effective Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center Near You, Dubai UAE</h1>
             <p>FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.
               <br />We aim to help you avoid costly replacements and reduce waste. We provide comprehensive error fixing, repair, and servicing for robot vacuum cleaners, along with the necessary parts and products throughout Dubai, Abu Dhabi, and Sharjah. FAJ offers all your robot vacuum cleaner repair and maintenance needs under one roof.
             </p>

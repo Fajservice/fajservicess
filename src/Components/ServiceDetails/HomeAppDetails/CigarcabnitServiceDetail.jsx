@@ -285,7 +285,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Cigar Humidor Repair in Dubai | De Humidor Service Center</h1>
+            <h1 className="cs_fs_30">Premium Quality Cigar Humidor Repair and Electric Cigar Humidor Service Center Near You, Dubai UAE</h1>
             <p>Since 2010, FAJ has been providing expert repair and maintenance for top cigar humidors and professional cigar storage. If your cigar cabinet humidor is not working, don't buy a new one!<br />
               FAJ is an authorized service center for <a href="https://afidanoshop.com/collections/all">Afidano Cigar Humidors</a>, providing in warranty and out-of-warranty repair, maintenance service in Dubai, Sharjah, and Abu Dhabi since 2024.<br />
               Our experienced team can fix problems like broken sensors, uneven humidity, and power problems, restoring your humidor to like-new condition. We use genuine spare parts and high-quality tools, focusing on repairs rather than replacements.</p>

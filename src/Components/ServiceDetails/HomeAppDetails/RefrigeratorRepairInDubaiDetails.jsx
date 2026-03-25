@@ -150,12 +150,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
       "thumbnailUrl": "https://img.youtube.com/vi/VAmZ-qKWkjw/maxresdefault.jpg",
       "uploadDate": "2023-10-03T00:00:00Z",
       "duration": "PT1M13S",
-      "contentUrl": "https://www.youtube.com/watch?v=VAmZ-qKWkjw",
       "embedUrl": "https://www.youtube.com/embed/VAmZ-qKWkjw",
-      "potentialAction": {
-        "@type": "WatchAction",
-        "target": "https://www.youtube.com/watch?v=VAmZ-qKWkjw"
-      },
      
       "hasPart": [
         {
@@ -473,7 +468,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Refrigerator Repair Service | Freezer and Fridge Repair Dubai</h1>
+            <h1 className="cs_fs_30">Expert Refrigerator and Freezer, Fridge Service Center Near You</h1>
             <p>
               Since 2010, FAJ has established itself as the go-to reference for refrigerator, freezer and fridge repair near me service in Dubai and Sharjah. We prioritise refrigerator repair near you over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
               Rely on our experienced experts for fast and reliable refrigerator maintenance in Dubai!

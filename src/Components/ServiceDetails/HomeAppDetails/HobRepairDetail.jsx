@@ -455,7 +455,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Hob Repair & Service | Gas & Electric Stove Repairs in Dubai</h1>
+            <h1 className="cs_fs_30">Same Day Hob Service Center and Gas & Electric Stove Repair Near You</h1>
             <p>Since 2010, we have been providing reliable electric hob repair services.<br />We recognise that hobs can break down unexpectedly, so we provide high-quality and affordable cooker hob repair. Our trained technicians are available throughout Dubai and Sharjah to repair your electric or gas hob and stove service at your location.</p>
 
             <div id="get-quote" className=" mt-3">
