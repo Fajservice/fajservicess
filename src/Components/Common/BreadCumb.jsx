@@ -59,33 +59,13 @@ const Breadcrumb = () => {
     ];
 
     let currentPath = '';
-    
-    // Handle blog paths specially
-    if (pathnames[0] === 'blog' && pathnames.length > 1) {
-      // Add "Blogs" as a breadcrumb item with path /blogs/
+    pathnames.forEach((segment) => {
+      currentPath += `/${segment}/`;
       breadcrumbs.push({
-        label: isArabic ? 'المدونة' : 'Blogs',
-        path: '/blogs/'
+        label: formatLabel(segment),
+        path: currentPath
       });
-      
-      // Then add the blog post title
-      pathnames.slice(1).forEach((segment) => {
-        currentPath += `${segment}/`;
-        breadcrumbs.push({
-          label: formatLabel(segment),
-          path: `/blog/${currentPath}`
-        });
-      });
-    } else {
-      // Normal path handling for non-blog routes
-      pathnames.forEach((segment) => {
-        currentPath += `/${segment}/`;
-        breadcrumbs.push({
-          label: formatLabel(segment),
-          path: currentPath
-        });
-      });
-    }
+    });
 
     return breadcrumbs;
   };
