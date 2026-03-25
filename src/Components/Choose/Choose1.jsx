@@ -28,17 +28,17 @@ const getImageSrc = (imgPath) => {
 // Static data to prevent layout shift - match your choose.json structure
 const STATIC_DATA = [
   {
-    img: "icon/whychoose1/public",
+    img: "icon/whychoose1",
     title: "Expert Technicians",
     desc: "Our skilled professionals deliver quality service"
   },
   {
-    img: "icon/whychoose2/public", 
+    img: "icon/whychoose2", 
     title: "Affordable Prices",
     desc: "Competitive rates without compromising quality"
   },
   {
-    img: "icon/whychoose3/public",
+    img: "icon/whychoose3",
     title: "24/7 Support",
     desc: "Round the clock assistance for emergencies"
   }

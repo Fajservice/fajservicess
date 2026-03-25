@@ -615,14 +615,15 @@ p a {
 }
 /* APPLIANCES BENIFIT SECTION */
 .benifit-box-container {
-  background: #fff;
-  border: 1px solid var(--bg-dark-blue);
-  border-radius: 10px;
-  position: relative;
-  padding: 41px 18px 20px;
-  min-height: 100%;
-  min-height: -webkit-fill-available;
-  min-height: -moz-available;
+    background: #fff;
+    border: 1px solid var(--bg-dark-blue);
+    border-radius: 10px;
+    position: relative;
+    padding: 41px 18px 20px;
+    min-height: 100%;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: 100%;
 }
 
 
@@ -1680,7 +1681,7 @@ img.emoji {
     border-radius: 25px;
     padding: 4em 5px 3em;
     position: relative;
-    height: -webkit-fill-available;
+    height: 100%;
 }
 .benefit_wrapper_box .benefit_wrapper_box_icon {
     background-color: #00334E;

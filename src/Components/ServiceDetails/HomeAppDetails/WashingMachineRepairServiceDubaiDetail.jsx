@@ -779,7 +779,14 @@ const schema ={
                   </div>
                 </div>
               </div>
-
+              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
+                <OptimizedImage
+                  src={getImageSrc('fajteam')}
+                  alt="FAJ Team Mobile"
+                  width="400"
+                  height="700"
+                />
+              </div>
               <div className="uspdelimit col-2 d-none d-xl-block">
                 <OptimizedImage
                   className="blue-border-2 w-100 why-choose-img"
@@ -837,14 +844,7 @@ const schema ={
                 </div>
               </div>
 
-              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <OptimizedImage
-                  src={getImageSrc('fajteam')}
-                  alt="FAJ Team Mobile"
-                  width="400"
-                  height="300"
-                />
-              </div>
+              
             </div>
           </div>
         </section>
