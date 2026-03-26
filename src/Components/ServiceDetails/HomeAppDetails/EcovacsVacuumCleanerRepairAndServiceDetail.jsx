@@ -19,8 +19,8 @@ const getImageSrc = (imgPath) => {
 
 const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Ecovacs Vacuum Cleaner Repair and Service in Dubai");
-  const metadescription = String(description || "Ecovacs vacuum cleaner repair and service center in Dubai. Call FAJ 043300002 for vacuum cleaner repair near me, fix, servicing & maintenance.");
+  const metatitle = String(titleSeo || "Professional Ecovacs Vacuum Cleaner Repair and Deebot Service");
+  const metadescription = String(description || "Top-Quality Ecovacs vacuum cleaner repair in Dubai. Call FAJ 043300002 for Fix Ecovacs Deebot, Ecovacs Wibbot, vacuum service center near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ecovacs vacuum cleaner repair in Dubai, Ecovacs vacuum cleaner service center in Dubai, Ecovacs vacuum cleaner repair near me, fix Ecovacs vacuum cleaner, Ecovacs vacuum cleaner servicing, Ecovacs vacuum cleaner maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/");

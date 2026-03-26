@@ -51,7 +51,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2>Our Clients</h2>
+            <h2 className="mt-0">Our Clients</h2>
             <div className="portfolio-clnts-dtls">
               <div className="row justify-content-around gap-2 align-items-center">
                 <div className="col p-0">
