@@ -398,4 +398,3 @@ export const BrandsPage = withSuspense(React.lazy(() => import("../Pages/AcPages
 export const CommercialLaundaryEquipmentPage = withSuspense(React.lazy(() => import("../Pages/CommercialLaundaryEquipmentPage.jsx")));
 export const HomeCoverageAreaPage = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/HomeCoveragePage.jsx")));
 export const HomeAppBrandPage = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesBrand/HomeAppBrandPage.jsx")));
-// export const AcCalculator = withSuspense(React.lazy(() => import("../Pages/AcCalculator.jsx")));

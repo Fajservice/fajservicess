@@ -1,10 +1,29 @@
 import { Suspense } from "react";
 
+const spinnerStyle = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  minHeight: '60vh',
+  width: '100%',
+};
+
+const circleStyle = {
+  width: '40px',
+  height: '40px',
+  border: '3px solid #e8e8e8',
+  borderTop: '3px solid #2e6da4',
+  borderRadius: '50%',
+  animation: 'faj-spin 0.7s linear infinite',
+};
 
 export const LoadingSpinner = () => (
-  <div className="flex items-center justify-center min-h-screen">
-    <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-500"></div>
-  </div>
+  <>
+    <style>{`@keyframes faj-spin { to { transform: rotate(360deg); } }`}</style>
+    <div style={spinnerStyle}>
+      <div style={circleStyle} />
+    </div>
+  </>
 );
 
 LoadingSpinner.displayName = 'LoadingSpinner';
@@ -17,6 +36,6 @@ export const withSuspense = (Component) => {
   );
 
   WrappedComponent.displayName = `withSuspense(${Component.displayName || Component.name || 'Component'})`;
-  
+
   return WrappedComponent;
 };

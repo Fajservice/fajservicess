@@ -14,14 +14,11 @@ import { PopupProvider } from "./Components/PopupContext.jsx";
 // import WelcomePopup from "./Components/WelcomePopup.jsx";
 
 createRoot(document.getElementById("root")).render(
-  
-  <StrictMode>
       <PopupProvider>
       {/* <WelcomePopup /> */}
       <HelmetProvider>
         <RouterProvider router={router} />
-        
       </HelmetProvider>
     </PopupProvider>
-  </StrictMode>
+
 );
