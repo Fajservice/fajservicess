@@ -2575,6 +2575,12 @@
     .cs_accordians_wrapper.cs_style_1 {
       padding-right: 0;
     }
+    .cs_list.cs_style_1 .cs_list_icon{
+      margin-top: 0px;
+    }
+    .cs_tyres_shape{
+      display: none;
+    }
   }
 
   /*-------------------------------------------
@@ -6065,9 +6071,9 @@
     position: relative;
     z-index: 1;
     min-height: 100%;
-    min-height: -webkit-fill-available;
-    min-height: -moz-available;
-    min-height: fill-available;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
     height: 100%;
   }
 

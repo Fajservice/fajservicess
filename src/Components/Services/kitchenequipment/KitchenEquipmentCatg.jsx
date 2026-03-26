@@ -15,8 +15,8 @@ const getImageSrc = (imgPath) => {
 };
 
 const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
-  const metatitle = String(titleSeo || "Kitchen Equipment Maintenance Service Company in Dubai");
-  const metadescription = String(description || "Best kitchen equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens.");
+  const metatitle = String(titleSeo || "Commercial Kitchen Equipment Maintenance & Services Near You");
+  const metadescription = String(description || "Top-rated commercial kitchen equipment maintenance & services! FAJ offers restaurants, hotels & schools kitchen equipment  installation & repair in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
@@ -81,20 +81,20 @@ const KitchenEquipmentCatg = ({ subtitle, title, reviewsbg, titleSeo, descriptio
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content="Best kitchen equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens."></meta>
+          <meta name="description" content={metadescription}></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/" />
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Kitchen Equipment Maintenance Service Company in Dubai" />
+          <meta property="og:title" content={metatitle} />
           <meta property="og:url" content={metaURL}></meta>
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Kitchen Equipment Maintenance Service Company in Dubai" />
-          <meta name="twitter:description" content="Best kitchen equipment maintenance! FAJ offers installation and servicing for restaurant, hotel, schools in Dubai, including cooking ranges, fryers, ovens." />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
 
         </Helmet>

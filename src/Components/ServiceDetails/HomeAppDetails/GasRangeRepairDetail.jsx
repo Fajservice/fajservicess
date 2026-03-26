@@ -22,9 +22,9 @@ const getImageSrc = (imgPath) => {
 
 const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Gas Cooker Repair in Dubai | Cooking Range Service Near Me");
+  const metatitle = String(titleSeo || "Best Gas Cooker Repair | Cooking Range Service Near You, Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metadescription = String(description || "Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me");
+  const metadescription = String(description || "Need gas cooker repair in Dubai? Book our top-rated service for electric stove, hood, & chimney. Get quick fixes for cooking ranges and induction repairs");
   const metaKeyword = String(Keyword || "Gas Cooker Repair, Gas Stove Repair, Cooking Range Service, Induction Repair, Dubai, Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/gas-cooker-repair-service/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/gas-cooker-repair-services/public");
@@ -422,15 +422,15 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Gas Cooker Repair in Dubai | Cooking Range Service Near Me" />
-          <meta property="og:description" content="Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
           <meta property="og:url" content={metaURL} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Gas Cooker Repair in Dubai | Cooking Range Service Near Me" />
-          <meta name="twitter:description" content="Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <script type="application/ld+json">{JSON.stringify(schema)}</script>
           

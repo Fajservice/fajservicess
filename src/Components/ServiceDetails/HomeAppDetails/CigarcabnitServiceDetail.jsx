@@ -17,8 +17,8 @@ const getImageSrc = (imgPath) => {
 };
 const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Cigar Humiodor Repair in Dubai | Dehumidifier Maintenance");
-  const metadescription = String(description || "FAJ is an expert in Cigar humidor repair in Dubai. Call us for de humidor, fridge cooler & electric humidor maintenance & service center near me");
+  const metatitle = String(titleSeo || "Cigar Humidor Repair | Cigar Cabinet Service Center Near You");
+  const metadescription = String(description || "FAJ specialises in cigar humidor repair. Contact us for built-in cabinet humidor, cigar fridge cooler & electric cigar cabinet maintenance and service in UAE");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Cigar Cabinet Humidifier Repair, Dehumidifier Service, Cigar Fridge Repair, Cigar Cooler Service, Electric Humidor Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/cigar-humidor-repair/");

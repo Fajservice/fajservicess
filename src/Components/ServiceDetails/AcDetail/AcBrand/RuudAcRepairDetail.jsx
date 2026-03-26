@@ -303,7 +303,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Ruud Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Ruud AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, hiring skilled AC technicians for Ruud <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair</a> is essential! Our expert team proudly specializes in servicing Ruud AC systems throughout Dubai and Sharjah.
@@ -632,7 +632,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             
 
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in Ruud ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Ruud AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
 

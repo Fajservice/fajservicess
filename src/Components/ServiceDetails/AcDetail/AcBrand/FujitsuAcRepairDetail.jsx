@@ -325,7 +325,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" >Fujitsu Ac Maintenance and Servicing </h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" >Fujitsu AC Maintenance and Servicing </h2>
 
                 <p className="mb-2">
                   When seeking Fujitsu air conditioner repairs, it is essential to select a qualified technician for your home or office.
@@ -650,7 +650,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             
 
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in Fujitsu ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Fujitsu AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
 

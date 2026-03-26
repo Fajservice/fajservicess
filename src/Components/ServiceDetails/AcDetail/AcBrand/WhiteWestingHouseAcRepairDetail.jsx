@@ -28,7 +28,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metatitle = String(titleSeo || "Best White Westinghouse AC & Appliances Repair Service Dubai");
   const metadescription = String(description || "Top-rated White Westinghouse AC service & repair in Dubai. We offer maintenance for fridge freezer, washing machine, laundry appliances, and ovens");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "White Westinghouse Ac Repair In Dubai, White Westinghouse Ac Maintenance In Dubai, White Westinghouse Ac Fix In Dubai, White Westinghouse Ac Service In Dubai, White Westinghouse Air Condition Repair In Dubai, White Westinghouse Air Conditioner Repair In Dubai, White Westinghouse Air Conditioner Service In Dubai, White Westinghouse Air Conditioner Maintenance In Dubai");
+  const metaKeyword = String(Keyword || "White Westinghouse AC Repair In Dubai, White Westinghouse AC Maintenance In Dubai, White Westinghouse AC Fix In Dubai, White Westinghouse AC Service In Dubai, White Westinghouse Air Condition Repair In Dubai, White Westinghouse Air Conditioner Repair In Dubai, White Westinghouse Air Conditioner Service In Dubai, White Westinghouse Air Conditioner Maintenance In Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/white-westinghouse/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
@@ -300,7 +300,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">White Westinghouse Ac Maintenance and Services </h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">White Westinghouse AC Maintenance and Services </h2>
 
                 <p className="mb-2">
                   If you are located in Dubai and need AC repair services for White Westinghouse air conditioners, FAJ is prepared to assist you.

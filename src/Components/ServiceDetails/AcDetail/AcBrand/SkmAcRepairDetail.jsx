@@ -302,7 +302,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">SKM Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">SKM AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, it&apos;s crucial to choose experienced technicians for SKM <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair</a>. Our team specializes in servicing SKM AC systems, ensuring your indoor comfort year-round.

@@ -28,7 +28,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metatitle = String(titleSeo || "Best Super General Split AC Service and Repair in Dubai - Sharjah");
   const metadescription = String(description || "Professional Super General Split AC service and repair in Dubai. We offer fridge, washing machine, stove, and oven fix, with a warranty on parts");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "Super General Ac Repair in Dubai, Super General AC Maintenance in Dubai, Super General AC Fix in Dubai, Super General AC Service in Dubai, Super General Air Condition Repair in Dubai, Super General Air Con");
+  const metaKeyword = String(Keyword || "Super General AC Repair in Dubai, Super General AC Maintenance in Dubai, Super General AC Fix in Dubai, Super General AC Service in Dubai, Super General Air Condition Repair in Dubai, Super General Air Con");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/super-general/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
   subtitle = "Testimonial"
@@ -330,7 +330,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </div>
               </div>
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Super General Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Super General AC Repair" />
 
               </div>
             </div>
@@ -350,7 +350,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             <div className="row align-items-center">
 
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Super General Ac Repair" />
+                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Super General AC Repair" />
               </div>
 
               <div className="col-md-6">

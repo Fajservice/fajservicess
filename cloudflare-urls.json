@@ -1,21 +1,14 @@
 {
   "success": [
     {
-      "originalPath": "ACServicescomponent-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ACServicescomponent-New/public",
-      "id": "ACServicescomponent-New",
-      "success": true
-    },
-    {
-      "originalPath": "fajteam-1-new",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/fajteam-1-new/public",
-      "id": "fajteam-1-new",
+      "originalPath": "portfolio-mobile-banner",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/portfolio-mobile-banner/public",
+      "id": "portfolio-mobile-banner",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "ACServicescomponent-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ACServicescomponent-New/public",
-    "fajteam-1-new": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/fajteam-1-new/public"
+    "portfolio-mobile-banner": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/portfolio-mobile-banner/public"
   }
 }

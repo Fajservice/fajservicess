@@ -23,11 +23,11 @@ const getImageSrc = (imgPath) => {
 const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   const metaTitle = String(
-    titleSeo || "Built in Appliances Repair and Service Center Dubai Near Me"
+    titleSeo || "Built in Appliances Repair and Service Center Near You, Dubai"
   );
 
   const metaDescription = String(
-    description || "FAJ provide built-in appliance repair in Dubai, with expert technicians of the integrated home appliances service center and maintenance contract."
+    description || "FAJ provide the best built-in appliance repair in Dubai, with expert technicians of the integrated home appliances service center and maintenance contract"
   );
 
   const metaAuthor = String(

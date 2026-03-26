@@ -86,9 +86,9 @@ const LazyYouTube = ({ videoId, title }) => {
 
 const WashingMachineRepairServiceDubaiDetail = ({titleSeo, description,Author,Keyword,URL,Image,subtitle,titlereview,reviewsbg
 }) => {
-  const metaTitle = String(titleSeo || "Washing Machine Repair & Maintenance Service in Dubai");
+  const metaTitle = String(titleSeo || "Washing Machine Repair & Maintenance Services Near You, Dubai");
 
-  const metaDescription = String(description || "Call now for quick washing machine repair Dubai. FAJ is an expert in washer dryer, laundry machine maintenance and service center in Dubai near me.");
+  const metaDescription = String(description || "Book the best washing machine repair service in Dubai. FAJ is an expert in washer dryer & laundry machine maintenance, with a service center near you");
 
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
 

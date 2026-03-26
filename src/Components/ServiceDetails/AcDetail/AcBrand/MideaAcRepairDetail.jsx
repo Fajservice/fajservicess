@@ -316,7 +316,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Midea Ac Maintenance and Servicing </h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Midea AC Maintenance and Servicing </h2>
 
                 <p className="mb-2">
                   When it comes to Midea <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/"> AC repair</a>, it is essential to hire a professional and reliable technician for your home or office.
@@ -647,7 +647,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             
-            <h3 className="cs_fs_24 text-align-left">We specialise in Midea ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Midea AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Midea Split Air Conditioner Service: </strong> FAJ provides dependable repair and maintenance services for Midea AC units in Dubai. Our team consists of professionals specializing in Midea split systems, Midea VRF, and Midea central air conditioning units. </p>

@@ -18,8 +18,8 @@ const getImageSrc = (imgPath) => {
 };
 const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Kitchen Equipment Maintenance Services in Dubai");
-  const metadescription = String(description || "Need expert commercial kitchen equipment maintenance services in Dubai? FAJ offers restaurant cooking, stove, gas range, oven, & fryer repairs near me");
+  const metatitle = String(titleSeo || "Commercial Kitchen Equipment Maintenance Services and Repair");
+  const metadescription = String(description || "Looking for expert commercial kitchen equipment maintenance services in Dubai? We offer the best repair, installation, genuine parts, and deep cleaning");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Kitchen Equipment Repair, Commercial Cooking Equipment Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-maintenance-services/");

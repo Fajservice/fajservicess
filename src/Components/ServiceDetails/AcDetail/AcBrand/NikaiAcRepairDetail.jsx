@@ -299,7 +299,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Nikai Ac Maintenance and Services</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Nikai AC Maintenance and Services</h2>
                 <p className="mb-2">
                   If you are in Dubai and require Nikai <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/"> air conditioner repair</a> services, FAJ offers support.
                   <br />The team specializes in air conditioner maintenance in Dubai and Sharjah, delivering reliable solutions aimed at ensuring optimal indoor comfort throughout the year. Their services are designed to help maintain a cool environment.
@@ -325,7 +325,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               </div>
 
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Nikai Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Nikai AC Repair" />
 
               </div>
             </div>
@@ -345,7 +345,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('toshiba-ac-repair')} alt="Nikai Ac Repair" />
+                <img className="blue-border" src={getImageSrc('toshiba-ac-repair')} alt="Nikai AC Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

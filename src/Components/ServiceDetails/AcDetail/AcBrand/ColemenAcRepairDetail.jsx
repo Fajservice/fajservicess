@@ -25,7 +25,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
   // For SEO
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "Coleman Ac Repair in Dubai, Coleman Air Conditioner Maintenance, Coleman AC Service, Coleman AC Fix, Coleman Air Condition Repair, Coleman Air Condition Maintenance, Coleman AC Service in Dubai, Coleman Air Conditioner Repair in Dubai, Coleman Air Conditioner Service in Dubai, Coleman AC Repair Dubai, Coleman AC Service Dubai");
+  const metaKeyword = String(Keyword || "Coleman AC Repair in Dubai, Coleman Air Conditioner Maintenance, Coleman AC Service, Coleman AC Fix, Coleman Air Condition Repair, Coleman Air Condition Maintenance, Coleman AC Service in Dubai, Coleman Air Conditioner Repair in Dubai, Coleman Air Conditioner Service in Dubai, Coleman AC Repair Dubai, Coleman AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/coleman/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
 
@@ -349,7 +349,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" style={{ fontSize: "24px" }}>Coleman Ac Maintenance and Servicing </h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" style={{ fontSize: "24px" }}>Coleman AC Maintenance and Servicing </h2>
 
                 <p className="mb-2">
                   To ensure effective Coleman air conditioning repair, it is essential to engage a qualified technician for residential and commercial needs.

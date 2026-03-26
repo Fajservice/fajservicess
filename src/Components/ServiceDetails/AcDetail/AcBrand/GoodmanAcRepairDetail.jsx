@@ -310,7 +310,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" style={{ fontSize: "24px" }}>Goodman Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" style={{ fontSize: "24px" }}>Goodman AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   When it comes to the repair of Goodman air conditioning units, it is crucial to select a highly skilled AC technician.
@@ -493,7 +493,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* HERE  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR Goodman Ac SYSTEMS</h2>
+            <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR Goodman AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -632,11 +632,11 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             
 
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in Goodman ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Goodman AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>   Goodman Split Air Conditioner Service: </strong> FAJ offers reliable repair and maintenance for Goodman split air conditioner in Dubai. Our expert team specialises in Goodman VRF and central AC, ensuring optimal performance and comfort. Count on us for both routine <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC maintenance</a> and urgent repair. </p>
-                <p className="mb-0"><strong>   Goodman Central Air Conditioner Repair and Service: </strong> FAJ is a leading aircon service provider in Dubai, specialising in the AC installation, repair, and maintenance of Goodman air conditioner. Known for its commitment to excellence, the company provides a wide range of ac services aimed at ensuring the optimal efficiency of air conditioning units. </p>
+                <p className="mb-0"><strong>   Goodman Central Air Conditioner Repair and Service: </strong> FAJ is a leading aircon service provider in Dubai, specialising in the AC installation, repair, and maintenance of Goodman air conditioner. Known for its commitment to excellence, the company provides a wide range of AC services aimed at ensuring the optimal efficiency of air conditioning units. </p>
                 <p className="mb-0"><strong>   Goodman AC Service and Repair: </strong> Goodman AC Service provides peace of mind with our skilled technicians. At FAJ, we specialise in efficient and reliable AC maintenance, repair, and installation. You can trust our expert team to keep your HVAC system running smoothly and ensure your comfort throughout the year! </p>
                 <p className="mb-0"><strong>   Goodman Inverter Air Conditioner Maintenance: </strong> Count on our dedicated team to promptly resolve any concerns with your Goodman air conditioner maintenance and bring it back to peak performance! </p>
                 <p className="mb-0"><strong>   Goodman HVAC Repair: </strong> We have extensive expertise in Goodman cassette and package unit AC systems, providing reliable repair to ensure your unit operates efficiently. </p>

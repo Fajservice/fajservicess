@@ -662,7 +662,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>

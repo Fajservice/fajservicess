@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 };
 const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Refrigerator Repair Service Near Me | Fridge Repair Dubai");
-  const metadescription = String(description || "Best Refrigerator Repair & Service in Dubai. FAJ Experts to get same-day Fridge repair & maintenance near you. Freezer fixing & service center.");
+  const metatitle = String(titleSeo || "Best Refrigerator Repair | Fridge Service Center Near You, Dubai");
+  const metadescription = String(description || "Fast and reliable refrigerator repair and service in Dubai. Contact FAJ experts for fridge repair & maintenance near you, including freezer fixing");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Refrigerator repair, Fridge repair, Refrigerator service, Freezer repair, Dubai refrigerator repair, Fridge service Dubai, Appliance repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/").replace(/\/?$/, '/');

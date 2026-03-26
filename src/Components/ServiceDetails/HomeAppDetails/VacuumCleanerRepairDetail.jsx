@@ -21,7 +21,7 @@ const getImageSrc = (imgPath) => {
 const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Robot Vacuum Cleaner Repair | Vacuum Cleaner Service Center");
-  const metadescription = String(description || "Fast & Cheap Robot Vacuum Cleaner Repair in Dubai. Call us for upright canister, wet dry cordless vacuum cleaner repair near me & maintenance service");
+  const metadescription = String(description || "Affordable and fast robot vacuum cleaner repair in Dubai. Contact us for upright vacuum, canister & wet-dry cordless vacuum cleaner fix service near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Robot vacuum cleaner repair, vacuum cleaner service, Xiaomi vacuum repair, Roomba vacuum service, TP-Link vacuum cleaner repair, Eufy vacuum cleaner service, Anker vacuum repair");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/robot-vacuum-cleaner-repair/");

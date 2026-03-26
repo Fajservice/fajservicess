@@ -305,7 +305,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">McQuay Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">McQuay AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   When addressing McQuay <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">air conditioning repair</a>, it is essential to engage a qualified technician for residential or commercial needs.
@@ -630,7 +630,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             
 
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in McQuay ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in McQuay AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <strong>  McQuay Split Air Conditioner Service: </strong> <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> offers reliable repair and maintenance services for McQuay AC units in Dubai. Our team is composed of professionals who specialize in McQuay split systems, McQuay VRF, and McQuay central air conditioning units. </p>

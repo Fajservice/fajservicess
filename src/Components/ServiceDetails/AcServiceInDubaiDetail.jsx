@@ -135,7 +135,7 @@ const PROBLEMS = [
   { title: "Leaking Water",          desc: "Water pooling around the AC or dripping from vents may signal a blocked drain, frozen coils, or other serious issues." },
   { title: "Increased Energy Bills", desc: "High DEWA bills without increased usage may signal AC inefficiencies from dirty filters, AC duct leaks, or other issues." },
   { title: "Weak Airflow",           desc: "Reduced airflow from your AC duct may signal problems like a blocked filter or a faulty AC motor." },
-  { title: "Warm Air",               desc: "If your AC blows warm or room temperature air instead of cold, it could indicate ac compressor, gas, or duct work issues requiring fix." },
+  { title: "Warm Air",               desc: "If your AC blows warm or room temperature air instead of cold, it could indicate AC compressor, gas, or duct work issues requiring fix." },
   { title: "Strange Noises",         desc: "Unusual sounds such as grinding, squealing, or banging from your AC motor can indicate problems that require attention." },
   { title: "Foul Odors",             desc: "Unpleasant odors coming from the vents might indicate the presence of mold or mildew, which requires immediate attention." },
   { title: "Frequent Cycling",       desc: "It may indicate issues with maintaining desired AC temperatures, such as dirty filters, low refrigerant, or a faulty thermostat." }
@@ -366,7 +366,7 @@ const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
 
 const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   const metatitle       = String(titleSeo    || "AC Repair Dubai | Best HVAC Maintenance & AC Service");
-  const metadescription = String(description || "FAJ has been providing the best AC Service Dubai since 2010. Get fast AC repair, maintenance, servicing & AC cleaning from expert technicians nearby.");
+  const metadescription = String(description || "FAJ has been providing the best AC service in Dubai since 2010. Get fast AC repair, maintenance, servicing & AC cleaning from expert technician near you");
   const metaAuthor      = String(Author  || "FAJ Technical Services L.L.C");
   const metaURL         = String(URL     || "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/");
   const metaImage       = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
@@ -439,7 +439,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* Hero */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Trusted AC Repair and Maintenance Serviceing</h1>
+            <h1 className="cs_fs_30">Trusted AC Service and Maintenance | Licensed AC Repair Contractor Dubai, UAE</h1>
             <p>
               Improve the comfort of your home and business premises with air conditioning cooling.
               Maintain a perfect temperature year-round with our expert AC technicians.<br />

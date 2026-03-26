@@ -319,7 +319,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" >Daikool Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" >Daikool AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   When seeking Daikool AC repair services, it&apos;s crucial to engage a qualified and dependable technician for your residence or workplace.
@@ -642,7 +642,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             
 
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in Daikool ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Daikool AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <strong>  Daikool Split Air Conditioner Service: </strong> FAJ provides dependable repair and maintenance services for Daikool AC units in Dubai. Our team consists of professionals specializing in Daikool split systems, Daikool VRF, and Daikool central air conditioning units.</p>

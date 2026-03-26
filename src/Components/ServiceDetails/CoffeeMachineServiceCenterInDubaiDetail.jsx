@@ -19,8 +19,8 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  const metatitle = String(titleSeo || "Coffee Machine Service Center in Dubai & Repair & Maintenance");
-  const metadescription = String(description || "Best FAJ Coffee machine service center in Dubai. Call us for home / office espresso machine, restaurant, coffee maker repair and maintenance near me");
+  const metatitle = String(titleSeo || "Coffee Machine Service Center in Dubai | Coffee Machine Repair");
+  const metadescription = String(description || "Best FAJ Coffee Machine service center in Dubai. Call us for home or office espresso machine, restaurant, & coffee maker repair & maintenance near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Coffee Machine Repair, Coffee Machine Service, Coffee Machine Descaling, Coffee Machine Service Center");
   const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/");

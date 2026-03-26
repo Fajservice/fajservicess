@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet-async';
 import WhatsappIconButton from '../../Buttons/WhatsappIconButton';
 import loadBackgroudImages from '../../Common/loadBackgroudImages';
 import BlogCoffeeMachine from './BlogCoffeeMachine';
+import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -128,8 +129,8 @@ const MinusIcon = () => (
 );
 
 const CoffeeMachineCatg = ({ titleSeo, description, Author, URL }) => {
-  const metatitle = titleSeo || 'Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C';
-  const metadescription = description || 'Coffee Machine Repair and Maintenance Services in Dubai';
+  const metatitle = titleSeo || 'Coffee Machine Maintenance in UAE | Home, Office & Commercial';
+  const metadescription = description || 'We provide the best coffee machine maintenance contract (AMC) in UAE. Regular service of espresso machine & coffee equipment can help save costs';
   const metaAuthor = Author || 'FAJ Technical Services L.L.C';
   const metaURL = URL || 'https://www.fajservices.ae/services/coffee-machine/';
   const metaImage = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public';
@@ -393,7 +394,12 @@ const CoffeeMachineCatg = ({ titleSeo, description, Author, URL }) => {
         )}
 
         <BlogCoffeeMachine />
-
+        <section className="section cs_py_30 bg-dark-blue text-light">
+          <Serviceappointemnt
+            subtitle2="Contact us"
+            title2="Book An Appointment"
+          ></Serviceappointemnt>
+        </section>
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">FAQ&apos;s</h3>

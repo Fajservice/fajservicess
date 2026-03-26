@@ -299,7 +299,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">York Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">York AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, it is important to hire skilled technicians for York <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair </a>services. Our team specializes in servicing York AC systems in Dubai and Sharjah, providing reliable solutions that keep your indoor space comfortable all year round while making sure your system runs efficiently.
@@ -623,7 +623,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
             
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in York ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in York AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  York Split Air Conditioner Service: </strong> <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> is a reliable provider York AC repair and maintenance services in Dubai. Our trained technicians specialize in York VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority. </p>

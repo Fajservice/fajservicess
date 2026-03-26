@@ -438,6 +438,7 @@ const urls = [
   { loc: "/blog/how-do-you-clean-a-refrigerator-complete-guide-to-refrigerator-maintenance/"},
   { loc: "/blog/how-to-calculate-ac-tonnage-for-a-room-complete-guide-to-ac-tonnage-calculation/"},
   { loc: "/blog/the-ultimate-guide-to-ac-service-for-healthier-air-and-better-indoor-air-quality/"},
+  { loc: "/blog/the-ultimate-guide-to-commercial-kitchen-equipment-for-eid-al-fitr-2026-in-UAE/"},
   { loc: "/services/air-conditioning-repair/\u062a\u0635\u0644\u064a\u062d-\u0645\u0643\u064a\u0641\u0627\u062a-\u0627\u0644\u0647\u0648\u0627\u0621-\u062e\u062f\u0645\u0629-\u0648\u0635\u064a\u0627\u0646\u0629-\u062f\u0628\u064a/" },
 
   { loc: "/orphan/" },

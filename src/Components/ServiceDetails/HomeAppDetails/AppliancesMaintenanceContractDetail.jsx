@@ -23,7 +23,7 @@ const AppliancesMaintenanceContractDetail = ({subtitle,title,reviewsbg,titleSeo,
     titleSeo || "Home Appliances AMC Services | Maintenance Contract Dubai"
   );
   const metaDescription = String(
-    description || "Time to get comfortable with appliances AMC service in Dubai, FAJ Experts in washing machine, refrigerator, cooking, oven, coffee machine maintenance."
+    description || "Explore reliable home appliances AMC services in Dubai. FAJ provides expert annual maintenance contracts for both built-in and freestanding appliances"
   );
   const metaAuthor = String(
     Author || "FAJ Technical Services L.L.C"

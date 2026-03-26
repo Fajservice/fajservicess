@@ -300,7 +300,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Lennox Ac Maintenance and Servicing </h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Lennox AC Maintenance and Servicing </h2>
 
                 <p className="mb-2">
                   In Dubai, hiring skilled technicians for Lennox AC repair services is essential.
@@ -625,7 +625,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             
 
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in Lennox ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Lennox AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Lennox Split Air Conditioner Service: </strong> FAJ is a trusted provider of <a href="https://www.google.com/search?q=faj+technical+llc+gmb&rlz=1C1GCEU_en-GBPK1161PK1162&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIPCAYQLhgnGK8BGMcBGOoCMgkIBxAjGCcY6gLSAQsyNzQ0OTUwajBqN6gCCLACAfEFNHg2jm1mi9w&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=5820948940647875925">Lennox air conditioning repair</a> and maintenance services in Dubai. Our skilled technicians specialize in Lennox VRF air conditioning units, central AC ensuring optimal performance. Whether for routine maintenance or urgent repairs, we are committed to delivering customized services that prioritize client comfort.</p>

@@ -300,7 +300,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Daewoo Ac Maintenance and Services</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Daewoo AC Maintenance and Services</h2>
 
                 <p className="mb-2">
                   If you&apos;re in Dubai and need Daewoo <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/"> air conditioner repair</a>, FAJ is the solution for you!

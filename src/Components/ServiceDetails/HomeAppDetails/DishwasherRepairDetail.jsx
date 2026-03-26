@@ -22,8 +22,8 @@ const getImageSrc = (imgPath) => {
 
 const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Dishwasher Repair Dubai | Dishwasher Service Near Me");
-  const metadescription = String(description || "Reliable Dishwasher Repair and Service in Dubai. Book with us for built in dishwasher repairs, error fixing service center & best glass washer maintenance");
+  const metatitle = String(titleSeo || "Best Dishwasher Repair and Dishwasher Service Center Near You");
+  const metadescription = String(description || "Trustworthy dishwasher repair and service in Dubai. Schedule with us for built-in dishwasher repairs, error fixing, and top-rated glass washer maintenance");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher Service Dubai, Dishwasher Fix Dubai, Dishwasher Maintenance Dubai, Dishwasher Machine Repair Dubai, Dishwasher Machine Service Dubai, Dishwasher Machine Fix Dubai, Dishwasher Machine Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/dishwasher-repair-service/");
@@ -812,7 +812,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>

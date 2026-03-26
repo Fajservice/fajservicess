@@ -45,8 +45,8 @@ const AcAnnualMaintenanceContractDetail = ({
   URL
 }) => {
 
-  const metatitle = String(titleSeo || "Best AC Annual Maintenance Contract in Dubai | AC AMC Services");
-  const metadescription = String(description || "FAJ has been offering AC annual maintenance contract in Dubai. A regular maintenance agreement (AMC) service saves costs in your yearly budget.");
+  const metatitle = String(titleSeo || "Best AC Annual Maintenance Contract Services in Dubai | AC AMC");
+  const metadescription = String(description || "FAJ has been offering an AC annual maintenance contract in Dubai. A regular maintenance agreement (AMC) service saves costs in your yearly budget");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Annual Maintenance Contract Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/");

@@ -321,7 +321,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 </div>
               </div>
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Hitachi Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Hitachi AC Repair" />
               </div>
             </div>
 
@@ -340,7 +340,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Hitachi Ac Repair" />
+                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Hitachi AC Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

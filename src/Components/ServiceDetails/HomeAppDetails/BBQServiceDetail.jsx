@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Barbeque Repair in Dubai | BBQ Grill Cleaning Service Near Me");
-  const metadescription = String(description || "Get Barbeque Repair in Dubai. Book now for your BBQ grill cleaning, built in gas grill burner, oven & electric BBQ deep service & maintenance near you");
+  const metatitle = String(titleSeo || "Barbeque Repair in Dubai | BBQ Grill Cleaning Service Near You");
+  const metadescription = String(description || "Professional barbecue repair in Dubai. Book now for BBQ grill cleaning, built-in gas grill burner service, oven & electric BBQ deep cleaning & maintenance");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/");
@@ -626,7 +626,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
