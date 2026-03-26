@@ -1,14 +1,21 @@
 {
   "success": [
     {
-      "originalPath": "portfolio-mobile-banner",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/portfolio-mobile-banner/public",
-      "id": "portfolio-mobile-banner",
+      "originalPath": "service-page-banner",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/service-page-banner/public",
+      "id": "service-page-banner",
+      "success": true
+    },
+    {
+      "originalPath": "services-mobile-banner",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/services-mobile-banner/public",
+      "id": "services-mobile-banner",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "portfolio-mobile-banner": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/portfolio-mobile-banner/public"
+    "service-page-banner": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/service-page-banner/public",
+    "services-mobile-banner": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/services-mobile-banner/public"
   }
 }
