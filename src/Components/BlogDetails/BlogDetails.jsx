@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
+import TonnageCalculator from "../TonnageCalculator";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -71,7 +71,6 @@ const ArrowRightIcon = ({ size = 28, color = "currentColor" }) => (
   </svg>
 );
 
-// ─── Reusable banner renderer — supports string OR array ─────────────────────
 const renderBannerImg = (imgValue, altText) => {
   if (!imgValue) return null;
   const images = Array.isArray(imgValue) ? imgValue : [imgValue];
@@ -318,7 +317,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   };
 
-  // ─── Bullets: supports plain string OR { text, desc } objects ────────────
   const renderBullets = (bullets, keyPrefix) => {
     if (!bullets || !Array.isArray(bullets)) return null;
     return (
@@ -327,7 +325,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           if (typeof bullet === 'object' && bullet !== null) {
             return (
               <li key={`${keyPrefix}-${i}`}>
-                {/* dangerouslySetInnerHTML so <b>, <strong>, <i> in text work */}
                 <span dangerouslySetInnerHTML={{ __html: bullet.text }} />
                 {bullet.desc && (
                   <p style={{ marginTop: '6px', fontWeight: 'normal' }}>
@@ -343,23 +340,17 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     );
   };
 
-  // ─── Table renderer ───────────────────────────────────────────────────────
-  // JSON format:
-  //   "sec_X_table"      → directly on section (after h2 content)
-  //   "sec_X_h2_table"   → same position, alias key
-  //   "sec_X_h3_N_table" → after h3 content, before bullets
   const renderTable = (tableData) => {
     if (!tableData || !tableData.headers || !tableData.rows) return null;
-    const b = '1px solid #dee2e6';
     return (
       <div style={{ overflowX: 'auto', marginBottom: '16px' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', border: b }}>
+        <table className="table table-bordered" style={{ width: '100%', borderCollapse: 'collapse' }}>
           <thead>
             <tr>
               {tableData.headers.map((header, i) => (
                 <th
                   key={i}
-                  style={{ padding: '10px 14px', textAlign: 'left', fontWeight: '600', whiteSpace: 'nowrap', border: b, backgroundColor: '#f8f9fa' }}
+                  style={{ padding: '10px 14px', textAlign: 'left', fontWeight: '600', whiteSpace: 'nowrap' }}
                 >
                   {header}
                 </th>
@@ -368,11 +359,11 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           </thead>
           <tbody>
             {tableData.rows.map((row, rowIdx) => (
-              <tr key={rowIdx} style={{ backgroundColor: rowIdx % 2 === 0 ? '#fff' : '#f8f9fa' }}>
+              <tr key={rowIdx}>
                 {row.map((cell, cellIdx) => (
                   <td
                     key={cellIdx}
-                    style={{ padding: '9px 14px', border: b }}
+                    style={{ padding: '9px 14px' }}
                     dangerouslySetInnerHTML={{ __html: cell }}
                   />
                 ))}
@@ -385,30 +376,22 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   };
 
   const renderSection = (sectionName) => {
-    const h2Key       = `${sectionName}_h2`;
-    const h2PKey      = `${sectionName}_h2_p`;
-    const bulletsKey  = `${sectionName}_bullets`;
+    const h2Key = `${sectionName}_h2`;
+    const h2PKey = `${sectionName}_h2_p`;
+    const bulletsKey = `${sectionName}_bullets`;
     const h2PointsKey = `${sectionName}_h2_points`;
-    const imgKey      = `${sectionName}_img`;
-    const bannerKey   = `${sectionName}_banner`;
-    const banner2Key  = `${sectionName}_banner_2`;
+    const imgKey = `${sectionName}_img`;
+    const bannerKey = `${sectionName}_banner`;
+    const banner2Key = `${sectionName}_banner_2`;
 
     if (!blogPost[h2Key]) return null;
-
-    // Table key priority:
-    // 1. sec_X_table        → direct key (e.g. sec_tweleve_table)
-    // 2. sec_X_h2_table     → alias (same position)
     const sectionTableData = blogPost[`${sectionName}_table`] || blogPost[`${sectionName}_h2_table`];
 
     return (
       <div key={sectionName}>
-
-        {/* Banner 1: before h2 */}
         {renderBannerImg(blogPost[bannerKey], blogPost.title)}
 
         <h2>{blogPost[h2Key]}</h2>
-
-        {/* Section-level image */}
         {blogPost[imgKey] && (
           <div className="col-md-8">
             <img src={getImageSrc(blogPost[imgKey])} alt={blogPost.title} decoding="async" width="100%" height="auto" />
@@ -426,23 +409,17 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
             ))}
           </ol>
         )}
-
-        {/* Section-level table: after h2 content/bullets/points */}
         {renderTable(sectionTableData)}
-
-        {/* Banner 2: after h2 content, before h3 loop */}
         {renderBannerImg(blogPost[banner2Key], blogPost.title)}
-
-        {/* H3 loop */}
         {[...Array(13)].map((_, i) => {
-          const h3Key        = `${sectionName}_h3_${i + 1}`;
+          const h3Key = `${sectionName}_h3_${i + 1}`;
           const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
-          const h3ImgKey     = `${sectionName}_h3_${i + 1}_img`;
+          const h3ImgKey = `${sectionName}_h3_${i + 1}_img`;
           const h3BulletsKey = `${sectionName}_h3_${i + 1}_bullets`;
-          const h3PointsKey  = `${sectionName}_h3_${i + 1}_points`;
-          const h3BannerKey  = `${sectionName}_h3_${i + 1}_banner`;   // after h3 end
-          const h3Banner2Key = `${sectionName}_h3_${i + 1}_banner2`;  // after content, before bullets
-          const h3TableKey   = `${sectionName}_h3_${i + 1}_table`;    // after content, before bullets
+          const h3PointsKey = `${sectionName}_h3_${i + 1}_points`;
+          const h3BannerKey = `${sectionName}_h3_${i + 1}_banner`;
+          const h3Banner2Key = `${sectionName}_h3_${i + 1}_banner2`; 
+          const h3TableKey = `${sectionName}_h3_${i + 1}_table`; 
 
           if (!blogPost[h3Key]) return null;
 
@@ -481,16 +458,16 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     );
   };
 
-  if (loading)   return <div className="container py-5 text-center">Loading...</div>;
-  if (error)     return <div className="container py-5 text-center text-danger">{error}</div>;
+  if (loading) return <div className="container py-5 text-center">Loading...</div>;
+  if (error) return <div className="container py-5 text-center text-danger">{error}</div>;
   if (!blogPost) return <div className="container py-5 text-center">Blog post not found.</div>;
 
-  const metatitle       = String(titleSeo || blogPost.metatitle || blogPost.title || '');
+  const metatitle = String(titleSeo || blogPost.metatitle || blogPost.title || '');
   const metadescription = String(description || blogPost.metadesc || '');
-  const metaAuthor      = String(Author || "FAJ Technical Services L.L.C.");
-  const metaKeyword     = String(Keyword || "");
-  const metaURL         = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`);
-  const metaImage       = blogPost.img ? getImageSrc(blogPost.img) : '';
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
+  const metaKeyword = String(Keyword || "");
+  const metaURL = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`);
+  const metaImage = blogPost.img ? getImageSrc(blogPost.img) : '';
 
   return (
     <>
@@ -542,9 +519,14 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 <h1 className="cs_fs_36">{blogPost.title}</h1>
                 {renderContent(blogPost.content)}
 
-                {['sec_two','sec_three','sec_four','sec_five','sec_six','sec_seven','sec_eight','sec_nine','sec_ten','sec_eleven','sec_tweleve','sec_thirteen','sec_fourteen','sec_fifteen','sec_sixteen','sec_seventeen','sec_eighteen','sec_nineteen','sec_twenty'].map(sectionName =>
-                  renderSection(sectionName)
-                )}
+                {['sec_two', 'sec_three', 'sec_four', 'sec_five', 'sec_six', 'sec_seven', 'sec_eight', 'sec_nine', 'sec_ten', 'sec_eleven', 'sec_tweleve', 'sec_thirteen', 'sec_fourteen', 'sec_fifteen', 'sec_sixteen', 'sec_seventeen', 'sec_eighteen', 'sec_nineteen', 'sec_twenty'].map(sectionName => (
+                  <div key={sectionName}>
+                    {renderSection(sectionName)}
+                    {sectionName === 'sec_six' && blogPost.calculator?.enabled && (
+                      <TonnageCalculator data={blogPost.calculator} />
+                    )}
+                  </div>
+                ))}
 
                 {blogPost.sec_concln_h2 && (
                   <div className="row">
@@ -559,7 +541,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     {renderContent(blogPost.sec_faq_h2_p)}
                     {[...Array(10)].map((_, i) => {
                       const faqH3Key = `sec_faq_h3_${i + 1}`;
-                      const faqPKey  = `sec_faq_h3_p_${i + 1}`;
+                      const faqPKey = `sec_faq_h3_p_${i + 1}`;
                       if (!blogPost[faqH3Key]) return null;
                       return (
                         <div key={`faq_${i + 1}`}>

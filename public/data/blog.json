@@ -6873,6 +6873,58 @@
                 "text": "2 tons for 550 to 800 sq ft"
             }
         ],
+        "calculator": {
+            "enabled": true,
+            "title": "Tonnage Calculator",
+            "states": [
+                "Abu Dhabi",
+                "Dubai",
+                "Sharjah",
+                "Ajman",
+                "Umm Al Quwain",
+                "Ras Al Khaimah",
+                "Fujairah"
+            ],
+            "floorLevels": [
+                "Ground Floor",
+                "1st Floor",
+                "2nd Floor",
+                "3rd Floor",
+                "4th Floor+"
+            ],
+            "directions": [
+                "North",
+                "South",
+                "East",
+                "West",
+                "North-East",
+                "North-West",
+                "South-East",
+                "South-West"
+            ],
+            "applianceFields": [
+                {
+                    "name": "refrigerator",
+                    "label": "Refrigerator",
+                    "btuPerUnit": 200
+                },
+                {
+                    "name": "bulb",
+                    "label": "Bulb",
+                    "btuPerUnit": 60
+                },
+                {
+                    "name": "fan",
+                    "label": "Fan",
+                    "btuPerUnit": 75
+                },
+                {
+                    "name": "tv",
+                    "label": "TV",
+                    "btuPerUnit": 150
+                }
+            ]
+        },
         "sec_eight_h2": [
             "Using HVAC Tonnage Per Sq Ft for Estimation"
         ],
@@ -7286,8 +7338,6 @@
         "sec_sixteen_h2_p": [
             "To maximize the benefits of your AC system and maintain healthy air, follow these expert tips:"
         ],
-
-       
         "sec_seventeen_h2_bullets": [
             {
                 "text": "Schedule professional servicing at least twice a year"
@@ -7305,10 +7355,10 @@
                 "text": "Avoid blocking air vents"
             }
         ],
-         "sec_seventeen_h2": [
+        "sec_seventeen_h2": [
             "Conclusion"
         ],
-         "sec_seventeen_h2_p": [
+        "sec_seventeen_h2_p": [
             "Regular ac service is essential for maintaining a healthy and comfortable indoor environment. From improving efficiency to ensuring better air circulation, proper maintenance plays a vital role in your daily comfort and well-being.",
             "Ignoring small issues can lead to costly repairs and compromised health due to poor air conditions. By investing in professional servicing, monitoring air quality, and following expert tips, you can ensure long-term performance and cleaner air.",
             "Take proactive steps today to maintain your system and create a healthier living space. If needed, consult experienced professionals to keep your AC running efficiently and your indoor air safe."
@@ -7325,7 +7375,7 @@
         "sec_faq_h3_5": "4. How do I choose the right service provider?",
         "sec_faq_h3_p_5": "Look for certified technicians, positive reviews, and transparent pricing to ensure reliable service."
     },
-     {
+    {
         "id": 57,
         "metatitle": "Commercial Kitchen Equipments Maintenance & Servicing Dubai",
         "metadesc": "Step-by-step Guide to Commercial Kitchen Equipment maintenance for Eid Al Fitr 2026 in UAE. FAJ provides the best kitchen equipment repair & service near you.",
@@ -7352,7 +7402,6 @@
         "sec_three_h3": [
             "Cultural and Luxury Hotspots"
         ],
-       
         "sec_three_bullets": [
             {
                 "text": "Visitors often explore:"
@@ -7448,7 +7497,6 @@
             "Every restaurant relies on a set of core tools to deliver quality service.",
             "<b>Must-Have Equipment</b>"
         ],
-
         "sec_eight_bullets": [
             {
                 "text": "Cooking stations"
@@ -7509,7 +7557,6 @@
         "sec_nine_h3_content_2": [
             "If the dishwasher fails:"
         ],
-       
         "sec_nine_h3_2_bullets": [
             {
                 "text": "Dirty dishes accumulate quickly"
@@ -7521,16 +7568,16 @@
                 "text": "Hygiene standards are compromised"
             }
         ],
-         "sec_ten_h2": [
+        "sec_ten_h2": [
             "Performance of Commercial Microwave in Fast Service"
         ],
-         "sec_ten_h2_p": [
+        "sec_ten_h2_p": [
             "Speed is a major factor during festive rush hours."
         ],
-         "sec_ten_h3": [
+        "sec_ten_h3": [
             "Benefits of Microwaves"
         ],
-         "sec_ten_h3_1": [
+        "sec_ten_h3_1": [
             "A commercial microwave is used for:"
         ],
         "sec_ten_h3_1_bullets": [
@@ -7544,10 +7591,10 @@
                 "text": "Maintaining food quality"
             }
         ],
-         "sec_ten_h3_2": [
+        "sec_ten_h3_2": [
             "Maintenance Importance"
         ],
-         "sec_ten_h3_content_2": [
+        "sec_ten_h3_content_2": [
             "Regular checks ensure:"
         ],
         "sec_ten_h3_2_bullets": [
@@ -7607,10 +7654,10 @@
         "sec_tweleve_h2_p": [
             "Baking and roasting are essential during Eid."
         ],
-         "sec_tweleve_h3_1": [
+        "sec_tweleve_h3_1": [
             "Why Ovens Are Crucial"
         ],
-         "sec_tweleve_h3_content_1": [
+        "sec_tweleve_h3_content_1": [
             "Commercial ovens are used for:"
         ],
         "sec_tweleve_h3_1_bullets": [
@@ -7624,7 +7671,7 @@
                 "text": "Preparing large portions"
             }
         ],
-         "sec_tweleve_h3_2": [
+        "sec_tweleve_h3_2": [
             "Maintenance Tips"
         ],
         "sec_tweleve_h3_2_bullets": [
@@ -7638,10 +7685,10 @@
                 "text": "Inspect heating elements"
             }
         ],
-         "sec_thirteen_h2": [
+        "sec_thirteen_h2": [
             "Importance of Restaurant Kitchen Equipment Integration"
         ],
-         "sec_thirteen_h2_p": [
+        "sec_thirteen_h2_p": [
             "A well-organized kitchen operates like a system where every component works together.  "
         ],
         "sec_thirteen_h3_1": [
@@ -7761,7 +7808,7 @@
         "sec_sixteen_h3_content_1": [
             "This is where expert service providers play a key role. FAJ Technical Services L.L.C is recognized as a reliable company offering maintenance and repair solutions, ensuring that restaurant operations remain uninterrupted during high-demand periods."
         ],
-         "sec_seventeen_h2": [
+        "sec_seventeen_h2": [
             "Managing Modern Kitchens with Commercial Appliances"
         ],
         "sec_seventeen_h2_p": [
@@ -7770,7 +7817,7 @@
         "sec_seventeen_h3_1": [
             "Advantages of Modern Equipment"
         ],
-       "sec_seventeen_h3_1_bullets": [
+        "sec_seventeen_h3_1_bullets": [
             {
                 "text": "Energy efficiency"
             },
@@ -7781,10 +7828,10 @@
                 "text": "Improved safety"
             }
         ],
-         "sec_eighteen_h2": [
+        "sec_eighteen_h2": [
             "Pro Tips from Industry Experts"
         ],
-         "sec_eighteen_h3_1": [
+        "sec_eighteen_h3_1": [
             "How to Prepare Your Kitchen for Eid"
         ],
         "sec_eighteen_h3_1_bullets": [
@@ -7801,7 +7848,7 @@
                 "text": "Schedule maintenance checks"
             }
         ],
-         "sec_eighteen_h3_2": [
+        "sec_eighteen_h3_2": [
             "Common Mistakes to Avoid"
         ],
         "sec_eighteen_h3_2_bullets": [
