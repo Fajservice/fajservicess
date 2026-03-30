@@ -100,7 +100,7 @@ const DeferredShapes = memo(() => {
        <div className="cs_about_shape_1 position-absolute">
         <img
           src={`${CDN}/shapes/gear_2/public`}
-          alt=""
+          alt="FAJ Technical Services L.L.C"
           width={100}
           height={100}
           loading="lazy"
@@ -115,7 +115,7 @@ const DeferredShapes = memo(() => {
           loading="lazy"
           decoding="async"
           aria-hidden="true"
-          alt=""
+          alt="FAJ Technical Services L.L.C"
         />
       </div>
     </>

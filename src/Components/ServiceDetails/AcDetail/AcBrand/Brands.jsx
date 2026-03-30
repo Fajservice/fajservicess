@@ -422,22 +422,22 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
             <h2>Gallery  <Gallery /></h2>
             <div className="row gx-3 gy-2">
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/AcService/slide1/public`} alt="" />
+                <img src={`${CDN}/AcService/slide1/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/AcService/slide2/public`} alt="" />
+                <img src={`${CDN}/AcService/slide2/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/AcService/slide3/public`} alt="" />
+                <img src={`${CDN}/AcService/slide3/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/AcService/slide4/public`} alt="" />
+                <img src={`${CDN}/AcService/slide4/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/AcService/slide5/public`} alt="" />
+                <img src={`${CDN}/AcService/slide5/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/AcService/slide6/public`} alt="" />
+                <img src={`${CDN}/AcService/slide6/public`} alt="FAJ Technical Services L.L.C" />
               </div>
             </div>
           </div>

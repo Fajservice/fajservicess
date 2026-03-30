@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Expert Appliances Service & Washing Machine Repair in Al Furjan");
-    const metadescription = String(description || "Book the best home appliance service in Al Furjan, Dubai near me. FAJ offers fridge, dishwasher, oven and washing machine repair Near You");
+    const metatitle = String(titleSeo || "Central AC Repair in Al Furjan | 7-Day AC Cleaning Services");
+    const metadescription = String(description || "Are you looking for AC repair in Al Furjan Villas, Dubai? Call FAJ for the best LG or Carrier air conditioning maintenance and servicing near you in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Al Furjan, Air Conditioner Repairing In Al Furjan, AC Repair In Al Furjan, AC Maintenance In Al Furjan, AC Installation In Al Furjan, AC Cleaning In Al Furjan, Air Conditioning Services In Al Furjan, Air Conditioner Service In Al Furjan, Air Conditioner Repair In Al Furjan");
     const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-furjan/");
@@ -116,7 +116,7 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <section className="section cs_py_30 bg-light-white">
                     <div className="container">
-                        <h1 className="cs_fs_30">Affordable Home Appliances Repair and Service in Al Furjan, Dubai</h1>
+                        <h1 className="cs_fs_30">Same-Day Air Conditioning Repair and Maintenance Services in Al Furjan, Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Furjan, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

@@ -63,7 +63,7 @@ const IconBox = memo(({ icon, title, content }) => {
             height={48}
             loading="lazy"
             decoding="async"
-            alt=""
+            alt="FAJ Technical Services L.L.C"
           />
         )}
       </div>
@@ -95,8 +95,8 @@ const About2 = ({
       <div className="container">
         <div className="row align-items-center cs_row_gap_80">
           <div className="col-xl-6">
-            <img src={img1} alt="" loading="eager" />
-            <img src={img2} alt="" loading="lazy" />
+            <img src={img1} alt="FAJ Technical Services L.L.C" loading="eager" />
+            <img src={img2} alt="FAJ Technical Services L.L.C" loading="lazy" />
           </div>
 
           <div className="col-xl-6">

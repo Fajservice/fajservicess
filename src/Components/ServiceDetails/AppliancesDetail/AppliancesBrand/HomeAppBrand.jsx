@@ -129,7 +129,7 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                     <div className="container">
                         <h1 className="cs_fs_30">Top Brand Home Appliances Service Center <br /> and Repair in Dubai</h1>
                         <p>
-                            Looking for a reliable home appliance service center? We specialize in the repair of appliances from major brands, including <a href="/services/home-appliances-repair/brands/lg/">LG</a>, <a href="/services/home-appliances-repair/brands/aeg/">AEG</a>, <a href="/services/home-appliances-repair/brands/ariston/">Ariston</a>, <a href="/services/home-appliances-repair/brands/beko/">Beko</a>, <a href="/services/home-appliances-repair/brands/la-germania/">La Germina</a>, <a href="/services/home-appliances-repair/brands/electrolux/">Electrolux</a>, <a href="/services/home-appliances-repair/brands/siemens/">Siemens</a>, <a href="/services/home-appliances-repair/brands/neff/">neff</a>, <a href="/services/home-appliances-repair/brands/teka/">Teka</a>, <a href="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a>, <a href="/services/home-appliances-repair/brands/samsung/">Samsung</a>, <a href="/services/home-appliances-repair/brands/viking/">Viking</a>, <a href="/services/home-appliances-repair/brands/subzero/">Sub Zero</a>,  <a href="/services/home-appliances-repair/brands/daewoo/">Daewoo</a>, <a href="/services/home-appliances-repair/brands/gaggenau/">gaggenau</a>, <a href="/services/home-appliances-repair/brands/haier/">Haier</a>, <a href="/services/home-appliances-repair/brands/hitachi/">Hitachi</a>, <a href="/services/home-appliances-repair/brands/sanyo/">Sanyo</a>, <a href="/services/home-appliances-repair/brands/midea/">Midea</a>, <a href="/services/home-appliances-repair/brands/aftron/">Aftron</a>, <a href="/services/home-appliances-repair/brands/maytag/">Maytag</a>, <a href="/services/home-appliances-repair/brands/wolf/">Wolf</a>, <a href="/services/home-appliances-repair/brands/frigidaire/">Frigidaire</a>, <a href="/services/home-appliances-repair/brands/admiral/">Admiral</a>, <a href="#">Speed Queen</a>, <a href="/services/home-appliances-repair/brands/smeg/">Smeg</a>, <a href="/services/home-appliances-repair/brands/miele/">Miele</a>, and Sharp.<br />
+                            Looking for a reliable home appliance service center? We specialize in the repair of appliances from major brands, including <a href="/services/home-appliances-repair/brands/lg/">LG</a>, <a href="/services/home-appliances-repair/brands/aeg/">AEG</a>, <a href="/services/home-appliances-repair/brands/ariston/">Ariston</a>, <a href="/services/home-appliances-repair/brands/beko/">Beko</a>, <a href="/services/home-appliances-repair/brands/la-germania/">La Germina</a>, <a href="/services/home-appliances-repair/brands/electrolux/">Electrolux</a>, <a href="/services/home-appliances-repair/brands/siemens/">Siemens</a>, <a href="/services/home-appliances-repair/brands/neff/">neff</a>, <a href="/services/home-appliances-repair/brands/teka/">Teka</a>, <a href="/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a>, <a href="/services/home-appliances-repair/brands/samsung/">Samsung</a>, <a href="/services/home-appliances-repair/brands/viking/">Viking</a>, <a href="/services/home-appliances-repair/brands/sub-zero/">Sub Zero</a>,  <a href="/services/home-appliances-repair/brands/daewoo/">Daewoo</a>, <a href="/services/home-appliances-repair/brands/gaggenau/">gaggenau</a>, <a href="/services/home-appliances-repair/brands/haier/">Haier</a>, <a href="/services/home-appliances-repair/brands/hitachi/">Hitachi</a>, <a href="/services/home-appliances-repair/brands/sanyo/">Sanyo</a>, <a href="/services/home-appliances-repair/brands/midea/">Midea</a>, <a href="/services/home-appliances-repair/brands/aftron/">Aftron</a>, <a href="/services/home-appliances-repair/brands/maytag/">Maytag</a>, <a href="/services/home-appliances-repair/brands/wolf/">Wolf</a>, <a href="/services/home-appliances-repair/brands/frigidaire/">Frigidaire</a>, <a href="/services/home-appliances-repair/brands/admiral/">Admiral</a>, <a href="#">Speed Queen</a>, <a href="/services/home-appliances-repair/brands/smeg/">Smeg</a>, <a href="/services/home-appliances-repair/brands/miele/">Miele</a>, and Sharp.<br />
                             Our experienced technicians offer fast and affordable repair services for all types of home appliances, such as washing machines, dryers, refrigerators, fridge freezers, ovens, stoves, dishwashers, cooker, hood and more.<br />
                             We are committed to providing quick and efficient repair solutions so your appliances are up and running in no time.
 
@@ -278,22 +278,22 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         <h2>Gallery  <Gallery /></h2>
                         <div className="row gx-3 gy-2">
                             <div className="col-md-4 col-6">
-                                <img src={`${CDN}/homeappliances/galleryimghome/public`} alt="" />
+                                <img src={`${CDN}/homeappliances/galleryimghome/public`} alt="FAJ Technical Services L.L.C" />
                             </div>
                             <div className="col-md-4 col-6">
-                                <img src={`${CDN}/galleryimghome2/public`} alt="" />
+                                <img src={`${CDN}/galleryimghome2/public`} alt="FAJ Technical Services L.L.C" />
                             </div>
                             <div className="col-md-4 col-6">
-                                <img src={`${CDN}/homeappliances/galleryimg3/public`} alt="" />
+                                <img src={`${CDN}/homeappliances/galleryimg3/public`} alt="FAJ Technical Services L.L.C" />
                             </div>
                             <div className="col-md-4 col-6">
-                                <img src={`${CDN}/homeappliances/galleryimg4/public`} alt="" />
+                                <img src={`${CDN}/homeappliances/galleryimg4/public`} alt="FAJ Technical Services L.L.C" />
                             </div>
                             <div className="col-md-4 col-6">
-                                <img src={`${CDN}/homeappliances/galleryimg5/public`} alt="" />
+                                <img src={`${CDN}/homeappliances/galleryimg5/public`} alt="FAJ Technical Services L.L.C" />
                             </div>
                             <div className="col-md-4 col-6">
-                                <img src={`${CDN}/homeappliances/galleryimg6/public`} alt="" />
+                                <img src={`${CDN}/homeappliances/galleryimg6/public`} alt="FAJ Technical Services L.L.C" />
                             </div>
                         </div>
                     </div>

@@ -417,22 +417,22 @@ const HomeCoverageArea = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <h2>Gallery  <Gallery /></h2>
             <div className="row gx-3 gy-2">
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/homeappliances/galleryimghome/public`} alt="" />
+                <img src={`${CDN}/homeappliances/galleryimghome/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/galleryimghome2/public`} alt="" />
+                <img src={`${CDN}/galleryimghome2/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/homeappliances/galleryimg3/public`} alt="" />
+                <img src={`${CDN}/homeappliances/galleryimg3/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/homeappliances/galleryimg4/public`} alt="" />
+                <img src={`${CDN}/homeappliances/galleryimg4/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/homeappliances/galleryimg5/public`} alt="" />
+                <img src={`${CDN}/homeappliances/galleryimg5/public`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-4 col-6">
-                <img src={`${CDN}/homeappliances/galleryimg6/public`} alt="" />
+                <img src={`${CDN}/homeappliances/galleryimg6/public`} alt="FAJ Technical Services L.L.C" />
               </div>
             </div>
           </div>

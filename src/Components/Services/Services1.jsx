@@ -224,7 +224,7 @@ const ServiceCard = memo(({ item }) => {
           <div className="cs_card_icon cs_center cs_mb_22">
             <img
               src={iconSrc}
-              alt=""
+              alt="FAJ Technical Services L.L.C"
               width={80}
               height={100}
               loading="lazy"
