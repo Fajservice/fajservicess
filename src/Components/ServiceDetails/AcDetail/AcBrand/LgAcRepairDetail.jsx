@@ -614,7 +614,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
 
             {/* We specialise  */}
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in LG ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in LG AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  LG Split Air Conditioner Service: </strong> FAJ is your trusted provider for LG split air conditioner repair and maintenance in Dubai. Our expert technicians specialize in LG VRF systems and central AC units, ensuring optimal efficiency and comfort. Whether you need routine maintenance or urgent repairs, we are dedicated to delivering exceptional service tailored to your needs.</p>

@@ -307,7 +307,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Panasonic Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Panasonic AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, expert <a href="https://www.google.com/search?q=faj+technical+llc+gmb&rlz=1C1GCEU_en-GBPK1161PK1162&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIPCAYQLhgnGK8BGMcBGOoCMgkIBxAjGCcY6gLSAQsxMjYxMDkzajBqN6gCCLACAfEFIWFyrlbuS08&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=8797444432921166439">Panasonic AC repair services</a> are readily available. it&apos;s essential to choose a qualified technician who specializes in Panasonic systems.
@@ -360,10 +360,10 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong>  Extreme Weather: </strong> During the sweltering summer months, temperatures can soar above 40°C (104°F), resulting in an uncomfortable atmosphere. It’s essential to ensure that your Panasonic ac systems are functioning at their best. </li>
+                  <li> <strong>  Extreme Weather: </strong> During the sweltering summer months, temperatures can soar above 40°C (104°F), resulting in an uncomfortable atmosphere. It’s essential to ensure that your Panasonic AC systems are functioning at their best. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained Panasonic air conditioner operates efficiently, yielding significant energy savings and lower Dewa electricity costs. </li>
                   <li> <strong>  Longevity of Equipment: </strong> Regular Panasonic AC maintenance is essential for optimal performance and longevity. It enhances energy efficiency, reduces aircon repair costs, and leads to savings for both residential and commercial users. </li>
-                  <li> <strong>  Improved Air Quality: </strong> Routine Panasonic ac cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
+                  <li> <strong>  Improved Air Quality: </strong> Routine Panasonic AC cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
                   <li> <strong>  Enhanced Comfort: </strong> Providing regular Panasonic air conditioner maintenance in Dubai is vital for achieving optimal comfort and efficiency, ensuring a friendly indoor environment daily. </li>
                 </ul>
               </div>
@@ -629,7 +629,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
             
 
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in Panasonic ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Panasonic AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
 

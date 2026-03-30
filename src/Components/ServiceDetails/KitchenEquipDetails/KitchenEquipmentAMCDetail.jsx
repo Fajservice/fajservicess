@@ -9,7 +9,7 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import HeaderForm from "../../Headeform/HeaderForm";
 import Testimonial1 from "../../Testimonial/Testimonial1";
-import BrandsSliderSection from "../../BrandsSliderSection";
+// import BrandsSliderSection from "../../BrandsSliderSection";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -20,7 +20,7 @@ const getImageSrc = (imgPath) => {
 const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Commercial Kitchen Equipment AMC | Maintenance Contract Dubai");
-  const metadescription = String(description || "Get FAJ reliable commercial kitchen equipment AMC services in Dubai. With specialised chiller, freezer, stove, oven, & cooker maintenance agreement");
+  const metadescription = String(description || "Get FAJ trusted commercial kitchen equipment AMC services in Dubai, including refrigeration, AC system & MEP installation & preventative maintenance");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Kitchen Equipment amc, kitchen equipment maintenance contract, commercial kitchen equipment service, kitchen appliance repair, kitchen equipment repair Dubai, kitchen equipment AMC Dubai, kitchen equipment AMC Abu Dhabi, kitchen equipment AMC Sharjah, gas stove maintenance Dubai, oven maintenance Dubai, cooker maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/");

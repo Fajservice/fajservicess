@@ -156,7 +156,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
               </div>
 
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Westpoint Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Westpoint AC Repair" />
 
               </div>
             </div>
@@ -175,7 +175,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
             <p className="mb-2">To guarantee your Westpoint central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a>, we offer expert aircon services designed to enhance your system&rsquo;s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('toshiba-ac-repair')} alt="Westpoint Ac Repair" />
+                <img className="blue-border" src={getImageSrc('toshiba-ac-repair')} alt="Westpoint AC Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

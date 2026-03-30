@@ -26,7 +26,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
   // For SEO
 
   const metatitle = String(titleSeo || "AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me");
-  const metadescription = String(description || "If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair");
+  const metadescription = String(description || "If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency AC repair");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Electrical Plumbing Services, Dubai, Faj Technical Services, Plumbing, Electrical Services, Home Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/electrical-plumbing-service/");

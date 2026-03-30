@@ -334,7 +334,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Cooline Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Cooline AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   For Cooline <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC repair</a>, hiring a qualified AC technician is essential. This service specializes in the Cooline AC repair and cleaning service in Dubai and Sharjah, ensuring consistent temperature regulation year-round.
@@ -708,7 +708,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
            
 
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in Cooline ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Cooline AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <strong> Cooline Split Air Conditioner Service: </strong> <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> provides dependable repair and maintenance services for Cooline AC units in Dubai. Our team consists of professionals specializing in Cooline split systems, Cooline VRF, and Cooline central air conditioning units. </p>

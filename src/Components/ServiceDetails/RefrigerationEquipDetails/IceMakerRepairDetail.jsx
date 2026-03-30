@@ -16,8 +16,8 @@ import BrandsSliderSection from "../../BrandsSliderSection";
 
 const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Ice Maker Repair in Dubai | Commercial Ice Machine Maintenance");
-  const metadescription = String(description || "Get reliable ice maker repair in Dubai. FAJ specialise in hoshizaki, manitowoc, generaltec. brema, scotsman ice cube machine maintenance, AMC services");
+  const metatitle = String(titleSeo || "Commercial Ice Maker Repair - Ice Machine Services Near You");
+  const metadescription = String(description || "High-rated ice maker repair in Dubai. FAJ expert in Hoshizaki, Manitowoc, Generaltec, Brema & Scotsman ice cube machine maintenance & servicing");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Ice Maker Repair, IceMaker Repair, Commercial Ice Maker Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/refrigeration-equipment/ice-maker-repair/");
@@ -680,7 +680,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>

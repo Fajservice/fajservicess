@@ -87,8 +87,8 @@ const MinusIcon = () => (
 
 
 const HomeAppliancesCatg = ({ titleSeo, description, Author, URL }) => {
-  const metatitle = titleSeo || 'Home Appliances Repair and Maintenance Services in Dubai';
-  const metadescription = description || 'Book your home appliance repair today, and FAJ Service Center will arrange for an expert technician to fix your washing machine, fridge or dishwasher.';
+  const metatitle = titleSeo || 'Home Appliances Repair and Service Center Near You in Dubai';
+  const metadescription = description || 'Book your home appliance repair today with FAJ Service Center. We will send an expert technician to fix your washing machine, fridge or dishwasher';
   const metaAuthor = Author || 'FAJ Technical Services L.L.C';
   const metaURL = URL || 'https://www.fajservices.ae/services/home-appliances-repair/';
   const metaImage = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public';

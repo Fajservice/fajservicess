@@ -293,7 +293,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Rheem Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Rheem AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   When it comes to Rheem <a href="/services/air-conditioning-repair/ac-service/">AC repair</a>, hiring a professional and reliable Rheem AC technician for your home or office is essential.
@@ -618,7 +618,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             
-            <h3 className="cs_fs_24 text-align-left">We specialise in Rheem ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Rheem AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Rheem Split Air Conditioner Service:</strong> FAJ offers reliable repair and maintenance services for Rheem AC units in Dubai. Our team is composed of professionals who specialize in Rheem split systems, Rheem VRF, and Rheem central air conditioning units. </p>

@@ -1,21 +1,21 @@
 {
   "success": [
     {
-      "originalPath": "ACServicescomponent-New",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ACServicescomponent-New/public",
-      "id": "ACServicescomponent-New",
+      "originalPath": "service-page-banner",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/service-page-banner/public",
+      "id": "service-page-banner",
       "success": true
     },
     {
-      "originalPath": "fajteam-1-new",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/fajteam-1-new/public",
-      "id": "fajteam-1-new",
+      "originalPath": "services-mobile-banner",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/services-mobile-banner/public",
+      "id": "services-mobile-banner",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "ACServicescomponent-New": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ACServicescomponent-New/public",
-    "fajteam-1-new": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/fajteam-1-new/public"
+    "service-page-banner": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/service-page-banner/public",
+    "services-mobile-banner": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/services-mobile-banner/public"
   }
 }

@@ -18,7 +18,7 @@ const getImageSrc = (imgPath) => {
 };
 const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Refrigeration Annual Maintenance Contract Service in Dubai");
+  const metatitle = String(titleSeo || "Refrigeration Annual Maintenance Contract Services in Dubai");
   const metadescription = String(description || "FAJ offers commercial refrigeration, including restaurant, hotel, hospital freezer, chiller, cold room, refrigerator annual maintenance contract services Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Refrigeration Annual Maintenance Contract Service");
@@ -662,7 +662,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>

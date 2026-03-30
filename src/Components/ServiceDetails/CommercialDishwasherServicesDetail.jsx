@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 
 const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Dishwasher Repair and Maintenance Service Dubai");
-  const metadescription = String(description || "Get fast commercial dishwasher repair in Dubai. FAJ offer Fagor, Electrolux, Meiko, Elettrobar, Hobart maintenance services near by you and AMC");
+  const metatitle = String(titleSeo || "Commercial Dishwasher Repair & Maintenance Service Near You");
+  const metadescription = String(description || "Top-Quality Commercial dishwasher repair & services in Dubai. FAJ offers maintenance for Fagor, Electrolux, Meiko, Elettrobar, Hobart near you & AMC");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Dishwasher Repair, Commercial Dishwasher Maintenance Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/commercial-dishwasher-repair/");

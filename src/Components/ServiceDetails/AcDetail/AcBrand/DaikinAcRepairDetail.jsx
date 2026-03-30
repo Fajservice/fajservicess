@@ -351,7 +351,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" >Daikin ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left" >Daikin AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   When it comes to Daikin air conditioner repairs, it&apos;s vital to choose a professional and dependable technician for your home or office.
@@ -689,7 +689,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <section className="section cs_py_30">
           <div className="container">
            
-            <h3 className="cs_fs_24 text-align-left">We specialise in Daikin ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Daikin AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
 

@@ -380,7 +380,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <img
                   className="bordered-img w-100"
                   src={getImageSrc('Experts-AC-Service-and-Maintenance')}
-                  alt="Aftron Ac Repair"
+                  alt="Aftron AC Repair"
                   loading="lazy"
                   decoding="async"
                 />
@@ -404,7 +404,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <img
                   className="bordered-img w-100"
                   src={getImageSrc('indoor-ac-servicing')}
-                  alt="Aftron Ac Repair"
+                  alt="Aftron AC Repair"
                   loading="lazy"
                   decoding="async"
                 />

@@ -2907,7 +2907,7 @@ export const router = createBrowserRouter([
         path: "/wasn-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-town-dubai-dishwasher-installation-fixing-mainte/",
         element: <Navigate to="/services/home-appliances-repair/coverage-area/town-dubai/" replace />
       },
-      // Ac Brand redirections
+      // AC Brand redirections
       {
         path: "/aftron-ac-repair-maintenance-service-in-dubai-2/",
         element: <Navigate to="/services/air-conditioning-repair/brands/aftron/" replace />

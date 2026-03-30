@@ -463,7 +463,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
           <div className="container">
             
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in Mitsubishi ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Mitsubishi AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
 

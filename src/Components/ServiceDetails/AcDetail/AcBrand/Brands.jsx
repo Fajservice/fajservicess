@@ -191,7 +191,7 @@ const Brands = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL
           </div>
         </section>
 
-        {/* Common Issue Ac Maintenance */}
+        {/* Common Issue AC Maintenance */}
         <section className="ac_common_issues_section cs_py_60 bg-light-white">
           <div className="container">
             <div className="ac_issues_header_wrapper">

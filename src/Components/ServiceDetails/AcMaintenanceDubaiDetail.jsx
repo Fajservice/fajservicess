@@ -20,7 +20,7 @@ import BeforeAfter from "../BeforeAfter/BeforeAfter";
 const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "AC Maintenance Dubai - Air Conditioner Cleaning Service");
-  const metadescription = String(description || "Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002");
+  const metadescription = String(description || "Reliable & quality in AC maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & AC fix Call 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Maintenance, Air Conditioner Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/ac-annual-maintenance-contract/");
@@ -92,7 +92,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
+          <meta name="description" content="Reliable & quality in AC maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & AC fix Call 043300002"></meta>
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -105,7 +105,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="AC Maintenance Dubai - Air Conditioner Cleaning Service" />
-          <meta name="twitter:description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002" />
+          <meta name="twitter:description" content="Reliable & quality in AC maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & AC fix Call 043300002" />
           <meta name="twitter:image" content={metaImage} />
           
         </Helmet>

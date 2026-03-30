@@ -31,8 +31,8 @@ const EyeSlashIcon = () => (
 );
 const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Coffee Machine Repairs & Maintenance in Dubai");
-  const metadescription = String(description || "FAJ Expert Commercial Coffee Machine repairs in Dubai, coffee equipment, Vending, Espresso, Automatic coffee machines maintenance service near me");
+  const metatitle = String(titleSeo || "Coffee Machine Repairs | Espresso Machine Maintenance Services");
+  const metadescription = String(description || "Trusted coffee machine repairs in UAE. Get fast coffee equipment, vending, grinder & automatic coffee machine maintenance servicing near you in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Commercial COffee Machine repair, 3 Group Coffee Machine Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/coffee-machine-repairs/");

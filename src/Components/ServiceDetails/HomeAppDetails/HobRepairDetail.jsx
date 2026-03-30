@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 };
 
 const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  const metatitle = String(titleSeo || "Ceramic Hob Repair & Service in Dubai | Stove Repairs");
-  const metadescription = String(description || "Having issues with your hob repair in Dubai? Book with us for gas or electric Induction stove, cooking range centre near me with a warranty of parts.");
+  const metatitle = String(titleSeo || "Induction Hob Repair and Cooktop Service Center Near You, Dubai");
+  const metadescription = String(description || "Having issues with your hob repair in Dubai? Book a service with us for the best gas or electric stove and cooker service nearby, with a parts warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Electric Hob Repair, Gas Hob Repair, Gas Hob Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/hob-repair-service/");

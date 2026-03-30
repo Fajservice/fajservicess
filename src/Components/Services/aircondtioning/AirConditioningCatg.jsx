@@ -10,8 +10,8 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
-  const metatitle = String(titleSeo || "Top Air Conditioning Maintenance Company in Dubai - Sharjah");
-  const metadescription = String(description || "FAJ offers top-quality HVAC, chilled water FCU, central & split air conditioning repair & maintenance, servicing of offices, villas, at best prices in Dubai.");
+  const metatitle = String(titleSeo || "Best Air Conditioning Maintenance Company in Dubai - Sharjah");
+  const metadescription = String(description || "We provide top-quality Air Conditioning maintenance. FAJ expert in ducted split, central, VRV, & VRF AC servicing & repairs with the best prices in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
@@ -74,19 +74,19 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
+          <meta name="description" content={metadescription}></meta>
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
+          <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Coffee Machine Repair Service in Dubai - FAJ Technical Services L.L.C" />
-          <meta name="twitter:description" content="Coffee Machine Repair and Maintenance Services in Dubai" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
 
         </Helmet>

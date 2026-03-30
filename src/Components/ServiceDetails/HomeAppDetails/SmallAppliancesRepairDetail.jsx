@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 
 const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Small Home Appliances Service Center in Dubai & Repair Near Me");
-  const metadescription = String(description || "Best small home appliances service center in Dubai. FAJ Experts in mixer, microwave, air fryer, iron box, grinder, garment steamer repair shop near me");
+  const metatitle = String(titleSeo || "Small Home Appliances Repair & Service Center Near You, Dubai");
+  const metadescription = String(description || "Best small home appliances service center in Dubai. FAJ expert in mixer fix, microwave, air fryer, iron, grinder, & garment steamers repair shop nearby");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "mixer repair, steam iron repair, toaster repair, microwave oven repair, air fryer repair, water dispenser repair, small home appliances service, household appliance repair near me");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/small-home-appliances-service-center-in-dubai/");
@@ -723,7 +723,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img src={getImageSrc('icon/fajteam')} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>

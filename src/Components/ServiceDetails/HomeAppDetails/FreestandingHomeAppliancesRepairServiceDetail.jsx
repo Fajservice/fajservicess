@@ -21,8 +21,8 @@ const getImageSrc = (imgPath) => {
 };
 const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Home Appliances Repair and Maintenance Service in Dubai");
-  const metadescription = String(description || "Top home appliance repair in Dubai. Get an expert FAJ technician for fixing tumble dryer, stove, and appliance maintenance and service center near you.");
+  const metatitle = String(titleSeo || "Home Appliances Repair | Appliances Service Center Near You");
+  const metadescription = String(description || "Top-rated home appliances repair and service in Dubai, UAE. Get FAJ experts for tumble dryer, stove, dish washer, fridge & oven service center nearby");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Appliances Repair Dubai, Appliance Service Dubai, Appliance Repair Near Me, Home Appliances Repair Dubai, Washing Machine Repair Dubai, Refrigerator Repair Dubai, Dishwasher Repair Dubai, Oven Repair Dubai, Dryer Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/appliances-repair-service/");
@@ -264,7 +264,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
   return (
     <>
       <Helmet>
-        <title>Home Appliances Repair and Maintenance Service in Dubai</title>
+        <title>{metatitle}</title>
         <meta name="description" content={metadescription}></meta>
         <meta name="keywords" content={metaKeyword} />
         <meta name="author" content={metaAuthor} />

@@ -28,7 +28,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metatitle = String(titleSeo || "Best Sanyo Air Conditioning Repair & Maintenance Service Dubai ");
   const metadescription = String(description || "FAJ Professional provides Sanyo AC repair and services in Dubai, including maintenance and cleaning for both central and split AC. Call us at 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "Sanyo Ac Repair in Dubai, Sanyo Air Conditioner Service, Sanyo AC Maintenance, Sanyo AC Fix, Sanyo AC Service, Sanyo Air Condition Repair, Sanyo Air Condition Maintenance, Sanyo Air Condition");
+  const metaKeyword = String(Keyword || "Sanyo AC Repair in Dubai, Sanyo Air Conditioner Service, Sanyo AC Maintenance, Sanyo AC Fix, Sanyo AC Service, Sanyo Air Condition Repair, Sanyo Air Condition Maintenance, Sanyo Air Condition");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/sanyo/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public");
 
@@ -318,7 +318,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               </div>
 
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Sanyo Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Sanyo AC Repair" />
 
               </div>
             </div>
@@ -339,7 +339,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <div className="row align-items-center">
 
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Sanyo Ac Repair" />
+                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Sanyo AC Repair" />
               </div>
 
               <div className="col-md-6">

@@ -20,8 +20,8 @@ const getImageSrc = (imgPath) => {
 };
 const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Refrigeration Maintenance & Repair Service in Dubai");
-  const metadescription = String(description || "Looking for commercial refrigeration maintenance in Dubai? Call FAJ for walk in cooler, cooling unit, biomedical freezer & chiller repair services near me");
+  const metatitle = String(titleSeo || "Commercial Refrigeration Maintenance Services & Repair in Dubai");
+  const metadescription = String(description || "Top-Rated Commercial refrigeration maintenance services in Dubai. Call now FAJ expert for walk in cooler, biomedical freezer & chiller repair near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance/");

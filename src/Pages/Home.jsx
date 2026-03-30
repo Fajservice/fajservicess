@@ -39,7 +39,7 @@ const schemaData = {
       "itemReviewed": { "@id": "https://www.fajservices.ae/#organization" },
       "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "author": { "@type": "Person", "name": "Abdullah Kiani" },
-      "reviewBody": "My ac was not working and taking too much load and no cooling. I contacted FAJ Technical services to repair my AC and sent a technician named Taranpal singh. That guy was genius and super expert in his work. Very clean and very efficient services by this guy. Strongly recommend and super friendly."
+      "reviewBody": "My AC was not working and taking too much load and no cooling. I contacted FAJ Technical services to repair my AC and sent a technician named Taranpal singh. That guy was genius and super expert in his work. Very clean and very efficient services by this guy. Strongly recommend and super friendly."
     },
     {
       "@type": "Review",
@@ -119,7 +119,7 @@ const DEFAULT_SEO = {
   title: "FAJ / Installation, Repair and Maintenance Company in Dubai",
   description: "FAJ Established in 2010, / with experts Air Conditioner, Refrigeration, Kitchen Equipment, Appliances installation, Repair & Maintenance Services in Dubai",
   author: "FAJ Technical Services L.L.C",
-  keywords: "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Service, Washing Machine Repair, Washing Machine Service, Refrigerator Repair, Freezer Repair, Fridge Repair, Appliances Repair, Appliances Service, Appliances Fix, Appliances Maintenance, Appliances Installation, Appliances Dubai",
+  keywords: "Ac Repair, AC Repair In Dubai, AC Repair Service, AC Service, Washing Machine Repair, Washing Machine Service, Refrigerator Repair, Freezer Repair, Fridge Repair, Appliances Repair, Appliances Service, Appliances Fix, Appliances Maintenance, Appliances Installation, Appliances Dubai",
   url: "https://www.fajservices.ae/",
 };
 

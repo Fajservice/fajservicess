@@ -28,11 +28,11 @@ const OvenRepairDetail = ({
   URL }) => {
 
   const metaTitle = String(
-    titleSeo || "Pizza Oven Repair & Commercial Oven Maintenance Dubai"
+    titleSeo || "Commercial Oven Repair | Best Pizza Oven Services in Dubai"
   );
 
   const metaDescription = String(
-    description || "Looking for Pizza Oven Repair in Dubai? FAJ expert Deck oven, Convection, Combi oven, Gas ovens, electric ovens maintenance service near me & AMC"
+    description || "High-rated commercial oven repair in Dubai. FAJ expert deck, convection, conveyor, bakery, combi gas & electric ovens maintenance services near you"
   );
 
   const metaAuthor = String(

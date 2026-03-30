@@ -31,11 +31,11 @@ const WalkInRefrigerationServicesDetail = ({
 }) => {
 
   const metaTitle = String(
-    titleSeo || "Commercial Laundry Equipment Repair & Maintenance Service"
+    titleSeo || "Commercial Laundry Equipment Repair & Maintenance Services"
   );
 
   const metaDescription = String(
-    description || "FAJ Experts provide laundry equipment repair. Book quality work of industrial & professional washer dryer maintenance & AMC contract service Dubai."
+    description || "Top-rated Laundry equipment repair and services in Dubai. Book the best professional washing machine maintenance contract for industrial washer dryers"
   );
 
   const metaAuthor = String(

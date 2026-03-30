@@ -350,7 +350,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">O General Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">O General AC Maintenance and Servicing</h2>
                 <p className="mb-2">For O General air conditioning unit repairs, it’s essential to choose  a skilled technician.
                   <br />Our dedicated team specialises in AC service and maintenance across Dubai and Sharjah. FAJ is committed to providing reliable solutions that enhance indoor comfort year-round and ensure your system operates efficiently.
                 </p>
@@ -374,7 +374,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
               </div>
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="O General Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="O General AC Repair" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
@@ -395,7 +395,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="O General Ac Repair" />
+                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="O General AC Repair" />
               </div>
 
               <div className="col-md-6">
@@ -668,11 +668,11 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             
 
-            <h3 className="cs_fs_24 text-align-left">We specialise in O General ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in O General AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong> O General Split Air Conditioner Service: </strong> FAJ offers reliable repair and maintenance for O General split air conditioner in Dubai. Our expert team specialises in O General VRF and central AC, ensuring optimal performance and comfort. Count on us for both routine <a href="/services/air-conditioning-repair/ac-service/">AC maintenance</a> and urgent repairs. </p>
-                <p className="mb-0"><strong> O General Central Air Conditioner Repair and Service: </strong> FAJ is a leading aircon service provider in Dubai, specialising in the AC installation, repair, and maintenance of O General air conditioner. Known for its commitment to excellence, the company provides a wide range of ac services aimed at ensuring the optimal efficiency of air conditioning units. </p>
+                <p className="mb-0"><strong> O General Central Air Conditioner Repair and Service: </strong> FAJ is a leading aircon service provider in Dubai, specialising in the AC installation, repair, and maintenance of O General air conditioner. Known for its commitment to excellence, the company provides a wide range of AC services aimed at ensuring the optimal efficiency of air conditioning units. </p>
                 <p className="mb-0"><strong> O General AC Service and Repair: </strong> O General AC Service provides peace of mind with our skilled technicians. At FAJ, we specialise in efficient and reliable AC maintenance, repair, and installation. You can trust our expert team to keep your HVAC system running smoothly and ensure your comfort throughout the year! </p>
                 <p className="mb-0"><strong> O General Inverter Air Conditioner Maintenance: </strong> Count on our dedicated team to promptly resolve any concerns with your O General air conditioner maintenance and bring it back to peak performance! </p>
                 <p className="mb-0"><strong> O General HVAC Repair: </strong> We have extensive expertise in O General cassette and package unit AC systems, providing reliable repairs to ensure your unit operates efficiently. </p>

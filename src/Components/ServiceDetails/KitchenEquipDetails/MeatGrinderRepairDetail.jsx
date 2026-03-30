@@ -18,8 +18,8 @@ const getImageSrc = (imgPath) => {
 };
 const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Meat Grinder Repair and Maintenance Service Dubai Near Me");
-  const metadescription = String(description || "Need meat grinder repair in Dubai? FAJ offers commercial food equipment, vacuum sealers, meat processing & butchery equipment maintenance service.");
+  const metatitle = String(titleSeo || "Meat Grinder Repair | Commercial Food Prep Equipment Service");
+  const metadescription = String(description || "Book an expert meat grinder repair in Dubai. FAJ offers commercial food prep equipment, vacuum sealers & food processor maintenance service near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Meat Grinder Repair, Meat Grinder Service, Meat Grinder Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/meat-grinder-repair/");

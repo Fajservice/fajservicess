@@ -155,7 +155,7 @@ const TCLAcRepair = ({
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">TCL Ac Maintenance and Services </h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">TCL AC Maintenance and Services </h2>
 
                 <p className="mb-2">
                   If you find yourself in Dubai and are in need of TCL <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">air conditioner repair</a>, look no further than FAJ!

@@ -334,7 +334,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Haier Ac Maintenance and Services</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Haier AC Maintenance and Services</h2>
 
                 <p className="mb-2">
                   If you are situated in Dubai and need Haier AC repair service, FAJ is prepared to assist you.

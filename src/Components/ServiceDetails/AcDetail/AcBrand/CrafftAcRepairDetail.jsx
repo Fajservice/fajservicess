@@ -329,7 +329,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row gx-md-5 align-items-center expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Crafft Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Crafft AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, professional services are available for repairing Crafft air conditioning systems, so it&apos;s important to hire a qualified AC technician.
@@ -379,7 +379,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
             <h2 className="cs_fs_30">Why is Crafft AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              To ensure your Crafft central air conditioner runs smoothly in Dubai&apos;s heat, regular aircon maintenance is essential. At FAJ, we offer expert ac services to ensure optimal cooling and comfort year-round. We&apos;re here to help your system perform at its best!
+              To ensure your Crafft central air conditioner runs smoothly in Dubai&apos;s heat, regular aircon maintenance is essential. At FAJ, we offer expert AC services to ensure optimal cooling and comfort year-round. We&apos;re here to help your system perform at its best!
             </p>
 
             <div className="row align-items-center">
@@ -707,7 +707,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* We specialise  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_24 text-align-left">We specialise in Crafft ac services for the following types</h3>
+            <h3 className="cs_fs_24 text-align-left">We specialise in Crafft AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <strong>  Crafft Split Air Conditioner Service: </strong> <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> is a trusted provider of Crafft split air conditioner repair and maintenance in Dubai. Our skilled technicians specialize in Crafft VRF systems and central AC units, ensuring optimal performance. Whether for routine maintenance or urgent repair, we are dedicated to delivering exceptional service tailored to your needs.</p>

@@ -324,7 +324,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 </div>
               </div>
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Supra Ac Repair" />
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Supra AC Repair" />
 
               </div>
             </div>
@@ -343,7 +343,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <p className="mb-2">To guarantee your Supra central air conditioner functions efficiently in Dubai's intense heat, regular <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system&rsquo;s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Supra Ac Repair" />
+                <img className="blue-border" src={getImageSrc('fujitsu-ac-service')} alt="Supra AC Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
