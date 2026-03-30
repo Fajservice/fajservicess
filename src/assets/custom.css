@@ -543,7 +543,7 @@ p a {
 }
 
 .usps .uspcol {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .usps .uspitem {
@@ -744,6 +744,9 @@ p a {
   .faj-price-table {
     overflow-y: auto;
   }
+  .cs_nav .cs_nav_list li a svg{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -754,7 +757,7 @@ p a {
   .col-1,
   .col-2,
   .col-3 {
-    width: 80%;
+    width: 90%;
   }
 
   .cs_about.cs_style_1 .cs_esperience_text:after {

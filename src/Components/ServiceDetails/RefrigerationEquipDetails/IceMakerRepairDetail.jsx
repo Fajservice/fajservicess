@@ -300,8 +300,8 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   Our experts are highly skilled and always work to a high-quality standard. We regularly provide ice machine servicing and repair services for a wide range of ice machine brands, including those used in restaurants, cafes, shops, hotels, and other establishments.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Ice Machine Service and Maintenance </h2>
-                <p className="mb-0">
+                <h2 className="cs_fs_24 mb-1 mt-0 pt-2 border-small-top" style={{ fontSize: "24px" }}>Ice Machine Service and Maintenance </h2>
+                <p className="mb-md-0">
                   The technical inspection fee includes diagnosis, transportation, and reinstallation at your premises in Dubai. Please note that this fee is non-refundable and is a flat rate.
                   <br />However, it does not cover the cost of any repair, cleaning service and parts that may need to be replaced. Please contact us.
                 </p>

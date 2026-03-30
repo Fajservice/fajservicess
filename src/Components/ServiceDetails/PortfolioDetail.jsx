@@ -447,8 +447,8 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
           <div className="container">
             <h2>Our Projects</h2>
             <div className="portfolio-projects-cols">
-              <div className="row justify-content-center">
-                <div className="col-md-3 col-sm-4">
+              <div className="row gy-4 justify-content-center">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                       <img src={getImageSrc('portfolio-projects/AirForce')} alt="USA Air Force" />
                       <h3 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h3>
@@ -456,7 +456,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2013-2018)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/AirForce')} alt="USA Air Force" />
                     <h3 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h3>
@@ -464,7 +464,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2013-2018)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/nex')} alt="USA Navy NEX" />
                     <h3 className="portfolio-pjt-info-box-title">USA NAVY BY NEX EXCHANGE – DUBAI</h3>
@@ -472,14 +472,14 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2016-2021)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/china')} alt="China Petroleum" />
                     <h3 className="portfolio-pjt-info-box-title">CHINA PETROLEUM BUREAU DUBAI</h3>
                     <p className="portfolio-pjt-info-box-para">Air Conditioning, Electrical & Plumbing.</p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/canadian')} alt="Canadian University" />
                     <h3 className="portfolio-pjt-info-box-title">CANADIAN UNIVERSITY</h3>
@@ -487,28 +487,28 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2016-2017)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/ibis')} alt="Hotel Ibis" />
                     <h3 className="portfolio-pjt-info-box-title">HOTEL IBIS WORLD TRADE CENTRE DUBAI</h3>
                         <p className="portfolio-pjt-info-box-para">Next to Dubai Convention Center – Dubai <br />Air Conditioning Units Services.</p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/jazeera')} alt="University of Jazeera" />
                     <h3 className="portfolio-pjt-info-box-title">UNIVERSITY OF JAZEERA</h3>
                         <p className="portfolio-pjt-info-box-para">Al Twar 3, near Dubai International Airport – Dubai SKM Brand Package Air Conditioning Units, Electrical & Plumbing Work Services.</p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/parkside')} alt="Parkside Suites" />
                     <h3 className="portfolio-pjt-info-box-title">PARKSIDE SUITES HOTEL APARTMENTS LLC</h3>
                         <p className="portfolio-pjt-info-box-para">Street No. 1, Zen 3, Building No. 12 Discovery Garden, Dubai Built-in and Freestanding Kitchen Appliances (Refrigerator, Freezer, Washer, Dryer Cooking Unit) Services.</p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/middlesex')} alt="Middlesex University" />
                     <h3 className="portfolio-pjt-info-box-title">Middlesex University</h3>
@@ -516,7 +516,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>2017</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/crowneplaza')} alt="Crowne Plaza" />
                     <h3 className="portfolio-pjt-info-box-title">Crowne Plaza Hotels</h3>
@@ -524,7 +524,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2016-Present)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/repton')} alt="Repton School" />
                     <h3 className="portfolio-pjt-info-box-title">REPTON SCHOOL</h3>
@@ -532,7 +532,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2013-2014)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/dukes')} alt="Dukes Hotels" />
                     <h3 className="portfolio-pjt-info-box-title">Dukes Hotels</h3>
@@ -540,7 +540,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2019-Present)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/fawaz')} alt="Fawaz Trading" />
                     <h3 className="portfolio-pjt-info-box-title">Fawaz Trading and Engineering Services.CO LLC</h3>
@@ -548,7 +548,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(2021)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/movenpick')} alt="Movenpick Hotels" />
                     <h3 className="portfolio-pjt-info-box-title">Movenpick Hotels</h3>
@@ -556,7 +556,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2021-Present)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/baumatic')} alt="Baumatic" />
                     <h3 className="portfolio-pjt-info-box-title">BAUMATIC MIDDLE EAST</h3>
@@ -564,14 +564,14 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2016-2019)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/eminence')} alt="Eminence International" />
                     <h3 className="portfolio-pjt-info-box-title">Eminence International Contracting Co LLC</h3>
                         <p className="portfolio-pjt-info-box-para">Jumeirah Golf Estates-Dubai Variable Refrigerant Volume (VRV) & Variable Refrigerant Flow (VRF) Air Conditioning & FAHU Services. Brands: Daikin, Mitsubishi, LG & Trane.</p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/transguard')} alt="Transguard Group" />
                     <h3 className="portfolio-pjt-info-box-title">TRANSGUARD GROUP LLC</h3>
@@ -579,7 +579,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2015-2016)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/alstom')} alt="Alstom" />
                     <h3 className="portfolio-pjt-info-box-title">ALSTOM</h3>
@@ -587,7 +587,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2016-2018)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/bertoni')} alt="Bertoni" />
                     <h3 className="portfolio-pjt-info-box-title">BERTONI LLC</h3>
@@ -595,7 +595,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2015-2018)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/dubai-properties')} alt="Dubai Properties" />
                     <h3 className="portfolio-pjt-info-box-title">Dubai Properties</h3>
@@ -603,7 +603,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2016-2018)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/nandos')} alt="Nandos" />
                     <h3 className="portfolio-pjt-info-box-title">NANDO'S</h3>
@@ -611,7 +611,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2013-2015)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/tsm')} alt="Talal Supermarket" />
                     <h3 className="portfolio-pjt-info-box-title">TALAL SUPERMARKET</h3>
@@ -619,14 +619,14 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2015-2016)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/eskinita')} alt="Eskinita Restaurant" />
                     <h3 className="portfolio-pjt-info-box-title">ESKINITA RESTAURANT AT WELCOME HOTEL</h3>
                         <p className="portfolio-pjt-info-box-para">144 Abu Bakker Al Siddique Rd – Dubai Commercial Kitchen Appliances, Refrigeration System, Electrical & Plumbing Services.</p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/partyzone')} alt="Party Zone" />
                     <h3 className="portfolio-pjt-info-box-title">Party Zone LLC</h3>
@@ -634,7 +634,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>(Since: 2015-Present)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/uniworld')} alt="Uniworld Medical" />
                     <h3 className="portfolio-pjt-info-box-title">Uniworld Medical FZE</h3>
@@ -642,14 +642,14 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <p className="mb-0"><strong>As a Service Partner (Since: 2013-2017)</strong></p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/beirut')} alt="Beirut Restaurant" />
                     <h3 className="portfolio-pjt-info-box-title">BEIRUT RESTAURANT & GRILLS</h3>
                         <p className="portfolio-pjt-info-box-para">Rigga Road, Deira, 2nd December St, Al Satwa – Dubai <br />Air Conditioning System, Refrigeration System & Cooking Units Services.</p>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-4">
+                <div className="col-lg-3 col-sm-4">
                   <div className="portfolio-projects-infobox">
                     <img src={getImageSrc('portfolio-projects/nmc')} alt="NMC Hospital" />
                     <h3 className="portfolio-pjt-info-box-title">NMC Hospital</h3>
