@@ -1,8 +1,14 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { createClient } from "@supabase/supabase-js";
 import TonnageCalculator from "../TonnageCalculator";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+
+const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_ANON_KEY
+);
 
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
@@ -98,6 +104,16 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // Comments state
+  const [comments, setComments] = useState([]);
+  const [commentsLoading, setCommentsLoading] = useState(false);
+  const [commentForm, setCommentForm] = useState({ name: "", email: "", website: "", comment: "" });
+  const [submitStatus, setSubmitStatus] = useState(null);
+  const [submitting, setSubmitting] = useState(false);
+  const [formErrors, setFormErrors] = useState({});
+
+  const cleanSlug = slug.replace(/\/$/, "");
+
   const shareUrl = useMemo(() =>
     blogPost ? `${window.location.origin}/blog/${slug}` : '',
     [blogPost, slug]
@@ -138,6 +154,83 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     };
     fetchData();
   }, [slug]);
+
+  useEffect(() => {
+    if (!slug) return;
+    const fetchComments = async () => {
+      setCommentsLoading(true);
+      const { data, error } = await supabase
+        .from("comments")
+        .select("id, name, website, comment, date, created_at")
+        .eq("slug", cleanSlug)
+        .order("created_at", { ascending: false });
+
+      if (!error && data) setComments(data);
+      setCommentsLoading(false);
+    };
+    fetchComments();
+    console.log("Fetched comments for slug:", slug);
+  }, [slug]);
+
+  const handleFormChange = (e) => {
+    const { name, value } = e.target;
+    setCommentForm((prev) => ({ ...prev, [name]: value }));
+    if (formErrors[name]) setFormErrors((prev) => ({ ...prev, [name]: "" }));
+  };
+
+  const validateForm = () => {
+    const errors = {};
+    if (!commentForm.name.trim()) errors.name = "Name is required";
+    if (!commentForm.email.trim()) {
+      errors.email = "Email is required";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(commentForm.email)) {
+      errors.email = "Enter a valid email";
+    }
+    if (!commentForm.comment.trim()) errors.comment = "Comment cannot be empty";
+    return errors;
+  };
+
+  const handleCommentSubmit = async (e) => {
+    e.preventDefault();
+    const errors = validateForm();
+    if (Object.keys(errors).length > 0) {
+      setFormErrors(errors);
+      return;
+    }
+
+    setSubmitting(true);
+    setSubmitStatus(null);
+
+    const newComment = {
+      slug: cleanSlug,
+      name: commentForm.name.trim(),
+      email: commentForm.email.trim(),
+      website: commentForm.website.trim(),
+      comment: commentForm.comment.trim(),
+      date: new Date().toLocaleDateString("en-GB", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+      }),
+    };
+
+    const { data, error } = await supabase
+      .from("comments")
+      .insert([newComment])
+      .select("id, name, website, comment, date, created_at");
+
+    if (error) {
+      console.error("Supabase insert error:", error);
+      setSubmitStatus("error");
+    } else {
+      setComments((prev) => [data[0], ...prev]);
+      setCommentForm({ name: "", email: "", website: "", comment: "" });
+      setFormErrors({});
+      setSubmitStatus("success");
+      setTimeout(() => setSubmitStatus(null), 4000);
+    }
+    setSubmitting(false);
+  };
 
   const renderParagraphWithLinks = (paragraph) => {
     if (!paragraph || typeof paragraph !== 'string') return paragraph;
@@ -418,8 +511,8 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           const h3BulletsKey = `${sectionName}_h3_${i + 1}_bullets`;
           const h3PointsKey = `${sectionName}_h3_${i + 1}_points`;
           const h3BannerKey = `${sectionName}_h3_${i + 1}_banner`;
-          const h3Banner2Key = `${sectionName}_h3_${i + 1}_banner2`; 
-          const h3TableKey = `${sectionName}_h3_${i + 1}_table`; 
+          const h3Banner2Key = `${sectionName}_h3_${i + 1}_banner2`;
+          const h3TableKey = `${sectionName}_h3_${i + 1}_table`;
 
           if (!blogPost[h3Key]) return null;
 
@@ -581,29 +674,67 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 </div>
               </div>
 
-              {/* Comments section */}
-              <div className="cs_comments_area">
-                <div className="cs_form_wrapper cs_style_1 cs_accent_bg_light">
-                  <h3 className="cs_fs_30 cs_mb_13">Leave a Reply</h3>
-                  <p className="cs_mb_22">Your email Address Not Be Published. Required Fields are Marked</p>
-                  <form className="row cs_row_gap_30 cs_gap_y_30">
-                    <div className="col-sm-6">
-                      <input type="text" name="name" placeholder="Your Name" className="cs_form_field cs_white_bg" />
-                    </div>
-                    <div className="col-sm-6">
-                      <input type="email" name="email" autoComplete="email" placeholder="Email Address" className="cs_form_field cs_white_bg" />
-                    </div>
-                    <div className="col-sm-12">
-                      <input type="text" name="website" placeholder="Enter Website" className="cs_form_field cs_white_bg" />
-                    </div>
-                    <div className="col-sm-12">
-                      <textarea name="comment" rows="6" placeholder="Enter Your Comments" className="cs_form_field cs_white_bg"></textarea>
-                    </div>
-                    <div className="col-sm-12">
-                      <button type="submit" className="cs_btn cs_style_1 w-100"><span>Submit</span></button>
-                    </div>
-                  </form>
-                </div>
+              {/* Comment form */}
+              <div className="cs_form_wrapper cs_style_1 cs_accent_bg_light">
+                <h3 className="cs_fs_30 cs_mb_13">Leave a Reply</h3>
+                <p className="cs_mb_22">Your email address will not be published. Required fields are marked *</p>
+
+                {submitStatus === "success" && (
+                  <div style={{ padding: "12px 16px", backgroundColor: "#e8f5e9", borderLeft: "4px solid #4caf50", borderRadius: "4px", marginBottom: "20px", color: "#2e7d32", fontWeight: "500" }}>
+                    ✓ Your comment has been posted successfully!
+                  </div>
+                )}
+                {submitStatus === "error" && (
+                  <div style={{ padding: "12px 16px", backgroundColor: "#ffeaea", borderLeft: "4px solid #f44336", borderRadius: "4px", marginBottom: "20px", color: "#c62828", fontWeight: "500" }}>
+                    ✗ Something went wrong. Please try again.
+                  </div>
+                )}
+
+                <form className="row cs_row_gap_30 cs_gap_y_30" onSubmit={handleCommentSubmit} noValidate>
+                  <div className="col-sm-6">
+                    <input type="text" name="name" placeholder="Your Name *" className="cs_form_field cs_white_bg"
+                      value={commentForm.name} onChange={handleFormChange} />
+                    {formErrors.name && <span style={{ color: "#c62828", fontSize: "12px", marginTop: "4px", display: "block" }}>{formErrors.name}</span>}
+                  </div>
+                  <div className="col-sm-6">
+                    <input type="email" name="email" autoComplete="email" placeholder="Email Address *" className="cs_form_field cs_white_bg"
+                      value={commentForm.email} onChange={handleFormChange} />
+                    {formErrors.email && <span style={{ color: "#c62828", fontSize: "12px", marginTop: "4px", display: "block" }}>{formErrors.email}</span>}
+                  </div>
+                  <div className="col-sm-12">
+                    <input type="text" name="website" placeholder="Website (optional)" className="cs_form_field cs_white_bg"
+                      value={commentForm.website} onChange={handleFormChange} />
+                  </div>
+                  <div className="col-sm-12">
+                    <textarea name="comment" rows="6" placeholder="Enter Your Comments *" className="cs_form_field cs_white_bg"
+                      value={commentForm.comment} onChange={handleFormChange} />
+                    {formErrors.comment && <span style={{ color: "#c62828", fontSize: "12px", marginTop: "4px", display: "block" }}>{formErrors.comment}</span>}
+                  </div>
+                  <div className="col-sm-12">
+                    <button type="submit" className="cs_btn cs_style_1 w-100" disabled={submitting}>
+                      <span>{submitting ? "Submitting..." : "Submit Comment"}</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div style={{ marginTop: "40px" }}>
+                <h3>Comments ({comments.length})</h3>
+
+                {commentsLoading && <p>Loading comments...</p>}
+
+                {!commentsLoading && comments.length === 0 && (
+                  <p>No comments yet.</p>
+                )}
+
+                {comments.map((c) => (
+                  <div key={c.id} style={{
+                    borderBottom: "1px solid #ddd",
+                    padding: "10px 0"
+                  }}>
+                    <strong>{c.name}</strong> — <small>{c.date}</small>
+                    <p>{c.comment}</p>
+                  </div>
+                ))}
               </div>
             </div>
 
