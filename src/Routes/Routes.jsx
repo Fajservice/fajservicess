@@ -54,6 +54,10 @@ export const router = createBrowserRouter([
         element: <Components.AcServiceInDubai />,
       },
       {
+        path: "/services/pcb-repair-services/",
+        element: <Components.PcbRepairServicesDubai />,
+      },
+      {
         path: "/services/coffee-machine/",
         element: <Components.CoffeeMachine />,
       },

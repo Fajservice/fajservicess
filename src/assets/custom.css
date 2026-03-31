@@ -1072,7 +1072,6 @@ p a {
 /*Mobile CTA Ends Here*/
 .portfolio-projects-cols .portfolio-projects-infobox {
     border-radius: 10px;
-    margin-bottom: 20px;
     border: 2px solid #000000;
     background: #FFFFFF;
     padding: 10px;
@@ -1738,6 +1737,7 @@ img.emoji {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 .service-card-item h3 {

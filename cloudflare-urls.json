@@ -1,21 +1,21 @@
 {
   "success": [
     {
-      "originalPath": "service-page-banner",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/service-page-banner/public",
-      "id": "service-page-banner",
+      "originalPath": "pcb-repair-services",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/pcb-repair-services/public",
+      "id": "pcb-repair-services",
       "success": true
     },
     {
-      "originalPath": "services-mobile-banner",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/services-mobile-banner/public",
-      "id": "services-mobile-banner",
+      "originalPath": "pcb-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/pcb-repair/public",
+      "id": "pcb-repair",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "service-page-banner": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/service-page-banner/public",
-    "services-mobile-banner": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/services-mobile-banner/public"
+    "pcb-repair-services": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/pcb-repair-services/public",
+    "pcb-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/pcb-repair/public"
   }
 }

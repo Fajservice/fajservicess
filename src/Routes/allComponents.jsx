@@ -198,6 +198,7 @@ export const AcRepairInProductionCity = withSuspense(React.lazy(() => import("..
 export const AcRepairandServiceInEmiratesHills = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairandServiceInEmiratesHills")));
 export const AcRepairandServiceInTownSquare = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare")));
 export const AcServiceInDubai = withSuspense(React.lazy(() => import("../Pages/AcServiceInDubai")));
+export const PcbRepairServicesDubai = withSuspense(React.lazy(() => import("../Pages/PcbRepairServicesDubai")));
 export const AcServiceInDubaiArabic = withSuspense(React.lazy(() => import("../Pages/AcServiceInDubaiArabic")));
 export const BBQService = withSuspense(React.lazy(() => import("../Pages/HomeAppPages/BBQService")));
 export const IndesitWashingMachine = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine")));

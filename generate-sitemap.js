@@ -73,6 +73,8 @@ const urls = [
   { loc: "/services/commercial-dishwasher-repair/" },
   { loc: "/services/laundry-equipment-repair/", priority: "0.90" },
 
+  { loc: "/services/pcb-repair-services/" },
+
   { loc: "/services/air-conditioning-repair/brands/" },
   { loc: "/services/air-conditioning-repair/brands/aftron/" },
   { loc: "/services/air-conditioning-repair/brands/blue-star/" },
