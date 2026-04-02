@@ -13,15 +13,15 @@ export const usePopup = () => {
 const STORAGE_KEY = 'hasVisited';
 
 // Preload popup image immediately
-const POPUP_IMAGE_URL = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/30discount/public';
-if (typeof window !== 'undefined') {
-  const link = document.createElement('link');
-  link.rel = 'preload';
-  link.as = 'image';
-  link.href = POPUP_IMAGE_URL;
-  link.fetchPriority = 'high';
-  document.head.appendChild(link);
-}
+// const POPUP_IMAGE_URL = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/30discount/public';
+// if (typeof window !== 'undefined') {
+//   const link = document.createElement('link');
+//   link.rel = 'preload';
+//   link.as = 'image';
+//   link.href = POPUP_IMAGE_URL;
+//   link.fetchPriority = 'high';
+//   document.head.appendChild(link);
+// }
 
 export const PopupProvider = ({ children }) => {
   // Initialize synchronously - no delay for first-time visitors

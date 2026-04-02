@@ -1,21 +1,28 @@
 {
   "success": [
     {
-      "originalPath": "pcb-repair-services",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/pcb-repair-services/public",
-      "id": "pcb-repair-services",
+      "originalPath": "blog/cake-storage-temperature-guide",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/cake-storage-temperature-guide/public",
+      "id": "blog/cake-storage-temperature-guide",
       "success": true
     },
     {
-      "originalPath": "pcb-repair",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/pcb-repair/public",
-      "id": "pcb-repair",
+      "originalPath": "blog/data-center-temperature-cooling-guide",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/data-center-temperature-cooling-guide/public",
+      "id": "blog/data-center-temperature-cooling-guide",
+      "success": true
+    },
+    {
+      "originalPath": "blog/diy-ac-service-guide-dubai",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/diy-ac-service-guide-dubai/public",
+      "id": "blog/diy-ac-service-guide-dubai",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "pcb-repair-services": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/pcb-repair-services/public",
-    "pcb-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/pcb-repair/public"
+    "blog/cake-storage-temperature-guide": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/cake-storage-temperature-guide/public",
+    "blog/data-center-temperature-cooling-guide": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/data-center-temperature-cooling-guide/public",
+    "blog/diy-ac-service-guide-dubai": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/diy-ac-service-guide-dubai/public"
   }
 }

@@ -601,7 +601,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   </div>
                   <div className="cs_post_meta">
                     <span className="cs_accent_color"><CommentIcon size={24} /></span>
-                    <span className="cs_heading_color">{blogPost.comments} Comments</span>
+                    <span className="cs_heading_color">{comments.length} Comments</span>
                   </div>
                   <div className="cs_post_meta">
                     <span className="cs_accent_color"><PeopleIcon size={24} /></span>
@@ -650,13 +650,13 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               {/* Share section */}
               <div className="cs_post_share_wrapper">
                 <div className="cs_post_tags cs_style_1">
-                  <h3 className="cs_fs_24">Tags:</h3>
+                  <h3 className="cs_fs_24 mt-0">Tags:</h3>
                   <div className="cs_tags_links cs_fs_14 cs_heading_font">
                     {renderContent(blogPost.sec_tag_content)}
                   </div>
                 </div>
                 <div className="cs_post_socials">
-                  <h3 className="cs_fs_24">Share:</h3>
+                  <h3 className="cs_fs_24 mt-0">Share:</h3>
                   <div className="cs_social_btns cs_style_1">
                     <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="cs_center cs_radius_50" aria-label="Share on Facebook">
                       <FacebookIcon size={14} />
@@ -676,7 +676,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
               {/* Comment form */}
               <div className="cs_form_wrapper cs_style_1 cs_accent_bg_light">
-                <h3 className="cs_fs_30 cs_mb_13">Leave a Reply</h3>
+                <h3 className="cs_fs_30 cs_mb_13 mt-0">Leave a Reply</h3>
                 <p className="cs_mb_22">Your email address will not be published. Required fields are marked *</p>
 
                 {submitStatus === "success" && (

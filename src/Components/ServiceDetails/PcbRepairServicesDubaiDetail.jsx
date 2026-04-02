@@ -4,14 +4,7 @@ import { Helmet } from "react-helmet-async";
 import HeaderForm from "../Headeform/HeaderForm";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BookingFormModal from '../BookingFormModal';
-import CallNowButton       from '../Buttons/CallNowButton';
-import GetQuoteButton      from "../Buttons/GetQuoteButton";
-import Blog2               from "../Blog/Blog2";
-import Testimonial1        from "../Testimonial/Testimonial1";
-import BeforeAfter         from "../BeforeAfter/BeforeAfter";
 import Serviceappointemnt  from '../Contact/Serviceappointemnt';
-import Process from "../Process/Process";
-
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
@@ -31,91 +24,6 @@ const EyeSlashIcon = () => (
     <path d="M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
-
-const SCHEMA = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "LocalBusiness",
-      "name": "AC Repair Dubai - FAJ Technical Services L.L.C",
-      "image": ["https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"],
-      "url": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/",
-      "telephone": "+971 4 330 0002",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "3500", "bestRating": "5" },
-      "areaServed": [
-        { "@type": "City", "name": "Dubai" },
-        { "@type": "City", "name": "Sharjah" },
-        { "@type": "City", "name": "Abu Dhabi" }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog", "name": "AC Services",
-        "itemListElement": [
-          { "@type": "OfferCatalog", "name": "AC Repair", "itemListElement": [
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Split AC Repair" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ducted AC Repair" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Window AC Repair" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Central AC Repair" } }
-          ]},
-          { "@type": "OfferCatalog", "name": "AC Service", "itemListElement": [
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Filter Cleaning" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Coil Cleaning" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Gas Refill" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Duct Cleaning" } }
-          ]},
-          { "@type": "OfferCatalog", "name": "AC Maintenance", "itemListElement": [
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Annual Maintenance Contract" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Preventive AC Maintenance" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Performance Check" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Thermostat Check" } }
-          ]}
-        ]
-      },
-      "review": [
-        { "@type": "Review", "author": { "@type": "Person", "name": "Ahsan Raza" }, "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" }, "reviewBody": "We recently faced an urgent situation when our Daikin VRV air conditioning unit malfunctioned, continuously blowing hot air into our home. FAJ responded promptly and resolved the issue with remarkable efficiency. From the initial call to the completion of the AC repair, everyone involved was professional, courteous, and meticulous in their work. We highly recommend their services to anyone in need." },
-        { "@type": "Review", "author": { "@type": "Person", "name": "Abdullah Kiani" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "My AC was not working and taking too much load with no cooling. I contacted FAJ Technical Services and they sent a technician named Taranpal Singh. That guy was a genius and super expert in his work. Very clean and very efficient services. Strongly recommend and super friendly." },
-        { "@type": "Review", "author": { "@type": "Person", "name": "Sanjeewa Supun" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "I knew they were the right choice. I am grateful for their effort in fixing my LG air conditioner, which is essential in this heat. If you are experiencing the same issue, I highly recommend their air conditioning repair service!" },
-        { "@type": "Review", "author": { "@type": "Person", "name": "Palesa Molelekoa" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "My apartment AC stopped working during my tour. Despite trying all DIY tips my AC was not cooling. My friend suggested FAJ and they came for same day service and did LG AC repair in two hours. They topped the refrigerant level and replaced the AC thermostat. Technician was friendly and very polite. Would recommend their AC technicians to whoever needs assistance." },
-        { "@type": "Review", "author": { "@type": "Person", "name": "Affu Affu" }, "reviewRating": { "@type": "Rating", "ratingValue": "4.9", "bestRating": "5" }, "reviewBody": "Highly recommended. They are the best in AC repair services in Dubai." }
-      ]
-    },
-    {
-      "@type": "VideoObject",
-      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#video",
-      "name": "Air Conditioning Repair Services: Your Home's Cooling Solution | FAJ",
-      "description": "Expert advice on air conditioning repair and maintenance in Dubai.",
-      "thumbnailUrl": "https://img.youtube.com/vi/sxBhB1_gxYA/maxresdefault.jpg",
-      "uploadDate": "2023-09-15T07:59:44Z",
-      "duration": "PT48S",
-      "embedUrl": "https://www.youtube.com/embed/sxBhB1_gxYA",
-      "publisher": { "@id": "https://www.fajservices.ae/#organization" }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#faq",
-      "mainEntity": [
-        { "@type": "Question", "name": "How much is AC service in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service." } },
-        { "@type": "Question", "name": "Why is my AC not cooling in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor." } },
-        { "@type": "Question", "name": "Why is AC repair so expensive?", "acceptedAnswer": { "@type": "Answer", "text": "AC repairs can be expensive due to the high cost of parts like compressors or coils and specialized labor." } },
-        { "@type": "Question", "name": "Why is my AC giving cool air but not cooling the room?", "acceptedAnswer": { "@type": "Answer", "text": "It could be due to low refrigerant or clogged filters. A technician can fix this with a proper inspection." } },
-        { "@type": "Question", "name": "How often should AC be cleaned in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "AC units in Dubai should be cleaned every 3 to 6 months due to high dust levels." } },
-        { "@type": "Question", "name": "Which company is best for central AC in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "FAJ Technical Services L.L.C is one of the best companies for central AC services in Dubai." } },
-        { "@type": "Question", "name": "What maintenance is needed for AC?", "acceptedAnswer": { "@type": "Answer", "text": "AC maintenance includes cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines." } }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#breadcrumb",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home",                   "item": "https://www.fajservices.ae/" },
-        { "@type": "ListItem", "position": 2, "name": "Services",               "item": "https://www.fajservices.ae/services/" },
-        { "@type": "ListItem", "position": 3, "name": "Air Conditioning Repair","item": "https://www.fajservices.ae/services/air-conditioning-repair/" },
-        { "@type": "ListItem", "position": 4, "name": "AC Service",             "item": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/" }
-      ]
-    }
-  ]
-};
-
-const SCHEMA_STRING = JSON.stringify(SCHEMA);
 
 const useInView = (rootMargin = "200px") => {
   const [isInView, setIsInView] = useState(false);
@@ -146,44 +54,6 @@ const LazySection = memo(({ children, minHeight = "200px" }) => {
   );
 });
 
-const YouTubeFacade = memo(({ videoId, title }) => {
-  const [clicked, setClicked] = useState(false);
-  if (clicked) {
-    return (
-      <iframe
-        className="bordered-img blue-border"
-        width="100%" height="350"
-        src={`https://www.youtube.com/embed/${videoId}?autoplay=1&si=b-4PWehpy2R_jztH`}
-        title={title}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-        style={{ display: 'block' }}
-      />
-    );
-  }
-  return (
-    <div
-      className="bordered-img blue-border"
-      onClick={() => setClicked(true)}
-      style={{ position: 'relative', width: '100%', height: '350px', cursor: 'pointer', overflow: 'hidden', background: '#000', contain: 'layout style' }}
-      role="button"
-      aria-label={`Play video: ${title}`}
-    >
-      <img
-        src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
-        alt={title}
-        loading="lazy"
-        width="480" height="350"
-        style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.85 }}
-      />
-      <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '68px', height: '48px', background: '#ff0000', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' }}>
-        <svg viewBox="0 0 68 48" width="68" height="48">
-          <polygon points="28,16 28,32 44,24" fill="#fff" />
-        </svg>
-      </div>
-    </div>
-  );
-});
 
 const ButtonPlaceholder = memo(() => (
   <div style={{ width: '120px', height: '44px', background: "#e0e0e0", borderRadius: '8px', display: 'inline-block' }} />
@@ -246,7 +116,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   useEffect(() => {
     if (!faqSectionInView || faqData.length > 0) return;
     const controller = new AbortController();
-    fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcServiceInDubaiFaqs.json`, { signal: controller.signal })
+    fetch(`${import.meta.env.BASE_URL}data/pcbrepairfaqs.json`, { signal: controller.signal })
       .then(res => res.json())
       .then(data => setFaqData(data))
       .catch(err => { if (err.name !== 'AbortError') console.error('FAQ fetch error:', err); });
@@ -283,7 +153,103 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <link rel="preconnect" href="https://imagedelivery.net" />
         <link rel="dns-prefetch" href="https://imagedelivery.net" />
         <link rel="preconnect" href="https://img.youtube.com" />
-        <script type="application/ld+json">{SCHEMA_STRING}</script>
+      <style>{`
+        /* custom-pcb-cards grid */
+        .custom-pcb-cards {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 2rem;
+        }
+
+        .custom-pcb-cards .card {
+          background: #ffffff;
+          border-radius: 1.75rem;
+          overflow: hidden;
+          box-shadow: 0 0 30px 14px rgba(0, 0, 0, 0.1);
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+        }
+        .custom-pcb-cards .card-img img{
+          border: 0px;
+          max-height: 100%;
+        }
+        .custom-pcb-cards .card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* image area - each card gets a unique illustrative image */
+        .custom-pcb-cards .card-img {
+          width: 100%;
+          background: #f0f6fa;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .custom-pcb-cards .card-img svg {
+          width: 100%;
+          max-width: 200px;
+          height: auto;
+          filter: drop-shadow(0 2px 6px rgba(0,0,0,0.08));
+        }
+
+        /* card text area */
+        .custom-pcb-cards .card-text {
+          padding: 1.5rem 1.8rem 2rem 1.8rem;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+        }
+
+        /* main heading (Industrial, Commercial, Consumer) */
+        .custom-pcb-cards .main-heading {
+          font-size: 1.9rem;
+          font-weight: 800;
+          color: #0c5a6b;
+          letter-spacing: -0.02em;
+          border-left: 5px solid #2c9aaf;
+          padding-left: 0.9rem;
+          margin-bottom: 0.25rem;
+          text-align: left;
+          margin: 4px 0px;
+        }
+
+        /* subheading — the descriptive line right under main heading */
+        .custom-pcb-cards .subheading {
+          font-size: 1rem;
+          font-weight: 600;
+          color: #2a6e7e;
+          background: #eef3f8;
+          display: inline-block;
+          padding: 0.3rem 1rem;
+          border-radius: 40px;
+          width: fit-content;
+          text-align: left;
+          margin: 4px 0px 15px;
+        }
+        .custom-pcb-cards .card-text ul li p{
+          margin-bottom: 0px;
+        }
+
+        /* responsive */
+        @media (max-width: 950px) {
+          .custom-pcb-cards .custom-pcb-cards {
+            gap: 1.5rem;
+          }
+        }
+
+        @media (max-width: 780px) {
+          .custom-pcb-cards .custom-pcb-cards {
+            grid-template-columns: 1fr;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+      `}</style>
       </Helmet>
 
       <HeaderForm />
@@ -305,13 +271,13 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         </section>
 
         {/* Our AC Repair & Service */}
-        <section className="section cs_py_30 pb-0">
+        <section className="section bg-light-gray cs_py_30 pb-3">
           <div className="container">
-            <div className="row gx-md-5 expert_section_wrapper align-items-center mb-4">
+            <div className="row gx-md-5 expert_section_wrapper align-items-center">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1 mt-0 text-align-left">Affordable Electronics PCB Repair and Servo Drive Services in Dubai, UAE</h2>
-                <p className="mb-1">We are the highest provider of electronic<a href="https://www.fajservices.ae/services/">PCB repair and servo drive repair services in Dubai</a>, dedicated to reviving and extending the life of your electronic equipment. appliances PCB, AC PCB and all Printed Circuit Boards repair near you.</p>
-                <p className="mb md-1">When it comes to printed circuit boards (PCBs), even minor faults can disrupt your electronics' performance.<a href="https://maps.app.goo.gl/qSMC1s6pnKz5YK9cA">FAJ Technical Services L.L.C</a> acknowledges the important role of PCBs in modern technology, which is why we offer comprehensive repair services for issues ranging from minor defects to complex damage.</p>
+                <p className="mb-1">We are the highest provider of electronic <a href="https://www.fajservices.ae/services/">PCB repair and servo drive repair services in Dubai</a>, dedicated to reviving and extending the life of your electronic equipment. appliances PCB, AC PCB and all Printed Circuit Boards repair near you.</p>
+                <p className="mb md-1">When it comes to printed circuit boards (PCBs), even minor faults can disrupt your electronics' performance. <a href="https://maps.app.goo.gl/qSMC1s6pnKz5YK9cA">FAJ Technical Services L.L.C</a> acknowledges the important role of PCBs in modern technology, which is why we offer comprehensive repair services for issues ranging from minor defects to complex damage.</p>
               </div>
               <div className="col-md-6">
                  <img
@@ -329,7 +295,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
         {/* Why AC Maintenance Important */}
         <LazySection minHeight="400px">
-          <section className="section cs_py_30 bg-light-gray" style={{ contain: 'layout style' }}>
+          <section className="section cs_py_30 pb-3" style={{ contain: 'layout style' }}>
             <div className="container">
              
               
@@ -351,6 +317,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <li><strong>Cutting-Edge Equipment: </strong>We support the most advanced diagnostic and repair equipment to guarantee precision and reliability.</li>
                     <li><strong>Quick Turnaround:</strong> We recognise the importance of reducing downtime and provide quick turnaround times to ensure your electronics are back in action.</li>
                     <li><strong>Quality Assurance: </strong>Our strict quality control processes ensure that repaired PCBs meet or exceed industry standards.</li>
+                    <li><strong>Significant Savings: </strong>Repairing a PCB is usually more economical than purchasing new, particularly for specialized or obsolete industrial equipment.</li>
+                    <li><strong>Environmental Responsibility: </strong>FAJ help reduce electronic waste (e-waste) by extending the lifespan of your existing components.</li>
                   </ul>
                 </div>
               </div>
@@ -382,6 +350,81 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
           </div>
         </section>
+        <section className="section cs_py_30 pb-3" style={{ contain: 'layout style' }}>
+            <div className="container">
+                <h2 className="cs_fs_24">Get Your Electronics Working Again! with FAJ Electronics PCB Repair Specialists</h2>
+                <div className="custom-pcb-cards row">
+                  <div>
+                    <div className="card">
+                      <div className="card-img">
+                        <img
+                          className="blue-border"
+                          src={getImageSrc('pcb-repair')}
+                          alt="PCB Repair"
+                          loading="lazy"
+                          width="600" height="400"
+                          style={{ width: '100%', height: 'auto' }}
+                        />
+                      </div>
+                      <div className="card-text">
+                        <h3 className="main-heading">Industrial PCB Board</h3>
+                        <h4 className="subheading">Manufacturing & Renewable Energy Machinery</h4>
+                        <ul>
+                          <li><p>When essential components on the PCB fail, it can cause costly downtime and disrupt manufacturing operations.</p></li>
+                          <li><p>If these machines fail due to PCB faults, our PCB technician will accurately diagnose the faulty component on the PCBs and replace it to restore functionality.</p></li>
+                          <li><p>PCB repair is a valuable skill that extends the lifespan of electronic devices. At FAJ Electronic Services in Dubai, we specialise in restoring faulty PCB boards, offering solutions from minor fixes to complete overhauls. Contact us today to see how we can help!</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="card">
+                      <div className="card-img">
+                        <img
+                          className="blue-border"
+                          src={getImageSrc('commercialpcbrepair')}
+                          alt="Commercial PCB Repair Services in Dubai"
+                          loading="lazy"
+                          width="600" height="400"
+                          style={{ width: '100%', height: 'auto' }}
+                        />
+                      </div>
+                      <div className="card-text">
+                        <h3 className="main-heading">Commercial</h3>
+                        <h4 className="subheading">Commercial & Professional Equipment’s</h4>
+                        <ul>
+                          <li><p>Commercial & Professional Equipment’s. Automation PCB board, transportation PCB, logistics PCB, healthcare PCB, hospitality PCB, automobiles electronic circuit board PCB, and networking PCB.</p></li>
+                          <li><p>When necessary components on a PCB (printed circuit board) fail, it can result in costly downtime and disrupt your business operations. If machines cease functioning due to a PCB fault, FAJ PCB technicians can accurately diagnose the faulty component. They will then replace it with a new one, fixing the machine to operational status.</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="card">
+                      <div className="card-img">
+                        <img
+                          className="blue-border"
+                          src={getImageSrc('consumerpcbrepair')}
+                          alt="Consumer PCB Repair Services in Dubai"
+                          loading="lazy"
+                          width="600" height="400"
+                          style={{ width: '100%', height: 'auto' }}
+                        />
+                      </div>
+                      <div className="card-text">
+                        <h3 className="main-heading">Consumer</h3>
+                        <h4 className="subheading">Consumer Durable Equipment’s</h4>
+                        <ul>
+                          <li><p>When required components on the PCB board fail, it can disrupt your daily life.</p></li>
+                          <li><p>If the equipment stops working due to a PCB fault, PCB technicians can accurately diagnose the faulty component on the PCBs and replace it to repair functionality.</p></li>
+                          <li><p>When your air conditioner, appliances, or kitchen equipment such as refrigerators, washing machines, dryer, ice maker & chillers suddenly stop working, it’s often due to a malfunctioning PCB (Printed Circuit Board). The FAJ team offers reliable & fast repair services for electronic boards.</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
         {/* <div ref={testimonialSectionRef} style={{ minHeight: '400px' }}>
           {testimonialSectionInView && testimonialData.length > 0 && (
             <Suspense fallback={<div style={{ height: '400px', background: '#f5f5f5' }} />}>
@@ -404,7 +447,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <Serviceappointemnt subtitle2="Contact us" title2="Book An Appointment" />
           </section>
         </LazySection>
-        {/* <div ref={faqSectionRef} style={{ minHeight: '300px' }}>
+        <div ref={faqSectionRef} style={{ minHeight: '300px' }}>
           {faqSectionInView && (
             <FAQSection
               data={faqData}
@@ -412,8 +455,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               onItemClick={handleItemClick}
             />
           )}
-        </div> */}
-        <Process />
+        </div>
       </div>
     </>
   );

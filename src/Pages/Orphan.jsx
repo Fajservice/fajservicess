@@ -324,6 +324,7 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/the-gardens/">The Gardens</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/al-barsha-south/">Al Barsha South</a></li>
                             <li><a href="https://www.fajservices.ae/blog/types-of-air-conditioners/">Types of Air Conditioners</a></li>
+                            <li><a href="https://www.fajservices.ae/ac-tonnage-calculator/">AC Tonnage Calculator</a></li>
                             <li><a href="https://www.fajservices.ae/blog/what-is-vent-mode/">What is Vent Mode</a></li>
                             <li><a href="https://www.fajservices.ae/blog/benefits-of-smart-thermostats/">Benefits of Smart Thermostats</a></li>
                             <li><a href="https://www.fajservices.ae/blog/how-to-reset-o-general-ac/">How to Reset O General AC</a></li>
@@ -355,6 +356,11 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-commercial-kitchen-equipment-for-eid-al-fitr-2026-in-UAE/">The Ultimate Guide to Commercial Kitchen Equipment for Eid Al Fitr 2026 in UAE</a></li>
                             <li><a href="https://www.fajservices.ae/blog/top-10-signs-your-ac-needs-maintenance-in-dubai/">Top 10 Signs Your AC Needs Maintenance in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/bosch/">Bosch Home Appliances Repair Services</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/dubai-heatwave-tips-ac-importance/">Dubai Heatwave Tips: The Importance of AC in the UAE</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/humidifier-vs-dehumidifier-what-do-you-need-for-better-air-quality/">Humidifier vs. Dehumidifier: What Do You Need for Better Air Quality?</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-refrigerator-temperature-for-food-medicines-safety/">The Ultimate Guide to Refrigerator Temperature for Food & Medicines Safety</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-refrigerator-repair-protect-your-familys-health-with-proper-cooling/">The Ultimate Guide to Refrigerator Repair: Protect Your Family's Health with Proper Cooling</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/best-temperature-setting-for-restaurants-display-fridges-and-chillers-understanding-restaurant-refrigeration-temperature/">Best Temperature Setting for Restaurants: Display Fridges and Chillers - Understanding Restaurant Refrigeration Temperature</a></li>
                         </ul>
                     </div>
                 </div>
