@@ -361,6 +361,9 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-refrigerator-temperature-for-food-medicines-safety/">The Ultimate Guide to Refrigerator Temperature for Food & Medicines Safety</a></li>
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-refrigerator-repair-protect-your-familys-health-with-proper-cooling/">The Ultimate Guide to Refrigerator Repair: Protect Your Family's Health with Proper Cooling</a></li>
                             <li><a href="https://www.fajservices.ae/blog/best-temperature-setting-for-restaurants-display-fridges-and-chillers-understanding-restaurant-refrigeration-temperature/">Best Temperature Setting for Restaurants: Display Fridges and Chillers - Understanding Restaurant Refrigeration Temperature</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-data-center-temperature-best-temperature-setting-for-data-center-server-rooms/">The Ultimate Guide to Data Center Temperature: Best Temperature Setting for Data Center Server Rooms</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/cake-storage-temperature-guide-best-temperature-for-fresh-cakes/">Cake Storage Temperature Guide: Best Temperature for Fresh Cakes</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-do-ac-service-easy-diy-guide-for-beginners/">How to Do AC Service: Easy DIY Guide for Beginners</a></li>
                         </ul>
                     </div>
                 </div>

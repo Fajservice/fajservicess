@@ -259,8 +259,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* Hero */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Top-Quilaity Electronic PCB Repair and AC / DC PCB  Board Service Near You, in Dubai</h1>
-            <p>We provide expert electronic PCB board repair services for both AC and DC drives boards, Power Devices, Machine controllers, Soft Starters, PLCs & Modules, and Servo & Stepper Drives repairs. Our repair services save you the high cost of replacing your existing PCB board.</p>
+            <h1 className="cs_fs_30">Top-Quality Electronic PCB Repair and AC / DC PCB  Board Service Near You, in Dubai</h1>
+            <p>We provide expert electronic PCB board repair services for both AC and DC drive boards, Power Devices, Machine controllers, Soft Starters, PLCs & Modules, and Servo & Stepper Drives repairs. Our repair services save you the high cost of replacing your existing PCB board.</p>
             <div className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -318,7 +318,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <li><strong>Quick Turnaround:</strong> We recognise the importance of reducing downtime and provide quick turnaround times to ensure your electronics are back in action.</li>
                     <li><strong>Quality Assurance: </strong>Our strict quality control processes ensure that repaired PCBs meet or exceed industry standards.</li>
                     <li><strong>Significant Savings: </strong>Repairing a PCB is usually more economical than purchasing new, particularly for specialized or obsolete industrial equipment.</li>
-                    <li><strong>Environmental Responsibility: </strong>FAJ help reduce electronic waste (e-waste) by extending the lifespan of your existing components.</li>
+                    <li><strong>Environmental Responsibility: </strong>FAJ helps reduce electronic waste (e-waste) by extending the lifespan of your existing components.</li>
                   </ul>
                 </div>
               </div>
@@ -393,7 +393,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                         <h3 className="main-heading">Commercial</h3>
                         <h4 className="subheading">Commercial & Professional Equipment’s</h4>
                         <ul>
-                          <li><p>Commercial & Professional Equipment’s. Automation PCB board, transportation PCB, logistics PCB, healthcare PCB, hospitality PCB, automobiles electronic circuit board PCB, and networking PCB.</p></li>
+                          <li><p>Commercial & Professional Equipment’s. It includes automation PCB board, transportation PCB, logistics PCB, healthcare PCB, hospitality PCB, automobiles electronic circuit board PCB, and networking PCB.</p></li>
                           <li><p>When necessary components on a PCB (printed circuit board) fail, it can result in costly downtime and disrupt your business operations. If machines cease functioning due to a PCB fault, FAJ PCB technicians can accurately diagnose the faulty component. They will then replace it with a new one, fixing the machine to operational status.</p></li>
                         </ul>
                       </div>

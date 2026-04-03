@@ -168,8 +168,8 @@ const getImageSrc = (imgPath) => {
         `}</style>
       </nav>
       <div className="portfolio-banner-wrap pt-4">
-          <img className='d-none d-md-block w-100' src={getImageSrc('portfoliobanner')} />
-          <img className='d-md-none' src={getImageSrc('portfolio-mobile-banner')} />
+          <img className='d-none d-md-block w-100' src={getImageSrc('portfoliobanner')} alt='Portfolio Banner'/>
+          <img className='d-md-none' src={getImageSrc('portfolio-mobile-banner')} alt='Portfolio Mobile Banner'/>
       </div>
     </div>
   );
