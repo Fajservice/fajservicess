@@ -473,20 +473,20 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="uspcol col-1">
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icons/fast-reliable.png`} alt="خدمة سريعة وموثوقة" />
+                <img src={`${CDN}/icons/fast-reliable.png`} alt="خدمة سريعة وموثوقة" />
               </div>
               <div className="usptext">
-                <h3 className="">موثوقة، أولوية، وسريعة</h3>
+                <h3>موثوقة، أولوية، وسريعة</h3>
                 <p>يمكنك الاعتماد على <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>خدمة فعالة</b></a>! زيارة الإصلاح في نفس اليوم أو الخدمة في اليوم التالي تضمن تلبية احتياجاتك بسرعة.</p>
               </div>
             </div>
 
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icons/experts.png`} alt="نحن خبراء" />
+                <img src={`${CDN}/icons/experts.png`} alt="نحن خبراء" />
               </div>
               <div className="usptext">
-                <h3 className="">شعور بالطمأنينة</h3>
+                <h3>شعور بالطمأنينة</h3>
                 <p>مع <a href="/services/air-conditioning-repair/ac-service/">عقد الصيانة السنوية</a>، تحصل على خدمة كاملة لمدة عام، مما يضمن عمل التكييف بسلاسة ويوفر راحة البال.
                 </p>
               </div>
@@ -494,10 +494,10 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
             <div className="uspitem mb-0">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icons/full-control.webp`} alt="خدمة أيقونة FAJ" />
+                <img src={`${CDN}/icons/full-control.webp`} alt="خدمة أيقونة FAJ" />
               </div>
               <div className="usptext">
-                <h3 className="">أنت تحت السيطرة</h3>
+                <h3>أنت تحت السيطرة</h3>
                 <p>اختر يومًا ووقتًا لإصلاح التكييف في دبي أو الشارقة. مع نافذة زمنية من 3-4 ساعات لوصول الفني.
                 </p>
               </div>
@@ -513,28 +513,28 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="uspcol col-3">
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icons/value.png`} alt="خدمة أيقونة FAJ" />
+                <img src={`${CDN}/icons/value.png`} alt="خدمة أيقونة FAJ" />
               </div>
               <div className="usptext">
-                <h3 className="">نحن خبراء</h3>
+                <h3>نحن خبراء</h3>
                 <p>نحن خبراء في إصلاح التكييف. لهذا السبب تثق معظم العلامات التجارية الكبرى بنا للتعامل مع احتياجات الخدمة والصيانة لديها.</p>
               </div>
             </div>
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icons/confidence-guarantee.png`} alt="خدمة أيقونة FAJ" />
+                <img src={`${CDN}/icons/confidence-guarantee.png`} alt="خدمة أيقونة FAJ" />
               </div>
               <div className="usptext">
-                <h3 className="">قيمة رائعة</h3>
+                <h3>قيمة رائعة</h3>
                 <p>نحن ملتزمون بضمان رضا العملاء من خلال الخدمة في الوقت المحدد، وحل المشكلات بسرعة، وأسعار معقولة.</p>
               </div>
             </div>
             <div className="uspitem mb-0">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icons/trustworthy.png`} alt="خدمة أيقونة FAJ" />
+                <img src={`${CDN}/icons/trustworthy.png`} alt="خدمة أيقونة FAJ" />
               </div>
               <div className="usptext">
-                <h3 className="">جدير بالثقة</h3>
+                <h3>جدير بالثقة</h3>
                 <p>فنيو التكييف <a href="https://www.facebook.com/acrepairservices"><b>الماهرون لدينا</b></a> مدربون تدريباً عالياً، ونقدم خدمة ممتازة لمجموعة متنوعة من علامات التكييف الكبرى بكفاءة.
                 </p>
               </div>
@@ -658,7 +658,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             </div>
             <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
-                    <img className="" src={`${CDN}/benafit-acimg.jpg`} alt="خدمة التكييف" />
+                    <img src={`${CDN}/benafit-acimg.jpg`} alt="خدمة التكييف" />
                 </div>
             </div>
             <div className="col-lg-4">

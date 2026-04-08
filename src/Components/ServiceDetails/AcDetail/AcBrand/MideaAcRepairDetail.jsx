@@ -358,7 +358,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Midea AC Maintenance Service Important in Dubai?</h2>
-            <p className="">
+            <p>
               Regular maintenance of Midea air conditioner in Dubai is essential for optimal performance. FAJ offers services to keep your system running efficiently. Count on us to ensure your Midea AC operates at its best. For maintenance nearby, please contact us.
             </p>
 
@@ -557,7 +557,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3>Reliable, Priority, and Quick</h3>
                     <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
@@ -567,7 +567,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                     <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
+                    <h3>Feeling Of Calm</h3>
                     <p>With <a href="/services/air-conditioning-repair/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                     </p>
                   </div>
@@ -578,7 +578,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                     <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>Choose a day and time for your Midea AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
@@ -599,7 +599,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                     <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We are experts in Midea AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
@@ -609,7 +609,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
 
                   </div>
@@ -619,7 +619,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                     <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
+                    <h3>Trustworthy</h3>
                     <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
@@ -658,7 +658,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <p className="mb-0"><strong>  Midea Ceiling AC Service and Repair: </strong> Our experts can accurately diagnose and fix any issues with your Midea air conditioner. </p>
                 <p className="mb-0"><strong>  Midea VRF (Variable Refrigerant Flow) System Service and Repair: </strong> The Midea Variable Refrigerant Flow (VRF) System service offers you an exceptional level of peace of mind, ensuring that you are in the best hands. At FAJ, we place a strong emphasis on both efficiency and reliability, striving to provide top-notch service that meets your needs. With our expertise in the Midea VRF System, you can trust that your comfort and satisfaction are our highest priorities. </p>
                 <p className="mb-0"><strong>  Midea Ducted Split AC Service and Repair: </strong> For Midea ducted split air conditioning systems in Dubai, expert help is crucial. Our skilled technicians specialize in diagnosing and fixing air conditioning issues, offering fast and reliable repair services. We focus on delivering efficient solutions to restore your comfort with minimal hassle. </p>
-                <p className=""><strong>  Midea Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from Dubai's intense heat? Ensure your Midea AC runs efficiently with our expert services. We keep your unit cool and reliable, so you can enjoy comfort indoors while the temperatures soar outside. </p>
+                <p><strong>  Midea Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from Dubai's intense heat? Ensure your Midea AC runs efficiently with our expert services. We keep your unit cool and reliable, so you can enjoy comfort indoors while the temperatures soar outside. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha/">Al Barsha</a> &nbsp;|&nbsp;

@@ -449,7 +449,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Wolf Appliances Maintenance Service Important in Dubai?</h3>
-            <p className="">
+            <p>
               Regular maintenance is crucial in Dubai due to the intense climate and heavy appliance usage in homes and kitchens. Whether it's a built-in oven or outdoor grill, regular servicing enhances performance, extends lifespan, and reduces safety risks. Here’s a detailed explanation based on Wolf appliance:
             </p>
 
@@ -639,7 +639,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="row gx-3 gy-5 mt-0">
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
 
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
@@ -655,7 +655,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -668,7 +668,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Lower-Energy-Bills')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -682,7 +682,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Saving-Money-on-Repair')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -696,7 +696,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -710,7 +710,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 </div>
 
                 <div className="col-md-4 mb-2">
-                  <div className="">
+                  <div>
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={getImageSrc('icon/Peace-of-Mind')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -742,7 +742,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3>Reliable, Priority, and Quick</h3>
                     <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repairs and next-day service visits ensure your needs are met promptly.</p>
                   </div>
                 </div>
@@ -752,7 +752,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <img src={getImageSrc('icon/experts')}  alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
+                    <h3>Feeling Of Calm</h3>
                     <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get year-round service to keep your Wolf appliance running smoothly and reliably.</p>
                   </div>
                 </div>
@@ -763,7 +763,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <img src={getImageSrc('icon/full-control')}  alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>
                       Schedule a day and time for your Wolf appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for the technician's arrival.
                     </p>
@@ -784,7 +784,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We specialise in Wolf appliance repair, which is why major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
@@ -794,7 +794,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>Inspection fee includes diagnosis, transport, and reinstallation up to two Wolf appliances at the same location in Dubai.</p>
                   </div>
                 </div>
@@ -803,7 +803,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
+                    <h3>Trustworthy</h3>
                     <p>Our skilled technicians specialise in Wolf appliances and provide outstanding service across major appliances.</p>
                   </div>
                 </div>
@@ -824,7 +824,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               appliancebrand="WOLF APPLIANCE"
               feeRange="ranging from AED 157 to 280"
             />
-            <h3 className="" style={{ fontSize: "25px" }}>We specialize in White Westinghouse appliance services of the following types</h3>
+            <h3 style={{ fontSize: "25px" }}>We specialize in White Westinghouse appliance services of the following types</h3>
             <div className="row">
               <div className="col-12">
 

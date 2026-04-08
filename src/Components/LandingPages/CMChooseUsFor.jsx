@@ -11,17 +11,17 @@ const WhyChooseUS = () => {
           <div className="uspcol col-1">
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icon/iconfast-reliable/public`} alt="Fast, Reliable Service" />
+                <img src={`${CDN}/icon/iconfast-reliable/public`} alt="Fast, Reliable Service" />
               </div>
               <div className="usptext">
-                <h3 className="">Reliable, Priority, and Quick</h3>
+                <h3>Reliable, Priority, and Quick</h3>
                 <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly. </p>
               </div>
             </div>
 
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icon/iconexperts/public`} alt="We Are Experts" />
+                <img src={`${CDN}/icon/iconexperts/public`} alt="We Are Experts" />
               </div>
               <div className="usptext">
                 <h3>Feeling Of Calm</h3>
@@ -32,10 +32,10 @@ const WhyChooseUS = () => {
 
             <div className="uspitem mb-0">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icon/iconfull-control/public`} alt="FAJ icon service" />
+                <img src={`${CDN}/icon/iconfull-control/public`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
-                <h3 className="">You Are in Control</h3>
+                <h3>You Are in Control</h3>
                 <p>Choose a day and time for your AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                 </p>
               </div>
@@ -53,7 +53,7 @@ const WhyChooseUS = () => {
           <div className="uspcol col-3">
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icon/iconvalue/public`} alt="FAJ icon service" />
+                <img src={`${CDN}/icon/iconvalue/public`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
                 <h3>We Are Experts</h3>
@@ -62,21 +62,21 @@ const WhyChooseUS = () => {
             </div>
             <div className="uspitem">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icon/iconconfidence-guarantee/public`} alt="FAJ icon service" />
+                <img src={`${CDN}/icon/iconconfidence-guarantee/public`} alt="FAJ icon service" />
 
               </div>
               <div className="usptext">
-                <h3 className="">Great Value</h3>
+                <h3>Great Value</h3>
                 <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
 
               </div>
             </div>
             <div className="uspitem mb-0">
               <div className="uspicon">
-                <img className="" src={`${CDN}/icon/icontrustworthy/public`} alt="FAJ icon service" />
+                <img src={`${CDN}/icon/icontrustworthy/public`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
-                <h3 className="">Trustworthy</h3>
+                <h3>Trustworthy</h3>
                 <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                 </p>
               </div>

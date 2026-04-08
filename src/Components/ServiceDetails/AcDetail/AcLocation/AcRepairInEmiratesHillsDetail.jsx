@@ -375,7 +375,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                                         <img src={getImageSrc('icon/fast-reliable')} alt="Fast, Reliable Service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">Reliable, Priority, and Quick</h3>
+                                        <h3>Reliable, Priority, and Quick</h3>
                                         <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly. </p>
                                     </div>
                                 </div>
@@ -385,7 +385,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                                         <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">Feeling Of Calm</h3>
+                                        <h3>Feeling Of Calm</h3>
                                         <p>With <a href="/services/air-conditioning-repair/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                                         </p>
                                     </div>
@@ -396,7 +396,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                                         <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">You Are in Control</h3>
+                                        <h3>You Are in Control</h3>
                                         <p>Choose a day and time for your AC repair near me, Emirates Hills Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                                         </p>
                                     </div>
@@ -417,7 +417,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                                         <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">We Are Experts</h3>
+                                        <h3>We Are Experts</h3>
                                         <p>We are experts in AC service in Emirates Hills. This is why most major brands trust us to handle their service and maintenance needs.</p>
                                     </div>
                                 </div>
@@ -427,7 +427,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">Great Value</h3>
+                                        <h3>Great Value</h3>
                                         <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
 
                                     </div>
@@ -437,7 +437,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                                         <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">Trustworthy</h3>
+                                        <h3>Trustworthy</h3>
                                         <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                                         </p>
                                     </div>

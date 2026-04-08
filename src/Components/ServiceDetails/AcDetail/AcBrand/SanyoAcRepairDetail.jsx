@@ -496,7 +496,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${CDN}/icon/fast-reliable/public`} alt="Fast, Reliable Service" />
+                    <img src={`${CDN}/icon/fast-reliable/public`} alt="Fast, Reliable Service" />
                   </div>
                   <div className="usptext">
                     <h3>Reliable, Priority, and Quick</h3>
@@ -506,7 +506,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${CDN}/icon/experts/public`} alt="We Are Experts" />
+                    <img src={`${CDN}/icon/experts/public`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3>Feeling Of Calm</h3>
@@ -517,7 +517,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${CDN}/icon/full-control/public`} alt="FAJ icon service" />
+                    <img src={`${CDN}/icon/full-control/public`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3>You Are in Control</h3>
@@ -537,7 +537,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${CDN}/icon/value/public`} alt="FAJ icon service" />
+                    <img src={`${CDN}/icon/value/public`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3>We Are Experts</h3>
@@ -546,7 +546,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${CDN}/icon/confidence-guarantee/public`} alt="FAJ icon service" />
+                    <img src={`${CDN}/icon/confidence-guarantee/public`} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -606,7 +606,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <p className="mb-0"><strong>Extended Lifespan:</strong> Regular AC maintenance prevents wear and tear, prolonging the life of your AC and minimising costly repairs.</p>
                 <p className="mb-0"><strong>Odour Elimination: </strong>It eliminates mold and mildew, resulting in fresher indoor air.</p>
                 <p className="mb-0"><strong>Reduced Mold Growth:</strong> Regular cleaning prevents the growth of mold and bacteria, which is crucial in humid climates.</p>
-                <p className=""><strong>Better Breathing:</strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency.</p>
+                <p><strong>Better Breathing:</strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency.</p>
 
                 <p>
                   <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha/">Al Barsha</a> &nbsp;|&nbsp;

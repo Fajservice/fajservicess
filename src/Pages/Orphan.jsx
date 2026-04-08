@@ -365,7 +365,7 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/cake-storage-temperature-guide-best-temperature-for-fresh-cakes/">Cake Storage Temperature Guide: Best Temperature for Fresh Cakes</a></li>
                             <li><a href="https://www.fajservices.ae/blog/how-to-do-ac-service-easy-diy-guide-for-beginners/">How to Do AC Service: Easy DIY Guide for Beginners</a></li>
                             <li><a href="https://www.fajservices.ae/blog/effect-of-high-temperature-and-climate-change-on-health-in-dubai-uae/">Effect of High Temperature and Climate Change on Health in Dubai, UAE</a></li>
-                            <li><a href="https://www.fajservices.ae/services/electrical-services-in-dubai/">Effect of High Temperature and Climate Change on Health in Dubai, UAE</a></li>
+                            <li><a href="https://www.fajservices.ae/services/electrical-services-in-dubai/">Electrical Services in Dubai</a></li>
                         </ul>
                     </div>
                 </div>

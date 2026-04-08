@@ -173,7 +173,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                 <section className="section cs_py_30">
                     <div className="container">
                         <h2 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h2>
-                        <p className="">
+                        <p>
                             Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
                         </p>
 
@@ -348,7 +348,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                             </h3>
                             <div className="row gx-3 gy-5 mt-0">
                                 <div className="col-md-4 mb-2">
-                                    <div className="">
+                                    <div>
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
                                                 <img src={getImageSrc('icon/Ensuring-Safety')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -359,7 +359,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-2">
-                                    <div className="">
+                                    <div>
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
                                                 <img src={getImageSrc('icon/Optimal-Performance')} alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -371,7 +371,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-2">
-                                    <div className="">
+                                    <div>
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
                                                 <img src={getImageSrc('icon/Lower-Energy-Bills')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -383,7 +383,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                                 </div>
 
                                 <div className="col-md-4 mb-2">
-                                    <div className="">
+                                    <div>
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
                                                 <img src={getImageSrc('icon/Saving-Money-on-Repair')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -395,7 +395,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                                     </div>
                                 </div>
                                 <div className="col-md-4 mb-2">
-                                    <div className="">
+                                    <div>
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
                                                 <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -409,7 +409,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                                 </div>
 
                                 <div className="col-md-4 mb-2">
-                                    <div className="">
+                                    <div>
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
                                                 <img src={getImageSrc('icon/Peace-of-Mind')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
@@ -438,7 +438,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
 
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">Reliable, Priority, and Quick</h3>
+                                        <h3>Reliable, Priority, and Quick</h3>
                                         <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                                     </div>
                                 </div>
@@ -448,7 +448,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                                         <img src={getImageSrc('icon/experts')}  alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">Feeling Of Calm</h3>
+                                        <h3>Feeling Of Calm</h3>
                                         <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                                     </div>
                                 </div>
@@ -459,7 +459,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                                         <img src={getImageSrc('icon/full-control')}  alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">You Are in Control</h3>
+                                        <h3>You Are in Control</h3>
                                         <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                                     </div>
                                 </div>
@@ -478,7 +478,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                                         <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">We Are Experts</h3>
+                                        <h3>We Are Experts</h3>
                                         <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                                     </div>
                                 </div>
@@ -488,7 +488,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
 
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">Great Value</h3>
+                                        <h3>Great Value</h3>
                                         <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
                                     </div>
                                 </div>
@@ -497,7 +497,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
                                         <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="">Trustworthy</h3>
+                                        <h3>Trustworthy</h3>
                                         <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                                     </div>
                                 </div>

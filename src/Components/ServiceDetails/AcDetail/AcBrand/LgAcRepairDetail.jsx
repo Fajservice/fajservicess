@@ -331,7 +331,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
           <div className="container">
 
             <h2 className="cs_fs_30">Why is LG AC Maintenance Service Important in Dubai?</h2>
-            <p className="">
+            <p>
               To keep your LG central air conditioner running smoothly in Dubai's heat, <a href="https://www.linkedin.com/company/faj-technical-services-llc">regular maintenance</a> is crucial. At FAJ, we offer expert LG aircon services for, ensuring optimal cooling and comfort year-round.
               Here to help keep your system running at its best!
 
@@ -522,7 +522,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3>Reliable, Priority, and Quick</h3>
                     <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
@@ -532,7 +532,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
                     <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
+                    <h3>Feeling Of Calm</h3>
                     <p>With <a href="/services/air-conditioning-repair/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                     </p>
                   </div>
@@ -543,7 +543,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
                     <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>Choose a day and time for your LG AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
@@ -563,7 +563,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
                     <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We are experts in LG AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
@@ -573,7 +573,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
 
                   </div>
@@ -583,7 +583,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
                     <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
+                    <h3>Trustworthy</h3>
                     <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>

@@ -341,7 +341,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Trane  AC Maintenance Service Important in Dubai?</h2>
-            <p className="">
+            <p>
               To ensure the efficient operation of Trane air conditioners in Dubai's extreme heat, regular servicing is essential. <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> offers professional AC services designed to provide optimal cooling and comfort throughout the year. Our team is dedicated to maximizing your system's performance.
             </p>
 
@@ -530,7 +530,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3>Reliable, Priority, and Quick</h3>
                     <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
@@ -540,7 +540,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                     <img src={getImageSrc('icon/experts')}  alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
+                    <h3>Feeling Of Calm</h3>
                     <p>With <a href="/services/air-conditioning-repair/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                     </p>
                   </div>
@@ -551,7 +551,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                     <img src={getImageSrc('icon/full-control')}  alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>Choose a day and time for your Trane AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
@@ -572,7 +572,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                     <img src={getImageSrc('icon/value')}  alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We are experts in Trane AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
@@ -582,7 +582,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
 
                   </div>
@@ -592,7 +592,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                     <img src={getImageSrc('icon/trustworthy')}  alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
+                    <h3>Trustworthy</h3>
                     <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
@@ -633,7 +633,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <p className="mb-0"><strong>  Trane Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Trane ceiling AC repair and ducted split AC service.</p>
                 <p className="mb-0"><strong>  Trane VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Trane Variable Refrigerant Flow (VRF) repair and maintenance services offer tailored HVAC solutions. Our skilled team emphasizes customer comfort and satisfaction, guaranteeing reliable service for your climate control requirements.</p>
                 <p className="mb-0"><strong>  Trane Ducted Split AC Service and Repair: </strong> For dependable Trane air conditioning repair and maintenance services in Dubai, our experienced technicians are prepared to assist you. With a strong proficiency in diagnosing various issues and interpreting error codes, we guarantee minimal disruption to your comfort. Rely on our prompt service to provide the cooling relief you require.</p>
-                <p className=""><strong>  Trane Wall-Mounted Air Conditioner Service and Repair: </strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our Trane package unit AC repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures.</p>
+                <p><strong>  Trane Wall-Mounted Air Conditioner Service and Repair: </strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our Trane package unit AC repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures.</p>
 
                 <p>
                   <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha/">Al Barsha</a> &nbsp;|&nbsp;

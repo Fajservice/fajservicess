@@ -535,7 +535,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3>Reliable, Priority, and Quick</h3>
                     <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
@@ -545,7 +545,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                     <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
+                    <h3>Feeling Of Calm</h3>
                     <p>With <a href="/services/air-conditioning-repair/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                     </p>
                   </div>
@@ -556,7 +556,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                     <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>Choose a day and time for your SKM AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
@@ -577,7 +577,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                     <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We are experts in SKM AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
@@ -587,7 +587,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
 
                   </div>
@@ -597,7 +597,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                     <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
+                    <h3>Trustworthy</h3>
                     <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
@@ -638,7 +638,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                 <p className="mb-0"> <strong>  SKM Ceiling AC Service and Repair:</strong> Our specialists can quickly diagnose and resolve any issues with your SKM ceiling AC repair and ducted split AC service. </p>
                 <p className="mb-0"> <strong>  SKM VRF (Variable Refrigerant Flow) System Service and Repair:</strong> FAJ's SKM Variable Refrigerant Flow (VRF) repair and maintenance services provide customised HVAC solutions. Our expert team prioritizes your comfort and satisfaction, ensuring dependable service for your climate control needs. </p>
                 <p className="mb-0"> <strong>  SKM Ducted Split AC Service and Repair:</strong> For reliable SKM air conditioning repair and maintenance in Dubai, our skilled technicians are ready to assist you. With expertise in diagnosing various issues and resolving error codes, we ensure minimal disruption to your comfort. Trust us for prompt service that delivers the cooling relief you need. </p>
-                <p className=""> <strong>  SKM Wall-Mounted Air Conditioner Service and Repair:</strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our SKM package unit AC repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures. </p>
+                <p> <strong>  SKM Wall-Mounted Air Conditioner Service and Repair:</strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our SKM package unit AC repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-barsha/">Al Barsha</a> &nbsp;|&nbsp;

@@ -260,7 +260,7 @@ const NearMeDetail = ({ subtitle, title, reviewsbg }) => {
               </div>
 
               <div className="col-md-6 border rounded p-3 d-flex align-items-center">
-                <img className=""  src={getImageSrc('Refrigerator-Appliances-to-Repair')} alt="Book Now" />
+                <img  src={getImageSrc('Refrigerator-Appliances-to-Repair')} alt="Book Now" />
               </div>
 
             </div>
@@ -272,7 +272,7 @@ const NearMeDetail = ({ subtitle, title, reviewsbg }) => {
 
               <div className="col-md-6">
                 <div className=" border rounded h-100 p-3 d-flex align-items-center" >
-                  <img className=""  src={getImageSrc('Washing-Machine-Repair-in-Dubai-Call-Out')} alt="Book Now" />
+                  <img  src={getImageSrc('Washing-Machine-Repair-in-Dubai-Call-Out')} alt="Book Now" />
                 </div>
 
               </div>
@@ -923,7 +923,7 @@ Call" />
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3>Reliable, Priority, and Quick</h3>
                     <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
@@ -933,7 +933,7 @@ Call" />
                     <img src={getImageSrc('icon/experts')} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
+                    <h3>Feeling Of Calm</h3>
                     <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
@@ -944,7 +944,7 @@ Call" />
                     <img src={getImageSrc('icon/full-control')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
+                    <h3>You Are in Control</h3>
                     <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
@@ -963,7 +963,7 @@ Call" />
                     <img src={getImageSrc('icon/value')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
+                    <h3>We Are Experts</h3>
                     <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
@@ -973,7 +973,7 @@ Call" />
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3>Great Value</h3>
                     <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
                   </div>
                 </div>
@@ -982,7 +982,7 @@ Call" />
                     <img src={getImageSrc('icon/trustworthy')} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
+                    <h3>Trustworthy</h3>
                     <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
@@ -990,7 +990,7 @@ Call" />
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={getImageSrc('fajteam')} alt="FAJ icon service" />
+                <img src={getImageSrc('fajteam')} alt="FAJ icon service" />
               </div>
             </div>
           </div>
