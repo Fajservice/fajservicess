@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Marvel  Home Appliances Service in Dubai & Marvel Fridge Repair");
-    const metadescription = String(description || "Reliable Marvel appliance service, including fridge, washing machine, dishwasher, cooking range, & stove oven repair & service centre in Dubai");
+    const metatitle = String(titleSeo || "Best Marvel Home Appliances Repair in Dubai & Marvel Fix Fridge ");
+    const metadescription = String(description || "Expert Marvel home appliances repair, including fridge, washing machine, dishwasher, cooking range, & stove oven fix & service centre in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Marvel Fridge Repair, Marvel Washing Machine Repair, Marvel Cooker Repair, Marvel Oven Repair, Marvel Appliances Maintenance, Marvel Refrigerator Fix, Marvel Appliance Service Dubai");

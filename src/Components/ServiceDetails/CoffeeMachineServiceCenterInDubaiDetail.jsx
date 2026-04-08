@@ -179,7 +179,7 @@ const coffeemachineServicesData = [
  
       title: 'Coffee Machine Call-out',
       icon: getImageSrc('calloutcard'),
-      price: 'AED230',
+      price: 'AED100',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty coffee machine, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
@@ -213,7 +213,7 @@ const coffeemachineServicesData = [
       warranty: '50- Days Warranty',
       title: 'Coffee Machine Cleaning',
       icon: getImageSrc('coffeemachinecleaning'),
-      price: 'AED395',
+      price: 'AED230',
       arrow: getImageSrc('iconreadmore'),
       description: 'Book reliable coffee machine cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20Home%20Appliances%20Cleaning',

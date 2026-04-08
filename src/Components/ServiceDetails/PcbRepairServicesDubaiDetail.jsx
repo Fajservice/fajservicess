@@ -352,7 +352,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         </section>
         <section className="section cs_py_30 pb-3" style={{ contain: 'layout style' }}>
             <div className="container">
-                <h2 className="cs_fs_24">Get Your Electronics Working Again! with FAJ Electronics PCB Repair Specialists</h2>
+                <h2 className="cs_fs_24">Get Your Electronics Working Again with FAJ Electronics PCB Repair Specialists!</h2>
                 <div className="custom-pcb-cards row">
                   <div>
                     <div className="card">
@@ -370,8 +370,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                         <h3 className="main-heading">Industrial PCB Board</h3>
                         <h4 className="subheading">Manufacturing & Renewable Energy Machinery</h4>
                         <ul>
-                          <li><p>When essential components on the PCB fail, it can cause costly downtime and disrupt manufacturing operations.</p></li>
-                          <li><p>If these machines fail due to PCB faults, our PCB technician will accurately diagnose the faulty component on the PCBs and replace it to restore functionality.</p></li>
+                          <li><p>When essential components on the PCB fail, it causes costly downtime and disrupts the manufacturing operations.</p></li>
+                          <li><p>If these machines fail due to PCB faults, FAJ PCB technicians can accurately diagnose the faulty component on the PCBs and replace it to repair it back to functionality or restore functionality.</p></li>
                           <li><p>PCB repair is a valuable skill that extends the lifespan of electronic devices. At FAJ Electronic Services in Dubai, we specialise in restoring faulty PCB boards, offering solutions from minor fixes to complete overhauls. Contact us today to see how we can help!</p></li>
                         </ul>
                       </div>
@@ -394,7 +394,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                         <h4 className="subheading">Commercial & Professional Equipment’s</h4>
                         <ul>
                           <li><p>Commercial & Professional Equipment’s. It includes automation PCB board, transportation PCB, logistics PCB, healthcare PCB, hospitality PCB, automobiles electronic circuit board PCB, and networking PCB.</p></li>
-                          <li><p>When necessary components on a PCB (printed circuit board) fail, it can result in costly downtime and disrupt your business operations. If machines cease functioning due to a PCB fault, FAJ PCB technicians can accurately diagnose the faulty component. They will then replace it with a new one, fixing the machine to operational status.</p></li>
+                          <li><p>When necessary components on a PCB (printed circuit board) fail, it results in costly downtime and disrupt your business operations. If machines cease functioning due to a PCB fault, FAJ PCB technicians can accurately diagnose the faulty component. They will then replace it with a new one, fixing the machine to operational status.</p></li>
                         </ul>
                       </div>
                     </div>

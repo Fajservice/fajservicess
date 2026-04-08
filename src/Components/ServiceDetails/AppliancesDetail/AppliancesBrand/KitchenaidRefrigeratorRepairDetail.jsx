@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "KitchenAid Refrigerator Repair & KitchenAid Appliance Repair");
-  const metadescription = String(description || "Expert Kitchenaid refrigerator repair, including washing machine, dishwasher, oven, and cooker repair centre near you in Dubai. Book now");
+  const metatitle = String(titleSeo || "Best KitchenAid Home Appliances Repair and Fridge Service Dubai");
+  const metadescription = String(description || "Expert Kitchenaid home appliances repair, including washing machine, dishwasher, oven, and cooker service centre near you in Dubai. Book now");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Kitchenaid Refrigerator Repair, Kitchenaid Fridge Repair, Kitchenaid Freezer Maintenance, Kitchenaid Washing Machine Repair, Kitchenaid Dishwasher Repair, Kitchenaid Cooker Oven Repairs, KitchenAid Appliance Service Dubai");

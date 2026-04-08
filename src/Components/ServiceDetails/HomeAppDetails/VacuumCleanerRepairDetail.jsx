@@ -702,7 +702,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         <section className="section cs_py_30 bg-light-gray custom-css-box">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Vacuum Cleaner REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="mb-2"><b>Terms & Conditions:</b> *There is a technical inspection fee that applies. Drop off the unit at the FAJ Workshop. The <b>Robot Vacuum Cleaner technical inspection price</b> starting from AED 65 and changes based on the capacity, model, and type of unit for each diagnosis. This price does not include repair, replacements, parts, or materials. <b>Doorstep service available:</b> We provide pick-up and drop-off delivery services upon request, and additional costs will apply.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>

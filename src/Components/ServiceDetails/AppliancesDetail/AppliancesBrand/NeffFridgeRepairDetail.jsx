@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Neff Appliance Service | Neff Refrigerator Repair Dubai");
-  const metadescription = String(description || "Neff appliance service. Since 2010 FAJ providing Neff washing machine, fridge, dishwasher, oven, stove, & cooker at our repair center near you in Dubai.");
+  const metatitle = String(titleSeo || "Neff Home Appliance Service | Neff Refrigerator Repair Dubai");
+  const metadescription = String(description || "Trusted Neff home appliances service. FAJ offers Neff washing machine, fridge, dishwasher, oven, stove, & cooker at our repair centre near you in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Neff Fridge Repair, Neff Washing Machine Repair, Neff Cooker Repair, Neff Oven Repair, Neff Appliances Maintenance, Neff Refrigerator Fix, Neff Dishwasher Service");

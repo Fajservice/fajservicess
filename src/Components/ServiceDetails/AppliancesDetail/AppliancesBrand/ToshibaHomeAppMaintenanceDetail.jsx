@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Toshiba Home Appliance Service | Toshiba Fridge Repair in Dubai");
-  const metadescription = String(description || "Are you looking for Toshiba home appliance service? Book now for Toshiba refrigerator, washing machine, dryer and oven repair center & service Dubai");
+  const metatitle = String(titleSeo || "Toshiba Home Appliances Service | Toshiba Fridge Repair in Dubai");
+  const metadescription = String(description || "Are you looking for the best Toshiba home appliance service? Book now for Toshiba refrigerator, washing machine & oven repair center & service Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Toshiba home appliance service, Toshiba fridge repair Dubai, Toshiba washing machine repair Dubai, Toshiba dryer repair Dubai, Toshiba oven repair Dubai, Toshiba appliance maintenance Dubai");

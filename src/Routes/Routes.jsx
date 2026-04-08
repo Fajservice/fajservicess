@@ -86,8 +86,12 @@ export const router = createBrowserRouter([
         element: <Components.AcAnnualMaintenanceContract />,
       },
       {
-        path: "/electrical-plumbing-service/",
-        element: <Components.ElectricalPlumbingService />,
+        path: "/services/plumbing-services-in-dubai/",
+        element: <Components.PlumbingService />,
+      },
+      {
+        path: "/services/electrical-services-in-dubai/",
+        element: <Components.ElectricalService />,
       },
       {
         path: "/dubai/near-me/",

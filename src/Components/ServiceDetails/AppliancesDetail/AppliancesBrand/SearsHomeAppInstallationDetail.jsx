@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Sears Appliances Repair & Maintenance Services in Dubai");
-  const metadescription = String(description || "We offer Sears home appliance Installation, Maintenance, and Repair Services in Dubai. Sears Refrigerator, Fridge, Washing Machine Book now.");
+  const metatitle = String(titleSeo || "Best Sears Appliances Repair & Maintenance Services in Dubai");
+  const metadescription = String(description || "We offer top-rated Sears home appliance Installation, Maintenance, and Repair Services in Dubai. Sears Refrigerator, Fridge, Washing Machine Book now");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Sears Appliance Installation, Sears Appliance Repair, Sears Fridge Repair, Sears Washing Machine Repair, Sears Cooker Repair, Sears Dishwasher Repair, Sears Home Appliances Service Dubai");

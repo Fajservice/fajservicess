@@ -26,9 +26,9 @@ const PriceCard = () => {
     {
       id: 1,
       image: getImageSrc('calloutprice'),
-      title: 'AC Call-Out',
+      title: 'AC Call-Out Fee',
       icon: getImageSrc('accalll'),
-      price: 'AED185',
+      price: 'AED135',
       arrow: getImageSrc('iconreadmore'),
       description: 'Is your AC not cooling your place? Is the AC thermostat broken, or is the fan making strange noises? Give us a call.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
@@ -46,16 +46,16 @@ const PriceCard = () => {
           ],
         },
         { paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.' },
-        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 185 callout fee applies based on the type, capacity of the unit, and location for each diagnosis.' },
+        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 135 callout fee applies based on the type, capacity of the unit, and location for each diagnosis.' },
       ],
     },
     {
       id: 2,
       image: getImageSrc('calout'),
       warranty: '60 - Days Warranty',
-      title: 'Basic AC Cleaning',
+      title: 'Basic AC Cleaning Price',
       icon: getImageSrc('basicaccleaning'),
-      price: 'AED230',
+      price: 'AED190',
       arrow: getImageSrc('iconreadmore'),
       description: 'If your AC has reduced airflow or is leaking water, work quickly. Regularly clean filters and drain to provide efficiency and good air quality.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20ACCleaning',
@@ -74,16 +74,16 @@ const PriceCard = () => {
           ],
         },
         { paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.' },
-        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 230 basic cleaning service charge applies based on the type, capacity of the unit, and location for each diagnosis.' },
+        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 190 basic cleaning service charge applies based on the type, capacity of the unit, and location for each diagnosis.' },
       ],
     },
     {
       id: 3,
       image: getImageSrc('maintenanceacc'),
       warranty: '60 - Days Warranty',
-      title: 'AC Maintenance',
+      title: 'AC Maintenance Price',
       icon: getImageSrc('acmatrepair'),
-      price: 'AED265',
+      price: 'AED235',
       arrow: getImageSrc('iconreadmore'),
       description: 'Relax and save money by keeping our expert technicians clean and maintain your AC, stopping unnecessary breakdowns.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC Maintenance',
@@ -118,7 +118,7 @@ const PriceCard = () => {
           ],
         },
         { paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.' },
-        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 265 AC Maintenance charge applies based on the type, capacity of the unit, and location for each diagnosis.' },
+        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 235 AC Maintenance charge applies based on the type, capacity of the unit, and location for each diagnosis.' },
       ],
     },
   ], []);
@@ -153,9 +153,13 @@ const PriceCard = () => {
               </div>
 
               <div className="ac_card_content_wrapper">
+                <div>
+                  
+                  <p className="ac_card_warranty_text">{service.warranty}</p>
+                </div>
+
                 <div className="ac_card_discount_wrapper">
                   <h3 className="ac_card_service_title">{service.title}</h3>
-                  <p className="ac_card_warranty_text">{service.warranty}</p>
                 </div>
                 <div className="ac_card_price_wrapper">
                   <p className="ac_card_price_text">

@@ -280,7 +280,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Fast and Reliable York Air Conditioning | York AC Repair and Maintenance Services in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality York Air Conditioning | York AC Repair and Maintenance Services in Dubai, UAE</h1>
             <p>Looking for reliable servicing and maintenance for your York air conditioning and refrigeration systems?<br/>We provide expert services for York HVAC, ducted split AC, central AC, and VRF AC repair throughout Dubai. Serving both homes and businesses, we deliver high-quality HVAC service and annual maintenance contract.<br/>Established in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is a trusted provider of York air conditioning solutions in Dubai and Sharjah. Our experienced team offers York AC cleaning, maintenance, repair, and installation services for residential and commercial units, ensuring your system operates efficiently and enhances your indoor comfort.</p>
 
             <div id="get-quote" className=" mt-3">

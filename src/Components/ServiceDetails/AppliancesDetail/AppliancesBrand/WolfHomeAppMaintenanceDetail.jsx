@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Wolf Home Appliances Service in Dubai | Cooker & Oven Repair");
-  const metadescription = String(description || "With warranty Wolf home appliance service in Dubai. Call 043300002 for cooking range, gas stove, electric cooker, and electric oven repair centre near me");
+  const metatitle = String(titleSeo || "Wolf Home Appliances Service and Cooker & Oven Repair in Dubai");
+  const metadescription = String(description || "With warranty Wolf appliances service in Dubai. Call 043300002 for cooking range, eletrical stove, gas cooker, and electric oven repair centre near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Wolf home appliance service, Wolf cooker service, Wolf oven service, Wolf gas stove service, Wolf electric cooker service, Wolf electric oven service, Wolf appliance repair Dubai");

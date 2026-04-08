@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "IFB Refrigerator Repair and IFB Washing Machine Service in Dubai");
-  const metadescription = String(description || "IFB refrigerator repair in Dubai FAJ is offering fridge, frezer, washing machine, cooking range, dishwasher service & repair center Dubai");
+  const metatitle = String(titleSeo || "IFB Home Appliances Repair and IFB Washing Machine Service");
+  const metadescription = String(description || "Best IFB home appliances repair in Dubai FAJ is offering fridge, frezer, washing machine, cooking range, dishwasher service & repair center near you");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "IFB Refrigerator Repair, IFB Washing Machine Repair, IFB Cooker Repair, IFB Dishwasher Repair, IFB Oven Repair, IFB Freezer Service in Dubai");

@@ -1,6 +1,6 @@
 import BreadCumb from "../Components/Common/BreadCumb";
-import ElectricalPlumbingServiceDetail from "../Components/ServiceDetails/ElectricalPlumbingServiceDetail";
-const ElectricalPlumbingService = () => {
+import PlumbingServiceDetail from "../Components/ServiceDetails/PlumbingServiceDetail";
+const PlumbingService = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
@@ -8,9 +8,9 @@ const ElectricalPlumbingService = () => {
                 Title="AC Annual Maintenance Contract"
             ></BreadCumb> 
 
-            <ElectricalPlumbingServiceDetail /> 
+            <PlumbingServiceDetail /> 
         </div>
     );
 };
 
-export default ElectricalPlumbingService;
+export default PlumbingService;

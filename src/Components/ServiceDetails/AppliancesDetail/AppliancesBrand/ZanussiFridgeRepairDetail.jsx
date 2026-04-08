@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const ZanussiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Zanussi Fridge Repair in Dubai | Oven Fix | Zanussi Professional");
-  const metadescription = String(description || "Reliable Zanussi professional appliances service, including fridge repair, freezer, washing machine, oven, and dishwasher repair center near me in Dubai.");
+  const metatitle = String(titleSeo || "Zanussi Fridge Repair | Oven Fix | Zanussi Professional in Dubai");
+  const metadescription = String(description || "Top-rated Zanussi professional appliances service, including fridge, freezer, washing machine, oven, and dishwasher repair center near you in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Zanussi Fridge Repair, Zanussi Washing Machine Repair, Zanussi Cooker Repair, Zanussi Oven Repair, Zanussi Appliances Maintenance, Zanussi Refrigerator Fix, Zanussi Appliance Service Dubai");

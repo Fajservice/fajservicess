@@ -18,7 +18,7 @@ const getImageSrc = (imgPath) => {
 const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Unox Commercial Oven Repair & Maintenance Service in Dubai");
-  const metadescription = String(description || "Top-Quality Unox commercial oven repair & maintenance in Dubai. FAJ offers restaurant, bakerie, pastry oven & professional cooking appliances services");
+  const metadescription = String(description || "Top-Quality Unox commercial oven repair & maintenance in Dubai. FAJ offers restaurant, bakeries, pastry oven & professional cooking appliances services");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Unox oven repair Dubai, Unox oven maintenance Dubai, Unox commercial oven service, Unox professional kitchen equipment repair, Unox bakery oven repair, Unox pastry oven maintenance, Unox cooking appliance service Dubai, Unox oven parts replacement, Unox oven troubleshooting, Unox oven cleaning and servicing");
   const metaURL = String(URL || "https://www.fajservices.ae/services/kitchen-equipment-maintenance/unox-commercial-oven-repair-and-maintenance-service-dubai/");

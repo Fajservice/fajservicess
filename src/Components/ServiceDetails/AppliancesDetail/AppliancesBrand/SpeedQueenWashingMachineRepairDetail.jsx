@@ -24,7 +24,7 @@ const getImageSrc = (imgPath) => {
 const SpeedQueenWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Speed Queen Washing Machine Repair and Maintenance in Dubai");
-  const metadescription = String(description || "Need Speed Queen washing machine repair in Dubai? FAJ for experts on washer dryer, laundry system maintenance, AMC & service centre in the UAE");
+  const metadescription = String(description || "Trusted Speed Queen washing machine repair in Dubai? FAJ for experts on washer dryer, laundry system maintenance, AMC & service centre in the UAE");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "speed queen washing machine repair, speed queen dryer repair, speed queen washer dryer repair, speed queen maintenance, speed queen service, speed queen fix, speed queen appliance repair in Dubai");

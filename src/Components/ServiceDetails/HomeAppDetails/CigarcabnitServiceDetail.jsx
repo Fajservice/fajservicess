@@ -312,7 +312,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>
                   Express Cigar Cabinet Repair Service
                 </h2>
-                <p><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 365 to 530 depending on unit, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p> <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+                <p><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 230 to 530 depending on unit, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p> <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
                   <b>We provide 2-month repair warranty</b><br />
                   and <small>3-month parts warranty</small>as standard.</p>
               </div>

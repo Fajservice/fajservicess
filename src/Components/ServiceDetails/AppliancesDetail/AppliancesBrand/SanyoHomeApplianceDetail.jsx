@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Sanyo Home Appliance Service & Sanyo Refrigerator Repair Dubai");
-  const metadescription = String(description || "If you're looking for reliable Sanyo fridge repair in Dubai, Book with us for Sanyo washing machine service, dishwasher, & oven repair centre near you.");
+  const metatitle = String(titleSeo || "Sanyo Home Appliances Service & Sanyo Fridge Repair Dubai");
+  const metadescription = String(description || "If you're looking for the best Sanyo home appliances service in Dubai, call us for Sanyo washing machine, dishwasher, & oven repair centre near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Sanyo Home Appliance Repair, Sanyo Washing Machine Repair, Sanyo Fridge Repair, Sanyo Dishwasher Repair, Sanyo Oven Repair, Sanyo Cooker Repair, Sanyo Appliance Service Dubai");

@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Haier Fridge Repair and Haier Washing Machine Service Near");
-    const metadescription = String(description || "FAJ is offering Haier fridge repair in Dubai. Call today for Haier washing machine repair, refrigerator, dishwasher, microwave, oven repair center near you.");
+    const metatitle = String(titleSeo || "Best Haier Home Appliances Repair | Haier Fridge Service Dubai");
+    const metadescription = String(description || "Get expert Haier home appliances repair in Dubai. Call today for Haier washing machine, fridge, dishwasher, microwave, oven service center near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Haier Fridge Repair in Dubai, Haier Washing Machine Repair in Dubai, Haier Cooker Repair in Dubai, Haier Oven Repair in Dubai, Haier Appliances Maintenance in Dubai, Haier Refrigerator Fix Repairs Service");

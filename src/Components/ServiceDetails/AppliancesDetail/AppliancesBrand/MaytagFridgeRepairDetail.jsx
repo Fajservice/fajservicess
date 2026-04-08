@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const MaytagFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Maytag Fridge Repair & Maytag Washing Machine Service in Dubai");
-  const metadescription = String(description || "We specialise in Maytag Fridge Repair in Dubai. May Tag appliance, refrigerator, freezer, washing machine, dryer, maintenance & service centre near me.");
+  const metatitle = String(titleSeo || "Maytag Appliances Repair & Maytag Washing Machine Service");
+  const metadescription = String(description || "We specialise in Maytag home appliance repair in Dubai. Maytag refrigerator, freezer, washing machine, dryer, maintenance & service centre near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Maytag Fridge Repair Dubai, Maytag Washing Machine Repair Dubai, Maytag Cooker Repair Dubai, Maytag Oven Repair Dubai, Maytag Appliances Maintenance Dubai, Maytag Refrigerator Fix Repairs Service");

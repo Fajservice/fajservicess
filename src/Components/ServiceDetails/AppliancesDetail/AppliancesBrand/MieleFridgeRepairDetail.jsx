@@ -24,7 +24,7 @@ const getImageSrc = (imgPath) => {
 const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Miele Appliance Service | Miele Washing Machine Repair Dubai");
-  const metadescription = String(description || "Fast, reliable & professional Miele appliance service. Book now for your Miele refrigerator, fridge, washing machine, dishwasher, and oven repair near you.");
+  const metadescription = String(description || "Fast, reliable & professional Miele home appliance repair. Book now for your Miele fridge, washing machine, dishwasher, cooker & oven service near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Miele Fridge Repair Dubai, Miele Washing Machine Repair Dubai, Miele Cooker Repair Dubai, Miele Oven Repair Dubai, Miele Appliances Maintenance Dubai, Miele Refrigerator Fix Repairs Service");

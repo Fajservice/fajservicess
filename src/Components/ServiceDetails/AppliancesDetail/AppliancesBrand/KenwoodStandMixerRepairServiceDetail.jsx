@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Kenwood Stand Mixer Repair & Service Near Me in Dubai");
-  const metadescription = String(description || "If you are looking for Kenwood stand mixer repair in Dubai. Contact us for your mixer maintenance and servicing at a nearby repair shop & center in Dubai.");
+  const metatitle = String(titleSeo || "Best Kenwood Stand Mixer Repair & Service Near You in Dubai");
+  const metadescription = String(description || "If you are looking for the best Kenwood stand mixer repair in Dubai. Contact us for your mixer maintenance, servicing, and repair shop & centre in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Kenwood Stand Mixer Repair Service, Kenwood Mixer Repair Dubai, Kenwood Appliance Repair Dubai, Kenwood Mixer Service Near Me, Kenwood Stand Mixer Repair Near Me, Kenwood Appliance Maintenance Dubai");

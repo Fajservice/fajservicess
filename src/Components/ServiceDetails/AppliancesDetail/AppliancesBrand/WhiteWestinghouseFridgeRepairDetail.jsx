@@ -24,7 +24,7 @@ const getImageSrc = (imgPath) => {
 const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "White Westinghouse Fridge Repair and Freezer Service in Dubai");
-  const metadescription = String(description || "FAJ provides warranty for White Westinghouse fridge repair, refrigerator, washing machine service, and dryer maintenance & repair center near you.");
+  const metadescription = String(description || "FAJ offers warranty services for White Westinghouse refrigerator repair, washing machine service & dryer maintenance at a repair center near you Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "White Westinghouse Fridge Repair Dubai, White Westinghouse Washing Machine Repair Dubai, White Westinghouse Cooker Repair Dubai, White Westinghouse Oven Repair Dubai, White Westinghouse Appliance Service Dubai");

@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Terim Appliances Service | Terim Washing Machine Repair in Dubai");
-    const metadescription = String(description || "Need Terim appliance service? We offer expert repair for refrigerators, washing machine, dishwasher, oven, and stove in our repair centre in Dubai. Call us");
+    const metatitle = String(titleSeo || "Best Terim Appliances Service | Terim Washing Machine Repair");
+    const metadescription = String(description || "Looking for Terim appliance service? We provide expert repair for refrigerator, washing machine, dishwasher, oven, and cooker repair center near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Terim Appliances Service, Terim Washing Machine Repair, Terim Fridge Repair, Terim Dishwasher Repair, Terim Stove Repair, Terim Appliance Maintenance Dubai");

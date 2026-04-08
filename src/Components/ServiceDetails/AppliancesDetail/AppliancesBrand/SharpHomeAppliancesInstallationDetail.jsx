@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Sharp Home Appliance Service and Sharp Refrigerator Repair in Dubai");
-    const metadescription = String(description || "Reliable Sharp home appliance service in Dubai. Call FAJ for Sharp washing machine, dryers, fridge, oven, and vacuum cleaner repair center near me.");
+    const metatitle = String(titleSeo || "Sharp Home Appliance Service | Sharp Refrigerator Repair Dubai");
+    const metadescription = String(description || "Trusted Sharp home appliances service in Dubai. Call FAJ for Sharp washing machine, dryers, fridge, oven, and vacuum cleaner repair center near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Sharp home appliance service, Sharp washing machine repair, Sharp fridge repair Dubai, Sharp oven repair Dubai, Sharp vacuum cleaner repair Dubai, Sharp dryer repair Dubai, Sharp appliance installation Dubai");

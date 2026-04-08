@@ -256,9 +256,9 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     {
       id: 1,
       image: getImageSrc('gas-cooker-repair-service'),
-      title: 'Appliance Call-out',
+      title: 'Gas Cooker Call-out Fee',
       icon: getImageSrc('calloutcard'),
-      price: 'AED157',
+      price: 'AED100',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
@@ -280,7 +280,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 157, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 100, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
         },
       ]
     },
@@ -288,9 +288,9 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
       id: 2,
       image: getImageSrc('gas-cooker-repair-services'),
       warranty: '50- Days Warranty',
-      title: 'Appliance Cleaning',
+      title: 'Gas Cooker Cleaning Price',
       icon: getImageSrc('cleaningcard'),
-      price: 'AED395',
+      price: 'AED230',
       arrow: getImageSrc('iconreadmore'),
       description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20ACCleaning',
@@ -299,30 +299,23 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         {
           heading: 'Depending on quantities, capacity, type, model, and area.',
           items: [
-            'Hob Cleaning',
-            'Oven Cleaning',
-            'Freezer Cleaning',
             'Gas Range Cleaning',
-            'Dishwasher Cleaning',
-            'Refrigerator Cleaning',
-            'Hood / Chimney Cleaning',
-            'Washing Machine Cleaning',
           ]
         },
         {
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 395 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 230 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
         },
       ]
     },
     {
       id: 3,
       image: getImageSrc('ovenhomecard'),
-      title: 'Home Appliances Installation',
+      title: 'Gas Cooker Installation Charge',
       icon: getImageSrc('installationcard'),
-      price: 'AED365',
+      price: 'AED280',
       arrow: getImageSrc('iconreadmore'),
       description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC Maintenance',
@@ -331,20 +324,14 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         {
           heading: 'Depending on quantities, capacity, type, model, and area.',
           items: [
-            'Refrigerator Installation',
-            'Dish Washer Installation',
             'Electric Cooker Installation',
-            'Hood / Chimney Installation',
-            'Washing Machine Installation',
-            'Built-in Microwave Installation',
-            'Built-in Dishwasher Installation',
           ]
         },
         {
           paragraph: '**Excluded:** <br> Costs related to MEP, carpentry, gypsum ceilings, painting, repair work, procurement-related installation parts / materials, and installation as needed.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 365 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 280 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
         },
       ]
     },

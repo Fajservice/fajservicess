@@ -83,6 +83,10 @@ const navItems = [
           { path: '/services/home-appliances-repair/appliances-amc-service/', label: 'Appliances Maintenance Contract' }
         ]
       },
+      {
+        path: '/services/plumbing-services-in-dubai/',
+        label: 'Plumbing Services',
+      },
       { path: '/services/pcb-repair-services/', label: 'PCB Repair Services' },
       {
         label: 'Refrigeration Equipment',

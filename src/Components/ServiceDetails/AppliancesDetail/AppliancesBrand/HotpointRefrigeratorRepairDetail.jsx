@@ -23,8 +23,8 @@ const getImageSrc = (imgPath) => {
 };
 const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Hotpoint Refrigerator Repair & Hotpoint Washing Machine Service ");
-  const metadescription = String(description || "Quality and warranty for Hotpoint refrigerator repair in Dubai. Book now fridge, washing machine, dishwasher, cooking range, & oven maintenance service.");
+  const metatitle = String(titleSeo || "Hotpoint Home Appliances Repair & Hotpoint Fridge Service Dubai");
+  const metadescription = String(description || "Quality and warranty for Hotpoint home appliances repair in Dubai. Book now fridge, washing machine, dishwasher, cooker & oven service center near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Hotpoint Refrigerator Repair, Hotpoint Fridge Repair, Hotpoint Washing Machine Repair, Hotpoint Dishwasher Repair, Hotpoint Cooker Oven Repair, Hotpoint Appliance Service Dubai");

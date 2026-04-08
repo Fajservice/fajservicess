@@ -22,7 +22,7 @@ const PriceCardHomeCat = ({ services = [] }) => {
       image: getImageSrc('applycalouthome'),
       title: 'Appliance Call-out',
       icon: getImageSrc('calloutcard'),
-      price: 'AED157',
+      price: 'AED100',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
@@ -44,7 +44,7 @@ const PriceCardHomeCat = ({ services = [] }) => {
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 157, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 100, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
         },
       ]
     },
@@ -54,7 +54,7 @@ const PriceCardHomeCat = ({ services = [] }) => {
       warranty: '50- Days Warranty',
       title: 'Appliance Cleaning',
       icon: getImageSrc('cleaningcard'),
-      price: 'AED395',
+      price: 'AED230',
       arrow: getImageSrc('iconreadmore'),
       description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20ACCleaning',
@@ -77,7 +77,7 @@ const PriceCardHomeCat = ({ services = [] }) => {
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 395 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 230 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
         },
       ]
     },
@@ -86,7 +86,7 @@ const PriceCardHomeCat = ({ services = [] }) => {
       image: getImageSrc('ovenhomecard'),
       title: 'Home Appliances Installation',
       icon: getImageSrc('installationcard'),
-      price: 'AED365',
+      price: 'AED280',
       arrow: getImageSrc('iconreadmore'),
       description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC Maintenance',
@@ -108,7 +108,7 @@ const PriceCardHomeCat = ({ services = [] }) => {
           paragraph: '**Excluded:** <br> Costs related to MEP, carpentry, gypsum ceilings, painting, repair work, procurement-related installation parts / materials, and installation as needed.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 365 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 280 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
         },
       ]
     },
@@ -146,7 +146,7 @@ const PriceCardHomeCat = ({ services = [] }) => {
                   <p className="ac_card_warranty_text">{service.warranty}</p>
                 </div>
                 <div className="ac_card_discount_wrapper">
-                  <h3 className="ac_card_service_title">{service.title}</h3>
+                  <h3 className="ac_card_service_title" style={{ fontSize: "20px" }}>{service.title}</h3>
                   
                 </div>
                 <div className="ac_card_price_wrapper">

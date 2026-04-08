@@ -420,7 +420,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">To Built In Home Appliances Repair and Service Center Near You in Dubai</h1>
+            <h1 className="cs_fs_30">Top Built In Home Appliances Repair and Service Center Near You in Dubai</h1>
             <p>
               FAJ Technical Services L.L.C has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
               <br />

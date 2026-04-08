@@ -24,7 +24,7 @@ const getImageSrc = (imgPath) => {
 const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Liebherr Fridge Repair | LiebherrFreezer Service in Dubai");
+  const metatitle = String(titleSeo || "Get Liebherr Fridge Repair | Liebherr Freezer Service in Dubai");
   const metadescription = String(description || "With professional & warranty Liebherr fridge repair. Call 043300002 for Liebherr appliance, fridge, refrigerator freezer maintenance service near you Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");

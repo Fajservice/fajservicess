@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Westpoint Fridge Repair & Westpoint Washing Machine Service");
-  const metadescription = String(description || "FAJ specialises in Westpoint Fridge Repair in Dubai. Get fast washing machine, dishwasher service, oven, and cooking range repair center near me.");
+  const metatitle = String(titleSeo || "Westpoint Home Appliances Service | Wastpoint Fridge Repair");
+  const metadescription = String(description || "FAJ specialises in Westpoint appliance repair in Dubai. Get fast service for washing machine, fridge, dishwasher, oven & cooking ranges repair near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
   const metaKeyword = String(Keyword || "Westpoint Fridge Repair, Westpoint Washing Machine Repair, Westpoint Cooker Repair, Westpoint Oven Repair, Westpoint Refrigerator Fix, Westpoint Appliance Service Dubai");

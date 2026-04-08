@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
-    <title>Hisense Fridge Repair In Dubai | Washing Machine Service Near</title>
-    const metadescription = String(description || "Need assistance with your Hisense appliance service? FAJ offers Hisense fridge repair, washing machine, dishwasher, cooker, & dryer repair center.");
+    <title>Hisense Home Appliances Repair | Hisense Fridge Service Dubai</title>
+    const metadescription = String(description || "Need assistance with your Hisense appliance repair? FAJ offers Hisense fridge, washing machine, dishwasher, cooker, & dryer repair center near you");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Hisense fridge repair in Dubai, Hisense washing machine repair in Dubai, Hisense cooker repair in Dubai, Hisense oven repair in Dubai, Hisense appliances maintenance in Dubai, Hisense refrigerator fix repair in Dubai");
@@ -195,23 +195,23 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>Hisense Fridge Repair In Dubai | Washing Machine Service Near</title>
-                    <meta name="description" content="Need assistance with your Hisense appliance service? FAJ offers Hisense fridge repair, washing machine, dishwasher, cooker, & dryer repair center."></meta>
+                    <title>Hisense Home Appliances Repair | Hisense Fridge Service Dubai</title>
+                    <meta name="description" content="Need assistance with your Hisense appliance repair? FAJ offers Hisense fridge, washing machine, dishwasher, cooker, & dryer repair center near you"></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
                     <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content="Hisense Fridge Repair In Dubai | Washing Machine Service Near" />
-                    <meta property="og:description" content="Need assistance with your Hisense appliance service? FAJ offers Hisense fridge repair, washing machine, dishwasher, cooker, & dryer repair center." />
+                    <meta property="og:title" content="Hisense Home Appliances Repair | Hisense Fridge Service Dubai" />
+                    <meta property="og:description" content="Need assistance with your Hisense appliance repair? FAJ offers Hisense fridge, washing machine, dishwasher, cooker, & dryer repair center near you" />
                     <meta property="og:url" content={metaURL} />
                     <meta property="og:image" content={metaImage} />
 
                     {/* Twitter Card */}
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content="Hisense Fridge Repair In Dubai | Washing Machine Service Near" />
-                    <meta name="twitter:description" content="Need assistance with your Hisense appliance service? FAJ offers Hisense fridge repair, washing machine, dishwasher, cooker, & dryer repair center." />
+                    <meta name="twitter:title" content="Hisense Home Appliances Repair | Hisense Fridge Service Dubai" />
+                    <meta name="twitter:description" content="Need assistance with your Hisense appliance repair? FAJ offers Hisense fridge, washing machine, dishwasher, cooker, & dryer repair center near you" />
                     <meta name="twitter:image" content={metaImage} />
                     <script type="application/ld+json">{JSON.stringify(schema)}</script>
                     

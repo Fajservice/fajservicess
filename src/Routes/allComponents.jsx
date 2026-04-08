@@ -11,7 +11,8 @@ export const AcTonnageCalculator = withSuspense(React.lazy(() => import("../Page
 export const Orphan = withSuspense(React.lazy(() => import("../Pages/Orphan")));
 export const AcMaintenanceDubai = withSuspense(React.lazy(() => import("../Pages/AcMaintenanceDubai")));
 export const AcAnnualMaintenanceContract = withSuspense(React.lazy(() => import("../Pages/AcAnnualMaintenanceContract")));
-export const ElectricalPlumbingService = withSuspense(React.lazy(() => import("../Pages/ElectricalPlumbingService")));
+export const PlumbingService = withSuspense(React.lazy(() => import("../Pages/PlumbingService.jsx")));
+export const ElectricalService = withSuspense(React.lazy(() => import("../Pages/ElectricalService.jsx")));
 export const NearMe = withSuspense(React.lazy(() => import("../Pages/Dubai/NearMe")));
 export const Faqs = withSuspense(React.lazy(() => import("../Pages/Faqs")));
 export const AcRepairNearMe = withSuspense(React.lazy(() => import("../Pages/Dubai/AcRepairNearMe")));
