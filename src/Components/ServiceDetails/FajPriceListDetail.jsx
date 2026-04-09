@@ -6,8 +6,8 @@ const data = {
     {
       type: "Window AC 1.5 to 2.5 Ton",
       services: [
-        { name: "Inspection", description: "Onsite technical inspection Fee", price: "157 to 210 AED +VAT", warranty: "No Warranty" },
-        { name: "Deep Cleaning Service", description: "Deep Cleaning Service and Gas topup", price: "280 to 315 AED", warranty: "2 Month" },
+        { name: "Inspection", description: "Onsite technical inspection Fee", price: "135 to 167 AED + VAT", warranty: "No Warranty" },
+        { name: "Deep Cleaning Service", description: "Deep Cleaning Service and Gas topup", price: "245 to 280 AED", warranty: "2 Month" },
         { name: "Repair", description: "After the inspection, prices will be quoted based on the technical inspection report provided to the customer.", price: "-", warranty: "2 to 3 Month" },
         { name: "Part Replacement", description: "All warranty for spare part replacements should be valid for 3 month.", price: "-", warranty: "3 Month" }
       ]
@@ -15,9 +15,9 @@ const data = {
     {
       type: "Split AC 1.5 to 2.5 Ton",
       services: [
-        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "195 AED +VAT", warranty: "" },
-        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "285 to 320 AED+VAT", warranty: "2 Month" },
-        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "320 to 365 AED + VAT", warranty: "2 Month" },
+        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "135 AED +VAT", warranty: "" },
+        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "260 to 285 AED+VAT", warranty: "2 Month" },
+        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "290 to 340 AED + VAT", warranty: "2 Month" },
         { name: "Repair", description: "After the inspection, prices will be quoted based on the technical inspection report provided to the customer.", price: "-", warranty: "2 to 3 Month" },
         { name: "Part Replacement", description: "All warranty for spare part replacements should be valid for 3 month", price: "-", warranty: "3 Month" }
       ]
@@ -25,9 +25,9 @@ const data = {
     {
       type: "Central AC 1.5 to 2.5 Ton",
       services: [
-        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "195 AED +VAT", warranty: "" },
-        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "285 to 320 AED+VAT", warranty: "2 Month" },
-        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "320 to 430 AED + VAT", warranty: "2 Month" },
+        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "135 to 167 AED +VAT", warranty: "" },
+        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "260 to 285 AED+VAT", warranty: "2 Month" },
+        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "290 to 340 AED + VAT", warranty: "2 Month" },
         { name: "Repair", description: "After the inspection, prices will be quoted based on the technical inspection report provided to the customer.", price: "-", warranty: "2 to 3 Month" },
         { name: "Part Replacement", description: "All warranty for spare part replacements should be valid for 3 month", price: "-", warranty: "3 Month" }
       ]
@@ -35,9 +35,9 @@ const data = {
     {
       type: "Central AC 3.0 to 5.0 Ton",
       services: [
-        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "220 to 320 AED +VAT", warranty: "" },
-        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "380 to 475 AED+VAT", warranty: "2 Month" },
-        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "420 to 520 AED + VAT", warranty: "2 Month" },
+        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "135 to 235 AED +VAT", warranty: "" },
+        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "295 to 390 AED+VAT", warranty: "2 Month" },
+        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "335 to 435 AED + VAT", warranty: "2 Month" },
         { name: "Repair", description: "After the inspection, prices will be quoted based on the technical inspection report provided to the customer.", price: "-", warranty: "2 to 3 Month" },
         { name: "Part Replacement", description: "All warranty for spare part replacements should be valid for 3 month", price: "-", warranty: "3 Month" }
       ]
@@ -45,9 +45,9 @@ const data = {
     {
       type: "Chill Water FCU 1.5 to 3.5 Ton",
       services: [
-        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "195 AED +VAT", warranty: "" },
-        { name: "Basic Service", description: "Cleaning service air filter, and drain lines, check and test chilled water line, actuator valve, thermostat", price: "285 to 320 AED+VAT", warranty: "2 Month" },
-        { name: "Deep Cleaning Service", description: "Water pressure cleaning service indoor coil, air filter, and drain line, drain tray, check and test chilled water line, actuator valve, thermostat", price: "320 to 430 AED + VAT", warranty: "2 Month" },
+        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "135 to 167 AED +VAT", warranty: "" },
+        { name: "Basic Service", description: "Cleaning service air filter, and drain lines, check and test chilled water line, actuator valve, thermostat", price: "260 to 285 AED+VAT", warranty: "2 Month" },
+        { name: "Deep Cleaning Service", description: "Water pressure cleaning service indoor coil, air filter, and drain line, drain tray, check and test chilled water line, actuator valve, thermostat", price: "290 to 340 AED + VAT", warranty: "2 Month" },
         { name: "Repair", description: "After the inspection, prices will be quoted based on the technical inspection report provided to the customer.", price: "-", warranty: "2 to 3 Month" },
         { name: "Part Replacement", description: "All warranty for spare part replacements should be valid for 3 months", price: "-", warranty: "3 Month" }
       ]
@@ -55,9 +55,9 @@ const data = {
     {
       type: "Inverter and VRV & VRF 2.5 to 5.0 Ton",
       services: [
-        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "220 to 320 AED +VAT", warranty: "" },
-        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "380 to 475 AED+VAT", warranty: "2 Month" },
-        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "485 to 585 AED + VAT", warranty: "2 Month" },
+        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "185 to 295 AED +VAT", warranty: "" },
+        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "325 to 435 AED+VAT", warranty: "2 Month" },
+        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "450 to 565 AED + VAT", warranty: "2 Month" },
         { name: "Repair", description: "After the inspection, prices will be quoted based on the technical inspection report provided to the customer.", price: "-", warranty: "2 to 3 Month" },
         { name: "Part Replacement", description: "All warranty for spare part replacements should be valid for 3 month", price: "-", warranty: "3 Month" }
       ]
@@ -65,9 +65,9 @@ const data = {
     {
       type: "Package Unit HVAC 5.0 to 20.0 Ton",
       services: [
-        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "320 to 480 AED +VAT", warranty: "" },
-        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "530 to 730 AED+VAT", warranty: "2 Month" },
-        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "730 to 830 AED + VAT", warranty: "2 Month" },
+        { name: "Inspection", description: "There is a callout fee that applies each diagnosis.", price: "290 to 450 AED +VAT", warranty: "" },
+        { name: "Basic Service", description: "Cleaning service with water pressure pump of outdoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "515 to 715 AED+VAT", warranty: "2 Month" },
+        { name: "Deep Cleaning Service", description: "Cleaning service with water pressure pump of outdoor coils, indoor coils, air filter, and drain line, gas top-up As per to AC requirements.", price: "695 to 780 AED + VAT", warranty: "2 Month" },
         { name: "Repair", description: "After the inspection, prices will be quoted based on the technical inspection report provided to the customer.", price: "-", warranty: "2 to 3 Month" },
         { name: "Part Replacement", description: "All warranty for spare part replacements should be valid for 3 month", price: "-", warranty: "3 Month" }
       ]

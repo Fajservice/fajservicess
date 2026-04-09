@@ -26,7 +26,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
 
   // For SEO
   const metatitle = String(titleSeo || "Best Mitsubishi AC Repair and Maintenance Services in Dubai");
-  const metadescription = String(description || "Need reliable Mitsubishi AC repair in Dubai? Contact us now for skilled technicians specialising in Mitsubishi AC maintenance services for central and split");
+  const metadescription = String(description || "Top-rated Mitsubishi AC repair and service in Dubai. Call us for expert technicians in Mitsubishi VRF, central & split air conditioning maintenance near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Mitsubishi AC Repair, Mitsubishi AC Service, Mitsubishi Air Conditioner Maintenance, Mitsubishi HVAC Repair, Mitsubishi VRF System Service, Mitsubishi Ducted Split AC Repair, Mitsubishi Wall-Mounted AC Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/");

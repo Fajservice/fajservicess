@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Fujitsu AC Repair and Maintenance Services in Dubai");
-  const metadescription = String(description || "FAJ Assist provides professional cleaning, maintenance, and repair services for central Fujitsu AC in homes and offices across Dubai. Contact us today!");
+  const metatitle = String(titleSeo || "Best Fujitsu AC Repair and Maintenance Services Near You, Dubai");
+  const metadescription = String(description || "FAJ offers professional Fujitsu AC repair and cleaning service in Dubai. Get fast central AC systems in homes and offices throughout Dubai. Call us today!");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Fujitsu AC Repair in Dubai, Fujitsu Air Conditioner Maintenance, Fujitsu AC Service, Fujitsu AC Fix, Fujitsu Air Condition Repair, Fujitsu Air Condition Maintenance, Fujitsu Air Condition Service, Fujitsu Air Condition Fix");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/fujitsu/");
@@ -303,11 +303,9 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Top-Quality Fujitsu AC Repair and Maintenance Services in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Fujitsu AC Repair and Fujitsu AC Maintenance Services in Dubai, UAE</h1>
             <p> <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has proudly served the Dubai community since 2010, building a reputation for excellence in Fujitsu HVAC services.<br />
-            Our skilled team specializes in Fujitsu AC repair, maintenance, and installation for residential and commercial properties in Dubai and Sharjah. To maintain indoor comfort year-round, we recommend regular maintenance, including inspections and cleaning. Our expert Fujitsu AC cleaning service improves efficiency and air quality while extending the lifespan of your unit. Trust F A J for all your Fujitsu AC needs.
-
-            </p>
+            Our skilled team specializes in Fujitsu AC repair, maintenance, and installation for residential and commercial properties in Dubai and Sharjah. To maintain indoor comfort year-round, we recommend regular maintenance, including inspections and cleaning. Our expert Fujitsu AC cleaning service improves efficiency and air quality while extending the lifespan of your unit. Trust F A J for all your Fujitsu AC needs.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

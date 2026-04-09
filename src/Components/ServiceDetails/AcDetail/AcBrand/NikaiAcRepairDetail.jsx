@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Price Nikai Split AC Repair and Maintenance Service Dubai");
-  const metadescription = String(description || "Our expert A/C technicians provide prompt, professional maintenance for Nikai window AC repair and cleaning service in Dubai, with fast, reliable");
+  const metatitle = String(titleSeo || "Best Price of Nikai Split AC Repair and Maintenance Service Dubai");
+  const metadescription = String(description || "Our expert A/C technicians provide prompt, professional maintenance for Nikai window AC repair and service in Dubai, with fast, low cost cleaning");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Nikai AC Repair in Dubai, Nikai Air Conditioner Maintenance, Nikai AC Service, Nikai AC Cleaning, Nikai AC Installation, Nikai AC Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/nikai/");

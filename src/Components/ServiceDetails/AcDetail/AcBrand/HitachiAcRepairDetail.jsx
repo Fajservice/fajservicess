@@ -27,7 +27,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
   // For SEO
   const metatitle = String(titleSeo || "Best Hitachi AC Repair and Maintenance Service in Dubai | FAJ");
-  const metadescription = String(description || "Looking for the best Hitachi AC repair and maintenance in Dubai? Find Hitachi Cooling & Heating professionals in Dubai & get the finest service near you");
+  const metadescription = String(description || "Looking for cost-effective Hitachi AC repair and maintenance in Dubai? Get the best Hitachi Cooling & Heating AC system cleaning service near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Hitachi AC Repair in Dubai, Hitachi AC Maintenance in Dubai, Hitachi AC Fix in Dubai, Hitachi AC Service in Dubai, Hitachi Air Condition Repair in Dubai, Hitachi Air Condition Maintenance in Dubai, Hitachi");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/hitachi/");
@@ -279,7 +279,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Top-Quality Hitachi AC Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top-Quality Hitachi AC Repair and Hatchi Maintenance Services in Dubai, UAE</h1>
             <p>Our team of expert AC technicians at Efficient specializes in comprehensive Hitachi air conditioning services, including maintenance, repair, and installation for both commercial and residential properties in the Dubai area. We offer next-day bookings and strive to complete any necessary repairs on the same day.
               <br />With years of experience in installing and servicing all types of units, we are confident in our ability to provide you with exceptional air conditioning services, maintenance packages, and installation solutions—all backed by our commitment to high-quality expertise.</p>
 

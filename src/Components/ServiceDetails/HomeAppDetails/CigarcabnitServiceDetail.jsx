@@ -235,7 +235,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
       try {
         const [faqsResponse, testimonialsResponse, brandsResponse] = await Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/CigarcabnitServiceFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/GasRangeRepairServiceTestimonial.json`),
+          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/Testmonials/CigarcabnitServiceTestimonials.json`),
           fetch(`${import.meta.env.BASE_URL}data/AppliancesBrandsLogo.json`)
         ]);
 
@@ -306,13 +306,13 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Cigar Humidor Repair Service Nearby</h2>
+                <h2 className="cs_fs_24 mb-1 mt-0" style={{ fontSize: "24px" }}>Cigar Humidor Repair Service Nearby</h2>
                 <p className="mb-2">Experience excellent service of cigar humidors with us. We offer reliable repair to ensure your humidors are functioning at their best.
                   Whether you have a walk-in humidor, a freestanding unit, or a built-in cigar humidor, we are here to assist you.</p>
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>
+                <h2 className="cs_fs_24 mb-1 mt-2" style={{ fontSize: "24px" }}>
                   Express Cigar Cabinet Repair Service
                 </h2>
-                <p><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 230 to 530 depending on unit, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p> <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+                <p><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 230 to 530 depending on unit, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p> <p className="pt-0 border-small-top mb-md-0"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
                   <b>We provide 2-month repair warranty</b><br />
                   and <small>3-month parts warranty</small>as standard.</p>
               </div>
@@ -322,7 +322,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=0HYuG6UENnnUN6ze"
+                  src="https://www.youtube.com/embed/nvxNIF3p3Ns?si=uxNuXHjU7ze3oaD6"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -333,8 +333,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             </div>
             <div className="appointment-col border-small-top pt-3">
               <p className="appointment-col">The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
-              >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your appliance at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
-              </p>
+              >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your appliance at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.</p>
               <div id="get-quote" className="mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -349,13 +348,14 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* Why is Oven Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Why is it important to maintain a cigar humidor in Dubai?</h2>
-            <p>Regular maintenance of a cigar humidor is essential for your use. It ensures the quality of the cigars, extends the lifespan of the cigar cabinet fridge, and reduces repair costs.</p>
+            <h2 className="cs_fs_30 mt-2">Why is it important to maintain a cigar humidor in Dubai?</h2>
+            
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={getImageSrc('cigarcabnitrepairservice')} alt="Cigarcabnit Repair Service" />
               </div>
               <div className="col-md-6">
+                <p>Regular maintenance of a cigar humidor is essential for your use. It ensures the quality of the cigars, extends the lifespan of the cigar cabinet fridge, and reduces repair costs.</p>
                 <ul>
                   <li><strong>Cigar Humidor Preventing Breakdowns: </strong>Regular maintenance, which includes cleaning and descaling, helps minimize expensive repairs and reduces downtime.</li>
                   <li><strong>Cigar Humidor Extending Lifespan: </strong>Regular maintenance extends the lifespan of a cigar cabinet, which helps save on replacement costs.</li>
@@ -483,14 +483,10 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         <section className="section cs_py_30 ">
           <div className="container">
             <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR All Cigar Humidors</h2>
-            <p className='mb-0'>We specialise in all types and brands of Cigar cabinet humidor, including cigar walk in chiller:</p>
+            
             <div className="row align-items-center">
-              <div className="col-xl-6">
-              <img className="bordered-img w-100" src={getImageSrc('cigarcabnitrepair')} alt="Cigarcabnit Repair Service" />
-
-              </div>
-
-              <div className="col-xl-6">
+               <div className="col-xl-6">
+                <p className='mb-0'>We specialise in all types and brands of Cigar cabinet humidor, including cigar walk in chiller:</p>
                 <p className="mb-1"><strong>Our services include:</strong></p>
                 <ul>
                   <li><strong>Cigar Cabinet Humidor Installation: </strong>Expert installation of various types and brands of cigar walk-in chillers and spare parts, ensuring optimal performance and efficiency.</li>
@@ -498,6 +494,10 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <li><strong>Cigar Cabinet Humidor Repair Service: </strong>Efficient repair services for all cigar humidifier components, ensuring quick resolution of issues such as leaks, electrical failures, and system malfunctions.</li>
                   <li><strong>Cigar Cabinet Humidor Annual Maintenance Contract: </strong>This contract outlines the terms and services covered for the annual maintenance of the built-in cigar humidor, cigar walk-in chiller, and cigar refrigerator.</li>
                 </ul>
+              </div>
+              <div className="col-xl-6">
+              <img className="bordered-img w-100" src={getImageSrc('cigarcabnitrepair')} alt="Cigarcabnit Repair Service" />
+
               </div>
             </div>
           </div>

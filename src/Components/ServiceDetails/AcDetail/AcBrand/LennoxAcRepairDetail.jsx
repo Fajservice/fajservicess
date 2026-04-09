@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Expert Lennox AC Repair & Maintenance Service in Dubai ");
-  const metadescription = String(description || "For reliable Lennox AC repair in Dubai, contact FAJ professionals for affordable and prompt HVAC & central Lennox air conditioning maintenance servicing");
+  const metatitle = String(titleSeo || "Expert Lennox AC Repair & Maintenance Services in Dubai");
+  const metadescription = String(description || "Get professional Lennox AC repair and service in Dubai, UAE. Contact FAJ for the best Lennox HVAC & central air conditioning maintenance and fix error");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Lennox AC Repair in Dubai, Lennox AC Maintenance in Dubai, Lennox Air Conditioner Service, Lennox Air Conditioner Repair, Lennox Air Conditioner Maintenance, Lennox Air Conditioner Fix, Lennox Air Conditioner Service in Dubai, Lennox Air Conditioning Repair in Dubai, Lennox Air Conditioning Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/lennox/");
@@ -277,7 +277,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Top-Rated Lennox Air Conditioning Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Top- Rated Lennox Air Conditioning Repair and Lennox AC Maintenance Services in Dubai, UAE</h1>
             <p>
               Are you in need of reliable and professional Lennox AC repair, service, or maintenance? Whether for routine maintenance or a new system, local Lennox AC experts are available to keep your home comfortable year-round.<br/>
               Effectively addressing challenges like high humidity, warm nights, and indoor allergens is crucial for ensuring indoor comfort.

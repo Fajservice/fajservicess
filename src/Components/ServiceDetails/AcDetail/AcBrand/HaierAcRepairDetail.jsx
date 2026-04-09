@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Top Haier AC Repair and Maintenance Services in Dubai Near You");
-  const metadescription = String(description || "FAJ is the leading AC company. Contact us for Haier Split AC repair and expert air conditioning maintenance services in Dubai at 043300002");
+  const metatitle = String(titleSeo || "Best Haier AC Repair and Maintenance Services in Dubai Near You");
+  const metadescription = String(description || "FAJ is the leading AC company. Contact us for Haier Split AC repair and expert air conditioner maintenance services near you in Dubai at 043300002");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Haier AC Repair in Dubai, Haier Air Conditioner Service, Haier AC Maintenance, Haier AC Fix, Haier Air Condition Repair, Haier Air Condition Maintenance, Haier Air Condition Service");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/haier/");
@@ -312,7 +312,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Reliable and Quick Haier AC Repair and Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Reliable and Quick Haier AC Repair and Haier AC Maintenance Servicing in Dubai, UAE</h1>
             <p>
               To complete year-round comfort, we must embrace the challenge of overcoming summer humidity, warm nights, and indoor allergens.
               <br /> Since our inception in 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has established itself as a reliable and respected provider of Haier air conditioning solutions across the regions of Dubai and Sharjah.<br />

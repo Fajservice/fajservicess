@@ -27,8 +27,8 @@ const getImageSrc = (imgPath) => {
 const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metaTitle = String(titleSeo || "Best Aftron Split AC Repair, Maintenance Service Dubai");
-  const metaDescription = String(description || "Looking for top-quality Aftron air conditioning repair this summer? Call 043300002 for Aftron AC repair & maintenance service near you in Dubai");
+  const metaTitle = String(titleSeo || "Best Aftron Split AC Repair, Maintenance Servicing in Dubai");
+  const metaDescription = String(description || "Need affordable Aftron air conditioning repair this summer? Call 043300002 for Aftron AC repair and maintenance services near you in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Aftron AC Repair, Aftron AC Maintenance, Aftron AC Service, Aftron Air Conditioner Repair Dubai, Aftron Air Conditioner Service Dubai, Aftron Air Conditioner Maintenance Dubai, Aftron Air Conditioner Installation Dubai, Aftron Air Conditioner Cleaning Dubai, Aftron AC Repair Dubai, Aftron AC Service Dubai, Aftron AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/aftron/");
