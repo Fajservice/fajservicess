@@ -1,14 +1,32 @@
 {
   "success": [
     {
-      "originalPath": "professional-electricians-at-work",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/professional-electricians-at-work/public",
-      "id": "professional-electricians-at-work",
+      "originalPath": "blog/the-ultimate-guide-to-commercial-dishwasher-repair-in-dubai",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/the-ultimate-guide-to-commercial-dishwasher-repair-in-dubai/public",
+      "id": "blog/the-ultimate-guide-to-commercial-dishwasher-repair-in-dubai",
+      "success": true
+    },
+    {
+      "originalPath": "blog/washing-machine-repair-common-problems-causes-and-solutions",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/washing-machine-repair-common-problems-causes-and-solutions/public",
+      "id": "blog/washing-machine-repair-common-problems-causes-and-solutions",
       "success": true
     }
   ],
-  "failed": [],
+  "failed": [
+    {
+      "originalPath": "blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    }
+  ],
   "mapping": {
-    "professional-electricians-at-work": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/professional-electricians-at-work/public"
+    "blog/the-ultimate-guide-to-commercial-dishwasher-repair-in-dubai": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/the-ultimate-guide-to-commercial-dishwasher-repair-in-dubai/public",
+    "blog/washing-machine-repair-common-problems-causes-and-solutions": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/washing-machine-repair-common-problems-causes-and-solutions/public"
   }
 }
