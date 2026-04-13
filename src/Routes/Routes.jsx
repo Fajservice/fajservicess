@@ -142,6 +142,10 @@ export const router = createBrowserRouter([
         element: <Components.PortfolioPage />,
       },
       {
+        path: "/b2b-services/",
+        element: <Components.B2bServicesPage />,
+      },
+      {
         path: "/services/home-appliances-repair/oven-repair-service/",
         element: <Components.OvenRepairService />,
       },

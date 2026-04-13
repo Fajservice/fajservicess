@@ -1818,9 +1818,6 @@ img.blue-border, img.bordered-img {
     font-size: 16px;
     border: 0.2px solid #000000
 }
-.cs_nav .cs_nav_list > li:hover > div.megamenu-wrapper-menu-level-1 ul.custom_border_drop li a svg{
-    visibility: visible;
-}
 .megamenu-wrapper-menu-level-1 li a svg.nav-icon {
     transform: rotate(
 90deg);
@@ -1882,4 +1879,7 @@ img.blue-border, img.bordered-img {
 .cs_nav .cs_nav_list .top-level-item .custom_border_drop.menu-level-1 .menu-item-has-children:nth-of-type(8) .megamenu-wrapper-menu-level-2 ul.menu-level-2 {
     left: inherit !important;
     right: 0 !important;
+}
+.cs_nav .cs_nav_list > li:hover .custom_border_drop li:nth-of-type(5) > a > span svg{
+  visibility: visible !important;
 }

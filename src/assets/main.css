@@ -2602,8 +2602,8 @@
     justify-content: flex-start;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 50px 120px;
-    margin-top: -90px;
+    gap: 50px 90px;
+    margin-top: 0px;
     position: relative;
     z-index: 1;
     -webkit-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
@@ -4691,7 +4691,7 @@
     height: 40%;
     background-color: #00334e;
     -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+   clipPath: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
     position: absolute;
     left: 0;
     bottom: 1px;
@@ -6311,7 +6311,7 @@
     padding: 22px 25px;
     height: 100%;
     -webkit-clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+   clipPath: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
     top: 0;
     right: 0;

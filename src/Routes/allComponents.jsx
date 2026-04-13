@@ -279,6 +279,7 @@ export const RoboRockVacuumCleanerRepairAndService = withSuspense(React.lazy(() 
 export const DelonghiCoffeeMachineRepair = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesBrand/DelonghiCoffeeMachineRepair")));
 export const AcRepairInDownTown = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInDownTown")));
 export const PortfolioPage = withSuspense(React.lazy(() => import("../Pages/PortfolioPage")));
+export const B2bServicesPage = withSuspense(React.lazy(() => import("../Pages/B2bServicesPage")));
 export const CigarcabnitService = withSuspense(React.lazy(() => import("../Pages/HomeAppPages/CigarcabnitService")));
 export const AppliancesServiceInAlMamzar = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlMamzar")));
 export const AppliancesServiceInAlMizhar = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlMizhar")));
