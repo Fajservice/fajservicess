@@ -628,7 +628,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       </HelmetProvider>
 
       <section>
-        <div className="cs_height_40 cs_height_lg_10"></div>
+        
         <div className="container">
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">

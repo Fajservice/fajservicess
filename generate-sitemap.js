@@ -26,6 +26,7 @@ const urls = [
   { loc: "/terms-and-conditions/" },
   { loc: "/career/" },
   { loc: "/testimonials/" },
+  { loc: "/b2b-services/" },
 
   { loc: "/dubai/near-me/" },
   { loc: "/dubai/ac-repair-near-me/" },
@@ -450,6 +451,11 @@ const urls = [
   { loc: "/blog/the-ultimate-guide-to-data-center-temperature-best-temperature-setting-for-data-center-server-rooms/"},
   { loc: "/blog/how-to-do-ac-service-easy-diy-guide-for-beginners/"},
   { loc: "/blog/effect-of-high-temperature-and-climate-change-on-health-in-dubai-uae/"},
+  { loc: "/blog/how-do-you-clean-a-refrigerator-complete-guide-to-refrigerator-cleaning-and-maintenance/"},
+  { loc: "/blog/washing-machine-repair-common-problems-causes-and-solutions/"},
+  { loc: "/blog/the-ultimate-guide-to-commercial-dishwasher-repair-in-dubai/"},
+  { loc: "/blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai/"},
+  { loc: "/blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes/"},
   { loc: "/services/air-conditioning-repair/\u062a\u0635\u0644\u064a\u062d-\u0645\u0643\u064a\u0641\u0627\u062a-\u0627\u0644\u0647\u0648\u0627\u0621-\u062e\u062f\u0645\u0629-\u0648\u0635\u064a\u0627\u0646\u0629-\u062f\u0628\u064a/" },
 
   { loc: "/orphan/" },

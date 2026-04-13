@@ -365,6 +365,11 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/cake-storage-temperature-guide-best-temperature-for-fresh-cakes/">Cake Storage Temperature Guide: Best Temperature for Fresh Cakes</a></li>
                             <li><a href="https://www.fajservices.ae/blog/how-to-do-ac-service-easy-diy-guide-for-beginners/">How to Do AC Service: Easy DIY Guide for Beginners</a></li>
                             <li><a href="https://www.fajservices.ae/blog/effect-of-high-temperature-and-climate-change-on-health-in-dubai-uae/">Effect of High Temperature and Climate Change on Health in Dubai, UAE</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-do-you-clean-a-refrigerator-complete-guide-to-refrigerator-cleaning-and-maintenance/">How do you clean a refrigerator? Complete guide to refrigerator cleaning and maintenance</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/washing-machine-repair-common-problems-causes-and-solutions/">Washing machine repair: Common problems, causes and solutions</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-commercial-dishwasher-repair-in-dubai/">The ultimate guide to commercial dishwasher repair in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai/">The ultimate guide to commercial ice maker repair in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes/">The ultimate guide to coffee machine repair Dubai for cafes and homes</a></li>
                             <li><a href="https://www.fajservices.ae/services/electrical-services-in-dubai/">Electrical Services in Dubai</a></li>
                         </ul>
                     </div>
