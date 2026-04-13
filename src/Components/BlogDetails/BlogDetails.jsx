@@ -547,6 +547,49 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
             </div>
           );
         })}
+        {[...Array(13)].map((_, i) => {
+          const h4Key = `${sectionName}_h4_${i + 1}`;
+          const h4ContentKey = `${sectionName}_h4_content_${i + 1}`;
+          const h4ImgKey = `${sectionName}_h4_${i + 1}_img`;
+          const h4BulletsKey = `${sectionName}_h4_${i + 1}_bullets`;
+          const h4PointsKey = `${sectionName}_h4_${i + 1}_points`;
+          const h4BannerKey = `${sectionName}_h4_${i + 1}_banner`;
+          const h4Banner2Key = `${sectionName}_h4_${i + 1}_banner2`;
+          const h4TableKey = `${sectionName}_h4_${i + 1}_table`;
+
+          if (!blogPost[h4Key]) return null;
+
+          return (
+            <div key={`${sectionName}_h4_${i + 1}`}>
+              <h4 className="cs_fs_20 mb-2">{blogPost[h4Key]}</h4>
+
+              {blogPost[h4ImgKey] && (
+                <div className="col-md-8">
+                  <img src={getImageSrc(blogPost[h4ImgKey])} alt={blogPost.title} decoding="async" width="100%" height="auto" />
+                </div>
+              )}
+
+              {renderContent(blogPost[h4ContentKey])}
+
+              {/* banner2 + table: after content, before bullets */}
+              {renderBannerImg(blogPost[h4Banner2Key], blogPost.title)}
+              {renderTable(blogPost[h4TableKey])}
+
+              {renderBullets(blogPost[h4BulletsKey], `${sectionName}_h4_${i + 1}_bullet`)}
+
+              {blogPost[h4PointsKey] && (
+                <ol>
+                  {blogPost[h4PointsKey].map((point, idx) => (
+                    <li key={idx}>{point}</li>
+                  ))}
+                </ol>
+              )}
+
+              {/* banner: after bullets/points — h4 end */}
+              {renderBannerImg(blogPost[h4BannerKey], blogPost.title)}
+            </div>
+          );
+        })}
       </div>
     );
   };
