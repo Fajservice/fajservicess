@@ -86,39 +86,51 @@
 
    <!-- Defer analytics & tracking scripts using idle callback -->
   <script>
+  (function() {
+    if (window.__trackingScriptsLoaded) return;
+    window.__trackingScriptsLoaded = true;
+
     function loadTracking() {
-      // Ahrefs (defer, not blocking)
-      const ahrefs = document.createElement('script');
+      // 1. Ahrefs
+      var ahrefs = document.createElement('script');
       ahrefs.src = 'https://analytics.ahrefs.com/analytics.js';
       ahrefs.setAttribute('data-key', 'wdbGJEldrgnwsppokRfLqg');
       ahrefs.defer = true;
       document.head.appendChild(ahrefs);
 
-      // Google Analytics
-      const gtag = document.createElement('script');
-      gtag.src = 'https://www.googletagmanager.com/gtag/js?id=G-MK15Z3F4GD';
-      gtag.async = true;
-      document.head.appendChild(gtag);
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-MK15Z3F4GD');
+      // 2. Google Analytics (gtag)
+      var gtagScript = document.createElement('script');
+      gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-MK15Z3F4GD';
+      gtagScript.async = true;
+      document.head.appendChild(gtagScript);
 
-      // Clarity
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function() { dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-MK15Z3F4GD');
+
+      // 3. Microsoft Clarity
       (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r); t.async=1; t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t,y);
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
       })(window, document, "clarity", "script", "ls6z639yr5");
     }
 
-    // Wait until browser is idle or at most 5 seconds
-    if ('requestIdleCallback' in window) {
-      requestIdleCallback(loadTracking, { timeout: 30000 });
+    // Wait for the page to be fully loaded (all resources)
+    if (document.readyState === 'complete') {
+      // Already fully loaded, wait for idle
+      requestIdleCallback(loadTracking, { timeout: 2000 });
     } else {
-      setTimeout(loadTracking, 30000);
+      window.addEventListener('load', function() {
+        requestIdleCallback(loadTracking, { timeout: 2000 });
+      });
     }
-  </script>
+  })();
+</script>
 
 </head>
 

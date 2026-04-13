@@ -26,7 +26,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
   // For SEO
   const metatitle = String(titleSeo || "Best Whirlpool AC and Whirlpool Appliance Repair Service in Dubai");
-  const metadescription = String(description || "Reliable Whirlpool AC repair & service in Dubai. We offer maintenance for fridge freezers, washing machines, & dishwasher, all with a parts warranty");
+  const metadescription = String(description || "Top Whirlpool AC repair & service in Dubai. We are offering fridge, washing machine, dryer, laundry, dishwasher, oven, and maintenance with part warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Whirpool Air Conditioner Repair in Dubai, Whirlpool AC Maintenance, Whirlpool AC Service, Whirlpool Air Conditioner Installation, Whirlpool AC Cleaning Service, Whirlpool AC Repair Dubai, Whirlpool AC AMC Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/whirlpool/");

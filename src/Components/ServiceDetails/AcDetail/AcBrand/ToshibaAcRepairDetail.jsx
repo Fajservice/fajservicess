@@ -25,7 +25,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
   // For SEO
   const metatitle = String(titleSeo || "Best Toshiba AC Repair and Maintenance Services in Dubai");
-  const metadescription = String(description || "Get high-quality repair for Cassette, Ducted Inverter Split, and VRF ACs. Toshiba AC Services in Dubai. Book now at 04 330 0002 for the best prices");
+  const metadescription = String(description || "Get high-quality Toshiba AC repair and Cassette, Ducted Inverter Split, and VRF ACs. Toshiba AC Services in Dubai. Call at 043300002 for the best prices");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Toshiba AC Repair in Dubai, Toshiba AC Maintenance Service, Toshiba Air Conditioner Repair, Toshiba AC Service Near Me, Toshiba AC Cleaning Service, Toshiba Air Conditioner Installation, Toshiba AC AMC Dubai, Toshiba AC Repair Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/toshiba/");

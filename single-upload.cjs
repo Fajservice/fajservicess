@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const CF_ACCOUNT_ID = '513a1be78e7b9d8a6d8553ab26e8ad99';
-const CF_API_TOKEN = 'TEbewo3j1FgM6dD2rtp3lJ6kaZK_RiehCLsShb9_';
+const CF_API_TOKEN = 'cfut_rL4U71lm0sQLj25A12MSn8ClqcdWRmMxmwSAVQ9C37e94f95';
 
 async function uploadSingle() {
   const imagePath = process.argv[2];

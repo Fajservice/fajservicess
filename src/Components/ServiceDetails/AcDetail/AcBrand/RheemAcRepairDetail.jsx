@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Top Rheem AC Repair and Maintenance Services in Dubai");
-  const metadescription = String(description || "Are you looking for professional Rheem AC maintenance in Dubai? Since 2010, FAJ has been providing Rheem AC repair & services in UAE. Call us now!");
+  const metatitle = String(titleSeo || "Rheem AC Repair and Rheem AC Maintenance Services in Dubai");
+  const metadescription = String(description || "Looking for professional Rheem AC repair in Dubai? Since 2010, FAJ has been providing Rheem AC maintenance & services near you, UAE. Call us today");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Rheem AC Repair, Rheem Air Conditioner Service, Rheem AC Maintenance Dubai, Rheem AC Repair Dubai, Rheem Air Conditioning Dubai, Rheem AC Service Dubai, Rheem Air Conditioner Repair Dubai, Rheem AC Installation Dubai, Rheem HVAC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/");

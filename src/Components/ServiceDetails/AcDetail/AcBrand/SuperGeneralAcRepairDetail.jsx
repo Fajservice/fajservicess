@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Super General Split AC Service and Repair in Dubai - Sharjah");
-  const metadescription = String(description || "Professional Super General Split AC service and repair in Dubai. We offer fridge, washing machine, stove, and oven fix, with a warranty on parts");
+  const metatitle = String(titleSeo || "Best Super General Split AC Repair and Service in Dubai - Sharjah");
+  const metadescription = String(description || "We provide the best quality Super General split AC repair  in Dubai. Additionally, we offer refrigerator, washing machine, stove, & oven service with warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Super General AC Repair in Dubai, Super General AC Maintenance in Dubai, Super General AC Fix in Dubai, Super General AC Service in Dubai, Super General Air Condition Repair in Dubai, Super General Air Con");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/super-general/");

@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Trane AC Repair and HVAC Maintenance Services in Dubai");
-  const metadescription = String(description || "Get reliable Trane AC repair and service in Dubai. Find out when to schedule maintenance and cleaning for Trane central and ducted split air conditioning.");
+  const metatitle = String(titleSeo || "Trane Air Conditioning | Trane AC Repair and Maintenance Service");
+  const metadescription = String(description || "Find trustworthy Trane AC repair and services in Dubai. Book the best HVAC, central & Ducted Split Trane air conditioning maintenance servicing near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Trane AC Repair, Trane Air Conditioner Maintenance, Trane AC Service, Trane HVAC Repair, Trane Air Conditioning Cleaning Service, Trane AC Installation, Trane AC Repair Dubai, Trane Air Conditioner Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/");

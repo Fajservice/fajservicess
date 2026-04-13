@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best SKM AC Repair and Maintenance Service in Duba");
-  const metadescription = String(description || "FAJ is now providing AMC contract services and SKM AC repair in Dubai and Sharjah. Contact FAJ Air Conditioning now for prompt maintenance!");
+  const metatitle = String(titleSeo || "SKM Air Conditioning | SKM AC Repair and Maintenance Services");
+  const metadescription = String(description || "FAJ is now offering AMC contract services and SKM AC repair in Dubai and Sharjah. Call FAJ for central & package unit SKM air conditioner maintenance");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Skm AC Repair, Skm Air Conditioner Service, Skm AC Maintenance, Skm Air Conditioner Repair, Skm Air Conditioner Service Dubai, Skm Air Conditioner Maintenance Dubai, Skm AC Fix Dubai, Skm AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/skm/");

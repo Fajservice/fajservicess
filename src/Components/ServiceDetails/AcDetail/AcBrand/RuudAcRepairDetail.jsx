@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Ruud AC Repair and Ruud AC Maintenance Service in Dubai");
-  const metadescription = String(description || "Looking for professional Ruud AC repair in Dubai? Since 2010, FAJ has been offering Ruud AC maintenance and services in the UAE. Call us now!");
+  const metatitle = String(titleSeo || "Top Ruud AC Repair and Ruud AC Maintenance Services in Dubai");
+  const metadescription = String(description || "FAJ offers top-quality Ruud AC repair and service in Dubai for central and ducted split Ruud AC system cleaning and maintenance near you. Call us today!");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ruud AC Repair in Dubai, Ruud AC Maintenance Service, Ruud Air Conditioner Repair, Ruud Air Conditioner Maintenance, Ruud AC Fix in Dubai, Ruud AC Service in Dubai, Ruud Air Condition Repair in Dubai, Ruud Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/ruud/");

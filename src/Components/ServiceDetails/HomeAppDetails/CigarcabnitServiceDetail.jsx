@@ -314,7 +314,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 </h2>
                 <p><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 230 to 530 depending on unit, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p> <p className="pt-0 border-small-top mb-md-0"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
                   <b>We provide 2-month repair warranty</b><br />
-                  and <small>3-month parts warranty</small>as standard.</p>
+                  and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">

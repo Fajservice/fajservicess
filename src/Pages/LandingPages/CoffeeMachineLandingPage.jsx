@@ -18,24 +18,24 @@ const getImageSrc = (imgPath) => {
 const CoffeeMachineLandingPage = () => {
   return (<>
     <HelmetProvider>
-                <Helmet>
-                  <title>Coffee Machine Service Center in Dubai</title>
-                  <meta name="description" content="Expert Coffee Machine Service in Dubai. Certified technicians for all major brands. Fast, reliable repairs & maintenance to minimize downtime. Call now for a free quote!" />
-                  <meta name="robots" content="noindex, nofollow" />
-        
-                  <link rel="canonical" href="https://www.fajservices.ae/dubai-service-center-coffee-machine/" />
-                  <meta property="og:type" content="website" />
-                  <meta property="og:locale" content="en_US" />
-                  <meta property="og:title" content="Coffee Machine Service Center in Dubai" />
-                  <meta property="og:description" content="Expert Coffee Machine Service in Dubai. Certified technicians for all major brands. Fast, reliable repairs & maintenance to minimize downtime. Call now for a free quote!" />
-        
-                  {/* Twitter Card */}
-                  <meta name="twitter:card" content="summary_large_image" />
-                  <meta name="twitter:title" content="Coffee Machine Service Center in Dubai" />
-                  <meta name="twitter:description" content="Expert Coffee Machine Service in Dubai. Certified technicians for all major brands. Fast, reliable repairs & maintenance to minimize downtime. Call now for a free quote!" />
-                  
-                </Helmet>
-              </HelmetProvider>
+        <Helmet>
+          <title>Coffee Machine Service Center in Dubai</title>
+          <meta name="description" content="Expert Coffee Machine Service in Dubai. Certified technicians for all major brands. Fast, reliable repairs & maintenance to minimize downtime. Call now for a free quote!" />
+          <meta name="robots" content="noindex, nofollow" />
+
+          <link rel="canonical" href="https://www.fajservices.ae/dubai-service-center-coffee-machine/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content="Coffee Machine Service Center in Dubai" />
+          <meta property="og:description" content="Expert Coffee Machine Service in Dubai. Certified technicians for all major brands. Fast, reliable repairs & maintenance to minimize downtime. Call now for a free quote!" />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Coffee Machine Service Center in Dubai" />
+          <meta name="twitter:description" content="Expert Coffee Machine Service in Dubai. Certified technicians for all major brands. Fast, reliable repairs & maintenance to minimize downtime. Call now for a free quote!" />
+          
+        </Helmet>
+      </HelmetProvider>
     <div>
         <CMBannerCta />
         <CMTechincianCarousel />

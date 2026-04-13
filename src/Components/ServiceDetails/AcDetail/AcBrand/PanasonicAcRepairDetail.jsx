@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Panasonic AC Repair and Maintenance Service in Dubai");
-  const metadescription = String(description || "Top-rated Panasonic AC repair and service in Dubai. FAJ employs experienced technicians who can fix your AC on same day to ensure optimal cooling");
+  const metatitle = String(titleSeo || "Panasonic AC Repair and Maintenance Service Near You, Dubai");
+  const metadescription = String(description || "Top-rated Panasonic AC repair and service in Dubai. FAJ experienced technicians who can fix your Panasonic AC on same day to ensure optimal cooling.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Panasonic AC Repair in Dubai, Panasonic AC Maintenance in Dubai, Panasonic AC Fix in Dubai, Panasonic AC Service in Dubai, Panasonic Air Condition Repair in Dubai, Panasonic Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/panasonic/");

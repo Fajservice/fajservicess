@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Professional Samsung AC Repair and Maintenance Service Dubai");
-  const metadescription = String(description || "FAJ's experienced team offers Samsung AC repair and service in Dubai. Call 043300002 to book maintenance for VRF, central, and split, including AMC");
+  const metatitle = String(titleSeo || "Samsung Air Conditioning | Samsung AC Repair and Service Dubai");
+  const metadescription = String(description || "Top-rated Samsung AC repair and service in Dubai. Call FAJ at 043300002 for Samsung AC central, VRF & split maintenance servicing near you, UAE");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Samsung AC Repair, Samsung AC Service, Samsung Air Conditioner Maintenance, Samsung AC Cleaning, Samsung AC Installation, Samsung AC Repair Dubai, Samsung Air Conditioner Service Dubai, Samsung Split AC Repair Dubai, Samsung Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/");

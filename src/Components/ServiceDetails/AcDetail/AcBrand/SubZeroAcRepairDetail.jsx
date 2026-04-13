@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Sub Zero AC Repair and AC Cleaning Service Dubai Near Me");
-  const metadescription = String(description || "Book Sub Zero AC Repair in Dubai provides expert maintenance services for air conditioners. We are the preferred company for air conditioning repairs");
+  const metatitle = String(titleSeo || "Best Sub Zero AC Repair and AC Cleaning Service in Dubai");
+  const metadescription = String(description || "Book Sub Zero AC Repair in Dubai provides expert maintenance services for air conditioners. We are the preferred company for air conditioner repairs");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Sub Zero AC Repair, Sub Zero AC Service, Sub Zero Air Conditioner Maintenance, Sub Zero AC Installation, Sub Zero AC Cleaning Service, Sub Zero AC Repair Dubai, Sub Zero Air Conditioner Service Dubai, Sub Zero AC Repair Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/sub-zero/");

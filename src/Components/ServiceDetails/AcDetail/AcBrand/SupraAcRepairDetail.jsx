@@ -28,8 +28,8 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   // For SEO
   const metatitle = titleSeo?.trim() 
   ? titleSeo 
-  : "Best Supra Split AC Cleaning and Repair Service in Dubai";
-  const metadescription = String(description || "High-quality Supra window and split AC service & repair in Dubai. We offer fridge, washing machine, stove, and oven fix near you with a parts warranty");
+  : "Best Supra Split AC Cleaning Service and Repair Near You, Dubai";
+  const metadescription = String(description || "High-quality Supra window and split AC repair & service in Dubai. We offer fridge, washing machine, stove, and oven fix near you with a parts warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Supra AC Repair Dubai, Supra Split Air Conditioner Service, Supra Aircon Maintenance Dubai, Supra AC Fix Dubai, Supra Air Conditioner Repair Dubai, Supra Air Conditioner Service Dubai, Supra AC Service Dubai, Supra AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/supra/");

@@ -27,8 +27,8 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
 
 
   // For SEO
-  const metatitle = String(titleSeo || "Best West Point Split AC Repair & Window Cleaning Service Dubai");
-  const metadescription = String(description || "High-rated West Point window and split AC repair & service in Dubai. Additionally, we provide repair services for refrigerator, washing machine, & oven");
+  const metatitle = String(titleSeo || "Best West Point Split AC Repair and Window Maintenance Service");
+  const metadescription = String(description || "Trusted Westpoint Window and Split AC repair & service in Dubai. We are offering Westpoint fridge, washing machine, oven repairs with part warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Westpoint AC repair in Dubai, Westpoint AC maintenance in Dubai, Westpoint AC service in Dubai, Westpoint air conditioner repair in Dubai, Westpoint split AC repair in Dubai, Westpoint wall mounted AC repair in Dubai, Westpoint ductless AC repair in Dubai, Westpoint aircon repair in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/westpoint/");

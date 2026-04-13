@@ -184,9 +184,9 @@ section#get-quote {
     height: 4px;
   }
 
-  .cs_nav .cs_nav_list li {
-    border-bottom: 1px solid #ffffff70;
-  }
+  /* .cs_nav .cs_nav_list li {
+    border-bottom: 1px solid #000;
+  } */
 
   .cs_nav .cs_nav_list li:last-child {
     border-bottom: 0px;
@@ -744,8 +744,9 @@ p a {
   .faj-price-table {
     overflow-y: auto;
   }
-  .cs_nav .cs_nav_list li a svg{
-    display: none;
+  .cs_nav .cs_nav_list li a span svg, .cs_nav .cs_nav_list li div span svg{
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -775,9 +776,9 @@ p a {
   .cs_fs_50 {
     font-size: 25px;
   }
-  .cs_nav .cs_nav_list li a svg{
+  /* .cs_nav .cs_nav_list li a svg{
     display: none;
-  }
+  } */
 
   /* .box-content-container {
     min-height: 120px;
@@ -1785,4 +1786,100 @@ img.blue-border, img.bordered-img {
     object-fit: cover;
     object-position: top;
     margin-bottom: inherit;
+}
+.cs_nav .cs_nav_list > li:hover > div.megamenu-wrapper-menu-level-1 ul.custom_border_drop {
+  opacity: 1;
+  visibility: visible;
+}
+.megamenu-wrapper-menu-level-1 ul.custom_border_drop, .megamenu-wrapper-menu-level-1 ul.custom_border_drop li ul {
+    display: flex !important;
+    left: -25vw;
+    max-width: 1140px;
+    top: 128%;
+}
+.cs_nav .cs_nav_list > li:hover > div.megamenu-wrapper-menu-level-1 ul.custom_border_drop > .megamenu-wrapper-menu-level-2 {
+    position: absolute;
+    top: 34vh;
+    display: block;
+}
+.cs_nav .cs_nav_list ul li:hover ul{
+  visibility: visible;
+  opacity: 1;
+}
+.megamenu-wrapper-menu-level-1 li {
+    margin: 5px;
+}
+.megamenu-wrapper-menu-level-1 li a {
+    padding: 8px !important;
+    min-width: 120px;
+    min-height: 103px;
+    max-height: 103px;
+    max-width: 120px;
+    font-size: 16px;
+    border: 0.2px solid #000000
+}
+.cs_nav .cs_nav_list > li:hover > div.megamenu-wrapper-menu-level-1 ul.custom_border_drop li a svg{
+    visibility: visible;
+}
+.megamenu-wrapper-menu-level-1 li a svg.nav-icon {
+    transform: rotate(
+90deg);
+    height: 14px;
+    width: 19px;
+}
+.megamenu-wrapper-menu-level-2 ul.menu-level-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left: -12.5vw !important;
+    right: 0px !important;
+    max-width: 922px !important;
+    border-top: 3px solid #00334E;
+    background: #F3F3F3;
+    top: 110px !important;
+}
+.megamenu-wrapper-menu-level-1 ul.menu-level-2 li{
+  border: 0px;
+}
+.megamenu-wrapper-menu-level-1 ul.menu-level-2 li a {
+    border: 0px !important;
+    justify-content: center !important;
+    border-radius: 5px;
+}
+.megamenu-wrapper-menu-level-1 ul.menu-level-2 li a:hover {
+    background-color: #fff;
+}
+.cs_nav .cs_nav_list ul li:not(:last-child) a::after{
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .megamenu-wrapper-menu-level-1 ul.custom_border_drop, .megamenu-wrapper-menu-level-1 ul.custom_border_drop li ul {
+    display: inherit !important;
+    left: initial;
+    max-width: inherit;
+    top: initial;
+}
+.cs_nav .cs_nav_list > li:hover > div.megamenu-wrapper-menu-level-1 ul.custom_border_drop {
+    opacity: inherit;
+    visibility: inherit;
+}
+}.cs_nav .cs_nav_list .top-level-item:nth-of-type(3) .custom_border_drop.menu-level-1 {
+    display: inline-block !important;
+    left: 0;
+}
+.cs_nav .cs_nav_list .top-level-item:nth-of-type(3) .custom_border_drop.menu-level-1 a {
+    max-height: inherit !important;
+    min-height: inherit;
+    max-width: inherit;
+    border: 0;
+}
+.cs_nav .cs_nav_list .top-level-item .custom_border_drop.menu-level-1 .menu-item-has-children:nth-of-type(1) .megamenu-wrapper-menu-level-2 ul.menu-level-2 {
+    left: 0 !important;
+}
+.cs_nav .cs_nav_list .top-level-item .custom_border_drop.menu-level-1 .menu-item-has-children:nth-of-type(2) .megamenu-wrapper-menu-level-2 ul.menu-level-2 {
+    left: 0 !important;
+}
+.cs_nav .cs_nav_list .top-level-item .custom_border_drop.menu-level-1 .menu-item-has-children:nth-of-type(8) .megamenu-wrapper-menu-level-2 ul.menu-level-2 {
+    left: inherit !important;
+    right: 0 !important;
 }

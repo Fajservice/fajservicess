@@ -24,8 +24,8 @@ const getImageSrc = (imgPath) => {
 const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "York Air Conditioning Repair and York AC Maintenance Service");
-  const metadescription = String(description || "Looking for the best York AC repair in Dubai? Call 0433000002 for homes and office needs. We also provide York HVAC maintenance services near you");
+  const metatitle = String(titleSeo || "York Air Conditioning | York AC Repair and Maintenance Services");
+  const metadescription = String(description || "Find the best York AC repair in Dubai. Call 0433000002 for residential and commercial needs. We also provide York HVAC maintenance services near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "York AC Repair, York Air Conditioner Maintenance, York AC Service Dubai, York Air Conditioner Repair Dubai, York AC Installation Dubai, York AC Cleaning Dubai, York Air Conditioner Service Dubai, York Air Conditioner Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/york/");

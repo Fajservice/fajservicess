@@ -1,14 +1,14 @@
 {
   "success": [
     {
-      "originalPath": "professional-electricians-at-work",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/professional-electricians-at-work/public",
-      "id": "professional-electricians-at-work",
+      "originalPath": "blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide/public",
+      "id": "blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide",
       "success": true
     }
   ],
   "failed": [],
   "mapping": {
-    "professional-electricians-at-work": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/professional-electricians-at-work/public"
+    "blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide/public"
   }
 }

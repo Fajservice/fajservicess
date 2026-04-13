@@ -8211,6 +8211,7 @@
     /*Mobile Menu Button*/
     .cs_nav .cs_nav_list>li {
       margin-right: 0;
+      /* padding: 0 15px; */
     }
 
     .cs_site_header.cs_style_1 .cs_main_header_right {
@@ -8254,16 +8255,17 @@
     .cs_nav .cs_nav_list {
       position: absolute;
       width: 100vw;
-      left: -15px;
-      background-color: #181818;
+      left: 0px;
+      background-color: #F3F3F3;
       padding: 10px 0;
       display: none;
       top: 100%;
-      border-top: 1px solid #4d4d4d 52;
-      border-bottom: 1px solid #4d4d4d 52;
+      border-top: 1px solid #4d4d4d;
+      /* border-bottom: 1px solid #4d4d4d; */
       overflow: auto;
       max-height: calc(100vh - 80px);
       line-height: 1.6em;
+      height: calc(100vh - 130px);
     }
 
     .cs_nav .cs_nav_list ul {
@@ -8622,8 +8624,9 @@
       padding: 0;
     }
 
-    .cs_nav .cs_nav_list li a {
-      color: #fff;
+    .cs_nav .cs_nav_list li a, .cs_nav .cs_nav_list li div  {
+      color: #000000;
+      border-bottom: 1px solid #000;
     }
   }
 

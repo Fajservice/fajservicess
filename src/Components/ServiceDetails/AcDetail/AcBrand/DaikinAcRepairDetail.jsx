@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Daikin AC Repair & Daikin AC Maintenance Services in Dubai");
-  const metadescription = String(description || "FAJ technicians specialise in Daikin Air Conditioning repair and Daikin AC VRV systems service, as well as ducted split maintenance for all repairs in Dubai");
+  const metatitle = String(titleSeo || "Daikin Air Conditioning | Daikin AC Repair & Maintenance Services");
+  const metadescription = String(description || "FAJ technicians specialise in Daikin AC repair and VRV systems, as well as ducted split systems, utilising Daikin maintenance service for all repairs Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Daikin AC Repair in Dubai, Daikin Air Conditioner Maintenance, Daikin AC Service, Daikin Air Conditioning Repair, Daikin AC Fix, Daikin Air Conditioner Service, Daikin AC Cleaning, Daikin Air Conditioner Installation");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/daikin/");

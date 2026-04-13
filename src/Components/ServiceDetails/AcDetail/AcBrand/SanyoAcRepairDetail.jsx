@@ -25,8 +25,8 @@ const getImageSrc = (imgPath) => {
 const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Sanyo Air Conditioning Repair & Maintenance Service Dubai ");
-  const metadescription = String(description || "FAJ Professional provides Sanyo AC repair and services in Dubai, including maintenance and cleaning for both central and split AC. Call us at 043300002");
+  const metatitle = String(titleSeo || "Sanyo Air Conditioner | Sanyo AC Repair & Maintenance Service ");
+  const metadescription = String(description || "FAJ Professional offers Sanyo AC repair and services in Dubai, including maintenance and cleaning for both central and split AC units near you, UAE");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Sanyo AC Repair in Dubai, Sanyo Air Conditioner Service, Sanyo AC Maintenance, Sanyo AC Fix, Sanyo AC Service, Sanyo Air Condition Repair, Sanyo Air Condition Maintenance, Sanyo Air Condition");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/sanyo/");
