@@ -492,7 +492,6 @@ const WashingMachineRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo
         </section>
 
        {/* Brands section */}
-        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
@@ -505,7 +504,6 @@ const WashingMachineRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo
             containerHeight="100px"
           />
         )}
-        </Suspense>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

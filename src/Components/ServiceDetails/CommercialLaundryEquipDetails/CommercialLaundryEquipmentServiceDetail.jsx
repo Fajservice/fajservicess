@@ -662,7 +662,6 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
         </section>
 
         {/* Brands section */}
-        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
@@ -675,7 +674,6 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
             containerHeight="100px"
           />
         )}
-        </Suspense>
 
         <Suspense fallback={<div style={{ minHeight: '200px' }} />}>
           <MaintenanceContract />

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback, Suspense } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -19,8 +19,8 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/public`;
 };
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  const metatitle = String(titleSeo || "Coffee Machine Service Center | Best Coffee Machine Repair UAE");
-  const metadescription = String(description || "Top-Rated Coffee Machine service centre near you. Call us for home / office espresso repair & coffee maker maintenance Dubai. خدمات صيانة وإصلاح آلات القهو");
+  const metatitle = String(titleSeo || "Coffee Machine Service Center in Dubai | Coffee Machine Repair");
+  const metadescription = String(description || "Best FAJ Coffee Machine service center in Dubai. Call us for home or office espresso machine, restaurant, & coffee maker repair & maintenance near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Coffee Machine Repair, Coffee Machine Service, Coffee Machine Descaling, Coffee Machine Service Center");
   const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/");
@@ -201,7 +201,7 @@ const coffeemachineServicesData = [
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 100, callout fee applies based on the type, brand, capacity of the coffee machine unit, and location for each diagnosis.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 230, callout fee applies based on the type, brand, capacity of the coffee machine unit, and location for each diagnosis.'
         },
         
       ]
@@ -236,7 +236,7 @@ const coffeemachineServicesData = [
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
          {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AAED 230 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AAED 395 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
         },
       ]
     },
@@ -1375,7 +1375,6 @@ const coffeemachineServicesData = [
           </div>
         </section>
 
-        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
@@ -1388,7 +1387,6 @@ const coffeemachineServicesData = [
             containerHeight="100px"
           />
         )}
-        </Suspense>
 
         <MaintenanceContract />
 

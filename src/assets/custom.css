@@ -586,9 +586,7 @@ p a {
   .usps .uspitem h3 {
     margin-left: -20px;
   }
-  .cs_site_header.cs_style_1 .cs_main_header_left .cs_site_branding svg{
-    margin-top: 8px;
-  }
+
 }
 
 /* Acc Benifit section */
@@ -718,9 +716,6 @@ p a {
 @media screen and (max-width: 1200px) {
   .cs_nav .cs_nav_list>li.menu-item-has-children .custom_border_drop .menu-item-has-children>a::after {
     display: none;
-  }
-  .cs_site_header.cs_style_1 .cs_main_header_left .cs_site_branding svg{
-    margin-top: -5px;
   }
 }
 
@@ -1814,11 +1809,6 @@ img.blue-border, img.bordered-img {
 .megamenu-wrapper-menu-level-1 li {
     margin: 5px;
 }
-/* .megamenu-wrapper-menu-level-1 li:hover a{
-  color: #fff;
-  background: #00334E;
-  box-shadow: 0px 6px 6px 0px #4B4B4B40;
-} */
 .megamenu-wrapper-menu-level-1 li a {
     padding: 8px !important;
     min-width: 120px;
@@ -1826,25 +1816,14 @@ img.blue-border, img.bordered-img {
     max-height: 103px;
     max-width: 120px;
     font-size: 16px;
-    border-radius: 3px;
-    line-height: 1 !important;
     border: 0.2px solid #000000
 }
-/* .megamenu-wrapper-menu-level-1 li:hover > a{
-  color: #fff;
-  background: #00334E;
-  box-shadow: 0px 6px 6px 0px #4B4B4B40;
-} */
 .megamenu-wrapper-menu-level-1 li a svg.nav-icon {
     transform: rotate(
 90deg);
     height: 14px;
     width: 19px;
 }
-/* .megamenu-wrapper-menu-level-1 li:hover > a .text-center > svg{
-  fill: #fff;
-  stroke: #fff;
-} */
 .megamenu-wrapper-menu-level-2 ul.menu-level-2 {
     flex-wrap: wrap;
     justify-content: center;

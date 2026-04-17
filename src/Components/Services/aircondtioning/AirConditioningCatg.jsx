@@ -9,15 +9,9 @@ import Serviceappointemnt from "../../Contact/Serviceappointemnt";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
-const getImageSrc = (imgPath) => {
-  if (!imgPath) return '';
-  if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
-};
-
 const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
-  const metatitle = String(titleSeo || "AC Repair Service and HVAC Maintenance خدمات صيانة وتصليح المكيفات");
-  const metadescription = String(description || "FAJ has been providing the best AC repair service in Dubai since 2010. Get fast AC maintenance, servicing & AC cleaning from expert technician near you");
+  const metatitle = String(titleSeo || "Best Air Conditioning Maintenance Company in Dubai - Sharjah");
+  const metadescription = String(description || "We provide top-quality Air Conditioning maintenance. FAJ expert in ducted split, central, VRV, & VRF AC servicing & repairs with the best prices in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/ac filter/public");
@@ -25,7 +19,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  reviewsbg = getImageSrc('testimonialbg')
+  reviewsbg = "estimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);

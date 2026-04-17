@@ -371,13 +371,6 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai/">The ultimate guide to commercial ice maker repair in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes/">The ultimate guide to coffee machine repair Dubai for cafes and homes</a></li>
                             <li><a href="https://www.fajservices.ae/services/electrical-services-in-dubai/">Electrical Services in Dubai</a></li>
-                            <li><a href="https://www.fajservices.ae/who-we-are/">Who We Are</a></li>
-                            <li><a href="https://www.fajservices.ae/our-vision-and-mission/">Our Vision and Mission</a></li>
-                            <li><a href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/oven-repair/">Kitchen Equipment Oven Repair</a></li>
-                            <li><a href="https://www.fajservices.ae/services/refrigeration-equipment/commercial-refrigeration-maintenance-contract-services/">Commercial Refrigeration Maintenance Contract Services</a></li>
-                            <li><a href="https://www.fajservices.ae/services/pcb-repair-services/">PCB Repair Services</a></li>
-                            <li><a href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/commercial-kitchen-equipment-amc/">Commercial Kitchen Equipment AMC</a></li>
-                            <li><a href="https://www.fajservices.ae/services/plumbing-services-in-dubai/">Plumber Services In Dubai</a></li>
                         </ul>
                     </div>
                 </div>

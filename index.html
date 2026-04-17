@@ -7,24 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="QZS_szvkl-FWmcT3kcPPBEm0lWzxzU9u4Tu9ZS42nZI" />
   <link rel="icon" type="image/png" href="/favicon.png" />
-  <script src="https://analytics.ahrefs.com/analytics.js" data-key="wdbGJEldrgnwsppokRfLqg" de></script>
   <link rel="preload" as="image"
     href="https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/4707802c-9c00-4a6f-b8c4-aa21dd4e0600/public"
     fetchpriority="high">
   <link rel="preload" as="image" href="https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/about_img_1/public"
     fetchpriority="high" media="(max-width: 1199px)" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://imagedelivery.net" crossorigin />
-  <style>/* critical CSS for header/hero */</style>
-  <link rel="preload" href="/assets/css/index-CTcRubpk.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/assets/css/index-CTcRubpk.css"></noscript>
-  <link rel="stylesheet" href="/assets/css/vendor-C5zyHQDf.css" media="print" onload="this.media='all'">
   <link rel="preconnect" href="https://imagedelivery.net" crossorigin />
  
   <script type="application/ld+json" defer>
-  [
-  {
+{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -88,43 +79,58 @@
         "https://ae.linkedin.com/company/faj-technical-services-llc",
         "https://www.pinterest.com/fajtechnicalservices/"
       ]
-    } 
-  ]
-},
-    {     
-    "@context": "https://schema.org/",      
-    "@type": "CreativeWorkSeries",      
-    "name": "Repair Maintenance Services in Dubai",     
-    "aggregateRating": {      
-    "@type": "AggregateRating",     
-    "ratingValue": "4.9",     
-    "bestRating": "5",      
-    "ratingCount": "4341"     
     }
-  } 
-] 
+  ]
+}
 </script>
 
-<!-- Google tag (gtag.js) -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-MK15Z3F4GD"></script>
-<script defer>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-MK15Z3F4GD');
-</script>
+   <!-- Defer analytics & tracking scripts using idle callback -->
+  <script>
+  (function() {
+    if (window.__trackingScriptsLoaded) return;
+    window.__trackingScriptsLoaded = true;
 
-<!-- Clarity -->
-<!-- <script defer>
-  (function (c, l, a, r, i, t, y) {
-    c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
-    t = l.createElement(r);
-    t.async = 1;
-    t.src = "https://www.clarity.ms/tag/ls6z639yr5";
-    y = l.getElementsByTagName(r)[0];
-    y.parentNode.insertBefore(t, y);
-  })(window, document, "clarity", "script", "ls6z639yr5");
-</script> -->
+    function loadTracking() {
+      // 1. Ahrefs
+      var ahrefs = document.createElement('script');
+      ahrefs.src = 'https://analytics.ahrefs.com/analytics.js';
+      ahrefs.setAttribute('data-key', 'wdbGJEldrgnwsppokRfLqg');
+      ahrefs.defer = true;
+      document.head.appendChild(ahrefs);
+
+      // 2. Google Analytics (gtag)
+      var gtagScript = document.createElement('script');
+      gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-MK15Z3F4GD';
+      gtagScript.async = true;
+      document.head.appendChild(gtagScript);
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function() { dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-MK15Z3F4GD');
+
+      // 3. Microsoft Clarity
+      (function(c,l,a,r,i,t,y){
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "ls6z639yr5");
+    }
+
+    // Wait for the page to be fully loaded (all resources)
+    if (document.readyState === 'complete') {
+      // Already fully loaded, wait for idle
+      requestIdleCallback(loadTracking, { timeout: 2000 });
+    } else {
+      window.addEventListener('load', function() {
+        requestIdleCallback(loadTracking, { timeout: 2000 });
+      });
+    }
+  })();
+</script>
 
 </head>
 

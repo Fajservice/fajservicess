@@ -125,7 +125,7 @@ const DEFAULT_SEO = {
 
 const heroSlides = [
   {
-    image: `${CDN}/ac-repair-services-banner/public`,
+    image: `${CDN}/4707802c-9c00-4a6f-b8c4-aa21dd4e0600/public`,
     alt: "FAJ ensures comfort with professional air conditioning services year-round",
     content: true,
     title: "FAJ ensures comfort with professional air conditioning services year-round!",
@@ -147,7 +147,7 @@ const heroSlides = [
     phoneLink: "tel:+971507464712"
   },
   {
-    image: `${CDN}/refrigeration-services-banner/public`,
+    image: `${CDN}/b9e9f46b-45bd-4f4e-62f2-999539063600/public`,
     alt: "We are here to help you with your commercial refrigeration system repair problems",
     content: true,
     title: "We are here to help you with your commercial refrigeration system repair problems",

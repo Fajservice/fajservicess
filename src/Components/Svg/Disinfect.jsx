@@ -1,7 +1,7 @@
 const Thermostat = () => {
     return (
 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_88_1153)">
+<g clipPath="url(#clip0_88_1153)">
 <mask id="mask0_88_1153" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x="-1" y="0" width="51" height="50">
 <path d="M49.5 0H-0.5V50H49.5V0Z" fill="white"/>
 </mask>
@@ -24,9 +24,9 @@ const Thermostat = () => {
 </g>
 </g>
 <defs>
-<clip-path id="clip0_88_1153">
+<clipPath id="clip0_88_1153">
 <rect width="50" height="50" fill="white" transform="translate(-0.5)"/>
-</clip-path>
+</clipPath>
 </defs>
 </svg>
 
