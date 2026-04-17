@@ -15,7 +15,7 @@ const Breadcrumb = () => {
       }
       
       // For English, apply capitalization rules
-      const acronyms = ["ac", "jvc", "jvt", "lg", "dip", "jafza", "difc", "impz", "jlt", "jge", "aeg", "ifb", "jbr", "pcb", "bbq"];
+      const acronyms = ["ac", "jvc", "jvt", "lg", "dip", "jafza", "difc", "impz", "jlt", "jge", "aeg", "ifb", "jbr", "pcb", "bbq", 'b2b'];
 
       // Words that must keep exact casing (brands, special names)
       const customWords = {

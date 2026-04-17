@@ -2915,9 +2915,9 @@
     cursor: pointer;
   }
 
-  .draggable {
-    cursor: url(/img/drag.png) 16 9, ew-resize !important;
-  }
+  /* .draggable {
+    cursor: url(https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/drag/public/) 16 9, ew-resize !important;
+  } */
 
   .slick-slide>div {
     display: -webkit-box;
@@ -4691,7 +4691,7 @@
     height: 40%;
     background-color: #00334e;
     -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
-   clipPath: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+   clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
     position: absolute;
     left: 0;
     bottom: 1px;
@@ -6311,7 +6311,7 @@
     padding: 22px 25px;
     height: 100%;
     -webkit-clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
-   clipPath: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+   clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
     top: 0;
     right: 0;

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, Suspense } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -663,6 +663,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
         </section>
 
         {/* Brands section */}
+        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
@@ -675,6 +676,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
             containerHeight="100px"
           />
         )}
+        </Suspense>
         {/* Gallery */}
         <section className="section cs_py_30 gallery-section bg-light-gray mb-4">
           <div className="container">
@@ -726,7 +728,8 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           </div>
         </section>
 
-         {!isLoading && brandsLogo_data.length > 0 && (
+         <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
+        {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
               ...item,
@@ -738,6 +741,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
             containerHeight="100px"
           />
         )}
+        </Suspense>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
