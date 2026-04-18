@@ -94,7 +94,12 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
   const handleCategoryChange = (cat) => {
     setSelectedCat(cat);
   };
-
+const ClockIcon = ({ size = 24, color = "currentColor" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="10" />
+    <polyline points="12 6 12 12 16 14" />
+  </svg>
+);
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
   };
@@ -333,6 +338,10 @@ const Blog1 = ({ titleSeo, description, Author, Keyword, URL }) => {
                                     <div className="cs_post_meta">
                                       <span className="cs_accent_color"><PeopleIcon size={16} /></span>
                                       <span className="cs_heading_color">{item.admin}</span>
+                                    </div>
+                                    <div className="cs_post_meta">
+                                      <span className="cs_accent_color"><ClockIcon size={16} /></span>
+                                      <span className="cs_heading_color">{item.readtime}</span>
                                     </div>
                                   </div>
                                   <h3 className="cs_fs_20 cs_mb_5">

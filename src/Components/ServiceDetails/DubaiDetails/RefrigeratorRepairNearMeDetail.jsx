@@ -1,6 +1,6 @@
 
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, Suspense} from "react";
 import { Link, parsePath } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -626,6 +626,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         </section>
 
         {/* Brands section */}
+        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
@@ -638,6 +639,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             containerHeight="100px"
           />
         )}
+        </Suspense>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

@@ -37,7 +37,7 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
   const metadescription = String(description || "Looking for professional plumbing services near you, in Dubai? We offer water leak fixing, water pump repair & replacement at an affordable price");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "plumbing services in dubai, plumbing work near me, water leak fixing, water pump repair, water pump replacement, plumbing maintenance, emergency plumbing services, affordable plumbing services");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/plumbing-services-in dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/plumbing-services-in-dubai/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -6,6 +6,7 @@ import SocialIcon from '../../icons/SocialIcon';
 import PhoneIcon from '../../icons/PhoneIcon';
 import WhatsappIcon from '../../icons/WhatsappIcon';
 import LocationIcon from '../../icons/LocationIcon';
+import LogoSvg from '../../icons/LogoSvg';
 
 const logoUrl = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public';
 
@@ -97,24 +98,21 @@ export default function Header1({ variant = '' }) {
   return (
     <div className='header-area2 header_nav_03'>
       <header className={headerClasses} style={headerStyles}>
-
         <div className="cs_main_header">
           <div className="container-fluidd">
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
-
                 <Link className="cs_site_branding" to="/" aria-label="Home">
-                  <img
+                  <LogoSvg />
+                  {/* <img
                     src="https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/FajLogo1/public"
                     alt="FAJ Technical Services Logo"
                     width="200"
                     height="120"
                     style={{ width: 'auto', height: 'auto', maxWidth: '205px' }}
-                  />
+                  /> */}
                 </Link>
-
               </div>
-
               <div className="cs_main_header_center">
                 <div className="cs_nav cs_fs_18 cs_heading_color">
                   <button

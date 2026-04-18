@@ -86,9 +86,9 @@ const LazyYouTube = ({ videoId, title }) => {
 
 const WashingMachineRepairServiceDubaiDetail = ({titleSeo, description,Author,Keyword,URL,Image,subtitle,titlereview,reviewsbg
 }) => {
-  const metaTitle = String(titleSeo || "Washing Machine Repair & Maintenance Services Near You, Dubai");
+  const metaTitle = String(titleSeo || "Best Washing Machine Repair & Maintenance Services in Dubai");
 
-  const metaDescription = String(description || "Book the best washing machine repair service in Dubai. FAJ is an expert in washer dryer & laundry machine maintenance, with a service center near you");
+  const metaDescription = String(description || "Trusted washing machine repair and service in Dubai. FAJ is an expert in washer dryer & laundry maintenance, service center near you تصليح غسالات في دبي");
 
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
 
@@ -867,6 +867,7 @@ const schema ={
         </section>
 
         {/* Brands section */}
+        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
@@ -879,7 +880,7 @@ const schema ={
             containerHeight="100px"
           />
         )}
-
+        </Suspense>
         <Suspense fallback={<div style={{ minHeight: '200px' }} />}>
           <MaintenanceContract />
         </Suspense>
@@ -958,10 +959,7 @@ const schema ={
             </div>
           </div>
         </section>
-
       </div>
-
-        
     </>
   );
 };

@@ -1,27 +1,8 @@
 {
-  "success": [
-    {
-<<<<<<< HEAD
-      "originalPath": "blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide/public",
-      "id": "blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide",
-=======
-      "originalPath": "blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes/public",
-      "id": "blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes",
-      "success": true
-    },
-    {
-      "originalPath": "blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai/public",
-      "id": "blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai",
->>>>>>> 7b9a312f65d1fa9590b5c346a7d4561606b76ff2
-      "success": true
-    }
-  ],
+  "success": [],
   "failed": [
     {
-      "originalPath": "blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide",
+      "originalPath": "about_img_1",
       "error": [
         {
           "code": 5409,
@@ -31,7 +12,7 @@
       "success": false
     },
     {
-      "originalPath": "blog/the-ultimate-guide-to-commercial-dishwasher-repair-in-dubai",
+      "originalPath": "about_img_2",
       "error": [
         {
           "code": 5409,
@@ -41,7 +22,57 @@
       "success": false
     },
     {
-      "originalPath": "blog/washing-machine-repair-common-problems-causes-and-solutions",
+      "originalPath": "about_img_3",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    },
+    {
+      "originalPath": "Commercial-refrigeration-service",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    },
+    {
+      "originalPath": "feature_img_1",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    },
+    {
+      "originalPath": "kitchen-equipment",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    },
+    {
+      "originalPath": "LaundryEquipmentServices",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    },
+    {
+      "originalPath": "whywechoose2",
       "error": [
         {
           "code": 5409,
@@ -51,12 +82,5 @@
       "success": false
     }
   ],
-  "mapping": {
-<<<<<<< HEAD
-    "blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/how-to-clean-refrigerator-full-cleaning-and-maintenance-guide/public"
-=======
-    "blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes/public",
-    "blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai/public"
->>>>>>> 7b9a312f65d1fa9590b5c346a7d4561606b76ff2
-  }
+  "mapping": {}
 }

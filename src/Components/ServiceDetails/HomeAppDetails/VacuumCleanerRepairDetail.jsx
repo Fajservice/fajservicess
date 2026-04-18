@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, Suspense } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -20,8 +20,8 @@ const getImageSrc = (imgPath) => {
 
 const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Robot Vacuum Cleaner Repair | Vacuum Cleaner Service Center");
-  const metadescription = String(description || "Affordable and fast robot vacuum cleaner repair in Dubai. Contact us for upright vacuum, canister & wet-dry cordless vacuum cleaner fix service near you");
+  const metatitle = String(titleSeo || "Best Robot Vacuum Cleaner Repair and Vacuum Service Center");
+  const metadescription = String(description || "Affordable Robot vacuum cleaner repair and service in Dubai. Call us for upright, canister & wet-dry vacuum cleaner fix near you تصليح وخدمات مكنسة كهربائية");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Robot vacuum cleaner repair, vacuum cleaner service, Xiaomi vacuum repair, Roomba vacuum service, TP-Link vacuum cleaner repair, Eufy vacuum cleaner service, Anker vacuum repair");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/robot-vacuum-cleaner-repair/");
@@ -43,6 +43,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         "reviewCount": "3420",
         "bestRating": "5"
       },
+      
       "areaServed": [
         { "@type": "City", "name": "Dubai" },
         { "@type": "City", "name": "Sharjah" },
@@ -1101,6 +1102,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             </div>
           </div>
         </section>
+        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
@@ -1113,6 +1115,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             containerHeight="100px"
           />
         )}
+        </Suspense>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState, Suspense  } from 'react';
 import CallNowButton from '../../Buttons/CallNowButton';
 import Testimonial1 from '../../Testimonial/Testimonial1';
 import { Helmet } from 'react-helmet-async';
@@ -555,6 +555,7 @@ const GALLERY_ITEMS = [
             </div>
           </section>
         {/* Brands section */}
+        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
@@ -567,6 +568,7 @@ const GALLERY_ITEMS = [
             containerHeight="100px"
           />
         )}
+        </Suspense>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

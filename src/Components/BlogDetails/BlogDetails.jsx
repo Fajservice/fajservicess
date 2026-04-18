@@ -76,7 +76,89 @@ const ArrowRightIcon = ({ size = 28, color = "currentColor" }) => (
     <polyline points="12 5 19 12 12 19" />
   </svg>
 );
+const getPlainTextFromValue = (value) => {
+  if (!value) return '';
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value)) {
+    return value.map(item => getPlainTextFromValue(item)).join(' ');
+  }
+  if (typeof value === 'object') {
+    // Handle bullet objects with .text and .desc
+    if (value.text) return getPlainTextFromValue(value.text) + ' ' + (value.desc ? getPlainTextFromValue(value.desc) : '');
+    // Fallback: stringify all values
+    return Object.values(value).map(v => getPlainTextFromValue(v)).join(' ');
+  }
+  return String(value);
+};
 
+// Extract all meaningful text from the blogPost object
+const extractAllTextFromBlogPost = (post) => {
+  if (!post) return '';
+  const textParts = [];
+
+  // Known fields that contain readable content
+  const fieldsToExtract = [
+    'title', 'content', 'sec_concln_h2_p', 'sec_faq_h2_p',
+    // sec_two through sec_twenty dynamic fields
+    ...Array.from({ length: 20 }, (_, i) => `sec_${['two','three','four','five','six','seven','eight','nine','ten','eleven','tweleve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty'][i] || `_${i+2}`}_h2_p`),
+    ...Array.from({ length: 20 }, (_, i) => `sec_${['two','three','four','five','six','seven','eight','nine','ten','eleven','tweleve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty'][i] || `_${i+2}`}_bullets`),
+    ...Array.from({ length: 20 }, (_, i) => `sec_${['two','three','four','five','six','seven','eight','nine','ten','eleven','tweleve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty'][i] || `_${i+2}`}_h2_points`),
+  ];
+
+  // Extract from main fields
+  fieldsToExtract.forEach(field => {
+    if (post[field]) textParts.push(getPlainTextFromValue(post[field]));
+  });
+
+  // Extract from h3/h4 subsections (sec_two to sec_twenty)
+  const sectionNames = ['two','three','four','five','six','seven','eight','nine','ten','eleven','tweleve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty'];
+  sectionNames.forEach(sec => {
+    for (let i = 1; i <= 13; i++) {
+      const h3Key = `sec_${sec}_h3_${i}`;
+      const h3ContentKey = `sec_${sec}_h3_content_${i}`;
+      const h3BulletsKey = `sec_${sec}_h3_${i}_bullets`;
+      const h3PointsKey = `sec_${sec}_h3_${i}_points`;
+      if (post[h3Key]) textParts.push(getPlainTextFromValue(post[h3Key]));
+      if (post[h3ContentKey]) textParts.push(getPlainTextFromValue(post[h3ContentKey]));
+      if (post[h3BulletsKey]) textParts.push(getPlainTextFromValue(post[h3BulletsKey]));
+      if (post[h3PointsKey]) textParts.push(getPlainTextFromValue(post[h3PointsKey]));
+
+      const h4Key = `sec_${sec}_h4_${i}`;
+      const h4ContentKey = `sec_${sec}_h4_content_${i}`;
+      const h4BulletsKey = `sec_${sec}_h4_${i}_bullets`;
+      const h4PointsKey = `sec_${sec}_h4_${i}_points`;
+      if (post[h4Key]) textParts.push(getPlainTextFromValue(post[h4Key]));
+      if (post[h4ContentKey]) textParts.push(getPlainTextFromValue(post[h4ContentKey]));
+      if (post[h4BulletsKey]) textParts.push(getPlainTextFromValue(post[h4BulletsKey]));
+      if (post[h4PointsKey]) textParts.push(getPlainTextFromValue(post[h4PointsKey]));
+    }
+  });
+
+  // Extract FAQ h3 questions and answers
+  for (let i = 1; i <= 10; i++) {
+    const faqH3 = `sec_faq_h3_${i}`;
+    const faqP = `sec_faq_h3_p_${i}`;
+    if (post[faqH3]) textParts.push(getPlainTextFromValue(post[faqH3]));
+    if (post[faqP]) textParts.push(getPlainTextFromValue(post[faqP]));
+  }
+
+  return textParts.join(' ');
+};
+// Compute reading time from plain text (assumes 200 words per minute)
+const computeReadingTime = (text) => {
+  if (!text) return '0 min read';
+  const words = text.trim().split(/\s+/).filter(w => w.length > 0).length;
+  const minutes = Math.ceil(words / 200);
+  return `${minutes} min read`;
+};
+
+// Clock icon component
+const ClockIcon = ({ size = 24, color = "currentColor" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="10" />
+    <polyline points="12 6 12 12 16 14" />
+  </svg>
+);
 const renderBannerImg = (imgValue, altText) => {
   if (!imgValue) return null;
   const images = Array.isArray(imgValue) ? imgValue : [imgValue];
@@ -128,7 +210,11 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     `Hello FAJ Services! Check this out: ${blogTitle} - ${shareUrl}`,
     [blogTitle, shareUrl]
   );
-
+  const readingTime = useMemo(() => {
+    if (!blogPost) return '';
+    const plainText = extractAllTextFromBlogPost(blogPost);
+    return computeReadingTime(plainText);
+  }, [blogPost]);
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -593,7 +679,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       </div>
     );
   };
-
+  
   if (loading) return <div className="container py-5 text-center">Loading...</div>;
   if (error) return <div className="container py-5 text-center text-danger">{error}</div>;
   if (!blogPost) return <div className="container py-5 text-center">Blog post not found.</div>;
@@ -649,6 +735,10 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   <div className="cs_post_meta">
                     <span className="cs_accent_color"><PeopleIcon size={24} /></span>
                     <span className="cs_heading_color">{blogPost.admin}</span>
+                  </div>
+                  <div className="cs_post_meta">
+                    <span className="cs_accent_color"><ClockIcon size={24} /></span>
+                    <span className="cs_heading_color">{blogPost.readtime}</span>
                   </div>
                 </div>
 

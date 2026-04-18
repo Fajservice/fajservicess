@@ -24,9 +24,9 @@ const Thermostat = () => {
 </g>
 </g>
 <defs>
-<clipPath id="clip0_88_1153">
+<clip-path id="clip0_88_1153">
 <rect width="50" height="50" fill="white" transform="translate(-0.5)"/>
-</clipPath>
+</clip-path>
 </defs>
 </svg>
 

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, Suspense } from "react";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -23,7 +23,7 @@ const getImageSrc = (imgPath) => {
 const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
   const metatitle = String(titleSeo || "Best Refrigerator Repair | Fridge Service Center Near You, Dubai");
-  const metadescription = String(description || "Fast and reliable refrigerator repair and service in Dubai. Contact FAJ experts for fridge repair & maintenance near you, including freezer fixing");
+  const metadescription = String(description || "Trusted refrigerator repair and service in Dubai. Call FAJ experts for fridge repair & maintenance near you and freezer fixing خدمات صيانة وتصليح ثلاجات في دبي");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Refrigerator repair, Fridge repair, Refrigerator service, Freezer repair, Dubai refrigerator repair, Fridge service Dubai, Appliance repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/").replace(/\/?$/, '/');
@@ -968,6 +968,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
         </section>
 
         {/* Brands section */}
+        <Suspense fallback={<div style={{ minHeight: '300px' }} />}>
         {!isLoading && brandsLogo_data.length > 0 && (
           <BrandsSliderSection
             brandsData={brandsLogo_data.map(item => ({
@@ -980,6 +981,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
             containerHeight="100px"
           />
         )}
+        </Suspense>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
