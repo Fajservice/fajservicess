@@ -1149,6 +1149,10 @@ export const router = createBrowserRouter([
         element: <Components.DelonghiCoffeeMachineRepair />,
       },
       {
+        path: "/services/home-appliances-repair/brands/black-and-decker-repair-service-in-dubai/",
+        element: <Components.BlackAndDeckerRepair />,
+      },
+      {
         path: "/services/home-appliances-repair/coverage-area/al-mamzar/",
         element: <Components.AppliancesServiceInAlMamzar />,
       },

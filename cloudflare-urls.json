@@ -1,14 +1,16 @@
 {
-  "success": [
+  "success": [],
+  "failed": [
     {
-      "originalPath": "blog/common-issues-commercial-coffee-machines",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/common-issues-commercial-coffee-machines/public",
-      "id": "blog/common-issues-commercial-coffee-machines",
-      "success": true
+      "originalPath": "shopair",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
     }
   ],
-  "failed": [],
-  "mapping": {
-    "blog/common-issues-commercial-coffee-machines": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/common-issues-commercial-coffee-machines/public"
-  }
+  "mapping": {}
 }

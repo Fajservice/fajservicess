@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const CF_ACCOUNT_ID = '513a1be78e7b9d8a6d8553ab26e8ad99';
-const CF_API_TOKEN = '';
+const CF_API_TOKEN = 'cfut_MjWHd5uEdheskRT29x4mNOWOA9XPmlV72dbRoeVyb7a1b6d1';
 
 async function deleteImage(imageId) {
   console.log(`Deleting existing image: ${imageId}...`);
