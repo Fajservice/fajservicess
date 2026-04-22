@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect, memo } from "react";
+import { useState, useEffect, useRef, memo } from "react";
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
@@ -263,14 +263,32 @@ const usefulLinks = [
 
 const LazyMap = () => {
   const [showMap, setShowMap] = useState(false);
+  const mapRef = useRef(null);
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowMap(true), 100);
-    return () => clearTimeout(timer);
+    const mapElement = mapRef.current;
+    if (!mapElement) return undefined;
+
+    if (!('IntersectionObserver' in window)) {
+      return undefined;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShowMap(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '300px 0px' }
+    );
+
+    observer.observe(mapElement);
+    return () => observer.disconnect();
   }, []);
 
   return (
-    <div className="cs_map_wrapper">
+    <div ref={mapRef} className="cs_map_wrapper">
       {showMap ? (
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.3424480096032!2d55.22508607483472!3d25.110623435202967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f699a600aceeb%3A0xa6121b25d557aa94!2sFAJ%20Technical%20Services%20L.L.C!5e1!3m2!1sen!2sae!4v1758520238062!5m2!1sen!2sae"

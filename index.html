@@ -7,15 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="QZS_szvkl-FWmcT3kcPPBEm0lWzxzU9u4Tu9ZS42nZI" />
   <link rel="icon" type="image/png" href="/favicon.png" />
-  <script src="https://analytics.ahrefs.com/analytics.js" data-key="wdbGJEldrgnwsppokRfLqg" defer></script>
   <link rel="preload" as="image" href="https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/about_img_1/public"
     fetchpriority="high" media="(max-width: 1199px)" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://imagedelivery.net" crossorigin />
-  <style>/* critical CSS for header/hero */</style>
-  <link rel="preload" href="/assets/css/index-Cd0WGt9g.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/assets/css/index-Cd0WGt9g.css"></noscript>
+  <link rel="preload" href="/assets/css/index-BwTmAR0x.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/index-BwTmAR0x.css"></noscript>
   <link rel="stylesheet" href="/assets/css/vendor-C5zyHQDf.css" media="print" onload="this.media='all'">
   <link rel="preconnect" href="https://imagedelivery.net" crossorigin />
  
@@ -102,26 +100,56 @@
 ] 
 </script>
 
-<!-- Google tag (gtag.js) -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-MK15Z3F4GD"></script>
-<script defer>
+<script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-MK15Z3F4GD');
-</script>
+  window.gtag = function gtag(){ dataLayer.push(arguments); };
+  window.clarity = window.clarity || function(){ (window.clarity.q = window.clarity.q || []).push(arguments); };
 
-<!-- Clarity -->
-<!-- <script defer>
-  (function (c, l, a, r, i, t, y) {
-    c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
-    t = l.createElement(r);
-    t.async = 1;
-    t.src = "https://www.clarity.ms/tag/ls6z639yr5";
-    y = l.getElementsByTagName(r)[0];
-    y.parentNode.insertBefore(t, y);
-  })(window, document, "clarity", "script", "ls6z639yr5");
-</script> -->
+  (function () {
+    var loaded = false;
+    var loadScript = function (src, attrs) {
+      var script = document.createElement('script');
+      script.src = src;
+      script.async = true;
+      Object.keys(attrs || {}).forEach(function (key) {
+        script.setAttribute(key, attrs[key]);
+      });
+      document.head.appendChild(script);
+    };
+
+    var loadThirdPartyScripts = function () {
+      if (loaded) return;
+      loaded = true;
+
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-MK15Z3F4GD');
+
+      loadScript('https://www.googletagmanager.com/gtag/js?id=G-MK15Z3F4GD');
+      loadScript('https://www.clarity.ms/tag/ls6z639yr5');
+      loadScript('https://analytics.ahrefs.com/analytics.js', { 'data-key': 'wdbGJEldrgnwsppokRfLqg' });
+    };
+
+    var scheduleThirdPartyScripts = function () {
+      var runWhenIdle = function () {
+        if ('requestIdleCallback' in window) {
+          window.requestIdleCallback(loadThirdPartyScripts, { timeout: 5000 });
+        } else {
+          window.setTimeout(loadThirdPartyScripts, 5000);
+        }
+      };
+
+      window.setTimeout(runWhenIdle, 3500);
+      window.addEventListener('pointerdown', loadThirdPartyScripts, { once: true, passive: true });
+      window.addEventListener('keydown', loadThirdPartyScripts, { once: true });
+    };
+
+    if (document.readyState === 'complete') {
+      scheduleThirdPartyScripts();
+    } else {
+      window.addEventListener('load', scheduleThirdPartyScripts, { once: true });
+    }
+  })();
+</script>
 
 </head>
 

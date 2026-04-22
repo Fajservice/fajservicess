@@ -1,86 +1,14 @@
 {
-  "success": [],
-  "failed": [
+  "success": [
     {
-      "originalPath": "about_img_1",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
-    },
-    {
-      "originalPath": "about_img_2",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
-    },
-    {
-      "originalPath": "about_img_3",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
-    },
-    {
-      "originalPath": "Commercial-refrigeration-service",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
-    },
-    {
-      "originalPath": "feature_img_1",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
-    },
-    {
-      "originalPath": "kitchen-equipment",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
-    },
-    {
-      "originalPath": "LaundryEquipmentServices",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
-    },
-    {
-      "originalPath": "whywechoose2",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
+      "originalPath": "blog/common-issues-commercial-coffee-machines",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/common-issues-commercial-coffee-machines/public",
+      "id": "blog/common-issues-commercial-coffee-machines",
+      "success": true
     }
   ],
-  "mapping": {}
+  "failed": [],
+  "mapping": {
+    "blog/common-issues-commercial-coffee-machines": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/common-issues-commercial-coffee-machines/public"
+  }
 }

@@ -1,30 +1,43 @@
-// NavIcons.jsx - SVG icons for navigation
-export { ACIcon } from './components/ACIcon.jsx';
-export { MACIcon } from './components/MACIcon.jsx';
-export { ApplianceAmcIcon } from './components/ApplianceAmcIcon.jsx';
-export { Bbqcon } from './components/Bbqcon.jsx';
-export { CdishwasherIcon } from './components/CdishwasherIcon.jsx';
-export { CigarIcon } from './components/CigarIcon.jsx';
-export { CLaundryIcon } from './components/CLaundryIcon.jsx';
-export { CoffeeMachineIcon } from './components/CoffeeMachineIcon.jsx';
-export { DCoffeeMachineIcon } from './components/DCoffeeMachineIcon.jsx';
-export { CommercialOvenIcon } from './components/CommercialOvenIcon.jsx';
-export { CommercialRefrigerationIcon } from './components/CommercialRefrigerationIcon.jsx';
-export { DishwasherIcon } from './components/DishwasherIcon.jsx';
-export { FreestandApplianceIcon } from './components/FreestandApplianceIcon.jsx';
-export { GasRangeIcon } from './components/GasRangeIcon.jsx';
-export { HobIcon } from './components/HobIcon.jsx';
-export { HomeApplianceIcon } from './components/HomeApplianceIcon.jsx';
-export { IntegeratedApplianceIcon } from './components/IntegeratedApplianceIcon.jsx';
-export { KitchenEqIcon } from './components/KitchenEqIcon.jsx';
-export { KitchenEqRepairIcon } from './components/KitchenEqRepairIcon.jsx';
-export { KitchenEquipmentAMCIcon } from './components/KitchenEquipmentAMCIcon.jsx';
-export { KitchenEquipmentIcon } from './components/KitchenEquipmentIcon.jsx';
-export { MeatGrinderIcon } from './components/MeatGrinderIcon.jsx';
-export { ovenIcon } from './components/ovenIcon.jsx';
-export { PcbBoardIcon } from './components/PcbBoardIcon.jsx';
-export { RefrigerationIcon } from './components/RefrigerationIcon.jsx';
-export { SmallApplianceIcon } from './components/SmallApplianceIcon.jsx';
-export { VacuumIcon } from './components/VacuumIcon.jsx';
-export { WashingMachineIcon } from './components/WashingMachineIcon.jsx';
-export { CommercialRefrigerationIco } from './components/CommercialRefrigerationIco.jsx';
+// Nav icons are lazy-loaded from one shared module to avoid one request per icon.
+import { lazy } from 'react';
+
+const lazyNavIcon = (exportName) =>
+  lazy(() =>
+    import('./components/index.jsx').then((module) => ({
+      default: module[exportName],
+    }))
+  );
+
+export const ACIcon = lazyNavIcon('ACIcon');
+export const MACIcon = lazyNavIcon('MACIcon');
+export const ApplianceAmcIcon = lazyNavIcon('ApplianceAmcIcon');
+export const Bbqcon = lazyNavIcon('Bbqcon');
+export const CdishwasherIcon = lazyNavIcon('CdishwasherIcon');
+export const CigarIcon = lazyNavIcon('CigarIcon');
+export const CLaundryIcon = lazyNavIcon('CLaundryIcon');
+export const CoffeeMachineIcon = lazyNavIcon('CoffeeMachineIcon');
+export const DCoffeeMachineIcon = lazyNavIcon('DCoffeeMachineIcon');
+export const CommercialOvenIcon = lazyNavIcon('CommercialOvenIcon');
+export const CommercialRefrigerationIcon = lazyNavIcon('CommercialRefrigerationIcon');
+export const DishwasherIcon = lazyNavIcon('DishwasherIcon');
+export const FreestandApplianceIcon = lazyNavIcon('FreestandApplianceIcon');
+export const GasRangeIcon = lazyNavIcon('GasRangeIcon');
+export const HobIcon = lazyNavIcon('HobIcon');
+export const HomeApplianceIcon = lazyNavIcon('HomeApplianceIcon');
+export const IntegeratedApplianceIcon = lazyNavIcon('IntegeratedApplianceIcon');
+export const KitchenEqIcon = lazyNavIcon('KitchenEqIcon');
+export const KitchenEqRepairIcon = lazyNavIcon('KitchenEqRepairIcon');
+export const KitchenEquipmentAMCIcon = lazyNavIcon('KitchenEquipmentAMCIcon');
+export const KitchenEquipmentIcon = lazyNavIcon('KitchenEquipmentIcon');
+export const MeatGrinderIcon = lazyNavIcon('MeatGrinderIcon');
+export const ovenIcon = lazyNavIcon('ovenIcon');
+export const PcbBoardIcon = lazyNavIcon('PcbBoardIcon');
+export const RefrigerationIcon = lazyNavIcon('RefrigerationIcon');
+export const SmallApplianceIcon = lazyNavIcon('SmallApplianceIcon');
+export const VacuumIcon = lazyNavIcon('VacuumIcon');
+export const WashingMachineIcon = lazyNavIcon('WashingMachineIcon');
+export const CommercialRefrigerationIco = lazyNavIcon('CommercialRefrigerationIco');
+export const ComercialcoffeeIcon = lazyNavIcon('ComercialcoffeeIcon');
+export const CookingEquipmentServiceIcon = lazyNavIcon('CookingEquipmentServiceIcon');
+export const IceMachineIcon = lazyNavIcon('IceMachineIcon');
+export const AmcAcIcon = lazyNavIcon('AmcAcIcon');

@@ -1849,18 +1849,21 @@ img.blue-border, img.bordered-img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    left: -12.5vw !important;
+    left: -13.8vw !important;
     right: 0px !important;
-    max-width: 922px !important;
+    max-width: 945px !important;
     border-top: 3px solid #00334E;
     background: #F3F3F3;
     top: 110px !important;
 }
-.megamenu-wrapper-menu-level-1 ul.menu-level-2 li{
+.megamenu-wrapper-menu-level-2 ul.menu-level-2 li{
+  margin: 4px;
   border: 0px;
 }
-.megamenu-wrapper-menu-level-1 ul.menu-level-2 li a {
-    border: 0px !important;
+.megamenu-wrapper-menu-level-2 ul.menu-level-2 li a {
+    border: 1px solid #00334E;
+    padding: 8px 4px !important;
+    margin: 0px;
     justify-content: center !important;
     border-radius: 5px;
 }

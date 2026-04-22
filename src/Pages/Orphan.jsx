@@ -370,6 +370,7 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-commercial-dishwasher-repair-in-dubai/">The ultimate guide to commercial dishwasher repair in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai/">The ultimate guide to commercial ice maker repair in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes/">The ultimate guide to coffee machine repair Dubai for cafes and homes</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/most-common-issues-in-commercial-coffee-machines-uae/">Most Common Issues in Commercial Coffee Machines</a></li>
                             <li><a href="https://www.fajservices.ae/services/electrical-services-in-dubai/">Electrical Services in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/who-we-are/">Who We Are</a></li>
                             <li><a href="https://www.fajservices.ae/our-vision-and-mission/">Our Vision and Mission</a></li>

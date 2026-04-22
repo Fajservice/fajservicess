@@ -7,7 +7,7 @@ const WaitForOutletReady = ({ children }) => {
     // Delay to ensure Outlet is mounted
     const timeout = setTimeout(() => {
       setIsMounted(true);
-    }, 50); // a bit longer if needed
+    }, 10); // a bit longer if needed
 
     return () => clearTimeout(timeout);
   }, []);

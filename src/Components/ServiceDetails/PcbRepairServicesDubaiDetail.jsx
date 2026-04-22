@@ -240,7 +240,11 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             gap: 1.5rem;
           }
         }
-
+         @media (max-width: 991px) {
+          .custom-pcb-cards {
+              display: flex;
+          }
+        }
         @media (max-width: 780px) {
           .custom-pcb-cards .custom-pcb-cards {
             grid-template-columns: 1fr;
@@ -267,6 +271,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
+            <p><strong>Terms & Conditions:<br /></strong>*There is a technical inspection fee that applies. Drop off the unit at the FAJ Workshop. The electronic pcb board technical inspection / check-up price starts from <strong>AED 100</strong> and changes based on the capacity, model, and type of unit for each diagnosis. This price does not include repair, replacements, parts, or materials.<br/><strong>*Doorstep service available: </strong>We provide pick-up and drop-off delivery services upon request; Additional cost will apply.</p>
           </div>
         </section>
 
