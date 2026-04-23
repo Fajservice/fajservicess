@@ -1,8 +1,61 @@
 {
-  "success": [],
+  "success": [
+    {
+      "originalPath": "philips-coffee-machine-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/philips-coffee-machine-repair/public",
+      "id": "philips-coffee-machine-repair",
+      "success": true
+    },
+    {
+      "originalPath": "philips-stream-iron-repair",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/philips-stream-iron-repair/public",
+      "id": "philips-stream-iron-repair",
+      "success": true
+    }
+  ],
   "failed": [
     {
-      "originalPath": "shopair",
+      "originalPath": "air-fryer-repair-services",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    },
+    {
+      "originalPath": "calloutprice",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    },
+    {
+      "originalPath": "calout",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    },
+    {
+      "originalPath": "maintenanceacc",
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
+    },
+    {
+      "originalPath": "What-is-covered-in-an-AC-Maintenance-Contract",
       "error": [
         {
           "code": 5409,
@@ -12,5 +65,8 @@
       "success": false
     }
   ],
-  "mapping": {}
+  "mapping": {
+    "philips-coffee-machine-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/philips-coffee-machine-repair/public",
+    "philips-stream-iron-repair": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/philips-stream-iron-repair/public"
+  }
 }

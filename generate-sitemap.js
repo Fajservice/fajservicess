@@ -184,6 +184,8 @@ const urls = [
   { loc: "/services/home-appliances-repair/brands/whirlpool/" },
   { loc: "/services/home-appliances-repair/brands/wolf/" },
   { loc: "/services/home-appliances-repair/brands/zanussi/" },
+  { loc: "/services/home-appliances-repair/brands/black-and-decker-repair-service-in-dubai/"},
+  { loc: "/services/home-appliances-repair/brands/philips-repair-service-in-dubai/"},
 
   { loc: "/services/air-conditioning-repair/coverage-area/" },
   { loc: "/services/air-conditioning-repair/coverage-area/academy-city/" },

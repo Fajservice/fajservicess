@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
-import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import HeaderForm from "../../../Headeform/HeaderForm";
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
-import CallNowButton from "../../../Buttons/CallNowButton";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
+import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
+import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
+import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
+import HeaderForm from "../../../Headeform/HeaderForm.jsx";
+import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import CallNowButton from "../../../Buttons/CallNowButton.jsx";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 import PriceCardHomeCat from '../../../Services/homeappliances/PriceCardHomeappCat.jsx';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
@@ -17,13 +17,13 @@ const getImageSrc = (imgPath) => {
   if (imgPath.startsWith('https')) return imgPath;
   return `${CDN}/${imgPath}/public`;
 };
-const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL, Image }) => {
+const PhilipsRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Black & Decker Household Appliances Repair and Service Dubai");
-  const metadescription = String(description || "Top-Rated Black & Decker appliance repair in Dubai. Call us for best service on microwave, fryer, Black & Decker, rice cooker, toaster, vacuum, tools.");
+  const metatitle = String(titleSeo || "Best Philips Kitchen Appliances Repair and Service in Dubai");
+  const metadescription = String(description || "Trusted Philips appliance repair in Dubai. Get same-day service on coffee machine, blender, microwave, fryer, rice cooker, toasters, and vacuum cleaner.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "Black & Decker appliance repair Dubai, Black & Decker microwave repair, Black & Decker fryer repair, Black & Decker Black & Decker repair, Black & Decker rice cooker repair, Black & Decker toaster repair, Black & Decker vacuum repair, Black & Decker tools repair, Black & Decker appliance service Dubai, Black & Decker appliance maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/black-and-decker-repair-service-in-dubai/");
+  const metaKeyword = String(Keyword || "Philips appliance repair Dubai, Philips microwave repair, Philips fryer repair, Philips Philips repair, Philips rice cooker repair, Philips toaster repair, Philips vacuum repair, Philips tools repair, Philips appliance service Dubai, Philips appliance maintenance Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/brands/philips-repair-service-in-dubai/");
   const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blackdecker-vacuum-cleaner-repair/public");
 
   subtitle = "Testimonial"
@@ -35,7 +35,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
    const blackdeckerServicesData = [
     {
       id: 1,
-      image: getImageSrc('blackdecker-vacuum-cleaner-repair'),
+      image: getImageSrc('philips-coffee-machine-repair'),
       title: 'Appliance Call-out',
       icon: getImageSrc('calloutcard'),
       price: 'AED50',
@@ -66,7 +66,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
     },
     {
       id: 2,
-      image: getImageSrc('blackdecker-oven-repair'),
+      image: getImageSrc('philips-stream-iron-repair'),
       warranty: '50- Days Warranty',
       title: 'Appliance Cleaning',
       icon: getImageSrc('cleaningcard'),
@@ -153,7 +153,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
           const fetchData = async () => {
               try {
                   const [faqsResponse, testimonialsResponse] = await Promise.all([
-                      fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/BlackAndDeckerFaqs.json`),
+                      fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesFaqs/PhilipsFaqs.json`),
                       fetch(`${import.meta.env.BASE_URL}data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json`)
                   ]);
   
@@ -199,10 +199,9 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Trusted Black & Decker Kitchen Appliances Repair and Service Center</h1>
-            {/* 
-          <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
-            <p>Black & Decker is a globally recognised leader in power tools, home improvement solutions, and household appliances. Known for innovation and user-friendly design, the company has built a strong reputation among DIY enthusiasts and professionals. Their extensive product range includes Black + Decker vacuum cleaners, mixers,  fryers, blenders, juicers, choppers, food processors, coffee and espresso makers, grills, griddles, kettles, mixers, slow cookers, rice cookers, sandwich makers, speciality appliances, steamers, toasters, toaster ovens, and microwaves, all designed to make everyday tasks easier and more efficient.<br/>Since 2010, FAJ Technical Services L.L.C has been providing service and repair for Black & Decker kitchen appliances and power tools in Dubai.</p>
+            <h1 className="cs_fs_30">Peace of Mind with your Philips Appliance Repair and Service in Dubai</h1>
+            <p>We are a Dubai-based technical services company established in 2010, providing reliable support that you may not find elsewhere. Our team consists of qualified technicians specialising in Philips kitchen appliance repair in Dubai.<br />Our extensive range of services includes the repair of different Philips products such as coffee makers, kitchen appliances, garment care devices, vacuum cleaners, mops, air fryers, blenders, juicers, pasta makers, grills, toasters, kettles, home draft beer machines, and espresso machines. We service both full-automatic and manual espresso machines, as well as capsule coffee machines.<br/>Additionally, we offer repair services for handheld steamers, steam irons, steam generators, garment essentials, electric mops, robot vacuums, air purifiers, and multifunctional humidifiers. If you need assistance, our service center is located nearby.
+</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -217,16 +216,16 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1 mt-0 text-align-left">Same-Day Black & Decker Kitchen Appliance Repair Service</h3>
-                <p className="mb-2">When your Black & Decker kitchen appliances break down, it can disrupt your daily routine. FAJ offers fast and efficient repair services for Black & Decker appliances near you.</p>
-                <p className="mb-2">We specialize in repairing a wide range of Black & Decker products, including vacuum cleaners, air fryers, blenders, juicers, choppers, food processors, Black & Decker and espresso makers, grills, griddles, kettles, mixers, slow cookers, rice cookers, sandwich makers, specialty appliances, steamers, toasters, toaster ovens, microwaves, steam irons, humidors, power tools, water pressure pumps, and hair dryers repair at affordable prices, along with Black & Decker repair and spare parts warranty.< br/>Let us help you get your appliance back in shape!</p>
+                <h3 className="cs_fs_24 mb-1 mt-0 text-align-left">Same-Day Philips Kitchen Appliance Repair Service</h3>
+                <p className="mb-2">When your Philips kitchen appliances break down, it can disrupt your daily routine. FAJ offers fast and efficient repair services for Philips appliances near you.</p>
+                <p className="mb-2">We specialise in repairing a wide range of Philips products, including vacuum cleaners, air fryers, blenders, juicers, choppers, food processors, coffee machines, espresso makers, grills, griddles, kettles, mixers, slow cookers, rice cookers, sandwich makers, speciality appliances, steamers, toasters, microwaves, steam irons, humidors, power tools, and hair dryers. Our repair services are offered at affordable prices and include a warranty on Philips repairs and spare parts.< br/>Let us help you get your appliance back in shape!</p>
               </div>
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('air-fryer-repair-services')} alt="Black & Decker repair" />
+                <img className="bordered-img w-100" src={getImageSrc('philips-coffee-machine-repair')} alt="Philips repair" />
               </div>
             </div>
             <div className="appointment-col border-small-top pt-3 mt-2">
-                <p className="appointment-col">If you need repair or cleaning service for your Black & Decker kitchen appliances and power tools, please contact us. The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
+                <p className="appointment-col">If you need repair or cleaning service for your Philips kitchen appliances and power tools, please contact us. The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
                 >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road.<br/>When you drop off your appliance at the workshop, you will receive a discount on the technical inspection fee and other services.</p>
                 <div id="get-quote" className="mt-3">
                     <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -240,20 +239,20 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
          {/* Why is Appliance Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">Key Reasons Maintenance is Important for Black & Decker Kitchen Appliances:</h3>
+            <h3 className="cs_fs_30">Key Reasons Maintenance is Important for Philips Kitchen Appliances:</h3>
             
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('blackdecker-vacuum-cleaner-repair')}  alt="Black & Decker repair" />
+                <img className="blue-border" src={getImageSrc('philips-stream-iron-repair')}  alt="Philips repair" />
               </div>
               <div className="col-md-6">
-                <p className="mb-2">Properly maintaining Black & Decker kitchen appliances like blender, toaster, coffee maker, and vacuum is essential for prolonging their lifespan and ensuring safety and performance.</p>
+                <p className="mb-2">Proper maintenance of Philips kitchen appliances like blenders, toasters, coffee makers, and vacuum cleaners is vital for ensuring safety, performance, and longevity. Regular upkeep is essential for achieving these aims.</p>
                 <ul className="mb-0">
-                  <li><strong>Extended Lifespan:</strong> Caring for your appliances keeps them in good condition and extends their lifespan, protecting your investment.</li>
-                    <li><strong>Energy Efficiency: </strong>Regular service helps to identify problems early, which reduces energy consumption and lowers electricity costs.</li>
-                    <li><strong>Avoids Costly Repairs:</strong> Routine servicing fixes minor problems before appliance become major damage.</li>
-                    <li><strong>Expert Technician:</strong> Black &amp; Decker provides service and repair center for specialised care, ensuring repairs are made with genuine parts.</li>
-                    <li><strong>Warranty Protection:</strong> Regular maintenance ensures compliance with warranty conditions, as defects must result from normal use, not neglect.</li>
+                  <li><strong>Extended Lifespan:</strong> Managing for your appliances helps maintain their condition and extends their lifespan, safeguarding your investment.</li>
+                  <li><strong>Energy Efficiency: </strong>Regular maintenance helps to identify issues early, reducing energy usage and lowering electricity costs.</li>
+                  <li><strong>Avoids Costly Repairs: </strong>Routine servicing addresses minor issues before they escalate into major problems with appliances.</li>
+                  <li><strong>Expert Technician:</strong> Philips offers a specialised service and repair center, ensuring that repairs are made with genuine parts.</li>
+                  <li><strong>Warranty Protection:</strong> Regular maintenance is essential to meet warranty requirements, as defects must arise from normal use rather than neglect.</li>
                 </ul>
               </div>
             </div>
@@ -262,25 +261,25 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Here are 8 Common Problems with Black & Decker Kitchen Appliances</h3>
+            <h3 className="text-center">Here are 8 Common Problems with Philips Kitchen Appliances</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Blender Motor Overheating</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Appliance Will Not Start</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Many Black & Decker blenders will automatically shut off the motor if it overheats while blending thick mixtures after some time used.</p>
+                    <p className="p-2 mb-0">If parts aren't assembled correctly (e.g., the Airfryer basket or blender jar), the safety system will prevent the unit from working.</p>
                   </div>
                 </div>
               </div>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Toaster Oven "No Heat"</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Sudden Shutdown During Use</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with Black & Decker toaster ovens is that the heating elements may not turn on, often due to a faulty part or PCB.
+                    <p className="p-2 mb-0">Mixer grinders and blenders can stop suddenly if the automatic overload protection activates due to excessive load or continuous use.
                     </p>
                   </div>
                 </div>
@@ -288,60 +287,60 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Blender Blade Suction/Sticking:</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Airfryer Not Turning On</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The blender jar's base often sticks to the motor unit due to food residue or suction, making it hard to remove for cleaning.</p>
+                    <p className="p-2 mb-0">Common issues may include faulty power outlets, improper connections, or an unset timer.</p>
                   </div>
                 </div>
               </div>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Iron Not Steaming</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Error Codes on Digital Display</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Black & Decker irons may lose steam due to clogged steam holes from mineral buildup or issues with the Smart Steam pump.</p>
+                    <p className="p-2 mb-0">Specific models may display error signals if there is a failure in the electronic system or a motor issue.</p>
                   </div>
                 </div>
               </div>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Vacuum Cleaner Low Suction</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Smoke Coming from Airfryer</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Black & Decker vacuum cleaners may lose suction due to a dirty filter or a blockage in the intake nozzle.</p>
+                    <p className="p-2 mb-0">Typically caused by cooking fatty foods, excess oil drips onto the heated base, or residue remains from previous cooking sessions.</p>
                   </div>
                 </div>
               </div>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Toaster Oven Start Knob</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Unresponsive Touchscreen/Buttons</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Toaster ovens often have issues where the "Start/Toast" button won't stay down, usually due to a faulty Zener diode or the lock.</p>
+                    <p className="p-2 mb-0">Occurs when the screen is dirty, greasy, or when the unit requires a soft reset to recalibrate the electronic control panel.</p>
                   </div>
                 </div>
               </div>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Air Fryer Won't Turn On</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Leaking from Blender/Juicer</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The air fryer may fail to turn on due to a faulty safety switch that sees if the basket is securely inserted, or thermal fuse.</p>
+                    <p className="p-2 mb-0">Generally caused by a worn sealing ring (gasket) or an improperly tightened jar assembly on the base.</p>
                   </div>
                 </div>
               </div>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Microwave Fails to Heat</h3>
+                    <h3 className="cs_fs_16 my-0 bg-dark-blue rounded-top text-light py-2 py-md-1 mt-0">Kettle Not Heating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The unit powers on but does not heat. This may be due to a faulty magnetron, high-voltage diode, or a damaged door switch.</p>
+                    <p className="p-2 mb-0">This issue is usually caused by faulty heating elements or damaged wiring, and it often requires professional service for resolution.</p>
                   </div>
                 </div>
               </div>
@@ -357,63 +356,63 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
         <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0 text-light">The Benefits of Black & Decker Service in Dubai</h2>
+              <h2 className="cs_fs_30 mb-0 text-light">The Benefits of Philip Service in Dubai</h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Ensuring-Safety')}   alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                    <div className="icon-img-block">
+                      <img src={getImageSrc('icon/Ensuring-Safety')}   alt="Cooling Efficiency" className="icon-img-block-icon" />
                     </div>
+                    <h3 className="text-uppercase mb-2 cs_fs_16">Ensuring Safety</h3>
+                    <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Optimal-Performance')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_16"> Optimal Performance </h3>
-                      <p className="small">Regular maintenance helps your Black & Deckers run smoothly and efficiently, delivering the best results every time.
-                      </p>
+                    <div className="icon-img-block">
+                      <img src={getImageSrc('icon/Optimal-Performance')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
                     </div>
+                    <h3 className="text-uppercase mb-2 cs_fs_16"> Optimal Performance </h3>
+                    <p className="small">Regular maintenance helps your Philips run smoothly and efficiently, delivering the best results every time.
+                    </p>
+                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Lower-Energy-Bills')}   alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
-                      <p className="small">Energy-efficient Black & Deckers translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                    <div className="icon-img-block">
+                      <img src={getImageSrc('icon/Lower-Energy-Bills')}   alt="Cooling Efficiency" className="icon-img-block-icon" />
                     </div>
+                    <h3 className="text-uppercase mb-2 cs_fs_16">Lower Energy Bills</h3>
+                    <p className="small">Energy-efficient Philips translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Saving-Money-on-Repair')}   alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                    <div className="icon-img-block">
+                      <img src={getImageSrc('icon/Saving-Money-on-Repair')}   alt="Cooling Efficiency" className="icon-img-block-icon" />
                     </div>
+                    <h3 className="text-uppercase mb-2 cs_fs_16">Saving Money on Repair</h3>
+                    <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={getImageSrc('icon/extending')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_16">Black & Decker Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your Black & Deckers, delaying the need for replacements.</p>
+                    <div className="icon-img-block">
+                      <img src={getImageSrc('icon/extending')}  alt="Cooling Efficiency" className="icon-img-block-icon" />
                     </div>
+                    <h4 className="text-uppercase mb-2 cs_fs_16">Philips Lifespan</h4>
+                    <p className="small">Proper care and timely servicing can significantly increase life of your Philips, delaying the need for replacements.</p>
+                  </div>
                 </div>
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={getImageSrc('icon/Peace-of-Mind')}   alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
-                      </h4>
-                      <p className="small">Knowing your Black & Deckers are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    <div className="icon-img-block">
+                      <img src={getImageSrc('icon/Peace-of-Mind')}   alt="Cooling Efficiency" className="icon-img-block-icon" />
                     </div>
+                    <h4 className="text-uppercase mb-2 cs_fs_16">Peace of Mind
+                    </h4>
+                    <p className="small">Knowing your Philips are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -441,7 +440,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
                   </div>
                   <div className="usptext">
                     <h3>Feeling Of Calm</h3>
-                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your Black & Decker runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/services/home-appliances-repair/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your Philips runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -450,7 +449,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
                   </div>
                   <div className="usptext">
                     <h3>You Are in Control</h3>
-                    <p>Choose a day and time for your Black & Decker repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your Philips repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
               </div>
@@ -466,7 +465,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
                   </div>
                   <div className="usptext">
                     <h3>We Are Experts</h3>
-                    <p>We are experts in Black & Decker repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in Philips repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -475,7 +474,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
                   </div>
                   <div className="usptext">
                     <h3>Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two Black & Deckers at the same location in Dubai.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two Philips at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -484,7 +483,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
                   </div>
                   <div className="usptext">
                     <h3>Trustworthy</h3>
-                    <p>Our skilled Black & Decker technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled Philips technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
@@ -496,7 +495,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        {/* <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">   
             <h3>Cost-Effective Black and Decker Appliances and Electric Tools Repair Services Near You</h3>
                 <div className="row">
@@ -517,7 +516,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
@@ -593,4 +592,4 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
   
 }
 
-export default BlackAndDeckerRepairDetail;
+export default PhilipsRepairDetail;

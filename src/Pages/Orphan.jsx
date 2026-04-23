@@ -255,6 +255,8 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/bosch/">bosch</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/al-satwa/">Al Satwa</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/bertazzoni/">Bertazzoni</a></li>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/black-and-decker-repair-service-in-dubai/">Black and Decker</a></li>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/philips-repair-service-in-dubai/">Philips</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/tcl/">Tcl</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-industrial-area/">Jebel Ali Industrial Area</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/downtown/">Downtown</a></li>

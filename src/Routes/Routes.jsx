@@ -1153,6 +1153,10 @@ export const router = createBrowserRouter([
         element: <Components.BlackAndDeckerRepair />,
       },
       {
+        path: "/services/home-appliances-repair/brands/philips-repair-service-in-dubai/",
+        element: <Components.PhilipsRepair />,
+      },
+      {
         path: "/services/home-appliances-repair/coverage-area/al-mamzar/",
         element: <Components.AppliancesServiceInAlMamzar />,
       },

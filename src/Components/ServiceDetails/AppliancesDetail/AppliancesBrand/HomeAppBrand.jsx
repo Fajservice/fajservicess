@@ -183,11 +183,11 @@ const HomeAppBrand = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                                 <div className="shop-ac-bullet-list">
                                     <div className="shop-ac-bullet-col">
                                         <ul className='m-1'>
-                                            <li><b>Expert Technicians:</b> Our technicians are trained and experienced in resolving appliance issues across all major brands.</li>
-                                            <li><b>Comprehensive Services:</b> We provide a wide range of services for home appliances, from minor fixes to major repair.</li>
-                                            <li><b>Warranty Repair:</b> Using genuine parts in coffee machines, equipment, and vending machines.</li>
-                                            <li><b>Timely Booking:</b> Our online booking system is available seven days a week, allowing you to schedule repairs at your convenience.</li>
-                                            <li><b>Quick Support:</b> We recognize the importance of functional appliances in our daily lives and work hard to deliver prompt and efficient repair services.</li>
+                                            <li><p><b>Expert Technicians:</b> Our technicians are trained and experienced in resolving appliance issues across all major brands.</p></li>
+                                            <li><p><b>Comprehensive Services:</b> We provide a wide range of services for home appliances, from minor fixes to major repair.</p></li>
+                                            <li><p><b>Warranty Repair:</b> Using genuine parts in coffee machines, equipment, and vending machines.</p></li>
+                                            <li><p><b>Timely Booking:</b> Our online booking system is available seven days a week, allowing you to schedule repairs at your convenience.</p></li>
+                                            <li><p><b>Quick Support:</b> We recognize the importance of functional appliances in our daily lives and work hard to deliver prompt and efficient repair services.</p></li>
                                         </ul>
                                     </div>
                                 </div>

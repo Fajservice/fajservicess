@@ -476,7 +476,9 @@ a.btn-green-yellow:hover {
   filter: drop-shadow(0 5px 5px rgba(14, 14, 14, 0.3));
   transform: translateY(-2px);
 }
-
+.whatsapp-now-btn, .call-now-btn{
+  line-height: 1;
+}
 .quote-icon {
   max-width: 200px;
   transition: filter 0.3s ease, transform 0.2s ease;

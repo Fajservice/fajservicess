@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Why isn't my Philips blender working?",
+    "desc": "If the outlet works but your Philips blender still doesn't, the circuit board may be compromised. Unlike loose cords, this issue requires a full replacement, as these boards aren't user-serviceable due to micro-soldering."
+  },
+  {
+    "title": "What could be the reason my Philips blender is not functioning?",
+    "desc": "If the outlet works but your Philips blender still does not, then the circuit board is likely compromised. Unlike loose cords, this issue requires full replacement—these boards aren't designed for user repair due to micro-soldering."
+  },
+  {
+    "title": "What could be the reason my Philips air fryer is not functioning?",
+    "desc": "Many issues with air fryers are caused by overheating protection, blocked airflow, or worn components, rather than a total appliance failure. Identifying the cause early can help you determine whether the problem can be resolved through cleaning, maintenance, or by replacing a specific part, rather than needing to replace the entire unit."
+  },
+  {
+    "title": "Why won't my Philips steam iron heat up?",
+    "desc": "If your Philips steam iron isn't heating and the indicator light is flashing, first unplug it. Check the heating element for continuity using a multimeter; a broken element will cause no heat."
+  },
+  {
+    "title": "How to operate a Philips microwave?",
+    "desc": "This knob adjusts the timer, and this one controls the temperature. Wait for the timer to finish; once it's done, you can safely open the lid and close the main door."
+  },
+  {
+    "title": "Why did my iron suddenly stop working?",
+    "desc": "If the light does not turn on and the iron does not heat up after a few minutes, the heating element may have burned out."
+  },
+  {
+    "title": "What could be causing my Philips power drill not to charge?",
+    "desc": "If your battery is not charging, and the charger is flashing rapidly while the battery feels warm, it may be overheating, especially after heavy or prolonged use. In this case, allow the battery to cool down, then reinsert it into the charger to attempt charging again."
+  },
+  {
+    "title": "What are common battery failures?",
+    "desc": "Positive plate active material softening, shedding, and corrosion.<br/>Battery drying out and thermal runaway.<br/>Negative plate sulfation.<br/>Undercharging."
+  }
+]
