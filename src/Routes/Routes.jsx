@@ -1155,6 +1155,10 @@ export const router = createBrowserRouter([
       {
         path: "/services/home-appliances-repair/brands/philips-repair-service-in-dubai/",
         element: <Components.PhilipsRepair />,
+      },   
+      {
+        path: "/services/home-appliances-repair/brands/braun-household-appliances-repair-service-in-dubai/",
+        element: <Components.BraunRepair />,
       },
       {
         path: "/services/home-appliances-repair/coverage-area/al-mamzar/",
