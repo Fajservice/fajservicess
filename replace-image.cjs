@@ -1,8 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
-const CF_ACCOUNT_ID = '513a1be78e7b9d8a6d8553ab26e8ad99';
-const CF_API_TOKEN = 'cfut_MjWHd5uEdheskRT29x4mNOWOA9XPmlV72dbRoeVyb7a1b6d1';
+const CF_ACCOUNT_ID = process.env.CF_ACCOUNT_ID || '513a1be78e7b9d8a6d8553ab26e8ad99';
+const CF_API_TOKEN = process.env.CF_API_TOKEN;
+
+function validateConfig() {
+  if (!CF_API_TOKEN) {
+    console.log('Missing CF_API_TOKEN environment variable.');
+    console.log('Set it before running this script.');
+    process.exit(1);
+  }
+}
 
 async function deleteImage(imageId) {
   console.log(`Deleting existing image: ${imageId}...`);
@@ -93,6 +101,8 @@ async function uploadImage(imagePath, customId) {
 }
 
 async function replaceImage() {
+  validateConfig();
+
   const imagePath = process.argv[2];
   const customId = process.argv[3];
 
