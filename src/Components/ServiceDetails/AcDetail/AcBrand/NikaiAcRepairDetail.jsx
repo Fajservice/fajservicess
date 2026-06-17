@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -283,7 +297,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <p>For year-round comfort, tackling issues like summer humidity, warm nights, and indoor allergens is key! Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> has proudly provided top-notch Nikai air conditioning solutions in Dubai and Sharjah.<br />Our dedicated team is here to offer a wide range of services, including Nikal AC repair, cleaning service, maintenance, and installation for both homes and businesses. We're passionate about optimizing your air conditioning system to elevate your indoor comfort. Let’s make your space a cool haven together!</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -680,7 +694,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton></GetQuoteButton>
                 <CallNowButton></CallNowButton>
               </div>

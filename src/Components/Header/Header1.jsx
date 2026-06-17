@@ -53,11 +53,12 @@ export default function Header1({ variant = '' }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleScroll = useCallback(() => {
-    setIsSticky(window.scrollY > 10);
+    const shouldBeSticky = window.scrollY > 10;
+    setIsSticky((current) => (current === shouldBeSticky ? current : shouldBeSticky));
   }, []);
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, [handleScroll]);
 

@@ -14,7 +14,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -147,7 +161,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -331,7 +345,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>

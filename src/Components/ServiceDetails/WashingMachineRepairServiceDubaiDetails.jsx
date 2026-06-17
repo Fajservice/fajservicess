@@ -68,13 +68,13 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                 </div>
                 <div className="row">
                   <div className="col-md-6">
-                  <img src={`${import.meta.env.BASE_URL}img/Appliances-Repair-Services-Technical-Inspection-Fee.avif`} alt="Post Image" />
+                  <img src={`${import.meta.env.BASE_URL}img/Appliances-Repair-Services-Technical-Inspection-Fee.avif`} alt="FAJ Technical Services L.L.C" />
                   <h4 className="cs_fs_18">Technical Inspection Fee</h4>
                     <p>We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts.</p>
                     <p>If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
                   </div>
                   <div className="col-md-6">
-                    <img src={`${import.meta.env.BASE_URL}img/Washing-Machine-Repair-in-Dubai-Call-Out.avif`} alt="Post Image" />
+                    <img src={`${import.meta.env.BASE_URL}img/Washing-Machine-Repair-in-Dubai-Call-Out.avif`} alt="FAJ Technical Services L.L.C" />
                     <h4 className="cs_fs_18">Same Day Washing Machine Repair Near You</h4>
                     <p>At FAJ, we understand how essential your washing machine is to your daily routine.</p>
                     <p>That's why we offer reliable washing machine repair and maintenance services near you in Dubai and Sharjah. With our top-quality washer & dryer service and expert support, we are dedicated to ensuring your premium washing machine runs smoothly for years to come.</p>
@@ -91,7 +91,7 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                 <p>Are you facing issues with your washing machine in Dubai's International City, or are you searching for 'washing machine repair near me'? Look no further than FAJ Services for reliable and prompt washing machine repair services. Our dedicated team specializes in delivering quick and efficient repair services right at your doorstep. At FAJ Services, we understand the inconvenience of a malfunctioning washing machine. that&apos;s why we offer quick and efficient repairs for various washing machine models. Whether it&apos;s a minor glitch or a major breakdown, our skilled technicians have the expertise to diagnose and fix all washing machine problem efficiently.</p>
                 <div className="row">
                   <div className="col-xl-6">
-                    <img src={`${import.meta.env.BASE_URL}img/washing-machine-repair.avif`} alt="Post Image" />
+                    <img src={`${import.meta.env.BASE_URL}img/washing-machine-repair.avif`} alt="FAJ Technical Services L.L.C" />
                   </div>
                   <div className="col-xl-6">
                     <h4 className="cs_fs_16">Fix Washing Machine Dubai: Solutions for Common Problems</h4>

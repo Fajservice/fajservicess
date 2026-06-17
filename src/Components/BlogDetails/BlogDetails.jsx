@@ -13,9 +13,25 @@ const supabase = createClient(
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
-};
 
+  let variant = 'mobile';
+
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+
+  return `${CDN}/${imgPath}/${variant}`;
+};
 const CalendarIcon = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
     <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
@@ -893,7 +909,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     {allPosts && allPosts.length > 0 && allPosts.slice(0, 10).map((post, index) => (
                       <div className="cs_recent_post" key={index}>
                         <Link to={`/blog/${post.slug}/`} className="cs_recent_post_thumb">
-                          <img src={getImageSrc(post.img)} alt="Recent Post Image" fetchpriority="high" decoding="async" width="100%" height="auto" />
+                          <img src={getImageSrc(post.img)} alt="Recent FAJ Technical Services L.L.C" fetchpriority="high" decoding="async" width="100%" height="auto" />
                         </Link>
                         <div className="cs_recent_post_right">
                           <p className="cs_recent_posted_by cs_fs_14">

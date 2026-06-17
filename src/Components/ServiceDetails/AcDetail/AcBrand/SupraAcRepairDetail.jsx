@@ -20,7 +20,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -286,7 +300,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <p>Supra Home appliances play a crucial role in our daily lives and have always been important for domestic comfort and convenience. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> aim to improve our quality of life through reliable Supra home appliances repair center.<br />Some key home appliances that significantly impact our daily routines include Supra air conditioning, Supra washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers repair, maintenance and service center Dubai. The trouble caused by any of these Supra appliances suddenly breaking down can be considerable.
 </p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -653,7 +667,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               </div>
             </div>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton></CallNowButton>
               </div>

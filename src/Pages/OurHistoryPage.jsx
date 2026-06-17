@@ -10,7 +10,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const PhoneCallIcon = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill={color} aria-hidden="true">
@@ -51,24 +65,23 @@ const OurVisionOurMissionPage = () => {
           />
         </Helmet>
       </HelmetProvider>
-
       <Breadcrumb />
-
       {/* Page Title */}
       <section className="section cs_py_30">
         <div className="container">
           <h1 className="cs_fs_30 text-center mb-0">Our History</h1>
+          <h2 className="text-center">The Journey of FAJ Group</h2>
+          <h3 className="text-center">From Humble Beginnings to Diversified Excellence</h3>
+          <p>The FAJ Group's remarkable journey began in 2010 as a small, visionary technical services and sales trading house in Dubai, UAE. Over the past 15 years, our relentless pursuit of growth and 32innovation has transformed us into a dynamic, multi-entity organization. Today, our group comprises over four companies, operating across two main sectors in the UAE and Pakistan. Our diversified portfolio now spans trading (including e-commerce), IT solutions, technical education, HVAC, refrigeration, domestic and commercial appliances, electronics, and numerous other services – a testament to our unwavering commitment to excellence and progress.</p>
         </div>
       </section>
-
       <Timeline />
       <Process />
-
       {/* About Section */}
       <section className="cs_about cs_style_1 position-relative">
         <div className="cs_height_40 cs_height_lg_40"></div>
-
         <div className="container">
+          
           <div className="row cs_gap_y_40 align-items-center">
             <div className="col-xl-6">
               <div className="cs_about_thumbnail_wrapper position-relative">
@@ -90,7 +103,6 @@ const OurVisionOurMissionPage = () => {
                     alt="About FAJ"
                   />
                 </div>
-
                 <div className="cs_esperience_text position-absolute">
                   <h2 className="cs_experience_title mb-0">
                     <span className="cs_fs_100 cs_black cs_accent_color">FAJ</span>
@@ -99,7 +111,6 @@ const OurVisionOurMissionPage = () => {
                     <span className="cs_fs_24">2010</span>
                   </h2>
                 </div>
-
                 <a
                   href="tel:+971507464712"
                   className="cs_phone_call cs_heading_color"
@@ -111,7 +122,6 @@ const OurVisionOurMissionPage = () => {
                     (+971) 507464712
                   </div>
                 </a>
-
                 <div className="cs_about_shape_1 position-absolute">
                   <img
                     src={getImageSrc('shapes/gear_2')}
@@ -126,7 +136,6 @@ const OurVisionOurMissionPage = () => {
                 </div>
               </div>
             </div>
-
             {/* Text */}
             <div className="col-xl-6">
               <div className="cs_about_text">
@@ -138,7 +147,6 @@ const OurVisionOurMissionPage = () => {
                     From Humble Beginnings to Diversified Excellence
                   </h2>
                 </div>
-
                 <p className="cs_mb_40">
                   The FAJ Group's remarkable journey began in 2010 as a small,
                   visionary technical services and sales trading house in Dubai,
@@ -146,7 +154,6 @@ const OurVisionOurMissionPage = () => {
                   and innovation has transformed us into a dynamic, multi-entity
                   organisation operating across the UAE and Pakistan.
                 </p>
-
                 <div className="cs_about_btns">
                   <Link to="/about-us/" className="cs_btn cs_style_1">
                     <span>Read more</span>
@@ -156,15 +163,14 @@ const OurVisionOurMissionPage = () => {
             </div>
           </div>
         </div>
-
         <div className="cs_height_40 cs_height_lg_40"></div>
       </section>
 
-      <Testimonial1
+      {/* <Testimonial1
         subtitle="Testimonial"
         title="What our clients say <br> About Us"
         bgImg="testimonialbg"
-      />
+      /> */}
 
       <Brand1 />
     </>

@@ -21,7 +21,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const EyeIcon = () => (
   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -294,7 +308,7 @@ const AcAnnualMaintenanceContractDetail = ({
               <br />Our highly skilled team of fully qualified and specialized technicians is ready to provide the same level of service and workmanship that our customers have come to expect from FAJ. Additionally, we offer emergency assistance 365 days a year.
             </p>
             <div id="get-quote" className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -340,7 +354,7 @@ const AcAnnualMaintenanceContractDetail = ({
                 Our Planned Preventive Maintenance Package includes repair, maintenance, and testing, making it ideal for any air conditioning system in buildings, apartments, villas, offices and warehouses. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.
               </p>
               <div id="get-quote" className="mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                   <WhatsappIconButton />
                   <CallNowButton />
                 </div>
@@ -410,7 +424,7 @@ const AcAnnualMaintenanceContractDetail = ({
               ))}
             </div>
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -588,7 +602,7 @@ const AcAnnualMaintenanceContractDetail = ({
             </div>
 
             <div id="get-quote" className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

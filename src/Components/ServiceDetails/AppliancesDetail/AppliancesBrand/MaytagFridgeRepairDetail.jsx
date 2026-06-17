@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const MaytagFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
@@ -179,13 +193,13 @@ const maytagServicesData = [
       id: 1,
       image: getImageSrc('applycalouthome'),
  
-      title: 'Appliance Call-out',
+      title: 'Inspection / Check-Up Cost',
       icon: getImageSrc('calloutcard'),
       price: 'AED250',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -394,7 +408,7 @@ const maytagServicesData = [
             <h1 className="cs_fs_30">Top-Rated Maytag Home Appliances Repair Center and Service</h1>
             <p>If you're looking for a qualified technician for your Maytag appliances, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we’ve offered reliable and affordable Maytag home appliance repair and services.<br/>Our network features skilled professionals who specialize in Maytag appliance repair and are available nearby.<br/>We connect you with experienced technicians across Dubai and Sharjah who focus on your satisfaction and deliver efficient, reliable solutions for all your appliance needs.</p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -545,7 +559,7 @@ const maytagServicesData = [
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -892,7 +906,7 @@ const maytagServicesData = [
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

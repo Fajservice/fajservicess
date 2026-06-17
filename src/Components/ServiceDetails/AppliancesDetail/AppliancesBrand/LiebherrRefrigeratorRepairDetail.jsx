@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
@@ -293,7 +307,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
             <p>Liebherr refrigerators are the best among the other brands out there. Still, products of the best brands do not last forever. <br/>You can fix minor issues, but mostly, you cannot. So why worry? We are the best Liebherr fridge repair and freezer service provider in Dubai. We are the most experienced drive experts, serving since 2010 in Dubai. With hands-on experience with all Liebherr refrigerator maintenance, you can expect successful and swift repairs from us. Liebherr Fridge repair in Dubai. So, contact us today to get your Liebherr built-in fridge freezer repair appointment. Enjoy superior Liebherr appliance repair with <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -471,7 +485,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -814,7 +828,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

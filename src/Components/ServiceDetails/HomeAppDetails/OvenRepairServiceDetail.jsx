@@ -17,7 +17,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const EyeIcon = () => (
   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,13 +69,13 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     {
       id: 1,
       image: getImageSrc('oven-Range-Repair-Nearby-You-oven'),
-      title: 'Oven Call-out Fee',
+      title: 'Oven Inspection Fee',
       icon: getImageSrc('calloutcard'),
       price: 'AED100',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -234,13 +248,13 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
           <div className="container">
             <h1 className="cs_fs_30">Expert Oven Repair and Gas & Electric Oven Service Center Near You</h1>
             <p>
-              If you&apos;re having issues with your oven, it&apos;s important to locate a trustworthy and high-quality oven repair service. Our company in Dubai is focused on providing quick, effective, and affordable repairs for all your oven repair requirements.
+              If you&apos;re having issues with your oven, it&apos;s important to locate a trustworthy and high-quality <a href="https://www.facebook.com/reel/2001762090551322">oven repair</a> service. Our company in Dubai is focused on providing quick, effective, and affordable repairs for all your <a href="https://pin.it/47lcfpY4x">oven repair</a> requirements.
               <br />
               With over a decade of experience since 2010 in maintenance of ovens of various types and brands, our skilled team employs the latest tools and techniques to diagnose and fix problems efficiently.
               This ensures you can return to your busy life in Dubai and Sharjah without much delay.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -296,7 +310,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                   <li> <strong>Oven Preventative Measures: </strong> Regular maintenance, such as cleaning and inspections, prevents minor issues from becoming major repairs, saving time and money.</li>
                   <li> <strong>Oven Long-term Use: </strong> Regular maintenance can extend your oven's lifespan and save you replacement costs.
                     <br />
-                    By prioritising oven maintenance, residents and businesses in Dubai can ensure their ovens function safely and efficiently.</li>
+                    By prioritising <a href="https://www.instagram.com/reels/DVGObGDgmbb/">oven maintenance</a>, residents and businesses in Dubai can ensure their ovens function safely and efficiently.</li>
                 </ul>
               </div>
             </div>
@@ -413,7 +427,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -805,7 +819,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

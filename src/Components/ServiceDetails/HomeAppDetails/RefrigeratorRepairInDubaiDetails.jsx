@@ -18,7 +18,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
@@ -290,13 +304,13 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
     {
       id: 1,
       image: getImageSrc('techfridge'),
-      title: 'Refrigerator Call-out Fee',
+      title: 'Refrigerator Inspection Fee',
       icon: getImageSrc('calloutcard'),
       price: 'AED100',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -459,12 +473,12 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
           <div className="container">
             <h1 className="cs_fs_30">Expert Refrigerator and Freezer, Fridge Service Center Near You</h1>
             <p>
-              Since 2010, FAJ has established itself as the go-to reference for refrigerator, freezer and fridge repair near me service in Dubai and Sharjah. We prioritise refrigerator repair near you over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
-              Rely on our experienced experts for fast and reliable refrigerator maintenance in Dubai!
+              Since 2010, FAJ has established itself as the go-to reference for refrigerator, freezer and fridge repair near me service in Dubai and Sharjah. We prioritise <a href="https://www.facebook.com/reel/754451204389736">refrigerator repair</a> near you over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
+              Rely on our experienced experts for fast and reliable <a href="https://www.instagram.com/reels/DW8Nd38AotP/">refrigerator maintenance</a> in Dubai!
             </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -479,7 +493,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Refrigerator Repair & Service Near You</h2>
                 <p className="mb-2">Is your fridge or freezer not cooling properly? Has your food spoiled?
-                  You can easily book online fridge repair and freezer repair in Dubai / Sharjah near me service with FAJ Experts.
+                  You can easily book online <a href="https://pin.it/52HhyXkKZ">fridge repair</a> and freezer repair in Dubai / Sharjah near me service with FAJ Experts.
                   We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!
                 </p>
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
@@ -628,7 +642,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
               </div>
             </div>
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -958,7 +972,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
               </div>
             </div>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
                 <CallNowButton />
               </div>

@@ -340,10 +340,10 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">High Rated Barbeque Repair and Gas & Electric BBQ Grill Cleaning Service Near You</h1>
-            <p>FAJ has been providing reliable barbecue grill repair, maintenance, and cleaning services in Dubai and Sharjah since 2010. Our quick barbeque grill repair service near you helps you get your BBQ grill back in working order so you can enjoy cooking your favourite meals. If your barbecue is malfunctioning, please contact our customer service. The gas or electric barbecue grill may require repairs due to performance issues that affect cooking quality or pose safety risks.</p>
+            <p>FAJ has been providing reliable <a href="https://www.facebook.com/reel/2718093635243121">barbecue grill repair</a>, maintenance, and cleaning services in Dubai and Sharjah since 2010. Our quick barbeque grill repair service near you helps you get your BBQ grill back in working order so you can enjoy cooking your favourite meals. If your barbecue is malfunctioning, please contact our customer service. The gas or electric barbecue grill may require repairs due to performance issues that affect cooking quality or pose safety risks.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -360,7 +360,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>BBQ Repair - BBQ Grill Cleaning Service</h2>
 
-                <p className="mb-2">We are knowledgeable about all major brands of BBQ grill equipment, including both high-end luxury models and free-standing or built-in BBQ grills. As a result, we offer BBQ grill repair services for gas and electric grills of any brand, with a special focus on quality and effectiveness.</p>
+                <p className="mb-2">We are knowledgeable about all major brands of BBQ grill equipment, including both high-end luxury models and free-standing or built-in BBQ grills. As a result, we offer <a href="https://pin.it/4Mxr4d92u">BBQ grill repair services</a> for gas and electric grills of any brand, with a special focus on quality and effectiveness.</p>
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>BBQ Technical Inspection Fee</h2>
                 <p>The technical inspection fee covers diagnosis, transportation, and reinstallation at your location in Dubai. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repairs for a coffee machine, stand mixer, or robot vacuum cleaner, please contact us. </p>
               </div>
@@ -388,7 +388,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Why is BBQ Grill Regular Maintenance Service Important in Dubai?</h2>
-            <p>Grilling is more than just cooking; it&apos;s a lifestyle. To fully enjoy barbecued delights, proper grill maintenance is essential, as a well-kept grill is key to a perfect barbecue.</p>
+            <p>Grilling is more than just cooking; it&apos;s a lifestyle. To fully enjoy barbecued delights, proper <a href="https://www.instagram.com/reels/DWA50_lguhH/">grill maintenance</a> is essential, as a well-kept grill is key to a perfect barbecue.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={getImageSrc('bbq-repair-service')} alt="BBQ Repair Service" />
@@ -510,7 +510,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -671,7 +671,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
             </ul>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

@@ -20,7 +20,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -29,7 +43,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Cooline AC Repair, Cooline Air Conditioner Service, Cooline AC Maintenance Dubai, Cooline AC Fix Dubai, Cooline Air Condition Repair Dubai, Cooline Air Condition Maintenance Dubai, Cooline AC Service Dubai, Cooline Air Conditioner Repair Dubai, Cooline Air Conditioner Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/air-conditioning-repair/brands/cooline/");
-  const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public");
+  const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/Experts-AC-Service-and-Maintenance/public";
   const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -312,14 +326,14 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Cost-Effective Cooling AC Repair and Maintenance Services in Dubai, UAE</h1>
+            <h1 className="cs_fs_30">Cost-Effective Cooline AC Repair and Maintenance Services in Dubai, UAE</h1>
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been a top provider of repair, maintenance, and installation services for Cooline air conditioning systems in Dubai and Sharjah, focusing on both residential and commercial properties.
               <br />Embracing regular Cooline AC maintenance is vital for unlocking their maximum potential and ensuring consistent comfort throughout the year. Our dedicated professional cleaning services in Dubai are crafted to elevate the efficiency and reliability of Cooline units, empowering our clients to enjoy optimal indoor environments and a higher quality of life.
             </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -364,6 +378,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   className="bordered-img w-100"
                   src={getImageSrc('acfilterinner')}
                   alt="Cooline AC Service"
+                  width="800"
+                  height="600"
                   loading="lazy"
                   decoding="async"
                 />
@@ -391,6 +407,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   className="bordered-img w-100"
                   src={getImageSrc('ac amc')}
                   alt="Cooline  Airconditioner Repair"
+                  width="800"
+                  height="600"
                   loading="lazy"
                   decoding="async"
                 />
@@ -518,7 +536,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -576,6 +594,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       className="bordered-img w-100"
                       src={getImageSrc('icon/fast-reliable')}
                       alt="Fast,Reliable Service"
+                      width="64"
+                      height="64"
                       loading="lazy"
                       decoding="async"
                     />
@@ -592,6 +612,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       className="bordered-img w-100"
                       src={getImageSrc('icon/experts')}
                       alt="We Are Experts"
+                      width="64"
+                      height="64"
                       loading="lazy"
                       decoding="async"
                     />
@@ -609,6 +631,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       className="bordered-img w-100"
                       src={getImageSrc('icon/full-control')}
                       alt="You Are in Control"
+                      width="64"
+                      height="64"
                       loading="lazy"
                       decoding="async"
                     />
@@ -628,6 +652,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   className="blue-border-2 w-100 why-choose-img"
                   src={getImageSrc('ACServicescomponent-New')}
                   alt="Ac Maintenance Services"
+                  width="800"
+                  height="800"
                   loading="lazy"
                   decoding="async"
                 />
@@ -641,6 +667,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       className="bordered-img w-100"
                       src={getImageSrc('icon/value')}
                       alt="We Are Experts"
+                      width="64"
+                      height="64"
                       loading="lazy"
                       decoding="async"
                     />
@@ -656,6 +684,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       className="bordered-img w-100"
                       src={getImageSrc('icon/confidence-guarantee')}
                       alt="Great Value"
+                      width="64"
+                      height="64"
                       loading="lazy"
                       decoding="async"
                     />
@@ -673,6 +703,8 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       className="bordered-img w-100"
                       src={getImageSrc('icon/trustworthy')}
                       alt="Trustworthy"
+                      width="64"
+                      height="64"
                       loading="lazy"
                       decoding="async"
                     />
@@ -689,7 +721,15 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100" src={getImageSrc('ACServicescomponent-New')} alt="Ac Maintenance Services" />
+              <img
+                className="blue-border-2 w-100"
+                src={getImageSrc('ACServicescomponent-New')}
+                alt="Ac Maintenance Services"
+                width="800"
+                height="800"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
           </div>
         </section>
@@ -765,7 +805,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton></GetQuoteButton>
                 <CallNowButton></CallNowButton>
               </div>

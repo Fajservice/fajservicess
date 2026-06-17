@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
@@ -214,7 +228,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
             <p>When your Gaggenau appliances break down, it’s not only inconvenient, but it can also disrupt your entire day. That’s where <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> comes in. With over a decade of experience since 2010, we provide reliable repair and service for Gaggenau appliances.<br/>We specialise in the repair of Gaggenau refrigerators, washing machines, dishwashers, ovens, and stoves. If you need white goods repair services in Dubai or Sharjah, book with us today, and we’ll have your Gaggenau appliance fixed in no time!</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -383,7 +397,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -732,7 +746,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

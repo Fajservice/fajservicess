@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -292,7 +306,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
             <h1 className="cs_fs_30">High-Quality Panasonic AC Repair and Maintenance Services in Dubai</h1>
             <p>Are you looking for reliable Panasonic AC repair and service in Dubai? <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> has been the top choice for Panasonic air conditioning solutions in Dubai and Sharjah since 2010. Our experienced technicians are equipped to repair your air conditioning unit on the same day, ensuring optimal cooling.<br />We specialise in a complete range of services, including Panasonic AC repair, cleaning, maintenance, and installation for both residential and commercial units. Our expert team is dedicated to optimising your system's performance, creating a comfortable and healthy indoor environment. Trust us for dependable expertise and outstanding service.</p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -481,7 +495,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -694,7 +708,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton></GetQuoteButton>
                 <CallNowButton></CallNowButton>
               </div>

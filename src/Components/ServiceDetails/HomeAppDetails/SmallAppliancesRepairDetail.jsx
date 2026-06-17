@@ -16,7 +16,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -339,7 +353,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
             </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -356,7 +370,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Small Appliance Repair and Maintenance</h2>
 
                 <p className="mb-2">
-                  Small appliances are important for daily use, and if they are damaged, it can affect your routine. FAJ provides expert service for kitchen appliances such as stand mixers, blenders, kettles, toasters, air fryers, microwave ovens, ice crushers, food processors, vacuum cleaners, cigar cabinet fridges, steam irons, and other electronic appliance repairs and fixes nearby in Dubai.
+                  Small appliances are important for daily use, and if they are damaged, it can affect your routine. FAJ provides expert service for kitchen appliances such as <a href="https://pin.it/6p8dAiE5G">stand mixers</a>, <a href="https://www.instagram.com/reels/DUctsAgiR6U/">blenders</a>, kettles, toasters, air fryers, microwave ovens, ice crushers, food processors, <a href="https://www.facebook.com/reel/1295283632789056">vacuum cleaners</a>, cigar cabinet fridges, steam irons, and other electronic appliance repairs and fixes nearby in Dubai.
                 </p>
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
@@ -518,7 +532,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -755,7 +769,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
               </div>
             </div>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

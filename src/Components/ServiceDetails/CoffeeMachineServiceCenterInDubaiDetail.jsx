@@ -16,7 +16,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   const metatitle = String(titleSeo || "Coffee Machine Service Center | Best Coffee Machine Repair UAE");
@@ -177,13 +191,13 @@ const coffeemachineServicesData = [
       id: 1,
       image: getImageSrc('coffee-machine-service'),
  
-      title: 'Coffee Machine Call-out',
+      title: 'Coffee Machine Inspection',
       icon: getImageSrc('calloutcard'),
       price: 'AED100',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty coffee machine, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
-      popupTitle: 'Coffee Machine Call-out  scope of work',
+      popupTitle: 'Coffee Machine Inspection  scope of work',
       sections: [
         {
           items: [
@@ -357,10 +371,10 @@ const coffeemachineServicesData = [
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Trusted Coffee Machine Service Center and Repair Near You in Dubai, Sharjah & Abu Dhabi, UAE</h1>
-            <p>Since 2010, FAJ has been providing reliable and trusted expertise in installation, coffee machine service and maintenance, specializing in coffee machine repair in Dubai, serving home coffee machine service, office coffee machine repair, restaurant coffee machine maintenance, and cafes.<br />We work with a variety of coffee equipment, including tea &amp; coffee vending machine repair, espresso machine maintenance, coffee grinders servicing, professional coffee machine, and automatic coffee machine error fix.&nbsp;<br />Our dedicated team understands the importance of functioning coffee machine servicing, and we prioritise timely maintenance.&nbsp;<br />As specialists in espresso machines, we are committed to managing and maintaining your equipment throughout its lifespan, ensuring that you enjoy reliable, great-tasting coffee every day.</p>
+            <p>Since 2010, FAJ has been providing reliable and trusted expertise in installation, coffee machine service and maintenance, specializing in <a href="https://www.facebook.com/watch/?v=1662769468221750">coffee machine repair</a> in Dubai, serving home coffee machine service, office coffee machine repair, restaurant <a href="https://www.instagram.com/reels/DXitS76go_o/">coffee machine maintenance</a>, and cafes.<br />We work with a variety of coffee equipment, including tea &amp; coffee vending machine repair, espresso machine maintenance, coffee grinders servicing, professional coffee machine, and automatic coffee machine error fix.&nbsp;<br />Our dedicated team understands the importance of functioning <a href="https://pin.it/6pzCVw4RK">coffee machine servicing</a>, and we prioritise timely maintenance.&nbsp;<br />As specialists in espresso machines, we are committed to managing and maintaining your equipment throughout its lifespan, ensuring that you enjoy reliable, great-tasting coffee every day.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -413,7 +427,7 @@ const coffeemachineServicesData = [
               </p>
 
               <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                   <WhatsappIconButton />
                   <CallNowButton />
                 </div>
@@ -433,7 +447,7 @@ const coffeemachineServicesData = [
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('coffee-machine-service')} alt="Post Image" />
+                <img className="blue-border" src={getImageSrc('coffee-machine-service')} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -562,7 +576,7 @@ const coffeemachineServicesData = [
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -576,7 +590,7 @@ const coffeemachineServicesData = [
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                                <img className="bordered-img w-100" src={getImageSrc('Coffee-machine-servicing-title-image')} alt="Post Image" />
+                                <img className="bordered-img w-100" src={getImageSrc('Coffee-machine-servicing-title-image')} alt="FAJ Technical Services L.L.C" />
               </div>
 
               <div className="col-xl-6">
@@ -1301,7 +1315,7 @@ const coffeemachineServicesData = [
 
             </div>
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -1313,9 +1327,9 @@ const coffeemachineServicesData = [
           title="Recent Completed Repair & Service"
           subTitle="Before & after"
           bgImg={`${CDN}/background-image-2/public`}
-          beforeImg={`${CDN}/coffee-machine-before-image/public`}
+          beforeImg={getImageSrc("coffee-machine-after-image")}
           afterTitle="After"
-          afterImg={`${CDN}/coffee-machine-after-image/public`}
+          afterImg={getImageSrc("coffee-machine-before-image")}
           beforeTitle="Before"
         />
 

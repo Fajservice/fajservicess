@@ -18,7 +18,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
  // For SEO
@@ -233,13 +247,13 @@ const unimacServicesData = [
       id: 1,
       image: getImageSrc('laundry-equipment-maintenance-service'),
  
-      title: 'Appliance Call-out',
+      title: 'Inspection / Check-Up Cost',
       icon: getImageSrc('calloutcard'),
       price: 'AED250',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -406,7 +420,7 @@ const unimacServicesData = [
       </p>
 
       <div id="get-quote" className=" mt-3">
-       <div className="container d-flex justify-content-center align-items-center gap-3">
+       <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
         <WhatsappIconButton />
        </div>
       </div>
@@ -436,7 +450,7 @@ const unimacServicesData = [
 
        <div className="col-md-6 ">
 
-        <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="Post Image" />
+        <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="FAJ Technical Services L.L.C" />
        </div>
       </div>
       <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -454,7 +468,7 @@ const unimacServicesData = [
 
       <div className="row align-items-center">
        <div className="col-md-6">
-        <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Post Image" />
+        <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="FAJ Technical Services L.L.C" />
        </div>
        <div className="col-md-6">
         <ul className="mb-0">
@@ -588,7 +602,7 @@ const unimacServicesData = [
       </div>
 
       <div id="get-quote" className="mb-0 mt-3">
-       <div className="container d-flex justify-content-center align-items-center gap-3">
+       <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
         <WhatsappIconButton />
        </div>
       </div>
@@ -945,7 +959,7 @@ const unimacServicesData = [
       </div>
 
       <div id="get-quote" className=" mt-3">
-       <div className="container d-flex justify-content-center align-items-center gap-3">
+       <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
         <GetQuoteButton />
         <CallNowButton />
        </div>

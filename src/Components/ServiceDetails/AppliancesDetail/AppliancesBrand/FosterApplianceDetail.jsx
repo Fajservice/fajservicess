@@ -20,7 +20,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
@@ -196,7 +210,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                             Since 2010, <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> Since 2010, we have been providing reliable and affordable service for Foster appliances. We service all models, including Foster fridge freezers, cookers, hoods, Foster dishwashers, and more. Booking a repair with us is simple: just select your Foster appliance type, choose your preferred repair date, and wait for one of our friendly technicians to assist you.<br />No matter the issue you're facing with your Foster appliance, our repair experts at FAJ are in your area and ready to resolve any problem quickly. Contact us today!</p>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -352,7 +366,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                         </div>
 
                         <div id="get-quote" className="mb-0 mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -699,7 +713,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                         </div>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <GetQuoteButton />
                                 <CallNowButton />
                             </div>

@@ -15,7 +15,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL, Image }) => {
   // For SEO
@@ -36,13 +50,13 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
     {
       id: 1,
       image: getImageSrc('blackdecker-vacuum-cleaner-repair'),
-      title: 'Appliance Call-out',
+      title: 'Inspection / Check-Up Cost',
       icon: getImageSrc('calloutcard'),
       price: 'AED50',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -204,7 +218,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>Black & Decker is a globally recognised leader in power tools, home improvement solutions, and household appliances. Known for innovation and user-friendly design, the company has built a strong reputation among DIY enthusiasts and professionals. Their extensive product range includes Black + Decker vacuum cleaners, mixers,  fryers, blenders, juicers, choppers, food processors, coffee and espresso makers, grills, griddles, kettles, mixers, slow cookers, rice cookers, sandwich makers, speciality appliances, steamers, toasters, toaster ovens, and microwaves, all designed to make everyday tasks easier and more efficient.<br/>Since 2010, FAJ Technical Services L.L.C has been providing service and repair for Black & Decker kitchen appliances and power tools in Dubai.</p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -229,7 +243,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
                 <p className="appointment-col">If you need repair or cleaning service for your Black & Decker kitchen appliances and power tools, please contact us. The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
                 >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road.<br/>When you drop off your appliance at the workshop, you will receive a discount on the technical inspection fee and other services.</p>
                 <div id="get-quote" className="mt-3">
-                    <div className="container d-flex justify-content-center align-items-center gap-3">
+                    <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                         <WhatsappIconButton />
                         <CallNowButton />
                     </div>
@@ -347,7 +361,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
               </div>
             </div>
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -511,7 +525,7 @@ const BlackAndDeckerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , des
                     </div>
                 </div>
                 <div id="get-quote" className=" mt-3">
-                    <div className="container d-flex justify-content-center align-items-center gap-3">
+                    <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                         <GetQuoteButton />
                         <CallNowButton />
                     </div>

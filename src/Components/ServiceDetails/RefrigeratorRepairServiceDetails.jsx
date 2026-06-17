@@ -125,7 +125,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
             </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -141,14 +141,14 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
           <div className="container">
             <div className="row g-5">
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair.avif`} alt="FAJ Technical Services L.L.C" />
                 <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
                 <p>We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
                 <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
               </div>
 
               <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="FAJ Technical Services L.L.C" />
                 <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
                 <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
                 <ul>
@@ -162,7 +162,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
             <div className="appointment-col border-small-top pt-3">
               <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
               <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                   <WhatsappIconButton />
                   <CallNowButton />
                 </div>
@@ -181,7 +181,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repair-3.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repair-3.avif`} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-6">
 
@@ -293,7 +293,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
               </div>
             </div>
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -396,7 +396,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.avif`} alt="FAJ Technical Services L.L.C" />
               </div>
             </div>
           </div>
@@ -490,7 +490,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>
@@ -530,7 +530,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg, titleSeo, de
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img src={getImageSrc('benafit-acimg')} alt="Post Image" />
+                  <img src={getImageSrc('benafit-acimg')} alt="FAJ Technical Services L.L.C" />
                 </div>
               </div>
               <div className="col-lg-4">

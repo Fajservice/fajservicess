@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const TCLAcRepair = ({
@@ -140,7 +154,7 @@ const TCLAcRepair = ({
             <h1 className="cs_fs_30">Top-Rated TCL Air Conditioner Repair and Maintenance Service in Dubai</h1>
             <p>Is your TCL air conditioner not working? Is it just sitting there on your wall, and you feel helpless about getting it to work again?<br/><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> understands how challenging it can be to fix your TCL AC, especially when it comes to air conditioner repair and maintenance services in Dubai and Sharjah. Our expert team offers a complete range of services, including TCL AC repair, cleaning, maintenance, and installation for both residential and commercial settings.<br />We are dedicated to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.</p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -332,7 +346,7 @@ const TCLAcRepair = ({
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -545,7 +559,7 @@ const TCLAcRepair = ({
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton></GetQuoteButton>
                 <CallNowButton></CallNowButton>
               </div>

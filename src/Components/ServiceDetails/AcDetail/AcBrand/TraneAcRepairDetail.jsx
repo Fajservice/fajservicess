@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -284,7 +298,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <p>In the active and ever-changing climate of Dubai, a malfunctioning air conditioning system can greatly impact your comfort at home or in the workplace. To maintain a cool environment, trust <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> and their team of expert Trane AC system.<br />When issues arise, timely and efficient Trane AC repair are essential in Dubai. FAJ is a trusted name, recognized for its reliability and expertise in Trane AC repair services. In this comprehensive report, we will explore why HVAC is the preferred choice for Trane AC repair in Dubai and how our services enhance both your comfort and system efficiency.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -473,7 +487,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -679,7 +693,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton></GetQuoteButton>
                 <CallNowButton></CallNowButton>
               </div>

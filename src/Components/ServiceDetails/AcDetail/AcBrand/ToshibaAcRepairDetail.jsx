@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -283,7 +297,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <h1 className="cs_fs_30">Top-Quality Toshiba AC Repair in Dubai and AC Maintenance Service in Dubai</h1>
             <p>Are you looking for a Toshiba air conditioning repair service for your business? We can help!<br /> <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"> FAJ Technical Services L.L.C</a> offers maintenance for all types of Toshiba air conditioning systems throughout Dubai. Our services include regular AC servicing, repairs, and new installations.<br />Our specialists are highly qualified and skilled, ensuring that they meet the highest Toshiba standards. They will arrive at your commercial premises fully equipped to handle any Toshiba air conditioning maintenance task. Additionally, we offer tailored service and maintenance packages to suit your business needs.<br />If you require service, repair, or inspection of a Toshiba air conditioning system, please fill out our inquiry form, and we will send you a quote within an hour.</p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -473,7 +487,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -687,7 +701,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton></GetQuoteButton>
                 <CallNowButton></CallNowButton>
               </div>

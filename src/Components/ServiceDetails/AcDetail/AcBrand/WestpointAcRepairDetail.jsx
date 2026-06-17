@@ -20,7 +20,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -117,7 +131,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
             <h1 className="cs_fs_30">Cost-Effective West Point Air Conditioning Repair and Maintenance Services in Dubai, UAE</h1>
             <p>Westpoint home appliances play a crucial role in our daily lives, providing comfort and comfort. At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>, our goal is to improve our quality of life through reliable repairs at our Supra home appliances repair center.<br />Some key Westpoint appliances that greatly impact our daily routines include Westpoint air conditioners, washing machines, refrigerators, dishwashers, tumble dryers, and washer-dryers. The inconvenience caused by any of these appliances suddenly breaking down can be considerable, which is why we offer dedicated repair, maintenance, and service in Dubai.</p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -489,7 +503,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
               </div>
             </div>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton></CallNowButton>
               </div>

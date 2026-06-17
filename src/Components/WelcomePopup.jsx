@@ -3,7 +3,7 @@ import './WelcomePopup.css';
 import { useEffect } from 'react';
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
-const POPUP_IMAGE_URL = `${CDN}/ramadanpopup/public`;
+const POPUP_IMAGE_URL = `${CDN}/aniversary-popup/public`;
 
 if (typeof window !== 'undefined') {
   const link = document.createElement('link');
@@ -31,7 +31,7 @@ const WelcomePopup = () => {
   
   return (
     <div className="popup-overlay">
-      <div className="popup-content" style={{ maxWidth: '330px' }}>
+      <div className="popup-content" style={{ maxWidth: '460px' }}>
         <button 
           className="popup-close"
           onClick={closePopup} 
@@ -42,8 +42,8 @@ const WelcomePopup = () => {
         <img 
           src={POPUP_IMAGE_URL}
           alt="Welcome - 30% Discount Offer" 
-          width={330}
-          height={330}
+          width={460}
+          height={460}
           loading="eager"
           fetchpriority="high"
           decoding="sync"

@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
@@ -43,13 +57,13 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
       id: 1,
       image: getImageSrc('lagermaniacallout'),
  
-      title: 'Appliance Call-out',
+      title: 'Inspection / Check-Up Cost',
       icon: getImageSrc('calloutcard'),
       price: 'AED315',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -260,7 +274,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
               With over a decade of experience since 2010, our skilled team utilizes advanced tools and techniques to diagnose and resolve issues across all La Germania models, enabling you to return to your routine in Dubai and Sharjah with minimal disruption. </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -435,7 +449,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -792,7 +806,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
                 </div>
 
                 <div id="get-quote" className=" mt-3">
-                  <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                     <GetQuoteButton />
                     <CallNowButton />
                   </div>

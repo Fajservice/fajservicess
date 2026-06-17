@@ -9,7 +9,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const PhoneCallIcon = ({ size = 24, color = "currentColor" }) => (
@@ -66,7 +80,7 @@ const WhoWeArePage = () => {
           </div>
           <div className="row mt-4">
             <div className="col-md-6">
-              <p className="text-center">
+              <p className="text-left">
                 In a world where technology seamlessly integrates into our daily
                 lives, FAJ Technical Services L.L.C. has been at the forefront
                 of innovation since 2010.
@@ -79,7 +93,7 @@ const WhoWeArePage = () => {
               </p>
             </div>
             <div className="col-md-6">
-              <p className="text-center">
+              <p className="text-left">
                 With a relentless pursuit of excellence, we have redefined the
                 standards of technical services, earning the esteemed Trusted
                 Trader endorsement in 2025. We aim to harmonise technology with
@@ -170,11 +184,11 @@ const WhoWeArePage = () => {
         <div className="cs_height_40 cs_height_lg_40"></div>
       </section>
 
-      <Testimonial1
+      {/* <Testimonial1
         subtitle="Testimonial"
         title="What our clients say <br> About Us"
         bgImg="testimonialbg"
-      />
+      /> */}
       <Brand1 />
       <Process />
     </>

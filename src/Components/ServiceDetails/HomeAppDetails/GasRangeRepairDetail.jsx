@@ -17,7 +17,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
@@ -243,8 +257,6 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     }
   ]
 }
-
-
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = getImageSrc('testimonialbg')
@@ -256,13 +268,13 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     {
       id: 1,
       image: getImageSrc('gas-cooker-repair-service'),
-      title: 'Gas Cooker Call-out Fee',
+      title: 'Gas Cooker Inspection Fee',
       icon: getImageSrc('calloutcard'),
       price: 'AED100',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -433,10 +445,10 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             <p>
               Since 2010, F A J has supported you when things go wrong. We understand that your cooking appliances are essential for daily life.
               The induction cooktop, stove, or range is often key to an enjoyable cooking experience in a modern kitchen. After all, home-cooked meals are an excellent way to bring family and friends together. When your cooker breaks down, it can be both inconvenient and frustrating.
-              <br /> Let F A J technicians in your area help you get those quality meals back on the table with our reliable repair services.</p>
+              <br /> Let F A J technicians in your area help you get those quality meals back on the table with our <a href="https://www.instagram.com/reels/DVxXNIVArUO/">reliable repair services</a>.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -451,7 +463,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                 <p className="mb-2">
                   Gas stoves are essential in our kitchens, helping us create delicious meals every day. When a cooking range stops working, it can throw our routines off balance.
-                  <br /> That&apos;s why finding a trustworthy cooktop repair specialist nearby is crucial, whether you're in the vibrant cities of Dubai or Sharjah. We&apos;re here to help you get back to cooking confidently and easily!
+                  <br /> That&apos;s why finding a trustworthy <a href="https://pin.it/7xqrCq4vk">cooktop repair</a> specialist nearby is crucial, whether you're in the vibrant cities of Dubai or Sharjah. We&apos;re here to help you get back to cooking confidently and easily!
                 </p>
 
 
@@ -485,7 +497,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <div className="container">
             <h2 className="cs_fs_30">Why is Cooking Range Maintenance Service Important in Dubai?</h2>
             <p>
-              Proper gas range maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai's climate. Here are the main benefits:
+              Proper <a href="https://www.facebook.com/reel/1011370848444051">gas range maintenance</a> is essential for extending its lifespan and enhancing efficiency, especially in Dubai's climate. Here are the main benefits:
 
             </p>
             <div className="row align-items-center">
@@ -606,7 +618,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -1022,7 +1034,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

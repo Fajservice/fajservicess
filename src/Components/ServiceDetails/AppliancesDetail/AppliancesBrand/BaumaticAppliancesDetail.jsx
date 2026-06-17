@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
@@ -237,7 +251,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <p>To maintain the high quality of your Baumatic home appliances, trust our Repair Service. We provide reliable solutions for a wide range of appliance repairs, including Baumatic refrigerators, dishwashers, washing machines, and ovens.<br />Our skilled team is ready to handle any issue you may experience. With our suitable home visit service, experienced technicians will inspect your Baumatic appliance at your location and promptly restore it to full working order. Count on us to bring your Baumatic appliances back to life with our dependable repair service in Dubai.</p>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -401,7 +415,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         </div>
 
                         <div id="get-quote" className="mb-0 mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -748,7 +762,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         </div>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <GetQuoteButton />
                                 <CallNowButton />
                             </div>

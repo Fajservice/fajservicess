@@ -13,7 +13,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -125,7 +139,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
             <p>FAJ Technical Services L.L.C. has been serving in Dubai, UAE since 2010, offering reliable service solutions. We provide comprehensive maintenance for the full range of Unox products, which includes Unox commercial convection ovens, Unox commercial combi ovens, Unox commercial speed ovens, and hot food preservation systems services in Dubai.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -153,7 +167,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Unox Ovens Annual Maintenance Contract (AMC) Services</h3>
             <p className="mb-2">Our experienced technician offers an annual maintenance agreement to keep your Unox oven, Unox combi, Unox convection oven, high-speed, compact, and Unox pizza running efficiently. This service ensures compliance with industry standards and enhances the performance and longevity of your essential Unox kitchen equipment.<br />Our annual maintenance package reduces the risk of unexpected breakdowns and associated costs. It includes maintenance, repairs, and Unox equipment testing, making it ideal for hotels, restaurants, canteens, and educational platforms to ensure smooth operation and avoid disruptions.</p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -278,7 +292,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -502,7 +516,7 @@ const UnoxCommercialOvenRepairServiceDetail = ({ subtitle, title, reviewsbg, tit
               </div>
             </div>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

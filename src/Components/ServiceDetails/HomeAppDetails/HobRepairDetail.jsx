@@ -17,7 +17,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -214,13 +228,13 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     {
       id: 1,
       image: getImageSrc('hob-repair-service'),
-      title: 'Hob Call-out Fee',
+      title: 'Hob Inspection Fee',
       icon: getImageSrc('calloutcard'),
       price: 'AED100',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -443,10 +457,10 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Same Day Hob Service Center and Gas & Electric Stove Repair Near You</h1>
-            <p>Since 2010, we have been providing reliable electric hob repair services.<br />We recognise that hobs can break down unexpectedly, so we provide high-quality and affordable cooker hob repair. Our trained technicians are available throughout Dubai and Sharjah to repair your electric or gas hob and stove service at your location.</p>
+            <p>Since 2010, we have been providing reliable electric hob repair services.<br />We recognise that hobs can break down unexpectedly, so we provide high-quality and affordable <a href="https://www.instagram.com/reels/DUaI-CTCRpz/">cooker hob repair</a>. Our trained technicians are available throughout Dubai and Sharjah to repair your electric or <a href="https://pin.it/2NEMG9ZEG">gas hob and stove service</a> at your location.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -463,8 +477,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   It's pretty standard to experience issues with cooking appliances from time to time.
                   Whether your induction hob suddenly stops working, your gas stove won't stay lit when you need it, or your electric hob keeps turning on and off, it's essential to manage these problems promptly.
                   <br />
-                  FAJ offers fast Services and can assist you in arranging a professional gas range repair to fix your faulty cooker.
-
+                  FAJ offers fast Services and can assist you in arranging a professional <a href="https://fb.watch/GI85_zsURb/">gas range repair</a> to fix your faulty cooker.
                 </p>
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
@@ -497,7 +510,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('hob-repair-service')} alt="Hob Repair Servcie" loading="lazy" />
+                <img className="blue-border" src={getImageSrc('hob-repair-services')} alt="Hob Repair Servcie" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -618,7 +631,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -632,7 +645,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <img className="bordered-img w-100" src={getImageSrc('Hob-Repair-Service-in-Dubai-UAE')} alt="Hob Repair Servcie" loading="lazy" />
+                <img className="bordered-img w-100" src={getImageSrc('hob-repair-services-dubai')} alt="Hob Repair Servcie" loading="lazy" />
               </div>
 
               <div className="col-xl-6">
@@ -1007,7 +1020,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

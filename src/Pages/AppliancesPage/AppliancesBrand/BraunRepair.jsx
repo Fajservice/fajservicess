@@ -7,9 +7,8 @@ const BraunRepair = () => {
       <BreadCumb
         mobileBgImg="img/banners/homeappliancesbrands/mobile/BraunRepair.avif"
         bgImg="img/banners/homeappliancesbrands/desktop/BraunRepair.avif"
-        Title="Philips Repair"
+        Title="Braun Repair"
       ></BreadCumb>
-
       <BraunRepairDetail />
     </div>
   );

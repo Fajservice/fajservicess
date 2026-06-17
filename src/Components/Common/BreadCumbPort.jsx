@@ -8,7 +8,21 @@ const Breadcrumb = () => {
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
   const generateBreadcrumbs = () => {
     const pathnames = location.pathname.split('/').filter((x) => x);
@@ -167,7 +181,7 @@ const getImageSrc = (imgPath) => {
           }
         `}</style>
       </nav>
-      <div className="portfolio-banner-wrap pt-4">
+      <div className="portfolio-banner-wrap pt-0">
           <img className='d-none d-md-block w-100' src={getImageSrc('portfoliobanner')} alt='Portfolio Banner'/>
           <img className='d-md-none' src={getImageSrc('portfolio-mobile-banner')} alt='Portfolio Mobile Banner'/>
       </div>

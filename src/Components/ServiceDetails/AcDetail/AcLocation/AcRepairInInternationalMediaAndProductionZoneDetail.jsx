@@ -22,9 +22,23 @@ import Gallery from "../../../Svg/Gallery";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-    if (!imgPath) return '';
-    if (imgPath.startsWith('https')) return imgPath;
-    return `${CDN}/${imgPath}/public`;
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -126,7 +140,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, AC maintenance, AC repair near me International Media and Production Zone, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah..</p>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -171,7 +185,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
 
                         <div className="appointment-col border-small-top pt-3">
                             <div id="get-quote" className=" mt-3">
-                                <div className="container d-flex justify-content-center align-items-center gap-3">
+                                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                     <WhatsappIconButton />
                                     <CallNowButton />
                                 </div>
@@ -303,7 +317,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
                             </div>
                         </div>
                         <div id="get-quote" className="mb-0 mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -487,7 +501,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
                         <LocationKeyword />
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <GetQuoteButton />
                                 <CallNowButton />
                             </div>

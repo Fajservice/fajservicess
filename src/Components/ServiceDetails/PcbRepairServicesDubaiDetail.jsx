@@ -10,7 +10,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const EyeIcon = () => (
@@ -266,7 +280,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <h1 className="cs_fs_30">Top-Quality Electronic PCB Repair and AC / DC PCB  Board Service Near You, in Dubai</h1>
             <p>We provide expert electronic PCB board repair services for both AC and DC drive boards, Power Devices, Machine controllers, Soft Starters, PLCs & Modules, and Servo & Stepper Drives repairs. Our repair services save you the high cost of replacing your existing PCB board.</p>
             <div className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
                 <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>

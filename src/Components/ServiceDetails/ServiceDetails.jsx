@@ -36,10 +36,10 @@ const ServiceDetails = () => {
                 <p>Encourage satisfied customers to leave positive reviews on platforms like Google and Yelp certified mechanics and kinds provide ongoing training to keep up with evolving car technologies.</p>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src="/assets/img/service_img_8.avif" alt="Post Image" />
+                    <img src="/assets/img/service_img_8.avif" alt="FAJ Technical Services L.L.C" />
                   </div>
                   <div className="col-md-6">
-                    <img src="/assets/img/service_img_9.avif" alt="Post Image" />
+                    <img src="/assets/img/service_img_9.avif" alt="FAJ Technical Services L.L.C" />
                   </div>
                 </div>
                 <p>Share repair tips, showcase completed projects, and engage with your audience on platforms like Facebook, Instagram an and YouTube flyers, billboards, or local radio to promote your services in the community Encourage current customers to refer friends by offering discounts on future services team up with local businesses such as car dealerships or insurance companies to generate referrals </p>
@@ -47,7 +47,7 @@ const ServiceDetails = () => {
                 <p>Invest in high-quality diagnostic tools, lifts, and other essential repair equipment certified mechanics and provide ongoing training to keep up with evolving car technologies.</p>
                 <div className="row">
                   <div className="col-xl-6">
-                    <img src="/assets/img/service_img_10.avif" alt="Post Image" />
+                    <img src="/assets/img/service_img_10.avif" alt="FAJ Technical Services L.L.C" />
                   </div>
                   <div className="col-xl-6">
                     <ul className="cs_list cs_style_1 cs_fs_18 cs_semibold cs_heading_font cs_mp_0">

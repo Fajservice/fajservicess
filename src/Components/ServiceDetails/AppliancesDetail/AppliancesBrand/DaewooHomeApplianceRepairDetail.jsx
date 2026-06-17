@@ -20,7 +20,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
@@ -193,7 +207,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                         <p>FAJ Technical Services L.L.C. is a specialized Daewoo home appliance service company in Dubai. We employ fully qualified technicians who are experts in repairing a wide range of Daewoo appliances. Our workshop provides a range of spare parts to meet all your repair needs.<br />We offer a timely home visit service, where our skilled technicians will inspect and repair your Daewoo appliance on-site. You can trust <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> to provide reliable Daewoo appliance repair services in Dubai.</p>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -348,7 +362,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                         </div>
 
                         <div id="get-quote" className="mb-0 mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -691,7 +705,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                         </p>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <GetQuoteButton />
                                 <CallNowButton />
                             </div>

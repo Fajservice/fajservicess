@@ -15,7 +15,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -320,11 +334,11 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
             <h1 className="cs_fs_30">Cost-Effective Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center Near You, Dubai UAE</h1>
             <p>FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.
-              <br />We aim to help you avoid costly replacements and reduce waste. We provide comprehensive error fixing, repair, and servicing for robot vacuum cleaners, along with the necessary parts and products throughout Dubai, Abu Dhabi, and Sharjah. FAJ offers all your robot vacuum cleaner repair and maintenance needs under one roof.
+              <br />We aim to help you avoid costly replacements and reduce waste. We provide comprehensive error fixing, repair, and servicing for robot vacuum cleaners, along with the necessary parts and products throughout Dubai, Abu Dhabi, and Sharjah. FAJ offers all your <a href="https://www.facebook.com/reel/947263921164922">robot vacuum cleaner repair</a> and maintenance needs under one roof.
             </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -341,7 +355,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Select Your Vacuum Cleaner Repair</h2>
 
                 <p className="mb-2">
-                  We understand that a vacuum cleaner breakdown is never convenient. Our expert technicians are here to provide efficient vacuum repair services. Roborock, Dreame Robot, Eufy Robot, Ecovacs Deebot, Roomba, Narwal, Dyson Robot Vacuum Cleaner Repair and Service Center in Dubai.
+                  We understand that a vacuum cleaner breakdown is never convenient. Our expert technicians are here to provide efficient vacuum repair services. <a href="https://www.instagram.com/reels/DUKsJ0oCtcB/">Roborock</a>, Dreame Robot, Eufy Robot, Ecovacs Deebot, Roomba, Narwal, Dyson Robot Vacuum Cleaner Repair and Service Center in Dubai.
                 </p>
 
 
@@ -379,7 +393,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
               </div>
               <div className="col-md-6">
                 <p className="mb-0">
-                  Vacuum cleaner maintenance is crucial for its longevity and performance and to ensure your home is cleaned effectively and safely.
+                  <a href="https://pin.it/3cvNzQpzV">Vacuum cleaner maintenance</a> is crucial for its longevity and performance and to ensure your home is cleaned effectively and safely.
 
                   <br /> Here&apos;s why vacuum cleaner maintenance is important:
                 </p>
@@ -503,7 +517,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -1036,7 +1050,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
               </div>
             </div>
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>

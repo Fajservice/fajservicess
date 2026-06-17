@@ -18,7 +18,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL, Image }) => {
   // For SEO
@@ -39,13 +53,13 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
     {
       id: 1,
       image: getImageSrc('delonghi-coffee-machine-repair'),
-      title: 'Appliance Call-out',
+      title: 'Inspection / Check-Up Cost',
       icon: getImageSrc('calloutcard'),
       price: 'AED157',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -251,7 +265,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
             <p>At De’Longhi, we take pride in offering services that meet the diverse needs of coffee lovers in Dubai, UAE. Since 2010, <a href="https://www.fajservices.ae/">FAJ Technical Services L.L.C</a> has been providing a range of DeLonghi coffee maker, DeLonghi coffee machine repair and maintenance services, including cleaning and descaling.< br/>Whether you enjoy single-origin coffees or premium ground blends, we are here to assist you. Whether you prefer brewing your coffee at the push of a button or mastering the art of coffee-making with a manual machine, we hope you enjoy many years of use from your De’Longhi coffee machine.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -406,7 +420,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -639,7 +653,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
                         </div>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <GetQuoteButton />
                                 <CallNowButton />
                             </div>

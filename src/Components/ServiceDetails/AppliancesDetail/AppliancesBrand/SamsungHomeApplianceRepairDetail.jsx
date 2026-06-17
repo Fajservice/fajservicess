@@ -20,7 +20,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
@@ -237,7 +251,7 @@ const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
                         <p>If you're looking for a qualified technician for your Samsung appliances, At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we have been providing reliable and affordable services.<br/>Do you need a fast and reliable Samsung appliance repair? We can offer the best Samsung appliance repair and service in Dubai.<br/>We are providing Samsung ovens, cookers, Samsung dishwashers, Samsung fridge freezers, Samsung washing machines, and tumble dryers repair and service in Dubai – and we aim to reach you on the same or next day, regardless of your location!</p>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -407,7 +421,7 @@ const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
                         </div>
 
                         <div id="get-quote" className="mb-0 mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -756,7 +770,7 @@ const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
                         </div>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <GetQuoteButton />
                                 <CallNowButton />
                             </div>

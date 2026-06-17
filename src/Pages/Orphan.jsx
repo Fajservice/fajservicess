@@ -4,7 +4,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
@@ -257,6 +271,7 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/bertazzoni/">Bertazzoni</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/black-and-decker-repair-service-in-dubai/">Black and Decker</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/philips-repair-service-in-dubai/">Philips</a></li>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/braun-household-appliances-repair-service-in-dubai/">Braun</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/tcl/">Tcl</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/jebel-ali-industrial-area/">Jebel Ali Industrial Area</a></li>
                             <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/coverage-area/downtown/">Downtown</a></li>
@@ -373,7 +388,18 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-commercial-ice-maker-repair-in-dubai/">The ultimate guide to commercial ice maker repair in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/blog/the-ultimate-guide-to-coffee-machine-repair-dubai-for-cafes-and-homes/">The ultimate guide to coffee machine repair Dubai for cafes and homes</a></li>
                             <li><a href="https://www.fajservices.ae/blog/most-common-issues-in-commercial-coffee-machines-uae/">Most Common Issues in Commercial Coffee Machines</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/drinking-water-guide-for-peak-summer-in-dubai-uae/">Drinking Water Guide for Peak Summer in Dubai, UAE</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/why-skincare-and-ac-maintenance-go-hand-in-hand-in-dubai-harsh-climate/">Why Skincare and AC Maintenance Go Hand in Hand in Dubai’s Harsh Climate</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/why-your-ac-is-not-cooling-top-10-causes-expert-fixes/">Why Your AC Is Not Cooling: Top 10 Causes and Expert Fixes</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-an-annual-ac-maintenance-contract-saves-you-money/">How an Annual AC Maintenance Contract Saves You Money</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/best-ac-maintenance-tips-for-the-hot-summer-in-dubai-2026/">Best AC Maintenance Tips for the Hot Summer in Dubai 2026</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-survive-the-hottest-summer-in-uae-dubai-2026/">How to Survive the Hottest Summer in UAE (Dubai) 2026</a></li>
                             <li><a href="https://www.fajservices.ae/services/electrical-services-in-dubai/">Electrical Services in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/dyson-vacuum-cleaner-repair-and-service-in-dubai/">Dyson Vacuum Cleaner Repair and Service in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/jura-coffee-machine-repair-and-service-in-dubai/">Jura Coffee Machine Repair and Service in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/sage-coffee-machine-repair-and-service-in-dubai/">Sage Coffee Machine Repair and Service in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/karcher-vacuum-cleaner-repair-and-service-in-dubai/">Karcher Vacuum Cleaner Repair and Service in Dubai</a></li>
+                            <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/ice-cream-machine-repair-and-service-in-dubai/">Ice Cream Machine Repair and Service in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/who-we-are/">Who We Are</a></li>
                             <li><a href="https://www.fajservices.ae/our-vision-and-mission/">Our Vision and Mission</a></li>
                             <li><a href="https://www.fajservices.ae/services/kitchen-equipment-maintenance/oven-repair/">Kitchen Equipment Oven Repair</a></li>

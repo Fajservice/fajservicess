@@ -14,7 +14,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
@@ -126,7 +140,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
             <p>FAJ Technical Services L.L.C, established in 2010, is a trusted service provider for DEEBOT Robotic vacuum cleaner repair and WINBOT Robotic Window Cleaner service center near you in Dubai, Sharjah, and Abu Dhabi.<br />We focus on offering affordable vacuum cleaner repair and vacuum servicing options to help you avoid costly replacements and reduce waste.<br />Our comprehensive services include error diagnosis, repairs, and necessary parts for robot vacuum cleaners, all conveniently available near in your location.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -283,7 +297,7 @@ const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>

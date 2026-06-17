@@ -12,6 +12,28 @@ const Blog3 = lazy(() => import("../Components/Blog/Blog3"));
 const Process = lazy(() => import("../Components/Process/Process"));
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
+const getImageSrc = (imgPath) => {
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+
+  let variant = 'mobile';
+
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+
+  return `${CDN}/${imgPath}/${variant}`;
+};
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -125,7 +147,7 @@ const DEFAULT_SEO = {
 
 const heroSlides = [
   {
-    image: `${CDN}/ac-repair-services-banner/public`,
+    image: getImageSrc("ac-repair-services-banner"),
     alt: "FAJ ensures comfort with professional air conditioning services year-round",
     content: true,
     title: "FAJ ensures comfort with professional air conditioning services year-round!",
@@ -136,7 +158,7 @@ const heroSlides = [
     phoneLink: "tel:+971507464712"
   },
   {
-    image: `${CDN}/appliances-repair-service/public`,
+    image: getImageSrc("appliances-repair-service"),
     alt: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
     content: true,
     title: "FAJ are specialist in domestic and commercial appliance repair and maintenance",
@@ -147,7 +169,7 @@ const heroSlides = [
     phoneLink: "tel:+971507464712"
   },
   {
-    image: `${CDN}/refrigeration-services-banner/public`,
+    image: getImageSrc("refrigeration-services-banner"),
     alt: "We are here to help you with your commercial refrigeration system repair problems",
     content: true,
     title: "We are here to help you with your commercial refrigeration system repair problems",
@@ -207,9 +229,9 @@ const Home = ({
         />
 
         <About1
-          img1={`${CDN}/about_img_1/public`}
-          img2={`${CDN}/about_img_2/public`}
-          img3={`${CDN}/about_img_3/public`}
+          img1={getImageSrc("about_img_1")}
+          img2={getImageSrc("about_img_2")}
+          img3={getImageSrc("about_img_3")}
           expDescrip="We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality."
           number="(+971) 507464712"
           telLink="tel:+971507464712"
@@ -231,12 +253,12 @@ const Home = ({
 
         <Suspense fallback={<ChooseSkeleton />}>
           <Choose1
-            img1={`${CDN}/feature_img_1/public`}
+            img1={getImageSrc("feature_img_1")}
             content="Installation, repair, or maintenance service agreement for your home, office, or commercial needs in Dubai, Sharjah and Abu Dhabi, offers expert and affordable solutions"
             btnName="Read more"
             btnUrl="about-us/"
-            img2={`${CDN}/whywechoose2/public`}
-            img3={`${CDN}/whychooseus/public`}
+            img2={getImageSrc("whywechoose2")}
+            img3={getImageSrc("whychooseus")}
           />
         </Suspense>
 
@@ -244,9 +266,9 @@ const Home = ({
           <BeforeAfter
             title="Recent Completed Projects"
             subTitle="Before & after"
-            beforeImg={`${CDN}/after_img_1/public`}
+            beforeImg={getImageSrc("after_img_1")}
             afterTitle="After"
-            afterImg={`${CDN}/before_img_1/public`}
+            afterImg={getImageSrc("before_img_1")}
             beforeTitle="Before"
           />
         </Suspense>
@@ -267,7 +289,7 @@ const Home = ({
             number1="+971 50 746 4712"
             number1Link="tel:+971507464712"
             clientNumber="5,400"
-            img={`${CDN}/contact-us-image/public`}
+            img={getImageSrc("contact-us-image")}
             client="Happy Clients"
             subtitle2="Contact us"
             title2="Book An Appointment"
@@ -279,7 +301,7 @@ const Home = ({
             <Testimonial1
               subtitle="What Our Clients Say"
               title="Customer <span>Reviews</span>"
-              bgImg={`${CDN}/testimonialbg/public`}
+              bgImg={getImageSrc("testimonialbg")}
               testimonialData={testimonialData}
               sectionId="home-testimonials"
             />

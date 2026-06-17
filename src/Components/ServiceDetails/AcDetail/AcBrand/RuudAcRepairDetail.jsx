@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -288,7 +302,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             <p><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a>  offers Ruud air conditioning repair in Dubai, providing comprehensive maintenance service to ensure your building remains cool or warm as needed. With experience dating back to 2010, we are equipped to handle every situation and can provide Ruud air conditioning services for buildings or villas of all shapes and sizes.<br />Are you looking for ongoing Ruud AC maintenance? We can service your units to ensure optimal performance, reducing the likelihood of future breakdowns and saving you money. If you're experiencing issues such as stale odors, leaks, or power outages, our technicians are ready to respond to your emergency call and perform Ruud AC repairs or maintenance on your units as soon as possible.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -481,7 +495,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -690,7 +704,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton></GetQuoteButton>
                 <CallNowButton></CallNowButton>
               </div>

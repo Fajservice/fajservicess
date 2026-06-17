@@ -15,7 +15,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const EyeIcon = () => (
   <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,13 +212,13 @@ const coffeemachineServicesData = [
       id: 1,
       image: getImageSrc('coffee-machine-service'),
  
-      title: 'Coffee Machine Call-out',
+      title: 'Coffee Machine Inspection',
       icon: getImageSrc('calloutcard'),
       price: 'AED230',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty coffee machine, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
-      popupTitle: 'Coffee Machine Call-out  scope of work',
+      popupTitle: 'Coffee Machine Inspection  scope of work',
       sections: [
         {
           items: [
@@ -264,7 +278,7 @@ const coffeemachineServicesData = [
 
     {
       id: 3,
-      image: getImageSrc('What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai'),
+      image: getImageSrc('Coffee-machine-servicing-title-image'),
 
       title: 'Coffee Machine Installation',
       icon: getImageSrc('installationcard'),
@@ -385,7 +399,7 @@ const coffeemachineServicesData = [
               <h2>Professional Coffee Machine Repairs in Dubai, Sharjah, and Abu Dhabi</h2>
               FAJ Company, established in 2010, offers international standard services for the installation and repair of commercial appliances and coffee machines.
               We provide planned maintenance contracts (AMC) for coffee machines, espresso machines, and vending machines used in cafes, restaurants, and catering services.
-              <br /> At Commercial Coffee Machine Repairs, we are committed to helping you achieve your ideal cup of coffee efficiently. Whether installing, repairing, we prioritise quality and professionalism.
+              <br /> At <a href="https://www.facebook.com/watch/?v=851241927966523">Commercial Coffee Machine Repairs</a>, we are committed to helping you achieve your ideal cup of coffee efficiently. Whether installing, repairing, we prioritise quality and professionalism.
             </p>
           </div>
         </section>
@@ -398,7 +412,7 @@ const coffeemachineServicesData = [
                 <h2 className="cs_fs_24 mb-1 mt-0" style={{ fontSize: "24px" }}>Coffee Machine Repair & Maintenance </h2>
 
                 <p className="mb-2">
-                  If you&apos;re searching for the best coffee machine repairs in Dubai for both businesses and residents, you&apos;ve come to the right place.
+                  If you&apos;re searching for the best <a href="https://www.instagram.com/reels/DXitS76go_o/">coffee machine repairs in Dubai</a> for both businesses and residents, you&apos;ve come to the right place.
                   <br />Our knowledgeable and dedicated team can handle any coffee machine issues you may encounter.
                   With experience across various brands and models, we know how to get your machine running smoothly again.
                   <br />
@@ -439,7 +453,7 @@ const coffeemachineServicesData = [
               </p>
 
               <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                   <WhatsappIconButton />
                   <CallNowButton />
                 </div>
@@ -460,7 +474,7 @@ const coffeemachineServicesData = [
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={getImageSrc('coffee-machine-service')} alt="Post Image" />
+                <img className="blue-border" src={getImageSrc('coffee-machine-service')} alt="FAJ Technical Services L.L.C" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -601,7 +615,7 @@ const coffeemachineServicesData = [
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -616,7 +630,7 @@ const coffeemachineServicesData = [
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <img className="bordered-img w-100" src={getImageSrc('What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai')} alt="Post Image" />
+                <img className="bordered-img w-100" src={getImageSrc('What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai')} alt="FAJ Technical Services L.L.C" />
 
               </div>
 
@@ -1346,7 +1360,7 @@ const coffeemachineServicesData = [
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>

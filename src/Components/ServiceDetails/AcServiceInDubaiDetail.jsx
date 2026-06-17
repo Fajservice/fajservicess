@@ -26,11 +26,27 @@ import BeforeAfter         from "../BeforeAfter/BeforeAfter";
 import Serviceappointemnt  from '../Contact/Serviceappointemnt';
 
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
-
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+
+  let variant = 'mobile';
+
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const EyeIcon = () => (
@@ -161,18 +177,18 @@ const GALLERY_ITEMS = [
 
 const BRANDS_LIST = [
   { name: "Rheem AC Repair & Service",                     url: "/services/air-conditioning-repair/brands/rheem/" },
-  { name: "SKM AC Maintenance Dubai",                      url: "/services/air-conditioning-repair/brands/skm/" },
-  { name: "Carrier AC Repair",                             url: "#" },
+  { name: "SKM AC Maintenance Dubai",                      url: "" },
+  { name: "Carrier AC Repair",                             url: "" },
   { name: "Lennox Air Conditioning Maintenance Service",   url: "/services/air-conditioning-repair/brands/lennox/" },
-  { name: "Aftron AC Maintenance Service",                 url: "/services/air-conditioning-repair/brands/aftron/" },
-  { name: "Bryant AC Repair Service Dubai",                url: "/services/air-conditioning-repair/brands/bryant/" },
-  { name: "Blue Star AC Repair",                           url: "/services/air-conditioning-repair/brands/blue-star/" },
-  { name: "Supra AC Maintenance",                          url: "/services/air-conditioning-repair/brands/supra/" },
-  { name: "Toshiba AC Fix",                                url: "/services/air-conditioning-repair/brands/toshiba/" },
-  { name: "Super General AC Repair and Services in Dubai", url: "/services/air-conditioning-repair/brands/super-general/" },
-  { name: "Hitachi AC Service",                            url: "/services/air-conditioning-repair/brands/hitachi/" },
-  { name: "Whirlpool AC Repair",                           url: "/services/air-conditioning-repair/brands/whirlpool/" },
-  { name: "Daewoo AC Cleaning",                            url: "/services/air-conditioning-repair/brands/daewoo/" },
+  { name: "Aftron AC Maintenance Service",                 url: "" },
+  { name: "Bryant AC Repair Service Dubai",                url: "" },
+  { name: "Blue Star AC Repair",                           url: "" },
+  { name: "Supra AC Maintenance",                          url: "" },
+  { name: "Toshiba AC Fix",                                url: "" },
+  { name: "Super General AC Repair and Services in Dubai", url: "" },
+  { name: "Hitachi AC Service",                            url: "" },
+  { name: "Whirlpool AC Repair",                           url: "" },
+  { name: "Daewoo AC Cleaning",                            url: "" },
 ];
 
 const useInView = (rootMargin = "200px") => {
@@ -266,7 +282,7 @@ const CommonACProblems = memo(() => (
         ))}
       </div>
       <div className="mb-0 mt-3">
-        <div className="container d-flex justify-content-center align-items-center gap-3">
+        <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
           <WhatsappIconButton />
         </div>
       </div>
@@ -277,8 +293,8 @@ const CommonACProblems = memo(() => (
 const BrandLinks = memo(() => (
   <p className="mt-2 mb-0">
     {BRANDS_LIST.map((brand, i) => (
-      <span key={brand.url}>
-        <Link to={brand.url}>{brand.name}</Link>
+      <span key={brand.name}>
+        {brand.url ? <Link to={brand.url}>{brand.name}</Link> : brand.name}
         {i < BRANDS_LIST.length - 1 && <span>&nbsp;-&nbsp;</span>}
       </span>
     ))}
@@ -292,18 +308,43 @@ const ACBrandsSection = memo(() => (
       <ul className="mb-3">
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/daikin/"><strong>Daikin Air Conditioning Services</strong></a><strong>:</strong> Daikin, a Japanese manufacturer, claims to be "the world's number one air conditioning company." Founded in 1924, it has developed a strong international presence through its focus on quality, innovation, and effective communication. We work with Daikin air conditioning products because the company continuously invests in research and development.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/gree/"><strong>Gree AC Repair and Service</strong></a><strong>:</strong> Gree Electric Appliances, Inc., founded in 1991 in Zhuhai, is a key player in the global air conditioning market. Starting with air conditioners, Gree has expanded its product line to include various home appliances and became China's largest air conditioner manufacturer by 2000.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/o-general/"><strong>O General AC Repair and Maintenance</strong></a><strong>:</strong> O General AC, a brand of Fujitsu General, is renowned for its Japanese engineering and high-quality air conditioning solutions.</li>
+        <li><strong>O General AC Repair and Maintenance</strong><strong>:</strong> O General AC, a brand of Fujitsu General, is renowned for its Japanese engineering and high-quality air conditioning solutions.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/"><strong>Mitsubishi AC Service and Repair</strong></a><strong>:</strong> Founded in 1954, Mitsubishi Air Conditioning has been producing air conditioning systems for nearly 75 years and is renowned for its reliability and energy efficiency.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/"><strong>Samsung AC Maintenance Service</strong></a><strong>:</strong> Samsung AC is a globally recognized name, known for pushing boundaries. Since 1969, they have continued to shape the future with innovative air conditioning technology.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/york/"><strong>York AC Servicing and Repair</strong></a><strong>:</strong> YORK® has been an industry leader since our founding in 1874.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/"><strong>LG AC Maintenance and Service</strong></a><strong>:</strong> LG history in air conditioning began in 1968 with the launch of its first unit.</li>
         <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/trane/"><strong>Trane HVAC Repair and Maintenance:</strong></a> Trane developed its first air conditioning unit in 1931.</li>
         <li><strong>Carrier AC Repair and Services in Dubai:</strong> Since 1902, Carrier HVAC has cultivated a history of proven innovation in the heating, air-conditioning and refrigeration industries.</li>
-        <li><a href="https://www.fajservices.ae/services/air-conditioning-repair/brands/rheem/"><strong>Rheem AC Repair &amp; Service Near Me:</strong></a> Rheem AC was founded in 1925 in California, initially making steel drums. It quickly transitioned to manufacturing water heaters and, in the 1940s and 1950s, expanded into furnaces, split, central air conditioning systems to meet the growing demand for home comfort. Today, Rheem is a leading global HVAC provider known for its innovation and diverse heating and cooling solutions.</li>
+        <li><strong>Rheem AC Repair &amp; Service Near Me:</strong> Rheem AC was founded in 1925 in California, initially making steel drums. It quickly transitioned to manufacturing water heaters and, in the 1940s and 1950s, expanded into furnaces, split, central air conditioning systems to meet the growing demand for home comfort. Today, Rheem is a leading global HVAC provider known for its innovation and diverse heating and cooling solutions.</li>
       </ul>
       <BrandLinks />
+      <div className="d-flex justify-content-center mt-3">
+        <div className="col-md-7 mb-3 mb-md-0">
+          
+          <h3 className="cs_fs_20 text-align-left" ><strong>Key AC Spare Parts Weak to Damage from Dubai&rsquo;s Summer Weather:</strong></h3>
+          <ul>
+            <li><strong>AC Compressor Replacement:</strong> As the &ldquo;heart&rdquo; of the AC, high heat and overworking can lead to overheating, gas blockage, liquid slugging, low gas levels, electrical issues, a clogged filter, and complete failure. Contact us for AC compressor replacement and testing.</li>
+            <li><strong>AC Capacitors / Contactors:</strong> These electrical AC parts, responsible for starting the AC motor and fan, often fail due to extreme heat and constant operation.</li>
+            <li><strong>AC Air Filters:</strong> A dirty AC unit or a clogged filter hinders airflow, making the system overwork and risk overheating.</li>
+            <li><strong>AC Coils Evaporator &amp; Condenser Coils: </strong>Dirt accumulation reduces heat exchange efficiency, while limited airflow can cause the evaporator coil to freeze.</li>
+            <li><strong>AC Motors:</strong> Ongoing process can cause burnout or damage to the AC motor bearings, often indicated by greasy residue on the HVAC motor.</li>
+            <li><strong>AC Electrical Connections:</strong> Excessive heat can damage insulation, while overuse can result in loose or damaged wiring, leading to short circuits.</li>
+          </ul>
+          <p><strong>Air Conditioning Tip:</strong> To stop damage, keep the AC outdoor unit free of dust, replace filters every 15 to 20 days, and set the AC temperature between 24&deg;C and 26&deg;C during the summer heat in Dubai, UAE.</p>
+        </div>
+        <div className="col-md-5 px-md-4">
+          <h3 className="cs_fs_20 text-align-left"><strong>Key AC Repair Services &amp; Common Issues</strong></h3>
+          <ul>
+            <li><strong>Emergency AC Repair: </strong>Urgent 7-day AC repair and service for breakdowns is available from providers like FAJ Technical Services L.L.C and AC Repairman.</li>
+            <li><strong>AC (Gas) Refrigerant Issues:</strong> Repairing AC gas leaks in AC units and AC gas filling to repair cooling efficiency is offered by FAJ.</li>
+            <li><strong>AC Spare Parts Repair / Replacement:</strong> Fixing of AC compressors, AC condenser coils, AC motors or AC thermostat.</li>
+            <li><strong>AC Electrical Issues:</strong> Addressing faulty AC thermostats, AC sensors, and AC (PCB) control modules.</li>
+            <li><strong>AC Airflow / Noise Problems:</strong> Fixing AC fan motors, AC clearing dust, and AC coils cleaning</li>
+          </ul>
+        </div>
+      </div>
       <div className="mt-3">
-        <div className="container d-flex justify-content-center align-items-center gap-3">
+        <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
           <Suspense fallback={<ButtonPlaceholder />}><GetQuoteButton /></Suspense>
           <Suspense fallback={<ButtonPlaceholder />}><CallNowButton /></Suspense>
         </div>
@@ -320,7 +361,7 @@ const GallerySection = memo(() => (
         {GALLERY_ITEMS.map(({ src, alt }) => (
           <div key={src} className="col-md-4 col-6">
             <img
-              src={`${CDN}/${src}/public`}
+              src={getImageSrc(src)}
               alt={alt}
               loading="lazy"
               width="400" height="300"
@@ -445,12 +486,12 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               Maintain a perfect temperature year-round with our expert AC technicians.<br />
               <a href="https://maps.app.goo.gl/KDPpprYugX3bXJ759">FAJ Technical Services L.L.C</a> has
               been providing AC services since 2010. Our technicians are experienced in{' '}
-              <a href="https://www.facebook.com/FAJTechnicalServicesLLC">AC repair and maintenance</a>,
+              <a href="https://www.instagram.com/reels/DS_ztYrjc_S/">AC repair and maintenance</a>,
               ensuring your air conditioning system performs at its best for an extended time, as well
               as AC installation of home, office, and commercial air conditioning units in Dubai and Sharjah.
             </p>
             <div className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
                 <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
@@ -502,10 +543,10 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <div className="appointment-col mt-3">
               <div className="appointment-col-inner-wrappper">
                 <h2 className="cs_fs_24 mb-1 mt-0">Our Express and Emergency AC Repair Service in Dubai</h2>
-                <p>If you are facing any problem in your air conditioning service at home or in your business, especially during the summer time, our same day and express AC repair service is here to help. Get the fastest AC repair service in Dubai today. Contact us for a quote or to schedule your emergency AC repair appointment.</p>
+                <p>If you are facing any problem in your air conditioning service at home or in your business, especially during the summer time, our same day and express <a href="https://www.google.com/search?q=FAJ+Technical+Services+L.L.C&oq=faj&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDwyBggBEEUYPDIOCAIQRRgnGDsYgAQYigUyBggDEEUYOTIGCAQQRRg9MgYIBRBFGDwyBggGEEUYQTIGCAcQRRhB0gEIMzY1OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-4035952443362452879">AC repair</a> service is here to help. Get the fastest <a href="https://pin.it/nUpufPp4R"> best AC repair service</a> in Dubai today. Contact us for a quote or to schedule your emergency AC repair appointment.</p>
               </div>
               <div className="mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                   <WhatsappIconButton />
                   <Suspense fallback={<ButtonPlaceholder />}><CallNowButton /></Suspense>
                 </div>
@@ -564,11 +605,45 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
             <div className="service-footer-text">
               <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair &amp; Maintenance Services today!</h3>
-              <p className="cs_fs_14">For reliable AC service and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
+              <p className="cs_fs_14">For reliable <a href="https://www.facebook.com/reel/1726225512069096">AC service</a> and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
             </div>
           </div>
         </section>
-
+         <LazySection minHeight="400px">
+          <section className="section cs_py_30 bg-light-gray" style={{ contain: 'layout style' }}>
+            <div className="container">
+              <h2 className="cs_fs_30">Best AC Cleaning & AC Service in Dubai and Sharjah</h2>
+              <p>Discover top-rated AC cleaning, maintenance, and air conditioner repair services in Dubai. Keep your space cool and comfortable with professional solutions tailored to your needs.</p>
+              <div className="row align-items-center">
+                
+                <div className="col-md-6">
+                  <p className="mb-0"><strong>Key to the Best AC Cleaning Services Near You</strong><br />If you are looking for the best AC deep cleaning and services in Dubai and Sharjah, consider the following key aspects:</p>
+                  <ul className="mb-1">
+                    <li><strong>Residential &amp; Office AC Cleaning and Service:</strong>Regular, professional maintenance is essential for stopping dust, bacteria, and allergens to provide safe, breathable air.</li>
+                    <li><strong>Commercial / HVAC Cleaning:</strong> Specialised cleaning for large systems involves removing debris from ductwork and air handling units, often in accordance with ventilation hygiene standards.</li>
+                  </ul>
+                  <p className="mb-0"><strong>Key Benefits:</strong> Regular coils cleaning, air filter cleaning, duct cleaning lowers electricity bills, extends the lifespan of equipment, prevents breakdowns, and eliminates unpleasant odours.<br /><strong>Signs Your AC Needs Cleaning</strong></p>
+                  <ul className="mb-0">
+                    <li>Noticeably reduced airflow.</li>
+                    <li>Visible dust accumulation around vents.</li>
+                    <li>Unusual or musty odors.</li>
+                    <li>Increased DEWA bills</li>
+                  </ul>
+                </div>
+                <div className="col-md-6">
+                  <img
+                    className="blue-border"
+                    src={getImageSrc('ac-cleaning-service')}
+                    alt="AC Maintenance in Dubai"
+                    loading="lazy"
+                    width="600" height="400"
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </LazySection>
         {/* Benefits */}
         <section className="section ac_benifit_blue" style={{ contain: 'layout style' }}>
           <div className="container">
@@ -597,10 +672,10 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <BeforeAfter
             title="Recent Completed Service"
             subTitle="Before & After Service"
-            bgImg={`${CDN}/background-image-2/public`}
-            beforeImg={`${CDN}/after_img_1/public`}
+            bgImg={getImageSrc('background-image-2')}
+            beforeImg={getImageSrc('after_img_1')}
             afterTitle="After"
-            afterImg={`${CDN}/before_img_1/public`}
+            afterImg={getImageSrc('before_img_1')}
             beforeTitle="Before"
           />
         </LazySection>
@@ -617,7 +692,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <Testimonial1
                 subtitle="What Our Clients Say"
                 title="Customer <span>Reviews</span>"
-                bgImg={`${CDN}/testimonialbg/public`}
+                bgImg={getImageSrc('testimonialbg')}
                 testimonialData={testimonialData}
                 sectionId="ac-service-testimonials"
               />
@@ -642,7 +717,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             />
           )}
         </div>
-
       </div>
     </>
   );

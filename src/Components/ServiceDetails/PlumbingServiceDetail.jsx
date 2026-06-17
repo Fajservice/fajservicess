@@ -16,7 +16,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const EyeIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -129,7 +143,7 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
             <p>We all depend on having hot and cold running water readily available, which is why plumbing issues can quickly disrupt our daily routines. <br /> Finding an efficient and <a href="https://www.google.com/search?q=faj+technical+services+llc&num=10&sca_esv=11b517be6cd30da4&authuser=2&sxsrf=ANbL-n6H7y6_YeayVdY9KQn7LrKLmNm3dw%3A1775559210000&source=hp&ei=KeLUacWVOs7I1sQPtoawmAY&iflsig=AFdpzrgAAAAAadTwOuqxN88WumrS3mR2Ct-RzMS1zp_6&gs_ssp=eJwFwUEOQDAQAMC4SnzAqRdnW7SyfYJfrLWoNo0gUr83U1bt1mp9hoQh4geFayD3YlaLSBaAWGR2kMnqTs-dWYwZiXCY6pUO9QjvyTNFdcv1epZbxcg_6LMZjQ&oq=&gs_lp=Egdnd3Mtd2l6IgAqAggAMg0QLhjHARgnGOoCGK8BMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMg0QIxjwBRgnGOoCGJ4GMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSJELUABYAHACeACQAQCYAQCgAQCqAQC4AQHIAQCYAgKgAhCoAgqYAwvxBbkrwqiUHvHAkgcBMqAHALIHALgHAMIHBTItMS4xyAcNgAgA&sclient=gws-wiz#lpstate=pid:1489398280092926303">professional plumbing service</a> is important, as your water system is important not only for your home comfort but also for your health and safety.<br />While plumbing rules in Dubai are generally strict, they are not always followed. To avoid costly plumbing repairs, delays, and potentially unsafe situations, it is essential to ensure that only fully cost-effective and the <a href="https://www.fajservices.ae/our-portfolio/">best expert plumbers</a> in Dubai are charged with any plumbing work in your home or property.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -153,7 +167,7 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
               <div className="col-md-6 ">
 
-                <img className="bordered-img w-100" src={getImageSrc('technicians-adjusting-water-pressure-pump')} alt="Post Image" />
+                <img className="bordered-img w-100" src={getImageSrc('technicians-adjusting-water-pressure-pump')} alt="FAJ Technical Services L.L.C" />
 
               </div>
             </div>
@@ -295,7 +309,7 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>

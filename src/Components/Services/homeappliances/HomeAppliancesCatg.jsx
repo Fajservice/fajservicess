@@ -20,7 +20,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const COVER_IMAGE_STYLE = {
@@ -204,8 +218,8 @@ const GALLERY_ITEMS = [
             <h1 className='mb-4 cs_fs_30'>Cost-Effective Home Appliance Repair and Service Center Near You</h1>
              <h2><b>Expert Appliance Repair Near You</b></h2>
                 <p>
-                  Reliable Home Appliance Repair Services – Fast & Affordable. Are you searching for a reliable home
-                  appliance repair service center near you? We provide expert repair and support for all major home
+                  Reliable Home Appliance Repair Services – Fast & Affordable. Are you searching for a reliable <a href="https://fb.watch/GI7aNkHnrk/">home
+                  appliance repair service</a> center near you? We provide expert repair and support for all major home
                   appliances, including washing machines, refrigerators, ovens, stoves, dishwashers, and more. Our
                   appliance technicians provide quick and efficient repair services, ensuring your appliances are fixed
                   promptly and affordably.
@@ -226,9 +240,9 @@ const GALLERY_ITEMS = [
                   Select Repair Services by Category – Easily Find the Right Appliance Repair
                 </h2>
                 <p className="mb-0">
-                  At FAJ Technical Services L.L.C. we simplify the process of selecting the right repair service for
-                  your home appliances. Whether you need washing machine repair, refrigerator repair, household
-                  appliance fixes, BBQ grill cleaning, vacuum cleaner repair, cigar humidor maintenance, or any
+                  At <a href="http://google.com/maps/place/FAJ+Technical+Services+L.L.C/@25.1106747,55.2275083,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!8m2!3d25.1106747!4d55.2275083!16s%2Fg%2F11pkn9kl9y?entry=tts&g_ep=EgoyMDI2MDEyNy4wIPu8ASoASAFQAw%3D%3D&skid=8be5d7c1-29c3-4118-a602-ef15c8565030">FAJ Technical Services L.L.C</a>. we simplify the process of selecting the right repair service for
+                  your home appliances. Whether you need <a href="https://www.instagram.com/reels/DUU_SgiCkGK/">washing machine repair</a>, refrigerator repair, household
+                  appliance fixes, <a href="https://pin.it/1qDA9idoO">BBQ grill cleaning</a>, vacuum cleaner repair, cigar humidor maintenance, or any
                   household appliance service, our categorised repair options help you find the best solution quickly
                   and easily.
                 </p>
@@ -547,7 +561,7 @@ const GALLERY_ITEMS = [
               </div>
 
               <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                   <GetQuoteButton />
                   <CallNowButton />
                 </div>

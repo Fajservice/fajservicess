@@ -8,7 +8,7 @@ const AcAppointmentCol = () => {
     <>
       <div className="appointment-col mt-3">
         <div id="get-quote" className="mt-3">
-          <div className="container d-flex justify-content-center align-items-center gap-3">
+          <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
             <WhatsappIconButton />
             <CallNowButton />
           </div>

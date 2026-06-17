@@ -1,0 +1,26 @@
+[
+  {
+    "title": "What are common Dyson problems?",
+    "desc": "Dyson vacuums can experience reduced suction when too much dirt and debris block airflow. Clogged filters can accumulate dust, limiting airflow and decreasing suction power."
+  },
+  {
+    "title": "How can I reset a Dyson vacuum?",
+    "desc": "To reset a Dyson vacuum, first clear all blockages and clean the filters. Then, unplug the vacuum or remove the battery for 15 to 30 seconds to allow it to discharge. For cordless models (V7 to V15) that are experiencing power issues, hold the trigger for 3 seconds and repeat this process 5 times, or alternatively, hold the power button for 10 seconds to clear any error codes."
+  },
+  {
+    "title": "What does it mean when the battery of your Dyson flashes red?",
+    "desc": "A flashing red light on a Dyson vacuum usually indicates a battery problem or that it needs replacement. This warning means that the battery may be degraded, overheating, or has suffered an internal failure. To resolve the issue, a new battery is required."
+  },
+  {
+    "title": "How to tell if a Dyson battery or charger is broken?",
+    "desc": "<ol><li>If you see a solid or flashing amber light, your Dyson will not charge because it is in extreme temperatures (too hot or too cold).</li><li> If you see a red light flashing more than 12 times, it indicates a faulty battery.</li></ol>"
+  },
+  {
+    "title": "Why do Dyson batteries stop working?",
+    "desc": "Batteries naturally degrade over time. If you've noticed a decline in your machine's run time when it's not set to Max or Boost mode, it may be time to purchase a new battery. All our machines come with a 2-year warranty that covers the battery as well."
+  },
+  {
+    "title": "Is it worth getting Dyson repaired?",
+    "desc": "For older models, especially those nearing a decade in use, a replacement might be more practical. Cost Comparison: Obtain a repair estimate and compare it to the cost of a new Dyson. If the repair costs are less than half the price of a replacement, repairing is often the better option."
+  }
+]

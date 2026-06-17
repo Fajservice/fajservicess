@@ -13,7 +13,7 @@ const AppliancesAppointmentCol = () => {
           >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your appliance at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
         </p>
         <div id="get-quote" className="mt-3">
-          <div className="container d-flex justify-content-center align-items-center gap-3">
+          <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
             <WhatsappIconButton />
             <CallNowButton />
           </div>

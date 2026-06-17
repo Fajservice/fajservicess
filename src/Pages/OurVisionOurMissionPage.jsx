@@ -9,7 +9,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const PhoneCallIcon = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill={color} aria-hidden="true">
@@ -207,11 +221,11 @@ const OurVisionOurMissionPage = () => {
               <div className="cs_height_40 cs_height_lg_40"></div>
             </section>
 
-      <Testimonial1
+      {/* <Testimonial1
         subtitle="Testimonial"
         title="What our clients say <br> About Us"
         bgImg="testimonialbg"
-      />
+      /> */}
 
       <Brand1 />
     </>

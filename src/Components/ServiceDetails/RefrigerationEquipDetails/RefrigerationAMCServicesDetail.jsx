@@ -14,7 +14,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
@@ -229,7 +243,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -277,7 +291,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
               </p>
               <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                   <WhatsappIconButton />
                   <CallNowButton />
                 </div>
@@ -290,10 +304,6 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Peace of Mind with Maintenance Contract of Refrigeration</h2>
-            <p>
-              Regular maintenance of commercial ovens is essential for safe and efficient operation.
-            </p>
-
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={getImageSrc('techfridge')} alt="Refrigeration Maintenance Services" />
@@ -426,7 +436,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -438,7 +448,6 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Refrigeration Preventative Maintenance Programmes</h2>
-            <p className="mb-0">At FAJ, we believe proactive maintenance is the most cost-effective way to manage systems.</p>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -450,17 +459,12 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 <ul>
                   <li> <strong>  Maximising Efficiency, Minimising Costs: </strong> We optimize your system for maximum efficiency, helping you decrease energy consumption and lower your utility bills. </li>
                   <li> <strong>  Transparent Pricing, No Hidden Fees: </strong> We prioritize clear and honest pricing, offering detailed quotes without hidden fees or unexpected costs. </li>
-                  <li> <strong> Installation: </strong> Expert installation of various types and brands of HVAC systems, ensuring optimal performance and efficiency. </li>
+                  <li> <strong> Installation: </strong> Expert installation of various types and brands of Refrigeration systems, ensuring optimal performance and efficiency. </li>
                   <li> <strong> Diagnostics: </strong> Thorough fault finding to diagnose issues. We provide eligibility assessments and detailed quotes to address your system concerns. </li>
                   <li> <strong>  Repair Service: </strong> Fast and reliable repair services for all refrigeration issues, including leaks and electrical failures. </li>
                   <li> <strong>  Preventive Maintenance: </strong> Our preventive maintenance strategy identifies and resolves potential issues before they escalate into major problems, saving you time, money, and bother. </li>
-
-
                 </ul>
-
               </div>
-
-
             </div>
           </div>
         </section >
@@ -716,7 +720,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

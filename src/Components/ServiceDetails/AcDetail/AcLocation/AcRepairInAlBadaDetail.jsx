@@ -20,9 +20,23 @@ import BeforeAfter from "../../../BeforeAfter/BeforeAfter.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
 const getImageSrc = (imgPath) => {
-    if (!imgPath) return '';
-    if (imgPath.startsWith('https')) return imgPath;
-    return `${CDN}/${imgPath}/public`;
+  if (!imgPath) return '';
+  if (imgPath.startsWith('https')) return imgPath;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const AcRepairInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -124,7 +138,7 @@ const AcRepairInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Bada, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -163,7 +177,7 @@ const AcRepairInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="Post Image" />
+                                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="FAJ Technical Services L.L.C" />
 
                             </div>
                         </div>
@@ -172,7 +186,7 @@ const AcRepairInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                             
 
                             <div id="get-quote" className=" mt-3">
-                                <div className="container d-flex justify-content-center align-items-center gap-3">
+                                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                     <WhatsappIconButton />
                                     <CallNowButton />
                                 </div>
@@ -193,7 +207,7 @@ const AcRepairInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')} alt="Post Image" />
+                                <img className="blue-border" src={getImageSrc('What-is-covered-in-an-AC-Maintenance-Contract')} alt="FAJ Technical Services L.L.C" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -309,7 +323,7 @@ const AcRepairInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                             </div>
                         </div>
                         <div id="get-quote" className="mb-0 mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <WhatsappIconButton />
                             </div>
                         </div>
@@ -494,7 +508,7 @@ const AcRepairInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                         <LocationKeyword />
                         <div id="get-quote" className=" mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <GetQuoteButton />
                                 <CallNowButton />
                             </div>

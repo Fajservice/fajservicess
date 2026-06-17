@@ -14,8 +14,22 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
-}
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
+};
 
 const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -151,7 +165,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <p>وداعًا لأيام الصيف الحارة ولياليها الخانقة ومسببات الحساسية. أهلاً بكم في راحة طوال العام، وهواء نقي منعش، ونوم هانئ. رائع، أليس كذلك؟<br /><a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">شركة اف ايه جيه للخدمات الفنية ش.ذ.م.م.</a> تعمل منذ عام ٢٠١٠. يتمتع فريقنا المتخصص بخبرة واسعة في خدمات تنظيف وصيانة وإصلاح مكيفات الهواء، بالإضافة إلى خدمات تكييف الهواء القريبة مني، وتركيب مكيفات الهواء لمختلف وحدات التكييف السكنية والتجارية في دبي والشارقة.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -194,7 +208,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <div className="appointment-col border-small-top pt-3">
               <p>إذا كنت ترغب بزيارة في نفس اليوم، يُرجى الحجز قبل الساعة ١٢ ظهرًا. سيتم تحديد المواعيد بعد الساعة ١٢ ظهرًا لليوم التالي حسب التوافر. للاستفسار عن رسوم الفحص الفني/الاستدعاء، أو خدمة تكييف الهواء القريبة منك، أو الإصلاح، أو الصيانة، يُرجى الضغط أدناه. لحجز موعد، يمكنك الاتصال بنا أو التواصل معنا عبر واتساب على الرقم +971 50 746 4712.</p>
               <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                   <WhatsappIconButton />
                   <CallNowButton />
                 </div>
@@ -335,7 +349,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
             </div>
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -622,7 +636,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

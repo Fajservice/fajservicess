@@ -7,15 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="QZS_szvkl-FWmcT3kcPPBEm0lWzxzU9u4Tu9ZS42nZI" />
   <link rel="icon" type="image/png" href="/favicon.png" />
-  <link rel="preload" as="image" href="https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/about_img_1/public"
-    fetchpriority="high" media="(max-width: 1199px)" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://imagedelivery.net" crossorigin />
-  <link rel="preload" href="/assets/css/index-BwTmAR0x.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/assets/css/index-BwTmAR0x.css"></noscript>
-  <link rel="stylesheet" href="/assets/css/vendor-C5zyHQDf.css" media="print" onload="this.media='all'">
-  <link rel="preconnect" href="https://imagedelivery.net" crossorigin />
+  <link rel="dns-prefetch" href="https://imagedelivery.net" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap">
  
   <script type="application/ld+json" defer>
   [
@@ -102,46 +98,57 @@
 
 <script>
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function gtag(){ dataLayer.push(arguments); };
-  window.clarity = window.clarity || function(){ (window.clarity.q = window.clarity.q || []).push(arguments); };
+  window.gtag = window.gtag || function gtag(){ dataLayer.push(arguments); };
+  window.clarity = window.clarity || function(){
+    (window.clarity.q = window.clarity.q || []).push(arguments);
+  };
 
   (function () {
     var loaded = false;
-    var loadScript = function (src, attrs) {
+
+    function loadScript(src, attrs) {
       var script = document.createElement('script');
       script.src = src;
       script.async = true;
+
       Object.keys(attrs || {}).forEach(function (key) {
         script.setAttribute(key, attrs[key]);
       });
-      document.head.appendChild(script);
-    };
 
-    var loadThirdPartyScripts = function () {
+      document.head.appendChild(script);
+    }
+
+    function loadThirdPartyScripts() {
       if (loaded) return;
       loaded = true;
 
+      loadScript('https://www.googletagmanager.com/gtag/js?id=AW-17080300170');
+
       window.gtag('js', new Date());
+
+      window.gtag('config', 'AW-17080300170');
       window.gtag('config', 'G-MK15Z3F4GD');
 
-      loadScript('https://www.googletagmanager.com/gtag/js?id=G-MK15Z3F4GD');
       loadScript('https://www.clarity.ms/tag/ls6z639yr5');
-      loadScript('https://analytics.ahrefs.com/analytics.js', { 'data-key': 'wdbGJEldrgnwsppokRfLqg' });
-    };
 
-    var scheduleThirdPartyScripts = function () {
-      var runWhenIdle = function () {
+      loadScript('https://analytics.ahrefs.com/analytics.js', {
+        'data-key': 'wdbGJEldrgnwsppokRfLqg'
+      });
+    }
+
+    function scheduleThirdPartyScripts() {
+      function runWhenIdle() {
         if ('requestIdleCallback' in window) {
           window.requestIdleCallback(loadThirdPartyScripts, { timeout: 5000 });
         } else {
           window.setTimeout(loadThirdPartyScripts, 5000);
         }
-      };
+      }
 
       window.setTimeout(runWhenIdle, 3500);
       window.addEventListener('pointerdown', loadThirdPartyScripts, { once: true, passive: true });
       window.addEventListener('keydown', loadThirdPartyScripts, { once: true });
-    };
+    }
 
     if (document.readyState === 'complete') {
       scheduleThirdPartyScripts();
@@ -155,7 +162,6 @@
 
 <body>
   <div id="root"></div>
-
   <!-- App Entry -->
   <script type="module" src="/src/main.jsx"></script>
 </body>

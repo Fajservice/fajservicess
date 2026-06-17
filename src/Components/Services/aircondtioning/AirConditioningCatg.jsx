@@ -12,7 +12,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description, Author, URL }) => {
@@ -105,7 +119,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
             <p>FAJ Technical Services L.L.C. is a leading provider of air conditioning installation, repair, and maintenance services in Dubai. We offer comprehensive solutions to keep your facility cool in the summer and warm in the winter. With experience since 2010, we ensure your Air Conditioning systems operate at optimum energy efficiency. Our services help reduce the possibility of breakdowns, ultimately saving you money and time.</p>
 
             <div id="get-quote" className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <AcRepairService />
                 <AMCbutton />
               </div>

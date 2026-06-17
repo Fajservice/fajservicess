@@ -1,8 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-const CF_ACCOUNT_ID = process.env.CF_ACCOUNT_ID || '513a1be78e7b9d8a6d8553ab26e8ad99';
-const CF_API_TOKEN = process.env.CF_API_TOKEN;
 
 function validateConfig() {
   if (!CF_API_TOKEN) {

@@ -18,7 +18,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const OptimizedImage = ({ src, alt, className, width, height, priority = false }) => {
   return (
@@ -238,13 +252,13 @@ const schema ={
     {
       id: 1,
       image: getImageSrc('applycalouthome'),
-      title: 'Washing Machine Call-out Fee',
+      title: 'Washing Machine Inspection Fee',
       icon: getImageSrc('calloutcard'),
       price: 'AED100',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -423,10 +437,10 @@ const schema ={
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Top Quality Washing Machine Repair and Service Center Near You, Dubai</h1>
-            <p>Since 2010, FAJ Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai and Sharjah.<br />Our experts are here to assist with any issues, from top-loading and front-loading washing machine repair and service near you. You can trust us to keep your washing machine running smoothly.<br /> You can rely on us for both routine repairs and emergency washing machine service. Contact us now for reliable services at competitive prices!</p>
+            <p>Since 2010, FAJ Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai and Sharjah.<br />Our experts are here to assist with any issues, from top-loading and front-loading <a href="https://www.facebook.com/reel/1330933318889112">washing machine repair</a> and service near you. You can trust us to keep your washing machine running smoothly.<br /> You can rely on us for both routine repairs and <a href="https://pin.it/4El6wXacY">emergency washing machine service</a>. Contact us now for reliable services at competitive prices!</p>
 
             <div id="get-quote" className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -441,7 +455,7 @@ const schema ={
                 <p className="mb-2">
                   We recognise how important your washing machine is to your daily routine.
                   that&apos;s why we provide dependable washing machine repair and maintenance services in Dubai and Sharjah.
-                  <br />With our high-quality washer and dryer repair services and expert support, we are committed to ensuring that your premium washing machine operates smoothly for years to come.
+                  <br />With our high-quality <a href="https://www.instagram.com/reels/DUplr9iDdro/">washer and dryer repair services</a> and expert support, we are committed to ensuring that your premium washing machine operates smoothly for years to come.
                 </p>
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service</h2>
                 <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services.</p>
@@ -580,7 +594,7 @@ const schema ={
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -851,18 +865,15 @@ const schema ={
                 <p className="mb-"><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/teka/"><strong>Teka Washing Machine Repair</strong></a><strong>:</strong> For reliable Teka washing machine repair in Dubai, FAJ is your best choice. They are renowned for their exceptional washer dryer maintenance services for Teka appliances, including washing machine cleaning service, fixing dryer, washer dryer repair or maintenance near me service, refrigerators, and ovens. FAJ is the top-rated service provider for Teka appliances in the area, guaranteeing quality and customer satisfaction.</p>
                 <p><b>Get an Expert Tumble Dryer Repair today:</b> Contact us today for same-day repair service of Samsung dryer, LG dryer, Electrolux dryer, Miele dryer machine, Maytag dryer, Siemens dryer, Bosch tumble dryer, Whirlpool dryer machine, Gaggenau clothes dryer, Frigidaire dryer, and White Westinghouse dryers. Our service center near me Dubai offers maintenance as well.</p>
                 <p className="mb-0">
-                  <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/aeg/">AEG</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/ariston/">Ariston</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/beko/">Beko</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/blomberg/">Blomberg</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/faber/">Faber</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/fagor/">Fagor</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/fisher-paykel/">Fisher and Paykel</a>  | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/foster/">Foster</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/gaggenau/">Gaggenau</a>| <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/hitachi/">Hitachi</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/hoover/">Hoover</a>| <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/indesit/">Indesit</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/neff/">Neff</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/smeg/">Smeg</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/sub-zero/">Sub Zero</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/terim/">Terim</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/viking/">Viking</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/whirlpool/">Whirlpool</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/zanussi/">Zanussi</a> | <a href="/services/home-appliances-repair/brands/de-dietrich/">De Dietrich</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/baumatic/">Baumatic</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/bertazzoni/">Bertazzoni</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/bompani/">Bompani</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/boston/">Boston</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/brandt/">Brandt</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/gibson/">Gibson</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/gorenje/">Gorenje</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/hisense/">Hisense</a> |&nbsp;<a href="https://www.fajservices.ae/services/home-appliances-repair/brands/kelvinator/">Kelvinator</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/kenmore/">Kenmore</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/panasonic/">Panasonic</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/sanyo/">Sanyo</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/sears/">Sears</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/wolf/">Wolf</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/haier/">Haier</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/elica/">Elica</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/marvel/">Marvel</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/miele/">Miele</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/maytag/">Maytag</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/toshiba/">Toshiba</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/thermador/">Thermador</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/sharp/">Sharp</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/admiral/">Admiral</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/aftron/">Aftron</a> | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/unimac/">Unimac</a></p>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/aeg/">AEG</a> | Ariston | Beko | Blomberg | Faber | Fagor | Fisher and Paykel | Foster | Gaggenau | Hitachi | <a href="https://www.fajservices.ae/services/home-appliances-repair/brands/hoover/">Hoover</a>| Indesit | Neff | Smeg | Sub Zero | Terim | Viking | Whirlpool | Zanussi | <a href="/services/home-appliances-repair/brands/de-dietrich/">De Dietrich</a> | Baumatic | Bertazzoni | Bompani | Boston | Brandt | Gibson | Gorenje | Hisense | Kelvinator | Kenmore | Panasonic | Sanyo | Sears | Wolf | Haier | Elica | Marvel | Miele | Maytag | Toshiba | Thermador | Sharp | Admiral | Aftron | Unimac</p>
               </div>
-
             </div>
-
             <div id="get-quote" className="mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>
             </div>
-
           </div>
         </section>
 

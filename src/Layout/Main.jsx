@@ -20,19 +20,10 @@ const Main = () => {
     };
 
     const timerId = window.setTimeout(preloadWhenIdle, 6000);
-    const preloadOnInteraction = () => {
-      window.clearTimeout(timerId);
-      preloadWhenIdle();
-    };
-
-    window.addEventListener('pointerdown', preloadOnInteraction, { once: true, passive: true });
-    window.addEventListener('keydown', preloadOnInteraction, { once: true });
 
     return () => {
       window.clearTimeout(timerId);
       window.cancelIdleCallback?.(idleId);
-      window.removeEventListener('pointerdown', preloadOnInteraction);
-      window.removeEventListener('keydown', preloadOnInteraction);
     };
   }, []);
 

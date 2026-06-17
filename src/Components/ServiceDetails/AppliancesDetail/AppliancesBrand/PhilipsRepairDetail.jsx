@@ -15,7 +15,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const PhilipsRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL, Image }) => {
   // For SEO
@@ -36,13 +50,13 @@ const PhilipsRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descriptio
     {
       id: 1,
       image: getImageSrc('philips-coffee-machine-repair'),
-      title: 'Appliance Call-out',
+      title: 'Inspection / Check-Up Cost',
       icon: getImageSrc('calloutcard'),
       price: 'AED50',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
-      popupTitle: 'Appliance Call-out  scope of work:',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
       sections: [
         {
           items: [
@@ -203,7 +217,7 @@ const PhilipsRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descriptio
             <p>We are a Dubai-based technical services company established in 2010, providing reliable support that you may not find elsewhere. Our team consists of qualified technicians specialising in Philips kitchen appliance repair in Dubai.<br />Our extensive range of services includes the repair of different Philips products such as coffee makers, kitchen appliances, garment care devices, vacuum cleaners, mops, air fryers, blenders, juicers, pasta makers, grills, toasters, kettles, home draft beer machines, and espresso machines. We service both full-automatic and manual espresso machines, as well as capsule coffee machines.<br/>Additionally, we offer repair services for handheld steamers, steam irons, steam generators, garment essentials, electric mops, robot vacuums, air purifiers, and multifunctional humidifiers. If you need assistance, our service center is located nearby.
 </p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -228,7 +242,7 @@ const PhilipsRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descriptio
                 <p className="appointment-col">If you need repair or cleaning service for your Philips kitchen appliances and power tools, please contact us. The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
                 >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road.<br/>When you drop off your appliance at the workshop, you will receive a discount on the technical inspection fee and other services.</p>
                 <div id="get-quote" className="mt-3">
-                    <div className="container d-flex justify-content-center align-items-center gap-3">
+                    <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                         <WhatsappIconButton />
                         <CallNowButton />
                     </div>
@@ -346,7 +360,7 @@ const PhilipsRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descriptio
               </div>
             </div>
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -504,7 +518,7 @@ const PhilipsRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descriptio
                     </div>
                 </div>
                 <div id="get-quote" className=" mt-3">
-                    <div className="container d-flex justify-content-center align-items-center gap-3">
+                    <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                         <GetQuoteButton />
                         <CallNowButton />
                     </div>

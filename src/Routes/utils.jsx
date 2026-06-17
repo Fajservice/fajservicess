@@ -4,7 +4,7 @@ const spinnerStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  minHeight: '60vh',
+  minHeight: '80px',
   width: '100%',
 };
 

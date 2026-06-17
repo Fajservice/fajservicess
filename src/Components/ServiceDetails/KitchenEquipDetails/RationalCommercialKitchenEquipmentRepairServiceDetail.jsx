@@ -13,7 +13,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -125,7 +139,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
             <p>FAJ Technical Services L.L.C. has been serving Dubai since 2010, providing reliable service solutions. Our skilled technicians specialize in Rational commercial kitchen equipment, including the iCombi Pro Oven, iCombi Classic Oven, iVario Pro Cooking System, iVario XS Cooking, and Rational iHexagon Oven repair and maintenance and we offer our services throughout Dubai.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -154,7 +168,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
             <p className="mb-2">Our catering equipment technician offers an annual maintenance agreement package designed to keep your Rational Combi ovens, convection ovens, high-speed ovens, compact ovens, pizza ovens, cooking ranges, and other professional kitchen appliances running efficiently and in compliance with drive standards.<br />This proactive approach helps reduce the likelihood of unexpected breakdowns and the associated costs. Our annual maintenance package includes thorough maintenance, repair services, and equipment testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors that want to ensure their equipment operates smoothly and prevent any disruptions.
             </p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -279,7 +293,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -504,7 +518,7 @@ const RationalCommercialKitchenEquipmentRepairServiceDetail = ({ subtitle, title
               </div>
             </div>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

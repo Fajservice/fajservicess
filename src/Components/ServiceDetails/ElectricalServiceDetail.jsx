@@ -16,7 +16,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const EyeIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -128,7 +142,7 @@ const ElectricalServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             <p>Finding suitable electrician services in Dubai can be hard. Whether you need to replace an electrical socket or install new lighting, it’s important to hire an electrician who is exactly qualified and fully suitable for electrical wiring installation, electrical repair, switchboard, breaker upgrades, lighting solutions, and socket installations.<br />At <a href="https://maps.app.goo.gl/UFTqwSPQkRc58smU8">FAJ Technical Services L.L.C</a>, we take a different approach to electrical work in Dubai. Our experts are available to handle complex diagnoses, enabling us to identify potential issues during the initial phone call. This means our technicians arrive well-prepared for the job at hand.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -290,7 +304,7 @@ const ElectricalServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>

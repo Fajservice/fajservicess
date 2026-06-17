@@ -13,7 +13,7 @@
   animation: fadeIn 0.3s ease-out;
 }
 
-/* .popup-overlay::before {
+.popup-overlay::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -21,7 +21,7 @@
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   z-index: -1;
-} */
+}
 
 .popup-content {
   background: #fff;

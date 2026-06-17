@@ -19,7 +19,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
@@ -223,7 +237,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             <p>Fagor Home Appliance Repair and Maintenance Service in Dubai. Are you working to find a trustworthy technician for your Fagor appliances? At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7">FAJ Technical Services L.L.C</a> we have been providing reliable and affordable services since 2010.<br />Our skilled technicians are fully equipped to Fagor appliance service and repair all Fagor appliances, including Fagor washing machines, Fagor cookers, Fagor refrigerators and freezers, and Fagor tumble dryers. After each repair, we conduct a safety check and offer a warranty on all parts and labor. <br />As an official Fagor appliance service center, we ensure prompt and professional service, with a warranty on all work performed.</p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -393,7 +407,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -742,7 +756,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

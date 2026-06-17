@@ -17,9 +17,119 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
-
+const IntegeratedServicesData = [
+    {
+      id: 1,
+      image: getImageSrc('applycalouthome'),
+      title: 'Inspection / Check-Up Cost',
+      icon: getImageSrc('calloutcard'),
+      price: 'AED135',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
+      popupTitle: 'Inspection / Check-Up Cost  scope of work:',
+      sections: [
+        {
+          items: [
+            'Inspection visit fee',
+            'Rectification of faults',
+            'Cost of minor repair work',
+            'Transportation pricing for services',
+            'Technical inspection onsite or workshop',
+            'Pick-up, drop-off, and reinstallation onsite',
+            'A quotation can be provided via call, WhatsApp, or email if needed.',
+            'The same call-out fee applies for diagnosing either one or two appliances at the same place.'
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 135, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
+        },
+      ]
+    },
+    {
+      id: 2,
+      image: getImageSrc('appliancescleaninghome'),
+      warranty: '50- Days Warranty',
+      title: 'Appliance Cleaning',
+      icon: getImageSrc('cleaningcard'),
+      price: 'AED230',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20ACCleaning',
+      popupTitle: 'Cleaning Appliances',
+      sections: [
+        {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
+          items: [
+            'Hob Cleaning',
+            'Oven Cleaning',
+            'Freezer Cleaning',
+            'Gas Range Cleaning',
+            'Dishwasher Cleaning',
+            'Refrigerator Cleaning',
+            'Hood / Chimney Cleaning',
+            'Washing Machine Cleaning',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 230 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+    {
+      id: 3,
+      image: getImageSrc('ovenhomecard'),
+      title: 'Home Appliances Installation',
+      icon: getImageSrc('installationcard'),
+      price: 'AED280',
+      arrow: getImageSrc('iconreadmore'),
+      description: 'FAJ expert technicians will provide assistance to install home appliances. Upgrade your kitchen with professional appliance installations!',
+      buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC Maintenance',
+      popupTitle: 'Appliances Installation',
+      sections: [
+        {
+          heading: 'Depending on quantities, capacity, type, model, and area.',
+          items: [
+            'Refrigerator Installation',
+            'Dish Washer Installation',
+            'Electric Cooker Installation',
+            'Hood / Chimney Installation',
+            'Washing Machine Installation',
+            'Built-in Microwave Installation',
+            'Built-in Dishwasher Installation',
+          ]
+        },
+        {
+          paragraph: '**Excluded:** <br> Costs related to MEP, carpentry, gypsum ceilings, painting, repair work, procurement-related installation parts / materials, and installation as needed.'
+        },
+        {
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 280 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+        },
+      ]
+    },
+  ];
 const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   const metaTitle = String(
@@ -425,19 +535,19 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
               FAJ Technical Services L.L.C has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
               <br />
               Home appliances are essential in our daily lives, but regular use can lead to issues that require professional assistance.
-              As a trusted provider of built-in appliance repair service, we are committed to delivering high-quality and prompt support to residents in the area.
+              As a trusted provider of built-in <a href="https://www.facebook.com/reel/4158808821048258">appliance repair service</a>, we are committed to delivering high-quality and prompt support to residents in the area.
               Our team is available year-round to fix or maintain your appliances for immediate service.
 
             </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
           </div>
         </section>
-        <PriceCardHomeCat />
+        <PriceCardHomeCat services={IntegeratedServicesData} />
         {/* heading 1 */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -623,7 +733,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -1035,7 +1145,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

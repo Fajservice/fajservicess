@@ -1161,6 +1161,26 @@ export const router = createBrowserRouter([
         element: <Components.BraunRepair />,
       },
       {
+        path: "/services/home-appliances-repair/brands/dyson-vacuum-cleaner-repair-and-service-in-dubai/",
+        element: <Components.DysonRepair />,
+      },
+      {
+        path: "/services/home-appliances-repair/brands/sage-coffee-machine-repair-and-service-in-dubai/",
+        element: <Components.SageRepair />,
+      },
+      {
+        path: "/services/home-appliances-repair/brands/jura-coffee-machine-repair-and-service-in-dubai/",
+        element: <Components.JuraCoffeeRepair />,
+      },
+      {
+        path: "/services/home-appliances-repair/brands/karcher-vacuum-cleaner-repair-and-service-in-dubai/",
+        element: <Components.KarcherVacuumRepair />,
+      },
+      {
+        path: "/services/home-appliances-repair/brands/ice-cream-machine-repair-and-service-in-dubai/",
+        element: <Components.IceCreamMachineRepair />,
+      },
+      {
         path: "/services/home-appliances-repair/coverage-area/al-mamzar/",
         element: <Components.AppliancesServiceInAlMamzar />,
       },

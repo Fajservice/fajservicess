@@ -15,7 +15,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -142,7 +156,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
             <h1 className="cs_fs_30">Top Commercial Kitchen Equipment Maintenance Contract Services - AMC in Dubai, UAE</h1>
             <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010. Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.<br />As appliances age, they become more prone to breakdowns, often at inconvenient times.<br />With FAJ Appliance Services, our annual Domestic or Commercial Appliances Contract offers peace of mind by providing a predictable budget for maintenance, helping you avoid unexpected repair costs. Contact us today to book a technician for an inspection and arrange your Appliances AMC Services Contract Cover to start now.</p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -301,7 +315,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -566,7 +580,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
               <li> <strong>Food Preparation:</strong> Vegetable peelers, washers, dryers, cutters, mixers, slicers, planetary mixers, dough kneaders, sheeters, vacuum packers, stainless steel fabrication, blenders, and salamander broilers.Other Services: Coffee Machines, Coffee Equipment, Espresso Machines, Coffee Grinders, Electrical Services, Plumbing (MEP), Air Conditioning Systems (AC), Commercial Dishwashers, Glasswashers, Water Boilers, Dishwasher Machines, Griddles.</li>
             </ul>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

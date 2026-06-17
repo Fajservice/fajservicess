@@ -14,7 +14,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const OvenRepairDetail = ({
@@ -177,7 +191,7 @@ const OvenRepairDetail = ({
             </p>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -193,7 +207,7 @@ const OvenRepairDetail = ({
                   We repair all types of commercial kitchen ovens, including gas and electric models. Our specialised team of commercial oven technicians carries essential spare parts, enabling us to assist you whenever you need it.
                   <br />Our goal is to help keep your business running smoothly. We offer commercial oven repair services in Dubai.</p>
                 <h2 className="cs_fs_24 mb-1 pt-0 mt-0 border-small-top" style={{ fontSize: "24px" }}>EXPRESS & EMERGENCY OVEN REPAIR SERVICE</h2>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that appliesapplies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
+                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that appliesfor each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
                   <b>CHOOSE FAJ FOR YOUR PEACE OF MIND<br />
                     <small>We provide 2-month repair warranty
                       and 3-month parts warranty as standard.</small></b></p>
@@ -214,7 +228,7 @@ const OvenRepairDetail = ({
             <h3 className="cs_fs_24 mb-1 border-small-top pt-0 mt-0">Planned Preventive Maintenance (PPM) Services</h3>
             <p className="mb-2">Our catering equipment technician offers a customized Planned Preventive Maintenance Package created to keep your Combi ovens, Convection ovens, High-Speed ovens, Compact ovens, Pizza ovens, Rational ovens, Commercial ovens, Duck ovens, and Steamers running efficiently and compliant with standards.<br />This proactive approach helps reduce the likelihood of unexpected breakdowns and the associated costs. Our Planned Preventive Maintenance Package includes maintenance, repair services, and testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors that want to ensure their equipment operates smoothly and prevent breakdowns.</p>
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -357,7 +371,7 @@ const OvenRepairDetail = ({
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
               </div>
             </div>
@@ -581,7 +595,7 @@ const OvenRepairDetail = ({
             </div>
 
             <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <GetQuoteButton />
                 <CallNowButton />
               </div>

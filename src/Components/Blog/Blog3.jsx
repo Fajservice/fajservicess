@@ -9,7 +9,21 @@ const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
-  return `${CDN}/${imgPath}/public`;
+  let variant = 'mobile';
+  if (typeof window !== 'undefined') {
+    const width = window.innerWidth;
+    const realWidth = width;
+    if (realWidth > 1200) {
+      variant = 'large';
+    } else if (realWidth > 768) {
+      variant = 'desktop';
+    } else if (realWidth > 480) {
+      variant = 'tablet';
+    } else {
+      variant = 'mobile';
+    }
+  }
+  return `${CDN}/${imgPath}/${variant}`;
 };
 
 const CommentIcon = ({ size = 16, color = "currentColor" }) => (
@@ -114,15 +128,14 @@ const Blog3 = () => {
             ))}
           </div>
         )}
-
-        <div className="cs_tyres_shape position-absolute">
+        {/* <div className="cs_tyres_shape position-absolute">
           <img 
             src={getImageSrc('blogman')} 
             alt="AC Service"
             loading="lazy"
             decoding="async"
           />
-        </div>
+        </div> */}
       </div>
       <div className="cs_height_80 cs_height_lg_80"></div>
     </section>

@@ -18,7 +18,10 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "update-comment-counts": "node updateCommentCounts.js"
+    "update-comment-counts": "node updateCommentCounts.js",
+    "add-read-time": "node addReadTime.cjs",
+    "update-blog": "npm run update-comment-counts && npm run add-read-time",
+    "watch-blog": "node watchBlogJson.cjs"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
