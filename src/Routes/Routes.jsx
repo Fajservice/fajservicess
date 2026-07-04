@@ -1501,8 +1501,8 @@ export const router = createBrowserRouter([
         element: <Components.ApplianceServiceInIndexTowerDifc />,
       },
       {
-        path: "/services/home-appliances-repair/coverage-area/impzy/",
-        element: <Components.ApplianceServiceInImpzy />,
+        path: "/services/home-appliances-repair/coverage-area/impz/",
+        element: <Components.ApplianceServiceInimpz />,
       },
       {
         path: "/services/home-appliances-repair/coverage-area/jbr/",
@@ -2664,8 +2664,8 @@ export const router = createBrowserRouter([
         element: <Navigate to="/services/home-appliances-repair/coverage-area/flamingo-villas-dubai/" replace />
       },
       {
-        path: "/appliances-services-in-impzy/",
-        element: <Navigate to="/services/home-appliances-repair/coverage-area/impzy/" replace />
+        path: "/appliances-services-in-impz/",
+        element: <Navigate to="/services/home-appliances-repair/coverage-area/impz/" replace />
       },
       {
         path: "/appliances-services-in-index-tower-difc/",

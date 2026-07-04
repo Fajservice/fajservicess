@@ -844,7 +844,7 @@ const maytagServicesData = [
                   <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-production-city/">Dubai Production City</a>
                   <span>&nbsp;|&nbsp;</span>
 
-                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impzy/">IMPZ</a>
+                  <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impz/">IMPZ</a>
                   <span>&nbsp;|&nbsp;</span>
 
                   <a href="https://www.fajservices.ae/services/home-appliances-repair/coverage-area/dubai-sports-city/">Dubai Sports City</a>

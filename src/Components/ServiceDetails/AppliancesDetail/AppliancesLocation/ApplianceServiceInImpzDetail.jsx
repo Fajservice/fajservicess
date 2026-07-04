@@ -8,9 +8,9 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
-import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
-import BrandsSliderSection from "../../../BrandsSliderSection";
-import Testimonial1 from "../../../Testimonial/Testimonial1";
+import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
+import BrandsSliderSection from "../../../BrandsSliderSection.jsx";
+import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 import ApplianceSpecialise from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 import PriceCardHomeCat from '../../../Services/homeappliances/PriceCardHomeappCat.jsx';
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
@@ -34,7 +34,7 @@ const getImageSrc = (imgPath) => {
   }
   return `${CDN}/${imgPath}/${variant}`;
 };
-const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
+const ApplianceServiceInimpzDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Trusted Appliances Service and Washing Machine Repair in IMPZ");
@@ -42,7 +42,7 @@ const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/The-Most-Common-Reasons-for-Appliance-Breakdowns/public");
     const metaKeyword = String(Keyword || "Washing Machine in IMPZ, Fridge Repair in IMPZ, Oven Repair in IMPZ, Dishwasher Repair in IMPZ, Appliance Service in IMPZ, Appliance Maintenance in IMPZ");
-    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impzy/");
+    const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/coverage-area/impz/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -174,7 +174,7 @@ const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="Washing machine repair in Impzy" />
+                                <img className="bordered-img w-100" src={getImageSrc('The-Most-Common-Reasons-for-Appliance-Breakdowns')}  alt="Washing machine repair in impz" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -191,7 +191,7 @@ const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Refrigerator Repair in Impzy" />
+                                <img className="blue-border" src={getImageSrc('dishwasher-repair-service')}  alt="Refrigerator Repair in impz" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -622,4 +622,4 @@ const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     )
 }
 
-export default ApplianceServiceInImpzyDetail
+export default ApplianceServiceInimpzDetail

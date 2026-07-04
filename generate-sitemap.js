@@ -347,7 +347,7 @@ const urls = [
   { loc: "/services/home-appliances-repair/coverage-area/falcon-city-dubai/" },
   { loc: "/services/home-appliances-repair/coverage-area/flamingo-villas-dubai/" },
   { loc: "/services/home-appliances-repair/coverage-area/hudaiba/" },
-  { loc: "/services/home-appliances-repair/coverage-area/impzy/" },
+  { loc: "/services/home-appliances-repair/coverage-area/impz/" },
   { loc: "/services/home-appliances-repair/coverage-area/index-tower-difc/" },
   { loc: "/services/home-appliances-repair/coverage-area/international-media-and-production-zone/" },
   { loc: "/services/home-appliances-repair/coverage-area/jbr/" },

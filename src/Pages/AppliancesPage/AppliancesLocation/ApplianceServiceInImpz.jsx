@@ -1,7 +1,7 @@
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import ApplianceServiceInImpzyDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInImpzyDetail";
+import ApplianceServiceInimpzDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInImpzDetail";
 
-const ApplianceServiceInImpzy = () => {
+const ApplianceServiceInimpz = () => {
   return (
     <div className="serviceDetails">
               <BreadCumb
@@ -9,9 +9,9 @@ bgImg="img/banners/appliances-banner-desktop-faj.avif"
 mobileBgImg="img/banners/appliances-banner-mobile-faj.avif"
                   Title="Home Appliance Service in IMPZ">
               </BreadCumb>
-              <ApplianceServiceInImpzyDetail />
+              <ApplianceServiceInimpzDetail />
     </div>
   )
 }
 
-export default ApplianceServiceInImpzy
+export default ApplianceServiceInimpz

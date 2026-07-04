@@ -394,6 +394,9 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/how-an-annual-ac-maintenance-contract-saves-you-money/">How an Annual AC Maintenance Contract Saves You Money</a></li>
                             <li><a href="https://www.fajservices.ae/blog/best-ac-maintenance-tips-for-the-hot-summer-in-dubai-2026/">Best AC Maintenance Tips for the Hot Summer in Dubai 2026</a></li>
                             <li><a href="https://www.fajservices.ae/blog/how-to-survive-the-hottest-summer-in-uae-dubai-2026/">How to Survive the Hottest Summer in UAE (Dubai) 2026</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/ac-repair-maintenance-difference/">AC Repair vs. Maintenance: What's the Difference?</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/gree-ac-wifi-setup/">Gree AC WiFi Setup</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-clean-daikin-ac-indoor-unit/">How to Clean Daikin AC Indoor Unit</a></li>
                             <li><a href="https://www.fajservices.ae/services/electrical-services-in-dubai/">Electrical Services in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/dyson-vacuum-cleaner-repair-and-service-in-dubai/">Dyson Vacuum Cleaner Repair and Service in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/jura-coffee-machine-repair-and-service-in-dubai/">Jura Coffee Machine Repair and Service in Dubai</a></li>
