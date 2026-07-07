@@ -366,7 +366,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     className="bordered-img blue-border"
                     width="100%"
                     height="350"
-                    src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                    src="https://www.youtube.com/embed/prUR0-lZlzg?si=96yf5hxyAA3bct8w"
                     title="مشغل فيديو YouTube"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

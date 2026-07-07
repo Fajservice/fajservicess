@@ -12,6 +12,7 @@ const ImageSlider = ({
   const [dragStart, setDragStart] = useState(0);
   const [dragOffset, setDragOffset] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
+  const [canAutoPlay, setCanAutoPlay] = useState(false);
   const sliderRef = useRef(null);
 
   const goToSlide = useCallback((index) => {
@@ -32,10 +33,33 @@ const ImageSlider = ({
   }, [currentIndex, slides.length, goToSlide]);
 
   useEffect(() => {
-    if (!autoPlay || slides.length <= 1 || isDragging) return;
+    if (!autoPlay || slides.length <= 1) return;
+
+    let isMounted = true;
+    const startAutoPlay = () => {
+      if (isMounted) setCanAutoPlay(true);
+    };
+    const timer = window.setTimeout(() => {
+      if (!isMounted) return;
+
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(startAutoPlay, { timeout: 1500 });
+      } else {
+        startAutoPlay();
+      }
+    }, 3500);
+
+    return () => {
+      isMounted = false;
+      window.clearTimeout(timer);
+    };
+  }, [autoPlay, slides.length]);
+
+  useEffect(() => {
+    if (!canAutoPlay || !autoPlay || slides.length <= 1 || isDragging) return;
     const timer = setInterval(goToNext, interval);
     return () => clearInterval(timer);
-  }, [autoPlay, interval, goToNext, slides.length, isDragging]);
+  }, [canAutoPlay, autoPlay, interval, goToNext, slides.length, isDragging]);
 
   const handleDragStart = (e) => {
     if (isTransitioning) return;
@@ -79,52 +103,58 @@ const ImageSlider = ({
           transition: isDragging ? 'none' : 'transform 0.5s ease-in-out'
         }}
       >
-        {slides.map((slide, index) => (
-          <div className="hero-slide" key={index}>
-            <img
-              src={slide.image}
-              alt={slide.alt || slide.title}
-              className="hero-slide__bg"
-              width="1920"
-              height="800"
-              loading="eager"
-              decoding="async"
-            />
-            <div className="hero-slide__pattern"></div>
-            <div className="hero-slide__container">
-              <div className="hero-slide__content">
-                {index === 0 ? (
-                  <h1 className="hero-slide__title">{slide.title}</h1>
-                ) : (
-                  <h2 className="hero-slide__title">{slide.title}</h2>
-                )}
-                {slide.description && (
-                  <p className="hero-slide__description">{slide.description}</p>
-                )}
-                <div className="hero-slide__actions">
-                  {slide.buttonText && (
-                    <a href={slide.buttonLink || 'https://www.fajservices.ae/who-we-are/'} className="hero-slide__btn">
-                      {slide.buttonText}
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14M12 5l7 7-7 7" />
-                      </svg>
-                    </a>
+        {slides.map((slide, index) => {
+          const isFirstSlide = index === 0;
+
+          return (
+            <div className="hero-slide" key={index}>
+              <img
+                src={slide.image}
+                alt={slide.alt || slide.title}
+                className="hero-slide__bg"
+                width="1920"
+                height="800"
+                loading={isFirstSlide ? 'eager' : 'lazy'}
+                fetchPriority={isFirstSlide ? 'high' : 'low'}
+                decoding="async"
+                sizes="100vw"
+              />
+              <div className="hero-slide__pattern"></div>
+              <div className="hero-slide__container">
+                <div className="hero-slide__content">
+                  {index === 0 ? (
+                    <h1 className="hero-slide__title">{slide.title}</h1>
+                  ) : (
+                    <h2 className="hero-slide__title">{slide.title}</h2>
                   )}
-                  {slide.phone && (
-                    <a href={slide.phoneLink || `tel:${slide.phone.replace(/\s/g, '')}`} className="hero-slide__phone">
-                      <span className="hero-slide__phone-icon">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  {slide.description && (
+                    <p className="hero-slide__description">{slide.description}</p>
+                  )}
+                  <div className="hero-slide__actions">
+                    {slide.buttonText && (
+                      <a href={slide.buttonLink || 'https://www.fajservices.ae/who-we-are/'} className="hero-slide__btn">
+                        {slide.buttonText}
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>
-                      </span>
-                      <span className="hero-slide__phone-number">{slide.phone}</span>
-                    </a>
-                  )}
+                      </a>
+                    )}
+                    {slide.phone && (
+                      <a href={slide.phoneLink || `tel:${slide.phone.replace(/\s/g, '')}`} className="hero-slide__phone">
+                        <span className="hero-slide__phone-icon">
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                          </svg>
+                        </span>
+                        <span className="hero-slide__phone-number">{slide.phone}</span>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       {showDots && slides.length > 1 && (

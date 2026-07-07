@@ -59,6 +59,10 @@ const Breadcrumb = () => {
     ];
 
     let currentPath = '';
+    const appendSegment = (segment) => {
+      currentPath = `${currentPath.replace(/\/$/, '')}/${segment}/`;
+      return currentPath;
+    };
     
     // Handle blog paths specially
     if (pathnames[0] === 'blog' && pathnames.length > 1) {
@@ -70,19 +74,17 @@ const Breadcrumb = () => {
       
       // Then add the blog post title
       pathnames.slice(1).forEach((segment) => {
-        currentPath += `${segment}/`;
         breadcrumbs.push({
           label: formatLabel(segment),
-          path: `/blog/${currentPath}`
+          path: `/blog/${appendSegment(segment).replace(/^\//, '')}`
         });
       });
     } else {
       // Normal path handling for non-blog routes
       pathnames.forEach((segment) => {
-        currentPath += `/${segment}/`;
         breadcrumbs.push({
           label: formatLabel(segment),
-          path: currentPath
+          path: appendSegment(segment)
         });
       });
     }

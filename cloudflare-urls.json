@@ -1,21 +1,26 @@
 {
-  "success": [
+  "success": [],
+  "failed": [
     {
       "originalPath": "blog/best-ac-maintenance-tips-hot-summer-dubai-2026",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/best-ac-maintenance-tips-hot-summer-dubai-2026/large",
-      "id": "blog/best-ac-maintenance-tips-hot-summer-dubai-2026",
-      "success": true
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
     },
     {
       "originalPath": "blog/survive-hottest-summer-uae-dubai-2026",
-      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/survive-hottest-summer-uae-dubai-2026/public",
-      "id": "blog/survive-hottest-summer-uae-dubai-2026",
-      "success": true
+      "error": [
+        {
+          "code": 5409,
+          "message": "Resource already exists. Verify the resource information and try again."
+        }
+      ],
+      "success": false
     }
   ],
-  "failed": [],
-  "mapping": {
-    "blog/best-ac-maintenance-tips-hot-summer-dubai-2026": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/best-ac-maintenance-tips-hot-summer-dubai-2026/large",
-    "blog/survive-hottest-summer-uae-dubai-2026": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/survive-hottest-summer-uae-dubai-2026/public"
-  }
+  "mapping": {}
 }

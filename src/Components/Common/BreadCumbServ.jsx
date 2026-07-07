@@ -79,11 +79,15 @@ const getImageSrc = (imgPath) => {
     ];
 
     let currentPath = '';
+    const appendSegment = (segment) => {
+      currentPath = `${currentPath.replace(/\/$/, '')}/${segment}/`;
+      return currentPath;
+    };
+
     pathnames.forEach((segment) => {
-      currentPath += `/${segment}/`;
       breadcrumbs.push({
         label: formatLabel(segment),
-        path: currentPath
+        path: appendSegment(segment)
       });
     });
 

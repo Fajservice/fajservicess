@@ -517,7 +517,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, Author, Keyword, URL }) 
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=_ayb8R8AGmHLjwUi"
+                  src="https://www.youtube.com/embed/prUR0-lZlzg?si=_ayb8R8AGmHLjwUi"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

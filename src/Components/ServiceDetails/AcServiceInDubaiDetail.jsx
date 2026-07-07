@@ -112,10 +112,10 @@ const SCHEMA = {
       "@id": "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/#video",
       "name": "Air Conditioning Repair Services: Your Home's Cooling Solution | FAJ",
       "description": "Expert advice on air conditioning repair and maintenance in Dubai.",
-      "thumbnailUrl": "https://img.youtube.com/vi/sxBhB1_gxYA/maxresdefault.jpg",
+      "thumbnailUrl": "https://img.youtube.com/vi/prUR0-lZlzg/maxresdefault.jpg",
       "uploadDate": "2023-09-15T07:59:44Z",
       "duration": "PT48S",
-      "embedUrl": "https://www.youtube.com/embed/sxBhB1_gxYA",
+      "embedUrl": "https://www.youtube.com/embed/prUR0-lZlzg",
       "publisher": { "@id": "https://www.fajservices.ae/#organization" }
     },
     {
@@ -537,7 +537,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 </div>
               </div>
               <div className="col-md-6">
-                <YouTubeFacade videoId="sxBhB1_gxYA" title="Air Conditioning Repair Services: Your Home's Cooling Solution | FAJ" />
+                <YouTubeFacade videoId="prUR0-lZlzg" title="Air Conditioning Repair Services: Your Home's Cooling Solution | FAJ" />
               </div>
             </div>
             <div className="appointment-col mt-3">
@@ -610,7 +610,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           </div>
         </section>
          <LazySection minHeight="400px">
-          <section className="section cs_py_30 bg-light-gray" style={{ contain: 'layout style' }}>
+          <section className="section cs_py_30" style={{ contain: 'layout style' }}>
             <div className="container">
               <h2 className="cs_fs_30">Best AC Cleaning & AC Service in Dubai and Sharjah</h2>
               <p>Discover top-rated AC cleaning, maintenance, and air conditioner repair services in Dubai. Keep your space cool and comfortable with professional solutions tailored to your needs.</p>

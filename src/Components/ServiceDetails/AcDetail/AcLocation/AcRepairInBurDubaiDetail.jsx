@@ -432,18 +432,17 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           </div>
         </section>
 
-
         {/* HERE ARE THE */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30 text-uppercase">Emergency AC Repair Service in Bur Dubai</h2>
-            <div className="row">
+            <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                  src="https://www.youtube.com/embed/prUR0-lZlzg?si=96yf5hxyAA3bct8w"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -574,22 +573,13 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         />
         {/* We Specialise in All Types of AC Systems */}
 
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray mt-3">
           <div className="container">
             <h2 className="cs_fs_24 text-align-left">We Specialise in All Types of AC Systems</h2>
             <p>
               At FAJ Technical Services L.L.C we repair and maintain all major air conditioning systems across Bur Dubai. Our technicians handle every unit with care to make sure you get smooth cooling and reliable performance.
             </p>
-            <p><strong>Window AC:</strong> We provide fast repair and servicing for Window AC units, fixing common cooling and airflow issues.</p>
-            <p><strong>Split AC:</strong> Our team handles Split AC repair, cleaning, and maintenance for homes and offices with quick response service.</p>
-            <p><strong>Central AC:</strong> FAJ Technical Services L.L.C offers complete Central AC maintenance and repair for buildings to ensure even and efficient cooling.</p>
-            <p><strong>Chiller AC:</strong> We service Chiller AC systems used in large buildings and commercial spaces, keeping them running efficiently.</p>
-            <p><strong>Fan Coil Unit (FCU):</strong> Our experts repair and maintain FCU systems to improve airflow and maintain proper cooling balance.</p>
-            <p><strong>Package Unit AC:</strong> We provide reliable service for Package Unit AC systems used in commercial and industrial setups.</p>
-            <p><strong>Portable AC:</strong> At FAJ Technical Services L.L.C experts quickly repair and service Portable AC units for small spaces and temporary cooling needs.</p>
-            <p><strong>Ducted Split AC:</strong> We handle installation, repair, and maintenance of Ducted Split AC systems for full-property cooling.</p>
-            <p><strong>Ceiling AC:</strong> Our technicians service Ceiling AC units to ensure quiet operation and consistent cooling performance.</p>
-            <p><strong>Inverter AC:</strong> We specialize in Inverter AC systems, focusing on energy efficiency and smooth cooling performance.</p>
+            <p className="mb-0"><strong>Window AC:</strong> We provide fast repair and servicing for Window AC units, fixing common cooling and airflow issues.<br/><strong>Split AC:</strong> Our team handles Split AC repair, cleaning, and maintenance for homes and offices with quick response service.<br/><strong>Central AC:</strong> FAJ Technical Services L.L.C offers complete Central AC maintenance and repair for buildings to ensure even and efficient cooling.<br/><strong>Chiller AC:</strong> We service Chiller AC systems used in large buildings and commercial spaces, keeping them running efficiently.<br/><strong>Fan Coil Unit (FCU):</strong> Our experts repair and maintain FCU systems to improve airflow and maintain proper cooling balance.<br/><strong>Package Unit AC:</strong> We provide reliable service for Package Unit AC systems used in commercial and industrial setups.<br/><strong>Portable AC:</strong> At FAJ Technical Services L.L.C experts quickly repair and service Portable AC units for small spaces and temporary cooling needs.<br/><strong>Ducted Split AC:</strong> We handle installation, repair, and maintenance of Ducted Split AC systems for full-property cooling.<br/><strong>Ceiling AC:</strong> Our technicians service Ceiling AC units to ensure quiet operation and consistent cooling performance.<br/><strong>Inverter AC:</strong> We specialize in Inverter AC systems, focusing on energy efficiency and smooth cooling performance.</p>
           </div>
         </section>
 
