@@ -4,6 +4,25 @@ const LocationKeyword = () => {
   return (
     <div>
       <p className="mb-0 locationwisebrandlinks">
+        <Link to="/services/air-conditioning-repair/brands/lg/">LG Air Conditioner Service</Link>
+        <span>&nbsp;-&nbsp;</span>
+        <Link to="/services/air-conditioning-repair/brands/samsung/">Samsung Air Conditioner Repair and Service</Link>
+        <span>&nbsp;-&nbsp;</span>
+        <Link to="/services/air-conditioning-repair/brands/york/">York AC Service and Repair</Link>
+        <span>&nbsp;-&nbsp;</span>
+        <Link to="/services/air-conditioning-repair/brands/daikin/">Daikin Air Conditioner Maintenance</Link>
+        <span>&nbsp;-&nbsp;</span>
+        <Link to="/services/air-conditioning-repair/brands/trane/">Trane HVAC Repair</Link>
+        <span>&nbsp;-&nbsp;</span>
+        <Link to="/services/air-conditioning-repair/brands/panasonic/">Panasonic AC Service and Repair</Link>
+        <span>&nbsp;-&nbsp;</span>
+        <Link to="/services/air-conditioning-repair/brands/gree/">Gree AC Service and Maintenance</Link>
+        <span>&nbsp;-&nbsp;</span>
+        <Link to="/services/air-conditioning-repair/brands/o-general/">O General AC Service and Repair</Link>
+        <span>&nbsp;-&nbsp;</span>
+        <Link to="/services/air-conditioning-repair/brands/mitsubishi/">Mitsubishi Air Conditioner Service and Repair
+        </Link>
+        <span>&nbsp;-&nbsp;</span>
         <Link to="/services/air-conditioning-repair/brands/sanyo/">Sanyo AC Service Dubai</Link>
         <span>&nbsp;-&nbsp;</span>
         <Link to="/services/air-conditioning-repair/brands/rheem/">Rheem AC Service</Link>

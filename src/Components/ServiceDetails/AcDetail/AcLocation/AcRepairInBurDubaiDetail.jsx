@@ -129,10 +129,10 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h1 className="cs_fs_30">Top-Rated Air Conditioner Repair and Maintenance in Bur Dubai with 7 Days Services</h1>
-            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-              <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Bur Dubai, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah. </p>
-
+            <h1 className="cs_fs_30">Top-Rated Air Conditioner Repair and Maintenance in Bur Dubai | AC Service Near Me</h1>
+            <p>Say goodbye to hot rooms, sticky summer days, and poor air quality. Welcome to cool comfort, fresh air, and better sleep all year round.<br />
+              <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been serving Dubai since 2010. We provide trusted <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC cleaning service, and AC installation in Bur Dubai and nearby areas.</p>
+            <p>Our expert team handles both home AC and commercial AC systems with fast response and professional service.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
@@ -149,12 +149,11 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <div className="row gx-md-5 expert_section_wrapper">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 text-align-left">Best AC Repair in Bur Dubai</h2>
-                <p className="mb-2">When it comes to <Link to="/services/air-conditioning-repair/ac-service/"><b>AC repair</b></Link> near me in Bur Dubai, it’s essential to hire a professional and trustworthy <Link to="/services/air-conditioning-repair/ac-service/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
-
-                <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Bur Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                <h2 className="cs_fs_24 text-align-left">Signs You Need An AC Service</h2>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <h2 className="cs_fs_24 mb-1 text-align-left">Who provides the best AC repair services in Bur Dubai?</h2>
+                <p className="mb-2">Looking for air conditioner repair near you in Bur Dubai? FAJ Technical Services L.L.C provides AC solutions for homes, apartments, villas, offices, shops, restaurants and commercial properties in Dubai and the UAE. Our experienced technicians can fix all types of air conditioning systems from repairs to complete installations.</p>
+                <p>We provide our services with clear prices and good work in Bur Dubai and nearby areas. We are available to help you with your AC issues and fix ACs in places, including homes and offices. We provide both residential and <a href="https://www.fajservices.ae/services/air-conditioning-repair/ac-service/">commercial AC maintenance</a> in Dubai.</p>
+                <h2 className="cs_fs_24 text-align-left">Which signs show the AC needs service?</h2>
+                <p className="mb-2">If you notice any of these signs, you must contact an expert technician who can repair your AC professionally. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
@@ -173,13 +172,12 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="AC Repair in Bur Dubai" />
-
+                <img className="bordered-img ac-bordered-img w-100" src={getImageSrc('Best-AC-Repair-Service')} alt="Best AC Repair Service in Bur Dubai" />
               </div>
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              
+
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                   <WhatsappIconButton />
@@ -190,17 +188,125 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           </div>
         </section>
 
-
         {/* AC Price Section */}
         <FAJACPrice></FAJACPrice>
 
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <div className="row gx-md-5 expert_section_wrapper">
+              <div className="col-md-6 ">
+                <img className="bordered-img w-100" src={getImageSrc('Experts-AC-Service-and-Maintenance')} alt="AC Repair in Bur Dubai" />
+              </div>
+              <div className="col-md-6">
+                <h2 className="cs_fs_24 mb-1 text-align-left">Why Is My AC Not Cooling?</h2>
+                <p className="mb-2">
+                  A cooling problem is one of the most common AC problems in Dubai. In case you notice your AC is running but not cooling properly, there are several factors that may be responsible.</p>
+                <b>Common causes include:</b>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Dirty air filters</li>
+                      <li>Low refrigerant gas</li>
+                      <li>Blocked condenser coils</li>
+                      <li>Faulty thermostat</li>
+                    </ul>
+                  </div>
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Compressor problems</li>
+                      <li>Electrical faults</li>
+                      <li>Restricted airflow</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-sm-12">
+                    <p className="mb-0">
+                      A professional AC inspection can identify the exact cause and prevent further damage to the system.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Professional Air Conditioning Services in Bur Dubai */}
+        <section className="section cs_py_30 bg-light-white">
+          <div className="container">
+            <h2 className="text-center">Professional Air Conditioning Services in Bur Dubai</h2>
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
+
+              <div className="col-12 col-md-4 col-lg-4">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">AC Repair Service</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Our experts' AC cleaning removes dust, dirt, mold and debris from filters, coils and drainage systems. Regular cleaning improves cooling performance, like indoor air quality. It helps your AC run more efficiently and save energy.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-4">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">AC Maintenance Service</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Routine maintenance helps prevent sudden breakdowns. It reduces electricity bills. It also extends the life of your AC system. Your AC runs better in extreme Dubai heat with regular service.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-4">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">AC Installation Service</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">We provide expert installation for all AC systems. This includes Window AC, Split AC, Central AC, Ducted Split AC, Package Units, FCUs, and commercial systems. We follow manufacturer guidelines for safe installation. This ensures proper cooling and long-term performance.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-4">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Annual Maintenance Contract (AMC)</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Our AMC plans include regular inspections. They also include preventive maintenance and priority support. We provide scheduled servicing throughout the year. It helps you avoid unexpected repair costs.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-4">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Annual Maintenance Agreement</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Flexible maintenance agreements are available for residential and commercial properties seeking long-term AC care and reliable performance.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div id="get-quote" className="mb-0 mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
+                <WhatsappIconButton />
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Bur Dubai?</h2>
             <p>
-              Regular air conditioner (AC) maintenance service in Bur Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/services/air-conditioning-repair/ac-service/">AC maintenance</Link> near you in Bur Dubai, contact us.
+              Regular air conditioner (AC) maintenance service in Bur Dubai is essential for optimal performance. FAJ Technical Services L.L.C offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need AC maintenance near you in Bur Dubai, contact us.
             </p>
 
             <div className="row align-items-center">
@@ -209,11 +315,11 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
-                  <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
-                  <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Bur Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Extreme Weather: </strong> The temperature gets very hot in summer over 40°C. We need to take care of our air conditioners so they work properly when it is this hot.</li>
+                  <li> <strong> Energy Efficiency: </strong> If we take care of our air conditioner it will use less energy and our electricity bills will be lower.</li>
+                  <li> <strong> Longevity of Equipment: </strong> Taking care of our air conditioner will make it last longer so we will not have to spend a lot of money to fix it or buy a new one.</li>
+                  <li> <strong> Improved Air Quality: </strong> Regular maintenance helps keep our air clean by removing dust and things that can make us sick.</li>
+                  <li> <strong> Enhanced Comfort: </strong> The air conditioning service in Bur Dubai makes sure our air conditioners are clean and work well every day so we can be comfortable.</li>
 
                 </ul>
               </div>
@@ -224,7 +330,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* Common AC Problems That May Require Maintenance */}
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
+            <h2 className="text-center">Most Common AC Problems </h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -233,7 +339,9 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your A/C system, such as a clogged filter or malfunctioning fan.</p>
+                    <p className="p-2 mb-0">
+                      If you feel that the air coming from your vents is not strong it could be a problem with your air conditioner system, like a filter or a fan that is not working properly.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -244,7 +352,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your aircon blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                    <p className="p-2 mb-0">Whether your air conditioner is blowing air that's not cold it could be a problem with the compressor, the refrigerant, or the ducts.</p>
                   </div>
                 </div>
               </div>
@@ -255,7 +363,8 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your air conditioner unit can indicate mechanical problems that require attention.</p>
+                    <p className="p-2 mb-0">If you hear sounds like grinding, squealing or banging coming from your air conditioner it could mean that something is wrong with the machine and it needs to be fixed.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -266,7 +375,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                    <p className="p-2 mb-0">In case you smell something musty coming from the vents it could be because of mold or mildew growing inside the system and you need to take care of it fast.</p>
                   </div>
                 </div>
               </div>
@@ -277,7 +386,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
+                    <p className="p-2 mb-0">If your air conditioner keeps turning on and off it might be because it is having trouble keeping the temperature right, maybe because the filter is dirty, the refrigerant is low or the thermostat is not working.</p>
                   </div>
                 </div>
               </div>
@@ -288,7 +397,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
+                    <p className="p-2 mb-0">In case your air conditioner is not making the air feel less humid it could be because it is not working properly or it cannot cool well.</p>
                   </div>
                 </div>
               </div>
@@ -299,7 +408,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                    <p className="p-2 mb-0">If you see water around your air conditioner or coming from the vents it could be because the drain is blocked, the coils are frozen or something else is wrong.</p>
                   </div>
                 </div>
               </div>
@@ -310,7 +419,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                    <p className="p-2 mb-0">High energy bills without an increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
                   </div>
                 </div>
               </div>
@@ -327,7 +436,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* HERE ARE THE */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONING SYSTEMS</h2>
+            <h2 className="cs_fs_30 text-uppercase">Emergency AC Repair Service in Bur Dubai</h2>
             <div className="row">
               <div className="col-xl-6">
                 <iframe
@@ -343,26 +452,20 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>We specialise in all types and brands of air conditioning systems, HVAC and FAHU.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
+                <p>A sudden AC breakdown can affect comfort, productivity, and indoor air quality.</p>
+                <p className='mb-0'><strong>Our emergency AC repair service can help with:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-1">
-
-                  <li>
-                    <strong>Installation:</strong> Expert installation of various types and brands of central AC cooling systems, ensuring optimal performance and efficiency.
-                  </li>
-
-                  <li>
-                    <strong>Diagnostics:</strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
-                  </li>
-
-                  <li>
-                    <strong>Repair Service:</strong> Efficient repair services for all air conditioner components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
-                  </li>
-
-                  <li>
-                    <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the air conditioner annual maintenance contract in Bur Dubai. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
-                  </li>
+                  <li>AC not cooling</li>
+                  <li>AC not turning on</li>
+                  <li>Water leakage</li>
+                  <li>Electrical faults</li>
+                  <li>Thermostat issues</li>
+                  <li>Compressor failures</li>
+                  <li>Weak airflow</li>
+                  <li>Unusual noises</li>
                 </ul>
+                <p className='mb-0'>We provide fast assistance for residential and commercial customers throughout Bur Dubai and nearby areas.
+                </p>
               </div>
             </div>
           </div>
@@ -469,16 +572,33 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           afterImg={`${CDN}/before_img_1/public`}
           beforeTitle="Before"
         />
+        {/* We Specialise in All Types of AC Systems */}
+
+        <section className="section cs_py_30">
+          <div className="container">
+            <h2 className="cs_fs_24 text-align-left">We Specialise in All Types of AC Systems</h2>
+            <p>
+              At FAJ Technical Services L.L.C we repair and maintain all major air conditioning systems across Bur Dubai. Our technicians handle every unit with care to make sure you get smooth cooling and reliable performance.
+            </p>
+            <p><strong>Window AC:</strong> We provide fast repair and servicing for Window AC units, fixing common cooling and airflow issues.</p>
+            <p><strong>Split AC:</strong> Our team handles Split AC repair, cleaning, and maintenance for homes and offices with quick response service.</p>
+            <p><strong>Central AC:</strong> FAJ Technical Services L.L.C offers complete Central AC maintenance and repair for buildings to ensure even and efficient cooling.</p>
+            <p><strong>Chiller AC:</strong> We service Chiller AC systems used in large buildings and commercial spaces, keeping them running efficiently.</p>
+            <p><strong>Fan Coil Unit (FCU):</strong> Our experts repair and maintain FCU systems to improve airflow and maintain proper cooling balance.</p>
+            <p><strong>Package Unit AC:</strong> We provide reliable service for Package Unit AC systems used in commercial and industrial setups.</p>
+            <p><strong>Portable AC:</strong> At FAJ Technical Services L.L.C experts quickly repair and service Portable AC units for small spaces and temporary cooling needs.</p>
+            <p><strong>Ducted Split AC:</strong> We handle installation, repair, and maintenance of Ducted Split AC systems for full-property cooling.</p>
+            <p><strong>Ceiling AC:</strong> Our technicians service Ceiling AC units to ensure quiet operation and consistent cooling performance.</p>
+            <p><strong>Inverter AC:</strong> We specialize in Inverter AC systems, focusing on energy efficiency and smooth cooling performance.</p>
+          </div>
+        </section>
 
         {/* We specialise in air conditioning services for the following brands */}
         <section className="section cs_py_30">
           <div className="container">
+            <h2 className="cs_fs_24 text-align-left">We specialise in air conditioning services for the following brands</h2>
 
-            
-
-            <h3 className="cs_fs_24 text-align-left">We specialise in air conditioning services for the following brands</h3>
-
-            <ul className="mb-3">
+            {/* <ul className="mb-3">
               <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/lg/">LG Air Conditioner Service</a>:</strong> FAJ offers reliable LG AC repair and services near me in Bur Dubai. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near you, including AC repair and maintenance in Bur Dubai.</li>
 
               <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/samsung/">Samsung Air Conditioner Repair and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai Bur Dubai. Specialising in Samsung air conditioning repair service near me, we offer comprehensive air conditioning service ranging from AC fixing to AC cleaning service and AC maintenance in Bur Dubai.</li>
@@ -498,7 +618,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/services/air-conditioning-repair/brands/mitsubishi/">Mitsubishi Air Conditioner Service and Repair</a>:</strong> Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi Air Conditioning cleaning service and AC repairing ensure your AC stays cool and efficient, providing comfort and peace of mind. Expert Air conditioning cleaning service near me in Bur Dubai and Sharjah, aircon fixing and AC maintenance service in Bur Dubai. </li>
 
               <li><strong>Carrier AC Repair and Service in Dubai</strong>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services in Bur Dubai, that are both efficient and dependable. Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Bur Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</li>
-            </ul>
+            </ul> */}
 
             <LocationKeyword />
 
@@ -512,33 +632,33 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         </section>
 
         <section className="section gallery_section bg-light-gray cs_py_30">
-					<div className="container">
-						<h2>Gallery <Gallery /></h2>
-						<div className="row gx-3 gy-2">
-						<div className="col-md-4 col-6">
-							<img src={`${CDN}/AcService/slide1/public`} alt="Ac Service" />
-						</div>
-						<div className="col-md-4 col-6">
-							<img src={`${CDN}/AcService/slide2/public`} alt="AC Repair" />
-						</div>
-						<div className="col-md-4 col-6">
-							<img src={`${CDN}/AcService/slide3/public`} alt="AC Maintenance" />
-						</div>
-						<div className="col-md-4 col-6">
-							<img src={`${CDN}/AcService/slide4/public`} alt="AC CLeaning" />
-						</div>
-						<div className="col-md-4 col-6">
-							<img src={`${CDN}/AcService/slide5/public`} alt="AC Fixing" />
-						</div>
-						<div className="col-md-4 col-6">
-							<img src={`${CDN}/AcService/slide6/public`} alt="AC Gas Filling" />
-						</div>
-						</div>
-					</div>
-					</section>
+          <div className="container">
+            <h2>Gallery <Gallery /></h2>
+            <div className="row gx-3 gy-2">
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide1/public`} alt="Ac Service" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide2/public`} alt="AC Repair" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide3/public`} alt="AC Maintenance" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide4/public`} alt="AC CLeaning" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide5/public`} alt="AC Fixing" />
+              </div>
+              <div className="col-md-4 col-6">
+                <img src={`${CDN}/AcService/slide6/public`} alt="AC Gas Filling" />
+              </div>
+            </div>
+          </div>
+        </section>
 
-<section className="section cs_py_30 bg-dark-blue text-light">
-                    <div className="container text-center">
+        <section className="section cs_py_30 bg-dark-blue text-light">
+          <div className="container text-center">
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
             <a
@@ -596,27 +716,22 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />
-
         {/* Faqs */}
         <section className="section cs_py_30 bg-dark-blue text-light">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
-
         </section>
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">FAQ&apos;s</h3>
-
             <div className="cs_accordians_wrapper cs_style_1 p-0">
-
               {data.map((item, index) => (
                 <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-
                       <svg
                         width="20"
                         height="20"
@@ -630,9 +745,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                       >
                         <path d="M8 2V14M2 8H14" stroke="#1E1E1E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
-
                       {/* Eye Slash */}
-
                       <svg
                         width="20"
                         height="20"
@@ -655,13 +768,9 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </section>
-
-
-
       </div>
     </>
   )

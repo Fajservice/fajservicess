@@ -1794,6 +1794,9 @@ img.blue-border, img.bordered-img {
     object-position: top;
     margin-bottom: inherit;
 }
+img.ac-bordered-img{
+  max-height: 500px;
+}
 .cs_nav .cs_nav_list > li:hover > div.megamenu-wrapper-menu-level-1 ul.custom_border_drop {
   opacity: 1;
   visibility: visible;
