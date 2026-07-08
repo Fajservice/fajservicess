@@ -46,11 +46,11 @@ const benefitsData = [
 
 const BenefitCard = ({ Icon, title, description }) => (
   <div className="col-md-4 mb-5">
-    <div className="benefit_wrapper_box d-flex flex-column align-items-center px-2">
-      <div className="mb-3 benefit_wrapper_box_icon" style={{ width: '80px', height: '80px' }}>
+    <div className="benefit_wrapper_box d-flex flex-column align-items-center px-5">
+      <div className="mb-2 benefit_wrapper_box_icon" style={{ width: '80px', height: '80px' }}>
         <Icon />
       </div>
-      <h3 className="text-uppercase mb-2 fs-6">{title}</h3>
+      <h3 className="text-uppercase my-2 fs-10">{title}</h3>
       <p className="small">{description}</p>
     </div>
   </div>

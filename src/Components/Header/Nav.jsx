@@ -405,7 +405,7 @@ export default function Nav({ setMobileToggle }) {
           {hasChildren && (
             <DropDown>
               <div className={`megamenu-wrapper-menu-level-${level + 1}`}>
-                <ul className={`${level === 0 ? 'cs_fs_17 custom_border_drop' : 'cs_fs_16'} menu-level-${level + 1}`}>
+                <ul className={`${level === 0 ? 'cs_fs_17 custom_border_drop px-3' : 'cs_fs_16 px-3'} menu-level-${level + 1}`}>
                   {renderDesktopNavItems(item.children, level + 1, itemKey)}
                 </ul>
               </div>

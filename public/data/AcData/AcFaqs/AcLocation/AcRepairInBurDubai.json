@@ -42,6 +42,46 @@
   {
     "title": "How often should AC ducts be cleaned?",
     "desc": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
+  },
+  {
+    "title": "How long does an AC repair usually take?",
+    "desc": "Most repairs take one to three hours. It really depends on what's wrong with the AC and if we have the parts we need."
+  },
+  {
+    "title": "Is it better to repair or replace my AC?",
+    "desc": "If fixing your AC costs half of what a new one costs and your AC is over 10 years old it's often better to get a new one. New ACs save you money on energy too."
+  },
+  {
+    "title": "Can I clean my AC myself?",
+    "desc": "You can clean the covers and washable filters yourself. For deep cleaning of coils and drains you need a professional."
+  },
+  {
+    "title": "Do you provide emergency AC repair services?",
+    "desc": "Yes, we provide emergency repair services to fix breakdowns, leaks, electrical faults and compressor failures. We know AC problems are urgent."
+  },
+  {
+    "title": "How can I improve my AC cooling without calling a technician?",
+    "desc": "<strong>Follow these steps carefully:</strong><ul><li>Close all windows </li><li>Clean the filters</li><li>Keep the unit clear</li><li>Set the thermostat to a temperature</li><li>Extend equipment lifespan</li></ul>"
+  },
+  {
+    "title": "Why does my AC smell bad when I turn it on?",
+    "desc": "Mold or bacteria inside the AC cause smells. Professional cleaning removes the source completely."
+  },
+  {
+    "title": "What happens if I skip AC servicing for a year?",
+    "desc": "<ul><li>Your AC's efficiency drops</li><li>Your bills go up</li><li>Parts wear out faster</li> <li>Small problems become expensive repairs</li></ul>"
+  },
+  {
+    "title": "Does AC servicing include checking the gas level?",
+    "desc": "Yes, it does. Technicians check the gas level. If it's low they find the leak and recharge the system."
+  },
+  {
+    "title": "How do I know if my AC needs a gas refill?",
+    "desc": "If your AC runs but the air is not cold enough you might need a gas refill. Only a technician can confirm this."
+  },
+  {
+    "title": "Can I use my AC while it is leaking water?",
+    "desc": "No, turn it off. A leaking AC can damage your floors and walls. Call a technician to fix it."
   }
 
 ]

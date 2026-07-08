@@ -172,7 +172,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img ac-bordered-img w-100" src={getImageSrc('Best-AC-Repair-Service')} alt="Best AC Repair Service in Bur Dubai" />
+                <img className="bordered-img ac-bordered-img w-100" src={getImageSrc('AC-Repair-and-Maintenace-Service-Outdoor')} alt="Best AC Repair Service in Bur Dubai" />
               </div>
             </div>
 
@@ -234,16 +234,15 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* Professional Air Conditioning Services in Bur Dubai */}
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h2 className="text-center">Professional Air Conditioning Services in Bur Dubai</h2>
+            <h2 className="cs_fs_30 text-center">Professional Air Conditioning Services in Bur Dubai</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-
               <div className="col-12 col-md-4 col-lg-4">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">AC Repair Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Our experts' AC cleaning removes dust, dirt, mold and debris from filters, coils and drainage systems. Regular cleaning improves cooling performance, like indoor air quality. It helps your AC run more efficiently and save energy.</p>
+                    <p className="p-2 mb-0">Professional AC repair services for homes and businesses. We fix cooling issues, leaks, compressor faults and electrical problems. Fast response, experienced technicians and reliable service across Dubai. </p>
                   </div>
                 </div>
               </div>
@@ -254,7 +253,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">AC Maintenance Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Routine maintenance helps prevent sudden breakdowns. It reduces electricity bills. It also extends the life of your AC system. Your AC runs better in extreme Dubai heat with regular service.</p>
+                    <p className="p-2 mb-0">Routine maintenance service helps prevent sudden breakdowns. It reduces electricity bills. It also extends the life of your AC system. Your AC runs better in extreme Dubai heat with regular maintenance service.</p>
                   </div>
                 </div>
               </div>
@@ -265,7 +264,18 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">AC Installation Service</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">We provide expert installation for all AC systems. This includes Window AC, Split AC, Central AC, Ducted Split AC, Package Units, FCUs, and commercial systems. We follow manufacturer guidelines for safe installation. This ensures proper cooling and long-term performance.</p>
+                    <p className="p-2 mb-0">We provide expert installation for all AC systems. This includes Window AC, Split AC, Central AC, Ducted Split AC, Package Units, FCUs, and commercial systems. We follow manufacturer guidelines for safe installation.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-4">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">AC Cleaning Services</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Professional AC cleaning removes dust, dirt and bacteria from filters, coils and drains. It improves airflow, helps your AC cool faster and keeps indoor air fresh and healthy for your family and home.</p>
                   </div>
                 </div>
               </div>
@@ -277,17 +287,6 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Our AMC plans include regular inspections. They also include preventive maintenance and priority support. We provide scheduled servicing throughout the year. It helps you avoid unexpected repair costs.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-4">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Annual Maintenance Agreement</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Flexible maintenance agreements are available for residential and commercial properties seeking long-term AC care and reliable performance.</p>
                   </div>
                 </div>
               </div>
@@ -330,7 +329,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* Common AC Problems That May Require Maintenance */}
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h2 className="text-center">Most Common AC Problems </h2>
+            <h2 className="cs_fs_30 text-center">Most Common AC Problems </h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -340,19 +339,18 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If you feel that the air coming from your vents is not strong it could be a problem with your air conditioner system, like a filter or a fan that is not working properly.
+                     If you feel that the air coming from your vents is not strong it could be a problem with your AC system, like a filter or a fan that is not working properly.
                     </p>
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Whether your air conditioner is blowing air that's not cold it could be a problem with the compressor, the refrigerant, or the ducts.</p>
+                    <p className="p-2 mb-0">Whether your air conditioner system is blowing air that's not cold could be a problem with the compressor, the refrigerant, or the ducts of your AC unit.</p>
                   </div>
                 </div>
               </div>
@@ -363,12 +361,11 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you hear sounds like grinding, squealing or banging coming from your air conditioner it could mean that something is wrong with the machine and it needs to be fixed.
+                    <p className="p-2 mb-0">If you hear sounds like grinding, squealing or banging coming from your AC it could mean that something is wrong with the machine and it needs to be fixed.
                     </p>
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
@@ -379,14 +376,13 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your air conditioner keeps turning on and off it might be because it is having trouble keeping the temperature right, maybe because the filter is dirty, the refrigerant is low or the thermostat is not working.</p>
+                    <p className="p-2 mb-0">In case your AC turns on and off too often, the reason may be that the filters are dirty or the thermostat may be faulty. Get it looked at before it breaks down.</p>
                   </div>
                 </div>
               </div>
@@ -397,29 +393,27 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">In case your air conditioner is not making the air feel less humid it could be because it is not working properly or it cannot cool well.</p>
+                    <p className="p-2 mb-0">In case your room feels sticky, your air conditioner may not be removing moisture properly. It means it needs attention from a professional technician near you.</p>
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you see water around your air conditioner or coming from the vents it could be because the drain is blocked, the coils are frozen or something else is wrong.</p>
+                    <p className="p-2 mb-0">If you see water around your air conditioner or coming from the vents, it could be because the drain is blocked, the coils are frozen or something else is wrong.</p>
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without an increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                    <p className="p-2 mb-0">High energy bills without an increase in usage could indicate the inefficiency of your air conditioner due to dirty filters, duct leaks, or other problems.</p>
                   </div>
                 </div>
               </div>
