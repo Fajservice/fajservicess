@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 
 
-
 const IMAGES_FOLDER = './public/img';
 
 const OUTPUT_FILE = './cloudflare-urls.json';

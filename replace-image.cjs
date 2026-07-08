@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-
 function validateConfig() {
   if (!CF_API_TOKEN) {
     console.log('Missing CF_API_TOKEN environment variable.');

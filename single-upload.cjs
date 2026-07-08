@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-
 async function uploadSingle() {
   const imagePath = process.argv[2];
   const customId = process.argv[3];
