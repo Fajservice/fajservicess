@@ -1,47 +1,63 @@
 [
   {  
-    "title": "How much is AC service in Dubai?",
-    "desc": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit&apos;s size and condition, as well as the service provider."
+    "title": "Is it necessary to service my AC every few months?",
+    "desc": "Yes, in the Dubai climate, servicing every 3 to 6 months helps stop big problems and keeps your cooling bills manageable."
   },
   {
-    "title": "Why is my AC not cooling in Dubai?",
-    "desc": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
+    "title": "Why is my AC leaking water?",
+    "desc": "<strong>Several common issues can lead to water leakage.</strong><ul><li>Drain pipe blockage</li><li>Frozen or dirty coils</li><li>Poor water flow</li></ul>"
   },
   {
-    "title": "Why is AC repair so expensive?",
-    "desc": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai’s climate, which demands frequent AC use, also adds to the cost."
+    "title": "Does your cleaning service get rid of smells?",
+    "desc": "Yes, our cleaning process removes mold and bacteria that cause smells. We get rid of mold and bacteria buildup to remove smells."
   },
   {
-    "title": "Why is my AC giving cool air but not cooling?",
-    "desc": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
+    "title": "Can I get a repair done on the day?",
+    "desc": "We try to fix issues on the same day. Call us early so we can check if our technicians are available in Marina."
   },
   {
-    "title": "How often should AC be cleaned in Dubai?",
-    "desc": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
+    "title": "How long does a standard maintenance visit take?",
+    "desc": "Most visits take an hour. It depends on how many units you have and their condition."
   },
   {
-    "title": "Which company is best for central AC?",
-    "desc": "FAJ Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently."
+    "title": "Do you work with all AC brands?",
+    "desc": "Yes, we work with brands like Daikin, LG, Samsung and many more."
   },
   {
-    "title": "What maintenance is needed for AC?",
-    "desc": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
+    "title": "Is an AMC really worth the cost?",
+    "desc": "Yes, it saves your money. You won't have to pay for an emergency fix. Your equipment will last longer."
   },
   {
-    "title": "How can I maintain my AC",
-    "desc": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
+    "title": "Why is my AC making noise?",
+    "desc": "<strong>There are a few reasons.</strong><ul><li>Loose parts inside the unit</li><li>Fan or motor issue</li><li>Dirt inside the system</li></ul>"
   },
   {
-    "title": "How do I fix my air conditioner that is not cooling?",
-    "desc": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed."
+    "title": "How do I know if I need a repair or a simple cleaning?",
+    "desc": "If your AC is weak, try cleaning. If it's leaking, making noise or not cooling it needs a repair."
   },
   {
-    "title": "How often should an air conditioner be serviced?",
-    "desc": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit&apos;s lifespan."
+    "title": "Do you provide services for offices?",
+    "desc": "We provide services to offices, shops, and restaurants in Dubai Marina."
   },
   {
-    "title": "How often should AC ducts be cleaned?",
-    "desc": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
+    "title": "What warranty do you provide?",
+    "desc": "We stand behind our services with an unwavering 60-day warranty, ensuring your complete satisfaction and peace of mind."
+  },
+  {
+    "title": "What is included in your inspection?",
+    "desc": "<strong>We check these things</strong><ul><li>filters</li><li>coils</li><li>drainage</li><li>levels</li><li>electrical connections</li><li>thermostat settings</li></ul>"
+  },
+  {
+    "title": "Should I keep the AC running all day?",
+    "desc": "For energy efficiency, set the temperature higher when you're out. Don't turn it off completely."
+  },
+  {
+    "title": "Can I trust a cheap AC service?",
+    "desc": "Be careful, cheap services often skip essential steps. We focus on quality work that prevents the problem from coming back next week."
+  },
+  {
+    "title": "How can I book a service?",
+    "desc": "Just call us or send us a message via WhatsApp or Gmail and we will get you scheduled for a visit"
   }
 
 ]

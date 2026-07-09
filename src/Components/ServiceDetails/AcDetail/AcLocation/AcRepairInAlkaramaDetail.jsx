@@ -232,7 +232,7 @@ const AcRepairInAlkaramaDetail = ({
 
 							<div className="col-md-6 ">
 								<img
-									className="bordered-img w-100"
+									className="bordered-img ac-bordered-img w-100"
 									src={getImageSrc("AC-Repair-and-Maintenace-Service-Outdoor")}
 									alt="AC Repair in Al Karama"
 								/>
