@@ -40,7 +40,7 @@ const PriceCard = () => {
     {
       id: 1,
       image: getImageSrc('calloutprice'),
-      title: 'Air Conditioner Inspection Service',
+      title: 'AC Inspection Service',
       icon: getImageSrc('accalll'),
       price: 'AED135',
       arrow: getImageSrc('iconreadmore'),

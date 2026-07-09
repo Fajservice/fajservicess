@@ -291,7 +291,7 @@ const AcRepairInBusinessBayDetail = ({
 						</div>
 					</div>
 				</section>
-				{/* Professional Air Conditioning Services in Bur Dubai */}
+				{/* Professional Air Conditioning Services in Business Bay */}
 				<section className="section cs_py_30 bg-light-white">
 					<div className="container">
 						<h2 className="cs_fs_30 text-center">
