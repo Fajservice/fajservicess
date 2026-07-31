@@ -1,47 +1,63 @@
 [
   {  
-    "title": "How much is AC service in Dubai?",
-    "desc": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit&apos;s size and condition, as well as the service provider."
+    "title": "How often should AC systems be serviced in Jebel Ali Free Zone?",
+    "desc": "Commercial systems should generally be serviced every 3 to 4 months, while offices and residential units usually benefit from servicing every 3 to 6 months."
   },
   {
-    "title": "Why is my AC not cooling in Dubai?",
-    "desc": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
+    "title": "Why is my AC taking longer to cool the room?",
+    "desc": "<ul><li>Dirty filters</li><li>Blocked coils</li><li>Low refrigerant</li><li>Restricted airflow</li></ul><p>All of these can reduce cooling speed.</p>"
   },
   {
-    "title": "Why is AC repair so expensive?",
-    "desc": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai’s climate, which demands frequent AC use, also adds to the cost."
+    "title": "Can you repair industrial AC systems in JAFZA?",
+    "desc": "Yes, we provide repair and maintenance for commercial and domestic cooling systems across Jebel Ali Free Zone."
   },
   {
-    "title": "Why is my AC giving cool air but not cooling?",
-    "desc": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
+    "title": "Do you offer same-day AC repair?",
+    "desc": "Yes, FAJ Technical Services provides same-day service, but it depends on technician availability and the fault; same-day service may be available."
   },
   {
-    "title": "How often should AC be cleaned in Dubai?",
-    "desc": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
+    "title": "What causes an AC compressor to fail?",
+    "desc": "<ul><li>Poor maintenance</li><li>Overheating</li><li>Electrical faults</li><li>Refrigerant </li></ul><p>These issues are common reasons.</p>"
   },
   {
-    "title": "Which company is best for central AC?",
-    "desc": "FAJ Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently."
+    "title": "Can dirty filters affect electricity bills?",
+    "desc": "Yes, dirty filters force the AC to work harder, increasing energy consumption."
   },
   {
-    "title": "What maintenance is needed for AC?",
-    "desc": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
+    "title": "Is AC cleaning different from AC servicing?",
+    "desc": "Yes, cleaning focuses on removing dirt, while servicing includes inspection, testing and preventive maintenance."
   },
   {
-    "title": "How can I maintain my AC",
-    "desc": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
+    "title": "Which AC brands do you repair?",
+    "desc": "<strong>We repair all major brands such as:</strong><ul><li>Daikin</li><li>LG</li><li>Samsung</li><li>Carrier</li><li>York</li><li>Mitsubishi</li><li>O General</li><li>Gree</li><li>Trane</li><li>Panasonic and many other leading brands</li></ul>"
   },
   {
-    "title": "How do I fix my air conditioner that is not cooling?",
-    "desc": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed."
+    "title": "Why does my AC smell bad?",
+    "desc": "Dust, mould, bacteria or standing moisture inside the unit usually cause unpleasant smells."
   },
   {
-    "title": "How often should an air conditioner be serviced?",
-    "desc": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit&apos;s lifespan."
+    "title": "How long does AC maintenance normally take?",
+    "desc": "Most maintenance visits take around one hour, depending on system size and condition."
   },
   {
-    "title": "How often should AC ducts be cleaned?",
-    "desc": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
+    "title": "Can regular maintenance reduce breakdowns?",
+    "desc": "Yes, early servicing helps identify worn parts before major failures occur."
+  },
+  {
+    "title": "Is an AMC suitable for commercial buildings?",
+    "desc": "Yes, AMC plans provide scheduled maintenance and priority support for uninterrupted cooling."
+  },
+  {
+    "title": "Do you provide AC installation?",
+    "desc": "Yes, we install new AC systems for residential, commercial and industrial properties."
+  },
+  {
+    "title": "Do your services include warranty?",
+    "desc": "Yes, our AC cleaning and maintenance services include a 60-day service warranty."
+  },
+  {
+    "title": "How can I book an AC service?",
+    "desc": "Simply contact FAJ Technical Services L.L.C with your location and preferred time, and our team will arrange a suitable appointment."
   }
 
 ]
