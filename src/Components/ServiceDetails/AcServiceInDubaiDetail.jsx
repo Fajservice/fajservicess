@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import HeaderForm from "../Headeform/HeaderForm";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
-import BookingFormModal from '../BookingFormModal';
 import PriceCard from "./AcDetail/AcLocation/PriceCard";
 import Cooling    from '../Svg/Cooling';
 import Improve    from '../Svg/Improve';
@@ -128,7 +127,14 @@ const SCHEMA = {
         { "@type": "Question", "name": "Why is my AC giving cool air but not cooling the room?", "acceptedAnswer": { "@type": "Answer", "text": "It could be due to low refrigerant or clogged filters. A technician can fix this with a proper inspection." } },
         { "@type": "Question", "name": "How often should AC be cleaned in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "AC units in Dubai should be cleaned every 3 to 6 months due to high dust levels." } },
         { "@type": "Question", "name": "Which company is best for central AC in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "FAJ Technical Services L.L.C is one of the best companies for central AC services in Dubai." } },
-        { "@type": "Question", "name": "What maintenance is needed for AC?", "acceptedAnswer": { "@type": "Answer", "text": "AC maintenance includes cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines." } }
+        { "@type": "Question", "name": "What maintenance is needed for AC?", "acceptedAnswer": { "@type": "Answer", "text": "AC maintenance includes cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines." } },
+        { "@type": "Question", "name": "Is emergency AC repair available in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Many AC companies in Dubai provide emergency AC repair services. FAJ Technical Services L.L.C. offers fast emergency AC repair and AC services on the same day as per your requirement." } },
+        { "@type": "Question", "name": "How fast can an AC technician reach my home in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "Most companies like Faj Services can send a technician within 30 to 90 minutes, depending on your location and availability." } },
+        { "@type": "Question", "name": "Which AC system is best for villas in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "Central AC systems are usually the best choice for villas because they provide efficient cooling throughout the entire property." } },
+        { "@type": "Question", "name": "What is the VRF air conditioning system?", "acceptedAnswer": { "@type": "Answer", "text": "A VRF system is an energy-efficient AC solution that allows different rooms or zones to be cooled independently." } },
+        { "@type": "Question", "name": "What is the best AC system for commercial buildings?", "acceptedAnswer": { "@type": "Answer", "text": "VRF systems and centralised HVAC systems are popular choices for commercial buildings due to their efficiency and scalability." } },
+        { "@type": "Question", "name": "Which is the best HVAC contractor near me?", "acceptedAnswer": { "@type": "Answer", "text": "The best HVAC contractor has licensed company, positive customer reviews, fair pricing, and reliable support. FAJ Technical Services L.L.C has been a trusted company based in Dubai since 2010." } },
+        { "@type": "Question", "name": "How to book an AC technician near my location?", "acceptedAnswer": { "@type": "Answer", "text": "Contact a local AC company by phone or through their website to schedule a service appointment at your preferred time." } }
       ]
     },
     {
@@ -318,39 +324,9 @@ const ACBrandsSection = memo(() => (
         <li><strong>Rheem AC Repair &amp; Service Near Me:</strong> Rheem AC was founded in 1925 in California, initially making steel drums. It quickly transitioned to manufacturing water heaters and, in the 1940s and 1950s, expanded into furnaces, split, central air conditioning systems to meet the growing demand for home comfort. Today, Rheem is a leading global HVAC provider known for its innovation and diverse heating and cooling solutions.</li>
       </ul>
       <BrandLinks />
-      <div className="d-flex justify-content-center mt-3">
-        <div className="col-md-7 mb-3 mb-md-0">
-          
-          <h3 className="cs_fs_20 text-align-left" ><strong>Key AC Spare Parts Weak to Damage from Dubai&rsquo;s Summer Weather:</strong></h3>
-          <ul>
-            <li><strong>AC Compressor Replacement:</strong> As the &ldquo;heart&rdquo; of the AC, high heat and overworking can lead to overheating, gas blockage, liquid slugging, low gas levels, electrical issues, a clogged filter, and complete failure. Contact us for AC compressor replacement and testing.</li>
-            <li><strong>AC Capacitors / Contactors:</strong> These electrical AC parts, responsible for starting the AC motor and fan, often fail due to extreme heat and constant operation.</li>
-            <li><strong>AC Air Filters:</strong> A dirty AC unit or a clogged filter hinders airflow, making the system overwork and risk overheating.</li>
-            <li><strong>AC Coils Evaporator &amp; Condenser Coils: </strong>Dirt accumulation reduces heat exchange efficiency, while limited airflow can cause the evaporator coil to freeze.</li>
-            <li><strong>AC Motors:</strong> Ongoing process can cause burnout or damage to the AC motor bearings, often indicated by greasy residue on the HVAC motor.</li>
-            <li><strong>AC Electrical Connections:</strong> Excessive heat can damage insulation, while overuse can result in loose or damaged wiring, leading to short circuits.</li>
-          </ul>
-          <p><strong>Air Conditioning Tip:</strong> To stop damage, keep the AC outdoor unit free of dust, replace filters every 15 to 20 days, and set the AC temperature between 24&deg;C and 26&deg;C during the summer heat in Dubai, UAE.</p>
-        </div>
-        <div className="col-md-5 px-md-4">
-          <h3 className="cs_fs_20 text-align-left"><strong>Key AC Repair Services &amp; Common Issues</strong></h3>
-          <ul>
-            <li><strong>Emergency AC Repair: </strong>Urgent 7-day AC repair and service for breakdowns is available from providers like FAJ Technical Services L.L.C and AC Repairman.</li>
-            <li><strong>AC (Gas) Refrigerant Issues:</strong> Repairing AC gas leaks in AC units and AC gas filling to repair cooling efficiency is offered by FAJ.</li>
-            <li><strong>AC Spare Parts Repair / Replacement:</strong> Fixing of AC compressors, AC condenser coils, AC motors or AC thermostat.</li>
-            <li><strong>AC Electrical Issues:</strong> Addressing faulty AC thermostats, AC sensors, and AC (PCB) control modules.</li>
-            <li><strong>AC Airflow / Noise Problems:</strong> Fixing AC fan motors, AC clearing dust, and AC coils cleaning</li>
-          </ul>
-        </div>
       </div>
-      <div className="mt-3">
-        <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
-          <Suspense fallback={<ButtonPlaceholder />}><GetQuoteButton /></Suspense>
-          <Suspense fallback={<ButtonPlaceholder />}><CallNowButton /></Suspense>
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
+      
 ));
 
 const GallerySection = memo(() => (
@@ -406,13 +382,12 @@ const FAQSection = memo(({ data, openItemIndex, onItemClick }) => {
 });
 
 const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  const metatitle       = String(titleSeo    || "AC Repair Dubai | Best HVAC Maintenance & AC Service");
-  const metadescription = String(description || "FAJ has been providing the best AC service in Dubai since 2010. Get fast AC repair, maintenance, servicing & AC cleaning from expert technician near you");
+  const metatitle       = String(titleSeo    || "Best AC Repair | HVAC Maintenance & AC Service in Dubai");
+  const metadescription = String(description || "Top AC Service and AC Repair - FAJ has been providing fast air conditioning maintenance, servicing & cleaning from expert technicians near you in Dubai");
   const metaAuthor      = String(Author  || "FAJ Technical Services L.L.C");
   const metaURL         = String(URL     || "https://www.fajservices.ae/services/air-conditioning-repair/ac-service/");
   const metaImage       = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/What-is-covered-in-an-AC-Maintenance-Contract/public";
 
-  const [isModalOpen,     setIsModalOpen]     = useState(false);
   const [faqData,         setFaqData]         = useState([]);
   const [testimonialData, setTestimonialData] = useState([]);
   const [openItemIndex,   setOpenItemIndex]   = useState(0);
@@ -420,8 +395,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const [faqSectionRef,         faqSectionInView]         = useInView();
   const [testimonialSectionRef, testimonialSectionInView] = useInView();
 
-  const openModal  = useCallback((e) => { e.preventDefault(); setIsModalOpen(true);  document.body.style.overflow = 'hidden'; }, []);
-  const closeModal = useCallback(()  => { setIsModalOpen(false); document.body.style.overflow = ''; }, []);
   const handleItemClick = useCallback((index) => {
     setOpenItemIndex(prev => prev === index ? -1 : index);
   }, []);
@@ -480,20 +453,12 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* Hero */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Trusted AC Service and Maintenance | Licensed AC Repair Contractor Dubai, UAE</h1>
-            <p>
-              Improve the comfort of your home and business premises with air conditioning cooling.
-              Maintain a perfect temperature year-round with our expert AC technicians.<br />
-              <a href="https://maps.app.goo.gl/KDPpprYugX3bXJ759">FAJ Technical Services L.L.C</a> has
-              been providing AC services since 2010. Our technicians are experienced in{' '}
-              <a href="https://www.instagram.com/reels/DS_ztYrjc_S/">AC repair and maintenance</a>,
-              ensuring your air conditioning system performs at its best for an extended time, as well
-              as AC installation of home, office, and commercial air conditioning units in Dubai and Sharjah.
+            <h1 className="cs_fs_30">Best AC Repair and Maintenance Services</h1>
+            <p>Improve the comfort of your home and business premises with air conditioning cooling. Maintain a perfect temperature year-round with our expert AC technicians.<br/>High energy bills and inefficient cooling can result from improper or irregular maintenance of AC systems. This is why regular AC maintenance is important to avoid unnecessary expenses in the future.<br/>To help you maintain your comfort and prevent any problems, FAJ Technical Services L.L.C offers for home, office, and commercial affordable AC Repair, AC cleaning, AC Service, and AC repair service near you. Our goal is to ensure your AC system operates efficiently and minimises energy consumption.
             </p>
             <div className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
                 <WhatsappIconButton />
-                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
           </div>
@@ -543,7 +508,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <div className="appointment-col mt-3">
               <div className="appointment-col-inner-wrappper">
                 <h2 className="cs_fs_24 mb-1 mt-0">Our Express and Emergency AC Repair Service in Dubai</h2>
-                <p>If you are facing any problem in your air conditioning service at home or in your business, especially during the summer time, our same day and express <a href="https://www.google.com/search?q=FAJ+Technical+Services+L.L.C&oq=faj&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDwyBggBEEUYPDIOCAIQRRgnGDsYgAQYigUyBggDEEUYOTIGCAQQRRg9MgYIBRBFGDwyBggGEEUYQTIGCAcQRRhB0gEIMzY1OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-4035952443362452879">AC repair</a> service is here to help. Get the fastest <a href="https://pin.it/nUpufPp4R"> best AC repair service</a> in Dubai today. Contact us for a quote or to schedule your emergency AC repair appointment.</p>
+                <p>If you are facing any problem in your air conditioning service at home or in your business, especially during the summer time, our same day and express AC repair service is here to help. Get the fastest best AC repair service in Dubai today. Contact us for a quote or to schedule your emergency AC repair appointment.</p>
               </div>
               <div className="mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
@@ -580,7 +545,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     <li><strong>Energy Efficiency:</strong> A well-maintained AC operates more efficiently, using less energy and lowering both AC electricity bills.</li>
                     <li><strong>Longevity of AC Unit:</strong> Regular AC maintenance can extend your air conditioning unit's lifespan, reducing the need for costly repair work and Genuine <a href="https://www.fajtradingllc.com/collections/ac-spare-parts"><strong>AC spare parts</strong></a> replacements, ultimately saving you money.</li>
                     <li><strong>Improved Air Quality:</strong> Regular AC unit &amp; AC duct cleaning service &amp; maintenance keep dust and allergens from building up, ensuring cleaner air.</li>
-                    <li><strong>Improved Comfort:</strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><strong>AC servicing</strong></a> in Dubai ensures comfort, efficiency, and even cooling daily.</li>
+                    <li><strong>Improved Comfort:</strong> Regular <strong>AC servicing</strong> in Dubai ensures comfort, efficiency, and even cooling daily.</li>
                   </ul>
                 </div>
               </div>
@@ -605,7 +570,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
             <div className="service-footer-text">
               <h3 className="cs_fs_24">Schedule your FAJ AC Cleaning, AC Repair &amp; Maintenance Services today!</h3>
-              <p className="cs_fs_14">For reliable <a href="https://www.facebook.com/reel/1726225512069096">AC service</a> and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
+              <p className="cs_fs_14">For reliable AC service and repair in Dubai, choose FAJ. Our experienced technicians deliver exceptional service every time. Book now by calling, emailing, chatting on WhatsApp, or visiting our website to experience the difference!</p>
             </div>
           </div>
         </section>
@@ -681,6 +646,40 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         </LazySection>
 
         <LazySection minHeight="400px"><ACBrandsSection /></LazySection>
+        <section className="section cs_py_30 bg-dark-blue" style={{ contain: 'layout style' }}>
+          <div className="container">
+            <div className="d-flex justify-content-center mt-3 text-light">
+              <div className="col-md-7 mb-3 mb-md-0"> 
+                <h3 className="cs_fs_20 text-align-left text-light" ><strong>Key AC Spare Parts Weak to Damage from Dubai&rsquo;s Summer Weather:</strong></h3>
+                <ul>
+                  <li><strong>AC Compressor Replacement:</strong> As the &ldquo;heart&rdquo; of the AC, high heat and overworking can lead to overheating, gas blockage, liquid slugging, low gas levels, electrical issues, a clogged filter, and complete failure. Contact us for AC compressor replacement and testing.</li>
+                  <li><strong>AC Capacitors / Contactors:</strong> These electrical AC parts, responsible for starting the AC motor and fan, often fail due to extreme heat and constant operation.</li>
+                  <li><strong>AC Air Filters:</strong> A dirty AC unit or a clogged filter hinders airflow, making the system overwork and risk overheating.</li>
+                  <li><strong>AC Coils Evaporator &amp; Condenser Coils: </strong>Dirt accumulation reduces heat exchange efficiency, while limited airflow can cause the evaporator coil to freeze.</li>
+                  <li><strong>AC Motors:</strong> Ongoing process can cause burnout or damage to the AC motor bearings, often indicated by greasy residue on the HVAC motor.</li>
+                  <li><strong>AC Electrical Connections:</strong> Excessive heat can damage insulation, while overuse can result in loose or damaged wiring, leading to short circuits.</li>
+                </ul>
+                <p><strong>Air Conditioning Tip:</strong> To stop damage, keep the AC outdoor unit free of dust, replace filters every 15 to 20 days, and set the AC temperature between 24&deg;C and 26&deg;C during the summer heat in Dubai, UAE.</p>
+              </div>
+              <div className="col-md-5 px-md-4">
+                <h3 className="cs_fs_20 text-align-left"><strong>Key AC Repair Services &amp; Common Issues</strong></h3>
+                <ul>
+                  <li><strong>Emergency AC Repair: </strong>Urgent 7-day AC repair and service for breakdowns is available from providers like FAJ Technical Services L.L.C and AC Repairman.</li>
+                  <li><strong>AC (Gas) Refrigerant Issues:</strong> Repairing AC gas leaks in AC units and AC gas filling to repair cooling efficiency is offered by FAJ.</li>
+                  <li><strong>AC Spare Parts Repair / Replacement:</strong> Fixing of AC compressors, AC condenser coils, AC motors or AC thermostat.</li>
+                  <li><strong>AC Electrical Issues:</strong> Addressing faulty AC thermostats, AC sensors, and AC (PCB) control modules.</li>
+                  <li><strong>AC Airflow / Noise Problems:</strong> Fixing AC fan motors, AC clearing dust, and AC coils cleaning</li>
+                </ul>
+              </div>
+            </div>
+            <div className="mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
+                <Suspense fallback={<ButtonPlaceholder />}><GetQuoteButton /></Suspense>
+                <Suspense fallback={<ButtonPlaceholder />}><CallNowButton /></Suspense>
+              </div>
+            </div>
+          </div>
+        </section>
         <LazySection minHeight="300px"><GallerySection /></LazySection>
         <LazySection minHeight="300px"><Practicaltip /></LazySection>
         <LazySection minHeight="300px"><AcProperties /></LazySection>

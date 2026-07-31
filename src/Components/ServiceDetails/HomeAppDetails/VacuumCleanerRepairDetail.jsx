@@ -34,8 +34,8 @@ const getImageSrc = (imgPath) => {
 
 const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Best Robot Vacuum Cleaner Repair and Vacuum Service Center");
-  const metadescription = String(description || "Affordable Robot vacuum cleaner repair and service in Dubai. Call us for upright, canister & wet-dry vacuum cleaner fix near you تصليح وخدمات مكنسة كهربائية");
+  const metatitle = String(titleSeo || "Best Robot Vacuum Cleaner Repair | Top Vacuum Service Center");
+  const metadescription = String(description || "Affordable Robot vacuum cleaner repair and service in Dubai. Call FAJ for upright, canister & wet-dry vacuum cleaner fix near you تصليح وخدمات مكنسة كهربائية");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Robot vacuum cleaner repair, vacuum cleaner service, Xiaomi vacuum repair, Roomba vacuum service, TP-Link vacuum cleaner repair, Eufy vacuum cleaner service, Anker vacuum repair");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/robot-vacuum-cleaner-repair/");
@@ -332,7 +332,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         <section className="section cs_py_30">
           <div className="container">
 
-            <h1 className="cs_fs_30">Cost-Effective Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center Near You, Dubai UAE</h1>
+            <h1 className="cs_fs_30">Best Robot Vacuum Cleaner Repair and Service Center in Dubai, UAE</h1>
             <p>FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.
               <br />We aim to help you avoid costly replacements and reduce waste. We provide comprehensive error fixing, repair, and servicing for robot vacuum cleaners, along with the necessary parts and products throughout Dubai, Abu Dhabi, and Sharjah. FAJ offers all your <a href="https://www.facebook.com/reel/947263921164922">robot vacuum cleaner repair</a> and maintenance needs under one roof.
             </p>
@@ -352,15 +352,11 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Select Your Vacuum Cleaner Repair</h2>
-
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Affordable Vacuum Cleaner Repair and Fix Service Near You</h2>
                 <p className="mb-2">
                   We understand that a vacuum cleaner breakdown is never convenient. Our expert technicians are here to provide efficient vacuum repair services. <a href="https://www.instagram.com/reels/DUKsJ0oCtcB/">Roborock</a>, Dreame Robot, Eufy Robot, Ecovacs Deebot, Roomba, Narwal, Dyson Robot Vacuum Cleaner Repair and Service Center in Dubai.
                 </p>
-
-
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
-                </h2>
+                <h2 className="cs_fs_24 mb-1 pt-2 border-small-top" style={{ fontSize: "24px" }}>Top-Rated Robotic Vacuum Cleaner Service Center</h2>
                 <p className="mb-2">At <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That's why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
@@ -386,7 +382,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* Why is */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Why is Vacuum Cleaner Maintenance Service Important in Dubai?</h2>
+            <h2 className="cs_fs_30">Why is Maintenance and Cleaning of Vacuum Cleaner Important?</h2>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={getImageSrc('inspection-robot-vacuum-cleaner')} alt="inspection robot vacuum cleaner" />
@@ -413,7 +409,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* Problems  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="text-center">Common Vacuum Cleaners That May Require Maintenance   </h2>
+            <h2 className="text-center">Top Common Vacuum Cleaner Problems You Should Know About</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -528,13 +524,12 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/*HERE ARE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30 text-uppercase">HERE ARE THE SERVICES WE OFFER FOR ROBOTIC VACUUM CLEANERS  </h2>
+            <h2 className="cs_fs_30 text-uppercase">Here Are The Services We Offer For Robotic Vacuum Cleaners</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <img className="bordered-img w-100" src={getImageSrc('Same-Day-vaccum-cleaner-Repair-&-Service')} alt="Vacuum Cleaner Repair" />
               </div>
-
               <div className="col-xl-6">
                 <p className="mb-0">In Dubai, vacuum cleaner services provide repair, maintenance, and servicing to extend the lifespan of your vacuum cleaner.< br />
                   These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.< br />
@@ -545,11 +540,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <li> <strong> Vacuum Cleaner Servicing: </strong> Regular maintenance includes cleaning, inspecting parts, and ensuring optimal performance. </li>
                   <li> <strong> Comprehensive Repair Packages: </strong> These packages offer a wide range of services, including diagnostics, cleaning, and potential part replacements. </li>
                 </ul>
-
-
               </div>
-
-
             </div>
           </div>
         </section >
@@ -558,8 +549,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0 text-light">The Benefits of vacuum cleaner Service Dubai
-              </h2>
+              <h2 className="cs_fs_30 mb-0 text-light">Key Benefits of Vacuum Cleaner Service</h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="benifit-box-container">
@@ -716,7 +706,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* We specialise   */}
         <section className="section cs_py_30 bg-light-gray custom-css-box">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Vacuum Cleaner REPAIR SERVICE</h3>
+            <h3 className="mb-1 pt-3">Express & Emergency Vacuum Cleaner Repair Service Near Me</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> *There is a technical inspection fee that applies. Drop off the unit at the FAJ Workshop. The <b>Robot Vacuum Cleaner technical inspection price</b> starting from AED 65 and changes based on the capacity, model, and type of unit for each diagnosis. This price does not include repair, replacements, parts, or materials. <b>Doorstep service available:</b> We provide pick-up and drop-off delivery services upon request, and additional costs will apply.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />

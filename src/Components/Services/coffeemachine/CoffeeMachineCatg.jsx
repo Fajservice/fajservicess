@@ -252,7 +252,7 @@ const CoffeeMachineCatg = ({ titleSeo, description, Author, URL }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Top-Rated Coffee Machine Maintenance Services and Repair Across Dubai and Abu Dhabi, UAE</h1>
+            <h1 className="cs_fs_30">Best Coffee Machine Maintenance Services and Repair Across Dubai and Abu Dhabi, UAE</h1>
             <p>
               Brewing Quality and Expertise, one cup at a time. FAJ Technical Services L.L.C. provides high-quality
               coffee and espresso machines maintenance, installation, descaling, and cleaning services and annual
@@ -274,7 +274,7 @@ const CoffeeMachineCatg = ({ titleSeo, description, Author, URL }) => {
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Technical Services to Keep Your Coffee Flowing</h2>
+            <h2 className="cs_fs_30 text-center mb-4">Professional Coffee Machine Cleaning and Descaling Services</h2>
             <div className="row align-items-center">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <ServiceImage
@@ -299,7 +299,7 @@ const CoffeeMachineCatg = ({ titleSeo, description, Author, URL }) => {
 
         <section className="section cs_py_30 bg-light-white">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Annual Maintenance Contract (AMC)</h2>
+            <h2 className="cs_fs_30 text-center mb-4">Coffee Machine and Espresso Machine Annual Maintenance Contracts (AMC) Services in Dubai, UAE</h2>
             <div className="row align-items-center">
               <div className="col-12 col-lg-7">
                 <p>Ensuring smooth coffee operations through quick and efficient service and repair solutions.</p>

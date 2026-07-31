@@ -301,7 +301,7 @@ const AcAnnualMaintenanceContractDetail = ({
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">High-Rated Annual AC Maintenance Contract Services - AMC</h1>
+            <h1 className="cs_fs_30">Best Annual AC Maintenance Contract Services ( AMC ) in Dubai, UAE</h1>
             <p>
               At FAJ Technical Services L.L.C, customer satisfaction is our top priority. We offer a straightforward and cost-effective annual maintenance contract that covers all essential maintenance for your home and business.
               Our contract includes year-round AC servicing, along with qualified support for plumbing and electrical repairs (MEP). We believe our essential maintenance contract is one of the best maintenance packages available in Dubai.
@@ -320,7 +320,7 @@ const AcAnnualMaintenanceContractDetail = ({
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Annual AC Maintenance Contract - AMC</h2>
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>AC System with Annual AC Maintenance Contract</h2>
                 <p className="mb-2">
                   Ensure consistent efficiency for your AC system with an Annual Maintenance Contract (AMC).
                   <br /> Keep your AC functioning optimally throughout the year with our reliable maintenance contract in Dubai and Sharjah, UAE.
@@ -346,7 +346,7 @@ const AcAnnualMaintenanceContractDetail = ({
 
             <div className="appointment-col border-small-top mt-3 pt-3">
               <h2 className="cs_fs_24 mb-1 mt-3" style={{ fontSize: "24px" }}>
-                Planned Preventive Maintenance (PPM) Services
+                Year-Round Protection For Your AC AMC Services
               </h2>
               <p>
                 Our air conditioning technician can create a customised Planned Preventive Maintenance Package for your home or business. This package is designed to keep your space cool, comfortable, and running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and their associated costs.
@@ -366,7 +366,7 @@ const AcAnnualMaintenanceContractDetail = ({
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30">Peace of Mind with Annual Maintenance Contracts</h2>
+            <h2 className="cs_fs_30">Peace of Mind with AC Annual Maintenance Contracts</h2>
             <p>
               Your air conditioner is an essential part of your home or office comfort, especially during the scorching summer months. Like any other air conditioning unit, it requires regular maintenance to operate efficiently and to prevent breakdowns.
             </p>
@@ -394,7 +394,7 @@ const AcAnnualMaintenanceContractDetail = ({
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
+            <h2 className="text-center">Signs You Need An Annual AC Maintenance Contract</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
               {[
                 { title: "Weak Airflow", desc: 'If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.' },
@@ -511,7 +511,7 @@ const AcAnnualMaintenanceContractDetail = ({
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>WE SPECIALISE IN AIR CONDITIONER SERVICES FOR THE FOLLOWING BRANDS</h3>
+            <h3>We Specialise in Air Conditioning Maintenance Services for the Following Brands</h3>
             <div className="row">
               <div className="col-12">
                 <ul className="mb-0">

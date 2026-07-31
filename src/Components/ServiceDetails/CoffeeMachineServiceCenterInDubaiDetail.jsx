@@ -33,8 +33,8 @@ const getImageSrc = (imgPath) => {
   return `${CDN}/${imgPath}/${variant}`;
 };
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  const metatitle = String(titleSeo || "Coffee Machine Service Center | Best Coffee Machine Repair UAE");
-  const metadescription = String(description || "Top-Rated Coffee Machine service centre near you. Call us for home / office espresso repair & coffee maker maintenance Dubai. خدمات صيانة وإصلاح آلات القهو");
+  const metatitle = String(titleSeo || "Best Coffee Machine Service Center | Coffee Machine Repair UAE");
+  const metadescription = String(description || "Fast Coffee Machine service centre. Call FAJ for home / office espresso repair & top coffee maker maintenance near you Dubai. خدمات صيانة وإصلاح آلات القهو");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Coffee Machine Repair, Coffee Machine Service, Coffee Machine Descaling, Coffee Machine Service Center");
   const metaURL = String(URL || "https://www.fajservices.ae/services/coffee-machine/coffee-machine-service-center/");
@@ -370,8 +370,8 @@ const coffeemachineServicesData = [
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Trusted Coffee Machine Service Center and Repair Near You in Dubai, Sharjah & Abu Dhabi, UAE</h1>
-            <p>Since 2010, FAJ has been providing reliable and trusted expertise in installation, coffee machine service and maintenance, specializing in <a href="https://www.facebook.com/watch/?v=1662769468221750">coffee machine repair</a> in Dubai, serving home coffee machine service, office coffee machine repair, restaurant <a href="https://www.instagram.com/reels/DXitS76go_o/">coffee machine maintenance</a>, and cafes.<br />We work with a variety of coffee equipment, including tea &amp; coffee vending machine repair, espresso machine maintenance, coffee grinders servicing, professional coffee machine, and automatic coffee machine error fix.&nbsp;<br />Our dedicated team understands the importance of functioning <a href="https://pin.it/6pzCVw4RK">coffee machine servicing</a>, and we prioritise timely maintenance.&nbsp;<br />As specialists in espresso machines, we are committed to managing and maintaining your equipment throughout its lifespan, ensuring that you enjoy reliable, great-tasting coffee every day.</p>
+            <h1 className="cs_fs_30">Affordable Coffee Machine Service Center and Repair in Dubai, Sharjah & Abu Dhabi, UAE</h1>
+            <p>Since 2010, FAJ has been providing reliable and trusted expertise in installation, best coffee machine service and maintenance, specialising in <a href="https://www.facebook.com/watch/?v=1662769468221750">coffee machine repair</a> in Dubai, serving home coffee machine service, office coffee machine repair, restaurant <a href="https://www.instagram.com/reels/DXitS76go_o/">coffee machine maintenance</a>, and cafes.<br />We work with a variety of coffee equipment, including tea & coffee vending machine repair, espresso machine maintenance, coffee grinders cleaning service, descaling professional coffee machine and automatic coffee machine error fix. <br />Our expert team understands the importance of functioning <a href="https://pin.it/6pzCVw4RK">coffee machine servicing</a>, aand we prioritise timely maintenance. <br />As specialists in espresso machines, we are committed to managing and maintaining your equipment throughout its lifespan, ensuring that you enjoy reliable, great-tasting coffee every day.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">

@@ -63,7 +63,7 @@ const AcBenefits = ({ city = 'Dubai' }) => {
         .benefit_wrapper_box {
           background-color: #fff;
           border-radius: 25px;
-          padding: 4em 5px 3em;
+          padding: 2em 5px 1em;
           position: relative;
           height: -webkit-fill-available;
         }

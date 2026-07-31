@@ -397,6 +397,10 @@ const Orphan = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
                             <li><a href="https://www.fajservices.ae/blog/ac-repair-maintenance-difference/">AC Repair vs. Maintenance: What's the Difference?</a></li>
                             <li><a href="https://www.fajservices.ae/blog/gree-ac-wifi-setup/">Gree AC WiFi Setup</a></li>
                             <li><a href="https://www.fajservices.ae/blog/how-to-clean-daikin-ac-indoor-unit/">How to Clean Daikin AC Indoor Unit</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/a-complete-guide-on-washing-machine-service/">A Complete Guide on Washing Machine Service</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/what-is-an-ac-filter-a-complete-guide-2026/">What is an AC Filter? A Complete Guide 2026</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-find-genuine-appliances-spare-parts-in-the-uae/">How To Find Genuine Appliances’ Spare Parts In The UAE?</a></li>
+                            <li><a href="https://www.fajservices.ae/blog/how-to-fix-a-vacuum-cleaner-a-step-by-step-guide/">How To Fix A Vacuum Cleaner: A Step-by-Step Guide</a></li>
                             <li><a href="https://www.fajservices.ae/services/electrical-services-in-dubai/">Electrical Services in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/dyson-vacuum-cleaner-repair-and-service-in-dubai/">Dyson Vacuum Cleaner Repair and Service in Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/services/home-appliances-repair/brands/jura-coffee-machine-repair-and-service-in-dubai/">Jura Coffee Machine Repair and Service in Dubai</a></li>

@@ -36,8 +36,8 @@ const getImageSrc = (imgPath) => {
 };
 const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL, Image }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Best Refrigerator Repair | Fridge Service Center Near You, Dubai");
-  const metadescription = String(description || "Trusted refrigerator repair and service in Dubai. Call FAJ experts for fridge repair & maintenance near you and freezer fixing خدمات صيانة وتصليح ثلاجات في دبي");
+  const metatitle = String(titleSeo || "Refrigerator Repair | Best Fridge Service Center in Dubai");
+  const metadescription = String(description || "Same day refrigerator repair and service in Dubai. Call FAJ experts for fridge repair & maintenance near you and freezer fixing خدمات صيانة وتصليح ثلاجات في دبي");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Refrigerator repair, Fridge repair, Refrigerator service, Freezer repair, Dubai refrigerator repair, Fridge service Dubai, Appliance repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/services/home-appliances-repair/refrigerator-repair-service/").replace(/\/?$/, '/');
@@ -471,10 +471,9 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Expert Refrigerator and Freezer, Fridge Service Center Near You</h1>
+            <h1 className="cs_fs_30">Trusted Fridge Repair, Freezer Maintenance and Refrigerator Service in Dubai</h1>
             <p>
-              Since 2010, FAJ has established itself as the go-to reference for refrigerator, freezer and fridge repair near me service in Dubai and Sharjah. We prioritise <a href="https://www.facebook.com/reel/754451204389736">refrigerator repair</a> near you over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
-              Rely on our experienced experts for fast and reliable <a href="https://www.instagram.com/reels/DW8Nd38AotP/">refrigerator maintenance</a> in Dubai!
+              Since 2010, FAJ has established itself as the go-to reference for refrigerator repair, freezer maintenance and fridge repair near me in Dubai and Sharjah. We prioritise <a href="https://www.facebook.com/reel/754451204389736">refrigerator repair</a> near you over replacements, helping you save money and avoid the bother of buying a new fridge or freezer. Rely on our experienced experts for fast and reliable <a href="https://www.instagram.com/reels/DW8Nd38AotP/">refrigerator maintenance</a> in Dubaia!
             </p>
 
             <div id="get-quote" className=" mt-3">

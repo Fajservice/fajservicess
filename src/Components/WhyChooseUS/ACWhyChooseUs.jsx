@@ -16,7 +16,7 @@ const WhyChooseUS = () => (
             </div>
             <div className="usptext">
               <h3>Reliable, Priority, and Quick</h3>
-              <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly.</p>
+              <p>You can count on <b>efficient service</b>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly.</p>
             </div>
           </div>
           <div className="uspitem">
@@ -75,7 +75,7 @@ const WhyChooseUS = () => (
             </div>
             <div className="usptext">
               <h3>Trustworthy</h3>
-              <p>Our <a href="https://www.facebook.com/acrepairservices"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.</p>
+              <p>Our <b>skilled AC technicians</b> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.</p>
             </div>
           </div>
         </div>

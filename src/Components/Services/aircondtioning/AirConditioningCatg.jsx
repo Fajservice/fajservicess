@@ -115,7 +115,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
         {/* Section 1 - Intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Top-Rated Air Conditioning Maintenance, Repair, and Service Company in Dubai and Sharjah, UAE</h1>
+            <h1 className="cs_fs_30">Top-Rated Air Conditioning Maintenance, Repair, and Services Company in Dubai, UAE</h1>
             <p>FAJ Technical Services L.L.C. is a leading provider of air conditioning installation, repair, and maintenance services in Dubai. We offer comprehensive solutions to keep your facility cool in the summer and warm in the winter. With experience since 2010, we ensure your Air Conditioning systems operate at optimum energy efficiency. Our services help reduce the possibility of breakdowns, ultimately saving you money and time.</p>
 
             <div id="get-quote" className="mt-3">
@@ -130,7 +130,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
         {/* Section 2*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30 text-center mb-4">Commercial Air Conditioning Maintenance Services in Dubai</h2>
+            <h2 className="cs_fs_30 text-center mb-4">Best Commercial Air Conditioning Maintenance Services in Dubai</h2>
             <div className="row align-items-center">
               <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                 <div className="service-image-wrapper">
@@ -172,7 +172,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
         <section className="section cs_py_30">
           <div className="container">
             {/* Heading - Centered on Top */}
-            <h2 className="cs_fs_30 text-center mb-4">Domestic Air Conditioning Maintenance Service in Dubai</h2>
+            <h2 className="cs_fs_30 text-center mb-4">Professional Air Conditioning Maintenance Service in Dubaia</h2>
             <div className="row align-items-center">
               {/* Text Column - Right */}
               <div className="col-12 col-lg-7">

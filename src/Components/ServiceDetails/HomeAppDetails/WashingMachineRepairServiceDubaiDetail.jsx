@@ -100,9 +100,9 @@ const LazyYouTube = ({ videoId, title }) => {
 
 const WashingMachineRepairServiceDubaiDetail = ({titleSeo, description,Author,Keyword,URL,Image,subtitle,titlereview,reviewsbg
 }) => {
-  const metaTitle = String(titleSeo || "Best Washing Machine Repair & Maintenance Services in Dubai");
+  const metaTitle = String(titleSeo || "Best Washing Machine Repair and Maintenance Services in Dubai");
 
-  const metaDescription = String(description || "Trusted washing machine repair and service in Dubai. FAJ is an expert in washer dryer & laundry maintenance, service center near you تصليح غسالات في دبي");
+  const metaDescription = String(description || "Fast washing machine repair and service in Dubai. FAJ is an expert in automatic washer dryer service center and laundry maintenance تصليح غسالات في دبي ");
 
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
 
@@ -436,8 +436,8 @@ const schema ={
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Top Quality Washing Machine Repair and Service Center Near You, Dubai</h1>
-            <p>Since 2010, FAJ Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai and Sharjah.<br />Our experts are here to assist with any issues, from top-loading and front-loading <a href="https://www.facebook.com/reel/1330933318889112">washing machine repair</a> and service near you. You can trust us to keep your washing machine running smoothly.<br /> You can rely on us for both routine repairs and <a href="https://pin.it/4El6wXacY">emergency washing machine service</a>. Contact us now for reliable services at competitive prices!</p>
+            <h1 className="cs_fs_30">Affordable Washing Machine Repair and Maintenance Service in Dubai</h1>
+            <p>Since 2010, FAJ Technical Services L.L.C has offered reliable washing machine installation, washer dryer & laundry machine maintenance, and washing machine repair for all brands of washing machines, dryers, and laundry equipment in Dubai and Sharjah.<br/>Our experts are here to assist with any issues, from top-loading, front-loading  automatic <a href="https://www.facebook.com/reel/1330933318889112">washing machine repair</a> and service near you. You can trust us to keep your washing machine running smoothly.<br/>You can rely on us for both routine professional repairs and <a href="https://pin.it/4El6wXacY">washing machine service</a>. Contact us now for reliable services at competitive prices!</p>
 
             <div id="get-quote" className="mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">

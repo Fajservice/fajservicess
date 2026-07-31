@@ -471,6 +471,10 @@ const urls = [
   { loc: "/blog/how-to-survive-the-hottest-summer-in-uae-dubai-2026/"},
   { loc: "/blog/how-an-annual-ac-maintenance-contract-saves-you-money/"},
   { loc: "/blog/why-your-ac-is-not-cooling-top-10-causes-expert-fixes/" },
+  { loc: "/blog/a-complete-guide-on-washing-machine-service/"},
+  { loc: "/blog/what-is-an-ac-filter-a-complete-guide-2026/"},
+  { loc: "/blog/how-to-find-genuine-appliances-spare-parts-in-the-uae/"},
+  { loc: "/blog/how-to-fix-a-vacuum-cleaner-a-step-by-step-guide/"},
   { loc: "/services/air-conditioning-repair/\u062a\u0635\u0644\u064a\u062d-\u0645\u0643\u064a\u0641\u0627\u062a-\u0627\u0644\u0647\u0648\u0627\u0621-\u062e\u062f\u0645\u0629-\u0648\u0635\u064a\u0627\u0646\u0629-\u062f\u0628\u064a/" },
 
   { loc: "/orphan/" },

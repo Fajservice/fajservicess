@@ -1,26 +1,35 @@
 {
-  "success": [],
-  "failed": [
+  "success": [
     {
-      "originalPath": "blog/best-ac-maintenance-tips-hot-summer-dubai-2026",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
+      "originalPath": "blog/complete-guide-washing-machine-service",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/complete-guide-washing-machine-service/large",
+      "id": "blog/complete-guide-washing-machine-service",
+      "success": true
     },
     {
-      "originalPath": "blog/survive-hottest-summer-uae-dubai-2026",
-      "error": [
-        {
-          "code": 5409,
-          "message": "Resource already exists. Verify the resource information and try again."
-        }
-      ],
-      "success": false
+      "originalPath": "blog/how-to-find-genuine-appliances-spare-parts-uae",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/how-to-find-genuine-appliances-spare-parts-uae/tablet",
+      "id": "blog/how-to-find-genuine-appliances-spare-parts-uae",
+      "success": true
+    },
+    {
+      "originalPath": "blog/how-to-fix-a-vacuum-cleaner-step-by-step-guide",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/how-to-fix-a-vacuum-cleaner-step-by-step-guide/public",
+      "id": "blog/how-to-fix-a-vacuum-cleaner-step-by-step-guide",
+      "success": true
+    },
+    {
+      "originalPath": "blog/what-is-an-ac-filter-complete-guide",
+      "cdnUrl": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/what-is-an-ac-filter-complete-guide/public",
+      "id": "blog/what-is-an-ac-filter-complete-guide",
+      "success": true
     }
   ],
-  "mapping": {}
+  "failed": [],
+  "mapping": {
+    "blog/complete-guide-washing-machine-service": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/complete-guide-washing-machine-service/large",
+    "blog/how-to-find-genuine-appliances-spare-parts-uae": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/how-to-find-genuine-appliances-spare-parts-uae/tablet",
+    "blog/how-to-fix-a-vacuum-cleaner-step-by-step-guide": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/how-to-fix-a-vacuum-cleaner-step-by-step-guide/public",
+    "blog/what-is-an-ac-filter-complete-guide": "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/blog/what-is-an-ac-filter-complete-guide/public"
+  }
 }
