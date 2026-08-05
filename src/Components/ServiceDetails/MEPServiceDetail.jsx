@@ -43,15 +43,15 @@ const EyeSlashIcon = () => (
   </svg>
 );
 
-const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const MEPServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
   const metaImage = "https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA/technicians-adjusting-water-pressure-pump/public";
-  const metatitle = String(titleSeo || "Best Plumbing Services in Dubai | Plumbing Work Near You, Dubai");
-  const metadescription = String(description || "Looking for professional plumbing services near you, in Dubai? We offer water leak fixing, water pump repair & replacement at an affordable price");
+  const metatitle = String(titleSeo || "Best MEP Services | MEP Companies & Contractors in Dubai");
+  const metadescription = String(description || "We are your trusted company, offering top MEP services in Dubai. Get installation and maintenance that provide innovative & cost-effective MEP solutions");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "plumbing services in dubai, plumbing work near me, water leak fixing, water pump repair, water pump replacement, plumbing maintenance, emergency plumbing services, affordable plumbing services");
-  const metaURL = String(URL || "https://www.fajservices.ae/services/plumbing-services-in-dubai/");
+  const metaKeyword = String(Keyword || "MEP services in dubai, MEP work near me, water leak fixing, water pump repair, water pump replacement, MEP maintenance, emergency MEP services, affordable MEP services");
+  const metaURL = String(URL || "https://www.fajservices.ae/services/mep-services-in-dubai/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -88,8 +88,8 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
     const fetchData = async () => {
       try {
         const [faqsResponse, testimonialsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/PlumbingServiceFAQs.json`),
-           fetch(`${import.meta.env.BASE_URL}data/ElectricalPlumbingServicesTestimonials.json`),
+          fetch(`${import.meta.env.BASE_URL}data/MEPServiceFAQs.json`),
+           fetch(`${import.meta.env.BASE_URL}data/MEPServicesTestimonials.json`),
         ]);
 
         const faqsData = await faqsResponse.json();
@@ -138,8 +138,8 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Professional Plumbing Services and Water Pump Repair Near You in Dubai</h1>
-            <p>We all depend on having hot and cold running water readily available, which is why plumbing issues can quickly disrupt our daily routines. <br /> Finding an efficient and <a href="https://www.google.com/search?q=faj+technical+services+llc&num=10&sca_esv=11b517be6cd30da4&authuser=2&sxsrf=ANbL-n6H7y6_YeayVdY9KQn7LrKLmNm3dw%3A1775559210000&source=hp&ei=KeLUacWVOs7I1sQPtoawmAY&iflsig=AFdpzrgAAAAAadTwOuqxN88WumrS3mR2Ct-RzMS1zp_6&gs_ssp=eJwFwUEOQDAQAMC4SnzAqRdnW7SyfYJfrLWoNo0gUr83U1bt1mp9hoQh4geFayD3YlaLSBaAWGR2kMnqTs-dWYwZiXCY6pUO9QjvyTNFdcv1epZbxcg_6LMZjQ&oq=&gs_lp=Egdnd3Mtd2l6IgAqAggAMg0QLhjHARgnGOoCGK8BMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMg0QIxjwBRgnGOoCGJ4GMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSJELUABYAHACeACQAQCYAQCgAQCqAQC4AQHIAQCYAgKgAhCoAgqYAwvxBbkrwqiUHvHAkgcBMqAHALIHALgHAMIHBTItMS4xyAcNgAgA&sclient=gws-wiz#lpstate=pid:1489398280092926303">professional plumbing service</a> is important, as your water system is important not only for your home comfort but also for your health and safety.<br />While plumbing rules in Dubai are generally strict, they are not always followed. To avoid costly plumbing repairs, delays, and potentially unsafe situations, it is essential to ensure that only fully cost-effective and the <a href="https://www.fajservices.ae/our-portfolio/">best expert plumbers</a> in Dubai are charged with any plumbing work in your home or property.</p>
+            <h1 className="cs_fs_30">Professional MEP Services and Water Pump Repair Near You in Dubai</h1>
+            <p>We all depend on having hot and cold running water readily available, which is why MEP issues can quickly disrupt our daily routines. <br /> Finding an efficient and <a href="https://www.google.com/search?q=faj+technical+services+llc&num=10&sca_esv=11b517be6cd30da4&authuser=2&sxsrf=ANbL-n6H7y6_YeayVdY9KQn7LrKLmNm3dw%3A1775559210000&source=hp&ei=KeLUacWVOs7I1sQPtoawmAY&iflsig=AFdpzrgAAAAAadTwOuqxN88WumrS3mR2Ct-RzMS1zp_6&gs_ssp=eJwFwUEOQDAQAMC4SnzAqRdnW7SyfYJfrLWoNo0gUr83U1bt1mp9hoQh4geFayD3YlaLSBaAWGR2kMnqTs-dWYwZiXCY6pUO9QjvyTNFdcv1epZbxcg_6LMZjQ&oq=&gs_lp=Egdnd3Mtd2l6IgAqAggAMg0QLhjHARgnGOoCGK8BMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMg0QIxjwBRgnGOoCGJ4GMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSJELUABYAHACeACQAQCYAQCgAQCqAQC4AQHIAQCYAgKgAhCoAgqYAwvxBbkrwqiUHvHAkgcBMqAHALIHALgHAMIHBTItMS4xyAcNgAgA&sclient=gws-wiz#lpstate=pid:1489398280092926303">professional MEP service</a> is important, as your water system is important not only for your home comfort but also for your health and safety.<br />While MEP rules in Dubai are generally strict, they are not always followed. To avoid costly MEP repairs, delays, and potentially unsafe situations, it is essential to ensure that only fully cost-effective and the <a href="https://www.fajservices.ae/our-portfolio/">best expert plumbers</a> in Dubai are charged with any MEP work in your home or property.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3 flex-wrap">
@@ -153,21 +153,19 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1 text-left mt-0">Why choose FAJ Technical Services L.L.C for plumbing services?</h2>
-                <p className="mb-1"><strong>We possess in-depth knowledge of the plumbing systems in Dubai</strong></p>
-                <p className="mb-0"><a href="https://maps.app.goo.gl/3ErL8pKCJLLERkrG8">FAJ Technical Services L.L.C</a> was established in 2010 as a licensed company set to provide <a href="https://youtube.com/shorts/535QgUE72bk?feature=share">professional plumbing services</a> to local communities. This experience means we know what to expect before we reach you.</p>
-                <p className="mb-0">We also offer plumbing maintenance in Dubai, which we strongly recommend as a preventative action.</p>
-                <p className="mb-1"><strong>We are fully ready to handle plumbing emergencies.</strong></p>
+                <h2 className="cs_fs_24 mb-1 text-left mt-0">Why choose FAJ Technical Services L.L.C for MEP services?</h2>
+                <p className="mb-1"><strong>We possess in-depth knowledge of the MEP systems in Dubai</strong></p>
+                <p className="mb-0"><a href="https://maps.app.goo.gl/3ErL8pKCJLLERkrG8">FAJ Technical Services L.L.C</a> was established in 2010 as a licensed company set to provide <a href="https://youtube.com/shorts/535QgUE72bk?feature=share">professional MEP services</a> to local communities. This experience means we know what to expect before we reach you.</p>
+                <p className="mb-0">We also offer MEP maintenance in Dubai, which we strongly recommend as a preventative action.</p>
+                <p className="mb-1"><strong>We are fully ready to handle MEP emergencies.</strong></p>
                 <p className="mb-0">We regularly provide replacement parts gratitude to our dedicated warehouse and reliable supplier connections. A quick response to emergencies can significantly lower your DEWA (water) bills!</p>
                 <p className="mb-1"><strong>We provide a comprehensive warranty on both our services and parts.</strong></p>
                 <p className="mb-0">We take pride in our work and are confident that we have the best plumbers in Dubai. We offer a 3-month service warranty.</p>
-                <p className="mb-0">Our exercise in plumbing regulations and standards, combined with our post-service quality warranty, ensures that your long-term satisfaction is always our top priority.</p>
+                <p className="mb-0">Our exercise in MEP regulations and standards, combined with our post-service quality warranty, ensures that your long-term satisfaction is always our top priority.</p>
               </div>
 
               <div className="col-md-6 ">
-
                 <img className="bordered-img w-100" src={getImageSrc('technicians-adjusting-water-pressure-pump')} alt="FAJ Technical Services L.L.C" />
-
               </div>
             </div>
 
@@ -177,13 +175,13 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
         <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0 text-light">BENEFITS OF PROFESSIONAL PLUMBING SERVICES</h2>
-              <p className="mb-2 text-light">Reliable plumbing services can help prevent your day from being a disaster. Choosing a <a href="https://www.instagram.com/fajtechnicalservicesllc/">low cost plumber</a> in Dubai often leads to a compromise on quality, resulting in the need for multiple follow-up visits without a proper solution. This is why you should choose to work with us instead:</p>
+              <h2 className="cs_fs_30 mb-0 text-light">BENEFITS OF PROFESSIONAL MEP SERVICES</h2>
+              <p className="mb-2 text-light">Reliable MEP services can help prevent your day from being a disaster. Choosing a <a href="https://www.instagram.com/fajtechnicalservicesllc/">low cost plumber</a> in Dubai often leads to a compromise on quality, resulting in the need for multiple follow-up visits without a proper solution. This is why you should choose to work with us instead:</p>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-3 mb-2 mt-2">
                   <div className="benifit-box-container pt-2">
-                      <h3 className="text-uppercase mb-2 cs_fs_16">Avoid Costly Plumbing Repair Work</h3>
-                      <p className="small">Plumbing problems nearly always worsen over time, and the damage can be devastating. Fixing an issue as soon as it is detected can save you money and prevent unnecessary stress.</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_16">Avoid Costly MEP Repair Work</h3>
+                      <p className="small">MEP problems nearly always worsen over time, and the damage can be devastating. Fixing an issue as soon as it is detected can save you money and prevent unnecessary stress.</p>
                     </div>
                 </div>
                 <div className="col-md-3 mb-2 mt-2">
@@ -202,7 +200,7 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                 <div className="col-md-3 mb-2 mt-2">
                     <div className="benifit-box-container pt-2">
                       <h3 className="text-uppercase mb-2 cs_fs_16">All-Around Peace of Mind</h3>
-                      <p className="small">Whether it’s a dripping tap or a blast pipe, plumbing or water motor pump issues can be very disruptive, no matter their size. To relax in comfort and safety, make sure to have both minor and major problems resolved quickly by the best plumbers in Dubai.</p>
+                      <p className="small">Whether it’s a dripping tap or a blast pipe, MEP or water motor pump issues can be very disruptive, no matter their size. To relax in comfort and safety, make sure to have both minor and major problems resolved quickly by the best plumbers in Dubai.</p>
                     </div>
                 </div>
               </div>
@@ -211,7 +209,7 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
         </section>
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="text-center">Most Common Plumbing Problems</h2>
+            <h2 className="text-center">Most Common MEP Problems</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -228,10 +226,10 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Blocked Water Drains</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Clogged Filters and Coils</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Blockages from hair, grease, soap scum, or foreign objects are common reasons for a plumber's visit, whether in the kitchen or bathroom.
+                    <p className="p-2 mb-0">Dust and sand buildup limit airflow, lower cooling efficiency, and spike DEWA utility bills.
                     </p>
                   </div>
                 </div>
@@ -240,10 +238,10 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaky Toilets </h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tripping Breakers</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A continuously running toilet can waste hundreds of liters daily, usually due to a faulty flapper valve, float, or fill mechanism.</p>
+                    <p className="p-2 mb-0">High power loads from running multiple appliances overload old or loose circuit panels.</p>
                   </div>
                 </div>
               </div>
@@ -252,10 +250,10 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Low Water Pressure</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Pipe Corrosion and Leaks</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Low water pressure can be frustrating and may indicate larger issues, often caused by sediment build-up, pipe corrosion, or hidden leaks.
+                    <p className="p-2 mb-0">Hard water accelerates pipe wear, causing hidden leaks behind walls and ceilings.
                     </p>
                   </div>
                 </div>
@@ -298,10 +296,10 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Clogged and Overflowing Toilets</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Low Water Pressure</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A necessary and urgent issue, often caused by blockages in the trap, offset toilet connector, or main sewer line.</p>
+                    <p className="p-2 mb-0"> Mineral buildup in faucet aerators or failing booster pumps restricts smooth water flow.</p>
                   </div>
                 </div>
               </div>
@@ -407,7 +405,7 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
         <MaintenanceContract />
 
         {/* testimobial section */}
-        {/* {!isLoading && testimonial_data.length > 0 && (
+        {!isLoading && testimonial_data.length > 0 && (
           <Testimonial1
             subtitle="What Our Clients Say"
             title="Customer <span>Reviews</span>"
@@ -415,7 +413,7 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
             testimonialData={testimonial_data}
             sectionId="home-testimonials"
           />
-        )} */}
+        )}
          <section className="section cs_py_30 bg-dark-blue text-light">
           <Serviceappointemnt
           subtitle2="Contact us"
@@ -475,17 +473,13 @@ const PlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </section>
-
-       
-
       </div >
     </>
 
   );
 };
 
-export default PlumbingServiceDetail;
+export default MEPServiceDetail;

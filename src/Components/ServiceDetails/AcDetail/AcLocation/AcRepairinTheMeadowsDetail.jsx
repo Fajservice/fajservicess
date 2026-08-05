@@ -134,7 +134,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Top-Rated AC Repair Service and Maintennce in The Meadows, Dubai</h1>
+                        <h1 className="cs_fs_30">Top-Rated AC Repair Service and Maintenance in The Meadows, Dubai</h1>
 
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/soNMACLuaHwdCzKx7"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me The Meadows, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>

@@ -212,9 +212,9 @@ const coffeemachineServicesData = [
       id: 1,
       image: getImageSrc('coffee-machine-service'),
  
-      title: 'Coffee Machine Inspection',
+      title: 'Coffee Machine Technical Inspection Price',
       icon: getImageSrc('calloutcard'),
-      price: 'AED230',
+      price: 'AED280',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty coffee machine, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Home%20Appliances%20Call-Out',
@@ -236,7 +236,7 @@ const coffeemachineServicesData = [
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 230, callout fee applies based on the type, brand, capacity of the coffee machine unit, and location for each diagnosis.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 280, callout fee applies based on the type, brand, capacity of the coffee machine unit, and location for each diagnosis.'
         },
         
       ]
@@ -248,7 +248,7 @@ const coffeemachineServicesData = [
       warranty: '50- Days Warranty',
       title: 'Coffee Machine Cleaning',
       icon: getImageSrc('coffeemachinecleaning'),
-      price: 'AED395',
+      price: 'AED465',
       arrow: getImageSrc('iconreadmore'),
       description: 'Book reliable coffee machine cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20Home%20Appliances%20Cleaning',
@@ -271,7 +271,7 @@ const coffeemachineServicesData = [
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
          {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AAED 395 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AAED 465 fee applies based on the Capacity: Based on Type, Model, and Area for each unit.'
         },
       ]
     },

@@ -386,7 +386,7 @@ const GALLERY_ITEMS = [
                         <img src={getImageSrc('icon/extending')} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_16">Extending Appliance Lifespan</h3>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home Home Appliances, delaying the need for replacements.</p>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your Home Appliances, delaying the need for replacements.</p>
 
                     </div>
 

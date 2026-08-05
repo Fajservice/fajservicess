@@ -30,12 +30,13 @@ const EyeIcon = ({ open }) => (
 const Accordion = ({ data, initialCount = 5 }) => {
   const [openItemIndex, setOpenItemIndex] = useState(null);
   const [showAll, setShowAll] = useState(false);
+  const items = Array.isArray(data) ? data : [];
 
   const handleItemClick = (index) => {
     setOpenItemIndex(openItemIndex === index ? null : index);
   };
 
-  const visibleData = showAll ? data : data.slice(0, initialCount);
+  const visibleData = showAll ? items : items.slice(0, initialCount);
 
   return (
     <div className="cs_accordians_wrapper cs_style_1 p-0 gap-0">
@@ -61,7 +62,7 @@ const Accordion = ({ data, initialCount = 5 }) => {
                 <p
                   className="mb-0"
                   dangerouslySetInnerHTML={{
-                    __html: item.desc.replace(/\n/g, "<br>"),
+                    __html: String(item.desc || "").replace(/\n/g, "<br>"),
                   }}
                 ></p>
               </div>
@@ -70,7 +71,7 @@ const Accordion = ({ data, initialCount = 5 }) => {
         );
       })}
 
-      {data.length > initialCount && (
+      {items.length > initialCount && (
         <div className="text-center mt-3">
           <button
             className="button-get-help"

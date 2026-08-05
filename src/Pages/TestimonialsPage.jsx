@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import data from "../../public/data/testimonial1.json";
 
-const TestimonialsPage = ({ titleSeo, description, Author, Keyword, URL }) => {
+const TestimonialsPage = ({ titleSeo, description, Author, Keyword, URL, Image }) => {
     // For SEO
     const metatitle = String(titleSeo || "Testimonials: Our Client's Experiences | FAJ Technical Dubai");
     const metadescription = String(description || "Find out what our customers are expressing regarding their experiences with FAJ. Read testimonial to see how we exceed expectations with our services.");
