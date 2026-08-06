@@ -57,6 +57,7 @@ const urls = [
   { loc: "/services/coffee-machine/" },
   { loc: "/services/coffee-machine/coffee-machine-service-center/", priority: "0.90" },
   { loc: "/services/coffee-machine/coffee-machine-repairs/" },
+  { loc: "/services/mep-services-in-dubai/", priority: "0.90" },
 
   { loc: "/services/kitchen-equipment-maintenance/" },
   { loc: "/services/kitchen-equipment-maintenance/commercial-cooking-appliances-repair-service/" },

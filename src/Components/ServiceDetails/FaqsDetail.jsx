@@ -8,6 +8,15 @@ import HeaderForm from "../../Components/Headeform/HeaderForm";
 import Accordion from "../../Components/Common/Accordion.jsx";
 const CDN = 'https://imagedelivery.net/7jVKF8FS0aEmjeSSRZqLyA';
 
+const fetchJson = async (path) => {
+  const response = await fetch(`${import.meta.env.BASE_URL}${path}`);
+  if (!response.ok) {
+    throw new Error(`Failed to load ${path}: ${response.status}`);
+  }
+  const data = await response.json();
+  return Array.isArray(data) ? data : [];
+};
+
 const getImageSrc = (imgPath) => {
   if (!imgPath) return '';
   if (imgPath.startsWith('https')) return imgPath;
@@ -74,28 +83,23 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [
-          acResponse,
-          washingResponse,
-          refrigeratorResponse,
-          dishwasherResponse,
-          robotvacuumResponse,
-          coffeemachineResponse
-        ] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcRepairFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/WashingmachineRepairServiceFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/HomeappRefrigeratorServicefaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/DishwasherRepairFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/HomeAppData/FAQs/VacuumCleanerHomeappFaqs.json`),
-          fetch(`${import.meta.env.BASE_URL}data/coffeemachinesserviceFaqs.json`)
+        const results = await Promise.allSettled([
+          fetchJson("data/AcData/AcFaqs/AcRepairFaqs.json"),
+          fetchJson("data/HomeAppData/FAQs/WashingmachineRepairServiceFaqs.json"),
+          fetchJson("data/HomeAppData/FAQs/HomeappRefrigeratorServicefaqs.json"),
+          fetchJson("data/HomeAppData/FAQs/DishwasherRepairFaqs.json"),
+          fetchJson("data/HomeAppData/FAQs/VacuumCleanerHomeappFaqs.json"),
+          fetchJson("data/coffeemachinesserviceFaqs.json")
         ]);
 
-        const acData = await acResponse.json();
-        const washingData = await washingResponse.json();
-        const refrigeratorData = await refrigeratorResponse.json();
-        const dishwasherData = await dishwasherResponse.json();
-        const robotvacuumData = await robotvacuumResponse.json();
-        const coffeemachineData = await coffeemachineResponse.json();
+        const [
+          acData,
+          washingData,
+          refrigeratorData,
+          dishwasherData,
+          robotvacuumData,
+          coffeemachineData
+        ] = results.map((result) => result.status === "fulfilled" ? result.value : []);
 
         setAcdata(acData);
         setWashingdata(washingData);

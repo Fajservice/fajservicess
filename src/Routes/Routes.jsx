@@ -90,6 +90,10 @@ export const router = createBrowserRouter([
         element: <Components.PlumbingService />,
       },
       {
+        path: "/services/mep-services-in-dubai/",
+        element: <Components.MEPService />,
+      },
+      {
         path: "/services/electrical-services-in-dubai/",
         element: <Components.ElectricalService />,
       },

@@ -37,9 +37,9 @@ const IntegeratedServicesData = [
     {
       id: 1,
       image: getImageSrc('applycalouthome'),
-      title: 'Inspection / Check-Up Cost',
+      title: 'Technical Inspection Price',
       icon: getImageSrc('calloutcard'),
-      price: 'AED135',
+      price: 'AED165',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
@@ -61,7 +61,7 @@ const IntegeratedServicesData = [
           paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.'
         },
         {
-          paragraph: '**Terms & Conditions:** <br> *Starting from AED 135, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
+          paragraph: '**Terms & Conditions:** <br> *Starting from AED 165, callout fee applies based on the type, brand, capacity of the appliance unit, and location for each diagnosis.'
         },
       ]
     },
@@ -71,7 +71,7 @@ const IntegeratedServicesData = [
       warranty: '50- Days Warranty',
       title: 'Appliance Cleaning',
       icon: getImageSrc('cleaningcard'),
-      price: 'AED230',
+      price: 'AED340',
       arrow: getImageSrc('iconreadmore'),
       description: 'Book reliable appliance cleaning professionals for your equipment. Our teams offer competitive pricing & limited-time availability across Dubai.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=Basic%20ACCleaning',

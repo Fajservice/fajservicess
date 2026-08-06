@@ -172,7 +172,7 @@ const AirConditioningCatg = ({ subtitle, title, reviewsbg, titleSeo, description
         <section className="section cs_py_30">
           <div className="container">
             {/* Heading - Centered on Top */}
-            <h2 className="cs_fs_30 text-center mb-4">Professional Air Conditioning Maintenance Service in Dubaia</h2>
+            <h2 className="cs_fs_30 text-center mb-4">Professional Air Conditioning Maintenance Service in Dubai</h2>
             <div className="row align-items-center">
               {/* Text Column - Right */}
               <div className="col-12 col-lg-7">
