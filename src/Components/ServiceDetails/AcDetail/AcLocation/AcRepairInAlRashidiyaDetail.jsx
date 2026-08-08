@@ -105,7 +105,7 @@ const AcRepairInAlRashidiyaDetail = ({
 			try {
 				const [faqsResponse, testimonialsResponse] = await Promise.all([
 					fetch(
-						`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlQusais.json`,
+						`${import.meta.env.BASE_URL}data/AcData/AcFaqs/AcLocation/AcRepairInAlRashidiya.json`,
 					),
 					fetch(
 						`${import.meta.env.BASE_URL}data/AcData/AcTestimonial/AcServiceTestimonials.json`,
