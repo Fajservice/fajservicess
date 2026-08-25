@@ -473,7 +473,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
           <div className="container">
             <h1 className="cs_fs_30">Trusted Fridge Repair, Freezer Maintenance and Refrigerator Service in Dubai</h1>
             <p>
-              Since 2010, FAJ has established itself as the go-to reference for refrigerator repair, freezer maintenance and fridge repair near me in Dubai and Sharjah. We prioritise <a href="https://www.facebook.com/reel/754451204389736">refrigerator repair</a> near you over replacements, helping you save money and avoid the bother of buying a new fridge or freezer. Rely on our experienced experts for fast and reliable <a href="https://www.instagram.com/reels/DW8Nd38AotP/">refrigerator maintenance</a> in Dubaia!
+              Since 2010, FAJ has established itself as the go-to reference for refrigerator repair, freezer maintenance and fridge repair near me in Dubai and Sharjah. We prioritise <a href="https://www.facebook.com/reel/754451204389736">refrigerator repair</a> near you over replacements, helping you save money and avoid the bother of buying a new fridge or freezer. Rely on our experienced experts for fast and reliable <a href="https://www.instagram.com/reels/DW8Nd38AotP/">refrigerator maintenance</a> in Dubai!
             </p>
 
             <div id="get-quote" className=" mt-3">
