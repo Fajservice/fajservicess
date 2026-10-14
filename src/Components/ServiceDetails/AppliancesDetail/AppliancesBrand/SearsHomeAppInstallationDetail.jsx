@@ -705,7 +705,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           <div className="container">
             <DaiganosisCharges
               appliancebrand="Sears Appliance"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             <h3>We specialize in Sears appliance services of the following types</h3>
             <div className="row">

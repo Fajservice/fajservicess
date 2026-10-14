@@ -274,7 +274,7 @@ const coffeemachineServicesData = [
             'Coffee Brewer Installation',
             'Coffee Grinder Installation',
             'Coffee Machine Installation',
-            'Vedning Machine Installation',
+            'Vending Machine Installation',
             'Automatic Coffee Machine Installation',
             'Commercial Coffee Machine Installation',
           ]

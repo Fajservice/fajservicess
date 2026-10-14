@@ -682,7 +682,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <div className="container">
             <DaiganosisCharges
               appliancebrand="LA GERMANIA"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             {/* <h3>We specialize </h3> */}
             <div className="row">

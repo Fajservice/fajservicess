@@ -721,7 +721,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
           <div className="container">
             <DaiganosisCharges
               appliancebrand="Liebherr Appliance"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             <div className="row">
               <div className="col-12">

@@ -36,7 +36,7 @@ const PriceCardHomeCat = ({ services = [] }) => {
       image: getImageSrc('applycalouthome'),
       title: 'Inspection / Check-Up Cost',
       icon: getImageSrc('calloutcard'),
-      price: 'AED157',
+      price: 'AED173',
       arrow: getImageSrc('iconreadmore'),
       description: 'Just tell us about your faulty appliance, and we will provide a quote for repair / parts. Our technician will arrive at a time that is suitable for you.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',

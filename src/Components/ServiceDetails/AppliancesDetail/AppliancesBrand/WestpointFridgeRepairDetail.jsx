@@ -732,7 +732,7 @@ const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <div className="container">
             <DaiganosisCharges  
               appliancebrand="Westpoint Appliance" 
-              feeRange="ranging from AED 157 to 280" 
+              feeRange="ranging from AED 173 to 280" 
             />
             <h3 className="cs_fs_28">We specialize in Westpoint appliance services of the following types</h3>
             <div className="row">

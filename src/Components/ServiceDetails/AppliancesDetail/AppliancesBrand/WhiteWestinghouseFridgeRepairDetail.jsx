@@ -722,7 +722,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
           <div className="container">
             <DaiganosisCharges
               appliancebrand="White Westinghouse Appliance"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             <h3 style={{ fontSize: "25px" }}>We specialize in White Westinghouse appliance services of the following types</h3>
             <div className="row">

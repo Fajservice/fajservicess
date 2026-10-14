@@ -837,7 +837,7 @@ const speedServicesData = [
           <div className="container">
             <DaiganosisCharges
               appliancebrand="Speed Queen Appliance"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             <div className="row">
               <div className="col-12">

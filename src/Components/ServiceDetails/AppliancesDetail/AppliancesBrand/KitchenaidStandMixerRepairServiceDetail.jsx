@@ -687,7 +687,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
           <div className="container">
             <DaiganosisCharges
               appliancebrand="KITCHENAID APPLIANCES"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             {/* <h3>We specialize </h3> */}
             <div className="row">

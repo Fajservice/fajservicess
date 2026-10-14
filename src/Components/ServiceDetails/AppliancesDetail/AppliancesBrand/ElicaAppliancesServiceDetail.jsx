@@ -656,7 +656,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="container">
             <DaiganosisCharges
               appliancebrand="Elica appliance"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             <h3>We specialize in Elica appliance services of the following types</h3>
             <div className="row">

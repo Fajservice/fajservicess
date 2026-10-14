@@ -595,7 +595,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                     <div className="container">
                         <DaiganosisCharges
                             appliancebrand="Foster Appliance"
-                            feeRange="ranging from AED 157 to 280"
+                            feeRange="ranging from AED 173 to 280"
                         />
                         <h3>We specialize in Foster appliance services of the following types</h3>
                         <div className="row">

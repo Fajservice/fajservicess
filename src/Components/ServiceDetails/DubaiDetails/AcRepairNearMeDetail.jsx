@@ -163,7 +163,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </p>
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>EXPRESS & EMERGENCY AC REPAIR SERVICE</h2>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320, depending on the capacity for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 215 to 320, depending on the capacity for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">CHOOSE FAJ FOR YOUR PEACE OF MIND</h3>
                 <p><b>We provide 2-month service warranty</b><br />
                   and 3-month parts warranty as standard.

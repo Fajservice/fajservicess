@@ -770,7 +770,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <div className="container">
             <DaiganosisCharges
               appliancebrand="BERTAZZONI APPLIANCE"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             <h3>We specialize in BERTAZZONI APPLIANCE services of the following types</h3>
             <div className="row">

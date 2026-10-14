@@ -71,7 +71,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL, Image 
                             <li>Please note that the booking cannot be cancelled or amended during or after the provision of cleaning services.</li>
                             <li>FAJ Technical Services L.L.C has the right to cancel or reschedule a service if unforeseen circumstances affect the assigned team.</li>
                             <li>Requests to reschedule or cancel (limited to one time per booking) made with less than 48 hours' notice but more than 24 hours' notice can be accommodated without additional cost.</li>
-                            <li>If you provide less than 24 hours' notice, a charge of AED 157 will be incurred.</li>
+                            <li>If you provide less than 24 hours' notice, a charge of AED 173 will be incurred.</li>
                             </ul>
                              <h3 className="cs_fs_14 my-2">Payments</h3>
                             <ul className="mb-3">

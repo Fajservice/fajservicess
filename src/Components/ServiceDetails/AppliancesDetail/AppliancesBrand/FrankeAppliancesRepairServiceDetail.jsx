@@ -624,7 +624,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
           <div className="container">
             <DaiganosisCharges
               appliancebrand="Franke Appliance"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             <h3>We specialize in  Franke appliance services of the following types</h3>
             <div className="row">

@@ -831,7 +831,7 @@ const subzeroServicesData = [
           <div className="container">
             <DaiganosisCharges
               appliancebrand="Sub Zero Appliance"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             {/* <h3>We specialize in SUB ZERO appliance services of the following types</h3> */}
             <div className="row">

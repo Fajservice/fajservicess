@@ -629,7 +629,7 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <DaiganosisCharges
                 appliancebrand="Gibson Appliance"
-                feeRange="ranging from AED 157 to 280"
+                feeRange="ranging from AED 173 to 280"
             />
             <h3>We specialize in Gibson appliance services of the following types</h3>
             <div className="row">

@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-
+const CF_ACCOUNT_ID = '513a1be78e7b9d8a6d8553ab26e8ad99';
+const CF_API_TOKEN = 'cfut_hW56bYDFBHYDxmMwRJwvEvWt4NAjsW3UJlj9SQpl2738b8ac';
 
 const IMAGES_FOLDER = './public/img';
 

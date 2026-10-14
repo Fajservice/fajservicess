@@ -709,7 +709,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 					<div className="container">
 						<DaiganosisCharges
 							appliancebrand="Blomberg Appliance"
-							feeRange="ranging from AED 157 to 280"
+							feeRange="ranging from AED 173 to 280"
 						/>
 						<h3>We specialize in Blomberg appliance services of the following types</h3>
 						<div className="row">

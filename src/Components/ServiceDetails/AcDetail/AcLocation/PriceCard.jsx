@@ -42,7 +42,7 @@ const PriceCard = () => {
       image: getImageSrc('calloutprice'),
       title: 'AC Inspection Service',
       icon: getImageSrc('accalll'),
-      price: 'AED195',
+      price: 'AED215',
       arrow: getImageSrc('iconreadmore'),
       description: 'Is your AC not cooling your place? Is the AC thermostat broken, or is the fan making strange noises? Give us a call.',
       buyLink: 'https://api.whatsapp.com/send?phone=+971507464712&text=AC%20Call-Out',
@@ -60,7 +60,7 @@ const PriceCard = () => {
           ],
         },
         { paragraph: '**Excluded:** <br> Cost for any repair work, procurement cost, cost of any new parts and installation, if required.' },
-        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 195 callout fee applies based on the type, capacity of the unit, and location for each diagnosis.' },
+        { paragraph: '**Terms & Conditions:** <br> *Starting from AED 215 callout fee applies based on the type, capacity of the unit, and location for each diagnosis.' },
       ],
     },
     {

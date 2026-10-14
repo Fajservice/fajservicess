@@ -715,7 +715,7 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <div className="container">
             <DaiganosisCharges
               appliancebrand="LG Appliance"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             <h3>We specialize in LG appliance services of the following types</h3>
             <div className="row">

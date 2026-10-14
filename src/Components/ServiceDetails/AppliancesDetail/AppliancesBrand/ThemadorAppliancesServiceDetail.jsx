@@ -581,7 +581,7 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <div className="container">
             <DaiganosisCharges
               appliancebrand="Thermador Appliance"
-              feeRange="ranging from AED 157 to 280"
+              feeRange="ranging from AED 173 to 280"
             />
             <h3 className="cs_fs_28">We specialize in Thermador  appliance services of the following types</h3>
             <div className="row">
